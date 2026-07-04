@@ -187,7 +187,8 @@ function boot(){
       + '<ul>' + pts.map(function(p){
           var t = (typeof p === 'string') ? p : (p.t||'');
           var url = (p && typeof p === 'object') ? (p.url||'') : '';
-          var jump = url ? '<a class="dj" href="'+url+'" target="_blank" rel="noopener" title="跳转原文" style="color:'+ac+'">↗</a>' : '';
+          var su = safeUrl(url);
+          var jump = su ? '<a class="dj" href="'+su+'" target="_blank" rel="noopener" title="跳转原文" style="color:'+ac+'">↗</a>' : '';
           return '<li><span class="b" style="background:'+ac+'"></span><span class="pt">'+esc(t)+'</span>'+jump+'</li>';
         }).join('') + '</ul></div>'
     ) : '';
@@ -197,8 +198,9 @@ function boot(){
       var hasZh = it.zh && it.zh.trim();
       var primary = esc(hasZh ? it.zh : it.title);
       var secondary = hasZh ? esc(it.title) : esc(it.summary||'');
-      var link = it.url ? '<a class="rt" href="'+it.url+'" target="_blank" rel="noopener">'+primary+'</a>'
-                        : '<span class="rt">'+primary+'</span>';
+      var su = safeUrl(it.url);
+      var link = su ? '<a class="rt" href="'+su+'" target="_blank" rel="noopener">'+primary+'</a>'
+                    : '<span class="rt">'+primary+'</span>';
       return '<div class="row" onmouseover="this.style.borderColor=\''+hexA(ac,0.45)+'\'" onmouseout="this.style.borderColor=\'\'">'
         + '<span class="rdot" style="background:'+ac+'"></span>'
         + '<div class="rbody">' + link
@@ -214,6 +216,8 @@ function boot(){
     board.innerHTML = digest + '<div class="list">' + rows + '</div>';
   }
   function esc(s){return (s||'').replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+  // 外链来自 RSS <link>(源方可控):只放行 http(s) 并转义,防属性逃逸 XSS 和 javascript: 伪协议
+  function safeUrl(u){u=(''+(u||'')).trim();return /^https?:\/\//i.test(u)?esc(u):'';}
 
   if(active) setActive(active);
 

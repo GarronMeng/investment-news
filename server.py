@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """server.py —— 本地看板服务 + 刷新接口(纯标准库)。
 - 静态服务整个 investment-news 目录(看板、data、脚本)
-- POST/GET /api/refresh → 跑 scripts/fetch.py(抓取+红线+最近N天) 再跑 scripts/digest.py
+- POST /api/refresh → 跑 scripts/fetch.py(抓取+红线+最近N天) 再跑 scripts/digest.py
   (用 llm.config.json 配的大模型出「今日要点」+翻译),完成后返回 JSON。前端按钮转圈等它。
 跑法: python3 server.py [port]   默认 8793
 """
@@ -48,7 +48,6 @@ class Handler(SimpleHTTPRequestHandler):
         self.send_response(code)
         self.send_header("Content-Type", "application/json; charset=utf-8")
         self.send_header("Content-Length", str(len(body)))
-        self.send_header("Access-Control-Allow-Origin", "*")
         self.end_headers()
         self.wfile.write(body)
 
@@ -58,11 +57,12 @@ class Handler(SimpleHTTPRequestHandler):
         self.send_error(404)
 
     def do_GET(self):
-        if self.path.startswith("/api/refresh"):
-            return self._refresh()
+        # /api/refresh 只走 POST:GET 会跑 fetch.py+claude 子进程,若可 GET 触发则易被
+        # <img>/跳转做 CSRF。这里让它落到静态处理(404),仅 do_POST 才真正刷新。
         return super().do_GET()
 
 
 if __name__ == "__main__":
     print("看板服务已启动: http://localhost:%d/index.html   (Ctrl+C 停止)" % PORT)
-    ThreadingHTTPServer(("", PORT), Handler).serve_forever()
+    # 只绑回环:看板+/api/refresh 会跑本机子进程(fetch.py/claude),绝不能对局域网开放。
+    ThreadingHTTPServer(("127.0.0.1", PORT), Handler).serve_forever()
