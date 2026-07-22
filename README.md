@@ -30,7 +30,7 @@
 ## 一次性部署设置
 
 1. 打开仓库 `Settings → Pages`，将 Source 设为 `GitHub Actions`。
-2. 打开 `Actions → Update A-share Signals → Run workflow`，手动验证一次新闻抓取。
+2. 打开 `Actions → Update A-share News → Run workflow`，手动验证一次新闻抓取。
 3. ChatGPT 网页版按 [`CHATGPT_SIGNAL_PROMPT.md`](CHATGPT_SIGNAL_PROMPT.md) 读取最新数据，并将结构化研判写入 [`ai-signals.js`](ai-signals.js)。
 
 无需在公开仓库配置模型 API Key。
@@ -49,7 +49,7 @@ data.js + ai-signals.js
 GitHub Pages
 ```
 
-`Update A-share Signals` 支持定时和手动运行，只更新 `data.js`。ChatGPT 网页版独立更新 `ai-signals.js`；两类更新都会触发 Pages 部署，且互不覆盖。
+`Update A-share News` 支持定时和手动运行，只更新 `data.js`。ChatGPT 网页版独立更新 `ai-signals.js`；两类更新都会触发 Pages 部署，且互不覆盖。
 
 ## 本地验证
 
@@ -58,7 +58,9 @@ python scripts/fetch.py
 python server.py
 ```
 
-浏览器打开 <http://localhost:8793>。## 系统边界
+浏览器打开 <http://localhost:8793>。
+
+## 系统边界
 
 - 当前未接入实时行情，`priced_in` 通常为 `unknown`，需要结合价格、成交量和板块联动验证。
 - 当前未接入证券账户或交易接口，不会自动下单。
