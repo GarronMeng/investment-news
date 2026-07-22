@@ -16,6 +16,8 @@ jobs:
   update:
     runs-on: ubuntu-latest
     timeout-minutes: 35
+    env:
+      LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -29,10 +31,12 @@ jobs:
         run: python scripts/fetch.py
 
       - name: Generate A-share signals
-        if: ${{ secrets.LLM_API_KEY != '' }}
-        env:
-          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+        if: ${{ env.LLM_API_KEY != '' }}
         run: python scripts/digest.py
+
+      - name: Explain AI fallback
+        if: ${{ env.LLM_API_KEY == '' }}
+        run: echo "LLM_API_KEY is not configured; publishing current news and watchlist radar without AI signals."
 
       - name: Validate output
         run: |

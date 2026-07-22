@@ -126,9 +126,31 @@ def deduplicate(items):
     return output
 
 
+def build_watchlist(industries, watchlist):
+    """Keep the personalized radar useful even when no LLM key is configured."""
+    corpora = {
+        industry["key"]: " ".join(
+            (item.get("title", "") + " " + item.get("summary", "")).lower()
+            for item in industry.get("items", [])
+        )
+        for industry in industries
+    }
+    output = []
+    for asset in watchlist.get("assets", []):
+        relevant = " ".join(corpora.get(key, "") for key in asset.get("industries", []))
+        row = dict(asset)
+        row["news_hits"] = sum(
+            1 for keyword in asset.get("keywords", [])
+            if keyword.lower() in relevant
+        )
+        output.append(row)
+    return sorted(output, key=lambda row: (-row.get("news_hits", 0), -row.get("priority", 0)))
+
+
 def main():
     global CUTOFF, REDLINE, PER_SOURCE, TIMEOUT
     cfg = json.load(open(os.path.join(ROOT, "sources.json"), encoding="utf-8"))
+    watchlist = json.load(open(os.path.join(ROOT, "watchlist.json"), encoding="utf-8"))
     fetch_cfg = cfg.get("fetch", {})
     days = int(fetch_cfg.get("recent_days", 3))
     PER_SOURCE = int(fetch_cfg.get("per_source", 8))
@@ -170,7 +192,10 @@ def main():
         "recent_days": days,
         "industries": industries,
         "signals": [],
-        "watchlist": [],
+        "watchlist": build_watchlist(industries, watchlist),
+        "profile": watchlist.get("profile", {}),
+        "decision_rules": watchlist.get("decision_rules", {}),
+        "has_ai": False,
         "stats": {
             "industries": len(industries),
             "total_sources": len(cfg["sources"]),
