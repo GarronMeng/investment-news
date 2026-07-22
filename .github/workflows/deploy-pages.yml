@@ -6,6 +6,7 @@ on:
     paths:
       - index.html
       - data.js
+      - ai-signals.js
       - .nojekyll
       - .github/workflows/deploy-pages.yml
   workflow_run:
@@ -39,7 +40,7 @@ jobs:
       - name: Prepare static site
         run: |
           mkdir public
-          cp index.html data.js .nojekyll public/
+          cp index.html data.js ai-signals.js .nojekyll public/
 
       - name: Configure Pages
         uses: actions/configure-pages@v6
