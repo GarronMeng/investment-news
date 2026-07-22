@@ -10,8 +10,8 @@
 
 - 工作日北京时间约 08:40 自动抓取 100+ 个公开 RSS / Atom 信息源。
 - 对 URL 与标题进行规范化去重，保留来源和原文链接。
-- 将全球产业事件映射到自选 A 股标的，输出方向、强度、作用周期、市场验证条件和失效条件。
-- 无模型 API Key 时仍更新原始新闻、自选雷达和关键词命中。
+- GitHub Actions 负责抓取新闻；ChatGPT 网页版负责把产业事件映射到自选 A 股标的，输出方向、强度、作用周期、市场验证条件和失效条件。
+- 不需要模型 API Key；原始新闻更新与 AI 研判相互独立。
 - 通过 GitHub Pages 发布响应式网页，手机与电脑均可访问。
 
 ## 个性化范围
@@ -30,24 +30,26 @@
 ## 一次性部署设置
 
 1. 打开仓库 `Settings → Pages`，将 Source 设为 `GitHub Actions`。
-2. 如需 AI 信号，打开 `Settings → Secrets and variables → Actions`，新建 Secret：`LLM_API_KEY`。
-3. 打开 `Actions → Update A-share Signals → Run workflow`，手动验证一次。
+2. 打开 `Actions → Update A-share Signals → Run workflow`，手动验证一次新闻抓取。
+3. ChatGPT 网页版按 [`CHATGPT_SIGNAL_PROMPT.md`](CHATGPT_SIGNAL_PROMPT.md) 读取最新数据，并将结构化研判写入 [`ai-signals.js`](ai-signals.js)。
 
-Secret 默认用于 DeepSeek OpenAI 兼容接口，模型配置见 [`llm.config.json`](llm.config.json)。API Key 只在 Actions 运行环境中读取，不会写入页面、日志或仓库。
+无需在公开仓库配置模型 API Key。
 
 ## 自动化闭环
 
 ```text
 sources.json
   ↓ scripts/fetch.py：抓取、时效过滤、去重、自选关键词命中
-data.js
-  ↓ scripts/digest.py：可选的 AI 结构化产业信号
-data.js
+data.js ───────────────┐
+                       ↓ ChatGPT 网页版：结构化产业信号
+watchlist.json ────────┘
+                       ↓ ai-signals.js
+data.js + ai-signals.js
   ↓ deploy-pages.yml
 GitHub Pages
 ```
 
-`Update A-share Signals` 支持定时和手动运行。更新成功后会提交最新 `data.js`，随后触发 Pages 部署。
+`Update A-share Signals` 支持定时和手动运行，只更新 `data.js`。ChatGPT 网页版独立更新 `ai-signals.js`；两类更新都会触发 Pages 部署，且互不覆盖。
 
 ## 本地验证
 
@@ -56,13 +58,7 @@ python scripts/fetch.py
 python server.py
 ```
 
-浏览器打开 <http://localhost:8793>。若环境变量中已有 `LLM_API_KEY`，可再运行：
-
-```bash
-python scripts/digest.py
-```
-
-## 系统边界
+浏览器打开 <http://localhost:8793>。## 系统边界
 
 - 当前未接入实时行情，`priced_in` 通常为 `unknown`，需要结合价格、成交量和板块联动验证。
 - 当前未接入证券账户或交易接口，不会自动下单。
