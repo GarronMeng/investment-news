@@ -1,0 +1,61 @@
+name: Update A-share Signals
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "40 0 * * 1-5"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: investment-news-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    env:
+      LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Fetch public news
+        run: python scripts/fetch.py
+
+      - name: Generate A-share signals
+        if: ${{ env.LLM_API_KEY != '' }}
+        run: python scripts/digest.py
+
+      - name: Explain AI fallback
+        if: ${{ env.LLM_API_KEY == '' }}
+        run: echo "LLM_API_KEY is not configured; publishing current news and watchlist radar without AI signals."
+
+      - name: Validate output
+        run: |
+          test -s data.js
+          grep -q "window.DATA" data.js
+          python - <<'PY'
+          import json
+          text = open('data.js', encoding='utf-8').read()
+          data = json.loads(text[text.index('{'):text.rindex('}')+1])
+          assert data.get('industries')
+          assert data.get('generated_at')
+          print('validated', data['generated_at'], len(data['industries']))
+          PY
+
+      - name: Commit generated data
+        run: |
+          git config user.name "investment-news-bot"
+          git config user.email "investment-news-bot@users.noreply.github.com"
+          git add data.js
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: refresh A-share signals"
+          git push
