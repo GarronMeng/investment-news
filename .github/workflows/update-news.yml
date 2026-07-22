@@ -1,4 +1,4 @@
-name: Update A-share Signals
+name: Update A-share News
 
 on:
   workflow_dispatch:
@@ -9,7 +9,6 @@ on:
     paths:
       - sources.json
       - watchlist.json
-      - llm.config.json
       - scripts/**
       - .github/workflows/update-news.yml
 
@@ -56,5 +55,5 @@ jobs:
           git config user.email "investment-news-bot@users.noreply.github.com"
           git add data.js
           git diff --cached --quiet && exit 0
-          git commit -m "chore: refresh A-share signals"
+          git commit -m "chore: refresh A-share news"
           git push
