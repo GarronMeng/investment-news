@@ -18,7 +18,7 @@
   <section class="stats" id="stats"></section>
   <div class="grid">
     <main>
-      <section class="panel"><h2>今日关键信号</h2><div id="signals"></div><div class="notice">强度衡量事件对关注产业链的潜在影响。缺少实时行情时，“是否已交易”默认标记为未知，必须结合价格、成交量和板块联动验证。</div></section>
+      <section class="panel"><h2>今日关键信号</h2><div id="signals"></div><div class="notice" id="ai-status">AI 信号由 ChatGPT 网页版独立生成。强度只衡量产业事件的潜在影响；仍需结合价格、成交量和板块联动验证。</div></section>
       <section class="panel"><h2>行业新闻证据</h2><div class="tabs" id="tabs"></div><div class="news" id="news"></div></section>
     </main>
     <aside>
@@ -31,19 +31,21 @@
 function esc(v){return String(v||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
 function safe(u){return /^https?:\/\//i.test(String(u||''))?esc(u):''}
 function render(){
- const D=window.DATA||{};const inds=D.industries||[];const signals=D.signals||[];const watch=D.watchlist||[];const st=D.stats||{};
- document.getElementById('stats').innerHTML=[['更新时间',D.generated_at||'—'],['关键信号',signals.length],['去重新闻',st.unique_items||0],['失败来源',st.failed_sources||0]].map(x=>`<div class="stat"><b>${esc(x[1])}</b><span>${esc(x[0])}</span></div>`).join('');
+ const D=window.DATA||{};const A=window.AI_SIGNALS||{};const inds=D.industries||[];const signals=A.signals||[];const watch=D.watchlist||[];const st=D.stats||{};
+ document.getElementById('stats').innerHTML=[['新闻更新',D.generated_at||'—'],['AI信号',signals.length],['去重新闻',st.unique_items||0],['AI更新',A.generated_at||'待运行']].map(x=>`<div class="stat"><b>${esc(x[1])}</b><span>${esc(x[0])}</span></div>`).join('');
  document.getElementById('signals').innerHTML=signals.length?signals.map((s,i)=>{
    const assets=(s.assets||[]).map(code=>{const a=watch.find(x=>x.code===code);return `<span class="chip">${esc(a?a.name:code)}</span>`}).join('');
    const refs=(s.urls||[]).map((u,j)=>safe(u)?`<a href="${safe(u)}" target="_blank" rel="noopener">证据${j+1} ↗</a>`:'').join('');
    return `<article class="signal"><div class="signal-head"><div class="event">${esc(s.event)}</div><span class="badge ${esc(s.direction)}">${esc(s.direction)} · ${esc(s.strength)}/5</span></div><div class="meta"><span class="chip">${esc(s.industry_name)}</span><span class="chip">周期 ${esc(s.horizon)}</span><span class="chip">已交易 ${esc(s.priced_in)}</span>${assets}</div><div class="reason">${esc(s.reason)}</div><div class="conditions"><div class="condition"><b>验证</b><br>${(s.validation||['待价格与成交量确认']).map(esc).join('<br>')}</div><div class="condition bad"><b>失效</b><br>${(s.invalidation||['暂无明确失效条件']).map(esc).join('<br>')}</div></div><div class="links">${refs}</div></article>`
- }).join(''):'<div class="empty">暂无AI信号。请配置仓库 Secret：LLM_API_KEY 后运行工作流；原始新闻仍可正常更新。</div>';
+ }).join(''):'<div class="empty">ChatGPT 网页版尚未生成有效信号；原始新闻与自选雷达仍会正常更新。</div>';
  document.getElementById('watch').innerHTML=watch.map(a=>`<div class="asset"><div class="asset-top"><div><span class="asset-name">${esc(a.name)}</span> <span class="asset-code">${esc(a.code)}</span></div><span class="hits">${esc(a.news_hits||0)} 命中</span></div><div class="small">${esc(a.thesis||'')}</div></div>`).join('');
+ const status=document.getElementById('ai-status');if(A.source_generated_at&&D.generated_at&&A.source_generated_at!==D.generated_at){status.textContent='AI 信号基于 '+A.source_generated_at+' 的新闻，当前新闻已更新至 '+D.generated_at+'；等待 ChatGPT 网页版下一次研判。'}
  const tabs=document.getElementById('tabs'),news=document.getElementById('news');
  function show(ind){document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x.dataset.key===ind.key));news.innerHTML=(ind.items||[]).slice(0,24).map(it=>`<div class="news-row"><div><a href="${safe(it.url)}" target="_blank" rel="noopener">${esc(it.zh||it.title)}</a><div class="source">${esc(it.source)} · ${esc(it.time)}</div></div></div>`).join('')||'<div class="empty">暂无新闻</div>'}
  tabs.innerHTML=inds.map((ind,i)=>`<button class="tab ${i?'':'active'}" data-key="${esc(ind.key)}">${esc(ind.name)}</button>`).join('');tabs.querySelectorAll('.tab').forEach(btn=>btn.onclick=()=>show(inds.find(x=>x.key===btn.dataset.key)));if(inds[0])show(inds[0]);
 }
-const s=document.createElement('script');s.src='data.js?t='+Date.now();s.onload=render;s.onerror=()=>document.body.innerHTML='<div class="shell"><div class="empty">data.js 加载失败</div></div>';document.head.appendChild(s);
+function loadSignals(){const a=document.createElement('script');a.src='ai-signals.js?t='+Date.now();a.onload=render;a.onerror=render;document.head.appendChild(a)}
+const s=document.createElement('script');s.src='data.js?t='+Date.now();s.onload=loadSignals;s.onerror=()=>document.body.innerHTML='<div class="shell"><div class="empty">data.js 加载失败</div></div>';document.head.appendChild(s);
 </script>
 </body>
 </html>
