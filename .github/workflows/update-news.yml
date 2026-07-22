@@ -4,6 +4,14 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "40 0 * * 1-5"
+  push:
+    branches: [main]
+    paths:
+      - sources.json
+      - watchlist.json
+      - llm.config.json
+      - scripts/**
+      - .github/workflows/update-news.yml
 
 permissions:
   contents: write
