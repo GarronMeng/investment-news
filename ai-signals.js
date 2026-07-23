@@ -1,6 +1,6 @@
 // 由 ChatGPT 网页版生成；新闻抓取工作流不会覆盖本文件。
 window.AI_SIGNALS = {
-  "generated_at": "2026-07-23 10:30",
+  "generated_at": "2026-07-23 09:30",
   "source_generated_at": "2026-07-22 14:42",
   "generated_by": "ChatGPT Web",
   "status": "ready",
