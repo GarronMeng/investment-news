@@ -4,6 +4,47 @@ window.AI_SIGNALS = {
   "source_generated_at": "2026-07-22 14:42",
   "generated_by": "ChatGPT Web",
   "status": "ready",
+  "overseas_markets": [
+    {
+      "market": "美股",
+      "flag": "🇺🇸",
+      "session": "7月22日隔夜收盘",
+      "updated_at": "2026-07-23 09:15",
+      "status": "mixed",
+      "status_label": "结构分化",
+      "move": "标普 -0.14%｜纳指 -0.57%｜费城半导体 +0.4%",
+      "driver": "服务器硬件受订单与业绩预期推动明显走强，但科技指数整体偏弱，AI需求验证与成长估值压力并存。",
+      "a_share_links": ["CPO", "PCB", "AI服务器"],
+      "validation": "观察中际旭创、东山精密能否相对创业板与行业指数转强。",
+      "sources": ["https://www.reuters.com/legal/transactional/wall-st-futures-edge-lower-caution-builds-ahead-big-tech-earnings-2026-07-22/"]
+    },
+    {
+      "market": "日股",
+      "flag": "🇯🇵",
+      "session": "7月23日早盘",
+      "updated_at": "2026-07-23 09:15",
+      "status": "pending",
+      "status_label": "待验证",
+      "move": "开盘精确表现尚未获得可靠交叉验证",
+      "driver": "重点观察东京电子、爱德万测试等设备测试链，以及被动元件板块对全球半导体风险偏好的反馈。",
+      "a_share_links": ["半导体设备", "测试设备", "被动元件"],
+      "validation": "补充日经、东证及设备龙头涨跌后，再判断是否映射太极实业、风华高科。",
+      "sources": []
+    },
+    {
+      "market": "韩股",
+      "flag": "🇰🇷",
+      "session": "7月23日早盘",
+      "updated_at": "2026-07-23 09:15",
+      "status": "pending",
+      "status_label": "待验证",
+      "move": "开盘精确表现尚未获得可靠交叉验证",
+      "driver": "三星电子与SK海力士是存储价格、HBM需求及风险偏好的高频外围锚点。",
+      "a_share_links": ["存储芯片", "HBM", "封测"],
+      "validation": "补充三星电子、SK海力士相对KOSPI表现，并与兆易创新、德明利开盘强弱交叉验证。",
+      "sources": []
+    }
+  ],
   "signals": [
     {
       "event": "A股科技修复未能延续，存储、CPO与半导体重新分化",
