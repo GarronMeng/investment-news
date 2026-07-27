@@ -1,87 +1,115 @@
 // 由 ChatGPT 网页版生成；新闻抓取工作流不会覆盖本文件。
 window.AI_SIGNALS = {
-  "generated_at": "2026-07-26 09:09",
-  "source_generated_at": "2026-07-25 17:14",
+  "generated_at": "2026-07-27 09:16",
+  "source_generated_at": "2026-07-27 09:09",
   "generated_by": "ChatGPT Web",
   "status": "ready",
   "overseas_markets": [
     {
       "market": "美股",
       "flag": "🇺🇸",
-      "session": "7月24日收盘；周末休市",
-      "updated_at": "2026-07-26 09:09 CST",
+      "session": "7月24日收盘；7月27日亚洲时段期货",
+      "updated_at": "2026-07-27 09:16 CST",
       "status": "mixed",
-      "status_label": "指数企稳、科技仍弱",
-      "move": "标普 +0.05%｜道指 +0.46%｜纳指 -0.64%；本周标普 -0.6%、道指 -0.4%、纳指 -2.1%",
-      "driver": "油价从100美元上方回落使大盘企稳，但芯片与AI资本开支回报担忧继续压制纳指；下周FOMC和微软、Meta、Amazon、Apple财报将重新定价AI需求与利率。",
+      "status_label": "现货科技偏弱、期货修复",
+      "move": "周五标普 +0.05%｜道指 +0.46%｜纳指 -0.64%；今早标普500期货约 +0.8%、纳指期货约 +1.3%",
+      "driver": "海湾局势暂缓令油价大跌、通胀担忧降温，美债收益率回落，股指期货修复；但周五美光、闪迪及多只AI硬件股明显下跌，本周FOMC和大型科技财报仍是关键验证。",
       "a_share_links": [
         "CPO",
         "PCB",
         "AI服务器",
         "成长估值"
       ],
-      "validation": "周一先看美股股指期货、油价和美债收益率；随后关注云厂商资本开支、数据中心部署与AI收入指引。",
+      "validation": "A股开盘后观察中际旭创、东山精密能否同步股指期货修复；随后关注微软、Meta、Amazon、Apple资本开支和FOMC利率信号。",
       "sources": [
-        "https://www.reuters.com/world/china/global-markets-global-markets-2026-07-24/",
-        "https://apnews.com/article/02d01b8f38ccd51f605c4414cdd4fa9b",
-        "https://www.reuters.com/business/wall-st-week-ahead-us-stocks-face-tests-fed-decision-tech-led-earnings-deluge-2026-07-24/"
+        "https://www.investing.com/news/stock-market-news/shares-bonds-bounce-as-oil-skid-offers-inflation-relief-4812933",
+        "https://www.reuters.com/business/wall-st-week-ahead-us-stocks-face-tests-fed-decision-tech-led-earnings-deluge-2026-07-24/",
+        "https://www.wsj.com/market-data/quotes/index/US/COMP"
       ]
     },
     {
       "market": "日股",
       "flag": "🇯🇵",
-      "session": "7月24日收盘；周末休市",
-      "updated_at": "2026-07-24 15:00 JST",
-      "status": "negative",
-      "status_label": "半导体拖累",
-      "move": "开盘65,584.25，前收66,422.60，跳空-1.26%；收报64,611.15（-2.73%）",
-      "driver": "AI资本开支回报担忧打击半导体权重，Advantest、东京电子、软银和铠侠显著下跌；日经7月累计回撤接近8%，进入技术性调整区间。",
+      "session": "7月27日早盘",
+      "updated_at": "2026-07-27 10:14 JST",
+      "status": "mixed",
+      "status_label": "高开后转跌",
+      "move": "开盘65,164.98，前收64,611.15，跳空 +0.86%；10:14报64,181.90（-0.66%）",
+      "driver": "油价和收益率回落带来高开，但日经随后跌破前收，显示半导体与AI资本开支担忧尚未消退；早盘高低点波动超过1000点。",
       "a_share_links": [
         "半导体设备",
         "存储芯片",
         "被动元件",
         "电子材料"
       ],
-      "validation": "周一观察铠侠、东京电子与Advantest能否相对日经止跌，并比较A股存储、太极实业和风华高科的开盘反馈。",
+      "validation": "午前观察铠侠、东京电子、Advantest能否止跌，并比较兆易创新、德明利、太极实业与风华高科的A股开盘反馈。",
       "sources": [
-        "https://www.reuters.com/world/asia-pacific/japans-nikkei-falls-more-than-2-ai-spending-worries-2026-07-24/",
         "https://indexes.nikkei.co.jp/en/nkave/index/profile",
-        "https://www.wsj.com/market-data/quotes/index/JP/NIK/historical-prices"
+        "https://www.wsj.com/market-data/quotes/index/JP/NIK/historical-prices",
+        "https://www.jpx.co.jp/english/markets/indices/realvalues/01.html"
       ]
     },
     {
       "market": "韩股",
       "flag": "🇰🇷",
-      "session": "7月24日收盘；周末休市",
-      "updated_at": "2026-07-26 09:09 CST",
-      "status": "mixed",
-      "status_label": "暴跌后迎来HBM催化",
-      "move": "开盘7,000.78，前收7,096.89，跳空-1.35%；收报6,690.62（-5.72%）",
-      "driver": "周五芯片权重推动KOSPI大跌；周末韩国宣布SK海力士与英伟达、三星与博通的AI/HBM、存储、先进封装及数据中心合作，形成周一正面基本面催化但高波动风险仍在。",
+      "session": "7月27日早盘",
+      "updated_at": "2026-07-27 09:44 KST",
+      "status": "positive",
+      "status_label": "高开、涨幅收窄",
+      "move": "开盘6,806.27，前收6,690.62，跳空 +1.73%；09:44报6,725.17（+0.52%）",
+      "driver": "周末三星、SK海力士与美国科技公司的AI/HBM合作带来开盘修复，但指数较开盘明显回落，表明长期产业催化与短线筹码压力并存。",
       "a_share_links": [
         "存储芯片",
         "HBM",
         "封测",
         "AI服务器"
       ],
-      "validation": "周一核验三星电子、SK海力士能否放量修复，以及兆易创新、德明利、太极实业和AI硬件链是否出现同步承接。",
+      "validation": "继续核验三星电子、SK海力士的成交和相对强度；A股开盘后观察兆易创新、德明利、太极实业及AI硬件链是否同步承接。",
       "sources": [
         "https://data.krx.co.kr/",
-        "https://en.sedaily.com/finance/2026/07/24/kospi-closes-down-40627-points-at-669062",
-        "https://www.reuters.com/business/media-telecom/south-korea-president-lee-looking-open-new-era-ai-with-global-tech-companies-2026-07-25/"
+        "https://www.wsj.com/market-data/quotes/index/KR/SEU/historical-prices",
+        "https://www.investing.com/indices/kospi"
       ]
     }
   ],
   "signals": [
     {
-      "event": "韩国公布三星、SK与美国科技公司的AI、HBM和数据中心合作",
+      "event": "长鑫科技今日登陆科创板，国产DRAM进入直接市场定价窗口",
       "industry": "semi",
       "industry_name": "半导体",
-      "direction": "positive",
+      "direction": "mixed",
       "strength": 5,
-      "horizon": "1-3m",
+      "horizon": "intraday",
       "priced_in": "unknown",
-      "reason": "韩国方面宣布SK集团约7500亿美元合作，其中SK海力士与英伟达涉及约5000亿美元HBM和数据中心项目；三星与博通签署约2000亿美元AI加速器、存储、晶圆代工和先进封装合作，并规划2GW AI数据中心。该消息发生在KOSPI周五下跌5.72%之后，对存储、HBM、封测、高速互联和PCB形成新增需求证据，周一价格反馈待验证。",
+      "reason": "长鑫科技7月27日以8.66元发行价上市，募资57.92亿元（超额配售全额行使前），是今年亚洲最大IPO。上市提高国产DRAM的资本市场可见度，并为产线、研发和供应链扩张提供资金；同时其首日估值、成交规模和资金分流会直接影响存储链比价。A股尚未开盘，价格反馈待验证。",
+      "assets": [
+        "603986",
+        "001309",
+        "600667"
+      ],
+      "validation": [
+        "长鑫科技首日成交活跃且价格保持相对稳定，兆易创新、德明利、太极实业相对半导体指数获得承接",
+        "后续募投项目形成明确设备、材料、封测或工程订单"
+      ],
+      "invalidation": [
+        "上市首日高开后快速回落并拖累存储链风险偏好",
+        "募投项目进度或行业价格周期明显低于预期"
+      ],
+      "urls": [
+        "https://www.reuters.com/world/asia-pacific/chinese-chipmaker-cxmt-list-shanghai-july-27-after-asias-biggest-ipo-this-year-2026-07-23/",
+        "https://www.stcn.com/article/detail/4038311.html",
+        "https://www.thepaper.cn/newsDetail_forward_33645240"
+      ]
+    },
+    {
+      "event": "韩国AI/HBM合作获得开盘承接，但KOSPI涨幅快速收窄",
+      "industry": "semi",
+      "industry_name": "半导体",
+      "direction": "mixed",
+      "strength": 4,
+      "horizon": "1-5d",
+      "priced_in": "low",
+      "reason": "KOSPI在周五大跌5.72%后，受三星、SK海力士AI/HBM合作催化高开1.73%，但09:44涨幅已收窄至0.52%。这验证了产业消息的正面方向，也显示高波动和筹码压力尚未解除；对A股存储、封测、CPO和PCB的映射需要开盘后确认。",
       "assets": [
         "603986",
         "001309",
@@ -90,74 +118,44 @@ window.AI_SIGNALS = {
         "002384"
       ],
       "validation": [
-        "三星电子、SK海力士周一放量修复，A股存储、封测、CPO和PCB同步转强",
-        "后续披露可执行订单、建设周期、资本开支和供货份额"
+        "三星电子、SK海力士午前维持相对强势，KOSPI不再跌破前收",
+        "A股存储、封测、CPO和PCB相对各自指数转强"
       ],
       "invalidation": [
-        "合作仅停留在框架或备忘录层面，金额与执行节奏明显下修",
-        "韩股芯片权重继续下跌且A股相关链条对消息无承接"
+        "KOSPI重新转跌且芯片权重继续领跌",
+        "合作金额或执行节奏在正式文件中明显下修"
       ],
       "urls": [
         "https://www.reuters.com/business/media-telecom/south-korea-president-lee-looking-open-new-era-ai-with-global-tech-companies-2026-07-25/",
-        "https://www.reuters.com/world/asia-pacific/samsung-sk-hynix-announce-major-chip-deals-with-us-tech-companies-seoul-says-2026-07-24/",
-        "https://www.reuters.com/business/energy/power-water-needs-test-south-koreas-push-build-ai-chip-hub-beyond-seoul-2026-07-21/"
+        "https://www.wsj.com/market-data/quotes/index/KR/SEU/historical-prices",
+        "https://www.investing.com/indices/kospi"
       ]
     },
     {
-      "event": "Apple与Micron围绕中国存储供应商展开政策博弈",
-      "industry": "semi",
-      "industry_name": "半导体",
+      "event": "海湾局势暂缓推动油价大跌，黄金白银与科技估值同步重定价",
+      "industry": "macro",
+      "industry_name": "宏观 / 商品",
       "direction": "mixed",
       "strength": 4,
-      "horizon": "1-4w",
-      "priced_in": "unknown",
-      "reason": "Apple希望获准在非美国市场使用长鑫存储和长江存储产品，以缓解存储短缺与成本上涨；Micron则从产业安全和美国本土制造角度反对。事件同时强化中国存储产品的成本竞争力与全球客户需求，也带来美国审批、制裁和供应链准入不确定性。",
-      "assets": [
-        "603986",
-        "001309",
-        "600667"
-      ],
-      "validation": [
-        "美国政府明确审批范围，或Apple、供应商披露实际采购与认证进展",
-        "存储价格、国产存储板块及兆易创新、德明利相对半导体指数转强"
-      ],
-      "invalidation": [
-        "审批被明确否决或限制扩大至更多中国存储产品",
-        "全球存储供需转松、价格回落削弱成本驱动"
-      ],
-      "urls": [
-        "https://www.wsj.com/tech/trump-apple-micron-china-chips-784bbd3d",
-        "https://www.reuters.com/commentary/breakingviews/apples-china-plea-signals-low-tech-chip-upheaval-2026-07-15/",
-        "https://www.reuters.com/world/asia-pacific/apple-seeks-approval-buy-chips-blacklisted-chinese-company-ft-reports-2026-06-27/"
-      ]
-    },
-    {
-      "event": "FOMC与大型科技公司财报构成下周AI资本开支集中验证窗口",
-      "industry": "ai",
-      "industry_name": "AI / 大模型",
-      "direction": "mixed",
-      "strength": 5,
       "horizon": "1-5d",
-      "priced_in": "unknown",
-      "reason": "美联储7月28至29日议息，市场主要预期维持利率但油价、关税和通胀令鹰派风险上升；微软和Meta于7月29日、Amazon与Apple于7月30日披露业绩。云资本开支、AI收入、数据中心建设及利率路径将共同影响CPO、PCB和高估值科技定价。",
+      "priced_in": "medium",
+      "reason": "今早布伦特和WTI一度下跌约5%，10年期美债收益率回落约4个基点至4.63%，美元走弱；黄金上涨约1.4%、白银期货上涨约2%。油价回落减轻通胀和加息压力，支持高估值科技修复并利于黄金，但国投白银LOF截至7月24日仍有约14.21%场内溢价，基金价格不能只按银价判断。",
       "assets": [
         "300308",
-        "002384",
-        "603986",
-        "001309"
+        "002384"
       ],
       "validation": [
-        "微软、Meta、Amazon继续上调或维持AI资本开支，且给出数据中心、高速互联或服务器需求证据",
-        "FOMC未释放超预期鹰派信号，美债收益率与美元未进一步上冲"
+        "布伦特维持在100美元下方、美债收益率不再上冲，A股成长风格获得承接",
+        "国投白银LOF场内价格、净值和溢价在开盘后同步核验"
       ],
       "invalidation": [
-        "云厂商下修资本开支或AI回报指引，硬件订单出现延迟",
-        "美联储意外加息或明显强化近期加息预期"
+        "中东冲突重新升级并推动油价快速反弹",
+        "美联储释放超预期鹰派信号，美元与实际利率重新上行"
       ],
       "urls": [
-        "https://www.reuters.com/business/wall-st-week-ahead-us-stocks-face-tests-fed-decision-tech-led-earnings-deluge-2026-07-24/",
-        "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
-        "https://news.microsoft.com/source/2026/07/08/microsoft-announces-quarterly-earnings-release-date-68/"
+        "https://www.investing.com/news/stock-market-news/shares-bonds-bounce-as-oil-skid-offers-inflation-relief-4812933",
+        "https://www.haoetf.com/lof/161226",
+        "https://www.reuters.com/world/asia-pacific/iran-war-spreads-red-sea-caspian-gulf-quiet-us-forgoes-strikes-2026-07-25/"
       ]
     }
   ]
