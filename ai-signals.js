@@ -1,48 +1,48 @@
 // 由 ChatGPT 网页版生成；新闻抓取工作流不会覆盖本文件。
 window.AI_SIGNALS = {
-  "generated_at": "2026-07-27 09:16",
-  "source_generated_at": "2026-07-27 09:09",
+  "generated_at": "2026-07-28 09:03",
+  "source_generated_at": "2026-07-28 08:57",
   "generated_by": "ChatGPT Web",
   "status": "ready",
   "overseas_markets": [
     {
       "market": "美股",
       "flag": "🇺🇸",
-      "session": "7月24日收盘；7月27日亚洲时段期货",
-      "updated_at": "2026-07-27 09:16 CST",
-      "status": "mixed",
-      "status_label": "现货科技偏弱、期货修复",
-      "move": "周五标普 +0.05%｜道指 +0.46%｜纳指 -0.64%；今早标普500期货约 +0.8%、纳指期货约 +1.3%",
-      "driver": "海湾局势暂缓令油价大跌、通胀担忧降温，美债收益率回落，股指期货修复；但周五美光、闪迪及多只AI硬件股明显下跌，本周FOMC和大型科技财报仍是关键验证。",
+      "session": "7月27日收盘",
+      "updated_at": "2026-07-28 09:03 CST",
+      "status": "negative",
+      "status_label": "指数分化、芯片显著走弱",
+      "move": "标普500 +0.02%｜道指 +0.51%｜纳指 -0.18%｜费城半导体 -2.20%；英伟达跌近5%",
+      "driver": "长鑫科技首日暴涨强化全球存储竞争重估，叠加AI资本开支回报担忧，存储与芯片股集中下跌；油价大跌支撑大盘，但未能阻止半导体走弱。",
       "a_share_links": [
+        "存储芯片",
         "CPO",
         "PCB",
-        "AI服务器",
-        "成长估值"
+        "半导体设备"
       ],
-      "validation": "A股开盘后观察中际旭创、东山精密能否同步股指期货修复；随后关注微软、Meta、Amazon、Apple资本开支和FOMC利率信号。",
+      "validation": "A股开盘后观察兆易创新、德明利是否继续弱于半导体指数，以及中际旭创、东山精密能否与存储链分化。",
       "sources": [
-        "https://www.investing.com/news/stock-market-news/shares-bonds-bounce-as-oil-skid-offers-inflation-relief-4812933",
-        "https://www.reuters.com/business/wall-st-week-ahead-us-stocks-face-tests-fed-decision-tech-led-earnings-deluge-2026-07-24/",
-        "https://www.wsj.com/market-data/quotes/index/US/COMP"
+        "https://www.reuters.com/business/wall-st-futures-rise-us-iran-pause-hostilities-2026-07-27/",
+        "https://apnews.com/article/stock-market-oil-iran-dow-nvidia-2026",
+        "https://www.reuters.com/world/asia-pacific/china-memory-chipmaker-cxmt-set-shanghai-debut-after-asias-biggest-ipo-2026-07-26/"
       ]
     },
     {
       "market": "日股",
       "flag": "🇯🇵",
-      "session": "7月27日早盘",
-      "updated_at": "2026-07-27 10:14 JST",
-      "status": "mixed",
-      "status_label": "高开后转跌",
-      "move": "开盘65,164.98，前收64,611.15，跳空 +0.86%；10:14报64,181.90（-0.66%）",
-      "driver": "油价和收益率回落带来高开，但日经随后跌破前收，显示半导体与AI资本开支担忧尚未消退；早盘高低点波动超过1000点。",
+      "session": "7月28日早盘",
+      "updated_at": "2026-07-28 09:48 JST",
+      "status": "negative",
+      "status_label": "低开后加速下跌",
+      "move": "开盘64,539.92，前收64,931.19，跳空 -0.60%；09:48报62,253.24（-4.12%）",
+      "driver": "隔夜美国半导体和AI权重下跌向亚洲传导，Advantest等芯片权重领跌；日经开盘价由日经官方与WSJ交叉核验一致。",
       "a_share_links": [
         "半导体设备",
         "存储芯片",
         "被动元件",
         "电子材料"
       ],
-      "validation": "午前观察铠侠、东京电子、Advantest能否止跌，并比较兆易创新、德明利、太极实业与风华高科的A股开盘反馈。",
+      "validation": "午前观察日经能否收复开盘价，以及Advantest、东京电子、铠侠是否止跌；A股重点比较太极实业、风华高科与各自行业指数。",
       "sources": [
         "https://indexes.nikkei.co.jp/en/nkave/index/profile",
         "https://www.wsj.com/market-data/quotes/index/JP/NIK/historical-prices",
@@ -52,19 +52,19 @@ window.AI_SIGNALS = {
     {
       "market": "韩股",
       "flag": "🇰🇷",
-      "session": "7月27日早盘",
-      "updated_at": "2026-07-27 09:44 KST",
-      "status": "positive",
-      "status_label": "高开、涨幅收窄",
-      "move": "开盘6,806.27，前收6,690.62，跳空 +1.73%；09:44报6,725.17（+0.52%）",
-      "driver": "周末三星、SK海力士与美国科技公司的AI/HBM合作带来开盘修复，但指数较开盘明显回落，表明长期产业催化与短线筹码压力并存。",
+      "session": "7月28日早盘",
+      "updated_at": "2026-07-28 09:39 KST",
+      "status": "negative",
+      "status_label": "大幅低开并继续下探",
+      "move": "开盘6,400.27，前收6,755.75，跳空 -5.26%；09:39报6,273.84（-7.13%）",
+      "driver": "隔夜英伟达、美光、SK海力士ADR等芯片股下跌，全球存储竞争和高估值风险重新定价；KOSPI开盘价、前收及早盘跌幅由WSJ与Investing.com交叉核验。",
       "a_share_links": [
         "存储芯片",
         "HBM",
         "封测",
         "AI服务器"
       ],
-      "validation": "继续核验三星电子、SK海力士的成交和相对强度；A股开盘后观察兆易创新、德明利、太极实业及AI硬件链是否同步承接。",
+      "validation": "观察三星电子、SK海力士能否率先止跌，KOSPI能否收复开盘价；A股关注兆易创新、德明利、太极实业的相对强弱。",
       "sources": [
         "https://data.krx.co.kr/",
         "https://www.wsj.com/market-data/quotes/index/KR/SEU/historical-prices",
@@ -74,88 +74,89 @@ window.AI_SIGNALS = {
   ],
   "signals": [
     {
-      "event": "长鑫科技今日登陆科创板，国产DRAM进入直接市场定价窗口",
+      "event": "长鑫科技首日暴涨466%，兆易创新跌停，国产存储进入资金与估值替代重定价",
       "industry": "semi",
       "industry_name": "半导体",
-      "direction": "mixed",
+      "direction": "negative",
       "strength": 5,
-      "horizon": "intraday",
-      "priced_in": "unknown",
-      "reason": "长鑫科技7月27日以8.66元发行价上市，募资579.2亿元（超额配售全额行使前），是今年亚洲最大IPO。上市提高国产DRAM的资本市场可见度，并为产线、研发和供应链扩张提供资金；同时其首日估值、成交规模和资金分流会直接影响存储链比价。A股尚未开盘，价格反馈待验证。",
+      "horizon": "1-5d",
+      "priced_in": "medium",
+      "reason": "长鑫科技首日收于49元，较8.66元发行价上涨约466%，估值约3.3万亿元；同期兆易创新一度跌停。长鑫流通比例仅约6.73%，小流通盘放大首日价格弹性，并吸走存储链活跃资金。兆易创新持有长鑫约1.8%，但相关投资采用权益工具公允价值计量，估值变化不等同于主营利润同步兑现。隔夜全球存储股随后普跌，说明长鑫高估值已从A股内部比价扩展为全球竞争重估。",
       "assets": [
         "603986",
         "001309",
         "600667"
       ],
       "validation": [
-        "长鑫科技首日成交活跃且价格保持相对稳定，兆易创新、德明利、太极实业相对半导体指数获得承接",
-        "后续募投项目形成明确设备、材料、封测或工程订单"
+        "长鑫次日成交与价格趋于稳定，兆易创新不再显著弱于存储指数",
+        "德明利、太极实业获得扩产或产业订单逻辑承接，而非仅跟随资金炒作"
       ],
       "invalidation": [
-        "上市首日高开后快速回落并拖累存储链风险偏好",
-        "募投项目进度或行业价格周期明显低于预期"
+        "长鑫继续大幅上涨并持续抽离存储链资金，兆易创新、德明利同步弱于行业",
+        "后续披露显示长鑫扩产节奏或供应链外溢低于预期"
       ],
       "urls": [
-        "https://www.reuters.com/world/asia-pacific/chinese-chipmaker-cxmt-list-shanghai-july-27-after-asias-biggest-ipo-this-year-2026-07-23/",
-        "https://www.stcn.com/article/detail/4038311.html",
-        "https://www.thepaper.cn/newsDetail_forward_33645240"
+        "https://www.reuters.com/world/asia-pacific/china-memory-chipmaker-cxmt-set-shanghai-debut-after-asias-biggest-ipo-2026-07-26/",
+        "https://www.stcn.com/article/detail/4042794.html",
+        "https://www.21jingji.com/article/20260527/herald/c30081bdae990276d65b84dd27feb6bd.html"
       ]
     },
     {
-      "event": "韩国AI/HBM合作获得开盘承接，但KOSPI涨幅快速收窄",
+      "event": "全球芯片抛售扩散至日股和韩股，昨日韩国HBM合作利好被价格反转",
       "industry": "semi",
       "industry_name": "半导体",
-      "direction": "mixed",
-      "strength": 4,
-      "horizon": "1-5d",
+      "direction": "negative",
+      "strength": 5,
+      "horizon": "intraday",
       "priced_in": "low",
-      "reason": "KOSPI在周五大跌5.72%后，受三星、SK海力士AI/HBM合作催化高开1.73%，但09:44涨幅已收窄至0.52%。这验证了产业消息的正面方向，也显示高波动和筹码压力尚未解除；对A股存储、封测、CPO和PCB的映射需要开盘后确认。",
+      "reason": "隔夜费城半导体指数跌2.2%、英伟达跌近5%，存储相关公司跌幅更大。今早日经低开0.60%后跌约4.12%，KOSPI低开5.26%后跌约7.13%。这使昨天的韩国AI/HBM合作从产业利好转为价格未承接，并对A股存储、封测、CPO、PCB和被动元件形成明显负面外围映射；A股尚未开盘，实际传导待验证。",
       "assets": [
         "603986",
         "001309",
         "600667",
         "300308",
-        "002384"
+        "002384",
+        "000636"
       ],
       "validation": [
-        "三星电子、SK海力士午前维持相对强势，KOSPI不再跌破前收",
-        "A股存储、封测、CPO和PCB相对各自指数转强"
+        "三星电子、SK海力士及日股芯片权重止跌，日韩指数收复开盘价",
+        "A股半导体、CPO、PCB出现独立承接，跟踪标的相对行业指数不再恶化"
       ],
       "invalidation": [
-        "KOSPI重新转跌且芯片权重继续领跌",
-        "合作金额或执行节奏在正式文件中明显下修"
+        "日韩芯片权重继续放量下跌，A股科技开盘同步出现普遍性抛售",
+        "海外云厂商财报进一步下修AI资本开支或服务器需求预期"
       ],
       "urls": [
-        "https://www.reuters.com/business/media-telecom/south-korea-president-lee-looking-open-new-era-ai-with-global-tech-companies-2026-07-25/",
-        "https://www.wsj.com/market-data/quotes/index/KR/SEU/historical-prices",
-        "https://www.investing.com/indices/kospi"
+        "https://www.reuters.com/business/wall-st-futures-rise-us-iran-pause-hostilities-2026-07-27/",
+        "https://indexes.nikkei.co.jp/en/nkave/index/profile",
+        "https://www.wsj.com/market-data/quotes/index/KR/SEU/historical-prices"
       ]
     },
     {
-      "event": "海湾局势暂缓推动油价大跌，黄金白银与科技估值同步重定价",
+      "event": "油价延续大跌、黄金回升，但FOMC加息风险令跨资产方向继续分化",
       "industry": "macro",
       "industry_name": "宏观 / 商品",
       "direction": "mixed",
       "strength": 4,
       "horizon": "1-5d",
       "priced_in": "medium",
-      "reason": "今早布伦特和WTI一度下跌约5%，10年期美债收益率回落约4个基点至4.63%，美元走弱；黄金上涨约1.4%、白银期货上涨约2%。油价回落减轻通胀和加息压力，支持高估值科技修复并利于黄金，但国投白银LOF截至7月24日仍有约14.21%场内溢价，基金价格不能只按银价判断。",
+      "reason": "布伦特原油周一下跌约8.7%，今早继续运行在88美元下方，供应冲击与通胀压力较上周明显缓和；黄金重新站上4100美元附近。与此同时，市场对本周美联储维持利率与加息25个基点仍存在分歧，利率结果将决定黄金和高估值科技的后续方向。国投白银LOF 7月27日收盘1.876元、实时估值约1.631元，估算溢价仍约15.02%，本体上涨不能消除场内价差风险。",
       "assets": [
         "300308",
         "002384"
       ],
       "validation": [
-        "布伦特维持在100美元下方、美债收益率不再上冲，A股成长风格获得承接",
-        "国投白银LOF场内价格、净值和溢价在开盘后同步核验"
+        "布伦特维持在90美元下方、美债收益率不再上冲，成长估值压力缓和",
+        "国投白银LOF开盘后场内价格、当日估值与实际溢价同步回落"
       ],
       "invalidation": [
-        "中东冲突重新升级并推动油价快速反弹",
-        "美联储释放超预期鹰派信号，美元与实际利率重新上行"
+        "中东局势重新升级并推动油价快速反弹",
+        "美联储加息或释放超预期鹰派路径，美元与实际利率重新上行"
       ],
       "urls": [
-        "https://www.investing.com/news/stock-market-news/shares-bonds-bounce-as-oil-skid-offers-inflation-relief-4812933",
+        "https://www.reuters.com/business/wall-st-futures-rise-us-iran-pause-hostilities-2026-07-27/",
         "https://www.haoetf.com/lof/161226",
-        "https://www.reuters.com/world/asia-pacific/iran-war-spreads-red-sea-caspian-gulf-quiet-us-forgoes-strikes-2026-07-25/"
+        "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
       ]
     }
   ]
