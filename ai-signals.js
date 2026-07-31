@@ -1,48 +1,48 @@
 // 由 ChatGPT 网页版生成；新闻抓取工作流不会覆盖本文件。
 window.AI_SIGNALS = {
-  "generated_at": "2026-07-30 09:09",
-  "source_generated_at": "2026-07-30 08:55",
+  "generated_at": "2026-07-31 09:10",
+  "source_generated_at": "2026-07-30 17:45",
   "generated_by": "ChatGPT Web",
   "status": "ready",
   "overseas_markets": [
     {
       "market": "美股",
       "flag": "🇺🇸",
-      "session": "7月29日收盘",
-      "updated_at": "2026-07-30 09:09 CST",
-      "status": "negative",
-      "status_label": "美联储偏鹰、大盘与科技同步下跌",
-      "move": "标普500 -1.52%｜道指 -2.19%｜纳指 -1.74%｜纳斯达克100 -2.1%",
-      "driver": "美联储将利率维持在3.50%-3.75%，但12名决策者中有3人主张加息25个基点；油价因中东冲突反弹，重新抬升通胀与估值压力。微软云业务超预期与Meta自由现金流骤降形成AI投资回报分化。",
+      "session": "7月30日收盘",
+      "updated_at": "2026-07-31 09:10 CST",
+      "status": "positive",
+      "status_label": "微软带动AI与芯片强劲反弹",
+      "move": "标普500 +1.66%｜道指 +1.19%｜纳指 +2.78%｜费城半导体 +8.2%",
+      "driver": "微软上涨15.5%，强劲Azure增长与更克制的资本开支缓解了AI投资回报担忧；美光、闪迪和AMD同步大涨。盘后Amazon因AWS增长37%并上调AI基础设施投入而上涨约9%，Apple则因后续指引偏弱而下跌，科技内部仍有分化。",
       "a_share_links": [
         "CPO",
         "PCB",
         "存储芯片",
-        "成长估值"
+        "消费电子"
       ],
-      "validation": "A股开盘后观察中际旭创、东山精密能否因微软云业务超预期而相对科技指数抗跌；同时跟踪美债收益率、原油和美元是否继续上行。",
+      "validation": "A股开盘后观察中际旭创、东山精密能否结束补跌并同步海外AI硬件反弹；同时观察兆易创新、德明利能否延续昨日存储修复。",
       "sources": [
-        "https://www.reuters.com/business/sp-500-nasdaq-futures-inch-up-before-fed-decision-chip-stocks-wobble-2026-07-29/",
-        "https://www.reuters.com/business/meta-narrows-annual-capex-forecast-ai-buildout-grows-2026-07-29/",
-        "https://apnews.com/article/f7dff4fb9d51a2bdec56a13e5da1053d"
+        "https://www.reuters.com/business/us-stock-futures-steady-microsoft-offsets-fed-concerns-2026-07-30/",
+        "https://apnews.com/article/b4ce02b4666a35b8975823c5c22072ee",
+        "https://www.theguardian.com/technology/2026/jul/30/apple-amazon-second-quarter-revenues"
       ]
     },
     {
       "market": "日股",
       "flag": "🇯🇵",
-      "session": "7月30日早盘",
-      "updated_at": "2026-07-30 09:54 JST",
-      "status": "mixed",
-      "status_label": "低开后快速反弹",
-      "move": "开盘61,258.34，前收61,434.19，跳空 -0.29%；09:54报62,093.07（+1.07%）",
-      "driver": "日经低开后转涨，说明美股下跌并未形成单向传导；日经官方与WSJ对交易日期、开盘和前收一致，WSJ在09:34报62,224.28（+1.29%），观测时刻不同分别保留。",
+      "session": "7月31日早盘",
+      "updated_at": "2026-07-31 09:31 JST",
+      "status": "positive",
+      "status_label": "AI与半导体权重急升",
+      "move": "开盘61,957.10，前收61,867.43，跳空 +0.14%；09:31报65,095.09（+5.22%）",
+      "driver": "日经小幅高开后快速拉升，微软与美股芯片反弹带动软银、东京电子和Advantest等AI硬件权重。日经官方与WSJ对交易日期、开盘和前收一致；WSJ在09:16报63,981.14（+3.42%），因观测时刻不同分别保留。",
       "a_share_links": [
         "半导体设备",
         "存储芯片",
         "被动元件",
-        "电子材料"
+        "AI服务器"
       ],
-      "validation": "观察日经能否守住前收和早盘低点，以及东京电子、Advantest与铠侠是否同步修复；A股关注太极实业、风华高科相对行业指数的承接。",
+      "validation": "观察日经午前能否守住开盘后的主要涨幅，以及东京电子、Advantest和铠侠是否同步维持强势；A股关注太极实业、风华高科及存储链承接。",
       "sources": [
         "https://indexes.nikkei.co.jp/en/nkave/index/profile",
         "https://www.wsj.com/market-data/quotes/index/JP/NIK/historical-prices",
@@ -52,134 +52,108 @@ window.AI_SIGNALS = {
     {
       "market": "韩股",
       "flag": "🇰🇷",
-      "session": "7月30日早盘",
-      "updated_at": "2026-07-30 09:13 KST",
-      "status": "mixed",
-      "status_label": "小幅高开、去杠杆压力仍在",
-      "move": "开盘5,681.77，前收5,663.24，跳空 +0.33%；09:13报5,677.70（+0.26%）",
-      "driver": "三星电子二季度经营利润创纪录、AI服务器存储需求强劲，为存储基本面提供支撑；但KOSPI此前连续大跌，SK海力士业绩未达到高预期，早盘仅小幅高开，尚未确认风险反转。KRX为官方基准，WSJ与Investing.com复核开盘和前收；后续报价因时点不同不作同刻比较。",
+      "session": "7月31日早盘",
+      "updated_at": "2026-07-31 09:39 KST",
+      "status": "positive",
+      "status_label": "芯片权重推动暴力修复",
+      "move": "开盘5,681.77，前收5,593.56，跳空 +1.58%；09:39报6,413.63（+14.66%）",
+      "driver": "三星电子与SK海力士大幅反弹，微软财报、美股芯片上涨及两家公司创纪录利润共同驱动KOSPI修复。WSJ与AP方向一致，但当前涨幅属于此前连续暴跌后的高波动反弹，不能直接视为趋势反转。",
       "a_share_links": [
         "存储芯片",
         "HBM",
         "封测",
         "AI服务器"
       ],
-      "validation": "观察KOSPI能否守住前收、三星电子与SK海力士是否同步走强；A股关注兆易创新、德明利、太极实业能否摆脱前期弱势。",
+      "validation": "观察KOSPI是否触发或接近波动管理措施后仍能守住开盘价，三星电子与SK海力士是否保持成交承接；A股关注兆易创新、德明利、太极实业是否同步。",
       "sources": [
         "https://data.krx.co.kr/",
         "https://www.wsj.com/market-data/quotes/index/KR/SEU/historical-prices",
-        "https://www.reuters.com/world/asia-pacific/samsung-q2-profit-jumps-19-fold-ai-chip-demand-offsets-mobile-loss-2026-07-30/"
+        "https://apnews.com/article/e31b3a442bcb957a53f1823ef21e73e8"
       ]
     }
   ],
   "signals": [
     {
-      "event": "美联储按兵不动但出现三票加息异议，油价反弹重新抬升成长估值压力",
-      "industry": "macro",
-      "industry_name": "利率 / 跨资产",
-      "direction": "negative",
-      "strength": 5,
-      "horizon": "1-5d",
-      "priced_in": "medium",
-      "reason": "美联储将政策利率维持在3.50%-3.75%，避免了即时加息冲击，但12名决策者中有3人主张加息25个基点，鹰派程度高于常态。标普、纳指和道指同步大跌，布伦特原油因中东冲突反弹约7%，通胀、实际利率与风险偏好三条通道重新约束高估值科技。黄金、白银受避险和利率预期变化支撑，但人民币汇率与国内基金溢价会改变A股产品映射。",
-      "assets": [
-        "300308",
-        "002384",
-        "603986",
-        "001309",
-        "600667",
-        "000636"
-      ],
-      "validation": [
-        "美债收益率、美元与原油不再同步上行，A股成长指数开盘后相对大盘企稳",
-        "黄金、白银上涨能得到人民币计价ETF净值确认，而非仅体现二级市场溢价"
-      ],
-      "invalidation": [
-        "油价继续急升并推动市场重新显著上调9月加息概率",
-        "海外科技继续放量下跌并带动A股半导体、CPO和PCB出现新一轮批量跌停"
-      ],
-      "urls": [
-        "https://www.reuters.com/business/sp-500-nasdaq-futures-inch-up-before-fed-decision-chip-stocks-wobble-2026-07-29/",
-        "https://www.reuters.com/world/asia-pacific/gold-edges-lower-ahead-fed-decision-interest-rates-2026-07-29/"
-      ]
-    },
-    {
-      "event": "微软云业务验证AI需求，Meta现金流骤降令资本开支质量成为新分水岭",
+      "event": "Amazon上调AI资本开支至2200亿美元，AWS加速增长进一步验证云端基础设施需求",
       "industry": "ai",
       "industry_name": "AI基础设施",
-      "direction": "mixed",
+      "direction": "positive",
       "strength": 5,
-      "horizon": "1-5d",
+      "horizon": "1-4w",
       "priced_in": "low",
-      "reason": "微软季度收入约900亿美元，Azure增长43%，云收入增长27%，并维持高强度数据中心投入，直接支持高速光模块和服务器PCB需求；Meta收入增长28%，但自由现金流同比下降约91%至7.84亿美元，资本开支区间收窄至1300亿-1450亿美元后股价盘后大跌。市场不再只交易资本开支总量，而是区分云收入兑现、现金流和投资回报。",
+      "reason": "Amazon二季度AWS收入同比增长37%至422亿美元，为18个季度以来最快增速；公司将2026年资本开支计划由2000亿美元提高至2200亿美元，并称AI算力到2028年仍存在强劲需求和容量约束。叠加微软Azure增长43%，云厂商需求端从单纯投入承诺转向收入兑现，对高速光模块、服务器PCB和数据中心网络需求形成更直接验证。",
       "assets": [
         "300308",
         "002384"
       ],
       "validation": [
-        "中际旭创、东山精密相对CPO与PCB指数抗跌，微软财报的需求验证强于Meta现金流担忧",
-        "后续云厂商继续确认1.6T光模块、AI服务器和数据中心建设节奏"
+        "中际旭创、东山精密相对CPO和PCB指数止跌转强，海外财报利好不再伴随A股冲高回落",
+        "后续云厂商继续确认1.6T光模块、交换机和AI服务器采购节奏"
       ],
       "invalidation": [
-        "更多云厂商出现现金流恶化并下修资本开支或延迟数据中心项目",
-        "微软盘后涨幅显著回吐，AI硬件股继续无差别下跌"
+        "Amazon盘后涨幅明显回吐，市场重新聚焦负自由现金流和债务融资压力",
+        "云厂商虽上调资本开支，但供应链公司下修订单、价格或交付预期"
       ],
       "urls": [
-        "https://apnews.com/article/f7dff4fb9d51a2bdec56a13e5da1053d",
-        "https://www.reuters.com/business/meta-narrows-annual-capex-forecast-ai-buildout-grows-2026-07-29/"
+        "https://apnews.com/article/b4ce02b4666a35b8975823c5c22072ee",
+        "https://www.ft.com/content/fddc42a9-4c57-4689-abde-75bbe79622e9",
+        "https://www.reuters.com/business/us-stock-futures-steady-microsoft-offsets-fed-concerns-2026-07-30/"
       ]
     },
     {
-      "event": "中际旭创H股今日上市，巨额募资与暗盘小幅破发共同开启A/H定价验证",
-      "industry": "ai",
-      "industry_name": "CPO / 光模块",
+      "event": "海外芯片暴力反弹，但A股昨日仍呈现存储修复与CPO、PCB继续补跌的结构分化",
+      "industry": "tech",
+      "industry_name": "AI硬件 / 半导体",
       "direction": "mixed",
       "strength": 5,
       "horizon": "intraday",
       "priced_in": "medium",
-      "reason": "中际旭创H股以980港元发行，基础发行5450万股，募资约534.1亿港元；暗盘收于971港元，较发行价低0.92%。上市融资有利于全球产能、研发和客户拓展，但新增流通供给、A/H估值比较及暗盘破发会影响首日风险偏好。公司同时收到40亿至80亿元A股回购提议，构成价格支撑变量，但正式方案和执行节奏仍需确认。",
-      "assets": [
-        "300308"
-      ],
-      "validation": [
-        "H股开盘后收复980港元发行价且成交有序，A股相对CPO指数保持强势",
-        "回购方案获得董事会审议并披露明确价格、期限和资金安排"
-      ],
-      "invalidation": [
-        "H股明显跌破暗盘低点并带动A股放量走弱",
-        "A/H价差快速收敛主要通过A股下跌完成，且回购方案迟迟未落地"
-      ],
-      "urls": [
-        "https://www.reuters.com/world/asia-pacific/zhongji-innolight-prices-hong-kong-listing-below-maximum-limit-raising-681-2026-07-27/",
-        "https://wap.eastmoney.com/a/202607293825316172.html"
-      ]
-    },
-    {
-      "event": "三星创纪录利润确认存储景气，但兆易异常波动公告与涨价斜率放缓要求重新区分基本面和估值",
-      "industry": "semi",
-      "industry_name": "存储芯片",
-      "direction": "mixed",
-      "strength": 5,
-      "horizon": "1-4w",
-      "priced_in": "medium",
-      "reason": "三星电子二季度经营利润同比大增19倍并创纪录，AI服务器需求继续支撑DRAM和NAND；TrendForce预计三季度传统DRAM合约价上涨13%-18%、NAND上涨10%-15%，方向仍向上但较二季度约60%的涨幅明显降速。兆易创新7月27日至29日累计价格偏离超过20%，公司公告称经营正常、无应披露未披露重大事项；7月29日股价仍下跌6.81%，说明长鑫上市后的资金与估值重构尚未结束。",
+      "reason": "隔夜费城半导体指数上涨8.2%，今早日经和KOSPI在芯片权重带动下急升；但7月30日A股中际旭创成交超过597亿元并继续大幅波动，东山精密再次跌停，而存储链午后率先回流，德明利涨停、兆易创新收涨1.94%。这说明海外风险偏好已明显修复，但A股资金仍在高位CPO、PCB与较早调整的存储之间重新配置，今日价格联动才是反转是否成立的关键。",
       "assets": [
         "603986",
         "001309",
+        "300308",
+        "002384",
         "600667"
       ],
       "validation": [
-        "兆易创新、德明利相对存储指数止跌，三星和SK海力士的基本面利好获得日韩股价确认",
-        "后续合约价与企业级SSD订单继续上修，太极实业获得扩产或封测订单验证"
+        "中际旭创、东山精密不再出现放量补跌，且能与日韩AI硬件同步修复",
+        "兆易创新、德明利守住昨日反弹成果，太极实业获得存储和封测链扩散"
       ],
       "invalidation": [
-        "存储价格涨幅继续快速下修，消费电子客户因成本压力削减采购",
-        "兆易创新继续弱于存储板块并出现新的公司级风险公告"
+        "海外指数高开大幅回落，A股CPO与PCB继续出现批量跌停或天量下跌",
+        "存储链昨日反弹一日游，兆易创新和德明利重新跌破前一日低点"
       ],
       "urls": [
-        "https://www.reuters.com/world/asia-pacific/samsung-q2-profit-jumps-19-fold-ai-chip-demand-offsets-mobile-loss-2026-07-30/",
-        "https://www.chnfund.com/article/ac955c4b-f8b8-e0e5-3a3a-3a22bff45859",
-        "https://m.cls.cn/detail/2440172"
+        "https://www.reuters.com/business/us-stock-futures-steady-microsoft-offsets-fed-concerns-2026-07-30/",
+        "https://www.cls.cn/detail/2440883",
+        "https://apnews.com/article/e31b3a442bcb957a53f1823ef21e73e8"
+      ]
+    },
+    {
+      "event": "Apple当季iPhone需求强劲但后续指引低于预期，消费电子映射由需求确认转为持续性验证",
+      "industry": "consumer",
+      "industry_name": "消费电子 / 被动元件",
+      "direction": "mixed",
+      "strength": 4,
+      "horizon": "1-4w",
+      "priced_in": "low",
+      "reason": "Apple季度收入同比增长16.4%至1094亿美元，iPhone收入增长21.7%至543亿美元，验证高端终端需求；但下一季度收入增长指引为9%-11%，低于市场约12.1%的预期，且公司提示零部件短缺和汇率压力，盘后股价下跌。对东山精密、风华高科而言，当前订单需求偏正面，但持续性、供应约束和成本传导仍需确认。",
+      "assets": [
+        "002384",
+        "000636"
+      ],
+      "validation": [
+        "消费电子、FPC和被动元件板块形成同步承接，东山精密与风华高科相对行业指数改善",
+        "后续供应链订单、备货和MLCC渠道数据确认需求没有因成本上涨而下修"
+      ],
+      "invalidation": [
+        "Apple供应链继续下修后续季度订单，零部件短缺明显限制出货",
+        "强劲当季收入未能阻止相关供应链股票继续放量下跌"
+      ],
+      "urls": [
+        "https://www.theguardian.com/technology/2026/jul/30/apple-amazon-second-quarter-revenues",
+        "https://www.thetimes.com/business/companies-markets/article/apple-earnings-iphone-sales-tim-cook-rdbjzjxjz"
       ]
     }
   ]
