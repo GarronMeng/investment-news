@@ -22,6 +22,56 @@ REDLINE = []
 PER_SOURCE = 6
 TIMEOUT = 15
 
+KEYWORD_RULES = [
+    ("亚马逊", ("amazon", "aws", "亚马逊")),
+    ("微软", ("microsoft", "azure", "微软")),
+    ("谷歌", ("google", "alphabet", "谷歌")),
+    ("Meta", ("meta platforms", "facebook", "元宇宙平台")),
+    ("英伟达", ("nvidia", "英伟达")),
+    ("美光", ("micron", "美光")),
+    ("三星电子", ("samsung electronics", "samsung", "三星电子")),
+    ("SK海力士", ("sk hynix", "hynix", "sk海力士", "海力士")),
+    ("苹果", ("apple", "iphone", "苹果")),
+    ("台积电", ("tsmc", "taiwan semiconductor", "台积电")),
+    ("长鑫科技", ("cxmt", "changxin", "长鑫科技", "长鑫存储")),
+    ("人工智能", ("artificial intelligence", " ai ", "人工智能")),
+    ("云计算", ("cloud computing", "cloud services", "aws", "azure", "云计算")),
+    ("数据中心", ("data center", "datacenter", "数据中心")),
+    ("AI资本开支", ("ai capex", "capital expenditure", "capital spending", "资本开支")),
+    ("光模块", ("optical transceiver", "optical module", "800g", "1.6t", "cpo", "光模块")),
+    ("PCB", ("printed circuit board", " pcb ", "印制电路板")),
+    ("DRAM", ("dram",)),
+    ("NAND", ("nand",)),
+    ("存储芯片", ("memory chip", "memory semiconductor", "memory market", "存储芯片")),
+    ("晶圆代工", ("foundry", "wafer fab", "晶圆代工")),
+    ("先进封装", ("advanced packaging", "chip packaging", "先进封装")),
+    ("半导体设备", ("semiconductor equipment", "chip equipment", "半导体设备")),
+    ("MLCC", ("mlcc", "multilayer ceramic capacitor")),
+    ("被动元件", ("passive component", "被动元件")),
+    ("消费电子", ("consumer electronics", "smartphone", "iphone", "消费电子")),
+    ("新能源汽车", ("electric vehicle", " ev ", "新能源汽车")),
+    ("机器人", ("robotics", "robot", "机器人")),
+    ("创新药", ("biotech", "drug trial", "clinical trial", "创新药")),
+    ("黄金", ("gold", "黄金")),
+    ("白银", ("silver", "白银")),
+    ("美联储", ("federal reserve", "fed rate", "fomc", "美联储")),
+]
+
+EVENT_RULES = [
+    ("资本开支上调", ("raise capital spending", "boost capital spending", "boost spending", "capex increase",
+                  "capital expenditure plan", "capital spending plan")),
+    ("业绩超预期", ("beats estimates", "beat expectations", "record profit",
+                "record revenue", "surges after earnings")),
+    ("业绩承压", ("misses estimates", "missed expectations", "profit warning",
+              "revenue decline", "profit falls", "profit drops")),
+    ("扩产", ("expand capacity", "capacity expansion", "new fab", "new factory")),
+    ("涨价", ("price increase", "raise prices", "price hike", "prices rise")),
+    ("降价", ("price cut", "cuts prices", "prices fall", "price decline")),
+    ("并购", ("acquisition", "acquire", "merger", "takeover")),
+    ("出口限制", ("export control", "export restriction", "sanction", "blacklist")),
+    ("政策变化", ("regulation", "policy change", "government subsidy")),
+]
+
 
 def strip_html(value):
     return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", value or "")).strip()
@@ -126,23 +176,84 @@ def deduplicate(items):
     return output
 
 
+def contains_pattern(blob, pattern):
+    pattern = pattern.lower()
+    if pattern.startswith(" ") or pattern.endswith(" ") or re.fullmatch(r"[a-z0-9.]+", pattern):
+        return pattern.strip() in re.findall(r"[a-z0-9.]+", blob)
+    return pattern in blob
+
+
+def matched_label(blob, rules):
+    for label, patterns in rules:
+        if any(contains_pattern(blob, pattern) for pattern in patterns):
+            return label
+    return ""
+
+
+def extract_keywords_zh(item, industry_name):
+    blob = " %s %s " % (item.get("title", "").lower(), item.get("summary", "").lower())
+    labels = []
+    for label, patterns in KEYWORD_RULES:
+        if any(contains_pattern(blob, pattern) for pattern in patterns) and label not in labels:
+            labels.append(label)
+        if len(labels) >= 3:
+            break
+    event_type = matched_label(blob, EVENT_RULES)
+    if event_type and event_type not in labels:
+        labels.append(event_type)
+    if not labels and industry_name:
+        labels.append(industry_name)
+    return labels[:4], event_type
+
+
+def asset_match_points(item, asset):
+    title = item.get("title", "").lower()
+    summary = item.get("summary", "").lower()
+    points = 0
+    for keyword in asset.get("keywords", []):
+        term = keyword.lower()
+        if contains_pattern(title, term):
+            points += 3
+        elif contains_pattern(summary, term):
+            points += 1
+    return points
+
+
+def enrich_items(industries, watchlist):
+    assets = watchlist.get("assets", [])
+    for industry in industries:
+        for item in industry.get("items", []):
+            keywords_zh, event_type = extract_keywords_zh(item, industry.get("name", ""))
+            matches = []
+            for asset in assets:
+                if industry.get("key") not in asset.get("industries", []):
+                    continue
+                points = asset_match_points(item, asset)
+                if points:
+                    matches.append((points, asset))
+            matches.sort(key=lambda row: (-row[0], -row[1].get("priority", 0)))
+            event_boost = 2 if event_type else 0
+            best_points = matches[0][0] if matches else 0
+            priority_boost = matches[0][1].get("priority", 0) // 2 if matches else 0
+            item["keywords_zh"] = keywords_zh
+            item["event_type"] = event_type
+            item["related_assets"] = [row[1]["name"] for row in matches[:3]]
+            item["relevance_score"] = (
+                min(10, best_points + priority_boost + event_boost) if matches else 0
+            )
+
+
 def build_watchlist(industries, watchlist):
     """Keep the personalized radar useful even when no LLM key is configured."""
-    corpora = {
-        industry["key"]: " ".join(
-            (item.get("title", "") + " " + item.get("summary", "")).lower()
-            for item in industry.get("items", [])
-        )
-        for industry in industries
-    }
+    related_counts = {}
+    for industry in industries:
+        for item in industry.get("items", []):
+            for name in item.get("related_assets", []):
+                related_counts[name] = related_counts.get(name, 0) + 1
     output = []
     for asset in watchlist.get("assets", []):
-        relevant = " ".join(corpora.get(key, "") for key in asset.get("industries", []))
         row = dict(asset)
-        row["news_hits"] = sum(
-            1 for keyword in asset.get("keywords", [])
-            if keyword.lower() in relevant
-        )
+        row["news_hits"] = related_counts.get(asset["name"], 0)
         output.append(row)
     return sorted(output, key=lambda row: (-row.get("news_hits", 0), -row.get("priority", 0)))
 
@@ -186,6 +297,7 @@ def main():
         raw_count += len(industry["items"])
         industry["items"] = deduplicate(industry["items"])
         unique_count += len(industry["items"])
+    enrich_items(industries, watchlist)
 
     data = {
         "generated_at": datetime.now(BEIJING).strftime("%Y-%m-%d %H:%M"),
