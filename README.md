@@ -8,10 +8,11 @@
 
 ## 当前能力
 
-- 工作日北京时间约 08:40 自动抓取 100+ 个公开 RSS / Atom 信息源。
+- 每个交易日按盘前、午间和收盘检查点自动抓取 100+ 个公开 RSS / Atom 信息源。
 - 对 URL 与标题进行规范化去重，保留来源和原文链接。
 - GitHub Actions 负责抓取新闻；ChatGPT 网页版负责把产业事件映射到自选 A 股标的，输出方向、强度、作用周期、市场验证条件和失效条件。
-- 不需要模型 API Key；原始新闻更新与 AI 研判相互独立。
+- 独立情绪数据任务通过 OpenBB/YFinance 获取 VIX，并通过 AKShare 对接上交所、深交所两融汇总；失败时保留上次成功值并标记过期。
+- 不需要模型 API Key；原始新闻、情绪数据与 AI 研判相互独立。
 - 通过 GitHub Pages 发布响应式网页，手机与电脑均可访问。
 
 ## 个性化范围
@@ -24,6 +25,9 @@
 - 东山精密（002384）
 - 太极实业（600667）
 - 风华高科（000636）
+- 国投白银LOF（161226）
+- 黄金ETF华安（518880）
+- 创新药沪港深ETF天弘（517380）
 
 仓库保持公开，因此不写入持仓数量、成本价、账户资产或交易记录。
 
@@ -49,12 +53,14 @@ data.js + ai-signals.js
 GitHub Pages
 ```
 
-`Update A-share News` 支持定时和手动运行，只更新 `data.js`。ChatGPT 网页版独立更新 `ai-signals.js`；两类更新都会触发 Pages 部署，且互不覆盖。
+`Update A-share News` 更新 `data.js` 与 `history.json`；`Update Market Sentiment` 每个工作日更新 `sentiment.json`；ChatGPT 网页版独立更新 `ai-signals.js`。三类数据任务相互独立，均可手动运行。
 
 ## 本地验证
 
 ```bash
 python scripts/fetch.py
+python -m unittest tests/test_sentiment.py -v
+python scripts/fetch_sentiment.py
 python server.py
 ```
 
@@ -62,7 +68,8 @@ python server.py
 
 ## 系统边界
 
-- 当前未接入实时行情，`priced_in` 通常为 `unknown`，需要结合价格、成交量和板块联动验证。
+- 当前只接入日频 VIX 与两融汇总，尚未接入实时行情；`priced_in` 仍需结合价格、成交量和板块联动验证。
+- 情绪指标暂不合成总分；两融的 5 日变化和 20 日 Z-score 会随每日快照逐步建立。
 - 当前未接入证券账户或交易接口，不会自动下单。
 - 看板处理公开产业信息及自选映射，不构成投资建议。
 

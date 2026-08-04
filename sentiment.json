@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "generated_at": "2026-08-04T09:30:03+08:00",
+  "timezone": "Asia/Shanghai",
+  "states": {
+    "overseas_risk": {
+      "title": "海外风险",
+      "level": "normal",
+      "label": "正常",
+      "tone": "neutral",
+      "status": "fresh",
+      "summary": "用于校准海外风险环境，不直接触发A股买卖。",
+      "metric_id": "vix"
+    },
+    "leverage_sentiment": {
+      "title": "杠杆情绪",
+      "level": "building",
+      "label": "基线建立中",
+      "tone": "neutral",
+      "status": "fresh",
+      "summary": "观察融资余额5日变化与20日位置，资金流不在本阶段计分。",
+      "metric_id": "margin_balance"
+    }
+  },
+  "metrics": [
+    {
+      "id": "vix",
+      "label": "VIX海外风险",
+      "value": 15.86,
+      "unit": "点",
+      "as_of": "2026-08-03",
+      "lag_days": 1,
+      "status": "fresh",
+      "confidence": "high",
+      "source": "CBOE",
+      "source_url": "https://www.cboe.com/tradable_products/vix/vix_historical_data/",
+      "change_1d_pct": -0.81,
+      "percentile_20d": 20.0,
+      "level": "normal",
+      "state_label": "正常",
+      "tone": "neutral",
+      "sample_size": 20
+    },
+    {
+      "id": "margin_balance",
+      "label": "A股杠杆情绪",
+      "value": 25721.74,
+      "total_margin_balance": 25943.44,
+      "financing_buy_amount": 1656.13,
+      "unit": "亿元",
+      "as_of": "2026-08-03",
+      "lag_days": 1,
+      "status": "fresh",
+      "confidence": "high",
+      "source": "SSE+SZSE via AKShare",
+      "source_url": "https://www.sse.com.cn/market/othersdata/margin/sum/",
+      "change_1d_pct": null,
+      "change_5d_pct": null,
+      "zscore_20d": null,
+      "level": "building",
+      "state_label": "基线建立中",
+      "tone": "neutral",
+      "sample_size": 1
+    }
+  ],
+  "history": {
+    "margin_balance": [
+      {
+        "date": "2026-08-03",
+        "financing": 25721.740644539997,
+        "total": 25943.43968109,
+        "buy": 1656.12958005
+      }
+    ]
+  },
+  "warnings": [],
+  "methodology": {
+    "vix": "优先使用OpenBB/YFinance标准化接口，限流或失败时切换CBOE官方历史数据；显示最新值、单日变化和20日分位。",
+    "margin_balance": "AKShare封装上交所与深交所官方汇总；合并融资余额，显示1日/5日变化和20日Z-score。",
+    "boundary": "两项指标分别描述海外风险与A股杠杆情绪，暂不合成总分，也不生成无条件交易指令。"
+  }
+}

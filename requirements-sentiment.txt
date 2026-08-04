@@ -1,0 +1,5 @@
+# Keep the data job lightweight: use the OpenBB provider extension directly.
+openbb-core>=1.6,<2
+openbb-index>=1.6,<2
+openbb-yfinance>=1.6,<2
+akshare>=1.18,<2
