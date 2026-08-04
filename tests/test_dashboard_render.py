@@ -11,13 +11,15 @@ class DashboardRenderTests(unittest.TestCase):
         self.assertIn('"Update Watchlist Market Quotes"', workflow)
         self.assertIn("- sentiment.json", workflow)
         self.assertIn("- market.json", workflow)
-        self.assertIn("- portfolio.json", workflow)
         self.assertIn("- watchlist.json", workflow)
-        self.assertIn("market.json portfolio.json watchlist.json", workflow)
+        self.assertIn("market.json watchlist.json", workflow)
+        self.assertNotIn("portfolio.json", workflow)
 
     def test_headline_is_not_replaced_by_keywords(self):
         html = (ROOT / "index.html").read_text(encoding="utf-8")
-        self.assertIn("function newsHeadline(it){return it.zh||it.title||'未命名新闻'}", html)
+        self.assertIn("function newsHeadline(it,titleMap)", html)
+        self.assertIn("titleMap?.[it.url]", html)
+        self.assertIn("英文原题｜", html)
         self.assertNotIn("(it.keywords_zh||[]).join(' · ')||it.title", html)
 
     def test_change_radar_requires_real_history(self):
@@ -41,11 +43,19 @@ class DashboardRenderTests(unittest.TestCase):
         self.assertIn("定价状态", html)
         self.assertNotIn("已交易 ${esc(uiLabel('priced'", html)
 
-    def test_market_and_portfolio_layers_are_loaded(self):
+    def test_market_layer_is_loaded_without_portfolio_emphasis(self):
         html = (ROOT / "index.html").read_text(encoding="utf-8")
         self.assertIn("fetchJson('market.json','MARKET')", html)
-        self.assertIn("fetchJson('portfolio.json','PORTFOLIO')", html)
-        self.assertIn("账户未同步 · 持仓/成本未配置", html)
+        self.assertNotIn("fetchJson('portfolio.json','PORTFOLIO')", html)
+        self.assertNotIn("positionText", html)
+        self.assertNotIn("账户持仓", html)
+
+    def test_default_declarations_are_removed(self):
+        html = (ROOT / "index.html").read_text(encoding="utf-8")
+        self.assertNotIn("系统边界", html)
+        self.assertNotIn("AI 信号由 ChatGPT 网页版独立生成", html)
+        self.assertNotIn("“共振”需同时满足", html)
+        self.assertIn("notice:empty{display:none}", html)
 
     def test_related_news_requires_material_relevance(self):
         html = (ROOT / "index.html").read_text(encoding="utf-8")

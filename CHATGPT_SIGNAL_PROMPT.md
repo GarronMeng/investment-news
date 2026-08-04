@@ -34,7 +34,12 @@
    - urls：最多 3 个新闻证据链接
 5. 缺少实时行情时，priced_in 使用 unknown，并把价格、成交量或板块联动写入 validation。
 6. 不写入持仓数量、成本、账户资产或无条件买卖指令。
-7. 将结果完整写入 `ai-signals.js`，格式为：
-   `window.AI_SIGNALS = {generated_at, source_generated_at, generated_by, status, overseas_markets, signals};`
-8. generated_at 与 source_generated_at 均使用北京时间；generated_by 固定为 `ChatGPT Web`；status 成功时为 `ready`。
-9. 更新后确认 GitHub Pages 部署成功，并在聊天中给出 3–5 条最重要变化及需验证条件。
+7. 同步生成 `news_titles` 中文标题映射：
+   - 使用新闻 URL 作为 key，简洁中文标题作为 value；
+   - 覆盖所有 `relevance_score >= 5` 的新闻，以及每个行业页面前 8 条英文新闻；
+   - 忠实翻译原标题，不得用行业名、关键词或泛化标签代替标题；
+   - 页面以中文标题为主，英文原题仅用于核验。
+8. 将结果完整写入 `ai-signals.js`，格式为：
+   `window.AI_SIGNALS = {generated_at, source_generated_at, generated_by, status, news_titles, overseas_markets, signals};`
+9. generated_at 与 source_generated_at 均使用北京时间；generated_by 固定为 `ChatGPT Web`；status 成功时为 `ready`。
+10. 更新后确认 GitHub Pages 部署成功；若没有材料性变化，只报告更新状态，不输出重复长篇简报。
