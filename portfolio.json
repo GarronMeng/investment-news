@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "updated_at": null,
+  "status": "not_configured",
+  "currency": "CNY",
+  "positions": [],
+  "note": "账户持仓尚未同步。页面只展示已配置持仓，不根据历史对话或新闻推断数量、成本和盈亏。"
+}
