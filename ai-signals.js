@@ -1,129 +1,132 @@
 // 由 ChatGPT 网页版生成；新闻抓取工作流不会覆盖本文件。
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-03 09:12",
-  "source_generated_at": "2026-08-02 17:24",
+  "generated_at": "2026-08-04 09:16",
+  "source_generated_at": "2026-08-04 09:00",
   "generated_by": "ChatGPT Web",
   "status": "ready",
   "overseas_markets": [
     {
       "market": "美股",
       "flag": "🇺🇸",
-      "session": "7月31日收盘（周一盘前最新正式行情）",
-      "updated_at": "2026-08-03 09:12 CST",
+      "session": "8月3日收盘",
+      "updated_at": "2026-08-04 09:16 CST",
       "status": "positive",
-      "status_label": "AI需求支撑延续，长端利率仍限制估值",
-      "move": "标普500 +0.70%｜道指 +0.53%｜纳指 +1.00%",
-      "driver": "Amazon因AWS增长加速和上调AI资本开支而大涨，延续Microsoft财报后的AI基础设施修复；Apple因收入指引和零部件约束下跌，显示消费电子内部仍分化。美国10年期国债收益率周五一度升至4.747%，高估值成长仍受利率约束。周末无新的美股正式交易价格。",
-      "a_share_links": ["CPO", "PCB", "存储芯片", "消费电子"],
-      "validation": "A股开盘后观察中际旭创、东山精密能否获得海外云资本开支承接；若继续冲高回落，则需求利好尚未转化为稳定价格趋势。",
+      "status_label": "伊朗谈判与AI盈利预期推动风险偏好修复",
+      "move": "标普500 +1.48%｜道指 +1.32%｜纳指 +2.13%",
+      "driver": "美股三大指数齐升，道指创收盘新高；Amazon上涨约4.6%，Microsoft、Meta、Alphabet等AI及云计算权重同步走强。原油结算价下跌约5%缓和短期通胀压力，但市场对9月加息的隐含概率仍约65%，利率约束并未消失。",
+      "a_share_links": ["CPO", "PCB", "AI服务器", "存储芯片"],
+      "validation": "A股开盘后观察中际旭创、东山精密能否停止相对弱势并获得成交承接；若继续弱于通信、电子指数，则海外利好尚未完成国内价格传导。",
       "sources": [
-        "https://www.reuters.com/business/nasdaq-100-leads-us-futures-higher-amazon-surge-offsets-apple-decline-2026-07-31/",
-        "https://www.reuters.com/world/china/global-markets-global-markets-2026-07-31/"
+        "https://www.reuters.com/business/wall-st-futures-edge-up-mideast-deal-hopes-healthcare-focus-2026-08-03/",
+        "https://www.reuters.com/legal/transactional/amazon-enters-3-trillion-club-ai-optimism-sweeps-through-wall-street-2026-08-03/"
       ]
     },
     {
       "market": "日股",
       "flag": "🇯🇵",
-      "session": "8月3日早盘",
-      "updated_at": "2026-08-03 09:12 CST",
-      "status": "negative",
-      "status_label": "周五急涨后回吐，电子与汽车领跌",
-      "move": "开盘63,834.95（较前收低0.82%）｜09:36 JST报63,153.62，跌1.88%",
-      "driver": "日经225前收64,362.02，今早低开后继续走弱；村田制作所等电子权重领跌。美元兑日元由周五东京收盘附近160.33降至157.62，日元走强削弱出口股估值，同时中东局势仍令风险偏好反复。",
-      "a_share_links": ["被动元件", "消费电子", "半导体设备", "AI硬件"],
-      "validation": "观察日经能否收复开盘价，以及风华高科、东山精密是否能够摆脱日股电子链回撤形成独立承接。",
+      "session": "8月4日早盘",
+      "updated_at": "2026-08-04 09:16 CST",
+      "status": "pending",
+      "status_label": "开盘数据单源，冲高回落方向待复核",
+      "move": "开盘63,995.28（较前收高0.38%）｜09:48 JST报63,241.80，跌0.80%",
+      "driver": "日经225前收63,754.90，今早小幅高开；早段芯片股一度带动指数上涨，但随后转跌。Reuters在另一观测时点记录日经跌约0.3%，与回落方向一致；因未取得第二个独立来源的精确开盘点位，按规则保留待验证状态。",
+      "a_share_links": ["半导体设备", "被动元件", "消费电子", "AI硬件"],
+      "validation": "继续核对日经官方开盘数据，并观察指数能否收复开盘价；A股重点看风华高科、东山精密能否形成独立强弱。",
       "sources": [
-        "https://www.wsj.com/market-data/quotes/index/JP/NIK/historical-prices",
-        "https://www.wsj.com/finance/stocks/nikkei-falls-1-4-dragged-by-electronics-auto-stocks-e85119b4",
-        "https://indexes.nikkei.co.jp/en/nkave/index/profile"
+        "https://www.wsj.com/market-data/quotes/index/JP/NIK",
+        "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-08-04/",
+        "https://www.wsj.com/finance/stocks/nikkei-rises-0-4-led-by-chip-stocks-e1d183bc"
       ]
     },
     {
       "market": "韩股",
       "flag": "🇰🇷",
-      "session": "8月3日早盘",
-      "updated_at": "2026-08-03 09:12 CST",
-      "status": "negative",
-      "status_label": "出口利好未抵消周五暴涨后的回吐",
-      "move": "开盘6,358.27（较前收低3.60%）｜09:41 KST报6,298.12，跌4.51%",
-      "driver": "KOSPI前收6,595.45，今早显著低开；韩国7月半导体和计算机出口数据继续验证AI与存储需求，但周五17.91%的创纪录反弹计价过快，短线资金兑现和高波动风险重新主导。",
-      "a_share_links": ["存储芯片", "HBM", "封测", "AI服务器"],
-      "validation": "观察KOSPI能否守住早盘低点并缩窄跌幅；A股对应关注兆易创新、德明利、太极实业能否避免跟随高开低走。",
+      "session": "8月4日早盘",
+      "updated_at": "2026-08-04 09:16 CST",
+      "status": "pending",
+      "status_label": "开盘数据单源，反弹持续性待复核",
+      "move": "开盘6,351.38（较前收高1.50%）｜09:23 KST报6,294.56，涨0.59%",
+      "driver": "KOSPI前收6,257.45，今早高开后涨幅收窄；Reuters在另一时点记录指数一度上涨2.1%，方向一致但观测时间不同。该反弹发生在8月3日收跌5.12%之后，仍属于高波动修复；因精确开盘点位缺少第二来源，继续标记待验证。",
+      "a_share_links": ["DRAM", "NAND", "HBM", "封测"],
+      "validation": "核对KRX开盘与收盘数据，观察三星电子、SK海力士及KOSPI能否守住前收；A股对应关注兆易创新、德明利、太极实业是否停止补跌。",
       "sources": [
-        "https://www.wsj.com/market-data/quotes/index/KR/SEU/historical-prices",
-        "https://www.reuters.com/world/asia-pacific/south-korea-july-exports-beat-forecasts-robust-demand-ai-investments-2026-08-01/",
+        "https://www.wsj.com/market-data/quotes/index/KR/SEU",
+        "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-08-04/",
         "https://data.krx.co.kr/contents/MDC/MAIN/main/index.cmd?locale=en"
       ]
     }
   ],
   "signals": [
     {
-      "event": "兆易创新10亿至20亿元回购注销方案进入股东会审议与价格验证阶段",
-      "industry": "company",
-      "industry_name": "公司资本运作 / 存储芯片",
-      "direction": "positive",
+      "event": "存储原厂据报2027年产能提前分配、HBF规范推进，但A股存储链价格验证仍为负面",
+      "industry": "semi",
+      "industry_name": "DRAM / NAND / AI存储",
+      "direction": "mixed",
       "strength": 5,
       "horizon": "1-4w",
-      "priced_in": "medium",
-      "reason": "公司董事会已通过以集中竞价方式回购A股的方案，金额不低于10亿元、不超过20亿元，回购股份全部用于注销并减少注册资本；公司8月3日进一步发布临时股东会通知。该安排有助于减少股本并传递信心，但仍需股东会审议，实际成交时间、均价和最终规模尚未确定；长鑫上市后的资金替代仍是独立约束。",
-      "assets": ["603986"],
+      "priced_in": "unknown",
+      "reason": "产业媒体报道称三星、Micron、SK海力士的2027年DRAM与HBM产能已提前分配，部分NAND原厂产能也趋紧；Sandisk与SK海力士同时发布HBF规范，推进面向AI推理的高带宽闪存标准。需求和供需信息偏正面，但8月3日兆易创新跌停、德明利跌9.56%、太极实业跌5.51%，回购与需求利好均未获得A股价格确认。产能分配目前主要来自产业媒体，仍需原厂订单、报价或正式文件交叉验证。",
+      "assets": ["603986", "001309", "600667"],
       "validation": [
-        "股东会通过方案后公司启动回购，并持续披露实际成交金额和价格",
-        "公告后股价相对存储板块转强，且收盘未出现明显高开低走"
+        "原厂正式披露2027年订单覆盖、价格或资本开支指引，DRAM与NAND现货及合约价继续上行",
+        "兆易创新、德明利、太极实业停止弱于半导体指数，且放量收复8月3日主要跌幅"
       ],
       "invalidation": [
-        "股东会未通过、方案延期或实际实施长期低于方案下限预期",
-        "股价放量跌破7月31日低点，显示市场继续交易长鑫资金替代与筹码压力"
+        "原厂否认产能售罄报道，或后续价格、库存数据不支持供需趋紧",
+        "相关标的继续放量创新低，显示产业利好仍不足以抵消估值与筹码压力"
       ],
       "urls": [
-        "https://big5.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-08-01/603986_20260801_NYOY.pdf",
-        "https://data.eastmoney.com/notices/stock/603986.html"
+        "https://wallstreetcn.com/articles/3778618",
+        "https://www.digitimes.com/news/a20260804PR201/sk-hynix-technology-flash-ai-inference-bandwidth.html",
+        "https://www.stcn.com/article/detail/4055434.html"
       ]
     },
     {
-      "event": "韩国半导体出口强劲但KOSPI周一低开逾3%，存储利好进入高波动价格验证",
-      "industry": "semi",
-      "industry_name": "存储芯片 / AI硬件",
+      "event": "美国AI与云计算权重反弹，但A股CPO和PCB仍需完成独立价格确认",
+      "industry": "ai",
+      "industry_name": "AI数据中心 / CPO / PCB",
       "direction": "mixed",
-      "strength": 5,
+      "strength": 4,
       "horizon": "1-5d",
-      "priced_in": "high",
-      "reason": "韩国7月半导体出口增长179%、计算机出口增长404%，继续确认AI和存储需求；但KOSPI继周五上涨17.91%后，8月3日以6,358.27点低开，较前收低3.60%，09:41 KST跌4.51%。基本面利好与筹码兑现同时存在，不能仅以出口数据推导A股存储、封测和AI硬件单向上涨。",
-      "assets": ["603986", "001309", "600667", "300308", "002384"],
+      "priced_in": "medium",
+      "reason": "Amazon因AWS增速与AI投资预期上涨约4.6%，Microsoft、Meta、Alphabet同步走强，纳指上涨2.13%，继续支持数据中心、光模块和服务器PCB需求预期。与此同时，8月3日东山精密下跌5.06%，A股电子板块下跌4.18%，说明海外需求逻辑尚未转化为国内稳定价格趋势；中际旭创的实时A/H反馈盘前仍待验证。",
+      "assets": ["300308", "002384"],
       "validation": [
-        "KOSPI、三星和SK海力士守住早盘低点并缩窄跌幅，A股相关板块同步获得承接",
-        "后续存储价格、出货量或供应链订单继续确认增长并非仅由价格基数驱动"
+        "中际旭创、东山精密开盘后相对通信和电子指数转强，并减少冲高回落",
+        "后续云厂商资本开支、交换机和光模块订单继续确认需求兑现"
       ],
       "invalidation": [
-        "韩股继续扩大跌幅并回吐周五反弹主要成果",
-        "A股相关标的高开低走并跌破7月31日低点，显示利好已被过度计价"
+        "A股CPO、PCB继续放量补跌并弱于板块，海外上涨未形成国内承接",
+        "云厂商下调资本开支或现金流压力导致AI基础设施投资延后"
       ],
       "urls": [
-        "https://www.reuters.com/world/asia-pacific/south-korea-july-exports-beat-forecasts-robust-demand-ai-investments-2026-08-01/",
-        "https://www.wsj.com/market-data/quotes/index/KR/SEU/historical-prices"
+        "https://www.reuters.com/business/wall-st-futures-edge-up-mideast-deal-hopes-healthcare-focus-2026-08-03/",
+        "https://www.reuters.com/legal/transactional/amazon-enters-3-trillion-club-ai-optimism-sweeps-through-wall-street-2026-08-03/",
+        "https://www.stcn.com/article/detail/4055434.html"
       ]
     },
     {
-      "event": "MLCC涨价进入执行期，但日股电子链早盘回落提高短线验证门槛",
+      "event": "风华高科逆电子板块上涨，MLCC涨价首次获得相对价格确认",
       "industry": "components",
       "industry_name": "被动元件 / MLCC",
-      "direction": "mixed",
+      "direction": "positive",
       "strength": 4,
       "horizon": "1-4w",
       "priced_in": "medium",
-      "reason": "三星电机自8月1日起上调MLCC出货价格、太阳诱电计划9月调价，产业涨价进入执行阶段；与此同时，8月3日日经低开后继续走弱，村田制作所早盘跌约5%，说明海外被动元件和电子链的短线风险偏好并未同步改善。风华高科此前已显著上涨，后续需由渠道成交价、订单和下游接受度验证盈利弹性。",
+      "reason": "三星电机自8月1日起执行MLCC调价、太阳诱电计划9月调价。8月3日电子板块下跌4.18%的同时，风华高科上涨5.29%，并获得特大单口径净流入，说明涨价催化首次得到A股相对价格确认；但今早日经冲高回落、海外电子链并未一致转强，实际渠道成交价、订单和下游接受度仍是基本面验证条件。",
       "assets": ["000636"],
       "validation": [
-        "渠道报价、订单显示高容值和高可靠MLCC价格与需求同步改善",
-        "风华高科相对被动元件指数保持强势，且高换手逐步下降"
+        "渠道和公司订单显示高容值、高可靠MLCC成交价与出货量同步改善",
+        "风华高科持续强于被动元件和电子指数，且高换手逐步下降"
       ],
       "invalidation": [
-        "下游抵制涨价或削减订单，实际成交价未跟随通知",
-        "风华高科跌破催化前区间，且日韩电子权重继续显著回撤"
+        "下游抵制涨价、削减订单或实际成交价未跟随通知",
+        "风华高科快速跌回涨价催化前区间，8月3日相对强势被完全回吐"
       ],
       "urls": [
         "https://www.cls.cn/detail/2441445",
-        "https://www.wsj.com/finance/stocks/nikkei-falls-1-4-dragged-by-electronics-auto-stocks-e85119b4"
+        "https://www.stcn.com/article/detail/4055434.html",
+        "https://www.wsj.com/market-data/quotes/index/JP/NIK"
       ]
     }
   ]
