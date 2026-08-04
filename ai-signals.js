@@ -8,6 +8,7 @@ window.AI_SIGNALS = {
     "https://www.digitimes.com/news/a20260804PD205/cxmt-dram-market-competition-capacity-expansion.html": "长鑫上市引发对DRAM价格及全球存储竞争的担忧",
     "https://semiengineering.com/nad-memory-combines-nand-flash-and-dram-for-faster-data-transfer-u-of-seoul": "首尔大学研发混合存储器，结合NAND与DRAM提升传输速度",
     "https://www.digitimes.com/news/a20260804PR201/sk-hynix-technology-flash-ai-inference-bandwidth.html": "闪迪与SK海力士发布HBF规范，推进AI存储标准",
+    "https://www.digitimes.com/news/a20260804VL202/semco-mlcc-plant-price-demand.html": "AI需求推动涨价，三星电机据报加快菲律宾MLCC工厂建设",
     "https://www.eetimes.com/renesas-tackles-memory-bottleneck-with-mrdimm-update": "瑞萨升级MRDIMM方案，应对内存带宽瓶颈",
     "https://www.statnews.com/2026/08/03/biotech-news-is-there-a-pharma-mega-merger-coming-astrazeneca-bms": "阿斯利康与百时美施贵宝会否酝酿医药巨头并购",
     "https://www.eetimes.com/cea-leti-pushes-stacking-roadmap-as-ai-runs-into-memory-and-power-limits": "CEA-Leti推进堆叠技术路线，应对AI内存与功耗瓶颈"
