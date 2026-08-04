@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-04T09:30:03+08:00",
+  "generated_at": "2026-08-04T09:49:58+08:00",
   "timezone": "Asia/Shanghai",
   "states": {
     "overseas_risk": {
@@ -31,8 +31,8 @@
       "as_of": "2026-08-03",
       "lag_days": 1,
       "status": "fresh",
-      "confidence": "high",
-      "source": "CBOE",
+      "confidence": "medium",
+      "source": "OpenBB/YFinance",
       "source_url": "https://www.cboe.com/tradable_products/vix/vix_historical_data/",
       "change_1d_pct": -0.81,
       "percentile_20d": 20.0,
@@ -54,17 +54,23 @@
       "confidence": "high",
       "source": "SSE+SZSE via AKShare",
       "source_url": "https://www.sse.com.cn/market/othersdata/margin/sum/",
-      "change_1d_pct": null,
+      "change_1d_pct": -0.34,
       "change_5d_pct": null,
       "zscore_20d": null,
       "level": "building",
       "state_label": "基线建立中",
       "tone": "neutral",
-      "sample_size": 1
+      "sample_size": 2
     }
   ],
   "history": {
     "margin_balance": [
+      {
+        "date": "2026-07-31",
+        "financing": 25809.68268667,
+        "total": 26031.77818124,
+        "buy": 2434.20378973
+      },
       {
         "date": "2026-08-03",
         "financing": 25721.740644539997,
