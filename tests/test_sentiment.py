@@ -23,9 +23,26 @@ class SentimentRulesTest(unittest.TestCase):
 
     def test_margin_requires_change_and_position_for_heating(self):
         self.assertEqual(MODULE.classify_margin(None, None)[0], "building")
+        self.assertEqual(MODULE.classify_margin(2.0, None)[0], "building")
         self.assertEqual(MODULE.classify_margin(2.0, 1.2)[0], "heating")
         self.assertEqual(MODULE.classify_margin(2.0, 0.2)[0], "stable")
         self.assertEqual(MODULE.classify_margin(-1.2, -0.8)[0], "cooling")
+
+    def test_margin_waits_for_20_observations(self):
+        rows = [
+            {
+                "date": f"2026-07-{day:02d}",
+                "financing": 100 + day,
+                "total": 110 + day,
+                "buy": 10 + day,
+            }
+            for day in range(1, 21)
+        ]
+        building = MODULE.make_margin_metric(rows[:19], today=date(2026, 8, 4))
+        ready = MODULE.make_margin_metric(rows, today=date(2026, 8, 4))
+        self.assertIsNone(building["zscore_20d"])
+        self.assertEqual(building["level"], "building")
+        self.assertIsNotNone(ready["zscore_20d"])
 
     def test_failed_refresh_preserves_last_value_as_stale(self):
         previous = {
