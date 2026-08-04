@@ -9,7 +9,6 @@ on:
       - ai-signals.js
       - sentiment.json
       - market.json
-      - portfolio.json
       - watchlist.json
       - .nojekyll
       - .github/workflows/deploy-pages.yml
@@ -44,7 +43,7 @@ jobs:
       - name: Prepare static site
         run: |
           mkdir public
-          cp index.html data.js ai-signals.js sentiment.json market.json portfolio.json watchlist.json .nojekyll public/
+          cp index.html data.js ai-signals.js sentiment.json market.json watchlist.json .nojekyll public/
 
       - name: Configure Pages
         uses: actions/configure-pages@v6
