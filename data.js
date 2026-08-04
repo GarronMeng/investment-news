@@ -1,6 +1,6 @@
 // 自动生成，请勿手工编辑。
 window.DATA = {
- "generated_at": "2026-08-04 10:58",
+ "generated_at": "2026-08-04 11:04",
  "recent_days": 7,
  "industries": [
   {
@@ -3429,22 +3429,22 @@ window.DATA = {
    "total": 9,
    "items": [
     {
-     "title": "Onsemi expects AI data-center revenue to more than double in 2026 as cyclical recovery takes hold",
-     "url": "https://www.digitimes.com/news/a20260804VL200/onsemi-recovery-revenue-2026-demand.html",
-     "time": "08-04 09:37",
-     "ts": 1785807427,
-     "summary": "Onsemi's second-quarter results pointed to a broadening recovery in semiconductor demand, with AI data-center applications emerging as the company's fastest-growing business, while the automotive and industrial markets are showing signs of ",
+     "title": "Taiwan-Japan semiconductor ties go beyond supply chain partnerships",
+     "url": "https://www.digitimes.com/news/a20260804PD218/taiwan-japan-semiconductors-manufacturing-development-supply-chain.html",
+     "time": "08-04 10:57",
+     "ts": 1785812222,
+     "summary": "Cooperation between Taiwan and Japan in semiconductors will go beyond supply-chain partnerships towards joint technological innovation and talent development, according to Taiwan's former Minister of Economic Affairs Jyh-huei Kuo.",
      "source": "DIGITIMES",
      "agenda_layer": "industry",
      "language": "en",
-     "id": "08200c5346b1",
+     "id": "8941f75aec24",
      "keywords_zh": [
-      "人工智能"
+      "半导体 / 芯片"
      ],
      "event_type": "",
      "related_assets": [],
      "relevance_score": 0,
-     "topic_id": "story:08200c5346b1",
+     "topic_id": "story:8941f75aec24",
      "cluster_size": 1,
      "sources": [
       "DIGITIMES"
@@ -3458,8 +3458,8 @@ window.DATA = {
      "cluster_urls": [
       {
        "source": "DIGITIMES",
-       "title": "Onsemi expects AI data-center revenue to more than double in 2026 as cyclical recovery takes hold",
-       "url": "https://www.digitimes.com/news/a20260804VL200/onsemi-recovery-revenue-2026-demand.html"
+       "title": "Taiwan-Japan semiconductor ties go beyond supply chain partnerships",
+       "url": "https://www.digitimes.com/news/a20260804PD218/taiwan-japan-semiconductors-manufacturing-development-supply-chain.html"
       }
      ],
      "trajectory": {
@@ -3468,7 +3468,7 @@ window.DATA = {
        1
       ],
       "observations": 1,
-      "first_seen": 1785812295
+      "first_seen": 1785812692
      },
      "resonance": {
       "confirmed": false,
@@ -3483,22 +3483,25 @@ window.DATA = {
      }
     },
     {
-     "title": "L&amp;F Plus ships trial samples from South Korea&rsquo;s first LFP cathode line",
-     "url": "https://www.digitimes.com/news/a20260804PD206/materials-production-lithium-supply-chain-subsidiary.html",
-     "time": "08-04 09:23",
-     "ts": 1785806631,
-     "summary": "South Korean cathode materials maker L&amp;F said its subsidiary L&amp;F Plus has shipped the first trial-production samples from South Korea&rsquo;s first lithium iron phosphate (LFP) cathode materials mass-production line. The shipment ma",
+     "title": "Team Group 2Q26 profit surges more than 200-fold, expects DRAM shortage to persist through 2027",
+     "url": "https://www.digitimes.com/news/a20260803PD234/team-group-profit-dram-2027-2026.html",
+     "time": "08-04 10:54",
+     "ts": 1785812099,
+     "summary": "Memory module maker Team Group posted record profit in the first half of 2026, as surging demand and a persistent DRAM supply-demand gap lifted earnings to all-time highs.",
      "source": "DIGITIMES",
      "agenda_layer": "industry",
      "language": "en",
-     "id": "aa541ca97b76",
+     "id": "0b6a47cbe670",
      "keywords_zh": [
-      "半导体 / 芯片"
+      "DRAM",
+      "业绩超预期"
      ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:aa541ca97b76",
+     "event_type": "业绩超预期",
+     "related_assets": [
+      "兆易创新"
+     ],
+     "relevance_score": 8,
+     "topic_id": "topic:55cb20154e8f",
      "cluster_size": 1,
      "sources": [
       "DIGITIMES"
@@ -3512,8 +3515,8 @@ window.DATA = {
      "cluster_urls": [
       {
        "source": "DIGITIMES",
-       "title": "L&amp;F Plus ships trial samples from South Korea&rsquo;s first LFP cathode line",
-       "url": "https://www.digitimes.com/news/a20260804PD206/materials-production-lithium-supply-chain-subsidiary.html"
+       "title": "Team Group 2Q26 profit surges more than 200-fold, expects DRAM shortage to persist through 2027",
+       "url": "https://www.digitimes.com/news/a20260803PD234/team-group-profit-dram-2027-2026.html"
       }
      ],
      "trajectory": {
@@ -3522,7 +3525,7 @@ window.DATA = {
        2
       ],
       "observations": 1,
-      "first_seen": 1785812295
+      "first_seen": 1785812692
      },
      "resonance": {
       "confirmed": false,
@@ -3537,22 +3540,22 @@ window.DATA = {
      }
     },
     {
-     "title": "China&rsquo;s in-house auto chip push could reshape costs, supply chains, and regulatory risks",
-     "url": "https://www.digitimes.com/news/a20260804PD214/automakers-chips-development-byd-manufacturing.html",
-     "time": "08-04 09:14",
-     "ts": 1785806082,
-     "summary": "As Chinese automakers accelerate in-house chip development, the strategy is increasingly about more than smart vehicles. It is also tied to supply chain self-reliance, overseas expansion, and the longer-term push into artificial intelligenc",
+     "title": "Key material shortages prompt suppliers to prioritize three customer groups",
+     "url": "https://www.digitimes.com/news/a20260803PD233/taiwan-expansion-manufacturing-production-2026.html",
+     "time": "08-04 10:41",
+     "ts": 1785811267,
+     "summary": "Taiwanese research institute Chung-Hua Institution for Economic Research (CIER) released Taiwan's manufacturing purchasing managers' index (PMI) for July 2026 on August 3. The seasonally adjusted PMI rose 0.8pp to 61.5%, marking the tenth c",
      "source": "DIGITIMES",
      "agenda_layer": "industry",
      "language": "en",
-     "id": "99cb83c9bef6",
+     "id": "7c9d71fb1c74",
      "keywords_zh": [
       "半导体 / 芯片"
      ],
      "event_type": "",
      "related_assets": [],
      "relevance_score": 0,
-     "topic_id": "story:99cb83c9bef6",
+     "topic_id": "story:7c9d71fb1c74",
      "cluster_size": 1,
      "sources": [
       "DIGITIMES"
@@ -3566,8 +3569,8 @@ window.DATA = {
      "cluster_urls": [
       {
        "source": "DIGITIMES",
-       "title": "China&rsquo;s in-house auto chip push could reshape costs, supply chains, and regulatory risks",
-       "url": "https://www.digitimes.com/news/a20260804PD214/automakers-chips-development-byd-manufacturing.html"
+       "title": "Key material shortages prompt suppliers to prioritize three customer groups",
+       "url": "https://www.digitimes.com/news/a20260803PD233/taiwan-expansion-manufacturing-production-2026.html"
       }
      ],
      "trajectory": {
@@ -3576,7 +3579,7 @@ window.DATA = {
        3
       ],
       "observations": 1,
-      "first_seen": 1785812295
+      "first_seen": 1785812692
      },
      "resonance": {
       "confirmed": false,
@@ -3591,23 +3594,22 @@ window.DATA = {
      }
     },
     {
-     "title": "Interview: Rising material costs and FOUP shortages threaten semiconductor supply chains",
-     "url": "https://www.digitimes.com/news/a20260804PD215/demand-fab-materials-wafer-2026.html",
-     "time": "08-04 09:04",
-     "ts": 1785805486,
-     "summary": "AI-driven demand, new fab construction, and conflict-led raw material inflation are combining to squeeze semiconductor suppliers in 2026, according to Topco Scientific Co. senior CEO Dennis Chen. He said higher upstream costs are flowing th",
+     "title": "MediaTek sees SerDes 448G as copper's final battleground",
+     "url": "https://www.digitimes.com/news/a20260804PD219/mediatek-copper-cloud-ai-optics.html",
+     "time": "08-04 10:27",
+     "ts": 1785810468,
+     "summary": "The question of where the limits of cloud AI high-speed interconnects will fall has been a major market focus over the past six months. MediaTek addressed the issue for the first time in its 2026 second-quarter earnings call, saying its wor",
      "source": "DIGITIMES",
      "agenda_layer": "industry",
      "language": "en",
-     "id": "b0980b3f82c8",
+     "id": "fcb485ada24b",
      "keywords_zh": [
-      "人工智能",
-      "扩产"
+      "人工智能"
      ],
-     "event_type": "扩产",
+     "event_type": "",
      "related_assets": [],
      "relevance_score": 0,
-     "topic_id": "topic:8e4afcfeb368",
+     "topic_id": "story:fcb485ada24b",
      "cluster_size": 1,
      "sources": [
       "DIGITIMES"
@@ -3621,8 +3623,8 @@ window.DATA = {
      "cluster_urls": [
       {
        "source": "DIGITIMES",
-       "title": "Interview: Rising material costs and FOUP shortages threaten semiconductor supply chains",
-       "url": "https://www.digitimes.com/news/a20260804PD215/demand-fab-materials-wafer-2026.html"
+       "title": "MediaTek sees SerDes 448G as copper's final battleground",
+       "url": "https://www.digitimes.com/news/a20260804PD219/mediatek-copper-cloud-ai-optics.html"
       }
      ],
      "trajectory": {
@@ -3631,7 +3633,7 @@ window.DATA = {
        4
       ],
       "observations": 1,
-      "first_seen": 1785812295
+      "first_seen": 1785812692
      },
      "resonance": {
       "confirmed": false,
@@ -3646,25 +3648,22 @@ window.DATA = {
      }
     },
     {
-     "title": "CXMT listing fuels concerns over DRAM prices and global memory competition",
-     "url": "https://www.digitimes.com/news/a20260804PD205/cxmt-dram-market-competition-capacity-expansion.html",
-     "time": "08-04 09:04",
-     "ts": 1785805479,
-     "summary": "China's CXMT drew fresh attention after its parent ChangXin Memory Technology (CXMT) went public, with market estimates of the firm's future valuation ranging from US$160 billion to US$1.1 trillion. The gap underscores uncertainty over how ",
+     "title": "India rumored to move to extend electronics tax breaks to 2041, widening pitch against China",
+     "url": "https://www.digitimes.com/news/a20260804VL203/electronics-apple-2026-government-exports.html",
+     "time": "08-04 10:19",
+     "ts": 1785809988,
+     "summary": "India is reportedly proposing to extend key tax exemptions for foreign electronics manufacturers until 2041, a move that hands Apple a lobbying win and deepens a widening set of incentives designed to pull global hardware production away fr",
      "source": "DIGITIMES",
      "agenda_layer": "industry",
      "language": "en",
-     "id": "0066c31fb709",
+     "id": "d11fa57edb65",
      "keywords_zh": [
-      "长鑫科技",
-      "DRAM"
+      "苹果"
      ],
      "event_type": "",
-     "related_assets": [
-      "兆易创新"
-     ],
-     "relevance_score": 10,
-     "topic_id": "story:0066c31fb709",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:d11fa57edb65",
      "cluster_size": 1,
      "sources": [
       "DIGITIMES"
@@ -3678,8 +3677,8 @@ window.DATA = {
      "cluster_urls": [
       {
        "source": "DIGITIMES",
-       "title": "CXMT listing fuels concerns over DRAM prices and global memory competition",
-       "url": "https://www.digitimes.com/news/a20260804PD205/cxmt-dram-market-competition-capacity-expansion.html"
+       "title": "India rumored to move to extend electronics tax breaks to 2041, widening pitch against China",
+       "url": "https://www.digitimes.com/news/a20260804VL203/electronics-apple-2026-government-exports.html"
       }
      ],
      "trajectory": {
@@ -3688,7 +3687,7 @@ window.DATA = {
        5
       ],
       "observations": 1,
-      "first_seen": 1785812295
+      "first_seen": 1785812692
      },
      "resonance": {
       "confirmed": false,
@@ -3703,25 +3702,22 @@ window.DATA = {
      }
     },
     {
-     "title": "Sandisk and SK Hynix release HBF spec to advance AI memory standard",
-     "url": "https://www.digitimes.com/news/a20260804PR201/sk-hynix-technology-flash-ai-inference-bandwidth.html",
-     "time": "08-04 08:50",
-     "ts": 1785804608,
-     "summary": "Sandisk and SK Hynix have published a technical specification for high-bandwidth flash through the Open Compute Project, a move that could shape future AI infrastructure worldwide. The standard is meant to help developers build faster, more",
+     "title": "White House finalizes voluntary AI testing framework, keeps details under wraps",
+     "url": "https://www.digitimes.com/news/a20260804VL204/testing-openai-government-anthropic-cybersecurity.html",
+     "time": "08-04 10:18",
+     "ts": 1785809891,
+     "summary": "The White House said on August 3 it had finalized a voluntary framework for evaluating advanced AI models, but has not disclosed the document, the testing metrics or when companies will begin using it.",
      "source": "DIGITIMES",
      "agenda_layer": "industry",
      "language": "en",
-     "id": "e4b8d733465f",
+     "id": "4ab566b2983e",
      "keywords_zh": [
-      "SK海力士",
       "人工智能"
      ],
      "event_type": "",
-     "related_assets": [
-      "兆易创新"
-     ],
-     "relevance_score": 5,
-     "topic_id": "story:e4b8d733465f",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:4ab566b2983e",
      "cluster_size": 1,
      "sources": [
       "DIGITIMES"
@@ -3735,18 +3731,17 @@ window.DATA = {
      "cluster_urls": [
       {
        "source": "DIGITIMES",
-       "title": "Sandisk and SK Hynix release HBF spec to advance AI memory standard",
-       "url": "https://www.digitimes.com/news/a20260804PR201/sk-hynix-technology-flash-ai-inference-bandwidth.html"
+       "title": "White House finalizes voluntary AI testing framework, keeps details under wraps",
+       "url": "https://www.digitimes.com/news/a20260804VL204/testing-openai-government-anthropic-cybersecurity.html"
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "new",
       "points": [
-       1,
        6
       ],
-      "observations": 2,
-      "first_seen": 1785806350
+      "observations": 1,
+      "first_seen": 1785812692
      },
      "resonance": {
       "confirmed": false,
@@ -14972,6 +14967,114 @@ window.DATA = {
    "total": 18,
    "items": [
     {
+     "title": "小米之家将开启“夏日冰爽搭子”活动：8 月 6 日至 9 日到店可领元气森林气泡水",
+     "url": "https://www.ithome.com/0/985/388.htm",
+     "time": "08-04 11:02",
+     "ts": 1785812527,
+     "summary": "IT之家 8 月 4 日消息，小米之家宣布将于 8 月 6 日至 8 月 9 日开启“夏日冰爽搭子”门店活动，到店体验米家冰箱 Pro 至尊版 508L，并添加企微，可领元气森林气泡水。官方称相应活动覆盖全国 2000 余家小米之家门店，参与活动的门店单店不少于 24 份，每天限领 1 份。IT之家注：去门店之前可先致电咨询门店发放情况，官方提供的具体活动店铺列表（https://qr61.cn/ojDsrc/qux4BlZ）。此外，小米之家目前正开启免费领麦当劳中薯兑换券活",
+     "source": "IT之家",
+     "agenda_layer": "media",
+     "language": "zh",
+     "id": "3d16f51008d4",
+     "keywords_zh": [
+      "科技 / 互联网"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:3d16f51008d4",
+     "cluster_size": 1,
+     "sources": [
+      "IT之家"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "media"
+     ],
+     "cluster_urls": [
+      {
+       "source": "IT之家",
+       "title": "小米之家将开启“夏日冰爽搭子”活动：8 月 6 日至 9 日到店可领元气森林气泡水",
+       "url": "https://www.ithome.com/0/985/388.htm"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       1
+      ],
+      "observations": 1,
+      "first_seen": 1785812692
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "zh"
+      ],
+      "agenda_layers": [
+       "media"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "德明利发布企业级 DDR5 RDIMM 内存模组，传输速率至高 6400MT/s",
+     "url": "https://www.ithome.com/0/985/386.htm",
+     "time": "08-04 10:59",
+     "ts": 1785812399,
+     "summary": "IT之家 8 月 4 日消息，德明利 (TWSC) 昨日发布了 TR510C 与 TR520C 系列企业级 DDR5 RDIMM 内存模组。其中 TR510C 容量规格 32GB，支持 5600MT/s 传输速率；TR520C 容量规格 64GB，支持 6400MT/s 传输速率。德明利表示，服务器内存需要在多条 DIMM 部署、持续高负载及复杂温度条件下长期运行。TR510C / TR520C 系列围绕数据完整性、信号完整性、供电稳定性及平台验证进行企业级设计，降低内存错误",
+     "source": "IT之家",
+     "agenda_layer": "media",
+     "language": "zh",
+     "id": "a67ce3e845cd",
+     "keywords_zh": [
+      "产品发布"
+     ],
+     "event_type": "产品发布",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:a67ce3e845cd",
+     "cluster_size": 1,
+     "sources": [
+      "IT之家"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "media"
+     ],
+     "cluster_urls": [
+      {
+       "source": "IT之家",
+       "title": "德明利发布企业级 DDR5 RDIMM 内存模组，传输速率至高 6400MT/s",
+       "url": "https://www.ithome.com/0/985/386.htm"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       2
+      ],
+      "observations": 1,
+      "first_seen": 1785812692
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "zh"
+      ],
+      "agenda_layers": [
+       "media"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
      "title": "62岁的温州商人，用20年在广西小县城养出“水牛奶之王”",
      "url": "https://www.tmtpost.com/8090137.html",
      "time": "08-04 10:52",
@@ -15008,7 +15111,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       1
+       3
       ],
       "observations": 1,
       "first_seen": 1785812295
@@ -15062,7 +15165,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       2
+       4
       ],
       "observations": 1,
       "first_seen": 1785812295
@@ -15116,7 +15219,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       3
+       5
       ],
       "observations": 1,
       "first_seen": 1785812295
@@ -15170,7 +15273,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       4
+       6
       ],
       "observations": 1,
       "first_seen": 1785812295
@@ -15224,7 +15327,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       5
+       7
       ],
       "observations": 1,
       "first_seen": 1785812295
@@ -15278,7 +15381,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       6
+       8
       ],
       "observations": 1,
       "first_seen": 1785812295
@@ -15333,7 +15436,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       7
+       9
       ],
       "observations": 1,
       "first_seen": 1785812295
@@ -15387,7 +15490,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       8
+       10
       ],
       "observations": 1,
       "first_seen": 1785812295
@@ -15441,7 +15544,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       9
+       11
       ],
       "observations": 1,
       "first_seen": 1785812295
@@ -15490,114 +15593,6 @@ window.DATA = {
        "source": "钛媒体",
        "title": "港股7月IPO市场：超级IPO与破发潮并存，硬科技仍是主旋律",
        "url": "https://www.tmtpost.com/8090132.html"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       10
-      ],
-      "observations": 1,
-      "first_seen": 1785812295
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "zh"
-      ],
-      "agenda_layers": [
-       "media"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "宝可梦开发商 Game Freak 新作《轮回之兽》获 IGN 6 分：游戏设计重复性高、令人乏味",
-     "url": "https://www.ithome.com/0/985/375.htm",
-     "time": "08-04 10:39",
-     "ts": 1785811162,
-     "summary": "IT之家 8 月 4 日消息，宝可梦开发商 GAME FREAK inc. 的全新动作角色扮演游戏《轮回之兽（Beast of Reincarnation）》于今天正式发售，国区定价 248 元起，本作全球媒体评测现已解禁。截至IT之家发稿，本作在 Metacritic 上 PS5 版均分 73（暂由 51 家媒体给出），PC 版 72 分（暂由 26 家媒体给出）。IGN 给予这款游戏 6 分，认为游戏设定具有吸引力，但实际上设计上重复性较高，令人乏味：《轮回之兽》拥有一个",
-     "source": "IT之家",
-     "agenda_layer": "media",
-     "language": "zh",
-     "id": "c2d99999e78e",
-     "keywords_zh": [
-      "科技 / 互联网"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:c2d99999e78e",
-     "cluster_size": 1,
-     "sources": [
-      "IT之家"
-     ],
-     "languages": [
-      "zh"
-     ],
-     "agenda_layers": [
-      "media"
-     ],
-     "cluster_urls": [
-      {
-       "source": "IT之家",
-       "title": "宝可梦开发商 Game Freak 新作《轮回之兽》获 IGN 6 分：游戏设计重复性高、令人乏味",
-       "url": "https://www.ithome.com/0/985/375.htm"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       11
-      ],
-      "observations": 1,
-      "first_seen": 1785812295
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "zh"
-      ],
-      "agenda_layers": [
-       "media"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "联想来酷斗战者战 7000X 轻薄游戏本上市，首发 + 国补 7904.15 元起",
-     "url": "https://www.ithome.com/0/985/371.htm",
-     "time": "08-04 10:37",
-     "ts": 1785811058,
-     "summary": "IT之家 8 月 4 日消息，联想 (Lenovo) 来酷 (Lecoo) 斗战者 (BELLATOR) 轻薄游戏笔记本电脑新品战 7000X 现已上市。其提供 4 个配置，首发期优惠 + 国家补贴后到手价 7904.15 元起。战 7000X 采用 16\" 机身，可选英特尔酷睿 Ultra 7 251HX / 酷睿 7 245HX 处理器，全系搭载 NVIDIA GeForce RTX 5060 笔记本电脑 GPU，轻约 1.99kg、薄约 18.95mm，支持至高 180",
-     "source": "IT之家",
-     "agenda_layer": "media",
-     "language": "zh",
-     "id": "e846866405d6",
-     "keywords_zh": [
-      "英伟达"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:e846866405d6",
-     "cluster_size": 1,
-     "sources": [
-      "IT之家"
-     ],
-     "languages": [
-      "zh"
-     ],
-     "agenda_layers": [
-      "media"
-     ],
-     "cluster_urls": [
-      {
-       "source": "IT之家",
-       "title": "联想来酷斗战者战 7000X 轻薄游戏本上市，首发 + 国补 7904.15 元起",
-       "url": "https://www.ithome.com/0/985/371.htm"
       }
      ],
      "trajectory": {
@@ -16003,7 +15998,7 @@ window.DATA = {
      "url": "https://nooneshappy.com/article/native-apps-should-be-avoided-whenever-possible",
      "time": "08-04 09:06",
      "ts": 1785805596,
-     "summary": "Article URL: https://nooneshappy.com/article/native-apps-should-be-avoided-whenever-possible/ Comments URL: https://news.ycombinator.com/item?id=49163286 Points: 8 # Comments: 3",
+     "summary": "Article URL: https://nooneshappy.com/article/native-apps-should-be-avoided-whenever-possible/ Comments URL: https://news.ycombinator.com/item?id=49163286 Points: 19 # Comments: 10",
      "source": "Hacker News",
      "agenda_layer": "media",
      "language": "en",
@@ -16222,7 +16217,7 @@ window.DATA = {
      "url": "https://users.wpi.edu/~zrbutzke/Docs/BradburyStories(1).pdf",
      "time": "08-04 07:24",
      "ts": 1785799493,
-     "summary": "Article URL: https://users.wpi.edu/~zrbutzke/Docs/BradburyStories(1).pdf Comments URL: https://news.ycombinator.com/item?id=49162653 Points: 41 # Comments: 17",
+     "summary": "Article URL: https://users.wpi.edu/~zrbutzke/Docs/BradburyStories(1).pdf Comments URL: https://news.ycombinator.com/item?id=49162653 Points: 41 # Comments: 18",
      "source": "Hacker News",
      "agenda_layer": "media",
      "language": "en",
@@ -16886,7 +16881,7 @@ window.DATA = {
      "url": "https://www.seangoedecke.com/llms-reward-expertise",
      "time": "08-04 05:13",
      "ts": 1785791633,
-     "summary": "Article URL: https://www.seangoedecke.com/llms-reward-expertise/ Comments URL: https://news.ycombinator.com/item?id=49161518 Points: 500 # Comments: 221",
+     "summary": "Article URL: https://www.seangoedecke.com/llms-reward-expertise/ Comments URL: https://news.ycombinator.com/item?id=49161518 Points: 515 # Comments: 229",
      "source": "Hacker News",
      "agenda_layer": "media",
      "language": "en",
@@ -17272,7 +17267,7 @@ window.DATA = {
      "url": "https://www.mcgill.ca/oss/article/critical-thinking/dunning-kruger-effect-probably-not-real",
      "time": "08-04 03:39",
      "ts": 1785785974,
-     "summary": "Article URL: https://www.mcgill.ca/oss/article/critical-thinking/dunning-kruger-effect-probably-not-real Comments URL: https://news.ycombinator.com/item?id=49160437 Points: 128 # Comments: 139",
+     "summary": "Article URL: https://www.mcgill.ca/oss/article/critical-thinking/dunning-kruger-effect-probably-not-real Comments URL: https://news.ycombinator.com/item?id=49160437 Points: 129 # Comments: 143",
      "source": "Hacker News",
      "agenda_layer": "media",
      "language": "en",
@@ -18974,6 +18969,60 @@ window.DATA = {
      }
     },
     {
+     "title": "36氪首发 | 为果链、头部灵巧手公司供货，新型减速器厂商完成超亿元融资，估值破10亿",
+     "url": "https://36kr.com/p/3924628805351811",
+     "time": "—",
+     "ts": 0,
+     "summary": "作者&nbsp;|&nbsp;乔钰杰 编辑&nbsp;|&nbsp;袁斯来 硬氪获悉，精密减速器企业陶世智能科技有限公司（以下简称“陶世”）近日完成1.4亿元融资。本轮融资由前海金控，广州国控，海川聚义，杭州众燊参与，德太资本担任财务顾问。融资资金将主要用于产品研发、产线扩建以及机器人领域市场拓展。 陶世成立于2016年，总部位于深圳，主要研发和生产正交90度微型减速器及机器人关节模组。公司核心产品为微型环面包络蜗轮蜗杆减速器，通过将减速与转角功能集成在单一结构中，实现更小体",
+     "source": "36氪",
+     "agenda_layer": "media",
+     "language": "zh",
+     "id": "77d80381d080",
+     "keywords_zh": [
+      "机器人"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:77d80381d080",
+     "cluster_size": 1,
+     "sources": [
+      "36氪"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "media"
+     ],
+     "cluster_urls": [
+      {
+       "source": "36氪",
+       "title": "36氪首发 | 为果链、头部灵巧手公司供货，新型减速器厂商完成超亿元融资，估值破10亿",
+       "url": "https://36kr.com/p/3924628805351811"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       74
+      ],
+      "observations": 1,
+      "first_seen": 1785812692
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "zh"
+      ],
+      "agenda_layers": [
+       "media"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
      "title": "8点1氪丨宗馥莉同父异母兄弟出任新公司董事长；DeepSeek升至全球调用量第一；iPhone被曝最高或涨价超千元",
      "url": "https://36kr.com/p/3924467692927369",
      "time": "—",
@@ -19013,7 +19062,7 @@ window.DATA = {
       "label": "steady",
       "points": [
        74,
-       74
+       75
       ],
       "observations": 2,
       "first_seen": 1785806350
@@ -19068,7 +19117,7 @@ window.DATA = {
       "label": "steady",
       "points": [
        75,
-       75
+       76
       ],
       "observations": 2,
       "first_seen": 1785806350
@@ -19123,7 +19172,7 @@ window.DATA = {
       "label": "steady",
       "points": [
        76,
-       76
+       77
       ],
       "observations": 2,
       "first_seen": 1785806350
@@ -19178,7 +19227,7 @@ window.DATA = {
       "label": "steady",
       "points": [
        77,
-       77
+       78
       ],
       "observations": 2,
       "first_seen": 1785806350
@@ -19235,61 +19284,6 @@ window.DATA = {
       "label": "steady",
       "points": [
        78,
-       78
-      ],
-      "observations": 2,
-      "first_seen": 1785806350
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "zh"
-      ],
-      "agenda_layers": [
-       "media"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "前安克3D打印业务负责人要做B端工具产品，获数千万融资｜36氪首发",
-     "url": "https://36kr.com/p/3923371035831684",
-     "time": "—",
-     "ts": 0,
-     "summary": "文｜张子怡 编辑｜袁斯来 36氪获悉，3D打印智能制造品牌「轻量智造（LightMake）」连续完成两轮共计超2500万元人民币融资，投资机构有海目星激光老板家族办公室、南山资本、卓源亚洲、朗翰资本。本轮融资资金主要用于产品研发、供应链体系搭建以及全球市场推广。 「轻量智造」成立于2025年，团队为中高端SMB（中小型企业）与Pro C（专业个人）用户研发生产桌面化、小型的“轻量化制造工具”，初代产品LightMake为独立四头3D打印机，目前已在Kickstarter平台上",
-     "source": "36氪",
-     "agenda_layer": "media",
-     "language": "zh",
-     "id": "9c4740854648",
-     "keywords_zh": [
-      "科技 / 互联网"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:9c4740854648",
-     "cluster_size": 1,
-     "sources": [
-      "36氪"
-     ],
-     "languages": [
-      "zh"
-     ],
-     "agenda_layers": [
-      "media"
-     ],
-     "cluster_urls": [
-      {
-       "source": "36氪",
-       "title": "前安克3D打印业务负责人要做B端工具产品，获数千万融资｜36氪首发",
-       "url": "https://36kr.com/p/3923371035831684"
-      }
-     ],
-     "trajectory": {
-      "label": "steady",
-      "points": [
-       79,
        79
       ],
       "observations": 2,
@@ -21637,6 +21631,550 @@ window.DATA = {
    "total": 13,
    "items": [
     {
+     "title": "Guggenheim Taxable Municipal Bond & Investment Grade Debt Trust declares $0.1257 dividend",
+     "url": "https://seekingalpha.com/news/4624223-guggenheim-taxable-municipal-bond-and-investment-grade-debt-trust-declares-0_1257-dividend",
+     "time": "08-04 11:00",
+     "ts": 1785812414,
+     "summary": "",
+     "source": "Seeking Alpha",
+     "agenda_layer": "market",
+     "language": "en",
+     "id": "3dbf5d4a0bc8",
+     "keywords_zh": [
+      "财经 / 宏观"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:3dbf5d4a0bc8",
+     "cluster_size": 1,
+     "sources": [
+      "Seeking Alpha"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "Seeking Alpha",
+       "title": "Guggenheim Taxable Municipal Bond & Investment Grade Debt Trust declares $0.1257 dividend",
+       "url": "https://seekingalpha.com/news/4624223-guggenheim-taxable-municipal-bond-and-investment-grade-debt-trust-declares-0_1257-dividend"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       1
+      ],
+      "observations": 1,
+      "first_seen": 1785812692
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "India to raise up to $3.3 billion by selling stake in country’s largest life insurer at 10% discount",
+     "url": "https://www.cnbc.com/2026/08/04/india-lic-stake-sale-discount.html",
+     "time": "08-04 11:00",
+     "ts": 1785812401,
+     "summary": "Indian government plans to raise up to $3.3 billion by selling its stake in the country's top life insurance company.",
+     "source": "CNBC",
+     "agenda_layer": "market",
+     "language": "en",
+     "id": "76ce075832dd",
+     "keywords_zh": [
+      "财经 / 宏观"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:76ce075832dd",
+     "cluster_size": 1,
+     "sources": [
+      "CNBC"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "CNBC",
+       "title": "India to raise up to $3.3 billion by selling stake in country’s largest life insurer at 10% discount",
+       "url": "https://www.cnbc.com/2026/08/04/india-lic-stake-sale-discount.html"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       2
+      ],
+      "observations": 1,
+      "first_seen": 1785812295
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "Advent Convertible and Income Fund declares $0.1172 dividend",
+     "url": "https://seekingalpha.com/news/4624222-advent-convertible-and-income-fund-declares-0_1172-dividend",
+     "time": "08-04 10:59",
+     "ts": 1785812387,
+     "summary": "",
+     "source": "Seeking Alpha",
+     "agenda_layer": "market",
+     "language": "en",
+     "id": "f06e9ec619d7",
+     "keywords_zh": [
+      "财经 / 宏观"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:f06e9ec619d7",
+     "cluster_size": 1,
+     "sources": [
+      "Seeking Alpha"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "Seeking Alpha",
+       "title": "Advent Convertible and Income Fund declares $0.1172 dividend",
+       "url": "https://seekingalpha.com/news/4624222-advent-convertible-and-income-fund-declares-0_1172-dividend"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       3
+      ],
+      "observations": 1,
+      "first_seen": 1785812692
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "能辉科技8月4日盘中涨幅达5%",
+     "url": "http://stock.eastmoney.com/news/1944,202608043830909830.html",
+     "time": "08-04 10:57",
+     "ts": 1785812279,
+     "summary": "以下是能辉科技在北京时间8月4日10:57分盘口异动快照：8月4日，能辉科技盘中涨幅达5%，截至10点57分，报18.2元，成交2864.95万元，换手率1.23%。分笔10:57:5118.20214↑10:57:4818.151↓10:57:3918.167↑10:57:3318.164↓10:57:2418.172↑10:57:1818.1635↑10:57:1218.1517↓10:57:0918.155↓10:57:0018.152↓10:56:5718.1529↑",
+     "source": "东方财富股票",
+     "agenda_layer": "market",
+     "language": "zh",
+     "id": "fe77706646f5",
+     "keywords_zh": [
+      "财经 / 宏观"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:fe77706646f5",
+     "cluster_size": 1,
+     "sources": [
+      "东方财富股票"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "东方财富股票",
+       "title": "能辉科技8月4日盘中涨幅达5%",
+       "url": "http://stock.eastmoney.com/news/1944,202608043830909830.html"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       4
+      ],
+      "observations": 1,
+      "first_seen": 1785812692
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "zh"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "8月4日光伏加工设备板块涨幅达2%",
+     "url": "http://stock.eastmoney.com/news/1944,202608043830909777.html",
+     "time": "08-04 10:57",
+     "ts": 1785812270,
+     "summary": "&emsp;&emsp;8月4日10点57分，光伏加工设备板块指数报6264.49点，涨幅达2%，成交20.96亿元，换手率0.99%。&emsp;&emsp;板块个股中，涨幅最大的前5个股为：帝尔激光报102.53元，涨8.03%；迈为股份报153.47元，涨5.18%；高测股份报8.43元，涨2.43%；奥特维报39.90元，涨2.33%；拉普拉斯报42.85元，涨2.12%。注：以上信息仅供参考，不对您构成任何投资建议。",
+     "source": "东方财富股票",
+     "agenda_layer": "market",
+     "language": "zh",
+     "id": "b258ba973a4c",
+     "keywords_zh": [
+      "财经 / 宏观"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:b258ba973a4c",
+     "cluster_size": 1,
+     "sources": [
+      "东方财富股票"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "东方财富股票",
+       "title": "8月4日光伏加工设备板块涨幅达2%",
+       "url": "http://stock.eastmoney.com/news/1944,202608043830909777.html"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       5
+      ],
+      "observations": 1,
+      "first_seen": 1785812692
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "zh"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "8月4日MiniLED板块涨幅达3%",
+     "url": "http://stock.eastmoney.com/news/1944,202608043830909650.html",
+     "time": "08-04 10:57",
+     "ts": 1785812270,
+     "summary": "&emsp;&emsp;8月4日10点57分，MiniLED板块指数报2294.468点，涨幅达3%，成交363.86亿元，换手率1.74%。&emsp;&emsp;板块个股中，涨幅最大的前5个股为：新相微报29.39元，涨10.70%；东山精密报179.09元，涨10.00%；沃格光电报71.43元，涨9.99%；中京电子报11.80元，涨9.97%；红板科技报87.20元，涨9.45%。注：以上信息仅供参考，不对您构成任何投资建议。",
+     "source": "东方财富股票",
+     "agenda_layer": "market",
+     "language": "zh",
+     "id": "c59852f566cf",
+     "keywords_zh": [
+      "财经 / 宏观"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:c59852f566cf",
+     "cluster_size": 1,
+     "sources": [
+      "东方财富股票"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "东方财富股票",
+       "title": "8月4日MiniLED板块涨幅达3%",
+       "url": "http://stock.eastmoney.com/news/1944,202608043830909650.html"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       6
+      ],
+      "observations": 1,
+      "first_seen": 1785812692
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "zh"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "圣晖集成8月4日盘中涨幅达5%",
+     "url": "http://stock.eastmoney.com/news/1944,202608043830909411.html",
+     "time": "08-04 10:57",
+     "ts": 1785812262,
+     "summary": "以下是圣晖集成在北京时间8月4日10:57分盘口异动快照：8月4日，圣晖集成盘中涨幅达5%，截至10点57分，报70.46元，成交1.56亿元，换手率2.27%。分笔10:57:3570.46393↑10:57:3269.993↑10:57:2969.824↓10:57:2369.822↓10:57:2069.872↑10:57:1169.864↓10:57:0869.8996↓10:57:0569.9569↓10:57:0269.9931↑10:56:5969.9923↑报",
+     "source": "东方财富股票",
+     "agenda_layer": "market",
+     "language": "zh",
+     "id": "6613d49adcd7",
+     "keywords_zh": [
+      "财经 / 宏观"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:6613d49adcd7",
+     "cluster_size": 1,
+     "sources": [
+      "东方财富股票"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "东方财富股票",
+       "title": "圣晖集成8月4日盘中涨幅达5%",
+       "url": "http://stock.eastmoney.com/news/1944,202608043830909411.html"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       7
+      ],
+      "observations": 1,
+      "first_seen": 1785812692
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "zh"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "8月4日小金属概念板块涨幅达2%",
+     "url": "http://stock.eastmoney.com/news/1944,202608043830909344.html",
+     "time": "08-04 10:57",
+     "ts": 1785812247,
+     "summary": "&emsp;&emsp;8月4日10点57分，小金属概念板块指数报4069.477点，涨幅达2%，成交510.75亿元，换手率1.00%。&emsp;&emsp;板块个股中，涨幅最大的前5个股为：云南锗业报75.19元，涨10.01%；东方钽业报46.94元，涨10.01%；天通股份报17.94元，涨8.93%；有研粉材报68.79元，涨7.82%；中钨高新报51.23元，涨6.75%。注：以上信息仅供参考，不对您构成任何投资建议。",
+     "source": "东方财富股票",
+     "agenda_layer": "market",
+     "language": "zh",
+     "id": "6d3b1faf449f",
+     "keywords_zh": [
+      "财经 / 宏观"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:6d3b1faf449f",
+     "cluster_size": 1,
+     "sources": [
+      "东方财富股票"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "东方财富股票",
+       "title": "8月4日小金属概念板块涨幅达2%",
+       "url": "http://stock.eastmoney.com/news/1944,202608043830909344.html"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       8
+      ],
+      "observations": 1,
+      "first_seen": 1785812692
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "zh"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "8月4日LED板块涨幅达2%",
+     "url": "http://stock.eastmoney.com/news/1944,202608043830909051.html",
+     "time": "08-04 10:57",
+     "ts": 1785812233,
+     "summary": "&emsp;&emsp;8月4日10点57分，LED板块指数报6872.876点，涨幅达2%，成交38.14亿元，换手率1.71%。&emsp;&emsp;板块个股中，涨幅最大的前5个股为：爱克股份报19.09元，涨6.53%；华灿光电报11.04元，涨6.05%；光莆股份报16.92元，涨5.68%；三安光电报12.64元，涨3.44%；华体科技报21.74元，涨3.08%。注：以上信息仅供参考，不对您构成任何投资建议。",
+     "source": "东方财富股票",
+     "agenda_layer": "market",
+     "language": "zh",
+     "id": "fcdeda4917e0",
+     "keywords_zh": [
+      "财经 / 宏观"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:fcdeda4917e0",
+     "cluster_size": 1,
+     "sources": [
+      "东方财富股票"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "东方财富股票",
+       "title": "8月4日LED板块涨幅达2%",
+       "url": "http://stock.eastmoney.com/news/1944,202608043830909051.html"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       9
+      ],
+      "observations": 1,
+      "first_seen": 1785812692
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "zh"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "高盛合伙人：盈利才是核心驱动力，标普500年内有望再创历史新高",
+     "url": "https://wallstreetcn.com/articles/3778629",
+     "time": "08-04 10:52",
+     "ts": 1785811921,
+     "summary": "强劲的企业盈利正在为美股多头提供最有力的支撑。高盛合伙人John Flood认为，随着市场仓位趋于“干净”，标普500指数年内有望再创历史新高，而驱动这一判断的核心逻辑是——盈利。 据高盛数据，标普500指数第二季度每股收益（EPS）同比增速追踪值高达45%，远超季初22%的市场一致预期。即便剔除Alphabet和亚马逊合计约1510亿美元股权投资相关&#34;其他收入&#34;等非经常性项目，标普500 EPS增速仍达26%，不仅较第一季度加速，更是2021年以来最快增速。",
+     "source": "华尔街见闻",
+     "agenda_layer": "market",
+     "language": "zh",
+     "id": "d24b0f988c10",
+     "keywords_zh": [
+      "亚马逊",
+      "谷歌"
+     ],
+     "event_type": "",
+     "related_assets": [
+      "国投白银LOF",
+      "黄金ETF华安"
+     ],
+     "relevance_score": 3,
+     "topic_id": "story:d24b0f988c10",
+     "cluster_size": 1,
+     "sources": [
+      "华尔街见闻"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "华尔街见闻",
+       "title": "高盛合伙人：盈利才是核心驱动力，标普500年内有望再创历史新高",
+       "url": "https://wallstreetcn.com/articles/3778629"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       10
+      ],
+      "observations": 1,
+      "first_seen": 1785812692
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "zh"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
      "title": "Highland Income Fund declares $0.0385 dividend",
      "url": "https://seekingalpha.com/news/4624221-highland-income-fund-declares-0_0385-dividend",
      "time": "08-04 10:51",
@@ -21673,7 +22211,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       1
+       11
       ],
       "observations": 1,
       "first_seen": 1785812295
@@ -21683,281 +22221,6 @@ window.DATA = {
       "source_count": 1,
       "languages": [
        "en"
-      ],
-      "agenda_layers": [
-       "market"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "敷尔佳8月4日快速上涨",
-     "url": "http://stock.eastmoney.com/news/1944,202608043830903477.html",
-     "time": "08-04 10:50",
-     "ts": 1785811827,
-     "summary": "以下是敷尔佳在北京时间8月4日10:50分盘口异动快照：8月4日，敷尔佳盘中快速上涨，5分钟内涨幅超过2%，截至10点50分，报26.27元，成交2826.40万元，换手率1.41%。分笔10:50:2126.27881↑10:50:1826.05530↑10:50:1225.9411↑10:50:0325.921↑10:50:0025.9011↑10:49:5725.9011↑10:49:5425.907↑10:49:4825.8916↑10:49:4525.885↑10:",
-     "source": "东方财富股票",
-     "agenda_layer": "market",
-     "language": "zh",
-     "id": "cbc2380dfd8a",
-     "keywords_zh": [
-      "财经 / 宏观"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:cbc2380dfd8a",
-     "cluster_size": 1,
-     "sources": [
-      "东方财富股票"
-     ],
-     "languages": [
-      "zh"
-     ],
-     "agenda_layers": [
-      "market"
-     ],
-     "cluster_urls": [
-      {
-       "source": "东方财富股票",
-       "title": "敷尔佳8月4日快速上涨",
-       "url": "http://stock.eastmoney.com/news/1944,202608043830903477.html"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       2
-      ],
-      "observations": 1,
-      "first_seen": 1785812295
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "zh"
-      ],
-      "agenda_layers": [
-       "market"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "裕同科技8月4日快速上涨",
-     "url": "http://stock.eastmoney.com/news/1944,202608043830903323.html",
-     "time": "08-04 10:50",
-     "ts": 1785811818,
-     "summary": "以下是裕同科技在北京时间8月4日10:50分盘口异动快照：8月4日，裕同科技盘中快速上涨，5分钟内涨幅超过2%，截至10点50分，报26.87元，成交1.22亿元，换手率0.65%。分笔10:50:1226.87142↑10:50:0926.8391↑10:50:0626.80195↑10:50:0326.7324↑10:50:0026.7197↓10:49:5726.6841↓10:49:5426.69191↓10:49:5126.70173↑10:49:4826.6837",
-     "source": "东方财富股票",
-     "agenda_layer": "market",
-     "language": "zh",
-     "id": "c6da10a21b40",
-     "keywords_zh": [
-      "财经 / 宏观"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:c6da10a21b40",
-     "cluster_size": 1,
-     "sources": [
-      "东方财富股票"
-     ],
-     "languages": [
-      "zh"
-     ],
-     "agenda_layers": [
-      "market"
-     ],
-     "cluster_urls": [
-      {
-       "source": "东方财富股票",
-       "title": "裕同科技8月4日快速上涨",
-       "url": "http://stock.eastmoney.com/news/1944,202608043830903323.html"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       3
-      ],
-      "observations": 1,
-      "first_seen": 1785812295
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "zh"
-      ],
-      "agenda_layers": [
-       "market"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "中赋科技8月4日盘中涨幅达5%",
-     "url": "http://stock.eastmoney.com/news/1944,202608043830903273.html",
-     "time": "08-04 10:50",
-     "ts": 1785811818,
-     "summary": "以下是中赋科技在北京时间8月4日10:50分盘口异动快照：8月4日，中赋科技盘中涨幅达5%，截至10点50分，报8.51元，成交9486.50万元，换手率2.22%。分笔10:50:128.515↑10:50:098.5080↓10:50:068.5036↓10:50:038.501712↑10:50:008.495↓10:49:578.4983↑10:49:548.4912↑10:49:518.4913↑10:49:458.4939↑10:49:428.50124↑报价卖五",
-     "source": "东方财富股票",
-     "agenda_layer": "market",
-     "language": "zh",
-     "id": "368c97d55478",
-     "keywords_zh": [
-      "财经 / 宏观"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:368c97d55478",
-     "cluster_size": 1,
-     "sources": [
-      "东方财富股票"
-     ],
-     "languages": [
-      "zh"
-     ],
-     "agenda_layers": [
-      "market"
-     ],
-     "cluster_urls": [
-      {
-       "source": "东方财富股票",
-       "title": "中赋科技8月4日盘中涨幅达5%",
-       "url": "http://stock.eastmoney.com/news/1944,202608043830903273.html"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       4
-      ],
-      "observations": 1,
-      "first_seen": 1785812295
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "zh"
-      ],
-      "agenda_layers": [
-       "market"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "*ST宝馨8月4日盘中涨幅达5%",
-     "url": "http://stock.eastmoney.com/news/1944,202608043830902376.html",
-     "time": "08-04 10:50",
-     "ts": 1785811805,
-     "summary": "以下是*ST宝馨在北京时间8月4日10:49分盘口异动快照：8月4日，*ST宝馨盘中涨幅达5%，截至10点49分，报2.1元，成交8795.59万元，换手率7.81%。分笔10:49:572.101872↑10:49:542.09640↓10:49:512.09595↑10:49:482.091002↑10:49:452.081476↓10:49:422.091145↑10:49:392.091563↑10:49:362.085↓10:49:302.0810↓10:49:27",
-     "source": "东方财富股票",
-     "agenda_layer": "market",
-     "language": "zh",
-     "id": "e1e18180eeef",
-     "keywords_zh": [
-      "财经 / 宏观"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:e1e18180eeef",
-     "cluster_size": 2,
-     "sources": [
-      "东方财富股票"
-     ],
-     "languages": [
-      "zh"
-     ],
-     "agenda_layers": [
-      "market"
-     ],
-     "cluster_urls": [
-      {
-       "source": "东方财富股票",
-       "title": "*ST宝馨8月4日盘中涨幅达5%",
-       "url": "http://stock.eastmoney.com/news/1944,202608043830902376.html"
-      },
-      {
-       "source": "东方财富股票",
-       "title": "斯迪克8月4日盘中涨幅达5%",
-       "url": "http://stock.eastmoney.com/news/1944,202608043830902030.html"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       5
-      ],
-      "observations": 1,
-      "first_seen": 1785812295
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "zh"
-      ],
-      "agenda_layers": [
-       "market"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "华懋科技8月4日打开涨停",
-     "url": "http://stock.eastmoney.com/news/1944,202608043830902131.html",
-     "time": "08-04 10:49",
-     "ts": 1785811774,
-     "summary": "以下是华懋科技在北京时间8月4日10:49分盘口异动快照：8月4日10点49分，华懋科技盘中打开涨停，现报60.93元，成交5.76亿元，换手率2.94%。该股之前于10点49分涨停。分笔10:49:2460.931359↓10:49:2161.33572↓10:49:1861.33385↓10:49:1561.33737↓10:49:1261.339953↑10:49:0961.02395↑10:49:0661.021291↑10:49:0360.8939↓10:49:00",
-     "source": "东方财富股票",
-     "agenda_layer": "market",
-     "language": "zh",
-     "id": "6fa09ba837d0",
-     "keywords_zh": [
-      "财经 / 宏观"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:6fa09ba837d0",
-     "cluster_size": 1,
-     "sources": [
-      "东方财富股票"
-     ],
-     "languages": [
-      "zh"
-     ],
-     "agenda_layers": [
-      "market"
-     ],
-     "cluster_urls": [
-      {
-       "source": "东方财富股票",
-       "title": "华懋科技8月4日打开涨停",
-       "url": "http://stock.eastmoney.com/news/1944,202608043830902131.html"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       6
-      ],
-      "observations": 1,
-      "first_seen": 1785812295
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "zh"
       ],
       "agenda_layers": [
        "market"
@@ -21982,7 +22245,7 @@ window.DATA = {
      "related_assets": [],
      "relevance_score": 0,
      "topic_id": "story:46036ced3915",
-     "cluster_size": 4,
+     "cluster_size": 3,
      "sources": [
       "Seeking Alpha"
      ],
@@ -22007,71 +22270,12 @@ window.DATA = {
        "source": "Seeking Alpha",
        "title": "John Hancock Preferred Income Fund III declares $0.11 dividend",
        "url": "https://seekingalpha.com/news/4624218-john-hancock-preferred-income-fund-iii-declares-0_11-dividend"
-      },
-      {
-       "source": "Seeking Alpha",
-       "title": "John Hancock Tax-Advantaged Dividend Income Fund declares $0.158 dividend",
-       "url": "https://seekingalpha.com/news/4624216-john-hancock-tax-advantaged-dividend-income-fund-declares-0_158-dividend"
       }
      ],
      "trajectory": {
       "label": "new",
       "points": [
-       7
-      ],
-      "observations": 1,
-      "first_seen": 1785812295
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "market"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "John Hancock Premium Dividend Fund declares $0.0883 dividend",
-     "url": "https://seekingalpha.com/news/4624217-john-hancock-premium-dividend-fund-declares-0_0883-dividend",
-     "time": "08-04 10:48",
-     "ts": 1785811703,
-     "summary": "",
-     "source": "Seeking Alpha",
-     "agenda_layer": "market",
-     "language": "en",
-     "id": "6fdc14848b2a",
-     "keywords_zh": [
-      "财经 / 宏观"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:6fdc14848b2a",
-     "cluster_size": 1,
-     "sources": [
-      "Seeking Alpha"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "market"
-     ],
-     "cluster_urls": [
-      {
-       "source": "Seeking Alpha",
-       "title": "John Hancock Premium Dividend Fund declares $0.0883 dividend",
-       "url": "https://seekingalpha.com/news/4624217-john-hancock-premium-dividend-fund-declares-0_0883-dividend"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       8
+       12
       ],
       "observations": 1,
       "first_seen": 1785812295
@@ -22125,7 +22329,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       9
+       13
       ],
       "observations": 1,
       "first_seen": 1785812295
@@ -22179,7 +22383,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       10
+       14
       ],
       "observations": 1,
       "first_seen": 1785812295
@@ -22189,60 +22393,6 @@ window.DATA = {
       "source_count": 1,
       "languages": [
        "zh"
-      ],
-      "agenda_layers": [
-       "market"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "India to raise up to $3.3 billion by selling stake in country’s largest life insurer at 10% discount",
-     "url": "https://www.cnbc.com/2026/08/04/india-lic-stake-sale-discount.html",
-     "time": "08-04 10:16",
-     "ts": 1785809773,
-     "summary": "Indian government plans to raise up to $3.3 billion by selling its stake in the country's top life insurance company.",
-     "source": "CNBC",
-     "agenda_layer": "market",
-     "language": "en",
-     "id": "76ce075832dd",
-     "keywords_zh": [
-      "财经 / 宏观"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:76ce075832dd",
-     "cluster_size": 1,
-     "sources": [
-      "CNBC"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "market"
-     ],
-     "cluster_urls": [
-      {
-       "source": "CNBC",
-       "title": "India to raise up to $3.3 billion by selling stake in country’s largest life insurer at 10% discount",
-       "url": "https://www.cnbc.com/2026/08/04/india-lic-stake-sale-discount.html"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       11
-      ],
-      "observations": 1,
-      "first_seen": 1785812295
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
       ],
       "agenda_layers": [
        "market"
@@ -22287,7 +22437,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       12
+       15
       ],
       "observations": 1,
       "first_seen": 1785812295
@@ -22341,7 +22491,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       13
+       16
       ],
       "observations": 1,
       "first_seen": 1785812295
@@ -22395,7 +22545,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       14
+       17
       ],
       "observations": 1,
       "first_seen": 1785812295
@@ -22449,7 +22599,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       15
+       18
       ],
       "observations": 1,
       "first_seen": 1785812295
@@ -22503,7 +22653,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       16
+       19
       ],
       "observations": 1,
       "first_seen": 1785812295
@@ -22561,7 +22711,7 @@ window.DATA = {
       "label": "decay",
       "points": [
        2,
-       17
+       20
       ],
       "observations": 2,
       "first_seen": 1785807991
@@ -22617,7 +22767,7 @@ window.DATA = {
       "label": "decay",
       "points": [
        15,
-       18
+       21
       ],
       "observations": 2,
       "first_seen": 1785806350
@@ -22675,7 +22825,7 @@ window.DATA = {
       "label": "steady",
       "points": [
        20,
-       19
+       22
       ],
       "observations": 2,
       "first_seen": 1785806350
@@ -22733,64 +22883,7 @@ window.DATA = {
       "label": "steady",
       "points": [
        21,
-       20
-      ],
-      "observations": 2,
-      "first_seen": 1785806350
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "zh"
-      ],
-      "agenda_layers": [
-       "market"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "报道：存储三大原厂“2027年产能已提前售罄”，应验“明年是存储最短缺年份”",
-     "url": "https://wallstreetcn.com/articles/3778618",
-     "time": "08-04 08:27",
-     "ts": 1785803220,
-     "summary": "三大DRAM原厂2027年全年产能已提前售罄，AI浪潮正将存储市场推入前所未有的结构性短缺周期。 8月4日，据媒体DIGITIMES援引业界人士透露，三星电子、美光及SK海力士的DRAM与高带宽存储器（HBM）2027年产能已全数分配完毕，涵盖长期协议大客户及中小型买家。 与此同时，三星电子、美光、闪迪的NAND Flash全年产能亦已预售一空，铠侠与SK海力士预计最晚于2026年8月底前完成分配。 上述动态意味着，尚未锁定产能的买家面临2027年&#34;无货可买&#34;",
-     "source": "华尔街见闻",
-     "agenda_layer": "market",
-     "language": "zh",
-     "id": "c80ee82389f0",
-     "keywords_zh": [
-      "美光",
-      "三星电子",
-      "SK海力士"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:c80ee82389f0",
-     "cluster_size": 1,
-     "sources": [
-      "华尔街见闻"
-     ],
-     "languages": [
-      "zh"
-     ],
-     "agenda_layers": [
-      "market"
-     ],
-     "cluster_urls": [
-      {
-       "source": "华尔街见闻",
-       "title": "报道：存储三大原厂“2027年产能已提前售罄”，应验“明年是存储最短缺年份”",
-       "url": "https://wallstreetcn.com/articles/3778618"
-      }
-     ],
-     "trajectory": {
-      "label": "steady",
-      "points": [
-       22,
-       21
+       23
       ],
       "observations": 2,
       "first_seen": 1785806350
@@ -22845,7 +22938,7 @@ window.DATA = {
       "label": "steady",
       "points": [
        24,
-       22
+       24
       ],
       "observations": 2,
       "first_seen": 1785806350
@@ -22901,7 +22994,7 @@ window.DATA = {
       "label": "steady",
       "points": [
        25,
-       23
+       25
       ],
       "observations": 2,
       "first_seen": 1785806350
@@ -22956,7 +23049,7 @@ window.DATA = {
       "label": "steady",
       "points": [
        26,
-       24
+       26
       ],
       "observations": 2,
       "first_seen": 1785806350
@@ -23011,7 +23104,7 @@ window.DATA = {
       "label": "steady",
       "points": [
        27,
-       25
+       27
       ],
       "observations": 2,
       "first_seen": 1785806350
@@ -23066,7 +23159,7 @@ window.DATA = {
       "label": "steady",
       "points": [
        28,
-       26
+       28
       ],
       "observations": 2,
       "first_seen": 1785806350
@@ -23121,7 +23214,7 @@ window.DATA = {
       "label": "steady",
       "points": [
        29,
-       27
+       29
       ],
       "observations": 2,
       "first_seen": 1785806350
@@ -23174,10 +23267,10 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "surge",
+      "label": "steady",
       "points": [
        31,
-       28
+       30
       ],
       "observations": 2,
       "first_seen": 1785806350
@@ -23229,10 +23322,10 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "surge",
+      "label": "steady",
       "points": [
        32,
-       29
+       31
       ],
       "observations": 2,
       "first_seen": 1785806350
@@ -23285,10 +23378,10 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "surge",
+      "label": "steady",
       "points": [
        33,
-       30
+       32
       ],
       "observations": 2,
       "first_seen": 1785806350
@@ -23340,10 +23433,10 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "surge",
+      "label": "steady",
       "points": [
        34,
-       31
+       33
       ],
       "observations": 2,
       "first_seen": 1785806350
@@ -23400,10 +23493,10 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "surge",
+      "label": "steady",
       "points": [
        35,
-       32
+       34
       ],
       "observations": 2,
       "first_seen": 1785806350
@@ -23455,10 +23548,10 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "surge",
+      "label": "steady",
       "points": [
        36,
-       33
+       35
       ],
       "observations": 2,
       "first_seen": 1785806350
@@ -23510,10 +23603,10 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "surge",
+      "label": "steady",
       "points": [
        37,
-       34
+       36
       ],
       "observations": 2,
       "first_seen": 1785806350
@@ -23565,10 +23658,10 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "surge",
+      "label": "steady",
       "points": [
        38,
-       35
+       37
       ],
       "observations": 2,
       "first_seen": 1785806350
@@ -23620,10 +23713,10 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "surge",
+      "label": "steady",
       "points": [
        39,
-       36
+       38
       ],
       "observations": 2,
       "first_seen": 1785806350
@@ -23675,10 +23768,10 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "surge",
+      "label": "steady",
       "points": [
        40,
-       37
+       39
       ],
       "observations": 2,
       "first_seen": 1785806350
@@ -23731,10 +23824,10 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "surge",
+      "label": "steady",
       "points": [
        41,
-       38
+       40
       ],
       "observations": 2,
       "first_seen": 1785806350
@@ -23786,10 +23879,10 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "surge",
+      "label": "steady",
       "points": [
        42,
-       39
+       41
       ],
       "observations": 2,
       "first_seen": 1785806350
@@ -23841,10 +23934,10 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "surge",
+      "label": "steady",
       "points": [
        43,
-       40
+       42
       ],
       "observations": 2,
       "first_seen": 1785806350
@@ -23896,10 +23989,10 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "surge",
+      "label": "steady",
       "points": [
        44,
-       41
+       43
       ],
       "observations": 2,
       "first_seen": 1785806350
@@ -23951,10 +24044,10 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "surge",
+      "label": "steady",
       "points": [
        45,
-       42
+       44
       ],
       "observations": 2,
       "first_seen": 1785806350
@@ -24006,10 +24099,10 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "surge",
+      "label": "steady",
       "points": [
        46,
-       43
+       45
       ],
       "observations": 2,
       "first_seen": 1785806350
@@ -24061,10 +24154,10 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "surge",
+      "label": "steady",
       "points": [
        47,
-       44
+       46
       ],
       "observations": 2,
       "first_seen": 1785806350
@@ -24116,10 +24209,10 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "surge",
+      "label": "steady",
       "points": [
        48,
-       45
+       47
       ],
       "observations": 2,
       "first_seen": 1785806350
@@ -24171,10 +24264,10 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "surge",
+      "label": "steady",
       "points": [
        49,
-       46
+       48
       ],
       "observations": 2,
       "first_seen": 1785806350
@@ -24226,10 +24319,10 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "surge",
+      "label": "steady",
       "points": [
        50,
-       47
+       49
       ],
       "observations": 2,
       "first_seen": 1785806350
@@ -24281,10 +24374,10 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "surge",
+      "label": "steady",
       "points": [
        51,
-       48
+       50
       ],
       "observations": 2,
       "first_seen": 1785806350
@@ -24336,10 +24429,10 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "surge",
+      "label": "steady",
       "points": [
        52,
-       49
+       51
       ],
       "observations": 2,
       "first_seen": 1785806350
@@ -24391,10 +24484,10 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "surge",
+      "label": "steady",
       "points": [
        53,
-       50
+       52
       ],
       "observations": 2,
       "first_seen": 1785806350
@@ -24448,7 +24541,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       51
+       53
       ],
       "observations": 1,
       "first_seen": 1785812295
@@ -24502,7 +24595,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       52
+       54
       ],
       "observations": 1,
       "first_seen": 1785812295
@@ -24556,7 +24649,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       53
+       55
       ],
       "observations": 1,
       "first_seen": 1785812295
@@ -24611,7 +24704,7 @@ window.DATA = {
       "label": "steady",
       "points": [
        54,
-       54
+       56
       ],
       "observations": 2,
       "first_seen": 1785806350
@@ -24666,7 +24759,7 @@ window.DATA = {
       "label": "steady",
       "points": [
        55,
-       55
+       57
       ],
       "observations": 2,
       "first_seen": 1785806350
@@ -24720,7 +24813,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       56
+       58
       ],
       "observations": 1,
       "first_seen": 1785812295
@@ -24772,10 +24865,10 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "surge",
+      "label": "steady",
       "points": [
        60,
-       57
+       59
       ],
       "observations": 2,
       "first_seen": 1785806350
@@ -24827,10 +24920,10 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "surge",
+      "label": "steady",
       "points": [
        61,
-       58
+       60
       ],
       "observations": 2,
       "first_seen": 1785806350
@@ -24882,10 +24975,10 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "surge",
+      "label": "steady",
       "points": [
        62,
-       59
+       61
       ],
       "observations": 2,
       "first_seen": 1785806350
@@ -24937,10 +25030,10 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "surge",
+      "label": "steady",
       "points": [
        63,
-       60
+       62
       ],
       "observations": 2,
       "first_seen": 1785806350
@@ -24992,10 +25085,10 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "surge",
+      "label": "steady",
       "points": [
        64,
-       61
+       63
       ],
       "observations": 2,
       "first_seen": 1785806350
@@ -25047,10 +25140,10 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "surge",
+      "label": "steady",
       "points": [
        65,
-       62
+       64
       ],
       "observations": 2,
       "first_seen": 1785806350
@@ -27431,7 +27524,7 @@ window.DATA = {
     "成交量放大且收盘站稳",
     "利好后不出现冲高回落"
    ],
-   "news_hits": 6
+   "news_hits": 5
   },
   {
    "code": "001309",
@@ -27655,7 +27748,7 @@ window.DATA = {
     "银价上涨时场内溢价未继续扩大",
     "基金公告未新增交易限制"
    ],
-   "news_hits": 4
+   "news_hits": 5
   },
   {
    "code": "518880",
@@ -27695,7 +27788,7 @@ window.DATA = {
     "ETF成交量与价格同步确认",
     "结合人民币汇率判断内外盘差异"
    ],
-   "news_hits": 4
+   "news_hits": 5
   },
   {
    "code": "517380",
@@ -27763,14 +27856,14 @@ window.DATA = {
   "raw_items": 523,
   "unique_items": 501,
   "failed_sources": 6,
-  "event_cards": 495,
-  "trajectory_signals": 4,
+  "event_cards": 497,
+  "trajectory_signals": 1,
   "history": {
-   "updated_at": "2026-08-04 10:58",
-   "sampling_windows": 3,
-   "previous_sample_at": "2026-08-04 09:46",
-   "latest_sample_at": "2026-08-04 10:58",
-   "tracked_topics": 558,
+   "updated_at": "2026-08-04 11:04",
+   "sampling_windows": 4,
+   "previous_sample_at": "2026-08-04 10:58",
+   "latest_sample_at": "2026-08-04 11:04",
+   "tracked_topics": 576,
    "comparable_topics": 418,
    "coalesce_minutes": 30
   }
