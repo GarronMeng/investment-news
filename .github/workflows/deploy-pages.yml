@@ -7,10 +7,11 @@ on:
       - index.html
       - data.js
       - ai-signals.js
+      - sentiment.json
       - .nojekyll
       - .github/workflows/deploy-pages.yml
   workflow_run:
-    workflows: ["Update A-share News"]
+    workflows: ["Update A-share News", "Update Market Sentiment"]
     branches: [main]
     types: [completed]
   workflow_dispatch:
@@ -40,7 +41,7 @@ jobs:
       - name: Prepare static site
         run: |
           mkdir public
-          cp index.html data.js ai-signals.js .nojekyll public/
+          cp index.html data.js ai-signals.js sentiment.json .nojekyll public/
 
       - name: Configure Pages
         uses: actions/configure-pages@v6
