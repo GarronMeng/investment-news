@@ -70,6 +70,10 @@ class SignalHistoryTests(unittest.TestCase):
         self.assertFalse(is_trajectory_signal(item))
         item["trajectory"] = {"label": "surge", "points": [12, 1]}
         self.assertTrue(is_trajectory_signal(item))
+        item["relevance_score"] = 4
+        self.assertFalse(is_trajectory_signal(item))
+        item["resonance"]["confirmed"] = True
+        self.assertTrue(is_trajectory_signal(item))
 
     def test_history_progress_exposes_sampling_state(self):
         history = {
