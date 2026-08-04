@@ -436,7 +436,51 @@ def build_watchlist(industries, watchlist):
         row = dict(asset)
         row["news_hits"] = related_counts.get(asset["name"], 0)
         output.append(row)
-    return sorted(output, key=lambda row: (-row.get("news_hits", 0), -row.get("priority", 0)))
+    return sorted(output, key=lambda row: (row.get("display_order", 999), -row.get("priority", 0)))
+
+
+def is_trajectory_signal(item):
+    """Match the dashboard rule: a snapshot alone is not a change signal."""
+    trajectory = item.get("trajectory", {})
+    label = trajectory.get("label")
+    points = [value for value in trajectory.get("points", []) if isinstance(value, (int, float))]
+    resonance = item.get("resonance", {})
+    sources = resonance.get("source_count", item.get("cluster_size", 1)) or 1
+    if not label or label == "steady":
+        return False
+    if label == "new":
+        return sources >= 2 and (
+            item.get("relevance_score", 0) >= 5 or resonance.get("confirmed", False)
+        )
+    return len(points) >= 2 and (
+        item.get("relevance_score", 0) > 0 or resonance.get("confirmed", False)
+    )
+
+
+def history_progress(history):
+    topics = history.get("topics", {})
+    timestamps = sorted({
+        point.get("ts")
+        for topic in topics.values()
+        for point in topic.get("points", [])
+        if point.get("ts")
+    })
+    eligible = sum(len(topic.get("points", [])) >= 2 for topic in topics.values())
+    return {
+        "updated_at": history.get("updated_at"),
+        "sampling_windows": len(timestamps),
+        "previous_sample_at": (
+            datetime.fromtimestamp(timestamps[-2], BEIJING).strftime("%Y-%m-%d %H:%M")
+            if len(timestamps) >= 2 else None
+        ),
+        "latest_sample_at": (
+            datetime.fromtimestamp(timestamps[-1], BEIJING).strftime("%Y-%m-%d %H:%M")
+            if timestamps else None
+        ),
+        "tracked_topics": len(topics),
+        "comparable_topics": eligible,
+        "coalesce_minutes": 30,
+    }
 
 
 def main():
@@ -501,9 +545,9 @@ def main():
             "event_cards": sum(len(industry.get("items", [])) for industry in industries),
             "trajectory_signals": sum(
                 1 for industry in industries for item in industry.get("items", [])
-                if item.get("trajectory", {}).get("label") in
-                ("surge", "rebound", "decay", "zombie", "new")
-            )
+                if is_trajectory_signal(item)
+            ),
+            "history": history_progress(history),
         }
     }
     path = os.path.join(ROOT, "data.js")
