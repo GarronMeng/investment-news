@@ -82,6 +82,39 @@
       "positive_triggers": ["MLCC涨价", "渠道库存下降", "汽车电子需求改善"],
       "negative_triggers": ["价格下跌", "库存去化不及预期", "终端需求疲弱"],
       "market_validation": ["被动元件板块形成联动", "涨价新闻后价格走势能够确认"]
+    },
+    {
+      "code": "161226",
+      "name": "国投白银LOF",
+      "priority": 5,
+      "industries": ["macro", "energy"],
+      "keywords": ["白银", "silver", "贵金属", "precious metals", "实际利率", "美元", "金银比"],
+      "thesis": "白银期货方向与场内溢价共同定价，溢价风险独立于银价方向",
+      "positive_triggers": ["银价上行", "美元与实际利率回落", "工业需求改善", "场内溢价收敛"],
+      "negative_triggers": ["银价下跌", "美元与实际利率上行", "场内溢价扩大", "停牌或申购限制"],
+      "market_validation": ["同时核对基金净值、场内价格和溢价率", "银价上涨时场内溢价未继续扩大", "基金公告未新增交易限制"]
+    },
+    {
+      "code": "518880",
+      "name": "黄金ETF华安",
+      "priority": 3,
+      "industries": ["macro", "energy"],
+      "keywords": ["黄金", "gold", "贵金属", "precious metals", "实际利率", "美元", "央行购金"],
+      "thesis": "国内黄金现货价格、人民币汇率与避险需求的组合映射",
+      "positive_triggers": ["金价上行", "美元或实际利率回落", "央行购金", "避险需求升温"],
+      "negative_triggers": ["金价下跌", "实际利率上行", "美元快速走强", "避险交易退潮"],
+      "market_validation": ["外盘金价与国内黄金现货同向", "ETF成交量与价格同步确认", "结合人民币汇率判断内外盘差异"]
+    },
+    {
+      "code": "517380",
+      "name": "创新药沪港深ETF天弘",
+      "priority": 3,
+      "industries": ["bio", "macro"],
+      "keywords": ["创新药", "biotech", "clinical trial", "临床试验", "BD交易", "license out", "NMPA", "FDA"],
+      "thesis": "沪港深创新药研发进展、BD交易与流动性环境的指数化映射",
+      "positive_triggers": ["临床数据超预期", "BD或授权交易", "审批进展", "利率与流动性改善"],
+      "negative_triggers": ["临床失败", "监管或支付政策收紧", "BD低于预期", "成长估值压缩"],
+      "market_validation": ["A股与港股创新药板块形成联动", "利好由成交量与持续性确认", "避免把单一公司事件外推至全行业"]
     }
   ]
 }

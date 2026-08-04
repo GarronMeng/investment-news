@@ -37,6 +37,9 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Test signal clustering and trajectory rules
+        run: python -m unittest discover -s tests -v
+
       - name: Fetch public news with retry
         shell: bash
         run: |
@@ -66,6 +69,15 @@ jobs:
 
           assert data.get("industries"), "industries is empty"
           assert data.get("generated_at"), "generated_at is missing"
+          assert data.get("stats", {}).get("event_cards", 0) > 0, "event cards are empty"
+          assert all(
+              "trajectory" in item and "resonance" in item
+              for industry in data["industries"]
+              for item in industry.get("items", [])
+          ), "trajectory or resonance fields are missing"
+
+          history = json.load(open("history.json", encoding="utf-8"))
+          assert history.get("topics"), "history topics are empty"
 
           stats = data.get("stats", {})
           unique_items = int(stats.get("unique_items", 0))
@@ -94,7 +106,7 @@ jobs:
         run: |
           git config user.name "investment-news-bot"
           git config user.email "investment-news-bot@users.noreply.github.com"
-          git add data.js
+          git add data.js history.json
           git diff --cached --quiet && exit 0
           git commit -m "chore: refresh A-share news"
           git push

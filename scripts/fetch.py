@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""抓取 RSS/Atom，执行时效过滤、红线过滤和确定性去重，写入 data.js。"""
+"""抓取 RSS/Atom，聚合同事件、维护轨迹，并写入 data.js/history.json。"""
 import hashlib
 import json
 import os
@@ -21,6 +21,22 @@ CUTOFF = None
 REDLINE = []
 PER_SOURCE = 6
 TIMEOUT = 15
+HISTORY_DAYS = 14
+HISTORY_LIMIT = 24
+WINDOW_SECONDS = 6 * 3600
+
+PRIMARY_SOURCES = {
+    "OpenAI", "Google Research", "Hugging Face", "DeepMind", "BAIR Blog",
+    "arXiv cs.AI", "NASA", "SEC", "Federal Reserve", "GitHub Blog",
+}
+MARKET_SOURCES = {
+    "CNBC", "Financial Times", "WSJ Markets", "MarketWatch", "Yahoo Finance",
+    "华尔街见闻", "东方财富股票", "东方财富资讯", "经济观察网", "Seeking Alpha",
+}
+TRADE_SOURCE_MARKERS = (
+    "Semiconductor", "SemiAnalysis", "DIGITIMES", "EE Times", "Electronics",
+    "BioPharma", "Fierce", "Energy", "Robot", "PV ", "pv magazine",
+)
 
 KEYWORD_RULES = [
     ("亚马逊", ("amazon", "aws", "亚马逊")),
@@ -59,18 +75,35 @@ KEYWORD_RULES = [
 
 EVENT_RULES = [
     ("资本开支上调", ("raise capital spending", "boost capital spending", "boost spending", "capex increase",
-                  "capital expenditure plan", "capital spending plan")),
+                  "capital expenditure plan", "capital spending plan", "上调资本开支", "增加资本开支")),
     ("业绩超预期", ("beats estimates", "beat expectations", "record profit",
                 "record revenue", "surges after earnings")),
     ("业绩承压", ("misses estimates", "missed expectations", "profit warning",
               "revenue decline", "profit falls", "profit drops")),
-    ("扩产", ("expand capacity", "capacity expansion", "new fab", "new factory")),
-    ("涨价", ("price increase", "raise prices", "price hike", "prices rise")),
-    ("降价", ("price cut", "cuts prices", "prices fall", "price decline")),
-    ("并购", ("acquisition", "acquire", "merger", "takeover")),
-    ("出口限制", ("export control", "export restriction", "sanction", "blacklist")),
-    ("政策变化", ("regulation", "policy change", "government subsidy")),
+    ("扩产", ("expand capacity", "capacity expansion", "new fab", "new factory", "扩产", "新建工厂")),
+    ("涨价", ("price increase", "raise prices", "price hike", "prices rise", "涨价", "上调价格")),
+    ("降价", ("price cut", "cuts prices", "prices fall", "price decline", "降价")),
+    ("并购", ("acquisition", "acquire", "merger", "takeover", "收购", "合并")),
+    ("出口限制", ("export control", "export restriction", "sanction", "blacklist", "出口限制", "制裁")),
+    ("政策变化", ("regulation", "policy change", "government subsidy", "政策调整", "补贴政策")),
+    ("产品发布", ("launches", "unveils", "announces new", "product launch", "发布", "推出")),
 ]
+
+
+def detect_language(text):
+    cjk = len(re.findall(r"[\u4e00-\u9fff]", text or ""))
+    latin = len(re.findall(r"[A-Za-z]", text or ""))
+    return "zh" if cjk >= max(2, latin // 5) else "en"
+
+
+def classify_agenda(source):
+    if source in PRIMARY_SOURCES:
+        return "primary"
+    if source in MARKET_SOURCES:
+        return "market"
+    if any(marker.lower() in source.lower() for marker in TRADE_SOURCE_MARKERS):
+        return "industry"
+    return "media"
 
 
 def strip_html(value):
@@ -124,7 +157,8 @@ def fetch_source(src):
             if len(out) >= PER_SOURCE:
                 break
             item = {"title": "", "url": "", "time": "", "ts": 0,
-                    "summary": "", "source": src["name"]}
+                    "summary": "", "source": src["name"],
+                    "agenda_layer": src.get("agenda") or classify_agenda(src["name"])}
             raw_time = ""
             for child in node:
                 tag = local(child.tag)
@@ -150,6 +184,9 @@ def fetch_source(src):
             else:
                 item["time"] = "—"
             item["url"] = canonical_url(item["url"])
+            item["language"] = src.get("language") or detect_language(
+                item["title"] + " " + item["summary"]
+            )
             fingerprint = normalize_title(item["title"]) or item["url"]
             item["id"] = hashlib.sha1(fingerprint.encode("utf-8")).hexdigest()[:12]
             out.append(item)
@@ -241,6 +278,150 @@ def enrich_items(industries, watchlist):
             item["relevance_score"] = (
                 min(10, best_points + priority_boost + event_boost) if matches else 0
             )
+            item["topic_id"] = topic_id(item, industry.get("key", ""), industry.get("name", ""))
+
+
+def topic_id(item, industry_key, industry_name):
+    """Use canonical Chinese labels to bridge Chinese/English coverage conservatively."""
+    event_type = item.get("event_type", "")
+    anchors = [
+        label for label in item.get("keywords_zh", [])
+        if label not in (event_type, industry_name)
+    ]
+    if not event_type or not anchors:
+        return "story:" + item.get("id", "")
+    seed = "%s|%s|%s" % (industry_key, event_type, "|".join(sorted(anchors[:2])))
+    return "topic:" + hashlib.sha1(seed.encode("utf-8")).hexdigest()[:12]
+
+
+def title_similarity(left, right):
+    def tokens(text):
+        words = set(re.findall(r"[a-z0-9]{3,}|[\u4e00-\u9fff]{2}", (text or "").lower()))
+        return words - {"the", "and", "for", "with", "from", "that", "this", "will", "into"}
+    a, b = tokens(left), tokens(right)
+    return len(a & b) / max(1, len(a | b))
+
+
+def merge_event_clusters(industries):
+    """Collapse only stories that share both a canonical anchor and a material event."""
+    for industry in industries:
+        clusters = []
+        for item in sorted(industry.get("items", []), key=lambda row: row.get("ts", 0), reverse=True):
+            topic = item.get("topic_id") or "story:" + item["id"]
+            target = None
+            for cluster in clusters:
+                first = cluster[0]
+                same_topic = topic.startswith("topic:") and topic == first.get("topic_id")
+                same_language_story = (
+                    topic.startswith("story:")
+                    and item.get("language") == first.get("language")
+                    and abs(item.get("ts", 0) - first.get("ts", 0)) <= 36 * 3600
+                    and title_similarity(item.get("title", ""), first.get("title", "")) >= .52
+                )
+                if same_topic or same_language_story:
+                    target = cluster
+                    break
+            if target is None:
+                clusters.append([item])
+            else:
+                target.append(item)
+        merged = []
+        for rows in clusters:
+            rows.sort(key=lambda row: row.get("ts", 0), reverse=True)
+            representative = dict(rows[0])
+            representative["cluster_size"] = len(rows)
+            representative["sources"] = sorted({row.get("source", "") for row in rows if row.get("source")})
+            representative["languages"] = sorted({row.get("language", "") for row in rows if row.get("language")})
+            representative["agenda_layers"] = sorted({row.get("agenda_layer", "") for row in rows if row.get("agenda_layer")})
+            representative["cluster_urls"] = [
+                {"source": row.get("source", ""), "title": row.get("title", ""), "url": row.get("url", "")}
+                for row in rows[:6]
+            ]
+            representative["related_assets"] = list(dict.fromkeys(
+                name for row in rows for name in row.get("related_assets", [])
+            ))[:4]
+            representative["relevance_score"] = max(row.get("relevance_score", 0) for row in rows)
+            merged.append(representative)
+        industry["items"] = sorted(merged, key=lambda row: row.get("ts", 0), reverse=True)
+
+
+def load_history(path):
+    try:
+        with open(path, encoding="utf-8") as stream:
+            data = json.load(stream)
+        return data if isinstance(data.get("topics"), dict) else {"version": 1, "topics": {}}
+    except (OSError, ValueError, TypeError):
+        return {"version": 1, "topics": {}}
+
+
+def trajectory_label(points, now_ts):
+    if len(points) == 1:
+        return "new"
+    current, previous = points[-1], points[-2]
+    gap_hours = (current["ts"] - previous["ts"]) / 3600
+    rank_gain = previous.get("rank", 99) - current.get("rank", 99)
+    source_gain = current.get("source_count", 1) - previous.get("source_count", 1)
+    age_hours = (now_ts - points[0]["ts"]) / 3600
+    if gap_hours >= 18:
+        return "rebound"
+    if rank_gain >= 3 or source_gain >= 2:
+        return "surge"
+    if rank_gain <= -3 or source_gain <= -2:
+        return "decay"
+    if age_hours >= 72 and len(points) >= 4 and abs(points[0].get("rank", 99) - current.get("rank", 99)) <= 2:
+        return "zombie"
+    return "steady"
+
+
+def update_history(industries, history, now_ts=None):
+    now_ts = int(now_ts or datetime.now(timezone.utc).timestamp())
+    topics = history.setdefault("topics", {})
+    for industry in industries:
+        for rank, item in enumerate(industry.get("items", []), start=1):
+            key = item.get("topic_id") or "story:" + item.get("id", "")
+            entry = topics.setdefault(key, {
+                "first_seen": now_ts, "last_seen": now_ts, "industry": industry.get("key", ""),
+                "title": item.get("title", ""), "points": []
+            })
+            snapshot = {
+                "ts": now_ts,
+                "rank": rank,
+                "source_count": len(item.get("sources", [])) or 1,
+                "sources": item.get("sources", [item.get("source", "")]),
+                "languages": item.get("languages", [item.get("language", "")]),
+                "agenda_layers": item.get("agenda_layers", [item.get("agenda_layer", "")]),
+            }
+            points = entry.setdefault("points", [])
+            if points and now_ts - points[-1].get("ts", 0) < 1800:
+                points[-1] = snapshot
+            else:
+                points.append(snapshot)
+            entry["points"] = points[-HISTORY_LIMIT:]
+            entry["last_seen"] = now_ts
+            recent = entry["points"]
+            all_sources = sorted({source for point in recent for source in point.get("sources", []) if source})
+            all_languages = sorted({lang for point in recent for lang in point.get("languages", []) if lang})
+            all_agendas = sorted({layer for point in recent for layer in point.get("agenda_layers", []) if layer})
+            windows = len({point["ts"] // WINDOW_SECONDS for point in recent})
+            item["trajectory"] = {
+                "label": trajectory_label(recent, now_ts),
+                "points": [point.get("rank", 0) for point in recent[-8:]],
+                "observations": len(recent),
+                "first_seen": entry.get("first_seen", now_ts),
+            }
+            item["resonance"] = {
+                "confirmed": len(all_sources) >= 2 and len(all_languages) >= 2 and len(all_agendas) >= 2 and windows >= 2,
+                "source_count": len(all_sources),
+                "languages": all_languages,
+                "agenda_layers": all_agendas,
+                "time_windows": windows,
+            }
+    cutoff = now_ts - HISTORY_DAYS * 86400
+    history["topics"] = {
+        key: value for key, value in topics.items() if value.get("last_seen", 0) >= cutoff
+    }
+    history["updated_at"] = datetime.fromtimestamp(now_ts, BEIJING).strftime("%Y-%m-%d %H:%M")
+    return history
 
 
 def build_watchlist(industries, watchlist):
@@ -298,6 +479,9 @@ def main():
         industry["items"] = deduplicate(industry["items"])
         unique_count += len(industry["items"])
     enrich_items(industries, watchlist)
+    merge_event_clusters(industries)
+    history_path = os.path.join(ROOT, "history.json")
+    history = update_history(industries, load_history(history_path))
 
     data = {
         "generated_at": datetime.now(BEIJING).strftime("%Y-%m-%d %H:%M"),
@@ -313,13 +497,22 @@ def main():
             "total_sources": len(cfg["sources"]),
             "raw_items": raw_count,
             "unique_items": unique_count,
-            "failed_sources": len(failed)
+            "failed_sources": len(failed),
+            "event_cards": sum(len(industry.get("items", [])) for industry in industries),
+            "trajectory_signals": sum(
+                1 for industry in industries for item in industry.get("items", [])
+                if item.get("trajectory", {}).get("label") in
+                ("surge", "rebound", "decay", "zombie", "new")
+            )
         }
     }
     path = os.path.join(ROOT, "data.js")
     with open(path, "w", encoding="utf-8") as output:
         output.write("// 自动生成，请勿手工编辑。\n")
         output.write("window.DATA = " + json.dumps(data, ensure_ascii=False, indent=1) + ";\n")
+    with open(history_path, "w", encoding="utf-8") as output:
+        json.dump(history, output, ensure_ascii=False, indent=1)
+        output.write("\n")
 
     print("最近 %d 天，抓取 %d 条，去重后 %d 条，失败源 %d 个。" %
           (days, raw_count, unique_count, len(failed)))
