@@ -1,0 +1,80 @@
+name: Update Watchlist Market Quotes
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Asia/Shanghai checkpoints: 09:40, 11:20, 13:20, 14:20 and 15:10.
+    - cron: "40 1 * * 1-5"
+    - cron: "20 3 * * 1-5"
+    - cron: "20 5-6 * * 1-5"
+    - cron: "10 7 * * 1-5"
+  push:
+    branches: [main]
+    paths:
+      - watchlist.json
+      - scripts/fetch_market.py
+      - tests/test_market.py
+      - .github/workflows/update-market.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: investment-market-update
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements-sentiment.txt
+
+      - name: Install market provider
+        run: python -m pip install "akshare>=1.18,<2"
+
+      - name: Test market contract
+        run: python -m unittest tests/test_market.py -v
+
+      - name: Refresh watchlist quotes
+        run: python scripts/fetch_market.py
+
+      - name: Validate output
+        run: |
+          python - <<'PY'
+          import json
+
+          market = json.load(open("market.json", encoding="utf-8"))
+          watch = json.load(open("watchlist.json", encoding="utf-8"))
+          expected = {str(item["code"]) for item in watch["assets"]}
+          actual = {str(item["code"]) for item in market["quotes"]}
+          assert market.get("version") == 1
+          assert actual == expected, (actual, expected)
+          assert all(item.get("status") in {"fresh", "stale", "unavailable"} for item in market["quotes"])
+          print("validated", market["generated_at"], market["summary"])
+          PY
+
+      - name: Commit generated quotes
+        run: |
+          git config user.name "investment-news-bot"
+          git config user.email "investment-news-bot@users.noreply.github.com"
+          git add market.json
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: refresh watchlist quotes"
+          for attempt in 1 2 3; do
+            if git pull --rebase origin main && git push; then
+              exit 0
+            fi
+            git rebase --abort || true
+            echo "Push retry ${attempt}/3"
+          done
+          echo "::error::Unable to push refreshed quotes after 3 attempts"
+          exit 1
