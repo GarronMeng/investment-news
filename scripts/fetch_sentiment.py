@@ -92,11 +92,11 @@ def classify_vix(value):
 
 def classify_margin(change_5d, score):
     change_5d, score = finite(change_5d), finite(score)
-    if change_5d is None:
+    if change_5d is None or score is None:
         return "building", "基线建立中", "neutral"
-    if change_5d >= 1.5 and (score is None or score >= 0.8):
+    if change_5d >= 1.5 and score >= 0.8:
         return "heating", "杠杆升温", "warning"
-    if change_5d <= -1.0 and (score is None or score <= -0.5):
+    if change_5d <= -1.0 and score <= -0.5:
         return "cooling", "杠杆降温", "positive"
     return "stable", "中性", "neutral"
 
@@ -257,7 +257,7 @@ def make_margin_metric(rows, today=None):
     latest = rows[-1]
     values = [row["financing"] for row in rows]
     change_5d = pct_change(values[-1], values[-6]) if len(values) >= 6 else None
-    score = zscore(values, values[-1])
+    score = zscore(values, values[-1]) if len(values) >= MIN_OBSERVATIONS else None
     status, lag = freshness(latest["date"], 4, today=today)
     level, label, tone = classify_margin(change_5d, score)
     return {
