@@ -7,6 +7,8 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / "scripts"))
 from fetch import (
     contains_pattern,
     enrich_items,
+    history_progress,
+    is_trajectory_signal,
     merge_event_clusters,
     update_history,
 )
@@ -59,7 +61,29 @@ class SignalHistoryTests(unittest.TestCase):
         update_history(industries, history, now_ts=1_000_000 + 7 * 3600)
         self.assertTrue(item["resonance"]["confirmed"])
 
+    def test_snapshot_is_not_reported_as_change(self):
+        item = {
+            "trajectory": {"label": "new", "points": [1]},
+            "resonance": {"source_count": 1, "confirmed": False},
+            "relevance_score": 10,
+        }
+        self.assertFalse(is_trajectory_signal(item))
+        item["trajectory"] = {"label": "surge", "points": [12, 1]}
+        self.assertTrue(is_trajectory_signal(item))
+
+    def test_history_progress_exposes_sampling_state(self):
+        history = {
+            "updated_at": "2026-08-04 11:50",
+            "topics": {
+                "a": {"points": [{"ts": 100}, {"ts": 3700}]},
+                "b": {"points": [{"ts": 3700}]},
+            },
+        }
+        progress = history_progress(history)
+        self.assertEqual(progress["sampling_windows"], 2)
+        self.assertEqual(progress["comparable_topics"], 1)
+        self.assertEqual(progress["coalesce_minutes"], 30)
+
 
 if __name__ == "__main__":
     unittest.main()
-
