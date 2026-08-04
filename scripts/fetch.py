@@ -440,7 +440,7 @@ def build_watchlist(industries, watchlist):
 
 
 def is_trajectory_signal(item):
-    """Match the dashboard rule: a snapshot alone is not a change signal."""
+    """Match the dashboard rule: require history and material relevance."""
     trajectory = item.get("trajectory", {})
     label = trajectory.get("label")
     points = [value for value in trajectory.get("points", []) if isinstance(value, (int, float))]
@@ -453,7 +453,7 @@ def is_trajectory_signal(item):
             item.get("relevance_score", 0) >= 5 or resonance.get("confirmed", False)
         )
     return len(points) >= 2 and (
-        item.get("relevance_score", 0) > 0 or resonance.get("confirmed", False)
+        item.get("relevance_score", 0) >= 5 or resonance.get("confirmed", False)
     )
 
 

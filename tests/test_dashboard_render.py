@@ -24,6 +24,7 @@ class DashboardRenderTests(unittest.TestCase):
         html = (ROOT / "index.html").read_text(encoding="utf-8")
         self.assertIn("function isPulseCandidate(it)", html)
         self.assertIn("points.length>=2", html)
+        self.assertIn("Number(it.relevance_score||0)>=5", html)
         self.assertIn("filter(isPulseCandidate)", html)
 
     def test_print_layout_avoids_split_cards(self):
