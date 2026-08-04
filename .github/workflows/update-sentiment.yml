@@ -67,4 +67,12 @@ jobs:
           git add sentiment.json
           git diff --cached --quiet && exit 0
           git commit -m "chore: refresh market sentiment"
-          git push
+          for attempt in 1 2 3; do
+            if git pull --rebase origin main && git push; then
+              exit 0
+            fi
+            git rebase --abort || true
+            echo "Push retry ${attempt}/3"
+          done
+          echo "::error::Unable to push refreshed sentiment after 3 attempts"
+          exit 1
