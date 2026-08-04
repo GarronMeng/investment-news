@@ -3,13 +3,13 @@
  "topics": {
   "story:549462c0c937": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "After killer quarter, Palantir CEO Alex Karp calls AI industry ‘Marxist’",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 22,
+     "ts": 1785807991,
+     "rank": 23,
      "source_count": 1,
      "sources": [
       "TechCrunch"
@@ -25,13 +25,13 @@
   },
   "story:9ef75dd730cb": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "AWS is helping vibe-coding startup Superblocks, and the implications are big",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 37,
+     "ts": 1785807991,
+     "rank": 38,
      "source_count": 1,
      "sources": [
       "TechCrunch"
@@ -47,13 +47,13 @@
   },
   "story:ef159840018a": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "Design Arena creators raise $7.9 million to bring taste to AI models",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 42,
+     "ts": 1785807991,
+     "rank": 43,
      "source_count": 1,
      "sources": [
       "TechCrunch"
@@ -69,13 +69,13 @@
   },
   "story:d100e1a4d3e3": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "Influencers draw backlash for attending OpenAI’s first luxury trip",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 44,
+     "ts": 1785807991,
+     "rank": 45,
      "source_count": 1,
      "sources": [
       "TechCrunch"
@@ -91,12 +91,12 @@
   },
   "story:347fbc06b813": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "Apple finally fixed Siri. So why does it feel anticlimactic?",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 5,
      "source_count": 1,
      "sources": [
@@ -113,12 +113,12 @@
   },
   "story:5e6c10afafae": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "Trump’s AI protectionism has come for robotics",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 6,
      "source_count": 1,
      "sources": [
@@ -135,13 +135,13 @@
   },
   "story:17b7994984e1": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "Europe’s AI labeling and transparency rules are now in effect",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 50,
+     "ts": 1785807991,
+     "rank": 51,
      "source_count": 1,
      "sources": [
       "The Verge"
@@ -157,12 +157,12 @@
   },
   "story:a18d495570c8": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "Congress’ favorite AI tool? ChatGPT",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 8,
      "source_count": 1,
      "sources": [
@@ -179,12 +179,12 @@
   },
   "story:c5efec6ef652": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "Does MiniMax Agent Actually Make Work Easier?",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 9,
      "source_count": 1,
      "sources": [
@@ -201,12 +201,12 @@
   },
   "topic:fadb8d924a41": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "阿里字节腾讯，为AI办公拼了",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 10,
      "source_count": 1,
      "sources": [
@@ -223,12 +223,12 @@
   },
   "story:47484ba5c6c0": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "A Guide to Saving Token Usage with Multi-Agent AI",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 11,
      "source_count": 1,
      "sources": [
@@ -245,12 +245,12 @@
   },
   "story:f530b2e5f2f0": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "又一国产模型重磅开源！有声视频编辑全球第一，16家芯片及平台首日适配",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 12,
      "source_count": 1,
      "sources": [
@@ -267,12 +267,12 @@
   },
   "story:2f325818bd46": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "这个新生图模型有点夯：4K直出的，国产的，开源的！",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 13,
      "source_count": 1,
      "sources": [
@@ -289,12 +289,12 @@
   },
   "story:f0f2d1320007": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "China&#8217;s Alibaba takes another swipe at America’s AI supremacy",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 14,
      "source_count": 1,
      "sources": [
@@ -311,12 +311,12 @@
   },
   "story:fb9a60f0ffa0": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "10美元、两小时、5500行代码，卡帕西让Claude Opus 5搭出《指环王》3D世界",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 15,
      "source_count": 1,
      "sources": [
@@ -333,12 +333,12 @@
   },
   "story:209294e754cb": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "Is this Billboard Hot 100 hit AI slop?",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 16,
      "source_count": 1,
      "sources": [
@@ -355,12 +355,12 @@
   },
   "story:289521ed85d1": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "Fender’s CEO seems to think your bandmates are just analog AI",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 17,
      "source_count": 1,
      "sources": [
@@ -377,12 +377,12 @@
   },
   "story:775d07583be7": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "AI首次拿下IMO官方满分金牌，背后藏着一套自我纠错机制",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 18,
      "source_count": 1,
      "sources": [
@@ -399,12 +399,12 @@
   },
   "story:af34ea5b80e0": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "手绘图直接变海报，国产开源多模态模型把图片玩“活”了",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 19,
      "source_count": 1,
      "sources": [
@@ -421,12 +421,12 @@
   },
   "story:2972dc326b44": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "Here’s why AI agents lie and cheat to reach their goals",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 20,
      "source_count": 1,
      "sources": [
@@ -443,12 +443,12 @@
   },
   "story:21424d5e4090": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "年薪百万抢电工，Meta急到自己办技校",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 21,
      "source_count": 1,
      "sources": [
@@ -465,12 +465,12 @@
   },
   "story:7f8ef0ebceda": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "How we built a realtime system for responsive voice AI in six months",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 22,
      "source_count": 1,
      "sources": [
@@ -487,12 +487,12 @@
   },
   "story:f3ad865202b0": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "当品牌开始争夺AI的答案：翰智GEO入场",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 23,
      "source_count": 1,
      "sources": [
@@ -509,12 +509,12 @@
   },
   "story:44c45ae26544": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "2026中国科创投资夏季峰会暨陕西科创产业生态大会圆满落幕",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 24,
      "source_count": 1,
      "sources": [
@@ -531,12 +531,12 @@
   },
   "story:4ebfa3abe959": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "市值暴涨1300亿！阿里最强千问大模型登场，2.4万亿参数，自主连续编程16天破纪录",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 25,
      "source_count": 1,
      "sources": [
@@ -553,12 +553,12 @@
   },
   "story:efcb3066c5b9": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "Demo的高估值时代结束了，具身智能开始按生产力重新算账",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 26,
      "source_count": 1,
      "sources": [
@@ -575,12 +575,12 @@
   },
   "story:3c97a6cc5907": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "刚刚，阿里Qwen3.8-Max来了！冲进全球第一梯队，模型表现直逼Claude",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 27,
      "source_count": 1,
      "sources": [
@@ -597,12 +597,12 @@
   },
   "story:6ada5f53fc6e": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "数亿元！蚂蚁AGI研究中心主任大模型创业，拿下新融资",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 28,
      "source_count": 1,
      "sources": [
@@ -619,12 +619,12 @@
   },
   "story:31cb2d448412": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "OpenClaw and Ollama in Agentic AI: Toward Fully Autonomous and Scalable AI Agent Systems",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 29,
      "source_count": 1,
      "sources": [
@@ -641,12 +641,12 @@
   },
   "story:21e25d9430f9": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "Can AI Evaluate AI Scientists? A Benchmarking Study of Autonomous Research Generation Systems Using Automated Multi-Model Review",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 30,
      "source_count": 1,
      "sources": [
@@ -663,12 +663,12 @@
   },
   "story:c25bd4f3f312": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "LLM Framework for Discovering Major Mathematical Conjectures: AI's Quest for the Next Riemann Hypothesis",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 31,
      "source_count": 1,
      "sources": [
@@ -685,12 +685,12 @@
   },
   "story:fe53df3a4624": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "ThinkReset: Learnable Intermediate Interface Construction for Bounded-Context Long-Horizon Reasoning",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 32,
      "source_count": 1,
      "sources": [
@@ -707,12 +707,12 @@
   },
   "story:04745c420edb": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "TAPR: Enhancing LLM Performance with a Task-Aware Prompt Rewriter",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 33,
      "source_count": 1,
      "sources": [
@@ -729,12 +729,12 @@
   },
   "story:42436760d5fa": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "Empowering Cross-Domain Sequential Recommendation with Hybrid Tokenization and Serial-Parallel Decoding",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 34,
      "source_count": 1,
      "sources": [
@@ -751,12 +751,12 @@
   },
   "story:61a78f698c65": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "Circles powers telco personalization with OpenAI technology",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 35,
      "source_count": 1,
      "sources": [
@@ -773,12 +773,12 @@
   },
   "story:c2ce6f4749a3": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "KDnuggets Weekly Roundup: Build and Deploy Your First Autonomous Agent • 7 Machine Learning Algorithms That Still Matter",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 36,
      "source_count": 1,
      "sources": [
@@ -795,12 +795,12 @@
   },
   "story:01f7ad1872e9": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "Is paying artists enough to convince them to embrace AI?",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 37,
      "source_count": 1,
      "sources": [
@@ -817,12 +817,12 @@
   },
   "story:459d1dce65d6": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "Google Earth&#8217;s AI deepfake tool only lasted one day",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 38,
      "source_count": 1,
      "sources": [
@@ -839,12 +839,12 @@
   },
   "story:2e40bd23d1fd": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "Advancing responsible AI across Europe",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 39,
      "source_count": 1,
      "sources": [
@@ -861,12 +861,12 @@
   },
   "story:9f9c7e18e5e3": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "Building abundant intelligence",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 40,
      "source_count": 1,
      "sources": [
@@ -883,12 +883,12 @@
   },
   "story:6b4e50504917": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "Building Voice-Controlled AI Agents",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 41,
      "source_count": 1,
      "sources": [
@@ -905,12 +905,12 @@
   },
   "story:c23ce30a5007": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "5 Books That Will Deepen Your Understanding of Large Language Models",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 42,
      "source_count": 1,
      "sources": [
@@ -927,12 +927,12 @@
   },
   "story:8d8453c3a990": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "Univé builds an AI-ready workforce",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 43,
      "source_count": 1,
      "sources": [
@@ -949,12 +949,12 @@
   },
   "story:26a38321f2e8": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "Science One Framework: A verifiable autonomous research framework via Chain-of-Evidence",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 44,
      "source_count": 1,
      "sources": [
@@ -971,12 +971,12 @@
   },
   "story:586e8f909e00": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 45,
      "source_count": 1,
      "sources": [
@@ -993,12 +993,12 @@
   },
   "story:256931eef3c4": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 46,
      "source_count": 1,
      "sources": [
@@ -1015,12 +1015,12 @@
   },
   "story:cc5004423649": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "A Beginner’s Guide to Working with Claude Design",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 47,
      "source_count": 1,
      "sources": [
@@ -1037,12 +1037,12 @@
   },
   "story:7d77d74deaee": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "A fundamental flaw leaves LLMs strikingly vulnerable to attack",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 48,
      "source_count": 1,
      "sources": [
@@ -1059,12 +1059,12 @@
   },
   "story:dc44a055a01d": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "Advancing the price-performance frontier with GPT-5.6",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 49,
      "source_count": 1,
      "sources": [
@@ -1081,12 +1081,12 @@
   },
   "story:b8f1d9e8576e": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 50,
      "source_count": 1,
      "sources": [
@@ -1103,12 +1103,12 @@
   },
   "story:56e8dae1e2f4": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "From CUDA to MLX: How K-Search Brings Decades of Kernel Expertise to Apple Silicon",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 51,
      "source_count": 1,
      "sources": [
@@ -1125,12 +1125,12 @@
   },
   "story:9a7b8fc32783": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "The AI Hype Index: Unsexy AI",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 52,
      "source_count": 1,
      "sources": [
@@ -1147,12 +1147,12 @@
   },
   "story:06740756fbd7": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "The OlmoEarth Platform: Geospatial inference at planetary scale",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 53,
      "source_count": 1,
      "sources": [
@@ -1169,12 +1169,12 @@
   },
   "story:7f6f285fb17a": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "LFM2.5-Encoders for Fast Long-Context Inference on CPU",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 54,
      "source_count": 1,
      "sources": [
@@ -1191,12 +1191,12 @@
   },
   "story:4b72edb1bded": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "Gemini Robotics 2 brings whole body intelligence to robots",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 55,
      "source_count": 1,
      "sources": [
@@ -1213,12 +1213,12 @@
   },
   "story:fc738974cab8": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "ai",
    "title": "Samsung’s chip workers are jumping ship to rival SK Hynix",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 56,
      "source_count": 1,
      "sources": [
@@ -1235,12 +1235,12 @@
   },
   "story:e4b8d733465f": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "semi",
    "title": "Sandisk and SK Hynix release HBF spec to advance AI memory standard",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 1,
      "source_count": 1,
      "sources": [
@@ -1257,13 +1257,13 @@
   },
   "story:9c943df5daba": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "semi",
    "title": "Advantech bets on Physical AI as WEDA accelerates edge AI commercialization",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 2,
+     "ts": 1785807991,
+     "rank": 3,
      "source_count": 1,
      "sources": [
       "DIGITIMES"
@@ -1279,13 +1279,13 @@
   },
   "story:4d369403c3c5": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "semi",
    "title": "J&amp;V Energy buys BlackRock's 187MW solar portfolio, doubling annual power output",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 3,
+     "ts": 1785807991,
+     "rank": 4,
      "source_count": 1,
      "sources": [
       "DIGITIMES"
@@ -1301,13 +1301,13 @@
   },
   "story:e2d0c40d93bb": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "semi",
    "title": "YMTC rejects patent-loss claims in global 3D NAND clash with Micron",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 4,
+     "ts": 1785807991,
+     "rank": 5,
      "source_count": 1,
      "sources": [
       "DIGITIMES"
@@ -1323,13 +1323,13 @@
   },
   "story:9d1cb41ac6cd": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "semi",
    "title": "ispace turns to H3 for 2028 mission as Japan builds domestic lunar transport stack",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 5,
+     "ts": 1785807991,
+     "rank": 6,
      "source_count": 1,
      "sources": [
       "DIGITIMES"
@@ -1345,13 +1345,13 @@
   },
   "story:d8815945e393": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "semi",
    "title": "Montage brings CXL 3.2 memory expansion to AI data centres with Samsung, SK Hynix support",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 6,
+     "ts": 1785807991,
+     "rank": 7,
      "source_count": 1,
      "sources": [
       "DIGITIMES"
@@ -1367,13 +1367,13 @@
   },
   "story:af9d7b6c08b9": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "semi",
    "title": "Executive Interview with James Huang of AlChip",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 7,
+     "ts": 1785807991,
+     "rank": 8,
      "source_count": 1,
      "sources": [
       "SemiWiki"
@@ -1389,13 +1389,13 @@
   },
   "story:6e832f814f07": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "semi",
    "title": "Renesas Tackles Memory Bottleneck with MRDIMM Update",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 8,
+     "ts": 1785807991,
+     "rank": 9,
      "source_count": 1,
      "sources": [
       "EE Times"
@@ -1411,13 +1411,13 @@
   },
   "story:e0fdab62e814": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "semi",
    "title": "Synopsys Demonstrates Leadership in AI-Powered Engineering at 2026 DAC Chips to Systems Conference",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 9,
+     "ts": 1785807991,
+     "rank": 10,
      "source_count": 1,
      "sources": [
       "SemiWiki"
@@ -1433,13 +1433,13 @@
   },
   "story:2faa80ed9f0d": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "semi",
    "title": "Chip Bridges Neuromorphic And Deep-Network Computing (TU Dresden)",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 10,
+     "ts": 1785807991,
+     "rank": 11,
      "source_count": 1,
      "sources": [
       "Semiconductor Engineering"
@@ -1455,13 +1455,13 @@
   },
   "story:ca61d3a021b1": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "semi",
    "title": "Video Interview: ChipAgents CEO on Latest Funding for Agentic AI in EDA",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 11,
+     "ts": 1785807991,
+     "rank": 13,
      "source_count": 1,
      "sources": [
       "EE Times"
@@ -1477,13 +1477,13 @@
   },
   "story:79f2e56d9b13": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "semi",
    "title": "WAVE-J: Redefining High-Performance JPEG for the 8K Era",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 12,
+     "ts": 1785807991,
+     "rank": 15,
      "source_count": 1,
      "sources": [
       "SemiWiki"
@@ -1499,13 +1499,13 @@
   },
   "story:53fe7d5c68a4": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "semi",
    "title": "NXP Eying Ambarella: Is It About Automotive or Edge AI?",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 13,
+     "ts": 1785807991,
+     "rank": 19,
      "source_count": 1,
      "sources": [
       "EE Times"
@@ -1521,13 +1521,13 @@
   },
   "story:18086074c6f0": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "semi",
    "title": "Self-Driving Cars Have An Aging Problem",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 14,
+     "ts": 1785807991,
+     "rank": 21,
      "source_count": 1,
      "sources": [
       "Semiconductor Engineering"
@@ -1543,13 +1543,13 @@
   },
   "story:336e0336d27e": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "semi",
    "title": "CEO Interview with Joseph Krause of Radical AI",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 15,
+     "ts": 1785807991,
+     "rank": 22,
      "source_count": 1,
      "sources": [
       "SemiWiki"
@@ -1565,13 +1565,13 @@
   },
   "story:add67d044558": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "semi",
    "title": "CEO Interview with Chuck McClish of of Lattrex Inc.",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 16,
+     "ts": 1785807991,
+     "rank": 23,
      "source_count": 1,
      "sources": [
       "SemiWiki"
@@ -1587,13 +1587,13 @@
   },
   "story:bba7cb6540ad": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "semi",
    "title": "Modular Verification of RTL Processors Against ISA Contracts (MIT, Google, UW)",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 17,
+     "ts": 1785807991,
+     "rank": 24,
      "source_count": 1,
      "sources": [
       "Semiconductor Engineering"
@@ -1609,13 +1609,13 @@
   },
   "story:c0f0e479c361": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "semi",
    "title": "Humanoid Manipulation at the Edge of Physical Interaction",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 18,
+     "ts": 1785807991,
+     "rank": 25,
      "source_count": 1,
      "sources": [
       "EE Times"
@@ -1631,13 +1631,13 @@
   },
   "story:b87c90b58534": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "semi",
    "title": "ERP Statistics: Insights From 70 Manufacturing Case Studies",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 19,
+     "ts": 1785807991,
+     "rank": 26,
      "source_count": 1,
      "sources": [
       "EE Times"
@@ -1653,13 +1653,13 @@
   },
   "story:b39ac2ac2465": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "semi",
    "title": "CEA-Leti Pushes Stacking Roadmap as AI Runs into Memory and Power Limits",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 20,
+     "ts": 1785807991,
+     "rank": 27,
      "source_count": 1,
      "sources": [
       "EE Times"
@@ -1675,13 +1675,13 @@
   },
   "story:d1e9fcbcf1e0": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "semi",
    "title": "Chip Industry Week In Review",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 21,
+     "ts": 1785807991,
+     "rank": 29,
      "source_count": 1,
      "sources": [
       "Semiconductor Engineering"
@@ -1697,13 +1697,13 @@
   },
   "story:c1168cb68cc6": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "semi",
    "title": "Compute Clusters Break Out Of National Labs To Scale AI",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 22,
+     "ts": 1785807991,
+     "rank": 34,
      "source_count": 1,
      "sources": [
       "Semiconductor Engineering"
@@ -1719,13 +1719,13 @@
   },
   "story:2588f87821a9": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "semi",
    "title": "Hybrid Memory Combines NAND Flash And DRAM For Faster Data Transfer (U. of Seoul)",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 23,
+     "ts": 1785807991,
+     "rank": 35,
      "source_count": 1,
      "sources": [
       "Semiconductor Engineering"
@@ -1741,12 +1741,12 @@
   },
   "topic:d599d004f630": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "robot",
    "title": "igus launches energy chain with 600-degree rotation for industrial robots",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 1,
      "source_count": 1,
      "sources": [
@@ -1763,12 +1763,12 @@
   },
   "story:58ef92612d50": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "robot",
    "title": "HEBI Robotics earns NASA SBIR grant to fast track miniaturized actuators",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 2,
      "source_count": 1,
      "sources": [
@@ -1785,12 +1785,12 @@
   },
   "story:2cf45a6be9dc": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "robot",
    "title": "Walden Robotics Partners With Toyota on Practical Humanoids",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 3,
      "source_count": 1,
      "sources": [
@@ -1807,12 +1807,12 @@
   },
   "story:5663f005690b": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "robot",
    "title": "How Automation Companies Add AI Without Locking into One Provider",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 4,
      "source_count": 1,
      "sources": [
@@ -1829,12 +1829,12 @@
   },
   "story:2df799ed7b51": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "robot",
    "title": "How to Choose an Independent Car Appraiser in Florida for Diminished Value, Total Loss, and Fair Market Value Assessments",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 5,
      "source_count": 1,
      "sources": [
@@ -1851,12 +1851,12 @@
   },
   "story:ecc657bbe60b": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "robot",
    "title": "How certified systems integrators reduce commissioning risk in robotic production cells",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 6,
      "source_count": 1,
      "sources": [
@@ -1873,12 +1873,12 @@
   },
   "story:94d6fdcc6f38": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "robot",
    "title": "Designing Companion Mobile Apps for Robotics and Automation Systems",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 7,
      "source_count": 1,
      "sources": [
@@ -1895,12 +1895,12 @@
   },
   "story:479fdd3d9e9c": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "robot",
    "title": "Simulated zebrafish and a vision-equipped robotic fish reveal how the body shapes brain circuits",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 8,
      "source_count": 1,
      "sources": [
@@ -1917,12 +1917,12 @@
   },
   "story:f629d8692cb9": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "robot",
    "title": "AGIBOT’s foundation model tops benchmark test for audio-visual reasoning",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 9,
      "source_count": 1,
      "sources": [
@@ -1939,12 +1939,12 @@
   },
   "story:2df47e7185c2": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "robot",
    "title": "Reimagine Robotics emerges from stealth with robots that ‘learn on the job’",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 10,
      "source_count": 1,
      "sources": [
@@ -1961,12 +1961,12 @@
   },
   "story:5612afe61a52": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "robot",
    "title": "Google DeepMind says Gemini Robotics 2 enables full body control",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 11,
      "source_count": 1,
      "sources": [
@@ -1983,12 +1983,12 @@
   },
   "story:191f8a7f214c": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "robot",
    "title": "Top 10 robotics stories of July 2026",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 12,
      "source_count": 1,
      "sources": [
@@ -2005,12 +2005,12 @@
   },
   "story:2e8ca04529f3": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "robot",
    "title": "Seedance 2.5: Advancing AI Video Creation for Modern Content Workflows",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 13,
      "source_count": 1,
      "sources": [
@@ -2027,12 +2027,12 @@
   },
   "story:78f3f5a27d34": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "robot",
    "title": "FCC robot ruling shines a spotlight on U.S. policy; how next-gen AI can help warehousing",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 14,
      "source_count": 1,
      "sources": [
@@ -2049,12 +2049,12 @@
   },
   "story:be226593140b": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "robot",
    "title": "Video Friday: Meet Google DeepMind’s Gemini Robotics 2",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 15,
      "source_count": 1,
      "sources": [
@@ -2071,12 +2071,12 @@
   },
   "story:9c5accbf131b": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "robot",
    "title": "Researchers develop modular nanorobot",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 16,
      "source_count": 1,
      "sources": [
@@ -2093,12 +2093,12 @@
   },
   "story:5797dcfea95a": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "robot",
    "title": "Surviving the paper deluge: a one-year study in learning from demonstration",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 17,
      "source_count": 1,
      "sources": [
@@ -2115,12 +2115,12 @@
   },
   "story:d76137d0eb6f": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "robot",
    "title": "Robot Finger Feels in Color",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 18,
      "source_count": 1,
      "sources": [
@@ -2137,12 +2137,12 @@
   },
   "story:6bf9b66e41d0": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "robot",
    "title": "Soft robotic heart offers new way to study disease and test life-saving devices",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 19,
      "source_count": 1,
      "sources": [
@@ -2159,13 +2159,13 @@
   },
   "story:99e6a10185d1": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "auto",
    "title": "Mercedes Boss Says The Auto Industry Went 'Too Far' With Removing Buttons",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 1,
+     "ts": 1785807991,
+     "rank": 2,
      "source_count": 1,
      "sources": [
       "InsideEVs"
@@ -2181,13 +2181,13 @@
   },
   "story:ae7568a1ece6": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "auto",
    "title": "Rivian's Also E-Bike Kicks Off Deliveries Soon",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 2,
+     "ts": 1785807991,
+     "rank": 3,
      "source_count": 1,
      "sources": [
       "InsideEVs"
@@ -2203,13 +2203,13 @@
   },
   "story:0ec85a08e5a7": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "auto",
    "title": "The Rivian R2 Will Let You Drift Like Chris Harris Until the Tires Blow Up",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 3,
+     "ts": 1785807991,
+     "rank": 4,
      "source_count": 1,
      "sources": [
       "InsideEVs"
@@ -2225,13 +2225,13 @@
   },
   "story:f31cfba14a9f": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "auto",
    "title": "This solar-powered ‘ambulance’ has a range of up to 444 miles",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 4,
+     "ts": 1785807991,
+     "rank": 5,
      "source_count": 1,
      "sources": [
       "Electrek"
@@ -2247,13 +2247,13 @@
   },
   "story:f5e08ec02309": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "auto",
    "title": "BYD opens Denza Z9S pre-orders, claiming the ‘world’s longest’ EV range at 1,100 km",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 5,
+     "ts": 1785807991,
+     "rank": 6,
      "source_count": 2,
      "sources": [
       "CnEVPost",
@@ -2270,13 +2270,13 @@
   },
   "story:e1f21341aa31": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "auto",
    "title": "Base Power raises $1B to roll out its giant new home battery",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 6,
+     "ts": 1785807991,
+     "rank": 7,
      "source_count": 1,
      "sources": [
       "Electrek"
@@ -2292,13 +2292,13 @@
   },
   "story:3ed21ff26254": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "auto",
    "title": "Lectric Back to School e-bike sale with up to $804 savings, Monarc Marker + Tracer e-bike bundles from $1,899, EGO Multi-Head, more",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 7,
+     "ts": 1785807991,
+     "rank": 8,
      "source_count": 1,
      "sources": [
       "Electrek"
@@ -2314,13 +2314,13 @@
   },
   "story:8a9b5e5a7d2f": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "auto",
    "title": "Hyundai is about to launch the IONIQ 3, and it plans to sell over 40,000 in 2027",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 8,
+     "ts": 1785807991,
+     "rank": 9,
      "source_count": 1,
      "sources": [
       "Electrek"
@@ -2336,13 +2336,13 @@
   },
   "story:dfa677468457": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "auto",
    "title": "EVs Don’t Need This Gas Car Feature. So Why Do So Many Still Have It?",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 9,
+     "ts": 1785807991,
+     "rank": 10,
      "source_count": 1,
      "sources": [
       "InsideEVs"
@@ -2380,12 +2380,12 @@
   },
   "story:52b2f9bdf656": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "auto",
    "title": "Telo Says Its Tiny EV Truck Can Tow More Than A Base Ford F-150",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 11,
      "source_count": 1,
      "sources": [
@@ -2402,12 +2402,12 @@
   },
   "story:0ad1f6696a9c": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "auto",
    "title": "Volvo's New EX50 Will Be A Sub-$50,000 Tesla Model Y Fighter: Report",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 12,
      "source_count": 1,
      "sources": [
@@ -2424,12 +2424,12 @@
   },
   "story:9e4fb710629c": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "auto",
    "title": "Leapmotor to launch A05 compact EV on August 10",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 13,
      "source_count": 1,
      "sources": [
@@ -2446,12 +2446,12 @@
   },
   "story:9341cd06b7bf": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "auto",
    "title": "Li Auto launches all-new L9 in Uzbekistan, deepening Central Asia push",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 14,
      "source_count": 1,
      "sources": [
@@ -2468,12 +2468,12 @@
   },
   "story:bea7fbaa0272": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "auto",
    "title": "Chery to invest $75 million in South Korea's KG Mobility, eyeing global capacity sharing",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 15,
      "source_count": 1,
      "sources": [
@@ -2490,12 +2490,12 @@
   },
   "story:98ec94c88166": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "auto",
    "title": "WeRide enters Denmark as first Chinese robotaxi company in Nordic region",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 16,
      "source_count": 1,
      "sources": [
@@ -2512,12 +2512,12 @@
   },
   "story:e94fa65e1f27": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "auto",
    "title": "VW's Jetta brand previews M6 electric sedan as electrification push begins",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 17,
      "source_count": 1,
      "sources": [
@@ -2534,12 +2534,12 @@
   },
   "story:0aaaf250f744": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "auto",
    "title": "TechCrunch Mobility: Two roads diverged — for robotaxis",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 18,
      "source_count": 1,
      "sources": [
@@ -2556,12 +2556,12 @@
   },
   "story:bbd0d21ee0b4": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "auto",
    "title": "Uber is building an autonomous vehicle empire, and here’s every company it’s using to do it",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 19,
      "source_count": 1,
      "sources": [
@@ -2578,12 +2578,12 @@
   },
   "story:5b4444828fbe": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "auto",
    "title": "Rivian spinoff Also to start delivering e-bikes after months of delays",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 20,
      "source_count": 1,
      "sources": [
@@ -2600,12 +2600,12 @@
   },
   "story:102898c45f76": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "auto",
    "title": "The NHTSA is investigating 1.2 million Tesla vehicles over suspension failure reports",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 21,
      "source_count": 1,
      "sources": [
@@ -2622,12 +2622,12 @@
   },
   "story:99fe6c94ebae": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "auto",
    "title": "GM and Ford are talking less and less about EVs",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 22,
      "source_count": 1,
      "sources": [
@@ -2644,12 +2644,12 @@
   },
   "story:2c519fb6f1b6": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "auto",
    "title": "Tesla reportedly might sell its China business ahead of a SpaceX merger",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 23,
      "source_count": 1,
      "sources": [
@@ -2666,12 +2666,12 @@
   },
   "story:3f2ad54b5a2b": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "auto",
    "title": "Florida plans to build air taxi pads using $200M intended for EV chargers",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 24,
      "source_count": 1,
      "sources": [
@@ -2688,12 +2688,12 @@
   },
   "story:ce4e115afb71": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "auto",
    "title": "Xiaomi’s SkyNomad N90 Max is an extended-range EV with a transforming interior",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 25,
      "source_count": 1,
      "sources": [
@@ -2710,12 +2710,12 @@
   },
   "story:c03b8206fb81": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "auto",
    "title": "Zoox can now charge for rides in its steering-wheel-free robotaxis",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 26,
      "source_count": 1,
      "sources": [
@@ -2732,12 +2732,12 @@
   },
   "story:7b67d54e00bd": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "auto",
    "title": "The Ferrari Luce has at least 500 fans",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 27,
      "source_count": 1,
      "sources": [
@@ -2754,12 +2754,12 @@
   },
   "story:be8caa3e1e8a": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "energy",
    "title": "Sierra Club Responds to Attorney General Rokita’s Lawsuit to Block the Rockport Coal Plant Retirement",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 1,
      "source_count": 1,
      "sources": [
@@ -2776,12 +2776,12 @@
   },
   "story:f369c6eb5c20": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "energy",
    "title": "Sierra Club Urges SEC to Preserve Climate Disclosure Rule as Comment Period Closes",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 2,
      "source_count": 1,
      "sources": [
@@ -2798,12 +2798,12 @@
   },
   "story:460313e19fc8": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "energy",
    "title": "Magical Thinking & Modern Society",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 3,
      "source_count": 1,
      "sources": [
@@ -2820,12 +2820,12 @@
   },
   "story:8107429884c2": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "energy",
    "title": "How Namibia Pulled Ahead In Africa’s Hottest Offshore Oil Basin",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 4,
      "source_count": 1,
      "sources": [
@@ -2842,12 +2842,12 @@
   },
   "story:33f32187fdf0": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "energy",
    "title": "Elon Musk Is Still Saying Crazy Things About “Era of Abundance,” Among Other Things",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 5,
      "source_count": 1,
      "sources": [
@@ -2864,12 +2864,12 @@
   },
   "story:80fd491bc25e": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "energy",
    "title": "Big Oil Warns Global Fuel Stocks Are Running Dangerously Low",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 6,
      "source_count": 1,
      "sources": [
@@ -2886,12 +2886,12 @@
   },
   "story:87f4e80f3509": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "energy",
    "title": "Harold Hamm Bets Bigger on Argentina’s Vaca Muerta Shale Boom",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 7,
      "source_count": 1,
      "sources": [
@@ -2908,12 +2908,12 @@
   },
   "story:b653e189b2b2": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "energy",
    "title": "How Geothermal and Nuclear Could Help the U.S. Catch China in the Energy Race",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 8,
      "source_count": 1,
      "sources": [
@@ -2930,12 +2930,12 @@
   },
   "story:b00c1721eff7": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "energy",
    "title": "Russia Is Running Out of Soldiers, Oil, and Time",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 9,
      "source_count": 1,
      "sources": [
@@ -2952,12 +2952,12 @@
   },
   "story:e5d22c4cfa96": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "energy",
    "title": "Wildfires Are The Earth’s Way Of Telling Us To Change Our Behavior — Or Else",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 10,
      "source_count": 1,
      "sources": [
@@ -2974,12 +2974,12 @@
   },
   "story:a0a53023288a": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "energy",
    "title": "Blocking New Imported Inverters Will Cost America",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 11,
      "source_count": 1,
      "sources": [
@@ -2996,12 +2996,12 @@
   },
   "story:c51342e08208": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "energy",
    "title": "Hybridizing hydro could ease grid constraints says Ember",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 12,
      "source_count": 1,
      "sources": [
@@ -3018,12 +3018,12 @@
   },
   "story:8652119d4b0f": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "energy",
    "title": "Arizona, California and Nevada would share cuts under federal proposal to manage the Colorado River",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 13,
      "source_count": 1,
      "sources": [
@@ -3040,12 +3040,12 @@
   },
   "story:a8a720b1761e": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "energy",
    "title": "Ukraine’s Drone Campaign Drives Russian Oil Refining to 24-Year Low",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 14,
      "source_count": 1,
      "sources": [
@@ -3062,12 +3062,12 @@
   },
   "story:4e4a541e1cc8": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "energy",
    "title": "Dominion offshore wind project cost rises nearly $300M",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 15,
      "source_count": 1,
      "sources": [
@@ -3084,12 +3084,12 @@
   },
   "story:f9f2c03390f1": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "energy",
    "title": "What is ‘superhot’ geothermal? Deep rock to baseload power, explained",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 16,
      "source_count": 1,
      "sources": [
@@ -3106,12 +3106,12 @@
   },
   "story:78a5d8dd8795": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "energy",
    "title": "AEP secures 13 GW of gas turbines as generation ‘central’ to growth plans",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 17,
      "source_count": 1,
      "sources": [
@@ -3128,12 +3128,12 @@
   },
   "story:9449bf877821": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "energy",
    "title": "Concerns over lack of clarity, transparency as US bans foreign power inverters",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 18,
      "source_count": 1,
      "sources": [
@@ -3150,12 +3150,12 @@
   },
   "story:8088973c4eea": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "energy",
    "title": "Kazakhstan’s solar capacity surpasses 1.37 GW",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 19,
      "source_count": 1,
      "sources": [
@@ -3172,13 +3172,13 @@
   },
   "story:46cc1a955b8b": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "energy",
    "title": "Engie, Legrand sign France’s first 24/7 renewable energy supply deal",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 20,
+     "ts": 1785807991,
+     "rank": 21,
      "source_count": 1,
      "sources": [
       "pv magazine"
@@ -3194,13 +3194,13 @@
   },
   "story:564f3d898ca9": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "energy",
    "title": "PJM files backstop auction plan at FERC to meet capacity shortfall",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 21,
+     "ts": 1785807991,
+     "rank": 22,
      "source_count": 1,
      "sources": [
       "Utility Dive"
@@ -3216,13 +3216,13 @@
   },
   "story:50468e3b5611": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "energy",
    "title": "Shenling releases new air-to-water heat pump series",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 22,
+     "ts": 1785807991,
+     "rank": 23,
      "source_count": 1,
      "sources": [
       "pv magazine"
@@ -3238,13 +3238,13 @@
   },
   "story:29ce9efdf3af": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "energy",
    "title": "Sono Motors files for insolvency, puts solar business up for sale",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 23,
+     "ts": 1785807991,
+     "rank": 24,
      "source_count": 1,
      "sources": [
       "pv magazine"
@@ -3260,13 +3260,13 @@
   },
   "story:5dac445aed8d": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "energy",
    "title": "European Commission approves scheme to support 370MWh of battery storage in Slovenia",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 24,
+     "ts": 1785807991,
+     "rank": 25,
      "source_count": 1,
      "sources": [
       "Energy Storage News"
@@ -3282,13 +3282,13 @@
   },
   "story:77ff8e3105e4": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "energy",
    "title": "Morocco hosts Africa’s first battery manufacturing plant",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 25,
+     "ts": 1785807991,
+     "rank": 26,
      "source_count": 1,
      "sources": [
       "pv magazine"
@@ -3304,13 +3304,13 @@
   },
   "story:fa8e9339c1bc": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "energy",
    "title": "Redefining the utility playbook with PG&E’s Sumeet Singh",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 26,
+     "ts": 1785807991,
+     "rank": 27,
      "source_count": 1,
      "sources": [
       "Renewable Energy World"
@@ -3326,13 +3326,13 @@
   },
   "story:ceef5079636b": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "energy",
    "title": "The controversy over fire classification of BIPV systems",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 27,
+     "ts": 1785807991,
+     "rank": 28,
      "source_count": 1,
      "sources": [
       "pv magazine"
@@ -3348,13 +3348,13 @@
   },
   "story:c6b375514f91": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "energy",
    "title": "They’re choosin’ Texas | Factor This Brief",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 28,
+     "ts": 1785807991,
+     "rank": 29,
      "source_count": 1,
      "sources": [
       "Renewable Energy World"
@@ -3392,13 +3392,13 @@
   },
   "story:6d0a4090d603": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "energy",
    "title": "Converging geopolitical and enterprise risks in energy: What leaders need to anticipate now",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 30,
+     "ts": 1785807991,
+     "rank": 31,
      "source_count": 1,
      "sources": [
       "Utility Dive"
@@ -3414,13 +3414,13 @@
   },
   "story:1eaa0306508f": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "energy",
    "title": "Leading the agentic grid transformation",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 31,
+     "ts": 1785807991,
+     "rank": 30,
      "source_count": 1,
      "sources": [
       "Utility Dive"
@@ -3436,12 +3436,12 @@
   },
   "story:c5ae46b84654": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "energy",
    "title": "Samsung SDI on track with US LFP cell production, expects demand to outstrip production",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 32,
      "source_count": 1,
      "sources": [
@@ -3458,12 +3458,12 @@
   },
   "story:c5b705697f40": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "energy",
    "title": "Illinois Solar for All is, at last, taking off",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 33,
      "source_count": 1,
      "sources": [
@@ -3480,12 +3480,12 @@
   },
   "story:b6261f73b125": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "energy",
    "title": "Virginia lays groundwork to combine more solar with farming",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 34,
      "source_count": 1,
      "sources": [
@@ -3502,12 +3502,12 @@
   },
   "story:1e115fa25dbf": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "energy",
    "title": "‘You cannot build a whole electricity system purely on solar hybrids’: Squadron Energy CEO warns",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 35,
      "source_count": 1,
      "sources": [
@@ -3524,12 +3524,12 @@
   },
   "story:0801d06e9728": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "energy",
    "title": "Grid-forming BESS not yet confirmed for minimum system strength in Australia as AEMO launches fault current trial",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 36,
      "source_count": 1,
      "sources": [
@@ -3546,12 +3546,12 @@
   },
   "story:32c3d836e19e": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "energy",
    "title": "Mocean Energy targets wave-powered offshore data centers",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 37,
      "source_count": 1,
      "sources": [
@@ -3568,12 +3568,12 @@
   },
   "story:743443bdb9d1": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "energy",
    "title": "New York takes on the myth that solar is swallowing farmland",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 38,
      "source_count": 1,
      "sources": [
@@ -3590,12 +3590,12 @@
   },
   "story:147e70302348": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "energy",
    "title": "Antora Energy closes US$550 million Series C to scale US thermal battery deployment",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 39,
      "source_count": 1,
      "sources": [
@@ -3612,12 +3612,12 @@
   },
   "story:f0dbfc021742": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "energy",
    "title": "California was mostly solar-powered in May — a global first",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 40,
      "source_count": 1,
      "sources": [
@@ -3634,12 +3634,12 @@
   },
   "story:4e316a96c26b": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "energy",
    "title": "Antora snags $550M for heat batteries to run data centers and factories",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 41,
      "source_count": 1,
      "sources": [
@@ -3656,12 +3656,12 @@
   },
   "story:2d38a2ab5e26": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "energy",
    "title": "This Texas coal mine will soon be home to a 1.2GW solar farm",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 42,
      "source_count": 1,
      "sources": [
@@ -3678,12 +3678,12 @@
   },
   "story:aa9e7c0d6f9d": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "bio",
    "title": "Pathos does deals with AstraZeneca, China's Alphamab, seeks up to $300M Series E",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 1,
      "source_count": 1,
      "sources": [
@@ -3700,12 +3700,12 @@
   },
   "story:93c8cb090cd5": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "bio",
    "title": "STAT+: California Supreme Court sides with Gilead in ‘duty’ to innovate case",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 2,
      "source_count": 1,
      "sources": [
@@ -3722,12 +3722,12 @@
   },
   "story:a97372c9cd26": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "bio",
    "title": "Biopharma industry questions potential AstraZeneca, Bristol Myers merger",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 3,
      "source_count": 1,
      "sources": [
@@ -3744,12 +3744,12 @@
   },
   "story:b68d569e7aec": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "bio",
    "title": "RFK Jr. interview sparks corrections on vaccines, pandemics and measles",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 4,
      "source_count": 1,
      "sources": [
@@ -3766,12 +3766,12 @@
   },
   "story:b9090350a93b": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "bio",
    "title": "Combined Phage Therapy and FMT Reduces Recurrent UTIs and Antibiotic Use in First Human Case Series",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 5,
      "source_count": 1,
      "sources": [
@@ -3788,12 +3788,12 @@
   },
   "story:8ceb3494737a": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "bio",
    "title": "STAT+: Eli Lilly to allow more patients to apply for special access to unapproved obesity drug",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 6,
      "source_count": 1,
      "sources": [
@@ -3810,12 +3810,12 @@
   },
   "story:d4d522ccb24b": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "bio",
    "title": "Michigan reports the first 2 U.S. deaths related to a diarrhea-causing parasite",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 7,
      "source_count": 1,
      "sources": [
@@ -3832,12 +3832,12 @@
   },
   "story:d28348780be5": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "bio",
    "title": "An AstraZeneca-Bristol Myers megamerger? Wall Street isn’t thrilled.",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 8,
      "source_count": 1,
      "sources": [
@@ -3854,12 +3854,12 @@
   },
   "story:483728bb3880": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "bio",
    "title": "BioNTech taps Sobi executive Oelkers as its next CEO",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 9,
      "source_count": 1,
      "sources": [
@@ -3876,12 +3876,12 @@
   },
   "story:06447c39cc34": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "bio",
    "title": "STAT+: Medicare eliminates key pathways used by ‘breakthrough’ devices for extra payments",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 10,
      "source_count": 1,
      "sources": [
@@ -3898,12 +3898,12 @@
   },
   "story:71c9968a5886": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "bio",
    "title": "Evolutionarily Diverse Organisms Switch Genes on Simply and Switch Them off Dynamically",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 11,
      "source_count": 1,
      "sources": [
@@ -3920,12 +3920,12 @@
   },
   "story:2f9e4c7b6488": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "bio",
    "title": "FDA expands Pluvicto label, making it available to most metastatic prostate cancer patients",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 12,
      "source_count": 1,
      "sources": [
@@ -3942,12 +3942,12 @@
   },
   "story:591e4ba9aca9": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "bio",
    "title": "Curium buys radiopharma rival Lantheus for $8B; Sandoz settles price-fixing case",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 13,
      "source_count": 1,
      "sources": [
@@ -3964,12 +3964,12 @@
   },
   "story:42b2f35e3dde": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "bio",
    "title": "Supernus, Individor merge to beef up brain drug portfolio",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 14,
      "source_count": 1,
      "sources": [
@@ -3986,12 +3986,12 @@
   },
   "story:12737e63b287": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "bio",
    "title": "Work ethic becomes a flashpoint as China's biotech pace quickens",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 15,
      "source_count": 1,
      "sources": [
@@ -4008,12 +4008,12 @@
   },
   "topic:c237f8a9ecbc": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "bio",
    "title": "STAT+: Is there a pharma mega-merger in the making?",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 16,
      "source_count": 1,
      "sources": [
@@ -4030,12 +4030,12 @@
   },
   "story:e7a33ab6a08f": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "bio",
    "title": "STAT+: Pharmalittle: We’re reading about AstraZeneca-Bristol merger talks, a revised 340B plan, and more",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 17,
      "source_count": 1,
      "sources": [
@@ -4052,12 +4052,12 @@
   },
   "story:a81e73c98716": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "bio",
    "title": "Receptor.AI and Sethera Plan to Create Closed-Loop Discovery and Optimization Workflow for Difficult Therapeutic Targets",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 18,
      "source_count": 1,
      "sources": [
@@ -4074,12 +4074,12 @@
   },
   "story:ed4cc8022ed3": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "bio",
    "title": "StockWatch: Capricor Plunges as FDA Panel, Staff Question Effectiveness of Lead Candidate Deramiocel",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 19,
      "source_count": 1,
      "sources": [
@@ -4096,12 +4096,12 @@
   },
   "story:d771ffc56768": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "bio",
    "title": "Author Correction: Therapeutic application of circular RNA aptamers in a mouse model of psoriasis",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 20,
      "source_count": 1,
      "sources": [
@@ -4118,12 +4118,12 @@
   },
   "story:1a919eca908e": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "bio",
    "title": "Editor’s pick: Excelsior Sciences",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 21,
      "source_count": 1,
      "sources": [
@@ -4140,12 +4140,12 @@
   },
   "story:42aa45f79ebe": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "bio",
    "title": "Publisher Correction: Engineered polyketide synthases enable a microbial chassis for recyclable plastics with tunable properties",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 22,
      "source_count": 1,
      "sources": [
@@ -4162,12 +4162,12 @@
   },
   "story:346b09720d69": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "bio",
    "title": "Evolution of botulinum neurotoxin serotype X proteases to induce inflammatory cell death in cancer cells",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 23,
      "source_count": 1,
      "sources": [
@@ -4184,12 +4184,12 @@
   },
   "story:72e42f1d74dd": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "bio",
    "title": "Trump administration tries again to institute rebates in 340B",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 24,
      "source_count": 1,
      "sources": [
@@ -4206,12 +4206,12 @@
   },
   "story:1a13082ad913": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "bio",
    "title": "Ketamine Triggers Sex-Specific Brain Recovery Responses",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 25,
      "source_count": 1,
      "sources": [
@@ -4228,12 +4228,12 @@
   },
   "story:dd33498976ef": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "bio",
    "title": "Molecular GPS Guides Neutrophils to Sites of Infection",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 26,
      "source_count": 1,
      "sources": [
@@ -4250,12 +4250,12 @@
   },
   "story:c6336d3ea512": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "bio",
    "title": "Novo setback casts doubt on a new way to treat heart disease",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 27,
      "source_count": 1,
      "sources": [
@@ -4272,12 +4272,12 @@
   },
   "story:cdcfd4bc3127": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "bio",
    "title": "Resilience and Lilly invest $750M to boost Cincinnati drug production",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 28,
      "source_count": 1,
      "sources": [
@@ -4294,12 +4294,12 @@
   },
   "story:df5c3266a7aa": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "bio",
    "title": "Ten commitments for a bold biotechnology industry",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 29,
      "source_count": 1,
      "sources": [
@@ -4316,12 +4316,12 @@
   },
   "story:1371d584972f": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "bio",
    "title": "Property guidance for protein sequence generative models with ProteinGuide",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 30,
      "source_count": 1,
      "sources": [
@@ -4338,12 +4338,12 @@
   },
   "story:c4d77487c221": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "space",
    "title": "CNN dives into how Elon Musk and Jeff Bezos are backing NASA's race to the moon against China (exclusive clip)",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 1,
      "source_count": 1,
      "sources": [
@@ -4360,12 +4360,12 @@
   },
   "story:4dfddfc62875": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "space",
    "title": "Launch Preview: Starlink, AST SpaceMobile, and Chinese missions fill launch manifest",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 2,
      "source_count": 1,
      "sources": [
@@ -4382,12 +4382,12 @@
   },
   "story:6c06a756a4df": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "space",
    "title": "A SpaceX rocket will crash into the moon this week. Why is it on a collision course?",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 3,
      "source_count": 1,
      "sources": [
@@ -4404,12 +4404,12 @@
   },
   "story:bc5a12eb90aa": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "space",
    "title": "Jack in for a cyberpunk jolt with this energized first trailer for Apple TV's 'Neuromancer'",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 4,
      "source_count": 1,
      "sources": [
@@ -4426,12 +4426,12 @@
   },
   "story:85955f0ef51f": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "space",
    "title": "Louisiana Students Loft Payloads from NASA Balloon Facility in Texas",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 5,
      "source_count": 1,
      "sources": [
@@ -4448,12 +4448,12 @@
   },
   "story:1ba94223b2af": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "space",
    "title": "Jupiter's moon Europa may have signs of life in its buried ocean — but can we get to them?",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 6,
      "source_count": 1,
      "sources": [
@@ -4470,12 +4470,12 @@
   },
   "story:7cbaaf11b40c": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "space",
    "title": "Guinea-Bissau Tidal Waters",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 7,
      "source_count": 1,
      "sources": [
@@ -4492,12 +4492,12 @@
   },
   "story:c2a87478b9b9": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "space",
    "title": "3 moons of Neptune may be remnants of ice worlds shattered in a catastrophic crash",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 8,
      "source_count": 1,
      "sources": [
@@ -4514,12 +4514,12 @@
   },
   "story:f576222dc690": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "space",
    "title": "Hughes files for bankruptcy after GEO business loses ground to Starlink",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 9,
      "source_count": 1,
      "sources": [
@@ -4536,12 +4536,12 @@
   },
   "story:330fb1fb7bd6": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "space",
    "title": "Xona secures spectrum approval for satellite navigation network",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 10,
      "source_count": 1,
      "sources": [
@@ -4558,12 +4558,12 @@
   },
   "story:0ff139b2f996": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "space",
    "title": "The 1st 'three-headed' asteroid | Space photo of the day for Aug. 3, 2026",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 11,
      "source_count": 1,
      "sources": [
@@ -4580,12 +4580,12 @@
   },
   "story:45bdca86d84f": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "space",
    "title": "NASA Delivers Navigation System for Commercial Lunar Relay",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 12,
      "source_count": 1,
      "sources": [
@@ -4602,12 +4602,12 @@
   },
   "story:081da06bafe2": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "space",
    "title": "Ike Theriot Helps Prepare Astronauts to Work on the Moon",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 13,
      "source_count": 1,
      "sources": [
@@ -4624,12 +4624,12 @@
   },
   "story:00caa811601c": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "space",
    "title": "NASA Brings Space Exploration to the FIFA World Cup",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 14,
      "source_count": 1,
      "sources": [
@@ -4646,12 +4646,12 @@
   },
   "story:9b373c30b2a1": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "space",
    "title": "True Anomaly Chases an Evading Target",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 15,
      "source_count": 1,
      "sources": [
@@ -4668,12 +4668,12 @@
   },
   "story:ed5e71135cb0": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "space",
    "title": "AFRL Adds $11.7M to Blue Origin’s Point-to-Point Cargo Contract",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 16,
      "source_count": 1,
      "sources": [
@@ -4690,12 +4690,12 @@
   },
   "story:5a7178431a1a": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "space",
    "title": "Airbus and Thales win order for SpainSat replacement",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 17,
      "source_count": 1,
      "sources": [
@@ -4712,12 +4712,12 @@
   },
   "story:75a716c1d8b2": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "space",
    "title": "APOD: 2026 August 3 – Vaporizing Meteor Photobombs the Lacerta Nebula",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 18,
      "source_count": 1,
      "sources": [
@@ -4734,12 +4734,12 @@
   },
   "story:3f5c0e15732c": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "space",
    "title": "U.S. Air Force expands Blue Origin rocket cargo contract",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 19,
      "source_count": 1,
      "sources": [
@@ -4756,12 +4756,12 @@
   },
   "story:9cfdfc783d02": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "space",
    "title": "Boeing’s Starliner set for potential 2026 cargo run to ISS",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 20,
      "source_count": 1,
      "sources": [
@@ -4778,12 +4778,12 @@
   },
   "story:e76ee5e77f31": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "space",
    "title": "Space Force awards K2 Space $22.9 million for laser communications demonstration",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 21,
      "source_count": 1,
      "sources": [
@@ -4800,12 +4800,12 @@
   },
   "story:8b10dbef2082": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "space",
    "title": "China launches secretive TJS-27 pair, orbits next-gen Tianlian relay sat",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 22,
      "source_count": 1,
      "sources": [
@@ -4822,12 +4822,12 @@
   },
   "story:f5ee89fbbd84": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "space",
    "title": "Starbase Pad 1 Retrofits Progress as Block 3 Flights Start",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 23,
      "source_count": 1,
      "sources": [
@@ -4844,12 +4844,12 @@
   },
   "story:692382b9aab1": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "space",
    "title": "SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg SFB",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 24,
      "source_count": 1,
      "sources": [
@@ -4866,12 +4866,12 @@
   },
   "story:9d99b03bccf8": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "space",
    "title": "K2 Space Raises $500M Series D at $6.8B Valuation",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 25,
      "source_count": 1,
      "sources": [
@@ -4888,12 +4888,12 @@
   },
   "story:46a5371a786a": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "space",
    "title": "NordSpace Funds NVD Amid Canada’s Export Push",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 26,
      "source_count": 1,
      "sources": [
@@ -4910,12 +4910,12 @@
   },
   "story:2ce617bdfec2": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "space",
    "title": "Blue Origin continues rebuilding LC-36, prepares testing alternatives for New Glenn second stage",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 27,
      "source_count": 1,
      "sources": [
@@ -4932,12 +4932,12 @@
   },
   "story:9098a80ceef8": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "space",
    "title": "Report: Our Launch Cadence Forecast For Next-Gen Rockets",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 28,
      "source_count": 1,
      "sources": [
@@ -4954,12 +4954,12 @@
   },
   "story:561dcfadc731": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "space",
    "title": "Payload Field Guide: European Launchers",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 29,
      "source_count": 1,
      "sources": [
@@ -4976,12 +4976,12 @@
   },
   "story:bafa09eda29c": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "space",
    "title": "SpaceX launches classified payload for National Reconnaissance Office",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 30,
      "source_count": 1,
      "sources": [
@@ -4998,12 +4998,12 @@
   },
   "story:5587a11052ad": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "space",
    "title": "Ship 40’s flawless flight promotes next mission catch potential",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 31,
      "source_count": 1,
      "sources": [
@@ -5020,12 +5020,12 @@
   },
   "story:bcfdc5a01d7d": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "security",
    "title": "Hotel Wi-Fi attacks use custom malware to breach Microsoft 365 accounts",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 1,
      "source_count": 1,
      "sources": [
@@ -5042,12 +5042,12 @@
   },
   "story:a612b759fcff": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "security",
    "title": "New Pass-ta-key attacks let malware hijack Google-synced passkeys",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 2,
      "source_count": 1,
      "sources": [
@@ -5064,12 +5064,12 @@
   },
   "story:1a1b032350cc": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "security",
    "title": "Attackers Exploit N-able Patch Bypass Flaw on RMM Servers",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 3,
      "source_count": 1,
      "sources": [
@@ -5086,12 +5086,12 @@
   },
   "story:866d14de1fbc": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "security",
    "title": "New Tool Traces AI Videos Back to Their Source",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 4,
      "source_count": 1,
      "sources": [
@@ -5108,12 +5108,12 @@
   },
   "story:c25a007c24f8": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "security",
    "title": "Anthropic: Claude Attacks Result of Security Gaps, Not Model Issues",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 5,
      "source_count": 1,
      "sources": [
@@ -5130,12 +5130,12 @@
   },
   "story:6389f240aa76": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "security",
    "title": "New DOUBLECUP ClickFix service hides malware in browser cache images",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 6,
      "source_count": 1,
      "sources": [
@@ -5152,12 +5152,12 @@
   },
   "story:7b2ffcb82383": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "security",
    "title": "Fake Roblox Xeno script launcher pushes infostealer, RAT malware",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 7,
      "source_count": 1,
      "sources": [
@@ -5174,12 +5174,12 @@
   },
   "story:8795f5c0ed5a": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "security",
    "title": "18 Malicious npm Packages Deliver Cross-Platform RAT to Alibaba Tool Users",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 8,
      "source_count": 1,
      "sources": [
@@ -5196,12 +5196,12 @@
   },
   "story:edce4d41bb29": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "security",
    "title": "N-able warns of N-central auth bypass flaw exploited in attacks",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 9,
      "source_count": 1,
      "sources": [
@@ -5218,12 +5218,12 @@
   },
   "story:cce83d2362d6": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "security",
    "title": "Google Password Manager Attacks Could Let Malware Hijack Passkey-Protected Accounts",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 10,
      "source_count": 1,
      "sources": [
@@ -5240,12 +5240,12 @@
   },
   "story:d0d731bebf59": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "security",
    "title": "INC Ransomware Emerges as Dominant Actor Exploiting SonicWall SMA 1000 Flaws",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 11,
      "source_count": 1,
      "sources": [
@@ -5262,12 +5262,12 @@
   },
   "story:21bb48de0474": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "security",
    "title": "Black Hat USA 2026 – Summary of Vendor Announcements (Part 1)",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 12,
      "source_count": 1,
      "sources": [
@@ -5284,12 +5284,12 @@
   },
   "story:18381611b504": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "security",
    "title": "Chinese Actor Weaponizes Deepseek AI Agent to Attack Security Firm",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 13,
      "source_count": 1,
      "sources": [
@@ -5306,12 +5306,12 @@
   },
   "story:37ae9cabdb95": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "security",
    "title": "Visa to Acquire Fraud Intelligence Firm BioCatch for $2.4 Billion",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 14,
      "source_count": 1,
      "sources": [
@@ -5328,12 +5328,12 @@
   },
   "story:d3cc1a321d62": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "security",
    "title": "Cyberattack Hits Liechtenstein’s Register of People Behind Companies and Foundations",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 15,
      "source_count": 1,
      "sources": [
@@ -5350,12 +5350,12 @@
   },
   "story:fc145f8787be": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "security",
    "title": "ExfilSquad hackers leak info of over 100,000 UK police officers, staff",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 16,
      "source_count": 1,
      "sources": [
@@ -5372,12 +5372,12 @@
   },
   "story:a4c333aefe68": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "security",
    "title": "Is There Really a Fix for CISO Fatigue?",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 17,
      "source_count": 1,
      "sources": [
@@ -5394,12 +5394,12 @@
   },
   "story:4a5268f88838": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "security",
    "title": "River Bank Says Hackers Deleted Data Stolen in Ransomware Attack",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 18,
      "source_count": 1,
      "sources": [
@@ -5416,12 +5416,12 @@
   },
   "story:1c35a4f95019": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "security",
    "title": "Horizon3 Raises $250 Million to Fund Continuing Growth",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 19,
      "source_count": 1,
      "sources": [
@@ -5438,12 +5438,12 @@
   },
   "story:529cdae35090": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "security",
    "title": "N‑able Patches Vulnerability Exploited to Hack N-central Servers",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 20,
      "source_count": 1,
      "sources": [
@@ -5460,12 +5460,12 @@
   },
   "story:ed79c2aea89d": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "security",
    "title": "FOMO in the SOC: Where AI Platforms like Claude Actually Fit",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 21,
      "source_count": 1,
      "sources": [
@@ -5482,12 +5482,12 @@
   },
   "story:5ab4deeb68d5": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "security",
    "title": "Chinese Threat Actor Uses Leaked DarkSword Kit to Deploy GHOSTBLADE on iOS",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 22,
      "source_count": 1,
      "sources": [
@@ -5504,12 +5504,12 @@
   },
   "story:841123933223": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "security",
    "title": "PNLD Breach Exposes U.K. Police and Government Contact Details on Dark Web",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 23,
      "source_count": 1,
      "sources": [
@@ -5526,12 +5526,12 @@
   },
   "story:48ca64460b2e": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "security",
    "title": "CISA Issues Fresh SBOM Guidance. Did They Get It Right?",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 24,
      "source_count": 1,
      "sources": [
@@ -5548,12 +5548,12 @@
   },
   "story:0c2d82847a2e": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "security",
    "title": "Read This Before You Buy That TV Streaming Stick",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 25,
      "source_count": 1,
      "sources": [
@@ -5570,13 +5570,13 @@
   },
   "topic:09d7a891faf1": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "Windows 任务管理器之父普拉默打造 macOS 版 TMOG，高效监控 CPU / GPU 等",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 1,
+     "ts": 1785807991,
+     "rank": 12,
      "source_count": 1,
      "sources": [
       "IT之家"
@@ -5592,13 +5592,13 @@
   },
   "story:1e28f9fb5e9c": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "万元AI学习机，正在收割中国家长",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 2,
+     "ts": 1785807991,
+     "rank": 13,
      "source_count": 1,
      "sources": [
       "虎嗅"
@@ -5636,13 +5636,13 @@
   },
   "story:d611165f0e3a": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "大窑冲50亿、北冰洋稳坐第一，为何只有“二厂汽水”掉队了？",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 4,
+     "ts": 1785807991,
+     "rank": 14,
      "source_count": 1,
      "sources": [
       "钛媒体"
@@ -5658,13 +5658,13 @@
   },
   "story:baf922e762bd": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "AI演员30天涨粉40万，报价直逼千万顶流：真人网红慌了吗？",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 5,
+     "ts": 1785807991,
+     "rank": 15,
      "source_count": 1,
      "sources": [
       "钛媒体"
@@ -5724,13 +5724,13 @@
   },
   "story:f9564c1835ca": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "花1万块买了一台“失败产品”，却看懂了V社",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 8,
+     "ts": 1785807991,
+     "rank": 16,
      "source_count": 1,
      "sources": [
       "虎嗅"
@@ -5746,13 +5746,13 @@
   },
   "story:9fc7f047b915": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "生产力场景的入口，不再是飞书们",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 9,
+     "ts": 1785807991,
+     "rank": 17,
      "source_count": 1,
      "sources": [
       "钛媒体"
@@ -5856,13 +5856,13 @@
   },
   "story:86f5330cd36e": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "智元发奖金，离职员工也有份——一份年中奖是补给站，不是分水岭",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 14,
+     "ts": 1785807991,
+     "rank": 18,
      "source_count": 1,
      "sources": [
       "虎嗅"
@@ -5966,12 +5966,12 @@
   },
   "story:068267379a41": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "TikTok agrees to settle three more teen social media lawsuits ahead of trial; 2,600 cases with similar claims are pending in California federal court (Dietrich Knauth/Reuters)",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 19,
      "source_count": 1,
      "sources": [
@@ -5988,13 +5988,13 @@
   },
   "story:41f96dd95045": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "派早报：MiniMax H3 开源、Qwen3.8-Max 发布等",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 3,
+     "ts": 1785807991,
+     "rank": 4,
      "source_count": 1,
      "sources": [
       "少数派"
@@ -6010,12 +6010,12 @@
   },
   "story:b7df0b1ceb9a": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "Texas halts approval of data center grid connections until audits are performed; projects representing 474+ GW are in the queue, over 5x the grid's peak demand (The Texas Tribune)",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 21,
      "source_count": 1,
      "sources": [
@@ -6032,13 +6032,13 @@
   },
   "story:a8204af06fc7": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "Amazon is developing a Warhammer 40,000 animated show",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 6,
+     "ts": 1785807991,
+     "rank": 7,
      "source_count": 1,
      "sources": [
       "Engadget"
@@ -6054,13 +6054,13 @@
   },
   "story:c23e539eee02": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "Did an AI Music App Just Snitch on the Song of the Summer?",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 24,
+     "ts": 1785807991,
+     "rank": 25,
      "source_count": 1,
      "sources": [
       "WIRED"
@@ -6076,13 +6076,13 @@
   },
   "story:23ea6d3f0227": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "US company’s AI lets Ukraine’s cheap kamikaze drones track targets on their own",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 25,
+     "ts": 1785807991,
+     "rank": 26,
      "source_count": 1,
      "sources": [
       "Ars Technica"
@@ -6098,13 +6098,13 @@
   },
   "story:f439ac710dbf": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "Snap CEO sidesteps Specs preorder questions on Q2 earnings call",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 26,
+     "ts": 1785807991,
+     "rank": 27,
      "source_count": 1,
      "sources": [
       "TechCrunch"
@@ -6120,13 +6120,13 @@
   },
   "story:e5176f957a32": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "Windows XP 2002 for the Itanium: Unbridled rage",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 27,
+     "ts": 1785807991,
+     "rank": 28,
      "source_count": 1,
      "sources": [
       "Hacker News"
@@ -6142,13 +6142,13 @@
   },
   "story:f55168820111": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "Microsoft is bringing Xbox 360 games to PC",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 28,
+     "ts": 1785807991,
+     "rank": 29,
      "source_count": 1,
      "sources": [
       "The Verge"
@@ -6164,13 +6164,13 @@
   },
   "story:f087712a08a8": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "ZX Spectrum System Tour: Text Mode",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 29,
+     "ts": 1785807991,
+     "rank": 30,
      "source_count": 1,
      "sources": [
       "Hacker News"
@@ -6186,13 +6186,13 @@
   },
   "story:4a7cae1f1d8e": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "Amazon becomes the fifth company to reach a $3T market cap, joining Nvidia, Alphabet, Microsoft, and Apple; its stock closed up 4.58% on Monday (Jeran Wittenstein/Bloomberg)",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 30,
+     "ts": 1785807991,
+     "rank": 31,
      "source_count": 1,
      "sources": [
       "Techmeme"
@@ -6208,13 +6208,13 @@
   },
   "story:e37dd0e35f10": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "Your Fitbit data can now connect directly to Apple Health",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 31,
+     "ts": 1785807991,
+     "rank": 32,
      "source_count": 1,
      "sources": [
       "The Verge"
@@ -6230,13 +6230,13 @@
   },
   "story:1f05552ae7d4": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "Samsung’s discounted smart monitor is $349.99, its lowest price yet",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 32,
+     "ts": 1785807991,
+     "rank": 33,
      "source_count": 1,
      "sources": [
       "The Verge"
@@ -6252,13 +6252,13 @@
   },
   "story:9e7163ca8626": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "LLMs reward expertise",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 33,
+     "ts": 1785807991,
+     "rank": 34,
      "source_count": 1,
      "sources": [
       "Hacker News"
@@ -6274,13 +6274,13 @@
   },
   "story:b160534133eb": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "Snap reports Q2 revenue up 19% YoY to $1.6B, vs. $1.54B est., DAUs up 5% to 493M, vs. 487M est., forecasts Q3 revenue above est.; SNAP jumps 10%+ after hours (Jonathan Vanian/CNBC)",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 34,
+     "ts": 1785807991,
+     "rank": 35,
      "source_count": 1,
      "sources": [
       "Techmeme"
@@ -6296,13 +6296,13 @@
   },
   "story:1b028e7e126b": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "Palantir reports Q2 revenue up 93% YoY to $1.94B, vs. $1.8B est., US commercial revenue up 149%, and raises FY'26 revenue guidance; PLTR jumps 14%+ after hours (Samantha Subin/CNBC)",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 35,
+     "ts": 1785807991,
+     "rank": 36,
      "source_count": 1,
      "sources": [
       "Techmeme"
@@ -6318,12 +6318,12 @@
   },
   "story:76a031c3573d": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "Research roundup: 6 cool science stories we almost missed",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 1,
      "source_count": 1,
      "sources": [
@@ -6340,13 +6340,13 @@
   },
   "story:32758c25f574": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "The SpaceX Falcon Lunar Crash Is a Warning for Moon Bases",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 38,
+     "ts": 1785807991,
+     "rank": 39,
      "source_count": 1,
      "sources": [
       "WIRED"
@@ -6362,13 +6362,13 @@
   },
   "story:afd418bb0a4b": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "Who’s legally to blame for Anthropic and OpenAI’s autonomous AI hacks? It’s complicated",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 39,
+     "ts": 1785807991,
+     "rank": 40,
      "source_count": 1,
      "sources": [
       "TechCrunch"
@@ -6384,13 +6384,13 @@
   },
   "story:f28c9564ebc5": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "Samsung says it's restricting app registrations and removing apps with SDKs that can turn smart TVs into residential proxy exit nodes, after a similar ban by LG (Zack Whittaker/TechCrunch)",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 40,
+     "ts": 1785807991,
+     "rank": 41,
      "source_count": 1,
      "sources": [
       "Techmeme"
@@ -6406,13 +6406,13 @@
   },
   "story:c1e47d984667": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "The Dunning-Kruger effect may just be a data artefact (2020)",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 41,
+     "ts": 1785807991,
+     "rank": 42,
      "source_count": 1,
      "sources": [
       "Hacker News"
@@ -6428,13 +6428,13 @@
   },
   "story:c1f9ecdff299": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "Lego deploys Hubble Space Telescope as detailed desktop model",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 43,
+     "ts": 1785807991,
+     "rank": 44,
      "source_count": 1,
      "sources": [
       "Ars Technica"
@@ -6450,13 +6450,13 @@
   },
   "story:049f450bdfee": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "An AI-supervised remote exam went so badly that 58,000 students must retake it",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 45,
+     "ts": 1785807991,
+     "rank": 46,
      "source_count": 1,
      "sources": [
       "Ars Technica"
@@ -6472,13 +6472,13 @@
   },
   "story:8bf0c5f59f96": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "KisakCOD – open-source reimplementation of Call of Duty 4 Multiplayer",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 46,
+     "ts": 1785807991,
+     "rank": 47,
      "source_count": 1,
      "sources": [
       "Hacker News"
@@ -6494,12 +6494,12 @@
   },
   "story:8f9bd1df4342": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "Want the best bass out of your headphones? Here's what to look for",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 27,
      "source_count": 1,
      "sources": [
@@ -6516,12 +6516,12 @@
   },
   "story:b6bf07d40291": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "The Anbernic RG SP will be available on August 5",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 30,
      "source_count": 1,
      "sources": [
@@ -6538,12 +6538,12 @@
   },
   "story:530ac4cf143d": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "Xbox 360 games are reportedly coming to PC as well",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 31,
      "source_count": 1,
      "sources": [
@@ -6560,12 +6560,12 @@
   },
   "story:38091e6f1204": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "The pros and cons of using Apple AirTags",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 32,
      "source_count": 1,
      "sources": [
@@ -6604,12 +6604,12 @@
   },
   "story:3eb991581f1b": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "The first-gen Kindle Scribe is a big e-reader and digital notebook that’s $150 refurbished",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 53,
      "source_count": 1,
      "sources": [
@@ -6626,12 +6626,12 @@
   },
   "story:1a47bba8b77f": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "Gemini Spark now has Chrome web-browsing capabilities",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 33,
      "source_count": 1,
      "sources": [
@@ -6648,12 +6648,12 @@
   },
   "story:c4163e1e4211": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "The studio behind Pokémon struggles to find its voice in Beast of Reincarnation",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 55,
      "source_count": 1,
      "sources": [
@@ -6670,12 +6670,12 @@
   },
   "story:0d984cc9e09b": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "2026 Volkswagen Jetta Sport: The cheap car isn't completely extinct yet",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 56,
      "source_count": 1,
      "sources": [
@@ -6692,12 +6692,12 @@
   },
   "story:7b3c4ad5faf6": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "微软表示正致力于优化 Windows 11 在 8GB 内存下的运行效率",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 57,
      "source_count": 1,
      "sources": [
@@ -6714,12 +6714,12 @@
   },
   "story:e030abcfb5f7": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "SpaceX is set to acquire 130,000 acres of marshland in southern Louisiana",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 58,
      "source_count": 1,
      "sources": [
@@ -6736,12 +6736,12 @@
   },
   "story:f9b2e29255a3": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "Best Robot Lawn Mowers (2026): My Picks After 3 Years of Testing",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 59,
      "source_count": 1,
      "sources": [
@@ -6758,12 +6758,12 @@
   },
   "story:c72bfac68e9a": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "Alienware 27 QD-OLED (AW2726DM) Review: A $350 Winner",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 60,
      "source_count": 1,
      "sources": [
@@ -6780,12 +6780,12 @@
   },
   "story:687d3a016b89": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "People Are Ghosting Long-Term Partners. Some Don’t Regret It",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 61,
      "source_count": 1,
      "sources": [
@@ -6802,12 +6802,12 @@
   },
   "story:5dab854e07c0": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "The Best Audio Players for Kids: Yoto, Toniebox, and More",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 62,
      "source_count": 1,
      "sources": [
@@ -6824,12 +6824,12 @@
   },
   "story:ce713bc12210": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "派评 | 近期值得关注的 App",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 35,
      "source_count": 1,
      "sources": [
@@ -6846,12 +6846,12 @@
   },
   "story:7d2c9da18a3f": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "Meta Earnings, Meta’s Timing Problems, The Financial Tail",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 64,
      "source_count": 1,
      "sources": [
@@ -6868,12 +6868,12 @@
   },
   "story:0f82692dce49": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "把折叠屏外屏做成手机后：iKKO MindOne Pro 体验",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 36,
      "source_count": 1,
      "sources": [
@@ -6890,12 +6890,12 @@
   },
   "story:7d1fff37e2b2": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "职人专访 #001：少数派背后的理想主义",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 37,
      "source_count": 1,
      "sources": [
@@ -6912,12 +6912,12 @@
   },
   "story:76bad6820818": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "角落新声｜两平米、两个角落，安放两个自己",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 38,
      "source_count": 1,
      "sources": [
@@ -6934,12 +6934,12 @@
   },
   "story:9b2c3634bad3": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "派早报：DeepSeek V4 Flash 正式版发布",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 39,
      "source_count": 1,
      "sources": [
@@ -6956,12 +6956,12 @@
   },
   "story:ddae0f8e2be7": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "Don’t stop early: Case-folding source code at memory speed",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 69,
      "source_count": 1,
      "sources": [
@@ -6978,12 +6978,12 @@
   },
   "story:792a488074c7": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "Stacked sessions and pull requests in the GitHub Copilot app",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 70,
      "source_count": 1,
      "sources": [
@@ -7000,12 +7000,12 @@
   },
   "story:9f91c5d9e116": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "大学教授出奇招抓AI作弊，35名学生32人中招",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 71,
      "source_count": 1,
      "sources": [
@@ -7022,12 +7022,12 @@
   },
   "story:e27237241891": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "Tame Dependabot: Group your updates, slow the cadence, keep security fast",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 72,
      "source_count": 1,
      "sources": [
@@ -7044,12 +7044,12 @@
   },
   "story:6947b2631e6c": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "Disrupting supply chain attacks on npm and GitHub Actions",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 73,
      "source_count": 1,
      "sources": [
@@ -7066,12 +7066,12 @@
   },
   "topic:df44d15c5519": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "8点1氪丨宗馥莉同父异母兄弟出任新公司董事长；DeepSeek升至全球调用量第一；iPhone被曝最高或涨价超千元",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 74,
      "source_count": 1,
      "sources": [
@@ -7088,12 +7088,12 @@
   },
   "story:a770a085f647": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "从实验到产线——AI 工作流的规模化挑战与协作生态 | 2026 ChinaJoy AI未来生态大会",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 75,
      "source_count": 1,
      "sources": [
@@ -7110,12 +7110,12 @@
   },
   "story:be002304346e": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "德明利今日跌超9%，36氪企业全情报提前捕捉到这一市场信号",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 76,
      "source_count": 1,
      "sources": [
@@ -7132,12 +7132,12 @@
   },
   "story:52adb0aafe49": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "可灵观察②｜用可灵重现《霸王别姬》：电影感足了，复杂叙事如何更稳？",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 77,
      "source_count": 1,
      "sources": [
@@ -7154,12 +7154,12 @@
   },
   "story:da86098551cb": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "硬氪首发 | 硅光资深团队获数千万天使轮融资，瞄准CPO/OIO下一代光互连解决方案",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 78,
      "source_count": 1,
      "sources": [
@@ -7176,12 +7176,12 @@
   },
   "story:9c4740854648": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "tech",
    "title": "前安克3D打印业务负责人要做B端工具产品，获数千万融资｜36氪首发",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 79,
      "source_count": 1,
      "sources": [
@@ -7198,13 +7198,13 @@
   },
   "story:808d3eb22ac0": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "consumer",
    "title": "TCL Tab A1 Plus Nxtpaper is now available in the US",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 1,
+     "ts": 1785807991,
+     "rank": 2,
      "source_count": 1,
      "sources": [
       "GSMArena"
@@ -7220,13 +7220,13 @@
   },
   "story:a3dcb1151a9f": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "consumer",
    "title": "Russia escalates dispute with Apple over mandatory app preinstallation",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 2,
+     "ts": 1785807991,
+     "rank": 3,
      "source_count": 1,
      "sources": [
       "9to5Mac"
@@ -7242,13 +7242,13 @@
   },
   "story:c4493a63ae08": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "consumer",
    "title": "Sony adds an interesting new color to its WH-1000XM6 range",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 4,
+     "ts": 1785807991,
+     "rank": 5,
      "source_count": 1,
      "sources": [
       "GSMArena"
@@ -7264,13 +7264,13 @@
   },
   "story:218e0f99ca98": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "consumer",
    "title": "Apple caps security bug reports amid surge in AI-generated findings",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 5,
+     "ts": 1785807991,
+     "rank": 6,
      "source_count": 1,
      "sources": [
       "9to5Mac"
@@ -7286,13 +7286,13 @@
   },
   "story:72797d2f3df9": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "consumer",
    "title": "What’s new in Android’s August 2026 Google System Updates",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 7,
+     "ts": 1785807991,
+     "rank": 8,
      "source_count": 1,
      "sources": [
       "9to5Google"
@@ -7308,13 +7308,13 @@
   },
   "story:36e438c3b33a": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "consumer",
    "title": "Judge greenlights multi-billion-dollar class action over Apple Photos’ face recognition",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 8,
+     "ts": 1785807991,
+     "rank": 9,
      "source_count": 1,
      "sources": [
       "9to5Mac"
@@ -7330,13 +7330,13 @@
   },
   "story:4d77dab0d744": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "consumer",
    "title": "Android 17 QPR2 Beta 2 arrives for Pixel 6a and newer devices",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 9,
+     "ts": 1785807991,
+     "rank": 10,
      "source_count": 1,
      "sources": [
       "Android Authority"
@@ -7352,13 +7352,13 @@
   },
   "story:86c9cd3035bd": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "consumer",
    "title": "Report: Apple’s secrecy efforts partly undermined by lax work iCloud policy",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 10,
+     "ts": 1785807991,
+     "rank": 11,
      "source_count": 1,
      "sources": [
       "9to5Mac"
@@ -7374,13 +7374,13 @@
   },
   "story:6d0813acd110": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "consumer",
    "title": "The OnePlus US exit is now feeling very real as remaining stock evaporates",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 11,
+     "ts": 1785807991,
+     "rank": 12,
      "source_count": 1,
      "sources": [
       "Android Authority"
@@ -7396,13 +7396,13 @@
   },
   "story:227819d4c2ca": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "consumer",
    "title": "Familiar face detection is broken on Walmart Onn cameras — but there’s a fix on the way",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 12,
+     "ts": 1785807991,
+     "rank": 13,
      "source_count": 1,
      "sources": [
       "Android Authority"
@@ -7418,13 +7418,13 @@
   },
   "story:a0aa8021a4ff": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "consumer",
    "title": "Google Pixel 11 Pro marketing materials leak confirming some specs",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 13,
+     "ts": 1785807991,
+     "rank": 14,
      "source_count": 1,
      "sources": [
       "GSMArena"
@@ -7440,13 +7440,13 @@
   },
   "story:4a2822dc7953": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "consumer",
    "title": "Here’s everything new in Android 17 QPR2 Beta 2 [Gallery]",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 14,
+     "ts": 1785807991,
+     "rank": 15,
      "source_count": 1,
      "sources": [
       "9to5Google"
@@ -7462,13 +7462,13 @@
   },
   "story:b2aad1195de7": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "consumer",
    "title": "Google may start Pixel 11 pre-orders way sooner than expected",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 15,
+     "ts": 1785807991,
+     "rank": 16,
      "source_count": 1,
      "sources": [
       "Android Authority"
@@ -7484,13 +7484,13 @@
   },
   "story:55010cb88cdd": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "consumer",
    "title": "Here’s why Apple Upgrade requires AT&T, T-Mobile, or Verizon for iPhone",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 16,
+     "ts": 1785807991,
+     "rank": 17,
      "source_count": 1,
      "sources": [
       "9to5Mac"
@@ -7506,13 +7506,13 @@
   },
   "story:08175191f577": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "consumer",
    "title": "Google rolling out Android 17 QPR2 Beta 2 for Pixel",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 17,
+     "ts": 1785807991,
+     "rank": 18,
      "source_count": 1,
      "sources": [
       "9to5Google"
@@ -7550,12 +7550,12 @@
   },
   "story:fc2af81b0024": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "consumer",
    "title": "Notability app makes the jump from iOS to Android, and it’s 25% off to celebrate",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 19,
      "source_count": 1,
      "sources": [
@@ -7572,12 +7572,12 @@
   },
   "story:f34d89fcdd20": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "consumer",
    "title": "End of an era: T-Mobile finally closes the door on 2G for good",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 20,
      "source_count": 1,
      "sources": [
@@ -7594,12 +7594,12 @@
   },
   "story:84101a28e5d6": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "consumer",
    "title": "Google Keep is finally rolling out the search feature you’ve been asking for",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 21,
      "source_count": 1,
      "sources": [
@@ -7616,12 +7616,12 @@
   },
   "story:f5643a4153f9": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "consumer",
    "title": "Google rolls out Android 17 QPR 1 Beta 8 to Pixel devices",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 22,
      "source_count": 1,
      "sources": [
@@ -7638,12 +7638,12 @@
   },
   "story:834d48c693d8": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "consumer",
    "title": "Laowa’s pair of new macro lenses goes ten times beyond life-size",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 23,
      "source_count": 1,
      "sources": [
@@ -7660,12 +7660,12 @@
   },
   "story:519c242aed5d": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "consumer",
    "title": "Nikon may be losing its fight against third-party Z mount lenses",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 24,
      "source_count": 1,
      "sources": [
@@ -7682,12 +7682,12 @@
   },
   "story:1daeca0d2cd9": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "consumer",
    "title": "Google kills unreleased AI app",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 25,
      "source_count": 1,
      "sources": [
@@ -7704,12 +7704,12 @@
   },
   "story:ed597e9bf447": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "consumer",
    "title": "Samsung says Galaxy Z Fold 8’s new shape exists because ‘one size does not fit all’",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 26,
      "source_count": 1,
      "sources": [
@@ -7726,12 +7726,12 @@
   },
   "story:c6ebc99cd599": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "consumer",
    "title": "Xiaomi Redmi 17 goes on sale in Europe before it's even official",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 28,
      "source_count": 1,
      "sources": [
@@ -7748,12 +7748,12 @@
   },
   "story:83cf3b1aa4a5": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "consumer",
    "title": "OnePlus 15 and more have fully sold out in the US following shutdown",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 29,
      "source_count": 1,
      "sources": [
@@ -7770,12 +7770,12 @@
   },
   "story:2fc7479fea78": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "consumer",
    "title": "DJI’s Osmo Pocket 4P is here. These videos explain it.",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 34,
      "source_count": 1,
      "sources": [
@@ -7792,12 +7792,12 @@
   },
   "story:86ae7de6b6aa": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "consumer",
    "title": "The 10 best cameras for travel in 2026",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 40,
      "source_count": 1,
      "sources": [
@@ -7814,12 +7814,12 @@
   },
   "story:b75828ce5b58": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "consumer",
    "title": "The Best compact zoom cameras in 2026",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 41,
      "source_count": 1,
      "sources": [
@@ -7836,12 +7836,12 @@
   },
   "story:3d34159e3519": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "consumer",
    "title": "What you missed in the DPReview community: July 2026",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 42,
      "source_count": 1,
      "sources": [
@@ -7858,13 +7858,13 @@
   },
   "story:784c2b365a68": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "苏建军任新余市代市长",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 1,
+     "ts": 1785807991,
+     "rank": 13,
      "source_count": 1,
      "sources": [
       "经济观察网"
@@ -7902,13 +7902,13 @@
   },
   "story:96cd6ab08702": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "Jazz forecasts $4.60B-$4.75B 2026 revenue as it prepares for Aug. 25 zanidatamab PDUFA",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 3,
+     "ts": 1785807991,
+     "rank": 14,
      "source_count": 1,
      "sources": [
       "Seeking Alpha"
@@ -7924,13 +7924,13 @@
   },
   "story:b296780a7b3d": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "AI投资进入“分歧时代”！这是华尔街最纠结的六个问题",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 4,
+     "ts": 1785807991,
+     "rank": 15,
      "source_count": 1,
      "sources": [
       "华尔街见闻"
@@ -7946,13 +7946,13 @@
   },
   "story:52dffff21510": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "Genedx reaffirms 2026 revenue guidance of $475M-$490M while expecting meaningful collection-rate uplift starting in Q4",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 5,
+     "ts": 1785807991,
+     "rank": 16,
      "source_count": 1,
      "sources": [
       "Seeking Alpha"
@@ -7968,13 +7968,13 @@
   },
   "story:c6a53d424925": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "发现一个奇怪的现象：越是话少的父母，越容易与子女保持亲密关系；总是喋喋不休的，反而容易被疏远",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 6,
+     "ts": 1785807991,
+     "rank": 17,
      "source_count": 1,
      "sources": [
       "经济观察网"
@@ -7990,13 +7990,13 @@
   },
   "story:0a69426866fa": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "V2X forecasts $4.875B-$5.025B 2026 revenue while targeting ~2x net leverage by year-end",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 7,
+     "ts": 1785807991,
+     "rank": 18,
      "source_count": 1,
      "sources": [
       "Seeking Alpha"
@@ -8012,13 +8012,13 @@
   },
   "story:84921e19959c": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "今日看点｜中国气象局将举行8月新闻发布会，发布入汛以来全国天气气候特征等",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 8,
+     "ts": 1785807991,
+     "rank": 19,
      "source_count": 1,
      "sources": [
       "经济观察网"
@@ -8056,13 +8056,13 @@
   },
   "story:067a514ac5b8": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "美日联手就能撑住日元吗？华尔街相信“日本不加息，任何干预都没用”",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 10,
+     "ts": 1785807991,
+     "rank": 20,
      "source_count": 1,
      "sources": [
       "华尔街见闻"
@@ -8078,13 +8078,13 @@
   },
   "story:3bf654bafd93": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "罕见干预操作！贝森特抛欧元、指示美联储“借钱”，让日本“别抛美债”，市场担心“套利交易逆转”",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 11,
+     "ts": 1785807991,
+     "rank": 21,
      "source_count": 1,
      "sources": [
       "华尔街见闻"
@@ -8122,13 +8122,13 @@
   },
   "story:c80ee82389f0": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "报道：存储三大原厂“2027年产能已提前售罄”，应验“明年是存储最短缺年份”",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 13,
+     "ts": 1785807991,
+     "rank": 22,
      "source_count": 1,
      "sources": [
       "华尔街见闻"
@@ -8144,13 +8144,13 @@
   },
   "story:f2a2cb0c0f97": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "韩股崩盘后，散户“失去信心”：牢记两条原则“第一：不买韩股，第二：遵守第一条”",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 14,
+     "ts": 1785807991,
+     "rank": 23,
      "source_count": 1,
      "sources": [
       "华尔街见闻"
@@ -8210,13 +8210,13 @@
   },
   "story:b8fd6a58e858": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "BBVA call centre staff develop and deploy AI agents to speed up response times",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 17,
+     "ts": 1785807991,
+     "rank": 24,
      "source_count": 1,
      "sources": [
       "Finextra"
@@ -8232,13 +8232,13 @@
   },
   "story:56d0a84fe0b4": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "Google in India embeds AI into Google Pay",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 18,
+     "ts": 1785807991,
+     "rank": 25,
      "source_count": 1,
      "sources": [
       "Finextra"
@@ -8254,13 +8254,13 @@
   },
   "story:cd5e73225c9f": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "‘We have always been civil’: My sister refuses to replace me as executor. Can I step down before she dies?",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 19,
+     "ts": 1785807991,
+     "rank": 26,
      "source_count": 1,
      "sources": [
       "MarketWatch"
@@ -8298,13 +8298,13 @@
   },
   "story:167f651d8d0a": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "Analysis: Federal Reserve may be pulled into Bessent’s effort to support Japan’s yen",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 21,
+     "ts": 1785807991,
+     "rank": 27,
      "source_count": 1,
      "sources": [
       "CNBC"
@@ -8320,13 +8320,13 @@
   },
   "story:a485e6d2ee77": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "‘My head hit the driver’s window’: A teenager T-boned our car. Will Medicare pay my hospital bills?",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 22,
+     "ts": 1785807991,
+     "rank": 28,
      "source_count": 1,
      "sources": [
       "MarketWatch"
@@ -8342,13 +8342,13 @@
   },
   "story:c36e76be562a": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "CNBC's The China Connection newsletter: AI wins come with an old investor risk",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 23,
+     "ts": 1785807991,
+     "rank": 29,
      "source_count": 1,
      "sources": [
       "CNBC"
@@ -8364,13 +8364,13 @@
   },
   "story:304c86337369": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "Big Tech's Anthropic and OpenAI stakes are distorting the corporate earnings picture",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 24,
+     "ts": 1785807991,
+     "rank": 30,
      "source_count": 1,
      "sources": [
       "CNBC"
@@ -8386,13 +8386,13 @@
   },
   "topic:0b142998746f": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "Palantir soars 12% on blowout quarter, with U.S. commercial revenue soaring nearly 150%",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 25,
+     "ts": 1785807991,
+     "rank": 31,
      "source_count": 1,
      "sources": [
       "CNBC"
@@ -8408,13 +8408,13 @@
   },
   "story:c59683b3c15c": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "‘I’m easing into retirement’: I’m getting an $80,000 pension payout. Where can I invest it safely?",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 26,
+     "ts": 1785807991,
+     "rank": 32,
      "source_count": 1,
      "sources": [
       "MarketWatch"
@@ -8430,13 +8430,13 @@
   },
   "story:19bfc2d09277": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "Microsoft’s stock is on a run not seen in 26 years — erasing its year-to-date losses",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 27,
+     "ts": 1785807991,
+     "rank": 33,
      "source_count": 1,
      "sources": [
       "MarketWatch"
@@ -8452,13 +8452,13 @@
   },
   "story:f5299198fab8": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "Should wealthier Americans forgo their Social Security benefits as a charitable gesture?",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 28,
+     "ts": 1785807991,
+     "rank": 34,
      "source_count": 1,
      "sources": [
       "MarketWatch"
@@ -8474,13 +8474,13 @@
   },
   "story:325b9cd1f6a9": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "全球市场：道指创收盘历史新高 纳指涨逾2% 大型科技股普涨 国际油价跌超5%",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 29,
+     "ts": 1785807991,
+     "rank": 35,
      "source_count": 1,
      "sources": [
       "东方财富资讯"
@@ -8496,13 +8496,13 @@
   },
   "story:022e1060cb3f": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "If I buy a house for $1 million in cash at 70, will I run out of money by 90?",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 30,
+     "ts": 1785807991,
+     "rank": 36,
      "source_count": 1,
      "sources": [
       "MarketWatch"
@@ -8518,13 +8518,13 @@
   },
   "story:03304fff49f2": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "Snap's stock jumps 8% on earnings beat and strong sales forecast",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 31,
+     "ts": 1785807991,
+     "rank": 37,
      "source_count": 1,
      "sources": [
       "CNBC"
@@ -8540,13 +8540,13 @@
   },
   "story:67ef71b9a321": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "8月4日国内四大证券报纸、重要财经媒体头版头条内容精华摘要",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 32,
+     "ts": 1785807991,
+     "rank": 38,
      "source_count": 1,
      "sources": [
       "东方财富资讯"
@@ -8562,13 +8562,13 @@
   },
   "story:6edbcded29b3": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "AstraZeneca investors raise concerns over mega-merger talks",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 33,
+     "ts": 1785807991,
+     "rank": 39,
      "source_count": 1,
      "sources": [
       "Financial Times"
@@ -8584,13 +8584,13 @@
   },
   "story:7f5e3b9a7e23": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "Twenty five states sue Trump administration over latest global tariffs",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 34,
+     "ts": 1785807991,
+     "rank": 40,
      "source_count": 1,
      "sources": [
       "CNBC"
@@ -8606,13 +8606,13 @@
   },
   "story:ac9aaefff3c5": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "白宫将于周二会晤AI巨头 讨论前沿模型安全测试框架",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 35,
+     "ts": 1785807991,
+     "rank": 41,
      "source_count": 1,
      "sources": [
       "东方财富资讯"
@@ -8628,13 +8628,13 @@
   },
   "story:fd7a5ebd872e": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "特朗普：与伊朗的谈判正在进行 将分两阶段推进",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 36,
+     "ts": 1785807991,
+     "rank": 42,
      "source_count": 1,
      "sources": [
       "东方财富资讯"
@@ -8650,13 +8650,13 @@
   },
   "story:7797c55d2071": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "全美25州提起诉讼 反对美政府最新关税措施",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 37,
+     "ts": 1785807991,
+     "rank": 43,
      "source_count": 1,
      "sources": [
       "东方财富资讯"
@@ -8672,13 +8672,13 @@
   },
   "story:895e35a86a34": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "电影产业双喜临门：IMAX股价创新高 北美票房开画纪录亦迎新高",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 38,
+     "ts": 1785807991,
+     "rank": 44,
      "source_count": 1,
      "sources": [
       "东方财富资讯"
@@ -8694,13 +8694,13 @@
   },
   "story:fba717ec7a9a": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "How big was the American JPY intervention?",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 39,
+     "ts": 1785807991,
+     "rank": 45,
      "source_count": 1,
      "sources": [
       "Financial Times"
@@ -8716,13 +8716,13 @@
   },
   "story:3d50b6f8bbdf": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "Visa agrees $2.4 billion deal to acquire BioCatch",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 40,
+     "ts": 1785807991,
+     "rank": 46,
      "source_count": 1,
      "sources": [
       "Finextra"
@@ -8738,13 +8738,13 @@
   },
   "story:f9a0a602e884": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "Football has given Europe a rare geopolitical victory",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 41,
+     "ts": 1785807991,
+     "rank": 47,
      "source_count": 1,
      "sources": [
       "Financial Times"
@@ -8760,13 +8760,13 @@
   },
   "story:76ac09c618bf": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "Santander embeds eSim package within mobile app",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 42,
+     "ts": 1785807991,
+     "rank": 48,
      "source_count": 1,
      "sources": [
       "Finextra"
@@ -8782,13 +8782,13 @@
   },
   "story:a4771ccc2bdd": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "Ripple invests in UK digital assets platform Licuido",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 43,
+     "ts": 1785807991,
+     "rank": 49,
      "source_count": 1,
      "sources": [
       "Finextra"
@@ -8804,13 +8804,13 @@
   },
   "story:37b4f3ad7be7": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "Team America: Yen police",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 44,
+     "ts": 1785807991,
+     "rank": 50,
      "source_count": 1,
      "sources": [
       "Financial Times"
@@ -8826,13 +8826,13 @@
   },
   "story:cac6b20126b1": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "How US drinkers fell out of love with Bud Light",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 45,
+     "ts": 1785807991,
+     "rank": 51,
      "source_count": 1,
      "sources": [
       "Financial Times"
@@ -8848,13 +8848,13 @@
   },
   "story:17c1bd53814a": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "Whatever happened to prudence?",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 46,
+     "ts": 1785807991,
+     "rank": 52,
      "source_count": 1,
      "sources": [
       "Financial Times"
@@ -8870,13 +8870,13 @@
   },
   "story:ed435f3c19f2": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "BofA to buy UK cybersecurity firm MDSec Consulting",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 47,
+     "ts": 1785807991,
+     "rank": 53,
      "source_count": 1,
      "sources": [
       "Finextra"
@@ -8892,13 +8892,13 @@
   },
   "story:13092413934e": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "Cathie Wood sells $5.5 million of surging tech stock",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 48,
+     "ts": 1785807991,
+     "rank": 54,
      "source_count": 1,
      "sources": [
       "Yahoo Finance"
@@ -8914,13 +8914,13 @@
   },
   "story:9db01a1a76cf": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "Warren Buffett keeps pointing at the same ETF for a reason",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 49,
+     "ts": 1785807991,
+     "rank": 55,
      "source_count": 1,
      "sources": [
       "Yahoo Finance"
@@ -8936,13 +8936,13 @@
   },
   "story:858017bbbf8d": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "Amazon's debt nearly doubled to $129 billion in 6 months as CEO Jassy defends $220 billion data center spending spree",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 50,
+     "ts": 1785807991,
+     "rank": 59,
      "source_count": 1,
      "sources": [
       "Yahoo Finance"
@@ -9024,13 +9024,13 @@
   },
   "story:a3ed4851a292": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "Federal Reserve Board requests comment on a proposal to modernize its rule governing the extension of credit to bank \"insiders\"—bank executives, board members and major shareholders who could potentially influence a bank's lending decisions",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 54,
+     "ts": 1785807991,
+     "rank": 60,
      "source_count": 1,
      "sources": [
       "Federal Reserve"
@@ -9046,13 +9046,13 @@
   },
   "story:bdbc467a764b": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "Federal Reserve Board requests comment on a proposal to modernize rules for mutual banking organizations",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 55,
+     "ts": 1785807991,
+     "rank": 61,
      "source_count": 1,
      "sources": [
       "Federal Reserve"
@@ -9068,13 +9068,13 @@
   },
   "story:e90b36888751": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "Federal Reserve Board issues enforcement action with Iuka Bancshares, Inc. and The Iuka State Bank",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 56,
+     "ts": 1785807991,
+     "rank": 62,
      "source_count": 1,
      "sources": [
       "Federal Reserve"
@@ -9090,13 +9090,13 @@
   },
   "story:e49f35e33c23": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of First Interstate Bank",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 57,
+     "ts": 1785807991,
+     "rank": 63,
      "source_count": 1,
      "sources": [
       "Federal Reserve"
@@ -9112,13 +9112,13 @@
   },
   "story:aa7ff519cc4d": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "SEC Announces Continuation of Small Business Advisory Committee Meeting",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 58,
+     "ts": 1785807991,
+     "rank": 64,
      "source_count": 1,
      "sources": [
       "SEC"
@@ -9134,13 +9134,13 @@
   },
   "story:a635b3d40ee1": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "macro",
    "title": "Federal Reserve issues FOMC statement",
    "points": [
     {
-     "ts": 1785806350,
-     "rank": 59,
+     "ts": 1785807991,
+     "rank": 65,
      "source_count": 1,
      "sources": [
       "Federal Reserve"
@@ -9156,12 +9156,12 @@
   },
   "story:7a80c314a450": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "science",
    "title": "2 people die of Cyclospora infection in Michigan",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 2,
      "source_count": 1,
      "sources": [
@@ -9178,12 +9178,12 @@
   },
   "story:871149a562a9": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "science",
    "title": "Why winner of biggest prize in maths has decided to work on AI instead",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 3,
      "source_count": 1,
      "sources": [
@@ -9200,12 +9200,12 @@
   },
   "story:16b68d0efcc0": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "science",
    "title": "OpenAI announces solutions to 10 longstanding maths problems",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 4,
      "source_count": 1,
      "sources": [
@@ -9222,12 +9222,12 @@
   },
   "story:a7b63f9b9a9f": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "science",
    "title": "Scientists uncover big clue as to how Antarctica's mysterious Blood Falls came to be",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 5,
      "source_count": 1,
      "sources": [
@@ -9244,12 +9244,12 @@
   },
   "story:ede0140e5059": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "science",
    "title": "Why the Legendary Erdős Problems Are Falling to AI",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 6,
      "source_count": 1,
      "sources": [
@@ -9266,12 +9266,12 @@
   },
   "story:a8c5f1a23de8": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "science",
    "title": "Will a new kind of AI that understands physical reality change the world again?",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 7,
      "source_count": 1,
      "sources": [
@@ -9288,12 +9288,12 @@
   },
   "story:e9432f87020c": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "science",
    "title": "Naked mole-rat queens rule their colonies with a potent odor",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 8,
      "source_count": 1,
      "sources": [
@@ -9310,12 +9310,12 @@
   },
   "story:39b126a38bff": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "science",
    "title": "Why sitting under a parasol is barely cooler than being in the sun",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 9,
      "source_count": 1,
      "sources": [
@@ -9332,12 +9332,12 @@
   },
   "story:6c5801c3058b": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "science",
    "title": "'Poop pills' may ease insomnia by reprogramming the gut microbiome, early study hints",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 10,
      "source_count": 1,
      "sources": [
@@ -9354,12 +9354,12 @@
   },
   "story:7f26f6d2c220": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "science",
    "title": "A simple supplement could help the immune system fight cancer and viruses",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 11,
      "source_count": 1,
      "sources": [
@@ -9376,12 +9376,12 @@
   },
   "story:1796b8a84103": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "science",
    "title": "Ancient Arctic carbon is pouring into the sea, but the seabed captures most of it",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 12,
      "source_count": 1,
      "sources": [
@@ -9398,12 +9398,12 @@
   },
   "story:ccf02ffaec8f": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "science",
    "title": "Ancient bullets reveal where a Roman camp hid in the Pyrenees of Spain before being ambushed",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 13,
      "source_count": 1,
      "sources": [
@@ -9420,12 +9420,12 @@
   },
   "story:a846c4266c99": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "science",
    "title": "‘Cheating’ birds change their tune",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 14,
      "source_count": 1,
      "sources": [
@@ -9442,12 +9442,12 @@
   },
   "story:8e308c6c602a": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "science",
    "title": "Moonquakes could reveal hidden water beneath the lunar surface",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 15,
      "source_count": 1,
      "sources": [
@@ -9464,12 +9464,12 @@
   },
   "story:275c14350295": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "science",
    "title": "Aspen trees provide a natural buffer against wildfires, even as fire season intensifies, study shows",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 16,
      "source_count": 1,
      "sources": [
@@ -9486,12 +9486,12 @@
   },
   "story:85e95f5a920a": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "science",
    "title": "Scientists reveal the hidden force driving the universe’s hottest fluid",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 17,
      "source_count": 1,
      "sources": [
@@ -9508,12 +9508,12 @@
   },
   "story:5e3b5ccf0803": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "science",
    "title": "Scientists may have found aging’s hidden trigger for brain disease",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 18,
      "source_count": 1,
      "sources": [
@@ -9530,12 +9530,12 @@
   },
   "story:849570f4b611": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "science",
    "title": "Did fungi give mammals an evolutionary edge after the dinosaur-killing asteroid hit? New evidence revives a provocative hypothesis",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 19,
      "source_count": 1,
      "sources": [
@@ -9552,12 +9552,12 @@
   },
   "story:65844bc79211": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "science",
    "title": "Two new compounds could reveal hidden drivers of Alzheimer’s disease",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 20,
      "source_count": 1,
      "sources": [
@@ -9574,12 +9574,12 @@
   },
   "story:726e06c6d2eb": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "science",
    "title": "Turning molecules into reliable electronic devices",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 21,
      "source_count": 1,
      "sources": [
@@ -9596,12 +9596,12 @@
   },
   "story:3bbc26deadfe": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "science",
    "title": "Are beef-liver or standard iron supplements better for boosting iron?",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 22,
      "source_count": 1,
      "sources": [
@@ -9618,12 +9618,12 @@
   },
   "story:e61b1daf72b2": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "science",
    "title": "Gasdermin D-mediated delivery of caspase inhibitors to suppress pyroptosis",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 23,
      "source_count": 1,
      "sources": [
@@ -9640,12 +9640,12 @@
   },
   "story:06f76a675dea": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "science",
    "title": "Author Correction: Maturation and circuit integration of transplanted human cortical organoids",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 24,
      "source_count": 1,
      "sources": [
@@ -9662,12 +9662,12 @@
   },
   "story:cf3810620c06": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "science",
    "title": "Sickle-cell disease linked to prematurely aged stem cells in mice",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 25,
      "source_count": 1,
      "sources": [
@@ -9684,12 +9684,12 @@
   },
   "story:df8a5e6cc155": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "science",
    "title": "Venus’s rift valleys could be its secret to staying active",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 26,
      "source_count": 1,
      "sources": [
@@ -9706,12 +9706,12 @@
   },
   "story:924798b6ddfd": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "science",
    "title": "Plans for nuclear-powered merchant ships must confront risks",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 27,
      "source_count": 1,
      "sources": [
@@ -9728,12 +9728,12 @@
   },
   "story:ba316e2be5f6": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "science",
    "title": "Cancer-fighting antibodies with a one-two punch take aim at tumours",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 28,
      "source_count": 1,
      "sources": [
@@ -9750,12 +9750,12 @@
   },
   "story:1ebda051a68f": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "science",
    "title": "Here's how engineers plan to save the satellite sent to save NASA's Swift mission",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 29,
      "source_count": 1,
      "sources": [
@@ -9772,12 +9772,12 @@
   },
   "story:89f40a4c4533": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "science",
    "title": "How fruit flies chase invisible ribbons of smell to get to their source",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 30,
      "source_count": 1,
      "sources": [
@@ -9794,12 +9794,12 @@
   },
   "story:8b0c9ec080e7": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "science",
    "title": "The best new science-fiction novels of August 2026",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 31,
      "source_count": 1,
      "sources": [
@@ -9816,12 +9816,12 @@
   },
   "story:d95d8a6b72eb": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "science",
    "title": "Not just Neanderthals: Ghost lineage in Africa left its mark on our DNA",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 32,
      "source_count": 1,
      "sources": [
@@ -9838,12 +9838,12 @@
   },
   "story:24fb0bd528ea": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "science",
    "title": "Researchers devise a full-color night vision goggle",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 33,
      "source_count": 1,
      "sources": [
@@ -9860,12 +9860,12 @@
   },
   "story:47cbb3495f65": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "science",
    "title": "China could supply EV manufacturing boom with recycled EVs",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 34,
      "source_count": 1,
      "sources": [
@@ -9882,12 +9882,12 @@
   },
   "story:4d677b342b4f": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "science",
    "title": "To detect CTE while alive, a test for another brain disease may help",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 35,
      "source_count": 1,
      "sources": [
@@ -9904,12 +9904,12 @@
   },
   "story:db06fbb66014": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "science",
    "title": "The protein craze may not be for everyone",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 36,
      "source_count": 1,
      "sources": [
@@ -9926,12 +9926,12 @@
   },
   "story:bd438da198c0": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "science",
    "title": "Is AI Reasoning Right for the Wrong Reasons?",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 37,
      "source_count": 1,
      "sources": [
@@ -9948,12 +9948,12 @@
   },
   "story:a95a91a243ed": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "science",
    "title": "A fire’s rumble reveals where it’s burning",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 38,
      "source_count": 1,
      "sources": [
@@ -9970,12 +9970,12 @@
   },
   "story:1e16bd1b9f87": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "science",
    "title": "Mammals moving between the Americas stopped over in Mexico",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 39,
      "source_count": 1,
      "sources": [
@@ -9992,12 +9992,12 @@
   },
   "story:1dab92cc9491": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "science",
    "title": "Why some nitrogen-processing enzymes are more efficient than others",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 40,
      "source_count": 1,
      "sources": [
@@ -10014,12 +10014,12 @@
   },
   "story:4b20204cdf4b": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "science",
    "title": "MIT and Broad Institute researchers break diffraction barrier in super-resolution microscopy",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 41,
      "source_count": 1,
      "sources": [
@@ -10036,12 +10036,12 @@
   },
   "story:ee41be1622be": {
    "first_seen": 1785806350,
-   "last_seen": 1785806350,
+   "last_seen": 1785807991,
    "industry": "science",
    "title": "Physicists Solve a Big Quantum Mystery. Now, Old Results Don’t Add Up.",
    "points": [
     {
-     "ts": 1785806350,
+     "ts": 1785807991,
      "rank": 42,
      "source_count": 1,
      "sources": [
@@ -10055,7 +10055,931 @@
      ]
     }
    ]
+  },
+  "story:c71342d7ac94": {
+   "first_seen": 1785807991,
+   "last_seen": 1785807991,
+   "industry": "semi",
+   "title": "Pye’s Plans",
+   "points": [
+    {
+     "ts": 1785807991,
+     "rank": 2,
+     "source_count": 1,
+     "sources": [
+      "Electronics Weekly"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "industry"
+     ]
+    }
+   ]
+  },
+  "story:cc96f0fc1cad": {
+   "first_seen": 1785807991,
+   "last_seen": 1785807991,
+   "industry": "semi",
+   "title": "Picture of the Day: Welcome to the Wind Tunnel",
+   "points": [
+    {
+     "ts": 1785807991,
+     "rank": 12,
+     "source_count": 1,
+     "sources": [
+      "Electronics Weekly"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "industry"
+     ]
+    }
+   ]
+  },
+  "story:4062274b1896": {
+   "first_seen": 1785807991,
+   "last_seen": 1785807991,
+   "industry": "semi",
+   "title": "Tesla Q2 Revenues and Deliveries Rise, Margin Falls",
+   "points": [
+    {
+     "ts": 1785807991,
+     "rank": 14,
+     "source_count": 1,
+     "sources": [
+      "Electronics Weekly"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "industry"
+     ]
+    }
+   ]
+  },
+  "story:3521aaa6a9f7": {
+   "first_seen": 1785807991,
+   "last_seen": 1785807991,
+   "industry": "semi",
+   "title": "Wafer fab equipment market set to eexplode",
+   "points": [
+    {
+     "ts": 1785807991,
+     "rank": 16,
+     "source_count": 1,
+     "sources": [
+      "Electronics Weekly"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "industry"
+     ]
+    }
+   ]
+  },
+  "story:dc916ed5e792": {
+   "first_seen": 1785807991,
+   "last_seen": 1785807991,
+   "industry": "semi",
+   "title": "Mian Quddus to receive Jedec FMS lifetime achievement award",
+   "points": [
+    {
+     "ts": 1785807991,
+     "rank": 17,
+     "source_count": 1,
+     "sources": [
+      "Electronics Weekly"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "industry"
+     ]
+    }
+   ]
+  },
+  "story:29390ddfa2ef": {
+   "first_seen": 1785807991,
+   "last_seen": 1785807991,
+   "industry": "semi",
+   "title": "London AI chip startup OLIX raises $312m",
+   "points": [
+    {
+     "ts": 1785807991,
+     "rank": 18,
+     "source_count": 1,
+     "sources": [
+      "Electronics Weekly"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "industry"
+     ]
+    }
+   ]
+  },
+  "story:8e0f2571a25a": {
+   "first_seen": 1785807991,
+   "last_seen": 1785807991,
+   "industry": "semi",
+   "title": "BluGlass gives June-quarter update",
+   "points": [
+    {
+     "ts": 1785807991,
+     "rank": 20,
+     "source_count": 1,
+     "sources": [
+      "Semiconductor Today"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "industry"
+     ]
+    }
+   ]
+  },
+  "story:6ca261af2ca8": {
+   "first_seen": 1785807991,
+   "last_seen": 1785807991,
+   "industry": "semi",
+   "title": "Qorvo grows quarterly margin, despite revenue falling by 2.9%",
+   "points": [
+    {
+     "ts": 1785807991,
+     "rank": 28,
+     "source_count": 1,
+     "sources": [
+      "Semiconductor Today"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "industry"
+     ]
+    }
+   ]
+  },
+  "story:a36939c1fb72": {
+   "first_seen": 1785807991,
+   "last_seen": 1785807991,
+   "industry": "semi",
+   "title": "ams OSRAM extends CEO Aldo Kamper’s term through September 2031",
+   "points": [
+    {
+     "ts": 1785807991,
+     "rank": 30,
+     "source_count": 1,
+     "sources": [
+      "Semiconductor Today"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "industry"
+     ]
+    }
+   ]
+  },
+  "story:1059625223d7": {
+   "first_seen": 1785807991,
+   "last_seen": 1785807991,
+   "industry": "semi",
+   "title": "Vexlum establishes London lab and appoints Stefan Truppe as managing director of Vexlum UK",
+   "points": [
+    {
+     "ts": 1785807991,
+     "rank": 31,
+     "source_count": 1,
+     "sources": [
+      "Semiconductor Today"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "industry"
+     ]
+    }
+   ]
+  },
+  "story:bb161038ec30": {
+   "first_seen": 1785807991,
+   "last_seen": 1785807991,
+   "industry": "semi",
+   "title": "Aeluma gains $30m US CHIPS Act funding",
+   "points": [
+    {
+     "ts": 1785807991,
+     "rank": 32,
+     "source_count": 1,
+     "sources": [
+      "Semiconductor Today"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "industry"
+     ]
+    }
+   ]
+  },
+  "story:a1f81df63d36": {
+   "first_seen": 1785807991,
+   "last_seen": 1785807991,
+   "industry": "semi",
+   "title": "AXT announces long-term InP supply agreement with Lumentum",
+   "points": [
+    {
+     "ts": 1785807991,
+     "rank": 33,
+     "source_count": 1,
+     "sources": [
+      "Semiconductor Today"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "industry"
+     ]
+    }
+   ]
+  },
+  "story:5ddeda7d8a38": {
+   "first_seen": 1785807991,
+   "last_seen": 1785807991,
+   "industry": "auto",
+   "title": "Geely Galaxy Battleship 700 tri-motor stuffs 1,113 hp in a high-luxe, boxy package",
+   "points": [
+    {
+     "ts": 1785807991,
+     "rank": 1,
+     "source_count": 1,
+     "sources": [
+      "Electrek"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "media"
+     ]
+    }
+   ]
+  },
+  "story:5d8c4e05aefc": {
+   "first_seen": 1785807991,
+   "last_seen": 1785807991,
+   "industry": "energy",
+   "title": "DTE ties rate stability to data center projects as large-load pipeline remains steady",
+   "points": [
+    {
+     "ts": 1785807991,
+     "rank": 20,
+     "source_count": 1,
+     "sources": [
+      "Utility Dive"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "media"
+     ]
+    }
+   ]
+  },
+  "story:bc62cd1a9a3b": {
+   "first_seen": 1785807991,
+   "last_seen": 1785807991,
+   "industry": "tech",
+   "title": "曜越推出钢影冰霜 360 PRO 一体式水冷散热器：冷头搭 6 英寸面板、3 年质保，479 元",
+   "points": [
+    {
+     "ts": 1785807991,
+     "rank": 1,
+     "source_count": 1,
+     "sources": [
+      "IT之家"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "media"
+     ]
+    }
+   ]
+  },
+  "story:8becf322327e": {
+   "first_seen": 1785807991,
+   "last_seen": 1785807991,
+   "industry": "tech",
+   "title": "用《狂飙》看懂AI权力之争，苹果AI入华，基模与产品谁更重要？",
+   "points": [
+    {
+     "ts": 1785807991,
+     "rank": 2,
+     "source_count": 1,
+     "sources": [
+      "虎嗅"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "media"
+     ]
+    }
+   ]
+  },
+  "story:474485ebf3c0": {
+   "first_seen": 1785807991,
+   "last_seen": 1785807991,
+   "industry": "tech",
+   "title": "探索生命起源新视角：2024 年坠落居民楼的陨石发现局部盐水环境证据",
+   "points": [
+    {
+     "ts": 1785807991,
+     "rank": 3,
+     "source_count": 1,
+     "sources": [
+      "IT之家"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "media"
+     ]
+    }
+   ]
+  },
+  "story:2d91d984e69a": {
+   "first_seen": 1785807991,
+   "last_seen": 1785807991,
+   "industry": "tech",
+   "title": "纽约东河两岸，天堂与地狱并存",
+   "points": [
+    {
+     "ts": 1785807991,
+     "rank": 4,
+     "source_count": 1,
+     "sources": [
+      "虎嗅"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "media"
+     ]
+    }
+   ]
+  },
+  "topic:1495d3aef045": {
+   "first_seen": 1785807991,
+   "last_seen": 1785807991,
+   "industry": "tech",
+   "title": "邀请网红参加奢华品牌活动，OpenAI 营销引争议",
+   "points": [
+    {
+     "ts": 1785807991,
+     "rank": 5,
+     "source_count": 1,
+     "sources": [
+      "IT之家"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "media"
+     ]
+    }
+   ]
+  },
+  "story:e700ed50bf9f": {
+   "first_seen": 1785807991,
+   "last_seen": 1785807991,
+   "industry": "tech",
+   "title": "拐点已至，云台相机的下半场拼什么？",
+   "points": [
+    {
+     "ts": 1785807991,
+     "rank": 6,
+     "source_count": 1,
+     "sources": [
+      "钛媒体"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "media"
+     ]
+    }
+   ]
+  },
+  "story:00a7f0c9c8b7": {
+   "first_seen": 1785807991,
+   "last_seen": 1785807991,
+   "industry": "tech",
+   "title": "Salesforce们过苦日子，但飞书、钉钉们的春天来了",
+   "points": [
+    {
+     "ts": 1785807991,
+     "rank": 7,
+     "source_count": 1,
+     "sources": [
+      "钛媒体"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "media"
+     ]
+    }
+   ]
+  },
+  "topic:c81e1fd76e57": {
+   "first_seen": 1785807991,
+   "last_seen": 1785807991,
+   "industry": "tech",
+   "title": "博导称月之暗面 Kimi 创始人杨植麟有很多机会留在美国，但他毅然拒绝苹果、坚持回国创业",
+   "points": [
+    {
+     "ts": 1785807991,
+     "rank": 8,
+     "source_count": 1,
+     "sources": [
+      "IT之家"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "media"
+     ]
+    }
+   ]
+  },
+  "story:ba4cb09bc76f": {
+   "first_seen": 1785807991,
+   "last_seen": 1785807991,
+   "industry": "tech",
+   "title": "高通想用双旗舰芯扩张市场，却撞上了内存涨价",
+   "points": [
+    {
+     "ts": 1785807991,
+     "rank": 9,
+     "source_count": 1,
+     "sources": [
+      "虎嗅"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "media"
+     ]
+    }
+   ]
+  },
+  "story:9bdf097ac1af": {
+   "first_seen": 1785807991,
+   "last_seen": 1785807991,
+   "industry": "tech",
+   "title": "友善推出 20 美元单板计算机 NanoPi R28S：基于 RK3528A，面向路由器用途",
+   "points": [
+    {
+     "ts": 1785807991,
+     "rank": 10,
+     "source_count": 1,
+     "sources": [
+      "IT之家"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "media"
+     ]
+    }
+   ]
+  },
+  "story:7183670d29be": {
+   "first_seen": 1785807991,
+   "last_seen": 1785807991,
+   "industry": "tech",
+   "title": "新规落地，个贷定价图谱出炉，24%红线一统江湖，但松动信号已现？",
+   "points": [
+    {
+     "ts": 1785807991,
+     "rank": 11,
+     "source_count": 1,
+     "sources": [
+      "钛媒体"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "media"
+     ]
+    }
+   ]
+  },
+  "story:27dcc3804bea": {
+   "first_seen": 1785807991,
+   "last_seen": 1785807991,
+   "industry": "tech",
+   "title": "There Will Come Soft Rains (1950) [pdf]",
+   "points": [
+    {
+     "ts": 1785807991,
+     "rank": 22,
+     "source_count": 1,
+     "sources": [
+      "Hacker News"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "media"
+     ]
+    }
+   ]
+  },
+  "story:f7f2cdf35817": {
+   "first_seen": 1785807991,
+   "last_seen": 1785807991,
+   "industry": "consumer",
+   "title": "Apple plans to open iPhone clipboard access to Windows PCs",
+   "points": [
+    {
+     "ts": 1785807991,
+     "rank": 1,
+     "source_count": 1,
+     "sources": [
+      "9to5Mac"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "media"
+     ]
+    }
+   ]
+  },
+  "story:9ee0419b6727": {
+   "first_seen": 1785807991,
+   "last_seen": 1785807991,
+   "industry": "macro",
+   "title": "创业板指涨逾2% 沪深京三市上涨个股超4100只",
+   "points": [
+    {
+     "ts": 1785807991,
+     "rank": 1,
+     "source_count": 1,
+     "sources": [
+      "东方财富股票"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "market"
+     ]
+    }
+   ]
+  },
+  "story:22afd0904792": {
+   "first_seen": 1785807991,
+   "last_seen": 1785807991,
+   "industry": "macro",
+   "title": "“爆发性行情尚未终结！”德银维持金价4600美元目标不变",
+   "points": [
+    {
+     "ts": 1785807991,
+     "rank": 2,
+     "source_count": 1,
+     "sources": [
+      "华尔街见闻"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "market"
+     ]
+    }
+   ]
+  },
+  "story:0308443b7156": {
+   "first_seen": 1785807991,
+   "last_seen": 1785807991,
+   "industry": "macro",
+   "title": "澳大利亚7月季调后ANZ总招聘广告年率 2.1%，前值0.5%",
+   "points": [
+    {
+     "ts": 1785807991,
+     "rank": 3,
+     "source_count": 1,
+     "sources": [
+      "东方财富股票"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "market"
+     ]
+    }
+   ]
+  },
+  "story:fe600159aa95": {
+   "first_seen": 1785807991,
+   "last_seen": 1785807991,
+   "industry": "macro",
+   "title": "CPO概念表现活跃 光库科技涨超10%",
+   "points": [
+    {
+     "ts": 1785807991,
+     "rank": 4,
+     "source_count": 1,
+     "sources": [
+      "东方财富股票"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "market"
+     ]
+    }
+   ]
+  },
+  "story:55a930806107": {
+   "first_seen": 1785807991,
+   "last_seen": 1785807991,
+   "industry": "macro",
+   "title": "港股光通信概念股盘初全线走高，剑桥科技、中际旭创涨超7%",
+   "points": [
+    {
+     "ts": 1785807991,
+     "rank": 5,
+     "source_count": 1,
+     "sources": [
+      "东方财富股票"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "market"
+     ]
+    }
+   ]
+  },
+  "story:eecb1679174b": {
+   "first_seen": 1785807991,
+   "last_seen": 1785807991,
+   "industry": "macro",
+   "title": "港股光通信股走强 剑桥科技涨超8%",
+   "points": [
+    {
+     "ts": 1785807991,
+     "rank": 6,
+     "source_count": 1,
+     "sources": [
+      "东方财富股票"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "market"
+     ]
+    }
+   ]
+  },
+  "story:1ede4c248c94": {
+   "first_seen": 1785807991,
+   "last_seen": 1785807991,
+   "industry": "macro",
+   "title": "重要条例修订发布 芯片IP保护再升级 杠杆资金逆势布局多股(名单)",
+   "points": [
+    {
+     "ts": 1785807991,
+     "rank": 7,
+     "source_count": 1,
+     "sources": [
+      "东方财富股票"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "market"
+     ]
+    }
+   ]
+  },
+  "story:e1fbd74fad78": {
+   "first_seen": 1785807991,
+   "last_seen": 1785807991,
+   "industry": "macro",
+   "title": "Palantir outlines 2026 revenue of $8.15B-$8.158B as U.S. commercial guidance rises above $3.424B",
+   "points": [
+    {
+     "ts": 1785807991,
+     "rank": 8,
+     "source_count": 1,
+     "sources": [
+      "Seeking Alpha"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "market"
+     ]
+    }
+   ]
+  },
+  "story:b10372466f1f": {
+   "first_seen": 1785807991,
+   "last_seen": 1785807991,
+   "industry": "macro",
+   "title": "Clorox outlines $200m+ inflation and 11%-13% free cash flow target for fiscal 2027",
+   "points": [
+    {
+     "ts": 1785807991,
+     "rank": 9,
+     "source_count": 1,
+     "sources": [
+      "Seeking Alpha"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "market"
+     ]
+    }
+   ]
+  },
+  "story:d7576f1c2550": {
+   "first_seen": 1785807991,
+   "last_seen": 1785807991,
+   "industry": "macro",
+   "title": "Onsemi expects AI data center revenue to more than double in 2026 as it guides Q3 EPS to $0.81-$0.93",
+   "points": [
+    {
+     "ts": 1785807991,
+     "rank": 10,
+     "source_count": 1,
+     "sources": [
+      "Seeking Alpha"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "market"
+     ]
+    }
+   ]
+  },
+  "story:c754bf8552ad": {
+   "first_seen": 1785807991,
+   "last_seen": 1785807991,
+   "industry": "macro",
+   "title": "两市融资余额减少87.94亿元",
+   "points": [
+    {
+     "ts": 1785807991,
+     "rank": 11,
+     "source_count": 1,
+     "sources": [
+      "经济观察网"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "market"
+     ]
+    }
+   ]
+  },
+  "story:f5f4da4f0ffb": {
+   "first_seen": 1785807991,
+   "last_seen": 1785807991,
+   "industry": "macro",
+   "title": "日本或已斥资365.8亿美元干预外汇市场",
+   "points": [
+    {
+     "ts": 1785807991,
+     "rank": 12,
+     "source_count": 1,
+     "sources": [
+      "经济观察网"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "market"
+     ]
+    }
+   ]
+  },
+  "story:eba03866e8de": {
+   "first_seen": 1785807991,
+   "last_seen": 1785807991,
+   "industry": "macro",
+   "title": "CoreWeave Just Scored a Leidos Partnership. What That Means for CRWV Stock Here.",
+   "points": [
+    {
+     "ts": 1785807991,
+     "rank": 56,
+     "source_count": 1,
+     "sources": [
+      "Yahoo Finance"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "market"
+     ]
+    }
+   ]
+  },
+  "story:bae8de7c7bac": {
+   "first_seen": 1785807991,
+   "last_seen": 1785807991,
+   "industry": "macro",
+   "title": "Why Steel Stocks Are the Perfect Blend Between a Hot AI Trade and a Crash-Proof Portfolio",
+   "points": [
+    {
+     "ts": 1785807991,
+     "rank": 57,
+     "source_count": 1,
+     "sources": [
+      "Yahoo Finance"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "market"
+     ]
+    }
+   ]
+  },
+  "story:d92c072a7ddd": {
+   "first_seen": 1785807991,
+   "last_seen": 1785807991,
+   "industry": "macro",
+   "title": "Carmelo Anthony breaks down how a $100M contract shrinks to under $50M — and where the rest goes",
+   "points": [
+    {
+     "ts": 1785807991,
+     "rank": 58,
+     "source_count": 1,
+     "sources": [
+      "Yahoo Finance"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "market"
+     ]
+    }
+   ]
   }
  },
- "updated_at": "2026-08-04 09:19"
+ "updated_at": "2026-08-04 09:46"
 }
