@@ -1,6 +1,6 @@
 // 由 ChatGPT 网页版生成；新闻抓取工作流不会覆盖本文件。
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-05 09:18",
+  "generated_at": "2026-08-05 10:05",
   "source_generated_at": "2026-08-05 08:55",
   "generated_by": "ChatGPT Web",
   "status": "ready",
@@ -102,43 +102,44 @@ window.AI_SIGNALS = {
     {
       "market": "美股",
       "flag": "🇺🇸",
-      "session": "8月4日收盘",
-      "updated_at": "2026-08-05 09:18 CST",
-      "status": "positive",
-      "status_label": "AI业绩与油价回落推动科技和芯片全面修复",
-      "move": "道指 +1.71%｜标普500 +1.79%｜纳指 +2.59%｜费城半导体 +6.6%",
-      "driver": "Palantir上调收入预期后大涨，Caterpillar受AI数据中心电力与建设需求推动；芯片股连续第四日反弹。布伦特原油下跌5.3%，令9月加息隐含概率由约67%降至约57%，但AI板块经历快速反弹后仍需防范高波动。",
+      "session": "8月4日收盘及盘后",
+      "updated_at": "2026-08-05 10:05 CST",
+      "status": "mixed",
+      "status_label": "指数大涨，但AMD财报后盘后下跌令AI估值分化",
+      "move": "道指 +1.71%｜标普500 +1.79%｜纳指 +2.59%｜费城半导体 +6.6%｜AMD盘后约 -9%",
+      "driver": "常规交易时段由AI业绩、数据中心资本开支需求和油价回落共同推动；但AMD公布业绩后盘后下跌约9%，显示需求验证与高估值压力并存，不能把隔夜指数上涨直接等同于A股AI硬件全面确认。",
       "a_share_links": [
         "CPO",
         "PCB",
         "AI服务器",
         "存储芯片"
       ],
-      "validation": "观察中际旭创、东山精密及存储链能否同步费城半导体指数修复，并避免高开后快速回落。",
+      "validation": "中际旭创今早约09:37下跌7.7%至8.0%，东山精密约09:30小幅下跌，CPO承接弱于隔夜海外指数；需观察盘中能否收复开盘区间及板块是否扩散。",
       "sources": [
         "https://www.reuters.com/business/nasdaq-futures-underpinned-by-strong-ai-forecasts-focus-earnings-data-2026-08-04/",
-        "https://www.reuters.com/business/energy/oil-ticks-up-after-selloff-talks-end-us-iran-war-remain-uncertain-2026-08-04/"
+        "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-05/",
+        "https://www.google.com/finance/quote/300308:SHE?hl=zh",
+        "https://www.google.com/finance/quote/002384:SHE?hl=zh"
       ]
     },
     {
       "market": "日股",
       "flag": "🇯🇵",
       "session": "8月5日早盘",
-      "updated_at": "2026-08-05 09:18 CST",
+      "updated_at": "2026-08-05 10:05 CST",
       "status": "pending",
-      "status_label": "电子股领涨，精确开盘数据待第二来源复核",
-      "move": "前收63,957.53｜开盘64,565.27（高开0.95%）｜09:45 JST报65,882.99，涨3.01%；09:14 JST另一报道报涨2.3%",
-      "driver": "美股芯片大涨与美伊谈判预期推动电子权重修复。两个观测时点方向一致，但精确开盘点位仅由WSJ/FactSet取得，未满足双独立来源开盘验证规则。",
+      "status_label": "电子股带动强势反弹，精确开盘仍待双源复核",
+      "move": "路透09:37北京时间观测：日经225约 +3.0%",
+      "driver": "隔夜美股芯片指数上涨与风险偏好修复推动日本电子权重反弹；现有正式来源确认盘中涨幅，但精确开盘点位尚未获得两个独立来源一致确认。",
       "a_share_links": [
         "半导体设备",
         "被动元件",
         "消费电子",
         "AI硬件"
       ],
-      "validation": "核对日经官方开盘数据并观察午前是否守住开盘价；风华高科、东山精密的相对强弱用于判断国内传导。",
+      "validation": "观察日经午前能否守住早盘主要涨幅；A股方面，中际旭创早盘明显下跌，海外反弹尚未形成一致传导。",
       "sources": [
-        "https://www.wsj.com/market-data/quotes/index/JP/NIK",
-        "https://www.wsj.com/finance/stocks/nikkei-rises-2-3-led-by-electronics-stocks-c7f7f21e",
+        "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-05/",
         "https://indexes.nikkei.co.jp/en/nkave/index/profile"
       ]
     },
@@ -146,51 +147,51 @@ window.AI_SIGNALS = {
       "market": "韩股",
       "flag": "🇰🇷",
       "session": "8月5日早盘",
-      "updated_at": "2026-08-05 09:18 CST",
+      "updated_at": "2026-08-05 10:05 CST",
       "status": "pending",
-      "status_label": "芯片链高开修复，精确开盘数据待第二来源复核",
-      "move": "前收6,358.95｜开盘6,603.48（高开3.85%）｜09:19 KST报6,643.40，涨4.47%",
-      "driver": "费城半导体指数上涨、SK海力士ADR获多家券商看多以及AI存储路线催化推动韩股修复；但韩国监管层正在限制单一股票杠杆ETF，市场仍处高波动阶段。精确开盘点位只有WSJ/FactSet来源，继续标记待验证。",
+      "status_label": "芯片链推动强势反弹，精确开盘仍待双源复核",
+      "move": "路透09:37北京时间观测：KOSPI约 +3.4%",
+      "driver": "费城半导体指数大涨及AI存储景气预期推动韩国芯片权重修复；现有正式来源确认盘中方向与幅度，但精确开盘点位尚未达到双源验证条件。",
       "a_share_links": [
         "HBM",
         "DRAM",
         "NAND",
         "封测"
       ],
-      "validation": "核对KRX开盘数据，并观察三星电子、SK海力士及KOSPI能否守住开盘价；A股存储链需同步止跌才算传导成立。",
+      "validation": "观察KOSPI及三星电子、SK海力士能否守住早盘涨幅；A股存储链中兆易创新约09:59上涨5.99%，形成局部而非全面传导。",
       "sources": [
-        "https://www.wsj.com/market-data/quotes/index/KR/SEU",
-        "https://www.reuters.com/world/asia-pacific/sk-hynix-rises-brokerages-launch-coverage-with-bullish-ratings-2026-08-04/",
-        "https://www.reuters.com/world/asia-pacific/south-korea-vows-soothe-stock-market-volatility-etf-boom-slows-2026-08-04/"
+        "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-05/",
+        "https://global.krx.co.kr/main/main.jsp"
       ]
     }
   ],
   "signals": [
     {
-      "event": "AMD数据中心收入翻倍、费城半导体大涨，AI基础设施需求获得新一轮业绩验证",
+      "event": "隔夜AI与芯片指数大涨，但AMD盘后下跌、中际旭创早盘重挫，需求验证与估值压力同时出现",
       "industry": "ai",
       "industry_name": "AI数据中心 / CPO / PCB",
-      "direction": "positive",
+      "direction": "mixed",
       "strength": 5,
-      "horizon": "1-4w",
-      "priced_in": "medium",
-      "reason": "AMD二季度数据中心收入同比增长107%至67亿美元，并预计2027年数据中心销售翻倍；隔夜费城半导体指数上涨6.6%，Palantir与Caterpillar财报也分别验证AI软件需求及数据中心电力、建设投入。事实通道指向高速光模块和服务器PCB需求，但海外芯片已连续四日反弹，A股能否同步仍需今日价格确认。",
+      "horizon": "1-5d",
+      "priced_in": "high",
+      "reason": "AMD二季度数据中心业务继续验证AI基础设施需求，8月4日费城半导体指数上涨6.6%；但AMD财报后盘后下跌约9%，8月5日约09:37中际旭创下跌约7.7%至8.0%，东山精密约09:30小幅下跌。需求仍强，但价格通道未确认，原先“海外反弹可直接传导A股CPO”的正向判断下调为分化观察。",
       "assets": [
         "300308",
         "002384"
       ],
       "validation": [
-        "中际旭创、东山精密相对通信与电子指数转强，且高开后能够守住主要涨幅",
-        "后续云厂商、AMD或网络设备供应链继续上调AI资本开支与订单指引"
+        "中际旭创收复早盘主要跌幅，东山精密转强且CPO、PCB板块出现多标的扩散",
+        "后续云厂商、AMD或网络设备供应链继续上调AI资本开支与订单指引，且市场以价格确认"
       ],
       "invalidation": [
-        "A股CPO、PCB继续弱于板块，海外利好未形成国内承接",
-        "AMD或云厂商下调后续出货、资本开支或AI需求指引"
+        "中际旭创继续放量走弱并跌破早盘低点，东山精密同步转弱",
+        "AMD或主要云厂商下调后续出货、资本开支或AI需求指引"
       ],
       "urls": [
-        "https://www.theverge.com/tech/975381/amd-q2-2026-earnings-ai-gaming-ryzen",
         "https://www.reuters.com/business/nasdaq-futures-underpinned-by-strong-ai-forecasts-focus-earnings-data-2026-08-04/",
-        "https://wallstreetcn.com/articles/3778695"
+        "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-05/",
+        "https://www.google.com/finance/quote/300308:SHE?hl=zh",
+        "https://www.google.com/finance/quote/002384:SHE?hl=zh"
       ]
     },
     {
@@ -201,24 +202,25 @@ window.AI_SIGNALS = {
       "strength": 4,
       "horizon": "1-3m",
       "priced_in": "unknown",
-      "reason": "三星在FMS 2026展示zHBM逻辑堆叠概念、zNAND-O及400层以上键合NAND，说明AI存储竞争继续向高带宽、低延迟和3D架构升级。该路线有利于存储景气与封测、工程投入预期，但也意味着海外龙头技术与产能竞争加强；目前为概念路线披露，量产时间、资本开支和国内产业链份额尚未确认。",
+      "reason": "三星在FMS 2026展示zHBM逻辑堆叠概念、zNAND-O及400层以上键合NAND，AI存储竞争继续向高带宽、低延迟和3D架构升级。8月5日约09:59兆易创新上涨5.99%，与韩股芯片链反弹形成局部价格确认；但这仍是早盘单点，量产时间、资本开支、国内产业链份额及德明利、太极实业的同步性尚未确认。",
       "assets": [
         "603986",
         "001309",
         "600667"
       ],
       "validation": [
-        "三星披露明确量产时间、客户验证或资本开支安排，相关存储价格与订单同步改善",
-        "兆易创新、德明利、太极实业相对半导体指数止跌转强并出现板块扩散"
+        "兆易创新守住早盘主要涨幅，德明利、太极实业同步转强并出现板块扩散",
+        "三星披露明确量产时间、客户验证或资本开支安排，相关存储价格与订单同步改善"
       ],
       "invalidation": [
-        "路线长期停留在概念阶段，量产或客户导入明显延迟",
-        "A股存储链继续放量走弱，显示竞争压力高于景气映射"
+        "兆易创新回吐早盘涨幅，德明利、太极实业继续走弱",
+        "路线长期停留在概念阶段，量产或客户导入明显延迟"
       ],
       "urls": [
         "https://www.digitimes.com/news/a20260805VL200/samsung-2026-nand-dram-3d.html",
         "https://semiwiki.com/ip/rambus/370722-how-socamm2-could-reshape-server-memory-for-ai",
-        "https://www.digitimes.com/news/a20260804PR201/sk-hynix-technology-flash-ai-inference-bandwidth.html"
+        "https://www.digitimes.com/news/a20260804PR201/sk-hynix-technology-flash-ai-inference-bandwidth.html",
+        "https://www.google.com/finance/quote/603986:SHA?hl=zh"
       ]
     },
     {
@@ -247,14 +249,14 @@ window.AI_SIGNALS = {
       ]
     },
     {
-      "event": "油价重挫降低加息预期，黄金白银同步反弹但白银LOF溢价仍需独立核验",
+      "event": "油价重挫降低加息预期，金银结算价反弹但亚洲时段略有回吐，白银LOF风险仍需独立核验",
       "industry": "macro",
       "industry_name": "贵金属 / 利率 / 地缘政治",
       "direction": "mixed",
       "strength": 4,
       "horizon": "1-5d",
       "priced_in": "unknown",
-      "reason": "布伦特原油下跌5.3%至79.36美元，市场对9月加息概率由约67%降至约57%；现货黄金上涨约1%至4086美元，白银上涨2.8%至59.82美元。外盘方向有利黄金ETF和白银净值，但国投白银LOF的场内价格、申购限制和溢价收敛风险独立存在，不能仅按银价判断。",
+      "reason": "8月4日布伦特原油下跌约5.3%，市场对9月加息概率由约67%降至约57%；COMEX黄金8月合约结算上涨1.53%至4095.40美元，白银上涨4.1%至60.056美元。8月5日亚洲时段路透观测金价约4080美元，显示隔夜涨幅未完全延续。外盘仍支持贵金属净值，但国投白银LOF场内价格、净值、溢价及停复牌公告必须独立核验。",
       "assets": [
         "161226",
         "518880"
@@ -269,7 +271,8 @@ window.AI_SIGNALS = {
       ],
       "urls": [
         "https://www.reuters.com/business/energy/oil-ticks-up-after-selloff-talks-end-us-iran-war-remain-uncertain-2026-08-04/",
-        "https://www.reuters.com/world/india/gold-steady-with-middle-east-turmoil-us-jobs-data-focus-2026-08-04/"
+        "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-05/",
+        "https://www.wsj.com/finance/commodities-futures/gold-rises-focus-on-u-s-labor-data-239f754a"
       ]
     }
   ]
