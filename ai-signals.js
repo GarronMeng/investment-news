@@ -1,7 +1,7 @@
 // 由 ChatGPT 网页版生成；新闻抓取工作流不会覆盖本文件。
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-05 11:02",
-  "source_generated_at": "2026-08-05 08:55",
+  "generated_at": "2026-08-05 12:03",
+  "source_generated_at": "2026-08-05 11:37",
   "generated_by": "ChatGPT Web",
   "status": "ready",
   "news_titles": {
@@ -96,40 +96,69 @@ window.AI_SIGNALS = {
     "https://www.livescience.com/chemistry/brains-dont-always-rot-scientists-may-finally-know-how-human-brains-have-evaded-decay-for-thousands-of-years": "科学家或解开人脑千年不腐之谜",
     "https://www.newscientist.com/article/2582580-the-once-impossible-black-holes-that-could-break-thermodynamics": "可能打破热力学定律的“不可能”黑洞",
     "https://www.livescience.com/planet-earth/plants/darwins-hypothesis-provided-an-important-inspiration-scientists-bolster-150-year-old-darwinian-theory-with-a-carnivorous-plant-in-china": "中国食虫植物研究为150年前的达尔文理论提供新证据",
-    "https://www.livescience.com/space/the-moon/a-spacex-rocket-will-hit-the-moon-at-5-000-mph-tonight-experts-explain-what-you-could-see-and-when": "SpaceX火箭部件将以每小时5000英里撞击月球"
+    "https://www.livescience.com/space/the-moon/a-spacex-rocket-will-hit-the-moon-at-5-000-mph-tonight-experts-explain-what-you-could-see-and-when": "SpaceX火箭部件将以每小时5000英里撞击月球",
+    "https://semiengineering.com/hybrid-computing-framework-looks-beyond-peak-tops-w-for-ai-efficiency-nottingham-trent-icl-aston": "混合计算框架不再只看峰值TOPS/W，重新评估AI能效",
+    "https://www.digitimes.com/news/a20260805PD200/vis-ai-demand-equipment-management-2027.html": "世界先进称AI需求将推动成熟制程价格上涨至2027年",
+    "https://semiengineering.com/a-selective-magneto%e2%80%90ionic-strategy-for-hardware%e2%80%90level-security": "用于硬件级安全的选择性磁离子策略",
+    "https://www.digitimes.com/news/a20260805VL210/amd-nvidia-ai-infrastructure-earnings-revenue.html": "分析：AMD与英伟达以不同路径争夺下一波AI基础设施支出",
+    "https://www.digitimes.com/news/a20260805PD206/vis-ai-server-demand-profit-2026.html": "AI服务器芯片需求推动世界先进2026年第二季度利润增长",
+    "https://www.digitimes.com/news/a20260804PD244/psmc-taiwan-intel-production-packaging.html": "力积电考虑在美国、新加坡和马来西亚合资，英特尔封装合作进入量产",
+    "https://www.digitimes.com/news/a20260805VL206/usa-fcc-transceiver-module-cybersecurity-equipment-infrastructure.html": "据报美国扩大AI基础设施安全行动，拟限制中国光模块",
+    "https://www.digitimes.com/news/a20260805PD214/smartphone-price-apple-mediatek-qualcomm.html": "智能手机厂商准备应对销量下降、价格上涨及市场进一步分化",
+    "https://cnevpost.com/2026/08/05/china-1st-sodium-ion-electric-mining-truck-delivery": "中国交付首辆钠离子电动矿卡，钠电应用范围继续扩大",
+    "https://cnevpost.com/2026/08/05/dongfeng-nissan-teases-nx7": "东风日产预告第四款N系列车型NX7，车顶配备激光雷达",
+    "https://cnevpost.com/2026/08/05/byd-fang-cheng-bao-500000-cumulative-sales": "比亚迪方程豹不到三年累计销量突破50万辆",
+    "https://www.pv-tech.org/energyaustralia-admits-breaching-electricity-retail-code-over-33-day-solar-sharer-offer-delay": "EnergyAustralia承认“Solar Sharer”优惠延迟33天，违反电力零售规范",
+    "https://www.pv-tech.org/australia-to-expand-small-scale-renewable-energy-scheme-to-cover-1mw-solar-installations": "澳大利亚拟扩大小规模可再生能源计划，覆盖1MW光伏项目",
+    "https://www.energy-storage.news/ampyr-australia-bags-5-3-4-letter-for-270mw-grid-forming-battery-storage-system": "AMPYR澳大利亚为270MW构网型储能系统获得5.3.4并网确认函",
+    "https://cleantechnica.com/2026/08/04/waymo-launches-robotaxi-service-in-dallas": "Waymo在达拉斯推出Robotaxi服务",
+    "https://cleantechnica.com/2026/08/04/byd-commercial-vehicle-sales-jumped-149-in-july": "比亚迪7月商用车销量增长149%",
+    "https://cleantechnica.com/2026/08/04/la-city-council-votes-to-allow-billion-dollar-scattergood-gas-plant-retrofit-to-move-forward": "洛杉矶市议会投票允许价值十亿美元的Scattergood燃气电厂改造项目推进",
+    "https://cleantechnica.com/2026/08/04/byd-achieves-record-exports-with-124-growth": "比亚迪出口量创纪录，同比增长124%",
+    "https://cleantechnica.com/2026/08/04/solar-powered-ev-aptera-qualifies-california-hov-lanes": "太阳能电动汽车不再遥不可及：Aptera获准驶入加州HOV车道",
+    "https://www.genengnews.com/topics/bioprocessing/onshoring-is-here-the-hiring-wave-is-still-a-decade-out": "产业回流已经开始，但招聘潮仍需十年才会到来",
+    "https://endpoints.news/gileads-yeztugo-beats-forecasts-as-hiv-prep-franchise-exceeds-1b": "吉利德Yeztugo超出预期，HIV暴露前预防业务收入突破10亿美元",
+    "https://spacenews.com/voyager-seeks-relaxed-requirements-in-nasa-commercial-space-station-rfp": "Voyager寻求NASA放宽商业空间站招标要求",
+    "https://www.gsmarena.com/zte_blade_a35e_gets_listed_with_confusing_specs-news-74008.php": "中兴Blade A35e上架，参数信息令人困惑",
+    "https://9to5mac.com/2026/08/04/apple-carplay-expands-to-select-pontoon-boats-with-on-water-navigation": "Apple CarPlay扩展至部分浮筒船，并支持水上导航",
+    "https://9to5mac.com/2026/08/04/ted-lassos-season-4-premiere-now-available-to-stream-on-apple-tv": "《足球教练》第四季首集现已在Apple TV上线",
+    "https://9to5mac.com/2026/08/04/daily-august-4-2026": "9to5Mac日报：2026年8月4日——苹果与OpenAI争议的最新进展",
+    "https://seekingalpha.com/news/4625593-viasat-expects-about-180m-fiscal-2027-free-cash-flow-while-keeping-950m-1b-capex-plan": "Viasat预计2027财年自由现金流约1.8亿美元，维持9.5亿至10亿美元资本开支计划"
   },
   "overseas_markets": [
     {
       "market": "美股",
       "flag": "🇺🇸",
       "session": "8月4日收盘及盘后",
-      "updated_at": "2026-08-05 11:02 CST",
+      "updated_at": "2026-08-05 12:03 CST",
       "status": "mixed",
-      "status_label": "指数大涨，但AMD财报后盘后下跌令AI估值分化",
+      "status_label": "美股指数大涨，但AMD盘后回落与中国光模块限制草案令AI链分化",
       "move": "道指 +1.71%｜标普500 +1.79%｜纳指 +2.59%｜费城半导体 +6.6%｜AMD盘后约 -9%",
-      "driver": "常规交易时段由AI业绩、数据中心资本开支需求和油价回落共同推动；但AMD公布业绩后盘后下跌约9%，显示需求验证与高估值压力并存，不能把隔夜指数上涨直接等同于A股AI硬件全面确认。",
+      "driver": "AI业绩与数据中心投资推动美股常规交易时段上涨；但AMD财报后盘后回落。路透进一步披露FCC正起草限制中国新型号光模块的方案，尚未形成正式文件，美国光器件替代厂商受益而中国供应链面临政策风险。",
       "a_share_links": [
         "CPO",
         "PCB",
         "AI服务器",
         "存储芯片"
       ],
-      "validation": "截至10:43，中际旭创约跌9.5%，而东山精密截至10:27约涨0.9%；隔夜AI利好在A股内部形成CPO弱、PCB强的明显分化，尚未形成板块一致确认。",
+      "validation": "A股午前确认结构分化：截至11:47中际旭创约跌7.6%，截至11:34东山精密约涨4.2%；CPO政策风险与PCB需求景气需分开判断。",
       "sources": [
         "https://www.reuters.com/business/nasdaq-futures-underpinned-by-strong-ai-forecasts-focus-earnings-data-2026-08-04/",
         "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-05/",
         "https://www.google.com/finance/quote/300308:SHE?hl=zh",
-        "https://www.google.com/finance/quote/002384:SHE?hl=zh"
+        "https://www.google.com/finance/quote/002384:SHE?hl=zh",
+        "https://www.reuters.com/world/trump-administration-drafting-ban-chinese-data-center-devices-sources-say-2026-08-04/",
+        "https://www.reuters.com/business/media-telecom/china-ai-hardware-stocks-slump-after-news-us-plans-ban-imports-chinese-2026-08-05/"
       ]
     },
     {
       "market": "日股",
       "flag": "🇯🇵",
       "session": "8月5日早盘",
-      "updated_at": "2026-08-05 11:02 CST",
+      "updated_at": "2026-08-05 12:03 CST",
       "status": "pending",
       "status_label": "电子股带动强势反弹，精确开盘仍待双源复核",
-      "move": "路透09:37北京时间观测：日经225约 +3.0%",
+      "move": "路透午前观测：日经225约 +3.0%",
       "driver": "隔夜美股芯片指数上涨与风险偏好修复推动日本电子权重反弹；现有正式来源确认盘中涨幅，但精确开盘点位尚未获得两个独立来源一致确认。",
       "a_share_links": [
         "半导体设备",
@@ -137,7 +166,7 @@ window.AI_SIGNALS = {
         "消费电子",
         "AI硬件"
       ],
-      "validation": "日经早盘强势方向不变；A股AI硬件内部显著分化，中际旭创走弱而东山精密翻红，海外反弹仅局部传导。",
+      "validation": "日经强势方向维持；A股映射仍分化，PCB和存储走强、CPO受政策草案冲击。",
       "sources": [
         "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-05/",
         "https://indexes.nikkei.co.jp/en/nkave/index/profile"
@@ -147,10 +176,10 @@ window.AI_SIGNALS = {
       "market": "韩股",
       "flag": "🇰🇷",
       "session": "8月5日早盘",
-      "updated_at": "2026-08-05 11:02 CST",
+      "updated_at": "2026-08-05 12:03 CST",
       "status": "pending",
       "status_label": "芯片链推动强势反弹，精确开盘仍待双源复核",
-      "move": "路透09:37北京时间观测：KOSPI约 +3.4%",
+      "move": "路透午前观测：KOSPI约 +4.1%",
       "driver": "费城半导体指数大涨及AI存储景气预期推动韩国芯片权重修复；现有正式来源确认盘中方向与幅度，但精确开盘点位尚未达到双源验证条件。",
       "a_share_links": [
         "HBM",
@@ -158,7 +187,7 @@ window.AI_SIGNALS = {
         "NAND",
         "封测"
       ],
-      "validation": "韩国芯片链反弹获得A股存储侧局部确认：截至10:59兆易创新约涨5.4%，截至10:36太极实业约涨4.2%；仍需德明利同步及午后守住涨幅。",
+      "validation": "韩国芯片反弹获得A股存储确认：截至11:30兆易创新约涨7.0%、太极实业约涨7.6%，午后需观察涨幅保持及德明利同步。",
       "sources": [
         "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-05/",
         "https://global.krx.co.kr/main/main.jsp"
@@ -167,53 +196,77 @@ window.AI_SIGNALS = {
   ],
   "signals": [
     {
-      "event": "AI需求仍强，但中际旭创跌幅扩大、东山精密翻红，CPO与PCB价格反馈显著分化",
+      "event": "美国拟限制中国新型号光模块，CPO风险从估值分化升级为政策草案冲击",
       "industry": "ai",
-      "industry_name": "AI数据中心 / CPO / PCB",
-      "direction": "mixed",
+      "industry_name": "CPO / 光模块 / AI数据中心",
+      "direction": "negative",
       "strength": 5,
-      "horizon": "1-5d",
-      "priced_in": "high",
-      "reason": "AMD数据中心业务与8月4日费城半导体指数上涨6.6%继续验证AI基础设施需求；但AMD财报后盘后下跌约9%。8月5日盘中，中际旭创从09:37约跌7.7%进一步扩大至10:43约跌9.5%，东山精密则由早盘小跌转为10:27约涨0.9%。需求事实未变，价格通道已确认的是内部结构分化，不能再概括为AI硬件整体承接。",
+      "horizon": "1-4w",
+      "priced_in": "medium",
+      "reason": "路透8月4日援引四名知情人士称，FCC正起草禁止进口中国新型号光模块的方案，并希望年内公布实施；该方案尚未最终确定，仍可能修改或搁置。中际旭创8月5日回应称FCC尚未出台正式限制文件。截至11:47公司A股约跌7.6%，较早盘低点有所修复，但政策不确定性已成为独立于AI需求的风险变量。",
       "assets": [
-        "300308",
+        "300308"
+      ],
+      "validation": [
+        "FCC公布正式文本后明确适用范围、既有型号与海外产能豁免安排，实际影响低于市场预期",
+        "中际旭创午后收复960元附近早盘高点，且新易盛、天孚通信同步明显收窄跌幅"
+      ],
+      "invalidation": [
+        "FCC正式文件覆盖中国品牌新型号且缺少可行豁免，主要美国客户采购受限",
+        "中际旭创跌破880元早盘低点，CPO板块跌幅再次扩大"
+      ],
+      "urls": [
+        "https://www.reuters.com/world/trump-administration-drafting-ban-chinese-data-center-devices-sources-say-2026-08-04/",
+        "https://www.reuters.com/business/media-telecom/china-ai-hardware-stocks-slump-after-news-us-plans-ban-imports-chinese-2026-08-05/",
+        "https://finance.sina.com.cn/roll/2026-08-05/doc-inimfmym3674229.shtml",
+        "https://www.google.com/finance/quote/300308:SHE?hl=zh"
+      ]
+    },
+    {
+      "event": "东山精密午前涨幅扩大，PCB需求景气与成本、周期风险同时被市场定价",
+      "industry": "components",
+      "industry_name": "AI服务器 / PCB",
+      "direction": "mixed",
+      "strength": 4,
+      "horizon": "1-4w",
+      "priced_in": "high",
+      "reason": "截至11:34东山精密约涨4.2%，与中际旭创下跌形成明显背离，表明资金把PCB需求景气与光模块政策风险分开定价。新增行业分析称AI服务器高端PCB需求强，但电子布等上游材料价格上涨、扩产与高估值使盈利弹性并非单向，单日强势仍需订单和毛利率验证。",
+      "assets": [
         "002384"
       ],
       "validation": [
-        "中际旭创收复早盘主要跌幅并重新站上960元附近早盘高点，CPO板块出现多标的修复",
-        "东山精密守住翻红且PCB板块继续扩散，同时后续资本开支与订单指引维持上调"
+        "东山精密午后守住大部分涨幅，PCB板块继续扩散且成交结构健康",
+        "公司或供应链披露AI服务器PCB订单、价格与毛利率同步改善"
       ],
       "invalidation": [
-        "中际旭创跌破880元早盘低点或CPO板块跌幅继续扩大",
-        "东山精密重新转弱且PCB相对强势消失，AI硬件各分支同步走弱"
+        "东山精密回吐午前涨幅并跌回昨收以下，板块扩散中断",
+        "上游材料涨价快于PCB提价，或新增产能导致供需转弱"
       ],
       "urls": [
-        "https://www.reuters.com/business/nasdaq-futures-underpinned-by-strong-ai-forecasts-focus-earnings-data-2026-08-04/",
-        "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-05/",
-        "https://www.google.com/finance/quote/300308:SHE?hl=zh",
+        "https://www.huxiu.com/article/4880729.html",
         "https://www.google.com/finance/quote/002384:SHE?hl=zh"
       ]
     },
     {
-      "event": "兆易创新与太极实业同步走强，三星AI存储路线获得板块级价格确认",
+      "event": "兆易创新与太极实业涨幅扩大，三星AI存储路线获得更强板块确认",
       "industry": "semi",
       "industry_name": "HBM / NAND / AI存储",
       "direction": "mixed",
       "strength": 5,
       "horizon": "1-3m",
       "priced_in": "medium",
-      "reason": "三星在FMS 2026展示zHBM逻辑堆叠概念、zNAND-O及400层以上键合NAND，AI存储竞争继续向高带宽、低延迟和3D架构升级。8月5日截至10:59兆易创新约涨5.4%，截至10:36太极实业约涨4.2%，价格确认已由单一标的扩展到存储与封测映射；但德明利行情尚未获得可靠同步数据，量产时间与国内份额仍待确认。",
+      "reason": "三星在FMS 2026展示zHBM、zNAND-O及400层以上键合NAND，AI存储竞争继续向高带宽、低延迟和3D架构升级。截至11:30兆易创新约涨7.0%、太极实业约涨7.6%，双标的确认较11点进一步增强，并与KOSPI约4.1%的反弹呼应；德明利同步性和量产、国内份额仍待确认。",
       "assets": [
         "603986",
         "001309",
         "600667"
       ],
       "validation": [
-        "兆易创新与太极实业午后守住大部分涨幅，德明利同步转强，形成三标的扩散",
-        "三星披露明确量产时间、客户验证或资本开支安排，相关存储价格与订单同步改善"
+        "兆易创新与太极实业午后守住大部分涨幅，德明利同步转强",
+        "三星披露明确量产时间、客户验证或资本开支安排，存储价格与订单同步改善"
       ],
       "invalidation": [
-        "兆易创新或太极实业午后回吐主要涨幅，板块扩散中断",
+        "兆易创新或太极实业午后大幅回吐，板块扩散中断",
         "路线长期停留在概念阶段，量产或客户导入明显延迟"
       ],
       "urls": [
