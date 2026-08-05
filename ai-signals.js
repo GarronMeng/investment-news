@@ -1,6 +1,6 @@
 // 由 ChatGPT 网页版生成；新闻抓取工作流不会覆盖本文件。
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-05 10:05",
+  "generated_at": "2026-08-05 11:02",
   "source_generated_at": "2026-08-05 08:55",
   "generated_by": "ChatGPT Web",
   "status": "ready",
@@ -103,7 +103,7 @@ window.AI_SIGNALS = {
       "market": "美股",
       "flag": "🇺🇸",
       "session": "8月4日收盘及盘后",
-      "updated_at": "2026-08-05 10:05 CST",
+      "updated_at": "2026-08-05 11:02 CST",
       "status": "mixed",
       "status_label": "指数大涨，但AMD财报后盘后下跌令AI估值分化",
       "move": "道指 +1.71%｜标普500 +1.79%｜纳指 +2.59%｜费城半导体 +6.6%｜AMD盘后约 -9%",
@@ -114,7 +114,7 @@ window.AI_SIGNALS = {
         "AI服务器",
         "存储芯片"
       ],
-      "validation": "中际旭创今早约09:37下跌7.7%至8.0%，东山精密约09:30小幅下跌，CPO承接弱于隔夜海外指数；需观察盘中能否收复开盘区间及板块是否扩散。",
+      "validation": "截至10:43，中际旭创约跌9.5%，而东山精密截至10:27约涨0.9%；隔夜AI利好在A股内部形成CPO弱、PCB强的明显分化，尚未形成板块一致确认。",
       "sources": [
         "https://www.reuters.com/business/nasdaq-futures-underpinned-by-strong-ai-forecasts-focus-earnings-data-2026-08-04/",
         "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-05/",
@@ -126,7 +126,7 @@ window.AI_SIGNALS = {
       "market": "日股",
       "flag": "🇯🇵",
       "session": "8月5日早盘",
-      "updated_at": "2026-08-05 10:05 CST",
+      "updated_at": "2026-08-05 11:02 CST",
       "status": "pending",
       "status_label": "电子股带动强势反弹，精确开盘仍待双源复核",
       "move": "路透09:37北京时间观测：日经225约 +3.0%",
@@ -137,7 +137,7 @@ window.AI_SIGNALS = {
         "消费电子",
         "AI硬件"
       ],
-      "validation": "观察日经午前能否守住早盘主要涨幅；A股方面，中际旭创早盘明显下跌，海外反弹尚未形成一致传导。",
+      "validation": "日经早盘强势方向不变；A股AI硬件内部显著分化，中际旭创走弱而东山精密翻红，海外反弹仅局部传导。",
       "sources": [
         "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-05/",
         "https://indexes.nikkei.co.jp/en/nkave/index/profile"
@@ -147,7 +147,7 @@ window.AI_SIGNALS = {
       "market": "韩股",
       "flag": "🇰🇷",
       "session": "8月5日早盘",
-      "updated_at": "2026-08-05 10:05 CST",
+      "updated_at": "2026-08-05 11:02 CST",
       "status": "pending",
       "status_label": "芯片链推动强势反弹，精确开盘仍待双源复核",
       "move": "路透09:37北京时间观测：KOSPI约 +3.4%",
@@ -158,7 +158,7 @@ window.AI_SIGNALS = {
         "NAND",
         "封测"
       ],
-      "validation": "观察KOSPI及三星电子、SK海力士能否守住早盘涨幅；A股存储链中兆易创新约09:59上涨5.99%，形成局部而非全面传导。",
+      "validation": "韩国芯片链反弹获得A股存储侧局部确认：截至10:59兆易创新约涨5.4%，截至10:36太极实业约涨4.2%；仍需德明利同步及午后守住涨幅。",
       "sources": [
         "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-05/",
         "https://global.krx.co.kr/main/main.jsp"
@@ -167,25 +167,25 @@ window.AI_SIGNALS = {
   ],
   "signals": [
     {
-      "event": "隔夜AI与芯片指数大涨，但AMD盘后下跌、中际旭创早盘重挫，需求验证与估值压力同时出现",
+      "event": "AI需求仍强，但中际旭创跌幅扩大、东山精密翻红，CPO与PCB价格反馈显著分化",
       "industry": "ai",
       "industry_name": "AI数据中心 / CPO / PCB",
       "direction": "mixed",
       "strength": 5,
       "horizon": "1-5d",
       "priced_in": "high",
-      "reason": "AMD二季度数据中心业务继续验证AI基础设施需求，8月4日费城半导体指数上涨6.6%；但AMD财报后盘后下跌约9%，8月5日约09:37中际旭创下跌约7.7%至8.0%，东山精密约09:30小幅下跌。需求仍强，但价格通道未确认，原先“海外反弹可直接传导A股CPO”的正向判断下调为分化观察。",
+      "reason": "AMD数据中心业务与8月4日费城半导体指数上涨6.6%继续验证AI基础设施需求；但AMD财报后盘后下跌约9%。8月5日盘中，中际旭创从09:37约跌7.7%进一步扩大至10:43约跌9.5%，东山精密则由早盘小跌转为10:27约涨0.9%。需求事实未变，价格通道已确认的是内部结构分化，不能再概括为AI硬件整体承接。",
       "assets": [
         "300308",
         "002384"
       ],
       "validation": [
-        "中际旭创收复早盘主要跌幅，东山精密转强且CPO、PCB板块出现多标的扩散",
-        "后续云厂商、AMD或网络设备供应链继续上调AI资本开支与订单指引，且市场以价格确认"
+        "中际旭创收复早盘主要跌幅并重新站上960元附近早盘高点，CPO板块出现多标的修复",
+        "东山精密守住翻红且PCB板块继续扩散，同时后续资本开支与订单指引维持上调"
       ],
       "invalidation": [
-        "中际旭创继续放量走弱并跌破早盘低点，东山精密同步转弱",
-        "AMD或主要云厂商下调后续出货、资本开支或AI需求指引"
+        "中际旭创跌破880元早盘低点或CPO板块跌幅继续扩大",
+        "东山精密重新转弱且PCB相对强势消失，AI硬件各分支同步走弱"
       ],
       "urls": [
         "https://www.reuters.com/business/nasdaq-futures-underpinned-by-strong-ai-forecasts-focus-earnings-data-2026-08-04/",
@@ -195,32 +195,33 @@ window.AI_SIGNALS = {
       ]
     },
     {
-      "event": "三星公布zHBM与400层键合NAND路线，AI存储竞争由供需紧张延伸至架构升级",
+      "event": "兆易创新与太极实业同步走强，三星AI存储路线获得板块级价格确认",
       "industry": "semi",
       "industry_name": "HBM / NAND / AI存储",
       "direction": "mixed",
-      "strength": 4,
+      "strength": 5,
       "horizon": "1-3m",
-      "priced_in": "unknown",
-      "reason": "三星在FMS 2026展示zHBM逻辑堆叠概念、zNAND-O及400层以上键合NAND，AI存储竞争继续向高带宽、低延迟和3D架构升级。8月5日约09:59兆易创新上涨5.99%，与韩股芯片链反弹形成局部价格确认；但这仍是早盘单点，量产时间、资本开支、国内产业链份额及德明利、太极实业的同步性尚未确认。",
+      "priced_in": "medium",
+      "reason": "三星在FMS 2026展示zHBM逻辑堆叠概念、zNAND-O及400层以上键合NAND，AI存储竞争继续向高带宽、低延迟和3D架构升级。8月5日截至10:59兆易创新约涨5.4%，截至10:36太极实业约涨4.2%，价格确认已由单一标的扩展到存储与封测映射；但德明利行情尚未获得可靠同步数据，量产时间与国内份额仍待确认。",
       "assets": [
         "603986",
         "001309",
         "600667"
       ],
       "validation": [
-        "兆易创新守住早盘主要涨幅，德明利、太极实业同步转强并出现板块扩散",
+        "兆易创新与太极实业午后守住大部分涨幅，德明利同步转强，形成三标的扩散",
         "三星披露明确量产时间、客户验证或资本开支安排，相关存储价格与订单同步改善"
       ],
       "invalidation": [
-        "兆易创新回吐早盘涨幅，德明利、太极实业继续走弱",
+        "兆易创新或太极实业午后回吐主要涨幅，板块扩散中断",
         "路线长期停留在概念阶段，量产或客户导入明显延迟"
       ],
       "urls": [
         "https://www.digitimes.com/news/a20260805VL200/samsung-2026-nand-dram-3d.html",
         "https://semiwiki.com/ip/rambus/370722-how-socamm2-could-reshape-server-memory-for-ai",
         "https://www.digitimes.com/news/a20260804PR201/sk-hynix-technology-flash-ai-inference-bandwidth.html",
-        "https://www.google.com/finance/quote/603986:SHA?hl=zh"
+        "https://www.google.com/finance/quote/603986:SHA?hl=zh",
+        "https://www.google.com/finance/quote/600667:SHA?hl=zh"
       ]
     },
     {
