@@ -1,6 +1,6 @@
 // 由 ChatGPT 网页版生成；新闻抓取工作流不会覆盖本文件。
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-05 12:59",
+  "generated_at": "2026-08-05 14:05",
   "source_generated_at": "2026-08-05 11:37",
   "generated_by": "ChatGPT Web",
   "status": "ready",
@@ -130,7 +130,7 @@ window.AI_SIGNALS = {
       "market": "美股",
       "flag": "🇺🇸",
       "session": "8月4日收盘及盘后",
-      "updated_at": "2026-08-05 12:59 CST",
+      "updated_at": "2026-08-05 14:05 CST",
       "status": "mixed",
       "status_label": "美股指数大涨，但AMD盘后回落与中国光模块限制草案令AI链分化",
       "move": "道指 +1.71%｜标普500 +1.79%｜纳指 +2.59%｜费城半导体 +6.6%｜AMD盘后约 -9%",
@@ -141,7 +141,7 @@ window.AI_SIGNALS = {
         "AI服务器",
         "存储芯片"
       ],
-      "validation": "12:48行情确认A股内部继续分化：中际旭创跌7.64%，东山精密涨4.15%；CPO政策风险与PCB需求景气需独立判断。",
+      "validation": "截至13:48，中际旭创跌幅收窄至约5.15%且一度升至983.17元，东山精密截至13:35涨约6.62%；CPO出现技术性修复，但与PCB的强弱分化仍明显。",
       "sources": [
         "https://www.reuters.com/business/nasdaq-futures-underpinned-by-strong-ai-forecasts-focus-earnings-data-2026-08-04/",
         "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-05/",
@@ -155,7 +155,7 @@ window.AI_SIGNALS = {
       "market": "日股",
       "flag": "🇯🇵",
       "session": "8月5日早盘",
-      "updated_at": "2026-08-05 12:59 CST",
+      "updated_at": "2026-08-05 14:05 CST",
       "status": "pending",
       "status_label": "电子股带动强势反弹，精确开盘仍待双源复核",
       "move": "路透午前观测：日经225约 +3.0%",
@@ -166,7 +166,7 @@ window.AI_SIGNALS = {
         "消费电子",
         "AI硬件"
       ],
-      "validation": "日经强势方向维持；12:48 A股映射为PCB、存储和被动元件走强，CPO受政策草案冲击。",
+      "validation": "日经强势方向维持；A股午后表现为PCB、存储继续强化，CPO从早盘低位修复但仍下跌。",
       "sources": [
         "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-05/",
         "https://indexes.nikkei.co.jp/en/nkave/index/profile"
@@ -176,7 +176,7 @@ window.AI_SIGNALS = {
       "market": "韩股",
       "flag": "🇰🇷",
       "session": "8月5日早盘",
-      "updated_at": "2026-08-05 12:59 CST",
+      "updated_at": "2026-08-05 14:05 CST",
       "status": "pending",
       "status_label": "芯片链推动强势反弹，精确开盘仍待双源复核",
       "move": "路透午前观测：KOSPI约 +4.1%",
@@ -187,7 +187,7 @@ window.AI_SIGNALS = {
         "NAND",
         "封测"
       ],
-      "validation": "韩国芯片反弹已获A股存储链三标的确认：兆易创新+7.04%、德明利+5.71%、太极实业+7.64%；午后重点观察涨幅保持。",
+      "validation": "韩国芯片反弹继续获得A股存储确认：兆易创新截至13:33涨约9.34%，太极实业截至13:55涨约10.03%，德明利午间涨5.71%。",
       "sources": [
         "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-05/",
         "https://global.krx.co.kr/main/main.jsp"
@@ -196,24 +196,24 @@ window.AI_SIGNALS = {
   ],
   "signals": [
     {
-      "event": "美国拟限制中国新型号光模块，CPO风险从估值分化升级为政策草案冲击",
+      "event": "美国光模块限制草案风险未解除，中际旭创午后收复早盘高点但仍明显下跌",
       "industry": "ai",
       "industry_name": "CPO / 光模块 / AI数据中心",
       "direction": "negative",
       "strength": 5,
       "horizon": "1-4w",
       "priced_in": "medium",
-      "reason": "路透8月4日援引四名知情人士称，FCC正起草禁止进口中国新型号光模块的方案，并希望年内公布实施；方案尚未最终确定，仍可能修改或搁置。中际旭创回应称FCC尚未出台正式限制文件。12:48行情显示中际旭创跌7.64%，较880元早盘低点修复，但政策不确定性已成为独立于AI需求的风险变量。",
+      "reason": "路透称FCC正起草禁止进口中国新型号光模块的方案，但尚未最终确定；中际旭创称尚无正式限制文件。公司A股从12:48的-7.64%修复至13:48约-5.15%，并一度升至983.17元，已收复960元附近早盘高点，说明恐慌定价有所缓和；但在正式适用范围、豁免与海外产能安排明确前，政策风险仍未解除。",
       "assets": [
         "300308"
       ],
       "validation": [
-        "FCC公布正式文本后明确适用范围、既有型号与海外产能豁免安排，实际影响低于市场预期",
-        "中际旭创午后收复960元附近早盘高点，且新易盛、天孚通信同步明显收窄跌幅"
+        "中际旭创继续守住960元上方并进一步收窄跌幅，新易盛、天孚通信同步修复",
+        "FCC正式文本明确适用范围、既有型号与海外产能豁免安排，实际影响低于市场预期"
       ],
       "invalidation": [
-        "FCC正式文件覆盖中国品牌新型号且缺少可行豁免，主要美国客户采购受限",
-        "中际旭创跌破880元早盘低点，CPO板块跌幅再次扩大"
+        "中际旭创重新跌破960元并逼近880元早盘低点，CPO板块跌幅再次扩大",
+        "FCC正式文件覆盖中国品牌新型号且缺少可行豁免，主要美国客户采购受限"
       ],
       "urls": [
         "https://www.reuters.com/world/trump-administration-drafting-ban-chinese-data-center-devices-sources-say-2026-08-04/",
@@ -223,23 +223,23 @@ window.AI_SIGNALS = {
       ]
     },
     {
-      "event": "东山精密午间维持强势，PCB需求景气与成本、周期风险同时被市场定价",
+      "event": "东山精密午后涨幅扩大，PCB相对CPO的强势进一步确认",
       "industry": "components",
       "industry_name": "AI服务器 / PCB",
       "direction": "mixed",
-      "strength": 4,
+      "strength": 5,
       "horizon": "1-4w",
       "priced_in": "high",
-      "reason": "12:48行情显示东山精密涨4.15%，与中际旭创跌7.64%形成明显背离，资金正把PCB需求景气与光模块政策风险分开定价。行业分析称AI服务器高端PCB需求强，但电子布等上游材料涨价、扩产与高估值使盈利弹性并非单向，午后仍需订单、毛利率与板块扩散验证。",
+      "reason": "截至13:35东山精密涨约6.62%，较12:48的4.15%继续扩大，并与中际旭创约跌5.15%形成显著背离。价格已确认资金把PCB需求景气与光模块政策风险分开定价；但上游电子布涨价、扩产与高估值仍可能压缩盈利弹性，需后续订单和毛利率验证。",
       "assets": [
         "002384"
       ],
       "validation": [
-        "东山精密午后守住大部分涨幅，PCB板块继续扩散且成交结构健康",
+        "东山精密收盘保留大部分涨幅，PCB板块继续扩散且成交结构健康",
         "公司或供应链披露AI服务器PCB订单、价格与毛利率同步改善"
       ],
       "invalidation": [
-        "东山精密跌回昨收以下，板块扩散中断",
+        "东山精密尾盘大幅回吐并跌回昨收附近，板块扩散中断",
         "上游材料涨价快于PCB提价，或新增产能导致供需转弱"
       ],
       "urls": [
@@ -248,25 +248,25 @@ window.AI_SIGNALS = {
       ]
     },
     {
-      "event": "兆易创新、德明利与太极实业同步上涨，AI存储路线形成三标的价格确认",
+      "event": "兆易创新逼近10%涨幅、太极实业触及涨停，AI存储三标的确认继续强化",
       "industry": "semi",
       "industry_name": "HBM / NAND / AI存储",
       "direction": "mixed",
       "strength": 5,
       "horizon": "1-3m",
       "priced_in": "medium",
-      "reason": "三星在FMS 2026展示zHBM、zNAND-O及400层以上键合NAND，AI存储竞争继续向高带宽、低延迟和3D架构升级。12:48行情显示兆易创新+7.04%、德明利+5.71%、太极实业+7.64%，此前缺失的德明利同步性已补齐，形成存储设计、模组与封测映射的三标的扩散；量产时间与国内份额仍待产业信息确认。",
+      "reason": "三星在FMS 2026展示zHBM、zNAND-O及400层以上键合NAND，AI存储竞争继续向高带宽、低延迟和3D架构升级。截至13:33兆易创新涨约9.34%，截至13:55太极实业涨约10.03%，德明利午间涨5.71%，三标的扩散继续强化；量产时间、国内份额和单日快速上涨后的定价拥挤仍需后续验证。",
       "assets": [
         "603986",
         "001309",
         "600667"
       ],
       "validation": [
-        "三只标的午后守住大部分涨幅，存储板块成交与上涨家数继续扩散",
+        "兆易创新与太极实业收盘守住主要涨幅，德明利维持同步强势",
         "三星披露明确量产时间、客户验证或资本开支安排，存储价格与订单同步改善"
       ],
       "invalidation": [
-        "三只标的中两只以上午后大幅回吐，板块扩散中断",
+        "兆易创新或太极实业尾盘显著开板回落，德明利同步转弱",
         "路线长期停留在概念阶段，量产或客户导入明显延迟"
       ],
       "urls": [
