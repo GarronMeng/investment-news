@@ -1,5 +1,5 @@
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-05 15:06",
+  "generated_at": "2026-08-05 16:00",
   "source_generated_at": "2026-08-05 14:14",
   "generated_by": "ChatGPT Web",
   "status": "ready",
@@ -171,7 +171,7 @@ window.AI_SIGNALS = {
       "market": "美股",
       "flag": "🇺🇸",
       "session": "8月4日收盘及盘后",
-      "updated_at": "2026-08-05 15:06 CST",
+      "updated_at": "2026-08-05 16:00 CST",
       "status": "mixed",
       "status_label": "美股指数与费城半导体大涨，但AMD盘后回落及光模块限制草案令AI链分化",
       "move": "道指 +1.71%｜标普500 +1.79%｜纳指 +2.59%｜费城半导体 +6.6%｜AMD盘后约 -9%",
@@ -182,7 +182,7 @@ window.AI_SIGNALS = {
         "AI服务器",
         "存储芯片"
       ],
-      "validation": "A股临近收盘继续呈现CPO弱、PCB与存储强：中际旭创14:48跌6.80%，东山精密14:38涨5.20%，兆易创新14:30涨7.25%。",
+      "validation": "A股收盘确认CPO与其余AI硬件分化：中际旭创跌7.27%，东山精密涨5.44%，兆易创新涨8.26%。",
       "sources": [
         "https://www.reuters.com/business/nasdaq-futures-underpinned-by-strong-ai-forecasts-focus-earnings-data-2026-08-04/",
         "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-05/",
@@ -192,41 +192,41 @@ window.AI_SIGNALS = {
     {
       "market": "日股",
       "flag": "🇯🇵",
-      "session": "8月5日盘中（接近收盘）",
-      "updated_at": "2026-08-05 15:06 CST",
+      "session": "8月5日收盘待正式复核",
+      "updated_at": "2026-08-05 16:00 CST",
       "status": "pending",
-      "status_label": "电子股带动强势反弹，但正式收盘与双源同刻复核待完成",
-      "move": "前收63,957.53｜开盘64,565.27（跳空+0.95%）｜Google 15:13 JST报66,217.14（+3.53%）；路透较早观测约+3.5%",
-      "driver": "隔夜费城半导体大涨、AI投资预期和企业盈利推动日本电子权重反弹；两来源观测时点不同，不能视为同刻交叉验证。",
+      "status_label": "电子股强势反弹，但公开报价页面内部存在收盘值冲突",
+      "move": "前收63,957.53｜开盘64,565.27（跳空+0.95%）｜Google主报价15:13 JST为66,217.14（+3.53%），关联报价显示66,300.44（+3.66%）",
+      "driver": "隔夜费城半导体大涨、AI投资预期和企业盈利推动日本电子权重反弹；公开报价出现两个不同的尾盘数值，未达到双源一致标准。",
       "a_share_links": [
         "半导体设备",
         "被动元件",
         "消费电子",
         "AI硬件"
       ],
-      "validation": "开盘跳空和盘中强势已得到报价支持；正式收盘点位及涨幅仍待日经官方数据更新后确认。",
+      "validation": "强势方向已确认；待日经官方历史数据发布8月5日收盘值后消除报价冲突。",
       "sources": [
         "https://www.google.com/finance/quote/NI225:INDEXNIKKEI?hl=en",
         "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-05/",
-        "https://indexes.nikkei.co.jp/en/nkave/index/profile"
+        "https://indexes.nikkei.co.jp/en/nkave/archives/data"
       ]
     },
     {
       "market": "韩股",
       "flag": "🇰🇷",
-      "session": "8月5日盘中（接近收盘）",
-      "updated_at": "2026-08-05 15:06 CST",
+      "session": "8月5日收盘待正式复核",
+      "updated_at": "2026-08-05 16:00 CST",
       "status": "pending",
-      "status_label": "存储权重推动强势反弹，但正式收盘与双源同刻复核待完成",
-      "move": "前收6,358.95｜开盘6,603.48（跳空+3.85%）｜Google 15:06 KST报6,648.80（+4.56%）；路透较早观测约+4.3%",
-      "driver": "费城半导体大涨与AI存储预期推动三星电子、SK海力士等权重修复；两来源观测时点不同，不能视为同刻交叉验证。",
+      "status_label": "存储权重推动强势反弹，但公开报价页面内部存在收盘值冲突",
+      "move": "前收6,358.95｜开盘6,603.48（跳空+3.85%）｜Google主报价15:06 KST为6,648.80（+4.56%），关联报价显示6,598.26（+3.76%）",
+      "driver": "费城半导体大涨与AI存储预期推动三星电子、SK海力士等权重修复；公开报价出现两个不同的尾盘数值，未达到双源一致标准。",
       "a_share_links": [
         "HBM",
         "DRAM",
         "NAND",
         "封测"
       ],
-      "validation": "开盘跳空和盘中强势已得到报价支持，A股存储三标的同步上涨；正式收盘仍待KRX数据更新确认。",
+      "validation": "强势方向及高开已确认，A股存储三标的同步上涨；待KRX正式收盘数据消除报价冲突。",
       "sources": [
         "https://www.google.com/finance/quote/KOSPI:KRX?hl=en",
         "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-05/",
@@ -236,14 +236,14 @@ window.AI_SIGNALS = {
   ],
   "signals": [
     {
-      "event": "中际旭创冲高回落未守住960元，CPO政策风险下的反转尚未确认",
+      "event": "中际旭创收盘跌7.27%且未守住960元，CPO政策风险下的反转未确认",
       "industry": "ai",
       "industry_name": "CPO / 光模块 / AI数据中心",
       "direction": "negative",
       "strength": 5,
       "horizon": "1-4w",
       "priced_in": "medium",
-      "reason": "FCC限制中国新型号光模块的方案仍未定稿，中际旭创称尚无正式文件。公司从880元低点反弹至983.17元后再度回落，14:48报952.50元、跌6.80%，未能持续站稳960元；说明恐慌有所修复，但政策影响与价格趋势均未完成反转确认。",
+      "reason": "FCC限制中国新型号光模块的方案仍未定稿，中际旭创称尚无正式文件。最新收盘快照为947.74元、跌7.27%，盘中从880元反弹至983.17元后回落，最终未守住960元；恐慌低点有所修复，但政策影响和价格趋势均未完成反转确认。",
       "assets": [
         "300308"
       ],
@@ -262,14 +262,14 @@ window.AI_SIGNALS = {
       ]
     },
     {
-      "event": "东山精密保留大部分涨幅，PCB相对CPO的强势得到确认但仍有冲高回落",
+      "event": "东山精密收涨5.44%，PCB相对CPO的强势得到收盘确认",
       "industry": "components",
       "industry_name": "AI服务器 / PCB",
       "direction": "mixed",
       "strength": 5,
       "horizon": "1-4w",
       "priced_in": "high",
-      "reason": "东山精密14:38报188.40元、涨5.20%，虽从193.88元高点回落，仍与中际旭创跌6.80%形成显著背离。价格确认资金把PCB景气与光模块政策风险分开定价，但上游材料涨价、扩产和高估值仍需订单及毛利率验证。",
+      "reason": "东山精密收盘快照188.83元、涨5.44%，虽低于193.88元日内高点，仍保留大部分涨幅，并与中际旭创跌7.27%形成显著背离。价格确认资金把PCB景气与光模块政策风险分开定价，但上游材料涨价、扩产和高估值仍需订单及毛利率验证。",
       "assets": [
         "002384"
       ],
@@ -287,14 +287,14 @@ window.AI_SIGNALS = {
       ]
     },
     {
-      "event": "存储三标的同步上涨，但兆易创新和太极实业从日内高点回落，趋势反转仍需跨日确认",
+      "event": "存储三标的收盘同步上涨6%至8%，板块修复成立但趋势反转仍需跨日确认",
       "industry": "semi",
       "industry_name": "HBM / NAND / AI存储",
       "direction": "mixed",
       "strength": 5,
       "horizon": "1-3m",
       "priced_in": "high",
-      "reason": "三星在FMS 2026展示zHBM、zNAND-O及400层以上键合NAND，AI存储继续向高带宽和3D架构升级。兆易创新14:30涨7.25%，从390.12元回落至381.83元；太极实业触及18.87元后14:29回落至18.49元、涨7.81%；德明利14:04仍涨5.98%。板块扩散成立，但单日快速反弹尚不足以确认趋势反转。",
+      "reason": "三星在FMS 2026展示zHBM、zNAND-O及400层以上键合NAND，AI存储继续向高带宽和3D架构升级。收盘快照显示兆易创新涨8.26%、德明利涨6.06%、太极实业涨7.58%；三标的扩散成立，但均从日内高点不同程度回落，单日反弹尚不足以确认趋势反转。",
       "assets": [
         "603986",
         "001309",
@@ -315,14 +315,14 @@ window.AI_SIGNALS = {
       ]
     },
     {
-      "event": "风华高科涨幅扩大，MLCC景气获得价格确认但渠道涨价仍未落地核验",
+      "event": "风华高科收涨6.39%，MLCC景气获得收盘定价但渠道涨价仍待核验",
       "industry": "components",
       "industry_name": "被动元件 / MLCC",
       "direction": "mixed",
       "strength": 5,
       "horizon": "1-4w",
       "priced_in": "high",
-      "reason": "14:04行情显示风华高科上涨8.41%，日内高点59.76元，市场已明显交易AI服务器MLCC需求和提价预期。但当前尚缺高容值、高可靠MLCC实际成交价、订单与毛利率的独立渠道证据，单日上涨不能代替基本面确认。",
+      "reason": "风华高科收盘快照57.80元、涨6.39%，虽从59.76元日内高点回落，仍明显确认市场对AI服务器MLCC需求和提价预期的定价。但当前尚缺高容值、高可靠MLCC实际成交价、订单与毛利率的独立渠道证据，单日上涨不能代替基本面确认。",
       "assets": [
         "000636"
       ],
@@ -331,7 +331,7 @@ window.AI_SIGNALS = {
         "渠道确认高容值、高可靠MLCC成交价与订单同步上升"
       ],
       "invalidation": [
-        "股价跌回54.33元昨收附近且板块联动消失",
+        "跌回54.33元昨收附近且板块联动消失",
         "通用规格新增供给导致价格回落，或下游抵制涨价并削减订单"
       ],
       "urls": [
@@ -340,14 +340,14 @@ window.AI_SIGNALS = {
       ]
     },
     {
-      "event": "白银LOF涨幅进一步扩大，外盘贵金属反弹已映射但场内溢价风险上升",
+      "event": "白银LOF收涨7.53%并显著跑赢黄金ETF，场内溢价风险进一步上升",
       "industry": "macro",
       "industry_name": "贵金属 / 利率 / 地缘政治",
       "direction": "mixed",
       "strength": 5,
       "horizon": "1-5d",
       "priced_in": "unknown",
-      "reason": "油价回落降低通胀与加息预期，COMEX金银反弹。14:04行情显示国投白银LOF上涨6.64%，黄金ETF华安上涨2.51%，国内价格映射明确；但白银LOF相对黄金的超额涨幅可能包含场内溢价扩大，净值、溢价率和基金公告未核验前不能等同于银价趋势确认。",
+      "reason": "油价回落降低通胀与加息预期，COMEX金银反弹。收盘快照显示国投白银LOF上涨7.53%，黄金ETF华安上涨2.76%，国内价格映射明确；白银LOF大幅跑赢黄金的部分可能来自场内溢价扩大，净值、溢价率和基金公告未核验前不能等同于银价趋势确认。",
       "assets": [
         "161226",
         "518880"
