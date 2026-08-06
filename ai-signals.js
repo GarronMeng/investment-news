@@ -1,6 +1,6 @@
 // 自动生成，请勿手工编辑。
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-06 12:03",
+  "generated_at": "2026-08-06 13:03",
   "source_generated_at": "2026-08-06 11:42",
   "generated_by": "ChatGPT Web",
   "status": "ready",
@@ -148,7 +148,7 @@ window.AI_SIGNALS = {
       "market": "美股",
       "flag": "🇺🇸",
       "session": "8月5日收盘",
-      "updated_at": "2026-08-06 12:03 CST",
+      "updated_at": "2026-08-06 13:03 CST",
       "status": "mixed",
       "status_label": "道指创新高但科技与半导体回落，A股上午反弹后明显收窄",
       "move": "道指 +0.49%｜标普500 -0.17%｜纳指 -0.83%｜费城半导体 -1.40%",
@@ -159,7 +159,7 @@ window.AI_SIGNALS = {
         "NAND",
         "贵金属"
       ],
-      "validation": "11:30前后兆易创新约-0.64%、中际旭创约+1.40%、东山精密约-0.41%；午后需验证翻红标的能否守住且板块能否再次扩散。",
+      "validation": "午后开盘前可核验行情为兆易创新-0.64%、中际旭创+1.40%、东山精密-0.41%；仓库market.json的科技股涨跌幅使用了错误前收，未纳入判断。",
       "sources": [
         "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-05/",
         "https://www.reuters.com/business/sandisk-forecasts-upbeat-quarterly-revenue-ai-driven-demand-2026-08-05/",
@@ -170,7 +170,7 @@ window.AI_SIGNALS = {
       "market": "日股",
       "flag": "🇯🇵",
       "session": "8月6日上午",
-      "updated_at": "2026-08-06 12:03 CST",
+      "updated_at": "2026-08-06 13:03 CST",
       "status": "pending",
       "status_label": "AI硬件急涨后回吐，电子与存储股领跌；精确开盘仍待双源确认",
       "move": "前收66,300.44｜11:13 JST报65,163.39（-1.71%）｜10:54 JST另一延时报价64,951.65（-2.03%）",
@@ -192,7 +192,7 @@ window.AI_SIGNALS = {
       "market": "韩股",
       "flag": "🇰🇷",
       "session": "8月6日上午",
-      "updated_at": "2026-08-06 12:03 CST",
+      "updated_at": "2026-08-06 13:03 CST",
       "status": "pending",
       "status_label": "三星电子与SK海力士回落，存储风险偏好弱于A股盘中修复",
       "move": "前收6,598.26｜路透观测KOSPI约-3.64%｜另一延时报价约6,349.21（-3.77%）",
@@ -212,14 +212,14 @@ window.AI_SIGNALS = {
   ],
   "signals": [
     {
-      "event": "闪迪确认AI存储需求，但A股存储链上午反弹后回吐，持续性仍不足",
+      "event": "闪迪确认AI存储需求，但存储链上午反弹后回吐，行情文件涨跌幅口径亦出现异常",
       "industry": "semi",
       "industry_name": "NAND / 企业级SSD / AI存储",
       "direction": "mixed",
       "strength": 5,
       "horizon": "1-3m",
       "priced_in": "high",
-      "reason": "闪迪数据中心收入环比翻倍并新增长期合作协议，确认AI拉动企业级SSD与闪存需求。兆易创新从早盘-4.38%升至盘中+1.93%，午间前又回落至-0.64%；日韩存储权重股同步大跌，且德明利、太极实业缺少同一时点可靠报价。当前确认的是低位承接和高波动，尚未形成全链持续反转。",
+      "reason": "闪迪数据中心收入环比翻倍并新增长期合作协议，确认AI存储需求。兆易创新午间价格382.98元相对8月5日收盘385.44元实际为-0.64%；market.json却因错误前收340.74元计算为+12.40%，该涨跌幅已排除。结合上午冲高回落与日韩存储股走弱，目前仅确认高波动承接，尚未形成全链反转。",
       "assets": [
         "603986",
         "001309",
@@ -227,7 +227,7 @@ window.AI_SIGNALS = {
       ],
       "validation": [
         "兆易创新、德明利、太极实业至少两只午后重新同步走强并在未来两个交易日守住关键回踩位",
-        "NAND价格、企业级SSD订单或国内供应链份额出现独立验证"
+        "行情数据源修复前收口径，并由第二来源验证实际涨跌幅"
       ],
       "invalidation": [
         "午后多数标的继续回吐并收于早盘回升区间下方",
@@ -236,7 +236,7 @@ window.AI_SIGNALS = {
       "urls": [
         "https://www.reuters.com/business/sandisk-forecasts-upbeat-quarterly-revenue-ai-driven-demand-2026-08-05/",
         "https://www.google.com/finance/quote/603986:SHA?hl=zh",
-        "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-06/"
+        "https://cn.investing.com/equities/gigadevice-semiconductor-beijing"
       ]
     },
     {
@@ -247,7 +247,7 @@ window.AI_SIGNALS = {
       "strength": 5,
       "horizon": "1-4w",
       "priced_in": "medium",
-      "reason": "美国限制方案仍处起草阶段，尚无最终正式文本。中际旭创从早盘低点882.55元反弹至995元，午间前回落至961.04元、涨1.40%；东山精密盘中上涨后回落至-0.41%。东方财富午间新闻确认CPO概念活跃，但板块未能完整守住高位，属于冲击后的日内承接，尚非已确认趋势反转。",
+      "reason": "美国限制方案仍处起草阶段。中际旭创从早盘低点882.55元反弹至995元，午间前回落至961.04元、实际涨1.40%；market.json因使用902.50元错误前收计算为+6.49%，未纳入判断。东山精密午间前实际跌0.41%。日内承接明显，但持续性和板块扩散仍不足。",
       "assets": [
         "300308",
         "002384"
@@ -267,30 +267,30 @@ window.AI_SIGNALS = {
       ]
     },
     {
-      "event": "国内贵金属板块午间前领涨，隔夜金价重定价开始获得A股方向性映射",
+      "event": "黄金ETF上涨而白银LOF复牌后走弱，贵金属内部出现明显分化",
       "industry": "macro",
-      "industry_name": "贵金属 / 利率 / 地缘政治",
-      "direction": "positive",
+      "industry_name": "贵金属 / 黄金ETF / 白银LOF溢价",
+      "direction": "mixed",
       "strength": 5,
-      "horizon": "1-5d",
-      "priced_in": "unknown",
-      "reason": "弱就业、收益率回落与地缘风险推动现货黄金隔夜大涨，11:42新闻批次显示A股贵金属板块领涨，方向性映射较上一轮增强。但market.json仍停留在8月5日收盘，无法核验黄金ETF与白银LOF的午间价格；白银LOF还需将银价、基金净值和场内溢价分开判断。",
+      "horizon": "intraday",
+      "priced_in": "medium",
+      "reason": "12:48行情显示黄金ETF华安8.824元、较前收上涨2.13%，确认隔夜金价向国内传导；国投白银LOF开市停牌并于10:30复牌，12:35报2.035元、较前收下跌0.34%。黄金与白银场内表现背离，白银还受净值、溢价与交易安排影响，不能将金价上涨直接外推为白银LOF同步走强。",
       "assets": [
         "518880",
         "161226"
       ],
       "validation": [
-        "黄金ETF与国内金价、人民币汇率方向一致，且午后守住涨幅并有成交确认",
-        "核验国投白银LOF最新净值、场内价格、溢价率及是否新增交易限制"
+        "黄金ETF午后守住涨幅且与人民币金价方向一致",
+        "核验白银LOF最新基金净值、场内溢价率及复牌后成交稳定性"
       ],
       "invalidation": [
-        "美国利率预期反向上升，金银快速回吐隔夜涨幅且A股贵金属板块转弱",
-        "白银LOF溢价扩大或触发临时停牌、申购限制"
+        "黄金ETF午后快速回吐且国内金价同步转弱",
+        "白银LOF溢价扩大或再次触发临时停牌、交易限制"
       ],
       "urls": [
-        "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-06/",
+        "https://finance.sina.com.cn/roll/2026-08-05/doc-inimhiei4593014.shtml",
         "http://finance.eastmoney.com/news/1345,202608063833689720.html",
-        "https://wallstreetcn.com/articles/3778799"
+        "https://www.huaan.com.cn/funds/518880/index.shtml"
       ]
     }
   ]
