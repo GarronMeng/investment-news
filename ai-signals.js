@@ -1,6 +1,6 @@
 // 自动生成，请勿手工编辑。
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-06 09:14",
+  "generated_at": "2026-08-06 10:06",
   "source_generated_at": "2026-08-06 08:52",
   "generated_by": "ChatGPT Web",
   "status": "ready",
@@ -110,30 +110,31 @@ window.AI_SIGNALS = {
       "market": "美股",
       "flag": "🇺🇸",
       "session": "8月5日收盘",
-      "updated_at": "2026-08-06 09:14 CST",
+      "updated_at": "2026-08-06 10:06 CST",
       "status": "mixed",
-      "status_label": "道指创新高，纳指与费城半导体回落，科技内部重新分化",
-      "move": "道指 +0.49%｜标普500 -0.17%｜纳指 -0.83%｜费城半导体 -1.4%",
-      "driver": "SpaceX与AMD回落拖累科技，油价和美债收益率下降则缓和利率压力；闪迪盘后财报确认AI存储需求，但股价盘后下跌反映高预期。",
+      "status_label": "道指创新高但科技与半导体回落，AI链分化传导至A股",
+      "move": "道指 +0.49%｜标普500 -0.17%｜纳指 -0.83%｜费城半导体 -1.40%",
+      "driver": "SpaceX与AMD回落拖累科技，闪迪财报确认AI存储需求但盘后走弱，显示订单改善与高预期并存。",
       "a_share_links": [
         "CPO",
         "AI服务器",
         "NAND",
         "贵金属"
       ],
-      "validation": "A股需验证存储基本面利好能否与CPO政策风险分化，避免将海外财报直接等同于国内股价上涨。",
+      "validation": "A股10:00前后显示兆易创新约-4.38%、中际旭创约-2.72%，太极实业约+1.14%、东山精密约-0.61%；海外利好尚未形成一致反转。",
       "sources": [
         "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-05/",
-        "https://www.reuters.com/business/sandisk-forecasts-upbeat-quarterly-revenue-ai-driven-demand-2026-08-05/"
+        "https://www.reuters.com/business/sandisk-forecasts-upbeat-quarterly-revenue-ai-driven-demand-2026-08-05/",
+        "https://www.google.com/finance/quote/603986:SHA?hl=zh"
       ]
     },
     {
       "market": "日股",
       "flag": "🇯🇵",
       "session": "8月6日早盘",
-      "updated_at": "2026-08-06 09:14 CST",
+      "updated_at": "2026-08-06 10:06 CST",
       "status": "pending",
-      "status_label": "昨日急涨后回落，电子股领跌；精确开盘缺少第二独立来源",
+      "status_label": "昨日急涨后继续回落，电子股领跌；精确开盘仍缺少第二独立来源",
       "move": "前收66,300.44｜开盘65,896.00（跳空-0.61%）｜09:22 JST报65,317.08（-1.48%）",
       "driver": "昨日AI硬件急涨后获利回吐，东京电子与村田制作所领跌；中东局势和企业财报仍是变量。",
       "a_share_links": [
@@ -152,9 +153,9 @@ window.AI_SIGNALS = {
       "market": "韩股",
       "flag": "🇰🇷",
       "session": "8月6日早盘",
-      "updated_at": "2026-08-06 09:14 CST",
+      "updated_at": "2026-08-06 10:06 CST",
       "status": "pending",
-      "status_label": "存储权重回吐昨日涨幅；精确开盘缺少第二独立来源",
+      "status_label": "存储权重回吐昨日涨幅；精确开盘仍缺少第二独立来源",
       "move": "前收6,598.26｜开盘6,478.75（跳空-1.81%）｜09:42 KST报6,409.54（-2.86%）",
       "driver": "昨日半导体权重强势反弹后出现兑现，闪迪财报的需求利好尚未抵消高波动与估值压力。",
       "a_share_links": [
@@ -171,30 +172,58 @@ window.AI_SIGNALS = {
   ],
   "signals": [
     {
-      "event": "闪迪数据中心收入环比翻倍，AI存储需求从技术预期进入订单与收入验证",
+      "event": "闪迪数据中心收入环比翻倍，但A股存储链开盘分化，反转尚未形成一致确认",
       "industry": "semi",
       "industry_name": "NAND / 企业级SSD / AI存储",
       "direction": "mixed",
       "strength": 5,
       "horizon": "1-3m",
       "priced_in": "high",
-      "reason": "闪迪第四财季收入89.7亿美元、调整后每股收益39.25美元，均高于预期；数据中心收入环比翻倍至29.8亿美元，并新增5份长期合作协议，确认生成式AI正在拉动企业级SSD和闪存需求。但公司股价盘后下跌逾3%，且A股存储链昨日已大涨，说明基本面利好与高预期、高估值同时存在。",
+      "reason": "闪迪数据中心收入环比翻倍至29.8亿美元并新增长期合作协议，确认生成式AI拉动企业级SSD与闪存需求；但闪迪盘后走弱，A股10:00前后兆易创新约跌4.38%，太极实业约涨1.14%，说明基本面改善尚未转化为全链价格确认，昨日普涨更接近高波动修复而非已确认趋势反转。",
       "assets": [
         "603986",
         "001309",
         "600667"
       ],
       "validation": [
-        "兆易创新、德明利、太极实业至少两只在回踩后守住昨日主要涨幅，且存储板块成交不快速萎缩",
-        "后续NAND价格、企业级SSD订单或国内供应链份额出现独立验证"
+        "兆易创新、德明利、太极实业至少两只连续两个交易日守住关键回踩位并重新同步走强",
+        "NAND价格、企业级SSD订单或国内供应链份额出现独立验证"
       ],
       "invalidation": [
-        "三只标的重新跌回8月4日收盘附近且板块联动消失",
-        "闪迪后续指引下修、AI存储长协未转化为供货或价格改善"
+        "三只标的多数跌回8月4日收盘附近且板块联动继续消失",
+        "闪迪后续指引下修或AI存储长协未转化为供货与价格改善"
       ],
       "urls": [
         "https://www.reuters.com/business/sandisk-forecasts-upbeat-quarterly-revenue-ai-driven-demand-2026-08-05/",
-        "https://wallstreetcn.com/articles/3778792"
+        "https://www.google.com/finance/quote/603986:SHA?hl=zh",
+        "https://www.google.com/finance/quote/600667:SHA?hl=zh"
+      ]
+    },
+    {
+      "event": "美国拟限制中国光模块进口的政策风险继续压制CPO，中际旭创连续走弱",
+      "industry": "tech",
+      "industry_name": "CPO / 高速光模块 / AI服务器",
+      "direction": "negative",
+      "strength": 5,
+      "horizon": "1-4w",
+      "priced_in": "medium",
+      "reason": "相关限制仍处起草与政策博弈阶段，尚无最终正式文本，但中际旭创在8月5日下跌7.27%后，8月6日10:00前后仍约跌2.72%，表明风险溢价尚未消退；东山精密约跌0.61%，PCB相对更强，AI硬件内部继续分化，不能据单只反弹认定CPO趋势反转。",
+      "assets": [
+        "300308",
+        "002384"
+      ],
+      "validation": [
+        "中际旭创至少连续两个交易日收复并站稳政策冲击前关键价位，且CPO板块同步修复",
+        "获得美国监管文本、公司订单影响或客户替代安排的正式确认"
+      ],
+      "invalidation": [
+        "中际旭创继续放量下破8月6日早盘低位且CPO板块同步走弱",
+        "最终限制范围覆盖核心产品并实质影响主要客户交付"
+      ],
+      "urls": [
+        "https://www.reuters.com/world/trump-administration-drafting-ban-chinese-data-center-devices-sources-say-2026-08-04/",
+        "https://www.tmtpost.com/8092739.html",
+        "https://www.google.com/finance/quote/300308:SHE?hl=zh"
       ]
     },
     {
@@ -205,22 +234,23 @@ window.AI_SIGNALS = {
       "strength": 5,
       "horizon": "1-5d",
       "priced_in": "unknown",
-      "reason": "美国7月ADP私人就业仅增加4.4万，低于预期；10年期美债收益率回落至约4.615%，9月加息隐含概率降至约55%。现货黄金上涨4.16%至约4,245美元，构成相较上一轮信号的显著加速。黄金ETF具备直接外盘映射；白银LOF仍需把银价、基金净值和场内溢价分开核验。",
+      "reason": "美国7月ADP私人就业仅增加4.4万，10年期美债收益率回落，现货黄金上涨4.16%至约4,245美元，构成显著加速。黄金ETF具备直接外盘映射；白银LOF仍需将银价、基金净值和场内溢价分开核验，当前市场行情文件尚未刷新至8月6日盘中，因此不把隔夜涨幅直接视为A股端已确认。",
       "assets": [
         "518880",
         "161226"
       ],
       "validation": [
-        "黄金ETF华安开盘后与国内金价、人民币汇率方向一致，成交量同步确认",
+        "黄金ETF开盘后与国内金价、人民币汇率方向一致，且成交量同步确认",
         "核验国投白银LOF最新净值、场内价格、溢价率及是否新增交易限制"
       ],
       "invalidation": [
-        "美国就业或通胀数据反向推高加息预期，金银快速回吐隔夜涨幅",
+        "美国就业或通胀数据反向推高利率预期，金银快速回吐隔夜涨幅",
         "白银LOF溢价继续扩大或触发临时停牌、申购限制"
       ],
       "urls": [
         "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-05/",
-        "https://wallstreetcn.com/articles/3778799"
+        "https://wallstreetcn.com/articles/3778799",
+        "http://finance.eastmoney.com/news/11440,202608063833208538.html"
       ]
     }
   ]
