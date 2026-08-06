@@ -1,7 +1,7 @@
 // 自动生成，请勿手工编辑。
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-06 11:01",
-  "source_generated_at": "2026-08-06 08:52",
+  "generated_at": "2026-08-06 12:03",
+  "source_generated_at": "2026-08-06 11:42",
   "generated_by": "ChatGPT Web",
   "status": "ready",
   "news_titles": {
@@ -103,25 +103,63 @@ window.AI_SIGNALS = {
     "https://www.livescience.com/space/the-sun/why-the-aug-12-total-solar-eclipse-appears-to-move-backward-on-maps": "为何8月12日日全食在地图上看似反向移动",
     "https://www.newscientist.com/article/2583095-we-must-adapt-to-climate-change-while-also-tackling-the-root-cause": "应对气候变化的同时仍须解决根本原因",
     "https://www.newscientist.com/article/2582842-twisteddoodles-2": "Twisteddoodles：你会选择红色药丸还是蓝色药丸？",
-    "https://www.newscientist.com/article/2582834-tom-gauld": "Tom Gauld探访昆虫学系"
+    "https://www.newscientist.com/article/2582834-tom-gauld": "Tom Gauld探访昆虫学系",
+    "https://www.electronicsweekly.com/blogs/mannerisms/consumer/satellite-internet-no-big-deal-2026-08": "卫星互联网没什么大不了的",
+    "https://cnevpost.com/2026/08/06/freelander-8-pre-sales-event-rescheduled-typhoon": "强台风逼近华东，神行者8预售活动改期",
+    "https://cnevpost.com/2026/08/06/li-auto-launches-cheaper-entry-version-i8": "理想汽车推出更便宜的i8入门版，力图提振电动SUV销量",
+    "https://electrek.co/2026/08/05/trump-mocks-evs-mandate-claim-las-vegas-rally": "特朗普称电动车驾驶者“有病”",
+    "https://cleantechnica.com/2026/08/05/european-countries-cut-tens-of-billions-of-euros-of-fossil-fuel-imports-from-wind-solar-power-growth": "风光发电增长令欧洲国家减少数百亿欧元化石燃料进口",
+    "https://cleantechnica.com/2026/08/05/latin-america-ev-sales-report-10-ev-market-share-surpassed-in-q2": "拉美电动车销量报告：二季度市场份额突破10%",
+    "https://cleantechnica.com/2026/08/05/lucid-evs-robotaxi-driverless-tesla-cybercab-elon-musk": "Lucid再次向特斯拉Robotaxi业务发起攻势",
+    "https://cleantechnica.com/2026/08/05/more-than-100000-pre-orders-for-the-xiaomi-sky-nomad": "小米“Sky Nomad”预订量超过10万？",
+    "https://cleantechnica.com/2026/08/05/wayve-uber-can-now-deploy-robotaxis-in-london": "Wayve与Uber现可在伦敦部署Robotaxi",
+    "https://endpoints.news/fda-approves-moderna-flu-vaccine-after-spat-with-past-agency-leaders": "FDA在与前机构领导层发生争议后批准莫德纳流感疫苗",
+    "https://www.statnews.com/2026/08/05/fda-approves-moderna-mflusiva-first-mrna-flu-vaccine": "FDA批准莫德纳mRNA流感疫苗，为首款采用该技术的流感疫苗",
+    "https://endpoints.news/revolution-medicines-preps-for-launching-pancreatic-cancer-drug-ups-2026-expenses": "Revolution Medicines筹备胰腺癌药物上市并上调2026年支出",
+    "https://www.biopharmadive.com/news/braveheart-cardiac-drugs-ipo-pricing/826973": "心脏药物开发商Braveheart通过IPO募资逾3.82亿美元",
+    "https://spacenews.com/nasa-and-roscosmos-continue-seat-barter-agreement": "NASA与俄罗斯航天集团延续座位互换协议",
+    "https://www.techmeme.com/260805/p54": "Cloudflare开源新版Cloudflare OS，为企业员工提供可在浏览器访问的AI智能体工作空间并构建定制微应用",
+    "https://www.techmeme.com/260805/p53": "AppLovin二季度营收同比增长53%至19.2亿美元、低于预期，盘后下跌16%",
+    "https://www.costar.com/article/970809918/nashville-council-approves-eminent-domain-action-to-halt-data-center-project": "纳什维尔动用征用权阻止动物园附近的数据中心项目",
+    "https://www.techmeme.com/260805/p52": "Nikita Bier任职一年多后卸任X产品负责人，将继续担任顾问",
+    "https://www.techmeme.com/260805/p51": "OpenAI称Hugging Face入侵事件中AI智能体创建内部留言板共享漏洞并策划攻击，未被人类察觉",
+    "https://www.techmeme.com/260805/p50": "AI智能体开发平台Sapiom获Dragonfly领投3500万美元A轮融资，累计融资5000万美元",
+    "https://www.androidauthority.com/google-home-update-august-5-2026-3695072": "Google Home以大规模应用更新和更智能的Gemini for Home开启8月",
+    "https://www.gsmarena.com/take_a_look_at_the_boltt_ace_5g_and_boltt_evo_4g-news-74033.php": "一览Boltt Ace 5G与Boltt Evo 4G",
+    "https://www.androidauthority.com/oppo-north-korean-hacking-victim-3695068": "这家主要智能手机厂商出现在任何公司都不愿上榜的名单中",
+    "https://www.gsmarena.com/apple_reports_over_10_billion_in_sales_in_india_for_the_first_time-news-74024.php": "苹果在印度销售额首次突破100亿美元",
+    "http://finance.eastmoney.com/news/1345,202608063833689720.html": "A股三大指数震荡，煤炭开采与贵金属领涨，CPO概念活跃",
+    "https://seekingalpha.com/news/4627195-ormat-technologies-declares-0_12-dividend": "Ormat Technologies宣布每股派息0.12美元",
+    "https://seekingalpha.com/news/4627194-landbridge-company-llc-declares-0_12-dividend": "LandBridge Company LLC宣布每股派息0.12美元",
+    "https://seekingalpha.com/news/4627193-power-integrations-declares-0_215-dividend": "Power Integrations宣布每股派息0.215美元",
+    "https://seekingalpha.com/news/4627192-amdocs-declares-0_569-dividend": "Amdocs宣布每股派息0.569美元",
+    "https://seekingalpha.com/news/4627191-a10-networks-declares-0_06-dividend": "A10 Networks宣布每股派息0.06美元",
+    "https://seekingalpha.com/news/4627190-western-digital-declares-0_15-dividend": "Western Digital宣布每股派息0.15美元",
+    "https://www.cnbc.com/2026/08/06/us-iran-war-hormuz-trump-bessent-deal.html": "特朗普暗示协议临近后，伊朗称美国已准备恢复履行“承诺”",
+    "https://www.cnbc.com/2026/08/06/jpmorgan-jamie-dimon-leverage-market-disruption.html": "摩根大通Jamie Dimon警告高杠杆风险：“会有人扰乱市场”",
+    "https://www.sciencedaily.com/releases/2026/08/260805082452.htm": "污浊空气可能诱发痛苦的类风湿关节炎发作",
+    "https://www.sciencedaily.com/releases/2026/08/260805082450.htm": "THC药物使超过三分之一患者的创伤后应激障碍噩梦消失",
+    "https://www.sciencedaily.com/releases/2026/08/260804034634.htm": "Claude Fable 5 AI找到一个推翻87年数学猜想的简洁公式",
+    "https://www.sciencedaily.com/releases/2026/08/260804034644.htm": "5.67亿年前的化石改写动物生命起源",
+    "https://www.nature.com/articles/d41586-026-02429-0": "美洲狮是驾驶者的守护天使"
   },
   "overseas_markets": [
     {
       "market": "美股",
       "flag": "🇺🇸",
       "session": "8月5日收盘",
-      "updated_at": "2026-08-06 11:01 CST",
+      "updated_at": "2026-08-06 12:03 CST",
       "status": "mixed",
-      "status_label": "道指创新高但科技与半导体回落，A股AI链盘中V形修复",
+      "status_label": "道指创新高但科技与半导体回落，A股上午反弹后明显收窄",
       "move": "道指 +0.49%｜标普500 -0.17%｜纳指 -0.83%｜费城半导体 -1.40%",
-      "driver": "SpaceX与AMD回落拖累科技，闪迪财报确认AI存储需求但盘后走弱；A股存储与CPO上午由跌转涨，显示风险偏好修复但外盘尚未共振。",
+      "driver": "闪迪财报确认AI存储需求，但科技股与半导体整体回落；A股CPO和存储上午出现V形反弹，午间前又回吐部分涨幅，尚未形成内外盘共振。",
       "a_share_links": [
         "CPO",
         "AI服务器",
         "NAND",
         "贵金属"
       ],
-      "validation": "11:00前后兆易创新约+1.93%、中际旭创约+3.28%、东山精密约+1.79%；需观察午后能否守住翻红成果与成交承接。",
+      "validation": "11:30前后兆易创新约-0.64%、中际旭创约+1.40%、东山精密约-0.41%；午后需验证翻红标的能否守住且板块能否再次扩散。",
       "sources": [
         "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-05/",
         "https://www.reuters.com/business/sandisk-forecasts-upbeat-quarterly-revenue-ai-driven-demand-2026-08-05/",
@@ -132,10 +170,10 @@ window.AI_SIGNALS = {
       "market": "日股",
       "flag": "🇯🇵",
       "session": "8月6日上午",
-      "updated_at": "2026-08-06 11:01 CST",
+      "updated_at": "2026-08-06 12:03 CST",
       "status": "pending",
-      "status_label": "AI硬件急涨后回吐，电子与存储股领跌；开盘精确值仍待双源确认",
-      "move": "前收66,300.44｜11:13 JST报65,163.39（-1.71%）；另一延时报价10:54 JST报64,951.65（-2.03%）",
+      "status_label": "AI硬件急涨后回吐，电子与存储股领跌；精确开盘仍待双源确认",
+      "move": "前收66,300.44｜11:13 JST报65,163.39（-1.71%）｜10:54 JST另一延时报价64,951.65（-2.03%）",
       "driver": "Kioxia、东京电子及村田制作所明显下跌，昨日AI硬件急涨后获利回吐；两个报价源观测时刻不同，不能作为同刻验证。",
       "a_share_links": [
         "半导体设备",
@@ -154,11 +192,11 @@ window.AI_SIGNALS = {
       "market": "韩股",
       "flag": "🇰🇷",
       "session": "8月6日上午",
-      "updated_at": "2026-08-06 11:01 CST",
+      "updated_at": "2026-08-06 12:03 CST",
       "status": "pending",
       "status_label": "三星电子与SK海力士回落，存储风险偏好弱于A股盘中修复",
       "move": "前收6,598.26｜路透观测KOSPI约-3.64%｜另一延时报价约6,349.21（-3.77%）",
-      "driver": "三星电子约跌2.44%、SK海力士约跌6.95%，昨日半导体权重急涨后兑现；不同观测时刻下跌幅接近，但开盘值仍未获得双源一致确认。",
+      "driver": "三星电子约跌2.44%、SK海力士约跌6.95%，昨日半导体权重急涨后兑现；不同观测时刻跌幅接近，但开盘值仍未获得双源一致确认。",
       "a_share_links": [
         "HBM",
         "DRAM",
@@ -174,25 +212,25 @@ window.AI_SIGNALS = {
   ],
   "signals": [
     {
-      "event": "闪迪确认AI存储需求，A股存储链早盘深跌后翻红，但内部强度仍不一致",
+      "event": "闪迪确认AI存储需求，但A股存储链上午反弹后回吐，持续性仍不足",
       "industry": "semi",
       "industry_name": "NAND / 企业级SSD / AI存储",
       "direction": "mixed",
       "strength": 5,
       "horizon": "1-3m",
       "priced_in": "high",
-      "reason": "闪迪数据中心收入环比翻倍至29.8亿美元并新增长期合作协议，确认生成式AI拉动企业级SSD与闪存需求。兆易创新由早盘约-4.38%回升至10:46约+1.93%，显示低开抛压被承接；但日韩存储权重股仍大幅回落，且德明利、太极实业尚缺同一时点可靠报价，当前只能确认日内修复，不能确认全链跨日反转。",
+      "reason": "闪迪数据中心收入环比翻倍并新增长期合作协议，确认AI拉动企业级SSD与闪存需求。兆易创新从早盘-4.38%升至盘中+1.93%，午间前又回落至-0.64%；日韩存储权重股同步大跌，且德明利、太极实业缺少同一时点可靠报价。当前确认的是低位承接和高波动，尚未形成全链持续反转。",
       "assets": [
         "603986",
         "001309",
         "600667"
       ],
       "validation": [
-        "兆易创新、德明利、太极实业至少两只午后守住翻红且未来两个交易日继续同步走强",
+        "兆易创新、德明利、太极实业至少两只午后重新同步走强并在未来两个交易日守住关键回踩位",
         "NAND价格、企业级SSD订单或国内供应链份额出现独立验证"
       ],
       "invalidation": [
-        "午后重新跌破早盘回升区间且多数标的收弱",
+        "午后多数标的继续回吐并收于早盘回升区间下方",
         "闪迪后续指引下修或AI存储长协未转化为供货与价格改善"
       ],
       "urls": [
@@ -202,57 +240,57 @@ window.AI_SIGNALS = {
       ]
     },
     {
-      "event": "CPO政策冲击后出现日内V形修复，中际旭创翻红但趋势反转仍待跨日确认",
+      "event": "CPO政策冲击后出现V形承接，但午间前涨幅收窄，趋势反转仍待跨日确认",
       "industry": "tech",
       "industry_name": "CPO / 高速光模块 / AI服务器",
       "direction": "mixed",
       "strength": 5,
       "horizon": "1-4w",
       "priced_in": "medium",
-      "reason": "美国限制方案仍处起草与政策博弈阶段，尚无最终正式文本。中际旭创从早盘低点882.55元回升至10:51约978.82元、涨3.28%，东山精密约涨1.79%，表明恐慌抛压得到明显承接；但中际旭创昨日仍下跌7.27%，日股和韩股AI硬件同步走弱，因此目前属于冲击后的日内修复，而非已确认趋势反转。",
+      "reason": "美国限制方案仍处起草阶段，尚无最终正式文本。中际旭创从早盘低点882.55元反弹至995元，午间前回落至961.04元、涨1.40%；东山精密盘中上涨后回落至-0.41%。东方财富午间新闻确认CPO概念活跃，但板块未能完整守住高位，属于冲击后的日内承接，尚非已确认趋势反转。",
       "assets": [
         "300308",
         "002384"
       ],
       "validation": [
-        "中际旭创午后守住翻红并在未来两个交易日站稳政策冲击前关键区间，CPO板块同步修复",
+        "中际旭创午后守住翻红且未来两个交易日站稳政策冲击前关键区间，CPO板块同步修复",
         "获得美国监管文本、公司订单影响或客户替代安排的正式确认"
       ],
       "invalidation": [
-        "中际旭创午后回吐大部分反弹并重新跌破早盘低位附近",
+        "中际旭创午后继续回吐并收回政策冲击后的弱势区间",
         "最终限制范围覆盖核心产品并实质影响主要客户交付"
       ],
       "urls": [
         "https://www.reuters.com/world/trump-administration-drafting-ban-chinese-data-center-devices-sources-say-2026-08-04/",
-        "https://www.tmtpost.com/8092739.html",
+        "http://finance.eastmoney.com/news/1345,202608063833689720.html",
         "https://www.google.com/finance/quote/300308:SHE?hl=zh"
       ]
     },
     {
-      "event": "黄金隔夜大涨后维持高位，贵金属方向仍需国内ETF与白银溢价同步验证",
+      "event": "国内贵金属板块午间前领涨，隔夜金价重定价开始获得A股方向性映射",
       "industry": "macro",
       "industry_name": "贵金属 / 利率 / 地缘政治",
-      "direction": "mixed",
+      "direction": "positive",
       "strength": 5,
       "horizon": "1-5d",
       "priced_in": "unknown",
-      "reason": "弱就业、收益率回落与地缘风险推动现货黄金隔夜上涨4.16%至近七周高位。海外早盘金银仍获支撑，但仓库market.json仍停留在8月5日收盘，无法用旧价格替代8月6日国内ETF实时反馈；黄金ETF需核对人民币金价，白银LOF还需单独核验净值与场内溢价。",
+      "reason": "弱就业、收益率回落与地缘风险推动现货黄金隔夜大涨，11:42新闻批次显示A股贵金属板块领涨，方向性映射较上一轮增强。但market.json仍停留在8月5日收盘，无法核验黄金ETF与白银LOF的午间价格；白银LOF还需将银价、基金净值和场内溢价分开判断。",
       "assets": [
         "518880",
         "161226"
       ],
       "validation": [
-        "黄金ETF与国内金价、人民币汇率方向一致，且成交量同步确认",
+        "黄金ETF与国内金价、人民币汇率方向一致，且午后守住涨幅并有成交确认",
         "核验国投白银LOF最新净值、场内价格、溢价率及是否新增交易限制"
       ],
       "invalidation": [
-        "美国就业或通胀数据反向推高利率预期，金银快速回吐隔夜涨幅",
-        "白银LOF溢价继续扩大或触发临时停牌、申购限制"
+        "美国利率预期反向上升，金银快速回吐隔夜涨幅且A股贵金属板块转弱",
+        "白银LOF溢价扩大或触发临时停牌、申购限制"
       ],
       "urls": [
         "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-06/",
-        "https://wallstreetcn.com/articles/3778799",
-        "http://finance.eastmoney.com/news/11440,202608063833208538.html"
+        "http://finance.eastmoney.com/news/1345,202608063833689720.html",
+        "https://wallstreetcn.com/articles/3778799"
       ]
     }
   ]
