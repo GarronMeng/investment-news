@@ -1,7 +1,7 @@
 // 自动生成，请勿手工编辑。
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-06 14:07",
-  "source_generated_at": "2026-08-06 11:42",
+  "generated_at": "2026-08-06 15:05",
+  "source_generated_at": "2026-08-06 14:18",
   "generated_by": "ChatGPT Web",
   "status": "ready",
   "news_titles": {
@@ -141,25 +141,64 @@ window.AI_SIGNALS = {
     "https://www.sciencedaily.com/releases/2026/08/260805082450.htm": "THC药物使超过三分之一患者的创伤后应激障碍噩梦消失",
     "https://www.sciencedaily.com/releases/2026/08/260804034634.htm": "Claude Fable 5 AI找到一个推翻87年数学猜想的简洁公式",
     "https://www.sciencedaily.com/releases/2026/08/260804034644.htm": "5.67亿年前的化石改写动物生命起源",
-    "https://www.nature.com/articles/d41586-026-02429-0": "美洲狮是驾驶者的守护天使"
+    "https://www.nature.com/articles/d41586-026-02429-0": "美洲狮是驾驶者的守护天使",
+    "https://arxiv.org/abs/2608.04012": "基于冗余调整人工年龄评分（AAS）的AI系统长期持续性理论",
+    "https://arxiv.org/abs/2608.04066": "LLM提出方案、执行者作出处置：一种区分长周期智能体承诺漂移与约束漂移的自验证工具",
+    "https://arxiv.org/abs/2608.04071": "用于表格到多模态报告生成的蒙特卡洛树搜索",
+    "https://arxiv.org/abs/2608.04077": "FinProBench：以专业交付成果推导的角色化评分标准评估金融AI智能体",
+    "https://arxiv.org/abs/2608.04095": "FinPerMA：面向LLM智能体、基于理论与事件的个性化记忆基准",
+    "https://arxiv.org/abs/2608.04156": "BrainBench：全面评测大语言模型的脑电图理解能力",
+    "https://www.electronicsweekly.com/news/business/us-ai-leaders-in-white-house-regulatory-meeting-2026-08": "白宫与AI行业领袖权衡监管方案",
+    "https://www.electronicsweekly.com/news/business/quantum-sensors-that-inhabit-cancer-cells-c-2026-08": "可进入癌细胞的量子传感器",
+    "https://www.electronicsweekly.com/news/business/china-takes-no-2-cis-slot-2026-08": "中国跃居CIS市场第二位",
+    "https://www.electronicsweekly.com/news/business/farnell-signs-rigol-2026-08": "Farnell与普源精电签署合作协议",
+    "https://www.electronicsweekly.com/news/business/integrated-power-and-signal-connectors-for-humanoid-robots-2026-08": "面向人形机器人的集成式电源与信号连接器",
+    "https://cnevpost.com/2026/08/06/dongfeng-nissan-unveils-nx7-design": "东风日产公布NX7设计，N系列迎来第四款车型",
+    "https://cnevpost.com/2026/08/06/gwm-launches-h10-suv": "长城汽车推出方盒子SUV H10，以提振疲弱的中国市场销量",
+    "https://oilprice.com/Latest-Energy-News/World-News/Iran-and-Oman-Near-Landmark-Deal-to-Manage-Strait-of-Hormuz.html": "伊朗与阿曼接近达成管理霍尔木兹海峡的里程碑协议",
+    "https://www.pv-tech.org/states-will-be-free-to-add-more-rigorous-requirements-but-not-to-water-them-down-australias-bowen-warns-on-data-centres": "澳大利亚鲍恩就数据中心警告：各州可增加更严格要求，但不得降低标准",
+    "https://www.energy-storage.news/australian-vanadium-alcoa-evaluate-50-80mw-vanadium-flow-battery-for-wa-alumina-refineries": "Australian Vanadium与美铝评估为西澳氧化铝厂配置50—80MW钒液流电池",
+    "https://www.pv-tech.org/we-need-a-tangible-proof-point-panel-warns-delayed-coal-retirements-are-suppressing-renewables-investment-in-australia": "专家组警告：燃煤电厂延迟退役正在抑制澳大利亚可再生能源投资",
+    "https://www.space.com/stargazing/solar-eclipses/where-will-the-total-solar-eclipse-2026-be-visible-from": "2026年日全食将在哪些地区可见？",
+    "https://science.nasa.gov/image-article/apod-2026-august-6-new-sharpest-image-of-the-sun-uncovers-instability": "每日天文一图：最新最清晰太阳图像揭示不稳定现象",
+    "https://www.techmeme.com/260806/p6": "专访TMTG临时CEO凯文·麦格恩：Truth Social高速访问付费API、拟议中的60亿美元TMTG-TAE合并等",
+    "https://www.engadget.com/2231360/apple-private-relay-feature-could-reveal-your-ip-address": "苹果“私密转送”功能可能向网站和服务泄露用户IP地址",
+    "https://www.techmeme.com/260806/p5": "研究人员称朝鲜黑客行动过去22个月已影响57个国家的1640家公司",
+    "https://www.techmeme.com/260806/p4": "PitchBook：2026年一季度AI语音初创公司融资70亿美元，OpenAI与谷歌押注语音成为新一代AI智能体主要界面",
+    "https://www.techmeme.com/260806/p3": "特朗普推动数据中心引发燃气电厂建设热潮，Meta埃尔帕索数据中心将配备813台燃气发电机",
+    "https://www.techmeme.com/260806/p2": "消息人士详述陈立武领导下英特尔的复苏：AI对CPU的需求提振业务",
+    "https://www.wired.com/story/hungryroot-promo-code": "Hungryroot八月优惠码：七折优惠",
+    "https://www.wired.com/story/govee-discount-code": "Govee优惠码与促销：最高七折",
+    "https://www.gsmarena.com/tcl_p80_and_p80_pro_renders_specs_and_prices_leak-news-74031.php": "TCL P80和P80 Pro渲染图、规格及价格曝光",
+    "https://www.gsmarena.com/huawei_launches_the_featherlight_12inch_matepad_pro_2026-news-74030.php": "华为发布轻薄的12英寸MatePad Pro 2026",
+    "https://www.engadget.com/2231156/virtue-pro-2-are-the-companys-lightest-and-most-comfortable-smartglasses-yet": "299美元的Viture Pro 2成为该公司最轻、佩戴最舒适的智能眼镜",
+    "https://seekingalpha.com/news/4627283-salesforce-chief-engineering-officer-srini-tallapragada-steps-down-shares-fall-5": "Salesforce首席工程官Srini Tallapragada离职，股价下跌5%",
+    "https://seekingalpha.com/news/4627289-otc-markets-declares-0_30-dividend": "OTC Markets宣布派发0.30美元股息",
+    "https://seekingalpha.com/news/4627288-henkel-ag-non-gaap-eps-of-286-revenue-of-1035b-updates-fy-2026-outlook": "汉高非GAAP每股收益2.86欧元、营收103.5亿欧元，并更新2026财年展望",
+    "https://seekingalpha.com/news/4627287-adentra-declares-cad-0_16-dividend": "ADENTRA宣布派发0.16加元股息",
+    "https://seekingalpha.com/news/4627286-rxsight-outlines-30m-40m-alcon-revenue-recognition-in-2026-while-withdrawing-full-year": "RxSight预计2026年确认3000万至4000万美元爱尔康相关收入，同时撤回全年指引",
+    "https://seekingalpha.com/news/4627285-acadian-timber-declares-cad-0_29-dividend": "Acadian Timber宣布派发0.29加元股息",
+    "https://www.cnbc.com/2026/08/05/google-is-expanding-its-ai-empire-and-losing-the-people-who-built-it.html": "谷歌正在扩张AI帝国，同时失去打造它的人才",
+    "https://www.ft.com/content/77ece212-2768-4abe-9af1-b40a0db27c8f": "英特尔内幕：这家美国芯片巨头如何从崩溃边缘复苏",
+    "https://news.mit.edu/2026/new-way-watch-heat-move-through-electronics-0806": "观察热量在电子器件中传导的新方法"
   },
   "overseas_markets": [
     {
       "market": "美股",
       "flag": "🇺🇸",
       "session": "8月5日收盘",
-      "updated_at": "2026-08-06 14:07 CST",
+      "updated_at": "2026-08-06 15:05 CST",
       "status": "mixed",
-      "status_label": "道指创新高但科技与半导体回落，A股科技链午后继续分化",
+      "status_label": "道指创新高但科技与半导体回落，A股科技链收盘前仍分化",
       "move": "道指 +0.49%｜标普500 -0.17%｜纳指 -0.83%｜费城半导体 -1.40%",
-      "driver": "闪迪财报确认AI存储需求，但科技股与半导体整体回落；A股午后兆易创新走弱、太极实业相对强，中际旭创保持小幅上涨而东山精密转弱，尚未形成内外盘共振。",
+      "driver": "闪迪财报确认AI存储需求，但美股科技与半导体整体回落；A股兆易创新接近平盘、太极实业较强，中际旭创小幅上涨而东山精密偏弱，尚未形成内外盘共振。",
       "a_share_links": [
         "CPO",
         "AI服务器",
         "NAND",
         "贵金属"
       ],
-      "validation": "14点前可核验行情为兆易创新-1.53%、太极实业+2.55%、中际旭创+0.94%、东山精密-0.97%；仓库market.json的科技股涨跌幅仍使用错误前收，未纳入判断。",
+      "validation": "收盘前可核验行情为兆易创新-0.13%、太极实业+3.96%、中际旭创约+1.29%、东山精密-0.40%。",
       "sources": [
         "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-05/",
         "https://www.reuters.com/business/sandisk-forecasts-upbeat-quarterly-revenue-ai-driven-demand-2026-08-05/",
@@ -169,19 +208,19 @@ window.AI_SIGNALS = {
     {
       "market": "日股",
       "flag": "🇯🇵",
-      "session": "8月6日午后",
-      "updated_at": "2026-08-06 14:07 CST",
+      "session": "8月6日收盘",
+      "updated_at": "2026-08-06 15:05 CST",
       "status": "mixed",
-      "status_label": "日经从上午低位回升，但仍低于开盘且科技股压力未解除",
-      "move": "14:23 JST报65,661.29（-0.96%）｜开盘65,896.00｜日低64,942.07",
-      "driver": "日经较上午约-2%的低位明显修复，但尚未收复开盘点位；电子与半导体此前领跌，对A股科技链仍是偏弱外部验证。",
+      "status_label": "日经自上午低位回升，但收盘仍低于开盘",
+      "move": "收盘65,601.38（-1.05%）｜开盘65,896.00｜日低64,942.07",
+      "driver": "日经较上午约-2%的低位修复，但未收复开盘点位；电子与半导体压力仍在，对A股科技链的外部验证偏弱。",
       "a_share_links": [
         "半导体设备",
         "被动元件",
         "消费电子",
         "AI硬件"
       ],
-      "validation": "收盘能否收复65,896点开盘位，并观察电子与存储股跌幅是否继续收窄。",
+      "validation": "后续交易日能否收复65,896点，并观察电子与存储股是否同步止跌。",
       "sources": [
         "https://www.google.com/finance/quote/NI225:INDEXNIKKEI?hl=zh",
         "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-06/"
@@ -190,19 +229,19 @@ window.AI_SIGNALS = {
     {
       "market": "韩股",
       "flag": "🇰🇷",
-      "session": "8月6日午后",
-      "updated_at": "2026-08-06 14:07 CST",
+      "session": "8月6日收盘",
+      "updated_at": "2026-08-06 15:05 CST",
       "status": "negative",
-      "status_label": "KOSPI跌幅扩大至4%以上，存储风险偏好继续走弱",
-      "move": "13:54 KST报6,312.54（-4.33%）｜开盘6,478.75｜日低6,238.32",
-      "driver": "KOSPI午后仍显著低于开盘，三星电子与SK海力士回落背景下，韩国存储链对A股存储反弹构成负向外部验证。",
+      "status_label": "KOSPI收跌近5%，存储风险偏好明显走弱",
+      "move": "收盘6,279.05（-4.84%）｜开盘6,478.75｜日低6,238.32",
+      "driver": "KOSPI收盘显著低于开盘，韩国半导体权重回落，对A股存储链的单日反弹构成负向外部验证。",
       "a_share_links": [
         "HBM",
         "DRAM",
         "NAND",
         "封测"
       ],
-      "validation": "收盘能否收复6,478.75点开盘位，以及三星电子、SK海力士跌幅是否明显收窄。",
+      "validation": "后续交易日能否收复6,478.75点开盘位，以及三星电子、SK海力士是否同步止跌。",
       "sources": [
         "https://www.google.com/finance/quote/KOSPI:KRX?hl=zh",
         "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-06/"
@@ -211,84 +250,84 @@ window.AI_SIGNALS = {
   ],
   "signals": [
     {
-      "event": "AI存储午后继续分化：兆易创新转弱，太极实业保持相对强势",
+      "event": "AI存储收盘前仍呈分化：太极实业与德明利较强，兆易创新接近平盘",
       "industry": "semi",
       "industry_name": "NAND / 企业级SSD / AI存储",
       "direction": "mixed",
       "strength": 5,
       "horizon": "1-3m",
       "priced_in": "high",
-      "reason": "闪迪数据中心收入环比翻倍并新增长期合作协议，确认AI存储需求。13:59兆易创新报379.55元、实际跌1.53%；13:39太极实业报18.92元、涨2.55%，存储链并未同步。market.json仍因错误前收把兆易创新计算为+12.40%，该字段继续排除。当前只确认局部承接，尚未形成全链反转。",
+      "reason": "闪迪财报与三星AI内存路线图继续确认需求方向。15:00兆易创新报384.95元、跌0.13%；14:57太极实业报19.18元、涨3.96%；14:07行情文件显示德明利涨9.67%。两只存储映射标的较强，但兆易创新未形成同步突破，现阶段属于局部扩散，尚不能确认为全链趋势反转。",
       "assets": [
         "603986",
         "001309",
         "600667"
       ],
       "validation": [
-        "兆易创新、德明利、太极实业至少两只在未来两个交易日同步走强并守住关键回踩位",
-        "行情数据源修复前收口径，并由第二来源验证实际涨跌幅"
+        "未来两个交易日兆易创新、德明利、太极实业至少两只同步走强并守住本轮回踩位",
+        "成交与产业报价、订单或财报指引形成交叉确认"
       ],
       "invalidation": [
-        "兆易创新继续走弱且太极实业等相对强势标的同步回吐",
-        "闪迪后续指引下修或AI存储长协未转化为供货与价格改善"
+        "强势标的次日明显回吐且兆易创新重新走弱",
+        "AI存储订单或价格改善未兑现，相关公司后续指引转弱"
       ],
       "urls": [
         "https://www.reuters.com/business/sandisk-forecasts-upbeat-quarterly-revenue-ai-driven-demand-2026-08-05/",
+        "https://www.eetimes.com/samsung-lays-out-ai-memory-roadmap",
         "https://www.google.com/finance/quote/603986:SHA?hl=zh",
         "https://www.google.com/finance/quote/600667:SHA?hl=zh"
       ]
     },
     {
-      "event": "CPO政策冲击后保留日内承接，但PCB同步性转弱，趋势反转未确认",
+      "event": "CPO政策冲击后收盘前小幅翻红，但PCB未同步，反转仍待跨日确认",
       "industry": "tech",
       "industry_name": "CPO / 高速光模块 / AI服务器",
       "direction": "mixed",
       "strength": 5,
       "horizon": "1-4w",
       "priced_in": "medium",
-      "reason": "美国限制方案仍处起草阶段。13:27中际旭创报956.68元、实际涨0.94%，较上午高点995元明显回落；14:01东山精密报187.00元、跌0.97%。market.json仍因错误前收把中际旭创计算为+6.49%，未纳入判断。日内V形承接仍在，但板块扩散和收盘确认不足。",
+      "reason": "美国限制方案仍处起草阶段。14:35左右中际旭创约涨1.29%，东山精密跌0.40%；中际旭创从日内低点显著回升但远低于995元高点，PCB也未同步转强。单日V形承接成立，板块扩散、监管文本与跨日持续性均不足，不能升级为趋势反转。",
       "assets": [
         "300308",
         "002384"
       ],
       "validation": [
-        "中际旭创收盘保持翻红且未来两个交易日站稳政策冲击前关键区间，东山精密及CPO板块同步修复",
+        "未来两个交易日中际旭创站稳政策冲击前关键区间，东山精密及CPO板块同步修复",
         "获得美国监管文本、公司订单影响或客户替代安排的正式确认"
       ],
       "invalidation": [
-        "中际旭创尾盘继续回吐并收回政策冲击后的弱势区间",
+        "中际旭创次日重新跌入政策冲击后的弱势区间",
         "最终限制范围覆盖核心产品并实质影响主要客户交付"
       ],
       "urls": [
         "https://www.reuters.com/world/trump-administration-drafting-ban-chinese-data-center-devices-sources-say-2026-08-04/",
-        "http://finance.eastmoney.com/news/1345,202608063833689720.html",
-        "https://www.google.com/finance/quote/300308:SHE?hl=zh"
+        "https://www.google.com/finance/quote/300308:SHE?hl=zh",
+        "https://www.google.com/finance/quote/002384:SHE?hl=zh"
       ]
     },
     {
-      "event": "黄金ETF上涨而白银LOF复牌后走弱，贵金属内部出现明显分化",
+      "event": "黄金ETF与白银LOF午后同步上涨，但白银交易与溢价风险仍需独立核验",
       "industry": "macro",
       "industry_name": "贵金属 / 黄金ETF / 白银LOF溢价",
-      "direction": "mixed",
+      "direction": "positive",
       "strength": 5,
       "horizon": "intraday",
       "priced_in": "medium",
-      "reason": "12:48行情显示黄金ETF华安8.824元、较前收上涨2.13%，确认隔夜金价向国内传导；国投白银LOF开市停牌并于10:30复牌，12:35报2.035元、较前收下跌0.34%。黄金与白银场内表现背离，白银还受净值、溢价与交易安排影响，不能将金价上涨直接外推为白银LOF同步走强。",
+      "reason": "14:07行情显示黄金ETF华安报8.822元、涨2.11%；国投白银LOF报2.063元、涨1.03%，午间黄金强、白银弱的背离已经收窄。但白银LOF当天经历开市停牌、10:30复牌，场内价格还受净值和溢价影响，不能仅凭同步上涨推断风险解除。",
       "assets": [
         "518880",
         "161226"
       ],
       "validation": [
-        "黄金ETF午后守住涨幅且与人民币金价方向一致",
-        "核验白银LOF最新基金净值、场内溢价率及复牌后成交稳定性"
+        "核验黄金ETF收盘守住涨幅，并确认人民币金价方向一致",
+        "取得白银LOF最新净值、场内溢价率及复牌后成交数据"
       ],
       "invalidation": [
-        "黄金ETF午后快速回吐且国内金价同步转弱",
-        "白银LOF溢价扩大或再次触发临时停牌、交易限制"
+        "贵金属ETF尾盘快速回吐并失去与现货价格的同步性",
+        "白银LOF溢价扩大或再次触发停牌、交易限制"
       ],
       "urls": [
         "https://finance.sina.com.cn/roll/2026-08-05/doc-inimhiei4593014.shtml",
-        "http://finance.eastmoney.com/news/1345,202608063833689720.html",
         "https://www.huaan.com.cn/funds/518880/index.shtml"
       ]
     }
