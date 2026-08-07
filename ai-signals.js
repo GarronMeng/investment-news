@@ -1,6 +1,6 @@
 // 自动生成，请勿手工编辑。
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-07 10:05",
+  "generated_at": "2026-08-07 11:05",
   "source_generated_at": "2026-08-07 09:51",
   "generated_by": "ChatGPT Web",
   "status": "ready",
@@ -348,7 +348,7 @@ window.AI_SIGNALS = {
       "market": "美股",
       "flag": "🇺🇸",
       "session": "8月6日收盘",
-      "updated_at": "2026-08-07 10:05 CST",
+      "updated_at": "2026-08-07 11:05 CST",
       "status": "negative",
       "status_label": "美股小幅收低，存储股在强劲业绩后继续显著回撤",
       "move": "道指 -0.85%｜标普500 -0.18%｜纳指 -0.06%",
@@ -359,7 +359,7 @@ window.AI_SIGNALS = {
         "AI存储",
         "贵金属"
       ],
-      "validation": "观察兆易创新、德明利、太极实业能否在海外存储股承压背景下形成至少两只同步走强；美国就业数据公布后复核美元、利率与贵金属方向。",
+      "validation": "A股存储与AI硬件早盘已出现内部修复，但美国就业数据公布后仍需复核美元、利率与海外存储股能否止跌。",
       "sources": [
         "https://www.reuters.com/business/retail-consumer/sp-500-dow-futures-steady-mideast-deal-focus-chips-stumble-2026-08-06/",
         "https://www.reuters.com/business/sandisk-western-digital-drag-chip-stocks-lofty-expectations-eclipse-strong-2026-08-06/",
@@ -369,20 +369,21 @@ window.AI_SIGNALS = {
     {
       "market": "日股",
       "flag": "🇯🇵",
-      "session": "8月7日早盘",
-      "updated_at": "2026-08-07 09:26 CST",
-      "status": "pending",
-      "status_label": "日经高开后转跌，精确开盘点位待第二来源复核",
-      "move": "开盘65,746.13（较前收约+0.10%）｜10:26 JST 65,033.39（-0.99%）",
-      "driver": "芯片相关权重领跌，海外AI硬件高预期兑现与中东能源风险共同压制科技风险偏好。",
+      "session": "8月7日上午",
+      "updated_at": "2026-08-07 10:35 CST",
+      "status": "negative",
+      "status_label": "日经高开后跌近1%，芯片相关股继续承压",
+      "move": "开盘65,746.13（较前收约+0.10%）｜11:35 JST 65,039.16（-0.98%）",
+      "driver": "芯片相关权重走弱，中东能源风险与AI高估值兑现继续压制科技风险偏好。",
       "a_share_links": [
         "半导体设备",
         "AI硬件",
         "被动元件",
         "消费电子"
       ],
-      "validation": "Google Finance与WSJ均显示早盘约跌0.7%至1.0%，但精确开盘点位仅获单一来源，待Nikkei Indexes或JPX复核；观察午前能否收复65,746点。",
+      "validation": "Reuters与Google Finance均显示上午约跌0.9%至1.0%；精确开盘点位仍仅获单一报价源，观察午后能否收复65,746点。",
       "sources": [
+        "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-07/",
         "https://www.google.com/finance/beta/quote/NI225:INDEXNIKKEI?hl=zh",
         "https://www.wsj.com/finance/stocks/nikkei-falls-0-7-dragged-by-chip-related-stocks-ed8fd1ea"
       ]
@@ -390,46 +391,47 @@ window.AI_SIGNALS = {
     {
       "market": "韩股",
       "flag": "🇰🇷",
-      "session": "8月7日早盘",
-      "updated_at": "2026-08-07 09:21 CST",
-      "status": "pending",
-      "status_label": "KOSPI高开后转跌，精确开盘点位待第二来源复核",
-      "move": "开盘6,365.07（较前收约+1.09%）｜10:21 KST 6,203.19（-1.48%）",
-      "driver": "指数未守住高开，存储与半导体权重延续高波动，海外存储风险偏好尚未稳定。",
+      "session": "8月7日上午",
+      "updated_at": "2026-08-07 10:34 CST",
+      "status": "negative",
+      "status_label": "KOSPI高开后跌逾1%，存储风险偏好仍不稳定",
+      "move": "开盘6,365.07（较前收约+1.09%）｜11:34 KST 6,225.98（-1.12%）",
+      "driver": "指数未守住高开，三星电子、SK海力士等存储权重延续高波动，韩国科技行情仍处于修复与兑现拉锯。",
       "a_share_links": [
         "HBM",
         "DRAM",
         "NAND",
         "封测"
       ],
-      "validation": "当前精确开盘与观测值来自Google Finance单一报价，待KRX或另一独立报价源复核；观察能否重新站上6,365点。",
+      "validation": "Reuters上午报道称KOSPI约跌0.5%，Google Finance稍后显示跌1.12%，因观测时点不同分别保留；观察午后能否重回6,365点。",
       "sources": [
+        "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-07/",
         "https://www.google.com/finance/beta/quote/KOSPI:KRX?hl=zh"
       ]
     }
   ],
   "signals": [
     {
-      "event": "苹果据报寻求中国DRAM供货但低价报价被拒，存储供需偏紧与高预期兑现并存",
+      "event": "存储链由单点反弹升级为A股内部扩散，但海外存储股高预期兑现风险仍在",
       "industry": "semi",
       "industry_name": "DRAM / NAND / AI存储",
       "direction": "mixed",
       "strength": 5,
       "horizon": "1-4w",
       "priced_in": "high",
-      "reason": "苹果在iPhone 18发布前据报面临DRAM供应紧张并接触长鑫存储，但低价报价未获接受，支持存储供需与价格韧性；与此同时，闪迪、西部数据等海外存储股在强劲业绩后仍显著下跌，说明股价已进入高预期兑现阶段。今早兆易创新约涨5%，但太极实业小幅下跌，板块同步性仍不足。",
+      "reason": "苹果在iPhone 18发布前据报面临DRAM供应紧张并接触长鑫存储，低价报价未获接受；11点前兆易创新约涨7.5%、太极实业约涨3.1%，存储链已从早盘单点走强升级为至少双标的确认。与此同时，闪迪、西部数据等海外存储股在强劲业绩后仍显著回撤，KOSPI也下跌，说明产业供需偏紧与高估值兑现仍同时存在。",
       "assets": [
         "603986",
         "001309",
         "600667"
       ],
       "validation": [
-        "兆易创新、德明利、太极实业中至少两只收盘同步走强，并有DRAM/NAND报价或订单信息确认",
+        "兆易创新、太极实业午后守住主要涨幅，德明利同步转强，并有DRAM/NAND报价或订单信息确认",
         "海外存储股下一交易窗口止跌，且数据中心需求指引未下修"
       ],
       "invalidation": [
         "低价采购传闻被权威来源否认，或DRAM/NAND渠道报价转弱",
-        "A股存储链冲高回落并重新跌破本周修复区间"
+        "A股存储链午后明显回吐并重新跌破8月6日修复区间"
       ],
       "urls": [
         "https://www.gsmarena.com/apple_wants_to_get_chinese_dram_on_the_cheap_cxmt_says_no-news-74048.php",
@@ -438,30 +440,30 @@ window.AI_SIGNALS = {
       ]
     },
     {
-      "event": "A股CPO与PCB早盘反弹，但日韩科技股走弱，暂属国内承接而非跨市场反转",
+      "event": "CPO与PCB早盘同步走强，A股AI硬件内部修复增强但跨市场反转仍未成立",
       "industry": "tech",
       "industry_name": "CPO / PCB / AI硬件",
       "direction": "mixed",
-      "strength": 4,
+      "strength": 5,
       "horizon": "1-5d",
       "priced_in": "medium",
-      "reason": "中际旭创与东山精密早盘分别约涨2.6%和4.2%，显示前期冲击后出现承接；但日经高开转跌约1%，KOSPI跌约1.5%，海外芯片风险偏好仍弱。单一早盘反弹不足以确认趋势反转，需要收盘守住与未来交易日的板块扩散。",
+      "reason": "中际旭创与东山精密上午均维持约4%以上涨幅，新易盛、光迅科技等同链标的也同步走强，A股CPO与PCB内部扩散较10点进一步增强；但日经约跌1%、KOSPI约跌1.1%，海外芯片风险偏好仍弱。当前可确认国内板块修复，尚不能确认跨日、跨市场趋势反转。",
       "assets": [
         "300308",
         "002384"
       ],
       "validation": [
-        "中际旭创、东山精密收盘均保持正涨幅，且CPO、PCB板块至少各有一只同方向强势标的",
-        "未来两个交易日不跌破8月6日低点，并出现成交量与板块扩散确认"
+        "中际旭创、东山精密收盘均保持较强正涨幅，且CPO、PCB板块涨势未明显收窄",
+        "未来两个交易日不跌破8月6日低点，并获得成交量与海外AI硬件止跌确认"
       ],
       "invalidation": [
-        "中际旭创或东山精密冲高回落并收跌",
-        "日韩芯片权重继续扩大跌幅且美股AI硬件再次明显下行"
+        "中际旭创或东山精密午后明显冲高回落并收跌",
+        "日韩芯片权重继续扩大跌幅且美股AI硬件再次显著下行"
       ],
       "urls": [
         "https://www.google.com/finance/beta/quote/300308:SHE?hl=zh",
         "https://www.google.com/finance/beta/quote/002384:SHE?hl=zh",
-        "https://www.wsj.com/finance/stocks/nikkei-falls-0-7-dragged-by-chip-related-stocks-ed8fd1ea"
+        "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-07/"
       ]
     },
     {
