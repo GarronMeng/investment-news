@@ -1,5 +1,5 @@
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-07 15:07",
+  "generated_at": "2026-08-07 16:05",
   "source_generated_at": "2026-08-07 13:25",
   "generated_by": "ChatGPT Web",
   "status": "ready",
@@ -410,18 +410,18 @@ window.AI_SIGNALS = {
       "market": "美股",
       "flag": "🇺🇸",
       "session": "8月6日收盘",
-      "updated_at": "2026-08-07 15:07 CST",
+      "updated_at": "2026-08-07 16:05 CST",
       "status": "negative",
       "status_label": "美股小幅收低，存储股在强劲业绩后继续显著回撤",
       "move": "道指 -0.85%｜标普500 -0.18%｜纳指 -0.06%",
-      "driver": "闪迪、西部数据等存储股在强劲业绩后仍明显下跌；伊朗公布限制美国船只通过霍尔木兹海峡的草案后油价上涨，就业数据前的利率与能源风险共同压制风险偏好。",
+      "driver": "闪迪、西部数据等存储股在强劲业绩后仍明显下跌；中东能源风险与美国就业数据前的利率不确定性共同压制风险偏好。",
       "a_share_links": [
         "NAND",
         "企业级SSD",
         "AI存储",
         "贵金属"
       ],
-      "validation": "A股存储链收盘前保持扩散，但CPO与PCB分化；美国就业数据公布后继续复核美元、利率、油价与海外存储股能否止跌。",
+      "validation": "A股存储链收盘形成三标的扩散，但CPO收跌；美国就业数据公布后继续复核海外存储股、美元、利率与油价。",
       "sources": [
         "https://www.reuters.com/business/retail-consumer/sp-500-dow-futures-steady-mideast-deal-focus-chips-stumble-2026-08-06/",
         "https://www.reuters.com/business/sandisk-western-digital-drag-chip-stocks-lofty-expectations-eclipse-strong-2026-08-06/",
@@ -431,68 +431,69 @@ window.AI_SIGNALS = {
     {
       "market": "日股",
       "flag": "🇯🇵",
-      "session": "8月7日收盘待核验",
-      "updated_at": "2026-08-07 15:07 CST",
-      "status": "pending",
-      "status_label": "正式收盘待验证，最后可靠观测仍低于开盘位",
-      "move": "开盘65,746.13（较前收约+0.10%）｜最后可靠观测13:47 JST 65,308.50（-0.57%）",
-      "driver": "芯片相关股仍承压，AI高估值兑现与中东能源风险继续压制科技风险偏好。",
+      "session": "8月7日收盘",
+      "updated_at": "2026-08-07 16:05 CST",
+      "status": "neutral",
+      "status_label": "日经收盘小跌，较盘中低点明显修复但未收复开盘位",
+      "move": "开盘65,746.13（较前收+0.10%）｜收盘65,606.71（-0.12%）｜日内低点64,651.49",
+      "driver": "芯片权重与能源成本担忧压制早盘，午后指数显著修复；正式收盘仍略低于前收及开盘位。",
       "a_share_links": [
         "半导体设备",
         "AI硬件",
         "被动元件",
         "消费电子"
       ],
-      "validation": "正式收盘点位尚无可靠双源核验；待确认是否收复65,746点及芯片权重是否止跌。",
+      "validation": "下一交易日观察能否站回65,746点，并由芯片设备、材料和被动元件权重共同止跌。",
       "sources": [
-        "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-07/",
-        "https://www.google.com/finance/beta/quote/NI225:INDEXNIKKEI?hl=zh",
-        "https://www.wsj.com/finance/stocks/nikkei-falls-0-7-dragged-by-chip-related-stocks-ed8fd1ea"
+        "https://indexes.nikkei.co.jp/en/nkave/archives/summary",
+        "https://indexes.nikkei.co.jp/en/nkave/index/profile",
+        "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-07/"
       ]
     },
     {
       "market": "韩股",
       "flag": "🇰🇷",
       "session": "8月7日收盘待核验",
-      "updated_at": "2026-08-07 15:07 CST",
+      "updated_at": "2026-08-07 16:05 CST",
       "status": "pending",
-      "status_label": "正式收盘待验证，最后可靠观测仍跌约1.0%",
-      "move": "开盘6,365.07（较前收约+1.09%）｜最后可靠观测13:35 KST 6,232.50（-1.01%）",
-      "driver": "三星电子、SK海力士等存储权重延续高波动，韩国科技行情仍处于修复与兑现拉锯。",
+      "status_label": "正式收盘来源冲突，方向为下跌但幅度待验证",
+      "move": "开盘6,365.07（较前收约+1.09%）｜AP 6,242.88（约-0.8%）｜Investing 6,258.77（约-0.6%）",
+      "driver": "三星电子、SK海力士等存储权重延续高波动；多个来源均指向收跌，但收盘点位与跌幅差异超过严格核验阈值。",
       "a_share_links": [
         "HBM",
         "DRAM",
         "NAND",
         "封测"
       ],
-      "validation": "正式收盘点位尚无可靠双源核验；待确认能否重回6,365点并由存储权重止跌带动。",
+      "validation": "待KRX正式数据或两个独立报价源给出一致收盘点位；下一交易日观察能否重回6,365点并由存储权重止跌带动。",
       "sources": [
         "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-07/",
-        "https://www.google.com/finance/beta/quote/KOSPI:KRX?hl=zh"
+        "https://apnews.com/article/9636095906bbb689a1f612bce9a07343",
+        "https://www.investing.com/indices/kospi"
       ]
     }
   ],
   "signals": [
     {
-      "event": "存储链收盘前形成三标的扩散，但海外高预期兑现风险仍在",
+      "event": "存储链收盘形成三标的扩散，但尚未获得海外市场共振",
       "industry": "semi",
       "industry_name": "DRAM / NAND / AI存储",
       "direction": "mixed",
       "strength": 5,
       "horizon": "1-4w",
       "priced_in": "high",
-      "reason": "14:20行情文件显示兆易创新涨8.10%、德明利涨4.21%、太极实业涨2.24%；Google Finance在14:35显示兆易创新涨7.53%，核心方向一致。A股存储链已形成三标的扩散，但海外存储股在强劲业绩后仍显著回撤，跨市场趋势反转尚未确认。",
+      "reason": "15:47行情文件显示兆易创新涨8.32%、德明利涨4.10%、太极实业涨1.88%，A股存储链收盘形成三标的扩散；但报价源置信度偏低，且隔夜美国存储股与当日韩股仍弱，现阶段只确认A股内部修复，不能升级为跨市场趋势反转。",
       "assets": [
         "603986",
         "001309",
         "600667"
       ],
       "validation": [
-        "三只标的收盘均保持正涨幅，未来两个交易日不跌破8月7日主要支撑区间",
-        "海外存储股下一交易窗口止跌，且DRAM/NAND报价或订单继续上修"
+        "未来两个交易日三只标的至少两只继续收涨，且不跌破8月7日主要支撑区间",
+        "海外存储股止跌，DRAM/NAND报价或订单继续上修"
       ],
       "invalidation": [
-        "兆易创新尾盘明显回吐且德明利、太极实业同步转弱",
+        "兆易创新快速回吐且德明利、太极实业同步转弱",
         "海外存储股继续大跌或DRAM/NAND渠道报价转弱"
       ],
       "urls": [
@@ -502,25 +503,25 @@ window.AI_SIGNALS = {
       ]
     },
     {
-      "event": "CPO与PCB收盘前分化，中际旭创报价冲突叠加美国限制风险",
+      "event": "中际旭创收跌、东山精密收涨，CPO与PCB分化得到收盘确认",
       "industry": "tech",
       "industry_name": "CPO / PCB / AI硬件",
       "direction": "mixed",
       "strength": 5,
       "horizon": "1-5d",
-      "priced_in": "unknown",
-      "reason": "14:20行情文件显示东山精密涨4.81%、中际旭创跌1.46%，但Google Finance仍停留在12:55的中际旭创涨2.35%，两源观测时点与方向冲突。叠加美国光模块限制仍处草案阶段，当前只能确认PCB相对更强，不能确认CPO价格修复或趋势反转。",
+      "priced_in": "high",
+      "reason": "15:47行情文件显示中际旭创收跌3.68%、东山精密收涨4.04%，此前盘中报价冲突已由收盘快照消除，确认PCB相对更强、CPO冲高回落。美国光模块限制仍处草案阶段，政策风险未解除，CPO趋势反转不成立。",
       "assets": [
         "300308",
         "002384"
       ],
       "validation": [
-        "以正式收盘或下一可靠快照确认中际旭创方向，并检查东山精密是否保持正涨幅",
-        "美国限制方案未扩大至现有主力型号或核心客户，未来两个交易日不跌破8月6日低点"
+        "中际旭创未来两个交易日重新站稳8月7日高位区域，同时东山精密保持相对强势",
+        "美国限制方案未扩大至现有主力型号或核心客户"
       ],
       "invalidation": [
         "美国正式扩大光模块进口限制并覆盖核心产品或客户",
-        "中际旭创确认收跌且东山精密明显回吐，日韩芯片权重继续下行"
+        "中际旭创跌破8月7日低点且东山精密明显回吐"
       ],
       "urls": [
         "https://www.digitimes.com/news/a20260807VL210/optical-components-transceiver-module-production-usa-ban-china.html",
@@ -529,38 +530,38 @@ window.AI_SIGNALS = {
       ]
     },
     {
-      "event": "MLCC产业利好获得初步价格响应，但收盘确认仍不足",
+      "event": "MLCC产业利好未转化为明确收盘强势",
       "industry": "semi",
       "industry_name": "MLCC / 被动元件",
       "direction": "mixed",
       "strength": 4,
       "horizon": "1-4w",
       "priced_in": "unknown",
-      "reason": "DIGITIMES称AI服务器和汽车电子需求推动全球MLCC元件趋紧，中国供应链加快扩产；14:20行情文件显示风华高科由早盘弱势转为约涨1.60%，但价格源置信度偏低。产业证据与盘面开始同向，仍需正式收盘及渠道报价确认。",
+      "reason": "DIGITIMES称AI服务器和汽车电子需求推动MLCC供应趋紧，中国供应链加快扩产；15:47行情文件显示风华高科仅微涨0.02%，且报价源置信度偏低。产业证据仍在，但价格端没有形成明确确认。",
       "assets": [
         "000636"
       ],
       "validation": [
-        "风华高科正式收盘保持正涨幅并相对被动元件指数走强",
+        "风华高科未来两个交易日相对被动元件指数转强并放量收涨",
         "MLCC渠道报价、交期或国内材料厂订单进一步上修"
       ],
       "invalidation": [
         "扩产主要对应远期供给而非当前订单，渠道价格未上涨",
-        "风华高科正式收盘转弱或下个交易日未形成板块联动"
+        "风华高科跌破8月7日低点且板块未形成联动"
       ],
       "urls": [
         "https://www.digitimes.com/news/a20260807VL206/china-mlcc-ceramic-capacitor-demand-supply-chain.html"
       ]
     },
     {
-      "event": "白银与黄金收盘前初步同步上涨，趋势增强与LOF溢价风险并存",
+      "event": "白银LOF与黄金ETF同步收涨，但LOF溢价风险显著上升",
       "industry": "macro",
       "industry_name": "白银LOF / 黄金ETF / 贵金属",
       "direction": "mixed",
       "strength": 5,
       "horizon": "1-5d",
       "priced_in": "high",
-      "reason": "白银在7月28日至8月5日上涨8.3%；14:20行情文件显示白银LOF约涨3.00%、黄金ETF约涨0.90%，A股映射初步同步，但白银LOF价格源置信度偏低，净值、溢价和交易限制仍未同步核验。",
+      "reason": "15:47行情文件显示白银LOF涨7.37%、黄金ETF涨1.10%，贵金属A股映射同步；但白银LOF报价源置信度偏低，且涨幅明显高于黄金ETF，基金净值、场内溢价和交易限制尚未同步核验，不能把场内涨幅直接视为白银现货趋势。",
       "assets": [
         "161226",
         "518880"
@@ -570,8 +571,8 @@ window.AI_SIGNALS = {
         "美元和实际利率未明显反向上行，黄金与白银保持正向联动"
       ],
       "invalidation": [
-        "空头回补结束后白银快速回吐涨幅",
-        "白银LOF场内溢价扩大或基金公告新增停牌、申购限制"
+        "白银现货回落或白银LOF溢价快速压缩",
+        "基金公告新增停牌、申购限制或风险提示"
       ],
       "urls": [
         "https://wallstreetcn.com/articles/3778916",
