@@ -1,73 +1,9 @@
 // 自动生成，请勿手工编辑。
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-07 09:16",
-  "source_generated_at": "2026-08-06 18:01",
+  "generated_at": "2026-08-07 10:05",
+  "source_generated_at": "2026-08-07 09:51",
   "generated_by": "ChatGPT Web",
   "status": "ready",
-  "overseas_markets": [
-    {
-      "market": "美股",
-      "flag": "🇺🇸",
-      "session": "8月6日收盘",
-      "updated_at": "2026-08-07 09:16 CST",
-      "status": "negative",
-      "status_label": "美股小幅收低，存储股在强劲业绩后显著回撤",
-      "move": "道指 -0.85%｜标普500 -0.18%｜纳指 -0.06%",
-      "driver": "闪迪、西部数据及美光等存储股下跌，反映市场从需求增长转向检验价格斜率与高预期；今晚美国非农数据仍可能改变利率定价。",
-      "a_share_links": [
-        "NAND",
-        "企业级SSD",
-        "AI存储",
-        "贵金属"
-      ],
-      "validation": "A股开盘后观察兆易创新、德明利、太极实业是否弱于半导体指数；非农尚未公布。",
-      "sources": [
-        "https://www.reuters.com/business/retail-consumer/sp-500-dow-futures-steady-mideast-deal-focus-chips-stumble-2026-08-06/",
-        "https://www.reuters.com/business/sandisk-western-digital-drag-chip-stocks-lofty-expectations-eclipse-strong-2026-08-06/"
-      ]
-    },
-    {
-      "market": "日股",
-      "flag": "🇯🇵",
-      "session": "8月7日早盘",
-      "updated_at": "2026-08-07 09:16 CST",
-      "status": "negative",
-      "status_label": "日经高开后转跌，芯片相关股领跌",
-      "move": "开盘65,746.13（约+0.10%）｜09:24 JST 65,181.91（-0.76%）",
-      "driver": "Lasertec、软银集团及Screen等芯片相关权重回落，延续全球半导体高预期兑现。",
-      "a_share_links": [
-        "半导体设备",
-        "AI硬件",
-        "被动元件",
-        "消费电子"
-      ],
-      "validation": "精确开盘点位来自单一报价源，待复核；观察午前能否收复开盘位。",
-      "sources": [
-        "https://www.wsj.com/market-data/quotes/index/JP/NIK",
-        "https://www.wsj.com/finance/stocks/nikkei-falls-0-7-dragged-by-chip-related-stocks-ed8fd1ea"
-      ]
-    },
-    {
-      "market": "韩股",
-      "flag": "🇰🇷",
-      "session": "8月7日早盘",
-      "updated_at": "2026-08-07 09:16 CST",
-      "status": "negative",
-      "status_label": "KOSPI高开后转跌，存储修复持续性仍弱",
-      "move": "开盘6,365.07（约+1.09%）｜09:40 KST 6,271.40（-0.40%）",
-      "driver": "指数未守住高开幅度，海外存储股回撤与前期高波动继续压制三星电子、SK海力士等权重的风险偏好。",
-      "a_share_links": [
-        "HBM",
-        "DRAM",
-        "NAND",
-        "封测"
-      ],
-      "validation": "精确开盘点位来自单一报价源，待复核；观察能否重新站上6,365点。",
-      "sources": [
-        "https://www.wsj.com/market-data/quotes/index/KR/SEU"
-      ]
-    }
-  ],
   "news_titles": {
     "https://www.marktechpost.com/2026/08/05/microsoft-skillopt-agent-skill-transfer-portability": "微软SkillOpt显示优化后的智能体技能可跨模型规模，并可在Codex与Claude Code工具框架间迁移",
     "https://www.theverge.com/ai-artificial-intelligence/976004/elon-musk-grokipedia-ai-wikipedia-not-updating-dead": "马斯克打造AI版维基百科的尝试已数月未更新",
@@ -77,7 +13,7 @@ window.AI_SIGNALS = {
     "https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders": "Klaviyo收购Elias Torres旗下Agency，科技创始人再度合作",
     "https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup": "Jeff Dean等谷歌顶尖AI研究人员离职创业",
     "https://www.theverge.com/ai-artificial-intelligence/975528/fenix-flexin-ai-music-generator-treblo": "Fenix Flexin似乎使用了AI音乐生成器Treblo",
-    "https://www.eetimes.com/samsung-lays-out-ai-memory-roadmap": "三星公布AI存储路线图",
+    "https://www.eetimes.com/samsung-lays-out-ai-memory-roadmap": "三星公布AI存储器路线图",
     "https://semiwiki.com/artificial-intelligence/371818-the-ai-genie-is-out-of-the-bottle-and-wont-go-back": "AI浪潮已开启，难以逆转",
     "https://www.semiconductor-today.com/news_items/2026/aug/power-integrations-050826.shtml": "Power Integrations演示首款面向高压电力系统的2200V氮化镓技术",
     "https://www.semiconductor-today.com/news_items/2026/aug/ascent-solar-050826.shtml": "Ascent Solar响应持续增长的无人机市场需求",
@@ -307,57 +243,250 @@ window.AI_SIGNALS = {
     "https://wallstreetcn.com/articles/3778841": "IMF称加纳央行去年购金亏损19亿美元",
     "https://www.livescience.com/physics-mathematics/crystal-made-from-13-sided-einstein-shape-bends-light-in-ways-nobody-imagined": "由13边爱因斯坦拼块构成的晶体展现意外光学特性",
     "https://www.livescience.com/technology/quantum/scientists-built-a-room-temperature-quantum-computer-with-diamond-based-qubits": "全球首台便携式钻石量子计算机问世，可室温运行并接普通电源",
-    "https://www.newscientist.com/article/2583039-timeline-of-human-evolution": "人类进化的8500万年时间线"
+    "https://www.newscientist.com/article/2583039-timeline-of-human-evolution": "人类进化的8500万年时间线",
+    "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400": "据报道，OpenAI新款AI智能音箱售价将在300至400美元之间",
+    "https://www.theverge.com/ai-artificial-intelligence/976431/openai-chatgpt-battery-smart-speaker-rumor": "据报道，Jony Ive打造的首款OpenAI设备是一款冰球大小的智能音箱",
+    "https://www.theverge.com/ai-artificial-intelligence/976239/openai-chatgpt-free-go-text-chats": "OpenAI向ChatGPT免费用户开放无限文本聊天",
+    "https://www.theverge.com/ai-artificial-intelligence/976289/suno-ai-music-spam-watermark": "Suno公布打击低质泛滥AI音乐的计划",
+    "https://techcrunch.com/2026/08/06/naive-raises-28-5m-to-automate-the-grunt-work-of-setting-up-and-running-a-company": "Naïve融资2850万美元，自动化处理公司设立和运营中的繁琐工作",
+    "https://www.kdnuggets.com/beyond-bots-rethinking-ai-support-with-a-hybrid-ai-architecture": "超越聊天机器人：以混合AI架构重新思考AI客服",
+    "https://techcrunch.com/2026/08/06/gen-z-dating-apps-like-ditto-ditch-swiping-in-favor-of-ai-matchmaking": "Ditto等Z世代约会应用放弃滑动匹配，转向AI配对",
+    "https://techcrunch.com/2026/08/06/openai-says-apples-own-security-practices-undermine-its-trade-secrets-case": "OpenAI称苹果自身的安全做法削弱了其商业秘密诉讼",
+    "https://www.digitimes.com/news/a20260807PD212/exports-price-2026-vehicle-competition.html": "中国出口激增显示车企正从价格战转向价值战",
+    "https://www.digitimes.com/news/a20260807PR200/amd-ai-inference-technology-startup-acquisition.html": "AMD将收购Taalas，以推动更快的AI推理芯片",
+    "https://www.digitimes.com/news/a20260807VL200/polysilicon-price-donald-trump-security-solar.html": "美国对多晶硅设置价格下限并加征关税，加剧对华科技脱钩",
+    "https://www.digitimes.com/news/a20260807VL202/polysilicon-2025-price-2024-shipments.html": "分析：美国五年多晶硅进口数据揭示华盛顿为何将价格下限定为21美元",
+    "https://www.digitimes.com/news/a20260807VL201/polysilicon-solar-donald-trump-price-capacity.html": "分析：特朗普的多晶硅关税令太阳能行业赢家与输家分化",
+    "https://www.digitimes.com/news/a20260806VL221/nvidia-6g-equipment-gpu-telecom.html": "英伟达寻求中国AI-RAN合作伙伴，将GPU计算引入6G网络",
+    "https://semiwiki.com/ip/ceva/372013-new-audio-socs-combine-bluetooth-hdt-with-dual-rf-technology": "新款音频SoC将蓝牙HDT与双射频技术结合",
+    "https://www.eetimes.com/ai-chip-startup-taalas-acquired-by-amd": "AI芯片初创公司Taalas被AMD收购",
+    "https://roboticsandautomationnews.com/2026/08/06/interview-with-icarus-robotics-co-founder-jamie-palmer-building-a-robotic-labor-force-for-space/103978": "专访Icarus Robotics联合创始人Jamie Palmer：打造太空机器人劳动力",
+    "https://www.therobotreport.com/hii-signs-up-to-900m-agreement-with-path-robotics-graymatter-robotics": "HII与Path Robotics、GrayMatter Robotics签署最高9亿美元协议",
+    "https://roboticsandautomationnews.com/2026/08/06/digitizing-the-shop-floor-job-tracking-vs-full-production-intelligence/103971": "车间数字化：作业跟踪与完整生产智能的比较",
+    "https://roboticsandautomationnews.com/2026/08/06/german-construction-giant-launches-3d-printing-division-after-printing-new-headquarters/103965": "德国建筑巨头在3D打印新总部后成立3D打印部门",
+    "https://www.therobotreport.com/how-robin-robotic-companion-keeps-patients-calm-during-hospital-visits": "机器人陪伴设备Robin如何帮助患者在就诊期间保持平静",
+    "https://roboticsandautomationnews.com/2026/08/06/pia-automation-to-build-bmw-e-drive-assembly-line-with-46-robots-and-digital-twin-technology/103954": "PIA Automation将用46台机器人和数字孪生技术建设宝马电驱装配线",
+    "https://www.therobotreport.com/report-looks-at-advances-in-autonomous-mobile-robots": "报告评述自主移动机器人领域的进展",
+    "https://roboticsandautomationnews.com/2026/08/06/sarla-aviation-adopts-siemens-xcelerator-to-accelerate-evtol-aircraft-development/103956": "Sarla Aviation采用西门子Xcelerator，加快eVTOL飞行器研发",
+    "https://cnevpost.com/2026/08/07/nio-120-million-battery-swaps-4000th-station": "蔚来第4000座换电站投运，累计换电突破1.2亿次",
+    "https://electrek.co/2026/08/06/tesla-is-racking-up-speeding-tickets-and-you-are-on-the-hook": "特斯拉不断收到超速罚单，费用却由车主承担",
+    "https://electrek.co/2026/08/06/nyc-is-putting-600-new-ev-charging-points-right-at-the-curb": "纽约市将在路边新增600个电动汽车充电点",
+    "https://electrek.co/2026/08/06/tesla-megapack-power-orsted-big-new-texas-grid-battery": "500兆瓦时特斯拉Megapack储能项目在得州投运",
+    "https://electrek.co/2026/08/06/another-day-another-illegal-billion-dollar-bribe-to-raise-your-electricity-prices": "又一起涉嫌以十亿美元非法行贿、推高电价的事件",
+    "https://insideevs.com/news/804099/clemson-bmw-energy-positive-ev": "克莱姆森太阳能电动车项目看似纸板鞋，实际设计更巧妙",
+    "https://electrek.co/2026/08/06/byd-launches-4-seat-ultra-luxe-flagship-suv-215000-images": "比亚迪在中国推出21.5万美元四座超豪华旗舰SUV（图片）",
+    "https://insideevs.com/news/804088/toyota-retrofit-old-car-tech": "丰田将通过原厂升级计划改造老款插电式汽车",
+    "https://cleantechnica.com/2026/08/06/zoox-to-start-charging-passengers-next-week": "Zoox下周开始向乘客收费",
+    "https://oilprice.com/Metals/Gold/Lower-Oil-Prices-Lend-Support-For-The-Gold-Rally.html": "油价走低为黄金上涨提供支撑",
+    "https://oilprice.com/Energy/Natural-Gas/Gas-Shortages-and-High-Prices-Derail-Southeast-Asias-Power-Buildout.html": "天然气短缺和高价拖累东南亚电力建设",
+    "https://cleantechnica.com/2026/08/06/victory-court-overturns-trump-administrations-wind-pause": "法院推翻特朗普政府暂停风电项目的决定",
+    "https://cleantechnica.com/2026/08/06/donald-trump-pays-off-5th-energy-company-in-attack-on-renewable-energy": "特朗普政府在打击可再生能源行动中向第五家能源公司支付补偿",
+    "https://cleantechnica.com/2026/08/06/china-unveils-safety-standards-for-autonomous-driving-systems": "中国公布自动驾驶系统安全标准",
+    "https://cleantechnica.com/2026/08/06/ford-fathom-electric-pickup-truck-ev-affordable": "福特新款Fathom电动皮卡起售价仅28350美元",
+    "https://oilprice.com/Energy/Energy-General/UK-Drivers-Take-To-Fuel-Theft-amid-War-Driven-Price-Surge.html": "战争推高油价，英国司机转向偷盗燃油",
+    "https://endpoints.news/replimune-wins-fda-approval-after-melanoma-drug-was-twice-rejected": "Replimune两度被拒后终于获FDA批准黑色素瘤药物",
+    "https://www.statnews.com/2026/08/06/biotech-news-two-fda-approvals-a-new-drug-and-a-new-vaccine": "STAT+：FDA批准一款新药和一种新疫苗",
+    "https://www.genengnews.com/topics/omics/genetic-findings-provide-insights-into-leading-cause-of-back-pain": "遗传学发现揭示背痛首要病因",
+    "https://www.biopharmadive.com/news/replimune-tudriqev-fda-approve-melanoma-rp1/827226": "Replimune扭转局面，黑色素瘤药物获FDA批准",
+    "https://www.genengnews.com/topics/translational-medicine/engineered-human-interneuron-transplants-repair-respiratory-circuits-in-injured-rats": "工程化人源中间神经元移植修复受伤大鼠的呼吸神经回路",
+    "https://www.genengnews.com/resources/ebooks/tau-and-alzheimers-disease": "Tau蛋白与阿尔茨海默病",
+    "https://www.statnews.com/2026/08/06/replimune-melanoma-drug-rp1-fda-approves-phase-3-confirmatory-trial": "STAT+：FDA批准Replimune此前两度被拒的黑色素瘤药物",
+    "https://endpoints.news/fda-details-pilot-plan-to-expedite-new-drugs-eyeing-up-to-10-programs": "FDA公布加速新药审批试点计划，拟纳入最多10个项目",
+    "https://www.genengnews.com/sponsored/renewed-importance-of-cex-in-monoclonal-antibody-purification": "阳离子交换色谱在单克隆抗体纯化中的重要性再获关注",
+    "https://spaceflightnow.com/2026/08/06/blue-origin-identifies-engine-issue-behind-new-glenn-explosion": "蓝色起源确认新格伦火箭爆炸背后的发动机问题",
+    "https://www.space.com/space-exploration/international-space-station/1-more-step-nasa-astronauts-conduct-6-5-hour-spacewalk-to-prep-iss-for-solar-array-upgrade": "NASA宇航员完成6.5小时太空行走，为国际空间站太阳能阵列升级做准备",
+    "https://science.nasa.gov/learning-resources/science-activation/educators-teens-get-hands-on-with-tempo-data-to-help-investigate-local-air-quality": "教育工作者与青少年动手使用TEMPO数据调查当地空气质量",
+    "https://www.space.com/space-exploration/launches-spacecraft/rocket-lab-launches-japanese-earth-observing-satellite-after-5-week-delay-video-photos": "火箭实验室在推迟五周后发射日本地球观测卫星（视频、图片）",
+    "https://science.nasa.gov/photojournal/nasas-skyfall-helicopters-at-work-artists-concept": "NASA“天降”直升机执行任务（艺术概念图）",
+    "https://science.nasa.gov/photojournal/antenna-testing-for-nasas-skyfall-mission": "NASA“天降”任务开展天线测试",
+    "https://www.nasa.gov/missions/artemis/i-am-artemis/i-am-artemis-tom-percy": "“我是阿耳忒弥斯”：Tom Percy",
+    "https://www.space.com/entertainment/space-movies-shows/strange-new-worlds-latest-hangover-inspired-episode-is-a-reminder-that-star-trek-vacations-are-never-a-good-idea": "《奇异新世界》最新“宿醉”式剧情再次说明《星际迷航》里的度假从不是好主意",
+    "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-a-major-chatgpt-upgrade-even-if-you-dont-pay-for-it": "OpenAI推出ChatGPT重大升级，免费用户同样可用",
+    "https://www.darkreading.com/cyberattacks-data-breaches/coordination-gap-attackers-outpacing-law-enforcement": "协同缺口：攻击者如何跑在执法部门前面",
+    "https://www.darkreading.com/cloud-security/researcher-claims-control-chatgpt-secure-sandbox": "研究人员声称已控制ChatGPT安全沙箱",
+    "https://www.bleepingcomputer.com/news/security/hedge-fund-cyberattacks-tied-to-blackfile-linked-unc6671-extortion-group": "针对对冲基金的网络攻击与BlackFile关联勒索组织UNC6671有关",
+    "https://www.darkreading.com/cybersecurity-operations/from-bobmojis-to-bobbleheads-how-the-democratic-party-built-a-security-first-culture": "从表情包到摇头公仔：美国民主党如何建立安全优先文化",
+    "https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts": "瑞士政府SharePoint遭入侵，200个账户受影响",
+    "https://www.bleepingcomputer.com/news/security/new-tontou-cpu-attack-bypasses-spectre-v2-fixes-leaks-linux-password-hashes": "新型TONTOU CPU攻击绕过Spectre v2修复并泄露Linux密码哈希",
+    "https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html": "新发现的Zapscape KVM漏洞可使特权L1来宾代码逃逸至Linux宿主机",
+    "https://www.techmeme.com/260806/p57": "专访Replit CEO Amjad Masad：为何“氛围编程”从来不只是编程、SaaS末日与打造“自动驾驶公司”",
+    "https://www.wired.com/story/moonshot-kimi-k3-ai-model-escape-sandbox": "中国最强大的AI模型之一也突破了安全隔离",
+    "https://www.techmeme.com/260806/p56": "DDN公司侧写：AI合作推动其年营收从热潮前3亿美元增至年底预计10亿美元",
+    "https://www.wsj.com/tech/meta-ordered-to-pay-942-million-to-address-harm-to-kids-from-social-media-8ba5aab7": "Meta被判支付9.42亿美元，以补救社交媒体对儿童造成的伤害",
+    "https://www.techmeme.com/260806/p55": "新墨西哥州法官裁定Meta支付5.67亿美元并整改未成年人产品",
+    "https://www.techmeme.com/260806/p54": "Alphabet发债250亿美元，消息称峰值认购需求约1150亿美元并计划每年两次发行美元债",
+    "https://www.tmtpost.com/8094739.html": "自动驾驶围绕预测物理世界的模型重构自身",
+    "https://zenodo.org/records/21359923": "铁硫簇SQD/QSCI量子化学基准的自旋审计",
+    "https://www.gsmarena.com/apple_wants_to_get_chinese_dram_on_the_cheap_cxmt_says_no-news-74048.php": "长鑫存储拒绝苹果低价采购中国DRAM的报价",
+    "https://www.androidauthority.com/openai-smart-speaker-shape-price-features-battery-power-3695603": "据报道，OpenAI首款AI智能音箱不仅会说话，还能移动",
+    "https://9to5mac.com/2026/08/06/daily-august-6-2026": "9to5Mac每日简报：2026年8月6日——iPhone 18 Pro或供应短缺等",
+    "https://9to5mac.com/2026/08/06/apple-health-best-features": "Apple健康比你想象的更强大：我的实用技巧",
+    "https://9to5mac.com/2026/08/06/iphone-18-pro-price-heres-how-much-more-it-could-cost": "iPhone 18 Pro价格：可能会贵多少",
+    "https://www.gsmarena.com/samsung_galaxy_z_fold8_vs_samsung_galaxy_z_fold8_ultra-news-73985.php": "三星Galaxy Z Fold8与Galaxy Z Fold8 Ultra对比",
+    "https://www.dpreview.com/news/panasonic-did-what-apple-sony-and-nikon-couldnt-overturn-a-red-raw-video-patent": "松下完成苹果、索尼和尼康未能做到的事：推翻Red RAW视频专利",
+    "https://9to5mac.com/2026/08/06/report-ipad-shipments-fell-8-in-q2-2026-amid-global-tablet-market-decline": "报告：全球平板市场下滑，2026年第二季度iPad出货量下降8%",
+    "https://wallstreetcn.com/articles/3778902": "网安行业受益于AI需求扩张，Cloudflare上调全年盈利预期",
+    "https://seekingalpha.com/news/4628716-hasi-signals-2028-adjusted-eps-of-3_55-3_65-while-affirming-adjusted-roe-above-17-percent": "HASI预计2028年调整后每股收益3.55至3.65美元，并确认调整后ROE高于17%",
+    "https://www.cnbc.com/2026/08/07/us-iran-war-trump-hormuz-diplomacy-oil-.html": "伊朗首席谈判代表指责特朗普搞“表演式外交”，霍尔木兹海峡交通接近停滞",
+    "https://seekingalpha.com/news/4628715-cleanspark-outlines-6_6b-sandersville-lease-with-path-to-11_6b-and-targets-1_75b-2_1b-project": "CleanSpark披露桑德斯维尔66亿美元租赁协议，潜在规模达116亿美元，项目资本开支目标17.5亿至21亿美元",
+    "https://seekingalpha.com/news/4628714-five9-forecasts-at-least-60-percent-ai-growth-and-1_266b-2026-revenue": "Five9预计AI业务增长至少60%，2026年营收12.66亿美元",
+    "https://www.cnbc.com/2026/08/06/meta-to-pay-into-567-million-fund-after-child-harms-case-new-mexico.html": "Meta被判向新墨西哥州儿童伤害补救基金支付5.67亿美元",
+    "https://seekingalpha.com/news/4628713-lyft-signals-over-1b-rides-in-2026-as-partnerships-reach-30-percent-of-north-american-rides": "Lyft预计2026年行程量超过10亿次，合作伙伴贡献北美约30%行程",
+    "https://seekingalpha.com/news/4628712-gen-projects-9-percent-to-11-percent-revenue-growth-and-14-percent-to-18-percent-non-gaap-eps": "Gen上调展望，预计2027财年营收增长9%至11%、非GAAP每股收益增长14%至18%",
+    "https://seekingalpha.com/news/4628711-cloudflare-forecasts-2_864b-2_870b-2026-revenue-as-it-outlines-0_34-q3-eps": "Cloudflare预计2026年营收28.64亿至28.70亿美元，第三季度每股收益0.34美元",
+    "https://www.livescience.com/space/the-sun/most-detailed-ever-view-of-the-suns-surface-revealed-in-new-images-from-the-worlds-largest-solar-telescope": "全球最大太阳望远镜新图像呈现迄今最精细的太阳表面",
+    "https://www.sciencenews.org/article/first-mrna-flu-vaccine-fall-season": "首款mRNA流感疫苗将如何影响流感季",
+    "https://www.livescience.com/planet-earth/rivers-oceans/it-would-be-a-disaster-ammunition-for-war-and-surging-water-withdrawals-are-putting-the-caspian-sea-on-the-brink-of-collapse": "“这将是一场灾难”：战争弹药和用水激增正把里海推向崩溃边缘",
+    "https://arstechnica.com/science/2026/08/large-genome-models-used-to-design-new-viruses": "大型基因组模型被用于设计新型病毒",
+    "https://www.newscientist.com/article/2583523-its-good-for-the-planet-to-scrap-a-new-petrol-car-and-buy-electric": "报废一辆新汽油车并改买电动车也有利于环境",
+    "https://www.sciencenews.org/article/sugar-ingredient-human-evolution-fruit": "糖可能是人类进化的关键成分",
+    "https://www.livescience.com/health/medicine-drugs/fda-approves-first-mrna-vaccine-for-seasonal-flu": "FDA批准首款季节性流感mRNA疫苗",
+    "https://www.livescience.com/space/space-exploration/first-photos-of-spacex-lunar-rocket-crash-show-blackened-hole-torn-into-the-moons-surface": "SpaceX月球火箭坠毁首批照片显示月面被撞出焦黑坑洞"
   },
+  "overseas_markets": [
+    {
+      "market": "美股",
+      "flag": "🇺🇸",
+      "session": "8月6日收盘",
+      "updated_at": "2026-08-07 10:05 CST",
+      "status": "negative",
+      "status_label": "美股小幅收低，存储股在强劲业绩后继续显著回撤",
+      "move": "道指 -0.85%｜标普500 -0.18%｜纳指 -0.06%",
+      "driver": "闪迪、西部数据等存储股在强劲业绩后仍明显下跌，显示AI存储处于高预期兑现阶段；油价上行及美国就业数据前的利率不确定性也压制风险偏好。",
+      "a_share_links": [
+        "NAND",
+        "企业级SSD",
+        "AI存储",
+        "贵金属"
+      ],
+      "validation": "观察兆易创新、德明利、太极实业能否在海外存储股承压背景下形成至少两只同步走强；美国就业数据公布后复核美元、利率与贵金属方向。",
+      "sources": [
+        "https://www.reuters.com/business/retail-consumer/sp-500-dow-futures-steady-mideast-deal-focus-chips-stumble-2026-08-06/",
+        "https://www.reuters.com/business/sandisk-western-digital-drag-chip-stocks-lofty-expectations-eclipse-strong-2026-08-06/",
+        "https://apnews.com/article/b13b60e192e74e6dc6ab222dc296b5d2"
+      ]
+    },
+    {
+      "market": "日股",
+      "flag": "🇯🇵",
+      "session": "8月7日早盘",
+      "updated_at": "2026-08-07 09:26 CST",
+      "status": "pending",
+      "status_label": "日经高开后转跌，精确开盘点位待第二来源复核",
+      "move": "开盘65,746.13（较前收约+0.10%）｜10:26 JST 65,033.39（-0.99%）",
+      "driver": "芯片相关权重领跌，海外AI硬件高预期兑现与中东能源风险共同压制科技风险偏好。",
+      "a_share_links": [
+        "半导体设备",
+        "AI硬件",
+        "被动元件",
+        "消费电子"
+      ],
+      "validation": "Google Finance与WSJ均显示早盘约跌0.7%至1.0%，但精确开盘点位仅获单一来源，待Nikkei Indexes或JPX复核；观察午前能否收复65,746点。",
+      "sources": [
+        "https://www.google.com/finance/beta/quote/NI225:INDEXNIKKEI?hl=zh",
+        "https://www.wsj.com/finance/stocks/nikkei-falls-0-7-dragged-by-chip-related-stocks-ed8fd1ea"
+      ]
+    },
+    {
+      "market": "韩股",
+      "flag": "🇰🇷",
+      "session": "8月7日早盘",
+      "updated_at": "2026-08-07 09:21 CST",
+      "status": "pending",
+      "status_label": "KOSPI高开后转跌，精确开盘点位待第二来源复核",
+      "move": "开盘6,365.07（较前收约+1.09%）｜10:21 KST 6,203.19（-1.48%）",
+      "driver": "指数未守住高开，存储与半导体权重延续高波动，海外存储风险偏好尚未稳定。",
+      "a_share_links": [
+        "HBM",
+        "DRAM",
+        "NAND",
+        "封测"
+      ],
+      "validation": "当前精确开盘与观测值来自Google Finance单一报价，待KRX或另一独立报价源复核；观察能否重新站上6,365点。",
+      "sources": [
+        "https://www.google.com/finance/beta/quote/KOSPI:KRX?hl=zh"
+      ]
+    }
+  ],
   "signals": [
     {
-      "event": "强劲业绩未能支撑海外存储股，AI存储进入高预期兑现阶段",
+      "event": "苹果据报寻求中国DRAM供货但低价报价被拒，存储供需偏紧与高预期兑现并存",
       "industry": "semi",
-      "industry_name": "NAND / 企业级SSD / AI存储",
+      "industry_name": "DRAM / NAND / AI存储",
       "direction": "mixed",
       "strength": 5,
       "horizon": "1-4w",
       "priced_in": "high",
-      "reason": "闪迪与西部数据业绩强劲、数据中心需求仍高，但股价显著下跌；美光和SK海力士ADR也承压。市场焦点由需求是否增长转向NAND价格涨幅能否延续及高估值能否兑现。该变化对兆易创新、德明利、太极实业构成负向外围价格验证，但不等同于产业需求转弱。",
+      "reason": "苹果在iPhone 18发布前据报面临DRAM供应紧张并接触长鑫存储，但低价报价未获接受，支持存储供需与价格韧性；与此同时，闪迪、西部数据等海外存储股在强劲业绩后仍显著下跌，说明股价已进入高预期兑现阶段。今早兆易创新约涨5%，但太极实业小幅下跌，板块同步性仍不足。",
       "assets": [
         "603986",
         "001309",
         "600667"
       ],
       "validation": [
-        "兆易创新、德明利、太极实业中至少两只相对半导体指数止跌，并获得NAND报价、订单或业绩指引确认",
-        "海外存储股在下一交易窗口企稳，数据中心需求继续兑现"
+        "兆易创新、德明利、太极实业中至少两只收盘同步走强，并有DRAM/NAND报价或订单信息确认",
+        "海外存储股下一交易窗口止跌，且数据中心需求指引未下修"
       ],
       "invalidation": [
-        "海外NAND价格预期继续下修且相关存储股扩大跌幅",
-        "A股存储链放量跌破本周修复区间"
+        "低价采购传闻被权威来源否认，或DRAM/NAND渠道报价转弱",
+        "A股存储链冲高回落并重新跌破本周修复区间"
       ],
       "urls": [
+        "https://www.gsmarena.com/apple_wants_to_get_chinese_dram_on_the_cheap_cxmt_says_no-news-74048.php",
+        "https://www.eetimes.com/samsung-lays-out-ai-memory-roadmap",
         "https://www.reuters.com/business/sandisk-western-digital-drag-chip-stocks-lofty-expectations-eclipse-strong-2026-08-06/"
       ]
     },
     {
-      "event": "霍尔木兹限制草案推动油价反弹，贵金属与利率预期重新进入双向波动",
+      "event": "A股CPO与PCB早盘反弹，但日韩科技股走弱，暂属国内承接而非跨市场反转",
+      "industry": "tech",
+      "industry_name": "CPO / PCB / AI硬件",
+      "direction": "mixed",
+      "strength": 4,
+      "horizon": "1-5d",
+      "priced_in": "medium",
+      "reason": "中际旭创与东山精密早盘分别约涨2.6%和4.2%，显示前期冲击后出现承接；但日经高开转跌约1%，KOSPI跌约1.5%，海外芯片风险偏好仍弱。单一早盘反弹不足以确认趋势反转，需要收盘守住与未来交易日的板块扩散。",
+      "assets": [
+        "300308",
+        "002384"
+      ],
+      "validation": [
+        "中际旭创、东山精密收盘均保持正涨幅，且CPO、PCB板块至少各有一只同方向强势标的",
+        "未来两个交易日不跌破8月6日低点，并出现成交量与板块扩散确认"
+      ],
+      "invalidation": [
+        "中际旭创或东山精密冲高回落并收跌",
+        "日韩芯片权重继续扩大跌幅且美股AI硬件再次明显下行"
+      ],
+      "urls": [
+        "https://www.google.com/finance/beta/quote/300308:SHE?hl=zh",
+        "https://www.google.com/finance/beta/quote/002384:SHE?hl=zh",
+        "https://www.wsj.com/finance/stocks/nikkei-falls-0-7-dragged-by-chip-related-stocks-ed8fd1ea"
+      ]
+    },
+    {
+      "event": "霍尔木兹航运接近停滞的报道维持油价与贵金属的双向波动风险",
       "industry": "macro",
       "industry_name": "原油 / 黄金ETF / 白银LOF",
       "direction": "mixed",
       "strength": 4,
       "horizon": "1-5d",
       "priced_in": "medium",
-      "reason": "伊朗议会委员会审议限制美国、以色列等船只通过霍尔木兹海峡的草案，布伦特原油上涨3.83%至82.49美元，WTI涨至77.29美元。油价回升重新抬高通胀与利率风险，黄金在七周高位附近回吐涨幅；黄金ETF华安受金价与人民币共同影响，国投白银LOF还需独立核验净值、溢价及交易限制。",
+      "reason": "伊朗首席谈判代表指责美国进行表演式外交，报道称霍尔木兹海峡交通接近停滞。能源供应风险支撑原油与避险需求，但油价上行也可能抬升通胀和实际利率，黄金与白银方向不能简单等同；国投白银LOF还需独立核验净值、溢价和交易公告。",
       "assets": [
         "518880",
         "161226"
       ],
       "validation": [
-        "伊朗草案是否进入正式立法或执行阶段，以及霍尔木兹航运量是否继续下降",
-        "黄金、白银现货与国内ETF净值方向是否一致，白银LOF溢价是否收敛"
+        "霍尔木兹航运量、谈判进展与布伦特原油是否继续维持高位",
+        "黄金、白银现货与国内基金净值方向一致，白银LOF溢价未扩大"
       ],
       "invalidation": [
-        "美伊达成可执行协议且原油回吐本轮涨幅",
-        "贵金属在非农后因美元和实际利率上升而明显回落"
+        "出现可执行的停火或航运恢复安排，原油回吐本轮涨幅",
+        "美元和实际利率明显上升并带动贵金属同步回落"
       ],
       "urls": [
+        "https://www.cnbc.com/2026/08/07/us-iran-war-trump-hormuz-diplomacy-oil-.html",
         "https://www.reuters.com/business/energy/oil-prices-slip-iran-oman-talks-fuel-hopes-us-iran-peace-deal-2026-08-06/",
         "https://www.reuters.com/world/india/gold-touches-seven-week-high-strait-hormuz-reopening-hopes-2026-08-06/"
       ]
