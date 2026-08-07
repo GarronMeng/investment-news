@@ -1,6 +1,6 @@
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-07 13:05",
-  "source_generated_at": "2026-08-07 11:18",
+  "generated_at": "2026-08-07 14:05",
+  "source_generated_at": "2026-08-07 13:25",
   "generated_by": "ChatGPT Web",
   "status": "ready",
   "news_titles": {
@@ -367,36 +367,72 @@ window.AI_SIGNALS = {
     "https://seekingalpha.com/news/4628796-sui-group-holdings-gaap-eps-of-0_23-misses-by-0_11-revenue-of-1_2m-beats-by-0_49m": "SUI Group GAAP每股亏损0.23美元，低于预期0.11美元；营收120万美元，超预期49万美元",
     "https://seekingalpha.com/news/4628795-shoulder-innovations-inc-gaap-eps-of-0_49-misses-by-0_03-revenue-of-17_2m-beats-by-0_63m": "Shoulder Innovations GAAP每股亏损0.49美元，低于预期0.03美元；营收1720万美元，超预期63万美元",
     "https://www.cnbc.com/2026/08/07/china-july-trade-exports-imports-surplus-imbalance-tariffs-.html": "中国7月出口增长23%超预期，进口增速放缓",
-    "https://www.marketwatch.com/story/microns-stock-claws-back-to-buck-the-memory-chip-selloff-58af0155": "美光股价下跌，但避开了存储芯片抛售中最严重的跌幅"
+    "https://www.marketwatch.com/story/microns-stock-claws-back-to-buck-the-memory-chip-selloff-58af0155": "美光股价下跌，但避开了存储芯片抛售中最严重的跌幅",
+    "https://arxiv.org/abs/2608.05159": "智能体嵌套：面向现有企业应用集成与服务的新方法",
+    "https://arxiv.org/abs/2608.05160": "点火指数：衡量语言模型中的全局工作空间动态",
+    "https://arxiv.org/abs/2608.05168": "啄木鸟蒸馏：让弱模型诊断强模型的推理缺陷",
+    "https://arxiv.org/abs/2608.05203": "从连续预测指标到临床阈值：基于指南分类预测缺血性卒中结局的性能权衡初步证据",
+    "https://arxiv.org/abs/2608.05204": "SkillTrace：用于大模型智能体技能复用的多轨迹溯源审计",
+    "https://arxiv.org/abs/2608.05205": "抽象事件因果规则：归纳与应用",
+    "https://www.digitimes.com/news/a20260805PD232/iron-force-ai-server-cooling-2026-automotive.html": "Iron Force Industrial上半年表现转弱，同时推进AI服务器散热零部件业务",
+    "https://www.digitimes.com/news/a20260807VL208/china-llm-price-commercial-licensing.html": "中国AI企业转向商业化，报道称大模型供应商释放涨价信号",
+    "https://www.digitimes.com/news/a20260807VL210/optical-components-transceiver-module-production-usa-ban-china.html": "美国光模块禁令可能拖慢AI数据中心建设",
+    "https://www.digitimes.com/news/a20260807PD225/nvidia-cpo-optics-production-switch.html": "专访：英伟达高管谈CPO量产进展与可插拔光模块",
+    "https://www.digitimes.com/news/a20260806VL219/chips-lg-lg-electronics-on-device-ai-soc.html": "LG规划三档家电与家庭机器人AI芯片",
+    "https://semiwiki.com/artificial-intelligence/370090-white-paper-the-semiconductor-foundation-of-modern-ai-data-centers": "白皮书：现代AI数据中心的半导体基础",
+    "https://cnevpost.com/2026/08/07/leapmotor-a10-100000-production-milestone": "零跑售价低于1万美元的A10 SUV上市135天产量突破10万辆",
+    "https://cnevpost.com/2026/08/07/deepal-launches-updated-s05-suv": "深蓝推出改款S05纯电SUV，起售价约1.7万美元",
+    "https://www.pv-tech.org/gentari-australia-reaches-mechanical-completion-at-243mwp-solar-plus-storage-project": "Gentari澳大利亚243MWp光储项目完成机械施工",
+    "https://www.pv-tech.org/australias-data-centre-energy-rules-take-shape-as-aemc-publishes-framework-and-nsw-moves-to-control-grid-access": "澳大利亚数据中心能源规则逐步成形：AEMC发布框架，新州拟管控电网接入",
+    "https://www.energy-storage.news/zebre-submits-180mw-bess-to-australias-epbc-act-as-zen-energy-administration-fails-to-slow-pipeline": "ZEBRE将180MW电池储能项目提交澳大利亚EPBC法案审查，ZEN Energy托管未拖慢项目管线",
+    "https://www.genengnews.com/topics/translational-medicine/fmt-shows-promise-for-peanut-allergy-tolerance-in-phase-i-trial": "粪菌移植在I期试验中显示提高花生过敏耐受性的潜力",
+    "https://www.engadget.com/2232202/meta-additional-567-million-fine-new-mexico-child-safety-case": "法院判令Meta在新墨西哥州儿童安全案中额外支付5.67亿美元",
+    "https://www.techmeme.com/260807/p2": "消息称字节跳动正预训练最高10万亿参数AI模型，约为Kimi K3三倍，规模或超Anthropic Mythos 5预估",
+    "https://www.wired.com/story/bh-photo-coupon": "B&H Photo 2026年8月优惠码与促销",
+    "https://www.wired.com/story/google-workspace-promo-code": "Google Workspace优惠码：2026年8月可享14%折扣",
+    "https://www.wired.com/story/hotels-com-coupon": "Hotels.com 2026年8月优惠码",
+    "https://www.wired.com/story/nike-promo-code": "Nike优惠码与折扣：2026年8月最高七折",
+    "https://socket.dev/blog/ai-agent-open-source-malware": "Mythos试图通过社会工程诱使开源维护者合并恶意软件",
+    "https://www.techmeme.com/260806/p61": "悉尼AI数据中心公司Firmus获Coatue、英伟达等投资20亿美元，投后估值105亿美元",
+    "https://www.gsmarena.com/gta_vi_extended_look_is_coming_later_this_month_to_netflix-news-74053.php": "《GTA VI》加长预览将于本月晚些时候登陆Netflix",
+    "https://www.androidauthority.com/dell-xps-googlebook-leak-3695613": "戴尔首款Googlebook或采用其最具代表性的笔记本品牌",
+    "https://www.gsmarena.com/leaked_bose_quietcomfort_2nd_gen_renders_reveal_refreshed_design_color_options-news-74051.php": "泄露的Bose QuietComfort二代渲染图显示全新设计与配色",
+    "https://seekingalpha.com/news/4628879-amrize-ag-declares-0_11-dividend": "Amrize AG宣布派发每股0.11美元股息",
+    "https://www.cnbc.com/2026/08/07/oil-rises-supply-fears-iran-draft-plan-strait-hormuz.html": "伊朗公布禁止美国船只通过霍尔木兹海峡的计划草案后，油价上涨",
+    "https://seekingalpha.com/news/4628878-portman-ridge-finance-declares-0_09-dividend": "Portman Ridge Finance宣布派发每股0.09美元股息",
+    "https://seekingalpha.com/news/4628877-pra-group-outlines-20m-annualized-savings-and-launches-150m-buyback-program-as-european-erc": "PRA Group提出每年节省2000万美元并启动1.5亿美元回购，欧洲ERC升至3.49亿美元",
+    "https://seekingalpha.com/news/4628876-u-s-physical-therapy-reaffirms-102m-106m-adjusted-ebitda-guidance-as-nyu-langone-rollout": "U.S. Physical Therapy重申1.02亿至1.06亿美元调整后EBITDA指引，NYU Langone项目延伸至第三季度",
+    "https://seekingalpha.com/news/4628874-tejon-ranch-targets-early-2027-delivery-for-510000-square-foot-industrial-project-while": "Tejon Ranch计划2027年初交付51万平方英尺工业项目，并将在明年5月前将董事人数调整为7人",
+    "https://seekingalpha.com/news/4628873-lightbridge-outlines-haleu-supply-planning-with-qni-s-18-metric-tons-annual-target-amid-doe-s": "在美国能源部推动约5GW核电增容之际，Lightbridge披露HALEU供应规划及QNI年产18吨目标"
   },
   "overseas_markets": [
     {
       "market": "美股",
       "flag": "🇺🇸",
       "session": "8月6日收盘",
-      "updated_at": "2026-08-07 13:05 CST",
+      "updated_at": "2026-08-07 14:05 CST",
       "status": "negative",
       "status_label": "美股小幅收低，存储股在强劲业绩后继续显著回撤",
       "move": "道指 -0.85%｜标普500 -0.18%｜纳指 -0.06%",
-      "driver": "闪迪、西部数据等存储股在强劲业绩后仍明显下跌，显示AI存储处于高预期兑现阶段；油价上行及美国就业数据前的利率不确定性也压制风险偏好。",
+      "driver": "闪迪、西部数据等存储股在强劲业绩后仍明显下跌；伊朗公布限制美国船只通过霍尔木兹海峡的草案后油价上涨，就业数据前的利率与能源风险共同压制风险偏好。",
       "a_share_links": [
         "NAND",
         "企业级SSD",
         "AI存储",
         "贵金属"
       ],
-      "validation": "A股存储、CPO与PCB午后初段仍保持内部修复；美国就业数据公布后继续复核美元、利率与海外存储股能否止跌。",
+      "validation": "A股存储、CPO与PCB午后仍保持内部修复；美国就业数据公布后继续复核美元、利率、油价与海外存储股能否止跌。",
       "sources": [
         "https://www.reuters.com/business/retail-consumer/sp-500-dow-futures-steady-mideast-deal-focus-chips-stumble-2026-08-06/",
         "https://www.reuters.com/business/sandisk-western-digital-drag-chip-stocks-lofty-expectations-eclipse-strong-2026-08-06/",
-        "https://apnews.com/article/b13b60e192e74e6dc6ab222dc296b5d2"
+        "https://www.cnbc.com/2026/08/07/oil-rises-supply-fears-iran-draft-plan-strait-hormuz.html"
       ]
     },
     {
       "market": "日股",
       "flag": "🇯🇵",
       "session": "8月7日午后",
-      "updated_at": "2026-08-07 12:47 CST",
+      "updated_at": "2026-08-07 13:47 CST",
       "status": "negative",
       "status_label": "日经跌幅收窄至约0.6%，仍未收复开盘位",
       "move": "开盘65,746.13（较前收约+0.10%）｜13:47 JST 65,308.50（-0.57%）",
@@ -418,7 +454,7 @@ window.AI_SIGNALS = {
       "market": "韩股",
       "flag": "🇰🇷",
       "session": "8月7日午后",
-      "updated_at": "2026-08-07 12:35 CST",
+      "updated_at": "2026-08-07 13:35 CST",
       "status": "negative",
       "status_label": "KOSPI跌约1.0%，未守住早盘高开",
       "move": "开盘6,365.07（较前收约+1.09%）｜13:35 KST 6,232.50（-1.01%）",
@@ -445,7 +481,7 @@ window.AI_SIGNALS = {
       "strength": 5,
       "horizon": "1-4w",
       "priced_in": "high",
-      "reason": "午间收盘兆易创新涨6.70%、太极实业涨1.67%，德明利约涨3.23%，存储链维持正向扩散但强弱差异明显；海外存储股在强劲业绩后仍显著回撤，KOSPI午后下跌约1.0%。产业供需偏紧与高预期兑现同时存在，尚不能据单日上涨确认跨市场反转。",
+      "reason": "13:01兆易创新涨7.22%，13:06行情文件显示德明利约涨3.23%、太极实业约涨1.67%，存储链维持正向扩散但强弱差异明显；海外存储股在强劲业绩后仍显著回撤，KOSPI下跌约1.0%。产业供需偏紧与高预期兑现同时存在，尚不能据单日上涨确认跨市场反转。",
       "assets": [
         "603986",
         "001309",
@@ -466,30 +502,30 @@ window.AI_SIGNALS = {
       ]
     },
     {
-      "event": "CPO与PCB午后初段保持上涨，但中际旭创未越过开盘价，跨市场反转仍未成立",
+      "event": "CPO与PCB维持上涨，但美国光模块限制风险升温，价格修复与政策风险并存",
       "industry": "tech",
       "industry_name": "CPO / PCB / AI硬件",
       "direction": "mixed",
       "strength": 5,
       "horizon": "1-5d",
       "priced_in": "medium",
-      "reason": "13:02前后东山精密涨4.87%，中际旭创涨约2.35%，新易盛等同链标的仍保持正向扩散；但中际旭创977.45元仍低于Google Finance显示的981.09元开盘价，日经和KOSPI继续下跌。当前确认A股AI硬件内部修复，尚不能确认跨日、跨市场趋势反转。",
+      "reason": "13:02前后东山精密涨4.87%，中际旭创涨约2.35%，A股AI硬件内部修复延续；但DIGITIMES新报道称美国光模块禁令可能拖慢AI数据中心建设，Reuters此前称限制仍处草案阶段。政策尚未落地、影响方向复杂，当前上涨只说明市场部分吸收风险，不能确认政策解除或跨市场趋势反转。",
       "assets": [
         "300308",
         "002384"
       ],
       "validation": [
-        "中际旭创重新站上981.09元开盘价，东山精密收盘保持正涨幅且板块涨势未明显收窄",
+        "中际旭创、东山精密收盘保持正涨幅，且美国限制方案未扩大至现有主力型号或客户",
         "未来两个交易日不跌破8月6日低点，并获得海外AI硬件止跌确认"
       ],
       "invalidation": [
-        "中际旭创继续回落或东山精密明显冲高回落",
-        "日韩芯片权重扩大跌幅且美股AI硬件再次显著下行"
+        "美国正式扩大光模块进口限制范围并覆盖核心产品或客户",
+        "中际旭创、东山精密午后明显回吐，日韩芯片权重继续下跌"
       ],
       "urls": [
-        "https://www.google.com/finance/beta/quote/300308:SHE?hl=zh",
-        "https://www.google.com/finance/beta/quote/002384:SHE?hl=zh",
-        "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-07/"
+        "https://www.digitimes.com/news/a20260807VL210/optical-components-transceiver-module-production-usa-ban-china.html",
+        "https://www.reuters.com/world/trump-administration-drafting-ban-chinese-data-center-devices-sources-say-2026-08-04/",
+        "https://www.google.com/finance/beta/quote/300308:SHE?hl=zh"
       ]
     },
     {
