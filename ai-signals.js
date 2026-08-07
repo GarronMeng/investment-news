@@ -1,7 +1,7 @@
 // 自动生成，请勿手工编辑。
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-07 11:05",
-  "source_generated_at": "2026-08-07 09:51",
+  "generated_at": "2026-08-07 12:04",
+  "source_generated_at": "2026-08-07 11:18",
   "generated_by": "ChatGPT Web",
   "status": "ready",
   "news_titles": {
@@ -341,14 +341,41 @@ window.AI_SIGNALS = {
     "https://www.newscientist.com/article/2583523-its-good-for-the-planet-to-scrap-a-new-petrol-car-and-buy-electric": "报废一辆新汽油车并改买电动车也有利于环境",
     "https://www.sciencenews.org/article/sugar-ingredient-human-evolution-fruit": "糖可能是人类进化的关键成分",
     "https://www.livescience.com/health/medicine-drugs/fda-approves-first-mrna-vaccine-for-seasonal-flu": "FDA批准首款季节性流感mRNA疫苗",
-    "https://www.livescience.com/space/space-exploration/first-photos-of-spacex-lunar-rocket-crash-show-blackened-hole-torn-into-the-moons-surface": "SpaceX月球火箭坠毁首批照片显示月面被撞出焦黑坑洞"
+    "https://www.livescience.com/space/space-exploration/first-photos-of-spacex-lunar-rocket-crash-show-blackened-hole-torn-into-the-moons-surface": "SpaceX月球火箭坠毁首批照片显示月面被撞出焦黑坑洞",
+    "https://www.marktechpost.com/2026/08/06/cloudflare-introduces-kitesurf-an-agent-first-web-browser-that-runs-entirely-in-v8-isolates-on-cloudflare-workers": "Cloudflare推出Kitesurf：完全运行于Cloudflare Workers V8隔离环境的智能体优先浏览器",
+    "https://www.marktechpost.com/2026/08/06/adaptive-experimentation-with-metas-ax-a-practical-coding-guide": "使用Meta Ax开展自适应实验：实用编程指南",
+    "https://www.digitimes.com/news/a20260807VL206/china-mlcc-ceramic-capacitor-demand-supply-chain.html": "AI热潮推动全球元件短缺，中国MLCC供应链加快扩产",
+    "https://www.digitimes.com/news/a20260806VL226/nokia-arizona-nxp-fab-manufacturing.html": "诺基亚收购NXP亚利桑那晶圆厂，显示AI光通信瓶颈正向上游转移",
+    "https://www.digitimes.com/news/a20260807PR201/microsoft-hyderabad-cloud-infrastructure-launch.html": "AI需求加速，微软在印度启用第四个云区域",
+    "https://www.digitimes.com/news/a20260807PD220/taiwan-expo-2026-technology-nstc.html": "台湾创新技术博览会将展示可直接应用的技术研究成果",
+    "https://www.digitimes.com/news/a20260807VL205/equipment-lg-display-production-supply-chain-cetc.html": "中国设备厂商进入LG Display OLED供应链",
+    "https://www.digitimes.com/news/a20260807PD221/wistron-ai-server-oracle-manufacturing-lenovo.html": "传纬创获甲骨文AI服务器订单，新客户持续扩张",
+    "https://cnevpost.com/2026/08/07/global-ev-battery-market-share-h1-2026": "2026年上半年全球动力电池份额：宁德时代39.9%、比亚迪14.4%",
+    "https://cleantechnica.com/2026/08/06/new-zealand-electric-vehicle-market-rises-from-the-depths-charts": "新西兰电动车市场走出低谷（图表）",
+    "https://cleantechnica.com/2026/08/06/waymo-jacks-up-lobbying-in-washington-dc": "Waymo大幅增加在华盛顿的游说投入",
+    "https://www.genengnews.com/topics/bioprocessing/algae-based-food-product-development-earns-gates-foundation-award": "藻类食品产品开发项目获得盖茨基金会奖项",
+    "https://www.techmeme.com/260806/p59": "消息称阿里拟向下一代千问开源模型的大型商用用户收取收入分成；Kimi K3最高抽成30%",
+    "https://www.tmtpost.com/8094916.html": "中国初创公司X2 Robotics申请香港上市，第三代机器人第四季度推出",
+    "https://www.techmeme.com/260806/p58": "安全研究人员称Kimi K3在防御性网络安全测试中走出沙箱，但联网后未实施攻击",
+    "https://9to5google.com/2026/08/06/gemini-overlay-wear-os": "Pixel Watch开始推送Wear OS新版Gemini悬浮界面",
+    "https://www.gsmarena.com/nintendo_reports_that_operating_profit_more_than_doubled_last_quarter_despite_lower_net_sales-news-74049.php": "任天堂称上季度营业利润翻倍以上，尽管净销售额下降",
+    "https://www.androidauthority.com/android-quick-settings-editor-custom-qqs-layout-3695608": "Android新版快捷设置编辑器新增可自定义QQS布局",
+    "https://wallstreetcn.com/articles/3778916": "白银单周暴涨8.3%，高盛警告系统性空头回补或已启动",
+    "https://seekingalpha.com/news/4628800-westwood-holdings-gaap-eps-of-0_17-revenue-of-25_3m": "Westwood Holdings GAAP每股收益0.17美元，营收2530万美元",
+    "https://seekingalpha.com/news/4628799-grove-collaborative-holdings-gaap-eps-of-0_03-beats-by-0_03-revenue-of-36_6m-misses-by-0_17m": "Grove Collaborative GAAP每股亏损0.03美元，优于预期0.03美元；营收3660万美元，低于预期17万美元",
+    "https://seekingalpha.com/news/4628798-exzeo-group-inc-gaap-eps-of-0_26-beats-by-0_02-revenue-of-57_8m-beats-by-2_08m": "Exzeo Group GAAP每股收益0.26美元，超预期0.02美元；营收5780万美元，超预期208万美元",
+    "https://seekingalpha.com/news/4628797-concentra-group-holdings-parent-gaap-eps-of-0_52-beats-by-0_11-revenue-of-606m-beats-by": "Concentra Group母公司GAAP每股收益0.52美元，超预期0.11美元；营收6.06亿美元，超预期1428万美元",
+    "https://seekingalpha.com/news/4628796-sui-group-holdings-gaap-eps-of-0_23-misses-by-0_11-revenue-of-1_2m-beats-by-0_49m": "SUI Group GAAP每股亏损0.23美元，低于预期0.11美元；营收120万美元，超预期49万美元",
+    "https://seekingalpha.com/news/4628795-shoulder-innovations-inc-gaap-eps-of-0_49-misses-by-0_03-revenue-of-17_2m-beats-by-0_63m": "Shoulder Innovations GAAP每股亏损0.49美元，低于预期0.03美元；营收1720万美元，超预期63万美元",
+    "https://www.cnbc.com/2026/08/07/china-july-trade-exports-imports-surplus-imbalance-tariffs-.html": "中国7月出口增长23%超预期，进口增速放缓",
+    "https://www.marketwatch.com/story/microns-stock-claws-back-to-buck-the-memory-chip-selloff-58af0155": "美光股价下跌，但避开了存储芯片抛售中最严重的跌幅"
   },
   "overseas_markets": [
     {
       "market": "美股",
       "flag": "🇺🇸",
       "session": "8月6日收盘",
-      "updated_at": "2026-08-07 11:05 CST",
+      "updated_at": "2026-08-07 12:04 CST",
       "status": "negative",
       "status_label": "美股小幅收低，存储股在强劲业绩后继续显著回撤",
       "move": "道指 -0.85%｜标普500 -0.18%｜纳指 -0.06%",
@@ -359,7 +386,7 @@ window.AI_SIGNALS = {
         "AI存储",
         "贵金属"
       ],
-      "validation": "A股存储与AI硬件早盘已出现内部修复，但美国就业数据公布后仍需复核美元、利率与海外存储股能否止跌。",
+      "validation": "A股存储、CPO与PCB上午维持内部修复；美国就业数据公布后仍需复核美元、利率与海外存储股能否止跌。",
       "sources": [
         "https://www.reuters.com/business/retail-consumer/sp-500-dow-futures-steady-mideast-deal-focus-chips-stumble-2026-08-06/",
         "https://www.reuters.com/business/sandisk-western-digital-drag-chip-stocks-lofty-expectations-eclipse-strong-2026-08-06/",
@@ -369,19 +396,19 @@ window.AI_SIGNALS = {
     {
       "market": "日股",
       "flag": "🇯🇵",
-      "session": "8月7日上午",
-      "updated_at": "2026-08-07 10:35 CST",
+      "session": "8月7日午间",
+      "updated_at": "2026-08-07 11:47 CST",
       "status": "negative",
-      "status_label": "日经高开后跌近1%，芯片相关股继续承压",
-      "move": "开盘65,746.13（较前收约+0.10%）｜11:35 JST 65,039.16（-0.98%）",
-      "driver": "芯片相关权重走弱，中东能源风险与AI高估值兑现继续压制科技风险偏好。",
+      "status_label": "日经跌幅收窄至约0.8%，仍未收复开盘位",
+      "move": "开盘65,746.13（较前收约+0.10%）｜12:47 JST 65,153.30（-0.81%）",
+      "driver": "芯片相关股仍承压，AI高估值兑现与中东能源风险继续压制科技风险偏好。",
       "a_share_links": [
         "半导体设备",
         "AI硬件",
         "被动元件",
         "消费电子"
       ],
-      "validation": "Reuters与Google Finance均显示上午约跌0.9%至1.0%；精确开盘点位仍仅获单一报价源，观察午后能否收复65,746点。",
+      "validation": "Reuters与Google Finance均显示日经午前下跌；观察午后能否收复65,746点并出现芯片权重止跌。",
       "sources": [
         "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-07/",
         "https://www.google.com/finance/beta/quote/NI225:INDEXNIKKEI?hl=zh",
@@ -391,19 +418,19 @@ window.AI_SIGNALS = {
     {
       "market": "韩股",
       "flag": "🇰🇷",
-      "session": "8月7日上午",
-      "updated_at": "2026-08-07 10:34 CST",
+      "session": "8月7日午间",
+      "updated_at": "2026-08-07 11:40 CST",
       "status": "negative",
-      "status_label": "KOSPI高开后跌逾1%，存储风险偏好仍不稳定",
-      "move": "开盘6,365.07（较前收约+1.09%）｜11:34 KST 6,225.98（-1.12%）",
-      "driver": "指数未守住高开，三星电子、SK海力士等存储权重延续高波动，韩国科技行情仍处于修复与兑现拉锯。",
+      "status_label": "KOSPI跌约1.1%，未守住早盘高开",
+      "move": "开盘6,365.07（较前收约+1.09%）｜12:40 KST 6,230.35（-1.05%）",
+      "driver": "三星电子、SK海力士等存储权重延续高波动，韩国科技行情仍处于修复与兑现拉锯。",
       "a_share_links": [
         "HBM",
         "DRAM",
         "NAND",
         "封测"
       ],
-      "validation": "Reuters上午报道称KOSPI约跌0.5%，Google Finance稍后显示跌1.12%，因观测时点不同分别保留；观察午后能否重回6,365点。",
+      "validation": "Reuters与Google Finance因观测时点不同分别显示约跌0.5%和1.05%；观察午后能否重回6,365点。",
       "sources": [
         "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-07/",
         "https://www.google.com/finance/beta/quote/KOSPI:KRX?hl=zh"
@@ -412,25 +439,25 @@ window.AI_SIGNALS = {
   ],
   "signals": [
     {
-      "event": "存储链由单点反弹升级为A股内部扩散，但海外存储股高预期兑现风险仍在",
+      "event": "存储链上午维持A股内部扩散，但海外高预期兑现风险仍在",
       "industry": "semi",
       "industry_name": "DRAM / NAND / AI存储",
       "direction": "mixed",
       "strength": 5,
       "horizon": "1-4w",
       "priced_in": "high",
-      "reason": "苹果在iPhone 18发布前据报面临DRAM供应紧张并接触长鑫存储，低价报价未获接受；11点前兆易创新约涨7.5%、太极实业约涨3.1%，存储链已从早盘单点走强升级为至少双标的确认。与此同时，闪迪、西部数据等海外存储股在强劲业绩后仍显著回撤，KOSPI也下跌，说明产业供需偏紧与高估值兑现仍同时存在。",
+      "reason": "苹果在iPhone 18发布前据报面临DRAM供应紧张并接触长鑫存储，低价报价未获接受；午间前兆易创新约涨6.7%，太极实业上午亦保持正涨幅，A股存储链修复尚未失效。与此同时，海外存储股在强劲业绩后仍显著回撤，KOSPI下跌，产业供需偏紧与高估值兑现仍同时存在。",
       "assets": [
         "603986",
         "001309",
         "600667"
       ],
       "validation": [
-        "兆易创新、太极实业午后守住主要涨幅，德明利同步转强，并有DRAM/NAND报价或订单信息确认",
+        "兆易创新、太极实业午后守住主要涨幅，德明利同步转强，并有DRAM/NAND报价或订单确认",
         "海外存储股下一交易窗口止跌，且数据中心需求指引未下修"
       ],
       "invalidation": [
-        "低价采购传闻被权威来源否认，或DRAM/NAND渠道报价转弱",
+        "DRAM/NAND渠道报价转弱，或苹果采购传闻被权威来源否认",
         "A股存储链午后明显回吐并重新跌破8月6日修复区间"
       ],
       "urls": [
@@ -440,25 +467,25 @@ window.AI_SIGNALS = {
       ]
     },
     {
-      "event": "CPO与PCB早盘同步走强，A股AI硬件内部修复增强但跨市场反转仍未成立",
+      "event": "CPO与PCB继续同步上涨，但中际旭创涨幅收窄，跨市场反转仍未成立",
       "industry": "tech",
       "industry_name": "CPO / PCB / AI硬件",
       "direction": "mixed",
       "strength": 5,
       "horizon": "1-5d",
       "priced_in": "medium",
-      "reason": "中际旭创与东山精密上午均维持约4%以上涨幅，新易盛、光迅科技等同链标的也同步走强，A股CPO与PCB内部扩散较10点进一步增强；但日经约跌1%、KOSPI约跌1.1%，海外芯片风险偏好仍弱。当前可确认国内板块修复，尚不能确认跨日、跨市场趋势反转。",
+      "reason": "东山精密午间前约涨4.9%，中际旭创约涨2.4%，新易盛、光迅科技等同链标的仍保持正向扩散；但中际旭创较早盘高位回落，日经和KOSPI继续下跌。当前可以确认A股AI硬件内部修复，尚不能确认跨日、跨市场趋势反转。",
       "assets": [
         "300308",
         "002384"
       ],
       "validation": [
-        "中际旭创、东山精密收盘均保持较强正涨幅，且CPO、PCB板块涨势未明显收窄",
-        "未来两个交易日不跌破8月6日低点，并获得成交量与海外AI硬件止跌确认"
+        "中际旭创、东山精密收盘均保持正涨幅，且CPO、PCB板块涨势未明显收窄",
+        "未来两个交易日不跌破8月6日低点，并获得海外AI硬件止跌确认"
       ],
       "invalidation": [
-        "中际旭创或东山精密午后明显冲高回落并收跌",
-        "日韩芯片权重继续扩大跌幅且美股AI硬件再次显著下行"
+        "中际旭创午后继续回落或东山精密明显冲高回落",
+        "日韩芯片权重扩大跌幅且美股AI硬件再次显著下行"
       ],
       "urls": [
         "https://www.google.com/finance/beta/quote/300308:SHE?hl=zh",
@@ -467,30 +494,54 @@ window.AI_SIGNALS = {
       ]
     },
     {
-      "event": "霍尔木兹航运接近停滞的报道维持油价与贵金属的双向波动风险",
-      "industry": "macro",
-      "industry_name": "原油 / 黄金ETF / 白银LOF",
-      "direction": "mixed",
+      "event": "AI服务器与汽车电子需求推动MLCC供应链扩产，产业景气获得新增证据",
+      "industry": "semi",
+      "industry_name": "MLCC / 被动元件",
+      "direction": "positive",
       "strength": 4,
-      "horizon": "1-5d",
-      "priced_in": "medium",
-      "reason": "伊朗首席谈判代表指责美国进行表演式外交，报道称霍尔木兹海峡交通接近停滞。能源供应风险支撑原油与避险需求，但油价上行也可能抬升通胀和实际利率，黄金与白银方向不能简单等同；国投白银LOF还需独立核验净值、溢价和交易公告。",
+      "horizon": "1-4w",
+      "priced_in": "unknown",
+      "reason": "DIGITIMES报道称，AI服务器和汽车电子需求推动全球MLCC元件趋紧，中国供应链正在加快扩产。这为风华高科的周期修复逻辑提供新增产业证据，但当前行情文件仍停留在8月6日，无法用可靠盘中价格确认是否已被充分交易。",
       "assets": [
-        "518880",
-        "161226"
+        "000636"
       ],
       "validation": [
-        "霍尔木兹航运量、谈判进展与布伦特原油是否继续维持高位",
-        "黄金、白银现货与国内基金净值方向一致，白银LOF溢价未扩大"
+        "风华高科相对被动元件指数走强，且收盘量价同步确认",
+        "MLCC渠道报价、交期或国内材料厂订单出现进一步上修"
       ],
       "invalidation": [
-        "出现可执行的停火或航运恢复安排，原油回吐本轮涨幅",
-        "美元和实际利率明显上升并带动贵金属同步回落"
+        "扩产主要对应远期供给而非当前订单，渠道价格未上涨",
+        "风华高科及被动元件板块未形成联动或冲高回落"
       ],
       "urls": [
-        "https://www.cnbc.com/2026/08/07/us-iran-war-trump-hormuz-diplomacy-oil-.html",
-        "https://www.reuters.com/business/energy/oil-prices-slip-iran-oman-talks-fuel-hopes-us-iran-peace-deal-2026-08-06/",
-        "https://www.reuters.com/world/india/gold-touches-seven-week-high-strait-hormuz-reopening-hopes-2026-08-06/"
+        "https://www.digitimes.com/news/a20260807VL206/china-mlcc-ceramic-capacitor-demand-supply-chain.html"
+      ]
+    },
+    {
+      "event": "白银单周上涨8.3%并可能触发系统性空头回补，趋势与溢价风险同时升高",
+      "industry": "macro",
+      "industry_name": "白银LOF / 黄金ETF / 贵金属",
+      "direction": "mixed",
+      "strength": 5,
+      "horizon": "1-5d",
+      "priced_in": "high",
+      "reason": "白银在7月28日至8月5日上涨8.3%，报道称美元走弱、贵金属多头建仓及系统性空头回补可能继续放大波动；同时霍尔木兹风险支撑避险需求。上涨动能增强并不等于国投白银LOF可直接追随，仍需独立核验场内价格、基金净值、溢价和交易限制。",
+      "assets": [
+        "161226",
+        "518880"
+      ],
+      "validation": [
+        "白银现货、基金净值与场内价格方向一致，且白银LOF溢价未继续扩大",
+        "美元和实际利率未明显反向上行，黄金与白银保持正向联动"
+      ],
+      "invalidation": [
+        "空头回补结束后白银快速回吐涨幅",
+        "白银LOF场内溢价扩大或基金公告新增停牌、申购限制"
+      ],
+      "urls": [
+        "https://wallstreetcn.com/articles/3778916",
+        "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-07/",
+        "https://www.cnbc.com/2026/08/07/us-iran-war-trump-hormuz-diplomacy-oil-.html"
       ]
     }
   ]
