@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-07T12:14:39+08:00",
+  "generated_at": "2026-08-07T13:06:46+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -116,7 +116,7 @@
       "high": 2.052000045776367,
       "low": 2.0199999809265137,
       "turnover": null,
-      "as_of": "2026-08-07T12:00:39+08:00",
+      "as_of": "2026-08-07T12:52:39+08:00",
       "status": "fresh",
       "confidence": "low",
       "source": "Yahoo Finance"
@@ -128,14 +128,14 @@
       "price": 8.806,
       "previous_close": 8.795,
       "change_pct": 0.13,
-      "open": null,
-      "high": null,
-      "low": null,
-      "turnover": 2127319633.0,
-      "as_of": "2026-08-07T12:14:39+08:00",
+      "open": 8.774999618530273,
+      "high": 8.817999839782715,
+      "low": 8.77400016784668,
+      "turnover": null,
+      "as_of": "2026-08-07T09:30:00+08:00",
       "status": "fresh",
-      "confidence": "medium",
-      "source": "东方财富 via AKShare"
+      "confidence": "low",
+      "source": "Yahoo Finance"
     },
     {
       "code": "517380",
@@ -144,19 +144,18 @@
       "price": 0.85,
       "previous_close": 0.816,
       "change_pct": 4.17,
-      "open": null,
-      "high": null,
-      "low": null,
-      "turnover": 99677169.0,
-      "as_of": "2026-08-07T12:14:39+08:00",
+      "open": 0.8119999766349792,
+      "high": 0.8500000238418579,
+      "low": 0.8119999766349792,
+      "turnover": null,
+      "as_of": "2026-08-07T09:30:00+08:00",
       "status": "fresh",
-      "confidence": "medium",
-      "source": "东方财富 via AKShare"
+      "confidence": "low",
+      "source": "Yahoo Finance"
     }
   ],
   "warnings": [
-    "A股: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
-    "LOF: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    "AKShare refresh failed: A股: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')); ETF: HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Read timed out. (read timeout=15); LOF: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
   ],
   "methodology": "AKShare/东方财富批量行情为主，Yahoo Finance为逐标的备用；失败时保留最近成功值并标记过期。"
 }
