@@ -1,6 +1,6 @@
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-08 12:05",
-  "source_generated_at": "2026-08-08 10:23",
+  "generated_at": "2026-08-08 13:05",
+  "source_generated_at": "2026-08-08 12:42",
   "generated_by": "ChatGPT Web",
   "status": "ready",
   "overseas_markets": [
@@ -8,7 +8,7 @@ window.AI_SIGNALS = {
       "market": "美股",
       "flag": "🇺🇸",
       "session": "8月7日收盘",
-      "updated_at": "2026-08-08 12:05 CST",
+      "updated_at": "2026-08-08 13:05 CST",
       "status": "positive",
       "status_label": "非农意外转负，美股上涨且标普创收盘新高",
       "move": "道指 +0.28%｜标普500 +0.62%｜纳指 +1.30%",
@@ -28,7 +28,7 @@ window.AI_SIGNALS = {
       "market": "日股",
       "flag": "🇯🇵",
       "session": "8月7日收盘",
-      "updated_at": "2026-08-08 12:05 CST",
+      "updated_at": "2026-08-08 13:05 CST",
       "status": "neutral",
       "status_label": "日经盘中深跌后修复，收盘仍略低于前收",
       "move": "开盘65,746.13｜收盘65,606.71（-0.12%）｜日低64,651.49",
@@ -49,7 +49,7 @@ window.AI_SIGNALS = {
       "market": "韩股",
       "flag": "🇰🇷",
       "session": "8月7日收盘",
-      "updated_at": "2026-08-08 12:05 CST",
+      "updated_at": "2026-08-08 13:05 CST",
       "status": "pending",
       "status_label": "KOSPI收跌方向一致，正式收盘点位仍待统一核验",
       "move": "开盘6,365.07｜AP约6,242.88｜Investing约6,258.77",
@@ -595,7 +595,21 @@ window.AI_SIGNALS = {
     "https://9to5mac.com/2026/08/07/carplay-connection-issues": "CarPlay连接有问题？原因可能在这里",
     "https://www.gsmarena.com/sk_hynix_promises_to_invest_over_38_billion_in_new_dram_and_nand_fabs-news-74075.php": "SK海力士承诺投资逾380亿美元建设新的DRAM与NAND晶圆厂",
     "https://seekingalpha.com/news/4629637-vaxart-outlines-phase-iib-covidminus-19-top-line-data-in-first-half-of-2027-backed-by-barda": "Vaxart计划在BARDA资助下于2027年上半年公布IIb期新冠试验主要数据",
-    "https://seekingalpha.com/news/4629636-nutex-outlines-3-hospital-openings-in-h2-2026-while-maintaining-3-to-5-openings-per-year": "Nutex计划2026年下半年开设3家医院，并维持每年3至5家的扩张速度"
+    "https://seekingalpha.com/news/4629636-nutex-outlines-3-hospital-openings-in-h2-2026-while-maintaining-3-to-5-openings-per-year": "Nutex计划2026年下半年开设3家医院，并维持每年3至5家的扩张速度",
+    "https://cnevpost.com/2026/08/08/arcfox-files-battery-swap-beta-t1": "北汽极狐申报Beta T1换电版，接入宁德时代换电体系",
+    "https://cnevpost.com/2026/08/08/gwm-files-all-electric-wey-v9x": "长城汽车申报纯电魏牌V9X，六座旗舰SUV车长约5.3米",
+    "https://cleantechnica.com/2026/08/07/xpeng-set-to-enter-the-philippines-with-the-globalized-mona": "小鹏携全球化MONA车型进军菲律宾市场",
+    "https://cleantechnica.com/2026/08/07/rd-100-awards-honor-4-nlr-innovations": "4项NLR创新成果获R&D 100大奖",
+    "https://web.archive.org/web/20260731053721/http://github.com/ancaferro/myNetwork/pull/3": "Mythos社会工程事件：AISI INC-2026-07-28-01",
+    "https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413": "Nixpkgs核心团队已解散",
+    "https://github.com/mcpp-community/mcpp": "Show HN：面向模块特性的现代C++构建工具",
+    "https://www.gsmarena.com/sony_is_working_on_a_surprising_pair_of_wh1000x_headphones_heres_how_much_theyll_cost-news-74076.php": "索尼正开发一款出人意料的WH-1000X耳机，售价信息曝光",
+    "https://9to5mac.com/2026/08/07/whatsapp-makes-parent-managed-accounts-easier-to-set-up-on-iphone": "WhatsApp让iPhone上的家长管理账户更易设置",
+    "https://www.ft.com/content/10f9922c-4667-4fb9-b2a0-6f3264ef0b09": "令人兴奋的“无聊十年”",
+    "https://www.ft.com/content/fb49381a-3e09-4666-85b0-7a171e01394e": "美国暴露其金融软肋",
+    "https://wallstreetcn.com/articles/3778988": "英伟达盯上OpenAI“星际之门”背后的电力商，30亿美元直接入股",
+    "https://wallstreetcn.com/articles/3778987": "油价刺激通胀、就业削弱加息——黄金“双面得利”",
+    "https://seekingalpha.com/news/4629638-aixc-targets-august-2026-roboshare-rentals-in-los-angeles-as-liquidity-remains-constrained": "AIXC计划2026年8月在洛杉矶推出RoboShare租赁服务，但流动性仍紧张"
   },
   "signals": [
     {
@@ -661,7 +675,7 @@ window.AI_SIGNALS = {
       "strength": 5,
       "horizon": "1-5d",
       "priced_in": "high",
-      "reason": "现货黄金周五上涨2.3%至约4336美元、全周涨逾7%；现货白银上涨3%至63.29美元。国投白银LOF周五收涨7.37%至2.185元，但对应净值约1.7189元，溢价约27.12%，且仍暂停申购并发布停复牌风险提示。黄金ETF华安存在较直接外盘映射，白银LOF则同时受到银价和价差收敛风险影响。",
+      "reason": "现货黄金周五上涨2.3%至约4336美元、全周涨逾7%；现货白银上涨3%至63.29美元。新增材料显示油价上行强化通胀对冲需求、就业转弱压低加息预期，黄金同时受两条逻辑支持。国投白银LOF周五收涨7.37%至2.185元，但对应净值约1.7189元，溢价约27.12%，且仍暂停申购并发布停复牌风险提示；白银LOF仍同时承受银价回撤和价差收敛风险。",
       "assets": [
         "518880",
         "161226"
@@ -676,6 +690,7 @@ window.AI_SIGNALS = {
       ],
       "urls": [
         "https://www.reuters.com/world/india/gold-heads-strongest-week-since-january-us-payrolls-data-focus-2026-08-07/",
+        "https://wallstreetcn.com/articles/3778987",
         "https://www.haoetf.com/lof/161226"
       ]
     },
