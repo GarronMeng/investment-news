@@ -1,6 +1,6 @@
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-08 10:05",
-  "source_generated_at": "2026-08-08 08:00",
+  "generated_at": "2026-08-08 11:05",
+  "source_generated_at": "2026-08-08 10:23",
   "generated_by": "ChatGPT Web",
   "status": "ready",
   "overseas_markets": [
@@ -8,7 +8,7 @@ window.AI_SIGNALS = {
       "market": "美股",
       "flag": "🇺🇸",
       "session": "8月7日收盘",
-      "updated_at": "2026-08-08 10:05 CST",
+      "updated_at": "2026-08-08 11:05 CST",
       "status": "positive",
       "status_label": "非农意外转负，美股上涨且标普创收盘新高",
       "move": "道指 +0.28%｜标普500 +0.62%｜纳指 +1.30%",
@@ -28,7 +28,7 @@ window.AI_SIGNALS = {
       "market": "日股",
       "flag": "🇯🇵",
       "session": "8月7日收盘",
-      "updated_at": "2026-08-08 10:05 CST",
+      "updated_at": "2026-08-08 11:05 CST",
       "status": "neutral",
       "status_label": "日经盘中深跌后修复，收盘仍略低于前收",
       "move": "开盘65,746.13｜收盘65,606.71（-0.12%）｜日低64,651.49",
@@ -49,7 +49,7 @@ window.AI_SIGNALS = {
       "market": "韩股",
       "flag": "🇰🇷",
       "session": "8月7日收盘",
-      "updated_at": "2026-08-08 10:05 CST",
+      "updated_at": "2026-08-08 11:05 CST",
       "status": "pending",
       "status_label": "KOSPI收跌方向一致，正式收盘点位仍待统一核验",
       "move": "开盘6,365.07｜AP约6,242.88｜Investing约6,258.77",
@@ -572,18 +572,41 @@ window.AI_SIGNALS = {
     "https://arstechnica.com/gadgets/2026/08/europes-free-satellite-service-just-made-it-easier-to-track-wildfires": "欧洲免费卫星服务让野火追踪更加便捷",
     "https://seekingalpha.com/news/4629629-sylvamo-outlines-55m-annual-benefit-from-eastover-projects-with-30m-40m-expected-in-2027": "Sylvamo预计Eastover项目每年带来5500万美元收益，2027年贡献3000万至4000万美元",
     "https://www.ft.com/content/9c0d4f0d-d2c6-4189-b4bb-200d17a4720f": "月之暗面调整公司架构，寻求获得北京方面对上市的批准",
-    "https://www.ft.com/content/f3050d94-6b78-4cf2-8b07-cf8903aacc7f": "西班牙因移民问题紧张局势加剧，恢复对意大利的边境管制"
+    "https://www.ft.com/content/f3050d94-6b78-4cf2-8b07-cf8903aacc7f": "西班牙因移民问题紧张局势加剧，恢复对意大利的边境管制",
+    "https://www.marktechpost.com/2026/08/07/tencent-cloud-open-sources-tencentdb-agent-memory-v2-0": "腾讯云开源TencentDB Agent Memory 2.0：面向AI编程智能体的团队级记忆中枢",
+    "https://www.marktechpost.com/2026/08/07/building-a-multimodal-rag-pipeline-with-nvidia-nemo-retriever-hosted-nims-lancedb-reranking-and-grounded-generation": "使用NVIDIA NeMo Retriever、托管NIM、LanceDB、重排序和有依据生成构建多模态RAG流水线",
+    "https://www.marktechpost.com/2026/08/07/nvidia-ai-releases-nooa-an-object-oriented-python-framework": "英伟达AI发布NOOA：将AI智能体封装为单个Python类的面向对象框架",
+    "https://www.digitimes.com/news/a20260807PD254/quanta-notebook-shipments-ai-server-revenue-demand.html": "广达月营收创历史第二高，笔记本电脑出货量骤降38%",
+    "https://www.digitimes.com/news/a20260807PD252/data-center-compeq-manufacturing-demand-revenue-2026.html": "华通称卫星与数据中心订单将推动下半年增长",
+    "https://www.digitimes.com/news/a20260807PD231/ase-taiwan-tsmc-wpg-chairman.html": "台积电、日月光与大联大：铸就台湾芯片帝国的“白衣骑士”之战",
+    "https://www.digitimes.com/news/a20260807PD228/ocp-cpo-nvidia-taiwan-supply-chain-2026.html": "专访：Lightmatter借助英伟达NVLink与台湾供应链规划CPO未来",
+    "https://www.digitimes.com/news/a20260806PD226/taiwan-transistor-semiconductors-chips-aluminum.html": "台湾团队研制高性能二硫化钼晶体管，缓解二维半导体局限",
+    "https://www.digitimes.com/news/a20260807VL212/memory-chips-price-revenue-sk-hynix-samsung-micron-sandisk.html": "分析：存储厂商握有不属于自己的380亿美元",
+    "https://cleantechnica.com/2026/08/07/green-hydrogen-us-renewable-energy-delaware-mid-atlantic": "绿色氢能之路由绿色氘铺就",
+    "https://cleantechnica.com/2026/08/07/nio-opens-battery-swapping-to-firefly-and-launches-5th-generation-swapping-stations": "蔚来向萤火虫开放换电并推出第五代换电站",
+    "https://cleantechnica.com/2026/08/07/waymo-ceo-dont-move-fast-break-things-with-physical-ai": "Waymo首席执行官：物理AI不应“快速行动、打破一切”",
+    "https://cleantechnica.com/2026/08/07/u-s-battery-storage-capacity-averaged-70-growth-over-the-last-three-years": "美国电池储能容量过去三年平均增长70%",
+    "https://cleantechnica.com/2026/08/07/first-fully-electric-vw-id-era-vehicle-id-era-5x-suv": "大众首款纯电ID. ERA车型——ID. ERA 5X SUV",
+    "https://www.techmeme.com/260807/p36": "消息称英伟达同意向德州Stargate园区电力基础设施开发商Lancium投资20亿美元，达标后追加10亿美元",
+    "https://www.techmeme.com/260807/p35": "分析：SpaceX预计到2027年底建成约10GW算力，或推动年化收入达到3000亿美元",
+    "https://www.techmeme.com/260807/p34": "Anthropic推出Claude Code跨会话消息功能，支持macOS和Linux",
+    "https://9to5mac.com/2026/08/07/apple-adds-nearly-45-hearing-devices-to-its-made-for-iphone-compatibility-list": "苹果将近45款助听设备加入Made for iPhone兼容列表",
+    "https://www.gsmarena.com/googles_new_pixel_watch_video_teaser_makes_fun_of_its_competitors_looks-news-74078.php": "谷歌Pixel Watch新预热视频调侃竞争对手的外观",
+    "https://9to5mac.com/2026/08/07/carplay-connection-issues": "CarPlay连接有问题？原因可能在这里",
+    "https://www.gsmarena.com/sk_hynix_promises_to_invest_over_38_billion_in_new_dram_and_nand_fabs-news-74075.php": "SK海力士承诺投资逾380亿美元建设新的DRAM与NAND晶圆厂",
+    "https://seekingalpha.com/news/4629637-vaxart-outlines-phase-iib-covidminus-19-top-line-data-in-first-half-of-2027-backed-by-barda": "Vaxart计划在BARDA资助下于2027年上半年公布IIb期新冠试验主要数据",
+    "https://seekingalpha.com/news/4629636-nutex-outlines-3-hospital-openings-in-h2-2026-while-maintaining-3-to-5-openings-per-year": "Nutex计划2026年下半年开设3家医院，并维持每年3至5家的扩张速度"
   },
   "signals": [
     {
-      "event": "三星二季度继续领先全球DRAM市场，存储涨价获得新增产业证据",
+      "event": "存储涨价与SK海力士380亿美元扩产并存，近端景气强化但中期供给风险上升",
       "industry": "semi",
       "industry_name": "DRAM / NAND / AI存储",
-      "direction": "positive",
-      "strength": 4,
+      "direction": "mixed",
+      "strength": 5,
       "horizon": "1-4w",
       "priced_in": "high",
-      "reason": "Counterpoint二季度报告显示三星继续领先全球DRAM市场，并受益于当季DRAM价格上涨；同期行业周报继续指向存储密度提升和新晶圆厂投资。兆易创新、德明利、太极实业8月7日已同步收涨，产业与价格方向一致，但周五涨幅较大，周末没有新的A股价格确认。",
+      "reason": "三星二季度继续受益于DRAM价格上涨；SK海力士董事会批准约383亿美元建设DRAM/HBM与NAND新厂，首批洁净室预计2028至2029年投用。新增投资确认AI存储需求强劲，短期供给仍紧，但远期大规模产能释放将增强采购方议价权。兆易创新、德明利、太极实业周五已同步收涨，价格端已反映较多乐观预期。",
       "assets": [
         "603986",
         "001309",
@@ -591,15 +614,16 @@ window.AI_SIGNALS = {
       ],
       "validation": [
         "周一三只标的至少两只保持相对半导体指数强势，且未出现集体高开低走",
-        "DRAM/NAND渠道报价、交期或订单继续上修"
+        "DRAM/NAND渠道报价、交期或订单继续上修，新增产能投产节奏未提前"
       ],
       "invalidation": [
         "周一三只标的同步放量回落并跌破8月7日主要支撑区间",
-        "DRAM现货或合约价格转弱，新增产能令供给预期明显上修"
+        "新增产能提前释放或DRAM/NAND现货、合约价格转弱"
       ],
       "urls": [
-        "https://www.gsmarena.com/samsung_continues_to_lead_the_global_dram_market_in_q2_2026-news-74058.php",
-        "https://semiengineering.com/chip-industry-week-in-review-150"
+        "https://www.reuters.com/world/asia-pacific/sk-hynix-board-approves-38-bln-investments-south-koreas-yongin-cheongju-chip-2026-08-07/",
+        "https://www.digitimes.com/news/a20260807VL212/memory-chips-price-revenue-sk-hynix-samsung-micron-sandisk.html",
+        "https://www.gsmarena.com/samsung_continues_to_lead_the_global_dram_market_in_q2_2026-news-74058.php"
       ]
     },
     {
@@ -681,6 +705,32 @@ window.AI_SIGNALS = {
       ],
       "urls": [
         "https://www.reuters.com/business/energy/vessel-traffic-through-hormuz-dwindles-this-week-markets-watch-iran-oman-talks-2026-08-07/"
+      ]
+    },
+    {
+      "event": "AAOI二季度收入同比增长86%，海外光通信需求提供正向验证",
+      "industry": "tech",
+      "industry_name": "CPO / 光模块 / AI服务器",
+      "direction": "positive",
+      "strength": 4,
+      "horizon": "1-5d",
+      "priced_in": "unknown",
+      "reason": "Applied Optoelectronics二季度收入1.919亿美元，同比增长约86%，调整后每股收益0.06美元，均超过市场预期。海外光通信公司业绩确认AI数据中心需求仍强，对中际旭创和东山精密形成产业映射；但A股周末休市，美国拟议光模块限制尚未落地，价格传导仍待周一验证。",
+      "assets": [
+        "300308",
+        "002384"
+      ],
+      "validation": [
+        "周一中际旭创与东山精密至少一只相对通信设备指数放量走强，且未出现双双高开低走",
+        "AAOI后续指引、800G/1.6T出货及客户需求继续上修"
+      ],
+      "invalidation": [
+        "周一中际旭创与东山精密同步走弱，海外光通信股回吐财报涨幅",
+        "美国正式扩大光模块限制并覆盖核心产品或客户"
+      ],
+      "urls": [
+        "https://investors.ao-inc.com/news-releases/news-release-details/applied-optoelectronics-reports-second-quarter-2026-results",
+        "https://wallstreetcn.com/articles/3778985"
       ]
     }
   ]
