@@ -1,6 +1,5 @@
-// 自动生成，请勿手工编辑。
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-08 09:15",
+  "generated_at": "2026-08-08 10:05",
   "source_generated_at": "2026-08-08 08:00",
   "generated_by": "ChatGPT Web",
   "status": "ready",
@@ -9,7 +8,7 @@ window.AI_SIGNALS = {
       "market": "美股",
       "flag": "🇺🇸",
       "session": "8月7日收盘",
-      "updated_at": "2026-08-08 09:15 CST",
+      "updated_at": "2026-08-08 10:05 CST",
       "status": "positive",
       "status_label": "非农意外转负，美股上涨且标普创收盘新高",
       "move": "道指 +0.28%｜标普500 +0.62%｜纳指 +1.30%",
@@ -29,7 +28,7 @@ window.AI_SIGNALS = {
       "market": "日股",
       "flag": "🇯🇵",
       "session": "8月7日收盘",
-      "updated_at": "2026-08-08 09:15 CST",
+      "updated_at": "2026-08-08 10:05 CST",
       "status": "neutral",
       "status_label": "日经盘中深跌后修复，收盘仍略低于前收",
       "move": "开盘65,746.13｜收盘65,606.71（-0.12%）｜日低64,651.49",
@@ -50,7 +49,7 @@ window.AI_SIGNALS = {
       "market": "韩股",
       "flag": "🇰🇷",
       "session": "8月7日收盘",
-      "updated_at": "2026-08-08 09:15 CST",
+      "updated_at": "2026-08-08 10:05 CST",
       "status": "pending",
       "status_label": "KOSPI收跌方向一致，正式收盘点位仍待统一核验",
       "move": "开盘6,365.07｜AP约6,242.88｜Investing约6,258.77",
@@ -564,9 +563,45 @@ window.AI_SIGNALS = {
     "https://www.livescience.com/health/reproductive-health/bacterial-postbiotic-may-help-preserve-fertility-in-the-aging-uterus-preliminary-research-suggests": "初步研究显示细菌后生元或有助于保护衰老子宫的生育力",
     "https://www.quantamagazine.org/neutrinos-from-deep-inside-earth-provide-a-new-picture-of-the-mantle-20260807": "地球深处中微子为地幔提供新图景",
     "https://www.livescience.com/products/optics/where-to-buy-last-minute-solar-eclipse-glasses-and-viewing-gear-before-august-12": "8月12日日食前最后购买观测眼镜和设备的指南",
-    "https://arstechnica.com/science/2026/08/the-worlds-biggest-solar-telescope-caught-vortexes-on-the-suns-surface": "全球最大太阳望远镜捕捉到太阳表面涡旋"
+    "https://arstechnica.com/science/2026/08/the-worlds-biggest-solar-telescope-caught-vortexes-on-the-suns-surface": "全球最大太阳望远镜捕捉到太阳表面涡旋",
+    "https://www.techmeme.com/260807/p32": "美国货币监理署拒绝荷兰金融科技公司Bunq的全国性银行牌照申请，称其美国扩张计划仍需进一步明确",
+    "https://www.techmeme.com/260807/p31": "消息称Situational Awareness向AI芯片制造工具初创公司Source Foundry投资5亿美元，本周投入4亿美元",
+    "https://genesisopenmodels.anl.gov": "美国能源部启动Genesis开放模型计划",
+    "https://www.theverge.com/games/977056/restart-gaming-site-walmart-moonrock-layoffs": "沃尔玛赞助的游戏网站裁撤编辑团队",
+    "https://www.techmeme.com/260807/p29": "消息称数据中心运营商Switch已秘密申请美国IPO，最早11月上市，Ben Horowitz将加入董事会",
+    "https://arstechnica.com/gadgets/2026/08/europes-free-satellite-service-just-made-it-easier-to-track-wildfires": "欧洲免费卫星服务让野火追踪更加便捷",
+    "https://seekingalpha.com/news/4629629-sylvamo-outlines-55m-annual-benefit-from-eastover-projects-with-30m-40m-expected-in-2027": "Sylvamo预计Eastover项目每年带来5500万美元收益，2027年贡献3000万至4000万美元",
+    "https://www.ft.com/content/9c0d4f0d-d2c6-4189-b4bb-200d17a4720f": "月之暗面调整公司架构，寻求获得北京方面对上市的批准",
+    "https://www.ft.com/content/f3050d94-6b78-4cf2-8b07-cf8903aacc7f": "西班牙因移民问题紧张局势加剧，恢复对意大利的边境管制"
   },
   "signals": [
+    {
+      "event": "三星二季度继续领先全球DRAM市场，存储涨价获得新增产业证据",
+      "industry": "semi",
+      "industry_name": "DRAM / NAND / AI存储",
+      "direction": "positive",
+      "strength": 4,
+      "horizon": "1-4w",
+      "priced_in": "high",
+      "reason": "Counterpoint二季度报告显示三星继续领先全球DRAM市场，并受益于当季DRAM价格上涨；同期行业周报继续指向存储密度提升和新晶圆厂投资。兆易创新、德明利、太极实业8月7日已同步收涨，产业与价格方向一致，但周五涨幅较大，周末没有新的A股价格确认。",
+      "assets": [
+        "603986",
+        "001309",
+        "600667"
+      ],
+      "validation": [
+        "周一三只标的至少两只保持相对半导体指数强势，且未出现集体高开低走",
+        "DRAM/NAND渠道报价、交期或订单继续上修"
+      ],
+      "invalidation": [
+        "周一三只标的同步放量回落并跌破8月7日主要支撑区间",
+        "DRAM现货或合约价格转弱，新增产能令供给预期明显上修"
+      ],
+      "urls": [
+        "https://www.gsmarena.com/samsung_continues_to_lead_the_global_dram_market_in_q2_2026-news-74058.php",
+        "https://semiengineering.com/chip-industry-week-in-review-150"
+      ]
+    },
     {
       "event": "美国非农意外减少2.3万人，加息预期下降并推动风险资产与黄金重估",
       "industry": "macro",
