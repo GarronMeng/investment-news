@@ -1,5 +1,5 @@
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-08 16:05",
+  "generated_at": "2026-08-09 09:14",
   "source_generated_at": "2026-08-08 16:02",
   "generated_by": "ChatGPT Web",
   "status": "ready",
@@ -8,7 +8,7 @@ window.AI_SIGNALS = {
       "market": "美股",
       "flag": "🇺🇸",
       "session": "8月7日收盘",
-      "updated_at": "2026-08-08 16:05 CST",
+      "updated_at": "2026-08-09 09:14 CST",
       "status": "positive",
       "status_label": "非农意外转负，美股上涨且标普创收盘新高",
       "move": "道指 +0.28%｜标普500 +0.62%｜纳指 +1.30%",
@@ -28,7 +28,7 @@ window.AI_SIGNALS = {
       "market": "日股",
       "flag": "🇯🇵",
       "session": "8月7日收盘",
-      "updated_at": "2026-08-08 16:05 CST",
+      "updated_at": "2026-08-09 09:14 CST",
       "status": "neutral",
       "status_label": "日经盘中深跌后修复，收盘仍略低于前收",
       "move": "开盘65,746.13｜收盘65,606.71（-0.12%）｜日低64,651.49",
@@ -49,7 +49,7 @@ window.AI_SIGNALS = {
       "market": "韩股",
       "flag": "🇰🇷",
       "session": "8月7日收盘",
-      "updated_at": "2026-08-08 16:05 CST",
+      "updated_at": "2026-08-09 09:14 CST",
       "status": "pending",
       "status_label": "KOSPI收跌方向一致，正式收盘点位仍待统一核验",
       "move": "开盘6,365.07｜AP约6,242.88｜Investing约6,258.77",
@@ -715,31 +715,33 @@ window.AI_SIGNALS = {
       ]
     },
     {
-      "event": "霍尔木兹船舶通行量继续下降，能源供应风险未随谈判消失",
+      "event": "伊朗袭击ADNOC关联船只并提高海峡重开条件，霍尔木兹风险周末升级",
       "industry": "macro",
       "industry_name": "霍尔木兹 / 原油 / 通胀",
       "direction": "mixed",
-      "strength": 4,
-      "horizon": "1-4w",
-      "priced_in": "medium",
-      "reason": "本周一至周四仅33艘船通过霍尔木兹海峡，低于上周同期50艘，且船东仍因安全和保险条款谨慎。美伊谈判进展可能压低油价，但实际航运恢复尚未发生；油价与通胀预期仍可能反复，影响成长估值及贵金属避险需求。",
+      "strength": 5,
+      "horizon": "1-5d",
+      "priced_in": "low",
+      "reason": "阿联酋8月8日称，一艘与ADNOC有关联的船只在霍尔木兹海峡遭伊朗导弹袭击，暂无人员伤亡，船只、货物和损害细节尚未完整披露；伊朗同日称与阿曼的协议接近达成，但仅有协议不足以促使海峡重开，并提出赔偿、解除制裁等条件。相较前一版“谈判接近、通行量下降”，周末出现了安全事件升级且重开门槛提高。周末无正式市场定价，周一原油、贵金属、美债收益率及A股成长估值的反馈均待验证。",
       "assets": [
+        "518880",
+        "161226",
         "300308",
         "002384",
-        "517380",
-        "518880",
-        "161226"
+        "517380"
       ],
       "validation": [
-        "海峡船舶和油轮通行量连续恢复，保险与制裁安排出现可执行方案",
-        "布伦特原油回落并带动美债收益率、通胀预期下降"
+        "周一布伦特原油、航运保险费率或贵金属对周末袭击出现可确认的风险溢价",
+        "阿联酋、ADNOC或涉事船方进一步确认船只损害，或伊朗—阿曼公布可执行的通航安排"
       ],
       "invalidation": [
-        "谈判破裂、航运量进一步下降或中东袭击升级",
-        "原油重新快速上行并推高美国通胀与加息预期"
+        "伊朗与阿曼达成可核验协议且船舶通行量、保险承保快速恢复",
+        "袭击指控被权威来源否定，且周一原油与航运风险溢价未上升"
       ],
       "urls": [
-        "https://www.reuters.com/business/energy/vessel-traffic-through-hormuz-dwindles-this-week-markets-watch-iran-oman-talks-2026-08-07/"
+        "https://www.reuters.com/business/energy/uae-says-iran-attacked-adnoc-vessel-with-missile-strait-hormuz-2026-08-08/",
+        "https://www.reuters.com/world/middle-east/iran-says-deal-strait-hormuz-is-close-will-not-open-waterway-by-itself-2026-08-08/",
+        "https://apnews.com/article/feb75871fb82c44b3f7fd0ee02bb24b4"
       ]
     },
     {
