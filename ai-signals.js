@@ -1,5 +1,5 @@
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-10 11:05",
+  "generated_at": "2026-08-10 12:05",
   "source_generated_at": "2026-08-08 16:02",
   "generated_by": "ChatGPT Web",
   "status": "ready",
@@ -8,7 +8,7 @@ window.AI_SIGNALS = {
       "market": "美股",
       "flag": "🇺🇸",
       "session": "8月7日收盘",
-      "updated_at": "2026-08-10 11:05 CST",
+      "updated_at": "2026-08-10 12:05 CST",
       "status": "positive",
       "status_label": "弱非农推动美股上涨，标普创收盘新高",
       "move": "道指 +0.28%｜标普500 +0.62%｜纳指 +1.30%",
@@ -27,19 +27,19 @@ window.AI_SIGNALS = {
     {
       "market": "日股",
       "flag": "🇯🇵",
-      "session": "8月10日早盘",
-      "updated_at": "2026-08-10 11:05 CST",
+      "session": "8月10日上午",
+      "updated_at": "2026-08-10 12:05 CST",
       "status": "pending",
-      "status_label": "日经上涨约2.0%，双源同刻验证仍不足",
-      "move": "前收65,606.71｜开盘65,905.10（+0.45%）｜11:12 JST 66,905.38（+1.98%）",
-      "driver": "弱美国就业数据降低加息预期，AI与电子相关股票走强；霍尔木兹紧张局势限制风险偏好。Google Finance与Reuters观测时刻不同，未将涨幅作同刻交叉验证。",
+      "status_label": "日经上涨约2.1%，电子与AI链条相对强势",
+      "move": "前收65,606.71｜开盘65,905.10（+0.45%）｜12:44 JST 66,948.98（+2.05%）",
+      "driver": "弱美国就业数据降低加息预期，AI与电子相关股票走强；霍尔木兹紧张局势限制风险偏好。Google Finance与Reuters观测时刻不同，精确涨幅仍缺少同刻双源验证。",
       "a_share_links": [
         "半导体设备",
         "被动元件",
         "消费电子",
         "AI硬件"
       ],
-      "validation": "观察日经能否守住65,905开盘区间，并由半导体设备、电子和被动元件持续确认；等待第二独立报价源复核同一时点。",
+      "validation": "观察午后日经能否守住66,000上方，并由半导体设备、电子和被动元件持续确认；等待第二独立报价源复核同一时点。",
       "sources": [
         "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-10/",
         "https://www.google.com/finance/beta/quote/NI225:INDEXNIKKEI?hl=zh"
@@ -48,19 +48,19 @@ window.AI_SIGNALS = {
     {
       "market": "韩股",
       "flag": "🇰🇷",
-      "session": "8月10日早盘",
-      "updated_at": "2026-08-10 11:05 CST",
+      "session": "8月10日上午",
+      "updated_at": "2026-08-10 12:05 CST",
       "status": "pending",
-      "status_label": "KOSPI上涨约0.5%，冲高回落且精确涨幅待复核",
-      "move": "前收6,258.77｜开盘6,306.33（+0.76%）｜11:20 KST 6,287.05（+0.45%）",
-      "driver": "弱美国就业数据改善亚洲风险偏好，三星电子与SK海力士早盘走强，但指数由盘中高位回落；Google Finance与Reuters观测时刻不同。",
+      "status_label": "KOSPI上涨约0.8%，半导体支撑但盘中冲高回落",
+      "move": "前收6,258.77｜开盘6,306.33（+0.76%）｜12:39 KST 6,305.48（+0.75%）",
+      "driver": "弱美国就业数据改善亚洲风险偏好，三星电子与SK海力士支撑指数，但KOSPI从盘中高位回落；Google Finance与Reuters观测时刻不同。",
       "a_share_links": [
         "HBM",
         "DRAM",
         "NAND",
         "封测"
       ],
-      "validation": "观察KOSPI能否守住前收及三星电子、SK海力士能否同步维持涨幅；等待第二独立报价源复核同一时点。",
+      "validation": "观察午后KOSPI能否守住6,300及三星电子、SK海力士能否维持相对强势；等待第二独立报价源复核同一时点。",
       "sources": [
         "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-10/",
         "https://www.google.com/finance/beta/quote/KOSPI:KRX?hl=zh"
@@ -632,21 +632,21 @@ window.AI_SIGNALS = {
   },
   "signals": [
     {
-      "event": "存储涨价与扩产逻辑仍在，但兆易创新、太极实业早盘同步转跌",
+      "event": "存储涨价与扩产逻辑仍在，但兆易创新、太极实业午间前同步走弱",
       "industry": "semi",
       "industry_name": "DRAM / NAND / AI存储",
       "direction": "mixed",
       "strength": 5,
       "horizon": "1-4w",
       "priced_in": "high",
-      "reason": "三星二季度继续受益于DRAM价格上涨；SK海力士批准约383亿美元建设DRAM/HBM与NAND新厂，确认近端需求强、远期供给扩张风险上升。8月10日10:25，兆易创新约跌5.00%；10:55太极实业约跌3.33%，德明利缺少同刻可靠报价。周五三标的同步上涨未能延续，存储链由早盘分化转为已核验标的同步回撤。",
+      "reason": "三星二季度继续受益于DRAM价格上涨；SK海力士批准约383亿美元建设DRAM/HBM与NAND新厂，确认近端需求强、远期供给扩张风险上升。8月10日11:30，兆易创新约跌5.17%、太极实业约跌3.69%，德明利缺少同刻可靠报价。周五三标的同步上涨未能延续，已核验存储标的午间前仍未出现修复。",
       "assets": [
         "603986",
         "001309",
         "600667"
       ],
       "validation": [
-        "午后兆易创新、德明利、太极实业至少两只明显收复跌幅并相对半导体指数转强，避免周五上涨后集体回吐",
+        "午后兆易创新、德明利、太极实业至少两只明显收复跌幅并相对半导体指数转强，避免周五上涨后继续回吐",
         "DRAM/NAND渠道报价、交期或订单继续上修，新增产能投产节奏未提前"
       ],
       "invalidation": [
@@ -660,14 +660,14 @@ window.AI_SIGNALS = {
       ]
     },
     {
-      "event": "海外风险偏好回升，但A股AI硬件与存储链同步回撤",
+      "event": "日韩风险偏好继续回升，但A股AI硬件与存储链跌幅扩大",
       "industry": "macro",
       "industry_name": "就业 / 利率 / 成长估值",
       "direction": "mixed",
-      "strength": 5,
+      "strength": 6,
       "horizon": "1-4w",
       "priced_in": "medium",
-      "reason": "美国7月非农减少2.3万人，前两个月就业增幅下修，加息预期下降并推动美股上涨。8月10日上午日经约涨1.98%、KOSPI约涨0.45%，但A股映射普遍走弱：中际旭创约跌6.70%、东山精密约跌6.64%、兆易创新约跌5.00%、太极实业约跌3.33%。海外利率利好尚未转化为A股价格确认，政策、估值与资金兑现压力占主导。",
+      "reason": "美国7月非农减少2.3万人，前两个月就业增幅下修，加息预期下降并推动美股上涨。8月10日上午日经约涨2.05%、KOSPI约涨0.75%，但A股映射继续走弱：中际旭创约跌7.59%、东山精密约跌7.76%、兆易创新约跌5.17%、太极实业约跌3.69%。跨市场背离扩大，海外利率利好尚未转化为A股价格确认，政策、估值与资金兑现压力占主导。",
       "assets": [
         "300308",
         "002384",
@@ -744,14 +744,14 @@ window.AI_SIGNALS = {
       ]
     },
     {
-      "event": "AAOI业绩验证海外需求，但CPO与PCB跌幅扩大，A股传导进一步走弱",
+      "event": "AAOI业绩验证海外需求，但CPO与PCB午间前跌幅继续扩大",
       "industry": "tech",
       "industry_name": "CPO / 光模块 / AI服务器",
       "direction": "negative",
       "strength": 6,
       "horizon": "intraday",
       "priced_in": "high",
-      "reason": "AAOI二季度收入同比增长约86%，确认海外AI数据中心光通信需求仍强；但8月10日中际旭创由09:57约跌4.65%扩大至10:50约跌6.70%，东山精密由09:52约跌5.66%扩大至10:58约跌6.64%。在日经、KOSPI上涨背景下两只A股映射标的同步扩大跌幅，说明美国拟议限制、估值与资金兑现压力继续压过产业利好。",
+      "reason": "AAOI二季度收入同比增长约86%，确认海外AI数据中心光通信需求仍强；但8月10日中际旭创由10:50约跌6.70%扩大至11:59约跌7.59%，东山精密由10:58约跌6.64%扩大至11:28约跌7.76%。在日经、KOSPI上涨背景下两只A股映射标的同步扩大跌幅，说明美国拟议限制、估值与资金兑现压力继续压过产业利好，反转仍未成立。",
       "assets": [
         "300308",
         "002384"
