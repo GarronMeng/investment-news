@@ -1,5 +1,5 @@
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-09 16:05",
+  "generated_at": "2026-08-10 09:15",
   "source_generated_at": "2026-08-08 16:02",
   "generated_by": "ChatGPT Web",
   "status": "ready",
@@ -8,18 +8,18 @@ window.AI_SIGNALS = {
       "market": "美股",
       "flag": "🇺🇸",
       "session": "8月7日收盘",
-      "updated_at": "2026-08-09 16:05 CST",
+      "updated_at": "2026-08-10 09:15 CST",
       "status": "positive",
-      "status_label": "非农意外转负，美股上涨且标普创收盘新高",
+      "status_label": "弱非农推动美股上涨，标普创收盘新高",
       "move": "道指 +0.28%｜标普500 +0.62%｜纳指 +1.30%",
-      "driver": "美国7月非农减少2.3万人，前两月数据下修，加息预期下降；科技和非必需消费领涨。全周标普、纳指、道指分别上涨3.58%、5.19%、2.96%。",
+      "driver": "美国7月非农减少2.3万人，前两月数据下修，加息预期下降；科技和非必需消费领涨。周末无新增美股交易价格。",
       "a_share_links": [
         "CPO",
         "AI服务器PCB",
         "创新药",
         "黄金"
       ],
-      "validation": "周一观察中际旭创、东山精密与创新药ETF是否获得利率下降映射；弱就业同时意味着增长放缓风险。",
+      "validation": "A股、港股开盘后观察中际旭创、东山精密与创新药ETF是否获得利率下降映射；弱就业同时意味着增长放缓风险。",
       "sources": [
         "https://www.reuters.com/business/sp-500-dow-futures-muted-ahead-jobs-data-chips-software-stocks-rise-2026-08-07/"
       ]
@@ -27,44 +27,43 @@ window.AI_SIGNALS = {
     {
       "market": "日股",
       "flag": "🇯🇵",
-      "session": "8月7日收盘",
-      "updated_at": "2026-08-09 16:05 CST",
-      "status": "neutral",
-      "status_label": "日经盘中深跌后修复，收盘仍略低于前收",
-      "move": "开盘65,746.13｜收盘65,606.71（-0.12%）｜日低64,651.49",
-      "driver": "芯片权重与能源成本压制早盘，午后修复但未收复开盘位；周末休市，无新增价格。",
+      "session": "8月10日早盘",
+      "updated_at": "2026-08-10 09:15 CST",
+      "status": "pending",
+      "status_label": "上涨方向确认，精确开盘点位待双源复核",
+      "move": "前收65,606.71｜单一报价源开盘65,905.10（+0.45%）｜WSJ稍后报66,376.25（约+1.17%）｜Reuters较早截面约+0.6%",
+      "driver": "弱于预期的美国就业数据降低加息预期，电子与金属权重领涨；古河电工、揖斐电等表现较强。各来源观测时刻不同，未作同刻交叉验证。",
       "a_share_links": [
         "半导体设备",
         "被动元件",
         "消费电子",
         "AI硬件"
       ],
-      "validation": "周一观察能否站回65,746点，并由芯片设备和电子权重同步止跌。",
+      "validation": "观察日经能否守住65,905附近开盘区间，并由电子、半导体设备和被动元件同步确认。",
       "sources": [
-        "https://indexes.nikkei.co.jp/en/nkave/archives/summary",
-        "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-07/"
+        "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-10/",
+        "https://www.wsj.com/finance/stocks/nikkei-rises-1-2-led-by-electronics-metals-stocks-bf67531f",
+        "https://markets.businessinsider.com/index/nikkei_225"
       ]
     },
     {
       "market": "韩股",
       "flag": "🇰🇷",
-      "session": "8月7日收盘",
-      "updated_at": "2026-08-09 16:05 CST",
+      "session": "8月10日早盘",
+      "updated_at": "2026-08-10 09:15 CST",
       "status": "pending",
-      "status_label": "KOSPI收跌方向一致，正式收盘点位仍待统一核验",
-      "move": "开盘6,365.07｜AP约6,242.88｜Investing约6,258.77",
-      "driver": "多个来源均指向收跌，三星电子、SK海力士等存储权重仍处高波动；收盘点位分歧超过严格阈值。",
+      "status_label": "Reuters显示KOSPI上涨，精确开盘与点位待核验",
+      "move": "Reuters亚洲早盘截面约+0.5%｜精确开盘点位、前收统一口径待验证",
+      "driver": "弱美国就业数据改善亚洲风险偏好，但韩国市场仍受三星电子、SK海力士高波动及油价回升共同影响。",
       "a_share_links": [
         "HBM",
         "DRAM",
         "NAND",
         "封测"
       ],
-      "validation": "待KRX正式数据统一点位；周一观察能否重回6,365点。",
+      "validation": "待KRX或第二独立报价源确认开盘点位；观察三星电子、SK海力士能否同步守住早盘涨幅。",
       "sources": [
-        "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-07/",
-        "https://apnews.com/article/9636095906bbb689a1f612bce9a07343",
-        "https://www.investing.com/indices/kospi"
+        "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-10/"
       ]
     }
   ],
@@ -715,14 +714,14 @@ window.AI_SIGNALS = {
       ]
     },
     {
-      "event": "伊朗袭击ADNOC关联船只并提高海峡重开条件，霍尔木兹风险周末升级",
+      "event": "胡塞袭击沙特炼厂、伊朗仍设置海峡重开条件，原油首轮上涨约1.4%",
       "industry": "macro",
       "industry_name": "霍尔木兹 / 原油 / 通胀",
       "direction": "mixed",
       "strength": 5,
       "horizon": "1-5d",
-      "priced_in": "low",
-      "reason": "阿联酋8月8日称，一艘与ADNOC有关联的船只在霍尔木兹海峡遭伊朗导弹袭击，暂无人员伤亡，船只、货物和损害细节尚未完整披露；伊朗同日称与阿曼的协议接近达成，但仅有协议不足以促使海峡重开，并提出赔偿、解除制裁等条件。相较前一版“谈判接近、通行量下降”，周末出现了安全事件升级且重开门槛提高。周末无正式市场定价，周一原油、贵金属、美债收益率及A股成长估值的反馈均待验证。",
+      "priced_in": "medium",
+      "reason": "胡塞武装8月9日袭击沙特阿美Jazan炼厂并引发火灾，沙特称火势已扑灭且无人受伤；伊朗称与阿曼的航道协议进入最后阶段，但仍要求美国满足赔偿、解除制裁等条件后才会全面重开霍尔木兹海峡。周一首轮交易中布伦特原油一度上涨约1.4%至84.79美元，地缘风险已获得部分价格确认。油价上行可能重新抬升通胀与收益率压力，同时支撑贵金属避险；A股和港股尚未开盘，成长板块传导待验证。",
       "assets": [
         "518880",
         "161226",
@@ -731,17 +730,17 @@ window.AI_SIGNALS = {
         "517380"
       ],
       "validation": [
-        "周一布伦特原油、航运保险费率或贵金属对周末袭击出现可确认的风险溢价",
-        "阿联酋、ADNOC或涉事船方进一步确认船只损害，或伊朗—阿曼公布可执行的通航安排"
+        "布伦特原油能否守住84美元附近，并伴随航运保险费率或贵金属风险溢价上升",
+        "A股、港股开盘后黄金与白银映射走强，同时高估值科技、创新药出现可识别的油价约束"
       ],
       "invalidation": [
-        "伊朗与阿曼达成可核验协议且船舶通行量、保险承保快速恢复",
-        "袭击指控被权威来源否定，且周一原油与航运风险溢价未上升"
+        "伊朗—阿曼公布可执行通航协议且船舶、保险承保快速恢复",
+        "Jazan炼厂确认无产量损失，原油回落并完全消除周末风险溢价"
       ],
       "urls": [
-        "https://www.reuters.com/business/energy/uae-says-iran-attacked-adnoc-vessel-with-missile-strait-hormuz-2026-08-08/",
-        "https://www.reuters.com/world/middle-east/iran-says-deal-strait-hormuz-is-close-will-not-open-waterway-by-itself-2026-08-08/",
-        "https://apnews.com/article/feb75871fb82c44b3f7fd0ee02bb24b4"
+        "https://www.reuters.com/business/energy/fire-extinguished-aramco-facility-jizan-saudi-arabia-says-2026-08-09/",
+        "https://www.reuters.com/world/asia-pacific/iran-says-oman-deal-is-final-stages-us-must-act-open-hormuz-2026-08-09/",
+        "https://www.reuters.com/business/energy/oil-rises-uncertainty-continues-over-reopening-strait-2026-08-09/"
       ]
     },
     {
