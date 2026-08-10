@@ -1,5 +1,5 @@
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-10 09:15",
+  "generated_at": "2026-08-10 10:05",
   "source_generated_at": "2026-08-08 16:02",
   "generated_by": "ChatGPT Web",
   "status": "ready",
@@ -8,7 +8,7 @@ window.AI_SIGNALS = {
       "market": "美股",
       "flag": "🇺🇸",
       "session": "8月7日收盘",
-      "updated_at": "2026-08-10 09:15 CST",
+      "updated_at": "2026-08-10 10:05 CST",
       "status": "positive",
       "status_label": "弱非农推动美股上涨，标普创收盘新高",
       "move": "道指 +0.28%｜标普500 +0.62%｜纳指 +1.30%",
@@ -28,42 +28,42 @@ window.AI_SIGNALS = {
       "market": "日股",
       "flag": "🇯🇵",
       "session": "8月10日早盘",
-      "updated_at": "2026-08-10 09:15 CST",
+      "updated_at": "2026-08-10 10:05 CST",
       "status": "pending",
-      "status_label": "上涨方向确认，精确开盘点位待双源复核",
-      "move": "前收65,606.71｜单一报价源开盘65,905.10（+0.45%）｜WSJ稍后报66,376.25（约+1.17%）｜Reuters较早截面约+0.6%",
-      "driver": "弱于预期的美国就业数据降低加息预期，电子与金属权重领涨；古河电工、揖斐电等表现较强。各来源观测时刻不同，未作同刻交叉验证。",
+      "status_label": "日经上涨约1.9%，双源同刻验证仍不足",
+      "move": "前收65,606.71｜开盘65,905.10（+0.45%）｜10:40 JST 66,879.53（+1.94%）",
+      "driver": "弱美国就业数据降低加息预期，AI与电子相关股票走强；霍尔木兹紧张局势限制风险偏好。Google Finance与Reuters观测时刻不同，未将涨幅作同刻交叉验证。",
       "a_share_links": [
         "半导体设备",
         "被动元件",
         "消费电子",
         "AI硬件"
       ],
-      "validation": "观察日经能否守住65,905附近开盘区间，并由电子、半导体设备和被动元件同步确认。",
+      "validation": "观察日经能否守住65,905开盘区间，并由半导体设备、电子和被动元件持续确认；等待第二独立报价源复核同一时点。",
       "sources": [
         "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-10/",
-        "https://www.wsj.com/finance/stocks/nikkei-rises-1-2-led-by-electronics-metals-stocks-bf67531f",
-        "https://markets.businessinsider.com/index/nikkei_225"
+        "https://www.google.com/finance/beta/quote/NI225:INDEXNIKKEI?hl=zh"
       ]
     },
     {
       "market": "韩股",
       "flag": "🇰🇷",
       "session": "8月10日早盘",
-      "updated_at": "2026-08-10 09:15 CST",
+      "updated_at": "2026-08-10 10:05 CST",
       "status": "pending",
-      "status_label": "Reuters显示KOSPI上涨，精确开盘与点位待核验",
-      "move": "Reuters亚洲早盘截面约+0.5%｜精确开盘点位、前收统一口径待验证",
-      "driver": "弱美国就业数据改善亚洲风险偏好，但韩国市场仍受三星电子、SK海力士高波动及油价回升共同影响。",
+      "status_label": "KOSPI上涨约0.5%，精确涨幅待第二源同刻复核",
+      "move": "前收6,258.77｜开盘6,306.33（+0.76%）｜10:39 KST 6,292.50（+0.54%）",
+      "driver": "弱美国就业数据改善亚洲风险偏好，三星电子与SK海力士早盘曾走强，但指数冲高回落；Google Finance与Reuters观测时刻不同。",
       "a_share_links": [
         "HBM",
         "DRAM",
         "NAND",
         "封测"
       ],
-      "validation": "待KRX或第二独立报价源确认开盘点位；观察三星电子、SK海力士能否同步守住早盘涨幅。",
+      "validation": "观察KOSPI能否守住前收及三星电子、SK海力士能否同步维持涨幅；等待第二独立报价源复核同一时点。",
       "sources": [
-        "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-10/"
+        "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-10/",
+        "https://www.google.com/finance/beta/quote/KOSPI:KRX?hl=zh"
       ]
     }
   ],
@@ -639,18 +639,18 @@ window.AI_SIGNALS = {
       "strength": 5,
       "horizon": "1-4w",
       "priced_in": "high",
-      "reason": "三星二季度继续受益于DRAM价格上涨；SK海力士董事会批准约383亿美元建设DRAM/HBM与NAND新厂，首批洁净室预计2028至2029年投用。新增投资确认AI存储需求强劲，短期供给仍紧，但远期大规模产能释放将增强采购方议价权。兆易创新、德明利、太极实业周五已同步收涨，价格端已反映较多乐观预期。",
+      "reason": "三星二季度继续受益于DRAM价格上涨；SK海力士批准约383亿美元建设DRAM/HBM与NAND新厂，确认近端需求强、远期供给扩张风险上升。8月10日09:33，兆易创新约涨0.64%；09:34太极实业约跌0.15%，德明利缺少同刻可靠报价，周五三标的同步上涨未延续为一致扩散。",
       "assets": [
         "603986",
         "001309",
         "600667"
       ],
       "validation": [
-        "周一三只标的至少两只保持相对半导体指数强势，且未出现集体高开低走",
+        "兆易创新、德明利、太极实业至少两只在午后保持相对半导体指数强势，且不出现集体高开低走",
         "DRAM/NAND渠道报价、交期或订单继续上修，新增产能投产节奏未提前"
       ],
       "invalidation": [
-        "周一三只标的同步放量回落并跌破8月7日主要支撑区间",
+        "三只标的同步放量回落并跌破8月7日主要支撑区间",
         "新增产能提前释放或DRAM/NAND现货、合约价格转弱"
       ],
       "urls": [
@@ -667,7 +667,7 @@ window.AI_SIGNALS = {
       "strength": 5,
       "horizon": "1-4w",
       "priced_in": "medium",
-      "reason": "美国7月非农减少2.3万人，前两个月就业增幅合计下修10.3万人，失业率因劳动力退出由4.2%降至4.1%。9月加息隐含概率降至约44%，美股和债券上涨。利率压力缓和有利CPO、PCB、创新药和黄金估值，但就业转弱也增加经济放缓风险，周一A股及港股价格传导尚待验证。",
+      "reason": "美国7月非农减少2.3万人，前两个月就业增幅下修，加息预期下降并推动美股上涨。8月10日早盘日经与KOSPI上涨，但A股映射分化：中际旭创09:57约跌4.65%，东山精密09:52约跌5.66%，说明利率利好尚未转化为CPO/PCB价格确认，经济放缓与政策风险仍占主导。",
       "assets": [
         "300308",
         "002384",
@@ -675,12 +675,12 @@ window.AI_SIGNALS = {
         "518880"
       ],
       "validation": [
-        "周一中际旭创、东山精密和创新药ETF至少两个方向相对各自指数走强",
+        "午后中际旭创、东山精密或创新药ETF至少两个方向明显收复早盘跌幅并强于各自指数",
         "美国后续CPI/PPI未重新推高通胀与加息预期"
       ],
       "invalidation": [
-        "美国通胀数据显著超预期并令加息概率重新升高",
-        "成长板块未获得利率下降映射且出现放量回落"
+        "中际旭创与东山精密继续同步放量走弱，成长板块未获得利率下降映射",
+        "美国通胀显著超预期并令加息概率重新升高"
       ],
       "urls": [
         "https://www.reuters.com/business/sp-500-dow-futures-muted-ahead-jobs-data-chips-software-stocks-rise-2026-08-07/"
@@ -744,29 +744,30 @@ window.AI_SIGNALS = {
       ]
     },
     {
-      "event": "AAOI二季度收入同比增长86%，海外光通信需求提供正向验证",
+      "event": "AAOI业绩验证海外需求，但中际旭创与东山精密早盘同步回落，A股传导未成立",
       "industry": "tech",
       "industry_name": "CPO / 光模块 / AI服务器",
-      "direction": "positive",
-      "strength": 4,
-      "horizon": "1-5d",
-      "priced_in": "unknown",
-      "reason": "Applied Optoelectronics二季度收入1.919亿美元，同比增长约86%，调整后每股收益0.06美元，均超过市场预期。海外光通信公司业绩确认AI数据中心需求仍强，对中际旭创和东山精密形成产业映射；但A股周末休市，美国拟议光模块限制尚未落地，价格传导仍待周一验证。",
+      "direction": "mixed",
+      "strength": 5,
+      "horizon": "intraday",
+      "priced_in": "high",
+      "reason": "AAOI二季度收入同比增长约86%，确认海外AI数据中心光通信需求仍强；但8月10日中际旭创开盘917.99元后于09:57跌至约877.06元（-4.65%），东山精密开盘195.28元后于09:52跌至约184.21元（-5.66%）。在日经、KOSPI上涨背景下两只A股映射标的同步走弱，说明美国拟议限制、估值与资金兑现压力暂时压过产业利好。",
       "assets": [
         "300308",
         "002384"
       ],
       "validation": [
-        "周一中际旭创与东山精密至少一只相对通信设备指数放量走强，且未出现双双高开低走",
-        "AAOI后续指引、800G/1.6T出货及客户需求继续上修"
+        "午后中际旭创与东山精密至少一只收复开盘价附近且相对通信设备指数转强",
+        "AAOI后续指引、800G/1.6T出货与美国光模块限制边界出现新增正式确认"
       ],
       "invalidation": [
-        "周一中际旭创与东山精密同步走弱，海外光通信股回吐财报涨幅",
+        "两只标的继续同步放量下跌并收于早盘低位附近",
         "美国正式扩大光模块限制并覆盖核心产品或客户"
       ],
       "urls": [
         "https://investors.ao-inc.com/news-releases/news-release-details/applied-optoelectronics-reports-second-quarter-2026-results",
-        "https://wallstreetcn.com/articles/3778985"
+        "https://www.reuters.com/world/trump-administration-drafting-ban-chinese-data-center-devices-sources-say-2026-08-04/",
+        "https://www.google.com/finance/beta/quote/300308:SHE?hl=zh"
       ]
     }
   ]
