@@ -1,5 +1,5 @@
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-11 09:04",
+  "generated_at": "2026-08-11 10:05",
   "source_generated_at": "2026-08-08 16:02",
   "generated_by": "ChatGPT Web",
   "status": "ready",
@@ -8,7 +8,7 @@ window.AI_SIGNALS = {
       "market": "美股",
       "flag": "🇺🇸",
       "session": "8月10日收盘",
-      "updated_at": "2026-08-11 09:04 CST",
+      "updated_at": "2026-08-11 10:05 CST",
       "status": "negative",
       "status_label": "芯片与油价共同压制风险偏好",
       "move": "道指 -0.11%｜标普500 -0.06%｜纳指 -0.32%｜费城半导体 -2.94%",
@@ -30,7 +30,7 @@ window.AI_SIGNALS = {
       "market": "日股",
       "flag": "🇯🇵",
       "session": "8月11日休市",
-      "updated_at": "2026-08-11 09:04 CST",
+      "updated_at": "2026-08-11 10:05 CST",
       "status": "neutral",
       "status_label": "山之日休市，无今日价格信号",
       "move": "8月10日收盘66,970.22（+2.08%）；8月11日东京市场休市",
@@ -49,22 +49,23 @@ window.AI_SIGNALS = {
     {
       "market": "韩股",
       "flag": "🇰🇷",
-      "session": "8月11日早盘",
-      "updated_at": "2026-08-11 09:04 CST",
-      "status": "negative",
-      "status_label": "开盘价双源一致，低开0.95%",
-      "move": "前收6,299.66｜开盘6,240.06（-0.95%）｜09:36 KST报6,239.66（-0.95%）",
-      "driver": "WSJ/FactSet与Investing.com对前收和开盘点位一致；KOSPI在昨日收涨0.65%后低开，存储与AI高波动交易继续承压。",
+      "session": "8月11日上午",
+      "updated_at": "2026-08-11 10:05 CST",
+      "status": "mixed",
+      "status_label": "低开0.95%后翻红至约0.1%，波动仍高",
+      "move": "前收6,299.66｜开盘6,240.06（-0.95%）｜10:26 KST报6,306.63（+0.11%）",
+      "driver": "隔夜美股芯片回落带来低开压力，但KOSPI随后收复前收并翻红，外部风险信号由单向偏空转为高波动修复；仍需观察三星电子、SK海力士能否同步企稳。",
       "a_share_links": [
         "HBM",
         "DRAM",
         "NAND",
         "封测"
       ],
-      "validation": "观察KOSPI能否收复6,299.66前收，以及三星电子、SK海力士是否同步转强。",
+      "validation": "观察KOSPI能否守住6,299.66前收并获得第二实时来源确认，以及三星电子、SK海力士是否同步转强。",
       "sources": [
         "https://www.wsj.com/market-data/quotes/index/KR/SEU",
-        "https://www.investing.com/indices/kospi"
+        "https://www.investing.com/indices/kospi",
+        "https://www.google.com/finance/beta/quote/KOSPI:KRX?hl=zh"
       ]
     }
   ],
@@ -667,14 +668,14 @@ window.AI_SIGNALS = {
       ]
     },
     {
-      "event": "美股芯片跌2.94%、KOSPI低开0.95%，A股科技链尾盘承接面临反向验证",
+      "event": "KOSPI低开后翻红，兆易创新与太极实业同步反弹，但CPO/PCB仍待报价确认",
       "industry": "tech",
       "industry_name": "CPO / PCB / 存储 / 封测",
-      "direction": "negative",
+      "direction": "mixed",
       "strength": 5,
       "horizon": "intraday",
       "priced_in": "medium",
-      "reason": "费城半导体指数隔夜下跌2.94%，英伟达跌2.9%；8月11日KOSPI由两家独立报价源确认以6,240.06点低开，较前收低0.95%，09:36 KST仍跌0.95%。这与8月10日A股中际旭创、东山精密、兆易创新、德明利和太极实业尾盘收复部分跌幅形成反向外部检验。日本休市，缺少日股电子链的同步确认。",
+      "reason": "费城半导体指数隔夜下跌2.94%，英伟达跌2.9%。8月11日KOSPI以6,240.06点低开（-0.95%），10:26 KST回升至6,306.63点（+0.11%）。A股09:50—09:58，兆易创新报409.50元（+1.61%）、太极实业报20.01元（+3.84%），确认存储链局部承接；中际旭创、东山精密的当前公开报价源仍停留在8月10日收盘，CPO/PCB开盘表现待验证。现阶段不能升级为全科技链趋势反转。",
       "assets": [
         "300308",
         "002384",
@@ -683,17 +684,18 @@ window.AI_SIGNALS = {
         "600667"
       ],
       "validation": [
-        "上述五只标的至少两个方向在开盘后相对各自行业指数抗跌并守住8月10日低点",
-        "KOSPI收复前收，或三星电子、SK海力士出现同步转强"
+        "兆易创新、太极实业、德明利至少两只维持上涨并相对各自行业指数占优",
+        "KOSPI守住前收，且中际旭创、东山精密获得8月11日新鲜报价后不出现同步走弱"
       ],
       "invalidation": [
-        "A股科技链放量跌破8月10日低点且KOSPI跌幅继续扩大",
-        "美股芯片期货修复、KOSPI翻红并带动A股科技链同步转强"
+        "兆易创新与太极实业涨幅同时回吐，且KOSPI再度跌破开盘低点附近",
+        "CPO/PCB新鲜报价确认显著走弱，并带动存储与封测链同步转弱"
       ],
       "urls": [
         "https://www.reuters.com/business/sp-500-nasdaq-futures-tick-higher-with-hormuz-outlook-focus-2026-08-10/",
-        "https://www.wsj.com/market-data/quotes/index/KR/SEU",
-        "https://www.investing.com/indices/kospi"
+        "https://www.google.com/finance/beta/quote/KOSPI:KRX?hl=zh",
+        "https://www.google.com/finance/beta/quote/603986:SHA?hl=zh",
+        "https://www.google.com/finance/beta/quote/600667:SHA?hl=zh"
       ]
     },
     {
