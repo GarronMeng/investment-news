@@ -1,5 +1,5 @@
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-10 16:05",
+  "generated_at": "2026-08-11 09:04",
   "source_generated_at": "2026-08-08 16:02",
   "generated_by": "ChatGPT Web",
   "status": "ready",
@@ -7,63 +7,64 @@ window.AI_SIGNALS = {
     {
       "market": "美股",
       "flag": "🇺🇸",
-      "session": "8月7日收盘",
-      "updated_at": "2026-08-10 16:05 CST",
-      "status": "positive",
-      "status_label": "弱非农推动美股上涨，标普创收盘新高",
-      "move": "道指 +0.28%｜标普500 +0.62%｜纳指 +1.30%",
-      "driver": "美国7月非农减少2.3万人，前两月数据下修，加息预期下降；科技和非必需消费领涨。周末无新增美股交易价格。",
+      "session": "8月10日收盘",
+      "updated_at": "2026-08-11 09:04 CST",
+      "status": "negative",
+      "status_label": "芯片与油价共同压制风险偏好",
+      "move": "道指 -0.11%｜标普500 -0.06%｜纳指 -0.32%｜费城半导体 -2.94%",
+      "driver": "霍尔木兹重开预期降温推动WTI上涨约5%；英伟达跌2.9%、英特尔跌4.1%，高油价与芯片回调共同压制成长板块。",
       "a_share_links": [
         "CPO",
         "AI服务器PCB",
-        "创新药",
-        "黄金"
+        "DRAM/NAND",
+        "成长估值"
       ],
-      "validation": "A股、港股开盘后观察中际旭创、东山精密与创新药ETF是否获得利率下降映射；弱就业同时意味着增长放缓风险。",
+      "validation": "观察A股中际旭创、东山精密及存储链能否相对各自行业指数抗跌；美国7月CPI将于8月12日公布。",
       "sources": [
-        "https://www.reuters.com/business/sp-500-dow-futures-muted-ahead-jobs-data-chips-software-stocks-rise-2026-08-07/"
+        "https://www.reuters.com/business/sp-500-nasdaq-futures-tick-higher-with-hormuz-outlook-focus-2026-08-10/",
+        "https://www.wsj.com/market-data/quotes/index/JP/XTKS/NIK",
+        "https://www.investing.com/indices/kospi"
       ]
     },
     {
       "market": "日股",
       "flag": "🇯🇵",
-      "session": "8月10日收盘",
-      "updated_at": "2026-08-10 16:05 CST",
-      "status": "positive",
-      "status_label": "日经官方确认收涨2.08%，科技板块贡献主要涨幅",
-      "move": "前收65,606.71｜开盘65,905.10（+0.45%）｜收盘66,970.22（+2.08%）",
-      "driver": "弱美国就业数据降低加息预期，AI与电子相关股票走强。日经官方数据显示科技板块贡献约962点，是当日上涨的主要来源。",
+      "session": "8月11日休市",
+      "updated_at": "2026-08-11 09:04 CST",
+      "status": "neutral",
+      "status_label": "山之日休市，无今日价格信号",
+      "move": "8月10日收盘66,970.22（+2.08%）；8月11日东京市场休市",
+      "driver": "JPX官方假日日历确认8月11日因山之日休市，昨日上涨不能当作今日外围确认。",
       "a_share_links": [
         "半导体设备",
         "被动元件",
-        "消费电子",
-        "AI硬件"
+        "消费电子"
       ],
-      "validation": "观察下一交易日能否守住66,000上方，以及半导体设备、电子和被动元件能否继续确认。",
+      "validation": "等待8月12日复市后观察半导体设备、电子与被动元件能否承接美股芯片回调。",
       "sources": [
-        "https://indexes.nikkei.co.jp/en/nkave/archives/summary",
-        "https://www.google.com/finance/beta/quote/NI225:INDEXNIKKEI?hl=zh"
+        "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
+        "https://www.wsj.com/market-data/quotes/index/JP/XTKS/NIK"
       ]
     },
     {
       "market": "韩股",
       "flag": "🇰🇷",
-      "session": "8月10日收盘",
-      "updated_at": "2026-08-10 16:05 CST",
-      "status": "positive",
-      "status_label": "KOSPI收涨0.65%，但芯片龙头冲高回落",
-      "move": "前收6,258.77｜开盘6,306.33（+0.76%）｜收盘6,299.66（+0.65%）",
-      "driver": "KOSPI结束两连跌并收涨0.65%，但早盘一度上涨2.16%后明显回落；三星电子收跌0.43%、SK海力士收跌0.14%，指数上涨未得到两只芯片龙头的收盘确认。",
+      "session": "8月11日早盘",
+      "updated_at": "2026-08-11 09:04 CST",
+      "status": "negative",
+      "status_label": "开盘价双源一致，低开0.95%",
+      "move": "前收6,299.66｜开盘6,240.06（-0.95%）｜09:36 KST报6,239.66（-0.95%）",
+      "driver": "WSJ/FactSet与Investing.com对前收和开盘点位一致；KOSPI在昨日收涨0.65%后低开，存储与AI高波动交易继续承压。",
       "a_share_links": [
         "HBM",
         "DRAM",
         "NAND",
         "封测"
       ],
-      "validation": "观察下一交易日KOSPI能否守住6,300附近，以及三星电子、SK海力士能否重新同步转强。",
+      "validation": "观察KOSPI能否收复6,299.66前收，以及三星电子、SK海力士是否同步转强。",
       "sources": [
-        "https://en.yna.co.kr/view/AEN20260810006400320",
-        "https://www.google.com/finance/beta/quote/KOSPI:KRX?hl=zh"
+        "https://www.wsj.com/market-data/quotes/index/KR/SEU",
+        "https://www.investing.com/indices/kospi"
       ]
     }
   ],
@@ -628,146 +629,97 @@ window.AI_SIGNALS = {
     "https://www.cnbc.com/2026/08/08/ukraine-russia-war-fire-point-drones.html": "揭秘为乌克兰纵深打击行动提供支持的初创无人机制造商",
     "https://www.ft.com/content/bdcf7729-3b03-49ec-82fb-b5773fdaa990": "忘掉阿西莫夫吧，菲利普·K·迪克才看见了未来",
     "https://www.sciencedaily.com/releases/2026/08/260807035133.htm": "阳光可产生曾被认为需要激光才能实现的量子纠缠",
-    "https://www.sciencedaily.com/releases/2026/08/260806050726.htm": "青少年使用大麻与记忆和思维能力发展放缓有关"
+    "https://www.sciencedaily.com/releases/2026/08/260806050726.htm": "青少年使用大麻与记忆和思维能力发展放缓有关",
+    "https://www.qbitai.com/2026/08/468462.html": "都学坏了！奥特曼亲手封锁最强模型Astra，重蹈Mythos覆辙",
+    "https://www.qbitai.com/2026/08/468338.html": "Kimi K3也失控了：学霸AI逃离沙箱只为找答案",
+    "https://www.ithome.com/0/987/338.htm": "索尼FX5电影摄影机首批交付：支持Open Gate、8.5级防抖和240高帧",
+    "https://www.ithome.com/0/987/334.htm": "OpenAI下一代Astra模型数学成果遭抄袭指控",
+    "https://www.ithome.com/0/987/332.htm": "华为在印度推出MatePad SE 11与MatePad 11.5平板"
   },
   "signals": [
     {
-      "event": "存储链尾盘同步收复部分跌幅，但反转仍待跨日确认",
-      "industry": "semi",
-      "industry_name": "DRAM / NAND / AI存储",
-      "direction": "mixed",
+      "event": "霍尔木兹重开预期降温，油价单日上涨约5%",
+      "industry": "macro",
+      "industry_name": "霍尔木兹 / 原油 / 通胀",
+      "direction": "negative",
       "strength": 5,
       "horizon": "1-5d",
-      "priced_in": "high",
-      "reason": "三星二季度继续受益于DRAM价格上涨；SK海力士批准约383亿美元建设DRAM/HBM与NAND新厂，近端需求强、远期供给扩张风险并存。8月10日收盘，兆易创新由午间约跌5.17%修复至跌3.36%，太极实业由约跌3.69%修复至跌1.33%，德明利收跌约0.83%。三只标的均收跌但明显脱离日内低位，确认尾盘承接，尚不足以认定趋势反转。",
+      "priced_in": "medium",
+      "reason": "伊朗与美国仍围绕赔偿、制裁及航道重开条件存在分歧。8月10日布伦特原油上涨4.99%至87.72美元，WTI上涨5.05%至82.13美元，周末约1.4%的首轮风险溢价显著扩大。事实通道为油价上行推高通胀与利率预期，压制高估值科技和创新药；同时增加黄金、白银的避险及通胀对冲需求。",
       "assets": [
+        "300308",
+        "002384",
+        "517380",
+        "518880",
+        "161226"
+      ],
+      "validation": [
+        "布伦特能否守住87美元附近，霍尔木兹航运、保险和实际通行量是否继续受限",
+        "A股成长板块是否相对走弱，黄金与白银净值是否同步外盘而非仅由场内供求驱动"
+      ],
+      "invalidation": [
+        "美伊公布可执行通航协议且航运、保险承保快速恢复",
+        "原油回吐8月10日主要涨幅并令通胀、利率预期同步回落"
+      ],
+      "urls": [
+        "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-10/",
+        "https://www.reuters.com/business/sp-500-nasdaq-futures-tick-higher-with-hormuz-outlook-focus-2026-08-10/"
+      ]
+    },
+    {
+      "event": "美股芯片跌2.94%、KOSPI低开0.95%，A股科技链尾盘承接面临反向验证",
+      "industry": "tech",
+      "industry_name": "CPO / PCB / 存储 / 封测",
+      "direction": "negative",
+      "strength": 5,
+      "horizon": "intraday",
+      "priced_in": "medium",
+      "reason": "费城半导体指数隔夜下跌2.94%，英伟达跌2.9%；8月11日KOSPI由两家独立报价源确认以6,240.06点低开，较前收低0.95%，09:36 KST仍跌0.95%。这与8月10日A股中际旭创、东山精密、兆易创新、德明利和太极实业尾盘收复部分跌幅形成反向外部检验。日本休市，缺少日股电子链的同步确认。",
+      "assets": [
+        "300308",
+        "002384",
         "603986",
         "001309",
         "600667"
       ],
       "validation": [
-        "下一个交易日兆易创新、德明利、太极实业至少两只继续收涨并相对半导体指数转强",
-        "DRAM/NAND渠道报价、交期或订单继续上修，新增产能投产节奏未提前"
+        "上述五只标的至少两个方向在开盘后相对各自行业指数抗跌并守住8月10日低点",
+        "KOSPI收复前收，或三星电子、SK海力士出现同步转强"
       ],
       "invalidation": [
-        "三只标的同步放量回落并跌破8月7日主要支撑区间",
-        "新增产能提前释放或DRAM/NAND现货、合约价格转弱"
+        "A股科技链放量跌破8月10日低点且KOSPI跌幅继续扩大",
+        "美股芯片期货修复、KOSPI翻红并带动A股科技链同步转强"
       ],
       "urls": [
-        "https://www.reuters.com/world/asia-pacific/sk-hynix-board-approves-38-bln-investments-south-koreas-yongin-cheongju-chip-2026-08-07/",
-        "https://www.digitimes.com/news/a20260807VL212/memory-chips-price-revenue-sk-hynix-samsung-micron-sandisk.html",
-        "https://www.gsmarena.com/samsung_continues_to_lead_the_global_dram_market_in_q2_2026-news-74058.php"
+        "https://www.reuters.com/business/sp-500-nasdaq-futures-tick-higher-with-hormuz-outlook-focus-2026-08-10/",
+        "https://www.wsj.com/market-data/quotes/index/KR/SEU",
+        "https://www.investing.com/indices/kospi"
       ]
     },
     {
-      "event": "日韩股市收强，A股AI硬件与存储链尾盘修复但仍收跌",
-      "industry": "macro",
-      "industry_name": "就业 / 利率 / 成长估值",
-      "direction": "mixed",
-      "strength": 5,
-      "horizon": "1-5d",
-      "priced_in": "medium",
-      "reason": "美国7月非农减少2.3万人，前两个月就业增幅下修，加息预期下降并推动海外风险资产上涨。8月10日正式收盘，日经涨2.08%、KOSPI涨0.65%；A股中际旭创跌6.01%、东山精密跌4.78%、兆易创新跌3.36%、太极实业跌1.33%。四只A股映射标的较午间均收复部分跌幅，但仍未与日韩市场同步转强，当前属于尾盘承接而非跨市场反转。",
-      "assets": [
-        "300308",
-        "002384",
-        "517380",
-        "518880"
-      ],
-      "validation": [
-        "下一个交易日中际旭创、东山精密、兆易创新、太极实业至少两个方向继续收涨并强于各自指数",
-        "美国后续CPI/PPI未重新推高通胀与加息预期"
-      ],
-      "invalidation": [
-        "中际旭创与东山精密继续同步放量走弱，成长板块未获得利率下降映射",
-        "美国通胀显著超预期并令加息概率重新升高"
-      ],
-      "urls": [
-        "https://www.reuters.com/business/sp-500-dow-futures-muted-ahead-jobs-data-chips-software-stocks-rise-2026-08-07/"
-      ]
-    },
-    {
-      "event": "黄金白银大涨，但国投白银LOF场内溢价升至约27%",
+      "event": "黄金升至九周高位、白银上涨3.1%，但白银LOF高溢价仍需单独核验",
       "industry": "macro",
       "industry_name": "黄金ETF / 白银LOF / 场内溢价",
       "direction": "mixed",
       "strength": 5,
       "horizon": "1-5d",
-      "priced_in": "high",
-      "reason": "现货黄金周五上涨2.3%至约4336美元、全周涨逾7%；现货白银上涨3%至63.29美元。新增材料显示油价上行强化通胀对冲需求、就业转弱压低加息预期，黄金同时受两条逻辑支持。国投白银LOF周五收涨7.37%至2.185元，但对应净值约1.7189元，溢价约27.12%，且仍暂停申购并发布停复牌风险提示；白银LOF仍同时承受银价回撤和价差收敛风险。",
+      "priced_in": "unknown",
+      "reason": "8月10日现货黄金上涨0.8%至4,376.56美元并触及九周高位，现货白银上涨3.1%至65.50美元；油价上涨与弱就业分别强化通胀对冲和利率下行预期。黄金ETF华安存在直接外盘映射。国投白银LOF上次可靠核验的8月7日溢价约27.12%，但8月10日最新净值、场内价格及交易限制未取得可靠完整数据，仍标记待验证。",
       "assets": [
         "518880",
         "161226"
       ],
       "validation": [
-        "周一国内黄金ETF与人民币金价同步，白银现货、基金净值与场内价格方向一致",
-        "国投白银LOF最新公告未新增更严格交易限制且溢价不再扩大"
+        "黄金ETF华安是否与人民币金价同步，国投白银LOF最新净值与场内价格对应溢价是否收敛",
+        "美元和美国实际利率能否维持稳定，金银是否守住8月10日主要涨幅"
       ],
       "invalidation": [
-        "美元或实际利率反弹令贵金属明显回吐",
-        "白银LOF溢价快速压缩或再次触发停牌、连续停牌"
+        "美元或实际利率快速上行并令金银显著回吐",
+        "国投白银LOF因价差收敛或停复牌机制明显弱于白银净值"
       ],
       "urls": [
-        "https://www.reuters.com/world/india/gold-heads-strongest-week-since-january-us-payrolls-data-focus-2026-08-07/",
-        "https://wallstreetcn.com/articles/3778987",
+        "https://www.reuters.com/world/india/gold-drifts-lower-seven-week-peak-us-inflation-data-looms-2026-08-10/",
         "https://www.haoetf.com/lof/161226"
-      ]
-    },
-    {
-      "event": "胡塞袭击沙特炼厂、伊朗仍设置海峡重开条件，原油首轮上涨约1.4%",
-      "industry": "macro",
-      "industry_name": "霍尔木兹 / 原油 / 通胀",
-      "direction": "mixed",
-      "strength": 5,
-      "horizon": "1-5d",
-      "priced_in": "medium",
-      "reason": "胡塞武装8月9日袭击沙特阿美Jazan炼厂并引发火灾，沙特称火势已扑灭且无人受伤；伊朗称与阿曼的航道协议进入最后阶段，但仍要求美国满足赔偿、解除制裁等条件后才会全面重开霍尔木兹海峡。周一首轮交易中布伦特原油一度上涨约1.4%至84.79美元，地缘风险已获得部分价格确认。8月10日A股收盘后，科技映射标的普遍下跌，但油价、估值和政策风险的贡献尚无法单独拆分；贵金属映射仍需结合净值与溢价验证。",
-      "assets": [
-        "518880",
-        "161226",
-        "300308",
-        "002384",
-        "517380"
-      ],
-      "validation": [
-        "布伦特原油能否守住84美元附近，并伴随航运保险费率或贵金属风险溢价上升",
-        "下一交易日黄金与白银映射是否继续走强，同时高估值科技、创新药是否呈现可识别的油价约束"
-      ],
-      "invalidation": [
-        "伊朗—阿曼公布可执行通航协议且船舶、保险承保快速恢复",
-        "Jazan炼厂确认无产量损失，原油回落并完全消除周末风险溢价"
-      ],
-      "urls": [
-        "https://www.reuters.com/business/energy/fire-extinguished-aramco-facility-jizan-saudi-arabia-says-2026-08-09/",
-        "https://www.reuters.com/world/asia-pacific/iran-says-oman-deal-is-final-stages-us-must-act-open-hormuz-2026-08-09/",
-        "https://www.reuters.com/business/energy/oil-rises-uncertainty-continues-over-reopening-strait-2026-08-09/"
-      ]
-    },
-    {
-      "event": "CPO与PCB尾盘同步回升，但中际旭创仍跌6%，反转未成立",
-      "industry": "tech",
-      "industry_name": "CPO / 光模块 / AI服务器",
-      "direction": "negative",
-      "strength": 5,
-      "horizon": "1-5d",
-      "priced_in": "high",
-      "reason": "AAOI二季度收入同比增长约86%，确认海外AI数据中心光通信需求仍强。8月10日正式收盘，东山精密由午间约跌7.76%修复至跌4.78%，中际旭创由午间约跌7.59%修复至跌6.01%；两者均脱离日内低位，但中际旭创仍明显弱于东山精密，产业利好尚未转化为CPO板块趋势确认。",
-      "assets": [
-        "300308",
-        "002384"
-      ],
-      "validation": [
-        "下一个交易日中际旭创与东山精密至少一只继续收涨且相对通信设备指数转强",
-        "AAOI后续指引、800G/1.6T出货与美国光模块限制边界出现新增正式确认"
-      ],
-      "invalidation": [
-        "两只标的继续同步放量下跌并收于早盘低位附近",
-        "美国正式扩大光模块限制并覆盖核心产品或客户"
-      ],
-      "urls": [
-        "https://investors.ao-inc.com/news-releases/news-release-details/applied-optoelectronics-reports-second-quarter-2026-results",
-        "https://www.reuters.com/world/trump-administration-drafting-ban-chinese-data-center-devices-sources-say-2026-08-04/",
-        "https://www.google.com/finance/beta/quote/300308:SHE?hl=zh"
       ]
     }
   ]
