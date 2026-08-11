@@ -1,5 +1,5 @@
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-11 12:05",
+  "generated_at": "2026-08-11 13:05",
   "source_generated_at": "2026-08-08 16:02",
   "generated_by": "ChatGPT Web",
   "status": "ready",
@@ -8,7 +8,7 @@ window.AI_SIGNALS = {
       "market": "美股",
       "flag": "🇺🇸",
       "session": "8月10日收盘",
-      "updated_at": "2026-08-11 12:05 CST",
+      "updated_at": "2026-08-11 13:05 CST",
       "status": "negative",
       "status_label": "芯片与油价共同压制风险偏好",
       "move": "道指 -0.11%｜标普500 -0.06%｜纳指 -0.32%｜费城半导体 -2.94%",
@@ -30,7 +30,7 @@ window.AI_SIGNALS = {
       "market": "日股",
       "flag": "🇯🇵",
       "session": "8月11日休市",
-      "updated_at": "2026-08-11 12:05 CST",
+      "updated_at": "2026-08-11 13:05 CST",
       "status": "neutral",
       "status_label": "山之日休市，无今日价格信号",
       "move": "8月10日收盘66,970.22（+2.08%）；8月11日东京市场休市",
@@ -49,19 +49,19 @@ window.AI_SIGNALS = {
     {
       "market": "韩股",
       "flag": "🇰🇷",
-      "session": "8月11日上午",
-      "updated_at": "2026-08-11 12:05 CST",
+      "session": "8月11日午间",
+      "updated_at": "2026-08-11 13:05 CST",
       "status": "positive",
-      "status_label": "低开0.95%后转涨，科技股带动修复",
-      "move": "前收6,299.66｜开盘6,240.06（-0.95%）｜11:35 KST报6,346.83（+0.75%）",
-      "driver": "韩国联社确认外资净买入约1.29万亿韩元，推动KOSPI低开后转涨；三星电子涨3.26%，SK海力士仍跌0.63%，指数修复明确但芯片内部尚未完全同步。",
+      "status_label": "低开0.95%后扩大至上涨1.37%",
+      "move": "前收6,299.66｜开盘6,240.06（-0.95%）｜12:36 KST报6,385.76（+1.37%）",
+      "driver": "KOSPI在外资买盘推动下持续走强，较上午11:35的约0.75%进一步扩大至1.37%；三星电子走强，但SK海力士此前仍偏弱，指数修复强于芯片内部一致性。",
       "a_share_links": [
         "HBM",
         "DRAM",
         "NAND",
         "封测"
       ],
-      "validation": "观察午后KOSPI能否守住前收，三星电子与SK海力士能否由分化转为同步走强。",
+      "validation": "观察午后KOSPI能否维持1%左右以上涨幅，以及三星电子与SK海力士能否由分化转为同步。",
       "sources": [
         "https://www.google.com/finance/beta/quote/KOSPI:KRX?hl=zh",
         "https://en.yna.co.kr/view/AEN20260811004400320"
@@ -667,14 +667,14 @@ window.AI_SIGNALS = {
       ]
     },
     {
-      "event": "CPO与PCB转为同步上涨，科技链午前完成日内共振，跨日趋势仍待确认",
+      "event": "KOSPI涨幅扩大至1.37%，科技链午盘共振加强，跨日趋势仍待确认",
       "industry": "tech",
       "industry_name": "CPO / PCB / 存储 / 封测",
       "direction": "positive",
       "strength": 5,
       "horizon": "intraday",
       "priced_in": "medium",
-      "reason": "8月11日上午科技链修复由存储扩散至CPO与PCB。11:28中际旭创报887.98元、涨2.71%，11:01东山精密报195.80元、涨5.30%；兆易创新11:24涨1.63%，太极实业此前触及21.20元涨停。KOSPI由低开0.95%转为11:35 KST上涨0.75%。可确认A股科技链当日上午形成多标的日内共振，但隔夜费城半导体仍跌2.94%，且修复尚未跨越第二个交易日，因此不能升级为中期趋势反转。",
+      "reason": "8月11日午间科技链维持多标的共振：中际旭创11:28涨2.71%，东山精密11:48涨5.34%，兆易创新午前涨1.63%，太极实业此前触及涨停。KOSPI由低开0.95%持续修复，12:36 KST报6,385.76点、上涨1.37%，跨市场风险偏好较上午进一步增强。可确认当日A股科技链与韩股形成正向共振，但隔夜费城半导体仍跌2.94%，且A股尚未完成当日收盘和下一交易日验证，不能升级为中期趋势反转。",
       "assets": [
         "300308",
         "002384",
@@ -688,7 +688,7 @@ window.AI_SIGNALS = {
       ],
       "invalidation": [
         "午后CPO、PCB与存储多数回落至平盘附近，太极实业打开涨停且放量走弱",
-        "下一交易日核心标的重新跌破8月11日早盘低点，确认本轮仅为单日脉冲"
+        "KOSPI明显回吐至前收附近，或下一交易日核心标的重新跌破8月11日早盘低点"
       ],
       "urls": [
         "https://www.google.com/finance/beta/quote/300308:SHE?hl=zh",
