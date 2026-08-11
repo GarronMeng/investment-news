@@ -1,5 +1,5 @@
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-11 10:05",
+  "generated_at": "2026-08-11 11:05",
   "source_generated_at": "2026-08-08 16:02",
   "generated_by": "ChatGPT Web",
   "status": "ready",
@@ -8,7 +8,7 @@ window.AI_SIGNALS = {
       "market": "美股",
       "flag": "🇺🇸",
       "session": "8月10日收盘",
-      "updated_at": "2026-08-11 10:05 CST",
+      "updated_at": "2026-08-11 11:05 CST",
       "status": "negative",
       "status_label": "芯片与油价共同压制风险偏好",
       "move": "道指 -0.11%｜标普500 -0.06%｜纳指 -0.32%｜费城半导体 -2.94%",
@@ -30,7 +30,7 @@ window.AI_SIGNALS = {
       "market": "日股",
       "flag": "🇯🇵",
       "session": "8月11日休市",
-      "updated_at": "2026-08-11 10:05 CST",
+      "updated_at": "2026-08-11 11:05 CST",
       "status": "neutral",
       "status_label": "山之日休市，无今日价格信号",
       "move": "8月10日收盘66,970.22（+2.08%）；8月11日东京市场休市",
@@ -50,22 +50,21 @@ window.AI_SIGNALS = {
       "market": "韩股",
       "flag": "🇰🇷",
       "session": "8月11日上午",
-      "updated_at": "2026-08-11 10:05 CST",
-      "status": "mixed",
-      "status_label": "低开0.95%后翻红至约0.1%，波动仍高",
-      "move": "前收6,299.66｜开盘6,240.06（-0.95%）｜10:26 KST报6,306.63（+0.11%）",
-      "driver": "隔夜美股芯片回落带来低开压力，但KOSPI随后收复前收并翻红，外部风险信号由单向偏空转为高波动修复；仍需观察三星电子、SK海力士能否同步企稳。",
+      "updated_at": "2026-08-11 11:05 CST",
+      "status": "positive",
+      "status_label": "低开0.95%后转涨，科技股带动修复",
+      "move": "前收6,299.66｜开盘6,240.06（-0.95%）｜11:35 KST报6,346.83（+0.75%）",
+      "driver": "KOSPI低开后转涨，韩国联社确认外资净买入约1.29万亿韩元并推动大型科技股回升；三星电子涨3.26%，但SK海力士仍跌0.63%，因此存储映射仍有内部差异。",
       "a_share_links": [
         "HBM",
         "DRAM",
         "NAND",
         "封测"
       ],
-      "validation": "观察KOSPI能否守住6,299.66前收并获得第二实时来源确认，以及三星电子、SK海力士是否同步转强。",
+      "validation": "观察KOSPI午后能否守住前收，三星电子与SK海力士能否由分化转为同步走强。",
       "sources": [
-        "https://www.wsj.com/market-data/quotes/index/KR/SEU",
-        "https://www.investing.com/indices/kospi",
-        "https://www.google.com/finance/beta/quote/KOSPI:KRX?hl=zh"
+        "https://www.google.com/finance/beta/quote/KOSPI:KRX?hl=zh",
+        "https://en.yna.co.kr/view/AEN20260811004400320"
       ]
     }
   ],
@@ -668,14 +667,14 @@ window.AI_SIGNALS = {
       ]
     },
     {
-      "event": "KOSPI低开后翻红，兆易创新与太极实业同步反弹，但CPO/PCB仍待报价确认",
+      "event": "太极实业涨停、KOSPI转涨0.75%，存储修复增强但CPO仍分化",
       "industry": "tech",
       "industry_name": "CPO / PCB / 存储 / 封测",
       "direction": "mixed",
       "strength": 5,
       "horizon": "intraday",
       "priced_in": "medium",
-      "reason": "费城半导体指数隔夜下跌2.94%，英伟达跌2.9%。8月11日KOSPI以6,240.06点低开（-0.95%），10:26 KST回升至6,306.63点（+0.11%）。A股09:50—09:58，兆易创新报409.50元（+1.61%）、太极实业报20.01元（+3.84%），确认存储链局部承接；中际旭创、东山精密的当前公开报价源仍停留在8月10日收盘，CPO/PCB开盘表现待验证。现阶段不能升级为全科技链趋势反转。",
+      "reason": "隔夜费城半导体指数下跌2.94%，但8月11日上午风险承接增强。11:00 CST太极实业报21.20元、上涨10.02%并触及涨停；兆易创新约涨2.37%，确认存储链双标的修复。东山精密09:49涨0.98%，而中际旭创09:47仍跌0.58%，CPO与PCB继续分化。KOSPI由低开0.95%转为11:35 KST上涨0.75%；三星电子涨3.26%、SK海力士跌0.63%。因此可确认存储局部修复增强，但尚不能确认全科技链趋势反转。",
       "assets": [
         "300308",
         "002384",
@@ -684,18 +683,20 @@ window.AI_SIGNALS = {
         "600667"
       ],
       "validation": [
-        "兆易创新、太极实业、德明利至少两只维持上涨并相对各自行业指数占优",
-        "KOSPI守住前收，且中际旭创、东山精密获得8月11日新鲜报价后不出现同步走弱"
+        "太极实业封单稳定，兆易创新与德明利至少一只继续相对行业指数占优",
+        "中际旭创由跌转强并与东山精密同步，或SK海力士由跌转涨形成跨市场共振"
       ],
       "invalidation": [
-        "兆易创新与太极实业涨幅同时回吐，且KOSPI再度跌破开盘低点附近",
-        "CPO/PCB新鲜报价确认显著走弱，并带动存储与封测链同步转弱"
+        "太极实业打开涨停且兆易创新涨幅明显回吐，存储链由双标的确认退化为单点行情",
+        "KOSPI跌回前收下方，中际旭创与东山精密同步转弱"
       ],
       "urls": [
-        "https://www.reuters.com/business/sp-500-nasdaq-futures-tick-higher-with-hormuz-outlook-focus-2026-08-10/",
-        "https://www.google.com/finance/beta/quote/KOSPI:KRX?hl=zh",
+        "https://www.google.com/finance/beta/quote/600667:SHA?hl=zh",
         "https://www.google.com/finance/beta/quote/603986:SHA?hl=zh",
-        "https://www.google.com/finance/beta/quote/600667:SHA?hl=zh"
+        "https://www.google.com/finance/beta/quote/300308:SHE?hl=zh",
+        "https://www.google.com/finance/beta/quote/002384:SHE?hl=zh",
+        "https://www.google.com/finance/beta/quote/KOSPI:KRX?hl=zh",
+        "https://en.yna.co.kr/view/AEN20260811004400320"
       ]
     },
     {
