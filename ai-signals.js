@@ -1,5 +1,5 @@
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-11 14:05",
+  "generated_at": "2026-08-11 15:05",
   "source_generated_at": "2026-08-08 16:02",
   "generated_by": "ChatGPT Web",
   "status": "ready",
@@ -8,7 +8,7 @@ window.AI_SIGNALS = {
       "market": "美股",
       "flag": "🇺🇸",
       "session": "8月10日收盘",
-      "updated_at": "2026-08-11 14:05 CST",
+      "updated_at": "2026-08-11 15:05 CST",
       "status": "negative",
       "status_label": "芯片与油价共同压制风险偏好",
       "move": "道指 -0.11%｜标普500 -0.06%｜纳指 -0.32%｜费城半导体 -2.94%",
@@ -30,7 +30,7 @@ window.AI_SIGNALS = {
       "market": "日股",
       "flag": "🇯🇵",
       "session": "8月11日休市",
-      "updated_at": "2026-08-11 14:05 CST",
+      "updated_at": "2026-08-11 15:05 CST",
       "status": "neutral",
       "status_label": "山之日休市，无今日价格信号",
       "move": "8月10日收盘66,970.22（+2.08%）；8月11日东京市场休市",
@@ -49,22 +49,22 @@ window.AI_SIGNALS = {
     {
       "market": "韩股",
       "flag": "🇰🇷",
-      "session": "8月11日午后",
-      "updated_at": "2026-08-11 14:05 CST",
+      "session": "8月11日收盘",
+      "updated_at": "2026-08-11 15:05 CST",
       "status": "positive",
-      "status_label": "低开0.95%后扩大至上涨1.57%",
-      "move": "前收6,299.66｜开盘6,240.06（-0.95%）｜13:37 KST报6,398.37（+1.57%）",
-      "driver": "KOSPI在外资与科技股买盘推动下继续走强，较12:36 KST的1.37%扩大至1.57%，盘中高点6,405.81；三星电子走强，但SK海力士此前仍偏弱，指数修复强于芯片内部一致性。",
+      "status_label": "低开0.95%后收涨0.73%，较盘中高点明显回落",
+      "move": "前收6,299.66｜开盘6,240.06（-0.95%）｜收盘6,345.53（+0.73%）｜高点6,405.81",
+      "driver": "KOSPI低开后在大型科技股带动下转涨，三星电子收涨4.13%、SK海力士涨0.35%；但指数由盘中约1.68%的最大涨幅回落至收涨0.73%，修复成立而强度低于午后高点。",
       "a_share_links": [
         "HBM",
         "DRAM",
         "NAND",
         "封测"
       ],
-      "validation": "观察收盘能否维持1%以上涨幅，以及三星电子与SK海力士能否由分化转为同步。",
+      "validation": "观察下一交易日KOSPI能否守住6,300点上方，以及三星电子与SK海力士能否继续同步走强。",
       "sources": [
         "https://www.google.com/finance/beta/quote/KOSPI:KRX?hl=zh",
-        "https://en.yna.co.kr/view/AEN20260811004400320"
+        "https://en.yna.co.kr/view/AEN20260811006200320"
       ]
     }
   ],
@@ -667,14 +667,14 @@ window.AI_SIGNALS = {
       ]
     },
     {
-      "event": "KOSPI涨幅扩大至1.57%，科技链午后维持共振，跨日趋势仍待确认",
+      "event": "兆易创新尾盘转跌、KOSPI回吐盘中涨幅，科技链降为结构性修复",
       "industry": "tech",
       "industry_name": "CPO / PCB / 存储 / 封测",
-      "direction": "positive",
+      "direction": "mixed",
       "strength": 5,
-      "horizon": "intraday",
+      "horizon": "1-5d",
       "priced_in": "medium",
-      "reason": "8月11日午后首个可核验时点，科技链仍维持多标的共振：13:01中际旭创涨3.59%，13:02东山精密涨5.03%，兆易创新午间前涨1.36%，太极实业13:00维持涨停。KOSPI由低开0.95%持续修复，13:37 KST报6,398.37点、上涨1.57%。可确认当日A股科技链与韩股形成正向共振，且较午间进一步增强；但隔夜费城半导体仍跌2.94%，A股尚未完成收盘和下一交易日验证，不能升级为中期趋势反转。",
+      "reason": "8月11日尾盘可核验行情显示科技链明显分化：中际旭创14:34约涨2.48%、东山精密14:23约涨4.97%、太极实业14:24仍涨停，但兆易创新14:41转跌0.27%。KOSPI低开0.95%后一度升至6,405.81点、最大涨幅约1.68%，最终收涨0.73%；三星电子涨4.13%，SK海力士仅涨0.35%。因此可确认CPO、PCB及部分封测的结构性承接，但存储内部未保持同步，且韩股明显回吐高点，不能据此确认跨日趋势反转。",
       "assets": [
         "300308",
         "002384",
@@ -683,20 +683,17 @@ window.AI_SIGNALS = {
         "600667"
       ],
       "validation": [
-        "收盘时中际旭创、东山精密、兆易创新和太极实业至少三只守住主要涨幅，且不出现明显放量冲高回落",
-        "下一交易日科技链不集体低开回吐，并与KOSPI或美股芯片形成持续共振"
+        "A股正式收盘时中际旭创、东山精密和太极实业能否守住主要涨幅，兆易创新能否收复平盘",
+        "下一交易日科技链至少三只核心标的继续上涨，且KOSPI或美股芯片维持正向共振"
       ],
       "invalidation": [
-        "午后CPO、PCB与存储多数回落至平盘附近，太极实业打开涨停且放量走弱",
-        "KOSPI明显回吐至前收附近，或下一交易日核心标的重新跌破8月11日早盘低点"
+        "核心标的尾盘或下一交易日集体低开回吐，跌破8月11日早盘低点",
+        "KOSPI跌回6,300点下方，或三星电子与SK海力士重新同步走弱"
       ],
       "urls": [
-        "https://www.google.com/finance/beta/quote/300308:SHE?hl=zh",
-        "https://www.google.com/finance/beta/quote/002384:SHE?hl=zh",
-        "https://www.google.com/finance/beta/quote/603986:SHA?hl=zh",
-        "https://www.google.com/finance/beta/quote/600667:SHA?hl=zh",
-        "https://www.google.com/finance/beta/quote/KOSPI:KRX?hl=zh",
-        "https://en.yna.co.kr/view/AEN20260811004400320"
+        "https://cn.investing.com/equities/shandong-zhongji-electrical",
+        "https://cn.investing.com/equities/gigadevice-semiconductor-beijing-historical-data",
+        "https://en.yna.co.kr/view/AEN20260811006200320"
       ]
     },
     {
