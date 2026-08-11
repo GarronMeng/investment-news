@@ -1,73 +1,8 @@
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-11 15:05",
+  "generated_at": "2026-08-11 16:05",
   "source_generated_at": "2026-08-08 16:02",
   "generated_by": "ChatGPT Web",
   "status": "ready",
-  "overseas_markets": [
-    {
-      "market": "美股",
-      "flag": "🇺🇸",
-      "session": "8月10日收盘",
-      "updated_at": "2026-08-11 15:05 CST",
-      "status": "negative",
-      "status_label": "芯片与油价共同压制风险偏好",
-      "move": "道指 -0.11%｜标普500 -0.06%｜纳指 -0.32%｜费城半导体 -2.94%",
-      "driver": "霍尔木兹重开预期降温推动WTI上涨约5%；英伟达跌2.9%、英特尔跌4.1%，高油价与芯片回调共同压制成长板块。",
-      "a_share_links": [
-        "CPO",
-        "AI服务器PCB",
-        "DRAM/NAND",
-        "成长估值"
-      ],
-      "validation": "观察A股中际旭创、东山精密及存储链能否相对各自行业指数抗跌；美国7月CPI将于8月12日公布。",
-      "sources": [
-        "https://www.reuters.com/business/sp-500-nasdaq-futures-tick-higher-with-hormuz-outlook-focus-2026-08-10/",
-        "https://www.wsj.com/market-data/quotes/index/JP/XTKS/NIK",
-        "https://www.investing.com/indices/kospi"
-      ]
-    },
-    {
-      "market": "日股",
-      "flag": "🇯🇵",
-      "session": "8月11日休市",
-      "updated_at": "2026-08-11 15:05 CST",
-      "status": "neutral",
-      "status_label": "山之日休市，无今日价格信号",
-      "move": "8月10日收盘66,970.22（+2.08%）；8月11日东京市场休市",
-      "driver": "JPX官方假日日历确认8月11日因山之日休市，昨日上涨不能当作今日外围确认。",
-      "a_share_links": [
-        "半导体设备",
-        "被动元件",
-        "消费电子"
-      ],
-      "validation": "等待8月12日复市后观察半导体设备、电子与被动元件能否承接美股芯片回调。",
-      "sources": [
-        "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
-        "https://www.wsj.com/market-data/quotes/index/JP/XTKS/NIK"
-      ]
-    },
-    {
-      "market": "韩股",
-      "flag": "🇰🇷",
-      "session": "8月11日收盘",
-      "updated_at": "2026-08-11 15:05 CST",
-      "status": "positive",
-      "status_label": "低开0.95%后收涨0.73%，较盘中高点明显回落",
-      "move": "前收6,299.66｜开盘6,240.06（-0.95%）｜收盘6,345.53（+0.73%）｜高点6,405.81",
-      "driver": "KOSPI低开后在大型科技股带动下转涨，三星电子收涨4.13%、SK海力士涨0.35%；但指数由盘中约1.68%的最大涨幅回落至收涨0.73%，修复成立而强度低于午后高点。",
-      "a_share_links": [
-        "HBM",
-        "DRAM",
-        "NAND",
-        "封测"
-      ],
-      "validation": "观察下一交易日KOSPI能否守住6,300点上方，以及三星电子与SK海力士能否继续同步走强。",
-      "sources": [
-        "https://www.google.com/finance/beta/quote/KOSPI:KRX?hl=zh",
-        "https://en.yna.co.kr/view/AEN20260811006200320"
-      ]
-    }
-  ],
   "news_titles": {
     "https://www.marktechpost.com/2026/08/05/microsoft-skillopt-agent-skill-transfer-portability": "微软SkillOpt显示优化后的智能体技能可跨模型规模，并可在Codex与Claude Code工具框架间迁移",
     "https://www.theverge.com/ai-artificial-intelligence/976004/elon-musk-grokipedia-ai-wikipedia-not-updating-dead": "马斯克打造AI版维基百科的尝试已数月未更新",
@@ -636,6 +571,71 @@ window.AI_SIGNALS = {
     "https://www.ithome.com/0/987/334.htm": "OpenAI下一代Astra模型数学成果遭抄袭指控",
     "https://www.ithome.com/0/987/332.htm": "华为在印度推出MatePad SE 11与MatePad 11.5平板"
   },
+  "overseas_markets": [
+    {
+      "market": "美股",
+      "flag": "🇺🇸",
+      "session": "8月10日收盘",
+      "updated_at": "2026-08-11 16:05 CST",
+      "status": "negative",
+      "status_label": "芯片与油价共同压制风险偏好",
+      "move": "道指 -0.11%｜标普500 -0.06%｜纳指 -0.32%｜费城半导体 -2.94%",
+      "driver": "霍尔木兹重开预期降温推动WTI上涨约5%；英伟达跌2.9%、英特尔跌4.1%，高油价与芯片回调共同压制成长板块。",
+      "a_share_links": [
+        "CPO",
+        "AI服务器PCB",
+        "DRAM/NAND",
+        "成长估值"
+      ],
+      "validation": "观察A股中际旭创、东山精密及存储链能否相对各自行业指数抗跌；美国7月CPI将于8月12日公布。",
+      "sources": [
+        "https://www.reuters.com/business/sp-500-nasdaq-futures-tick-higher-with-hormuz-outlook-focus-2026-08-10/",
+        "https://www.wsj.com/market-data/quotes/index/JP/XTKS/NIK",
+        "https://www.investing.com/indices/kospi"
+      ]
+    },
+    {
+      "market": "日股",
+      "flag": "🇯🇵",
+      "session": "8月11日休市",
+      "updated_at": "2026-08-11 16:05 CST",
+      "status": "neutral",
+      "status_label": "山之日休市，无今日价格信号",
+      "move": "8月10日收盘66,970.22（+2.08%）；8月11日东京市场休市",
+      "driver": "JPX官方假日日历确认8月11日因山之日休市，昨日上涨不能当作今日外围确认。",
+      "a_share_links": [
+        "半导体设备",
+        "被动元件",
+        "消费电子"
+      ],
+      "validation": "等待8月12日复市后观察半导体设备、电子与被动元件能否承接美股芯片回调。",
+      "sources": [
+        "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
+        "https://www.wsj.com/market-data/quotes/index/JP/XTKS/NIK"
+      ]
+    },
+    {
+      "market": "韩股",
+      "flag": "🇰🇷",
+      "session": "8月11日收盘",
+      "updated_at": "2026-08-11 16:05 CST",
+      "status": "positive",
+      "status_label": "低开0.95%后收涨0.73%，较盘中高点明显回落",
+      "move": "前收6,299.66｜开盘6,240.06（-0.95%）｜收盘6,345.53（+0.73%）｜高点6,405.81",
+      "driver": "KOSPI低开后在大型科技股带动下转涨，三星电子收涨4.13%、SK海力士涨0.35%；但指数由盘中约1.68%的最大涨幅回落至收涨0.73%，修复成立而强度低于午后高点。",
+      "a_share_links": [
+        "HBM",
+        "DRAM",
+        "NAND",
+        "封测"
+      ],
+      "validation": "观察下一交易日KOSPI能否守住6,300点上方，以及三星电子与SK海力士能否继续同步走强。",
+      "sources": [
+        "https://www.google.com/finance/beta/quote/KOSPI:KRX?hl=zh",
+        "https://en.yna.co.kr/view/AEN20260811006200320"
+      ]
+    }
+  ],
   "signals": [
     {
       "event": "霍尔木兹重开预期降温，油价单日上涨约5%",
@@ -667,14 +667,14 @@ window.AI_SIGNALS = {
       ]
     },
     {
-      "event": "兆易创新尾盘转跌、KOSPI回吐盘中涨幅，科技链降为结构性修复",
+      "event": "收盘确认CPO与PCB修复、存储内部继续分化，跨日反转仍待验证",
       "industry": "tech",
       "industry_name": "CPO / PCB / 存储 / 封测",
       "direction": "mixed",
       "strength": 5,
       "horizon": "1-5d",
       "priced_in": "medium",
-      "reason": "8月11日尾盘可核验行情显示科技链明显分化：中际旭创14:34约涨2.48%、东山精密14:23约涨4.97%、太极实业14:24仍涨停，但兆易创新14:41转跌0.27%。KOSPI低开0.95%后一度升至6,405.81点、最大涨幅约1.68%，最终收涨0.73%；三星电子涨4.13%，SK海力士仅涨0.35%。因此可确认CPO、PCB及部分封测的结构性承接，但存储内部未保持同步，且韩股明显回吐高点，不能据此确认跨日趋势反转。",
+      "reason": "8月11日正式收盘，中际旭创上涨2.51%、东山精密上涨4.26%，太极实业上涨10.02%并封住涨停；但兆易创新收跌0.18%，存储链未形成完整同步。KOSPI低开0.95%后一度上涨约1.68%，最终收涨0.73%，三星电子涨4.13%、SK海力士仅涨0.35%。因此CPO、PCB及部分封测的价格修复得到收盘确认，但存储内部及跨市场强度均有分化，尚不能确认全科技链的跨日趋势反转。",
       "assets": [
         "300308",
         "002384",
@@ -683,17 +683,17 @@ window.AI_SIGNALS = {
         "600667"
       ],
       "validation": [
-        "A股正式收盘时中际旭创、东山精密和太极实业能否守住主要涨幅，兆易创新能否收复平盘",
-        "下一交易日科技链至少三只核心标的继续上涨，且KOSPI或美股芯片维持正向共振"
+        "下一交易日中际旭创、东山精密和太极实业至少两只继续守住8月11日涨幅，兆易创新收复平盘并与存储链同步",
+        "KOSPI或美股芯片延续正向表现，A股科技链不出现集体高开低走"
       ],
       "invalidation": [
-        "核心标的尾盘或下一交易日集体低开回吐，跌破8月11日早盘低点",
+        "下一交易日核心标的集体低开回吐并跌破8月11日早盘低点",
         "KOSPI跌回6,300点下方，或三星电子与SK海力士重新同步走弱"
       ],
       "urls": [
         "https://cn.investing.com/equities/shandong-zhongji-electrical",
         "https://cn.investing.com/equities/gigadevice-semiconductor-beijing-historical-data",
-        "https://en.yna.co.kr/view/AEN20260811006200320"
+        "https://www.google.com/finance/beta/quote/KOSPI:KRX?hl=zh"
       ]
     },
     {
