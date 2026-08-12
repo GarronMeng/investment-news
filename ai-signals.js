@@ -1,5 +1,5 @@
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-12 12:05",
+  "generated_at": "2026-08-12 13:05",
   "source_generated_at": "2026-08-08 16:02",
   "generated_by": "ChatGPT Web",
   "status": "ready",
@@ -582,7 +582,7 @@ window.AI_SIGNALS = {
       "market": "美股",
       "flag": "🇺🇸",
       "session": "8月11日收盘",
-      "updated_at": "2026-08-12 12:05 CST",
+      "updated_at": "2026-08-12 13:05 CST",
       "status": "negative",
       "status_label": "科技股回落，能源股逆势上涨",
       "move": "道指 -0.34%｜标普500 -0.32%｜纳指 -0.60%",
@@ -602,18 +602,18 @@ window.AI_SIGNALS = {
     {
       "market": "日股",
       "flag": "🇯🇵",
-      "session": "8月12日午间",
-      "updated_at": "2026-08-12 12:05 CST",
+      "session": "8月12日下午",
+      "updated_at": "2026-08-12 13:05 CST",
       "status": "pending",
-      "status_label": "官方盘中涨0.39%，开盘点位来源冲突",
-      "move": "日经官方：前收66,970.22｜开盘66,994.05（+0.04%）｜12:38 JST 67,234.46（+0.39%）；Investing页面开盘点位仍与官方冲突",
-      "driver": "日经午间转为小幅上涨，但官方与第二报价源的开盘点位仍不一致，因此继续标记待核验；0.39%的涨幅仅提供温和支持，不能单独作为亚洲科技趋势确认。",
+      "status_label": "官方盘中涨0.61%，开盘点位来源冲突",
+      "move": "日经官方：前收66,970.22｜开盘66,994.05（+0.04%）｜13:39 JST 67,378.38（+0.61%）；Investing页面开盘点位仍与官方冲突",
+      "driver": "日经午后涨幅扩大至0.61%，为亚洲科技风险偏好提供温和支持；但官方与第二报价源的开盘点位仍不一致，因此继续标记待核验，不能把开盘强弱写成已验证事实。",
       "a_share_links": [
         "半导体设备",
         "被动元件",
         "消费电子"
       ],
-      "validation": "以日经官方盘中值为主，等待第二可靠来源确认开盘点位和正式收盘；观察半导体设备、电子及被动元件能否在下午同步。",
+      "validation": "以日经官方盘中值为主，等待第二可靠来源确认开盘点位和正式收盘；观察半导体设备、电子及被动元件能否维持同步。",
       "sources": [
         "https://indexes.nikkei.co.jp/en/nkave/index/profile",
         "https://www.investing.com/indices/japan-ni225"
@@ -622,19 +622,19 @@ window.AI_SIGNALS = {
     {
       "market": "韩股",
       "flag": "🇰🇷",
-      "session": "8月12日午间",
-      "updated_at": "2026-08-12 12:05 CST",
+      "session": "8月12日下午",
+      "updated_at": "2026-08-12 13:05 CST",
       "status": "positive",
-      "status_label": "高开后涨幅扩大至4.56%，触发买入侧熔断机制",
-      "move": "前收6,345.53｜开盘6,438.50（+1.47%，两源一致）｜12:40 KST 6,634.92（+4.56%）｜盘中高点6,668.43",
-      "driver": "KOSPI高开后持续拉升，12:40 KST涨4.56%，盘中因涨势过快触发买入侧熔断机制；芯片股带动科技风险偏好显著增强。前收和开盘点位经Google Finance与Investing核对一致。",
+      "status_label": "触发买入侧熔断后仍维持4%以上涨幅",
+      "move": "前收6,345.53｜开盘6,438.50（+1.47%，两源一致）｜Google 12:40 KST 6,634.92（+4.56%）｜Investing另一时点6,604.79（+4.09%）",
+      "driver": "KOSPI盘中因涨势过快触发买入侧熔断机制，随后虽较高点略有回落，仍维持4%以上涨幅。Investing报道三星电子与SK海力士分别上涨约7.7%和7.1%，芯片股继续主导亚洲科技风险偏好修复；两个指数快照时点不同，分别展示。",
       "a_share_links": [
         "HBM",
         "DRAM",
         "NAND",
         "封测"
       ],
-      "validation": "观察KOSPI能否在正式收盘维持4%左右涨幅并守住开盘位6,438.50；A股存储、CPO、PCB与封测链能否守住午间涨幅。",
+      "validation": "观察KOSPI正式收盘能否维持4%左右涨幅并守住开盘位6,438.50；A股存储、CPO、PCB与封测链午后能否守住午间涨幅。",
       "sources": [
         "https://www.google.com/finance/beta/quote/KOSPI:KRX?hl=zh",
         "https://www.investing.com/indices/kospi"
@@ -672,14 +672,14 @@ window.AI_SIGNALS = {
       ]
     },
     {
-      "event": "A股四只科技核心标的午间涨逾3%，跨日反弹扩散增强",
+      "event": "日韩科技风险偏好继续增强，A股科技链等待午后守涨验证",
       "industry": "tech",
       "industry_name": "CPO / PCB / 存储 / 封测",
       "direction": "positive",
       "strength": 5,
       "horizon": "1-5d",
       "priced_in": "medium",
-      "reason": "8月12日上午收盘附近，A股科技链进一步扩散：11:25中际旭创涨4.45%，11:29东山精密涨3.16%，11:28兆易创新涨4.15%，11:30太极实业涨4.34%，CPO、PCB、存储和封测四个方向同步增强。KOSPI高开1.47%后继续拉升，12:40 KST涨4.56%，盘中因涨势过快触发买入侧熔断机制，亚洲芯片风险偏好明显回升。科技链的跨日短期反弹已从“延续确认”升级为“扩散增强”；但A股尚未正式收盘，美国CPI和腾讯财报尚未落地，仍不能确认中期趋势反转。",
+      "reason": "8月12日上午收盘附近，A股科技链四个方向同步上涨：中际旭创涨4.45%、东山精密涨3.16%、兆易创新涨4.15%、太极实业涨4.34%。午休期间，KOSPI在触发买入侧熔断机制后仍维持4%以上涨幅，Investing报道三星电子与SK海力士分别上涨约7.7%和7.1%；日经官方13:39 JST涨0.61%。跨市场科技风险偏好继续增强，但A股午后尚未交易，美国CPI和腾讯财报尚未落地，因此信号维持“跨日反弹扩散增强”，不升级为中期趋势反转。",
       "assets": [
         "300308",
         "002384",
@@ -689,16 +689,16 @@ window.AI_SIGNALS = {
       ],
       "validation": [
         "今日正式收盘时中际旭创、东山精密、兆易创新和太极实业至少三只维持3%左右或以上涨幅，且不出现明显放量冲高回落",
-        "KOSPI正式收盘维持强势；美国CPI与腾讯财报落地后，下一交易日A股科技链不集体回吐"
+        "KOSPI与日经正式收盘维持正向；美国CPI与腾讯财报落地后，下一交易日A股科技链不集体回吐"
       ],
       "invalidation": [
         "科技核心标的午后多数跌回1%以内或转跌，并跌破8月12日上午低点",
-        "KOSPI收盘涨幅显著收窄或下一交易日科技链集体低开回吐"
+        "KOSPI收盘涨幅显著收窄至2%以内，或下一交易日科技链集体低开回吐"
       ],
       "urls": [
         "https://www.google.com/finance/beta/quote/300308:SHE?hl=zh",
-        "https://www.google.com/finance/beta/quote/603986:SHA?hl=zh",
-        "https://www.google.com/finance/beta/quote/KOSPI:KRX?hl=zh"
+        "https://www.google.com/finance/beta/quote/KOSPI:KRX?hl=zh",
+        "https://indexes.nikkei.co.jp/en/nkave/index/profile"
       ]
     },
     {
