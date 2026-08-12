@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-11T10:25:28+08:00",
+  "generated_at": "2026-08-12T10:42:01+08:00",
   "timezone": "Asia/Shanghai",
   "states": {
     "overseas_risk": {
@@ -17,7 +17,7 @@
       "level": "building",
       "label": "基线建立中",
       "tone": "neutral",
-      "status": "fresh",
+      "status": "stale",
       "summary": "观察融资余额5日变化与20日位置，资金流不在本阶段计分。",
       "metric_id": "margin_balance"
     }
@@ -26,15 +26,15 @@
     {
       "id": "vix",
       "label": "VIX海外风险",
-      "value": 15.46,
+      "value": 15.28,
       "unit": "点",
-      "as_of": "2026-08-10",
+      "as_of": "2026-08-11",
       "lag_days": 1,
       "status": "fresh",
       "confidence": "medium",
       "source": "OpenBB/YFinance",
       "source_url": "https://www.cboe.com/tradable_products/vix/vix_historical_data/",
-      "change_1d_pct": 3.76,
+      "change_1d_pct": -1.16,
       "percentile_20d": 15.0,
       "level": "normal",
       "state_label": "正常",
@@ -49,8 +49,8 @@
       "financing_buy_amount": 2549.75,
       "unit": "亿元",
       "as_of": "2026-08-07",
-      "lag_days": 4,
-      "status": "fresh",
+      "lag_days": 5,
+      "status": "stale",
       "confidence": "high",
       "source": "SSE+SZSE via AKShare",
       "source_url": "https://www.sse.com.cn/market/othersdata/margin/sum/",
@@ -60,7 +60,8 @@
       "level": "building",
       "state_label": "基线建立中",
       "tone": "neutral",
-      "sample_size": 4
+      "sample_size": 4,
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
     }
   ],
   "history": {
@@ -91,7 +92,9 @@
       }
     ]
   },
-  "warnings": [],
+  "warnings": [
+    "Margin refresh failed: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+  ],
   "methodology": {
     "vix": "优先使用OpenBB/YFinance标准化接口，限流或失败时切换CBOE官方历史数据；显示最新值、单日变化和20日分位。",
     "margin_balance": "AKShare封装上交所与深交所官方汇总；合并融资余额，显示1日/5日变化和20日Z-score。",
