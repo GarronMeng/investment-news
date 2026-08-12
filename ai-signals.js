@@ -1,5 +1,5 @@
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-12 09:05",
+  "generated_at": "2026-08-12 10:05",
   "source_generated_at": "2026-08-08 16:02",
   "generated_by": "ChatGPT Web",
   "status": "ready",
@@ -582,7 +582,7 @@ window.AI_SIGNALS = {
       "market": "美股",
       "flag": "🇺🇸",
       "session": "8月11日收盘",
-      "updated_at": "2026-08-12 09:05 CST",
+      "updated_at": "2026-08-12 10:05 CST",
       "status": "negative",
       "status_label": "科技股回落，能源股逆势上涨",
       "move": "道指 -0.34%｜标普500 -0.32%｜纳指 -0.60%",
@@ -593,7 +593,7 @@ window.AI_SIGNALS = {
         "成长估值",
         "黄金/白银"
       ],
-      "validation": "观察A股科技链能否相对海外独立承接；美国7月CPI将于北京时间8月12日20:30公布。",
+      "validation": "观察A股科技链能否在纳指回落背景下延续相对强势；美国7月CPI将于北京时间8月12日20:30公布。",
       "sources": [
         "https://www.reuters.com/business/wall-st-futures-muted-us-iran-impasse-lifts-oil-prices-2026-08-11/",
         "https://apnews.com/article/e5e8f3360f8d30714778761e3a483347"
@@ -602,42 +602,42 @@ window.AI_SIGNALS = {
     {
       "market": "日股",
       "flag": "🇯🇵",
-      "session": "8月12日早盘",
-      "updated_at": "2026-08-12 09:05 CST",
-      "status": "neutral",
-      "status_label": "复市后基本持平，能源金融与电子医药对冲",
-      "move": "前收66,970.22｜开盘66,994.05（+0.04%，单一报价源待复核）｜09:30 JST 66,950.52（-0.03%）",
-      "driver": "能源和金融股上涨抵消电子及医药股下跌；日经在山之日休市后复市，暂未给A股电子链提供明确方向。",
+      "session": "8月12日上午",
+      "updated_at": "2026-08-12 10:05 CST",
+      "status": "pending",
+      "status_label": "指数近持平，但开盘点位来源冲突",
+      "move": "日经官方：前收66,970.22｜开盘66,994.05（+0.04%）｜10:38 JST 66,974.83（+0.01%）；Investing页面显示开盘67,172.50，冲突待核验",
+      "driver": "日经复市后围绕前收震荡，暂未给A股电子链提供明确方向；因官方与第二报价源的开盘点位不一致，不能将开盘表现标为已验证。",
       "a_share_links": [
         "半导体设备",
         "被动元件",
         "消费电子"
       ],
-      "validation": "精确开盘点位尚待第二来源复核；观察午前电子权重及铠侠能否维持相对强势。",
+      "validation": "以日经官方盘中值为主，等待第二可靠来源确认开盘点位；观察半导体设备、电子及被动元件能否在午后形成方向。",
       "sources": [
-        "https://www.wsj.com/market-data/quotes/index/JP/XTKS/NIK",
-        "https://www.wsj.com/finance/stocks/nikkei-flat-supported-by-energy-financial-stocks-75d78a24"
+        "https://indexes.nikkei.co.jp/en/nkave/index/profile",
+        "https://www.investing.com/indices/japan-ni225"
       ]
     },
     {
       "market": "韩股",
       "flag": "🇰🇷",
-      "session": "8月12日早盘",
-      "updated_at": "2026-08-12 09:05 CST",
+      "session": "8月12日上午",
+      "updated_at": "2026-08-12 10:05 CST",
       "status": "positive",
-      "status_label": "高开后继续上涨，科技修复延续",
-      "move": "前收6,345.53｜开盘6,438.50（+1.47%，单一报价源待复核）｜09:23 KST 6,487.19（+2.23%）",
-      "driver": "KOSPI延续8月11日低开转涨后的修复，但精确开盘与盘中点位尚缺第二个独立报价源。",
+      "status_label": "高开1.47%后维持2%以上涨幅",
+      "move": "前收6,345.53｜开盘6,438.50（+1.47%，两源一致）｜Google 09:44 KST 6,479.92（+2.12%）｜Investing后续快照6,506.08（+2.53%）",
+      "driver": "Google Finance与Investing对前收及开盘点位一致，KOSPI高开后继续上涨；两个盘中快照时点不同，分别展示而不作为同刻交叉验证。连续第二日上涨，亚洲存储与科技风险偏好继续修复。",
       "a_share_links": [
         "HBM",
         "DRAM",
         "NAND",
         "封测"
       ],
-      "validation": "观察KOSPI能否守住开盘位及6,400点，三星电子与SK海力士是否同步；A股存储链价格反馈待9:30后确认。",
+      "validation": "观察KOSPI能否守住开盘位6,438.50及2%左右涨幅，三星电子与SK海力士能否继续同步；A股存储链能否守住早盘涨幅。",
       "sources": [
-        "https://www.wsj.com/market-data/quotes/index/KR/SEU",
-        "https://tradingeconomics.com/south-korea/stock-market"
+        "https://www.google.com/finance/beta/quote/KOSPI:KRX?hl=zh",
+        "https://www.investing.com/indices/kospi"
       ]
     }
   ],
@@ -672,14 +672,14 @@ window.AI_SIGNALS = {
       ]
     },
     {
-      "event": "美股科技回落、韩股上涨，A股科技链面临跨市场分化验证",
+      "event": "A股四只科技核心标的同步上涨，跨日反弹延续首次确认",
       "industry": "tech",
       "industry_name": "CPO / PCB / 存储 / 封测",
-      "direction": "mixed",
+      "direction": "positive",
       "strength": 5,
       "horizon": "1-5d",
       "priced_in": "medium",
-      "reason": "8月11日美股纳指下跌0.60%，Amazon下跌2.1%、Alphabet下跌3.8%；8月12日韩国KOSPI早盘上涨约2.23%，日经基本持平。此前A股8月11日收盘已确认中际旭创、东山精密和太极实业修复，但兆易创新偏弱。由此形成云科技估值承压、亚洲存储与封测情绪修复的分化，尚不能外推为全科技链同步上行。",
+      "reason": "8月12日早盘，A股科技链由前一日分化转为多标的同步：09:44中际旭创涨2.40%，09:33东山精密涨1.55%，兆易创新约涨1%，09:34太极实业涨4.43%。KOSPI前收与开盘点位经Google Finance和Investing核对一致，开盘上涨1.47%，09:44 KST仍涨2.12%，连续第二日走强。由此可确认CPO、PCB、存储和封测的短期反弹已获得跨日延续验证；但美股纳指隔夜下跌0.60%，A股尚未完成今日收盘，当前仅是短期修复确认，不能升级为中期趋势反转。",
       "assets": [
         "300308",
         "002384",
@@ -688,17 +688,17 @@ window.AI_SIGNALS = {
         "600667"
       ],
       "validation": [
-        "中际旭创、东山精密和太极实业至少两只继续守住8月11日主要涨幅，兆易创新与德明利能否同步存储链",
-        "KOSPI守住开盘位和6,400点，三星电子与SK海力士保持同步"
+        "今日收盘时中际旭创、东山精密、兆易创新和太极实业至少三只维持上涨，且不出现明显放量冲高回落",
+        "美国CPI与腾讯财报落地后，下一交易日A股科技链和KOSPI不集体回吐本轮涨幅"
       ],
       "invalidation": [
-        "A股科技核心标的集体低开回吐并跌破8月11日早盘低点",
-        "KOSPI跌回6,400点下方且存储权重同步转弱"
+        "科技核心标的午后多数转跌并跌破8月12日早盘低点",
+        "KOSPI跌回开盘位6,438.50下方，或下一交易日科技链集体低开回吐"
       ],
       "urls": [
-        "https://www.reuters.com/business/wall-st-futures-muted-us-iran-impasse-lifts-oil-prices-2026-08-11/",
-        "https://www.wsj.com/market-data/quotes/index/KR/SEU",
-        "https://www.wsj.com/finance/stocks/nikkei-flat-supported-by-energy-financial-stocks-75d78a24"
+        "https://www.google.com/finance/quote/300308:SHE?hl=zh",
+        "https://www.google.com/finance/quote/600667:SHA?hl=zh",
+        "https://www.google.com/finance/beta/quote/KOSPI:KRX?hl=zh"
       ]
     },
     {
@@ -706,7 +706,7 @@ window.AI_SIGNALS = {
       "industry": "macro",
       "industry_name": "白银LOF / 黄金ETF / 场内溢价",
       "direction": "mixed",
-      "strength": 6,
+      "strength": 5,
       "horizon": "1-5d",
       "priced_in": "medium",
       "reason": "国投白银LOF 8月11日场内收盘1.916元、下跌5.94%，对应当日净值1.7937元，溢价约6.82%，较8月10日约15.58%显著收窄；基金仍显示暂停申购，并于8月11日继续发布溢价风险提示。隔夜现货白银下跌1.4%至64.80美元，现货黄金冲高至4,434.84美元后回落0.3%至4,376.31美元。场内价差风险有所下降但尚未消失，且白银本体转弱，需分别核验。",
