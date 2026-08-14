@@ -1,5 +1,5 @@
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-13 16:04",
+  "generated_at": "2026-08-14 09:12",
   "source_generated_at": "2026-08-08 16:02",
   "generated_by": "ChatGPT Web",
   "status": "ready",
@@ -587,205 +587,145 @@ window.AI_SIGNALS = {
     {
       "market": "美股",
       "flag": "🇺🇸",
-      "session": "8月12日收盘",
-      "updated_at": "2026-08-13 16:04 CST",
+      "session": "2026-08-13 收盘",
+      "updated_at": "2026-08-14 04:00 北京时间",
       "status": "positive",
-      "status_label": "温和CPI与AI基础设施业绩推动科技反弹",
-      "move": "道指 -0.04%｜标普500 +0.26%｜纳指 +0.54%｜费城半导体 +2.49%",
-      "driver": "美国7月CPI环比上涨0.1%、同比上涨3.4%，核心CPI环比上涨0.2%、同比上涨2.5%；CoreWeave与Super Micro业绩推动AI基础设施股上涨，英伟达涨3.03%、美光涨4.93%。",
+      "status_label": "科技与存储领涨",
+      "move": "标普500 +0.65%至7,798.99，纳指 +0.81%，道指 +0.13%",
+      "driver": "美国7月PPI环比持平、低于市场预期，9月加息担忧降温；闪迪上涨13.7%、美光上涨4.2%，AI存储与大型科技股推动标普500创收盘新高。",
       "a_share_links": [
-        "CPO",
-        "AI服务器PCB",
-        "DRAM/NAND",
-        "成长估值"
+        "NAND",
+        "DRAM",
+        "企业级SSD",
+        "CPO"
       ],
-      "validation": "观察A股科技链能否延续8月12日普涨并减少高开回落；北京时间8月13日20:30美国PPI仍可能改变利率定价。",
+      "validation": "观察A股存储链能否同步海外上涨且避免高开低走；中际旭创、东山精密能否相对科技指数转强。",
       "sources": [
-        "https://www.reuters.com/business/wall-st-futures-tick-up-heading-into-july-inflation-data-2026-08-12/",
-        "https://www.bls.gov/news.release/cpi.nr0.htm"
+        "https://www.reuters.com/business/retail-consumer/wall-st-futures-tick-higher-oil-retreats-ahead-inflation-data-2026-08-13/",
+        "https://www.reuters.com/business/us-producer-prices-unchanged-july-2026-08-13/"
       ]
     },
     {
       "market": "日股",
       "flag": "🇯🇵",
-      "session": "8月13日收盘",
-      "updated_at": "2026-08-13 16:04 CST",
-      "status": "positive",
-      "status_label": "收涨1.16%，电子链正向验证保留但尾盘回吐",
-      "move": "前收67,524.06｜开盘68,033.17（+0.75%）｜收盘68,308.59（+1.16%）",
-      "driver": "日经收涨1.16%并守住68,000点及开盘位，但从盘中高点68,799.71明显回落；电子、存储、被动元件与半导体权重仍提供正向外围验证，尾盘回吐显示风险偏好并非单边增强。",
+      "session": "2026-08-14 早盘",
+      "updated_at": "2026-08-14 10:10 JST",
+      "status": "pending",
+      "status_label": "开盘待验证",
+      "move": "8月13日正式收盘68,308.59（+1.16%）；8月14日开盘点位与同刻涨跌幅未取得双来源一致数据",
+      "driver": "前一交易日电子与被动元件权重走强，但今天是否延续尚不能可靠确认。",
       "a_share_links": [
-        "NAND",
         "半导体设备",
         "被动元件",
+        "MLCC",
         "消费电子"
       ],
-      "validation": "观察下一交易日能否守住68,000点，电子与半导体权重能否继续同步上涨。",
+      "validation": "补充核验日经官方开盘价、前收与10:00 JST附近涨跌幅；观察村田、太阳诱电及半导体设备权重是否同步。",
       "sources": [
-        "https://indexes.nikkei.co.jp/en/nkave/index/profile",
-        "https://www.wsj.com/market-data/quotes/index/JP/XTKS/NIK"
+        "https://fred.stlouisfed.org/series/NIKKEI225",
+        "https://www.marketwatch.com/investing/index/nik?countrycode=jp"
       ]
     },
     {
       "market": "韩股",
       "flag": "🇰🇷",
-      "session": "8月13日收盘",
-      "updated_at": "2026-08-13 16:04 CST",
-      "status": "positive",
-      "status_label": "收涨3.56%，芯片权重强但较盘中高点回落",
-      "move": "前收6,579.04｜开盘6,773.92（+2.96%）｜收盘6,813.34（+3.56%）",
-      "driver": "KOSPI连续第二日大涨并收于开盘位上方；盘面报道显示SK海力士涨近6%、三星电子涨近5%，存储与HBM风险偏好维持强势，但指数仍低于6,895.63盘中高点，急涨后的获利回吐风险不低。",
+      "session": "2026-08-14 早盘",
+      "updated_at": "2026-08-14 10:10 KST",
+      "status": "pending",
+      "status_label": "开盘待验证",
+      "move": "8月13日正式收盘6,813.34（+3.56%）；8月14日开盘点位与同刻涨跌幅未取得双来源一致数据",
+      "driver": "三星电子、SK海力士此前显著上涨，叠加隔夜美股存储股走强，但连续急涨后的兑现风险仍需盘中确认。",
       "a_share_links": [
         "HBM",
         "DRAM",
         "NAND",
         "封测"
       ],
-      "validation": "观察下一交易日能否守住6,773.92及三星电子、SK海力士能否保持同步，避免急涨后快速反转。",
+      "validation": "核验KRX开盘与实时点位；观察三星电子、SK海力士能否守住开盘位并维持同步。",
       "sources": [
-        "https://www.wsj.com/market-data/quotes/index/KR/SEU",
-        "https://www.investing.com/indices/kospi"
+        "https://finance.yahoo.com/quote/%5EKS11/history/",
+        "https://www.wsj.com/market-data/quotes/index/KR/SEU"
       ]
     }
   ],
   "signals": [
     {
-      "event": "A股科技链尾盘共振失效，与日韩芯片大涨形成背离",
+      "event": "美国存储股在温和PPI后重新领涨，AI存储风险偏好回升",
       "industry": "tech",
-      "industry_name": "CPO / PCB / 存储 / 封测",
+      "industry_name": "NAND / DRAM / 企业级SSD / 封测",
       "direction": "positive",
-      "strength": 5,
-      "horizon": "intraday",
-      "priced_in": "medium",
-      "reason": "8月13日正式收盘显示，太极实业涨4.71%、东山精密涨0.96%，仍有局部强势；但兆易创新由午间涨2.73%转为收跌2.10%，德明利跌2.71%，中际旭创几乎平收，存储与光通信的多标的扩散在尾盘失效。同期日经收涨1.16%，KOSPI收涨3.56%，且三星电子、SK海力士显著上涨，形成“日韩芯片强、A股核心标的弱”的背离。由此下调为局部结构性反弹，板块趋势反转未成立。",
-      "assets": [
-        "300308",
-        "002384",
-        "603986",
-        "001309",
-        "600667",
-        "000636"
-      ],
-      "validation": [
-        "下一交易日兆易创新、德明利和中际旭创能否重新收复当日开盘位，并与太极实业、东山精密形成同步",
-        "KOSPI能否守住6,773.92附近，日经能否守住68,000点，海外芯片强势能否真正传导至A股"
-      ],
-      "invalidation": [
-        "太极实业涨幅显著收窄且兆易创新、德明利多数翻绿，中际旭创跌破938元早盘低点",
-        "日经跌破68,000点且KOSPI失守6,773.92开盘位"
-      ],
-      "urls": [
-        "https://www.google.com/finance/beta/quote/300308:SHE?hl=zh",
-        "https://www.google.com/finance/beta/quote/603986:SHA?hl=zh",
-        "https://www.google.com/finance/beta/quote/KOSPI:KRX?hl=zh"
-      ]
-    },
-    {
-      "event": "腾讯AI资本开支激增但自由现金流转负，需求扩张与盈利压力并存",
-      "industry": "tech",
-      "industry_name": "云计算 / AI服务器 / CPO / PCB",
-      "direction": "mixed",
       "strength": 4,
       "horizon": "1-5d",
       "priced_in": "medium",
-      "reason": "腾讯二季度收入同比增长11%，国内游戏增长17%、营销服务增长22%，验证核心业务及AI广告应用需求；资本开支达到528亿元、同比增长176%，为云计算、AI服务器、高速光模块与PCB需求提供产业支撑。另一方面，利润仅增长0.7%且不及预期，自由现金流转负，腾讯8月13日15:32下跌4.29%至441.80港元，盘中最低439.60港元，说明市场继续交易AI投入对现金流和盈利的压力。对A股硬件链应按“需求利好、估值与客户回报约束”双向观察。",
+      "reason": "美国7月PPI环比持平、低于预期，缓和利率压力；闪迪上涨13.7%、美光上涨4.2%，表明此前高预期兑现后的存储风险偏好重新回升。需求基本面与价格反馈同时改善，直接映射兆易创新、德明利及太极实业；但A股8月13日兆易创新和德明利尾盘偏弱，海外利好能否传导仍需开盘与成交量确认。",
       "assets": [
-        "300308",
-        "002384"
+        "603986",
+        "001309",
+        "600667"
       ],
       "validation": [
-        "腾讯收盘及下一交易日能否收复446.40港元开盘位，财报电话会是否明确AI资本开支效率与后续节奏",
-        "中际旭创与东山精密下一交易日能否在腾讯承压背景下保持相对强势"
+        "兆易创新、德明利能否收复8月13日收盘弱势并相对半导体指数转强",
+        "太极实业与存储、封测板块能否同步放量而非单一个股脉冲"
       ],
       "invalidation": [
-        "腾讯放量跌破关键支撑且市场把资本开支解读为低回报扩张",
-        "CPO与AI服务器PCB板块集体高开低走并跌破8月12日低点"
+        "海外存储股回吐8月13日主要涨幅且A股存储链高开低走",
+        "兆易创新、德明利继续弱于半导体指数并跌破8月13日低点"
       ],
       "urls": [
-        "https://www.reuters.com/business/retail-consumer/chinas-tencent-posts-11-second-quarter-revenue-rise-profit-misses-estimates-2026-08-12/",
-        "https://www.google.com/finance/beta/quote/0700:HKG?hl=zh"
+        "https://www.reuters.com/business/retail-consumer/wall-st-futures-tick-higher-oil-retreats-ahead-inflation-data-2026-08-13/",
+        "https://www.reuters.com/business/us-producer-prices-unchanged-july-2026-08-13/"
       ]
     },
     {
-      "event": "温和CPI缓和利率压力，创新药与贵金属估值通道改善",
+      "event": "美国PPI低于预期，成长估值压力缓和但尚未形成无差别利好",
       "industry": "macro",
-      "industry_name": "美国通胀 / 创新药 / 贵金属",
+      "industry_name": "美国通胀 / AI硬件 / 创新药",
       "direction": "positive",
-      "strength": 5,
+      "strength": 4,
       "horizon": "1-5d",
       "priced_in": "medium",
-      "reason": "美国7月CPI环比上涨0.1%、同比上涨3.4%，核心CPI环比上涨0.2%、同比上涨2.5%，年度增速均较6月小幅回落。市场对9月加息的即时押注下降，事实通道为实际利率与估值压力边际缓和，有利于创新药等长久期成长资产及黄金；但北京时间8月13日20:30美国PPI和高油价仍可能形成反向验证。",
-      "assets": [
-        "517380",
-        "518880",
-        "300308",
-        "002384"
-      ],
-      "validation": [
-        "美国7月PPI是否维持温和，10年期美债收益率能否守在4.7%附近或下方",
-        "创新药ETF与港股医药能否获得资金承接，黄金能否守住4,400美元附近"
-      ],
-      "invalidation": [
-        "美国PPI明显高于预期并推动美债收益率和美元同步上行",
-        "创新药与黄金在利率回落背景下仍出现放量下跌"
-      ],
-      "urls": [
-        "https://www.bls.gov/news.release/cpi.nr0.htm",
-        "https://www.reuters.com/world/india/gold-rises-over-two-month-peak-us-inflation-data-dampens-rate-hike-bets-2026-08-12/"
-      ]
-    },
-    {
-      "event": "IEA下调全球原油供应预测，霍尔木兹风险延伸至供需缺口",
-      "industry": "macro",
-      "industry_name": "霍尔木兹 / 原油 / 通胀",
-      "direction": "negative",
-      "strength": 5,
-      "horizon": "1-4w",
-      "priced_in": "medium",
-      "reason": "IEA将2026年全球原油供应预测下调至1.0202亿桶/日，预计同比减少430万桶/日并形成约127万桶/日供需缺口，原因包括霍尔木兹与红海运输受阻及俄罗斯炼油活动低迷。风险由航运中断延伸至官方供需预测，能源成本高位可能限制利率下行并压制高估值科技与创新药，同时支撑贵金属的地缘与通胀对冲需求。",
+      "reason": "美国7月PPI环比0.0%、同比4.7%，分别低于预期和前值，市场对9月加息的押注下降；标普500和纳指上涨。利率压力边际缓和有利于中际旭创、东山精密及创新药ETF的估值通道，但中际旭创仍面临美国数据中心光模块限制草案风险，创新药也缺少新的行业级临床或BD催化，因此只能视为估值环境改善。",
       "assets": [
         "300308",
         "002384",
-        "517380",
-        "518880",
-        "161226"
+        "517380"
       ],
       "validation": [
-        "布伦特能否维持88美元附近，霍尔木兹实际装船、通行量和保险承保是否改善",
-        "美国PPI是否反映能源成本向企业端传导"
+        "10年期美债收益率和美元能否延续温和走势，纳指与费城半导体能否保持强势",
+        "中际旭创、东山精密及创新药ETF能否获得成交量确认并避免高开低走"
       ],
       "invalidation": [
-        "霍尔木兹恢复稳定通航且IEA后续上调供应预测",
-        "布伦特回吐近期主要涨幅并令通胀预期同步回落"
+        "美债收益率与美元重新同步上行并压制成长股",
+        "CPO、PCB和创新药板块在利率利好下仍集体放量下跌"
       ],
       "urls": [
-        "https://www.reuters.com/business/energy/iea-slashes-2026-supply-forecast-hormuz-reopening-remains-elusive-2026-08-12/"
+        "https://www.reuters.com/business/us-producer-prices-unchanged-july-2026-08-13/",
+        "https://www.reuters.com/world/asia-pacific/dollar-treads-water-fed-hike-bets-pared-benign-us-inflation-2026-08-13/"
       ]
     },
     {
-      "event": "金银在温和CPI后继续转强，白银LOF溢价风险仍需单独核验",
+      "event": "金银高位获利回吐，白银LOF场内风险需继续独立核验",
       "industry": "macro",
-      "industry_name": "白银LOF / 黄金ETF / 场内溢价",
+      "industry_name": "黄金ETF / 白银LOF / 场内溢价",
       "direction": "mixed",
-      "strength": 5,
-      "horizon": "1-5d",
-      "priced_in": "medium",
-      "reason": "8月13日亚洲早盘现货黄金升至约4,433美元、上涨约0.5%，白银亦延续温和CPI后的涨势；利率压力缓和与中东风险共同提供支持。国投白银LOF 8月12日收于1.914元、净值1.8004元，溢价约6.31%且仍暂停申购。贵金属本体转强有利净值，但白银LOF场内价格仍受溢价收敛和交易机制独立影响，不能把外盘上涨直接等同于场内同幅上涨。",
+      "strength": 4,
+      "horizon": "intraday",
+      "priced_in": "unknown",
+      "reason": "现货黄金在触及约4,449美元后回落逾1%至约4,355美元，白银等贵金属同步走弱；温和PPI仍有利于利率环境，但短线获利回吐压制外盘映射。黄金ETF华安可能受到隔夜回落影响；国投白银LOF还叠加净值、场内溢价、暂停申购和停复牌机制。由于行情抓取工作流失败，最新LOF溢价与交易状态未可靠取得，必须标记待验证。",
       "assets": [
         "518880",
         "161226"
       ],
       "validation": [
-        "黄金能否守住4,400美元、白银能否站稳近期高位，人民币汇率对国内金银映射的影响",
-        "国投白银LOF溢价能否降至低个位数，暂停申购和停复牌状态是否变化"
+        "黄金能否重新站上4,400美元，白银能否守住本周主要涨幅，人民币汇率如何影响国内映射",
+        "核验国投白银LOF最新净值、场内价格、溢价率及申购停复牌公告"
       ],
       "invalidation": [
-        "美国PPI推升美元与实际利率并令金银跌破8月12日低点",
+        "美元与实际利率上行并推动金银继续跌破8月13日低点",
         "白银LOF溢价重新扩大或新增交易限制"
       ],
       "urls": [
-        "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-13/",
-        "https://www.haoetf.com/lof/161226"
+        "https://www.reuters.com/world/india/gold-pauses-after-tame-us-inflation-fuels-rally-over-two-month-peak-2026-08-13/"
       ]
     }
   ]
