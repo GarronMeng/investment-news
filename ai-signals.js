@@ -1,5 +1,5 @@
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-14 09:12",
+  "generated_at": "2026-08-14 10:02",
   "source_generated_at": "2026-08-08 16:02",
   "generated_by": "ChatGPT Web",
   "status": "ready",
@@ -609,71 +609,72 @@ window.AI_SIGNALS = {
       "market": "日股",
       "flag": "🇯🇵",
       "session": "2026-08-14 早盘",
-      "updated_at": "2026-08-14 10:10 JST",
+      "updated_at": "2026-08-14 10:16 JST（09:16 北京时间）",
       "status": "pending",
-      "status_label": "开盘待验证",
-      "move": "8月13日正式收盘68,308.59（+1.16%）；8月14日开盘点位与同刻涨跌幅未取得双来源一致数据",
-      "driver": "前一交易日电子与被动元件权重走强，但今天是否延续尚不能可靠确认。",
+      "status_label": "上涨约1%，双来源同刻校验待补",
+      "move": "前收68,308.59｜开盘68,811.17（跳空+0.74%）｜10:16 JST 68,964.43（+0.96%）",
+      "driver": "Google Finance盘中快照显示日经高开后维持上涨，但尚未取得第二个独立来源的同刻点位；因此只作为风险偏好参考，不升级为已验证趋势。",
       "a_share_links": [
         "半导体设备",
         "被动元件",
         "MLCC",
         "消费电子"
       ],
-      "validation": "补充核验日经官方开盘价、前收与10:00 JST附近涨跌幅；观察村田、太阳诱电及半导体设备权重是否同步。",
+      "validation": "补充核验日经官方或第二行情源的开盘价与同刻涨跌幅；观察村田、太阳诱电及半导体设备权重能否同步。",
       "sources": [
-        "https://fred.stlouisfed.org/series/NIKKEI225",
-        "https://www.marketwatch.com/investing/index/nik?countrycode=jp"
+        "https://www.google.com/finance/beta/quote/NI225:INDEXNIKKEI?hl=zh",
+        "https://indexes.nikkei.co.jp/en/nkave/archives/summary"
       ]
     },
     {
       "market": "韩股",
       "flag": "🇰🇷",
       "session": "2026-08-14 早盘",
-      "updated_at": "2026-08-14 10:10 KST",
+      "updated_at": "2026-08-14 10:26 KST（09:26 北京时间）",
       "status": "pending",
-      "status_label": "开盘待验证",
-      "move": "8月13日正式收盘6,813.34（+3.56%）；8月14日开盘点位与同刻涨跌幅未取得双来源一致数据",
-      "driver": "三星电子、SK海力士此前显著上涨，叠加隔夜美股存储股走强，但连续急涨后的兑现风险仍需盘中确认。",
+      "status_label": "高开后涨幅收窄，双来源同刻校验待补",
+      "move": "前收6,813.34｜开盘6,995.67（跳空+2.68%）｜10:26 KST 6,869.62（+0.83%）",
+      "driver": "Google Finance盘中快照显示KOSPI一度越过7,000点，随后明显回落至开盘位下方；隔夜存储利好仍有支撑，但高位兑现压力突出。尚缺第二个独立来源同刻确认。",
       "a_share_links": [
         "HBM",
         "DRAM",
         "NAND",
         "封测"
       ],
-      "validation": "核验KRX开盘与实时点位；观察三星电子、SK海力士能否守住开盘位并维持同步。",
+      "validation": "补充核验KRX或第二行情源的开盘价与同刻点位；观察三星电子、SK海力士能否重新站稳开盘位并维持同步。",
       "sources": [
-        "https://finance.yahoo.com/quote/%5EKS11/history/",
-        "https://www.wsj.com/market-data/quotes/index/KR/SEU"
+        "https://www.google.com/finance/beta/quote/KOSPI:KRX?hl=zh",
+        "https://global.krx.co.kr/main/main.jsp"
       ]
     }
   ],
   "signals": [
     {
-      "event": "美国存储股在温和PPI后重新领涨，AI存储风险偏好回升",
+      "event": "海外存储利好部分传导A股，兆易创新与德明利反弹但封测分化",
       "industry": "tech",
       "industry_name": "NAND / DRAM / 企业级SSD / 封测",
-      "direction": "positive",
+      "direction": "mixed",
       "strength": 4,
       "horizon": "1-5d",
       "priced_in": "medium",
-      "reason": "美国7月PPI环比持平、低于预期，缓和利率压力；闪迪上涨13.7%、美光上涨4.2%，表明此前高预期兑现后的存储风险偏好重新回升。需求基本面与价格反馈同时改善，直接映射兆易创新、德明利及太极实业；但A股8月13日兆易创新和德明利尾盘偏弱，海外利好能否传导仍需开盘与成交量确认。",
+      "reason": "隔夜闪迪上涨13.7%、美光上涨4.2%后，8月14日早盘兆易创新约涨2.71%、德明利约涨2.35%，说明海外存储风险偏好已部分传导；但太极实业约跌2.78%，存储设计与封测并未同步。当前可确认的是局部承接，不能据此认定整条存储链完成趋势反转。",
       "assets": [
         "603986",
         "001309",
         "600667"
       ],
       "validation": [
-        "兆易创新、德明利能否收复8月13日收盘弱势并相对半导体指数转强",
-        "太极实业与存储、封测板块能否同步放量而非单一个股脉冲"
+        "兆易创新、德明利能否守住早盘涨幅，并由太极实业或更多存储、封测标的补涨确认",
+        "日韩存储权重与A股存储链能否在后续两个交易日保持同步而非高开低走"
       ],
       "invalidation": [
-        "海外存储股回吐8月13日主要涨幅且A股存储链高开低走",
-        "兆易创新、德明利继续弱于半导体指数并跌破8月13日低点"
+        "兆易创新、德明利回吐主要涨幅并跌破8月14日早盘低点",
+        "太极实业及存储、封测板块继续扩散下跌"
       ],
       "urls": [
         "https://www.reuters.com/business/retail-consumer/wall-st-futures-tick-higher-oil-retreats-ahead-inflation-data-2026-08-13/",
-        "https://www.reuters.com/business/us-producer-prices-unchanged-july-2026-08-13/"
+        "https://www.google.com/finance/beta/quote/603986:SHA?hl=zh",
+        "https://www.google.com/finance/beta/quote/600667:SHA?hl=zh"
       ]
     },
     {
@@ -684,7 +685,7 @@ window.AI_SIGNALS = {
       "strength": 4,
       "horizon": "1-5d",
       "priced_in": "medium",
-      "reason": "美国7月PPI环比0.0%、同比4.7%，分别低于预期和前值，市场对9月加息的押注下降；标普500和纳指上涨。利率压力边际缓和有利于中际旭创、东山精密及创新药ETF的估值通道，但中际旭创仍面临美国数据中心光模块限制草案风险，创新药也缺少新的行业级临床或BD催化，因此只能视为估值环境改善。",
+      "reason": "美国7月PPI环比0.0%、同比4.7%，分别低于预期和前值，市场对9月加息的押注下降；标普500和纳指上涨。8月14日早盘中际旭创约涨0.21%、东山精密约涨1.28%，A股AI硬件仅温和响应，尚未形成一致性强势；同时中际旭创仍面临美国数据中心光模块限制草案风险，创新药也缺少新的行业级临床或BD催化，因此只能视为估值环境改善。",
       "assets": [
         "300308",
         "002384",
@@ -692,7 +693,7 @@ window.AI_SIGNALS = {
       ],
       "validation": [
         "10年期美债收益率和美元能否延续温和走势，纳指与费城半导体能否保持强势",
-        "中际旭创、东山精密及创新药ETF能否获得成交量确认并避免高开低走"
+        "中际旭创、东山精密及创新药ETF能否获得成交量确认并避免冲高回落"
       ],
       "invalidation": [
         "美债收益率与美元重新同步上行并压制成长股",
@@ -700,7 +701,8 @@ window.AI_SIGNALS = {
       ],
       "urls": [
         "https://www.reuters.com/business/us-producer-prices-unchanged-july-2026-08-13/",
-        "https://www.reuters.com/world/asia-pacific/dollar-treads-water-fed-hike-bets-pared-benign-us-inflation-2026-08-13/"
+        "https://www.google.com/finance/beta/quote/300308:SHE?hl=zh",
+        "https://www.google.com/finance/beta/quote/002384:SHE?hl=zh"
       ]
     },
     {
