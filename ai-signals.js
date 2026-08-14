@@ -1,5 +1,5 @@
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-14 13:02",
+  "generated_at": "2026-08-14 14:01",
   "source_generated_at": "2026-08-08 16:02",
   "generated_by": "ChatGPT Web",
   "status": "ready",
@@ -581,7 +581,9 @@ window.AI_SIGNALS = {
     "https://www.bls.gov/news.release/cpi.nr0.htm": "美国2026年7月消费者价格指数报告",
     "https://www.reuters.com/world/india/gold-rises-over-two-month-peak-us-inflation-data-dampens-rate-hike-bets-2026-08-12/": "美国通胀数据降低加息押注，黄金升至逾两个月高位",
     "https://www.reuters.com/business/energy/iea-slashes-2026-supply-forecast-hormuz-reopening-remains-elusive-2026-08-12/": "霍尔木兹重开仍无进展，IEA下调2026年全球原油供应预测",
-    "https://www.reuters.com/business/retail-consumer/chinas-tencent-posts-11-second-quarter-revenue-rise-profit-misses-estimates-2026-08-12/": "腾讯二季度收入增长11%，AI推动广告增长，但利润不及预期"
+    "https://www.reuters.com/business/retail-consumer/chinas-tencent-posts-11-second-quarter-revenue-rise-profit-misses-estimates-2026-08-12/": "腾讯二季度收入增长11%，AI推动广告增长，但利润不及预期",
+    "https://www.reuters.com/world/china/smic-profit-more-than-triples-ai-driven-chip-demand-2026-08-13/": "AI芯片需求推动中芯国际季度利润增至逾三倍",
+    "https://www.reuters.com/world/china/chinese-chipmaker-smic-increases-prices-strong-ai-demand-2026-08-14/": "AI需求强劲，中芯国际上调晶圆代工价格"
   },
   "overseas_markets": [
     {
@@ -609,18 +611,18 @@ window.AI_SIGNALS = {
       "market": "日股",
       "flag": "🇯🇵",
       "session": "2026-08-14 早盘",
-      "updated_at": "2026-08-14 13:39 JST（12:39 北京时间）",
+      "updated_at": "2026-08-14 14:45 JST（13:45 北京时间）",
       "status": "pending",
-      "status_label": "涨幅收窄至约0.4%，双来源同刻校验待补",
-      "move": "前收68,308.59｜开盘68,811.17（跳空+0.74%）｜13:39 JST 68,560.99（+0.37%）",
-      "driver": "Google Finance盘中快照显示日经午后涨幅继续收窄，已低于开盘位并较早盘高点69,608.24明显回落；尚未取得第二个独立来源的同刻点位，因此只作为风险偏好参考。",
+      "status_label": "涨约0.6%但低于开盘，双来源同刻校验待补",
+      "move": "前收68,308.59｜开盘68,811.17（跳空+0.74%）｜14:45 JST 68,721.16（+0.60%）",
+      "driver": "Google Finance盘中快照显示日经午后小幅回升，但仍低于开盘位并较早盘高点69,608.24明显回落；尚未取得第二个独立来源的同刻点位，因此只作为风险偏好参考。",
       "a_share_links": [
         "半导体设备",
         "被动元件",
         "MLCC",
         "消费电子"
       ],
-      "validation": "补充核验日经官方或第二行情源的同刻涨跌幅；观察尾盘能否重新站稳开盘位，以及电子与半导体设备权重是否同步。",
+      "validation": "补充核验日经官方或第二行情源的同刻涨跌幅；观察收盘能否重新站稳开盘位，以及电子与半导体设备权重是否同步。",
       "sources": [
         "https://www.google.com/finance/beta/quote/NI225:INDEXNIKKEI?hl=zh",
         "https://indexes.nikkei.co.jp/en/nkave/archives/summary"
@@ -630,18 +632,18 @@ window.AI_SIGNALS = {
       "market": "韩股",
       "flag": "🇰🇷",
       "session": "2026-08-14 早盘",
-      "updated_at": "2026-08-14 13:42 KST（12:42 北京时间）",
+      "updated_at": "2026-08-14 14:40 KST（13:40 北京时间）",
       "status": "pending",
-      "status_label": "回升至涨约2.0%，双来源同刻校验待补",
-      "move": "前收6,813.34｜开盘6,995.67（跳空+2.68%）｜13:42 KST 6,952.26（+2.04%）",
-      "driver": "Google Finance盘中快照显示KOSPI由上午低位继续回升至约+2.04%，存储风险偏好保持强势；指数仍略低于开盘位，且尚缺第二个独立来源同刻确认。",
+      "status_label": "维持涨约2.1%，双来源同刻校验待补",
+      "move": "前收6,813.34｜开盘6,995.67（跳空+2.68%）｜14:40 KST 6,953.63（+2.06%）",
+      "driver": "Google Finance盘中快照显示KOSPI维持约+2.06%，存储风险偏好保持强势；指数仍略低于开盘位，且尚缺第二个独立来源同刻确认。",
       "a_share_links": [
         "HBM",
         "DRAM",
         "NAND",
         "封测"
       ],
-      "validation": "补充核验KRX或第二行情源的同刻点位；观察三星电子、SK海力士及指数尾盘能否重新站稳开盘位。",
+      "validation": "补充核验KRX或第二行情源的同刻点位；观察三星电子、SK海力士及指数收盘能否重新站稳开盘位。",
       "sources": [
         "https://www.google.com/finance/beta/quote/KOSPI:KRX?hl=zh",
         "https://global.krx.co.kr/main/main.jsp"
@@ -657,14 +659,14 @@ window.AI_SIGNALS = {
       "strength": 4,
       "horizon": "1-5d",
       "priced_in": "medium",
-      "reason": "隔夜闪迪上涨13.7%、美光上涨4.2%后，8月14日13:01左右兆易创新约涨1.98%、德明利约涨1.90%，海外存储风险偏好仍有部分传导；太极实业约跌2.99%，存储设计与封测继续分化。KOSPI回升至约+2.04%，但A股并未同步扩散，当前只能确认局部承接，不能认定整条存储链完成趋势反转。",
+      "reason": "隔夜闪迪上涨13.7%、美光上涨4.2%后，8月14日14:01左右兆易创新约涨2.93%、德明利约涨2.16%，A股存储设计较13点进一步转强；太极实业跌幅收窄至约1.60%，但仍未转正。KOSPI维持约+2.06%，当前可确认局部承接增强，整条存储链的同步趋势反转仍未成立。",
       "assets": [
         "603986",
         "001309",
         "600667"
       ],
       "validation": [
-        "兆易创新、德明利尾盘能否守住涨幅，并由太极实业或更多存储、封测标的补涨确认",
+        "兆易创新、德明利尾盘能否守住涨幅，并由太极实业或更多存储、封测标的转强确认",
         "日韩存储权重与A股存储链能否在后续两个交易日保持同步而非冲高回落"
       ],
       "invalidation": [
@@ -678,6 +680,32 @@ window.AI_SIGNALS = {
       ]
     },
     {
+      "event": "中芯国际业绩超预期并提高晶圆价格，成熟制程景气改善但设计端成本上升",
+      "industry": "tech",
+      "industry_name": "晶圆代工 / 存储设计 / 封测",
+      "direction": "mixed",
+      "strength": 4,
+      "horizon": "1-5d",
+      "priced_in": "medium",
+      "reason": "中芯国际二季度营收同比增长36%至30.1亿美元，净利润增至4.792亿美元、超过市场预期，产能利用率升至93.7%；公司表示三季度晶圆价格上调，并预计收入环比增长2%—4%。高利用率和提价验证国内成熟制程需求偏强，对封测及国产半导体生态有支撑；但晶圆提价也可能压缩兆易创新等无晶圆厂设计公司的毛利，影响并非单向利好。",
+      "assets": [
+        "603986",
+        "600667"
+      ],
+      "validation": [
+        "半导体设计与封测板块能否同步放量，太极实业能否由下跌转为相对强势",
+        "后续晶圆提价能否由终端需求吸收，而非转化为设计公司毛利压力"
+      ],
+      "invalidation": [
+        "晶圆提价引发设计公司盈利预期下修，板块出现放量下跌",
+        "产能利用率或三季度订单指引后续被明显下修"
+      ],
+      "urls": [
+        "https://www.reuters.com/world/china/smic-profit-more-than-triples-ai-driven-chip-demand-2026-08-13/",
+        "https://www.reuters.com/world/china/chinese-chipmaker-smic-increases-prices-strong-ai-demand-2026-08-14/"
+      ]
+    },
+    {
       "event": "美国PPI低于预期，成长估值压力缓和但尚未形成无差别利好",
       "industry": "macro",
       "industry_name": "美国通胀 / AI硬件 / 创新药",
@@ -685,7 +713,7 @@ window.AI_SIGNALS = {
       "strength": 4,
       "horizon": "1-5d",
       "priced_in": "medium",
-      "reason": "美国7月PPI环比0.0%、同比4.7%，分别低于预期和前值，市场对9月加息的押注下降；标普500和纳指上涨。8月14日13:01左右中际旭创约涨1.51%、东山精密约涨0.47%，A股AI硬件仍有承接但涨幅趋弱、未形成一致性强势；同时中际旭创仍面临美国数据中心光模块限制草案风险，创新药也缺少新的行业级临床或BD催化，因此只能视为估值环境改善。",
+      "reason": "美国7月PPI环比0.0%、同比4.7%，分别低于预期和前值，市场对9月加息的押注下降；标普500和纳指上涨。8月14日14:01左右中际旭创约涨2.17%、东山精密约涨1.47%，A股AI硬件重新温和走强但尚未形成高强度一致性；同时中际旭创仍面临美国数据中心光模块限制草案风险，创新药也缺少新的行业级临床或BD催化，因此只能视为估值环境改善。",
       "assets": [
         "300308",
         "002384",
