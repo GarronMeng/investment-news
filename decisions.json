@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generated_at": "2026-08-16T14:59:24+08:00",
+  "generated_at": "2026-08-16T15:48:49+08:00",
   "source": {
-    "data_generated_at": "2026-08-16 12:22",
+    "data_generated_at": "2026-08-16 15:47",
     "ai_generated_at": "2026-08-16 15:00",
     "ai_source_generated_at": "2026-08-16 12:22",
-    "features_generated_at": "2026-08-16T14:59:24+08:00",
-    "fresh_ai": true
+    "features_generated_at": "2026-08-16T15:48:49+08:00",
+    "fresh_ai": false
   },
   "decisions": [
     {
@@ -17,21 +17,21 @@
       "status": "neutral",
       "event_score": 50.0,
       "market_score": 45.0,
-      "freshness_score": 100,
-      "conviction": 4.0,
-      "evidence_mode": "event_plus_market",
-      "event_count": 1,
+      "freshness_score": 70,
+      "conviction": 10.0,
+      "evidence_mode": "market_only",
+      "event_count": 0,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.128461",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=-0.128461",
       "confirmation": [
-        "苹果或美国商务部是否进一步披露采购限制范围，国内存储厂商客户结构是否受影响",
-        "DDR5、企业级SSD报价与A股存储设计、模组、封测能否形成放量扩散"
+        "股价相对半导体指数转强",
+        "成交量放大且收盘站稳"
       ],
       "invalidation": [
-        "限制扩大至更多终端或存储品类并导致订单取消",
-        "服务器内存升级未转化为报价、订单或相关标的相对强度"
+        "存储价格下行",
+        "库存恶化"
       ],
-      "expires_at": "2026-09-13"
+      "expires_at": "2026-08-21"
     },
     {
       "asset": "001309",
@@ -41,45 +41,45 @@
       "status": "neutral",
       "event_score": 50.0,
       "market_score": 45.0,
-      "freshness_score": 100,
-      "conviction": 4.0,
-      "evidence_mode": "event_plus_market",
-      "event_count": 1,
+      "freshness_score": 70,
+      "conviction": 10.0,
+      "evidence_mode": "market_only",
+      "event_count": 0,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.2728",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=-0.2728",
       "confirmation": [
-        "苹果或美国商务部是否进一步披露采购限制范围，国内存储厂商客户结构是否受影响",
-        "DDR5、企业级SSD报价与A股存储设计、模组、封测能否形成放量扩散"
+        "相对存储板块止跌转强",
+        "放量突破短期压力位"
       ],
       "invalidation": [
-        "限制扩大至更多终端或存储品类并导致订单取消",
-        "服务器内存升级未转化为报价、订单或相关标的相对强度"
+        "NAND跌价",
+        "渠道库存上升"
       ],
-      "expires_at": "2026-09-13"
+      "expires_at": "2026-08-21"
     },
     {
       "asset": "300308",
       "name": "中际旭创",
       "as_of": "2026-08-14",
       "bias": "bearish",
-      "status": "neutral",
+      "status": "market_watch",
       "event_score": 50.0,
       "market_score": 25.0,
-      "freshness_score": 100,
-      "conviction": 20.0,
-      "evidence_mode": "event_plus_market",
-      "event_count": 1,
+      "freshness_score": 70,
+      "conviction": 50.0,
+      "evidence_mode": "market_only",
+      "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "fresh event evidence; market trend=bearish; 20d relative strength=-0.067079",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.067079",
       "confirmation": [
-        "项目投资、租约与建设时间表得到正式确认，且融资利差未继续扩大",
-        "CPO与服务器PCB相对科技指数放量转强并维持至少两个交易日"
+        "海外AI硬件与A股CPO同步走强",
+        "高位放量后能维持强势"
       ],
       "invalidation": [
-        "项目融资缩减、租约延期或表外担保风险导致资本开支下修",
-        "相关板块在新增资本开支消息后仍同步放量下跌"
+        "AI资本开支下修",
+        "客户延迟采购"
       ],
-      "expires_at": "2026-09-13"
+      "expires_at": "2026-08-21"
     },
     {
       "asset": "002384",
@@ -89,45 +89,45 @@
       "status": "neutral",
       "event_score": 50.0,
       "market_score": 45.0,
-      "freshness_score": 100,
-      "conviction": 4.0,
-      "evidence_mode": "event_plus_market",
-      "event_count": 1,
+      "freshness_score": 70,
+      "conviction": 10.0,
+      "evidence_mode": "market_only",
+      "event_count": 0,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.181681",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=-0.181681",
       "confirmation": [
-        "项目投资、租约与建设时间表得到正式确认，且融资利差未继续扩大",
-        "CPO与服务器PCB相对科技指数放量转强并维持至少两个交易日"
+        "PCB板块扩散上涨",
+        "订单利好得到成交量确认"
       ],
       "invalidation": [
-        "项目融资缩减、租约延期或表外担保风险导致资本开支下修",
-        "相关板块在新增资本开支消息后仍同步放量下跌"
+        "终端需求下修",
+        "价格竞争"
       ],
-      "expires_at": "2026-09-13"
+      "expires_at": "2026-08-21"
     },
     {
       "asset": "600667",
       "name": "太极实业",
       "as_of": "2026-08-14",
       "bias": "bullish",
-      "status": "watch",
+      "status": "market_watch",
       "event_score": 50.0,
       "market_score": 85.0,
-      "freshness_score": 100,
-      "conviction": 28.0,
-      "evidence_mode": "event_plus_market",
-      "event_count": 1,
+      "freshness_score": 70,
+      "conviction": 55,
+      "evidence_mode": "market_only",
+      "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.331356",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.331356",
       "confirmation": [
-        "苹果或美国商务部是否进一步披露采购限制范围，国内存储厂商客户结构是否受影响",
-        "DDR5、企业级SSD报价与A股存储设计、模组、封测能否形成放量扩散"
+        "半导体工程板块同步走强",
+        "事件后股价摆脱弱势结构"
       ],
       "invalidation": [
-        "限制扩大至更多终端或存储品类并导致订单取消",
-        "服务器内存升级未转化为报价、订单或相关标的相对强度"
+        "资本开支延迟",
+        "项目回款承压"
       ],
-      "expires_at": "2026-09-13"
+      "expires_at": "2026-08-21"
     },
     {
       "asset": "000636",
@@ -137,7 +137,7 @@
       "status": "market_watch",
       "event_score": 50.0,
       "market_score": 85.0,
-      "freshness_score": 100,
+      "freshness_score": 70,
       "conviction": 55,
       "evidence_mode": "market_only",
       "event_count": 0,
@@ -161,7 +161,7 @@
       "status": "neutral",
       "event_score": 50.0,
       "market_score": 55.0,
-      "freshness_score": 100,
+      "freshness_score": 70,
       "conviction": 10.0,
       "evidence_mode": "market_only",
       "event_count": 0,
@@ -185,7 +185,7 @@
       "status": "market_watch",
       "event_score": 50.0,
       "market_score": 85.0,
-      "freshness_score": 100,
+      "freshness_score": 70,
       "conviction": 55,
       "evidence_mode": "market_only",
       "event_count": 0,
@@ -209,7 +209,7 @@
       "status": "market_watch",
       "event_score": 50.0,
       "market_score": 85.0,
-      "freshness_score": 100,
+      "freshness_score": 70,
       "conviction": 55,
       "evidence_mode": "market_only",
       "event_count": 0,
