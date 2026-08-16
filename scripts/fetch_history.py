@@ -208,27 +208,29 @@ def preserve(previous, code, name, symbol, kind, error, benchmark=False):
 
 
 def refresh(code, name, symbol, kind, previous, warnings, benchmark=False):
+    primary_error = None
+    direct_error = None
     try:
         rows = akshare_history(code, kind)
         return series(code, name, symbol, kind, rows, "东方财富 via AKShare")
-    except Exception as primary:
-        warnings.append(f"{code} AKShare: {primary}")
+    except Exception as exc:
+        primary_error = exc
+        warnings.append(f"{code} AKShare: {primary_error}")
 
     if kind in {"etf", "lof"}:
         try:
             rows = eastmoney_fund_history(code)
-            return series(code, name, symbol, kind, rows, "东方财富 direct fallback", primary)
-        except Exception as direct_error:
+            return series(code, name, symbol, kind, rows, "东方财富 direct fallback", primary_error)
+        except Exception as exc:
+            direct_error = exc
             warnings.append(f"{code} Eastmoney direct: {direct_error}")
-    else:
-        direct_error = None
 
     try:
         rows = yahoo_chart(symbol)
-        return series(code, name, symbol, kind, rows, "Yahoo Finance chart", primary)
+        return series(code, name, symbol, kind, rows, "Yahoo Finance chart", primary_error)
     except Exception as fallback:
         warnings.append(f"{code} Yahoo: {fallback}")
-        reason = f"AKShare={primary}; direct={direct_error}; Yahoo={fallback}"
+        reason = f"AKShare={primary_error}; direct={direct_error}; Yahoo={fallback}"
         return preserve(previous, code, name, symbol, kind, reason, benchmark)
 
 
