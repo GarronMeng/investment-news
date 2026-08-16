@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generated_at": "2026-08-16T16:04:25+08:00",
+  "generated_at": "2026-08-17T07:46:57+08:00",
   "source": {
-    "data_generated_at": "2026-08-16 15:47",
+    "data_generated_at": "2026-08-17 07:46",
     "ai_generated_at": "2026-08-16 16:06",
     "ai_source_generated_at": "2026-08-16 15:47",
-    "features_generated_at": "2026-08-16T16:04:25+08:00",
-    "fresh_ai": true
+    "features_generated_at": "2026-08-17T07:46:57+08:00",
+    "fresh_ai": false
   },
   "decisions": [
     {
@@ -17,21 +17,21 @@
       "status": "neutral",
       "event_score": 50.0,
       "market_score": 45.0,
-      "freshness_score": 100,
-      "conviction": 4.0,
-      "evidence_mode": "event_plus_market",
-      "event_count": 1,
+      "freshness_score": 70,
+      "conviction": 10.0,
+      "evidence_mode": "market_only",
+      "event_count": 0,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.128461",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=-0.128461",
       "confirmation": [
-        "DRAM、NAND与企业级SSD报价继续上行，并由订单或库存数据确认",
-        "A股存储设计、模组与封测形成放量扩散，同时苹果采购限制未进一步扩大"
+        "股价相对半导体指数转强",
+        "成交量放大且收盘站稳"
       ],
       "invalidation": [
-        "供应紧张预期缓解、存储现货报价转跌或订单下修",
-        "限制扩大至更多终端和存储品类并导致中国供应商订单取消"
+        "存储价格下行",
+        "库存恶化"
       ],
-      "expires_at": "2026-09-13"
+      "expires_at": "2026-08-22"
     },
     {
       "asset": "001309",
@@ -41,45 +41,45 @@
       "status": "neutral",
       "event_score": 50.0,
       "market_score": 45.0,
-      "freshness_score": 100,
-      "conviction": 4.0,
-      "evidence_mode": "event_plus_market",
-      "event_count": 1,
+      "freshness_score": 70,
+      "conviction": 10.0,
+      "evidence_mode": "market_only",
+      "event_count": 0,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.2728",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=-0.2728",
       "confirmation": [
-        "DRAM、NAND与企业级SSD报价继续上行，并由订单或库存数据确认",
-        "A股存储设计、模组与封测形成放量扩散，同时苹果采购限制未进一步扩大"
+        "相对存储板块止跌转强",
+        "放量突破短期压力位"
       ],
       "invalidation": [
-        "供应紧张预期缓解、存储现货报价转跌或订单下修",
-        "限制扩大至更多终端和存储品类并导致中国供应商订单取消"
+        "NAND跌价",
+        "渠道库存上升"
       ],
-      "expires_at": "2026-09-13"
+      "expires_at": "2026-08-22"
     },
     {
       "asset": "300308",
       "name": "中际旭创",
       "as_of": "2026-08-14",
       "bias": "bearish",
-      "status": "neutral",
+      "status": "market_watch",
       "event_score": 50.0,
       "market_score": 25.0,
-      "freshness_score": 100,
-      "conviction": 20.0,
-      "evidence_mode": "event_plus_market",
-      "event_count": 1,
+      "freshness_score": 70,
+      "conviction": 50.0,
+      "evidence_mode": "market_only",
+      "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "fresh event evidence; market trend=bearish; 20d relative strength=-0.067079",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.067079",
       "confirmation": [
-        "项目投资、租约与建设时间表得到正式确认，且融资利差未继续扩大",
-        "CPO与服务器PCB相对科技指数放量转强并维持至少两个交易日"
+        "海外AI硬件与A股CPO同步走强",
+        "高位放量后能维持强势"
       ],
       "invalidation": [
-        "项目融资缩减、租约延期或表外担保风险导致资本开支下修",
-        "相关板块在新增资本开支消息后仍同步放量下跌"
+        "AI资本开支下修",
+        "客户延迟采购"
       ],
-      "expires_at": "2026-09-13"
+      "expires_at": "2026-08-22"
     },
     {
       "asset": "002384",
@@ -89,45 +89,45 @@
       "status": "neutral",
       "event_score": 50.0,
       "market_score": 45.0,
-      "freshness_score": 100,
-      "conviction": 4.0,
-      "evidence_mode": "event_plus_market",
-      "event_count": 1,
+      "freshness_score": 70,
+      "conviction": 10.0,
+      "evidence_mode": "market_only",
+      "event_count": 0,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.181681",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=-0.181681",
       "confirmation": [
-        "项目投资、租约与建设时间表得到正式确认，且融资利差未继续扩大",
-        "CPO与服务器PCB相对科技指数放量转强并维持至少两个交易日"
+        "PCB板块扩散上涨",
+        "订单利好得到成交量确认"
       ],
       "invalidation": [
-        "项目融资缩减、租约延期或表外担保风险导致资本开支下修",
-        "相关板块在新增资本开支消息后仍同步放量下跌"
+        "终端需求下修",
+        "价格竞争"
       ],
-      "expires_at": "2026-09-13"
+      "expires_at": "2026-08-22"
     },
     {
       "asset": "600667",
       "name": "太极实业",
       "as_of": "2026-08-14",
       "bias": "bullish",
-      "status": "watch",
+      "status": "market_watch",
       "event_score": 50.0,
       "market_score": 85.0,
-      "freshness_score": 100,
-      "conviction": 28.0,
-      "evidence_mode": "event_plus_market",
-      "event_count": 1,
+      "freshness_score": 70,
+      "conviction": 55,
+      "evidence_mode": "market_only",
+      "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.331356",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.331356",
       "confirmation": [
-        "DRAM、NAND与企业级SSD报价继续上行，并由订单或库存数据确认",
-        "A股存储设计、模组与封测形成放量扩散，同时苹果采购限制未进一步扩大"
+        "半导体工程板块同步走强",
+        "事件后股价摆脱弱势结构"
       ],
       "invalidation": [
-        "供应紧张预期缓解、存储现货报价转跌或订单下修",
-        "限制扩大至更多终端和存储品类并导致中国供应商订单取消"
+        "资本开支延迟",
+        "项目回款承压"
       ],
-      "expires_at": "2026-09-13"
+      "expires_at": "2026-08-22"
     },
     {
       "asset": "000636",
@@ -137,7 +137,7 @@
       "status": "market_watch",
       "event_score": 50.0,
       "market_score": 85.0,
-      "freshness_score": 100,
+      "freshness_score": 70,
       "conviction": 55,
       "evidence_mode": "market_only",
       "event_count": 0,
@@ -151,7 +151,7 @@
         "价格下跌",
         "库存去化不及预期"
       ],
-      "expires_at": "2026-08-21"
+      "expires_at": "2026-08-22"
     },
     {
       "asset": "161226",
@@ -161,7 +161,7 @@
       "status": "neutral",
       "event_score": 50.0,
       "market_score": 55.0,
-      "freshness_score": 100,
+      "freshness_score": 70,
       "conviction": 10.0,
       "evidence_mode": "market_only",
       "event_count": 0,
@@ -175,31 +175,31 @@
         "银价下跌",
         "美元与实际利率上行"
       ],
-      "expires_at": "2026-08-21"
+      "expires_at": "2026-08-22"
     },
     {
       "asset": "518880",
       "name": "黄金ETF华安",
       "as_of": "2026-08-14",
       "bias": "bullish",
-      "status": "active",
-      "event_score": 90.0,
+      "status": "market_watch",
+      "event_score": 50.0,
       "market_score": 85.0,
-      "freshness_score": 100,
-      "conviction": 76.0,
-      "evidence_mode": "event_plus_market",
-      "event_count": 1,
+      "freshness_score": 70,
+      "conviction": 55,
+      "evidence_mode": "market_only",
+      "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.046551",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.046551",
       "confirmation": [
-        "外盘黄金与国内黄金现货在下个交易日同向走强，黄金ETF成交量同步放大",
-        "全球黄金ETF继续净流入且美元或实际利率未显著反弹"
+        "外盘金价与国内黄金现货同向",
+        "ETF成交量与价格同步确认"
       ],
       "invalidation": [
-        "实际利率与美元持续上行并推动金价跌破近期支撑",
-        "央行购金或ETF资金流出现明显转弱"
+        "金价下跌",
+        "实际利率上行"
       ],
-      "expires_at": "2026-11-14"
+      "expires_at": "2026-08-22"
     },
     {
       "asset": "517380",
@@ -209,7 +209,7 @@
       "status": "market_watch",
       "event_score": 50.0,
       "market_score": 85.0,
-      "freshness_score": 100,
+      "freshness_score": 70,
       "conviction": 55,
       "evidence_mode": "market_only",
       "event_count": 0,
@@ -223,7 +223,7 @@
         "临床失败",
         "监管或支付政策收紧"
       ],
-      "expires_at": "2026-08-21"
+      "expires_at": "2026-08-22"
     }
   ],
   "methodology": {
