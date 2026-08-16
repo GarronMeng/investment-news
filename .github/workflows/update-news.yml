@@ -14,7 +14,8 @@ on:
     paths:
       - sources.json
       - watchlist.json
-      - scripts/**
+      - scripts/fetch.py
+      - scripts/build_sources.py
       - .github/workflows/update-news.yml
 
 permissions:
@@ -66,7 +67,6 @@ jobs:
 
           text = open("data.js", encoding="utf-8").read()
           data = json.loads(text[text.index("{"):text.rindex("}") + 1])
-
           assert data.get("industries"), "industries is empty"
           assert data.get("generated_at"), "generated_at is missing"
           assert data.get("stats", {}).get("event_cards", 0) > 0, "event cards are empty"
@@ -75,14 +75,11 @@ jobs:
               for industry in data["industries"]
               for item in industry.get("items", [])
           ), "trajectory or resonance fields are missing"
-
           history = json.load(open("history.json", encoding="utf-8"))
           assert history.get("topics"), "history topics are empty"
-
           stats = data.get("stats", {})
           unique_items = int(stats.get("unique_items", 0))
           assert unique_items >= 50, f"too few unique items: {unique_items}"
-
           timestamps = [
               item.get("ts", 0)
               for industry in data["industries"]
@@ -92,13 +89,9 @@ jobs:
           assert timestamps, "no timestamped news items"
           latest_age_hours = (datetime.now(timezone.utc).timestamp() - max(timestamps)) / 3600
           assert latest_age_hours <= 36, f"latest news is stale: {latest_age_hours:.1f} hours old"
-
           print(
-              "validated",
-              data["generated_at"],
-              f"{unique_items} unique items",
-              f"latest age {latest_age_hours:.1f}h",
-              f"{stats.get('failed_sources', 0)} failed sources",
+              "validated", data["generated_at"], f"{unique_items} unique items",
+              f"latest age {latest_age_hours:.1f}h", f"{stats.get('failed_sources', 0)} failed sources",
           )
           PY
 
