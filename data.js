@@ -1,6 +1,6 @@
 // 自动生成，请勿手工编辑。
 window.DATA = {
- "generated_at": "2026-08-16 12:04",
+ "generated_at": "2026-08-16 12:05",
  "recent_days": 7,
  "industries": [
   {
@@ -20118,6 +20118,60 @@ window.DATA = {
      }
     },
     {
+     "title": "Indie App Spotlight: ‘Notepad.exe’ is an ultra-fast, lightweight code editor for your Mac",
+     "url": "https://9to5mac.com/2026/08/15/indie-app-spotlight-notepad-exe-is-an-ultra-fast-lightweight-code-editor-for-your-mac",
+     "time": "08-16 03:30",
+     "ts": 1786822200,
+     "summary": "Welcome to Indie App Spotlight. This is a weekly 9to5Mac series where we showcase the latest apps in the indie app world. If you’re a developer and would like your app featured, get in contact. Writing a little bit of code shouldn’t be a ha",
+     "source": "9to5Mac",
+     "agenda_layer": "media",
+     "language": "en",
+     "id": "e863f03560a8",
+     "keywords_zh": [
+      "消费电子 / 数码"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:e863f03560a8",
+     "cluster_size": 1,
+     "sources": [
+      "9to5Mac"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "media"
+     ],
+     "cluster_urls": [
+      {
+       "source": "9to5Mac",
+       "title": "Indie App Spotlight: ‘Notepad.exe’ is an ultra-fast, lightweight code editor for your Mac",
+       "url": "https://9to5mac.com/2026/08/15/indie-app-spotlight-notepad-exe-is-an-ultra-fast-lightweight-code-editor-for-your-mac"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       5
+      ],
+      "observations": 1,
+      "first_seen": 1786852884
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "media"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
      "title": "iQOO Buds TWS earphones launching on August 20",
      "url": "https://www.gsmarena.com/iqoo_buds_tws_earphones_launch_date-news-74192.php",
      "time": "08-16 02:45",
@@ -20154,7 +20208,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       5
+       6
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -20208,7 +20262,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       6
+       7
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -20262,7 +20316,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       7
+       8
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -20316,7 +20370,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       8
+       9
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -20370,7 +20424,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       9
+       10
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -20424,7 +20478,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       10
+       11
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -20478,7 +20532,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       11
+       12
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -20532,7 +20586,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       12
+       13
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -20586,7 +20640,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       13
+       14
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -20640,7 +20694,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       14
+       15
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -20694,7 +20748,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       15
+       16
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -20744,60 +20798,6 @@ window.DATA = {
        "source": "9to5Mac",
        "title": "These are my favorite ultra-slim iPhone accessories for 2026 [Video]",
        "url": "https://9to5mac.com/2026/08/15/these-are-my-favorite-ultra-slim-iphone-accessories-for-2026-video"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       16
-      ],
-      "observations": 1,
-      "first_seen": 1786852884
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "media"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "Pixel 11 ads show a mysterious screen-equipped tracker that’s not Pixel Watch 5 or Fitbit Air [Gallery]",
-     "url": "https://9to5google.com/2026/08/15/google-pixel-11-ad-unknown-fitbit-tracker",
-     "time": "08-15 21:30",
-     "ts": 1786800600,
-     "summary": "Google might have another fitness tracker in the works, as a pair of new ads online show off a mysterious little pebble that’s neither a Fitbit Air nor a Pixel Watch 5 – but is it anything at all?",
-     "source": "9to5Google",
-     "agenda_layer": "media",
-     "language": "en",
-     "id": "728e13bee390",
-     "keywords_zh": [
-      "谷歌"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:728e13bee390",
-     "cluster_size": 1,
-     "sources": [
-      "9to5Google"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "media"
-     ],
-     "cluster_urls": [
-      {
-       "source": "9to5Google",
-       "title": "Pixel 11 ads show a mysterious screen-equipped tracker that’s not Pixel Watch 5 or Fitbit Air [Gallery]",
-       "url": "https://9to5google.com/2026/08/15/google-pixel-11-ad-unknown-fitbit-tracker"
       }
      ],
      "trajectory": {
@@ -21307,63 +21307,6 @@ window.DATA = {
      }
     },
     {
-     "title": "Commerce Secretary says US opposes Apple buying Chinese memory chips",
-     "url": "https://9to5mac.com/2026/08/14/commerce-secretary-says-us-opposes-apple-buying-chinese-memory-chips",
-     "time": "08-15 10:15",
-     "ts": 1786760102,
-     "summary": "The Wall Street Journal reports that US Commerce Secretary Howard Lutnick has urged Apple not to turn to Chinese memory chips as the company looks for alternatives to alleviate the ongoing global supply shortage. Here are the details.",
-     "source": "9to5Mac",
-     "agenda_layer": "media",
-     "language": "en",
-     "id": "68a2a84177e1",
-     "keywords_zh": [
-      "苹果",
-      "存储芯片"
-     ],
-     "event_type": "",
-     "related_assets": [
-      "兆易创新"
-     ],
-     "relevance_score": 5,
-     "topic_id": "story:68a2a84177e1",
-     "cluster_size": 1,
-     "sources": [
-      "9to5Mac"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "media"
-     ],
-     "cluster_urls": [
-      {
-       "source": "9to5Mac",
-       "title": "Commerce Secretary says US opposes Apple buying Chinese memory chips",
-       "url": "https://9to5mac.com/2026/08/14/commerce-secretary-says-us-opposes-apple-buying-chinese-memory-chips"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       27
-      ],
-      "observations": 1,
-      "first_seen": 1786853082
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "media"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
      "title": "Android 17 QPR2 adds App lock to Pixel",
      "url": "https://9to5google.com/2026/08/14/android-17-qpr2-app-lock",
      "time": "08-15 07:27",
@@ -21400,7 +21343,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       28
+       27
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -21454,7 +21397,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       29
+       28
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -21508,7 +21451,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       30
+       29
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -21562,7 +21505,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       31
+       30
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -21616,10 +21559,64 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       32
+       31
       ],
       "observations": 1,
       "first_seen": 1786852884
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "media"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "Android 17 QPR2 Beta 3 for Pixel rolling out",
+     "url": "https://9to5google.com/2026/08/14/android-17-qpr2-beta-3-pixel",
+     "time": "08-15 05:52",
+     "ts": 1786744345,
+     "summary": "Following the last release at the start of last week, Google is rolling out Android 17 QPR2 Beta 3 for Pixel devices in a rare Friday drop. So far, it is the biggest update this cycle.",
+     "source": "9to5Google",
+     "agenda_layer": "media",
+     "language": "en",
+     "id": "b85378e518dd",
+     "keywords_zh": [
+      "谷歌"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:b85378e518dd",
+     "cluster_size": 1,
+     "sources": [
+      "9to5Google"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "media"
+     ],
+     "cluster_urls": [
+      {
+       "source": "9to5Google",
+       "title": "Android 17 QPR2 Beta 3 for Pixel rolling out",
+       "url": "https://9to5google.com/2026/08/14/android-17-qpr2-beta-3-pixel"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       32
+      ],
+      "observations": 1,
+      "first_seen": 1786853151
      },
      "resonance": {
       "confirmed": false,
@@ -23023,6 +23020,60 @@ window.DATA = {
      }
     },
     {
+     "title": "Singapore Inc hopes AI access will stop finance high-flyers moving to Hong Kong",
+     "url": "https://www.ft.com/content/7d2969fd-85aa-43fb-ae04-97d1d0ee2463",
+     "time": "08-16 09:52",
+     "ts": 1786845137,
+     "summary": "Close relations with both US and China mean the latest AI models are easily accessible in the city-state",
+     "source": "Financial Times",
+     "agenda_layer": "market",
+     "language": "en",
+     "id": "c8c6e018a13d",
+     "keywords_zh": [
+      "人工智能"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:c8c6e018a13d",
+     "cluster_size": 1,
+     "sources": [
+      "Financial Times"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "Financial Times",
+       "title": "Singapore Inc hopes AI access will stop finance high-flyers moving to Hong Kong",
+       "url": "https://www.ft.com/content/7d2969fd-85aa-43fb-ae04-97d1d0ee2463"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       16
+      ],
+      "observations": 1,
+      "first_seen": 1786853151
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
      "title": "AI债务狂潮背后：700亿美元表外隐性负债引发债券投资者担忧",
      "url": "https://wallstreetcn.com/articles/3779518",
      "time": "08-16 09:08",
@@ -23063,7 +23114,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       16
+       17
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -23117,7 +23168,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       17
+       18
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -23171,7 +23222,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       18
+       19
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -23225,7 +23276,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       19
+       20
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -23279,7 +23330,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       20
+       21
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -23333,7 +23384,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       21
+       22
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -23387,7 +23438,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       22
+       23
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -23441,7 +23492,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       23
+       24
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -23495,7 +23546,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       24
+       25
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -23549,7 +23600,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       25
+       26
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -23583,9 +23634,8 @@ window.DATA = {
      "related_assets": [],
      "relevance_score": 0,
      "topic_id": "story:572e2819c148",
-     "cluster_size": 2,
+     "cluster_size": 1,
      "sources": [
-      "Financial Times",
       "Seeking Alpha"
      ],
      "languages": [
@@ -23599,24 +23649,19 @@ window.DATA = {
        "source": "Seeking Alpha",
        "title": "China to lift travel ban on Manus founders as Meta unwinds buyout deal: FT",
        "url": "https://seekingalpha.com/news/4633587-manus-founders-return-china-meta-unwinds-buyout-deal"
-      },
-      {
-       "source": "Financial Times",
-       "title": "China poised to lift travel ban on Manus founders",
-       "url": "https://www.ft.com/content/fa479d50-7c79-4b6d-99c3-3830e37c1503"
       }
      ],
      "trajectory": {
       "label": "new",
       "points": [
-       26
+       27
       ],
       "observations": 1,
       "first_seen": 1786852884
      },
      "resonance": {
       "confirmed": false,
-      "source_count": 2,
+      "source_count": 1,
       "languages": [
        "en"
       ],
@@ -23663,7 +23708,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       27
+       28
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -23718,10 +23763,64 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       28
+       29
       ],
       "observations": 1,
       "first_seen": 1786852884
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "Israeli strikes kill 11 in Lebanon two months into truce",
+     "url": "https://www.ft.com/content/1bd69e67-266f-4a4a-9c49-eb3c83bcb295",
+     "time": "08-16 00:13",
+     "ts": 1786810415,
+     "summary": "Attacks were ‘response to an action’ by Hizbollah, says Israeli military",
+     "source": "Financial Times",
+     "agenda_layer": "market",
+     "language": "en",
+     "id": "ebbc55fcbdc9",
+     "keywords_zh": [
+      "财经 / 宏观"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:ebbc55fcbdc9",
+     "cluster_size": 1,
+     "sources": [
+      "Financial Times"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "Financial Times",
+       "title": "Israeli strikes kill 11 in Lebanon two months into truce",
+       "url": "https://www.ft.com/content/1bd69e67-266f-4a4a-9c49-eb3c83bcb295"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       30
+      ],
+      "observations": 1,
+      "first_seen": 1786853151
      },
      "resonance": {
       "confirmed": false,
@@ -23772,7 +23871,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       29
+       31
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -23826,7 +23925,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       30
+       32
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -23880,7 +23979,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       31
+       33
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -23934,7 +24033,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       32
+       34
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -23988,7 +24087,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       33
+       35
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -24042,7 +24141,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       34
+       36
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -24096,7 +24195,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       35
+       37
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -24150,114 +24249,6 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       36
-      ],
-      "observations": 1,
-      "first_seen": 1786852884
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "market"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "Traders are spoiling for a fight over the yen",
-     "url": "https://www.ft.com/content/543b1ab2-6203-412d-ae3b-f4439d1e9d47",
-     "time": "08-15 12:00",
-     "ts": 1786766432,
-     "summary": "After historic US-Japan intervention on the currency, the risk of market ructions is again rising",
-     "source": "Financial Times",
-     "agenda_layer": "market",
-     "language": "en",
-     "id": "48c58b252905",
-     "keywords_zh": [
-      "财经 / 宏观"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:48c58b252905",
-     "cluster_size": 1,
-     "sources": [
-      "Financial Times"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "market"
-     ],
-     "cluster_urls": [
-      {
-       "source": "Financial Times",
-       "title": "Traders are spoiling for a fight over the yen",
-       "url": "https://www.ft.com/content/543b1ab2-6203-412d-ae3b-f4439d1e9d47"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       37
-      ],
-      "observations": 1,
-      "first_seen": 1786852884
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "market"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "OpenAI upheaval mounts as Sam Altman readies IPO push",
-     "url": "https://www.ft.com/content/53082739-7714-4aae-9816-e55ab423cbee",
-     "time": "08-15 12:00",
-     "ts": 1786766431,
-     "summary": "Executive exits and safety team changes unsettle staff as the ChatGPT maker prepares for a blockbuster listing",
-     "source": "Financial Times",
-     "agenda_layer": "market",
-     "language": "en",
-     "id": "d819fc3fb8bd",
-     "keywords_zh": [
-      "财经 / 宏观"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:d819fc3fb8bd",
-     "cluster_size": 1,
-     "sources": [
-      "Financial Times"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "market"
-     ],
-     "cluster_urls": [
-      {
-       "source": "Financial Times",
-       "title": "OpenAI upheaval mounts as Sam Altman readies IPO push",
-       "url": "https://www.ft.com/content/53082739-7714-4aae-9816-e55ab423cbee"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
        38
       ],
       "observations": 1,
@@ -24276,22 +24267,22 @@ window.DATA = {
      }
     },
     {
-     "title": "Which is the next No 1 city on Earth?",
-     "url": "https://www.ft.com/content/17cd713d-3db1-422b-adef-58b45ad7e50f",
-     "time": "08-15 12:00",
-     "ts": 1786766423,
-     "summary": "Despite the decline of the west, there won’t be one for decades yet",
+     "title": "US aircraft carrier furore is emblem of growing disquiet over Iran war",
+     "url": "https://www.ft.com/content/4bd6537f-db17-4013-be3f-c70a1299183c",
+     "time": "08-15 20:00",
+     "ts": 1786795205,
+     "summary": "Reports of poor conditions aboard the USS Abraham Lincoln coincide with depleting stocks of both weapons and voter support",
      "source": "Financial Times",
      "agenda_layer": "market",
      "language": "en",
-     "id": "c8ecd79ae8a6",
+     "id": "2ac4f006c3ad",
      "keywords_zh": [
       "财经 / 宏观"
      ],
      "event_type": "",
      "related_assets": [],
      "relevance_score": 0,
-     "topic_id": "story:c8ecd79ae8a6",
+     "topic_id": "story:2ac4f006c3ad",
      "cluster_size": 1,
      "sources": [
       "Financial Times"
@@ -24305,8 +24296,8 @@ window.DATA = {
      "cluster_urls": [
       {
        "source": "Financial Times",
-       "title": "Which is the next No 1 city on Earth?",
-       "url": "https://www.ft.com/content/17cd713d-3db1-422b-adef-58b45ad7e50f"
+       "title": "US aircraft carrier furore is emblem of growing disquiet over Iran war",
+       "url": "https://www.ft.com/content/4bd6537f-db17-4013-be3f-c70a1299183c"
       }
      ],
      "trajectory": {
@@ -24315,61 +24306,7 @@ window.DATA = {
        39
       ],
       "observations": 1,
-      "first_seen": 1786852884
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "market"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "AI vs the people",
-     "url": "https://www.ft.com/content/5f8858b8-7468-4438-b269-e1b1947b1926",
-     "time": "08-15 12:00",
-     "ts": 1786766414,
-     "summary": "Jill Lepore on how opposition to data centres is reshaping politics — and what history tells us about regulating new technologies",
-     "source": "Financial Times",
-     "agenda_layer": "market",
-     "language": "en",
-     "id": "04c68197383c",
-     "keywords_zh": [
-      "人工智能"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:04c68197383c",
-     "cluster_size": 1,
-     "sources": [
-      "Financial Times"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "market"
-     ],
-     "cluster_urls": [
-      {
-       "source": "Financial Times",
-       "title": "AI vs the people",
-       "url": "https://www.ft.com/content/5f8858b8-7468-4438-b269-e1b1947b1926"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       40
-      ],
-      "observations": 1,
-      "first_seen": 1786852884
+      "first_seen": 1786853151
      },
      "resonance": {
       "confirmed": false,
@@ -24420,7 +24357,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       41
+       40
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -24474,7 +24411,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       42
+       41
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -24529,7 +24466,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       43
+       42
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -24583,6 +24520,60 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
+       43
+      ],
+      "observations": 1,
+      "first_seen": 1786852884
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "Rocket Lab, Amazon Win Space Force Contracts. SpaceX Closes Cursor Deal.",
+     "url": "https://www.investors.com/news/space-force-sdn-contracts-rocket-lab-amazon-spacex-completes-cursor-deal",
+     "time": "08-15 04:57",
+     "ts": 1786741068,
+     "summary": "",
+     "source": "Yahoo Finance",
+     "agenda_layer": "market",
+     "language": "en",
+     "id": "691b098b0df1",
+     "keywords_zh": [
+      "亚马逊"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:691b098b0df1",
+     "cluster_size": 1,
+     "sources": [
+      "Yahoo Finance"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "Yahoo Finance",
+       "title": "Rocket Lab, Amazon Win Space Force Contracts. SpaceX Closes Cursor Deal.",
+       "url": "https://www.investors.com/news/space-force-sdn-contracts-rocket-lab-amazon-spacex-completes-cursor-deal"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
        44
       ],
       "observations": 1,
@@ -24601,22 +24592,22 @@ window.DATA = {
      }
     },
     {
-     "title": "Digi Power X Inc. Q2 2026 Earnings Call Summary",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/digi-power-x-inc-q2-205051694.html",
-     "time": "08-15 04:50",
-     "ts": 1786740651,
+     "title": "Avnet Completes Recovery, Now At The 'Center Of A Technology Spike'",
+     "url": "https://www.investors.com/research/the-new-america/avnet-recovery-ai-chips-components-data-center-demand-avt-stock-new-america",
+     "time": "08-15 04:57",
+     "ts": 1786741056,
      "summary": "",
      "source": "Yahoo Finance",
      "agenda_layer": "market",
      "language": "en",
-     "id": "f5aebf385871",
+     "id": "e1d348ab79b0",
      "keywords_zh": [
       "财经 / 宏观"
      ],
      "event_type": "",
      "related_assets": [],
      "relevance_score": 0,
-     "topic_id": "story:f5aebf385871",
+     "topic_id": "story:e1d348ab79b0",
      "cluster_size": 1,
      "sources": [
       "Yahoo Finance"
@@ -24630,8 +24621,8 @@ window.DATA = {
      "cluster_urls": [
       {
        "source": "Yahoo Finance",
-       "title": "Digi Power X Inc. Q2 2026 Earnings Call Summary",
-       "url": "https://finance.yahoo.com/markets/stocks/articles/digi-power-x-inc-q2-205051694.html"
+       "title": "Avnet Completes Recovery, Now At The 'Center Of A Technology Spike'",
+       "url": "https://www.investors.com/research/the-new-america/avnet-recovery-ai-chips-components-data-center-demand-avt-stock-new-america"
       }
      ],
      "trajectory": {
@@ -24640,7 +24631,61 @@ window.DATA = {
        45
       ],
       "observations": 1,
-      "first_seen": 1786853082
+      "first_seen": 1786852884
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "Creative Media & Community Trust Corporation Q2 2026 Earnings Call Summary",
+     "url": "https://finance.yahoo.com/real-estate/articles/creative-media-community-trust-corporation-205209063.html",
+     "time": "08-15 04:52",
+     "ts": 1786740729,
+     "summary": "",
+     "source": "Yahoo Finance",
+     "agenda_layer": "market",
+     "language": "en",
+     "id": "5f29a0092510",
+     "keywords_zh": [
+      "财经 / 宏观"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:5f29a0092510",
+     "cluster_size": 1,
+     "sources": [
+      "Yahoo Finance"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "Yahoo Finance",
+       "title": "Creative Media & Community Trust Corporation Q2 2026 Earnings Call Summary",
+       "url": "https://finance.yahoo.com/real-estate/articles/creative-media-community-trust-corporation-205209063.html"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       46
+      ],
+      "observations": 1,
+      "first_seen": 1786852884
      },
      "resonance": {
       "confirmed": false,
@@ -24691,118 +24736,10 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       46
-      ],
-      "observations": 1,
-      "first_seen": 1786852884
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "market"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "Elon Musk Reveals $900 Billion SpaceX Stake, Massive Voting Power",
-     "url": "https://www.investors.com/news/elon-musk-spacex-stake-48-ownership-voting-power-spcx-stock",
-     "time": "08-15 04:49",
-     "ts": 1786740551,
-     "summary": "",
-     "source": "Yahoo Finance",
-     "agenda_layer": "market",
-     "language": "en",
-     "id": "2d9692dcf028",
-     "keywords_zh": [
-      "财经 / 宏观"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:2d9692dcf028",
-     "cluster_size": 1,
-     "sources": [
-      "Yahoo Finance"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "market"
-     ],
-     "cluster_urls": [
-      {
-       "source": "Yahoo Finance",
-       "title": "Elon Musk Reveals $900 Billion SpaceX Stake, Massive Voting Power",
-       "url": "https://www.investors.com/news/elon-musk-spacex-stake-48-ownership-voting-power-spcx-stock"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
        47
       ],
       "observations": 1,
-      "first_seen": 1786853082
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "market"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "Edible Garden AG Incorporated Q2 2026 Earnings Call Summary",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/edible-garden-ag-incorporated-q2-204737363.html",
-     "time": "08-15 04:47",
-     "ts": 1786740457,
-     "summary": "",
-     "source": "Yahoo Finance",
-     "agenda_layer": "market",
-     "language": "en",
-     "id": "c525bf47ec8c",
-     "keywords_zh": [
-      "财经 / 宏观"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:c525bf47ec8c",
-     "cluster_size": 1,
-     "sources": [
-      "Yahoo Finance"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "market"
-     ],
-     "cluster_urls": [
-      {
-       "source": "Yahoo Finance",
-       "title": "Edible Garden AG Incorporated Q2 2026 Earnings Call Summary",
-       "url": "https://finance.yahoo.com/markets/stocks/articles/edible-garden-ag-incorporated-q2-204737363.html"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       48
-      ],
-      "observations": 1,
-      "first_seen": 1786853082
+      "first_seen": 1786852884
      },
      "resonance": {
       "confirmed": false,
@@ -24853,7 +24790,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       49
+       48
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -24907,7 +24844,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       50
+       49
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -24961,7 +24898,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       51
+       50
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -25015,7 +24952,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       52
+       51
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -25069,7 +25006,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       53
+       52
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -25124,7 +25061,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       54
+       53
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -25178,7 +25115,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       55
+       54
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -25232,7 +25169,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       56
+       55
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -25286,7 +25223,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       57
+       56
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -25340,7 +25277,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       58
+       57
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -25394,7 +25331,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       59
+       58
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -25448,7 +25385,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       60
+       59
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -25502,7 +25439,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       61
+       60
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -25556,7 +25493,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       62
+       61
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -28057,7 +27994,7 @@ window.DATA = {
     "成交量放大且收盘站稳",
     "利好后不出现冲高回落"
    ],
-   "news_hits": 3
+   "news_hits": 2
   },
   {
    "code": "001309",
@@ -28386,17 +28323,17 @@ window.DATA = {
  "stats": {
   "industries": 12,
   "total_sources": 108,
-  "raw_items": 538,
-  "unique_items": 516,
+  "raw_items": 536,
+  "unique_items": 514,
   "failed_sources": 6,
-  "event_cards": 514,
+  "event_cards": 513,
   "trajectory_signals": 1,
   "history": {
-   "updated_at": "2026-08-16 12:04",
-   "sampling_windows": 25,
-   "previous_sample_at": "2026-08-16 12:01",
-   "latest_sample_at": "2026-08-16 12:04",
-   "tracked_topics": 3686,
+   "updated_at": "2026-08-16 12:05",
+   "sampling_windows": 26,
+   "previous_sample_at": "2026-08-16 12:04",
+   "latest_sample_at": "2026-08-16 12:05",
+   "tracked_topics": 3690,
    "comparable_topics": 1904,
    "coalesce_minutes": 30
   }
