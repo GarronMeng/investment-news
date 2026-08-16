@@ -1,0 +1,109 @@
+name: Update Research Engine
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Asia/Shanghai: 08:30 premarket and 15:35 after close, weekdays.
+    - cron: "30 0 * * 1-5"
+    - cron: "35 7 * * 1-5"
+  workflow_run:
+    workflows: ["Update A-share News", "Update Watchlist Market Quotes"]
+    branches: [main]
+    types: [completed]
+  push:
+    branches: [main]
+    paths:
+      - watchlist.json
+      - ai-signals.js
+      - scripts/fetch_history.py
+      - scripts/build_features.py
+      - scripts/build_decisions.py
+      - scripts/update_signal_ledger.py
+      - scripts/evaluate_signals.py
+      - tests/test_research_engine.py
+      - .github/workflows/update-research.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: investment-research-update
+  cancel-in-progress: true
+
+jobs:
+  update:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Test research contracts
+        run: python -m unittest tests/test_research_engine.py -v
+
+      - name: Refresh daily history
+        run: python scripts/fetch_history.py
+
+      - name: Build deterministic features
+        run: python scripts/build_features.py
+
+      - name: Build research decisions
+        run: python scripts/build_decisions.py
+
+      - name: Update append-only signal ledger
+        run: python scripts/update_signal_ledger.py
+
+      - name: Evaluate forward outcomes
+        run: python scripts/evaluate_signals.py
+
+      - name: Validate research outputs
+        run: |
+          python - <<'PY'
+          import json
+
+          watch = json.load(open("watchlist.json", encoding="utf-8"))
+          history = json.load(open("market_history.json", encoding="utf-8"))
+          features = json.load(open("features.json", encoding="utf-8"))
+          decisions = json.load(open("decisions.json", encoding="utf-8"))
+          evaluation = json.load(open("signal_evaluation.json", encoding="utf-8"))
+
+          expected = {str(item["code"]) for item in watch["assets"]}
+          assert set(history.get("assets", {})) == expected
+          assert set(features.get("assets", {})) == expected
+          assert {str(item["asset"]) for item in decisions.get("decisions", [])} == expected
+          assert len(history.get("benchmark", {}).get("rows", [])) >= 60, "benchmark history too short"
+          usable = sum(len(item.get("rows", [])) >= 60 for item in history["assets"].values())
+          assert usable >= max(1, len(expected) // 2), f"too few usable asset histories: {usable}/{len(expected)}"
+          assert all(item.get("status") in {"active", "watch", "market_watch", "neutral"} for item in decisions["decisions"])
+          forbidden = {"quantity", "position_size", "buy", "sell", "cost_basis"}
+          assert all(not forbidden.intersection(item) for item in decisions["decisions"]), "private/trade fields leaked into public decisions"
+          assert evaluation.get("version") == 1
+          print("validated research engine", usable, "/", len(expected), "histories usable")
+          PY
+
+      - name: Commit generated research data
+        run: |
+          git config user.name "investment-news-bot"
+          git config user.email "investment-news-bot@users.noreply.github.com"
+          git add market_history.json features.json decisions.json signal_evaluation.json
+          if [ -d signals ]; then git add signals/*.jsonl 2>/dev/null || true; fi
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: refresh research engine"
+          for attempt in 1 2 3; do
+            if git pull --rebase origin main && git push; then
+              exit 0
+            fi
+            git rebase --abort || true
+            echo "Push retry ${attempt}/3"
+            sleep $((attempt * 5))
+          done
+          echo "::error::Unable to push refreshed research data after 3 attempts"
+          exit 1
