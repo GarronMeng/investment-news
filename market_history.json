@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-16T12:07:33+08:00",
+  "generated_at": "2026-08-16T12:09:23+08:00",
   "timezone": "Asia/Shanghai",
   "benchmark": {
     "code": "000300",
@@ -1131,8 +1131,7 @@
         "close": 4529.10009765625,
         "volume": 302600
       }
-    ],
-    "error": "too few rows for 000300.SS: 1"
+    ]
   },
   "summary": {
     "total": 9,
@@ -10202,7 +10201,6 @@
     }
   },
   "warnings": [
-    "benchmark: too few rows for 000300.SS: 1",
     "161226: too few rows for 161226.SZ: 1"
   ],
   "methodology": "Daily Yahoo chart history; keep prior valid series as stale when refresh fails; retain up to 140 observations."
