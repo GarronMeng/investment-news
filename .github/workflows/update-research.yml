@@ -45,6 +45,11 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements-sentiment.txt
+
+      - name: Install China market provider
+        run: python -m pip install "akshare>=1.18,<2"
 
       - name: Test research contracts
         run: python -m unittest tests/test_research_engine.py -v
@@ -76,17 +81,23 @@ jobs:
           evaluation = json.load(open("signal_evaluation.json", encoding="utf-8"))
 
           expected = {str(item["code"]) for item in watch["assets"]}
+          assert history.get("version") == 2
+          assert features.get("version") == 2
           assert set(history.get("assets", {})) == expected
           assert set(features.get("assets", {})) == expected
           assert {str(item["asset"]) for item in decisions.get("decisions", [])} == expected
-          assert len(history.get("benchmark", {}).get("rows", [])) >= 60, "benchmark history too short"
-          usable = sum(len(item.get("rows", [])) >= 60 for item in history["assets"].values())
-          assert usable >= max(1, len(expected) // 2), f"too few usable asset histories: {usable}/{len(expected)}"
+          benchmark = history.get("benchmark", {})
+          assert benchmark.get("status") == "fresh", f"benchmark stale: {benchmark.get('last_date')} {benchmark.get('error')}"
+          assert len(benchmark.get("rows", [])) >= 120, "benchmark history too short"
+          usable = sum(item.get("status") == "fresh" and len(item.get("rows", [])) >= 120 for item in history["assets"].values())
+          assert usable >= max(1, len(expected) - 1), f"too few fresh histories: {usable}/{len(expected)}"
+          lof = history["assets"].get("161226", {})
+          assert lof.get("status") == "fresh" and len(lof.get("rows", [])) >= 120, f"LOF history unavailable: {lof.get('error')}"
           assert all(item.get("status") in {"active", "watch", "market_watch", "neutral"} for item in decisions["decisions"])
           forbidden = {"quantity", "position_size", "buy", "sell", "cost_basis"}
           assert all(not forbidden.intersection(item) for item in decisions["decisions"]), "private/trade fields leaked into public decisions"
           assert evaluation.get("version") == 1
-          print("validated research engine", usable, "/", len(expected), "histories usable")
+          print("validated research engine", usable, "/", len(expected), "fresh histories")
           PY
 
       - name: Commit generated research data
