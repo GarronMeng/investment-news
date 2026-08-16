@@ -109,4 +109,13 @@ jobs:
           git add data.js history.json
           git diff --cached --quiet && exit 0
           git commit -m "chore: refresh A-share news"
-          git push
+          for attempt in 1 2 3; do
+            if git pull --rebase origin main && git push; then
+              exit 0
+            fi
+            git rebase --abort || true
+            echo "Push retry ${attempt}/3"
+            sleep $((attempt * 5))
+          done
+          echo "::error::Unable to push refreshed news after 3 attempts"
+          exit 1
