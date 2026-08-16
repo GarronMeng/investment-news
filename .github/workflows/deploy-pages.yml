@@ -45,6 +45,54 @@ jobs:
           mkdir public
           cp index.html data.js ai-signals.js sentiment.json market.json watchlist.json .nojekyll public/
 
+      - name: Enforce AI signal freshness
+        run: |
+          python - <<'PY'
+          import json
+          from datetime import datetime, timedelta, timezone
+          from pathlib import Path
+
+          def load_js(path):
+              text = Path(path).read_text(encoding="utf-8")
+              return json.loads(text[text.index("{"):text.rindex("}") + 1])
+
+          data = load_js("public/data.js")
+          signals = load_js("public/ai-signals.js")
+          data_generated = data.get("generated_at")
+          source_generated = signals.get("source_generated_at")
+          reasons = []
+
+          if not data_generated or not source_generated:
+              reasons.append("missing source timestamp")
+          elif data_generated != source_generated:
+              reasons.append(f"AI source {source_generated} != data {data_generated}")
+
+          if data_generated:
+              try:
+                  observed = datetime.fromisoformat(str(data_generated).replace(" ", "T"))
+                  if observed.tzinfo is None:
+                      observed = observed.replace(tzinfo=timezone(timedelta(hours=8)))
+                  age_hours = (datetime.now(timezone.utc) - observed.astimezone(timezone.utc)).total_seconds() / 3600
+                  if age_hours > 36:
+                      reasons.append(f"data age {age_hours:.1f}h > 36h")
+              except ValueError:
+                  reasons.append("invalid data timestamp")
+
+          if reasons:
+              signals["status"] = "stale"
+              signals["freshness_error"] = "; ".join(reasons)
+              signals["signals"] = []
+              signals["overseas_markets"] = []
+              signals["news_titles"] = {}
+              Path("public/ai-signals.js").write_text(
+                  "window.AI_SIGNALS = " + json.dumps(signals, ensure_ascii=False, indent=2) + ";\n",
+                  encoding="utf-8",
+              )
+              print("AI signals suppressed:", signals["freshness_error"])
+          else:
+              print("AI signals freshness verified:", data_generated)
+          PY
+
       - name: Configure Pages
         uses: actions/configure-pages@v6
 
