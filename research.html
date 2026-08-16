@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Garron A股研究决策台</title>
+  <style>
+    :root{--bg:#f5f6f8;--card:#fff;--ink:#111827;--muted:#6b7280;--line:#e5e7eb;--good:#087f5b;--bad:#c92a2a;--warn:#b26a00;--accent:#1f4b99}
+    *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}
+    main{max-width:1180px;margin:0 auto;padding:28px 18px 56px}.top{display:flex;gap:18px;justify-content:space-between;align-items:flex-end;margin-bottom:20px}.top h1{margin:0;font-size:28px;letter-spacing:-.02em}.sub{color:var(--muted);font-size:13px;margin-top:6px}.links a{color:var(--accent);text-decoration:none;font-size:13px;margin-left:14px}
+    .health{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:18px}.metric,.card{background:var(--card);border:1px solid var(--line);border-radius:14px}.metric{padding:14px}.metric b{display:block;font-size:20px;margin-top:5px}.label{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+    .notice{padding:12px 14px;border-radius:12px;margin-bottom:16px;background:#fff7e6;border:1px solid #ffe8b3;color:#7a4b00;font-size:13px;display:none}
+    .section-title{display:flex;justify-content:space-between;align-items:center;margin:24px 0 10px}.section-title h2{font-size:17px;margin:0}.section-title span{font-size:12px;color:var(--muted)}
+    .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.card{padding:16px}.head{display:flex;justify-content:space-between;gap:10px}.name{font-weight:700}.code{font-size:12px;color:var(--muted);margin-left:7px}.badge{font-size:11px;font-weight:700;padding:4px 8px;border-radius:999px;background:#eef2ff;color:#364fc7}.bullish{color:var(--good)}.bearish{color:var(--bad)}.neutral{color:var(--muted)}
+    .score{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:8px;margin:14px 0}.score div{background:#f8fafc;border-radius:10px;padding:10px}.score b{font-size:19px;display:block}.why{font-size:13px;line-height:1.55;margin:10px 0}.rows{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}.rows div{border-top:1px solid var(--line);padding-top:8px}.rows b{font-size:13px;display:block}.small{font-size:11px;color:var(--muted)}
+    .checks{margin-top:12px;display:grid;grid-template-columns:1fr 1fr;gap:10px}.checks h4{font-size:11px;margin:0 0 4px;color:var(--muted);text-transform:uppercase}.checks p{font-size:12px;line-height:1.45;margin:2px 0}.evaluation{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.eval{padding:15px;background:var(--card);border:1px solid var(--line);border-radius:12px}.eval b{font-size:21px;display:block;margin:5px 0}.empty{color:var(--muted);font-size:13px;padding:24px 0}
+    @media(max-width:760px){.health,.grid,.evaluation{grid-template-columns:1fr}.top{align-items:flex-start;flex-direction:column}.links a{margin:0 14px 0 0}.rows{grid-template-columns:repeat(2,1fr)}}
+  </style>
+</head>
+<body><main>
+  <div class="top"><div><h1>A股研究决策台</h1><div class="sub" id="stamp">读取研究引擎…</div></div><div class="links"><a href="./">资讯首页</a><a href="https://github.com/GarronMeng/investment-news">GitHub</a></div></div>
+  <div class="notice" id="notice"></div>
+  <div class="health">
+    <div class="metric"><span class="label">Active / Watch</span><b id="material">—</b></div>
+    <div class="metric"><span class="label">Fresh AI</span><b id="ai">—</b></div>
+    <div class="metric"><span class="label">Benchmark</span><b id="bench">—</b></div>
+    <div class="metric"><span class="label">Settled signals</span><b id="settled">—</b></div>
+  </div>
+  <div class="section-title"><h2>今日研究状态</h2><span>按状态与 conviction 排序；仅研究信号，无交易指令</span></div>
+  <div class="grid" id="cards"></div>
+  <div class="section-title"><h2>前向验证</h2><span>T+1 / T+5 / T+20 相对基准结果</span></div>
+  <div class="evaluation" id="evaluation"></div>
+</main>
+<script>
+const pct=v=>v==null?'—':(v*100).toFixed(1)+'%';
+const num=v=>v==null?'—':Number(v).toFixed(1);
+const statusRank={active:0,watch:1,market_watch:2,neutral:3};
+const label={active:'ACTIVE',watch:'WATCH',market_watch:'MARKET WATCH',neutral:'NEUTRAL'};
+const safe=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
+async function load(){
+  const [d,f,e]=await Promise.all(['decisions.json','features.json','signal_evaluation.json'].map(x=>fetch(x,{cache:'no-store'}).then(r=>{if(!r.ok)throw Error(x+' '+r.status);return r.json()})));
+  const ds=[...(d.decisions||[])].sort((a,b)=>(statusRank[a.status]??9)-(statusRank[b.status]??9)||(b.conviction||0)-(a.conviction||0));
+  const material=ds.filter(x=>['active','watch','market_watch'].includes(x.status));
+  document.getElementById('material').textContent=material.length+'/'+ds.length;
+  document.getElementById('ai').textContent=d.source?.fresh_ai?'YES':'NO';
+  document.getElementById('ai').className=d.source?.fresh_ai?'bullish':'bearish';
+  document.getElementById('bench').textContent=(f.benchmark?.status||'—').toUpperCase();
+  document.getElementById('bench').className=f.benchmark?.status==='fresh'?'bullish':'bearish';
+  const sum=e.summary||{}; const total=['t1','t5','t20'].reduce((n,k)=>n+(sum[k]?.settled||0),0); document.getElementById('settled').textContent=total;
+  document.getElementById('stamp').textContent=`Decision ${d.generated_at||'—'} · Feature ${f.generated_at||'—'} · 行情截至 ${f.benchmark?.as_of||'—'}`;
+  if(!d.source?.fresh_ai){const n=document.getElementById('notice');n.style.display='block';n.textContent='AI 事件层未通过 freshness gate；当前决策只保留确定性市场证据。';}
+  document.getElementById('cards').innerHTML=ds.map(x=>{
+    const z=f.assets?.[x.asset]||{}; const cls=x.bias==='bullish'?'bullish':x.bias==='bearish'?'bearish':'neutral';
+    const conf=(x.confirmation||[]).map(v=>`<p>• ${safe(v)}</p>`).join('')||'<p>—</p>'; const inv=(x.invalidation||[]).map(v=>`<p>• ${safe(v)}</p>`).join('')||'<p>—</p>';
+    return `<article class="card"><div class="head"><div><span class="name">${safe(x.name)}</span><span class="code">${safe(x.asset)}</span><div class="small">${safe(x.as_of||'—')} · ${safe(x.evidence_mode||'—')}</div></div><div><span class="badge">${label[x.status]||safe(x.status)}</span></div></div>
+    <div class="score"><div><span class="label">Conviction</span><b class="${cls}">${num(x.conviction)}</b><span class="small">${safe((x.bias||'neutral').toUpperCase())}</span></div><div><span class="label">Event</span><b>${num(x.event_score)}</b></div><div><span class="label">Market</span><b>${num(x.market_score)}</b></div></div>
+    <div class="why">${safe(x.why_now)}</div><div class="rows"><div><span class="small">5D</span><b>${pct(z.ret_5d)}</b></div><div><span class="small">20D</span><b>${pct(z.ret_20d)}</b></div><div><span class="small">RS 20D</span><b>${pct(z.relative_strength_20d)}</b></div><div><span class="small">成交额 Z20</span><b>${z.turnover_z20==null?'—':Number(z.turnover_z20).toFixed(2)}</b></div></div>
+    <div class="checks"><div><h4>确认条件</h4>${conf}</div><div><h4>失效条件</h4>${inv}</div></div></article>`}).join('')||'<div class="empty">暂无决策数据。</div>';
+  document.getElementById('evaluation').innerHTML=['t1','t5','t20'].map(k=>{const x=sum[k]||{};return `<div class="eval"><span class="label">${k.toUpperCase()}</span><b>${x.win_rate==null?'待积累':(x.win_rate*100).toFixed(1)+'%'}</b><div class="small">settled ${x.settled||0} · mean excess ${pct(x.mean_excess_return)}</div></div>`}).join('');
+}
+load().catch(err=>{const n=document.getElementById('notice');n.style.display='block';n.textContent='研究数据读取失败：'+err.message;document.getElementById('cards').innerHTML='<div class="empty">研究引擎数据暂不可用。</div>'});
+</script></body></html>
