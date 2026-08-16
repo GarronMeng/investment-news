@@ -1,6 +1,6 @@
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-16 12:16",
-  "source_generated_at": "2026-08-16 12:06",
+  "generated_at": "2026-08-16 13:05",
+  "source_generated_at": "2026-08-16 12:22",
   "generated_by": "ChatGPT Web",
   "status": "ready",
   "news_titles": {
@@ -692,7 +692,17 @@ window.AI_SIGNALS = {
     "https://www.marktechpost.com/2026/08/15/fine-tuning-tool-calling-llms-a-complete-guide-using-xyz-aquila-sft-and-qwen3": "微调工具调用型大语言模型：使用XYZ-Aquila-SFT与Qwen3的完整指南",
     "https://www.electronicsweekly.com/blogs/gadget-master/raspberry-pi-gadget-master/how-to-develop-edge-ai-on-a-raspberry-pi-with-litert-and-gemma-2026-08": "如何使用LiteRT与Gemma在树莓派上开发边缘AI",
     "https://wallstreetcn.com/articles/3779526": "英伟达悄然将OpenAI数据中心担保规模从2500亿美元降至1200亿美元以下",
-    "https://www.ft.com/content/7d2969fd-85aa-43fb-ae04-97d1d0ee2463": "“新加坡公司”寄望AI准入，阻止金融精英转赴香港"
+    "https://www.ft.com/content/7d2969fd-85aa-43fb-ae04-97d1d0ee2463": "“新加坡公司”寄望AI准入，阻止金融精英转赴香港",
+    "https://koutian.is-a.dev/benchmark-radar": "我核查了30份前沿模型卡：各实验室报告的基准测试汇总",
+    "https://9to5mac.com/2026/08/14/commerce-secretary-says-us-opposes-apple-buying-chinese-memory-chips": "美国商务部长称美国反对苹果采购中国存储芯片",
+    "https://www.androidauthority.com/airseekers-tron-review-3686518": "Airseekers Tron是一款表现出色但存在若干恼人缺陷的碎草机器人割草机",
+    "http://global.eastmoney.com/news/11798,202608163842481592.html": "阿富汗民众呼吁美国尽快归还阿富汗央行资产",
+    "https://finance.yahoo.com/markets/stocks/articles/americas-gold-silver-corporation-q2-205047227.html": "Americas Gold and Silver公司2026年第二季度业绩电话会摘要",
+    "https://www.ft.com/content/fd40a98d-2a7f-4246-a296-73e956bf03c0": "英国《金融时报》民调：多数美国选民称特朗普执政后境况变差",
+    "https://www.ft.com/content/b56a910a-c2b4-41e5-9f8f-18e6fe7b2efd": "美国人正在接受社会主义的幽灵吗？",
+    "https://www.ft.com/content/a026e094-7017-4ff8-8344-213573e973ed": "黑莓：从手机时代的恐龙变身科技领军者",
+    "https://www.ft.com/content/8c9e43d2-636a-449e-a376-b4b262143e38": "公共场所外放音频，真的可以停下来了吗？",
+    "https://www.ft.com/content/1419012f-feca-4efd-a817-dc0392cd76e3": "欧洲企业盘点极端高温带来的成本与收益"
   },
   "overseas_markets": [
     {
@@ -761,28 +771,29 @@ window.AI_SIGNALS = {
   ],
   "signals": [
     {
-      "event": "服务器内存向DDR5-9600演进，英特尔重新评估存储布局，AI内存价值链继续上移",
+      "event": "服务器内存继续向DDR5-9600演进，但美国反对苹果采购中国存储芯片，需求升级与政策阻力并存",
       "industry": "semi",
       "industry_name": "服务器内存 / DRAM / 企业级存储",
-      "direction": "positive",
-      "strength": 3,
+      "direction": "mixed",
+      "strength": 4,
       "horizon": "1-4w",
       "priced_in": "unknown",
-      "reason": "Semiconductor Engineering指出DDR5-9600 RDIMM正在提高服务器内存的数据吞吐与管理效率；EE Times则称内存正由传统大宗商品转向AI算力关键资产，英特尔再次面临是否回归存储业务的战略选择。两条证据共同支持AI服务器对高性能内存的结构性需求，但尚未给出新增订单或现货涨价幅度，因此对兆易创新、德明利与太极实业仅作产业链映射，等待价格与订单确认。",
+      "reason": "DDR5-9600 RDIMM正在提高服务器内存性能，且英特尔重新评估存储布局，继续验证AI服务器对高性能内存的结构性需求；但美国商务部长据报已敦促苹果不要采购中国存储芯片，即使全球供应仍然紧张。对兆易创新、德明利而言，服务器与国产替代需求构成正向支撑，海外大客户准入与政策限制则是新增风险；目前缺少具体采购份额与订单变化，不能直接外推业绩影响。",
       "assets": [
         "603986",
         "001309",
         "600667"
       ],
       "validation": [
-        "DDR5与企业级SSD报价、服务器内存订单继续上修",
-        "存储设计、模组与封测标的形成放量扩散且避免高开回落"
+        "苹果或美国商务部是否进一步披露采购限制范围，国内存储厂商客户结构是否受影响",
+        "DDR5、企业级SSD报价与A股存储设计、模组、封测能否形成放量扩散"
       ],
       "invalidation": [
-        "服务器内存升级未转化为订单或价格改善",
-        "存储现货报价回落且相关标的同步转弱"
+        "限制扩大至更多终端或存储品类并导致订单取消",
+        "服务器内存升级未转化为报价、订单或相关标的相对强度"
       ],
       "urls": [
+        "https://9to5mac.com/2026/08/14/commerce-secretary-says-us-opposes-apple-buying-chinese-memory-chips",
         "https://semiengineering.com/ddr5-9600-rdimms-raising-the-performance-benchmark-for-server-memory",
         "https://www.eetimes.com/intel-at-a-memory-crossroads-again"
       ]
