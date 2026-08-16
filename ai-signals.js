@@ -1,6 +1,6 @@
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-16 15:00",
-  "source_generated_at": "2026-08-16 12:22",
+  "generated_at": "2026-08-16 16:06",
+  "source_generated_at": "2026-08-16 15:47",
   "generated_by": "ChatGPT Web",
   "status": "ready",
   "news_titles": {
@@ -702,7 +702,19 @@ window.AI_SIGNALS = {
     "https://www.ft.com/content/b56a910a-c2b4-41e5-9f8f-18e6fe7b2efd": "美国人正在接受社会主义的幽灵吗？",
     "https://www.ft.com/content/a026e094-7017-4ff8-8344-213573e973ed": "黑莓：从手机时代的恐龙变身科技领军者",
     "https://www.ft.com/content/8c9e43d2-636a-449e-a376-b4b262143e38": "公共场所外放音频，真的可以停下来了吗？",
-    "https://www.ft.com/content/1419012f-feca-4efd-a817-dc0392cd76e3": "欧洲企业盘点极端高温带来的成本与收益"
+    "https://www.ft.com/content/1419012f-feca-4efd-a817-dc0392cd76e3": "欧洲企业盘点极端高温带来的成本与收益",
+    "https://cleantechnica.com/2026/08/16/i-watched-vietnam-fall-for-the-vinfast-vf-3": "我见证了越南消费者爱上VinFast VF 3",
+    "https://science.nasa.gov/image-article/apod/apod-2026-august-16-milky-way-over-yellowstone": "每日天文一图：2026年8月16日——黄石公园上空的银河",
+    "https://github.com/jitpass/jit": "Show HN：笔记本电脑是秘密仍以明文保存的最后场所",
+    "https://www.techmeme.com/260816/p4": "菲尔兹奖得主Timothy Gowers称，大模型迄今解决的知名数学问题几乎都依靠反例而非证明",
+    "https://www.techmeme.com/260816/p3": "Hugging Face称基于Qwen模型的衍生模型超过15.1万个，数量领先并使Qwen成为开放模型生态最大基础之一",
+    "https://www.techmeme.com/260816/p2": "QNX与Secusmart推动黑莓第一季度现金转正，为2017年以来首次",
+    "https://www.techmeme.com/260816/p1": "开发“后Transformer”BDH架构AI模型的Pathway以5亿美元估值完成3000万美元种子轮融资",
+    "https://www.falstad.com/mathphysics.html": "Falstad数学与物理模拟工具",
+    "https://www.gsmarena.com/weekly_poll_results_a_surprising_number_of_people_are_using_feature_phones-news-74159.php": "每周调查结果：仍有数量惊人的用户在使用功能手机",
+    "https://wallstreetcn.com/articles/3779529": "德银：央行购金与ETF流入推动黄金处于“爆炸性”上涨阶段",
+    "http://finance.eastmoney.com/news/1354,202608163842489020.html": "美光股价大幅上涨，机构上调目标价并看好存储供给紧张",
+    "https://www.ft.com/content/161ee092-d2b6-4375-a853-e7a6fbee60e2": "全球主要汽车制造商寻求避免车用润滑油危机"
   },
   "overseas_markets": [
     {
@@ -771,31 +783,31 @@ window.AI_SIGNALS = {
   ],
   "signals": [
     {
-      "event": "服务器内存继续向DDR5-9600演进，但美国反对苹果采购中国存储芯片，需求升级与政策阻力并存",
+      "event": "服务器内存升级与美光强势表现强化景气预期，但美国反对苹果采购中国存储芯片",
       "industry": "semi",
       "industry_name": "服务器内存 / DRAM / 企业级存储",
       "direction": "mixed",
       "strength": 4,
       "horizon": "1-4w",
       "priced_in": "unknown",
-      "reason": "DDR5-9600 RDIMM正在提高服务器内存性能，且英特尔重新评估存储布局，继续验证AI服务器对高性能内存的结构性需求；但美国商务部长据报已敦促苹果不要采购中国存储芯片，即使全球供应仍然紧张。对兆易创新、德明利而言，服务器与国产替代需求构成正向支撑，海外大客户准入与政策限制则是新增风险；目前缺少具体采购份额与订单变化，不能直接外推业绩影响。",
+      "reason": "DDR5-9600 RDIMM继续提升服务器内存性能，新增报道又指美光截至8月14日当周累计上涨逾10%，机构认为存储芯片供应紧张短期仍将持续，需求与价格逻辑进一步增强；但美国商务部长据报已敦促苹果不要采购中国存储芯片。对兆易创新、德明利与太极实业而言，存储景气构成正向映射，海外大客户准入限制仍是明确风险，且美光估值上修不能直接等同于A股业绩兑现。",
       "assets": [
         "603986",
         "001309",
         "600667"
       ],
       "validation": [
-        "苹果或美国商务部是否进一步披露采购限制范围，国内存储厂商客户结构是否受影响",
-        "DDR5、企业级SSD报价与A股存储设计、模组、封测能否形成放量扩散"
+        "DRAM、NAND与企业级SSD报价继续上行，并由订单或库存数据确认",
+        "A股存储设计、模组与封测形成放量扩散，同时苹果采购限制未进一步扩大"
       ],
       "invalidation": [
-        "限制扩大至更多终端或存储品类并导致订单取消",
-        "服务器内存升级未转化为报价、订单或相关标的相对强度"
+        "供应紧张预期缓解、存储现货报价转跌或订单下修",
+        "限制扩大至更多终端和存储品类并导致中国供应商订单取消"
       ],
       "urls": [
+        "http://finance.eastmoney.com/news/1354,202608163842489020.html",
         "https://9to5mac.com/2026/08/14/commerce-secretary-says-us-opposes-apple-buying-chinese-memory-chips",
-        "https://semiengineering.com/ddr5-9600-rdimms-raising-the-performance-benchmark-for-server-memory",
-        "https://www.eetimes.com/intel-at-a-memory-crossroads-again"
+        "https://semiengineering.com/ddr5-9600-rdimms-raising-the-performance-benchmark-for-server-memory"
       ]
     },
     {
@@ -823,6 +835,30 @@ window.AI_SIGNALS = {
         "https://www.reuters.com/business/nvidia-talks-invest-3-billion-sb-energy-part-openai-data-center-deal-information-2026-08-15/",
         "https://wallstreetcn.com/articles/3779518",
         "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/"
+      ]
+    },
+    {
+      "event": "德银认为央行购金与黄金ETF流入仍在支撑本轮黄金强势阶段",
+      "industry": "macro",
+      "industry_name": "黄金 / 贵金属",
+      "direction": "positive",
+      "strength": 4,
+      "horizon": "1-3m",
+      "priced_in": "unknown",
+      "reason": "德银研究认为央行持续增持与黄金ETF资金回流构成两类较稳定需求，并给出年末4700至5100美元/盎司的目标区间。该判断强化黄金中期需求逻辑，但属于机构预测而非已兑现价格，且周末缺少A股交易确认；对黄金ETF仅作方向映射，需同时观察美元、实际利率、人民币汇率与国内金价。",
+      "assets": [
+        "518880"
+      ],
+      "validation": [
+        "外盘黄金与国内黄金现货在下个交易日同向走强，黄金ETF成交量同步放大",
+        "全球黄金ETF继续净流入且美元或实际利率未显著反弹"
+      ],
+      "invalidation": [
+        "实际利率与美元持续上行并推动金价跌破近期支撑",
+        "央行购金或ETF资金流出现明显转弱"
+      ],
+      "urls": [
+        "https://wallstreetcn.com/articles/3779529"
       ]
     }
   ]
