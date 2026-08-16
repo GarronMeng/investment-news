@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Refresh daily OHLCV/amount history for the public watchlist.
 
-Eastmoney via AKShare is primary for A-shares, ETFs and LOFs. A direct Eastmoney
-fund-kline fallback covers transient AKShare mapping failures, followed by Yahoo
-as the final fallback. Failed refreshes preserve prior history as stale.
+Eastmoney via AKShare is primary for A-shares, ETFs and LOFs. Fund histories
+then fall back to Sina (independent upstream), direct Eastmoney, and finally
+Yahoo. Failed refreshes preserve prior history as stale.
 """
 
 import json
@@ -40,6 +40,11 @@ def finite(value):
 def symbol_for(code):
     suffix = "SS" if str(code).startswith(("5", "6", "9")) else "SZ"
     return f"{code}.{suffix}"
+
+
+def sina_symbol_for(code):
+    prefix = "sh" if str(code).startswith(("5", "6", "9")) else "sz"
+    return f"{prefix}{code}"
 
 
 def kind_for(code):
@@ -98,6 +103,16 @@ def akshare_history(code, kind, now=None):
     rows = frame_rows(frame)
     if len(rows) < 20:
         raise RuntimeError(f"AKShare returned too few rows for {code}: {len(rows)}")
+    return rows
+
+
+def sina_fund_history(code):
+    import akshare as ak
+
+    frame = ak.fund_etf_hist_sina(symbol=sina_symbol_for(code))
+    rows = frame_rows(frame)
+    if len(rows) < 20:
+        raise RuntimeError(f"Sina returned too few fund rows for {code}: {len(rows)}")
     return rows
 
 
@@ -209,6 +224,7 @@ def preserve(previous, code, name, symbol, kind, error, benchmark=False):
 
 def refresh(code, name, symbol, kind, previous, warnings, benchmark=False):
     primary_error = None
+    sina_error = None
     direct_error = None
     try:
         rows = akshare_history(code, kind)
@@ -219,18 +235,26 @@ def refresh(code, name, symbol, kind, previous, warnings, benchmark=False):
 
     if kind in {"etf", "lof"}:
         try:
+            rows = sina_fund_history(code)
+            return series(code, name, symbol, kind, rows, "新浪财经 via AKShare", primary_error)
+        except Exception as exc:
+            sina_error = exc
+            warnings.append(f"{code} Sina: {sina_error}")
+        try:
             rows = eastmoney_fund_history(code)
-            return series(code, name, symbol, kind, rows, "东方财富 direct fallback", primary_error)
+            reason = f"AKShare={primary_error}; Sina={sina_error}"
+            return series(code, name, symbol, kind, rows, "东方财富 direct fallback", reason)
         except Exception as exc:
             direct_error = exc
             warnings.append(f"{code} Eastmoney direct: {direct_error}")
 
     try:
         rows = yahoo_chart(symbol)
-        return series(code, name, symbol, kind, rows, "Yahoo Finance chart", primary_error)
+        reason = f"AKShare={primary_error}; Sina={sina_error}; direct={direct_error}"
+        return series(code, name, symbol, kind, rows, "Yahoo Finance chart", reason)
     except Exception as fallback:
         warnings.append(f"{code} Yahoo: {fallback}")
-        reason = f"AKShare={primary_error}; direct={direct_error}; Yahoo={fallback}"
+        reason = f"AKShare={primary_error}; Sina={sina_error}; direct={direct_error}; Yahoo={fallback}"
         return preserve(previous, code, name, symbol, kind, reason, benchmark)
 
 
@@ -258,7 +282,7 @@ def main():
         "summary": {"total": len(assets), "fresh": fresh_count, "stale": stale_count, "unavailable": len(assets) - fresh_count - stale_count},
         "assets": assets,
         "warnings": warnings,
-        "methodology": "Eastmoney via AKShare is primary; direct Eastmoney fund kline covers ETF/LOF mapping failures; Yahoo chart is final fallback; prior valid series is retained as stale on total failure; up to 140 observations retained.",
+        "methodology": "Eastmoney via AKShare is primary; Sina via AKShare is independent fund fallback; direct Eastmoney then Yahoo chart are further fallbacks; prior valid series is retained as stale on total failure; up to 140 observations retained.",
     }
     with open(OUTPUT, "w", encoding="utf-8") as handle:
         json.dump(payload, handle, ensure_ascii=False, indent=2)
