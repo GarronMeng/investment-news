@@ -5,15 +5,19 @@ on:
     branches: [main]
     paths:
       - index.html
+      - research.html
       - data.js
       - ai-signals.js
       - sentiment.json
       - market.json
       - watchlist.json
+      - features.json
+      - decisions.json
+      - signal_evaluation.json
       - .nojekyll
       - .github/workflows/deploy-pages.yml
   workflow_run:
-    workflows: ["Update A-share News", "Update Market Sentiment", "Update Watchlist Market Quotes"]
+    workflows: ["Update A-share News", "Update Market Sentiment", "Update Watchlist Market Quotes", "Update Research Engine"]
     branches: [main]
     types: [completed]
   workflow_dispatch:
@@ -43,7 +47,7 @@ jobs:
       - name: Prepare static site
         run: |
           mkdir public
-          cp index.html data.js ai-signals.js sentiment.json market.json watchlist.json .nojekyll public/
+          cp index.html research.html data.js ai-signals.js sentiment.json market.json watchlist.json features.json decisions.json signal_evaluation.json .nojekyll public/
 
       - name: Enforce AI signal freshness
         run: |
