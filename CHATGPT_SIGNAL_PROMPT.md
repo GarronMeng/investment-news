@@ -4,6 +4,11 @@
 
 ## 处理规则
 
+0. **先执行源数据新鲜度检查，再做任何研判：**
+   - 读取 `data.js.generated_at`，按北京时间判断；源数据距当前时间超过 36 小时，视为过期。
+   - 若 `data.js.generated_at` 缺失、无法解析或已过期，禁止生成 `status: ready`，禁止用旧新闻刷新 `generated_at` 冒充新研判。
+   - 发生上述情况时，仅将 `status` 标为 `stale`，保留真实 `source_generated_at`，并清空 `signals` 与 `overseas_markets`；先报告“新闻源待恢复”。
+   - 正常生成时，`source_generated_at` 必须与本轮实际读取的 `data.js.generated_at` 完全一致。
 1. 只分析与自选标的存在明确产业链关系、且相较上次生成后新增或显著变化的事件。
 2. 合并重复报道，最多保留 12 条信号；宁缺毋滥。
 3. 每次必须单独生成 `overseas_markets`，至少覆盖美股、日股、韩股：
@@ -41,5 +46,5 @@
    - 页面以中文标题为主，英文原题仅用于核验。
 8. 将结果完整写入 `ai-signals.js`，格式为：
    `window.AI_SIGNALS = {generated_at, source_generated_at, generated_by, status, news_titles, overseas_markets, signals};`
-9. generated_at 与 source_generated_at 均使用北京时间；generated_by 固定为 `ChatGPT Web`；status 成功时为 `ready`。
+9. generated_at 与 source_generated_at 均使用北京时间；generated_by 固定为 `ChatGPT Web`；只有源数据通过第 0 条新鲜度检查时，status 才允许为 `ready`。
 10. 更新后确认 GitHub Pages 部署成功；若没有材料性变化，只报告更新状态，不输出重复长篇简报。
