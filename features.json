@@ -1,7 +1,7 @@
 {
-  "version": 1,
-  "generated_at": "2026-08-16T12:09:45+08:00",
-  "source_generated_at": "2026-08-16T12:09:45+08:00",
+  "version": 2,
+  "generated_at": "2026-08-16T12:10:09+08:00",
+  "source_generated_at": "2026-08-16T12:10:09+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -185,10 +185,10 @@
     }
   },
   "methodology": {
-    "returns": "close-to-close total price return, unadjusted",
+    "returns": "close-to-close price return, unadjusted",
     "relative_strength": "asset return minus benchmark return",
     "volume_z20": "population z-score of the latest volume within 20 observations",
-    "turnover_z20": "unavailable in the current history feed; never imputed",
+    "turnover_z20": "population z-score of daily traded amount when the primary source supplies it; null on feeds without amount",
     "realized_vol_20d": "20-day log-return volatility annualized by sqrt(252)",
     "trend_state": "bullish/bearish only when ret20, MA20 distance and 20d relative strength agree; otherwise mixed"
   }
