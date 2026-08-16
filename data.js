@@ -1,6 +1,6 @@
 // 自动生成，请勿手工编辑。
 window.DATA = {
- "generated_at": "2026-08-16 12:05",
+ "generated_at": "2026-08-16 12:06",
  "recent_days": 7,
  "industries": [
   {
@@ -3608,115 +3608,6 @@ window.DATA = {
      }
     },
     {
-     "title": "How To: Develop Edge AI on a Raspberry Pi with LiteRT and Gemma",
-     "url": "https://www.electronicsweekly.com/blogs/gadget-master/raspberry-pi-gadget-master/how-to-develop-edge-ai-on-a-raspberry-pi-with-litert-and-gemma-2026-08",
-     "time": "08-14 23:54",
-     "ts": 1786722870,
-     "summary": "This is an interesting one from Google's Developer blog: an example project on Edge AI using a Raspberry Pi along with LiteRT and Gemma. The post How To: Develop Edge AI on a Raspberry Pi with LiteRT and Gemma appeared first on Electronics ",
-     "source": "Electronics Weekly",
-     "agenda_layer": "industry",
-     "language": "en",
-     "id": "3112ab7dc07a",
-     "keywords_zh": [
-      "谷歌",
-      "人工智能"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:3112ab7dc07a",
-     "cluster_size": 1,
-     "sources": [
-      "Electronics Weekly"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "industry"
-     ],
-     "cluster_urls": [
-      {
-       "source": "Electronics Weekly",
-       "title": "How To: Develop Edge AI on a Raspberry Pi with LiteRT and Gemma",
-       "url": "https://www.electronicsweekly.com/blogs/gadget-master/raspberry-pi-gadget-master/how-to-develop-edge-ai-on-a-raspberry-pi-with-litert-and-gemma-2026-08"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       8
-      ],
-      "observations": 1,
-      "first_seen": 1786853082
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "industry"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "Standards and AI will shape-shift EDA",
-     "url": "https://www.electronicsweekly.com/news/design/eda-and-ip/standards-and-ai-will-shape-shift-eda-2026-08",
-     "time": "08-14 23:52",
-     "ts": 1786722737,
-     "summary": "As AI and machine learning are getting more and more integrated into the EDA workflows, there are new challenges emerging around areas such as interoperability, data exchange, trust, and reproducibility. [&#8230;] The post Standards and AI ",
-     "source": "Electronics Weekly",
-     "agenda_layer": "industry",
-     "language": "en",
-     "id": "77606435119d",
-     "keywords_zh": [
-      "人工智能"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:77606435119d",
-     "cluster_size": 1,
-     "sources": [
-      "Electronics Weekly"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "industry"
-     ],
-     "cluster_urls": [
-      {
-       "source": "Electronics Weekly",
-       "title": "Standards and AI will shape-shift EDA",
-       "url": "https://www.electronicsweekly.com/news/design/eda-and-ip/standards-and-ai-will-shape-shift-eda-2026-08"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       9
-      ],
-      "observations": 1,
-      "first_seen": 1786853082
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "industry"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
      "title": "An Introduction to Software Prototyping: Unlocking SoC Software Verification with proFPGA CS",
      "url": "https://www.eetimes.com/an-introduction-to-software-prototyping-unlocking-soc-software-verification-with-profpga-cs",
      "time": "08-14 23:22",
@@ -3753,7 +3644,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       10
+       8
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -3807,7 +3698,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       11
+       9
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -3820,168 +3711,6 @@ window.DATA = {
       ],
       "agenda_layers": [
        "media"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "Google joins OpenROAD EDA initiative",
-     "url": "https://www.electronicsweekly.com/news/design/eda-and-ip/google-joins-openroad-eda-initiative-2026-08",
-     "time": "08-14 22:01",
-     "ts": 1786716062,
-     "summary": "Google is joining the OpenROAD Initiative (ORI) as a principal member, for its open source electronic design automation (EDA). As is customary, Google&#8217;s Technical Program Manager, Aaron Cunningham, is joining [&#8230;] The post Google",
-     "source": "Electronics Weekly",
-     "agenda_layer": "industry",
-     "language": "en",
-     "id": "5aa9ac806242",
-     "keywords_zh": [
-      "谷歌"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:5aa9ac806242",
-     "cluster_size": 1,
-     "sources": [
-      "Electronics Weekly"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "industry"
-     ],
-     "cluster_urls": [
-      {
-       "source": "Electronics Weekly",
-       "title": "Google joins OpenROAD EDA initiative",
-       "url": "https://www.electronicsweekly.com/news/design/eda-and-ip/google-joins-openroad-eda-initiative-2026-08"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       12
-      ],
-      "observations": 1,
-      "first_seen": 1786853082
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "industry"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "CHIIPS #37 – CHIIPs with DVCon’s Mark Burton",
-     "url": "https://www.electronicsweekly.com/blogs/electro-ramblings/site-update/chiips-37-chiips-with-dvcons-mark-burton-2026-08",
-     "time": "08-14 21:37",
-     "ts": 1786714668,
-     "summary": "Don't miss the latest episode of our Electronics Weekly podcast, CHIIPS. It features Mark Burton - DVCon's technical programme chair. The post CHIIPS #37 &#8211; CHIIPs with DVCon&#8217;s Mark Burton appeared first on Electronics Weekly.",
-     "source": "Electronics Weekly",
-     "agenda_layer": "industry",
-     "language": "en",
-     "id": "c5b746537c0f",
-     "keywords_zh": [
-      "半导体 / 芯片"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:c5b746537c0f",
-     "cluster_size": 1,
-     "sources": [
-      "Electronics Weekly"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "industry"
-     ],
-     "cluster_urls": [
-      {
-       "source": "Electronics Weekly",
-       "title": "CHIIPS #37 – CHIIPs with DVCon’s Mark Burton",
-       "url": "https://www.electronicsweekly.com/blogs/electro-ramblings/site-update/chiips-37-chiips-with-dvcons-mark-burton-2026-08"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       13
-      ],
-      "observations": 1,
-      "first_seen": 1786853082
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "industry"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "President Bush, Qualcomm, the CTIA, Broadcom and the ITC square up",
-     "url": "https://www.electronicsweekly.com/blogs/mannerisms/yarns/president-bush-qualcomm-the-ctia-broadcom-and-the-itc-square-up-2026-08",
-     "time": "08-14 21:24",
-     "ts": 1786713845,
-     "summary": "19 years ago the tech industry was up to its old trick of roping in the government to fight its battles. ‘The CTIA Wireless Association in the US has backed [&#8230;] The post President Bush, Qualcomm, the CTIA, Broadcom and the ITC square ",
-     "source": "Electronics Weekly",
-     "agenda_layer": "industry",
-     "language": "en",
-     "id": "015cf593bf01",
-     "keywords_zh": [
-      "半导体 / 芯片"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:015cf593bf01",
-     "cluster_size": 1,
-     "sources": [
-      "Electronics Weekly"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "industry"
-     ],
-     "cluster_urls": [
-      {
-       "source": "Electronics Weekly",
-       "title": "President Bush, Qualcomm, the CTIA, Broadcom and the ITC square up",
-       "url": "https://www.electronicsweekly.com/blogs/mannerisms/yarns/president-bush-qualcomm-the-ctia-broadcom-and-the-itc-square-up-2026-08"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       14
-      ],
-      "observations": 1,
-      "first_seen": 1786853082
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "industry"
       ],
       "time_windows": 1
      }
@@ -4027,7 +3756,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       15
+       10
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -4081,7 +3810,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       16
+       11
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -4135,64 +3864,10 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       17
+       12
       ],
       "observations": 1,
       "first_seen": 1786852884
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "industry"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "In-orbit services to generate $3 billion within a decade",
-     "url": "https://www.electronicsweekly.com/news/business/in-orbit-services-to-generate-3-billion-within-a-decade-2026-08",
-     "time": "08-14 18:42",
-     "ts": 1786704129,
-     "summary": "Novaspace, the space consulting and market intelligence firm, has released the latest version of its In-Orbit Services Markets report. The Paris-based analysts calculate that the space sector will generate $3 [&#8230;] The post In-orbit ser",
-     "source": "Electronics Weekly",
-     "agenda_layer": "industry",
-     "language": "en",
-     "id": "ba72fd2cb375",
-     "keywords_zh": [
-      "半导体 / 芯片"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:ba72fd2cb375",
-     "cluster_size": 1,
-     "sources": [
-      "Electronics Weekly"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "industry"
-     ],
-     "cluster_urls": [
-      {
-       "source": "Electronics Weekly",
-       "title": "In-orbit services to generate $3 billion within a decade",
-       "url": "https://www.electronicsweekly.com/news/business/in-orbit-services-to-generate-3-billion-within-a-decade-2026-08"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       18
-      ],
-      "observations": 1,
-      "first_seen": 1786853082
      },
      "resonance": {
       "confirmed": false,
@@ -4250,7 +3925,7 @@ window.DATA = {
        29,
        23,
        9,
-       19
+       13
       ],
       "observations": 6,
       "first_seen": 1785806350
@@ -4304,7 +3979,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       20
+       14
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -4358,7 +4033,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       21
+       15
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -4412,7 +4087,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       22
+       16
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -4466,7 +4141,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       23
+       17
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -4521,7 +4196,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       24
+       18
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -4575,7 +4250,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       25
+       19
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -4630,7 +4305,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       26
+       20
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -4684,7 +4359,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       27
+       21
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -4740,7 +4415,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       28
+       22
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -4794,7 +4469,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       29
+       23
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -4851,7 +4526,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       30
+       24
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -4908,7 +4583,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       31
+       25
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -4962,7 +4637,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       32
+       26
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -5016,7 +4691,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       33
+       27
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -5070,7 +4745,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       34
+       28
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -5124,7 +4799,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       35
+       29
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -5178,7 +4853,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       36
+       30
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -8681,7 +8356,7 @@ window.DATA = {
      }
     },
     {
-     "title": "WSP capitalizes on surging US power infrastructure construction",
+     "title": "WSP capitalizes on surging US power work",
      "url": "https://www.utilitydive.com/news/wsp-power-generation-nuclear-data-centers-construction-us/827577",
      "time": "08-14 22:40",
      "ts": 1786718405,
@@ -8689,14 +8364,14 @@ window.DATA = {
      "source": "Utility Dive",
      "agenda_layer": "media",
      "language": "en",
-     "id": "d12182f01991",
+     "id": "5a595e6f1335",
      "keywords_zh": [
       "能源 / 新能源"
      ],
      "event_type": "",
      "related_assets": [],
      "relevance_score": 0,
-     "topic_id": "story:d12182f01991",
+     "topic_id": "story:5a595e6f1335",
      "cluster_size": 1,
      "sources": [
       "Utility Dive"
@@ -8710,7 +8385,7 @@ window.DATA = {
      "cluster_urls": [
       {
        "source": "Utility Dive",
-       "title": "WSP capitalizes on surging US power infrastructure construction",
+       "title": "WSP capitalizes on surging US power work",
        "url": "https://www.utilitydive.com/news/wsp-power-generation-nuclear-data-centers-construction-us/827577"
       }
      ],
@@ -8720,7 +8395,7 @@ window.DATA = {
        18
       ],
       "observations": 1,
-      "first_seen": 1786853082
+      "first_seen": 1786852884
      },
      "resonance": {
       "confirmed": false,
@@ -8897,60 +8572,6 @@ window.DATA = {
      }
     },
     {
-     "title": "FERC approves TransAlta, PowerTransitions gas-fired power plant deals",
-     "url": "https://www.utilitydive.com/news/ferc-transalta-powertransitions-gas-fired-power-plant-deals/827892",
-     "time": "08-14 21:02",
-     "ts": 1786712550,
-     "summary": "PowerTransitions aims to buy a 1.2-GW power plant in New York for&nbsp;an &ldquo;energy campus.&rdquo;&nbsp;TransAlta intends to buy two&nbsp;power plants in Colorado totaling about 319 MW.",
-     "source": "Utility Dive",
-     "agenda_layer": "media",
-     "language": "en",
-     "id": "9314c040a800",
-     "keywords_zh": [
-      "能源 / 新能源"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:9314c040a800",
-     "cluster_size": 1,
-     "sources": [
-      "Utility Dive"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "media"
-     ],
-     "cluster_urls": [
-      {
-       "source": "Utility Dive",
-       "title": "FERC approves TransAlta, PowerTransitions gas-fired power plant deals",
-       "url": "https://www.utilitydive.com/news/ferc-transalta-powertransitions-gas-fired-power-plant-deals/827892"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       22
-      ],
-      "observations": 1,
-      "first_seen": 1786853082
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "media"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
      "title": "The Hydrogen Stream: Commissioning begins for 2.2 GW Neom H2 project in Saudi Arabia",
      "url": "https://www.pv-magazine.com/2026/08/14/the-hydrogen-stream-commissioning-begins-for-2-2-gw-neom-h2-project-in-saudi-arabia",
      "time": "08-14 20:43",
@@ -8987,7 +8608,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       23
+       22
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -9041,7 +8662,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       24
+       23
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -9095,7 +8716,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       25
+       24
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -9149,7 +8770,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       26
+       25
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -9203,7 +8824,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       27
+       26
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -9257,7 +8878,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       28
+       27
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -9311,7 +8932,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       29
+       28
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -9365,7 +8986,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       30
+       29
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -9419,7 +9040,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       31
+       30
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -9473,7 +9094,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       32
+       31
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -9527,7 +9148,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       33
+       32
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -9581,7 +9202,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       34
+       33
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -9635,7 +9256,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       35
+       34
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -9689,7 +9310,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       36
+       35
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -9743,7 +9364,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       37
+       36
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -9797,7 +9418,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       38
+       37
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -9851,7 +9472,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       39
+       38
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -9905,7 +9526,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       40
+       39
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -9959,7 +9580,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       41
+       40
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -10013,7 +9634,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       42
+       41
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -10067,7 +9688,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       43
+       42
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -10121,7 +9742,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       44
+       43
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -10175,7 +9796,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       45
+       44
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -10229,7 +9850,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       46
+       45
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -10283,7 +9904,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       47
+       46
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -10332,6 +9953,60 @@ window.DATA = {
        "source": "Canary Media",
        "title": "Federal ruling hands virtual power plants a win in PJM",
        "url": "https://www.canarymedia.com/articles/virtual-power-plants/federal-ruling-virtual-power-plants-pjm"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       47
+      ],
+      "observations": 1,
+      "first_seen": 1786852884
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "media"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "Texas hits new peak demand record, but supply constraints will limit growth",
+     "url": "https://www.utilitydive.com/news/supply-constraints-will-limit-ercot-peak-demand-growth-report/827677",
+     "time": "08-13 01:00",
+     "ts": 1786554000,
+     "summary": "Ascend Analytics says more than 80% of new large loads seeking interconnection will not have matching generation online by 2030, even as data centers and industrial demand continue to surge.",
+     "source": "Utility Dive",
+     "agenda_layer": "media",
+     "language": "en",
+     "id": "89352ec82b68",
+     "keywords_zh": [
+      "数据中心"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:89352ec82b68",
+     "cluster_size": 1,
+     "sources": [
+      "Utility Dive"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "media"
+     ],
+     "cluster_urls": [
+      {
+       "source": "Utility Dive",
+       "title": "Texas hits new peak demand record, but supply constraints will limit growth",
+       "url": "https://www.utilitydive.com/news/supply-constraints-will-limit-ercot-peak-demand-growth-report/827677"
       }
      ],
      "trajectory": {
@@ -20821,6 +20496,60 @@ window.DATA = {
      }
     },
     {
+     "title": "Pixel 11 ads show a mysterious screen-equipped tracker that’s not Pixel Watch 5 or Fitbit Air [Gallery]",
+     "url": "https://9to5google.com/2026/08/15/google-pixel-11-ad-unknown-fitbit-tracker",
+     "time": "08-15 21:30",
+     "ts": 1786800600,
+     "summary": "Google might have another fitness tracker in the works, as a pair of new ads online show off a mysterious little pebble that’s neither a Fitbit Air nor a Pixel Watch 5 – but is it anything at all?",
+     "source": "9to5Google",
+     "agenda_layer": "media",
+     "language": "en",
+     "id": "728e13bee390",
+     "keywords_zh": [
+      "谷歌"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:728e13bee390",
+     "cluster_size": 1,
+     "sources": [
+      "9to5Google"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "media"
+     ],
+     "cluster_urls": [
+      {
+       "source": "9to5Google",
+       "title": "Pixel 11 ads show a mysterious screen-equipped tracker that’s not Pixel Watch 5 or Fitbit Air [Gallery]",
+       "url": "https://9to5google.com/2026/08/15/google-pixel-11-ad-unknown-fitbit-tracker"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       18
+      ],
+      "observations": 1,
+      "first_seen": 1786852884
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "media"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
      "title": "Deals: Google Pixel 11 series pre-orders start",
      "url": "https://www.gsmarena.com/deals_google_pixel_11_series_preorders_start-news-74183.php",
      "time": "08-15 21:17",
@@ -20857,7 +20586,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       18
+       19
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -20911,7 +20640,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       19
+       20
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -20965,7 +20694,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       20
+       21
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -21019,7 +20748,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       21
+       22
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -21073,7 +20802,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       22
+       23
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -21127,7 +20856,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       23
+       24
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -21181,7 +20910,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       24
+       25
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -21235,7 +20964,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       25
+       26
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -21289,7 +21018,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       26
+       27
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -21343,7 +21072,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       27
+       28
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -21397,7 +21126,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       28
+       29
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -21451,7 +21180,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       29
+       30
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -21505,7 +21234,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       30
+       31
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -21559,64 +21288,10 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       31
-      ],
-      "observations": 1,
-      "first_seen": 1786852884
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "media"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "Android 17 QPR2 Beta 3 for Pixel rolling out",
-     "url": "https://9to5google.com/2026/08/14/android-17-qpr2-beta-3-pixel",
-     "time": "08-15 05:52",
-     "ts": 1786744345,
-     "summary": "Following the last release at the start of last week, Google is rolling out Android 17 QPR2 Beta 3 for Pixel devices in a rare Friday drop. So far, it is the biggest update this cycle.",
-     "source": "9to5Google",
-     "agenda_layer": "media",
-     "language": "en",
-     "id": "b85378e518dd",
-     "keywords_zh": [
-      "谷歌"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:b85378e518dd",
-     "cluster_size": 1,
-     "sources": [
-      "9to5Google"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "media"
-     ],
-     "cluster_urls": [
-      {
-       "source": "9to5Google",
-       "title": "Android 17 QPR2 Beta 3 for Pixel rolling out",
-       "url": "https://9to5google.com/2026/08/14/android-17-qpr2-beta-3-pixel"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
        32
       ],
       "observations": 1,
-      "first_seen": 1786853151
+      "first_seen": 1786852884
      },
      "resonance": {
       "confirmed": false,
@@ -23020,60 +22695,6 @@ window.DATA = {
      }
     },
     {
-     "title": "Singapore Inc hopes AI access will stop finance high-flyers moving to Hong Kong",
-     "url": "https://www.ft.com/content/7d2969fd-85aa-43fb-ae04-97d1d0ee2463",
-     "time": "08-16 09:52",
-     "ts": 1786845137,
-     "summary": "Close relations with both US and China mean the latest AI models are easily accessible in the city-state",
-     "source": "Financial Times",
-     "agenda_layer": "market",
-     "language": "en",
-     "id": "c8c6e018a13d",
-     "keywords_zh": [
-      "人工智能"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:c8c6e018a13d",
-     "cluster_size": 1,
-     "sources": [
-      "Financial Times"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "market"
-     ],
-     "cluster_urls": [
-      {
-       "source": "Financial Times",
-       "title": "Singapore Inc hopes AI access will stop finance high-flyers moving to Hong Kong",
-       "url": "https://www.ft.com/content/7d2969fd-85aa-43fb-ae04-97d1d0ee2463"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       16
-      ],
-      "observations": 1,
-      "first_seen": 1786853151
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "market"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
      "title": "AI债务狂潮背后：700亿美元表外隐性负债引发债券投资者担忧",
      "url": "https://wallstreetcn.com/articles/3779518",
      "time": "08-16 09:08",
@@ -23114,7 +22735,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       17
+       16
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -23168,7 +22789,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       18
+       17
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -23222,7 +22843,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       19
+       18
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -23276,7 +22897,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       20
+       19
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -23330,7 +22951,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       21
+       20
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -23384,7 +23005,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       22
+       21
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -23438,7 +23059,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       23
+       22
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -23492,7 +23113,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       24
+       23
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -23546,7 +23167,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       25
+       24
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -23600,7 +23221,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       26
+       25
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -23634,8 +23255,9 @@ window.DATA = {
      "related_assets": [],
      "relevance_score": 0,
      "topic_id": "story:572e2819c148",
-     "cluster_size": 1,
+     "cluster_size": 2,
      "sources": [
+      "Financial Times",
       "Seeking Alpha"
      ],
      "languages": [
@@ -23649,19 +23271,24 @@ window.DATA = {
        "source": "Seeking Alpha",
        "title": "China to lift travel ban on Manus founders as Meta unwinds buyout deal: FT",
        "url": "https://seekingalpha.com/news/4633587-manus-founders-return-china-meta-unwinds-buyout-deal"
+      },
+      {
+       "source": "Financial Times",
+       "title": "China poised to lift travel ban on Manus founders",
+       "url": "https://www.ft.com/content/fa479d50-7c79-4b6d-99c3-3830e37c1503"
       }
      ],
      "trajectory": {
       "label": "new",
       "points": [
-       27
+       26
       ],
       "observations": 1,
       "first_seen": 1786852884
      },
      "resonance": {
       "confirmed": false,
-      "source_count": 1,
+      "source_count": 2,
       "languages": [
        "en"
       ],
@@ -23708,7 +23335,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       28
+       27
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -23763,64 +23390,10 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       29
+       28
       ],
       "observations": 1,
       "first_seen": 1786852884
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "market"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "Israeli strikes kill 11 in Lebanon two months into truce",
-     "url": "https://www.ft.com/content/1bd69e67-266f-4a4a-9c49-eb3c83bcb295",
-     "time": "08-16 00:13",
-     "ts": 1786810415,
-     "summary": "Attacks were ‘response to an action’ by Hizbollah, says Israeli military",
-     "source": "Financial Times",
-     "agenda_layer": "market",
-     "language": "en",
-     "id": "ebbc55fcbdc9",
-     "keywords_zh": [
-      "财经 / 宏观"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:ebbc55fcbdc9",
-     "cluster_size": 1,
-     "sources": [
-      "Financial Times"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "market"
-     ],
-     "cluster_urls": [
-      {
-       "source": "Financial Times",
-       "title": "Israeli strikes kill 11 in Lebanon two months into truce",
-       "url": "https://www.ft.com/content/1bd69e67-266f-4a4a-9c49-eb3c83bcb295"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       30
-      ],
-      "observations": 1,
-      "first_seen": 1786853151
      },
      "resonance": {
       "confirmed": false,
@@ -23871,7 +23444,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       31
+       29
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -23925,7 +23498,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       32
+       30
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -23979,7 +23552,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       33
+       31
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -24033,7 +23606,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       34
+       32
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -24087,7 +23660,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       35
+       33
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -24141,7 +23714,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       36
+       34
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -24195,7 +23768,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       37
+       35
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -24249,6 +23822,114 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
+       36
+      ],
+      "observations": 1,
+      "first_seen": 1786852884
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "Traders are spoiling for a fight over the yen",
+     "url": "https://www.ft.com/content/543b1ab2-6203-412d-ae3b-f4439d1e9d47",
+     "time": "08-15 12:00",
+     "ts": 1786766432,
+     "summary": "After historic US-Japan intervention on the currency, the risk of market ructions is again rising",
+     "source": "Financial Times",
+     "agenda_layer": "market",
+     "language": "en",
+     "id": "48c58b252905",
+     "keywords_zh": [
+      "财经 / 宏观"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:48c58b252905",
+     "cluster_size": 1,
+     "sources": [
+      "Financial Times"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "Financial Times",
+       "title": "Traders are spoiling for a fight over the yen",
+       "url": "https://www.ft.com/content/543b1ab2-6203-412d-ae3b-f4439d1e9d47"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       37
+      ],
+      "observations": 1,
+      "first_seen": 1786852884
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "OpenAI upheaval mounts as Sam Altman readies IPO push",
+     "url": "https://www.ft.com/content/53082739-7714-4aae-9816-e55ab423cbee",
+     "time": "08-15 12:00",
+     "ts": 1786766431,
+     "summary": "Executive exits and safety team changes unsettle staff as the ChatGPT maker prepares for a blockbuster listing",
+     "source": "Financial Times",
+     "agenda_layer": "market",
+     "language": "en",
+     "id": "d819fc3fb8bd",
+     "keywords_zh": [
+      "财经 / 宏观"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:d819fc3fb8bd",
+     "cluster_size": 1,
+     "sources": [
+      "Financial Times"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "Financial Times",
+       "title": "OpenAI upheaval mounts as Sam Altman readies IPO push",
+       "url": "https://www.ft.com/content/53082739-7714-4aae-9816-e55ab423cbee"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
        38
       ],
       "observations": 1,
@@ -24267,22 +23948,22 @@ window.DATA = {
      }
     },
     {
-     "title": "US aircraft carrier furore is emblem of growing disquiet over Iran war",
-     "url": "https://www.ft.com/content/4bd6537f-db17-4013-be3f-c70a1299183c",
-     "time": "08-15 20:00",
-     "ts": 1786795205,
-     "summary": "Reports of poor conditions aboard the USS Abraham Lincoln coincide with depleting stocks of both weapons and voter support",
+     "title": "Which is the next No 1 city on Earth?",
+     "url": "https://www.ft.com/content/17cd713d-3db1-422b-adef-58b45ad7e50f",
+     "time": "08-15 12:00",
+     "ts": 1786766423,
+     "summary": "Despite the decline of the west, there won’t be one for decades yet",
      "source": "Financial Times",
      "agenda_layer": "market",
      "language": "en",
-     "id": "2ac4f006c3ad",
+     "id": "c8ecd79ae8a6",
      "keywords_zh": [
       "财经 / 宏观"
      ],
      "event_type": "",
      "related_assets": [],
      "relevance_score": 0,
-     "topic_id": "story:2ac4f006c3ad",
+     "topic_id": "story:c8ecd79ae8a6",
      "cluster_size": 1,
      "sources": [
       "Financial Times"
@@ -24296,8 +23977,8 @@ window.DATA = {
      "cluster_urls": [
       {
        "source": "Financial Times",
-       "title": "US aircraft carrier furore is emblem of growing disquiet over Iran war",
-       "url": "https://www.ft.com/content/4bd6537f-db17-4013-be3f-c70a1299183c"
+       "title": "Which is the next No 1 city on Earth?",
+       "url": "https://www.ft.com/content/17cd713d-3db1-422b-adef-58b45ad7e50f"
       }
      ],
      "trajectory": {
@@ -24306,7 +23987,61 @@ window.DATA = {
        39
       ],
       "observations": 1,
-      "first_seen": 1786853151
+      "first_seen": 1786852884
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "AI vs the people",
+     "url": "https://www.ft.com/content/5f8858b8-7468-4438-b269-e1b1947b1926",
+     "time": "08-15 12:00",
+     "ts": 1786766414,
+     "summary": "Jill Lepore on how opposition to data centres is reshaping politics — and what history tells us about regulating new technologies",
+     "source": "Financial Times",
+     "agenda_layer": "market",
+     "language": "en",
+     "id": "04c68197383c",
+     "keywords_zh": [
+      "人工智能"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:04c68197383c",
+     "cluster_size": 1,
+     "sources": [
+      "Financial Times"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "Financial Times",
+       "title": "AI vs the people",
+       "url": "https://www.ft.com/content/5f8858b8-7468-4438-b269-e1b1947b1926"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       40
+      ],
+      "observations": 1,
+      "first_seen": 1786852884
      },
      "resonance": {
       "confirmed": false,
@@ -24357,7 +24092,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       40
+       41
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -24411,7 +24146,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       41
+       42
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -24466,7 +24201,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       42
+       43
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -24520,7 +24255,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       43
+       44
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -24574,7 +24309,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       44
+       45
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -24628,7 +24363,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       45
+       46
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -24682,7 +24417,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       46
+       47
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -24736,7 +24471,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       47
+       48
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -24790,7 +24525,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       48
+       49
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -24844,7 +24579,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       49
+       50
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -24898,7 +24633,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       50
+       51
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -24952,7 +24687,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       51
+       52
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -25006,7 +24741,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       52
+       53
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -25061,7 +24796,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       53
+       54
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -25115,7 +24850,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       54
+       55
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -25169,7 +24904,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       55
+       56
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -25223,7 +24958,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       56
+       57
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -25277,7 +25012,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       57
+       58
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -25331,7 +25066,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       58
+       59
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -25385,7 +25120,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       59
+       60
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -25439,7 +25174,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       60
+       61
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -25493,7 +25228,7 @@ window.DATA = {
      "trajectory": {
       "label": "new",
       "points": [
-       61
+       62
       ],
       "observations": 1,
       "first_seen": 1786852884
@@ -28323,16 +28058,16 @@ window.DATA = {
  "stats": {
   "industries": 12,
   "total_sources": 108,
-  "raw_items": 536,
-  "unique_items": 514,
-  "failed_sources": 6,
-  "event_cards": 513,
+  "raw_items": 532,
+  "unique_items": 510,
+  "failed_sources": 7,
+  "event_cards": 508,
   "trajectory_signals": 1,
   "history": {
-   "updated_at": "2026-08-16 12:05",
-   "sampling_windows": 26,
-   "previous_sample_at": "2026-08-16 12:04",
-   "latest_sample_at": "2026-08-16 12:05",
+   "updated_at": "2026-08-16 12:06",
+   "sampling_windows": 27,
+   "previous_sample_at": "2026-08-16 12:05",
+   "latest_sample_at": "2026-08-16 12:06",
    "tracked_topics": 3690,
    "comparable_topics": 1904,
    "coalesce_minutes": 30
