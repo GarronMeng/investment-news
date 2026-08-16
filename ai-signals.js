@@ -1,6 +1,6 @@
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-16 12:11",
-  "source_generated_at": "2026-08-16 12:05",
+  "generated_at": "2026-08-16 12:16",
+  "source_generated_at": "2026-08-16 12:06",
   "generated_by": "ChatGPT Web",
   "status": "ready",
   "news_titles": {
