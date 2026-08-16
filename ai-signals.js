@@ -1,6 +1,6 @@
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-16 12:07",
-  "source_generated_at": "2026-08-16 12:01",
+  "generated_at": "2026-08-16 12:11",
+  "source_generated_at": "2026-08-16 12:05",
   "generated_by": "ChatGPT Web",
   "status": "ready",
   "news_titles": {
@@ -688,7 +688,11 @@ window.AI_SIGNALS = {
     "https://www.sciencedaily.com/releases/2026/08/260814011039.htm": "科学家解开可通过相反方式触发减重的大脑“开关”之谜",
     "https://www.livescience.com/health/a-fine-line-between-reducing-stigma-and-trivialising-conditions-social-media-self-diagnosis-and-the-glamorization-of-adhd": "“减少污名与淡化疾病仅一线之隔”：社交媒体、自我诊断与ADHD美化",
     "https://www.livescience.com/animals/cats/why-do-cats-yowl": "猫为什么会嚎叫？",
-    "https://news.mit.edu/2026/drug-targeting-inflammatory-enzyme-could-help-prevent-lung-cancer-0814": "靶向炎症酶的药物或有助于预防肺癌"
+    "https://news.mit.edu/2026/drug-targeting-inflammatory-enzyme-could-help-prevent-lung-cancer-0814": "靶向炎症酶的药物或有助于预防肺癌",
+    "https://www.marktechpost.com/2026/08/15/fine-tuning-tool-calling-llms-a-complete-guide-using-xyz-aquila-sft-and-qwen3": "微调工具调用型大语言模型：使用XYZ-Aquila-SFT与Qwen3的完整指南",
+    "https://www.electronicsweekly.com/blogs/gadget-master/raspberry-pi-gadget-master/how-to-develop-edge-ai-on-a-raspberry-pi-with-litert-and-gemma-2026-08": "如何使用LiteRT与Gemma在树莓派上开发边缘AI",
+    "https://wallstreetcn.com/articles/3779526": "英伟达悄然将OpenAI数据中心担保规模从2500亿美元降至1200亿美元以下",
+    "https://www.ft.com/content/7d2969fd-85aa-43fb-ae04-97d1d0ee2463": "“新加坡公司”寄望AI准入，阻止金融精英转赴香港"
   },
   "overseas_markets": [
     {
