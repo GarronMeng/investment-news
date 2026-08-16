@@ -68,6 +68,7 @@ def feature_for(series, benchmark_returns):
     rows = series.get("rows") or []
     closes = [float(row["close"]) for row in rows if row.get("close") is not None]
     volumes = [row.get("volume") for row in rows]
+    amounts = [row.get("amount") for row in rows]
     ret1 = pct_return(closes, 1)
     ret5 = pct_return(closes, 5)
     ret20 = pct_return(closes, 20)
@@ -76,6 +77,7 @@ def feature_for(series, benchmark_returns):
     ma20 = mean_distance(closes, 20)
     ma60 = mean_distance(closes, 60)
     volz = zscore(volumes, 20)
+    amountz = zscore(amounts, 20)
 
     positive = sum(value is not None and value > 0 for value in (ret20, ma20, rs20))
     negative = sum(value is not None and value < 0 for value in (ret20, ma20, rs20))
@@ -93,7 +95,7 @@ def feature_for(series, benchmark_returns):
         "ma20_distance": rounded(ma20),
         "ma60_distance": rounded(ma60),
         "volume_z20": rounded(volz, 4),
-        "turnover_z20": None,
+        "turnover_z20": rounded(amountz, 4),
         "relative_strength_5d": rounded(rs5),
         "relative_strength_20d": rounded(rs20),
         "realized_vol_20d": rounded(realized_vol(closes, 20)),
@@ -115,7 +117,7 @@ def build(history):
         for code, series in history.get("assets", {}).items()
     }
     return {
-        "version": 1,
+        "version": 2,
         "generated_at": datetime.now(BEIJING).isoformat(timespec="seconds"),
         "source_generated_at": history.get("generated_at"),
         "benchmark": {
@@ -127,10 +129,10 @@ def build(history):
         },
         "assets": assets,
         "methodology": {
-            "returns": "close-to-close total price return, unadjusted",
+            "returns": "close-to-close price return, unadjusted",
             "relative_strength": "asset return minus benchmark return",
             "volume_z20": "population z-score of the latest volume within 20 observations",
-            "turnover_z20": "unavailable in the current history feed; never imputed",
+            "turnover_z20": "population z-score of daily traded amount when the primary source supplies it; null on feeds without amount",
             "realized_vol_20d": "20-day log-return volatility annualized by sqrt(252)",
             "trend_state": "bullish/bearish only when ret20, MA20 distance and 20d relative strength agree; otherwise mixed",
         },
