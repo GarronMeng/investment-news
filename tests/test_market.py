@@ -17,7 +17,7 @@ class MarketQuoteTests(unittest.TestCase):
             {"code": "603986", "name": "兆易创新"},
             {"code": "161226", "name": "国投白银LOF"},
         ]
-        self.now = datetime(2026, 8, 4, 10, 0, tzinfo=BEIJING)
+        self.now = datetime.now(BEIJING).replace(hour=10, minute=0, second=0, microsecond=0)
 
     def test_exchange_mapping_handles_stocks_and_funds(self):
         self.assertEqual(exchange_for("603986"), "SSE")
@@ -48,8 +48,9 @@ class MarketQuoteTests(unittest.TestCase):
                 )
             raise RuntimeError("symbol unavailable")
 
+        previous_date = (self.now.date() - timedelta(days=1)).isoformat()
         previous = {
-            "quotes": [{"code": "161226", "name": "国投白银LOF", "price": 1.6, "status": "fresh", "as_of": "2026-08-03"}]
+            "quotes": [{"code": "161226", "name": "国投白银LOF", "price": 1.6, "status": "fresh", "as_of": previous_date}]
         }
         payload = build_payload(self.assets, previous, self.now, batch, fallback)
         by_code = {row["code"]: row for row in payload["quotes"]}
