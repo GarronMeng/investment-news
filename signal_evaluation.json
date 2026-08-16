@@ -1,0 +1,121 @@
+{
+  "version": 1,
+  "generated_at": "2026-08-16T12:07:14+08:00",
+  "history_generated_at": "2026-08-16T12:07:14+08:00",
+  "summary": {
+    "t1": {
+      "settled": 0,
+      "win_rate": null,
+      "mean_excess_return": null
+    },
+    "t5": {
+      "settled": 0,
+      "win_rate": null,
+      "mean_excess_return": null
+    },
+    "t20": {
+      "settled": 0,
+      "win_rate": null,
+      "mean_excess_return": null
+    }
+  },
+  "evaluations": [
+    {
+      "decision_id": "975a56559e9a4748",
+      "asset": "600667",
+      "name": "太极实业",
+      "signal_date": "2026-08-14",
+      "bias": "bullish",
+      "research_status": "market_watch",
+      "conviction": 55,
+      "entry_date": "2026-08-14",
+      "entry_close": 22.950000762939453,
+      "mfe_20d": 0.052288,
+      "mae_20d": -0.014815,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "a0087f427789b8ef",
+      "asset": "000636",
+      "name": "风华高科",
+      "signal_date": "2026-08-14",
+      "bias": "bullish",
+      "research_status": "market_watch",
+      "conviction": 55,
+      "entry_date": "2026-08-14",
+      "entry_close": 62.72999954223633,
+      "mfe_20d": 0.015463,
+      "mae_20d": -0.033158,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "4085ab9e5f40ddf9",
+      "asset": "518880",
+      "name": "黄金ETF华安",
+      "signal_date": "2026-08-14",
+      "bias": "bullish",
+      "research_status": "market_watch",
+      "conviction": 55,
+      "entry_date": "2026-08-14",
+      "entry_close": 8.946000099182129,
+      "mfe_20d": 0.000335,
+      "mae_20d": -0.006148,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "a6552e708c659c96",
+      "asset": "517380",
+      "name": "创新药沪港深ETF天弘",
+      "signal_date": "2026-08-14",
+      "bias": "bullish",
+      "research_status": "market_watch",
+      "conviction": 55,
+      "entry_date": "2026-08-14",
+      "entry_close": 0.8730000257492065,
+      "mfe_20d": 0.021764,
+      "mae_20d": -0.011455,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    }
+  ],
+  "methodology": "Forward evaluation uses future trading observations; correctness is based on benchmark excess return when benchmark data is available, otherwise raw return. MFE/MAE are directional over up to 20 future observations."
+}

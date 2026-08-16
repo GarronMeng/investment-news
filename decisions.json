@@ -1,0 +1,236 @@
+{
+  "version": 1,
+  "generated_at": "2026-08-16T12:07:14+08:00",
+  "source": {
+    "data_generated_at": "2026-08-16 12:06",
+    "ai_generated_at": "2026-08-16 12:07",
+    "ai_source_generated_at": "2026-08-16 12:01",
+    "features_generated_at": "2026-08-16T12:07:14+08:00",
+    "fresh_ai": false
+  },
+  "decisions": [
+    {
+      "asset": "603986",
+      "name": "兆易创新",
+      "as_of": "2026-08-14",
+      "bias": "neutral",
+      "status": "neutral",
+      "event_score": 50.0,
+      "market_score": 45.0,
+      "freshness_score": 70,
+      "conviction": 10.0,
+      "evidence_mode": "market_only",
+      "event_count": 0,
+      "trend_state": "mixed",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=-0.015132",
+      "confirmation": [
+        "股价相对半导体指数转强",
+        "成交量放大且收盘站稳"
+      ],
+      "invalidation": [
+        "存储价格下行",
+        "库存恶化"
+      ],
+      "expires_at": "2026-08-21"
+    },
+    {
+      "asset": "001309",
+      "name": "德明利",
+      "as_of": "2026-08-14",
+      "bias": "neutral",
+      "status": "neutral",
+      "event_score": 50.0,
+      "market_score": 45.0,
+      "freshness_score": 70,
+      "conviction": 10.0,
+      "evidence_mode": "market_only",
+      "event_count": 0,
+      "trend_state": "mixed",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=-0.159471",
+      "confirmation": [
+        "相对存储板块止跌转强",
+        "放量突破短期压力位"
+      ],
+      "invalidation": [
+        "NAND跌价",
+        "渠道库存上升"
+      ],
+      "expires_at": "2026-08-21"
+    },
+    {
+      "asset": "300308",
+      "name": "中际旭创",
+      "as_of": "2026-08-14",
+      "bias": "neutral",
+      "status": "neutral",
+      "event_score": 50.0,
+      "market_score": 45.0,
+      "freshness_score": 70,
+      "conviction": 10.0,
+      "evidence_mode": "market_only",
+      "event_count": 0,
+      "trend_state": "mixed",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.04625",
+      "confirmation": [
+        "海外AI硬件与A股CPO同步走强",
+        "高位放量后能维持强势"
+      ],
+      "invalidation": [
+        "AI资本开支下修",
+        "客户延迟采购"
+      ],
+      "expires_at": "2026-08-21"
+    },
+    {
+      "asset": "002384",
+      "name": "东山精密",
+      "as_of": "2026-08-14",
+      "bias": "neutral",
+      "status": "neutral",
+      "event_score": 50.0,
+      "market_score": 45.0,
+      "freshness_score": 70,
+      "conviction": 10.0,
+      "evidence_mode": "market_only",
+      "event_count": 0,
+      "trend_state": "mixed",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=-0.068352",
+      "confirmation": [
+        "PCB板块扩散上涨",
+        "订单利好得到成交量确认"
+      ],
+      "invalidation": [
+        "终端需求下修",
+        "价格竞争"
+      ],
+      "expires_at": "2026-08-21"
+    },
+    {
+      "asset": "600667",
+      "name": "太极实业",
+      "as_of": "2026-08-14",
+      "bias": "bullish",
+      "status": "market_watch",
+      "event_score": 50.0,
+      "market_score": 85.0,
+      "freshness_score": 70,
+      "conviction": 55,
+      "evidence_mode": "market_only",
+      "event_count": 0,
+      "trend_state": "bullish",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.444685",
+      "confirmation": [
+        "半导体工程板块同步走强",
+        "事件后股价摆脱弱势结构"
+      ],
+      "invalidation": [
+        "资本开支延迟",
+        "项目回款承压"
+      ],
+      "expires_at": "2026-08-21"
+    },
+    {
+      "asset": "000636",
+      "name": "风华高科",
+      "as_of": "2026-08-14",
+      "bias": "bullish",
+      "status": "market_watch",
+      "event_score": 50.0,
+      "market_score": 85.0,
+      "freshness_score": 70,
+      "conviction": 55,
+      "evidence_mode": "market_only",
+      "event_count": 0,
+      "trend_state": "bullish",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.431637",
+      "confirmation": [
+        "被动元件板块形成联动",
+        "涨价新闻后价格走势能够确认"
+      ],
+      "invalidation": [
+        "价格下跌",
+        "库存去化不及预期"
+      ],
+      "expires_at": "2026-08-21"
+    },
+    {
+      "asset": "161226",
+      "name": "国投白银LOF",
+      "as_of": null,
+      "bias": "neutral",
+      "status": "neutral",
+      "event_score": 50.0,
+      "market_score": 50.0,
+      "freshness_score": 30,
+      "conviction": 0.0,
+      "evidence_mode": "market_only",
+      "event_count": 0,
+      "trend_state": "mixed",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=None",
+      "confirmation": [
+        "同时核对基金净值、场内价格和溢价率",
+        "银价上涨时场内溢价未继续扩大"
+      ],
+      "invalidation": [
+        "银价下跌",
+        "美元与实际利率上行"
+      ],
+      "expires_at": "2026-08-21"
+    },
+    {
+      "asset": "518880",
+      "name": "黄金ETF华安",
+      "as_of": "2026-08-14",
+      "bias": "bullish",
+      "status": "market_watch",
+      "event_score": 50.0,
+      "market_score": 85.0,
+      "freshness_score": 70,
+      "conviction": 55,
+      "evidence_mode": "market_only",
+      "event_count": 0,
+      "trend_state": "bullish",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.15988",
+      "confirmation": [
+        "外盘金价与国内黄金现货同向",
+        "ETF成交量与价格同步确认"
+      ],
+      "invalidation": [
+        "金价下跌",
+        "实际利率上行"
+      ],
+      "expires_at": "2026-08-21"
+    },
+    {
+      "asset": "517380",
+      "name": "创新药沪港深ETF天弘",
+      "as_of": "2026-08-14",
+      "bias": "bullish",
+      "status": "market_watch",
+      "event_score": 50.0,
+      "market_score": 85.0,
+      "freshness_score": 70,
+      "conviction": 55,
+      "evidence_mode": "market_only",
+      "event_count": 0,
+      "trend_state": "bullish",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.221676",
+      "confirmation": [
+        "A股与港股创新药板块形成联动",
+        "利好由成交量与持续性确认"
+      ],
+      "invalidation": [
+        "临床失败",
+        "监管或支付政策收紧"
+      ],
+      "expires_at": "2026-08-21"
+    }
+  ],
+  "methodology": {
+    "event_score": "50 + signed signal strength*10, aggregate capped to +/-5 strength units",
+    "market_score": "50 plus deterministic signs of 20d return, MA20 distance, 20d relative strength, 5d return and high-volume 1d confirmation",
+    "composite": "60% event + 40% market when a fresh mapped event exists; otherwise market score only",
+    "conviction": "distance of composite from neutral, scaled 0-100; market-only conviction capped at 55",
+    "status": "research state only; no position sizing or trade instruction"
+  }
+}
