@@ -1,5 +1,5 @@
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-15 16:00",
+  "generated_at": "2026-08-16 09:05",
   "source_generated_at": "2026-08-08 16:02",
   "generated_by": "ChatGPT Web",
   "status": "ready",
@@ -585,7 +585,9 @@ window.AI_SIGNALS = {
     "https://www.reuters.com/world/china/smic-profit-more-than-triples-ai-driven-chip-demand-2026-08-13/": "AI芯片需求推动中芯国际季度利润增至逾三倍",
     "https://www.reuters.com/world/china/chinese-chipmaker-smic-increases-prices-strong-ai-demand-2026-08-14/": "AI需求强劲，中芯国际上调晶圆代工价格",
     "https://www.reuters.com/business/wall-st-futures-muted-higher-oil-prices-temper-risk-appetite-after-sp-record-2026-08-14/": "投资者权衡经济数据与中东紧张局势，标普500指数收低",
-    "https://www.reuters.com/world/india/gold-heads-weekly-loss-investors-unwind-inflation-fuelled-rally-2026-08-14/": "美元走弱且通胀数据强化利率维持预期，黄金上涨"
+    "https://www.reuters.com/world/india/gold-heads-weekly-loss-investors-unwind-inflation-fuelled-rally-2026-08-14/": "美元走弱且通胀数据强化利率维持预期，黄金上涨",
+    "https://www.reuters.com/business/nvidia-talks-invest-3-billion-sb-energy-part-openai-data-center-deal-information-2026-08-15/": "英伟达据报拟向SB Energy投资至多30亿美元，支持OpenAI俄亥俄数据中心",
+    "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/": "英伟达缩减对OpenAI俄亥俄数据中心的融资担保"
   },
   "overseas_markets": [
     {
@@ -654,110 +656,29 @@ window.AI_SIGNALS = {
   ],
   "signals": [
     {
-      "event": "海外存储相对强势延续，A股设计端已承接但封测仍分化",
+      "event": "英伟达据报拟向SB Energy投资至多30亿美元，OpenAI俄亥俄数据中心融资路径进一步具体化",
       "industry": "tech",
-      "industry_name": "NAND / DRAM / 企业级SSD / 封测",
-      "direction": "mixed",
+      "industry_name": "AI数据中心 / CPO / 服务器PCB",
+      "direction": "positive",
       "strength": 4,
-      "horizon": "1-5d",
-      "priced_in": "medium",
-      "reason": "美股周五整体回落，但美光仍上涨约2.3%，海外存储景气交易保持相对强势。A股8月14日收盘兆易创新约涨3.21%、德明利约涨2.44%，设计端已形成当日承接；太极实业约跌3.49%，封测环节明显背离。周末无新增A股价格确认，整条存储链的同步趋势反转仍未成立。",
-      "assets": [
-        "603986",
-        "001309",
-        "600667"
-      ],
-      "validation": [
-        "兆易创新、德明利尾盘能否守住涨幅，并由太极实业或更多存储、封测标的转强确认",
-        "日韩存储权重与A股存储链能否在后续两个交易日保持同步而非冲高回落"
-      ],
-      "invalidation": [
-        "兆易创新、德明利转跌并跌破8月14日早盘低点",
-        "太极实业及存储、封测板块继续扩散下跌"
-      ],
-      "urls": [
-        "https://www.reuters.com/business/wall-st-futures-muted-higher-oil-prices-temper-risk-appetite-after-sp-record-2026-08-14/",
-        "https://www.google.com/finance/beta/quote/603986:SHA?hl=zh",
-        "https://www.google.com/finance/beta/quote/600667:SHA?hl=zh"
-      ]
-    },
-    {
-      "event": "中芯国际业绩超预期并提高晶圆价格，成熟制程景气改善但设计端成本上升",
-      "industry": "tech",
-      "industry_name": "晶圆代工 / 存储设计 / 封测",
-      "direction": "mixed",
-      "strength": 4,
-      "horizon": "1-5d",
-      "priced_in": "medium",
-      "reason": "中芯国际二季度营收同比增长36%至30.1亿美元，净利润增至4.792亿美元、超过市场预期，产能利用率升至93.7%；公司表示三季度晶圆价格上调，并预计收入环比增长2%—4%。高利用率和提价验证国内成熟制程需求偏强，对封测及国产半导体生态有支撑；但晶圆提价也可能压缩兆易创新等无晶圆厂设计公司的毛利，影响并非单向利好。",
-      "assets": [
-        "603986",
-        "600667"
-      ],
-      "validation": [
-        "半导体设计与封测板块能否同步放量，太极实业能否由下跌转为相对强势",
-        "后续晶圆提价能否由终端需求吸收，而非转化为设计公司毛利压力"
-      ],
-      "invalidation": [
-        "晶圆提价引发设计公司盈利预期下修，板块出现放量下跌",
-        "产能利用率或三季度订单指引后续被明显下修"
-      ],
-      "urls": [
-        "https://www.reuters.com/world/china/smic-profit-more-than-triples-ai-driven-chip-demand-2026-08-13/",
-        "https://www.reuters.com/world/china/chinese-chipmaker-smic-increases-prices-strong-ai-demand-2026-08-14/"
-      ]
-    },
-    {
-      "event": "美国弱零售与油价上涨压制科技估值，利率利好与增长忧虑并存",
-      "industry": "macro",
-      "industry_name": "美国通胀 / AI硬件 / 创新药",
-      "direction": "mixed",
-      "strength": 4,
-      "horizon": "1-5d",
-      "priced_in": "medium",
-      "reason": "美国7月零售销售意外下降，8月消费者信心初值51、低于预期；霍尔木兹海峡风险推动能源股和油价上行。标普500、纳指周五分别下跌0.17%和0.28%。弱数据降低9月加息概率，对成长估值有支撑，但经济放缓与油价再通胀风险构成反向压力；A股AI硬件仍需周一价格验证。",
+      "horizon": "1-4w",
+      "priced_in": "unknown",
+      "reason": "路透援引The Information称，英伟达正洽谈向软银旗下SB Energy投资至多30亿美元，用于开发面向OpenAI的俄亥俄大型数据中心。该项目若推进，将继续验证AI算力、电力、网络与服务器建设需求；但交易仍处洽谈阶段，且英伟达此前据报已将首阶段融资担保由原先讨论的2500亿美元下调至不足1200亿美元，说明资本承诺与风险控制并存。对中际旭创、东山精密的影响来自高速光模块与服务器PCB需求映射，具体供应份额尚未确认。",
       "assets": [
         "300308",
-        "002384",
-        "517380"
+        "002384"
       ],
       "validation": [
-        "10年期美债收益率和美元能否延续温和走势，纳指与费城半导体能否保持强势",
-        "中际旭创、东山精密及创新药ETF能否获得成交量确认并避免冲高回落"
+        "英伟达、SB Energy或OpenAI是否正式确认投资、绑定租约及首期建设时间表",
+        "周一CPO与服务器PCB板块能否相对科技指数放量转强并避免高开回落"
       ],
       "invalidation": [
-        "美债收益率与美元重新同步上行并压制成长股",
-        "CPO、PCB和创新药板块在利率利好下仍集体放量下跌"
+        "投资谈判终止、项目融资或OpenAI租约进一步缩减或延期",
+        "CPO与服务器PCB在新增资本开支消息后仍同步放量下跌"
       ],
       "urls": [
-        "https://www.reuters.com/business/wall-st-futures-muted-higher-oil-prices-temper-risk-appetite-after-sp-record-2026-08-14/",
-        "https://www.google.com/finance/beta/quote/300308:SHE?hl=zh",
-        "https://www.google.com/finance/beta/quote/002384:SHE?hl=zh"
-      ]
-    },
-    {
-      "event": "金银周五反弹，但白银LOF场内溢价与交易状态仍需独立核验",
-      "industry": "macro",
-      "industry_name": "黄金ETF / 白银LOF / 场内溢价",
-      "direction": "mixed",
-      "strength": 4,
-      "horizon": "intraday",
-      "priced_in": "unknown",
-      "reason": "8月14日现货黄金上涨0.7%至约4,379.95美元，现货白银上涨0.7%至约64.88美元，美元走弱及9月维持利率预期提供支撑；油价上行带来的再通胀风险仍可能限制贵金属估值。国投白银LOF还叠加净值、场内溢价、申购限制和停复牌机制，周末未获得新的可靠场内状态，不能把外盘反弹直接等同于LOF交易机会。",
-      "assets": [
-        "518880",
-        "161226"
-      ],
-      "validation": [
-        "黄金能否重新站上4,400美元，白银能否守住本周主要涨幅，人民币汇率如何影响国内映射",
-        "核验国投白银LOF最新净值、场内价格、溢价率及申购停复牌公告"
-      ],
-      "invalidation": [
-        "美元与实际利率上行并推动金银继续跌破8月13日低点",
-        "白银LOF溢价重新扩大或新增交易限制"
-      ],
-      "urls": [
-        "https://www.reuters.com/world/india/gold-heads-weekly-loss-investors-unwind-inflation-fuelled-rally-2026-08-14/"
+        "https://www.reuters.com/business/nvidia-talks-invest-3-billion-sb-energy-part-openai-data-center-deal-information-2026-08-15/",
+        "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/"
       ]
     }
   ]
