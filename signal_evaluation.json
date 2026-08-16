@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-08-16T12:23:03+08:00",
-  "history_generated_at": "2026-08-16T12:23:03+08:00",
+  "generated_at": "2026-08-16T13:02:12+08:00",
+  "history_generated_at": "2026-08-16T13:02:12+08:00",
   "summary": {
     "t1": {
       "settled": 0,
@@ -29,7 +29,7 @@
       "research_status": "market_watch",
       "conviction": 55,
       "entry_date": "2026-08-14",
-      "entry_close": 22.95,
+      "entry_close": 22.950000762939453,
       "mfe_20d": 0.052288,
       "mae_20d": -0.014815,
       "horizons": {
@@ -53,7 +53,7 @@
       "research_status": "market_watch",
       "conviction": 55,
       "entry_date": "2026-08-14",
-      "entry_close": 62.73,
+      "entry_close": 62.72999954223633,
       "mfe_20d": 0.015463,
       "mae_20d": -0.033158,
       "horizons": {
@@ -125,7 +125,7 @@
       "research_status": "watch",
       "conviction": 32.0,
       "entry_date": "2026-08-14",
-      "entry_close": 417.48,
+      "entry_close": 417.4800109863281,
       "mfe_20d": 0.008863,
       "mae_20d": -0.026181,
       "horizons": {
@@ -149,7 +149,7 @@
       "research_status": "watch",
       "conviction": 32.0,
       "entry_date": "2026-08-14",
-      "entry_close": 406.19,
+      "entry_close": 406.19000244140625,
       "mfe_20d": 0.021911,
       "mae_20d": -0.017701,
       "horizons": {
@@ -173,7 +173,7 @@
       "research_status": "active",
       "conviction": 64.0,
       "entry_date": "2026-08-14",
-      "entry_close": 22.95,
+      "entry_close": 22.950000762939453,
       "mfe_20d": 0.052288,
       "mae_20d": -0.014815,
       "horizons": {
@@ -221,7 +221,7 @@
       "research_status": "market_watch",
       "conviction": 55,
       "entry_date": "2026-08-14",
-      "entry_close": 22.95,
+      "entry_close": 22.950000762939453,
       "mfe_20d": 0.052288,
       "mae_20d": -0.014815,
       "horizons": {
@@ -245,7 +245,7 @@
       "research_status": "market_watch",
       "conviction": 55,
       "entry_date": "2026-08-14",
-      "entry_close": 62.73,
+      "entry_close": 62.72999954223633,
       "mfe_20d": 0.015463,
       "mae_20d": -0.033158,
       "horizons": {
@@ -296,6 +296,30 @@
       "entry_close": 0.873,
       "mfe_20d": 0.021764,
       "mae_20d": -0.011455,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "8758770ee3acaec7",
+      "asset": "600667",
+      "name": "太极实业",
+      "signal_date": "2026-08-14",
+      "bias": "bullish",
+      "research_status": "watch",
+      "conviction": 28.0,
+      "entry_date": "2026-08-14",
+      "entry_close": 22.950000762939453,
+      "mfe_20d": 0.052288,
+      "mae_20d": -0.014815,
       "horizons": {
         "t1": {
           "status": "pending"
