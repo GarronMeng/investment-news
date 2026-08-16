@@ -1,15 +1,15 @@
 {
   "version": 1,
-  "generated_at": "2026-08-16T12:09:23+08:00",
-  "source_generated_at": "2026-08-16T12:09:23+08:00",
+  "generated_at": "2026-08-16T12:09:45+08:00",
+  "source_generated_at": "2026-08-16T12:09:45+08:00",
   "benchmark": {
-    "code": "000300",
-    "name": "沪深300",
-    "as_of": "2026-07-17",
-    "status": "stale",
-    "ret_1d": -0.036042,
-    "ret_5d": -0.052646,
-    "ret_20d": -0.083475
+    "code": "510300",
+    "name": "沪深300ETF华泰柏瑞",
+    "as_of": "2026-08-14",
+    "status": "fresh",
+    "ret_1d": -0.000634,
+    "ret_5d": -0.005262,
+    "ret_20d": 0.029854
   },
   "assets": {
     "603986": {
@@ -25,8 +25,8 @@
       "ma60_distance": -0.204317,
       "volume_z20": -1.1094,
       "turnover_z20": null,
-      "relative_strength_5d": 0.053677,
-      "relative_strength_20d": -0.015132,
+      "relative_strength_5d": 0.006293,
+      "relative_strength_20d": -0.128461,
       "realized_vol_20d": 0.895524,
       "drawdown_20d": -0.122074,
       "trend_state": "mixed"
@@ -44,8 +44,8 @@
       "ma60_distance": -0.344518,
       "volume_z20": -1.4779,
       "turnover_z20": null,
-      "relative_strength_5d": 0.057669,
-      "relative_strength_20d": -0.159471,
+      "relative_strength_5d": 0.010285,
+      "relative_strength_20d": -0.272799,
       "realized_vol_20d": 0.937972,
       "drawdown_20d": -0.200413,
       "trend_state": "mixed"
@@ -63,11 +63,11 @@
       "ma60_distance": -0.151791,
       "volume_z20": -1.5338,
       "turnover_z20": null,
-      "relative_strength_5d": 0.077791,
-      "relative_strength_20d": 0.04625,
+      "relative_strength_5d": 0.030407,
+      "relative_strength_20d": -0.067079,
       "realized_vol_20d": 1.086082,
       "drawdown_20d": -0.170296,
-      "trend_state": "mixed"
+      "trend_state": "bearish"
     },
     "002384": {
       "code": "002384",
@@ -82,8 +82,8 @@
       "ma60_distance": -0.081154,
       "volume_z20": -1.7997,
       "turnover_z20": null,
-      "relative_strength_5d": 0.103448,
-      "relative_strength_20d": -0.068352,
+      "relative_strength_5d": 0.056064,
+      "relative_strength_20d": -0.181681,
       "realized_vol_20d": 0.974819,
       "drawdown_20d": -0.111732,
       "trend_state": "mixed"
@@ -101,8 +101,8 @@
       "ma60_distance": 0.168881,
       "volume_z20": 0.1147,
       "turnover_z20": null,
-      "relative_strength_5d": 0.227761,
-      "relative_strength_20d": 0.444685,
+      "relative_strength_5d": 0.180377,
+      "relative_strength_20d": 0.331356,
       "realized_vol_20d": 1.001984,
       "drawdown_20d": -0.034903,
       "trend_state": "bullish"
@@ -120,8 +120,8 @@
       "ma60_distance": 0.076439,
       "volume_z20": -0.7212,
       "turnover_z20": null,
-      "relative_strength_5d": 0.128817,
-      "relative_strength_20d": 0.431637,
+      "relative_strength_5d": 0.081433,
+      "relative_strength_20d": 0.318309,
       "realized_vol_20d": 0.912775,
       "drawdown_20d": -0.056834,
       "trend_state": "bullish"
@@ -158,8 +158,8 @@
       "ma60_distance": 0.023295,
       "volume_z20": 0.2489,
       "turnover_z20": null,
-      "relative_strength_5d": 0.058719,
-      "relative_strength_20d": 0.15988,
+      "relative_strength_5d": 0.011335,
+      "relative_strength_20d": 0.046551,
       "realized_vol_20d": 0.182037,
       "drawdown_20d": -0.017247,
       "trend_state": "bullish"
@@ -177,8 +177,8 @@
       "ma60_distance": 0.165502,
       "volume_z20": 0.7636,
       "turnover_z20": null,
-      "relative_strength_5d": 0.056094,
-      "relative_strength_20d": 0.221676,
+      "relative_strength_5d": 0.00871,
+      "relative_strength_20d": 0.108347,
       "realized_vol_20d": 0.364058,
       "drawdown_20d": -0.019101,
       "trend_state": "bullish"

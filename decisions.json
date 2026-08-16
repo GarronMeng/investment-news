@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generated_at": "2026-08-16T12:09:23+08:00",
+  "generated_at": "2026-08-16T12:09:46+08:00",
   "source": {
     "data_generated_at": "2026-08-16 12:06",
     "ai_generated_at": "2026-08-16 12:16",
     "ai_source_generated_at": "2026-08-16 12:06",
-    "features_generated_at": "2026-08-16T12:09:23+08:00",
+    "features_generated_at": "2026-08-16T12:09:45+08:00",
     "fresh_ai": true
   },
   "decisions": [
@@ -22,7 +22,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.015132",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.128461",
       "confirmation": [
         "DDR5与企业级SSD报价、服务器内存订单继续上修",
         "存储设计、模组与封测标的形成放量扩散且避免高开回落"
@@ -46,7 +46,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.159471",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.272799",
       "confirmation": [
         "DDR5与企业级SSD报价、服务器内存订单继续上修",
         "存储设计、模组与封测标的形成放量扩散且避免高开回落"
@@ -61,16 +61,16 @@
       "asset": "300308",
       "name": "中际旭创",
       "as_of": "2026-08-14",
-      "bias": "neutral",
+      "bias": "bearish",
       "status": "neutral",
       "event_score": 50.0,
-      "market_score": 45.0,
+      "market_score": 25.0,
       "freshness_score": 100,
-      "conviction": 4.0,
+      "conviction": 20.0,
       "evidence_mode": "event_plus_market",
       "event_count": 1,
-      "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=0.04625",
+      "trend_state": "bearish",
+      "why_now": "fresh event evidence; market trend=bearish; 20d relative strength=-0.067079",
       "confirmation": [
         "项目投资、租约与建设时间表得到正式确认，且融资利差未继续扩大",
         "CPO与服务器PCB相对科技指数放量转强并维持至少两个交易日"
@@ -94,7 +94,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.068352",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.181681",
       "confirmation": [
         "项目投资、租约与建设时间表得到正式确认，且融资利差未继续扩大",
         "CPO与服务器PCB相对科技指数放量转强并维持至少两个交易日"
@@ -118,7 +118,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.444685",
+      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.331356",
       "confirmation": [
         "DDR5与企业级SSD报价、服务器内存订单继续上修",
         "存储设计、模组与封测标的形成放量扩散且避免高开回落"
@@ -142,7 +142,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.431637",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.318309",
       "confirmation": [
         "被动元件板块形成联动",
         "涨价新闻后价格走势能够确认"
@@ -190,7 +190,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.15988",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.046551",
       "confirmation": [
         "外盘金价与国内黄金现货同向",
         "ETF成交量与价格同步确认"
@@ -214,7 +214,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.221676",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.108347",
       "confirmation": [
         "A股与港股创新药板块形成联动",
         "利好由成交量与持续性确认"
