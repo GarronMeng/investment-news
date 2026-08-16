@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Refresh daily OHLCV/amount history for the public watchlist.
 
-Eastmoney via AKShare is primary for A-shares, ETFs and LOFs. Yahoo daily chart
-is a dependency-free fallback. Failed refreshes preserve prior history as stale.
+Eastmoney via AKShare is primary for A-shares, ETFs and LOFs. A direct Eastmoney
+fund-kline fallback covers transient AKShare mapping failures, followed by Yahoo
+as the final fallback. Failed refreshes preserve prior history as stale.
 """
 
 import json
@@ -100,6 +101,57 @@ def akshare_history(code, kind, now=None):
     return rows
 
 
+def eastmoney_fund_history(code, now=None):
+    """Direct fallback matching AKShare's public Eastmoney fund kline contract."""
+    now = now or datetime.now(BEIJING)
+    start = (now.date() - timedelta(days=420)).strftime("%Y%m%d")
+    end = now.date().strftime("%Y%m%d")
+    endpoint = "https://push2his.eastmoney.com/api/qt/stock/kline/get"
+    last_error = None
+    for market_id in (0, 1):
+        params = {
+            "fields1": "f1,f2,f3,f4,f5,f6",
+            "fields2": "f51,f52,f53,f54,f55,f56,f57,f58,f59,f60,f61",
+            "ut": "7eea3edcaed734bea9cbfc24409ed989",
+            "klt": "101",
+            "fqt": "0",
+            "secid": f"{market_id}.{code}",
+            "beg": start,
+            "end": end,
+        }
+        try:
+            request = urllib.request.Request(
+                endpoint + "?" + urllib.parse.urlencode(params),
+                headers={"User-Agent": "Mozilla/5.0 investment-news/1.0"},
+            )
+            with urllib.request.urlopen(request, timeout=20) as response:
+                payload = json.loads(response.read().decode("utf-8"))
+            klines = (payload.get("data") or {}).get("klines") or []
+            rows = []
+            for item in klines:
+                values = item.split(",")
+                if len(values) < 7:
+                    continue
+                close = finite(values[2])
+                if close is None:
+                    continue
+                rows.append({
+                    "date": values[0],
+                    "open": finite(values[1]),
+                    "high": finite(values[3]),
+                    "low": finite(values[4]),
+                    "close": close,
+                    "volume": finite(values[5]),
+                    "amount": finite(values[6]),
+                })
+            if len(rows) >= 20:
+                return rows[-MAX_ROWS:]
+            last_error = RuntimeError(f"market {market_id} returned {len(rows)} rows")
+        except Exception as exc:
+            last_error = exc
+    raise RuntimeError(f"direct Eastmoney fund history failed for {code}: {last_error}")
+
+
 def yahoo_chart(symbol):
     endpoint = "https://query1.finance.yahoo.com/v8/finance/chart/"
     url = endpoint + urllib.parse.quote(symbol) + "?range=1y&interval=1d"
@@ -131,15 +183,15 @@ def yahoo_chart(symbol):
     return rows[-MAX_ROWS:]
 
 
-def series(code, name, symbol, kind, rows, source, error=None):
+def series(code, name, symbol, kind, rows, source, fallback_reason=None):
     last_date = rows[-1]["date"] if rows else None
     payload = {
         "code": str(code), "name": name, "symbol": symbol, "kind": kind,
         "status": fresh(last_date), "source": source,
         "last_date": last_date, "observations": len(rows), "rows": rows,
     }
-    if error:
-        payload["error"] = str(error)[:240]
+    if fallback_reason:
+        payload["fallback_reason"] = str(fallback_reason)[:240]
     return payload
 
 
@@ -150,7 +202,9 @@ def preserve(previous, code, name, symbol, kind, error, benchmark=False):
         kept["status"] = "stale"
         kept["error"] = str(error)[:240]
         return kept
-    return series(code, name, symbol, kind, [], "unavailable", error)
+    empty = series(code, name, symbol, kind, [], "unavailable")
+    empty["error"] = str(error)[:240]
+    return empty
 
 
 def refresh(code, name, symbol, kind, previous, warnings, benchmark=False):
@@ -159,12 +213,23 @@ def refresh(code, name, symbol, kind, previous, warnings, benchmark=False):
         return series(code, name, symbol, kind, rows, "东方财富 via AKShare")
     except Exception as primary:
         warnings.append(f"{code} AKShare: {primary}")
+
+    if kind in {"etf", "lof"}:
         try:
-            rows = yahoo_chart(symbol)
-            return series(code, name, symbol, kind, rows, "Yahoo Finance chart", primary)
-        except Exception as fallback:
-            warnings.append(f"{code} Yahoo: {fallback}")
-            return preserve(previous, code, name, symbol, kind, f"AKShare={primary}; Yahoo={fallback}", benchmark)
+            rows = eastmoney_fund_history(code)
+            return series(code, name, symbol, kind, rows, "东方财富 direct fallback", primary)
+        except Exception as direct_error:
+            warnings.append(f"{code} Eastmoney direct: {direct_error}")
+    else:
+        direct_error = None
+
+    try:
+        rows = yahoo_chart(symbol)
+        return series(code, name, symbol, kind, rows, "Yahoo Finance chart", primary)
+    except Exception as fallback:
+        warnings.append(f"{code} Yahoo: {fallback}")
+        reason = f"AKShare={primary}; direct={direct_error}; Yahoo={fallback}"
+        return preserve(previous, code, name, symbol, kind, reason, benchmark)
 
 
 def main():
@@ -191,7 +256,7 @@ def main():
         "summary": {"total": len(assets), "fresh": fresh_count, "stale": stale_count, "unavailable": len(assets) - fresh_count - stale_count},
         "assets": assets,
         "warnings": warnings,
-        "methodology": "Eastmoney via AKShare is primary for stock/ETF/LOF daily history; Yahoo chart is fallback; prior valid series is retained as stale on total failure; up to 140 observations retained.",
+        "methodology": "Eastmoney via AKShare is primary; direct Eastmoney fund kline covers ETF/LOF mapping failures; Yahoo chart is final fallback; prior valid series is retained as stale on total failure; up to 140 observations retained.",
     }
     with open(OUTPUT, "w", encoding="utf-8") as handle:
         json.dump(payload, handle, ensure_ascii=False, indent=2)
