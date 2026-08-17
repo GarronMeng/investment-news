@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generated_at": "2026-08-17T13:07:05+08:00",
+  "generated_at": "2026-08-17T13:53:48+08:00",
   "source": {
     "data_generated_at": "2026-08-17 12:27",
     "ai_generated_at": "2026-08-17 13:06",
     "ai_source_generated_at": "2026-08-17 12:27",
-    "features_generated_at": "2026-08-17T13:07:05+08:00",
+    "features_generated_at": "2026-08-17T13:53:48+08:00",
     "fresh_ai": true
   },
   "decisions": [
@@ -22,7 +22,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.015558",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.012112",
       "confirmation": [
         "午后及收盘三标的继续同步强于半导体指数，且随后一个交易日不出现集体高开低走",
         "DRAM/NAND报价、服务器订单或厂商指引继续提供产业数据确认"
@@ -46,7 +46,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.132755",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.130187",
       "confirmation": [
         "午后及收盘三标的继续同步强于半导体指数，且随后一个交易日不出现集体高开低走",
         "DRAM/NAND报价、服务器订单或厂商指引继续提供产业数据确认"
@@ -61,16 +61,16 @@
       "asset": "300308",
       "name": "中际旭创",
       "as_of": "2026-08-17",
-      "bias": "bearish",
+      "bias": "neutral",
       "status": "neutral",
       "event_score": 50.0,
-      "market_score": 25.0,
+      "market_score": 65.0,
       "freshness_score": 100,
-      "conviction": 20.0,
+      "conviction": 12.0,
       "evidence_mode": "event_plus_market",
       "event_count": 1,
-      "trend_state": "bearish",
-      "why_now": "fresh event evidence; market trend=bearish; 20d relative strength=-0.073569",
+      "trend_state": "mixed",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.023878",
       "confirmation": [
         "中际旭创转强并与东山精密、相关板块同步放量，至少维持两个交易日",
         "公司后续披露CPO、1.6T或AI服务器PCB订单与收入贡献"
@@ -88,13 +88,13 @@
       "bias": "neutral",
       "status": "neutral",
       "event_score": 50.0,
-      "market_score": 45.0,
+      "market_score": 65.0,
       "freshness_score": 100,
-      "conviction": 4.0,
+      "conviction": 12.0,
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.045929",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.026869",
       "confirmation": [
         "中际旭创转强并与东山精密、相关板块同步放量，至少维持两个交易日",
         "公司后续披露CPO、1.6T或AI服务器PCB订单与收入贡献"
@@ -118,7 +118,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.54035",
+      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.535077",
       "confirmation": [
         "午后及收盘三标的继续同步强于半导体指数，且随后一个交易日不出现集体高开低走",
         "DRAM/NAND报价、服务器订单或厂商指引继续提供产业数据确认"
@@ -142,7 +142,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.458685",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.472295",
       "confirmation": [
         "被动元件板块形成联动",
         "涨价新闻后价格走势能够确认"
