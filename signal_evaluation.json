@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-08-17T12:04:21+08:00",
-  "history_generated_at": "2026-08-17T12:04:20+08:00",
+  "generated_at": "2026-08-17T12:08:31+08:00",
+  "history_generated_at": "2026-08-17T12:08:30+08:00",
   "summary": {
     "t1": {
       "settled": 16,
@@ -165,7 +165,7 @@
       "conviction": 32.0,
       "entry_date": "2026-08-14",
       "entry_close": 406.19000244140625,
-      "mfe_20d": 0.0921,
+      "mfe_20d": 0.088185,
       "mae_20d": -0.017701,
       "horizons": {
         "t1": {
@@ -958,7 +958,7 @@
       "conviction": 44.0,
       "entry_date": "2026-08-17",
       "entry_close": 433.20001220703125,
-      "mfe_20d": 0.024007,
+      "mfe_20d": 0.020337,
       "mae_20d": -0.061404,
       "horizons": {
         "t1": {
