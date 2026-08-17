@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generated_at": "2026-08-17T14:00:50+08:00",
+  "generated_at": "2026-08-17T15:10:55+08:00",
   "source": {
     "data_generated_at": "2026-08-17 12:27",
-    "ai_generated_at": "2026-08-17 13:59",
+    "ai_generated_at": "2026-08-17 15:09",
     "ai_source_generated_at": "2026-08-17 12:27",
-    "features_generated_at": "2026-08-17T14:00:50+08:00",
+    "features_generated_at": "2026-08-17T15:10:55+08:00",
     "fresh_ai": true
   },
   "decisions": [
@@ -22,7 +22,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.012968",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.005409",
       "confirmation": [
         "午后及收盘三标的继续同步强于半导体指数，且随后一个交易日不出现集体高开低走",
         "DRAM/NAND报价、服务器订单或厂商指引继续提供产业数据确认"
@@ -46,7 +46,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.131823",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.130818",
       "confirmation": [
         "午后及收盘三标的继续同步强于半导体指数，且随后一个交易日不出现集体高开低走",
         "DRAM/NAND报价、服务器订单或厂商指引继续提供产业数据确认"
@@ -70,7 +70,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.037693",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.035431",
       "confirmation": [
         "收盘中际旭创与东山精密仍同步强于通信/电子指数，且随后一个交易日不出现集体高开低走",
         "公司后续披露CPO、1.6T或AI服务器PCB订单与收入贡献"
@@ -94,7 +94,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.033207",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.032795",
       "confirmation": [
         "收盘中际旭创与东山精密仍同步强于通信/电子指数，且随后一个交易日不出现集体高开低走",
         "公司后续披露CPO、1.6T或AI服务器PCB订单与收入贡献"
@@ -118,7 +118,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.533099",
+      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.540368",
       "confirmation": [
         "午后及收盘三标的继续同步强于半导体指数，且随后一个交易日不出现集体高开低走",
         "DRAM/NAND报价、服务器订单或厂商指引继续提供产业数据确认"
@@ -142,7 +142,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.472295",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.482331",
       "confirmation": [
         "被动元件板块形成联动",
         "涨价新闻后价格走势能够确认"
@@ -166,7 +166,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=0.004802",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=0.002183",
       "confirmation": [
         "金银价格在欧美时段继续获得成交确认，美元与实际利率未同步急升",
         "黄金ETF跟随人民币金价，白银LOF场内溢价未扩大且无新增交易限制"
@@ -190,7 +190,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 2,
       "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.046551",
+      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.043932",
       "confirmation": [
         "金银价格在欧美时段继续获得成交确认，美元与实际利率未同步急升",
         "黄金ETF跟随人民币金价，白银LOF场内溢价未扩大且无新增交易限制"
@@ -214,7 +214,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.108347",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.105728",
       "confirmation": [
         "A股与港股创新药板块形成联动",
         "利好由成交量与持续性确认"
