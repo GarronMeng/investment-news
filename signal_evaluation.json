@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-08-17T12:08:31+08:00",
-  "history_generated_at": "2026-08-17T12:08:30+08:00",
+  "generated_at": "2026-08-17T12:28:19+08:00",
+  "history_generated_at": "2026-08-17T12:28:19+08:00",
   "summary": {
     "t1": {
       "settled": 16,
@@ -984,6 +984,150 @@
       "entry_close": 23.81999969482422,
       "mfe_20d": 0.013434,
       "mae_20d": -0.06759,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "63f8fceaa68f1bf7",
+      "asset": "603986",
+      "name": "兆易创新",
+      "signal_date": "2026-08-17",
+      "bias": "bullish",
+      "research_status": "market_watch",
+      "conviction": 30.0,
+      "entry_date": "2026-08-17",
+      "entry_close": 438.4800109863281,
+      "mfe_20d": 0.010536,
+      "mae_20d": -0.041621,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "385aadc4ea2b0415",
+      "asset": "300308",
+      "name": "中际旭创",
+      "signal_date": "2026-08-17",
+      "bias": "bearish",
+      "research_status": "market_watch",
+      "conviction": 50.0,
+      "entry_date": "2026-08-17",
+      "entry_close": 960.1099853515625,
+      "mfe_20d": 0.044422,
+      "mae_20d": -0.011697,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "666c70e677aaa482",
+      "asset": "600667",
+      "name": "太极实业",
+      "signal_date": "2026-08-17",
+      "bias": "bullish",
+      "research_status": "market_watch",
+      "conviction": 55,
+      "entry_date": "2026-08-17",
+      "entry_close": 23.81999969482422,
+      "mfe_20d": 0.013434,
+      "mae_20d": -0.06759,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "628d809a4a6163ed",
+      "asset": "000636",
+      "name": "风华高科",
+      "signal_date": "2026-08-17",
+      "bias": "bullish",
+      "research_status": "market_watch",
+      "conviction": 55,
+      "entry_date": "2026-08-17",
+      "entry_close": 62.34000015258789,
+      "mfe_20d": 0.007379,
+      "mae_20d": -0.022778,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "3e7393d90016fd59",
+      "asset": "518880",
+      "name": "黄金ETF华安",
+      "signal_date": "2026-08-14",
+      "bias": "bullish",
+      "research_status": "market_watch",
+      "conviction": 55,
+      "entry_date": "2026-08-14",
+      "entry_close": 8.946,
+      "mfe_20d": 0.000335,
+      "mae_20d": -0.006148,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "58583318875f6d5d",
+      "asset": "517380",
+      "name": "创新药沪港深ETF天弘",
+      "signal_date": "2026-08-14",
+      "bias": "bullish",
+      "research_status": "market_watch",
+      "conviction": 55,
+      "entry_date": "2026-08-14",
+      "entry_close": 0.873,
+      "mfe_20d": 0.021764,
+      "mae_20d": -0.011455,
       "horizons": {
         "t1": {
           "status": "pending"
