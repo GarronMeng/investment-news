@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generated_at": "2026-08-17T10:04:05+08:00",
+  "generated_at": "2026-08-17T10:48:32+08:00",
   "source": {
     "data_generated_at": "2026-08-17 09:56",
     "ai_generated_at": "2026-08-17 10:03",
     "ai_source_generated_at": "2026-08-17 09:56",
-    "features_generated_at": "2026-08-17T10:04:05+08:00",
+    "features_generated_at": "2026-08-17T10:48:32+08:00",
     "fresh_ai": true
   },
   "decisions": [
@@ -22,7 +22,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "mixed",
-      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=-0.020601",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=-0.004173",
       "confirmation": [
         "股价相对半导体指数转强",
         "成交量放大且收盘站稳"
@@ -46,7 +46,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "mixed",
-      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=-0.160298",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=-0.113754",
       "confirmation": [
         "相对存储板块止跌转强",
         "放量突破短期压力位"
@@ -70,7 +70,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "bearish",
-      "why_now": "fresh event evidence; market trend=bearish; 20d relative strength=-0.083051",
+      "why_now": "fresh event evidence; market trend=bearish; 20d relative strength=-0.075812",
       "confirmation": [
         "中际旭创、东山精密及相关板块相对通信/电子指数放量转强，并维持至少两个交易日",
         "公司后续披露CPO、1.6T或AI服务器PCB订单与收入贡献"
@@ -94,7 +94,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.053875",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.039386",
       "confirmation": [
         "中际旭创、东山精密及相关板块相对通信/电子指数放量转强，并维持至少两个交易日",
         "公司后续披露CPO、1.6T或AI服务器PCB订单与收入贡献"
@@ -118,7 +118,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.475749",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.562757",
       "confirmation": [
         "半导体工程板块同步走强",
         "事件后股价摆脱弱势结构"
@@ -142,7 +142,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.451283",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.473218",
       "confirmation": [
         "被动元件板块形成联动",
         "涨价新闻后价格走势能够确认"
@@ -166,7 +166,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=0.004802",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=0.013366",
       "confirmation": [
         "油价与金银价格在周一亚洲、欧美时段继续获得成交确认，美元与实际利率未同步急升",
         "黄金ETF国内价格跟随人民币金价，国投白银LOF场内溢价未继续扩大且无新增交易限制"
@@ -190,7 +190,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 2,
       "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.046551",
+      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.055114",
       "confirmation": [
         "油价与金银价格在周一亚洲、欧美时段继续获得成交确认，美元与实际利率未同步急升",
         "黄金ETF国内价格跟随人民币金价，国投白银LOF场内溢价未继续扩大且无新增交易限制"
@@ -214,7 +214,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.108347",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.11691",
       "confirmation": [
         "A股与港股创新药板块形成联动",
         "利好由成交量与持续性确认"
