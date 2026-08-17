@@ -1,6 +1,6 @@
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-17 09:05",
-  "source_generated_at": "2026-08-17 07:46",
+  "generated_at": "2026-08-17 10:03",
+  "source_generated_at": "2026-08-17 09:56",
   "generated_by": "ChatGPT Web",
   "status": "ready",
   "news_titles": {
@@ -781,7 +781,29 @@ window.AI_SIGNALS = {
     "https://www.livescience.com/space/black-holes/astronomers-find-water-in-the-harsh-environment-near-the-milky-ways-black-hole-space-photo-of-the-week": "天文学家在银河系黑洞附近的严酷环境中发现水",
     "https://www.sciencedaily.com/releases/2026/08/260815064805.htm": "物理学家发现质子内部隐藏的胶子结构，或改写教科书",
     "https://www.sciencedaily.com/releases/2026/08/260815065014.htm": "科学家揭示为何行走会随年龄增长变得困难",
-    "https://www.livescience.com/space/which-building-blocks-of-life-have-been-found-in-space-and-which-havent": "太空中已发现和尚未发现哪些生命构件？"
+    "https://www.livescience.com/space/which-building-blocks-of-life-have-been-found-in-space-and-which-havent": "太空中已发现和尚未发现哪些生命构件？",
+    "https://www.digitimes.com/news/a20260817VL200/training-manufacturing-policy.html": "莫迪独立日演讲承诺建设更多芯片工厂、开展大规模AI培训并推动出口",
+    "https://www.digitimes.com/news/a20260817PR200/lg-nvidia-robot-data-manufacturing.html": "LG与英伟达深化在人形机器人、AI工厂和汽车领域的合作",
+    "https://www.electronicsweekly.com/blogs/mannerisms/ed-the-serial-ceo/ed-sorts-out-the-new-pm-2026-08": "Ed成为新首相的“问题解决者”",
+    "https://www.digitimes.com/news/a20260814VL227/solar-polysilicon-wafer-capacity-demand.html": "OCI减薄太阳能硅片，推动越南产量提升39%",
+    "https://www.digitimes.com/news/a20260814VL223/taiwan-monthly-tracker-ai-server-ccl-growth-revenue.html": "AI服务器追踪：需求推动台湾覆铜板、设计服务、载板与测试供应链强劲增长",
+    "https://www.digitimes.com/news/a20260814VL218/electronics-incentives-water-data-center-business.html": "印度综述：水资源、中印关系与芯片激励交织，电子产业推动加速",
+    "https://www.digitimes.com/news/a20260814PD234/2026-revenue-profit-growth-eps.html": "Twoway Communications借反无人机系统与无人车辆加快国防业务布局",
+    "https://www.energy-storage.news/relectrify-installs-first-ac1-inverterless-battery-storage-system-in-south-australia": "Relectrify在南澳大利亚部署首套无需逆变器的AC1电池储能系统",
+    "https://www.energy-storage.news/australian-renewable-energy-agency-backs-unsw-research-into-grid-forming-battery-storage-and-system-strength": "澳大利亚可再生能源署支持新南威尔士大学研究构网型电池储能与系统强度",
+    "https://www.energy-storage.news/australias-cheaper-home-batteries-program-officially-passes-500000-installations": "澳大利亚“更便宜家用电池”计划安装量正式突破50万套",
+    "https://www.tmtpost.com/8105300.html": "Edge AI Daily早报（8月17日）",
+    "https://www.tmtpost.com/8105342.html": "小马智行与Uber计划在欧洲部署超过2000辆Robotaxi",
+    "https://blog.racket-lang.org/2026/08/rhombus-v1.1.html": "Rhombus 1.1现已发布",
+    "https://www.techmeme.com/260816/p12": "AI角色走进媒体、时尚、电影和音乐行业：可主持播客、展示服装等",
+    "https://www.ischool.berkeley.edu/sites/default/files/vinton_report_5.pdf": "Direct File的生与死（PDF）",
+    "https://www.highereddive.com/news/inside-the-federal-keyword-lists-that-canceled-billions-in-research-funding/826203": "导致数十亿美元研究经费被取消的美国联邦关键词清单",
+    "https://brennan.day/webmaster-a-manifesto-for-everyone": "《网站管理员：给所有人的宣言》",
+    "https://reticulum.network": "Reticulum：去中心化网状网络",
+    "https://simonwillison.net/2026/Aug/16/qwen-38-27b": "Qwen 3.8 27B表现出色，但默认容易过度思考",
+    "https://9to5google.com/2026/08/16/googlebooks-desktop-camera": "Googlebook“桌面相机”应用最终界面曝光（图集）",
+    "https://wallstreetcn.com/articles/3779560": "美债逼近40万亿美元，美银Hartnett称做多黄金是当前优选",
+    "https://www.cnbc.com/2026/08/17/japan-gdp-misses-estimates-trade-exports-yen-nikkei.html": "日本第二季度GDP年化增长1.1%，低于预期"
   },
   "overseas_markets": [
     {
@@ -808,20 +830,21 @@ window.AI_SIGNALS = {
       "market": "日股",
       "flag": "🇯🇵",
       "session": "2026-08-17 早盘",
-      "updated_at": "2026-08-17 09:53 JST（08:53 北京时间）",
-      "status": "pending",
-      "status_label": "高开后回落至近乎平盘，第二报价源待补",
-      "move": "前收68,713.80｜开盘68,882.06（跳空+0.24%）｜09:53报68,713.10（约持平）",
-      "driver": "日本二季度GDP年化增长1.1%，低于2.0%的市场预期；消费持平、资本开支下降1.2%，但AI投资仍支撑半导体设备出口。",
+      "updated_at": "2026-08-17 10:03 北京时间",
+      "status": "positive",
+      "status_label": "低开预期落空，弱GDP推动宽松预期，早盘约涨0.5%",
+      "move": "前收68,713.80｜开盘68,882.06（跳空+0.24%）｜早盘报69,086.56（约+0.54%）",
+      "driver": "日本二季度GDP年化增长1.1%，低于2.0%的市场预期；消费持平、资本开支下降1.2%，市场据此提高日本央行延后加息的预期，非铁金属与海运领涨，但内需与资本开支偏弱仍是约束。",
       "a_share_links": [
         "半导体设备",
         "被动元件",
         "MLCC",
         "消费电子"
       ],
-      "validation": "补充第二独立报价源并观察日经能否守住68,610.50早盘低位，电子与半导体设备权重能否转强。",
+      "validation": "观察日经能否守住开盘位及半导体设备权重能否同步转强；若指数回落至前收附近，则不视为跨市场趋势确认。",
       "sources": [
         "https://indexes.nikkei.co.jp/en/nkave/index/profile",
+        "https://www.wsj.com/finance/stocks/nikkei-rises-0-5-weaker-2q-gdp-growth-could-prompt-a-boj-hold-0871a0ea",
         "https://www.reuters.com/world/asia-pacific/japans-economy-grows-slower-than-expected-april-june-2026-08-17/"
       ]
     },
@@ -829,7 +852,7 @@ window.AI_SIGNALS = {
       "market": "韩股",
       "flag": "🇰🇷",
       "session": "2026-08-17 休市",
-      "updated_at": "2026-08-17 09:05 北京时间",
+      "updated_at": "2026-08-17 10:03 北京时间",
       "status": "neutral",
       "status_label": "光复节补休，今日休市",
       "move": "最新正式行情为8月14日收盘6,977.94点，上涨2.42%；8月17日无开盘价",
@@ -849,28 +872,29 @@ window.AI_SIGNALS = {
   ],
   "signals": [
     {
-      "event": "英伟达Spectrum-X CPO交换机进入生产与出货阶段，光互联价值链开始结构重估",
+      "event": "英伟达Spectrum-X CPO出货叠加台湾AI服务器供应链增长，光互联与PCB需求增强但价值分配仍在重估",
       "industry": "tech",
-      "industry_name": "CPO / 高速光模块 / 数据中心网络",
+      "industry_name": "CPO / 高速光模块 / AI服务器PCB",
       "direction": "mixed",
       "strength": 4,
       "horizon": "1-3m",
       "priced_in": "unknown",
-      "reason": "英伟达CPO交换机已进入生产和出货阶段，验证AI集群网络带宽与能效升级需求；但CPO把部分光电转换环节由前面板可插拔模块移向交换芯片附近，可能改变传统可插拔光模块的价值分配。对中际旭创既有高速光互联需求增量，也有产品结构与客户份额重新分配风险；英伟达高管同时表示可插拔与CPO将长期并存，不能据此推导传统光模块立即被替代。",
+      "reason": "英伟达CPO交换机已进入生产和出货阶段，验证AI集群网络带宽与能效升级需求；台湾7月AI服务器追踪同时显示覆铜板、设计服务、载板与测试供应链增长，给东山精密所处PCB链提供需求侧旁证。但CPO把部分光电转换环节移向交换芯片附近，可能改变传统可插拔光模块的价值分配；英伟达高管表示可插拔与CPO将长期并存，因此不能据此推导传统光模块立即被替代或A股价格已确认。",
       "assets": [
-        "300308"
+        "300308",
+        "002384"
       ],
       "validation": [
-        "中际旭创及CPO板块相对通信指数放量转强，并维持至少两个交易日",
-        "公司后续披露CPO、光引擎或1.6T相关订单与收入贡献"
+        "中际旭创、东山精密及相关板块相对通信/电子指数放量转强，并维持至少两个交易日",
+        "公司后续披露CPO、1.6T或AI服务器PCB订单与收入贡献"
       ],
       "invalidation": [
         "CPO量产扩张时间表再次后延，或出货未形成客户部署",
-        "可插拔产品价格、订单或客户份额出现超预期下修"
+        "AI服务器供应链收入增速回落，或可插拔产品价格、订单与客户份额超预期下修"
       ],
       "urls": [
         "https://www.tmtpost.com/8104976.html",
-        "https://www.trendforce.com/presscenter/news/20260727-13151.html",
+        "https://www.digitimes.com/news/a20260814VL223/taiwan-monthly-tracker-ai-server-ccl-growth-revenue.html",
         "https://developer.nvidia.com/blog/scaling-ai-factories-with-co-packaged-optics-for-better-power-efficiency/"
       ]
     },
@@ -899,6 +923,30 @@ window.AI_SIGNALS = {
         "https://www.reuters.com/world/middle-east/shipping-via-hormuz-strait-slows-after-tanker-attacks-data-shows-2026-08-16/",
         "https://www.reuters.com/business/energy/oil-treads-water-us-iran-peace-talks-stall-hormuz-shipping-slows-2026-08-17/",
         "http://www.eeo.com.cn/2026/0817/1000761.shtml"
+      ]
+    },
+    {
+      "event": "美国联邦债务逼近40万亿美元，策略观点强化黄金配置逻辑但尚非价格确认",
+      "industry": "macro",
+      "industry_name": "黄金 / 美债 / 实际利率",
+      "direction": "positive",
+      "strength": 3,
+      "horizon": "1-3m",
+      "priced_in": "unknown",
+      "reason": "华尔街见闻援引美银策略师Michael Hartnett称，美国联邦债务逼近40万亿美元及财政约束强化黄金的中期配置逻辑。该内容属于策略观点，不能替代现货、美元和实际利率的独立验证；同时霍尔木兹风险推升油价，可能通过通胀与实际利率形成反向压力，因此仅作为结构性支持而非无条件方向判断。",
+      "assets": [
+        "518880"
+      ],
+      "validation": [
+        "人民币金价与黄金ETF成交同步走强，且美元指数和美国实际利率未持续上行",
+        "后续美国财政与债务数据继续恶化，同时金价突破近期高点并保持两个交易日以上"
+      ],
+      "invalidation": [
+        "美国实际利率与美元同步快速上行，黄金跌破近期支撑",
+        "债务与财政担忧缓和，或策略观点未获得价格和资金流确认"
+      ],
+      "urls": [
+        "https://wallstreetcn.com/articles/3779560"
       ]
     }
   ]
