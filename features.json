@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "generated_at": "2026-08-17T16:02:10+08:00",
-  "source_generated_at": "2026-08-17T16:02:10+08:00",
+  "generated_at": "2026-08-17T16:04:09+08:00",
+  "source_generated_at": "2026-08-17T16:04:09+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
-    "as_of": "2026-08-17",
+    "as_of": "2026-08-14",
     "status": "fresh",
-    "ret_1d": 0.01587,
-    "ret_5d": 0.008825,
-    "ret_20d": 0.032473
+    "ret_1d": -0.000634,
+    "ret_5d": -0.005262,
+    "ret_20d": 0.029854
   },
   "assets": {
     "603986": {
@@ -25,8 +25,8 @@
       "ma60_distance": -0.153106,
       "volume_z20": -0.3259,
       "turnover_z20": null,
-      "relative_strength_5d": 0.09283,
-      "relative_strength_20d": -0.005409,
+      "relative_strength_5d": 0.106917,
+      "relative_strength_20d": -0.002789,
       "realized_vol_20d": 0.892316,
       "drawdown_20d": -0.066305,
       "trend_state": "mixed"
@@ -42,10 +42,10 @@
       "ret_20d": -0.098345,
       "ma20_distance": 0.084032,
       "ma60_distance": -0.292843,
-      "volume_z20": -0.5139,
-      "turnover_z20": -0.2967,
-      "relative_strength_5d": 0.077502,
-      "relative_strength_20d": -0.130818,
+      "volume_z20": -0.5138,
+      "turnover_z20": null,
+      "relative_strength_5d": 0.091589,
+      "relative_strength_20d": -0.128199,
       "realized_vol_20d": 0.918018,
       "drawdown_20d": -0.142913,
       "trend_state": "mixed"
@@ -63,8 +63,8 @@
       "ma60_distance": -0.099095,
       "volume_z20": -0.3983,
       "turnover_z20": null,
-      "relative_strength_5d": 0.148997,
-      "relative_strength_20d": -0.035431,
+      "relative_strength_5d": 0.163084,
+      "relative_strength_20d": -0.032812,
       "realized_vol_20d": 1.103492,
       "drawdown_20d": -0.119238,
       "trend_state": "mixed"
@@ -82,8 +82,8 @@
       "ma60_distance": -0.025103,
       "volume_z20": -1.0108,
       "turnover_z20": null,
-      "relative_strength_5d": 0.161767,
-      "relative_strength_20d": -0.032795,
+      "relative_strength_5d": 0.175855,
+      "relative_strength_20d": -0.030175,
       "realized_vol_20d": 0.93347,
       "drawdown_20d": -0.057749,
       "trend_state": "mixed"
@@ -101,8 +101,8 @@
       "ma60_distance": 0.203733,
       "volume_z20": 0.1103,
       "turnover_z20": null,
-      "relative_strength_5d": 0.229369,
-      "relative_strength_20d": 0.540368,
+      "relative_strength_5d": 0.243456,
+      "relative_strength_20d": 0.542987,
       "realized_vol_20d": 0.901747,
       "drawdown_20d": 0.0,
       "trend_state": "bullish"
@@ -120,8 +120,8 @@
       "ma60_distance": 0.080642,
       "volume_z20": -0.7957,
       "turnover_z20": null,
-      "relative_strength_5d": 0.019376,
-      "relative_strength_20d": 0.482331,
+      "relative_strength_5d": 0.033463,
+      "relative_strength_20d": 0.48495,
       "realized_vol_20d": 0.801654,
       "drawdown_20d": -0.046159,
       "trend_state": "bullish"
@@ -139,8 +139,8 @@
       "ma60_distance": -0.055998,
       "volume_z20": -0.1234,
       "turnover_z20": -0.2012,
-      "relative_strength_5d": -0.161686,
-      "relative_strength_20d": 0.002183,
+      "relative_strength_5d": -0.147598,
+      "relative_strength_20d": 0.004802,
       "realized_vol_20d": 0.571351,
       "drawdown_20d": -0.15286,
       "trend_state": "mixed"
@@ -158,8 +158,8 @@
       "ma60_distance": 0.023295,
       "volume_z20": 0.2489,
       "turnover_z20": 0.2892,
-      "relative_strength_5d": -0.002753,
-      "relative_strength_20d": 0.043932,
+      "relative_strength_5d": 0.011335,
+      "relative_strength_20d": 0.046551,
       "realized_vol_20d": 0.182036,
       "drawdown_20d": -0.017247,
       "trend_state": "bullish"
@@ -177,8 +177,8 @@
       "ma60_distance": 0.165502,
       "volume_z20": 0.7636,
       "turnover_z20": 0.794,
-      "relative_strength_5d": -0.005377,
-      "relative_strength_20d": 0.105728,
+      "relative_strength_5d": 0.00871,
+      "relative_strength_20d": 0.108347,
       "realized_vol_20d": 0.364058,
       "drawdown_20d": -0.019101,
       "trend_state": "bullish"
