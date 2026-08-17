@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generated_at": "2026-08-17T10:48:32+08:00",
+  "generated_at": "2026-08-17T11:03:03+08:00",
   "source": {
     "data_generated_at": "2026-08-17 09:56",
-    "ai_generated_at": "2026-08-17 10:03",
+    "ai_generated_at": "2026-08-17 11:02",
     "ai_source_generated_at": "2026-08-17 09:56",
-    "features_generated_at": "2026-08-17T10:48:32+08:00",
+    "features_generated_at": "2026-08-17T11:03:03+08:00",
     "fresh_ai": true
   },
   "decisions": [
@@ -14,48 +14,48 @@
       "name": "兆易创新",
       "as_of": "2026-08-17",
       "bias": "bullish",
-      "status": "market_watch",
-      "event_score": 50.0,
+      "status": "active",
+      "event_score": 90.0,
       "market_score": 65.0,
       "freshness_score": 100,
-      "conviction": 30.0,
-      "evidence_mode": "market_only",
-      "event_count": 0,
+      "conviction": 60.0,
+      "evidence_mode": "event_plus_market",
+      "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=-0.004173",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.001856",
       "confirmation": [
-        "股价相对半导体指数转强",
-        "成交量放大且收盘站稳"
+        "午后及收盘三标的仍同步强于半导体指数，且后续至少一个交易日不出现集体高开低走",
+        "DRAM/NAND报价、服务器订单或厂商指引继续提供产业数据确认"
       ],
       "invalidation": [
-        "存储价格下行",
-        "库存恶化"
+        "三标的午后明显回落并失去同步性，或随后一个交易日集体转弱",
+        "存储报价与订单未改善，或扩产预期压制价格与毛利"
       ],
-      "expires_at": "2026-08-22"
+      "expires_at": "2026-09-14"
     },
     {
       "asset": "001309",
       "name": "德明利",
       "as_of": "2026-08-17",
-      "bias": "neutral",
-      "status": "neutral",
-      "event_score": 50.0,
+      "bias": "bullish",
+      "status": "watch",
+      "event_score": 90.0,
       "market_score": 45.0,
       "freshness_score": 100,
-      "conviction": 10.0,
-      "evidence_mode": "market_only",
-      "event_count": 0,
+      "conviction": 44.0,
+      "evidence_mode": "event_plus_market",
+      "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=-0.113754",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.118041",
       "confirmation": [
-        "相对存储板块止跌转强",
-        "放量突破短期压力位"
+        "午后及收盘三标的仍同步强于半导体指数，且后续至少一个交易日不出现集体高开低走",
+        "DRAM/NAND报价、服务器订单或厂商指引继续提供产业数据确认"
       ],
       "invalidation": [
-        "NAND跌价",
-        "渠道库存上升"
+        "三标的午后明显回落并失去同步性，或随后一个交易日集体转弱",
+        "存储报价与订单未改善，或扩产预期压制价格与毛利"
       ],
-      "expires_at": "2026-08-22"
+      "expires_at": "2026-09-14"
     },
     {
       "asset": "300308",
@@ -70,14 +70,14 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "bearish",
-      "why_now": "fresh event evidence; market trend=bearish; 20d relative strength=-0.075812",
+      "why_now": "fresh event evidence; market trend=bearish; 20d relative strength=-0.066038",
       "confirmation": [
-        "中际旭创、东山精密及相关板块相对通信/电子指数放量转强，并维持至少两个交易日",
+        "中际旭创转强并与东山精密、相关板块同步放量，至少维持两个交易日",
         "公司后续披露CPO、1.6T或AI服务器PCB订单与收入贡献"
       ],
       "invalidation": [
-        "CPO量产扩张时间表再次后延，或出货未形成客户部署",
-        "AI服务器供应链收入增速回落，或可插拔产品价格、订单与客户份额超预期下修"
+        "中际旭创继续弱于通信指数，CPO与PCB分化扩大",
+        "AI服务器供应链收入增速回落，或可插拔产品订单与客户份额超预期下修"
       ],
       "expires_at": "2026-11-15"
     },
@@ -94,14 +94,14 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.039386",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.040482",
       "confirmation": [
-        "中际旭创、东山精密及相关板块相对通信/电子指数放量转强，并维持至少两个交易日",
+        "中际旭创转强并与东山精密、相关板块同步放量，至少维持两个交易日",
         "公司后续披露CPO、1.6T或AI服务器PCB订单与收入贡献"
       ],
       "invalidation": [
-        "CPO量产扩张时间表再次后延，或出货未形成客户部署",
-        "AI服务器供应链收入增速回落，或可插拔产品价格、订单与客户份额超预期下修"
+        "中际旭创继续弱于通信指数，CPO与PCB分化扩大",
+        "AI服务器供应链收入增速回落，或可插拔产品订单与客户份额超预期下修"
       ],
       "expires_at": "2026-11-15"
     },
@@ -110,24 +110,24 @@
       "name": "太极实业",
       "as_of": "2026-08-17",
       "bias": "bullish",
-      "status": "market_watch",
-      "event_score": 50.0,
+      "status": "active",
+      "event_score": 90.0,
       "market_score": 85.0,
       "freshness_score": 100,
-      "conviction": 55,
-      "evidence_mode": "market_only",
-      "event_count": 0,
+      "conviction": 76.0,
+      "evidence_mode": "event_plus_market",
+      "event_count": 1,
       "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.562757",
+      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.556665",
       "confirmation": [
-        "半导体工程板块同步走强",
-        "事件后股价摆脱弱势结构"
+        "午后及收盘三标的仍同步强于半导体指数，且后续至少一个交易日不出现集体高开低走",
+        "DRAM/NAND报价、服务器订单或厂商指引继续提供产业数据确认"
       ],
       "invalidation": [
-        "资本开支延迟",
-        "项目回款承压"
+        "三标的午后明显回落并失去同步性，或随后一个交易日集体转弱",
+        "存储报价与订单未改善，或扩产预期压制价格与毛利"
       ],
-      "expires_at": "2026-08-22"
+      "expires_at": "2026-09-14"
     },
     {
       "asset": "000636",
@@ -142,7 +142,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.473218",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.468751",
       "confirmation": [
         "被动元件板块形成联动",
         "涨价新闻后价格走势能够确认"
@@ -166,13 +166,13 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=0.013366",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=0.01057",
       "confirmation": [
-        "油价与金银价格在周一亚洲、欧美时段继续获得成交确认，美元与实际利率未同步急升",
-        "黄金ETF国内价格跟随人民币金价，国投白银LOF场内溢价未继续扩大且无新增交易限制"
+        "金银价格在欧美时段继续获得成交确认，美元与实际利率未同步急升",
+        "黄金ETF跟随人民币金价，白银LOF场内溢价未扩大且无新增交易限制"
       ],
       "invalidation": [
-        "美伊谈判恢复并推动航运量明显回升、油价快速回吐周涨幅",
+        "美伊谈判恢复、航运量明显回升且油价快速回吐",
         "美元与实际利率持续上行，黄金白银跌破近期支撑"
       ],
       "expires_at": "2026-08-22"
@@ -190,13 +190,13 @@
       "evidence_mode": "event_plus_market",
       "event_count": 2,
       "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.055114",
+      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.052319",
       "confirmation": [
-        "油价与金银价格在周一亚洲、欧美时段继续获得成交确认，美元与实际利率未同步急升",
-        "黄金ETF国内价格跟随人民币金价，国投白银LOF场内溢价未继续扩大且无新增交易限制"
+        "金银价格在欧美时段继续获得成交确认，美元与实际利率未同步急升",
+        "黄金ETF跟随人民币金价，白银LOF场内溢价未扩大且无新增交易限制"
       ],
       "invalidation": [
-        "美伊谈判恢复并推动航运量明显回升、油价快速回吐周涨幅",
+        "美伊谈判恢复、航运量明显回升且油价快速回吐",
         "美元与实际利率持续上行，黄金白银跌破近期支撑"
       ],
       "expires_at": "2026-11-15"
@@ -214,7 +214,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.11691",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.114115",
       "confirmation": [
         "A股与港股创新药板块形成联动",
         "利好由成交量与持续性确认"
