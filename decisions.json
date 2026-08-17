@@ -1,28 +1,28 @@
 {
   "version": 1,
-  "generated_at": "2026-08-17T09:07:18+08:00",
+  "generated_at": "2026-08-17T09:57:42+08:00",
   "source": {
-    "data_generated_at": "2026-08-17 07:46",
+    "data_generated_at": "2026-08-17 09:56",
     "ai_generated_at": "2026-08-17 09:05",
     "ai_source_generated_at": "2026-08-17 07:46",
-    "features_generated_at": "2026-08-17T09:07:18+08:00",
-    "fresh_ai": true
+    "features_generated_at": "2026-08-17T09:57:42+08:00",
+    "fresh_ai": false
   },
   "decisions": [
     {
       "asset": "603986",
       "name": "兆易创新",
-      "as_of": "2026-08-14",
+      "as_of": "2026-08-17",
       "bias": "neutral",
       "status": "neutral",
       "event_score": 50.0,
-      "market_score": 47.5,
-      "freshness_score": 30,
-      "conviction": 5.0,
+      "market_score": 45.0,
+      "freshness_score": 70,
+      "conviction": 10.0,
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "mixed",
-      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=-0.128461",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=-0.018537",
       "confirmation": [
         "股价相对半导体指数转强",
         "成交量放大且收盘站稳"
@@ -36,17 +36,17 @@
     {
       "asset": "001309",
       "name": "德明利",
-      "as_of": "2026-08-14",
+      "as_of": "2026-08-17",
       "bias": "neutral",
       "status": "neutral",
       "event_score": 50.0,
       "market_score": 45.0,
-      "freshness_score": 100,
+      "freshness_score": 70,
       "conviction": 10.0,
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "mixed",
-      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=-0.2728",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=-0.158018",
       "confirmation": [
         "相对存储板块止跌转强",
         "放量突破短期压力位"
@@ -60,41 +60,41 @@
     {
       "asset": "300308",
       "name": "中际旭创",
-      "as_of": "2026-08-14",
+      "as_of": "2026-08-17",
       "bias": "bearish",
-      "status": "neutral",
+      "status": "market_watch",
       "event_score": 50.0,
       "market_score": 25.0,
-      "freshness_score": 100,
-      "conviction": 20.0,
-      "evidence_mode": "event_plus_market",
-      "event_count": 1,
+      "freshness_score": 70,
+      "conviction": 50.0,
+      "evidence_mode": "market_only",
+      "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "fresh event evidence; market trend=bearish; 20d relative strength=-0.067079",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.093322",
       "confirmation": [
-        "中际旭创及CPO板块相对通信指数放量转强，并维持至少两个交易日",
-        "公司后续披露CPO、光引擎或1.6T相关订单与收入贡献"
+        "海外AI硬件与A股CPO同步走强",
+        "高位放量后能维持强势"
       ],
       "invalidation": [
-        "CPO量产扩张时间表再次后延，或出货未形成客户部署",
-        "可插拔产品价格、订单或客户份额出现超预期下修"
+        "AI资本开支下修",
+        "客户延迟采购"
       ],
-      "expires_at": "2026-11-15"
+      "expires_at": "2026-08-22"
     },
     {
       "asset": "002384",
       "name": "东山精密",
-      "as_of": "2026-08-14",
+      "as_of": "2026-08-17",
       "bias": "neutral",
       "status": "neutral",
       "event_score": 50.0,
       "market_score": 45.0,
-      "freshness_score": 100,
+      "freshness_score": 70,
       "conviction": 10.0,
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "mixed",
-      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=-0.181681",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=-0.062323",
       "confirmation": [
         "PCB板块扩散上涨",
         "订单利好得到成交量确认"
@@ -108,17 +108,17 @@
     {
       "asset": "600667",
       "name": "太极实业",
-      "as_of": "2026-08-14",
+      "as_of": "2026-08-17",
       "bias": "bullish",
       "status": "market_watch",
       "event_score": 50.0,
       "market_score": 85.0,
-      "freshness_score": 100,
+      "freshness_score": 70,
       "conviction": 55,
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.331356",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.492583",
       "confirmation": [
         "半导体工程板块同步走强",
         "事件后股价摆脱弱势结构"
@@ -132,17 +132,17 @@
     {
       "asset": "000636",
       "name": "风华高科",
-      "as_of": "2026-08-14",
+      "as_of": "2026-08-17",
       "bias": "bullish",
       "status": "market_watch",
       "event_score": 50.0,
-      "market_score": 85.0,
-      "freshness_score": 100,
-      "conviction": 55,
+      "market_score": 75.0,
+      "freshness_score": 70,
+      "conviction": 50.0,
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.318309",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.444878",
       "confirmation": [
         "被动元件板块形成联动",
         "涨价新闻后价格走势能够确认"
@@ -156,65 +156,65 @@
     {
       "asset": "161226",
       "name": "国投白银LOF",
-      "as_of": "2026-08-14",
+      "as_of": "2026-08-17",
       "bias": "neutral",
       "status": "neutral",
       "event_score": 50.0,
       "market_score": 55.0,
-      "freshness_score": 100,
-      "conviction": 4.0,
-      "evidence_mode": "event_plus_market",
-      "event_count": 1,
+      "freshness_score": 70,
+      "conviction": 10.0,
+      "evidence_mode": "market_only",
+      "event_count": 0,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=0.004802",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.026206",
       "confirmation": [
-        "油价与金银价格在周一亚洲、欧美时段继续获得成交确认，美元与实际利率未同步急升",
-        "黄金ETF国内价格跟随人民币金价，国投白银LOF场内溢价未继续扩大且无新增交易限制"
+        "同时核对基金净值、场内价格和溢价率",
+        "银价上涨时场内溢价未继续扩大"
       ],
       "invalidation": [
-        "美伊谈判恢复并推动航运量明显回升、油价快速回吐周涨幅",
-        "美元与实际利率持续上行，黄金白银跌破近期支撑"
+        "银价下跌",
+        "美元与实际利率上行"
       ],
       "expires_at": "2026-08-22"
     },
     {
       "asset": "518880",
       "name": "黄金ETF华安",
-      "as_of": "2026-08-14",
+      "as_of": "2026-08-17",
       "bias": "bullish",
-      "status": "watch",
+      "status": "market_watch",
       "event_score": 50.0,
       "market_score": 85.0,
-      "freshness_score": 100,
-      "conviction": 28.0,
-      "evidence_mode": "event_plus_market",
-      "event_count": 1,
+      "freshness_score": 70,
+      "conviction": 55,
+      "evidence_mode": "market_only",
+      "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.046551",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.070848",
       "confirmation": [
-        "油价与金银价格在周一亚洲、欧美时段继续获得成交确认，美元与实际利率未同步急升",
-        "黄金ETF国内价格跟随人民币金价，国投白银LOF场内溢价未继续扩大且无新增交易限制"
+        "外盘金价与国内黄金现货同向",
+        "ETF成交量与价格同步确认"
       ],
       "invalidation": [
-        "美伊谈判恢复并推动航运量明显回升、油价快速回吐周涨幅",
-        "美元与实际利率持续上行，黄金白银跌破近期支撑"
+        "金价下跌",
+        "实际利率上行"
       ],
       "expires_at": "2026-08-22"
     },
     {
       "asset": "517380",
       "name": "创新药沪港深ETF天弘",
-      "as_of": "2026-08-14",
+      "as_of": "2026-08-17",
       "bias": "bullish",
       "status": "market_watch",
       "event_score": 50.0,
       "market_score": 85.0,
-      "freshness_score": 100,
+      "freshness_score": 70,
       "conviction": 55,
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.108347",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.091252",
       "confirmation": [
         "A股与港股创新药板块形成联动",
         "利好由成交量与持续性确认"
