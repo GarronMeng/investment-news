@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-17T15:17:33+08:00",
+  "generated_at": "2026-08-17T15:59:38+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -33,7 +33,7 @@
       "previous_close": 406.19,
       "change_pct": 7.19,
       "open": 410.0199890136719,
-      "high": 443.6000061035156,
+      "high": 442.010009765625,
       "low": 406.6000061035156,
       "turnover": null,
       "as_of": "2026-08-17T09:30:00+08:00",
@@ -116,7 +116,7 @@
       "high": 1.8980000019073486,
       "low": 1.8769999742507935,
       "turnover": null,
-      "as_of": "2026-08-17T15:02:57+08:00",
+      "as_of": "2026-08-17T15:04:57+08:00",
       "status": "fresh",
       "confidence": "low",
       "source": "Yahoo Finance"
@@ -132,7 +132,7 @@
       "high": null,
       "low": null,
       "turnover": 4032553610.0,
-      "as_of": "2026-08-17T15:17:33+08:00",
+      "as_of": "2026-08-17T15:59:38+08:00",
       "status": "fresh",
       "confidence": "medium",
       "source": "东方财富 via AKShare"
@@ -148,7 +148,7 @@
       "high": null,
       "low": null,
       "turnover": 158576073.0,
-      "as_of": "2026-08-17T15:17:33+08:00",
+      "as_of": "2026-08-17T15:59:38+08:00",
       "status": "fresh",
       "confidence": "medium",
       "source": "东方财富 via AKShare"
