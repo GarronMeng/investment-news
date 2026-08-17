@@ -1,5 +1,5 @@
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-17 10:03",
+  "generated_at": "2026-08-17 11:02",
   "source_generated_at": "2026-08-17 09:56",
   "generated_by": "ChatGPT Web",
   "status": "ready",
@@ -821,7 +821,7 @@ window.AI_SIGNALS = {
         "企业级SSD",
         "CPO"
       ],
-      "validation": "观察A股存储设计、模组与封测是否继续强于科技指数，以及油价上行是否推升利率与成长估值压力。",
+      "validation": "A股盘中存储设计、模组与封测已同步走强；继续观察午后能否守住涨幅，以及油价上行是否推升利率并压制成长估值。",
       "sources": [
         "https://www.reuters.com/business/wall-st-futures-muted-higher-oil-prices-temper-risk-appetite-after-sp-record-2026-08-14/"
       ]
@@ -830,29 +830,29 @@ window.AI_SIGNALS = {
       "market": "日股",
       "flag": "🇯🇵",
       "session": "2026-08-17 早盘",
-      "updated_at": "2026-08-17 10:03 北京时间",
-      "status": "positive",
-      "status_label": "低开预期落空，弱GDP推动宽松预期，早盘约涨0.5%",
-      "move": "前收68,713.80｜开盘68,882.06（跳空+0.24%）｜早盘报69,086.56（约+0.54%）",
-      "driver": "日本二季度GDP年化增长1.1%，低于2.0%的市场预期；消费持平、资本开支下降1.2%，市场据此提高日本央行延后加息的预期，非铁金属与海运领涨，但内需与资本开支偏弱仍是约束。",
+      "updated_at": "2026-08-17 11:02 北京时间",
+      "status": "pending",
+      "status_label": "早盘先涨后回落，不同观测时点报价方向改变",
+      "move": "前收68,713.80｜官方/MarketWatch开盘68,882.06（跳空+0.24%）｜WSJ早段69,086.56（约+0.54%）｜Trading Economics稍后约68,669（约-0.07%）；因观测时点不同，未作同刻交叉验证",
+      "driver": "日本二季度GDP年化增长1.1%，低于2.0%的预期；早段市场交易日本央行延后加息预期，随后指数回吐。内需与资本开支偏弱，以及半导体权重能否承接，仍需午后确认。",
       "a_share_links": [
         "半导体设备",
         "被动元件",
         "MLCC",
         "消费电子"
       ],
-      "validation": "观察日经能否守住开盘位及半导体设备权重能否同步转强；若指数回落至前收附近，则不视为跨市场趋势确认。",
+      "validation": "核验午间与收盘正式点位，并观察日经能否重返开盘位、半导体设备权重能否同步转强。",
       "sources": [
         "https://indexes.nikkei.co.jp/en/nkave/index/profile",
         "https://www.wsj.com/finance/stocks/nikkei-rises-0-5-weaker-2q-gdp-growth-could-prompt-a-boj-hold-0871a0ea",
-        "https://www.reuters.com/world/asia-pacific/japans-economy-grows-slower-than-expected-april-june-2026-08-17/"
+        "https://tradingeconomics.com/japan/stock-market"
       ]
     },
     {
       "market": "韩股",
       "flag": "🇰🇷",
       "session": "2026-08-17 休市",
-      "updated_at": "2026-08-17 10:03 北京时间",
+      "updated_at": "2026-08-17 11:02 北京时间",
       "status": "neutral",
       "status_label": "光复节补休，今日休市",
       "move": "最新正式行情为8月14日收盘6,977.94点，上涨2.42%；8月17日无开盘价",
@@ -863,7 +863,7 @@ window.AI_SIGNALS = {
         "NAND",
         "封测"
       ],
-      "validation": "8月18日核验KOSPI、三星电子与SK海力士开盘及存储链持续性。",
+      "validation": "8月18日开市后核验KOSPI、三星电子与SK海力士开盘及存储链持续性。",
       "sources": [
         "https://global.krx.co.kr/main/main.jsp",
         "https://www.tradinghours.com/markets/krx"
@@ -872,25 +872,52 @@ window.AI_SIGNALS = {
   ],
   "signals": [
     {
+      "event": "服务器DDR5升级与内存供给议题获A股存储链同步上涨确认",
+      "industry": "semi",
+      "industry_name": "DRAM / NAND / 服务器内存 / 半导体工程",
+      "direction": "positive",
+      "strength": 4,
+      "horizon": "1-4w",
+      "priced_in": "medium",
+      "reason": "服务器DDR5 9600 RDIMM提升带宽基准，Intel内存路线与产业供给议题继续强化服务器内存升级逻辑。10:46行情批次显示兆易创新约涨4.34%、德明利约涨3.37%、太极实业约涨4.66%，存储设计、模组与半导体工程形成三标的同步反馈，较10:03版本构成材料性价格确认；但相关个股使用Yahoo备用源、置信度偏低，且尚未获得成交量与连续收盘确认。",
+      "assets": [
+        "603986",
+        "001309",
+        "600667"
+      ],
+      "validation": [
+        "午后及收盘三标的仍同步强于半导体指数，且后续至少一个交易日不出现集体高开低走",
+        "DRAM/NAND报价、服务器订单或厂商指引继续提供产业数据确认"
+      ],
+      "invalidation": [
+        "三标的午后明显回落并失去同步性，或随后一个交易日集体转弱",
+        "存储报价与订单未改善，或扩产预期压制价格与毛利"
+      ],
+      "urls": [
+        "https://www.eetimes.com/intel-at-a-memory-crossroads-again",
+        "https://semiengineering.com/ddr5-9600-rdimms-raising-the-performance-benchmark-for-server-memory"
+      ]
+    },
+    {
       "event": "英伟达Spectrum-X CPO出货叠加台湾AI服务器供应链增长，光互联与PCB需求增强但价值分配仍在重估",
       "industry": "tech",
       "industry_name": "CPO / 高速光模块 / AI服务器PCB",
       "direction": "mixed",
       "strength": 4,
       "horizon": "1-3m",
-      "priced_in": "unknown",
-      "reason": "英伟达CPO交换机已进入生产和出货阶段，验证AI集群网络带宽与能效升级需求；台湾7月AI服务器追踪同时显示覆铜板、设计服务、载板与测试供应链增长，给东山精密所处PCB链提供需求侧旁证。但CPO把部分光电转换环节移向交换芯片附近，可能改变传统可插拔光模块的价值分配；英伟达高管表示可插拔与CPO将长期并存，因此不能据此推导传统光模块立即被替代或A股价格已确认。",
+      "priced_in": "medium",
+      "reason": "英伟达CPO交换机进入生产和出货阶段，验证AI集群网络带宽与能效升级需求；台湾7月AI服务器追踪同时显示覆铜板、设计服务、载板与测试供应链增长。10:46行情批次显示东山精密约涨2.43%，但中际旭创约跌0.46%，盘面只确认PCB需求映射，尚未确认CPO同步反转；CPO还可能改变传统可插拔光模块的价值分配。前六只个股行情来自Yahoo备用源且置信度偏低，需用午间与收盘数据复核。",
       "assets": [
         "300308",
         "002384"
       ],
       "validation": [
-        "中际旭创、东山精密及相关板块相对通信/电子指数放量转强，并维持至少两个交易日",
+        "中际旭创转强并与东山精密、相关板块同步放量，至少维持两个交易日",
         "公司后续披露CPO、1.6T或AI服务器PCB订单与收入贡献"
       ],
       "invalidation": [
-        "CPO量产扩张时间表再次后延，或出货未形成客户部署",
-        "AI服务器供应链收入增速回落，或可插拔产品价格、订单与客户份额超预期下修"
+        "中际旭创继续弱于通信指数，CPO与PCB分化扩大",
+        "AI服务器供应链收入增速回落，或可插拔产品订单与客户份额超预期下修"
       ],
       "urls": [
         "https://www.tmtpost.com/8104976.html",
@@ -905,18 +932,18 @@ window.AI_SIGNALS = {
       "direction": "mixed",
       "strength": 4,
       "horizon": "1-5d",
-      "priced_in": "unknown",
-      "reason": "Kpler数据显示周六仅5艘商品船通过霍尔木兹海峡、周日未记录到通行，前一周末为31艘；布伦特早盘约88.72美元，较上周累计涨幅超过5%。供应风险支持黄金和白银避险需求，但高油价也可能推升通胀与实际利率，对贵金属和成长估值形成反向约束。国投白银LOF还需独立核验净值、场内溢价与交易限制。",
+      "priced_in": "medium",
+      "reason": "Kpler数据显示周六仅5艘商品船通过霍尔木兹海峡、周日未记录到通行，前一周末为31艘；供应风险同时影响油价、通胀与避险需求。10:46行情批次显示黄金ETF约涨1.24%，10:32备用行情显示国投白银LOF约涨2.00%，形成初步正向反馈；但高油价可能推升通胀与实际利率，且白银LOF仍须独立核验净值、场内溢价与交易限制。",
       "assets": [
         "161226",
         "518880"
       ],
       "validation": [
-        "油价与金银价格在周一亚洲、欧美时段继续获得成交确认，美元与实际利率未同步急升",
-        "黄金ETF国内价格跟随人民币金价，国投白银LOF场内溢价未继续扩大且无新增交易限制"
+        "金银价格在欧美时段继续获得成交确认，美元与实际利率未同步急升",
+        "黄金ETF跟随人民币金价，白银LOF场内溢价未扩大且无新增交易限制"
       ],
       "invalidation": [
-        "美伊谈判恢复并推动航运量明显回升、油价快速回吐周涨幅",
+        "美伊谈判恢复、航运量明显回升且油价快速回吐",
         "美元与实际利率持续上行，黄金白银跌破近期支撑"
       ],
       "urls": [
@@ -932,8 +959,8 @@ window.AI_SIGNALS = {
       "direction": "positive",
       "strength": 3,
       "horizon": "1-3m",
-      "priced_in": "unknown",
-      "reason": "华尔街见闻援引美银策略师Michael Hartnett称，美国联邦债务逼近40万亿美元及财政约束强化黄金的中期配置逻辑。该内容属于策略观点，不能替代现货、美元和实际利率的独立验证；同时霍尔木兹风险推升油价，可能通过通胀与实际利率形成反向压力，因此仅作为结构性支持而非无条件方向判断。",
+      "priced_in": "medium",
+      "reason": "华尔街见闻援引美银策略师Michael Hartnett称，美国联邦债务逼近40万亿美元及财政约束强化黄金中期逻辑。10:46行情批次显示黄金ETF约涨1.24%、成交额约16.5亿元，提供初步价格与成交确认；但该报道仍是策略观点，且霍尔木兹风险推升油价，可能通过通胀与实际利率构成反向压力，仍需外盘金价、美元和实际利率共同验证。",
       "assets": [
         "518880"
       ],
