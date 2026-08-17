@@ -1,5 +1,5 @@
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-17 11:02",
+  "generated_at": "2026-08-17 12:03",
   "source_generated_at": "2026-08-17 09:56",
   "generated_by": "ChatGPT Web",
   "status": "ready",
@@ -830,29 +830,29 @@ window.AI_SIGNALS = {
       "market": "日股",
       "flag": "🇯🇵",
       "session": "2026-08-17 早盘",
-      "updated_at": "2026-08-17 11:02 北京时间",
+      "updated_at": "2026-08-17 11:54 北京时间（12:54 JST）",
       "status": "pending",
-      "status_label": "早盘先涨后回落，不同观测时点报价方向改变",
-      "move": "前收68,713.80｜官方/MarketWatch开盘68,882.06（跳空+0.24%）｜WSJ早段69,086.56（约+0.54%）｜Trading Economics稍后约68,669（约-0.07%）；因观测时点不同，未作同刻交叉验证",
-      "driver": "日本二季度GDP年化增长1.1%，低于2.0%的预期；早段市场交易日本央行延后加息预期，随后指数回吐。内需与资本开支偏弱，以及半导体权重能否承接，仍需午后确认。",
+      "status_label": "早盘冲高回落后小幅回升，同刻交叉报价待补",
+      "move": "前收68,713.80｜开盘68,882.06（跳空+0.24%）｜09:18 JST高点69,100.43｜10:17低点68,492.04｜12:54官方报68,870.23（+0.23%）；Yahoo 11:18报68,747.02（+0.05%），观测时点不同",
+      "driver": "日本二季度GDP年化增长1.1%，低于预期；宽松预期支撑早段行情，但指数冲高后回落。午后已回到开盘附近，内需与资本开支偏弱仍限制上行确认。",
       "a_share_links": [
         "半导体设备",
         "被动元件",
         "MLCC",
         "消费电子"
       ],
-      "validation": "核验午间与收盘正式点位，并观察日经能否重返开盘位、半导体设备权重能否同步转强。",
+      "validation": "核验午后同一时点第二报价源及正式收盘，观察半导体设备权重能否同步转强。",
       "sources": [
         "https://indexes.nikkei.co.jp/en/nkave/index/profile",
-        "https://www.wsj.com/finance/stocks/nikkei-rises-0-5-weaker-2q-gdp-growth-could-prompt-a-boj-hold-0871a0ea",
-        "https://tradingeconomics.com/japan/stock-market"
+        "https://finance.yahoo.com/quote/%5EN225/",
+        "https://www.reuters.com/world/asia-pacific/japans-economy-grows-slower-than-expected-april-june-2026-08-17/"
       ]
     },
     {
       "market": "韩股",
       "flag": "🇰🇷",
       "session": "2026-08-17 休市",
-      "updated_at": "2026-08-17 11:02 北京时间",
+      "updated_at": "2026-08-17 12:03 北京时间",
       "status": "neutral",
       "status_label": "光复节补休，今日休市",
       "move": "最新正式行情为8月14日收盘6,977.94点，上涨2.42%；8月17日无开盘价",
