@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-08-17T10:00:32+08:00",
-  "history_generated_at": "2026-08-17T10:00:31+08:00",
+  "generated_at": "2026-08-17T10:04:05+08:00",
+  "history_generated_at": "2026-08-17T10:04:05+08:00",
   "summary": {
     "t1": {
       "settled": 16,
@@ -36,7 +36,7 @@
         "t1": {
           "status": "settled",
           "date": "2026-08-17",
-          "asset_return": -0.008279,
+          "asset_return": -0.004793,
           "benchmark_return": null,
           "excess_return": null,
           "correct": false
@@ -65,7 +65,7 @@
         "t1": {
           "status": "settled",
           "date": "2026-08-17",
-          "asset_return": -0.020086,
+          "asset_return": -0.011159,
           "benchmark_return": null,
           "excess_return": null,
           "correct": false
@@ -142,7 +142,7 @@
         "t1": {
           "status": "settled",
           "date": "2026-08-17",
-          "asset_return": 0.041727,
+          "asset_return": 0.04508,
           "benchmark_return": null,
           "excess_return": null,
           "correct": true
@@ -165,13 +165,13 @@
       "conviction": 32.0,
       "entry_date": "2026-08-14",
       "entry_close": 406.19000244140625,
-      "mfe_20d": 0.028041,
+      "mfe_20d": 0.033802,
       "mae_20d": -0.017701,
       "horizons": {
         "t1": {
           "status": "settled",
           "date": "2026-08-17",
-          "asset_return": 0.023216,
+          "asset_return": 0.033753,
           "benchmark_return": null,
           "excess_return": null,
           "correct": true
@@ -200,7 +200,7 @@
         "t1": {
           "status": "settled",
           "date": "2026-08-17",
-          "asset_return": -0.008279,
+          "asset_return": -0.004793,
           "benchmark_return": null,
           "excess_return": null,
           "correct": false
@@ -229,7 +229,7 @@
         "t1": {
           "status": "settled",
           "date": "2026-08-17",
-          "asset_return": 0.010636,
+          "asset_return": 0.008049,
           "benchmark_return": null,
           "excess_return": null,
           "correct": false
@@ -258,7 +258,7 @@
         "t1": {
           "status": "settled",
           "date": "2026-08-17",
-          "asset_return": -0.008279,
+          "asset_return": -0.004793,
           "benchmark_return": null,
           "excess_return": null,
           "correct": false
@@ -287,7 +287,7 @@
         "t1": {
           "status": "settled",
           "date": "2026-08-17",
-          "asset_return": -0.020086,
+          "asset_return": -0.011159,
           "benchmark_return": null,
           "excess_return": null,
           "correct": false
@@ -364,7 +364,7 @@
         "t1": {
           "status": "settled",
           "date": "2026-08-17",
-          "asset_return": -0.008279,
+          "asset_return": -0.004793,
           "benchmark_return": null,
           "excess_return": null,
           "correct": false
@@ -393,7 +393,7 @@
         "t1": {
           "status": "settled",
           "date": "2026-08-17",
-          "asset_return": 0.010636,
+          "asset_return": 0.008049,
           "benchmark_return": null,
           "excess_return": null,
           "correct": false
@@ -422,7 +422,7 @@
         "t1": {
           "status": "settled",
           "date": "2026-08-17",
-          "asset_return": -0.008279,
+          "asset_return": -0.004793,
           "benchmark_return": null,
           "excess_return": null,
           "correct": false
@@ -451,7 +451,7 @@
         "t1": {
           "status": "settled",
           "date": "2026-08-17",
-          "asset_return": -0.020086,
+          "asset_return": -0.011159,
           "benchmark_return": null,
           "excess_return": null,
           "correct": false
@@ -528,7 +528,7 @@
         "t1": {
           "status": "settled",
           "date": "2026-08-17",
-          "asset_return": -0.008279,
+          "asset_return": -0.004793,
           "benchmark_return": null,
           "excess_return": null,
           "correct": false
@@ -581,7 +581,7 @@
         "t1": {
           "status": "settled",
           "date": "2026-08-17",
-          "asset_return": 0.010636,
+          "asset_return": 0.008049,
           "benchmark_return": null,
           "excess_return": null,
           "correct": false
@@ -610,7 +610,7 @@
         "t1": {
           "status": "settled",
           "date": "2026-08-17",
-          "asset_return": -0.008279,
+          "asset_return": -0.004793,
           "benchmark_return": null,
           "excess_return": null,
           "correct": false
@@ -639,7 +639,7 @@
         "t1": {
           "status": "settled",
           "date": "2026-08-17",
-          "asset_return": -0.020086,
+          "asset_return": -0.011159,
           "benchmark_return": null,
           "excess_return": null,
           "correct": false
@@ -733,9 +733,9 @@
       "research_status": "market_watch",
       "conviction": 50.0,
       "entry_date": "2026-08-17",
-      "entry_close": 953.030029296875,
-      "mfe_20d": 0.008342,
-      "mae_20d": -0.019212,
+      "entry_close": 950.5900268554688,
+      "mfe_20d": 0.005796,
+      "mae_20d": -0.021829,
       "horizons": {
         "t1": {
           "status": "pending"
@@ -757,9 +757,9 @@
       "research_status": "market_watch",
       "conviction": 55,
       "entry_date": "2026-08-17",
-      "entry_close": 22.760000228881836,
-      "mfe_20d": 0.018893,
-      "mae_20d": -0.024165,
+      "entry_close": 22.84000015258789,
+      "mfe_20d": 0.015324,
+      "mae_20d": -0.027583,
       "horizons": {
         "t1": {
           "status": "pending"
@@ -781,9 +781,9 @@
       "research_status": "market_watch",
       "conviction": 50.0,
       "entry_date": "2026-08-17",
-      "entry_close": 61.470001220703125,
-      "mfe_20d": 0.021637,
-      "mae_20d": -0.007158,
+      "entry_close": 62.029998779296875,
+      "mfe_20d": 0.012413,
+      "mae_20d": -0.016121,
       "horizons": {
         "t1": {
           "status": "pending"
@@ -813,9 +813,9 @@
       "research_status": "market_watch",
       "conviction": 30.0,
       "entry_date": "2026-08-17",
-      "entry_close": 434.8999938964844,
-      "mfe_20d": 0.011497,
-      "mae_20d": -0.033732,
+      "entry_close": 436.29998779296875,
+      "mfe_20d": 0.008251,
+      "mae_20d": -0.036832,
       "horizons": {
         "t1": {
           "status": "pending"
@@ -864,6 +864,54 @@
       "entry_close": 0.873,
       "mfe_20d": 0.021764,
       "mae_20d": -0.011455,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "e0f278329648706b",
+      "asset": "000636",
+      "name": "风华高科",
+      "signal_date": "2026-08-17",
+      "bias": "bullish",
+      "research_status": "market_watch",
+      "conviction": 55,
+      "entry_date": "2026-08-17",
+      "entry_close": 62.029998779296875,
+      "mfe_20d": 0.012413,
+      "mae_20d": -0.016121,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "ba7822129f5cb255",
+      "asset": "518880",
+      "name": "黄金ETF华安",
+      "signal_date": "2026-08-14",
+      "bias": "bullish",
+      "research_status": "active",
+      "conviction": 64.0,
+      "entry_date": "2026-08-14",
+      "entry_close": 8.946,
+      "mfe_20d": 0.000335,
+      "mae_20d": -0.006148,
       "horizons": {
         "t1": {
           "status": "pending"
