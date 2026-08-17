@@ -1,6 +1,6 @@
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-17 12:03",
-  "source_generated_at": "2026-08-17 09:56",
+  "generated_at": "2026-08-17 13:06",
+  "source_generated_at": "2026-08-17 12:27",
   "generated_by": "ChatGPT Web",
   "status": "ready",
   "news_titles": {
@@ -803,7 +803,44 @@ window.AI_SIGNALS = {
     "https://simonwillison.net/2026/Aug/16/qwen-38-27b": "Qwen 3.8 27B表现出色，但默认容易过度思考",
     "https://9to5google.com/2026/08/16/googlebooks-desktop-camera": "Googlebook“桌面相机”应用最终界面曝光（图集）",
     "https://wallstreetcn.com/articles/3779560": "美债逼近40万亿美元，美银Hartnett称做多黄金是当前优选",
-    "https://www.cnbc.com/2026/08/17/japan-gdp-misses-estimates-trade-exports-yen-nikkei.html": "日本第二季度GDP年化增长1.1%，低于预期"
+    "https://www.cnbc.com/2026/08/17/japan-gdp-misses-estimates-trade-exports-yen-nikkei.html": "日本第二季度GDP年化增长1.1%，低于预期",
+    "https://arxiv.org/abs/2608.13564": "诱导无需奖励的评判量规，以减少智能体评估中的过度给分",
+    "https://arxiv.org/abs/2608.13565": "通过基于幅值的专家屏蔽，对混合专家模型进行深度感知敏感性分析",
+    "https://arxiv.org/abs/2608.13567": "大型语言模型中涌现模块化认知架构",
+    "https://arxiv.org/abs/2608.13573": "大模型服务一年回顾：工作负载演变、缓存与负载均衡",
+    "https://arxiv.org/abs/2608.13574": "Agentao：面向工具调用大模型智能体的受治理、本地优先运行时",
+    "https://arxiv.org/abs/2608.13577": "AI评估应与人类协同",
+    "https://zhidx.com/p/585470.html": "471亿元！全球最大的大模型中介公司被收购",
+    "https://www.digitimes.com/news/a20260817PD213/tsmc-micron-fab-taiwan-ase.html": "台积电与美光景气推动台湾“晶圆五强”2026年上半年利润增长",
+    "https://www.digitimes.com/news/a20260817VL210/samsung-hbm-capacity-2nm-dram.html": "三星考虑利用器兴研发线扩充2纳米HBM代工产能",
+    "https://www.digitimes.com/news/a20260817VL204/nokia-telecom-equipment-china-2025.html": "诺基亚裁员1600人并关闭杭州研发中心，加速撤出中国电信市场",
+    "https://www.digitimes.com/news/a20260817VL207/nexperia-supply-chain-business-loss-wafer.html": "闻泰与安世半导体决裂的后果：重建中国芯片供应链的代价",
+    "https://www.digitimes.com/news/a20260817VL205/semco-substrate-lg-innotek-capacity-demand.html": "AI需求上升，三星电机与LG Innotek载板产线接近满产",
+    "https://www.digitimes.com/news/a20260817VL209/anthropic-openai-revenue-growth-claude.html": "Anthropic与OpenAI潜在巨型IPO加剧AI营收竞赛",
+    "https://cnevpost.com/2026/08/17/byd-fang-cheng-bao-launch-long-range-tai-7-dm-aug-18": "比亚迪方程豹将于8月18日推出长续航版钛7 DM",
+    "https://www.pv-magazine.com/2026/08/17/pursuing-efficiency": "追求效率",
+    "https://cleantechnica.com/2026/08/16/forefront-power-completes-its-first-erthos-solar-energy-system-for-the-city-of-fresno": "ForeFront Power为弗雷斯诺市建成首个Erthos太阳能系统",
+    "https://cleantechnica.com/2026/08/16/how-much-windfall-profit-have-oil-companies-made-in-europe": "欧洲石油公司获得了多少意外利润？",
+    "https://www.pv-tech.org/australias-nsw-becomes-first-state-to-detail-national-data-centre-rules-with-new-framework": "澳大利亚新南威尔士州率先公布全国数据中心规则框架",
+    "https://www.statnews.com/2026/08/17/private-equity-50-percent-drop-physician-practice-management-deals-2026": "STAT+：州法律或正在遏制私募股权收购医生集团",
+    "https://www.techmeme.com/260817/p1": "Anthropic文本水印通过改变词语概率嵌入指纹；尽管公司称不影响质量，仍可能降低Claude写作表现",
+    "https://boston.conman.org/2026/08/11.1": "收到其他Sean Conner的邮件，Gmail可能也要承担部分责任",
+    "https://www.bbc.com/news/articles/clyqpx6xk69o": "若Meta输掉这场诉讼，Instagram和Facebook或将彻底改变",
+    "https://www.techmeme.com/260816/p13": "新加坡希望借先进AI模型留住金融人才；香港金融机构难以使用美国最新模型",
+    "https://meanhamster.com/news/agi-64-brings-sierra-adventures-to-the-commodore-64": "AGI-64将Sierra冒险游戏带到Commodore 64",
+    "https://github.com/crabbuild/prolly": "Prolly：基于Prolly树构建的内容寻址有序映射",
+    "https://www.androidauthority.com/android-17-qpr2-beta-3-new-features-3699084": "Android 17 QPR2 Beta 3带来意外丰富的新功能",
+    "http://hk.eastmoney.com/news/11617,202608173842969863.html": "阿里巴巴以15亿美元出售游戏业务，灵犀互娱CEO回应称为聚焦战略重点",
+    "https://wallstreetcn.com/articles/3779568": "创业板涨超1%，存储芯片爆发，长鑫大涨9%且市值重回4万亿元，贵州茅台跌超4%，恒生科技指数涨超2%",
+    "http://www.eeo.com.cn/2026/0817/1001029.shtml": "黄金白银双双拉升，现货黄金突破4400美元",
+    "https://seekingalpha.com/news/4633620-alibaba-to-sell-lingxi-games-for-over-15b-to-trustar-as-ai-focus-grows-report": "据报道，阿里巴巴将以逾15亿美元向Trustar出售灵犀互娱，以聚焦AI",
+    "https://seekingalpha.com/news/4633622-ai-video-startup-higgsfield-hits-54b-valuation-with-goldman-intel-backing-ft": "金融时报：获高盛和英特尔支持的AI视频初创公司Higgsfield估值达54亿美元",
+    "https://seekingalpha.com/news/4633626-cathay-general-bancorp-declares-0_38-dividend": "国泰万通金控宣布每股派息0.38美元",
+    "http://www.eeo.com.cn/2026/0817/1001147.shtml": "李昀锐在阿那亚打球被偶遇，温柔照看小球友",
+    "https://seekingalpha.com/news/4633625-paul-mueller-raises-dividend-by-17-to-035": "Paul Mueller将股息提高17%至0.35美元",
+    "https://seekingalpha.com/news/4633624-element-solutions-declares-0_08-dividend": "Element Solutions宣布每股派息0.08美元",
+    "https://seekingalpha.com/news/4633623-westlake-corporation-declares-0_533-dividend": "Westlake宣布每股派息0.533美元",
+    "https://www.ft.com/content/67acde0d-4154-4332-b33b-2d03d3a86007": "问题贷款增加，私人信贷承压"
   },
   "overseas_markets": [
     {
@@ -830,10 +867,10 @@ window.AI_SIGNALS = {
       "market": "日股",
       "flag": "🇯🇵",
       "session": "2026-08-17 早盘",
-      "updated_at": "2026-08-17 11:54 北京时间（12:54 JST）",
+      "updated_at": "2026-08-17 12:54 北京时间（13:54 JST）",
       "status": "pending",
-      "status_label": "早盘冲高回落后小幅回升，同刻交叉报价待补",
-      "move": "前收68,713.80｜开盘68,882.06（跳空+0.24%）｜09:18 JST高点69,100.43｜10:17低点68,492.04｜12:54官方报68,870.23（+0.23%）；Yahoo 11:18报68,747.02（+0.05%），观测时点不同",
+      "status_label": "冲高回落后回到开盘附近，同刻第二报价源待补",
+      "move": "前收68,713.80｜开盘68,882.06（跳空+0.24%）｜09:18 JST高点69,100.43｜10:17低点68,492.04｜13:54官方报68,879.86（+0.24%）",
       "driver": "日本二季度GDP年化增长1.1%，低于预期；宽松预期支撑早段行情，但指数冲高后回落。午后已回到开盘附近，内需与资本开支偏弱仍限制上行确认。",
       "a_share_links": [
         "半导体设备",
@@ -841,7 +878,7 @@ window.AI_SIGNALS = {
         "MLCC",
         "消费电子"
       ],
-      "validation": "核验午后同一时点第二报价源及正式收盘，观察半导体设备权重能否同步转强。",
+      "validation": "核验同一时点第二报价源及正式收盘，观察半导体设备权重能否同步转强。",
       "sources": [
         "https://indexes.nikkei.co.jp/en/nkave/index/profile",
         "https://finance.yahoo.com/quote/%5EN225/",
@@ -852,7 +889,7 @@ window.AI_SIGNALS = {
       "market": "韩股",
       "flag": "🇰🇷",
       "session": "2026-08-17 休市",
-      "updated_at": "2026-08-17 12:03 北京时间",
+      "updated_at": "2026-08-17 13:06 北京时间",
       "status": "neutral",
       "status_label": "光复节补休，今日休市",
       "move": "最新正式行情为8月14日收盘6,977.94点，上涨2.42%；8月17日无开盘价",
@@ -872,21 +909,21 @@ window.AI_SIGNALS = {
   ],
   "signals": [
     {
-      "event": "服务器DDR5升级与内存供给议题获A股存储链同步上涨确认",
+      "event": "存储芯片午前全面走强，服务器内存升级逻辑获得产业与盘面双重确认",
       "industry": "semi",
       "industry_name": "DRAM / NAND / 服务器内存 / 半导体工程",
       "direction": "positive",
       "strength": 4,
       "horizon": "1-4w",
       "priced_in": "medium",
-      "reason": "服务器DDR5 9600 RDIMM提升带宽基准，Intel内存路线与产业供给议题继续强化服务器内存升级逻辑。10:46行情批次显示兆易创新约涨4.34%、德明利约涨3.37%、太极实业约涨4.66%，存储设计、模组与半导体工程形成三标的同步反馈，较10:03版本构成材料性价格确认；但相关个股使用Yahoo备用源、置信度偏低，且尚未获得成交量与连续收盘确认。",
+      "reason": "服务器DDR5 9600 RDIMM提升带宽基准，台积电与美光相关供应链上半年利润增长、三星评估扩充2纳米HBM代工产能，继续强化AI存储需求。午前市场报道显示存储芯片板块爆发、长鑫大涨约9%；12:06行情批次显示兆易创新约涨5.03%、德明利约涨6.65%、太极实业约涨3.79%，三类映射标的同步走强。个股行情仍来自Yahoo备用源且缺少可靠成交量，需午后和收盘验证持续性。",
       "assets": [
         "603986",
         "001309",
         "600667"
       ],
       "validation": [
-        "午后及收盘三标的仍同步强于半导体指数，且后续至少一个交易日不出现集体高开低走",
+        "午后及收盘三标的继续同步强于半导体指数，且随后一个交易日不出现集体高开低走",
         "DRAM/NAND报价、服务器订单或厂商指引继续提供产业数据确认"
       ],
       "invalidation": [
@@ -894,6 +931,7 @@ window.AI_SIGNALS = {
         "存储报价与订单未改善，或扩产预期压制价格与毛利"
       ],
       "urls": [
+        "https://wallstreetcn.com/articles/3779568",
         "https://www.eetimes.com/intel-at-a-memory-crossroads-again",
         "https://semiengineering.com/ddr5-9600-rdimms-raising-the-performance-benchmark-for-server-memory"
       ]
@@ -906,7 +944,7 @@ window.AI_SIGNALS = {
       "strength": 4,
       "horizon": "1-3m",
       "priced_in": "medium",
-      "reason": "英伟达CPO交换机进入生产和出货阶段，验证AI集群网络带宽与能效升级需求；台湾7月AI服务器追踪同时显示覆铜板、设计服务、载板与测试供应链增长。10:46行情批次显示东山精密约涨2.43%，但中际旭创约跌0.46%，盘面只确认PCB需求映射，尚未确认CPO同步反转；CPO还可能改变传统可插拔光模块的价值分配。前六只个股行情来自Yahoo备用源且置信度偏低，需用午间与收盘数据复核。",
+      "reason": "英伟达CPO交换机进入生产和出货阶段，台湾AI服务器覆铜板、载板与测试供应链增长；新增报道显示三星电机与LG Innotek载板产线在AI需求推动下接近满产。12:06行情批次显示东山精密约涨4.41%、中际旭创约涨1.81%，CPO已由早盘下跌转为上涨，但仍明显弱于PCB，只能确认需求映射扩散，尚未确认CPO同步反转。个股行情来自Yahoo备用源且置信度偏低。",
       "assets": [
         "300308",
         "002384"
@@ -922,7 +960,7 @@ window.AI_SIGNALS = {
       "urls": [
         "https://www.tmtpost.com/8104976.html",
         "https://www.digitimes.com/news/a20260814VL223/taiwan-monthly-tracker-ai-server-ccl-growth-revenue.html",
-        "https://developer.nvidia.com/blog/scaling-ai-factories-with-co-packaged-optics-for-better-power-efficiency/"
+        "https://www.digitimes.com/news/a20260817VL205/semco-substrate-lg-innotek-capacity-demand.html"
       ]
     },
     {
@@ -933,7 +971,7 @@ window.AI_SIGNALS = {
       "strength": 4,
       "horizon": "1-5d",
       "priced_in": "medium",
-      "reason": "Kpler数据显示周六仅5艘商品船通过霍尔木兹海峡、周日未记录到通行，前一周末为31艘；供应风险同时影响油价、通胀与避险需求。10:46行情批次显示黄金ETF约涨1.24%，10:32备用行情显示国投白银LOF约涨2.00%，形成初步正向反馈；但高油价可能推升通胀与实际利率，且白银LOF仍须独立核验净值、场内溢价与交易限制。",
+      "reason": "霍尔木兹航运量骤降继续支撑油价与避险需求。新增报道显示现货黄金突破4400美元、白银同步拉升；12:06行情批次显示黄金ETF约涨1.24%，11:51备用行情显示国投白银LOF约涨1.78%，形成跨市场初步确认。但高油价可能推升通胀与实际利率，白银LOF还须独立核验净值、场内溢价与交易限制。",
       "assets": [
         "161226",
         "518880"
@@ -949,18 +987,18 @@ window.AI_SIGNALS = {
       "urls": [
         "https://www.reuters.com/world/middle-east/shipping-via-hormuz-strait-slows-after-tanker-attacks-data-shows-2026-08-16/",
         "https://www.reuters.com/business/energy/oil-treads-water-us-iran-peace-talks-stall-hormuz-shipping-slows-2026-08-17/",
-        "http://www.eeo.com.cn/2026/0817/1000761.shtml"
+        "http://www.eeo.com.cn/2026/0817/1001029.shtml"
       ]
     },
     {
-      "event": "美国联邦债务逼近40万亿美元，策略观点强化黄金配置逻辑但尚非价格确认",
+      "event": "美国债务与避险需求共振，现货黄金突破4400美元",
       "industry": "macro",
       "industry_name": "黄金 / 美债 / 实际利率",
       "direction": "positive",
-      "strength": 3,
+      "strength": 4,
       "horizon": "1-3m",
       "priced_in": "medium",
-      "reason": "华尔街见闻援引美银策略师Michael Hartnett称，美国联邦债务逼近40万亿美元及财政约束强化黄金中期逻辑。10:46行情批次显示黄金ETF约涨1.24%、成交额约16.5亿元，提供初步价格与成交确认；但该报道仍是策略观点，且霍尔木兹风险推升油价，可能通过通胀与实际利率构成反向压力，仍需外盘金价、美元和实际利率共同验证。",
+      "reason": "美国联邦债务逼近40万亿美元强化黄金的中期配置逻辑，霍尔木兹航运风险提供短期避险催化。新增报道显示现货黄金突破4400美元；12:06行情批次显示黄金ETF约涨1.24%、成交额约20.7亿元，价格与成交获得进一步确认。但高油价也可能通过通胀与实际利率产生反向压力，仍需美元、实际利率和收盘价共同验证。",
       "assets": [
         "518880"
       ],
@@ -973,7 +1011,8 @@ window.AI_SIGNALS = {
         "债务与财政担忧缓和，或策略观点未获得价格和资金流确认"
       ],
       "urls": [
-        "https://wallstreetcn.com/articles/3779560"
+        "https://wallstreetcn.com/articles/3779560",
+        "http://www.eeo.com.cn/2026/0817/1001029.shtml"
       ]
     }
   ]
