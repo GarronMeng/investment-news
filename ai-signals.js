@@ -1,6 +1,6 @@
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-16 16:06",
-  "source_generated_at": "2026-08-16 15:47",
+  "generated_at": "2026-08-17 09:05",
+  "source_generated_at": "2026-08-17 07:46",
   "generated_by": "ChatGPT Web",
   "status": "ready",
   "news_titles": {
@@ -714,7 +714,74 @@ window.AI_SIGNALS = {
     "https://www.gsmarena.com/weekly_poll_results_a_surprising_number_of_people_are_using_feature_phones-news-74159.php": "每周调查结果：仍有数量惊人的用户在使用功能手机",
     "https://wallstreetcn.com/articles/3779529": "德银：央行购金与ETF流入推动黄金处于“爆炸性”上涨阶段",
     "http://finance.eastmoney.com/news/1354,202608163842489020.html": "美光股价大幅上涨，机构上调目标价并看好存储供给紧张",
-    "https://www.ft.com/content/161ee092-d2b6-4375-a853-e7a6fbee60e2": "全球主要汽车制造商寻求避免车用润滑油危机"
+    "https://www.ft.com/content/161ee092-d2b6-4375-a853-e7a6fbee60e2": "全球主要汽车制造商寻求避免车用润滑油危机",
+    "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team": "据报道OpenAI已解散准备工作团队",
+    "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b": "据报道Stripe将以逾70亿美元收购AI网关初创公司OpenRouter",
+    "https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future": "为什么人们不买账扎克伯格描绘的AI未来",
+    "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust": "Anthropic CEO称AI反弹情绪本质上是信任危机",
+    "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes": "ChatGPT“电脑历史”会记录点击和按键操作",
+    "https://semiwiki.com/ceo-interviews/372140-ceo-interview-with-leon-lauritsen-of-aras": "Aras首席执行官Leon Lauritsen专访",
+    "https://semiwiki.com/ceo-interviews/371606-ceo-interview-with-jerry-chen-of-upbeat-technology": "Upbeat Technology首席执行官Jerry Chen专访",
+    "https://www.therobotreport.com/how-robotics-is-revolutionizing-stroke-rehabilitation": "机器人技术如何革新中风康复",
+    "https://electrek.co/2026/08/16/jlrs-new-freelander-8-takes-off-with-10000-orders-in-first-48-hours": "捷豹路虎新款Freelander 8上市48小时订单突破1万辆",
+    "https://electrek.co/2026/08/16/e-quipment-highlight-liugong-924fe-electric-excavator-is-coming-to-america": "柳工924FE电动挖掘机将进入美国市场",
+    "https://techcrunch.com/2026/08/16/techcrunch-mobility-the-shifting-flight-path-of-electric-air-taxis": "TechCrunch出行观察：电动空中出租车的路线正在变化",
+    "https://electrek.co/2026/08/16/ferrari-luce-chassis-0-sells-40-million-record": "首辆法拉利Luce电动车以4000万美元成交，为估值的36倍",
+    "https://cnevpost.com/2026/08/16/freelander-8-10000-pre-orders-48-hours": "奇瑞捷豹路虎Freelander 8预售48小时订单突破1万辆",
+    "https://electrek.co/2026/08/16/350-ton-longking-zl230e-is-the-biggest-baddest-battery-mining-rig-you-can-buy": "350吨龙工ZL230E成为目前可购买的最大电动矿用设备",
+    "https://cnevpost.com/2026/08/16/gac-aion-debut-ray-7-aug-19-2026": "广汽埃安将于8月19日发布Ray系列首款车型Ray 7",
+    "https://insideevs.com/news/805082/model-y-one-year-degradation": "这辆特斯拉Model Y一年衰减9%，车主并不担心",
+    "https://oilprice.com/Energy/Crude-Oil/Have-Middle-East-Oil-Flows-Rebounded-to-15-Million-Bpd-as-US-Claims.html": "中东石油流量是否已如美国所称恢复至每日1500万桶？",
+    "https://oilprice.com/Energy/Natural-Gas/Europes-Gas-Storage-Crunch-Deepens-Ahead-of-Heating-Season.html": "供暖季前欧洲天然气库存压力加剧",
+    "https://oilprice.com/Energy/Energy-General/Oil-Majors-Reap-93-Billion-Windfall-From-the-Iran-War.html": "石油巨头因伊朗战争获得930亿美元意外收益",
+    "https://oilprice.com/Energy/Energy-General/AI-Set-to-Extend-Fossil-Fuel-Dominance.html": "AI或将延长化石燃料的主导地位",
+    "https://oilprice.com/Energy/Energy-General/The-Trillion-Dollar-Problem-at-the-Heart-of-the-AI-Boom.html": "AI热潮核心面临万亿美元难题",
+    "https://cleantechnica.com/2026/08/16/scrapping-working-gas-car-for-ev-can-be-greener": "新研究称报废仍可用燃油车并换购电动车通常更环保",
+    "https://cleantechnica.com/2026/08/16/op-ed-hiroshi-okuda-the-man-who-saved-toyota-by-forcing-it-to-change": "评论：迫使丰田变革并挽救公司的奥田硕",
+    "https://spacenews.com/satellite-operators-emphasize-launch-deals-in-a-constrained-market": "发射资源紧张之际，卫星运营商更重视发射协议",
+    "https://www.space.com/entertainment/space-movies-shows/how-to-watch-lanterns-hbos-gritty-new-green-lantern-show": "如何观看HBO全新写实风《绿灯侠》剧集《Lanterns》",
+    "https://www.nasaspaceflight.com/2026/08/firefly-block-alpha-eclipse-progress": "Firefly推进下一批Alpha火箭，同时Eclipse项目取得进展",
+    "https://www.space.com/technology/nasa-funds-spherical-aerobots-that-could-explore-the-caves-of-saturns-moon-titan": "NASA资助可探索土卫六洞穴的球形飞行机器人",
+    "https://www.space.com/space-exploration/human-spaceflight/on-this-day-in-space-aug-16-1963-wingless-m2-f1-completes-1st-glide-flight": "航天史上的今天：1963年8月16日无翼M2-F1完成首次滑翔飞行",
+    "https://www.space.com/space-exploration/artemis/artemis-ii-pilot-thanks-nasa-for-letting-him-fly-orion-by-hand-im-still-blown-away-by-that-trust": "阿尔忒弥斯二号飞行员感谢NASA允许其手动驾驶猎户座",
+    "https://spacenews.com/u-s-defense-agencies-tap-three-companies-for-satellite-disposal-study": "美国国防机构选择三家公司开展卫星处置研究",
+    "https://www.space.com/astronomy/moon/this-goes-beyond-showcasing-technological-soft-power-chinas-new-moon-map-signals-bold-space-ambitions-video": "中国新版月球地图显示更大胆的太空雄心",
+    "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-major-outage-affecting-multiple-services": "Anthropic确认Claude发生影响多项服务的大规模故障",
+    "https://www.bleepingcomputer.com/news/security/large-scale-ddos-attacks-disrupted-threema-secure-messaging-service": "大规模DDoS攻击扰乱Threema安全通信服务",
+    "https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control": "新型AmnesiaStealer恶意软件通过远程控制劫持macOS浏览器会话",
+    "https://www.techmeme.com/260816/p11": "Claude模型在54小时挑战黎曼猜想期间取得数学突破",
+    "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing": "评论：Anthropic在Claude中加入“水印”文本损害写作",
+    "https://www.engadget.com/2236816/turn-on-settings-protect-android-phone-from-theft": "开启这些设置可保护安卓手机免遭盗窃",
+    "https://www.foxnews.com/opinion/america-needs-stop-turning-every-purchase-uncomfortable-tip-request": "评论：别再让每笔消费都变成令人不适的小费请求",
+    "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14": "英伟达大幅下调可能为OpenAI基础设施融资提供的担保规模",
+    "https://www.techmeme.com/260816/p10": "法国总理将就税务机构遭网络攻击召开危机会议",
+    "https://www.tmtpost.com/8104976.html": "英伟达CPO量产引发光模块产业链结构重估",
+    "https://www.gsmarena.com/samsung_galaxy_tab_s12_series_google_play_console_listing-news-74194.php": "三星Galaxy Tab S12系列现身Google Play Console支持设备列表",
+    "https://www.engadget.com/2236810/is-buying-oneplus-phone-still-good-idea-in-2026": "2026年购买一加手机仍是好选择吗？",
+    "https://www.engadget.com/2236805/android-phones-antivirus-app-guidance": "安卓手机真的需要杀毒应用吗？",
+    "https://www.gsmarena.com/pixel_11_series_honor_robot_phone_redmi_17_official_week_33_in_review-news-74177.php": "第33周回顾：Pixel 11系列、荣耀Robot Phone与红米17发布",
+    "https://www.engadget.com/2236809/why-retro-games-look-better-old-crt-tv": "为什么复古游戏在老式CRT电视上看起来更好",
+    "https://www.engadget.com/2236808/might-want-to-skip-newegg-gpu-trade-in-program-reasons": "你可能应该避开Newegg的GPU以旧换新计划",
+    "https://9to5mac.com/2026/08/16/its-time-for-ios-to-have-its-own-material-you": "iOS是时候拥有自己的Material You了",
+    "https://www.finextra.com/newsarticle/48252/western-union-gets-new-york-nod-for-intermax-acquisition-still-face-california-hurdles": "西联收购Intermax获纽约批准，仍面临加州障碍",
+    "https://www.finextra.com/newsarticle/48253/polygon-joins-bofes-digital-pound-lab-to-test-cross-border-settlement": "Polygon加入英国央行数字英镑实验室测试跨境结算",
+    "http://hk.eastmoney.com/news/1535,202608173842607910.html": "理想汽车斥资267.65万美元回购43.55万股",
+    "https://www.ft.com/content/8889375a-bcaa-4539-a000-c89b73dbcf4c": "特朗普称美国将缩减与韩国的军事演习",
+    "http://www.eeo.com.cn/2026/0817/1000780.shtml": "土耳其上半年外国直接投资同比下降31%",
+    "https://www.marketwatch.com/story/u-s-stock-futures-little-changed-as-investors-ponder-the-feds-next-move-27bcbea4": "投资者评估美联储下一步行动，美股期货基本持平",
+    "https://seekingalpha.com/news/4633619-oil-edges-higher-as-middle-east-tensions-return-to-focus": "中东紧张局势再受关注，油价小幅走高",
+    "https://seekingalpha.com/news/4633618-a2-milk-profit-tumbles-44-percent-after-china-formula-shortage": "中国配方奶粉短缺导致A2 Milk利润下降44%",
+    "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-market-run-sandisk-soars-nvidia-buy-walmart-target": "道指期货：英伟达领衔五只股票进入买入区，闪迪等待确认，沃尔玛财报临近",
+    "https://seekingalpha.com/news/4633602-here-are-the-major-earnings-before-the-open-monday": "周一开盘前的重要财报一览",
+    "http://www.eeo.com.cn/2026/0817/1000761.shtml": "黄金投资切忌盲目追高",
+    "https://www.sciencedaily.com/releases/2026/08/260814235858.htm": "一种每片仅约10美分的心脏药可将住院率降低25%",
+    "https://www.sciencedaily.com/releases/2026/08/260814235852.htm": "这一常见错误可能让老化关节更加疼痛",
+    "https://www.livescience.com/health/theres-a-sense-that-these-algorithms-are-objective-and-they-get-to-know-you-how-social-media-warps-our-understanding-of-healthcare": "社交媒体如何扭曲我们对医疗健康的理解",
+    "https://arstechnica.com/science/2026/08/wildfire-smoke-now-bigger-prenatal-threat-than-human-sources-of-air-pollution": "野火烟雾已成为比人为污染更大的产前威胁",
+    "https://www.livescience.com/space/black-holes/astronomers-find-water-in-the-harsh-environment-near-the-milky-ways-black-hole-space-photo-of-the-week": "天文学家在银河系黑洞附近的严酷环境中发现水",
+    "https://www.sciencedaily.com/releases/2026/08/260815064805.htm": "物理学家发现质子内部隐藏的胶子结构，或改写教科书",
+    "https://www.sciencedaily.com/releases/2026/08/260815065014.htm": "科学家揭示为何行走会随年龄增长变得困难",
+    "https://www.livescience.com/space/which-building-blocks-of-life-have-been-found-in-space-and-which-havent": "太空中已发现和尚未发现哪些生命构件？"
   },
   "overseas_markets": [
     {
@@ -725,140 +792,113 @@ window.AI_SIGNALS = {
       "status": "mixed",
       "status_label": "大盘小幅回落，存储相对偏强",
       "move": "标普500 -0.17%至7,785.76，纳指 -0.28%，道指 -0.20%",
-      "driver": "美国7月零售销售意外下降、消费者信心低于预期，叠加霍尔木兹海峡风险推升油价，AI高估值板块承压；但美光周五仍上涨约2.3%，存储景气交易保持相对强势。",
+      "driver": "美国7月零售销售意外下降、消费者信心偏弱，叠加霍尔木兹风险推升油价，AI高估值板块承压；美光保持相对强势。",
       "a_share_links": [
         "NAND",
         "DRAM",
         "企业级SSD",
         "CPO"
       ],
-      "validation": "观察周一A股存储设计端能否延续强于封测的表现；油价上行是否推高利率与成长估值压力。",
+      "validation": "观察A股存储设计、模组与封测是否继续强于科技指数，以及油价上行是否推升利率与成长估值压力。",
       "sources": [
-        "https://www.reuters.com/business/wall-st-futures-muted-higher-oil-prices-temper-risk-appetite-after-sp-record-2026-08-14/",
-        "https://www.reuters.com/world/india/gold-heads-weekly-loss-investors-unwind-inflation-fuelled-rally-2026-08-14/"
+        "https://www.reuters.com/business/wall-st-futures-muted-higher-oil-prices-temper-risk-appetite-after-sp-record-2026-08-14/"
       ]
     },
     {
       "market": "日股",
       "flag": "🇯🇵",
-      "session": "2026-08-14 收盘",
-      "updated_at": "2026-08-14 15:45 JST（14:45 北京时间）",
-      "status": "positive",
-      "status_label": "收涨0.59%，官方与行情源一致",
-      "move": "前收68,308.59｜开盘68,811.17（跳空+0.74%）｜Google收盘值68,713.80（+0.59%）",
-      "driver": "日经官方数据确认8月14日收于68,713.80点、上涨0.59%，与Google Finance收盘值一致；科技板块贡献约378.7点，是主要支撑。",
+      "session": "2026-08-17 早盘",
+      "updated_at": "2026-08-17 09:53 JST（08:53 北京时间）",
+      "status": "pending",
+      "status_label": "高开后回落至近乎平盘，第二报价源待补",
+      "move": "前收68,713.80｜开盘68,882.06（跳空+0.24%）｜09:53报68,713.10（约持平）",
+      "driver": "日本二季度GDP年化增长1.1%，低于2.0%的市场预期；消费持平、资本开支下降1.2%，但AI投资仍支撑半导体设备出口。",
       "a_share_links": [
         "半导体设备",
         "被动元件",
         "MLCC",
         "消费电子"
       ],
-      "validation": "观察下个交易日日经能否守住68,471点日内低位，以及科技与半导体设备权重能否延续。",
+      "validation": "补充第二独立报价源并观察日经能否守住68,610.50早盘低位，电子与半导体设备权重能否转强。",
       "sources": [
-        "https://www.google.com/finance/beta/quote/NI225:INDEXNIKKEI?hl=zh",
-        "https://indexes.nikkei.co.jp/en/nkave/archives/summary"
+        "https://indexes.nikkei.co.jp/en/nkave/index/profile",
+        "https://www.reuters.com/world/asia-pacific/japans-economy-grows-slower-than-expected-april-june-2026-08-17/"
       ]
     },
     {
       "market": "韩股",
       "flag": "🇰🇷",
-      "session": "2026-08-14 收盘",
-      "updated_at": "2026-08-14 15:33 KST（14:33 北京时间）",
-      "status": "pending",
-      "status_label": "收涨约2.42%，第二来源精确点位待补",
-      "move": "前收6,813.34｜开盘6,995.67（跳空+2.68%）｜Google收盘值6,977.94（+2.42%）",
-      "driver": "Google Finance收盘值显示KOSPI上涨约2.42%，接近但仍低于开盘位；路透盘中报道确认韩股与存储权重走强，但未提供同一收盘时刻的精确点位，因此继续标记待核验。",
+      "session": "2026-08-17 休市",
+      "updated_at": "2026-08-17 09:05 北京时间",
+      "status": "neutral",
+      "status_label": "光复节补休，今日休市",
+      "move": "最新正式行情为8月14日收盘6,977.94点，上涨2.42%；8月17日无开盘价",
+      "driver": "韩国交易所因光复节补休关闭，存储与HBM方向需等待8月18日重新交易后验证。",
       "a_share_links": [
         "HBM",
         "DRAM",
         "NAND",
         "封测"
       ],
-      "validation": "补充核验KRX或第二行情源的精确收盘点位；观察三星电子、SK海力士及指数下个交易日能否延续强势。",
+      "validation": "8月18日核验KOSPI、三星电子与SK海力士开盘及存储链持续性。",
       "sources": [
-        "https://www.google.com/finance/beta/quote/KOSPI:KRX?hl=zh",
-        "https://global.krx.co.kr/main/main.jsp"
+        "https://global.krx.co.kr/main/main.jsp",
+        "https://www.tradinghours.com/markets/krx"
       ]
     }
   ],
   "signals": [
     {
-      "event": "服务器内存升级与美光强势表现强化景气预期，但美国反对苹果采购中国存储芯片",
-      "industry": "semi",
-      "industry_name": "服务器内存 / DRAM / 企业级存储",
-      "direction": "mixed",
-      "strength": 4,
-      "horizon": "1-4w",
-      "priced_in": "unknown",
-      "reason": "DDR5-9600 RDIMM继续提升服务器内存性能，新增报道又指美光截至8月14日当周累计上涨逾10%，机构认为存储芯片供应紧张短期仍将持续，需求与价格逻辑进一步增强；但美国商务部长据报已敦促苹果不要采购中国存储芯片。对兆易创新、德明利与太极实业而言，存储景气构成正向映射，海外大客户准入限制仍是明确风险，且美光估值上修不能直接等同于A股业绩兑现。",
-      "assets": [
-        "603986",
-        "001309",
-        "600667"
-      ],
-      "validation": [
-        "DRAM、NAND与企业级SSD报价继续上行，并由订单或库存数据确认",
-        "A股存储设计、模组与封测形成放量扩散，同时苹果采购限制未进一步扩大"
-      ],
-      "invalidation": [
-        "供应紧张预期缓解、存储现货报价转跌或订单下修",
-        "限制扩大至更多终端和存储品类并导致中国供应商订单取消"
-      ],
-      "urls": [
-        "http://finance.eastmoney.com/news/1354,202608163842489020.html",
-        "https://9to5mac.com/2026/08/14/commerce-secretary-says-us-opposes-apple-buying-chinese-memory-chips",
-        "https://semiengineering.com/ddr5-9600-rdimms-raising-the-performance-benchmark-for-server-memory"
-      ]
-    },
-    {
-      "event": "AI数据中心资本投入继续推进，但约700亿美元表外担保令融资风险显性化",
+      "event": "英伟达Spectrum-X CPO交换机进入生产与出货阶段，光互联价值链开始结构重估",
       "industry": "tech",
-      "industry_name": "AI数据中心 / CPO / 服务器PCB",
+      "industry_name": "CPO / 高速光模块 / 数据中心网络",
       "direction": "mixed",
-      "strength": 4,
-      "horizon": "1-4w",
-      "priced_in": "unknown",
-      "reason": "英伟达据报仍在洽谈向SB Energy投资至多30亿美元以支持OpenAI俄亥俄数据中心，继续验证算力、电力、光互联与服务器建设需求；与此同时，新增报道指出AI芯片融资中约700亿美元的剩余价值担保等表外或有负债正引发债券投资者担忧。产业需求与融资约束并存，对中际旭创、东山精密的订单映射保持正向，但项目资本成本、担保兑现和建设节奏成为更明确的风险变量。",
-      "assets": [
-        "300308",
-        "002384"
-      ],
-      "validation": [
-        "项目投资、租约与建设时间表得到正式确认，且融资利差未继续扩大",
-        "CPO与服务器PCB相对科技指数放量转强并维持至少两个交易日"
-      ],
-      "invalidation": [
-        "项目融资缩减、租约延期或表外担保风险导致资本开支下修",
-        "相关板块在新增资本开支消息后仍同步放量下跌"
-      ],
-      "urls": [
-        "https://www.reuters.com/business/nvidia-talks-invest-3-billion-sb-energy-part-openai-data-center-deal-information-2026-08-15/",
-        "https://wallstreetcn.com/articles/3779518",
-        "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/"
-      ]
-    },
-    {
-      "event": "德银认为央行购金与黄金ETF流入仍在支撑本轮黄金强势阶段",
-      "industry": "macro",
-      "industry_name": "黄金 / 贵金属",
-      "direction": "positive",
       "strength": 4,
       "horizon": "1-3m",
       "priced_in": "unknown",
-      "reason": "德银研究认为央行持续增持与黄金ETF资金回流构成两类较稳定需求，并给出年末4700至5100美元/盎司的目标区间。该判断强化黄金中期需求逻辑，但属于机构预测而非已兑现价格，且周末缺少A股交易确认；对黄金ETF仅作方向映射，需同时观察美元、实际利率、人民币汇率与国内金价。",
+      "reason": "英伟达CPO交换机已进入生产和出货阶段，验证AI集群网络带宽与能效升级需求；但CPO把部分光电转换环节由前面板可插拔模块移向交换芯片附近，可能改变传统可插拔光模块的价值分配。对中际旭创既有高速光互联需求增量，也有产品结构与客户份额重新分配风险；英伟达高管同时表示可插拔与CPO将长期并存，不能据此推导传统光模块立即被替代。",
       "assets": [
+        "300308"
+      ],
+      "validation": [
+        "中际旭创及CPO板块相对通信指数放量转强，并维持至少两个交易日",
+        "公司后续披露CPO、光引擎或1.6T相关订单与收入贡献"
+      ],
+      "invalidation": [
+        "CPO量产扩张时间表再次后延，或出货未形成客户部署",
+        "可插拔产品价格、订单或客户份额出现超预期下修"
+      ],
+      "urls": [
+        "https://www.tmtpost.com/8104976.html",
+        "https://www.trendforce.com/presscenter/news/20260727-13151.html",
+        "https://developer.nvidia.com/blog/scaling-ai-factories-with-co-packaged-optics-for-better-power-efficiency/"
+      ]
+    },
+    {
+      "event": "霍尔木兹海峡周末通行量骤降，油价、通胀与贵金属风险重新联动",
+      "industry": "macro",
+      "industry_name": "原油 / 黄金 / 白银 / 利率",
+      "direction": "mixed",
+      "strength": 4,
+      "horizon": "1-5d",
+      "priced_in": "unknown",
+      "reason": "Kpler数据显示周六仅5艘商品船通过霍尔木兹海峡、周日未记录到通行，前一周末为31艘；布伦特早盘约88.72美元，较上周累计涨幅超过5%。供应风险支持黄金和白银避险需求，但高油价也可能推升通胀与实际利率，对贵金属和成长估值形成反向约束。国投白银LOF还需独立核验净值、场内溢价与交易限制。",
+      "assets": [
+        "161226",
         "518880"
       ],
       "validation": [
-        "外盘黄金与国内黄金现货在下个交易日同向走强，黄金ETF成交量同步放大",
-        "全球黄金ETF继续净流入且美元或实际利率未显著反弹"
+        "油价与金银价格在周一亚洲、欧美时段继续获得成交确认，美元与实际利率未同步急升",
+        "黄金ETF国内价格跟随人民币金价，国投白银LOF场内溢价未继续扩大且无新增交易限制"
       ],
       "invalidation": [
-        "实际利率与美元持续上行并推动金价跌破近期支撑",
-        "央行购金或ETF资金流出现明显转弱"
+        "美伊谈判恢复并推动航运量明显回升、油价快速回吐周涨幅",
+        "美元与实际利率持续上行，黄金白银跌破近期支撑"
       ],
       "urls": [
-        "https://wallstreetcn.com/articles/3779529"
+        "https://www.reuters.com/world/middle-east/shipping-via-hormuz-strait-slows-after-tanker-attacks-data-shows-2026-08-16/",
+        "https://www.reuters.com/business/energy/oil-treads-water-us-iran-peace-talks-stall-hormuz-shipping-slows-2026-08-17/",
+        "http://www.eeo.com.cn/2026/0817/1000761.shtml"
       ]
     }
   ]
