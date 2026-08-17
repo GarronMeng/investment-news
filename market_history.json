@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated_at": "2026-08-17T07:46:57+08:00",
+  "generated_at": "2026-08-17T09:07:18+08:00",
   "timezone": "Asia/Shanghai",
   "benchmark": {
     "code": "510300",
@@ -1277,8 +1277,8 @@
   },
   "summary": {
     "total": 9,
-    "fresh": 9,
-    "stale": 0,
+    "fresh": 8,
+    "stale": 1,
     "unavailable": 0
   },
   "assets": {
@@ -1287,7 +1287,7 @@
       "name": "兆易创新",
       "symbol": "603986.SS",
       "kind": "stock",
-      "status": "fresh",
+      "status": "stale",
       "source": "Yahoo Finance chart",
       "last_date": "2026-08-14",
       "observations": 140,
@@ -2553,7 +2553,8 @@
           "amount": null
         }
       ],
-      "fallback_reason": "AKShare=('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')); Sina=None; direct=None"
+      "fallback_reason": "AKShare=('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')); Sina=None; direct=None",
+      "error": "AKShare=('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')); Sina=None; direct=None; Yahoo=HTTP Error 429: Too Many Requests"
     },
     "001309": {
       "code": "001309",
@@ -12743,6 +12744,7 @@
   "warnings": [
     "510300 AKShare: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
     "603986 AKShare: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+    "603986 Yahoo: HTTP Error 429: Too Many Requests",
     "001309 AKShare: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
     "300308 AKShare: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
     "002384 AKShare: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",

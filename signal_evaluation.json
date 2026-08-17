@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-08-17T07:46:57+08:00",
-  "history_generated_at": "2026-08-17T07:46:57+08:00",
+  "generated_at": "2026-08-17T09:07:18+08:00",
+  "history_generated_at": "2026-08-17T09:07:18+08:00",
   "summary": {
     "t1": {
       "settled": 0,
@@ -608,6 +608,30 @@
       "entry_close": 0.873,
       "mfe_20d": 0.021764,
       "mae_20d": -0.011455,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "1dd5701a1ecfeab9",
+      "asset": "518880",
+      "name": "黄金ETF华安",
+      "signal_date": "2026-08-14",
+      "bias": "bullish",
+      "research_status": "watch",
+      "conviction": 28.0,
+      "entry_date": "2026-08-14",
+      "entry_close": 8.946,
+      "mfe_20d": 0.000335,
+      "mae_20d": -0.006148,
       "horizons": {
         "t1": {
           "status": "pending"

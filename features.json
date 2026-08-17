@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-08-17T07:46:57+08:00",
-  "source_generated_at": "2026-08-17T07:46:57+08:00",
+  "generated_at": "2026-08-17T09:07:18+08:00",
+  "source_generated_at": "2026-08-17T09:07:18+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -16,7 +16,7 @@
       "code": "603986",
       "name": "兆易创新",
       "as_of": "2026-08-14",
-      "status": "fresh",
+      "status": "stale",
       "observations": 140,
       "ret_1d": 0.032089,
       "ret_5d": 0.001031,

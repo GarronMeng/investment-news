@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generated_at": "2026-08-17T07:46:57+08:00",
+  "generated_at": "2026-08-17T09:07:18+08:00",
   "source": {
     "data_generated_at": "2026-08-17 07:46",
-    "ai_generated_at": "2026-08-16 16:06",
-    "ai_source_generated_at": "2026-08-16 15:47",
-    "features_generated_at": "2026-08-17T07:46:57+08:00",
-    "fresh_ai": false
+    "ai_generated_at": "2026-08-17 09:05",
+    "ai_source_generated_at": "2026-08-17 07:46",
+    "features_generated_at": "2026-08-17T09:07:18+08:00",
+    "fresh_ai": true
   },
   "decisions": [
     {
@@ -16,9 +16,9 @@
       "bias": "neutral",
       "status": "neutral",
       "event_score": 50.0,
-      "market_score": 45.0,
-      "freshness_score": 70,
-      "conviction": 10.0,
+      "market_score": 47.5,
+      "freshness_score": 30,
+      "conviction": 5.0,
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "mixed",
@@ -41,7 +41,7 @@
       "status": "neutral",
       "event_score": 50.0,
       "market_score": 45.0,
-      "freshness_score": 70,
+      "freshness_score": 100,
       "conviction": 10.0,
       "evidence_mode": "market_only",
       "event_count": 0,
@@ -62,24 +62,24 @@
       "name": "中际旭创",
       "as_of": "2026-08-14",
       "bias": "bearish",
-      "status": "market_watch",
+      "status": "neutral",
       "event_score": 50.0,
       "market_score": 25.0,
-      "freshness_score": 70,
-      "conviction": 50.0,
-      "evidence_mode": "market_only",
-      "event_count": 0,
+      "freshness_score": 100,
+      "conviction": 20.0,
+      "evidence_mode": "event_plus_market",
+      "event_count": 1,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.067079",
+      "why_now": "fresh event evidence; market trend=bearish; 20d relative strength=-0.067079",
       "confirmation": [
-        "海外AI硬件与A股CPO同步走强",
-        "高位放量后能维持强势"
+        "中际旭创及CPO板块相对通信指数放量转强，并维持至少两个交易日",
+        "公司后续披露CPO、光引擎或1.6T相关订单与收入贡献"
       ],
       "invalidation": [
-        "AI资本开支下修",
-        "客户延迟采购"
+        "CPO量产扩张时间表再次后延，或出货未形成客户部署",
+        "可插拔产品价格、订单或客户份额出现超预期下修"
       ],
-      "expires_at": "2026-08-22"
+      "expires_at": "2026-11-15"
     },
     {
       "asset": "002384",
@@ -89,7 +89,7 @@
       "status": "neutral",
       "event_score": 50.0,
       "market_score": 45.0,
-      "freshness_score": 70,
+      "freshness_score": 100,
       "conviction": 10.0,
       "evidence_mode": "market_only",
       "event_count": 0,
@@ -113,7 +113,7 @@
       "status": "market_watch",
       "event_score": 50.0,
       "market_score": 85.0,
-      "freshness_score": 70,
+      "freshness_score": 100,
       "conviction": 55,
       "evidence_mode": "market_only",
       "event_count": 0,
@@ -137,7 +137,7 @@
       "status": "market_watch",
       "event_score": 50.0,
       "market_score": 85.0,
-      "freshness_score": 70,
+      "freshness_score": 100,
       "conviction": 55,
       "evidence_mode": "market_only",
       "event_count": 0,
@@ -161,19 +161,19 @@
       "status": "neutral",
       "event_score": 50.0,
       "market_score": 55.0,
-      "freshness_score": 70,
-      "conviction": 10.0,
-      "evidence_mode": "market_only",
-      "event_count": 0,
+      "freshness_score": 100,
+      "conviction": 4.0,
+      "evidence_mode": "event_plus_market",
+      "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.004802",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=0.004802",
       "confirmation": [
-        "同时核对基金净值、场内价格和溢价率",
-        "银价上涨时场内溢价未继续扩大"
+        "油价与金银价格在周一亚洲、欧美时段继续获得成交确认，美元与实际利率未同步急升",
+        "黄金ETF国内价格跟随人民币金价，国投白银LOF场内溢价未继续扩大且无新增交易限制"
       ],
       "invalidation": [
-        "银价下跌",
-        "美元与实际利率上行"
+        "美伊谈判恢复并推动航运量明显回升、油价快速回吐周涨幅",
+        "美元与实际利率持续上行，黄金白银跌破近期支撑"
       ],
       "expires_at": "2026-08-22"
     },
@@ -182,22 +182,22 @@
       "name": "黄金ETF华安",
       "as_of": "2026-08-14",
       "bias": "bullish",
-      "status": "market_watch",
+      "status": "watch",
       "event_score": 50.0,
       "market_score": 85.0,
-      "freshness_score": 70,
-      "conviction": 55,
-      "evidence_mode": "market_only",
-      "event_count": 0,
+      "freshness_score": 100,
+      "conviction": 28.0,
+      "evidence_mode": "event_plus_market",
+      "event_count": 1,
       "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.046551",
+      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.046551",
       "confirmation": [
-        "外盘金价与国内黄金现货同向",
-        "ETF成交量与价格同步确认"
+        "油价与金银价格在周一亚洲、欧美时段继续获得成交确认，美元与实际利率未同步急升",
+        "黄金ETF国内价格跟随人民币金价，国投白银LOF场内溢价未继续扩大且无新增交易限制"
       ],
       "invalidation": [
-        "金价下跌",
-        "实际利率上行"
+        "美伊谈判恢复并推动航运量明显回升、油价快速回吐周涨幅",
+        "美元与实际利率持续上行，黄金白银跌破近期支撑"
       ],
       "expires_at": "2026-08-22"
     },
@@ -209,7 +209,7 @@
       "status": "market_watch",
       "event_score": 50.0,
       "market_score": 85.0,
-      "freshness_score": 70,
+      "freshness_score": 100,
       "conviction": 55,
       "evidence_mode": "market_only",
       "event_count": 0,
