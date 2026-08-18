@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generated_at": "2026-08-18T15:04:08+08:00",
+  "generated_at": "2026-08-18T15:07:26+08:00",
   "source": {
     "data_generated_at": "2026-08-18 12:21",
     "ai_generated_at": "2026-08-18 15:04",
     "ai_source_generated_at": "2026-08-18 12:21",
-    "features_generated_at": "2026-08-18T15:04:08+08:00",
+    "features_generated_at": "2026-08-18T15:07:26+08:00",
     "fresh_ai": true
   },
   "decisions": [
@@ -22,7 +22,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.08418",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.116043",
       "confirmation": [
         "下一交易日三标的止跌并重新强于半导体指数，且韩股存储权重企稳",
         "DRAM/NAND报价、企业级SSD订单或厂商指引继续改善"
@@ -46,7 +46,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.138031",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.170918",
       "confirmation": [
         "下一交易日三标的止跌并重新强于半导体指数，且韩股存储权重企稳",
         "DRAM/NAND报价、企业级SSD订单或厂商指引继续改善"
@@ -70,7 +70,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.129031",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.16241",
       "confirmation": [
         "下一交易日中际旭创与东山精密止跌并重新强于通信和电子指数",
         "后续披露1.6T、CPO或AI服务器PCB订单与收入贡献"
@@ -94,7 +94,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.074199",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.107755",
       "confirmation": [
         "下一交易日中际旭创与东山精密止跌并重新强于通信和电子指数",
         "后续披露1.6T、CPO或AI服务器PCB订单与收入贡献"
@@ -118,7 +118,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.378071",
+      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.342003",
       "confirmation": [
         "下一交易日三标的止跌并重新强于半导体指数，且韩股存储权重企稳",
         "DRAM/NAND报价、企业级SSD订单或厂商指引继续改善"
@@ -142,7 +142,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.417193",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.379305",
       "confirmation": [
         "被动元件板块形成联动",
         "涨价新闻后价格走势能够确认"
@@ -166,7 +166,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=0.048835",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=0.016362",
       "confirmation": [
         "午后黄金ETF与白银LOF重新同步走强，美元和实际利率未继续上行",
         "白银LOF场内溢价未扩大且无新增交易限制"
@@ -190,7 +190,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.090166",
+      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.057693",
       "confirmation": [
         "午后黄金ETF与白银LOF重新同步走强，美元和实际利率未继续上行",
         "白银LOF场内溢价未扩大且无新增交易限制"
@@ -214,7 +214,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.113892",
+      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.081419",
       "confirmation": [
         "后续出现更多中国创新药跨境授权、并购或上市融资案例",
         "创新药ETF持续强于宽基指数且成交额同步放大"
