@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "generated_at": null,
+  "timezone": "Asia/Shanghai",
+  "summary": {
+    "total": 0,
+    "confirmed": 0,
+    "supported": 0,
+    "contradicted": 0,
+    "conflicted": 0,
+    "emerging": 0,
+    "insufficient": 0,
+    "top_attention": []
+  },
+  "assets": {},
+  "ranking": [],
+  "state_changes": [],
+  "methodology": {
+    "weights": {
+      "event": 25,
+      "technical": 30,
+      "relative_strength": 20,
+      "industry": 15,
+      "market_context": 10
+    },
+    "composite": "各可用层使用固定权重后按可用权重重新归一；缺失层不视为0。分数为证据方向强弱，不是收益概率。"
+  },
+  "boundary": "仅用于研究优先级、假设验证与冲突识别；不生成买卖、仓位、止损、数量或成本相关指令。"
+}
