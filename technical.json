@@ -1,15 +1,315 @@
 {
   "version": 1,
-  "generated_at": null,
-  "source_generated_at": null,
-  "benchmark": {},
-  "assets": {},
+  "generated_at": "2026-08-18T21:58:22+08:00",
+  "source_generated_at": "2026-08-18T21:58:22+08:00",
+  "benchmark": {
+    "code": "510300",
+    "name": "沪深300ETF华泰柏瑞",
+    "as_of": "2026-08-18",
+    "source_status": "fresh",
+    "observations": 140,
+    "close": 4.787,
+    "ma60": {
+      "value": 4.8223,
+      "position": "below",
+      "direction": "falling",
+      "slope_pct": -0.000518
+    },
+    "rsi14": 53.33,
+    "rsi_zone": "neutral",
+    "macd": {
+      "dif": -0.0059,
+      "dea": -0.02383,
+      "hist": 0.03587,
+      "state": "bullish",
+      "cross_age": 8
+    },
+    "volume": {
+      "ratio20": 0.642,
+      "state": "contraction"
+    },
+    "breakout_20d": "inside_range",
+    "data_quality": "usable",
+    "condition_state": "conditions_not_met"
+  },
+  "assets": {
+    "603986": {
+      "code": "603986",
+      "name": "兆易创新",
+      "as_of": "2026-08-18",
+      "source_status": "fresh",
+      "observations": 140,
+      "close": 436.74,
+      "ma60": {
+        "value": 522.9545,
+        "position": "below",
+        "direction": "falling",
+        "slope_pct": -0.002507
+      },
+      "rsi14": 48.46,
+      "rsi_zone": "neutral",
+      "macd": {
+        "dif": -25.7417,
+        "dea": -38.3095,
+        "hist": 25.13559,
+        "state": "bullish",
+        "cross_age": 6
+      },
+      "volume": {
+        "ratio20": 0.962,
+        "state": "normal"
+      },
+      "breakout_20d": "inside_range",
+      "data_quality": "usable",
+      "condition_state": "partial_conditions"
+    },
+    "001309": {
+      "code": "001309",
+      "name": "德明利",
+      "as_of": "2026-08-18",
+      "source_status": "fresh",
+      "observations": 140,
+      "close": 437.33,
+      "ma60": {
+        "value": 611.4102,
+        "position": "below",
+        "direction": "falling",
+        "slope_pct": -0.006975
+      },
+      "rsi14": 44.06,
+      "rsi_zone": "weak",
+      "macd": {
+        "dif": -50.65089,
+        "dea": -68.81255,
+        "hist": 36.32333,
+        "state": "bullish",
+        "cross_age": 7
+      },
+      "volume": {
+        "ratio20": 0.855,
+        "state": "normal"
+      },
+      "breakout_20d": "inside_range",
+      "data_quality": "usable",
+      "condition_state": "conditions_not_met"
+    },
+    "300308": {
+      "code": "300308",
+      "name": "中际旭创",
+      "as_of": "2026-08-18",
+      "source_status": "fresh",
+      "observations": 140,
+      "close": 988.1,
+      "ma60": {
+        "value": 1109.3897,
+        "position": "below",
+        "direction": "falling",
+        "slope_pct": -0.001573
+      },
+      "rsi14": 49.6,
+      "rsi_zone": "neutral",
+      "macd": {
+        "dif": -36.18303,
+        "dea": -49.47899,
+        "hist": 26.5919,
+        "state": "bullish",
+        "cross_age": 3
+      },
+      "volume": {
+        "ratio20": 0.539,
+        "state": "contraction"
+      },
+      "breakout_20d": "inside_range",
+      "data_quality": "usable",
+      "condition_state": "conditions_not_met"
+    },
+    "002384": {
+      "code": "002384",
+      "name": "东山精密",
+      "as_of": "2026-08-18",
+      "source_status": "fresh",
+      "observations": 140,
+      "close": 213.82,
+      "ma60": {
+        "value": 223.0577,
+        "position": "below",
+        "direction": "falling",
+        "slope_pct": -0.000927
+      },
+      "rsi14": 53.17,
+      "rsi_zone": "neutral",
+      "macd": {
+        "dif": -4.04056,
+        "dea": -9.03979,
+        "hist": 9.99847,
+        "state": "bullish",
+        "cross_age": 5
+      },
+      "volume": {
+        "ratio20": 0.588,
+        "state": "contraction"
+      },
+      "breakout_20d": "inside_range",
+      "data_quality": "usable",
+      "condition_state": "conditions_not_met"
+    },
+    "600667": {
+      "code": "600667",
+      "name": "太极实业",
+      "as_of": "2026-08-18",
+      "source_status": "fresh",
+      "observations": 140,
+      "close": 23.0,
+      "ma60": {
+        "value": 19.9827,
+        "position": "above",
+        "direction": "rising",
+        "slope_pct": 0.008122
+      },
+      "rsi14": 58.92,
+      "rsi_zone": "strong",
+      "macd": {
+        "dif": 0.86946,
+        "dea": 0.13554,
+        "hist": 1.46784,
+        "state": "bullish",
+        "cross_age": 8
+      },
+      "volume": {
+        "ratio20": 0.814,
+        "state": "normal"
+      },
+      "breakout_20d": "inside_range",
+      "data_quality": "usable",
+      "condition_state": "all_conditions"
+    },
+    "000636": {
+      "code": "000636",
+      "name": "风华高科",
+      "as_of": "2026-08-18",
+      "source_status": "fresh",
+      "observations": 140,
+      "close": 62.34,
+      "ma60": {
+        "value": 59.0552,
+        "position": "above",
+        "direction": "rising",
+        "slope_pct": 0.005951
+      },
+      "rsi14": 57.55,
+      "rsi_zone": "strong",
+      "macd": {
+        "dif": 2.55718,
+        "dea": 1.23045,
+        "hist": 2.65346,
+        "state": "bullish",
+        "cross_age": 12
+      },
+      "volume": {
+        "ratio20": 0.804,
+        "state": "normal"
+      },
+      "breakout_20d": "inside_range",
+      "data_quality": "usable",
+      "condition_state": "all_conditions"
+    },
+    "161226": {
+      "code": "161226",
+      "name": "国投白银LOF",
+      "as_of": "2026-08-18",
+      "source_status": "fresh",
+      "observations": 140,
+      "close": 1.877,
+      "ma60": {
+        "value": 1.9423,
+        "position": "below",
+        "direction": "falling",
+        "slope_pct": -0.004808
+      },
+      "rsi14": 46.49,
+      "rsi_zone": "neutral",
+      "macd": {
+        "dif": -0.00407,
+        "dea": 0.00354,
+        "hist": -0.01522,
+        "state": "bearish",
+        "cross_age": 2
+      },
+      "volume": {
+        "ratio20": 0.682,
+        "state": "contraction"
+      },
+      "breakout_20d": "inside_range",
+      "data_quality": "usable",
+      "condition_state": "conditions_not_met"
+    },
+    "518880": {
+      "code": "518880",
+      "name": "黄金ETF华安",
+      "as_of": "2026-08-18",
+      "source_status": "fresh",
+      "observations": 140,
+      "close": 9.078,
+      "ma60": {
+        "value": 8.7286,
+        "position": "above",
+        "direction": "falling",
+        "slope_pct": -0.000828
+      },
+      "rsi14": 65.62,
+      "rsi_zone": "strong",
+      "macd": {
+        "dif": 0.13564,
+        "dea": 0.07728,
+        "hist": 0.11671,
+        "state": "bullish",
+        "cross_age": null
+      },
+      "volume": {
+        "ratio20": 0.741,
+        "state": "contraction"
+      },
+      "breakout_20d": "inside_range",
+      "data_quality": "usable",
+      "condition_state": "partial_conditions"
+    },
+    "517380": {
+      "code": "517380",
+      "name": "创新药沪港深ETF天弘",
+      "as_of": "2026-08-18",
+      "source_status": "fresh",
+      "observations": 140,
+      "close": 0.895,
+      "ma60": {
+        "value": 0.7552,
+        "position": "above",
+        "direction": "rising",
+        "slope_pct": 0.004211
+      },
+      "rsi14": 67.16,
+      "rsi_zone": "strong",
+      "macd": {
+        "dif": 0.03326,
+        "dea": 0.02862,
+        "hist": 0.00928,
+        "state": "bullish",
+        "cross_age": 7
+      },
+      "volume": {
+        "ratio20": 1.219,
+        "state": "normal"
+      },
+      "breakout_20d": "inside_range",
+      "data_quality": "usable",
+      "condition_state": "all_conditions"
+    }
+  },
   "state_changes": [],
   "methodology": {
     "rsi14": "Wilder RSI(14)",
-    "macd": "EMA12/EMA26 DIF, EMA9 signal",
-    "ma60": "MA60 position and direction",
-    "volume": "latest volume / 20-observation average",
-    "condition_state": "descriptive only; not a trade instruction"
+    "macd": "EMA12/EMA26 DIF, EMA9 signal, histogram=(DIF-DEA)*2",
+    "ma60": "MA60 position plus one-observation slope; ±0.05% slope band treated as flat",
+    "volume": "latest volume / 20-observation average; >=1.35 expansion, <=0.75 contraction",
+    "condition_state": "descriptive conjunction of MA60 position/direction, MACD, RSI zone and volume; not a trade instruction"
   }
 }

@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generated_at": "2026-08-18T16:04:33+08:00",
+  "generated_at": "2026-08-18T21:58:22+08:00",
   "source": {
     "data_generated_at": "2026-08-18 15:56",
     "ai_generated_at": "2026-08-18 16:03",
     "ai_source_generated_at": "2026-08-18 15:56",
-    "features_generated_at": "2026-08-18T16:04:33+08:00",
+    "features_generated_at": "2026-08-18T21:58:22+08:00",
     "fresh_ai": true
   },
   "decisions": [
@@ -22,7 +22,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.114045",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.081572",
       "confirmation": [
         "下一交易日三标的同步企稳并重新强于半导体指数，且韩股存储权重止跌",
         "DRAM/NAND报价、企业级SSD订单或厂商指引继续改善"
@@ -46,7 +46,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.171587",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.139114",
       "confirmation": [
         "下一交易日三标的同步企稳并重新强于半导体指数，且韩股存储权重止跌",
         "DRAM/NAND报价、企业级SSD订单或厂商指引继续改善"
@@ -70,7 +70,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.163088",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.130615",
       "confirmation": [
         "下一交易日两标的止跌并重新强于通信和电子指数",
         "后续披露1.6T、CPO或AI服务器PCB实际订单、收入贡献与客户付款能力"
@@ -94,7 +94,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.106845",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.074372",
       "confirmation": [
         "下一交易日两标的止跌并重新强于通信和电子指数",
         "后续披露1.6T、CPO或AI服务器PCB实际订单、收入贡献与客户付款能力"
@@ -118,7 +118,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.345598",
+      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.378071",
       "confirmation": [
         "下一交易日三标的同步企稳并重新强于半导体指数，且韩股存储权重止跌",
         "DRAM/NAND报价、企业级SSD订单或厂商指引继续改善"
@@ -142,7 +142,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.374115",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.406588",
       "confirmation": [
         "被动元件板块形成联动",
         "涨价新闻后价格走势能够确认"
@@ -156,17 +156,17 @@
     {
       "asset": "161226",
       "name": "国投白银LOF",
-      "as_of": "2026-08-17",
-      "bias": "neutral",
-      "status": "neutral",
+      "as_of": "2026-08-18",
+      "bias": "bearish",
+      "status": "watch",
       "event_score": 50.0,
-      "market_score": 55.0,
+      "market_score": 15.0,
       "freshness_score": 100,
-      "conviction": 4.0,
+      "conviction": 28.0,
       "evidence_mode": "event_plus_market",
       "event_count": 1,
-      "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=0.016362",
+      "trend_state": "bearish",
+      "why_now": "fresh event evidence; market trend=bearish; 20d relative strength=-0.012625",
       "confirmation": [
         "美元与实际利率回落，黄金ETF与白银LOF重新同步走强",
         "白银LOF场内溢价未扩大且无新增交易限制"
@@ -180,7 +180,7 @@
     {
       "asset": "518880",
       "name": "黄金ETF华安",
-      "as_of": "2026-08-17",
+      "as_of": "2026-08-18",
       "bias": "bullish",
       "status": "watch",
       "event_score": 50.0,
@@ -190,7 +190,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.057693",
+      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.072036",
       "confirmation": [
         "美元与实际利率回落，黄金ETF与白银LOF重新同步走强",
         "白银LOF场内溢价未扩大且无新增交易限制"
@@ -204,7 +204,7 @@
     {
       "asset": "517380",
       "name": "创新药沪港深ETF天弘",
-      "as_of": "2026-08-17",
+      "as_of": "2026-08-18",
       "bias": "bullish",
       "status": "active",
       "event_score": 90.0,
@@ -214,7 +214,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.081419",
+      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.11596",
       "confirmation": [
         "后续出现更多中国创新药跨境授权、并购或上市融资案例",
         "创新药ETF持续强于宽基指数且成交额同步放大"
