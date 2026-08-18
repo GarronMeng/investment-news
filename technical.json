@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "generated_at": null,
+  "source_generated_at": null,
+  "benchmark": {},
+  "assets": {},
+  "state_changes": [],
+  "methodology": {
+    "rsi14": "Wilder RSI(14)",
+    "macd": "EMA12/EMA26 DIF, EMA9 signal",
+    "ma60": "MA60 position and direction",
+    "volume": "latest volume / 20-observation average",
+    "condition_state": "descriptive only; not a trade instruction"
+  }
+}
