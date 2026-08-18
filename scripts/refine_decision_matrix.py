@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
-"""Refine Decision Matrix conflict semantics without changing base layer scores.
+"""Refine Decision Matrix conflict, freshness and evidence eligibility semantics.
 
-A near-zero composite can mean either genuine lack of edge or cancellation between
-material positive and negative evidence. This pass separates those cases using
-weighted directional evidence mass. It never changes underlying layer scores and
-never emits trading instructions.
+The base engine computes transparent layer scores. This pass then enforces two
+additional rules before final classification:
+1) stale evidence is not allowed to masquerade as current directional evidence;
+2) economically irrelevant cross-market proxies are excluded (for example,
+   A-share energy sectors are not treated as a gold/silver industry signal).
+
+After exclusions the composite is recomputed with the remaining fixed weights.
+Missing/excluded layers are renormalized, never silently replaced with zero.
 """
 
 from __future__ import annotations
@@ -23,6 +27,7 @@ WEIGHTS = {
     "industry": 15,
     "market_context": 10,
 }
+HEDGE_GROUPS = {"贵金属对冲"}
 
 
 def load(path):
@@ -53,13 +58,120 @@ def rounded(value, digits=1):
     return round(float(value), digits) if value is not None and math.isfinite(float(value)) else None
 
 
-def conflict_metrics(layers):
-    """Return magnitude-aware positive/negative evidence balance.
+def sign(value, threshold=15.0):
+    value = finite(value)
+    if value is None or abs(value) < threshold:
+        return 0
+    return 1 if value > 0 else -1
 
-    Each material layer contributes weight * abs(score)/100. Scores with
-    absolute value below 15 are treated as non-directional. conflict_score is
-    high only when both sides have meaningful mass and are reasonably balanced.
-    """
+
+def exclude_layer(layer, reason):
+    layer["available"] = False
+    layer["score"] = None
+    layer["confidence"] = "none"
+    layer["evidence"] = reason
+    if "matches" in layer:
+        layer["matches"] = []
+
+
+def apply_eligibility(item, market_state=None, technical=None, features=None):
+    """Fail closed when a layer is stale or economically inapplicable."""
+    excluded = []
+    layers = item.get("layers") or {}
+    code = str(item.get("code"))
+
+    if item.get("group") in HEDGE_GROUPS:
+        layer = layers.get("industry")
+        if layer and layer.get("available"):
+            reason = "贵金属对冲不使用A股能源/行业板块作为方向证据。"
+            exclude_layer(layer, reason)
+            excluded.append({"layer": "industry", "reason": reason})
+
+    if market_state:
+        status = market_state.get("section_status") or {}
+        sector_fresh = (status.get("sectors") or {}).get("status") == "fresh"
+        flow_fresh = (status.get("industry_flow") or {}).get("status") == "fresh"
+        layer = layers.get("industry")
+        if layer and layer.get("available") and not (sector_fresh or flow_fresh):
+            reason = "行业强弱与行业资金均非 fresh；该层暂不参与当前矩阵。"
+            exclude_layer(layer, reason)
+            excluded.append({"layer": "industry", "reason": reason})
+
+        breadth_fresh = (status.get("breadth") or {}).get("status") == "fresh"
+        indices_fresh = (status.get("indices") or {}).get("status") == "fresh"
+        layer = layers.get("market_context")
+        if layer and layer.get("available") and not (breadth_fresh and indices_fresh):
+            reason = "市场广度或核心指数非 fresh；环境层暂不参与当前矩阵。"
+            exclude_layer(layer, reason)
+            excluded.append({"layer": "market_context", "reason": reason})
+
+    if technical:
+        raw = (technical.get("assets") or {}).get(code)
+        layer = layers.get("technical")
+        if layer and layer.get("available") and (
+            not raw or raw.get("source_status") != "fresh" or raw.get("data_quality") != "usable"
+        ):
+            reason = "技术源数据非 fresh/usable；技术层暂不参与当前矩阵。"
+            exclude_layer(layer, reason)
+            excluded.append({"layer": "technical", "reason": reason})
+
+    if features:
+        raw = (features.get("assets") or {}).get(code)
+        layer = layers.get("relative_strength")
+        if layer and layer.get("available") and (not raw or raw.get("status") != "fresh"):
+            reason = "相对强弱源数据非 fresh；该层暂不参与当前矩阵。"
+            exclude_layer(layer, reason)
+            excluded.append({"layer": "relative_strength", "reason": reason})
+
+    item["excluded_layers"] = excluded
+    return excluded
+
+
+def recombine(item):
+    layers = item.get("layers") or {}
+    available = [
+        (name, layer, WEIGHTS[name])
+        for name, layer in layers.items()
+        if name in WEIGHTS and layer.get("available") and finite(layer.get("score")) is not None
+    ]
+    available_weight = sum(weight for _, _, weight in available)
+    if not available_weight:
+        item["composite_score"] = None
+        item["coverage"] = 0.0
+        item["confluence"] = 0.0
+        item["available_layers"] = 0
+        item["opposing_weight_share"] = 0.0
+        item["matrix_direction"] = "insufficient"
+        return item
+
+    composite = sum(weight * float(layer["score"]) for _, layer, weight in available) / available_weight
+    coverage = available_weight / sum(WEIGHTS.values()) * 100.0
+    direction = "bullish" if composite >= 20 else "bearish" if composite <= -20 else "neutral"
+    direction_sign = 1 if direction == "bullish" else -1 if direction == "bearish" else 0
+    directional = [(name, layer, weight) for name, layer, weight in available if sign(layer.get("score"))]
+
+    if direction_sign and directional:
+        directional_weight = sum(weight for _, _, weight in directional)
+        agree_weight = sum(weight for _, layer, weight in directional if sign(layer.get("score")) == direction_sign)
+        agreement = agree_weight / directional_weight * 100.0 if directional_weight else 0.0
+        confluence = min(100.0, agreement * 0.7 + abs(composite) * 0.3)
+        opposing_weight = sum(weight for _, layer, weight in directional if sign(layer.get("score")) == -direction_sign)
+        opposing_share = opposing_weight / available_weight * 100.0
+    else:
+        confluence = min(45.0, abs(composite) * 1.5)
+        opposing_share = 0.0
+
+    item["composite_score"] = rounded(composite)
+    item["coverage"] = rounded(coverage)
+    item["confluence"] = rounded(confluence)
+    item["available_layers"] = len(available)
+    item["opposing_weight_share"] = rounded(opposing_share)
+    item["matrix_direction"] = direction
+    return item
+
+
+def conflict_metrics(layers):
+    """Return magnitude-aware positive/negative evidence balance."""
     positive_mass = 0.0
     negative_mass = 0.0
     positive_weight = 0.0
@@ -181,13 +293,15 @@ def attention_score(thesis, evidence, confluence, priority, conflict_score):
     return rounded(min(100, base))
 
 
-def refine(payload, previous=None):
+def refine(payload, previous=None, market_state=None, technical=None, features=None):
     previous = previous or {}
     old_assets = previous.get("assets", {})
     changes = list(payload.get("state_changes") or [])
     assets = payload.get("assets", {})
 
     for code, item in assets.items():
+        apply_eligibility(item, market_state, technical, features)
+        recombine(item)
         metrics = conflict_metrics(item.get("layers", {}))
         evidence = refined_evidence_state(item, metrics)
         thesis = thesis_state(item.get("base_bias"), item.get("matrix_direction"), evidence)
@@ -230,6 +344,10 @@ def refine(payload, previous=None):
     }
     payload["state_changes"] = changes[:30]
     methodology = payload.setdefault("methodology", {})
+    methodology["eligibility"] = (
+        "只有 fresh/usable 的技术、相对强弱和市场/行业数据才能作为当前方向证据；"
+        "贵金属对冲明确排除A股行业与A股市场环境方向层。被排除层不按0处理，而是重新归一剩余权重。"
+    )
     methodology["conflict"] = (
         "方向层按 固定权重×|score| 形成正负证据质量；只有两侧均达到材料性阈值且较平衡时才标记 conflict，"
         "用于区分‘证据互相抵消’与‘单纯无边际’。conflict_score 不是收益概率。"
@@ -243,12 +361,26 @@ def main():
     args = parser.parse_args()
     current = load(OUTPUT)
     previous = load(args.previous) if args.previous else {}
-    refined = refine(current, previous)
+    refined = refine(
+        current,
+        previous,
+        market_state=load(os.path.join(ROOT, "market_state.json")),
+        technical=load(os.path.join(ROOT, "technical.json")),
+        features=load(os.path.join(ROOT, "features.json")),
+    )
     atomic_write(refined)
     print("refined decision matrix", refined.get("summary"))
     for code in refined.get("ranking", [])[:5]:
         item = refined["assets"][code]
-        print(code, item.get("name"), item.get("thesis_state"), item.get("evidence_state"), "conflict", item.get("conflict_score"))
+        print(
+            code,
+            item.get("name"),
+            item.get("thesis_state"),
+            item.get("evidence_state"),
+            "score", item.get("composite_score"),
+            "conflict", item.get("conflict_score"),
+            "excluded", len(item.get("excluded_layers") or []),
+        )
 
 
 if __name__ == "__main__":
