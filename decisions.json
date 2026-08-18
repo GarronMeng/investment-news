@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generated_at": "2026-08-18T11:03:09+08:00",
+  "generated_at": "2026-08-18T12:00:37+08:00",
   "source": {
     "data_generated_at": "2026-08-18 09:53",
-    "ai_generated_at": "2026-08-18 11:01",
+    "ai_generated_at": "2026-08-18 11:58",
     "ai_source_generated_at": "2026-08-18 09:53",
-    "features_generated_at": "2026-08-18T11:03:09+08:00",
+    "features_generated_at": "2026-08-18T12:00:37+08:00",
     "fresh_ai": true
   },
   "decisions": [
@@ -22,13 +22,13 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.118756",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.115601",
       "confirmation": [
-        "午后兆易创新、德明利和太极实业重新形成同步上涨，并强于半导体指数",
+        "午后三标的重新形成同步上涨并强于半导体指数，且KOSPI存储权重止跌回升",
         "DRAM/NAND报价、企业级SSD订单或厂商指引继续改善"
       ],
       "invalidation": [
-        "午后三标的继续分化或集体转弱，海外存储股也回吐涨幅",
+        "午后三标的继续分化或集体转弱，韩美存储股同步回吐涨幅",
         "供给扩张压制存储价格与产业链毛利"
       ],
       "expires_at": "2026-09-15"
@@ -46,13 +46,13 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.17269",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.172276",
       "confirmation": [
-        "午后兆易创新、德明利和太极实业重新形成同步上涨，并强于半导体指数",
+        "午后三标的重新形成同步上涨并强于半导体指数，且KOSPI存储权重止跌回升",
         "DRAM/NAND报价、企业级SSD订单或厂商指引继续改善"
       ],
       "invalidation": [
-        "午后三标的继续分化或集体转弱，海外存储股也回吐涨幅",
+        "午后三标的继续分化或集体转弱，韩美存储股同步回吐涨幅",
         "供给扩张压制存储价格与产业链毛利"
       ],
       "expires_at": "2026-09-15"
@@ -70,7 +70,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.169335",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.165806",
       "confirmation": [
         "午后中际旭创与东山精密止跌并重新同步强于通信和电子指数",
         "后续披露1.6T、CPO或AI服务器PCB订单与收入贡献"
@@ -94,7 +94,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.116196",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.110828",
       "confirmation": [
         "午后中际旭创与东山精密止跌并重新同步强于通信和电子指数",
         "后续披露1.6T、CPO或AI服务器PCB订单与收入贡献"
@@ -118,13 +118,13 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.352188",
+      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.356382",
       "confirmation": [
-        "午后兆易创新、德明利和太极实业重新形成同步上涨，并强于半导体指数",
+        "午后三标的重新形成同步上涨并强于半导体指数，且KOSPI存储权重止跌回升",
         "DRAM/NAND报价、企业级SSD订单或厂商指引继续改善"
       ],
       "invalidation": [
-        "午后三标的继续分化或集体转弱，海外存储股也回吐涨幅",
+        "午后三标的继续分化或集体转弱，韩美存储股同步回吐涨幅",
         "供给扩张压制存储价格与产业链毛利"
       ],
       "expires_at": "2026-09-15"
@@ -142,7 +142,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.390361",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.409991",
       "confirmation": [
         "被动元件板块形成联动",
         "涨价新闻后价格走势能够确认"
