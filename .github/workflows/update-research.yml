@@ -7,7 +7,7 @@ on:
     - cron: "30 0 * * 1-5"
     - cron: "35 7 * * 1-5"
   workflow_run:
-    workflows: ["Update A-share News", "Update Watchlist Market Quotes"]
+    workflows: ["Update A-share News", "Update Watchlist Market Quotes", "Update Market Sentiment"]
     branches: [main]
     types: [completed]
   push:
@@ -15,14 +15,20 @@ on:
     paths:
       - watchlist.json
       - ai-signals.js
+      - sentiment.json
+      - market_state.json
       - scripts/fetch_history.py
       - scripts/build_features.py
       - scripts/build_technical.py
+      - scripts/fetch_valuation.py
+      - scripts/build_risk_score.py
       - scripts/build_decisions.py
       - scripts/update_signal_ledger.py
       - scripts/evaluate_signals.py
       - tests/test_research_engine.py
       - tests/test_technical.py
+      - tests/test_valuation.py
+      - tests/test_risk_score.py
       - .github/workflows/update-research.yml
 
 permissions:
@@ -36,7 +42,7 @@ jobs:
   update:
     if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
     steps:
       - name: Checkout main
         uses: actions/checkout@v4
@@ -57,6 +63,8 @@ jobs:
         run: |
           python -m unittest tests/test_research_engine.py -v
           python -m unittest tests/test_technical.py -v
+          python -m unittest tests/test_valuation.py -v
+          python -m unittest tests/test_risk_score.py -v
 
       - name: Refresh daily history
         run: python scripts/fetch_history.py
@@ -66,6 +74,12 @@ jobs:
 
       - name: Build technical condition matrix
         run: python scripts/build_technical.py
+
+      - name: Refresh index valuation history
+        run: python scripts/fetch_valuation.py
+
+      - name: Build market risk temperature
+        run: python scripts/build_risk_score.py
 
       - name: Build research decisions
         run: python scripts/build_decisions.py
@@ -85,6 +99,8 @@ jobs:
           history = json.load(open("market_history.json", encoding="utf-8"))
           features = json.load(open("features.json", encoding="utf-8"))
           technical = json.load(open("technical.json", encoding="utf-8"))
+          valuation = json.load(open("valuation.json", encoding="utf-8"))
+          risk = json.load(open("risk_score.json", encoding="utf-8"))
           decisions = json.load(open("decisions.json", encoding="utf-8"))
           evaluation = json.load(open("signal_evaluation.json", encoding="utf-8"))
 
@@ -92,6 +108,8 @@ jobs:
           assert history.get("version") == 2
           assert features.get("version") == 2
           assert technical.get("version") == 1
+          assert valuation.get("version") == 1
+          assert risk.get("version") == 1
           assert set(history.get("assets", {})) == expected
           assert set(features.get("assets", {})) == expected
           assert set(technical.get("assets", {})) == expected
@@ -107,8 +125,15 @@ jobs:
           forbidden = {"quantity", "position_size", "buy", "sell", "cost_basis"}
           assert all(not forbidden.intersection(item) for item in decisions["decisions"]), "private/trade fields leaked into public decisions"
           assert all(not forbidden.intersection(item) for item in technical["assets"].values()), "trade fields leaked into technical matrix"
+          assert all(not forbidden.intersection(item) for item in valuation.get("indices", {}).values()), "trade fields leaked into valuation"
+          assert risk.get("label") in {"low", "balanced", "elevated", "high", "insufficient"}
+          assert 0 <= float(risk.get("coverage", 0)) <= 100
+          if risk.get("score") is not None:
+              assert 0 <= float(risk["score"]) <= 100
           assert evaluation.get("version") == 1
           print("validated research engine", usable, "/", len(expected), "fresh histories")
+          print("valuation", valuation.get("summary"))
+          print("risk", risk.get("score"), risk.get("label"), "coverage", risk.get("coverage"))
           print("technical changes", len(technical.get("state_changes", [])))
           PY
 
@@ -116,7 +141,7 @@ jobs:
         run: |
           git config user.name "investment-news-bot"
           git config user.email "investment-news-bot@users.noreply.github.com"
-          git add market_history.json features.json technical.json decisions.json signal_evaluation.json
+          git add market_history.json features.json technical.json valuation.json risk_score.json decisions.json signal_evaluation.json
           if [ -d signals ]; then git add signals/*.jsonl 2>/dev/null || true; fi
           git diff --cached --quiet && exit 0
           git commit -m "chore: refresh research engine"
