@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Append material Decision Matrix states to a monthly JSONL ledger.
 
-One record is kept per asset/date/state tuple. Intraday score drift that does not
-change the semantic state is intentionally deduplicated so forward evaluation is
-not dominated by repeated workflow runs.
+One record is kept per asset/date/state/revision tuple. A methodology revision is
+part of the identity so corrected semantics can supersede earlier same-day state
+records without mutating the append-only audit trail.
 """
 
 import hashlib
@@ -13,6 +13,7 @@ from datetime import datetime, timedelta, timezone
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BEIJING = timezone(timedelta(hours=8))
+STATE_REVISION = 2
 
 
 def load(path):
@@ -29,9 +30,10 @@ def close_on_or_before(series, target_date):
     return eligible[-1] if eligible else None
 
 
-def state_identity(item):
+def state_identity(item, revision=STATE_REVISION):
     raw = "|".join(
         [
+            str(revision),
             str(item.get("code")),
             str(item.get("as_of")),
             str(item.get("thesis_state")),
@@ -42,7 +44,7 @@ def state_identity(item):
     return hashlib.sha1(raw.encode("utf-8")).hexdigest()[:16]
 
 
-def record_for(item, matrix, history, now):
+def record_for(item, matrix, history, now, revision=STATE_REVISION):
     code = str(item.get("code"))
     signal_date = item.get("as_of")
     asset_row = close_on_or_before(history.get("assets", {}).get(code, {}), signal_date) if signal_date else None
@@ -56,7 +58,8 @@ def record_for(item, matrix, history, now):
         for name, layer in (item.get("layers") or {}).items()
     }
     return {
-        "state_id": state_identity(item),
+        "state_id": state_identity(item, revision),
+        "state_revision": revision,
         "created_at": now.isoformat(timespec="seconds"),
         "matrix_generated_at": matrix.get("generated_at"),
         "signal_date": signal_date,
@@ -72,6 +75,7 @@ def record_for(item, matrix, history, now):
         "confluence": item.get("confluence"),
         "conflict_score": item.get("conflict_score"),
         "attention_score": item.get("attention_score"),
+        "excluded_layers": item.get("excluded_layers", []),
         "entry_close": asset_row.get("close") if asset_row else None,
         "entry_benchmark_close": benchmark_row.get("close") if benchmark_row else None,
         "layers": layers,
@@ -107,7 +111,7 @@ def main():
             existing.add(record["state_id"])
             appended += 1
 
-    print("matrix ledger", os.path.relpath(path, ROOT), "appended", appended)
+    print("matrix ledger", os.path.relpath(path, ROOT), "revision", STATE_REVISION, "appended", appended)
 
 
 if __name__ == "__main__":
