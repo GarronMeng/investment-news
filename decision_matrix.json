@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-19T00:59:24+08:00",
+  "generated_at": "2026-08-19T02:02:12+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -28,10 +28,10 @@
       "as_of": "2026-08-18",
       "base_bias": "neutral",
       "matrix_direction": "neutral",
-      "composite_score": -18.7,
-      "coverage": 75.0,
-      "confluence": 28.1,
-      "available_layers": 4,
+      "composite_score": -19.4,
+      "coverage": 65.0,
+      "confluence": 29.1,
+      "available_layers": 3,
       "opposing_weight_share": 0.0,
       "evidence_state": "noise_or_no_edge",
       "thesis_state": "no_directional_thesis",
@@ -70,10 +70,10 @@
           "mapping_mode": "explicit"
         },
         "market_context": {
-          "available": true,
-          "score": -14.3,
-          "confidence": "medium",
-          "evidence": "regime=transition；上涨占比=0.3824；风险温度=65.0。"
+          "available": false,
+          "score": null,
+          "confidence": "none",
+          "evidence": "市场广度或核心指数非 fresh；环境层暂不参与当前矩阵。"
         }
       },
       "contributors": {
@@ -113,10 +113,10 @@
       "as_of": "2026-08-18",
       "base_bias": "neutral",
       "matrix_direction": "bearish",
-      "composite_score": -26.2,
-      "coverage": 75.0,
-      "confluence": 77.9,
-      "available_layers": 4,
+      "composite_score": -28.0,
+      "coverage": 65.0,
+      "confluence": 78.4,
+      "available_layers": 3,
       "opposing_weight_share": 0.0,
       "evidence_state": "partial_confirmation",
       "thesis_state": "emerging",
@@ -157,10 +157,10 @@
           "mapping_mode": "explicit"
         },
         "market_context": {
-          "available": true,
-          "score": -14.3,
-          "confidence": "medium",
-          "evidence": "regime=transition；上涨占比=0.3824；风险温度=65.0。"
+          "available": false,
+          "score": null,
+          "confidence": "none",
+          "evidence": "市场广度或核心指数非 fresh；环境层暂不参与当前矩阵。"
         }
       },
       "contributors": {
@@ -200,10 +200,10 @@
       "as_of": "2026-08-18",
       "base_bias": "neutral",
       "matrix_direction": "bearish",
-      "composite_score": -24.9,
-      "coverage": 75.0,
-      "confluence": 77.5,
-      "available_layers": 4,
+      "composite_score": -26.5,
+      "coverage": 65.0,
+      "confluence": 77.9,
+      "available_layers": 3,
       "opposing_weight_share": 0.0,
       "evidence_state": "partial_confirmation",
       "thesis_state": "emerging",
@@ -242,10 +242,10 @@
           "mapping_mode": "explicit"
         },
         "market_context": {
-          "available": true,
-          "score": -14.3,
-          "confidence": "medium",
-          "evidence": "regime=transition；上涨占比=0.3824；风险温度=65.0。"
+          "available": false,
+          "score": null,
+          "confidence": "none",
+          "evidence": "市场广度或核心指数非 fresh；环境层暂不参与当前矩阵。"
         }
       },
       "contributors": {
@@ -285,10 +285,10 @@
       "as_of": "2026-08-18",
       "base_bias": "neutral",
       "matrix_direction": "neutral",
-      "composite_score": -15.3,
-      "coverage": 75.0,
-      "confluence": 22.9,
-      "available_layers": 4,
+      "composite_score": -15.4,
+      "coverage": 65.0,
+      "confluence": 23.1,
+      "available_layers": 3,
       "opposing_weight_share": 0.0,
       "evidence_state": "noise_or_no_edge",
       "thesis_state": "no_directional_thesis",
@@ -329,10 +329,10 @@
           "mapping_mode": "explicit"
         },
         "market_context": {
-          "available": true,
-          "score": -14.3,
-          "confidence": "medium",
-          "evidence": "regime=transition；上涨占比=0.3824；风险温度=65.0。"
+          "available": false,
+          "score": null,
+          "confidence": "none",
+          "evidence": "市场广度或核心指数非 fresh；环境层暂不参与当前矩阵。"
         }
       },
       "contributors": {
@@ -372,14 +372,14 @@
       "as_of": "2026-08-18",
       "base_bias": "bullish",
       "matrix_direction": "bullish",
-      "composite_score": 49.6,
-      "coverage": 75.0,
-      "confluence": 68.7,
-      "available_layers": 4,
-      "opposing_weight_share": 20.0,
+      "composite_score": 59.4,
+      "coverage": 65.0,
+      "confluence": 71.7,
+      "available_layers": 3,
+      "opposing_weight_share": 23.1,
       "evidence_state": "partial_confirmation",
       "thesis_state": "supported",
-      "attention_score": 58.6,
+      "attention_score": 58.8,
       "research_focus": "维持观察，等待更多层形成共振。",
       "layers": {
         "event": {
@@ -414,10 +414,10 @@
           "mapping_mode": "explicit"
         },
         "market_context": {
-          "available": true,
-          "score": -14.3,
-          "confidence": "medium",
-          "evidence": "regime=transition；上涨占比=0.3824；风险温度=65.0。"
+          "available": false,
+          "score": null,
+          "confidence": "none",
+          "evidence": "市场广度或核心指数非 fresh；环境层暂不参与当前矩阵。"
         }
       },
       "contributors": {
@@ -438,11 +438,6 @@
             "layer": "industry",
             "score": -31.9,
             "evidence": "半导体 涨跌+0.23%/净流-152.6亿"
-          },
-          {
-            "layer": "market_context",
-            "score": -14.3,
-            "evidence": "regime=transition；上涨占比=0.3824；风险温度=65.0。"
           }
         ]
       },
@@ -468,14 +463,14 @@
       "as_of": "2026-08-18",
       "base_bias": "bullish",
       "matrix_direction": "bullish",
-      "composite_score": 34.8,
-      "coverage": 75.0,
-      "confluence": 64.3,
-      "available_layers": 4,
-      "opposing_weight_share": 20.0,
+      "composite_score": 42.4,
+      "coverage": 65.0,
+      "confluence": 66.6,
+      "available_layers": 3,
+      "opposing_weight_share": 23.1,
       "evidence_state": "partial_confirmation",
       "thesis_state": "supported",
-      "attention_score": 58.3,
+      "attention_score": 58.4,
       "research_focus": "维持观察，等待更多层形成共振。",
       "layers": {
         "event": {
@@ -510,10 +505,10 @@
           "mapping_mode": "explicit"
         },
         "market_context": {
-          "available": true,
-          "score": -14.3,
-          "confidence": "medium",
-          "evidence": "regime=transition；上涨占比=0.3824；风险温度=65.0。"
+          "available": false,
+          "score": null,
+          "confidence": "none",
+          "evidence": "市场广度或核心指数非 fresh；环境层暂不参与当前矩阵。"
         }
       },
       "contributors": {
@@ -534,11 +529,6 @@
             "layer": "industry",
             "score": -29.6,
             "evidence": "元件 涨跌-0.23%/净流-103.3亿"
-          },
-          {
-            "layer": "market_context",
-            "score": -14.3,
-            "evidence": "regime=transition；上涨占比=0.3824；风险温度=65.0。"
           }
         ]
       },
@@ -724,14 +714,14 @@
       "as_of": "2026-08-18",
       "base_bias": "bullish",
       "matrix_direction": "bullish",
-      "composite_score": 33.1,
-      "coverage": 75.0,
-      "confluence": 63.8,
-      "available_layers": 4,
-      "opposing_weight_share": 20.0,
+      "composite_score": 40.4,
+      "coverage": 65.0,
+      "confluence": 66.0,
+      "available_layers": 3,
+      "opposing_weight_share": 23.1,
       "evidence_state": "partial_confirmation",
       "thesis_state": "supported",
-      "attention_score": 58.3,
+      "attention_score": 58.4,
       "research_focus": "维持观察，等待更多层形成共振。",
       "layers": {
         "event": {
@@ -767,10 +757,10 @@
           "mapping_mode": "explicit"
         },
         "market_context": {
-          "available": true,
-          "score": -14.3,
-          "confidence": "medium",
-          "evidence": "regime=transition；上涨占比=0.3824；风险温度=65.0。"
+          "available": false,
+          "score": null,
+          "confidence": "none",
+          "evidence": "市场广度或核心指数非 fresh；环境层暂不参与当前矩阵。"
         }
       },
       "contributors": {
@@ -791,11 +781,6 @@
             "layer": "industry",
             "score": -51.0,
             "evidence": "生物制品 涨跌-1.53%/净流—"
-          },
-          {
-            "layer": "market_context",
-            "score": -14.3,
-            "evidence": "regime=transition；上涨占比=0.3824；风险温度=65.0。"
           }
         ]
       },
@@ -826,60 +811,32 @@
   ],
   "state_changes": [
     {
-      "code": "001309",
-      "name": "德明利",
-      "field": "matrix_direction",
-      "from": "neutral",
-      "to": "bearish"
-    },
-    {
-      "code": "001309",
-      "name": "德明利",
+      "code": "600667",
+      "name": "太极实业",
       "field": "evidence_state",
-      "from": "noise_or_no_edge",
-      "to": "partial_confirmation"
+      "from": "partial_confirmation",
+      "to": "multi_layer_confirmed"
     },
     {
-      "code": "001309",
-      "name": "德明利",
+      "code": "600667",
+      "name": "太极实业",
       "field": "thesis_state",
-      "from": "no_directional_thesis",
-      "to": "emerging"
-    },
-    {
-      "code": "300308",
-      "name": "中际旭创",
-      "field": "matrix_direction",
-      "from": "neutral",
-      "to": "bearish"
-    },
-    {
-      "code": "300308",
-      "name": "中际旭创",
-      "field": "evidence_state",
-      "from": "noise_or_no_edge",
-      "to": "partial_confirmation"
-    },
-    {
-      "code": "300308",
-      "name": "中际旭创",
-      "field": "thesis_state",
-      "from": "no_directional_thesis",
-      "to": "emerging"
+      "from": "supported",
+      "to": "confirmed"
     },
     {
       "code": "161226",
       "name": "国投白银LOF",
       "field": "evidence_state",
-      "from": "partial_confirmation",
-      "to": "insufficient"
+      "from": "insufficient",
+      "to": "partial_confirmation"
     },
     {
       "code": "518880",
       "name": "黄金ETF华安",
       "field": "evidence_state",
-      "from": "partial_confirmation",
-      "to": "insufficient"
+      "from": "insufficient",
+      "to": "partial_confirmation"
     }
   ],
   "methodology": {
