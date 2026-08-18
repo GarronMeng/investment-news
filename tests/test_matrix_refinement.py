@@ -4,7 +4,13 @@ import unittest
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / "scripts"))
 
-from refine_decision_matrix import conflict_metrics, refine, refined_evidence_state
+from refine_decision_matrix import (
+    apply_eligibility,
+    conflict_metrics,
+    recombine,
+    refine,
+    refined_evidence_state,
+)
 
 
 class MatrixRefinementTests(unittest.TestCase):
@@ -79,6 +85,44 @@ class MatrixRefinementTests(unittest.TestCase):
         self.assertEqual(item["thesis_state"], "conflicted")
         self.assertGreater(item["attention_score"], 80)
         self.assertTrue(any(x["field"] == "evidence_state" for x in result["state_changes"]))
+
+    def test_hedge_excludes_a_share_industry_and_reweights(self):
+        item = {
+            "code": "518880", "group": "贵金属对冲",
+            "layers": {
+                "event": {"available": True, "score": 0, "confidence": "high"},
+                "technical": {"available": True, "score": 40, "confidence": "high"},
+                "relative_strength": {"available": True, "score": 30, "confidence": "high"},
+                "industry": {"available": True, "score": 60, "confidence": "medium", "matches": ["油气开采及服务"]},
+                "market_context": {"available": False, "score": None, "confidence": "none"},
+            },
+        }
+        excluded = apply_eligibility(item)
+        recombine(item)
+        self.assertFalse(item["layers"]["industry"]["available"])
+        self.assertTrue(any(x["layer"] == "industry" for x in excluded))
+        expected = (25 * 0 + 30 * 40 + 20 * 30) / 75
+        self.assertEqual(item["composite_score"], round(expected, 1))
+        self.assertEqual(item["coverage"], 75.0)
+
+    def test_stale_relative_strength_is_excluded_not_neutralized(self):
+        item = {
+            "code": "000001", "group": "科技核心",
+            "layers": {
+                "event": {"available": False, "score": None},
+                "technical": {"available": True, "score": 60, "confidence": "high"},
+                "relative_strength": {"available": True, "score": -80, "confidence": "medium"},
+                "industry": {"available": False, "score": None},
+                "market_context": {"available": False, "score": None},
+            },
+        }
+        technical = {"assets": {"000001": {"source_status": "fresh", "data_quality": "usable"}}}
+        features = {"assets": {"000001": {"status": "stale"}}}
+        apply_eligibility(item, technical=technical, features=features)
+        recombine(item)
+        self.assertFalse(item["layers"]["relative_strength"]["available"])
+        self.assertEqual(item["composite_score"], 60.0)
+        self.assertEqual(item["coverage"], 30.0)
 
 
 if __name__ == "__main__":
