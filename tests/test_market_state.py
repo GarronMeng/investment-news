@@ -63,6 +63,13 @@ class MarketStateTests(unittest.TestCase):
         self.assertGreater(regime["score"], 35)
         self.assertIn("不是收益概率", regime["methodology"])
 
+    def test_zero_advance_ratio_is_valid_risk_off_data(self):
+        breadth = {"advance_ratio": 0.0, "limit_up": 0, "limit_down": 100}
+        indices = [{"change_pct": -2.0}, {"change_pct": -1.5}]
+        regime = score_regime(breadth, indices)
+        self.assertEqual(regime["code"], "risk_off")
+        self.assertLess(regime["components"]["breadth"], -90)
+
     def test_state_change_alerts_are_generated_from_previous_snapshot(self):
         previous = {
             "breadth": {"advance_ratio": 0.30},
