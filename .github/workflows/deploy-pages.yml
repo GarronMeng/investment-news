@@ -11,6 +11,7 @@ on:
       - chart.html
       - portfolio.html
       - performance.html
+      - health.html
       - research.html
       - data.js
       - ai-signals.js
@@ -63,7 +64,7 @@ jobs:
           cp dashboard-v2.html public/v2.html
           cp dashboard-v3.html public/dashboard-v3.html
           cp dashboard-v4.html public/index.html
-          cp chart.html portfolio.html performance.html research.html data.js ai-signals.js sentiment.json market.json market_state.json market_history.json valuation.json risk_score.json decision_matrix.json watchlist.json features.json technical.json decisions.json signal_evaluation.json .nojekyll public/
+          cp chart.html portfolio.html performance.html health.html research.html data.js ai-signals.js sentiment.json market.json market_state.json market_history.json valuation.json risk_score.json decision_matrix.json watchlist.json features.json technical.json decisions.json signal_evaluation.json .nojekyll public/
 
       - name: Enforce AI signal freshness
         run: |
@@ -120,7 +121,7 @@ jobs:
           from pathlib import Path
 
           required = [
-              "public/index.html", "public/dashboard-v3.html", "public/chart.html", "public/portfolio.html", "public/performance.html", "public/research.html",
+              "public/index.html", "public/dashboard-v3.html", "public/chart.html", "public/portfolio.html", "public/performance.html", "public/health.html", "public/research.html",
               "public/market_state.json", "public/valuation.json", "public/risk_score.json", "public/decision_matrix.json",
               "public/technical.json", "public/signal_evaluation.json", "public/market_history.json",
           ]
