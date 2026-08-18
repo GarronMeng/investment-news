@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generated_at": "2026-08-18T15:07:26+08:00",
+  "generated_at": "2026-08-18T15:54:27+08:00",
   "source": {
     "data_generated_at": "2026-08-18 12:21",
     "ai_generated_at": "2026-08-18 15:04",
     "ai_source_generated_at": "2026-08-18 12:21",
-    "features_generated_at": "2026-08-18T15:07:26+08:00",
+    "features_generated_at": "2026-08-18T15:54:27+08:00",
     "fresh_ai": true
   },
   "decisions": [
@@ -22,7 +22,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.116043",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.114045",
       "confirmation": [
         "下一交易日三标的止跌并重新强于半导体指数，且韩股存储权重企稳",
         "DRAM/NAND报价、企业级SSD订单或厂商指引继续改善"
@@ -46,7 +46,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.170918",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.171587",
       "confirmation": [
         "下一交易日三标的止跌并重新强于半导体指数，且韩股存储权重企稳",
         "DRAM/NAND报价、企业级SSD订单或厂商指引继续改善"
@@ -70,7 +70,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.16241",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.163088",
       "confirmation": [
         "下一交易日中际旭创与东山精密止跌并重新强于通信和电子指数",
         "后续披露1.6T、CPO或AI服务器PCB订单与收入贡献"
@@ -94,7 +94,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.107755",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.106845",
       "confirmation": [
         "下一交易日中际旭创与东山精密止跌并重新强于通信和电子指数",
         "后续披露1.6T、CPO或AI服务器PCB订单与收入贡献"
@@ -118,7 +118,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.342003",
+      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.345598",
       "confirmation": [
         "下一交易日三标的止跌并重新强于半导体指数，且韩股存储权重企稳",
         "DRAM/NAND报价、企业级SSD订单或厂商指引继续改善"
@@ -142,7 +142,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.379305",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.374115",
       "confirmation": [
         "被动元件板块形成联动",
         "涨价新闻后价格走势能够确认"
