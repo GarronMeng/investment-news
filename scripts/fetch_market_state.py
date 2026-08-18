@@ -70,6 +70,24 @@ def _to_records(frame):
     return [row.to_dict() for _, row in frame.iterrows()]
 
 
+def money_to_yuan(value):
+    """Normalize common Chinese money strings to yuan without guessing units."""
+    number = finite(value)
+    if number is not None:
+        return number
+    text = str(value or "").replace(",", "").strip()
+    if not text or text in {"--", "-", "nan", "None"}:
+        return None
+    match = re.fullmatch(r"([+-]?[0-9.]+)\s*(万亿|亿|万|元)?", text)
+    if not match:
+        return None
+    base = finite(match.group(1))
+    if base is None:
+        return None
+    multiplier = {"万亿": 1e12, "亿": 1e8, "万": 1e4, "元": 1.0, None: 1.0}[match.group(2)]
+    return base * multiplier
+
+
 def daily_limit_pct(code, name):
     code = str(code or "")
     name = str(name or "").upper()
@@ -182,6 +200,39 @@ def normalize_sector_rows(frame, limit=8):
     return {"leaders": rows[:limit], "laggards": list(reversed(rows[-limit:])), "coverage": len(rows)}
 
 
+def normalize_ths_industry(frame, limit=8):
+    """Use THS industry flow as an independent fallback for rank + net flow."""
+    rows = []
+    for row in _to_records(frame):
+        name = _first(row, "行业")
+        pct = finite(_first(row, "行业-涨跌幅"))
+        net = money_to_yuan(_first(row, "净额"))
+        if not name:
+            continue
+        rows.append({
+            "name": str(name),
+            "change_pct": rounded(pct, 2),
+            "net_inflow": rounded(net, 2),
+            "leader": _first(row, "领涨股"),
+            "source": "同花顺 via AKShare",
+        })
+    sector_rows = [x for x in rows if x["change_pct"] is not None]
+    sector_rows.sort(key=lambda x: x["change_pct"], reverse=True)
+    flow_rows = [x for x in rows if x["net_inflow"] is not None]
+    flow_rows.sort(key=lambda x: x["net_inflow"], reverse=True)
+    sectors = {
+        "leaders": [{k: v for k, v in x.items() if k != "net_inflow"} for x in sector_rows[:limit]],
+        "laggards": [{k: v for k, v in x.items() if k != "net_inflow"} for x in list(reversed(sector_rows[-limit:]))],
+        "coverage": len(sector_rows),
+    }
+    flow = {
+        "inflow": [{k: v for k, v in x.items() if k != "leader"} for x in flow_rows[:limit]],
+        "outflow": [{k: v for k, v in x.items() if k != "leader"} for x in list(reversed(flow_rows[-limit:]))],
+        "coverage": len(flow_rows),
+    }
+    return sectors, flow
+
+
 def _find_numeric(row, tokens):
     for key, value in row.items():
         if all(token in str(key) for token in tokens):
@@ -239,7 +290,6 @@ def score_regime(breadth, indices):
     if adv is None and not idx:
         return {"label": "数据不足", "code": "insufficient", "score": None, "components": {}}
 
-    # Important: 0.0 is a valid breadth reading, not a missing value.
     adv_for_score = 0.5 if adv is None else adv
     breadth_score = max(-1.0, min(1.0, (adv_for_score - 0.5) * 2.5))
     index_mean = sum(idx) / len(idx) if idx else 0.0
@@ -330,7 +380,8 @@ def build_payload(previous=None, now=None, a_share_rows=None, indices=None, sect
         "warnings": [],
         "methodology": {
             "breadth": "全A实时快照计算上涨/下跌/平盘、涨跌停触及与封板率；涨跌停阈值按板块/ST规则近似。",
-            "industry_flow": "仅在数据源提供明确主力净流入字段时展示。",
+            "industry_flow": "东方财富行业主力净流入为主；失败时回退同花顺行业净额，统一换算为元。",
+            "sector_rank": "东方财富行业涨跌为主；失败时回退同花顺行业资金流页面的行业涨跌幅。",
             "etf_activity": "ETF成交额活跃度代理，不等同ETF净申购或真实资金净流入。",
         },
     }
@@ -361,7 +412,25 @@ def fetch_live(previous=None, now=None):
     )
     etf_activity = attempt("etf_activity", lambda: normalize_etf_activity(ak.fund_etf_spot_em()))
 
+    # Independent THS fallback: one request can provide both industry return
+    # ranking and explicit industry net-flow. It is used only for sections whose
+    # primary Eastmoney fetch is unavailable.
+    if sectors is None or industry_flow is None:
+        ths = attempt("industry_fallback_ths", lambda: ak.stock_fund_flow_industry(symbol="即时"))
+        if ths is not None:
+            fallback_sectors, fallback_flow = normalize_ths_industry(ths)
+            if sectors is None and fallback_sectors.get("coverage"):
+                sectors = fallback_sectors
+                warnings.append("sectors primary unavailable; using 同花顺 via AKShare fallback")
+            if industry_flow is None and fallback_flow.get("coverage"):
+                industry_flow = fallback_flow
+                warnings.append("industry_flow primary unavailable; using 同花顺 via AKShare fallback")
+
     payload = build_payload(previous, now, a_share_rows, indices, sectors, industry_flow, etf_activity)
+    if sectors is not None and sectors.get("leaders") and sectors["leaders"][0].get("source", "").startswith("同花顺"):
+        payload["section_status"]["sectors"].update({"source": "同花顺 via AKShare", "fallback": True})
+    if industry_flow is not None and industry_flow.get("inflow") and industry_flow["inflow"][0].get("source", "").startswith("同花顺"):
+        payload["section_status"]["industry_flow"].update({"source": "同花顺 via AKShare", "fallback": True})
     payload["warnings"].extend(warnings)
     return payload
 
