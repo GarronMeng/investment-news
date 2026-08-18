@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "generated_at": null,
+  "timezone": "Asia/Shanghai",
+  "breadth": {},
+  "indices": [],
+  "sectors": {"leaders": [], "laggards": [], "coverage": 0},
+  "industry_flow": {"inflow": [], "outflow": [], "coverage": 0},
+  "etf_activity": [],
+  "regime": {"label": "数据不足", "code": "insufficient", "score": null, "components": {}},
+  "section_status": {
+    "breadth": {"status": "unavailable"},
+    "indices": {"status": "unavailable"},
+    "sectors": {"status": "unavailable"},
+    "industry_flow": {"status": "unavailable"},
+    "etf_activity": {"status": "unavailable"}
+  },
+  "alerts": [],
+  "warnings": ["等待市场数据任务首次刷新"],
+  "methodology": {
+    "breadth": "全A实时快照计算市场广度；无数据时不补造。",
+    "industry_flow": "仅展示明确主力净流入字段。",
+    "etf_activity": "ETF成交额活跃度代理，不等同净申购或真实资金净流入。"
+  }
+}
