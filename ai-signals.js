@@ -1,5 +1,5 @@
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-18 10:04",
+  "generated_at": "2026-08-18 11:01",
   "source_generated_at": "2026-08-18 09:53",
   "generated_by": "ChatGPT Web",
   "status": "ready",
@@ -988,19 +988,19 @@ window.AI_SIGNALS = {
     {
       "market": "日股",
       "flag": "🇯🇵",
-      "session": "2026-08-18 早盘",
-      "updated_at": "2026-08-18 10:02 北京时间（11:02 JST）",
-      "status": "pending",
-      "status_label": "跌幅扩大至约0.9%，观测时点不同待验证",
-      "move": "前收69,220.25｜开盘68,847.35（跳空-0.54%）｜日经官方11:02 JST报68,599.71（-0.90%）；WSJ/FactSet于09:18 JST报68,732.71（-0.70%）",
-      "driver": "隔夜美股回落与中东风险压制风险偏好；Screen、Lasertec等芯片设备股早盘偏弱。两源交易日期与方向一致，但观测时点不同，不能视为同刻交叉验证。",
+      "session": "2026-08-18 午间收盘",
+      "updated_at": "2026-08-18 10:30 北京时间（11:30 JST）",
+      "status": "negative",
+      "status_label": "午前跌幅扩大至1.62%",
+      "move": "前收69,220.25｜开盘68,847.35（跳空-0.54%）｜午间收盘68,098.54（-1.62%），为上午低点",
+      "driver": "隔夜美股回落、中东风险及芯片设备股走弱共同压制指数，日经午前持续下探；正式午间收盘数据已由日经官方确认。",
       "a_share_links": [
         "半导体设备",
         "被动元件",
         "MLCC",
         "消费电子"
       ],
-      "validation": "补充同刻第二独立报价；观察日经能否站回前收及芯片设备、被动元件权重是否止跌。",
+      "validation": "观察午后能否收复68,500点，以及芯片设备、测试与被动元件权重是否止跌。",
       "sources": [
         "https://indexes.nikkei.co.jp/en/nkave/index/profile",
         "https://www.wsj.com/finance/stocks/nikkei-falls-0-7-tracking-wall-streets-losses-4f0d7ddd"
@@ -1010,18 +1010,18 @@ window.AI_SIGNALS = {
       "market": "韩股",
       "flag": "🇰🇷",
       "session": "2026-08-18 早盘",
-      "updated_at": "2026-08-18 09:18 北京时间（10:18 KST）",
+      "updated_at": "2026-08-18 10:23 北京时间（11:23 KST）",
       "status": "pending",
-      "status_label": "高开后延续上涨，独立同刻复核仍不足",
-      "move": "前收6,977.94｜开盘7,127.77（跳空+2.15%）｜WSJ/FactSet 10:18 KST报7,162.11（+2.64%）；韩国媒体09:01 KST报7,112.96（+1.93%）",
-      "driver": "休市后恢复交易，隔夜美股存储板块走强带动三星电子与SK海力士，指数高开后维持强势；现有独立来源观测时点不同，暂不升级为双源确认。",
+      "status_label": "高开涨幅显著收窄，独立同刻复核不足",
+      "move": "前收6,977.94｜开盘7,127.77（跳空+2.15%）｜WSJ/FactSet 11:23 KST报7,020.55（+0.61%），明显低于10:18 KST的+2.64%",
+      "driver": "存储股带动指数高开，但随后涨幅快速收窄，显示休市后的补涨承接不足；缺少KRX同刻动态报价，继续按待验证处理。",
       "a_share_links": [
         "HBM",
         "DRAM",
         "NAND",
         "封测"
       ],
-      "validation": "补充KRX或第二独立源同刻报价；观察三星电子、SK海力士及KOSPI能否守住开盘涨幅。",
+      "validation": "补充KRX或第二独立源同刻报价；观察三星电子、SK海力士及KOSPI午后能否重新扩大涨幅。",
       "sources": [
         "https://www.wsj.com/market-data/quotes/index/KR/SEU",
         "https://www.mk.co.kr/en/stock/12129894",
@@ -1031,26 +1031,26 @@ window.AI_SIGNALS = {
   ],
   "signals": [
     {
-      "event": "美股存储板块逆势上行，A股存储链获得新的外围价格确认",
+      "event": "海外存储强势未完全传导至A股，存储三标的早盘分化",
       "industry": "semi",
       "industry_name": "DRAM / NAND / 企业级SSD / 半导体封测",
-      "direction": "positive",
-      "strength": 4,
+      "direction": "mixed",
+      "strength": 3,
       "horizon": "1-4w",
-      "priced_in": "unknown",
-      "reason": "8月17日美股大盘下跌，但美光上涨约4.1%、闪迪约8.9%、西部数据约5.4%，费城半导体指数上涨约1.6%；韩国KOSPI休市后今早高开约2.15%并继续上行。这为8月17日A股存储链同步收强提供新增外围确认，但8月18日A股实时行情文件尚未更新，当前市场传导仍待盘中验证。",
+      "priced_in": "medium",
+      "reason": "隔夜美光、闪迪、西部数据和费城半导体指数逆势上涨，但10:41行情批次显示兆易创新约跌0.68%、德明利约涨1.08%、太极实业约跌2.22%，仅模组端维持正反馈，设计与封测未同步承接。个股行情来自Yahoo备用源且缺少可靠成交量，暂按“产业利好、盘面分化”处理。",
       "assets": [
         "603986",
         "001309",
         "600667"
       ],
       "validation": [
-        "三标的开盘后不出现集体冲高回落，并继续强于半导体指数",
+        "午后兆易创新、德明利和太极实业重新形成同步上涨，并强于半导体指数",
         "DRAM/NAND报价、企业级SSD订单或厂商指引继续改善"
       ],
       "invalidation": [
-        "三标的集体转弱且存储板块同步性消失",
-        "海外存储股回吐涨幅，或供给扩张压制价格与毛利"
+        "午后三标的继续分化或集体转弱，海外存储股也回吐涨幅",
+        "供给扩张压制存储价格与产业链毛利"
       ],
       "urls": [
         "https://wallstreetcn.com/articles/3779645",
@@ -1059,25 +1059,25 @@ window.AI_SIGNALS = {
       ]
     },
     {
-      "event": "OpenAI数据中心融资与Fabrinet业绩共同强化AI光通信需求",
+      "event": "Fabrinet业绩强化AI光通信需求，但A股CPO与PCB早盘未获价格确认",
       "industry": "tech",
       "industry_name": "AI数据中心 / 高速光模块 / CPO / 服务器PCB",
-      "direction": "positive",
-      "strength": 4,
+      "direction": "mixed",
+      "strength": 3,
       "horizon": "1-3m",
-      "priced_in": "unknown",
-      "reason": "英伟达将向OpenAI俄亥俄数据中心提供最高1050亿美元担保，并向软银旗下SB Energy投资15亿美元；Fabrinet第四财季收入13.16亿美元、同比增长约44.6%，全年收入增长36%，为海外光通信需求提供业绩确认。事件强化长期算力、网络与服务器基础设施需求，但8月18日A股实时行情尚未取得，融资循环、建设进度、电力约束与高位定价仍是风险。",
+      "priced_in": "medium",
+      "reason": "OpenAI数据中心融资与Fabrinet第四财季收入同比增长约44.6%强化长期光通信需求，但10:41行情批次显示中际旭创约跌1.80%、东山精密约跌2.14%，昨日同步上涨后早盘共同回落。个股行情来自低置信度备用源且缺少成交量，当前只能确认产业逻辑增强，尚不能确认A股继续扩散。",
       "assets": [
         "300308",
         "002384"
       ],
       "validation": [
-        "中际旭创与东山精密继续同步强于通信和电子指数，且不出现利好高开低走",
-        "后续披露1.6T、CPO或AI服务器PCB订单与收入贡献，项目按计划获得融资和电力"
+        "午后中际旭创与东山精密止跌并重新同步强于通信和电子指数",
+        "后续披露1.6T、CPO或AI服务器PCB订单与收入贡献"
       ],
       "invalidation": [
-        "项目融资、供电或建设进度延后，OpenAI资本开支计划下修",
-        "CPO架构重塑可插拔光模块价值分配，或两标的板块同步性消失"
+        "两标的继续同步下跌或出现利好高开低走结构",
+        "项目融资、供电或建设进度延后，或CPO量产与订单不及预期"
       ],
       "urls": [
         "https://www.reuters.com/business/media-telecom/nvidia-invest-15-billion-sb-energy-under-openai-data-center-deal-2026-08-17/",
@@ -1092,19 +1092,19 @@ window.AI_SIGNALS = {
       "direction": "mixed",
       "strength": 5,
       "horizon": "1-5d",
-      "priced_in": "unknown",
-      "reason": "美国明确不延长临时安排，伊朗警告若外交失败将转向进攻，霍尔木兹航运量处于低位；布伦特原油升至约126美元，30年期美债收益率创2007年以来新高，现货黄金回到4400美元附近。新增分析认为境外私人部门与官方储备配置分化可能为美元提供结构性底部支撑，进一步增加金银上方约束；8月18日A股金银基金实时行情尚未取得，白银LOF的净值、溢价和交易限制风险仍需单独核验。",
+      "priced_in": "medium",
+      "reason": "霍尔木兹风险、高油价和美元结构性支撑使避险与实际利率压力并存。10:41行情批次显示黄金ETF约跌0.04%、成交额约15.1亿元，10:27备用行情显示国投白银LOF约跌0.53%，昨日金银同步上涨未能延续；白银LOF仍须独立核验净值、场内溢价和交易限制。",
       "assets": [
         "161226",
         "518880"
       ],
       "validation": [
-        "黄金白银在欧美时段继续获得价格确认，美元和实际利率未同步急升",
-        "黄金ETF跟随人民币金价；白银LOF场内溢价未扩大且无新增交易限制"
+        "午后黄金ETF与白银LOF重新同步走强，美元和实际利率未继续上行",
+        "白银LOF场内溢价未扩大且无新增交易限制"
       ],
       "invalidation": [
-        "美伊恢复有效谈判、霍尔木兹航运明显恢复且油价快速回落",
-        "美元与实际利率持续上行并推动黄金白银跌破近期支撑"
+        "美元与实际利率持续上行并推动黄金白银跌破近期支撑",
+        "美伊恢复有效谈判、霍尔木兹航运明显恢复且油价快速回落"
       ],
       "urls": [
         "https://www.reuters.com/world/middle-east/iran-threatens-go-offensive-strait-hormuz-if-diplomacy-with-us-fails-2026-08-17/",
