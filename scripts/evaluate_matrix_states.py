@@ -4,6 +4,10 @@
 Directional states are judged against benchmark excess return in the matrix
 direction. Neutral/conflict states are not assigned a fake hit rate; their
 future absolute excess dispersion is still measured for later comparison.
+
+The append-only ledger may contain corrected methodology revisions. Evaluation
+keeps the latest revision for the same asset/date/semantic-state tuple so audit
+history is preserved without double-counting obsolete semantics.
 """
 
 import glob
@@ -27,16 +31,36 @@ def load(path):
         return {}
 
 
+def semantic_key(record):
+    return (
+        str(record.get("asset")),
+        str(record.get("signal_date")),
+        str(record.get("thesis_state")),
+        str(record.get("evidence_state")),
+        str(record.get("matrix_direction")),
+    )
+
+
+def revision_key(record):
+    return (int(record.get("state_revision") or 1), str(record.get("created_at") or ""))
+
+
 def ledger_records():
-    output = []
+    latest = {}
+    raw_count = 0
     for path in sorted(glob.glob(os.path.join(ROOT, "matrix_states", "*.jsonl"))):
         with open(path, encoding="utf-8") as handle:
             for line in handle:
                 try:
-                    output.append(json.loads(line))
+                    record = json.loads(line)
                 except ValueError:
                     continue
-    return output
+                raw_count += 1
+                key = semantic_key(record)
+                if key not in latest or revision_key(record) > revision_key(latest[key]):
+                    latest[key] = record
+    records = sorted(latest.values(), key=lambda x: (str(x.get("signal_date")), str(x.get("asset")), str(x.get("created_at"))))
+    return records, raw_count
 
 
 def index_at_or_after(rows, target):
@@ -107,6 +131,7 @@ def settle_record(record, history):
 
     return {
         "state_id": record.get("state_id"),
+        "state_revision": int(record.get("state_revision") or 1),
         "asset": record.get("asset"),
         "name": record.get("name"),
         "signal_date": record.get("signal_date"),
@@ -151,7 +176,7 @@ def aggregate(rows, group_field):
 
 def main():
     history = load(os.path.join(ROOT, "market_history.json"))
-    records = ledger_records()
+    records, raw_records = ledger_records()
     evaluations = [settle_record(record, history) for record in records]
     usable = [row for row in evaluations if row.get("status") != "unavailable"]
 
@@ -160,13 +185,15 @@ def main():
         "generated_at": datetime.now(BEIJING).isoformat(timespec="seconds"),
         "history_generated_at": history.get("generated_at"),
         "records": len(records),
+        "raw_ledger_records": raw_records,
+        "superseded_records": max(0, raw_records - len(records)),
         "evaluations": evaluations,
         "by_thesis_state": aggregate(usable, "thesis_state"),
         "by_evidence_state": aggregate(usable, "evidence_state"),
         "methodology": {
             "directional": "bullish/bearish matrix_direction uses future benchmark excess return; bearish signs are inverted so positive directional_excess means the matrix direction was correct.",
             "neutral": "neutral/conflict states receive no synthetic win rate; future absolute excess dispersion is measured instead.",
-            "deduplication": "matrix ledger records one asset/date/semantic-state tuple, avoiding repeated intraday workflow runs as duplicate samples.",
+            "deduplication": "append-only audit records are retained, but evaluation uses the latest methodology revision for an identical asset/date/semantic-state tuple.",
             "minimum_readout": f"win-rate readout remains insufficient_sample until at least {MIN_SAMPLE_FOR_READOUT} directional settled observations exist in a group.",
         },
         "boundary": "Historical validation only; these statistics are not converted into future probabilities or automatic trading actions.",
@@ -174,7 +201,7 @@ def main():
     with open(OUTPUT, "w", encoding="utf-8") as handle:
         json.dump(payload, handle, ensure_ascii=False, indent=2)
         handle.write("\n")
-    print("matrix evaluations", len(evaluations), "records", len(records))
+    print("matrix evaluations", len(evaluations), "raw", raw_records, "superseded", payload["superseded_records"])
 
 
 if __name__ == "__main__":
