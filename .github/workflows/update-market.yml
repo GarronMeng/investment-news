@@ -13,7 +13,9 @@ on:
     paths:
       - watchlist.json
       - scripts/fetch_market.py
+      - scripts/fetch_market_state.py
       - tests/test_market.py
+      - tests/test_market_state.py
       - .github/workflows/update-market.yml
 
 permissions:
@@ -26,7 +28,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 18
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -41,11 +43,16 @@ jobs:
       - name: Install market provider
         run: python -m pip install "akshare>=1.18,<2"
 
-      - name: Test market contract
-        run: python -m unittest tests/test_market.py -v
+      - name: Test market contracts
+        run: |
+          python -m unittest tests/test_market.py -v
+          python -m unittest tests/test_market_state.py -v
 
       - name: Refresh watchlist quotes
         run: python scripts/fetch_market.py
+
+      - name: Refresh market state
+        run: python scripts/fetch_market_state.py
 
       - name: Validate output
         run: |
@@ -53,22 +60,30 @@ jobs:
           import json
 
           market = json.load(open("market.json", encoding="utf-8"))
+          state = json.load(open("market_state.json", encoding="utf-8"))
           watch = json.load(open("watchlist.json", encoding="utf-8"))
           expected = {str(item["code"]) for item in watch["assets"]}
           actual = {str(item["code"]) for item in market["quotes"]}
           assert market.get("version") == 1
+          assert state.get("version") == 1
           assert actual == expected, (actual, expected)
           assert all(item.get("status") in {"fresh", "stale", "unavailable"} for item in market["quotes"])
-          print("validated", market["generated_at"], market["summary"])
+          allowed = {"fresh", "stale", "unavailable"}
+          assert all((value or {}).get("status") in allowed for value in state.get("section_status", {}).values())
+          if state.get("section_status", {}).get("breadth", {}).get("status") == "fresh":
+              assert state.get("breadth", {}).get("total", 0) > 1000, state.get("breadth")
+          assert state.get("regime", {}).get("code") in {"risk_on", "narrow_risk_on", "transition", "risk_off", "insufficient"}
+          print("validated quotes", market["generated_at"], market["summary"])
+          print("validated market state", state["generated_at"], state["regime"])
           PY
 
-      - name: Commit generated quotes
+      - name: Commit generated market data
         run: |
           git config user.name "investment-news-bot"
           git config user.email "investment-news-bot@users.noreply.github.com"
-          git add market.json
+          git add market.json market_state.json
           git diff --cached --quiet && exit 0
-          git commit -m "chore: refresh watchlist quotes"
+          git commit -m "chore: refresh market state"
           for attempt in 1 2 3; do
             if git pull --rebase origin main && git push; then
               exit 0
@@ -76,5 +91,5 @@ jobs:
             git rebase --abort || true
             echo "Push retry ${attempt}/3"
           done
-          echo "::error::Unable to push refreshed quotes after 3 attempts"
+          echo "::error::Unable to push refreshed market data after 3 attempts"
           exit 1
