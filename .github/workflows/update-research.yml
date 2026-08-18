@@ -17,10 +17,12 @@ on:
       - ai-signals.js
       - scripts/fetch_history.py
       - scripts/build_features.py
+      - scripts/build_technical.py
       - scripts/build_decisions.py
       - scripts/update_signal_ledger.py
       - scripts/evaluate_signals.py
       - tests/test_research_engine.py
+      - tests/test_technical.py
       - .github/workflows/update-research.yml
 
 permissions:
@@ -52,13 +54,18 @@ jobs:
         run: python -m pip install "akshare>=1.18,<2"
 
       - name: Test research contracts
-        run: python -m unittest tests/test_research_engine.py -v
+        run: |
+          python -m unittest tests/test_research_engine.py -v
+          python -m unittest tests/test_technical.py -v
 
       - name: Refresh daily history
         run: python scripts/fetch_history.py
 
       - name: Build deterministic features
         run: python scripts/build_features.py
+
+      - name: Build technical condition matrix
+        run: python scripts/build_technical.py
 
       - name: Build research decisions
         run: python scripts/build_decisions.py
@@ -77,14 +84,17 @@ jobs:
           watch = json.load(open("watchlist.json", encoding="utf-8"))
           history = json.load(open("market_history.json", encoding="utf-8"))
           features = json.load(open("features.json", encoding="utf-8"))
+          technical = json.load(open("technical.json", encoding="utf-8"))
           decisions = json.load(open("decisions.json", encoding="utf-8"))
           evaluation = json.load(open("signal_evaluation.json", encoding="utf-8"))
 
           expected = {str(item["code"]) for item in watch["assets"]}
           assert history.get("version") == 2
           assert features.get("version") == 2
+          assert technical.get("version") == 1
           assert set(history.get("assets", {})) == expected
           assert set(features.get("assets", {})) == expected
+          assert set(technical.get("assets", {})) == expected
           assert {str(item["asset"]) for item in decisions.get("decisions", [])} == expected
           benchmark = history.get("benchmark", {})
           assert benchmark.get("status") == "fresh", f"benchmark stale: {benchmark.get('last_date')} {benchmark.get('error')}"
@@ -96,15 +106,17 @@ jobs:
           assert all(item.get("status") in {"active", "watch", "market_watch", "neutral"} for item in decisions["decisions"])
           forbidden = {"quantity", "position_size", "buy", "sell", "cost_basis"}
           assert all(not forbidden.intersection(item) for item in decisions["decisions"]), "private/trade fields leaked into public decisions"
+          assert all(not forbidden.intersection(item) for item in technical["assets"].values()), "trade fields leaked into technical matrix"
           assert evaluation.get("version") == 1
           print("validated research engine", usable, "/", len(expected), "fresh histories")
+          print("technical changes", len(technical.get("state_changes", [])))
           PY
 
       - name: Commit generated research data
         run: |
           git config user.name "investment-news-bot"
           git config user.email "investment-news-bot@users.noreply.github.com"
-          git add market_history.json features.json decisions.json signal_evaluation.json
+          git add market_history.json features.json technical.json decisions.json signal_evaluation.json
           if [ -d signals ]; then git add signals/*.jsonl 2>/dev/null || true; fi
           git diff --cached --quiet && exit 0
           git commit -m "chore: refresh research engine"
