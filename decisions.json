@@ -1,28 +1,28 @@
 {
   "version": 1,
-  "generated_at": "2026-08-19T00:20:58+08:00",
+  "generated_at": "2026-08-19T00:26:05+08:00",
   "source": {
     "data_generated_at": "2026-08-18 15:56",
     "ai_generated_at": "2026-08-18 16:03",
     "ai_source_generated_at": "2026-08-18 15:56",
-    "features_generated_at": "2026-08-19T00:20:48+08:00",
+    "features_generated_at": "2026-08-19T00:25:54+08:00",
     "fresh_ai": true
   },
   "decisions": [
     {
       "asset": "603986",
       "name": "兆易创新",
-      "as_of": "2026-08-17",
-      "bias": "bullish",
-      "status": "watch",
+      "as_of": "2026-08-18",
+      "bias": "neutral",
+      "status": "neutral",
       "event_score": 50.0,
-      "market_score": 85.0,
+      "market_score": 45.0,
       "freshness_score": 100,
-      "conviction": 28.0,
+      "conviction": 4.0,
       "evidence_mode": "event_plus_market",
       "event_count": 1,
-      "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.027065",
+      "trend_state": "mixed",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.081572",
       "confirmation": [
         "下一交易日三标的同步企稳并重新强于半导体指数，且韩股存储权重止跌",
         "DRAM/NAND报价、企业级SSD订单或厂商指引继续改善"
@@ -36,7 +36,7 @@
     {
       "asset": "001309",
       "name": "德明利",
-      "as_of": "2026-08-17",
+      "as_of": "2026-08-18",
       "bias": "neutral",
       "status": "neutral",
       "event_score": 50.0,
@@ -46,7 +46,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.098345",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.139114",
       "confirmation": [
         "下一交易日三标的同步企稳并重新强于半导体指数，且韩股存储权重止跌",
         "DRAM/NAND报价、企业级SSD订单或厂商指引继续改善"
@@ -60,7 +60,7 @@
     {
       "asset": "300308",
       "name": "中际旭创",
-      "as_of": "2026-08-17",
+      "as_of": "2026-08-18",
       "bias": "neutral",
       "status": "neutral",
       "event_score": 50.0,
@@ -70,7 +70,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.002958",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.130615",
       "confirmation": [
         "下一交易日两标的止跌并重新强于通信和电子指数",
         "后续披露1.6T、CPO或AI服务器PCB实际订单、收入贡献与客户付款能力"
@@ -84,7 +84,7 @@
     {
       "asset": "002384",
       "name": "东山精密",
-      "as_of": "2026-08-17",
+      "as_of": "2026-08-18",
       "bias": "neutral",
       "status": "neutral",
       "event_score": 50.0,
@@ -94,7 +94,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.000321",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.074372",
       "confirmation": [
         "下一交易日两标的止跌并重新强于通信和电子指数",
         "后续披露1.6T、CPO或AI服务器PCB实际订单、收入贡献与客户付款能力"
@@ -108,7 +108,7 @@
     {
       "asset": "600667",
       "name": "太极实业",
-      "as_of": "2026-08-17",
+      "as_of": "2026-08-18",
       "bias": "bullish",
       "status": "watch",
       "event_score": 50.0,
@@ -118,7 +118,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.572841",
+      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.378071",
       "confirmation": [
         "下一交易日三标的同步企稳并重新强于半导体指数，且韩股存储权重止跌",
         "DRAM/NAND报价、企业级SSD订单或厂商指引继续改善"
@@ -132,17 +132,17 @@
     {
       "asset": "000636",
       "name": "风华高科",
-      "as_of": "2026-08-17",
+      "as_of": "2026-08-18",
       "bias": "bullish",
       "status": "market_watch",
       "event_score": 50.0,
-      "market_score": 85.0,
+      "market_score": 75.0,
       "freshness_score": 100,
-      "conviction": 55,
+      "conviction": 50.0,
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.514804",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.406588",
       "confirmation": [
         "被动元件板块形成联动",
         "涨价新闻后价格走势能够确认"
