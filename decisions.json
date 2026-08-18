@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generated_at": "2026-08-18T13:00:49+08:00",
+  "generated_at": "2026-08-18T13:48:02+08:00",
   "source": {
     "data_generated_at": "2026-08-18 12:21",
     "ai_generated_at": "2026-08-18 13:01",
     "ai_source_generated_at": "2026-08-18 12:21",
-    "features_generated_at": "2026-08-18T13:00:49+08:00",
+    "features_generated_at": "2026-08-18T13:48:02+08:00",
     "fresh_ai": true
   },
   "decisions": [
@@ -22,7 +22,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.078115",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.087553",
       "confirmation": [
         "午后三标的重新形成同步上涨并强于半导体指数，且KOSPI存储权重止跌回升",
         "DRAM/NAND报价、企业级SSD订单或厂商指引继续改善"
@@ -46,7 +46,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.13479",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.149885",
       "confirmation": [
         "午后三标的重新形成同步上涨并强于半导体指数，且KOSPI存储权重止跌回升",
         "DRAM/NAND报价、企业级SSD订单或厂商指引继续改善"
@@ -70,7 +70,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.12832",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.135801",
       "confirmation": [
         "午后中际旭创与东山精密止跌并重新同步强于通信和电子指数",
         "后续披露1.6T、CPO或AI服务器PCB订单与收入贡献"
@@ -94,7 +94,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.073341",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.078514",
       "confirmation": [
         "午后中际旭创与东山精密止跌并重新同步强于通信和电子指数",
         "后续披露1.6T、CPO或AI服务器PCB订单与收入贡献"
@@ -118,7 +118,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.393869",
+      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.381259",
       "confirmation": [
         "午后三标的重新形成同步上涨并强于半导体指数，且KOSPI存储权重止跌回升",
         "DRAM/NAND报价、企业级SSD订单或厂商指引继续改善"
@@ -142,7 +142,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.447477",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.434667",
       "confirmation": [
         "被动元件板块形成联动",
         "涨价新闻后价格走势能够确认"
@@ -156,17 +156,17 @@
     {
       "asset": "161226",
       "name": "国投白银LOF",
-      "as_of": "2026-08-17",
-      "bias": "neutral",
-      "status": "neutral",
+      "as_of": "2026-08-18",
+      "bias": "bearish",
+      "status": "watch",
       "event_score": 50.0,
-      "market_score": 55.0,
+      "market_score": 15.0,
       "freshness_score": 100,
-      "conviction": 4.0,
+      "conviction": 28.0,
       "evidence_mode": "event_plus_market",
       "event_count": 1,
-      "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=0.053848",
+      "trend_state": "bearish",
+      "why_now": "fresh event evidence; market trend=bearish; 20d relative strength=-0.01192",
       "confirmation": [
         "午后黄金ETF与白银LOF重新同步走强，美元和实际利率未继续上行",
         "白银LOF场内溢价未扩大且无新增交易限制"
@@ -190,7 +190,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.095179",
+      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.094553",
       "confirmation": [
         "午后黄金ETF与白银LOF重新同步走强，美元和实际利率未继续上行",
         "白银LOF场内溢价未扩大且无新增交易限制"
@@ -214,7 +214,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.118906",
+      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.118279",
       "confirmation": [
         "后续出现更多中国创新药跨境授权、并购或上市融资案例",
         "创新药ETF持续强于宽基指数且成交额同步放大"
