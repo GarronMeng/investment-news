@@ -25,6 +25,7 @@ on:
       - scripts/build_decisions.py
       - scripts/build_decision_matrix.py
       - scripts/refine_decision_matrix.py
+      - scripts/finalize_decision_matrix.py
       - scripts/update_signal_ledger.py
       - scripts/evaluate_signals.py
       - scripts/update_matrix_ledger.py
@@ -100,8 +101,11 @@ jobs:
       - name: Build unified decision matrix
         run: python scripts/build_decision_matrix.py
 
-      - name: Refine evidence conflict semantics
+      - name: Refine evidence eligibility and conflict semantics
         run: python scripts/refine_decision_matrix.py --previous /tmp/decision_matrix.prev.json
+
+      - name: Finalize matrix contributor integrity
+        run: python scripts/finalize_decision_matrix.py
 
       - name: Update append-only signal ledger
         run: python scripts/update_signal_ledger.py
@@ -168,13 +172,17 @@ jobs:
               assert 0 <= float(item.get("confluence", 0)) <= 100
               assert 0 <= float(item.get("attention_score", 0)) <= 100
               assert 0 <= float(item.get("conflict_score", 0)) <= 100
+              unavailable = {name for name, layer in item.get("layers", {}).items() if not layer.get("available")}
+              referenced = {row.get("layer") for side in ("positive", "negative") for row in item.get("contributors", {}).get(side, [])}
+              assert not unavailable.intersection(referenced), f"excluded layer leaked into contributors: {item.get('code')}"
+          assert matrix.get("integrity", {}).get("status") == "ok"
           assert evaluation.get("version") == 1
           assert isinstance(matrix_evaluation.get("records", 0), int)
           print("validated research engine", usable, "/", len(expected), "fresh histories")
           print("valuation", valuation.get("summary"))
           print("risk", risk.get("score"), risk.get("label"), "coverage", risk.get("coverage"))
-          print("decision matrix", matrix.get("summary"))
-          print("matrix evaluation records", matrix_evaluation.get("records"))
+          print("decision matrix", matrix.get("summary"), matrix.get("integrity"))
+          print("matrix evaluation records", matrix_evaluation.get("records"), "raw", matrix_evaluation.get("raw_ledger_records"))
           print("technical changes", len(technical.get("state_changes", [])))
           PY
 
