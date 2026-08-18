@@ -7,7 +7,7 @@ from unittest.mock import patch
 SCRIPTS = pathlib.Path(__file__).resolve().parents[1] / "scripts"
 sys.path.insert(0, str(SCRIPTS))
 
-from fetch_history import fresh, kind_for, refresh, sina_symbol_for, symbol_for
+from fetch_history import align_to_benchmark_date, fresh, kind_for, refresh, sina_symbol_for, symbol_for
 from build_features import feature_for
 from build_decisions import event_score, market_score
 from evaluate_signals import index_at_or_after
@@ -19,11 +19,20 @@ class ResearchEngineTests(unittest.TestCase):
         self.assertEqual(symbol_for("001309"), "001309.SZ")
         self.assertEqual(sina_symbol_for("161226"), "sz161226")
         self.assertEqual(sina_symbol_for("518880"), "sh518880")
+        self.assertEqual(sina_symbol_for("603986"), "sh603986")
         self.assertEqual(kind_for("161226"), "lof")
         self.assertEqual(kind_for("518880"), "etf")
         self.assertEqual(kind_for("603986"), "stock")
         self.assertEqual(fresh("2026-08-14", today=date(2026, 8, 16)), "fresh")
         self.assertEqual(fresh("2026-08-01", today=date(2026, 8, 16)), "stale")
+
+    def test_benchmark_alignment_prevents_one_session_old_false_fresh(self):
+        item = {"status": "fresh", "last_date": "2026-08-17", "rows": [{"date": "2026-08-17", "close": 10}]}
+        aligned = align_to_benchmark_date(item, "2026-08-18")
+        self.assertEqual(aligned["status"], "stale")
+        self.assertIn("benchmark 2026-08-18", aligned["staleness_reason"])
+        same_day = align_to_benchmark_date({"status": "fresh", "last_date": "2026-08-18"}, "2026-08-18")
+        self.assertEqual(same_day["status"], "fresh")
 
     def test_feature_engine_computes_relative_strength_without_inventing_turnover(self):
         rows = []
@@ -53,6 +62,20 @@ class ResearchEngineTests(unittest.TestCase):
             "ret_1d": 0.02,
         })
         self.assertEqual(score, 90)
+
+    def test_stock_history_uses_independent_sina_after_primary_error(self):
+        rows = [
+            {"date": f"2026-08-{day:02d}", "open": 10, "high": 11, "low": 9, "close": 10, "volume": 1, "amount": 100}
+            for day in range(1, 21)
+        ]
+        warnings = []
+        with patch("fetch_history.akshare_history", side_effect=RuntimeError("primary down")), patch(
+            "fetch_history.sina_stock_history", return_value=rows
+        ):
+            result = refresh("603986", "兆易创新", "603986.SS", "stock", {}, warnings)
+        self.assertEqual(result["source"], "新浪财经 via AKShare")
+        self.assertIn("primary down", result["fallback_reason"])
+        self.assertTrue(any("AKShare" in item for item in warnings))
 
     def test_fund_history_uses_independent_sina_after_primary_error(self):
         rows = [
