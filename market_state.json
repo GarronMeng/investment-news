@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-18T22:05:19+08:00",
+  "generated_at": "2026-08-18T22:23:01+08:00",
   "timezone": "Asia/Shanghai",
   "breadth": {
     "total": 5544,
@@ -75,14 +75,210 @@
     }
   ],
   "sectors": {
-    "leaders": [],
-    "laggards": [],
-    "coverage": 0
+    "leaders": [
+      {
+        "name": "种植业与林业",
+        "change_pct": 9.36,
+        "leader": "秋乐种业",
+        "source": "同花顺 via AKShare"
+      },
+      {
+        "name": "农产品加工",
+        "change_pct": 3.51,
+        "leader": "大北农",
+        "source": "同花顺 via AKShare"
+      },
+      {
+        "name": "养殖业",
+        "change_pct": 2.95,
+        "leader": "天山生物",
+        "source": "同花顺 via AKShare"
+      },
+      {
+        "name": "农化制品",
+        "change_pct": 2.3,
+        "leader": "农大科技",
+        "source": "同花顺 via AKShare"
+      },
+      {
+        "name": "油气开采及服务",
+        "change_pct": 2.06,
+        "leader": "海油工程",
+        "source": "同花顺 via AKShare"
+      },
+      {
+        "name": "燃气",
+        "change_pct": 1.53,
+        "leader": "洪通燃气",
+        "source": "同花顺 via AKShare"
+      },
+      {
+        "name": "食品加工制造",
+        "change_pct": 1.5,
+        "leader": "康比特",
+        "source": "同花顺 via AKShare"
+      },
+      {
+        "name": "工程机械",
+        "change_pct": 1.21,
+        "leader": "万达轴承",
+        "source": "同花顺 via AKShare"
+      }
+    ],
+    "laggards": [
+      {
+        "name": "影视院线",
+        "change_pct": -2.21,
+        "leader": "ST华谊",
+        "source": "同花顺 via AKShare"
+      },
+      {
+        "name": "能源金属",
+        "change_pct": -1.97,
+        "leader": "*ST威领",
+        "source": "同花顺 via AKShare"
+      },
+      {
+        "name": "医疗服务",
+        "change_pct": -1.82,
+        "leader": "康龙化成",
+        "source": "同花顺 via AKShare"
+      },
+      {
+        "name": "游戏",
+        "change_pct": -1.75,
+        "leader": "世纪华通",
+        "source": "同花顺 via AKShare"
+      },
+      {
+        "name": "证券",
+        "change_pct": -1.59,
+        "leader": "兴业证券",
+        "source": "同花顺 via AKShare"
+      },
+      {
+        "name": "生物制品",
+        "change_pct": -1.53,
+        "leader": "康华生物",
+        "source": "同花顺 via AKShare"
+      },
+      {
+        "name": "通信服务",
+        "change_pct": -1.46,
+        "leader": "世纪鼎利",
+        "source": "同花顺 via AKShare"
+      },
+      {
+        "name": "风电设备",
+        "change_pct": -1.29,
+        "leader": "锡华科技",
+        "source": "同花顺 via AKShare"
+      }
+    ],
+    "coverage": 90
   },
   "industry_flow": {
-    "inflow": [],
-    "outflow": [],
-    "coverage": 0
+    "inflow": [
+      {
+        "name": "银行",
+        "change_pct": 0.24,
+        "net_inflow": 26.3,
+        "source": "同花顺 via AKShare"
+      },
+      {
+        "name": "光学光电子",
+        "change_pct": 0.96,
+        "net_inflow": 13.16,
+        "source": "同花顺 via AKShare"
+      },
+      {
+        "name": "光伏设备",
+        "change_pct": 0.6,
+        "net_inflow": 11.25,
+        "source": "同花顺 via AKShare"
+      },
+      {
+        "name": "种植业与林业",
+        "change_pct": 9.36,
+        "net_inflow": 10.1,
+        "source": "同花顺 via AKShare"
+      },
+      {
+        "name": "养殖业",
+        "change_pct": 2.95,
+        "net_inflow": 8.08,
+        "source": "同花顺 via AKShare"
+      },
+      {
+        "name": "电机",
+        "change_pct": 1.0,
+        "net_inflow": 5.0,
+        "source": "同花顺 via AKShare"
+      },
+      {
+        "name": "港口航运",
+        "change_pct": 0.84,
+        "net_inflow": 3.94,
+        "source": "同花顺 via AKShare"
+      },
+      {
+        "name": "农化制品",
+        "change_pct": 2.3,
+        "net_inflow": 3.68,
+        "source": "同花顺 via AKShare"
+      }
+    ],
+    "outflow": [
+      {
+        "name": "半导体",
+        "change_pct": 0.23,
+        "net_inflow": -152.6,
+        "source": "同花顺 via AKShare"
+      },
+      {
+        "name": "通信设备",
+        "change_pct": -0.95,
+        "net_inflow": -150.96,
+        "source": "同花顺 via AKShare"
+      },
+      {
+        "name": "元件",
+        "change_pct": -0.23,
+        "net_inflow": -103.33,
+        "source": "同花顺 via AKShare"
+      },
+      {
+        "name": "电池",
+        "change_pct": -1.25,
+        "net_inflow": -55.44,
+        "source": "同花顺 via AKShare"
+      },
+      {
+        "name": "IT服务",
+        "change_pct": -0.92,
+        "net_inflow": -52.09,
+        "source": "同花顺 via AKShare"
+      },
+      {
+        "name": "证券",
+        "change_pct": -1.59,
+        "net_inflow": -48.31,
+        "source": "同花顺 via AKShare"
+      },
+      {
+        "name": "电力",
+        "change_pct": -0.87,
+        "net_inflow": -46.87,
+        "source": "同花顺 via AKShare"
+      },
+      {
+        "name": "消费电子",
+        "change_pct": -0.11,
+        "net_inflow": -42.07,
+        "source": "同花顺 via AKShare"
+      }
+    ],
+    "coverage": 90
   },
   "etf_activity": [
     {
@@ -215,12 +411,14 @@
       "status": "fresh"
     },
     "sectors": {
-      "status": "stale",
-      "error": "sectors unavailable"
+      "status": "fresh",
+      "source": "同花顺 via AKShare",
+      "fallback": true
     },
     "industry_flow": {
-      "status": "stale",
-      "error": "industry_flow unavailable"
+      "status": "fresh",
+      "source": "同花顺 via AKShare",
+      "fallback": true
     },
     "etf_activity": {
       "status": "fresh"
@@ -230,11 +428,14 @@
     "breadth: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
     "sectors: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
     "industry_flow: Expecting value: line 1 column 1 (char 0)",
+    "sectors primary unavailable; using 同花顺 via AKShare fallback",
+    "industry_flow primary unavailable; using 同花顺 via AKShare fallback",
     "breadth primary source unavailable; using 新浪财经 via AKShare fallback"
   ],
   "methodology": {
     "breadth": "全A实时快照计算上涨/下跌/平盘、涨跌停触及与封板率；涨跌停阈值按板块/ST规则近似。",
-    "industry_flow": "仅在数据源提供明确主力净流入字段时展示。",
+    "industry_flow": "东方财富行业主力净流入为主；失败时回退同花顺行业净额，统一换算为元。",
+    "sector_rank": "东方财富行业涨跌为主；失败时回退同花顺行业资金流页面的行业涨跌幅。",
     "etf_activity": "ETF成交额活跃度代理，不等同ETF净申购或真实资金净流入。",
     "breadth_source": "东方财富主源；失败时单次回退新浪财经 AKShare stock_zh_a_spot。"
   },
