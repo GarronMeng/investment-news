@@ -1,6 +1,6 @@
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-18 11:58",
-  "source_generated_at": "2026-08-18 09:53",
+  "generated_at": "2026-08-18 13:01",
+  "source_generated_at": "2026-08-18 12:21",
   "generated_by": "ChatGPT Web",
   "status": "ready",
   "news_titles": {
@@ -960,7 +960,45 @@ window.AI_SIGNALS = {
     "https://wallstreetcn.com/articles/3779653": "美元有基本面支撑吗？",
     "https://seekingalpha.com/news/4634152-new-era-targets-phase-1-timing-in-4q-2027-while-advancing-757-mw-behind-the-meter-plan": "New Era推进757兆瓦表后供电计划，目标于2027年第四季度启动一期项目",
     "https://seekingalpha.com/news/4634150-us-energy-secretary-plans-to-seek-more-production-from-refiners-to-hold-down-pump-prices": "美国能源部长计划要求炼油商增产，以抑制汽油零售价",
-    "https://www.cnbc.com/2026/08/18/korean-stock-investors-flee-bruising-home-market-pile-into-us.html": "“简直疯狂”：韩国股票投资者正大举涌入美国市场"
+    "https://www.cnbc.com/2026/08/18/korean-stock-investors-flee-bruising-home-market-pile-into-us.html": "“简直疯狂”：韩国股票投资者正大举涌入美国市场",
+    "https://arxiv.org/abs/2608.14550": "FLOPs与实际工作：复现实验在AI效率评估中的重要性",
+    "https://arxiv.org/abs/2608.14552": "大语言模型在医学推理中表现出元认知敏感性",
+    "https://arxiv.org/abs/2608.14558": "未成文的基准：抽象感知推理为多模态机器学习带来新挑战",
+    "https://arxiv.org/abs/2608.14559": "何时沟通：利用信念分布与KL散度为多智能体强化学习建立原则化门控",
+    "https://arxiv.org/abs/2608.14562": "面向高风险应用中FAIR原则与伦理的全球AI监管：比较综述",
+    "https://www.digitimes.com/news/a20260818PD211/nvidia-financing-broadcom-chips-funding.html": "英伟达对决博通：两种AI融资押注及其不同风险",
+    "https://www.digitimes.com/news/a20260818VL205/horizon-robotics-nvidia-tesla-automotive-production.html": "中国地平线机器人以J7芯片对标英伟达和特斯拉",
+    "https://www.digitimes.com/news/a20260817PD232/everlight-led-packaging-gross-margin-profit-2026.html": "原材料成本拖累亿光电子2026年第二季度毛利率，预计下半年复苏",
+    "https://www.digitimes.com/news/a20260818PD213/amd-groq-nvidia-acquisition-jensen-huang.html": "评论：AMD收购Taalas呼应黄仁勋对Groq的布局策略",
+    "https://www.digitimes.com/news/a20260818PD212/cloud-ai-power-semiconductors-demand-data-center-price.html": "AI推动功率半导体进入至少持续两年的短缺期",
+    "https://www.digitimes.com/news/a20260818PD207/microled-tft-technology-display-sdc.html": "MicroLED仍缺少关键LTPO TFT技术",
+    "https://cnevpost.com/2026/08/18/leapmotor-enters-argentina": "零跑汽车借助Stellantis网络进入阿根廷市场",
+    "https://electrek.co/2026/08/17/tesla-grows-robotaxi-fleet-by-50-einride-gets-a-partner-and-china-goes-big": "特斯拉Robotaxi车队扩大50%，Einride获得合作伙伴，中国市场大举推进",
+    "https://www.pv-magazine.com/2026/08/18/proposed-grid-2-0-protocol-would-enable-connect-and-manage-for-both-load-and-generation": "拟议中的“电网2.0”协议将为负荷和发电侧同时实现“接入并管理”",
+    "https://www.pv-magazine.com/2026/08/18/solars-infrastructure-obstacle-2": "太阳能产业面临的基础设施障碍",
+    "https://cleantechnica.com/2026/08/17/to-disconnect-or-not-to-disconnect": "断开连接，还是不断开？",
+    "https://cleantechnica.com/2026/08/17/i-traded-my-tesla-model-y-for-a-polestar-4": "我用特斯拉Model Y换了一辆极星4",
+    "https://cleantechnica.com/2026/08/17/sunrun-to-supply-voltus-with-energy-capacity-for-ai-hyperscaler-agreements": "Sunrun将为Voltus的AI超大规模客户协议提供能源容量",
+    "https://cleantechnica.com/2026/08/17/scottishpower-renewables-masdar-mark-major-engineering-milestone-at-east-anglia-three-windfarm": "ScottishPower Renewables与Masdar宣布东英吉利三号风电场取得重大工程里程碑",
+    "https://cleantechnica.com/2026/08/17/middle-east-green-initiative-announces-participation-in-unccd-cop17-to-bolster-regional-cooperation-in-combating-desertification-and-restoring-degraded-land": "中东绿色倡议宣布参加《联合国防治荒漠化公约》第17次缔约方大会，以加强区域防治荒漠化与退化土地修复合作",
+    "https://www.pv-tech.org/australia-commits-au2-5-billion-to-power-tomago-smelter-with-renewables": "澳大利亚承诺投入25亿澳元，以可再生能源为Tomago冶炼厂供电",
+    "https://www.space.com/space-exploration/international-space-station/watch-european-astronaut-make-history-during-spacewalk-today": "观看欧洲宇航员今日在太空行走中创造历史",
+    "https://payloadspace.com/heo-taps-planet-labs-to-expand-its-nei-network": "HEO携手Planet Labs扩展其非地球成像网络",
+    "https://www.techmeme.com/260817/p40": "巴西数据保护机构称Discord未能保护儿童和青少年并下令整改后，Discord暂停该国直播功能",
+    "https://www.techmeme.com/260817/p39": "消息称谷歌因中美紧张关系已通知供应商，计划2027年将Pixel手机、智能手表和无线耳机制造全部迁出中国",
+    "https://adventofcomputing.libsyn.com/episode-187-whats-better-than-binary": "什么比二进制更好？——《计算机发展史》第187期",
+    "https://danluu.com/benchpocalypse": "基准测试末日",
+    "https://www.techmeme.com/260817/p38": "macOS Tahoe 26.7候选发布版中的视频疑似展示一名男子利用视觉智能演示配备摄像头的AirPods",
+    "https://www.gsmarena.com/vivo_v80_lite_teaser_image_shows_part_of_its_front_design-news-74211.php": "vivo V80 Lite 5G预热图展示部分正面设计",
+    "https://seekingalpha.com/news/4634163-meta-faces-opening-arguments-in-federal-trial-over-child-safety-allegations": "Meta因儿童安全指控面临联邦审判开庭陈述",
+    "https://www.ft.com/content/377d4c1c-1cbc-46b2-8c34-f2d578c6d595": "特朗普威胁削减美韩联盟核心军演令首尔不安",
+    "https://www.cnbc.com/2026/08/18/us-iran-war-trump-hormuz-trump-ceasefire-expires-extension-.html": "美伊停火到期或令冲突延长，霍尔木兹海峡一艘船只遭袭",
+    "https://www.ft.com/content/1d713822-e68f-4476-be94-ffab3418bfe4": "特朗普削减美韩军演引发外界对美国维护亚洲安全决心的质疑",
+    "https://www.ft.com/content/5f927594-03a1-4652-8189-2aa7a19dcec4": "关于杰森·阿戴的艰难真相",
+    "https://www.ft.com/content/cf29e18e-c4d8-4a27-b7c7-3cf56d6eccf2": "罐装鸡尾酒能否重振酒类行业？",
+    "https://www.ft.com/content/a9947be4-5c0c-47ee-acae-a2aeaf01a0a0": "AI并未失控，实际情况更加糟糕",
+    "https://www.ft.com/content/55cb2786-c7ef-438e-8830-c3dc2c1452ce": "“不值得费力”：全球私募股权在中国交易数降至零",
+    "https://news.mit.edu/2026/how-35-percent-us-employees-are-left-on-margins-paul-osterman-book-0818": "美国35%的雇员如何被边缘化"
   },
   "overseas_markets": [
     {
@@ -988,19 +1026,19 @@ window.AI_SIGNALS = {
     {
       "market": "日股",
       "flag": "🇯🇵",
-      "session": "2026-08-18 午后开盘",
-      "updated_at": "2026-08-18 11:32 北京时间（12:32 JST）",
+      "session": "2026-08-18 午后",
+      "updated_at": "2026-08-18 12:32 北京时间（13:32 JST）",
       "status": "negative",
-      "status_label": "午后跌幅扩大至2.13%",
-      "move": "前收69,220.25｜开盘68,847.35（跳空-0.54%）｜12:32 JST报67,749.17（-2.13%），盘中低点67,690.97",
-      "driver": "美伊临时安排到期、油价与长端国债收益率上升推动亚洲风险偏好转弱；日经午后开盘继续下探，已由日经官方动态数据确认。",
+      "status_label": "午后仍跌近2%",
+      "move": "前收69,220.25｜开盘68,847.35（跳空-0.54%）｜13:32 JST报67,871.83（-1.95%），盘中低点67,675.81",
+      "driver": "美伊临时安排到期、油价与长端国债收益率上升推动风险偏好转弱；指数较午后初段低点略有修复，但跌幅仍接近2%。",
       "a_share_links": [
         "半导体设备",
         "被动元件",
         "MLCC",
         "消费电子"
       ],
-      "validation": "观察日经能否收复68,000点，以及芯片设备、测试与被动元件权重是否止跌。",
+      "validation": "观察收盘能否收复68,000点，以及芯片设备、测试与被动元件权重是否止跌。",
       "sources": [
         "https://indexes.nikkei.co.jp/en/nkave/index/profile",
         "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-08-18/"
@@ -1010,19 +1048,20 @@ window.AI_SIGNALS = {
       "market": "韩股",
       "flag": "🇰🇷",
       "session": "2026-08-18 午间",
-      "updated_at": "2026-08-18 11:58 北京时间核验（报价至少延迟15分钟）",
+      "updated_at": "2026-08-18 12:15 北京时间前可得延迟报价",
       "status": "negative",
-      "status_label": "高开逾3%后回落至平盘附近",
-      "move": "前收6,977.94｜开盘7,127.77（跳空+2.15%）｜早段一度涨逾3%，随后回落至平盘附近",
-      "driver": "三星电子、SK海力士带动休市后补涨，但高开承接迅速减弱；路透确认KOSPI已回吐逾3%的早段涨幅，跨市场存储风险偏好由强转弱。",
+      "status_label": "高开逾3%后转跌约0.7%",
+      "move": "前收6,977.94｜开盘7,127.77（跳空+2.15%）｜Yahoo 12:15 KST延迟报价6,927.23（-0.73%）",
+      "driver": "三星电子、SK海力士带动休市后补涨，但高开承接快速减弱；从早段涨逾3%转为下跌，存储风险偏好发生明显反转。",
       "a_share_links": [
         "HBM",
         "DRAM",
         "NAND",
         "封测"
       ],
-      "validation": "观察三星电子、SK海力士及KOSPI午后能否重新站稳开盘价；动态报价存在延迟，收盘后再复核。",
+      "validation": "观察三星电子、SK海力士及KOSPI午后能否重新站回前收；报价存在延迟，收盘后继续复核。",
       "sources": [
+        "https://finance.yahoo.com/quote/%5EKS11/",
         "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-08-18/",
         "https://global.krx.co.kr/main/main.jsp"
       ]
@@ -1030,14 +1069,14 @@ window.AI_SIGNALS = {
   ],
   "signals": [
     {
-      "event": "韩股高开回落削弱海外映射，A股存储链仍处早盘分化",
+      "event": "韩股由高开转跌，A股存储链午间仅德明利微涨",
       "industry": "semi",
       "industry_name": "DRAM / NAND / 企业级SSD / 半导体封测",
-      "direction": "mixed",
-      "strength": 3,
+      "direction": "negative",
+      "strength": 4,
       "horizon": "1-4w",
       "priced_in": "medium",
-      "reason": "隔夜美光、闪迪、西部数据和费城半导体指数逆势上涨，但KOSPI早段涨逾3%后已回落至平盘附近；10:41行情批次显示兆易创新约跌0.68%、德明利约涨1.08%、太极实业约跌2.22%，仅模组端维持正反馈。A股个股行情来自Yahoo备用源且缺少可靠成交量，暂按“产业利好、价格未形成一致确认”处理。",
+      "reason": "隔夜美光、闪迪、西部数据逆势上涨，但KOSPI由早段涨逾3%转为约跌0.7%；12:02行情批次显示兆易创新约跌1.80%、德明利约涨0.36%、太极实业约跌2.85%，海外存储利好未形成A股一致传导。个股行情来自Yahoo备用源且缺少可靠成交量，当前确认价格反馈偏弱，仍待午后与收盘复核。",
       "assets": [
         "603986",
         "001309",
@@ -1048,7 +1087,7 @@ window.AI_SIGNALS = {
         "DRAM/NAND报价、企业级SSD订单或厂商指引继续改善"
       ],
       "invalidation": [
-        "午后三标的继续分化或集体转弱，韩美存储股同步回吐涨幅",
+        "三标的继续分化或集体转弱，韩美存储股同步回吐涨幅",
         "供给扩张压制存储价格与产业链毛利"
       ],
       "urls": [
@@ -1066,7 +1105,7 @@ window.AI_SIGNALS = {
       "strength": 3,
       "horizon": "1-3m",
       "priced_in": "medium",
-      "reason": "OpenAI数据中心融资与Fabrinet第四财季收入同比增长约44.6%强化长期光通信需求，但10:41行情批次显示中际旭创约跌1.80%、东山精密约跌2.14%，昨日同步上涨后共同回落；同时日经跌逾2%、KOSPI由高开逾3%回落至平盘附近，外部风险偏好进一步转弱。个股行情来自低置信度备用源且缺少成交量，当前只能确认产业逻辑增强，尚不能确认A股继续扩散。",
+      "reason": "OpenAI数据中心融资与Fabrinet第四财季收入同比增长约44.6%强化长期光通信需求，但12:02行情批次显示中际旭创约跌1.60%、东山精密约跌2.19%，昨日同步上涨后共同回落；同时日经跌近2%、KOSPI由高开逾3%转跌，外部风险偏好进一步转弱。个股行情来自低置信度备用源且缺少成交量，产业逻辑尚未获得A股价格确认。",
       "assets": [
         "300308",
         "002384"
@@ -1087,14 +1126,14 @@ window.AI_SIGNALS = {
       ]
     },
     {
-      "event": "美伊临时安排到期推升油价与长端利率，贵金属避险和估值压力并存",
+      "event": "油价与长端利率上升压制贵金属，地缘避险暂未转化为价格强势",
       "industry": "macro",
       "industry_name": "原油 / 黄金 / 白银 / 实际利率",
       "direction": "mixed",
       "strength": 5,
       "horizon": "1-5d",
       "priced_in": "medium",
-      "reason": "路透11点后更新显示布伦特原油约91.20美元、美国10年期国债收益率约4.724%，亚洲股市转弱；现货黄金约跌0.3%至4,402.89美元。10:41行情批次显示黄金ETF约跌0.04%、成交额约15.1亿元，10:27备用行情显示国投白银LOF约跌0.53%，说明地缘避险暂未抵消实际利率与美元压力；白银LOF仍须独立核验净值、场内溢价和交易限制。",
+      "reason": "美伊临时安排到期后，布伦特原油维持90美元上方、美国10年期国债收益率约4.72%，亚洲股市转弱；现货黄金一度回落。12:02行情批次显示黄金ETF持平、成交额约19.7亿元，11:47备用行情显示国投白银LOF约跌0.74%，地缘避险暂未抵消实际利率与美元压力；白银LOF仍须独立核验净值、场内溢价和交易限制。",
       "assets": [
         "161226",
         "518880"
@@ -1112,6 +1151,31 @@ window.AI_SIGNALS = {
         "https://wallstreetcn.com/articles/3779638",
         "https://wallstreetcn.com/articles/3779653",
         "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-08-18/"
+      ]
+    },
+    {
+      "event": "中国来源免疫药物获得8.2亿美元上市融资承诺，创新药国际资本通道延续",
+      "industry": "bio",
+      "industry_name": "创新药 / 免疫疾病 / 跨境融资",
+      "direction": "positive",
+      "strength": 4,
+      "horizon": "1-3m",
+      "priced_in": "low",
+      "reason": "Endpoints报道，一家生物科技公司本月获得8.2亿美元投资承诺，拟通过反向并购将一款源自中国的免疫疾病药物带入公开市场，显示国际资本对中国创新药资产的认可仍在延续。12:02行情批次显示创新药沪港深ETF约涨0.56%、成交额约0.84亿元，出现初步正反馈；但单一药物和交易不可直接外推至全行业。",
+      "assets": [
+        "517380"
+      ],
+      "validation": [
+        "后续出现更多中国创新药跨境授权、并购或上市融资案例",
+        "创新药ETF持续强于宽基指数且成交额同步放大"
+      ],
+      "invalidation": [
+        "交易未能完成、融资缩水或相关临床进展不及预期",
+        "创新药板块无法形成扩散，ETF回吐涨幅并转弱"
+      ],
+      "urls": [
+        "https://endpoints.news/biotechs-reverse-merger-renaissance-poised-to-continue",
+        "https://news.jnu.edu.cn/content/202608/15/c6596.html"
       ]
     }
   ]
