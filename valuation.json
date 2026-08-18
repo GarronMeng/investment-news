@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "generated_at": null,
+  "timezone": "Asia/Shanghai",
+  "summary": {"total": 4, "fresh": 0, "usable": 0},
+  "indices": {},
+  "warnings": ["等待估值任务首次刷新"],
+  "methodology": {
+    "metric": "中证指数官方历史行情中的滚动市盈率",
+    "percentile": "仅在同一滚动PE序列内计算3/5/10年历史分位；不以价格分位替代估值分位。"
+  }
+}
