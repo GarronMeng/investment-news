@@ -23,12 +23,14 @@ on:
       - scripts/fetch_valuation.py
       - scripts/build_risk_score.py
       - scripts/build_decisions.py
+      - scripts/build_decision_matrix.py
       - scripts/update_signal_ledger.py
       - scripts/evaluate_signals.py
       - tests/test_research_engine.py
       - tests/test_technical.py
       - tests/test_valuation.py
       - tests/test_risk_score.py
+      - tests/test_decision_matrix.py
       - .github/workflows/update-research.yml
 
 permissions:
@@ -65,6 +67,7 @@ jobs:
           python -m unittest tests/test_technical.py -v
           python -m unittest tests/test_valuation.py -v
           python -m unittest tests/test_risk_score.py -v
+          python -m unittest tests/test_decision_matrix.py -v
 
       - name: Refresh daily history
         run: python scripts/fetch_history.py
@@ -84,6 +87,9 @@ jobs:
       - name: Build research decisions
         run: python scripts/build_decisions.py
 
+      - name: Build unified decision matrix
+        run: python scripts/build_decision_matrix.py
+
       - name: Update append-only signal ledger
         run: python scripts/update_signal_ledger.py
 
@@ -102,6 +108,7 @@ jobs:
           valuation = json.load(open("valuation.json", encoding="utf-8"))
           risk = json.load(open("risk_score.json", encoding="utf-8"))
           decisions = json.load(open("decisions.json", encoding="utf-8"))
+          matrix = json.load(open("decision_matrix.json", encoding="utf-8"))
           evaluation = json.load(open("signal_evaluation.json", encoding="utf-8"))
 
           expected = {str(item["code"]) for item in watch["assets"]}
@@ -110,10 +117,13 @@ jobs:
           assert technical.get("version") == 1
           assert valuation.get("version") == 1
           assert risk.get("version") == 1
+          assert matrix.get("version") == 1
           assert set(history.get("assets", {})) == expected
           assert set(features.get("assets", {})) == expected
           assert set(technical.get("assets", {})) == expected
           assert {str(item["asset"]) for item in decisions.get("decisions", [])} == expected
+          assert set(matrix.get("assets", {})) == expected
+          assert set(matrix.get("ranking", [])) == expected
           benchmark = history.get("benchmark", {})
           assert benchmark.get("status") == "fresh", f"benchmark stale: {benchmark.get('last_date')} {benchmark.get('error')}"
           assert len(benchmark.get("rows", [])) >= 120, "benchmark history too short"
@@ -122,18 +132,25 @@ jobs:
           lof = history["assets"].get("161226", {})
           assert lof.get("status") == "fresh" and len(lof.get("rows", [])) >= 120, f"LOF history unavailable: {lof.get('error')}"
           assert all(item.get("status") in {"active", "watch", "market_watch", "neutral"} for item in decisions["decisions"])
-          forbidden = {"quantity", "position_size", "buy", "sell", "cost_basis"}
+          forbidden = {"quantity", "position_size", "buy", "sell", "cost_basis", "stop_loss"}
           assert all(not forbidden.intersection(item) for item in decisions["decisions"]), "private/trade fields leaked into public decisions"
           assert all(not forbidden.intersection(item) for item in technical["assets"].values()), "trade fields leaked into technical matrix"
           assert all(not forbidden.intersection(item) for item in valuation.get("indices", {}).values()), "trade fields leaked into valuation"
+          assert all(not forbidden.intersection(item) for item in matrix.get("assets", {}).values()), "private/trade fields leaked into decision matrix"
           assert risk.get("label") in {"low", "balanced", "elevated", "high", "insufficient"}
           assert 0 <= float(risk.get("coverage", 0)) <= 100
           if risk.get("score") is not None:
               assert 0 <= float(risk["score"]) <= 100
+          for item in matrix["assets"].values():
+              assert item.get("matrix_direction") in {"bullish", "bearish", "neutral", "insufficient"}
+              assert 0 <= float(item.get("coverage", 0)) <= 100
+              assert 0 <= float(item.get("confluence", 0)) <= 100
+              assert 0 <= float(item.get("attention_score", 0)) <= 100
           assert evaluation.get("version") == 1
           print("validated research engine", usable, "/", len(expected), "fresh histories")
           print("valuation", valuation.get("summary"))
           print("risk", risk.get("score"), risk.get("label"), "coverage", risk.get("coverage"))
+          print("decision matrix", matrix.get("summary"))
           print("technical changes", len(technical.get("state_changes", [])))
           PY
 
@@ -141,7 +158,7 @@ jobs:
         run: |
           git config user.name "investment-news-bot"
           git config user.email "investment-news-bot@users.noreply.github.com"
-          git add market_history.json features.json technical.json valuation.json risk_score.json decisions.json signal_evaluation.json
+          git add market_history.json features.json technical.json valuation.json risk_score.json decisions.json decision_matrix.json signal_evaluation.json
           if [ -d signals ]; then git add signals/*.jsonl 2>/dev/null || true; fi
           git diff --cached --quiet && exit 0
           git commit -m "chore: refresh research engine"
