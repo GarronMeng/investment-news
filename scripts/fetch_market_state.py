@@ -88,6 +88,14 @@ def money_to_yuan(value):
     return base * multiplier
 
 
+def ths_industry_money_to_yuan(value):
+    """THS industry-flow numeric columns are documented in 亿元."""
+    number = finite(value)
+    if number is not None:
+        return number * 1e8
+    return money_to_yuan(value)
+
+
 def daily_limit_pct(code, name):
     code = str(code or "")
     name = str(name or "").upper()
@@ -206,7 +214,7 @@ def normalize_ths_industry(frame, limit=8):
     for row in _to_records(frame):
         name = _first(row, "行业")
         pct = finite(_first(row, "行业-涨跌幅"))
-        net = money_to_yuan(_first(row, "净额"))
+        net = ths_industry_money_to_yuan(_first(row, "净额"))
         if not name:
             continue
         rows.append({
@@ -380,7 +388,7 @@ def build_payload(previous=None, now=None, a_share_rows=None, indices=None, sect
         "warnings": [],
         "methodology": {
             "breadth": "全A实时快照计算上涨/下跌/平盘、涨跌停触及与封板率；涨跌停阈值按板块/ST规则近似。",
-            "industry_flow": "东方财富行业主力净流入为主；失败时回退同花顺行业净额，统一换算为元。",
+            "industry_flow": "东方财富行业主力净流入为主；失败时回退同花顺行业净额（原始单位亿元），统一换算为元。",
             "sector_rank": "东方财富行业涨跌为主；失败时回退同花顺行业资金流页面的行业涨跌幅。",
             "etf_activity": "ETF成交额活跃度代理，不等同ETF净申购或真实资金净流入。",
         },
@@ -412,9 +420,6 @@ def fetch_live(previous=None, now=None):
     )
     etf_activity = attempt("etf_activity", lambda: normalize_etf_activity(ak.fund_etf_spot_em()))
 
-    # Independent THS fallback: one request can provide both industry return
-    # ranking and explicit industry net-flow. It is used only for sections whose
-    # primary Eastmoney fetch is unavailable.
     if sectors is None or industry_flow is None:
         ths = attempt("industry_fallback_ths", lambda: ak.stock_fund_flow_industry(symbol="即时"))
         if ths is not None:
