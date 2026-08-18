@@ -5,13 +5,16 @@ on:
     branches: [main]
     paths:
       - index.html
+      - dashboard-v2.html
       - research.html
       - data.js
       - ai-signals.js
       - sentiment.json
       - market.json
+      - market_state.json
       - watchlist.json
       - features.json
+      - technical.json
       - decisions.json
       - signal_evaluation.json
       - .nojekyll
@@ -47,7 +50,9 @@ jobs:
       - name: Prepare static site
         run: |
           mkdir public
-          cp index.html research.html data.js ai-signals.js sentiment.json market.json watchlist.json features.json decisions.json signal_evaluation.json .nojekyll public/
+          cp index.html public/classic.html
+          cp dashboard-v2.html public/index.html
+          cp research.html data.js ai-signals.js sentiment.json market.json market_state.json watchlist.json features.json technical.json decisions.json signal_evaluation.json .nojekyll public/
 
       - name: Enforce AI signal freshness
         run: |
