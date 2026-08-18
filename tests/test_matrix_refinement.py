@@ -4,6 +4,7 @@ import unittest
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / "scripts"))
 
+from apply_matrix_sector_overrides import exact_industry_layer
 from refine_decision_matrix import (
     apply_eligibility,
     conflict_metrics,
@@ -123,6 +124,19 @@ class MatrixRefinementTests(unittest.TestCase):
         self.assertFalse(item["layers"]["relative_strength"]["available"])
         self.assertEqual(item["composite_score"], 60.0)
         self.assertEqual(item["coverage"], 30.0)
+
+    def test_precise_matrix_sector_mapping_does_not_expand_news_taxonomy(self):
+        market = {
+            "sectors": {"leaders": [{"name": "半导体", "change_pct": 0.2}, {"name": "光学光电子", "change_pct": 3.0}], "laggards": []},
+            "industry_flow": {
+                "inflow": [{"name": "光学光电子", "change_pct": 3.0, "net_inflow": 10_000_000_000}],
+                "outflow": [{"name": "半导体", "change_pct": 0.2, "net_inflow": -15_000_000_000}],
+            },
+        }
+        layer = exact_industry_layer(["半导体"], market)
+        self.assertEqual(layer["matches"], ["半导体"])
+        self.assertNotIn("光学光电子", layer["evidence"])
+        self.assertLess(layer["score"], 0)
 
 
 if __name__ == "__main__":
