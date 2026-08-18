@@ -9,11 +9,28 @@ from fetch_market_state import (
     breadth_from_rows,
     build_payload,
     daily_limit_pct,
+    money_to_yuan,
+    normalize_ths_industry,
     parse_tencent_indices,
     score_regime,
 )
 
 BEIJING = timezone(timedelta(hours=8))
+
+
+class FakeFrame:
+    def __init__(self, rows):
+        self.rows = rows
+        self.empty = not rows
+
+    def iterrows(self):
+        for i, row in enumerate(self.rows):
+            yield i, FakeRow(row)
+
+
+class FakeRow(dict):
+    def to_dict(self):
+        return dict(self)
 
 
 class MarketStateTests(unittest.TestCase):
@@ -54,6 +71,20 @@ class MarketStateTests(unittest.TestCase):
         self.assertEqual(rows[0]["name"], "上证指数")
         self.assertEqual(rows[0]["price"], 4000.0)
         self.assertEqual(rows[0]["change_pct"], 1.01)
+
+    def test_money_parser_and_ths_fallback_are_unit_safe(self):
+        self.assertEqual(money_to_yuan("12.5亿"), 1_250_000_000)
+        self.assertEqual(money_to_yuan("-3500万"), -35_000_000)
+        frame = FakeFrame([
+            {"行业": "半导体", "行业-涨跌幅": 2.5, "净额": "12.5亿", "领涨股": "样本A"},
+            {"行业": "煤炭", "行业-涨跌幅": -1.2, "净额": "-3.0亿", "领涨股": "样本B"},
+        ])
+        sectors, flow = normalize_ths_industry(frame)
+        self.assertEqual(sectors["leaders"][0]["name"], "半导体")
+        self.assertEqual(sectors["laggards"][0]["name"], "煤炭")
+        self.assertEqual(flow["inflow"][0]["net_inflow"], 1_250_000_000)
+        self.assertEqual(flow["outflow"][0]["net_inflow"], -300_000_000)
+        self.assertEqual(flow["inflow"][0]["source"], "同花顺 via AKShare")
 
     def test_regime_is_multi_factor_and_not_probability(self):
         breadth = {"advance_ratio": 0.72, "limit_up": 80, "limit_down": 5}
