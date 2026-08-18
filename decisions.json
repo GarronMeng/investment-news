@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generated_at": "2026-08-18T13:48:02+08:00",
+  "generated_at": "2026-08-18T14:06:22+08:00",
   "source": {
     "data_generated_at": "2026-08-18 12:21",
-    "ai_generated_at": "2026-08-18 13:01",
+    "ai_generated_at": "2026-08-18 14:04",
     "ai_source_generated_at": "2026-08-18 12:21",
-    "features_generated_at": "2026-08-18T13:48:02+08:00",
+    "features_generated_at": "2026-08-18T14:06:22+08:00",
     "fresh_ai": true
   },
   "decisions": [
@@ -14,21 +14,21 @@
       "name": "兆易创新",
       "as_of": "2026-08-18",
       "bias": "bearish",
-      "status": "watch",
-      "event_score": 10.0,
+      "status": "active",
+      "event_score": 0.0,
       "market_score": 45.0,
       "freshness_score": 100,
-      "conviction": 52.0,
+      "conviction": 64.0,
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.087553",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.084621",
       "confirmation": [
-        "午后三标的重新形成同步上涨并强于半导体指数，且KOSPI存储权重止跌回升",
+        "尾盘三标的显著收窄跌幅并重新强于半导体指数，且KOSPI存储权重止跌回升",
         "DRAM/NAND报价、企业级SSD订单或厂商指引继续改善"
       ],
       "invalidation": [
-        "三标的继续分化或集体转弱，韩美存储股同步回吐涨幅",
+        "三标的收盘维持集体下跌，韩美存储股同步回吐涨幅",
         "供给扩张压制存储价格与产业链毛利"
       ],
       "expires_at": "2026-09-15"
@@ -38,21 +38,21 @@
       "name": "德明利",
       "as_of": "2026-08-18",
       "bias": "bearish",
-      "status": "watch",
-      "event_score": 10.0,
+      "status": "active",
+      "event_score": 0.0,
       "market_score": 45.0,
       "freshness_score": 100,
-      "conviction": 52.0,
+      "conviction": 64.0,
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.149885",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.145292",
       "confirmation": [
-        "午后三标的重新形成同步上涨并强于半导体指数，且KOSPI存储权重止跌回升",
+        "尾盘三标的显著收窄跌幅并重新强于半导体指数，且KOSPI存储权重止跌回升",
         "DRAM/NAND报价、企业级SSD订单或厂商指引继续改善"
       ],
       "invalidation": [
-        "三标的继续分化或集体转弱，韩美存储股同步回吐涨幅",
+        "三标的收盘维持集体下跌，韩美存储股同步回吐涨幅",
         "供给扩张压制存储价格与产业链毛利"
       ],
       "expires_at": "2026-09-15"
@@ -61,22 +61,22 @@
       "asset": "300308",
       "name": "中际旭创",
       "as_of": "2026-08-18",
-      "bias": "neutral",
-      "status": "neutral",
-      "event_score": 50.0,
+      "bias": "bearish",
+      "status": "watch",
+      "event_score": 10.0,
       "market_score": 45.0,
       "freshness_score": 100,
-      "conviction": 4.0,
+      "conviction": 52.0,
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.135801",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.12925",
       "confirmation": [
-        "午后中际旭创与东山精密止跌并重新同步强于通信和电子指数",
+        "尾盘中际旭创与东山精密显著收窄跌幅并重新强于通信和电子指数",
         "后续披露1.6T、CPO或AI服务器PCB订单与收入贡献"
       ],
       "invalidation": [
-        "两标的继续同步下跌或出现利好高开低走结构",
+        "两标的收盘维持较大跌幅或次日继续弱于行业指数",
         "项目融资、供电或建设进度延后，或CPO量产与订单不及预期"
       ],
       "expires_at": "2026-11-16"
@@ -85,22 +85,22 @@
       "asset": "002384",
       "name": "东山精密",
       "as_of": "2026-08-18",
-      "bias": "neutral",
-      "status": "neutral",
-      "event_score": 50.0,
+      "bias": "bearish",
+      "status": "watch",
+      "event_score": 10.0,
       "market_score": 45.0,
       "freshness_score": 100,
-      "conviction": 4.0,
+      "conviction": 52.0,
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.078514",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.07349",
       "confirmation": [
-        "午后中际旭创与东山精密止跌并重新同步强于通信和电子指数",
+        "尾盘中际旭创与东山精密显著收窄跌幅并重新强于通信和电子指数",
         "后续披露1.6T、CPO或AI服务器PCB订单与收入贡献"
       ],
       "invalidation": [
-        "两标的继续同步下跌或出现利好高开低走结构",
+        "两标的收盘维持较大跌幅或次日继续弱于行业指数",
         "项目融资、供电或建设进度延后，或CPO量产与订单不及预期"
       ],
       "expires_at": "2026-11-16"
@@ -110,21 +110,21 @@
       "name": "太极实业",
       "as_of": "2026-08-18",
       "bias": "bearish",
-      "status": "neutral",
-      "event_score": 10.0,
+      "status": "watch",
+      "event_score": 0.0,
       "market_score": 85.0,
       "freshness_score": 100,
-      "conviction": 20.0,
+      "conviction": 32.0,
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.381259",
+      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.382402",
       "confirmation": [
-        "午后三标的重新形成同步上涨并强于半导体指数，且KOSPI存储权重止跌回升",
+        "尾盘三标的显著收窄跌幅并重新强于半导体指数，且KOSPI存储权重止跌回升",
         "DRAM/NAND报价、企业级SSD订单或厂商指引继续改善"
       ],
       "invalidation": [
-        "三标的继续分化或集体转弱，韩美存储股同步回吐涨幅",
+        "三标的收盘维持集体下跌，韩美存储股同步回吐涨幅",
         "供给扩张压制存储价格与产业链毛利"
       ],
       "expires_at": "2026-09-15"
@@ -142,7 +142,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.434667",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.440182",
       "confirmation": [
         "被动元件板块形成联动",
         "涨价新闻后价格走势能够确认"
@@ -156,17 +156,17 @@
     {
       "asset": "161226",
       "name": "国投白银LOF",
-      "as_of": "2026-08-18",
-      "bias": "bearish",
-      "status": "watch",
+      "as_of": "2026-08-17",
+      "bias": "neutral",
+      "status": "neutral",
       "event_score": 50.0,
-      "market_score": 15.0,
+      "market_score": 55.0,
       "freshness_score": 100,
-      "conviction": 28.0,
+      "conviction": 4.0,
       "evidence_mode": "event_plus_market",
       "event_count": 1,
-      "trend_state": "bearish",
-      "why_now": "fresh event evidence; market trend=bearish; 20d relative strength=-0.01192",
+      "trend_state": "mixed",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=0.051968",
       "confirmation": [
         "午后黄金ETF与白银LOF重新同步走强，美元和实际利率未继续上行",
         "白银LOF场内溢价未扩大且无新增交易限制"
@@ -190,7 +190,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.094553",
+      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.093299",
       "confirmation": [
         "午后黄金ETF与白银LOF重新同步走强，美元和实际利率未继续上行",
         "白银LOF场内溢价未扩大且无新增交易限制"
@@ -214,7 +214,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.118279",
+      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.117026",
       "confirmation": [
         "后续出现更多中国创新药跨境授权、并购或上市融资案例",
         "创新药ETF持续强于宽基指数且成交额同步放大"
