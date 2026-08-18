@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-08-18T15:57:37+08:00",
-  "history_generated_at": "2026-08-18T15:57:37+08:00",
+  "generated_at": "2026-08-18T16:02:17+08:00",
+  "history_generated_at": "2026-08-18T16:02:17+08:00",
   "summary": {
     "t1": {
       "settled": 62,
@@ -2586,6 +2586,78 @@
       "bias": "bullish",
       "research_status": "market_watch",
       "conviction": 55,
+      "entry_date": "2026-08-17",
+      "entry_close": 0.89,
+      "mfe_20d": 0.011236,
+      "mae_20d": -0.031461,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "35bd7908dc23bcb4",
+      "asset": "600667",
+      "name": "太极实业",
+      "signal_date": "2026-08-18",
+      "bias": "bullish",
+      "research_status": "watch",
+      "conviction": 28.0,
+      "entry_date": "2026-08-18",
+      "entry_close": 23.0,
+      "mfe_20d": 0.041304,
+      "mae_20d": -0.004348,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "bc51f83dd392de67",
+      "asset": "518880",
+      "name": "黄金ETF华安",
+      "signal_date": "2026-08-17",
+      "bias": "bullish",
+      "research_status": "watch",
+      "conviction": 28.0,
+      "entry_date": "2026-08-17",
+      "entry_close": 9.068,
+      "mfe_20d": 0.002978,
+      "mae_20d": -0.002206,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "27e1bed423fd992b",
+      "asset": "517380",
+      "name": "创新药沪港深ETF天弘",
+      "signal_date": "2026-08-17",
+      "bias": "bullish",
+      "research_status": "active",
+      "conviction": 76.0,
       "entry_date": "2026-08-17",
       "entry_close": 0.89,
       "mfe_20d": 0.011236,
