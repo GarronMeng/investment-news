@@ -1,5 +1,5 @@
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-18 11:01",
+  "generated_at": "2026-08-18 11:58",
   "source_generated_at": "2026-08-18 09:53",
   "generated_by": "ChatGPT Web",
   "status": "ready",
@@ -988,74 +988,74 @@ window.AI_SIGNALS = {
     {
       "market": "日股",
       "flag": "🇯🇵",
-      "session": "2026-08-18 午间收盘",
-      "updated_at": "2026-08-18 10:30 北京时间（11:30 JST）",
+      "session": "2026-08-18 午后开盘",
+      "updated_at": "2026-08-18 11:32 北京时间（12:32 JST）",
       "status": "negative",
-      "status_label": "午前跌幅扩大至1.62%",
-      "move": "前收69,220.25｜开盘68,847.35（跳空-0.54%）｜午间收盘68,098.54（-1.62%），为上午低点",
-      "driver": "隔夜美股回落、中东风险及芯片设备股走弱共同压制指数，日经午前持续下探；正式午间收盘数据已由日经官方确认。",
+      "status_label": "午后跌幅扩大至2.13%",
+      "move": "前收69,220.25｜开盘68,847.35（跳空-0.54%）｜12:32 JST报67,749.17（-2.13%），盘中低点67,690.97",
+      "driver": "美伊临时安排到期、油价与长端国债收益率上升推动亚洲风险偏好转弱；日经午后开盘继续下探，已由日经官方动态数据确认。",
       "a_share_links": [
         "半导体设备",
         "被动元件",
         "MLCC",
         "消费电子"
       ],
-      "validation": "观察午后能否收复68,500点，以及芯片设备、测试与被动元件权重是否止跌。",
+      "validation": "观察日经能否收复68,000点，以及芯片设备、测试与被动元件权重是否止跌。",
       "sources": [
         "https://indexes.nikkei.co.jp/en/nkave/index/profile",
-        "https://www.wsj.com/finance/stocks/nikkei-falls-0-7-tracking-wall-streets-losses-4f0d7ddd"
+        "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-08-18/"
       ]
     },
     {
       "market": "韩股",
       "flag": "🇰🇷",
-      "session": "2026-08-18 早盘",
-      "updated_at": "2026-08-18 10:23 北京时间（11:23 KST）",
-      "status": "pending",
-      "status_label": "高开涨幅显著收窄，独立同刻复核不足",
-      "move": "前收6,977.94｜开盘7,127.77（跳空+2.15%）｜WSJ/FactSet 11:23 KST报7,020.55（+0.61%），明显低于10:18 KST的+2.64%",
-      "driver": "存储股带动指数高开，但随后涨幅快速收窄，显示休市后的补涨承接不足；缺少KRX同刻动态报价，继续按待验证处理。",
+      "session": "2026-08-18 午间",
+      "updated_at": "2026-08-18 11:58 北京时间核验（报价至少延迟15分钟）",
+      "status": "negative",
+      "status_label": "高开逾3%后回落至平盘附近",
+      "move": "前收6,977.94｜开盘7,127.77（跳空+2.15%）｜早段一度涨逾3%，随后回落至平盘附近",
+      "driver": "三星电子、SK海力士带动休市后补涨，但高开承接迅速减弱；路透确认KOSPI已回吐逾3%的早段涨幅，跨市场存储风险偏好由强转弱。",
       "a_share_links": [
         "HBM",
         "DRAM",
         "NAND",
         "封测"
       ],
-      "validation": "补充KRX或第二独立源同刻报价；观察三星电子、SK海力士及KOSPI午后能否重新扩大涨幅。",
+      "validation": "观察三星电子、SK海力士及KOSPI午后能否重新站稳开盘价；动态报价存在延迟，收盘后再复核。",
       "sources": [
-        "https://www.wsj.com/market-data/quotes/index/KR/SEU",
-        "https://www.mk.co.kr/en/stock/12129894",
+        "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-08-18/",
         "https://global.krx.co.kr/main/main.jsp"
       ]
     }
   ],
   "signals": [
     {
-      "event": "海外存储强势未完全传导至A股，存储三标的早盘分化",
+      "event": "韩股高开回落削弱海外映射，A股存储链仍处早盘分化",
       "industry": "semi",
       "industry_name": "DRAM / NAND / 企业级SSD / 半导体封测",
       "direction": "mixed",
       "strength": 3,
       "horizon": "1-4w",
       "priced_in": "medium",
-      "reason": "隔夜美光、闪迪、西部数据和费城半导体指数逆势上涨，但10:41行情批次显示兆易创新约跌0.68%、德明利约涨1.08%、太极实业约跌2.22%，仅模组端维持正反馈，设计与封测未同步承接。个股行情来自Yahoo备用源且缺少可靠成交量，暂按“产业利好、盘面分化”处理。",
+      "reason": "隔夜美光、闪迪、西部数据和费城半导体指数逆势上涨，但KOSPI早段涨逾3%后已回落至平盘附近；10:41行情批次显示兆易创新约跌0.68%、德明利约涨1.08%、太极实业约跌2.22%，仅模组端维持正反馈。A股个股行情来自Yahoo备用源且缺少可靠成交量，暂按“产业利好、价格未形成一致确认”处理。",
       "assets": [
         "603986",
         "001309",
         "600667"
       ],
       "validation": [
-        "午后兆易创新、德明利和太极实业重新形成同步上涨，并强于半导体指数",
+        "午后三标的重新形成同步上涨并强于半导体指数，且KOSPI存储权重止跌回升",
         "DRAM/NAND报价、企业级SSD订单或厂商指引继续改善"
       ],
       "invalidation": [
-        "午后三标的继续分化或集体转弱，海外存储股也回吐涨幅",
+        "午后三标的继续分化或集体转弱，韩美存储股同步回吐涨幅",
         "供给扩张压制存储价格与产业链毛利"
       ],
       "urls": [
         "https://wallstreetcn.com/articles/3779645",
         "https://wallstreetcn.com/articles/3779603",
-        "https://www.wsj.com/market-data/quotes/index/KR/SEU"
+        "https://www.wsj.com/market-data/quotes/index/KR/SEU",
+        "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-08-18/"
       ]
     },
     {
@@ -1066,7 +1066,7 @@ window.AI_SIGNALS = {
       "strength": 3,
       "horizon": "1-3m",
       "priced_in": "medium",
-      "reason": "OpenAI数据中心融资与Fabrinet第四财季收入同比增长约44.6%强化长期光通信需求，但10:41行情批次显示中际旭创约跌1.80%、东山精密约跌2.14%，昨日同步上涨后早盘共同回落。个股行情来自低置信度备用源且缺少成交量，当前只能确认产业逻辑增强，尚不能确认A股继续扩散。",
+      "reason": "OpenAI数据中心融资与Fabrinet第四财季收入同比增长约44.6%强化长期光通信需求，但10:41行情批次显示中际旭创约跌1.80%、东山精密约跌2.14%，昨日同步上涨后共同回落；同时日经跌逾2%、KOSPI由高开逾3%回落至平盘附近，外部风险偏好进一步转弱。个股行情来自低置信度备用源且缺少成交量，当前只能确认产业逻辑增强，尚不能确认A股继续扩散。",
       "assets": [
         "300308",
         "002384"
@@ -1082,18 +1082,19 @@ window.AI_SIGNALS = {
       "urls": [
         "https://www.reuters.com/business/media-telecom/nvidia-invest-15-billion-sb-energy-under-openai-data-center-deal-2026-08-17/",
         "https://investor.fabrinet.com/news-releases/news-release-details/fabrinet-announces-fourth-quarter-and-fiscal-year-2026-financial",
-        "https://www.digitimes.com/news/a20260817PD218/copper-data-siph-cpo-photonics.html"
+        "https://www.digitimes.com/news/a20260817PD218/copper-data-siph-cpo-photonics.html",
+        "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-08-18/"
       ]
     },
     {
-      "event": "美伊临时安排到期且霍尔木兹风险升级，油价、长端利率与贵金属再度共振",
+      "event": "美伊临时安排到期推升油价与长端利率，贵金属避险和估值压力并存",
       "industry": "macro",
       "industry_name": "原油 / 黄金 / 白银 / 实际利率",
       "direction": "mixed",
       "strength": 5,
       "horizon": "1-5d",
       "priced_in": "medium",
-      "reason": "霍尔木兹风险、高油价和美元结构性支撑使避险与实际利率压力并存。10:41行情批次显示黄金ETF约跌0.04%、成交额约15.1亿元，10:27备用行情显示国投白银LOF约跌0.53%，昨日金银同步上涨未能延续；白银LOF仍须独立核验净值、场内溢价和交易限制。",
+      "reason": "路透11点后更新显示布伦特原油约91.20美元、美国10年期国债收益率约4.724%，亚洲股市转弱；现货黄金约跌0.3%至4,402.89美元。10:41行情批次显示黄金ETF约跌0.04%、成交额约15.1亿元，10:27备用行情显示国投白银LOF约跌0.53%，说明地缘避险暂未抵消实际利率与美元压力；白银LOF仍须独立核验净值、场内溢价和交易限制。",
       "assets": [
         "161226",
         "518880"
@@ -1109,7 +1110,8 @@ window.AI_SIGNALS = {
       "urls": [
         "https://www.reuters.com/world/middle-east/iran-threatens-go-offensive-strait-hormuz-if-diplomacy-with-us-fails-2026-08-17/",
         "https://wallstreetcn.com/articles/3779638",
-        "https://wallstreetcn.com/articles/3779653"
+        "https://wallstreetcn.com/articles/3779653",
+        "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-08-18/"
       ]
     }
   ]
