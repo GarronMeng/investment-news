@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "generated_at": null,
+  "history_generated_at": null,
+  "records": 0,
+  "evaluations": [],
+  "by_thesis_state": {},
+  "by_evidence_state": {},
+  "methodology": {
+    "directional": "bullish/bearish matrix_direction uses future benchmark excess return.",
+    "neutral": "neutral/conflict states receive no synthetic win rate.",
+    "minimum_readout": "insufficient_sample until enough directional settled observations exist."
+  },
+  "boundary": "Historical validation only; not a future probability or automatic trading signal."
+}
