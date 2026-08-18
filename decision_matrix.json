@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-19T00:51:04+08:00",
+  "generated_at": "2026-08-19T00:52:24+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -604,13 +604,7 @@
         }
       },
       "contributors": {
-        "positive": [
-          {
-            "layer": "industry",
-            "score": 31.3,
-            "evidence": "油气开采及服务 涨跌+2.06%/净流—；燃气 涨跌+1.53%/净流—；电力 涨跌-0.87%/净流-46.9亿"
-          }
-        ],
+        "positive": [],
         "negative": [
           {
             "layer": "technical",
@@ -850,5 +844,11 @@
     "eligibility": "只有 fresh/usable 的技术、相对强弱和市场/行业数据才能作为当前方向证据；贵金属对冲明确排除A股行业与A股市场环境方向层。被排除层不按0处理，而是重新归一剩余权重。",
     "conflict": "方向层按 固定权重×|score| 形成正负证据质量；只有两侧均达到材料性阈值且较平衡时才标记 conflict，用于区分‘证据互相抵消’与‘单纯无边际’。conflict_score 不是收益概率。"
   },
-  "boundary": "仅用于研究优先级、假设验证与冲突识别；不生成买卖、仓位、止损、数量或成本相关指令。"
+  "boundary": "仅用于研究优先级、假设验证与冲突识别；不生成买卖、仓位、止损、数量或成本相关指令。",
+  "integrity": {
+    "status": "ok",
+    "checked_assets": 9,
+    "excluded_layers_referenced": [],
+    "rule": "contributors are rebuilt from final available layers after refinement"
+  }
 }
