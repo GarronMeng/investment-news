@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """Refresh daily OHLCV/amount history for the public watchlist.
 
-Eastmoney via AKShare is primary for A-shares, ETFs and LOFs. Fund histories
-then fall back to Sina (independent upstream), direct Eastmoney, and finally
-Yahoo. Failed refreshes preserve prior history as stale.
+Eastmoney via AKShare is primary. A-shares then use the independent Sina daily
+history endpoint before Yahoo; funds use Sina, direct Eastmoney, then Yahoo.
+After refresh, every A-share/ETF/LOF series is aligned to the benchmark's last
+trading date so a one-session-old series cannot be labelled fresh merely because
+it is within a loose calendar-day window.
 """
 
 import json
@@ -57,6 +59,7 @@ def kind_for(code):
 
 
 def fresh(last_date, today=None):
+    """Loose calendar freshness used only before benchmark-date alignment."""
     today = today or datetime.now(BEIJING).date()
     try:
         observed = date.fromisoformat(str(last_date)[:10])
@@ -88,12 +91,14 @@ def frame_rows(frame):
     return rows[-MAX_ROWS:]
 
 
+def date_range(now=None):
+    now = now or datetime.now(BEIJING)
+    return (now.date() - timedelta(days=420)).strftime("%Y%m%d"), now.date().strftime("%Y%m%d")
+
+
 def akshare_history(code, kind, now=None):
     import akshare as ak
-
-    now = now or datetime.now(BEIJING)
-    start = (now.date() - timedelta(days=420)).strftime("%Y%m%d")
-    end = now.date().strftime("%Y%m%d")
+    start, end = date_range(now)
     if kind == "lof":
         frame = ak.fund_lof_hist_em(symbol=str(code), period="daily", start_date=start, end_date=end, adjust="")
     elif kind == "etf":
@@ -106,9 +111,19 @@ def akshare_history(code, kind, now=None):
     return rows
 
 
+def sina_stock_history(code, now=None):
+    """Independent Sina A-share daily fallback exposed by AKShare stock_zh_a_daily."""
+    import akshare as ak
+    start, end = date_range(now)
+    frame = ak.stock_zh_a_daily(symbol=sina_symbol_for(code), start_date=start, end_date=end, adjust="")
+    rows = frame_rows(frame)
+    if len(rows) < 20:
+        raise RuntimeError(f"Sina returned too few stock rows for {code}: {len(rows)}")
+    return rows
+
+
 def sina_fund_history(code):
     import akshare as ak
-
     frame = ak.fund_etf_hist_sina(symbol=sina_symbol_for(code))
     rows = frame_rows(frame)
     if len(rows) < 20:
@@ -117,47 +132,29 @@ def sina_fund_history(code):
 
 
 def eastmoney_fund_history(code, now=None):
-    """Direct fallback matching AKShare's public Eastmoney fund kline contract."""
     now = now or datetime.now(BEIJING)
-    start = (now.date() - timedelta(days=420)).strftime("%Y%m%d")
-    end = now.date().strftime("%Y%m%d")
+    start, end = date_range(now)
     endpoint = "https://push2his.eastmoney.com/api/qt/stock/kline/get"
     last_error = None
     for market_id in (0, 1):
         params = {
-            "fields1": "f1,f2,f3,f4,f5,f6",
-            "fields2": "f51,f52,f53,f54,f55,f56,f57,f58,f59,f60,f61",
-            "ut": "7eea3edcaed734bea9cbfc24409ed989",
-            "klt": "101",
-            "fqt": "0",
-            "secid": f"{market_id}.{code}",
-            "beg": start,
-            "end": end,
+            "fields1": "f1,f2,f3,f4,f5,f6", "fields2": "f51,f52,f53,f54,f55,f56,f57,f58,f59,f60,f61",
+            "ut": "7eea3edcaed734bea9cbfc24409ed989", "klt": "101", "fqt": "0",
+            "secid": f"{market_id}.{code}", "beg": start, "end": end,
         }
         try:
-            request = urllib.request.Request(
-                endpoint + "?" + urllib.parse.urlencode(params),
-                headers={"User-Agent": "Mozilla/5.0 investment-news/1.0"},
-            )
-            with urllib.request.urlopen(request, timeout=20) as response:
+            req = urllib.request.Request(endpoint + "?" + urllib.parse.urlencode(params), headers={"User-Agent": "Mozilla/5.0 investment-news/1.0"})
+            with urllib.request.urlopen(req, timeout=20) as response:
                 payload = json.loads(response.read().decode("utf-8"))
             klines = (payload.get("data") or {}).get("klines") or []
             rows = []
             for item in klines:
                 values = item.split(",")
-                if len(values) < 7:
-                    continue
-                close = finite(values[2])
-                if close is None:
+                if len(values) < 7 or finite(values[2]) is None:
                     continue
                 rows.append({
-                    "date": values[0],
-                    "open": finite(values[1]),
-                    "high": finite(values[3]),
-                    "low": finite(values[4]),
-                    "close": close,
-                    "volume": finite(values[5]),
-                    "amount": finite(values[6]),
+                    "date": values[0], "open": finite(values[1]), "close": finite(values[2]),
+                    "high": finite(values[3]), "low": finite(values[4]), "volume": finite(values[5]), "amount": finite(values[6]),
                 })
             if len(rows) >= 20:
                 return rows[-MAX_ROWS:]
@@ -210,6 +207,17 @@ def series(code, name, symbol, kind, rows, source, fallback_reason=None):
     return payload
 
 
+def align_to_benchmark_date(item, benchmark_last_date):
+    """Mark a series stale when it trails the benchmark's known trading date."""
+    if not benchmark_last_date or not item.get("last_date"):
+        return item
+    if str(item["last_date"]) < str(benchmark_last_date):
+        item = dict(item)
+        item["status"] = "stale"
+        item["staleness_reason"] = f"last_date {item['last_date']} trails benchmark {benchmark_last_date}"
+    return item
+
+
 def preserve(previous, code, name, symbol, kind, error, benchmark=False):
     old = previous.get("benchmark") if benchmark else previous.get("assets", {}).get(str(code))
     if old and old.get("rows"):
@@ -223,15 +231,20 @@ def preserve(previous, code, name, symbol, kind, error, benchmark=False):
 
 
 def refresh(code, name, symbol, kind, previous, warnings, benchmark=False):
-    primary_error = None
-    sina_error = None
-    direct_error = None
+    primary_error = sina_error = direct_error = None
     try:
-        rows = akshare_history(code, kind)
-        return series(code, name, symbol, kind, rows, "东方财富 via AKShare")
+        return series(code, name, symbol, kind, akshare_history(code, kind), "东方财富 via AKShare")
     except Exception as exc:
         primary_error = exc
         warnings.append(f"{code} AKShare: {primary_error}")
+
+    if kind == "stock":
+        try:
+            rows = sina_stock_history(code)
+            return series(code, name, symbol, kind, rows, "新浪财经 via AKShare", primary_error)
+        except Exception as exc:
+            sina_error = exc
+            warnings.append(f"{code} Sina stock: {sina_error}")
 
     if kind in {"etf", "lof"}:
         try:
@@ -239,19 +252,17 @@ def refresh(code, name, symbol, kind, previous, warnings, benchmark=False):
             return series(code, name, symbol, kind, rows, "新浪财经 via AKShare", primary_error)
         except Exception as exc:
             sina_error = exc
-            warnings.append(f"{code} Sina: {sina_error}")
+            warnings.append(f"{code} Sina fund: {sina_error}")
         try:
             rows = eastmoney_fund_history(code)
-            reason = f"AKShare={primary_error}; Sina={sina_error}"
-            return series(code, name, symbol, kind, rows, "东方财富 direct fallback", reason)
+            return series(code, name, symbol, kind, rows, "东方财富 direct fallback", f"AKShare={primary_error}; Sina={sina_error}")
         except Exception as exc:
             direct_error = exc
             warnings.append(f"{code} Eastmoney direct: {direct_error}")
 
     try:
         rows = yahoo_chart(symbol)
-        reason = f"AKShare={primary_error}; Sina={sina_error}; direct={direct_error}"
-        return series(code, name, symbol, kind, rows, "Yahoo Finance chart", reason)
+        return series(code, name, symbol, kind, rows, "Yahoo Finance chart", f"AKShare={primary_error}; Sina={sina_error}; direct={direct_error}")
     except Exception as fallback:
         warnings.append(f"{code} Yahoo: {fallback}")
         reason = f"AKShare={primary_error}; Sina={sina_error}; direct={direct_error}; Yahoo={fallback}"
@@ -262,15 +273,16 @@ def main():
     watchlist = load(WATCHLIST)
     previous = load(OUTPUT)
     warnings = []
-    benchmark = refresh(
-        BENCHMARK["code"], BENCHMARK["name"], BENCHMARK["symbol"], BENCHMARK["kind"],
-        previous, warnings, benchmark=True,
-    )
+    benchmark = refresh(BENCHMARK["code"], BENCHMARK["name"], BENCHMARK["symbol"], BENCHMARK["kind"], previous, warnings, benchmark=True)
+    benchmark_last = benchmark.get("last_date") if benchmark.get("status") == "fresh" else None
 
     assets = {}
     for asset in watchlist.get("assets", []):
         code = str(asset["code"])
-        assets[code] = refresh(code, asset["name"], symbol_for(code), kind_for(code), previous, warnings)
+        item = refresh(code, asset["name"], symbol_for(code), kind_for(code), previous, warnings)
+        assets[code] = align_to_benchmark_date(item, benchmark_last)
+        if item.get("status") == "fresh" and assets[code].get("status") == "stale":
+            warnings.append(f"{code} freshness alignment: {assets[code].get('staleness_reason')}")
 
     fresh_count = sum(row.get("status") == "fresh" for row in assets.values())
     stale_count = sum(row.get("status") == "stale" for row in assets.values())
@@ -282,12 +294,12 @@ def main():
         "summary": {"total": len(assets), "fresh": fresh_count, "stale": stale_count, "unavailable": len(assets) - fresh_count - stale_count},
         "assets": assets,
         "warnings": warnings,
-        "methodology": "Eastmoney via AKShare is primary; Sina via AKShare is independent fund fallback; direct Eastmoney then Yahoo chart are further fallbacks; prior valid series is retained as stale on total failure; up to 140 observations retained.",
+        "methodology": "Eastmoney via AKShare primary; Sina via AKShare independent A-share/fund fallback; direct Eastmoney fund then Yahoo further fallbacks. Asset freshness is aligned to the fresh benchmark trading date; prior valid series is retained as stale on total failure; up to 140 observations retained.",
     }
     with open(OUTPUT, "w", encoding="utf-8") as handle:
         json.dump(payload, handle, ensure_ascii=False, indent=2)
         handle.write("\n")
-    print("history", payload["summary"], "benchmark", benchmark.get("status"), "warnings", len(warnings))
+    print("history", payload["summary"], "benchmark", benchmark.get("status"), benchmark.get("last_date"), "warnings", len(warnings))
 
 
 if __name__ == "__main__":
