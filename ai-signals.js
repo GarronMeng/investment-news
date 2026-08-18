@@ -1,6 +1,6 @@
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-18 15:04",
-  "source_generated_at": "2026-08-18 12:21",
+  "generated_at": "2026-08-18 16:03",
+  "source_generated_at": "2026-08-18 15:56",
   "generated_by": "ChatGPT Web",
   "status": "ready",
   "news_titles": {
@@ -998,7 +998,58 @@ window.AI_SIGNALS = {
     "https://www.ft.com/content/cf29e18e-c4d8-4a27-b7c7-3cf56d6eccf2": "罐装鸡尾酒能否重振酒类行业？",
     "https://www.ft.com/content/a9947be4-5c0c-47ee-acae-a2aeaf01a0a0": "AI并未失控，实际情况更加糟糕",
     "https://www.ft.com/content/55cb2786-c7ef-438e-8830-c3dc2c1452ce": "“不值得费力”：全球私募股权在中国交易数降至零",
-    "https://news.mit.edu/2026/how-35-percent-us-employees-are-left-on-margins-paul-osterman-book-0818": "美国35%的雇员如何被边缘化"
+    "https://news.mit.edu/2026/how-35-percent-us-employees-are-left-on-margins-paul-osterman-book-0818": "美国35%的雇员如何被边缘化",
+    "https://www.marktechpost.com/2026/08/17/nous-research-hermes-bot-mode": "Nous Research为Hermes Agent推出Bot模式，将智能体配置转化为具名机器人阵容",
+    "https://semiengineering.com/chip-industry-technical-paper-roundup-aug-18": "芯片行业技术论文汇总：8月18日",
+    "https://semiengineering.com/chip-industry-earnings-roundup": "半导体财报汇总：营收、增长与要点",
+    "https://semiengineering.com/research-bits-aug-18": "研究速览：8月18日",
+    "https://www.digitimes.com/news/a20260818VL210/samsung-robotics-robot-manufacturing-data.html": "三星设立新机器人实验室，加码人形机器人布局",
+    "https://www.digitimes.com/news/a20260818PD217/investment-ipo-cmc-policy-communications.html": "美国审查之际，韩国国民年金支持AI光链路企业",
+    "https://www.digitimes.com/news/a20260818VL208/ai-chip-materials-packaging-chips.html": "分析：中国AI芯片雄心遭遇味之素对ABF薄膜95%市场控制",
+    "https://www.electronicsweekly.com/news/business/samsung-foundry-delays-1-4nm-process-for-three-years-2026-08": "三星晶圆代工将1.4纳米工艺推迟三年",
+    "https://www.electronicsweekly.com/news/business/shares-in-humanoids-start-selling-tomorrow-2026-08": "人形机器人企业股票明日开售",
+    "https://cnevpost.com/2026/08/18/top-battery-makers-share-china-jul-2026": "2026年7月中国动力电池厂商份额：宁德时代42.33%，比亚迪19.23%",
+    "https://cnevpost.com/2026/08/18/china-power-battery-installations-jul-2026": "中国7月动力电池装机量增长33.5%，创年内最快增速",
+    "https://cnevpost.com/2026/08/18/xpeng-6000-delivery-milestone-france": "小鹏汽车在法国累计交付6000辆，海外销量创纪录",
+    "https://www.pv-magazine.com/2026/08/18/as-europe-overheats-solar-module-prices-cool-down": "欧洲持续高温之际，光伏组件价格降温",
+    "https://www.pv-magazine.com/2026/08/18/study-finds-two-terminal-perovskite-silicon-tandems-may-not-deliver-optimal-performance-in-all-climates": "研究发现，两端式钙钛矿-硅叠层电池并非在所有地区都能实现最优性能",
+    "https://cleantechnica.com/2026/08/18/europe-banks-hydrogen-niche-bankability": "欧洲银行将氢能视为小众领域，而非完整经济体系",
+    "https://oilprice.com/Latest-Energy-News/World-News/Libya-Seeks-Up-to-40-Billion-to-Boost-Oil-Output-to-2-Million-Bpd.html": "利比亚寻求最高400亿美元投资，将石油日产量提升至200万桶",
+    "https://www.pv-magazine.com/2026/08/18/agrivoltaics-can-reduce-soil-temperatures-by-more-than-20-c": "农光互补可使土壤温度降低超过20摄氏度",
+    "https://www.pv-magazine.com/2026/08/18/researchers-model-1708-pathways-for-global-pv-waste-recycling": "研究人员模拟全球光伏废弃物回收的1708种路径",
+    "https://www.pv-tech.org/windlab-and-squadron-energy-refer-500mw-solar-plus-storage-site-for-epbc-act-approval-in-australia": "Windlab与Squadron Energy提交澳大利亚500兆瓦光储项目，申请EPBC法案审批",
+    "https://www.energy-storage.news/chinas-energy-storage-market-doubles-in-size-for-second-consecutive-year-as-price-inflection-point-emerges": "中国储能市场连续第二年规模翻倍，价格拐点显现",
+    "https://endpoints.news/leo-pharma-to-license-tanabes-rare-disease-drug-for-pain-with-sun-exposure": "Leo Pharma将获得田边制药光照疼痛罕见病药物许可",
+    "https://www.securityweek.com/dozens-of-webkit-vulnerabilities-patched-with-fresh-macos-ios-security-updates": "macOS与iOS最新安全更新修复数十个WebKit漏洞",
+    "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html": "CISA警告Ray漏洞正遭利用，可触发基于浏览器的远程代码执行",
+    "https://www.engadget.com/2238891/apple-appears-to-have-leaked-its-camera-equipped-airpods": "苹果似乎泄露了配备摄像头的AirPods",
+    "https://www.techmeme.com/260818/p2": "自称“创意伦理恶作剧游乐场”的Rogue Studio发布Rogue 1.0，用于制作好莱坞品质成人内容的AI视频工具",
+    "https://www.storagereview.com/news/micron-and-sk-hynix-commit-billions-to-memory-capacity-but-almost-nothing-lands-before-2028": "美光与SK海力士承诺投入数十亿美元扩充内存产能，但几乎都要到2028年后才落地",
+    "https://www.techmeme.com/260818/p1": "消息称AI起草法案正淹没美国众议院立法顾问办公室，修正耗时已超过从头起草",
+    "https://www.wired.com/story/noom-promo-code": "Noom优惠码：2026年8月精选优惠五折并提供免费试用",
+    "https://www.wired.com/story/hydrow-discount-code": "Hydrow优惠码：2026年8月最高节省150美元",
+    "https://www.wired.com/story/1password-coupon": "1Password优惠：2026年8月可获免费试用",
+    "https://www.wired.com/story/steelseries-coupon-code": "SteelSeries优惠码：2026年8月享85折",
+    "https://www.androidauthority.com/one-ui-9-5-satellite-connectivity-usb-mode-3699598": "三星One UI 9.5或借助谷歌加入新的连接中心",
+    "https://www.androidauthority.com/google-home-nest-outage-3699616": "Google Home与Nest设备在全球范围大面积宕机",
+    "https://www.gsmarena.com/apple_airpods_with_cameras_surface_in_leaked_video-news-74214.php": "泄露视频中出现配备摄像头的苹果AirPods",
+    "https://www.gsmarena.com/nothings_cmf_teases_a_new_pair_of_earbuds-news-74213.php": "Nothing旗下CMF预告新款耳机",
+    "https://www.gsmarena.com/googles_scam_detection_feature_is_headed_to_another_android_device_maker-news-74212.php": "谷歌诈骗检测功能将登陆另一家安卓设备厂商",
+    "https://wallstreetcn.com/articles/3779679": "AI暗雷：美国科技巨头表外负债膨胀至3万亿美元，约为年度资本开支的5倍",
+    "https://seekingalpha.com/news/4634183-mowi-asa-non-gaap-eps-of-028-revenue-of-16b": "Mowi ASA非GAAP每股收益0.28欧元，营收16亿欧元",
+    "https://seekingalpha.com/news/4634180-yardeni-research-bond-vigilantes-watch": "Yardeni：债券市场警戒力量正在苏醒，但尚未按下恐慌按钮",
+    "https://seekingalpha.com/news/4634182-nasdaq-sets-dec-6-launch-for-23-hour-trading-schedule": "纳斯达克计划12月6日启动每日23小时交易",
+    "https://seekingalpha.com/news/4634173-google-plans-to-shift-all-pixel-production-out-of-china-by-2027---report": "报道称谷歌计划到2027年将全部Pixel生产迁出中国",
+    "https://seekingalpha.com/news/4634172-nvidia-pledges-100b-backing-for-openais-ohio-data-center": "英伟达承诺为OpenAI俄亥俄州数据中心提供1000亿美元支持",
+    "https://seekingalpha.com/news/4634171-bhp-port-hedland-unions-fail-to-reach-wage-deal---report": "报道称必和必拓与黑德兰港工会未能达成薪资协议",
+    "https://www.cnbc.com/2026/08/18/30-year-treasury-yield-three-things-that-could-drive-it-even-higher.html": "美国30年期国债收益率创19年新高，三项因素或推动其进一步上升",
+    "https://www.cnbc.com/2026/08/18/trump-south-korea-military-exercises-iran-north-korea.html": "特朗普削减军事演习之际，韩国总统李在明称须为“最坏情形”做好准备",
+    "https://www.newscientist.com/article/2584689-physicists-may-have-solved-a-30-year-mystery-over-missing-neutrinos": "物理学家或已破解中微子缺失的30年谜团",
+    "https://www.sciencedaily.com/releases/2026/08/260815065007.htm": "科学家或终于证明“真空”并非真正空无一物",
+    "https://www.sciencedaily.com/releases/2026/08/260816044835.htm": "爱因斯坦最大的“错误”卷土重来，并永远改变宇宙学",
+    "https://www.sciencedaily.com/releases/2026/08/260815064833.htm": "一种“重写”童年记忆的疗法可缓解对失败的恐惧",
+    "https://arstechnica.com/science/2026/08/theban-tomb-reveals-how-egyptian-burial-trends-evolved-in-time": "底比斯古墓揭示埃及葬俗如何随时间演变",
+    "https://www.sciencedaily.com/releases/2026/08/260816044847.htm": "赋予奶酪美味的细菌也可能有益肠道"
   },
   "overseas_markets": [
     {
@@ -1069,88 +1120,85 @@ window.AI_SIGNALS = {
   ],
   "signals": [
     {
-      "event": "韩股存储高开回落，A股存储三标的午后集体下跌",
+      "event": "韩股存储高开回落，A股存储链收盘分化",
       "industry": "semi",
       "industry_name": "DRAM / NAND / 企业级SSD / 半导体封测",
-      "direction": "negative",
-      "strength": 5,
+      "direction": "mixed",
+      "strength": 4,
       "horizon": "1-4w",
       "priced_in": "medium",
-      "reason": "隔夜美股存储板块逆势上涨，但KOSPI从盘中涨逾3%反转收跌1.55%；13:45行情批次显示兆易创新约跌2.73%、德明利约跌1.48%、太极实业约跌3.77%，存储三标的已由早盘分化转为集体回撤，海外利好未形成A股传导。个股行情来自Yahoo备用源且缺少可靠成交量，负向价格确认仍需正式收盘批次复核。",
+      "reason": "KOSPI从盘中涨逾3%反转收跌1.55%；15:52行情批次显示兆易创新约跌1.64%、德明利约涨0.44%、太极实业约跌3.60%，A股存储链由午后集体下跌转为一涨两跌，负向压力有所缓和但海外利好仍未形成一致传导。美光与SK海力士新增产能大多要到2028年后落地，近端供需支持与远期扩产风险并存；三只个股来自低置信度备用源且缺少可靠成交量。",
       "assets": [
         "603986",
         "001309",
         "600667"
       ],
       "validation": [
-        "下一交易日三标的止跌并重新强于半导体指数，且韩股存储权重企稳",
+        "下一交易日三标的同步企稳并重新强于半导体指数，且韩股存储权重止跌",
         "DRAM/NAND报价、企业级SSD订单或厂商指引继续改善"
       ],
       "invalidation": [
-        "正式收盘批次确认三标的集体下跌，且韩美存储股继续回吐涨幅",
-        "供给扩张压制存储价格与产业链毛利"
+        "三标的重新集体下跌，韩美存储股继续回吐涨幅",
+        "新增产能预期提前压制存储价格与产业链毛利"
       ],
       "urls": [
-        "https://wallstreetcn.com/articles/3779645",
+        "https://www.storagereview.com/news/micron-and-sk-hynix-commit-billions-to-memory-capacity-but-almost-nothing-lands-before-2028",
         "https://wallstreetcn.com/articles/3779603",
-        "https://www.wsj.com/market-data/quotes/index/KR/SEU",
         "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-08-18/"
       ]
     },
     {
-      "event": "AI光通信需求逻辑延续，但CPO与PCB午后跌幅扩大",
+      "event": "AI基础设施需求延续，但表外承诺与A股回撤抬升兑现风险",
       "industry": "tech",
       "industry_name": "AI数据中心 / 高速光模块 / CPO / 服务器PCB",
-      "direction": "negative",
-      "strength": 4,
+      "direction": "mixed",
+      "strength": 5,
       "horizon": "1-3m",
       "priced_in": "medium",
-      "reason": "OpenAI数据中心融资与Fabrinet业绩强化长期光通信需求，但13:45行情批次显示中际旭创约跌2.44%、东山精密约跌3.34%，昨日同步上涨后已形成共同回撤；日经收跌2.54%、KOSPI从盘中涨逾3%反转收跌1.55%，外部风险偏好进一步转弱。个股行情来自低置信度备用源且缺少成交量，产业逻辑尚未获得A股价格确认。",
+      "reason": "Fabrinet业绩与OpenAI数据中心项目继续验证光通信需求，但最新披露显示美国主要科技公司与AI基础设施相关的表外承诺合计约3万亿美元，长期订单能见度提高的同时，融资、现金流与项目回报风险也显著上升。15:52行情批次显示中际旭创约跌1.29%、东山精密约跌1.76%，较午后低点有所收窄但仍共同收弱；个股行情来自低置信度备用源且缺少成交量。",
       "assets": [
         "300308",
         "002384"
       ],
       "validation": [
-        "下一交易日中际旭创与东山精密止跌并重新强于通信和电子指数",
-        "后续披露1.6T、CPO或AI服务器PCB订单与收入贡献"
+        "下一交易日两标的止跌并重新强于通信和电子指数",
+        "后续披露1.6T、CPO或AI服务器PCB实际订单、收入贡献与客户付款能力"
       ],
       "invalidation": [
-        "正式收盘批次确认两标的维持较大跌幅，或次日继续弱于行业指数",
-        "项目融资、供电或建设进度延后，或CPO量产与订单不及预期"
+        "两标的继续弱于行业指数，海外光通信股同步回落",
+        "数据中心融资成本上升、项目延期或客户削减资本开支"
       ],
       "urls": [
-        "https://www.reuters.com/business/media-telecom/nvidia-invest-15-billion-sb-energy-under-openai-data-center-deal-2026-08-17/",
-        "https://investor.fabrinet.com/news-releases/news-release-details/fabrinet-announces-fourth-quarter-and-fiscal-year-2026-financial",
-        "https://www.digitimes.com/news/a20260817PD218/copper-data-siph-cpo-photonics.html",
-        "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-08-18/"
+        "https://www.wsj.com/tech/ai/why-big-techs-ai-spending-is-3-trillion-higher-than-it-seems-e1067bb2",
+        "https://www.reuters.com/commentary/reuters-open-interest/even-market-clouds-clear-ai-investment-anxiety-still-gnaws-2026-08-18/",
+        "https://investor.fabrinet.com/news-releases/news-release-details/fabrinet-announces-fourth-quarter-and-fiscal-year-2026-financial"
       ]
     },
     {
-      "event": "长端利率压力继续压制贵金属，白银弱于黄金",
+      "event": "长端利率压力延续，黄金收红而白银仍弱",
       "industry": "macro",
       "industry_name": "原油 / 黄金 / 白银 / 实际利率",
       "direction": "mixed",
       "strength": 5,
       "horizon": "1-5d",
       "priced_in": "medium",
-      "reason": "美伊临时安排到期后，布伦特原油维持90美元上方、美国10年期国债收益率约4.72%，亚洲股市转弱。13:45行情批次显示黄金ETF约跌0.04%、成交额约24.3亿元，13:32备用行情显示国投白银LOF约跌1.16%，白银明显弱于黄金，地缘避险仍未抵消实际利率与美元压力；白银LOF须独立核验净值、场内溢价和交易限制。",
+      "reason": "美伊临时安排到期后油价与长端国债收益率维持高位，日经收跌2.54%、KOSPI收跌1.55%。15:52行情批次显示黄金ETF约涨0.11%、成交额约32.66亿元；国投白银LOF备用行情约跌0.69%，白银继续弱于黄金，地缘避险仍未完全抵消实际利率压力。白银LOF须独立核验净值、场内溢价和交易限制。",
       "assets": [
         "161226",
         "518880"
       ],
       "validation": [
-        "午后黄金ETF与白银LOF重新同步走强，美元和实际利率未继续上行",
+        "美元与实际利率回落，黄金ETF与白银LOF重新同步走强",
         "白银LOF场内溢价未扩大且无新增交易限制"
       ],
       "invalidation": [
-        "美元与实际利率持续上行并推动黄金白银跌破近期支撑",
+        "美元与实际利率继续上行并推动黄金、白银跌破近期支撑",
         "美伊恢复有效谈判、霍尔木兹航运明显恢复且油价快速回落"
       ],
       "urls": [
         "https://www.reuters.com/world/middle-east/iran-threatens-go-offensive-strait-hormuz-if-diplomacy-with-us-fails-2026-08-17/",
-        "https://wallstreetcn.com/articles/3779638",
-        "https://wallstreetcn.com/articles/3779653",
-        "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-08-18/"
+        "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-08-18/",
+        "https://www.cnbc.com/2026/08/18/30-year-treasury-yield-three-things-that-could-drive-it-even-higher.html"
       ]
     },
     {
@@ -1161,7 +1209,7 @@ window.AI_SIGNALS = {
       "strength": 4,
       "horizon": "1-3m",
       "priced_in": "low",
-      "reason": "Endpoints报道，一家生物科技公司本月获得8.2亿美元投资承诺，拟通过反向并购将一款源自中国的免疫疾病药物带入公开市场，显示国际资本对中国创新药资产的认可仍在延续。13:45行情批次显示创新药沪港深ETF约涨0.45%、成交额约1.09亿元，维持初步正反馈；但单一药物和交易不可直接外推至全行业。",
+      "reason": "Endpoints报道，一家生物科技公司获得8.2亿美元投资承诺，拟通过反向并购将一款源自中国的免疫疾病药物带入公开市场，显示国际资本对中国创新药资产的认可仍在延续。15:52行情批次显示创新药沪港深ETF约涨0.56%、成交额约1.35亿元，维持初步正反馈；但单一药物和交易不可直接外推至全行业。",
       "assets": [
         "517380"
       ],
