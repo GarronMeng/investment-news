@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generated_at": "2026-08-19T00:55:08+08:00",
+  "generated_at": "2026-08-19T00:59:24+08:00",
   "source": {
-    "data_generated_at": "2026-08-18 15:56",
+    "data_generated_at": "2026-08-19 00:54",
     "ai_generated_at": "2026-08-18 16:03",
     "ai_source_generated_at": "2026-08-18 15:56",
-    "features_generated_at": "2026-08-19T00:55:02+08:00",
-    "fresh_ai": true
+    "features_generated_at": "2026-08-19T00:59:13+08:00",
+    "fresh_ai": false
   },
   "decisions": [
     {
@@ -17,21 +17,21 @@
       "status": "neutral",
       "event_score": 50.0,
       "market_score": 45.0,
-      "freshness_score": 100,
-      "conviction": 4.0,
-      "evidence_mode": "event_plus_market",
-      "event_count": 1,
+      "freshness_score": 70,
+      "conviction": 10.0,
+      "evidence_mode": "market_only",
+      "event_count": 0,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.081572",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=-0.081572",
       "confirmation": [
-        "下一交易日三标的同步企稳并重新强于半导体指数，且韩股存储权重止跌",
-        "DRAM/NAND报价、企业级SSD订单或厂商指引继续改善"
+        "股价相对半导体指数转强",
+        "成交量放大且收盘站稳"
       ],
       "invalidation": [
-        "三标的重新集体下跌，韩美存储股继续回吐涨幅",
-        "新增产能预期提前压制存储价格与产业链毛利"
+        "存储价格下行",
+        "库存恶化"
       ],
-      "expires_at": "2026-09-16"
+      "expires_at": "2026-08-24"
     },
     {
       "asset": "001309",
@@ -41,21 +41,21 @@
       "status": "neutral",
       "event_score": 50.0,
       "market_score": 45.0,
-      "freshness_score": 100,
-      "conviction": 4.0,
-      "evidence_mode": "event_plus_market",
-      "event_count": 1,
+      "freshness_score": 70,
+      "conviction": 10.0,
+      "evidence_mode": "market_only",
+      "event_count": 0,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.139114",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=-0.139114",
       "confirmation": [
-        "下一交易日三标的同步企稳并重新强于半导体指数，且韩股存储权重止跌",
-        "DRAM/NAND报价、企业级SSD订单或厂商指引继续改善"
+        "相对存储板块止跌转强",
+        "放量突破短期压力位"
       ],
       "invalidation": [
-        "三标的重新集体下跌，韩美存储股继续回吐涨幅",
-        "新增产能预期提前压制存储价格与产业链毛利"
+        "NAND跌价",
+        "渠道库存上升"
       ],
-      "expires_at": "2026-09-16"
+      "expires_at": "2026-08-24"
     },
     {
       "asset": "300308",
@@ -65,21 +65,21 @@
       "status": "neutral",
       "event_score": 50.0,
       "market_score": 45.0,
-      "freshness_score": 100,
-      "conviction": 4.0,
-      "evidence_mode": "event_plus_market",
-      "event_count": 1,
+      "freshness_score": 70,
+      "conviction": 10.0,
+      "evidence_mode": "market_only",
+      "event_count": 0,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.130615",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=-0.130615",
       "confirmation": [
-        "下一交易日两标的止跌并重新强于通信和电子指数",
-        "后续披露1.6T、CPO或AI服务器PCB实际订单、收入贡献与客户付款能力"
+        "海外AI硬件与A股CPO同步走强",
+        "高位放量后能维持强势"
       ],
       "invalidation": [
-        "两标的继续弱于行业指数，海外光通信股同步回落",
-        "数据中心融资成本上升、项目延期或客户削减资本开支"
+        "AI资本开支下修",
+        "客户延迟采购"
       ],
-      "expires_at": "2026-11-17"
+      "expires_at": "2026-08-24"
     },
     {
       "asset": "002384",
@@ -89,45 +89,45 @@
       "status": "neutral",
       "event_score": 50.0,
       "market_score": 45.0,
-      "freshness_score": 100,
-      "conviction": 4.0,
-      "evidence_mode": "event_plus_market",
-      "event_count": 1,
+      "freshness_score": 70,
+      "conviction": 10.0,
+      "evidence_mode": "market_only",
+      "event_count": 0,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.074372",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=-0.074372",
       "confirmation": [
-        "下一交易日两标的止跌并重新强于通信和电子指数",
-        "后续披露1.6T、CPO或AI服务器PCB实际订单、收入贡献与客户付款能力"
+        "PCB板块扩散上涨",
+        "订单利好得到成交量确认"
       ],
       "invalidation": [
-        "两标的继续弱于行业指数，海外光通信股同步回落",
-        "数据中心融资成本上升、项目延期或客户削减资本开支"
+        "终端需求下修",
+        "价格竞争"
       ],
-      "expires_at": "2026-11-17"
+      "expires_at": "2026-08-24"
     },
     {
       "asset": "600667",
       "name": "太极实业",
       "as_of": "2026-08-18",
       "bias": "bullish",
-      "status": "watch",
+      "status": "market_watch",
       "event_score": 50.0,
       "market_score": 85.0,
-      "freshness_score": 100,
-      "conviction": 28.0,
-      "evidence_mode": "event_plus_market",
-      "event_count": 1,
+      "freshness_score": 70,
+      "conviction": 55,
+      "evidence_mode": "market_only",
+      "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.378071",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.378071",
       "confirmation": [
-        "下一交易日三标的同步企稳并重新强于半导体指数，且韩股存储权重止跌",
-        "DRAM/NAND报价、企业级SSD订单或厂商指引继续改善"
+        "半导体工程板块同步走强",
+        "事件后股价摆脱弱势结构"
       ],
       "invalidation": [
-        "三标的重新集体下跌，韩美存储股继续回吐涨幅",
-        "新增产能预期提前压制存储价格与产业链毛利"
+        "资本开支延迟",
+        "项目回款承压"
       ],
-      "expires_at": "2026-09-16"
+      "expires_at": "2026-08-24"
     },
     {
       "asset": "000636",
@@ -137,7 +137,7 @@
       "status": "market_watch",
       "event_score": 50.0,
       "market_score": 75.0,
-      "freshness_score": 100,
+      "freshness_score": 70,
       "conviction": 50.0,
       "evidence_mode": "market_only",
       "event_count": 0,
@@ -158,22 +158,22 @@
       "name": "国投白银LOF",
       "as_of": "2026-08-18",
       "bias": "bearish",
-      "status": "watch",
+      "status": "market_watch",
       "event_score": 50.0,
       "market_score": 15.0,
-      "freshness_score": 100,
-      "conviction": 28.0,
-      "evidence_mode": "event_plus_market",
-      "event_count": 1,
+      "freshness_score": 70,
+      "conviction": 55,
+      "evidence_mode": "market_only",
+      "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "fresh event evidence; market trend=bearish; 20d relative strength=-0.012625",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.012625",
       "confirmation": [
-        "美元与实际利率回落，黄金ETF与白银LOF重新同步走强",
-        "白银LOF场内溢价未扩大且无新增交易限制"
+        "同时核对基金净值、场内价格和溢价率",
+        "银价上涨时场内溢价未继续扩大"
       ],
       "invalidation": [
-        "美元与实际利率继续上行并推动黄金、白银跌破近期支撑",
-        "美伊恢复有效谈判、霍尔木兹航运明显恢复且油价快速回落"
+        "银价下跌",
+        "美元与实际利率上行"
       ],
       "expires_at": "2026-08-24"
     },
@@ -182,22 +182,22 @@
       "name": "黄金ETF华安",
       "as_of": "2026-08-18",
       "bias": "bullish",
-      "status": "watch",
+      "status": "market_watch",
       "event_score": 50.0,
       "market_score": 85.0,
-      "freshness_score": 100,
-      "conviction": 28.0,
-      "evidence_mode": "event_plus_market",
-      "event_count": 1,
+      "freshness_score": 70,
+      "conviction": 55,
+      "evidence_mode": "market_only",
+      "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.072036",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.072036",
       "confirmation": [
-        "美元与实际利率回落，黄金ETF与白银LOF重新同步走强",
-        "白银LOF场内溢价未扩大且无新增交易限制"
+        "外盘金价与国内黄金现货同向",
+        "ETF成交量与价格同步确认"
       ],
       "invalidation": [
-        "美元与实际利率继续上行并推动黄金、白银跌破近期支撑",
-        "美伊恢复有效谈判、霍尔木兹航运明显恢复且油价快速回落"
+        "金价下跌",
+        "实际利率上行"
       ],
       "expires_at": "2026-08-24"
     },
@@ -206,24 +206,24 @@
       "name": "创新药沪港深ETF天弘",
       "as_of": "2026-08-18",
       "bias": "bullish",
-      "status": "active",
-      "event_score": 90.0,
+      "status": "market_watch",
+      "event_score": 50.0,
       "market_score": 85.0,
-      "freshness_score": 100,
-      "conviction": 76.0,
-      "evidence_mode": "event_plus_market",
-      "event_count": 1,
+      "freshness_score": 70,
+      "conviction": 55,
+      "evidence_mode": "market_only",
+      "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.11596",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.11596",
       "confirmation": [
-        "后续出现更多中国创新药跨境授权、并购或上市融资案例",
-        "创新药ETF持续强于宽基指数且成交额同步放大"
+        "A股与港股创新药板块形成联动",
+        "利好由成交量与持续性确认"
       ],
       "invalidation": [
-        "交易未能完成、融资缩水或相关临床进展不及预期",
-        "创新药板块无法形成扩散，ETF回吐涨幅并转弱"
+        "临床失败",
+        "监管或支付政策收紧"
       ],
-      "expires_at": "2026-11-17"
+      "expires_at": "2026-08-24"
     }
   ],
   "methodology": {
