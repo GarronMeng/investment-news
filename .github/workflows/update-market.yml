@@ -14,6 +14,7 @@ on:
       - watchlist.json
       - scripts/fetch_market.py
       - scripts/fetch_market_state.py
+      - scripts/fill_market_breadth.py
       - tests/test_market.py
       - tests/test_market_state.py
       - .github/workflows/update-market.yml
@@ -52,7 +53,9 @@ jobs:
         run: python scripts/fetch_market.py
 
       - name: Refresh market state
-        run: python scripts/fetch_market_state.py
+        run: |
+          python scripts/fetch_market_state.py
+          python scripts/fill_market_breadth.py
 
       - name: Validate output
         run: |
