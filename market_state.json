@@ -1,25 +1,233 @@
 {
   "version": 1,
-  "generated_at": null,
+  "generated_at": "2026-08-18T21:58:32+08:00",
   "timezone": "Asia/Shanghai",
   "breadth": {},
-  "indices": [],
-  "sectors": {"leaders": [], "laggards": [], "coverage": 0},
-  "industry_flow": {"inflow": [], "outflow": [], "coverage": 0},
-  "etf_activity": [],
-  "regime": {"label": "数据不足", "code": "insufficient", "score": null, "components": {}},
-  "section_status": {
-    "breadth": {"status": "unavailable"},
-    "indices": {"status": "unavailable"},
-    "sectors": {"status": "unavailable"},
-    "industry_flow": {"status": "unavailable"},
-    "etf_activity": {"status": "unavailable"}
+  "indices": [
+    {
+      "symbol": "sh000001",
+      "name": "上证指数",
+      "price": 3990.3,
+      "change_pct": 0.19,
+      "source": "腾讯行情"
+    },
+    {
+      "symbol": "sz399001",
+      "name": "深证成指",
+      "price": 14622.5,
+      "change_pct": -0.56,
+      "source": "腾讯行情"
+    },
+    {
+      "symbol": "sz399006",
+      "name": "创业板指",
+      "price": 3705.56,
+      "change_pct": -0.93,
+      "source": "腾讯行情"
+    },
+    {
+      "symbol": "sh000688",
+      "name": "科创50",
+      "price": 1790.87,
+      "change_pct": 0.11,
+      "source": "腾讯行情"
+    },
+    {
+      "symbol": "sh000300",
+      "name": "沪深300",
+      "price": 4725.81,
+      "change_pct": -0.32,
+      "source": "腾讯行情"
+    },
+    {
+      "symbol": "sh000905",
+      "name": "中证500",
+      "price": 8177.18,
+      "change_pct": -0.09,
+      "source": "腾讯行情"
+    },
+    {
+      "symbol": "hkHSI",
+      "name": "恒生指数",
+      "price": 25471.15,
+      "change_pct": 0.07,
+      "source": "腾讯行情"
+    },
+    {
+      "symbol": "hkHSTECH",
+      "name": "恒生科技指数",
+      "price": 4739.18,
+      "change_pct": -0.9,
+      "source": "腾讯行情"
+    }
+  ],
+  "sectors": {
+    "leaders": [],
+    "laggards": [],
+    "coverage": 0
   },
-  "alerts": [],
-  "warnings": ["等待市场数据任务首次刷新"],
+  "industry_flow": {
+    "inflow": [],
+    "outflow": [],
+    "coverage": 0
+  },
+  "etf_activity": [
+    {
+      "code": "511880",
+      "name": "银华日利ETF",
+      "price": 100.707,
+      "change_pct": 0.0,
+      "turnover": 16553934263.0,
+      "metric": "成交额活跃度代理",
+      "source": "东方财富 via AKShare"
+    },
+    {
+      "code": "513310",
+      "name": "中韩半导体ETF华泰柏瑞",
+      "price": 5.054,
+      "change_pct": -2.43,
+      "turnover": 10044619624.0,
+      "metric": "成交额活跃度代理",
+      "source": "东方财富 via AKShare"
+    },
+    {
+      "code": "588170",
+      "name": "科创半导体ETF华夏",
+      "price": 1.104,
+      "change_pct": 2.51,
+      "turnover": 7963106669.0,
+      "metric": "成交额活跃度代理",
+      "source": "东方财富 via AKShare"
+    },
+    {
+      "code": "513120",
+      "name": "港股创新药ETF广发",
+      "price": 1.282,
+      "change_pct": 1.1,
+      "turnover": 7133492017.0,
+      "metric": "成交额活跃度代理",
+      "source": "东方财富 via AKShare"
+    },
+    {
+      "code": "511990",
+      "name": "华宝添益ETF",
+      "price": 100.002,
+      "change_pct": 0.0,
+      "turnover": 6867774682.0,
+      "metric": "成交额活跃度代理",
+      "source": "东方财富 via AKShare"
+    },
+    {
+      "code": "588000",
+      "name": "科创50ETF华夏",
+      "price": 1.888,
+      "change_pct": 0.0,
+      "turnover": 6062875218.0,
+      "metric": "成交额活跃度代理",
+      "source": "东方财富 via AKShare"
+    },
+    {
+      "code": "159516",
+      "name": "半导体设备ETF国泰",
+      "price": 0.795,
+      "change_pct": 1.79,
+      "turnover": 4907458499.82,
+      "metric": "成交额活跃度代理",
+      "source": "东方财富 via AKShare"
+    },
+    {
+      "code": "159915",
+      "name": "创业板ETF易方达",
+      "price": 3.723,
+      "change_pct": -0.88,
+      "turnover": 4329861450.47,
+      "metric": "成交额活跃度代理",
+      "source": "东方财富 via AKShare"
+    },
+    {
+      "code": "563360",
+      "name": "A500ETF华泰柏瑞",
+      "price": 1.329,
+      "change_pct": -0.3,
+      "turnover": 4159604590.0,
+      "metric": "成交额活跃度代理",
+      "source": "东方财富 via AKShare"
+    },
+    {
+      "code": "588200",
+      "name": "科创芯片ETF嘉实",
+      "price": 1.275,
+      "change_pct": 0.0,
+      "turnover": 3959456751.0,
+      "metric": "成交额活跃度代理",
+      "source": "东方财富 via AKShare"
+    },
+    {
+      "code": "515880",
+      "name": "通信ETF国泰",
+      "price": 0.709,
+      "change_pct": -1.39,
+      "turnover": 3743989931.0,
+      "metric": "成交额活跃度代理",
+      "source": "东方财富 via AKShare"
+    },
+    {
+      "code": "159338",
+      "name": "中证A500ETF国泰",
+      "price": 1.258,
+      "change_pct": -0.32,
+      "turnover": 3659170041.39,
+      "metric": "成交额活跃度代理",
+      "source": "东方财富 via AKShare"
+    }
+  ],
+  "regime": {
+    "label": "Transition",
+    "code": "transition",
+    "score": -6.1,
+    "components": {
+      "breadth": 0.0,
+      "indices": -20.2,
+      "limit_structure": 0.0
+    },
+    "methodology": "市场广度55% + 核心指数30% + 涨跌停结构15%；仅用于状态分类，不是收益概率。"
+  },
+  "section_status": {
+    "breadth": {
+      "status": "unavailable",
+      "error": "A-share breadth unavailable"
+    },
+    "indices": {
+      "status": "fresh"
+    },
+    "sectors": {
+      "status": "stale",
+      "error": "sector ranking unavailable"
+    },
+    "industry_flow": {
+      "status": "stale",
+      "error": "industry fund-flow unavailable"
+    },
+    "etf_activity": {
+      "status": "fresh"
+    }
+  },
+  "warnings": [
+    "breadth: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+    "sectors: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+    "industry_flow: Expecting value: line 1 column 1 (char 0)"
+  ],
   "methodology": {
-    "breadth": "全A实时快照计算市场广度；无数据时不补造。",
-    "industry_flow": "仅展示明确主力净流入字段。",
-    "etf_activity": "ETF成交额活跃度代理，不等同净申购或真实资金净流入。"
-  }
+    "breadth": "全A实时快照计算上涨/下跌/平盘、涨跌停触及与封板率；涨跌停阈值按板块/ST规则近似。",
+    "industry_flow": "仅在AKShare/东方财富提供明确主力净流入字段时展示。",
+    "etf_activity": "ETF成交额活跃度代理，不等同于ETF净申购或真实资金净流入。"
+  },
+  "alerts": [
+    {
+      "type": "regime",
+      "from": "insufficient",
+      "to": "transition",
+      "message": "市场状态由 insufficient 切换为 transition"
+    }
+  ]
 }
