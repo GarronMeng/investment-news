@@ -1,15 +1,436 @@
 {
   "version": 1,
-  "generated_at": null,
-  "history_generated_at": null,
-  "records": 0,
-  "evaluations": [],
-  "by_thesis_state": {},
-  "by_evidence_state": {},
-  "methodology": {
-    "directional": "bullish/bearish matrix_direction uses future benchmark excess return.",
-    "neutral": "neutral/conflict states receive no synthetic win rate.",
-    "minimum_readout": "insufficient_sample until enough directional settled observations exist."
+  "generated_at": "2026-08-19T00:45:08+08:00",
+  "history_generated_at": "2026-08-19T00:45:01+08:00",
+  "records": 9,
+  "evaluations": [
+    {
+      "state_id": "5b786cdfc414d17f",
+      "asset": "603986",
+      "name": "兆易创新",
+      "signal_date": "2026-08-18",
+      "matrix_direction": "neutral",
+      "thesis_state": "no_directional_thesis",
+      "evidence_state": "noise_or_no_edge",
+      "composite_score": -11.4,
+      "confluence": 17.0,
+      "conflict_score": 0.0,
+      "entry_date": "2026-08-18",
+      "entry_close": 436.74,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "state_id": "8165cf461c3118e3",
+      "asset": "001309",
+      "name": "德明利",
+      "signal_date": "2026-08-18",
+      "matrix_direction": "neutral",
+      "thesis_state": "no_directional_thesis",
+      "evidence_state": "noise_or_no_edge",
+      "composite_score": -18.4,
+      "confluence": 27.6,
+      "conflict_score": 0.0,
+      "entry_date": "2026-08-18",
+      "entry_close": 437.33,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "state_id": "f5f1e5916894c29d",
+      "asset": "300308",
+      "name": "中际旭创",
+      "signal_date": "2026-08-18",
+      "matrix_direction": "neutral",
+      "thesis_state": "no_directional_thesis",
+      "evidence_state": "noise_or_no_edge",
+      "composite_score": -15.2,
+      "confluence": 22.7,
+      "conflict_score": 0.0,
+      "entry_date": "2026-08-18",
+      "entry_close": 988.1,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "state_id": "9aaa5b3af4d5605d",
+      "asset": "002384",
+      "name": "东山精密",
+      "signal_date": "2026-08-18",
+      "matrix_direction": "neutral",
+      "thesis_state": "no_directional_thesis",
+      "evidence_state": "noise_or_no_edge",
+      "composite_score": -12.3,
+      "confluence": 18.5,
+      "conflict_score": 0.0,
+      "entry_date": "2026-08-18",
+      "entry_close": 213.82,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "state_id": "ce2738737d72bfa2",
+      "asset": "600667",
+      "name": "太极实业",
+      "signal_date": "2026-08-18",
+      "matrix_direction": "bullish",
+      "thesis_state": "confirmed",
+      "evidence_state": "multi_layer_confirmed",
+      "composite_score": 39.8,
+      "confluence": 81.9,
+      "conflict_score": 0.0,
+      "entry_date": "2026-08-18",
+      "entry_close": 23.0,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "state_id": "24a8723fc9a33a9e",
+      "asset": "000636",
+      "name": "风华高科",
+      "signal_date": "2026-08-18",
+      "matrix_direction": "bullish",
+      "thesis_state": "supported",
+      "evidence_state": "partial_confirmation",
+      "composite_score": 37.1,
+      "confluence": 65.0,
+      "conflict_score": 14.0,
+      "entry_date": "2026-08-18",
+      "entry_close": 62.34,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "state_id": "0f28140f3cf27e13",
+      "asset": "161226",
+      "name": "国投白银LOF",
+      "signal_date": "2026-08-18",
+      "matrix_direction": "bearish",
+      "thesis_state": "supported",
+      "evidence_state": "partial_confirmation",
+      "composite_score": -22.9,
+      "confluence": 60.7,
+      "conflict_score": 31.3,
+      "entry_date": "2026-08-18",
+      "entry_close": 1.877,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "state_id": "cbe47c28750388f0",
+      "asset": "518880",
+      "name": "黄金ETF华安",
+      "signal_date": "2026-08-18",
+      "matrix_direction": "bullish",
+      "thesis_state": "supported",
+      "evidence_state": "partial_confirmation",
+      "composite_score": 25.0,
+      "confluence": 77.5,
+      "conflict_score": 0.0,
+      "entry_date": "2026-08-18",
+      "entry_close": 9.078,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "state_id": "5227ad4c4b92e97c",
+      "asset": "517380",
+      "name": "创新药沪港深ETF天弘",
+      "signal_date": "2026-08-18",
+      "matrix_direction": "bullish",
+      "thesis_state": "supported",
+      "evidence_state": "partial_confirmation",
+      "composite_score": 44.1,
+      "confluence": 71.6,
+      "conflict_score": 26.9,
+      "entry_date": "2026-08-18",
+      "entry_close": 0.895,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    }
+  ],
+  "by_thesis_state": {
+    "confirmed": {
+      "records": 1,
+      "horizons": {
+        "t1": {
+          "settled": 0,
+          "directional_settled": 0,
+          "win_rate": null,
+          "mean_directional_excess": null,
+          "mean_excess_return": null,
+          "mean_absolute_excess": null,
+          "readout": "insufficient_sample"
+        },
+        "t5": {
+          "settled": 0,
+          "directional_settled": 0,
+          "win_rate": null,
+          "mean_directional_excess": null,
+          "mean_excess_return": null,
+          "mean_absolute_excess": null,
+          "readout": "insufficient_sample"
+        },
+        "t20": {
+          "settled": 0,
+          "directional_settled": 0,
+          "win_rate": null,
+          "mean_directional_excess": null,
+          "mean_excess_return": null,
+          "mean_absolute_excess": null,
+          "readout": "insufficient_sample"
+        }
+      }
+    },
+    "no_directional_thesis": {
+      "records": 4,
+      "horizons": {
+        "t1": {
+          "settled": 0,
+          "directional_settled": 0,
+          "win_rate": null,
+          "mean_directional_excess": null,
+          "mean_excess_return": null,
+          "mean_absolute_excess": null,
+          "readout": "insufficient_sample"
+        },
+        "t5": {
+          "settled": 0,
+          "directional_settled": 0,
+          "win_rate": null,
+          "mean_directional_excess": null,
+          "mean_excess_return": null,
+          "mean_absolute_excess": null,
+          "readout": "insufficient_sample"
+        },
+        "t20": {
+          "settled": 0,
+          "directional_settled": 0,
+          "win_rate": null,
+          "mean_directional_excess": null,
+          "mean_excess_return": null,
+          "mean_absolute_excess": null,
+          "readout": "insufficient_sample"
+        }
+      }
+    },
+    "supported": {
+      "records": 4,
+      "horizons": {
+        "t1": {
+          "settled": 0,
+          "directional_settled": 0,
+          "win_rate": null,
+          "mean_directional_excess": null,
+          "mean_excess_return": null,
+          "mean_absolute_excess": null,
+          "readout": "insufficient_sample"
+        },
+        "t5": {
+          "settled": 0,
+          "directional_settled": 0,
+          "win_rate": null,
+          "mean_directional_excess": null,
+          "mean_excess_return": null,
+          "mean_absolute_excess": null,
+          "readout": "insufficient_sample"
+        },
+        "t20": {
+          "settled": 0,
+          "directional_settled": 0,
+          "win_rate": null,
+          "mean_directional_excess": null,
+          "mean_excess_return": null,
+          "mean_absolute_excess": null,
+          "readout": "insufficient_sample"
+        }
+      }
+    }
   },
-  "boundary": "Historical validation only; not a future probability or automatic trading signal."
+  "by_evidence_state": {
+    "multi_layer_confirmed": {
+      "records": 1,
+      "horizons": {
+        "t1": {
+          "settled": 0,
+          "directional_settled": 0,
+          "win_rate": null,
+          "mean_directional_excess": null,
+          "mean_excess_return": null,
+          "mean_absolute_excess": null,
+          "readout": "insufficient_sample"
+        },
+        "t5": {
+          "settled": 0,
+          "directional_settled": 0,
+          "win_rate": null,
+          "mean_directional_excess": null,
+          "mean_excess_return": null,
+          "mean_absolute_excess": null,
+          "readout": "insufficient_sample"
+        },
+        "t20": {
+          "settled": 0,
+          "directional_settled": 0,
+          "win_rate": null,
+          "mean_directional_excess": null,
+          "mean_excess_return": null,
+          "mean_absolute_excess": null,
+          "readout": "insufficient_sample"
+        }
+      }
+    },
+    "noise_or_no_edge": {
+      "records": 4,
+      "horizons": {
+        "t1": {
+          "settled": 0,
+          "directional_settled": 0,
+          "win_rate": null,
+          "mean_directional_excess": null,
+          "mean_excess_return": null,
+          "mean_absolute_excess": null,
+          "readout": "insufficient_sample"
+        },
+        "t5": {
+          "settled": 0,
+          "directional_settled": 0,
+          "win_rate": null,
+          "mean_directional_excess": null,
+          "mean_excess_return": null,
+          "mean_absolute_excess": null,
+          "readout": "insufficient_sample"
+        },
+        "t20": {
+          "settled": 0,
+          "directional_settled": 0,
+          "win_rate": null,
+          "mean_directional_excess": null,
+          "mean_excess_return": null,
+          "mean_absolute_excess": null,
+          "readout": "insufficient_sample"
+        }
+      }
+    },
+    "partial_confirmation": {
+      "records": 4,
+      "horizons": {
+        "t1": {
+          "settled": 0,
+          "directional_settled": 0,
+          "win_rate": null,
+          "mean_directional_excess": null,
+          "mean_excess_return": null,
+          "mean_absolute_excess": null,
+          "readout": "insufficient_sample"
+        },
+        "t5": {
+          "settled": 0,
+          "directional_settled": 0,
+          "win_rate": null,
+          "mean_directional_excess": null,
+          "mean_excess_return": null,
+          "mean_absolute_excess": null,
+          "readout": "insufficient_sample"
+        },
+        "t20": {
+          "settled": 0,
+          "directional_settled": 0,
+          "win_rate": null,
+          "mean_directional_excess": null,
+          "mean_excess_return": null,
+          "mean_absolute_excess": null,
+          "readout": "insufficient_sample"
+        }
+      }
+    }
+  },
+  "methodology": {
+    "directional": "bullish/bearish matrix_direction uses future benchmark excess return; bearish signs are inverted so positive directional_excess means the matrix direction was correct.",
+    "neutral": "neutral/conflict states receive no synthetic win rate; future absolute excess dispersion is measured instead.",
+    "deduplication": "matrix ledger records one asset/date/semantic-state tuple, avoiding repeated intraday workflow runs as duplicate samples.",
+    "minimum_readout": "win-rate readout remains insufficient_sample until at least 8 directional settled observations exist in a group."
+  },
+  "boundary": "Historical validation only; these statistics are not converted into future probabilities or automatic trading actions."
 }

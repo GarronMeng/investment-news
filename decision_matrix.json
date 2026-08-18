@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-19T00:26:05+08:00",
+  "generated_at": "2026-08-19T00:45:08+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -36,7 +36,7 @@
       "evidence_state": "noise_or_no_edge",
       "thesis_state": "no_directional_thesis",
       "attention_score": 42.1,
-      "research_focus": "当前更接近价格噪声/无明显边际，维持低优先级观察。",
+      "research_focus": "当前缺少足够方向性证据，维持低优先级观察。",
       "layers": {
         "event": {
           "available": true,
@@ -97,7 +97,10 @@
       "invalidation": [
         "三标的重新集体下跌，韩美存储股继续回吐涨幅",
         "新增产能预期提前压制存储价格与产业链毛利"
-      ]
+      ],
+      "positive_direction_mass": 0.0,
+      "negative_direction_mass": 6.0,
+      "conflict_score": 0.0
     },
     "001309": {
       "code": "001309",
@@ -116,7 +119,7 @@
       "evidence_state": "noise_or_no_edge",
       "thesis_state": "no_directional_thesis",
       "attention_score": 42.8,
-      "research_focus": "当前更接近价格噪声/无明显边际，维持低优先级观察。",
+      "research_focus": "当前缺少足够方向性证据，维持低优先级观察。",
       "layers": {
         "event": {
           "available": true,
@@ -177,7 +180,10 @@
       "invalidation": [
         "三标的重新集体下跌，韩美存储股继续回吐涨幅",
         "新增产能预期提前压制存储价格与产业链毛利"
-      ]
+      ],
+      "positive_direction_mass": 0.0,
+      "negative_direction_mass": 14.8,
+      "conflict_score": 0.0
     },
     "300308": {
       "code": "300308",
@@ -196,7 +202,7 @@
       "evidence_state": "noise_or_no_edge",
       "thesis_state": "no_directional_thesis",
       "attention_score": 40.5,
-      "research_focus": "当前更接近价格噪声/无明显边际，维持低优先级观察。",
+      "research_focus": "当前缺少足够方向性证据，维持低优先级观察。",
       "layers": {
         "event": {
           "available": true,
@@ -260,7 +266,10 @@
       "invalidation": [
         "两标的继续弱于行业指数，海外光通信股同步回落",
         "数据中心融资成本上升、项目延期或客户削减资本开支"
-      ]
+      ],
+      "positive_direction_mass": 0.0,
+      "negative_direction_mass": 13.7,
+      "conflict_score": 0.0
     },
     "002384": {
       "code": "002384",
@@ -279,7 +288,7 @@
       "evidence_state": "noise_or_no_edge",
       "thesis_state": "no_directional_thesis",
       "attention_score": 38.2,
-      "research_focus": "当前更接近价格噪声/无明显边际，维持低优先级观察。",
+      "research_focus": "当前缺少足够方向性证据，维持低优先级观察。",
       "layers": {
         "event": {
           "available": true,
@@ -344,7 +353,10 @@
       "invalidation": [
         "两标的继续弱于行业指数，海外光通信股同步回落",
         "数据中心融资成本上升、项目延期或客户削减资本开支"
-      ]
+      ],
+      "positive_direction_mass": 0.0,
+      "negative_direction_mass": 10.1,
+      "conflict_score": 0.0
     },
     "600667": {
       "code": "600667",
@@ -434,7 +446,10 @@
       "invalidation": [
         "三标的重新集体下跌，韩美存储股继续回吐涨幅",
         "新增产能预期提前压制存储价格与产业链毛利"
-      ]
+      ],
+      "positive_direction_mass": 43.4,
+      "negative_direction_mass": 0.0,
+      "conflict_score": 0.0
     },
     "000636": {
       "code": "000636",
@@ -526,7 +541,10 @@
       "invalidation": [
         "价格下跌",
         "库存去化不及预期"
-      ]
+      ],
+      "positive_direction_mass": 32.0,
+      "negative_direction_mass": 2.7,
+      "conflict_score": 14.0
     },
     "161226": {
       "code": "161226",
@@ -611,7 +629,10 @@
       "invalidation": [
         "美元与实际利率继续上行并推动黄金、白银跌破近期支撑",
         "美伊恢复有效谈判、霍尔木兹航运明显恢复且油价快速回落"
-      ]
+      ],
+      "positive_direction_mass": 4.7,
+      "negative_direction_mass": 25.3,
+      "conflict_score": 31.3
     },
     "518880": {
       "code": "518880",
@@ -690,7 +711,10 @@
       "invalidation": [
         "美元与实际利率继续上行并推动黄金、白银跌破近期支撑",
         "美伊恢复有效谈判、霍尔木兹航运明显恢复且油价快速回落"
-      ]
+      ],
+      "positive_direction_mass": 22.5,
+      "negative_direction_mass": 0.0,
+      "conflict_score": 0.0
     },
     "517380": {
       "code": "517380",
@@ -779,7 +803,10 @@
       "invalidation": [
         "交易未能完成、融资缩水或相关临床进展不及预期",
         "创新药板块无法形成扩散，ETF回吐涨幅并转弱"
-      ]
+      ],
+      "positive_direction_mass": 53.9,
+      "negative_direction_mass": 8.4,
+      "conflict_score": 26.9
     }
   },
   "ranking": [
@@ -793,15 +820,7 @@
     "300308",
     "002384"
   ],
-  "state_changes": [
-    {
-      "code": "603986",
-      "name": "兆易创新",
-      "field": "thesis_state",
-      "from": "under_test",
-      "to": "no_directional_thesis"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "weights": {
       "event": 25,
@@ -816,7 +835,8 @@
     "relative_strength": "5日与20日相对沪深300基准强弱，经tanh压缩极值。",
     "industry": "只使用实际出现在行业强弱或资金榜的映射行业；未上榜不按中性处理。",
     "market_context": "A股regime、上涨家数占比和风险温度；贵金属对冲标的明确排除该方向层。",
-    "confluence": "衡量已有方向证据的一致程度；不是预测胜率。"
+    "confluence": "衡量已有方向证据的一致程度；不是预测胜率。",
+    "conflict": "方向层按 固定权重×|score| 形成正负证据质量；只有两侧均达到材料性阈值且较平衡时才标记 conflict，用于区分‘证据互相抵消’与‘单纯无边际’。conflict_score 不是收益概率。"
   },
   "boundary": "仅用于研究优先级、假设验证与冲突识别；不生成买卖、仓位、止损、数量或成本相关指令。"
 }
