@@ -1,6 +1,6 @@
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-18 09:04",
-  "source_generated_at": "2026-08-18 07:48",
+  "generated_at": "2026-08-18 10:04",
+  "source_generated_at": "2026-08-18 09:53",
   "generated_by": "ChatGPT Web",
   "status": "ready",
   "news_titles": {
@@ -930,7 +930,37 @@ window.AI_SIGNALS = {
     "https://news.mit.edu/2026/mit-engineers-connect-bacteria-to-create-living-transistors-0817": "麻省理工工程师连接细菌制造活体晶体管",
     "https://www.sciencenews.org/article/snail-slime-mucus-many-jobs-calcium": "钙元素让蜗牛黏液具备多种功能",
     "https://www.newscientist.com/article/2585005-britains-only-desalination-plant-remains-idle-during-drought": "英国唯一海水淡化厂在干旱期间仍闲置",
-    "https://www.quantamagazine.org/theory-of-fluids-enters-the-21st-century-20260817": "流体理论迈入21世纪"
+    "https://www.quantamagazine.org/theory-of-fluids-enters-the-21st-century-20260817": "流体理论迈入21世纪",
+    "https://www.marktechpost.com/2026/08/17/bytedance-seed-and-tsinghua-air-introduces-cuda-agent-a-large-scale-agentic-rl-system-for-cuda-kernel-generation": "字节跳动Seed与清华AIR推出CUDA Agent：面向CUDA内核生成的大规模智能体强化学习系统",
+    "https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b": "Anthropic年化收入飙升至650亿美元",
+    "https://www.marktechpost.com/2026/08/17/minimax-releases-minimax-music3": "MiniMax发布MiniMax-Music 3：可根据歌词和结构化描述生成完整五分钟歌曲的开放权重音乐模型",
+    "https://www.marktechpost.com/2026/08/17/end-to-end-document-intelligence-pipeline-with-doctr-for-ocr": "使用docTR构建涵盖OCR、版面分析、关键信息抽取、基准测试和可搜索PDF的端到端文档智能流程",
+    "https://www.electronicsweekly.com/blogs/mannerisms/memory-lane/kiev-to-solve-moscows-problems-2026-08": "基辅将解决莫斯科的问题",
+    "https://www.digitimes.com/news/a20260817VL217/launch-mitsubishi-electric-production-expansion-manufacturing.html": "H3火箭发射提速，推动三菱电机迈向卫星并行生产新时代",
+    "https://www.digitimes.com/news/a20260817VL219/spacex-ai-acquisition-gpu-infrastructure.html": "SpaceX完成收购Cursor，打通AI算力、模型与应用闭环",
+    "https://www.digitimes.com/news/a20260817PD224/mediatek-asic-market-share-google-design.html": "联发科扩大ASIC服务，市场份额快速上升",
+    "https://www.digitimes.com/news/a20260817PD217/taiwan-market-toyota-ice-infrastructure.html": "混合动力车型主导台湾汽车市场，车企以新车型加快布局",
+    "https://www.digitimes.com/news/a20260817PD211/ilitek-revenue-smartphone-recovery-industrial-control.html": "奕力OLED与T-Con业务加速，第三季度营收有望逆势增长",
+    "https://www.digitimes.com/news/a20260817PD216/ai-llm-training-cost-data.html": "专栏：为什么模型训练需要知识蒸馏",
+    "https://electrek.co/2026/08/17/tesla-cybercab-launch-least-exciting-vehicle-ever": "特斯拉Cybercab即将发布，但我们仍不理解它的吸引力",
+    "https://cleantechnica.com/2026/08/17/earthjustice-sierra-club-urge-faa-to-keep-ban-on-commercial-supersonic-flight": "Earthjustice与塞拉俱乐部敦促美国联邦航空局维持商业超音速飞行禁令",
+    "https://cleantechnica.com/2026/08/17/qa-what-does-chinas-15th-five-year-plan-for-coal-mean-for-climate-action": "问答：中国煤炭“十五五”规划对气候行动意味着什么？",
+    "https://cleantechnica.com/2026/08/17/oil-majors-double-profits-in-europe-in-latest-quarter": "欧洲石油巨头最近一季度利润翻倍",
+    "https://oilprice.com/Energy/Energy-General/North-Americas-Only-Cesium-Project-Moves-Closer-to-Production.html": "北美唯一铯矿项目向投产更进一步",
+    "https://www.tmtpost.com/8106514.html": "AI模型定价从统一折扣转向差异化Token经济",
+    "https://www.techmeme.com/260817/p37": "知情人士称Situational Awareness急于筹资，曾以八折出售部分价值50亿美元的Anthropic持股，并因此遭到市场围猎",
+    "https://www.repaircafe.org": "维修咖啡馆：修好你的损坏物品",
+    "http://amosdudley.com/weblog/Designing-PPE-for-Hilde": "为小狗Hilde设计个人防护装备",
+    "https://www.techmeme.com/260817/p36": "David Sacks回应Dario Amodei：前沿AI力量过于强大，既不应广泛分发，也不应集中控制",
+    "https://timmarinin.net/2026/bluesky-screenshots": "Bluesky如何在截图上绘制其标志",
+    "https://9to5mac.com/2026/08/17/airpods-with-camera-get-their-clearest-leak-yet": "配备摄像头的AirPods迎来迄今最明确爆料",
+    "https://www.gsmarena.com/hmd_102_4g_pro_specs_leak-news-74209.php": "HMD 102 4G Pro规格曝光",
+    "https://9to5mac.com/2026/08/17/apple-dojs-latest-challenge-in-antitrust-case-fails-at-every-level": "苹果称美国司法部对反垄断案的最新质疑“各方面都站不住脚”",
+    "https://seekingalpha.com/news/4634153-fabrinet-anticipates-1_375b-1_425b-q1-fy2027-revenue-while-outlining-12_5b-14b-capacity-plan": "Fabrinet预计2027财年第一季度收入13.75亿至14.25亿美元，并提出125亿至140亿美元产能规划",
+    "https://wallstreetcn.com/articles/3779653": "美元有基本面支撑吗？",
+    "https://seekingalpha.com/news/4634152-new-era-targets-phase-1-timing-in-4q-2027-while-advancing-757-mw-behind-the-meter-plan": "New Era推进757兆瓦表后供电计划，目标于2027年第四季度启动一期项目",
+    "https://seekingalpha.com/news/4634150-us-energy-secretary-plans-to-seek-more-production-from-refiners-to-hold-down-pump-prices": "美国能源部长计划要求炼油商增产，以抑制汽油零售价",
+    "https://www.cnbc.com/2026/08/18/korean-stock-investors-flee-bruising-home-market-pile-into-us.html": "“简直疯狂”：韩国股票投资者正大举涌入美国市场"
   },
   "overseas_markets": [
     {
@@ -959,11 +989,11 @@ window.AI_SIGNALS = {
       "market": "日股",
       "flag": "🇯🇵",
       "session": "2026-08-18 早盘",
-      "updated_at": "2026-08-18 08:32 北京时间（09:32 JST）",
+      "updated_at": "2026-08-18 10:02 北京时间（11:02 JST）",
       "status": "pending",
-      "status_label": "低开后震荡，缺少同刻第二报价源",
-      "move": "前收69,220.25；开盘68,847.35，跳空-0.54%；09:32 JST报68,980.93，跌0.35%",
-      "driver": "隔夜美股回落与中东风险压制风险偏好；Screen、Lasertec等芯片设备股早盘偏弱。",
+      "status_label": "跌幅扩大至约0.9%，观测时点不同待验证",
+      "move": "前收69,220.25｜开盘68,847.35（跳空-0.54%）｜日经官方11:02 JST报68,599.71（-0.90%）；WSJ/FactSet于09:18 JST报68,732.71（-0.70%）",
+      "driver": "隔夜美股回落与中东风险压制风险偏好；Screen、Lasertec等芯片设备股早盘偏弱。两源交易日期与方向一致，但观测时点不同，不能视为同刻交叉验证。",
       "a_share_links": [
         "半导体设备",
         "被动元件",
@@ -980,20 +1010,21 @@ window.AI_SIGNALS = {
       "market": "韩股",
       "flag": "🇰🇷",
       "session": "2026-08-18 早盘",
-      "updated_at": "2026-08-18 08:30 北京时间（09:30 KST附近）",
+      "updated_at": "2026-08-18 09:18 北京时间（10:18 KST）",
       "status": "pending",
-      "status_label": "休市后高开，单一报价源待复核",
-      "move": "前收6,977.94；开盘7,127.77，跳空+2.15%；WSJ早盘显示约+2.25%",
-      "driver": "8月17日补休后恢复交易，隔夜美股存储板块走强提供正向映射；指数此前已有快速反弹，仍需观察三星电子与SK海力士承接。",
+      "status_label": "高开后延续上涨，独立同刻复核仍不足",
+      "move": "前收6,977.94｜开盘7,127.77（跳空+2.15%）｜WSJ/FactSet 10:18 KST报7,162.11（+2.64%）；韩国媒体09:01 KST报7,112.96（+1.93%）",
+      "driver": "休市后恢复交易，隔夜美股存储板块走强带动三星电子与SK海力士，指数高开后维持强势；现有独立来源观测时点不同，暂不升级为双源确认。",
       "a_share_links": [
         "HBM",
         "DRAM",
         "NAND",
         "封测"
       ],
-      "validation": "补充KRX或第二独立源的同刻报价；观察三星电子、SK海力士能否守住开盘涨幅。",
+      "validation": "补充KRX或第二独立源同刻报价；观察三星电子、SK海力士及KOSPI能否守住开盘涨幅。",
       "sources": [
         "https://www.wsj.com/market-data/quotes/index/KR/SEU",
+        "https://www.mk.co.kr/en/stock/12129894",
         "https://global.krx.co.kr/main/main.jsp"
       ]
     }
@@ -1006,8 +1037,8 @@ window.AI_SIGNALS = {
       "direction": "positive",
       "strength": 4,
       "horizon": "1-4w",
-      "priced_in": "medium",
-      "reason": "8月17日美股大盘下跌，但美光上涨约4.1%、闪迪约8.9%、西部数据约5.4%，费城半导体指数上涨约1.6%；韩国KOSPI休市后今早高开约2.15%。这为8月17日兆易创新、德明利和太极实业同步收强提供新增外围确认，但A股已先行上涨，持续性仍需盘中验证。",
+      "priced_in": "unknown",
+      "reason": "8月17日美股大盘下跌，但美光上涨约4.1%、闪迪约8.9%、西部数据约5.4%，费城半导体指数上涨约1.6%；韩国KOSPI休市后今早高开约2.15%并继续上行。这为8月17日A股存储链同步收强提供新增外围确认，但8月18日A股实时行情文件尚未更新，当前市场传导仍待盘中验证。",
       "assets": [
         "603986",
         "001309",
@@ -1028,14 +1059,14 @@ window.AI_SIGNALS = {
       ]
     },
     {
-      "event": "英伟达为OpenAI俄亥俄数据中心提供超大规模信用支持，AI基础设施需求确定性上升",
+      "event": "OpenAI数据中心融资与Fabrinet业绩共同强化AI光通信需求",
       "industry": "tech",
       "industry_name": "AI数据中心 / 高速光模块 / CPO / 服务器PCB",
       "direction": "positive",
       "strength": 4,
       "horizon": "1-3m",
-      "priced_in": "medium",
-      "reason": "英伟达将向OpenAI租用的俄亥俄数据中心提供最高1050亿美元担保，并向软银旗下SB Energy投资15亿美元；项目规划最高8GW，首期800MW预计2028年上线。事件强化长期算力、网络与服务器基础设施需求，但融资循环、建设进度和电力约束仍是重要风险。",
+      "priced_in": "unknown",
+      "reason": "英伟达将向OpenAI俄亥俄数据中心提供最高1050亿美元担保，并向软银旗下SB Energy投资15亿美元；Fabrinet第四财季收入13.16亿美元、同比增长约44.6%，全年收入增长36%，为海外光通信需求提供业绩确认。事件强化长期算力、网络与服务器基础设施需求，但8月18日A股实时行情尚未取得，融资循环、建设进度、电力约束与高位定价仍是风险。",
       "assets": [
         "300308",
         "002384"
@@ -1050,7 +1081,7 @@ window.AI_SIGNALS = {
       ],
       "urls": [
         "https://www.reuters.com/business/media-telecom/nvidia-invest-15-billion-sb-energy-under-openai-data-center-deal-2026-08-17/",
-        "https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project",
+        "https://investor.fabrinet.com/news-releases/news-release-details/fabrinet-announces-fourth-quarter-and-fiscal-year-2026-financial",
         "https://www.digitimes.com/news/a20260817PD218/copper-data-siph-cpo-photonics.html"
       ]
     },
@@ -1061,8 +1092,8 @@ window.AI_SIGNALS = {
       "direction": "mixed",
       "strength": 5,
       "horizon": "1-5d",
-      "priced_in": "medium",
-      "reason": "美国明确不延长临时安排，伊朗警告若外交失败将转向进攻，霍尔木兹航运量处于低位；布伦特原油升至约126美元，30年期美债收益率创2007年以来新高，现货黄金回到4400美元附近。避险需求支持金银，但高油价和长端利率上行又可能压制贵金属与成长估值；白银LOF还存在独立的净值、溢价和交易限制风险。",
+      "priced_in": "unknown",
+      "reason": "美国明确不延长临时安排，伊朗警告若外交失败将转向进攻，霍尔木兹航运量处于低位；布伦特原油升至约126美元，30年期美债收益率创2007年以来新高，现货黄金回到4400美元附近。新增分析认为境外私人部门与官方储备配置分化可能为美元提供结构性底部支撑，进一步增加金银上方约束；8月18日A股金银基金实时行情尚未取得，白银LOF的净值、溢价和交易限制风险仍需单独核验。",
       "assets": [
         "161226",
         "518880"
@@ -1077,8 +1108,8 @@ window.AI_SIGNALS = {
       ],
       "urls": [
         "https://www.reuters.com/world/middle-east/iran-threatens-go-offensive-strait-hormuz-if-diplomacy-with-us-fails-2026-08-17/",
-        "https://www.cnbc.com/2026/08/17/us-iran-war-trump-hormuz.html",
-        "https://wallstreetcn.com/articles/3779638"
+        "https://wallstreetcn.com/articles/3779638",
+        "https://wallstreetcn.com/articles/3779653"
       ]
     }
   ]
