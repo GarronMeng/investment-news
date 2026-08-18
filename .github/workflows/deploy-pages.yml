@@ -6,12 +6,17 @@ on:
     paths:
       - index.html
       - dashboard-v2.html
+      - dashboard-v3.html
+      - chart.html
       - research.html
       - data.js
       - ai-signals.js
       - sentiment.json
       - market.json
       - market_state.json
+      - market_history.json
+      - valuation.json
+      - risk_score.json
       - watchlist.json
       - features.json
       - technical.json
@@ -51,8 +56,9 @@ jobs:
         run: |
           mkdir public
           cp index.html public/classic.html
-          cp dashboard-v2.html public/index.html
-          cp research.html data.js ai-signals.js sentiment.json market.json market_state.json watchlist.json features.json technical.json decisions.json signal_evaluation.json .nojekyll public/
+          cp dashboard-v2.html public/v2.html
+          cp dashboard-v3.html public/index.html
+          cp chart.html research.html data.js ai-signals.js sentiment.json market.json market_state.json market_history.json valuation.json risk_score.json watchlist.json features.json technical.json decisions.json signal_evaluation.json .nojekyll public/
 
       - name: Enforce AI signal freshness
         run: |
@@ -100,6 +106,27 @@ jobs:
               print("AI signals suppressed:", signals["freshness_error"])
           else:
               print("AI signals freshness verified:", data_generated)
+          PY
+
+      - name: Validate public artifacts
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          required = [
+              "public/index.html", "public/chart.html", "public/research.html",
+              "public/market_state.json", "public/valuation.json", "public/risk_score.json",
+              "public/technical.json", "public/signal_evaluation.json", "public/market_history.json",
+          ]
+          for path in required:
+              assert Path(path).exists(), path
+          risk = json.load(open("public/risk_score.json", encoding="utf-8"))
+          valuation = json.load(open("public/valuation.json", encoding="utf-8"))
+          assert risk.get("version") == 1
+          assert valuation.get("version") == 1
+          assert risk.get("label") in {"low", "balanced", "elevated", "high", "insufficient"}
+          print("public artifacts validated")
           PY
 
       - name: Configure Pages
