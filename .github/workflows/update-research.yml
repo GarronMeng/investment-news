@@ -24,13 +24,18 @@ on:
       - scripts/build_risk_score.py
       - scripts/build_decisions.py
       - scripts/build_decision_matrix.py
+      - scripts/refine_decision_matrix.py
       - scripts/update_signal_ledger.py
       - scripts/evaluate_signals.py
+      - scripts/update_matrix_ledger.py
+      - scripts/evaluate_matrix_states.py
       - tests/test_research_engine.py
       - tests/test_technical.py
       - tests/test_valuation.py
       - tests/test_risk_score.py
       - tests/test_decision_matrix.py
+      - tests/test_matrix_refinement.py
+      - tests/test_matrix_evaluation.py
       - .github/workflows/update-research.yml
 
 permissions:
@@ -68,6 +73,8 @@ jobs:
           python -m unittest tests/test_valuation.py -v
           python -m unittest tests/test_risk_score.py -v
           python -m unittest tests/test_decision_matrix.py -v
+          python -m unittest tests/test_matrix_refinement.py -v
+          python -m unittest tests/test_matrix_evaluation.py -v
 
       - name: Refresh daily history
         run: python scripts/fetch_history.py
@@ -87,14 +94,26 @@ jobs:
       - name: Build research decisions
         run: python scripts/build_decisions.py
 
+      - name: Preserve previous decision matrix
+        run: cp decision_matrix.json /tmp/decision_matrix.prev.json 2>/dev/null || true
+
       - name: Build unified decision matrix
         run: python scripts/build_decision_matrix.py
+
+      - name: Refine evidence conflict semantics
+        run: python scripts/refine_decision_matrix.py --previous /tmp/decision_matrix.prev.json
 
       - name: Update append-only signal ledger
         run: python scripts/update_signal_ledger.py
 
       - name: Evaluate forward outcomes
         run: python scripts/evaluate_signals.py
+
+      - name: Update append-only matrix state ledger
+        run: python scripts/update_matrix_ledger.py
+
+      - name: Evaluate matrix state outcomes
+        run: python scripts/evaluate_matrix_states.py
 
       - name: Validate research outputs
         run: |
@@ -110,6 +129,7 @@ jobs:
           decisions = json.load(open("decisions.json", encoding="utf-8"))
           matrix = json.load(open("decision_matrix.json", encoding="utf-8"))
           evaluation = json.load(open("signal_evaluation.json", encoding="utf-8"))
+          matrix_evaluation = json.load(open("matrix_evaluation.json", encoding="utf-8"))
 
           expected = {str(item["code"]) for item in watch["assets"]}
           assert history.get("version") == 2
@@ -118,6 +138,7 @@ jobs:
           assert valuation.get("version") == 1
           assert risk.get("version") == 1
           assert matrix.get("version") == 1
+          assert matrix_evaluation.get("version") == 1
           assert set(history.get("assets", {})) == expected
           assert set(features.get("assets", {})) == expected
           assert set(technical.get("assets", {})) == expected
@@ -146,11 +167,14 @@ jobs:
               assert 0 <= float(item.get("coverage", 0)) <= 100
               assert 0 <= float(item.get("confluence", 0)) <= 100
               assert 0 <= float(item.get("attention_score", 0)) <= 100
+              assert 0 <= float(item.get("conflict_score", 0)) <= 100
           assert evaluation.get("version") == 1
+          assert isinstance(matrix_evaluation.get("records", 0), int)
           print("validated research engine", usable, "/", len(expected), "fresh histories")
           print("valuation", valuation.get("summary"))
           print("risk", risk.get("score"), risk.get("label"), "coverage", risk.get("coverage"))
           print("decision matrix", matrix.get("summary"))
+          print("matrix evaluation records", matrix_evaluation.get("records"))
           print("technical changes", len(technical.get("state_changes", [])))
           PY
 
@@ -158,8 +182,9 @@ jobs:
         run: |
           git config user.name "investment-news-bot"
           git config user.email "investment-news-bot@users.noreply.github.com"
-          git add market_history.json features.json technical.json valuation.json risk_score.json decisions.json decision_matrix.json signal_evaluation.json
+          git add market_history.json features.json technical.json valuation.json risk_score.json decisions.json decision_matrix.json signal_evaluation.json matrix_evaluation.json
           if [ -d signals ]; then git add signals/*.jsonl 2>/dev/null || true; fi
+          if [ -d matrix_states ]; then git add matrix_states/*.jsonl 2>/dev/null || true; fi
           git diff --cached --quiet && exit 0
           git commit -m "chore: refresh research engine"
           for attempt in 1 2 3; do
