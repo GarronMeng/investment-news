@@ -13,6 +13,7 @@ from fetch_market_state import (
     normalize_ths_industry,
     parse_tencent_indices,
     score_regime,
+    ths_industry_money_to_yuan,
 )
 
 BEIJING = timezone(timedelta(hours=8))
@@ -75,9 +76,10 @@ class MarketStateTests(unittest.TestCase):
     def test_money_parser_and_ths_fallback_are_unit_safe(self):
         self.assertEqual(money_to_yuan("12.5亿"), 1_250_000_000)
         self.assertEqual(money_to_yuan("-3500万"), -35_000_000)
+        self.assertEqual(ths_industry_money_to_yuan(12.5), 1_250_000_000)
         frame = FakeFrame([
-            {"行业": "半导体", "行业-涨跌幅": 2.5, "净额": "12.5亿", "领涨股": "样本A"},
-            {"行业": "煤炭", "行业-涨跌幅": -1.2, "净额": "-3.0亿", "领涨股": "样本B"},
+            {"行业": "半导体", "行业-涨跌幅": 2.5, "净额": 12.5, "领涨股": "样本A"},
+            {"行业": "煤炭", "行业-涨跌幅": -1.2, "净额": -3.0, "领涨股": "样本B"},
         ])
         sectors, flow = normalize_ths_industry(frame)
         self.assertEqual(sectors["leaders"][0]["name"], "半导体")
