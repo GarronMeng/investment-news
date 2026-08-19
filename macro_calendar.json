@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "generated_at": null,
+  "timezone": "Asia/Shanghai",
+  "horizon_days": 10,
+  "events": [],
+  "summary": {"total": 0, "macro": 0, "global_earnings": 0, "high_importance": 0, "macro_days_ok": 0, "report_days_ok": 0},
+  "warnings": ["seed artifact; awaiting first automated refresh"],
+  "methodology": {
+    "macro": "百度股市通全球宏观日历 via AKShare；仅保留主要经济体且重要性>=2的事件。",
+    "global_earnings": "百度股市通财报发行 via AKShare；仅保留global_catalyst_universe.json中的公开研究公司。"
+  },
+  "boundary": "未来事件日期来自公开日历；缺失不推断，研究公司池不代表推荐。"
+}
