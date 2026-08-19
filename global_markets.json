@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "generated_at": null,
+  "timezone": "Asia/Shanghai",
+  "summary": {"total": 0, "fresh": 0, "stale": 0, "unavailable": 0},
+  "assets": [],
+  "warnings": ["seed awaiting first Daily Flash refresh"],
+  "methodology": "Awaiting first automated cross-asset refresh."
+}
