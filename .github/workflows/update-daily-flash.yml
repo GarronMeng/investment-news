@@ -97,8 +97,11 @@ jobs:
         run: |
           python - <<'PY'
           import json
+          from datetime import datetime, timedelta, timezone
           from pathlib import Path
 
+          BEIJING = timezone(timedelta(hours=8))
+          today = datetime.now(BEIJING).date()
           flash = json.load(open("daily_flash.json", encoding="utf-8"))
           global_markets = json.load(open("global_markets.json", encoding="utf-8"))
           catalysts = json.load(open("catalysts.json", encoding="utf-8"))
@@ -123,12 +126,20 @@ jobs:
           assert flash.get("integrity", {}).get("status") == "ok", flash.get("integrity")
           assert 0 <= int(macro.get("summary", {}).get("macro_days_ok", 0)) <= 11
           assert 0 <= int(macro.get("summary", {}).get("report_days_ok", 0)) <= 11
+          noise = ("每日更新", "每日仓单", "上期所每日", "SPDR黄金持仓", "iShares白银持仓", "iShares黄金持仓")
+          for event in macro.get("events", []):
+              assert not any(token in str(event.get("title") or "") for token in noise), f"routine macro noise leaked: {event.get('title')}"
           for theme_row in theme.get("themes", []):
               summary = theme_row.get("summary", {})
               assert int(summary.get("reported", 0)) <= int(summary.get("total", 0))
               for company in theme_row.get("companies", []):
-                  if company.get("status") != "reported":
+                  if company.get("status") == "reported":
+                      announced = company.get("announcement_date")
+                      assert announced and datetime.fromisoformat(announced).date() <= today, f"future report leaked: {company}"
+                  else:
+                      assert company.get("revenue") is None
                       assert company.get("revenue_yoy_pct") is None
+                      assert company.get("net_profit") is None
                       assert company.get("net_profit_yoy_pct") is None
           forbidden = {"quantity", "position_size", "buy", "sell", "cost_basis", "stop_loss"}
           assert not forbidden.intersection(flash), "private/trade fields leaked into Daily Flash"
