@@ -1,10 +1,87 @@
 {
   "version": 1,
-  "generated_at": null,
+  "generated_at": "2026-08-19T22:59:13+08:00",
   "timezone": "Asia/Shanghai",
-  "report_period": null,
-  "events": [],
-  "summary": {"total": 0, "earnings": 0, "manual": 0},
-  "warnings": ["seed awaiting first Daily Flash refresh"],
-  "methodology": "Awaiting first automated catalyst refresh."
+  "report_period": "2026半年报",
+  "events": [
+    {
+      "date": "2026-08-19",
+      "type": "earnings",
+      "title": "兆易创新 2026半年报预约披露",
+      "assets": [
+        "603986"
+      ],
+      "name": "兆易创新",
+      "source": "东方财富 via AKShare",
+      "status": "scheduled",
+      "importance": "high"
+    },
+    {
+      "date": "2026-08-22",
+      "type": "earnings",
+      "title": "东山精密 2026半年报预约披露",
+      "assets": [
+        "002384"
+      ],
+      "name": "东山精密",
+      "source": "东方财富 via AKShare",
+      "status": "scheduled",
+      "importance": "medium"
+    },
+    {
+      "date": "2026-08-24",
+      "type": "earnings",
+      "title": "中际旭创 2026半年报预约披露",
+      "assets": [
+        "300308"
+      ],
+      "name": "中际旭创",
+      "source": "东方财富 via AKShare",
+      "status": "scheduled",
+      "importance": "high"
+    },
+    {
+      "date": "2026-08-27",
+      "type": "earnings",
+      "title": "太极实业 2026半年报预约披露",
+      "assets": [
+        "600667"
+      ],
+      "name": "太极实业",
+      "source": "东方财富 via AKShare",
+      "status": "scheduled",
+      "importance": "medium"
+    },
+    {
+      "date": "2026-08-28",
+      "type": "earnings",
+      "title": "德明利 2026半年报预约披露",
+      "assets": [
+        "001309"
+      ],
+      "name": "德明利",
+      "source": "东方财富 via AKShare",
+      "status": "scheduled",
+      "importance": "high"
+    },
+    {
+      "date": "2026-08-28",
+      "type": "earnings",
+      "title": "风华高科 2026半年报预约披露",
+      "assets": [
+        "000636"
+      ],
+      "name": "风华高科",
+      "source": "东方财富 via AKShare",
+      "status": "scheduled",
+      "importance": "medium"
+    }
+  ],
+  "summary": {
+    "total": 6,
+    "earnings": 6,
+    "manual": 0
+  },
+  "warnings": [],
+  "methodology": "A股财报预约披露来自东方财富/AKShare；其他未来催化来自可审计的手工公共事件覆盖。无数据时不推断具体日期。"
 }
