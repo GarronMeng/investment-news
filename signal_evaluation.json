@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-08-19T15:10:43+08:00",
-  "history_generated_at": "2026-08-19T15:10:32+08:00",
+  "generated_at": "2026-08-19T16:05:30+08:00",
+  "history_generated_at": "2026-08-19T16:05:26+08:00",
   "summary": {
     "t1": {
       "settled": 80,
@@ -3951,6 +3951,126 @@
     {
       "decision_id": "8dc0d63830aa03b5",
       "status": "unavailable"
+    },
+    {
+      "decision_id": "5633fd1ceba5beb1",
+      "asset": "600667",
+      "name": "太极实业",
+      "signal_date": "2026-08-18",
+      "bias": "bullish",
+      "research_status": "market_watch",
+      "conviction": 55,
+      "entry_date": "2026-08-18",
+      "entry_close": 23.0,
+      "mfe_20d": 0.041304,
+      "mae_20d": -0.004348,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "eb70f0c0286b0458",
+      "asset": "000636",
+      "name": "风华高科",
+      "signal_date": "2026-08-18",
+      "bias": "bullish",
+      "research_status": "market_watch",
+      "conviction": 50.0,
+      "entry_date": "2026-08-18",
+      "entry_close": 62.34,
+      "mfe_20d": 0.053096,
+      "mae_20d": -0.005454,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "559647f4a7f9eae8",
+      "asset": "161226",
+      "name": "国投白银LOF",
+      "signal_date": "2026-08-18",
+      "bias": "bearish",
+      "research_status": "market_watch",
+      "conviction": 55,
+      "entry_date": "2026-08-18",
+      "entry_close": 1.877,
+      "mfe_20d": 0.00586,
+      "mae_20d": -0.01545,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "fca092c82827a602",
+      "asset": "518880",
+      "name": "黄金ETF华安",
+      "signal_date": "2026-08-18",
+      "bias": "bullish",
+      "research_status": "market_watch",
+      "conviction": 55,
+      "entry_date": "2026-08-18",
+      "entry_close": 9.078,
+      "mfe_20d": 0.005288,
+      "mae_20d": -0.003415,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "658a8a09d1ef5f8a",
+      "asset": "517380",
+      "name": "创新药沪港深ETF天弘",
+      "signal_date": "2026-08-18",
+      "bias": "bullish",
+      "research_status": "market_watch",
+      "conviction": 55,
+      "entry_date": "2026-08-18",
+      "entry_close": 0.895,
+      "mfe_20d": 0.005587,
+      "mae_20d": -0.01676,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
     }
   ],
   "methodology": "Forward evaluation uses future trading observations; correctness is based on benchmark excess return when benchmark data is available, otherwise raw return. MFE/MAE are directional over up to 20 future observations."

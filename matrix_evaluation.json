@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-08-19T15:10:43+08:00",
-  "history_generated_at": "2026-08-19T15:10:32+08:00",
-  "records": 39,
-  "raw_ledger_records": 48,
+  "generated_at": "2026-08-19T16:05:30+08:00",
+  "history_generated_at": "2026-08-19T16:05:26+08:00",
+  "records": 41,
+  "raw_ledger_records": 50,
   "superseded_records": 9,
   "evaluations": [
     {
@@ -397,6 +397,32 @@
       }
     },
     {
+      "state_id": "a0b9bb02cf4acccb",
+      "state_revision": 2,
+      "asset": "300308",
+      "name": "中际旭创",
+      "signal_date": "2026-08-18",
+      "matrix_direction": "bearish",
+      "thesis_state": "emerging",
+      "evidence_state": "multi_layer_confirmed",
+      "composite_score": -38.4,
+      "confluence": 81.5,
+      "conflict_score": 0.0,
+      "entry_date": "2026-08-18",
+      "entry_close": 988.1,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
       "state_id": "c052547efa09e0f7",
       "state_revision": 2,
       "asset": "517380",
@@ -683,6 +709,32 @@
       }
     },
     {
+      "state_id": "ffec7c10d0c305d2",
+      "state_revision": 2,
+      "asset": "603986",
+      "name": "兆易创新",
+      "signal_date": "2026-08-18",
+      "matrix_direction": "bearish",
+      "thesis_state": "emerging",
+      "evidence_state": "multi_layer_confirmed",
+      "composite_score": -38.3,
+      "confluence": 81.5,
+      "conflict_score": 0.0,
+      "entry_date": "2026-08-18",
+      "entry_close": 436.74,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
       "state_id": "a5b51ba0993c099c",
       "status": "unavailable"
     },
@@ -801,7 +853,7 @@
       }
     },
     "emerging": {
-      "records": 5,
+      "records": 7,
       "horizons": {
         "t1": {
           "settled": 0,
@@ -931,7 +983,7 @@
       }
     },
     "multi_layer_confirmed": {
-      "records": 8,
+      "records": 10,
       "horizons": {
         "t1": {
           "settled": 0,
