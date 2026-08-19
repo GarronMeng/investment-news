@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "boundary": "Public research universe for catalyst monitoring only; inclusion is not a recommendation.",
+  "companies": [
+    {"ticker": "NVDA", "name": "NVIDIA", "themes": ["AI算力", "AI光通信 / CPO"]},
+    {"ticker": "MU", "name": "Micron", "themes": ["存储"]},
+    {"ticker": "MRVL", "name": "Marvell", "themes": ["AI算力", "AI光通信 / CPO"]},
+    {"ticker": "AVGO", "name": "Broadcom", "themes": ["AI算力", "AI光通信 / CPO"]},
+    {"ticker": "AMD", "name": "AMD", "themes": ["AI算力"]},
+    {"ticker": "MSFT", "name": "Microsoft", "themes": ["AI算力"]},
+    {"ticker": "META", "name": "Meta", "themes": ["AI算力"]},
+    {"ticker": "GOOGL", "name": "Alphabet", "themes": ["AI算力"]},
+    {"ticker": "AMZN", "name": "Amazon", "themes": ["AI算力"]},
+    {"ticker": "MRNA", "name": "Moderna", "themes": ["创新药"]},
+    {"ticker": "CRSP", "name": "CRISPR Therapeutics", "themes": ["创新药"]},
+    {"ticker": "00981", "name": "中芯国际", "exchange": "HK", "themes": ["半导体"]},
+    {"ticker": "01347", "name": "华虹半导体", "exchange": "HK", "themes": ["半导体"]}
+  ]
+}
