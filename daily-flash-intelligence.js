@@ -2,7 +2,6 @@
   const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const n=v=>Number.isFinite(Number(v))?Number(v):null;
   const pct=v=>n(v)==null?'—':`${n(v)>0?'+':''}${n(v).toFixed(1)}%`;
-  const money=v=>{const x=n(v);if(x==null)return'—';const a=Math.abs(x);if(a>=1e12)return`${(x/1e12).toFixed(2)}万亿`;if(a>=1e8)return`${(x/1e8).toFixed(1)}亿`;if(a>=1e4)return`${(x/1e4).toFixed(1)}万`;return x.toFixed(0)};
   const tone=v=>n(v)==null?'neutral':n(v)>0?'up':n(v)<0?'down':'neutral';
   const signalLabel={strong_growth:'高增长',positive_growth:'正增长',mixed:'分化',weak_growth:'承压',unknown:'数据不足',not_reported:'待披露'};
   const breadthLabel={positive:'已披露偏强',mixed:'已披露分化',weak:'已披露偏弱',awaiting_reports:'等待披露'};
@@ -11,6 +10,18 @@
   document.head.appendChild(style);
 
   function sectionByTitle(text){return [...document.querySelectorAll('.section')].find(el=>el.querySelector('.section-title')?.textContent.includes(text));}
+  function bjDate(offset=0){const now=new Date(Date.now()+offset*86400000);return new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit'}).format(now);}
+  function addDays(iso,days){const d=new Date(`${iso}T00:00:00+08:00`);d.setUTCDate(d.getUTCDate()+days);return new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit'}).format(d);}
+  function renderBeijingCalendar(rows){
+    const root=document.getElementById('calendar'); if(!root)return;
+    const today=bjDate(), tomorrow=addDays(today,1), d10=addDays(today,10);
+    const groups=[
+      ['今天',r=>r.date===today],
+      ['明天',r=>r.date===tomorrow],
+      ['未来10天',r=>r.date>tomorrow&&r.date<=d10],
+    ];
+    root.innerHTML=groups.map(([title,fn])=>{const items=(rows||[]).filter(fn);return `<div class="calendar-group"><h3>${esc(title)}</h3>${items.length?items.map(r=>`<div class="cal-row"><div class="cal-date">${esc((r.date||'').slice(5,10))}</div><div><b>${esc(r.title||'—')}</b><div class="micro">${esc(r.importance||'—')} · ${esc(r.status||'—')}${(r.assets||[]).length?` · 关联 ${esc(r.assets.join(' / '))}`:''}</div></div></div>`).join(''):'<div class="empty">暂无已接入事件</div>'}</div>`}).join('');
+  }
   function macroSection(events,summary){
     const section=document.createElement('section'); section.className='section';
     const rows=(events||[]).slice(0,16);
@@ -32,6 +43,7 @@
     fetch('macro_calendar.json',{cache:'no-store'}).then(r=>r.json()).catch(()=>({})),
     fetch('theme_earnings.json',{cache:'no-store'}).then(r=>r.json()).catch(()=>({}))
   ]).then(([D,M,T])=>{
+    renderBeijingCalendar(D.catalysts||[]);
     const macroEvents=D.macro_calendar||M.events||[];
     const macroSummary=D.macro_calendar_summary||M.summary||{};
     const themeRows=D.theme_earnings||T.themes||[];
