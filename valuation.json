@@ -1,26 +1,26 @@
 {
   "version": 1,
-  "generated_at": "2026-08-19T16:05:26+08:00",
+  "generated_at": "2026-08-20T07:49:49+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 4,
-    "fresh": 0,
+    "fresh": 4,
     "usable": 4
   },
   "indices": {
     "000300": {
       "code": "000300",
       "name": "沪深300",
-      "as_of": "2026-08-18",
-      "status": "stale",
+      "as_of": "2026-08-19",
+      "status": "fresh",
       "source": "中证指数 via AKShare stock_zh_index_hist_csindex",
-      "confidence": "low",
-      "pe_ttm": 14.57,
-      "pe_1m_ago": 14.0,
-      "pe_3m_ago": 14.6,
-      "percentile_3y": 91.2,
-      "percentile_5y": 92.9,
-      "percentile_10y": 79.2,
+      "confidence": "high",
+      "pe_ttm": 14.29,
+      "pe_1m_ago": 14.29,
+      "pe_3m_ago": 14.42,
+      "percentile_3y": 75.4,
+      "percentile_5y": 82.0,
+      "percentile_10y": 71.3,
       "band": "high",
       "observations_10y": 2428,
       "history_monthly_10y": [
@@ -505,27 +505,26 @@
           "pe_ttm": 14.36
         },
         {
-          "date": "2026-08-18",
-          "pe_ttm": 14.57
+          "date": "2026-08-19",
+          "pe_ttm": 14.29
         }
       ],
       "metric": "滚动市盈率",
-      "drives_risk_score": true,
-      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+      "drives_risk_score": true
     },
     "000905": {
       "code": "000905",
       "name": "中证500",
-      "as_of": "2026-08-18",
-      "status": "stale",
+      "as_of": "2026-08-19",
+      "status": "fresh",
       "source": "中证指数 via AKShare stock_zh_index_hist_csindex",
-      "confidence": "low",
-      "pe_ttm": 28.93,
-      "pe_1m_ago": 26.76,
-      "pe_3m_ago": 29.15,
-      "percentile_3y": 88.9,
-      "percentile_5y": 93.3,
-      "percentile_10y": 84.2,
+      "confidence": "high",
+      "pe_ttm": 27.67,
+      "pe_1m_ago": 26.51,
+      "pe_3m_ago": 28.43,
+      "percentile_3y": 82.7,
+      "percentile_5y": 89.6,
+      "percentile_10y": 80.7,
       "band": "very_high",
       "observations_10y": 2429,
       "history_monthly_10y": [
@@ -1010,27 +1009,26 @@
           "pe_ttm": 26.78
         },
         {
-          "date": "2026-08-18",
-          "pe_ttm": 28.93
+          "date": "2026-08-19",
+          "pe_ttm": 27.67
         }
       ],
       "metric": "滚动市盈率",
-      "drives_risk_score": false,
-      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+      "drives_risk_score": false
     },
     "000852": {
       "code": "000852",
       "name": "中证1000",
-      "as_of": "2026-08-18",
-      "status": "stale",
+      "as_of": "2026-08-19",
+      "status": "fresh",
       "source": "中证指数 via AKShare stock_zh_index_hist_csindex",
-      "confidence": "low",
-      "pe_ttm": 33.53,
-      "pe_1m_ago": 30.41,
-      "pe_3m_ago": 37.92,
-      "percentile_3y": 84.1,
-      "percentile_5y": 90.4,
-      "percentile_10y": 79.1,
+      "confidence": "high",
+      "pe_ttm": 31.8,
+      "pe_1m_ago": 29.54,
+      "pe_3m_ago": 36.63,
+      "percentile_3y": 75.7,
+      "percentile_5y": 85.4,
+      "percentile_10y": 73.5,
       "band": "high",
       "observations_10y": 2429,
       "history_monthly_10y": [
@@ -1515,28 +1513,27 @@
           "pe_ttm": 29.95
         },
         {
-          "date": "2026-08-18",
-          "pe_ttm": 33.53
+          "date": "2026-08-19",
+          "pe_ttm": 31.8
         }
       ],
       "metric": "滚动市盈率",
-      "drives_risk_score": false,
-      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+      "drives_risk_score": false
     },
     "000906": {
       "code": "000906",
       "name": "中证800",
-      "as_of": "2026-08-18",
-      "status": "stale",
+      "as_of": "2026-08-19",
+      "status": "fresh",
       "source": "中证指数 via AKShare stock_zh_index_hist_csindex",
-      "confidence": "low",
-      "pe_ttm": 16.45,
-      "pe_1m_ago": 15.68,
-      "pe_3m_ago": 16.63,
-      "percentile_3y": 91.2,
-      "percentile_5y": 94.7,
-      "percentile_10y": 81.2,
-      "band": "very_high",
+      "confidence": "high",
+      "pe_ttm": 16.05,
+      "pe_1m_ago": 15.89,
+      "pe_3m_ago": 16.38,
+      "percentile_3y": 79.0,
+      "percentile_5y": 87.4,
+      "percentile_10y": 71.4,
+      "band": "high",
       "observations_10y": 2429,
       "history_monthly_10y": [
         {
@@ -2020,21 +2017,15 @@
           "pe_ttm": 15.98
         },
         {
-          "date": "2026-08-18",
-          "pe_ttm": 16.45
+          "date": "2026-08-19",
+          "pe_ttm": 16.05
         }
       ],
       "metric": "滚动市盈率",
-      "drives_risk_score": false,
-      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+      "drives_risk_score": false
     }
   },
-  "warnings": [
-    "000300 沪深300: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
-    "000905 中证500: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
-    "000852 中证1000: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
-    "000906 中证800: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
-  ],
+  "warnings": [],
   "methodology": {
     "metric": "中证指数官方历史行情中的滚动市盈率",
     "percentile": "仅在同一滚动PE序列内计算3/5/10年历史分位；不以价格分位替代估值分位。",
