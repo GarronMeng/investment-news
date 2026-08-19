@@ -1,6 +1,6 @@
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-19 11:33",
-  "source_generated_at": "2026-08-19 09:54",
+  "generated_at": "2026-08-19 13:27",
+  "source_generated_at": "2026-08-19 12:22",
   "generated_by": "ChatGPT Web",
   "status": "ready",
   "news_titles": {
@@ -1171,7 +1171,55 @@ window.AI_SIGNALS = {
     "https://seekingalpha.com/news/4634596-iqiyi-outlines-ai-led-decentralization-as-q2-non-gaap-operating-loss-narrows-to-rmb-30_3m": "爱奇艺阐述AI驱动的去中心化策略，二季度非GAAP经营亏损收窄至3030万元",
     "https://seekingalpha.com/news/4634595-keysight-expects-q4-revenue-1_93b-1_95b-as-it-raises-fy-2026-outlook": "是德科技上调2026财年展望，预计第四季度营收19.3亿至19.5亿美元",
     "https://seekingalpha.com/news/4634592-bp-joins-venezuelan-oil-trade-to-challenge-trafigura-vitol-bloomberg": "彭博：英国石油加入委内瑞拉石油贸易，与托克和维多竞争",
-    "https://seekingalpha.com/news/4634593-iridex-reaffirms-2026-revenue-guidance-of-51m-53m-while-highlighting-working-capital-build": "Iridex重申2026年营收5100万至5300万美元指引，并指出总部搬迁带来营运资金增加"
+    "https://seekingalpha.com/news/4634593-iridex-reaffirms-2026-revenue-guidance-of-51m-53m-while-highlighting-working-capital-build": "Iridex重申2026年营收5100万至5300万美元指引，并指出总部搬迁带来营运资金增加",
+    "https://arxiv.org/abs/2608.16890": "GxP-Agent：采用流程有向无环图拓扑，让大语言模型智能体更可靠地完成临床试验编程",
+    "https://arxiv.org/abs/2608.16891": "智能体AI的运行时治理：以可信溯源和故障关闭执行控制行动边界",
+    "https://arxiv.org/abs/2608.16956": "思考的代价：将推理强度视为特定模型的API契约",
+    "https://arxiv.org/abs/2608.16971": "FedPref：用于结构化放射学报告抽取的联邦偏好学习",
+    "https://arxiv.org/abs/2608.16977": "问题本身才是问题：迈向可扩展的数学发现",
+    "https://arxiv.org/abs/2608.17007": "SkillEffect：为内存受限的智能体工具进行经检查的降级转换",
+    "https://www.digitimes.com/news/a20260819PD216/eu-recycling-materials-market-manufacturing.html": "欧盟收紧再生材料含量规定，材料可追溯性成为电池市场新壁垒",
+    "https://www.digitimes.com/news/a20260819PD200/nstc-aoi-cpo-revenue-growth.html": "半导体AOI与CPO推动增长，NSTC无人车业务收入占比突破40%",
+    "https://www.digitimes.com/news/a20260819VL203/baidu-ai-business-growth-demand-revenue.html": "百度AI业务推动增长，Robotaxi扩张加速",
+    "https://www.digitimes.com/news/a20260819VL204/google-production-2027-asia-nikkei.html": "日经亚洲称谷歌计划2027年将全部Pixel生产迁出中国",
+    "https://www.digitimes.com/news/a20260819PD215/tsinghua-unigroup-dongguan-expansion-investment-bankruptcy.html": "评论：清华紫光撇清与东莞150亿美元失败芯片云项目的关系",
+    "https://www.digitimes.com/news/a20260819PD203/alphabet-meta-amazon-microsoft-nvidia.html": "科技巨头表外AI承诺规模达到3万亿美元",
+    "https://www.electronicsweekly.com/blogs/mannerisms/democracy-and-standards/whos-sending-most-support-to-ukraine-2026-08": "哪些国家向乌克兰提供了最多支持",
+    "https://www.electronicsweekly.com/blogs/mannerisms/ten-best/top-ten-smartphone-vendors-in-q2-2026-08": "第二季度全球十大智能手机厂商",
+    "https://cnevpost.com/2026/08/19/vw-anhui-rolls-out-100000th-ev": "大众安徽投产逾两年后，第10万辆电动车下线",
+    "https://cnevpost.com/2026/08/19/freelander-8-briefly-used-nio-es8-body-structure-image": "神行者8网站曾短暂使用蔚来ES8车身结构图片，随后更换",
+    "https://www.pv-magazine.com/2026/08/19/indias-model-solar-villages": "印度的示范太阳能村",
+    "https://www.energy-storage.news/catls-robin-zeng-says-non-zero-carbon-batteries-will-be-left-behind-by-the-times": "宁德时代曾毓群称非零碳电池将被时代淘汰",
+    "https://cleantechnica.com/2026/08/18/solar-power-passes-3-terawatt-marker": "全球太阳能装机容量突破3太瓦",
+    "https://cleantechnica.com/2026/08/18/pony-ai-plans-to-deploy-1000-autonomous-heavy-trucks": "小马智行计划部署1000辆自动驾驶重卡",
+    "https://www.pv-tech.org/unsw-team-reaches-12-4-efficiency-for-czts-solar-cells-by-preventing-copper-drift-during-manufacturing": "新南威尔士大学团队通过防止制造过程中的铜漂移，将CZTS太阳能电池效率提升至12.4%",
+    "https://www.energy-storage.news/etapro-deploys-digital-twin-and-predictive-analytics-at-mga-thermals-5mwh-tomago-plant-in-australia": "EtaPRO在澳大利亚MGA Thermal的Tomago 5MWh工厂部署数字孪生与预测分析",
+    "https://cleantechnica.com/2026/08/18/sierra-club-statement-on-usda-announcement-to-remove-roadless-rule-protections": "塞拉俱乐部就美国农业部宣布取消无道路地区规则保护发表声明",
+    "https://cleantechnica.com/2026/08/18/dukes-new-energy-plan-for-data-centers-requires-consumer-protections-now": "杜克能源面向数据中心的新计划现在就需要消费者保护措施",
+    "https://www.nasaspaceflight.com/2026/08/zhuque-3-second-flight-successful-landing": "朱雀三号完成第二次飞行并成功实现一级着陆",
+    "https://spacenews.com/space-nuclear-programs-face-near-and-long-term-challenges": "太空核能项目面临近期与长期挑战",
+    "https://www.techmeme.com/260819/p1": "开发美军AI决策工具的奥斯汀公司Smack Technologies完成6100万美元B轮融资",
+    "https://www.techmeme.com/260818/p46": "OpenAI称模型训练调整将使计算开销增加至已观测推理负载的20%，且不会转嫁给客户",
+    "https://www.techmeme.com/260818/p45": "消息称北京近期允许字节跳动和腾讯各自在中国大陆接收约1万颗英伟达H200芯片",
+    "https://terrytao.wordpress.com/2026/08/18/palomar-a-registry-of-lean-verified-mathematics": "Palomar：经Lean验证的数学成果注册库",
+    "https://www.techmeme.com/260818/p44": "中国人形机器人厂商宇树科技上海上市首日早盘股价飙升629%，此前IPO募资约9.04亿美元",
+    "https://www.economist.com/business/2026/08/18/metas-blockbuster-trial-draws-parallels-to-big-tobacco": "Meta重磅诉讼案令人联想到大型烟草公司的往事",
+    "https://www.techmeme.com/260818/p43": "消息称开源编排平台开发商Temporal正洽谈新一轮融资，拟融资约5亿美元、估值逾120亿美元",
+    "https://openlogi.org/en": "OpenLogi",
+    "https://www.androidauthority.com/googlebook-launch-date-3700141": "谷歌将于9月15日正式发布Googlebook",
+    "https://www.gsmarena.com/iphone_18_pros_chipset_tipped_to_be_18_percent_faster_than_predecessor-news-74217.php": "消息称iPhone 18 Pro芯片性能较前代提升18%",
+    "https://www.gsmarena.com/spotify_expands_user_notes_adds_playlist_notes_to_its_top_editorcurated_playlists-news-74228.php": "Spotify扩展用户笔记功能，并为重点编辑精选歌单加入歌单笔记",
+    "http://finance.eastmoney.com/news/11139,202608193845948224.html": "“运费集体冲高”！航运价格或进一步上行（附股）",
+    "http://stock.eastmoney.com/news/11770,202608193845947636.html": "8月19日港股午盘：恒指涨0.24%，香港中华煤气领涨成份股",
+    "https://seekingalpha.com/news/4634659-trump-agrees-to-pause-50-canada-tariffs-says-keystone-xl-may-be-awoken": "特朗普同意暂停对加拿大征收50%关税，并称Keystone XL输油管线“或将重启”",
+    "https://seekingalpha.com/news/4634658-evolve-future-leadership-fund-etf-hedged-declares-cad-0_21-dividend": "Evolve未来领导力基金对冲ETF宣布派发0.21加元股息",
+    "https://seekingalpha.com/news/4634657-evolve-active-core-fixed-income-fund-unhedged-etf-declares-cad-0_055-dividend": "Evolve主动核心固定收益基金非对冲ETF宣布派发0.055加元股息",
+    "https://seekingalpha.com/news/4634656-evolve-fangma-index-etf-unhedged-etf-units-declares-cad-0_0016-dividend": "Evolve FANGMA指数基金非对冲ETF份额宣布派发0.0016加元股息",
+    "https://seekingalpha.com/news/4634655-evolve-automobile-innovation-index-etf-declares-cad-0_25-dividend": "Evolve汽车创新指数ETF宣布派发0.25加元股息",
+    "https://seekingalpha.com/news/4634654-evolve-cyber-security-index-etf-unhedged-usd-declares-0_01-dividend": "Evolve网络安全指数ETF非对冲美元份额宣布派发0.01美元股息",
+    "https://www.ft.com/content/9ea0cde8-129e-4d88-976f-e367b7dd4d2c": "知情人士称，若特朗普升级战争，伊朗考虑打击欧洲军事目标",
+    "https://www.ft.com/content/59ed10fc-0e58-454c-9f93-d4d258ccfd9c": "美国品牌正在失去魅力",
+    "https://news.mit.edu/2026/cell-preservation-technique-could-make-car-t-cell-therapy-more-accessible-0819": "细胞保存技术有望提高CAR-T细胞疗法的可及性"
   },
   "overseas_markets": [
     {
@@ -1198,19 +1246,19 @@ window.AI_SIGNALS = {
     {
       "market": "日股",
       "flag": "🇯🇵",
-      "session": "2026-08-19 午间收盘",
-      "updated_at": "2026-08-19 11:30 北京时间（12:30 JST）",
-      "status": "pending",
-      "status_label": "午间收跌2.57%，第二来源非同刻",
-      "move": "前收67,460.73｜开盘66,812.27（跳空-0.96%）｜午间官方收65,724.25（-2.57%）；另一报价页面约65,862（-2.37%），观测时点不同",
-      "driver": "隔夜美股芯片抛售与全球长端收益率上行压制电子、半导体设备和光通信权重。",
+      "session": "2026-08-19 午后",
+      "updated_at": "2026-08-19 13:14 北京时间（14:14 JST）",
+      "status": "negative",
+      "status_label": "午后跌幅扩大至3.18%",
+      "move": "前收67,460.73｜开盘66,812.27（跳空-0.96%）｜官方报65,312.18（-3.18%），日内低点65,133.98",
+      "driver": "隔夜美股芯片抛售与全球长端收益率上行持续压制电子、半导体设备和光通信权重。",
       "a_share_links": [
         "半导体设备",
         "光通信",
         "被动元件",
         "消费电子"
       ],
-      "validation": "以明确时间戳的第二独立报价源复核午间值，并观察午后能否收复开盘位及A股电子链是否出现独立承接。",
+      "validation": "观察尾盘能否收复65,724午间收盘位，以及A股电子链能否显著缩窄跌幅；未修复前视为海外负反馈仍在强化。",
       "sources": [
         "https://indexes.nikkei.co.jp/en/nkave/index/profile?cid=1&idx=nk225",
         "https://www.investing.com/indices/japan-ni225"
@@ -1219,19 +1267,19 @@ window.AI_SIGNALS = {
     {
       "market": "韩股",
       "flag": "🇰🇷",
-      "session": "2026-08-19 早盘",
-      "updated_at": "2026-08-19 11:33 北京时间核验",
+      "session": "2026-08-19 午后",
+      "updated_at": "2026-08-19 13:20 北京时间核验",
       "status": "pending",
-      "status_label": "跌幅扩大至约5.3%，待同刻双源验证",
-      "move": "前收6,869.83｜开盘6,528.77（跳空-4.96%）｜报价约6,504.06（-5.32%），日内区间6,400.81–6,614.39；三星电子约-7.3%、SK海力士约-8.3%",
-      "driver": "费城半导体指数重挫后，存储与高预期科技权重继续遭遇集中兑现。",
+      "status_label": "跌幅约5.5%，单页报价存在轻微时点差",
+      "move": "前收6,869.83｜开盘6,528.77（跳空-4.96%）｜页面主报价6,492.51（-5.49%），同页说明值6,479.80，日内区间6,400.81–6,614.39",
+      "driver": "全球半导体估值与盈利预期遭集中兑现，存储和高预期科技权重承压。",
       "a_share_links": [
         "HBM",
         "DRAM/NAND",
         "企业级SSD",
         "封测"
       ],
-      "validation": "以KRX或第二独立报价源复核同刻跌幅；观察三星电子、SK海力士能否止跌及A股存储链相对强弱。",
+      "validation": "待KRX或第二独立报价源复核同刻数值；观察KOSPI能否收复开盘位及A股存储链相对强弱。",
       "sources": [
         "https://www.investing.com/indices/kospi",
         "https://www.wsj.com/market-data/quotes/index/KR/SEU/historical-prices"
@@ -1240,14 +1288,14 @@ window.AI_SIGNALS = {
   ],
   "signals": [
     {
-      "event": "全球AI与芯片交易跨市场回撤，A股科技链出现广度与资金双重确认",
+      "event": "全球AI与芯片交易跨市场回撤，A股科技链的广度、跌幅和资金流同步恶化",
       "industry": "tech",
       "industry_name": "AI数据中心 / CPO / 存储 / 服务器PCB",
       "direction": "negative",
       "strength": 5,
       "horizon": "1-5d",
       "priced_in": "medium",
-      "reason": "隔夜费城半导体指数约跌4.98%，日经午间官方跌2.57%，KOSPI报价约跌5.32%；A股10:44进入Risk-off，上涨家数占比仅10.46%，半导体、通信设备、元件分别约跌5.38%、4.91%、5.38%，行业净流出约186.3亿、88.4亿、65.5亿元。低置信度个股备用行情亦显示五只科技观察标的集体下跌，跨市场负反馈已获板块层确认。",
+      "reason": "隔夜费城半导体指数约跌4.98%，日经午后官方跌3.18%，KOSPI报价约跌5.49%；A股12:04仍处Risk-off（评分-92.8），上涨家数占比仅10.44%，跌停171家。半导体、元件、通信设备、消费电子分别跌6.42%、6.33%、5.75%、5.04%，对应净流出约245.4亿、82.2亿、114.2亿、67.5亿元，海外负反馈已获板块与资金双重确认。",
       "assets": [
         "603986",
         "001309",
@@ -1256,7 +1304,7 @@ window.AI_SIGNALS = {
         "600667"
       ],
       "validation": [
-        "午后半导体、通信设备和元件能否至少两类收复早盘跌幅的一半并缩减净流出",
+        "午后半导体、通信设备和元件至少两类显著缩窄跌幅并减少净流出",
         "五只观察标的中至少三只相对各自行业指数转强且收复开盘位"
       ],
       "invalidation": [
@@ -1277,13 +1325,13 @@ window.AI_SIGNALS = {
       "strength": 3,
       "horizon": "1-3m",
       "priced_in": "unknown",
-      "reason": "Marvell围绕SSD、CXL和光子互连推出内存解耦产品组合，强化AI数据移动与企业级存储的中期需求逻辑；但今日半导体和消费电子板块分别约跌5.38%和4.33%，德明利低置信度备用报价约跌8.47%，产业利好尚未得到价格确认。",
+      "reason": "Marvell围绕SSD、CXL和光子互连推出内存解耦产品组合，强化AI数据移动与企业级存储的中期需求逻辑；但12:04半导体板块跌6.42%、消费电子跌5.04%，产业利好尚未得到价格与板块确认。",
       "assets": [
         "001309"
       ],
       "validation": [
         "后续出现云厂商或服务器客户的CXL、企业级SSD采购与量产时间表",
-        "德明利相对存储板块止跌转强且成交量确认"
+        "相关观察标的相对存储板块止跌转强且成交量确认"
       ],
       "invalidation": [
         "产品停留在方案展示，未形成客户导入或收入贡献",
@@ -1294,21 +1342,21 @@ window.AI_SIGNALS = {
       ]
     },
     {
-      "event": "油价与长端收益率压制贵金属，但A股黄金股出现防御性资金流入",
+      "event": "油价与长端收益率继续压制金银，A股贵金属仅剩资金流防御",
       "industry": "macro",
       "industry_name": "原油 / 黄金 / 白银 / 实际利率",
       "direction": "mixed",
       "strength": 4,
       "horizon": "1-5d",
       "priced_in": "medium",
-      "reason": "黄金ETF华安10:43报8.999、跌0.87%，国投白银LOF低置信度备用报价约跌1.76%，与海外贵金属承压一致；但A股贵金属板块约涨1.37%、净流入约11.8亿元，避险资金更多流向黄金股，ETF与权益板块出现分化。",
+      "reason": "黄金ETF华安12:03报8.997、跌0.89%，仍未有效站稳9.00；A股贵金属板块由早盘上涨转为跌0.63%，但仍录得约9.3亿元净流入。价格确认减弱而资金防御尚在，ETF与黄金股均需进一步验证。",
       "assets": [
         "161226",
         "518880"
       ],
       "validation": [
-        "黄金ETF能否在8.95–9.00区域止跌并重新站稳9.00，同时外盘黄金与人民币计价金价同步企稳",
-        "白银LOF最新净值、场内价格、溢价率及交易限制是否同步改善"
+        "黄金ETF在8.95–9.00区域止跌并持续站稳9.00，同时外盘黄金与人民币计价金价企稳",
+        "白银LOF最新净值、场内价格、溢价率及交易限制同步改善"
       ],
       "invalidation": [
         "黄金ETF继续下探且贵金属板块转为净流出",
