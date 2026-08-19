@@ -17,6 +17,7 @@ on:
       - scripts/fetch_global_markets.py
       - scripts/fetch_catalysts.py
       - scripts/build_daily_flash.py
+      - scripts/finalize_daily_flash.py
       - tests/test_daily_flash.py
       - .github/workflows/update-daily-flash.yml
 
@@ -60,6 +61,9 @@ jobs:
       - name: Build Daily Flash
         run: python scripts/build_daily_flash.py
 
+      - name: Finalize Daily Flash integrity
+        run: python scripts/finalize_daily_flash.py
+
       - name: Validate Daily Flash
         run: |
           python - <<'PY'
@@ -78,10 +82,11 @@ jobs:
           assert isinstance(flash.get("catalysts"), list)
           assert isinstance(flash.get("dimensions"), list)
           assert isinstance(flash.get("themes"), list)
+          assert flash.get("integrity", {}).get("status") == "ok", flash.get("integrity")
           forbidden = {"quantity", "position_size", "buy", "sell", "cost_basis", "stop_loss"}
           assert not forbidden.intersection(flash), "private/trade fields leaked into Daily Flash"
           assert Path("dashboard-v5.html").exists()
-          print("daily flash validated", flash.get("generated_at"), "global", global_markets.get("summary"), "catalysts", catalysts.get("summary"))
+          print("daily flash validated", flash.get("generated_at"), "global", global_markets.get("summary"), "catalysts", catalysts.get("summary"), flash.get("integrity"))
           PY
 
       - name: Commit Daily Flash artifacts
