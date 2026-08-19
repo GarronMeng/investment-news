@@ -2,8 +2,9 @@
 """Track earnings breadth for representative A-share companies by investment theme.
 
 The tracker fetches one Eastmoney earnings-report table and one appointment table
-per report period, then filters a public research universe. It reports revenue
-and net-profit growth when actually disclosed; undisclosed results stay pending
+per report period, then filters a public research universe. Financial fields are
+exposed only when the source announcement date is not in the future, preventing
+look-ahead leakage from preloaded report tables. Undisclosed results stay pending
 or scheduled rather than being inferred.
 """
 
@@ -66,16 +67,6 @@ def latest_appointment(row):
     return None
 
 
-def universe_codes(universe):
-    output = {}
-    for theme in universe.get("themes", []):
-        for company in theme.get("companies", []):
-            code = str(company.get("code") or "").zfill(6)
-            if code:
-                output[code] = company.get("name") or code
-    return output
-
-
 def frame_by_code(frame, code_keys=("股票代码", "代码")):
     output = {}
     if frame is None or getattr(frame, "empty", True):
@@ -124,29 +115,7 @@ def earnings_signal(revenue_yoy, profit_yoy):
     return "mixed"
 
 
-def normalize_report(code, configured_name, row, appointment):
-    if row:
-        revenue = finite(row.get("营业总收入-营业总收入"))
-        revenue_yoy = finite(row.get("营业总收入-同比增长"))
-        profit = finite(row.get("净利润-净利润"))
-        profit_yoy = finite(row.get("净利润-同比增长"))
-        gross_margin = finite(row.get("销售毛利率"))
-        announcement = normalize_date(row.get("最新公告日期"))
-        return {
-            "code": code,
-            "name": str(row.get("股票简称") or configured_name),
-            "status": "reported",
-            "announcement_date": announcement,
-            "scheduled_date": appointment,
-            "revenue": revenue,
-            "revenue_yoy_pct": revenue_yoy,
-            "net_profit": profit,
-            "net_profit_yoy_pct": profit_yoy,
-            "gross_margin_pct": gross_margin,
-            "earnings_signal": earnings_signal(revenue_yoy, profit_yoy),
-            "industry": row.get("所处行业"),
-            "source": "东方财富 via AKShare",
-        }
+def pending_report(code, configured_name, appointment, source="东方财富 via AKShare", reason=None):
     return {
         "code": code,
         "name": configured_name,
@@ -160,7 +129,40 @@ def normalize_report(code, configured_name, row, appointment):
         "gross_margin_pct": None,
         "earnings_signal": "not_reported",
         "industry": None,
-        "source": "东方财富 via AKShare" if appointment else "awaiting public report",
+        "source": source if appointment else "awaiting public report",
+        "reason": reason,
+    }
+
+
+def normalize_report(code, configured_name, row, appointment, today=None):
+    today = today or datetime.now(BEIJING).date()
+    if not row:
+        return pending_report(code, configured_name, appointment)
+    announcement = normalize_date(row.get("最新公告日期"))
+    if not announcement:
+        return pending_report(code, configured_name, appointment, reason="report row present but announcement date missing; financial fields withheld")
+    if date.fromisoformat(announcement) > today:
+        return pending_report(code, configured_name, appointment or announcement, reason="future-dated report row withheld to prevent look-ahead")
+    revenue = finite(row.get("营业总收入-营业总收入"))
+    revenue_yoy = finite(row.get("营业总收入-同比增长"))
+    profit = finite(row.get("净利润-净利润"))
+    profit_yoy = finite(row.get("净利润-同比增长"))
+    gross_margin = finite(row.get("销售毛利率"))
+    return {
+        "code": code,
+        "name": str(row.get("股票简称") or configured_name),
+        "status": "reported",
+        "announcement_date": announcement,
+        "scheduled_date": appointment,
+        "revenue": revenue,
+        "revenue_yoy_pct": revenue_yoy,
+        "net_profit": profit,
+        "net_profit_yoy_pct": profit_yoy,
+        "gross_margin_pct": gross_margin,
+        "earnings_signal": earnings_signal(revenue_yoy, profit_yoy),
+        "industry": row.get("所处行业"),
+        "source": "东方财富 via AKShare",
+        "reason": None,
     }
 
 
@@ -223,7 +225,7 @@ def build(previous=None, today=None, fetcher=fetch_tables):
         companies = []
         for company in config.get("companies", []):
             code = str(company.get("code") or "").zfill(6)
-            companies.append(normalize_report(code, company.get("name") or code, earnings.get(code), appointments.get(code)))
+            companies.append(normalize_report(code, company.get("name") or code, earnings.get(code), appointments.get(code), today=today))
         themes.append({
             "theme": config.get("theme"),
             "summary": theme_summary(companies),
@@ -245,11 +247,11 @@ def build(previous=None, today=None, fetcher=fetch_tables):
         },
         "warnings": warnings,
         "methodology": {
-            "reported": "东方财富业绩报表 stock_yjbb_em via AKShare；收入、净利润、同比增速和毛利率均使用已披露字段。",
-            "schedule": "东方财富预约披露 stock_yysj_em via AKShare；未披露公司只显示scheduled/pending。",
+            "reported": "东方财富业绩报表 stock_yjbb_em via AKShare；只有最新公告日期<=当前北京时间日期的报告行才暴露财务字段。",
+            "schedule": "东方财富预约披露 stock_yysj_em via AKShare；未来日期或未披露公司只显示scheduled/pending，防止前视偏差。",
             "breadth": "主题breadth只描述已披露样本的增长分布；样本未齐时不外推为全行业结论。",
         },
-        "boundary": "主题公司池是公开研究样本，不代表推荐、持仓或收益预测。",
+        "boundary": "主题公司池是公开研究样本，不代表推荐、持仓或收益预测；未来公告行不泄露财务字段。",
     }
 
 
