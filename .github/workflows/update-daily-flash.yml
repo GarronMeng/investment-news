@@ -14,14 +14,21 @@ on:
     branches: [main]
     paths:
       - catalysts_manual.json
+      - global_catalyst_universe.json
+      - theme_earnings_universe.json
       - scripts/fetch_global_markets.py
       - scripts/fetch_catalysts.py
       - scripts/fetch_market_extras.py
+      - scripts/fetch_macro_calendar.py
+      - scripts/fetch_theme_earnings.py
       - scripts/build_daily_flash.py
       - scripts/augment_daily_flash_extras.py
+      - scripts/augment_daily_flash_intelligence.py
       - scripts/finalize_daily_flash.py
       - tests/test_daily_flash.py
       - tests/test_market_extras.py
+      - tests/test_macro_calendar.py
+      - tests/test_theme_earnings.py
       - .github/workflows/update-daily-flash.yml
 
 permissions:
@@ -35,7 +42,7 @@ jobs:
   update:
     if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
     steps:
       - name: Checkout main
         uses: actions/checkout@v4
@@ -56,6 +63,8 @@ jobs:
         run: |
           python -m unittest tests/test_daily_flash.py -v
           python -m unittest tests/test_market_extras.py -v
+          python -m unittest tests/test_macro_calendar.py -v
+          python -m unittest tests/test_theme_earnings.py -v
 
       - name: Refresh cross-asset markets
         run: python scripts/fetch_global_markets.py
@@ -63,8 +72,14 @@ jobs:
       - name: Refresh market extras
         run: python scripts/fetch_market_extras.py
 
-      - name: Refresh catalyst calendar
+      - name: Refresh A-share catalyst calendar
         run: python scripts/fetch_catalysts.py
+
+      - name: Refresh macro and global catalyst calendar
+        run: python scripts/fetch_macro_calendar.py
+
+      - name: Refresh theme earnings breadth
+        run: python scripts/fetch_theme_earnings.py
 
       - name: Build Daily Flash
         run: python scripts/build_daily_flash.py
@@ -74,6 +89,9 @@ jobs:
 
       - name: Finalize Daily Flash integrity
         run: python scripts/finalize_daily_flash.py
+
+      - name: Attach macro and theme intelligence
+        run: python scripts/augment_daily_flash_intelligence.py
 
       - name: Validate Daily Flash
         run: |
@@ -85,30 +103,46 @@ jobs:
           global_markets = json.load(open("global_markets.json", encoding="utf-8"))
           catalysts = json.load(open("catalysts.json", encoding="utf-8"))
           extras = json.load(open("market_extras.json", encoding="utf-8"))
+          macro = json.load(open("macro_calendar.json", encoding="utf-8"))
+          theme = json.load(open("theme_earnings.json", encoding="utf-8"))
           assert flash.get("version") == 1
           assert global_markets.get("version") == 1
           assert catalysts.get("version") == 1
           assert extras.get("version") == 1
-          for key in ("core_conclusion", "market", "sector_rotation", "global_markets", "key_events", "catalysts", "dimensions", "themes", "outlook", "matrix_focus"):
+          assert macro.get("version") == 1
+          assert theme.get("version") == 1
+          for key in ("core_conclusion", "market", "sector_rotation", "global_markets", "key_events", "catalysts", "dimensions", "themes", "outlook", "matrix_focus", "macro_calendar", "theme_earnings"):
               assert key in flash, key
           assert isinstance(flash.get("global_markets"), list)
           assert isinstance(flash.get("catalysts"), list)
+          assert isinstance(flash.get("macro_calendar"), list)
+          assert isinstance(flash.get("theme_earnings"), list)
           assert isinstance(flash.get("dimensions"), list)
           assert isinstance(flash.get("themes"), list)
           assert isinstance(flash.get("market", {}).get("funding_and_futures", {}).get("index_futures", []), list)
           assert flash.get("integrity", {}).get("status") == "ok", flash.get("integrity")
+          assert 0 <= int(macro.get("summary", {}).get("macro_days_ok", 0)) <= 11
+          assert 0 <= int(macro.get("summary", {}).get("report_days_ok", 0)) <= 11
+          for theme_row in theme.get("themes", []):
+              summary = theme_row.get("summary", {})
+              assert int(summary.get("reported", 0)) <= int(summary.get("total", 0))
+              for company in theme_row.get("companies", []):
+                  if company.get("status") != "reported":
+                      assert company.get("revenue_yoy_pct") is None
+                      assert company.get("net_profit_yoy_pct") is None
           forbidden = {"quantity", "position_size", "buy", "sell", "cost_basis", "stop_loss"}
           assert not forbidden.intersection(flash), "private/trade fields leaked into Daily Flash"
           assert Path("dashboard-v5.html").exists()
           assert Path("daily-flash-extras.js").exists()
-          print("daily flash validated", flash.get("generated_at"), "global", global_markets.get("summary"), "catalysts", catalysts.get("summary"), "southbound", extras.get("southbound", {}).get("net_buy_cny_100m"), "futures", len(extras.get("index_futures", [])), flash.get("integrity"))
+          assert Path("daily-flash-intelligence.js").exists()
+          print("daily flash validated", flash.get("generated_at"), "global", global_markets.get("summary"), "catalysts", catalysts.get("summary"), "macro", macro.get("summary"), "theme earnings", theme.get("summary"), "southbound", extras.get("southbound", {}).get("net_buy_cny_100m"), "futures", len(extras.get("index_futures", [])), flash.get("integrity"))
           PY
 
       - name: Commit Daily Flash artifacts
         run: |
           git config user.name "investment-news-bot"
           git config user.email "investment-news-bot@users.noreply.github.com"
-          git add global_markets.json market_extras.json catalysts.json daily_flash.json
+          git add global_markets.json market_extras.json catalysts.json macro_calendar.json theme_earnings.json daily_flash.json
           git diff --cached --quiet && exit 0
           git commit -m "chore: refresh Daily Flash"
           for attempt in 1 2 3; do
