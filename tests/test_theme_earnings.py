@@ -7,7 +7,7 @@ import pandas as pd
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / "scripts"))
 
-from fetch_theme_earnings import build, earnings_signal, theme_summary
+from fetch_theme_earnings import build, earnings_signal, normalize_report, theme_summary
 
 
 class ThemeEarningsTests(unittest.TestCase):
@@ -29,6 +29,25 @@ class ThemeEarningsTests(unittest.TestCase):
         self.assertEqual(summary["scheduled"], 1)
         self.assertEqual(summary["median_revenue_yoy_pct"], 2.5)
         self.assertEqual(summary["breadth"], "mixed")
+
+    def test_future_dated_report_row_withholds_financials(self):
+        row = {
+            "股票代码": "600276", "股票简称": "恒瑞医药",
+            "营业总收入-营业总收入": 1000000000,
+            "营业总收入-同比增长": 20.0,
+            "净利润-净利润": 200000000,
+            "净利润-同比增长": 30.0,
+            "销售毛利率": 85.0,
+            "所处行业": "化学制药",
+            "最新公告日期": "2026-08-20",
+        }
+        item = normalize_report("600276", "恒瑞医药", row, "2026-08-20", today=date(2026, 8, 19))
+        self.assertEqual(item["status"], "scheduled")
+        self.assertIsNone(item["revenue"])
+        self.assertIsNone(item["revenue_yoy_pct"])
+        self.assertIsNone(item["net_profit"])
+        self.assertIsNone(item["net_profit_yoy_pct"])
+        self.assertIn("look-ahead", item["reason"])
 
     def test_build_never_fills_unreported_financials(self):
         earnings = pd.DataFrame([
