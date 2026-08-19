@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-08-19T07:49:41+08:00",
-  "history_generated_at": "2026-08-19T07:49:32+08:00",
-  "records": 12,
-  "raw_ledger_records": 21,
+  "generated_at": "2026-08-19T09:08:47+08:00",
+  "history_generated_at": "2026-08-19T09:08:38+08:00",
+  "records": 19,
+  "raw_ledger_records": 28,
   "superseded_records": 9,
   "evaluations": [
     {
@@ -85,6 +85,32 @@
       }
     },
     {
+      "state_id": "843d3fe2196f217a",
+      "state_revision": 2,
+      "asset": "001309",
+      "name": "德明利",
+      "signal_date": "2026-08-18",
+      "matrix_direction": "bearish",
+      "thesis_state": "supported",
+      "evidence_state": "partial_confirmation",
+      "composite_score": -31.4,
+      "confluence": 79.4,
+      "conflict_score": 0.0,
+      "entry_date": "2026-08-18",
+      "entry_close": 437.33,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
       "state_id": "505273886275a871",
       "state_revision": 2,
       "asset": "002384",
@@ -111,6 +137,32 @@
       }
     },
     {
+      "state_id": "8e274362dca04415",
+      "state_revision": 2,
+      "asset": "002384",
+      "name": "东山精密",
+      "signal_date": "2026-08-18",
+      "matrix_direction": "bearish",
+      "thesis_state": "confirmed",
+      "evidence_state": "multi_layer_confirmed",
+      "composite_score": -38.9,
+      "confluence": 81.7,
+      "conflict_score": 0.0,
+      "entry_date": "2026-08-18",
+      "entry_close": 213.82,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
       "state_id": "8cdba74fd69a8e98",
       "state_revision": 2,
       "asset": "161226",
@@ -121,6 +173,32 @@
       "evidence_state": "partial_confirmation",
       "composite_score": -33.7,
       "confluence": 80.1,
+      "conflict_score": 0.0,
+      "entry_date": "2026-08-18",
+      "entry_close": 1.877,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "state_id": "f2f2afc53520fc00",
+      "state_revision": 2,
+      "asset": "161226",
+      "name": "国投白银LOF",
+      "signal_date": "2026-08-18",
+      "matrix_direction": "bearish",
+      "thesis_state": "confirmed",
+      "evidence_state": "multi_layer_confirmed",
+      "composite_score": -60.3,
+      "confluence": 88.1,
       "conflict_score": 0.0,
       "entry_date": "2026-08-18",
       "entry_close": 1.877,
@@ -189,6 +267,32 @@
       }
     },
     {
+      "state_id": "a450f4a775858e24",
+      "state_revision": 2,
+      "asset": "300308",
+      "name": "中际旭创",
+      "signal_date": "2026-08-18",
+      "matrix_direction": "bearish",
+      "thesis_state": "confirmed",
+      "evidence_state": "multi_layer_confirmed",
+      "composite_score": -46.9,
+      "confluence": 84.1,
+      "conflict_score": 0.0,
+      "entry_date": "2026-08-18",
+      "entry_close": 988.1,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
       "state_id": "c052547efa09e0f7",
       "state_revision": 2,
       "asset": "517380",
@@ -226,6 +330,32 @@
       "composite_score": 23.8,
       "confluence": 77.1,
       "conflict_score": 0.0,
+      "entry_date": "2026-08-18",
+      "entry_close": 9.078,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "state_id": "bf8a3944403b90a7",
+      "state_revision": 2,
+      "asset": "518880",
+      "name": "黄金ETF华安",
+      "signal_date": "2026-08-18",
+      "matrix_direction": "neutral",
+      "thesis_state": "conflicted",
+      "evidence_state": "conflict",
+      "composite_score": -2.9,
+      "confluence": 4.4,
+      "conflict_score": 94.2,
       "entry_date": "2026-08-18",
       "entry_close": 9.078,
       "horizons": {
@@ -293,6 +423,32 @@
       }
     },
     {
+      "state_id": "a720f8ba2002c170",
+      "state_revision": 2,
+      "asset": "600667",
+      "name": "太极实业",
+      "signal_date": "2026-08-18",
+      "matrix_direction": "neutral",
+      "thesis_state": "conflicted",
+      "evidence_state": "conflict",
+      "composite_score": 15.1,
+      "confluence": 22.7,
+      "conflict_score": 81.4,
+      "entry_date": "2026-08-18",
+      "entry_close": 23.0,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
       "state_id": "6b723ec2e58a50e7",
       "state_revision": 2,
       "asset": "603986",
@@ -317,11 +473,69 @@
           "status": "pending"
         }
       }
+    },
+    {
+      "state_id": "f750695ef18dd75b",
+      "state_revision": 2,
+      "asset": "603986",
+      "name": "兆易创新",
+      "signal_date": "2026-08-18",
+      "matrix_direction": "bearish",
+      "thesis_state": "confirmed",
+      "evidence_state": "multi_layer_confirmed",
+      "composite_score": -41.8,
+      "confluence": 82.5,
+      "conflict_score": 0.0,
+      "entry_date": "2026-08-18",
+      "entry_close": 436.74,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
     }
   ],
   "by_thesis_state": {
     "confirmed": {
-      "records": 1,
+      "records": 5,
+      "horizons": {
+        "t1": {
+          "settled": 0,
+          "directional_settled": 0,
+          "win_rate": null,
+          "mean_directional_excess": null,
+          "mean_excess_return": null,
+          "mean_absolute_excess": null,
+          "readout": "insufficient_sample"
+        },
+        "t5": {
+          "settled": 0,
+          "directional_settled": 0,
+          "win_rate": null,
+          "mean_directional_excess": null,
+          "mean_excess_return": null,
+          "mean_absolute_excess": null,
+          "readout": "insufficient_sample"
+        },
+        "t20": {
+          "settled": 0,
+          "directional_settled": 0,
+          "win_rate": null,
+          "mean_directional_excess": null,
+          "mean_excess_return": null,
+          "mean_absolute_excess": null,
+          "readout": "insufficient_sample"
+        }
+      }
+    },
+    "conflicted": {
+      "records": 2,
       "horizons": {
         "t1": {
           "settled": 0,
@@ -417,7 +631,7 @@
       }
     },
     "supported": {
-      "records": 5,
+      "records": 6,
       "horizons": {
         "t1": {
           "settled": 0,
@@ -450,8 +664,40 @@
     }
   },
   "by_evidence_state": {
+    "conflict": {
+      "records": 2,
+      "horizons": {
+        "t1": {
+          "settled": 0,
+          "directional_settled": 0,
+          "win_rate": null,
+          "mean_directional_excess": null,
+          "mean_excess_return": null,
+          "mean_absolute_excess": null,
+          "readout": "insufficient_sample"
+        },
+        "t5": {
+          "settled": 0,
+          "directional_settled": 0,
+          "win_rate": null,
+          "mean_directional_excess": null,
+          "mean_excess_return": null,
+          "mean_absolute_excess": null,
+          "readout": "insufficient_sample"
+        },
+        "t20": {
+          "settled": 0,
+          "directional_settled": 0,
+          "win_rate": null,
+          "mean_directional_excess": null,
+          "mean_excess_return": null,
+          "mean_absolute_excess": null,
+          "readout": "insufficient_sample"
+        }
+      }
+    },
     "multi_layer_confirmed": {
-      "records": 1,
+      "records": 5,
       "horizons": {
         "t1": {
           "settled": 0,
@@ -515,7 +761,7 @@
       }
     },
     "partial_confirmation": {
-      "records": 7,
+      "records": 8,
       "horizons": {
         "t1": {
           "settled": 0,

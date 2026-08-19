@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-08-19T07:49:41+08:00",
-  "history_generated_at": "2026-08-19T07:49:32+08:00",
+  "generated_at": "2026-08-19T09:08:47+08:00",
+  "history_generated_at": "2026-08-19T09:08:38+08:00",
   "summary": {
     "t1": {
       "settled": 80,
@@ -3216,6 +3216,150 @@
       "entry_close": 0.895,
       "mfe_20d": 0.005587,
       "mae_20d": -0.01676,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "b5eab7af1610cfc8",
+      "asset": "603986",
+      "name": "兆易创新",
+      "signal_date": "2026-08-18",
+      "bias": "bearish",
+      "research_status": "active",
+      "conviction": 64.0,
+      "entry_date": "2026-08-18",
+      "entry_close": 436.74,
+      "mfe_20d": 0.017585,
+      "mae_20d": -0.043664,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "dac8d1468d3bb9d6",
+      "asset": "001309",
+      "name": "德明利",
+      "signal_date": "2026-08-18",
+      "bias": "bearish",
+      "research_status": "watch",
+      "conviction": 28.0,
+      "entry_date": "2026-08-18",
+      "entry_close": 437.33,
+      "mfe_20d": 0.019139,
+      "mae_20d": -0.030458,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "91546389a5a2c434",
+      "asset": "300308",
+      "name": "中际旭创",
+      "signal_date": "2026-08-18",
+      "bias": "bearish",
+      "research_status": "active",
+      "conviction": 64.0,
+      "entry_date": "2026-08-18",
+      "entry_close": 988.1,
+      "mfe_20d": 0.016486,
+      "mae_20d": -0.021152,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "d579bc2443e84144",
+      "asset": "002384",
+      "name": "东山精密",
+      "signal_date": "2026-08-18",
+      "bias": "bearish",
+      "research_status": "active",
+      "conviction": 64.0,
+      "entry_date": "2026-08-18",
+      "entry_close": 213.82,
+      "mfe_20d": 0.022916,
+      "mae_20d": -0.022262,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "6152e54f6e5e4811",
+      "asset": "600667",
+      "name": "太极实业",
+      "signal_date": "2026-08-18",
+      "bias": "bearish",
+      "research_status": "watch",
+      "conviction": 32.0,
+      "entry_date": "2026-08-18",
+      "entry_close": 23.0,
+      "mfe_20d": 0.004348,
+      "mae_20d": -0.041304,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "2756e7e980e28339",
+      "asset": "161226",
+      "name": "国投白银LOF",
+      "signal_date": "2026-08-18",
+      "bias": "bearish",
+      "research_status": "active",
+      "conviction": 76.0,
+      "entry_date": "2026-08-18",
+      "entry_close": 1.877,
+      "mfe_20d": 0.00586,
+      "mae_20d": -0.01545,
       "horizons": {
         "t1": {
           "status": "pending"
