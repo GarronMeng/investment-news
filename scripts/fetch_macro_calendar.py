@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """Build a 10-day macro and global earnings catalyst calendar.
 
-Sources are public AKShare/Baidu calendar endpoints. The calendar is descriptive:
-importance is inherited from the source, impact channels are deterministic keyword
-mappings, and missing dates are never invented. Selected global companies come
-from a public research-universe config and do not imply a recommendation.
+Sources are public AKShare/Baidu calendar endpoints. The calendar is deliberately
+selective: it keeps high-importance releases and a curated set of market-moving
+importance-2 releases, removes routine daily inventory/holding noise, and drops
+same-day events whose timestamp has already passed. Missing dates are never
+invented. The global company pool is a public research universe, not a recommendation.
 """
 
 from __future__ import annotations
@@ -12,7 +13,7 @@ from __future__ import annotations
 import json
 import math
 import os
-from datetime import date, datetime, timedelta, timezone
+from datetime import date, datetime, time, timedelta, timezone
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUTPUT = os.path.join(ROOT, "macro_calendar.json")
@@ -20,6 +21,16 @@ UNIVERSE = os.path.join(ROOT, "global_catalyst_universe.json")
 BEIJING = timezone(timedelta(hours=8))
 HORIZON_DAYS = 10
 RELEVANT_REGIONS = {"中国", "美国", "欧元区", "日本", "韩国", "中国香港", "英国"}
+CORE_IMPORTANCE2_KEYWORDS = (
+    "利率决议", "利率决定", "FOMC", "联储", "会议纪要", "CPI", "PPI", "GDP", "PMI",
+    "非农", "失业率", "初请", "ADP", "零售销售", "工业产出", "工业增加值", "LPR",
+    "社融", "社会融资", "M2", "新增人民币贷款", "贸易帐", "出口年率", "进口年率",
+    "EIA原油库存变动", "原油库存变动",
+)
+ROUTINE_NOISE_KEYWORDS = (
+    "每日更新", "每日仓单", "仓单变动", "黄金库存", "白银持仓", "黄金持仓",
+    "库存-每日", "COMEX", "SPDR", "iShares", "上期所每日",
+)
 
 THEME_ASSETS = {
     "存储": ["603986", "001309"],
@@ -52,6 +63,16 @@ def normalize_date(value):
         return date.fromisoformat(text).isoformat()
     except ValueError:
         return None
+
+
+def parse_clock(value):
+    text = str(value or "").strip()
+    for fmt in ("%H:%M", "%H:%M:%S"):
+        try:
+            return datetime.strptime(text, fmt).time()
+        except ValueError:
+            continue
+    return None
 
 
 def event_category(text):
@@ -97,14 +118,32 @@ def impact_channels(region, category, text):
     return list(dict.fromkeys(channels))
 
 
-def normalize_macro_row(row):
+def is_material_macro(title, importance):
+    title = str(title or "")
+    if any(key.lower() in title.lower() for key in ROUTINE_NOISE_KEYWORDS):
+        return False
+    if importance is not None and importance >= 3:
+        return True
+    if importance is not None and importance < 2:
+        return False
+    return any(key.lower() in title.lower() for key in CORE_IMPORTANCE2_KEYWORDS)
+
+
+def normalize_macro_row(row, now=None):
+    now = now or datetime.now(BEIJING)
     event_date = normalize_date(row.get("日期"))
     region = str(row.get("地区") or "").strip()
     title = str(row.get("事件") or "").strip()
     importance = finite(row.get("重要性"))
     if not event_date or not title or region not in RELEVANT_REGIONS:
         return None
-    if importance is not None and importance < 2:
+    if not is_material_macro(title, importance):
+        return None
+    event_clock = parse_clock(row.get("时间"))
+    observed = date.fromisoformat(event_date)
+    if observed < now.date():
+        return None
+    if observed == now.date() and event_clock is not None and event_clock < now.time().replace(tzinfo=None):
         return None
     category = event_category(title)
     return {
@@ -162,10 +201,11 @@ def normalize_report_row(row, event_date, universe_by_ticker):
     }
 
 
-def fetch_calendar(today=None, horizon_days=HORIZON_DAYS):
+def fetch_calendar(today=None, horizon_days=HORIZON_DAYS, now=None):
     import akshare as ak
 
-    today = today or datetime.now(BEIJING).date()
+    now = now or datetime.now(BEIJING)
+    today = today or now.date()
     universe = load_json(UNIVERSE)
     by_ticker = company_map(universe)
     events, warnings = [], []
@@ -180,7 +220,7 @@ def fetch_calendar(today=None, horizon_days=HORIZON_DAYS):
             macro_success += 1
             if frame is not None and not getattr(frame, "empty", True):
                 for _, series in frame.iterrows():
-                    item = normalize_macro_row(series.to_dict())
+                    item = normalize_macro_row(series.to_dict(), now=now)
                     if item:
                         events.append(item)
         except Exception as exc:
@@ -252,7 +292,7 @@ def build(previous=None, today=None, fetcher=fetch_calendar):
         },
         "warnings": warnings,
         "methodology": {
-            "macro": "百度股市通全球宏观日历 via AKShare；仅保留主要经济体且重要性>=2的事件。",
+            "macro": "百度股市通全球宏观日历 via AKShare；保留重要性>=3及少量核心importance-2宏观数据，过滤每日持仓/仓单等例行噪声，并剔除已过时的当日时点。",
             "global_earnings": "百度股市通财报发行 via AKShare；仅保留global_catalyst_universe.json中的公开研究公司。",
             "mapping": "impact_channels/themes/assets为显式规则映射，用于说明传导路径，不是交易信号或收益概率。",
         },
