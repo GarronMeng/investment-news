@@ -1,6 +1,6 @@
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-19 09:06",
-  "source_generated_at": "2026-08-19 07:48",
+  "generated_at": "2026-08-19 10:05",
+  "source_generated_at": "2026-08-19 09:54",
   "generated_by": "ChatGPT Web",
   "status": "ready",
   "news_titles": {
@@ -1135,7 +1135,43 @@ window.AI_SIGNALS = {
     "https://news.mit.edu/2026/when-ai-art-has-no-author-generated-images-often-cant-be-traced-to-training-data-0818": "AI艺术没有作者：研究发现生成图像往往无法追溯训练数据",
     "https://www.livescience.com/archaeology/neanderthals/neanderthals-may-have-trekked-through-the-saudi-arabian-desert-55-000-years-ago-farther-south-than-experts-thought-possible": "尼安德特人5.5万年前或曾深入沙特沙漠，南行距离超出预期",
     "https://www.livescience.com/technology/electronics/beyond-human-intuition-ai-designs-chip-500-times-smaller-than-what-engineers-could-ever-imagine": "“超越人类直觉”：AI设计出尺寸缩小500倍的芯片组件",
-    "https://arstechnica.com/science/2026/08/x-rays-add-new-twist-to-narwhals-spiral-tusk": "X射线为独角鲸螺旋长牙研究带来新发现"
+    "https://arstechnica.com/science/2026/08/x-rays-add-new-twist-to-narwhals-spiral-tusk": "X射线为独角鲸螺旋长牙研究带来新发现",
+    "https://www.marktechpost.com/2026/08/18/nvidia-releases-tensorrt-model-connect-in-public-preview-hugging-face-checkpoint-to-native-c-inference-in-two-commands": "英伟达发布TensorRT Model Connect公开预览版，两条命令即可将Hugging Face检查点转换为原生C++推理",
+    "https://www.digitimes.com/news/a20260818PD225/2026-europe-business-inventory-demand.html": "美利达预计2026年全年增长，欧洲与中国市场抵消美国疲弱",
+    "https://www.digitimes.com/news/a20260818PD215/2027-robotics-revenue-profit-2026.html": "全球传动2027年订单在手，进一步布局人形机器人",
+    "https://www.digitimes.com/news/a20260818PD224/ic-plus-ethernet-realtek-airoha-mediatek.html": "达发与联发科支持九旸，在交换芯片市场对抗瑞昱",
+    "https://www.digitimes.com/news/a20260818VL209/automotive-chip-vehicle-adoption-certification-testing.html": "中国汽车芯片新规瞄准上车应用的“最后一公里”",
+    "https://www.digitimes.com/news/a20260818VL203/manufacturing-electronics-oppo-smartphone-pcb.html": "Amber与OPPO合作，显示印度从智能手机组装走向更深层电子制造",
+    "https://www.digitimes.com/news/a20260818VL221/materials-silicon-wafer-wafer-substrate-sas.html": "图表：台湾材料供应商走势分化，晶圆巨头停滞、基板与引线框架企业走强",
+    "https://cnevpost.com/2026/08/19/epicland-pre-sales-first-model-x9": "华为与东风合作品牌奕境开启首款车型X9预售，起价44180美元",
+    "https://cleantechnica.com/2026/08/18/unearthing-the-future-inside-nlrs-summer-educational-programs": "发掘未来：走进NLR暑期教育项目",
+    "https://cleantechnica.com/2026/08/18/porsche-looks-to-boost-macan-ev-sales": "保时捷寻求提升纯电Macan销量",
+    "https://cleantechnica.com/2026/08/18/a-high-tech-control-with-bluetooth-display-comes-to-mountain-ebikes": "带蓝牙显示屏的高科技控制器登陆山地电动自行车",
+    "https://oilprice.com/Energy/Energy-General/5-Energy-Stocks-Cashing-In-On-The-New-Energy-Crunch.html": "五只从新一轮能源紧张中获益的能源股",
+    "https://endpoints.news/trump-to-pick-heidi-overton-to-lead-the-fda": "特朗普拟任命Heidi Overton领导美国FDA",
+    "https://www.space.com/space-exploration/launches-spacecraft/touchdown-private-chinese-rocket-aces-landing-on-2nd-ever-flight": "成功着陆：中国民营火箭第二次飞行即完成回收",
+    "https://spacenews.com/chinas-landspace-recovers-booster-with-second-orbital-launch-of-zhuque-3-rocket": "中国蓝箭航天在朱雀三号第二次轨道发射中成功回收助推器",
+    "https://www.darkreading.com/cyberattacks-data-breaches/china-linked-hacker-ai-capabilities-apac-attack": "与中国有关联的黑客在亚太地区攻击中展示AI能力",
+    "https://www.techmeme.com/260818/p42": "AI原生会计平台Rillet获Iconiq领投1亿美元C轮融资，估值10亿美元、累计融资逾2亿美元",
+    "https://www.cam.ac.uk/research/news/tiny-satellite-will-use-the-dark-side-of-the-moon-to-eavesdrop-on-whispers-from-the-early-universe": "微型卫星将以月球背面为屏障，聆听早期宇宙的微弱信号",
+    "https://bfi.uchicago.edu/wp-content/uploads/2026/08/BFI_WP_2026-108-1.pdf": "新论文显示，2021至2024年美国37%的劳动者实际工资下降",
+    "https://www.bbc.com/news/articles/c1l1r1zne1ro": "超低排放区内儿童肺功能恢复令科学家惊讶",
+    "https://www.techmeme.com/260818/p41": "Cerebras发布CS-4服务器机架：搭载三颗WSE-3 Turbo芯片、采用新Nexus架构，本季度开始交付",
+    "https://www.cerebras.ai/cs4": "Cerebras CS-4",
+    "https://www.techmeme.com/260818/p40": "调查：52%的美国人对日常生活中增加AI使用更担忧而非兴奋，较2021年的37%上升",
+    "https://modelmap.cc": "Show HN：交互式动画展示任意Hugging Face模型架构",
+    "https://9to5google.com/2026/08/18/pixel-watch-1-support": "第一代Pixel Watch不会失去Google Health睡眠与运动支持",
+    "https://www.gsmarena.com/samsung_galaxy_tab_s12_ultra_render_leaks-news-74234.php": "三星Galaxy Tab S12 Ultra渲染图泄露",
+    "https://www.dpreview.com/news/gx-ace-gx-p1-fixed-camera-teaser-behind-the-scenes-announcement": "GXAce正在打造一款“专为摄影设计”的全景相机，并公开研发过程",
+    "https://wallstreetcn.com/articles/3779733": "争夺IPO业务：大银行竞相向Anthropic提供授信，规模已达100亿美元",
+    "https://www.cnbc.com/2026/08/19/el-nino-food-supply-chain-hedge-bofa.html": "美国银行称这里是对冲强厄尔尼诺冲击食品供应链的最佳去处",
+    "https://www.cnbc.com/2026/08/19/china-backflipping-robot-maker-unitree-jumps-shanghai-ipo.html": "会后空翻的中国机器人厂商宇树科技上海首秀大涨542%",
+    "https://www.cnbc.com/2026/08/18/meta-attorneys-general-opening-arguments-california-bonta-restitution.html": "加州总检察长Bonta称针对Meta的案件关乎“赔偿与扭曲”，而非损害赔偿",
+    "https://www.cnbc.com/2026/08/19/south-korea-trump-military-drills-exercise-north-korea-kim-jong-un-.html": "报道称特朗普寻求与金正恩会晤，韩美将联合军演规模减半",
+    "https://seekingalpha.com/news/4634596-iqiyi-outlines-ai-led-decentralization-as-q2-non-gaap-operating-loss-narrows-to-rmb-30_3m": "爱奇艺阐述AI驱动的去中心化策略，二季度非GAAP经营亏损收窄至3030万元",
+    "https://seekingalpha.com/news/4634595-keysight-expects-q4-revenue-1_93b-1_95b-as-it-raises-fy-2026-outlook": "是德科技上调2026财年展望，预计第四季度营收19.3亿至19.5亿美元",
+    "https://seekingalpha.com/news/4634592-bp-joins-venezuelan-oil-trade-to-challenge-trafigura-vitol-bloomberg": "彭博：英国石油加入委内瑞拉石油贸易，与托克和维多竞争",
+    "https://seekingalpha.com/news/4634593-iridex-reaffirms-2026-revenue-guidance-of-51m-53m-while-highlighting-working-capital-build": "Iridex重申2026年营收5100万至5300万美元指引，并指出总部搬迁带来营运资金增加"
   },
   "overseas_markets": [
     {
@@ -1146,7 +1182,7 @@ window.AI_SIGNALS = {
       "status": "negative",
       "status_label": "AI与芯片显著回撤",
       "move": "标普500 -0.69%，道指 -0.22%，纳指 -1.33%，费城半导体指数约 -5%；美光约 -7%、闪迪约 -9%、西部数据约 -7.4%",
-      "driver": "油价和长端国债收益率上升，叠加AI估值与投资回报担忧，资金集中兑现半导体、存储与光通信。",
+      "driver": "油价和长端国债收益率上升，叠加AI估值、融资与投资回报担忧，资金集中兑现半导体、存储与光通信。",
       "a_share_links": [
         "DRAM/NAND",
         "企业级SSD",
@@ -1163,10 +1199,10 @@ window.AI_SIGNALS = {
       "market": "日股",
       "flag": "🇯🇵",
       "session": "2026-08-19 早盘",
-      "updated_at": "2026-08-19 09:03 北京时间（10:03 JST）",
+      "updated_at": "2026-08-19 09:33 北京时间（10:33 JST）",
       "status": "pending",
-      "status_label": "官方报价显著下跌，待同刻交叉验证",
-      "move": "前收67,460.73｜开盘66,812.27（跳空-0.96%）｜10:03 JST报65,891.65（-2.33%）；WSJ在不同观测时点报约65,604.25、跌2.7%",
+      "status_label": "官方跌2.06%，不同观测时点报价待交叉验证",
+      "move": "前收67,460.73｜开盘66,812.27（跳空-0.96%）｜10:33 JST官方报66,070.32（-2.06%）；另一报价页面约报66,062.50（-2.07%），但未标明同刻时间",
       "driver": "隔夜美股芯片抛售与全球长端收益率上行压制电子、半导体设备及光通信相关权重。",
       "a_share_links": [
         "半导体设备",
@@ -1174,31 +1210,31 @@ window.AI_SIGNALS = {
         "被动元件",
         "消费电子"
       ],
-      "validation": "观察日经能否收复开盘位，并以第二独立报价源复核同一时点涨幅；同时看A股电子链是否出现独立承接。",
+      "validation": "以明确时间戳的第二独立报价源复核同刻跌幅，并观察日经能否收复开盘位及A股电子链是否出现独立承接。",
       "sources": [
         "https://indexes.nikkei.co.jp/en/nkave/index/profile?cid=1&idx=nk225",
-        "https://www.wsj.com/finance/stocks/nikkei-falls-2-7-tracking-wall-streets-losses-d41cfee3"
+        "https://www.investing.com/indices/japan-ni225"
       ]
     },
     {
       "market": "韩股",
       "flag": "🇰🇷",
       "session": "2026-08-19 早盘",
-      "updated_at": "2026-08-19 08:08 北京时间（09:08 KST）",
+      "updated_at": "2026-08-19 09:34 北京时间核验",
       "status": "pending",
-      "status_label": "延时报价急跌，待独立来源验证",
-      "move": "前收6,869.83｜开盘6,528.77（跳空-4.96%）｜09:08 KST报6,487.18（-5.57%），日内区间6,438.89–6,528.77；报价为FactSet延时数据",
-      "driver": "美光、闪迪、西部数据和费城半导体指数重挫，存储高预期兑现向三星电子、SK海力士及KOSPI传导。",
+      "status_label": "高开缺口向下，跌幅约4.7%，待同刻双源验证",
+      "move": "前收6,869.83｜开盘6,528.77（跳空-4.96%）｜报价页面报6,548.65（-4.68%），日内区间6,400.81–6,614.39；另一延时报价在09:08 KST报6,487.18（-5.57%），观测时点不同",
+      "driver": "费城半导体指数、美光与闪迪重挫，存储高预期兑现向三星电子、SK海力士及KOSPI传导。",
       "a_share_links": [
         "HBM",
         "DRAM/NAND",
         "企业级SSD",
         "封测"
       ],
-      "validation": "以KRX或第二独立报价源复核开盘和同刻跌幅；观察三星电子、SK海力士能否止跌及A股存储链相对强弱。",
+      "validation": "以KRX或第二独立报价源复核同刻跌幅；观察三星电子、SK海力士能否止跌及A股存储链相对强弱。",
       "sources": [
-        "https://www.wsj.com/market-data/quotes/index/KR/SEU/historical-prices",
-        "https://www.marketwatch.com/investing/index/180721?countrycode=kr"
+        "https://www.investing.com/indices/kospi",
+        "https://www.wsj.com/market-data/quotes/index/KR/SEU/historical-prices"
       ]
     }
   ],
@@ -1210,8 +1246,8 @@ window.AI_SIGNALS = {
       "direction": "negative",
       "strength": 5,
       "horizon": "1-5d",
-      "priced_in": "medium",
-      "reason": "隔夜费城半导体指数约跌5%，美光、闪迪、西部数据显著回撤；今早日经官方10:03 JST跌2.33%，KOSPI延时报价09:08 KST跌5.57%。欧洲央行同时提示AI科技估值已接近互联网泡沫时期水平。相较上一版“需求仍强但A股回撤”，负向价格验证已扩展到美日韩，研究状态显著恶化；日韩同刻双源验证仍待补齐。",
+      "priced_in": "unknown",
+      "reason": "隔夜费城半导体指数约跌5%，美光、闪迪、西部数据显著回撤；今早日经官方10:33 JST跌2.06%，KOSPI报价约跌4.7%。欧洲央行提示AI科技估值接近互联网泡沫时期水平；同时大银行竞相向Anthropic提供合计约100亿美元授信，说明融资渠道仍在，但也强化了AI扩张对外部资金的依赖。A股个股行情时间戳仍停留在8月17日，不能据此判断今日是否已定价。",
       "assets": [
         "603986",
         "001309",
@@ -1220,7 +1256,7 @@ window.AI_SIGNALS = {
         "600667"
       ],
       "validation": [
-        "五只标的能否低开后收复开盘位，并至少三只相对各自行业指数转强",
+        "五只标的开盘后能否收复开盘位，并至少三只相对各自行业指数转强",
         "费城半导体、三星电子、SK海力士及日股电子权重下一时段能否止跌"
       ],
       "invalidation": [
@@ -1230,7 +1266,7 @@ window.AI_SIGNALS = {
       "urls": [
         "https://www.reuters.com/business/us-stock-futures-drop-fading-iran-peace-hopes-lift-oil-bond-yields-2026-08-18/",
         "https://www.ecb.europa.eu/press/blog/date/2026/html/ecb.blog20260817~754a8a4418.en.html",
-        "https://indexes.nikkei.co.jp/en/nkave/index/profile?cid=1&idx=nk225"
+        "https://wallstreetcn.com/articles/3779733"
       ]
     },
     {
@@ -1241,7 +1277,7 @@ window.AI_SIGNALS = {
       "strength": 3,
       "horizon": "1-3m",
       "priced_in": "unknown",
-      "reason": "Marvell发布围绕SSD、CXL和光子互连的内存解耦产品组合，说明AI算力瓶颈正从计算芯片延伸至数据移动和存储层，强化企业级SSD及高速存储互连的中期需求逻辑。该信息目前为单一产业媒体报道，量产、客户导入及对国内模组厂的订单传导尚未确认。",
+      "reason": "Marvell发布围绕SSD、CXL和光子互连的内存解耦产品组合，说明AI算力瓶颈正从计算芯片延伸至数据移动和存储层，强化企业级SSD及高速存储互连的中期需求逻辑。该信息目前为单一产业媒体报道，量产、客户导入及对国内模组厂的订单传导尚未确认；A股实时行情尚不可用。",
       "assets": [
         "001309"
       ],
@@ -1264,8 +1300,8 @@ window.AI_SIGNALS = {
       "direction": "negative",
       "strength": 4,
       "horizon": "1-5d",
-      "priced_in": "medium",
-      "reason": "美伊紧张推高布伦特原油至约91美元，30年期美债收益率一度升至2007年以来高位；现货黄金跌约1.1%，白银跌约2.8%。这较上一版“黄金偏强、白银偏弱”进一步恶化为贵金属同步承压，实际利率与通胀预期暂时压过避险需求。白银LOF仍须单独核验净值、场内溢价及交易限制。",
+      "priced_in": "unknown",
+      "reason": "美伊紧张推高布伦特原油至约91美元，30年期美债收益率处于2007年以来高位附近；最新报价显示黄金期货约跌0.4%、白银期货约跌1.4%，贵金属同步承压，实际利率与通胀预期暂时压过避险需求。国内ETF与LOF行情尚未更新至今日开盘，白银LOF还须独立核验净值、场内溢价及交易限制。",
       "assets": [
         "161226",
         "518880"
