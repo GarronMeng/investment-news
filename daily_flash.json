@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "generated_at": null,
+  "timezone": "Asia/Shanghai",
+  "title": "Daily Flash · 每日投资驾驶舱",
+  "core_conclusion": "等待首次自动刷新。",
+  "market": {"regime": {}, "risk": {}, "valuation_hs300": {}, "indices": [], "metrics": {}},
+  "sector_rotation": {"leaders": [], "laggards": [], "inflow": [], "outflow": []},
+  "global_markets": [],
+  "key_events": [],
+  "catalysts": [],
+  "dimensions": [],
+  "themes": [],
+  "outlook": {"base": "等待首次自动刷新。", "bullish": "—", "bearish": "—"},
+  "matrix_focus": [],
+  "sources": {},
+  "boundary": "Daily Flash用于信息压缩、研究排序与条件验证；缺失数据保持缺失，不生成无条件买卖、仓位或止损指令。"
+}
