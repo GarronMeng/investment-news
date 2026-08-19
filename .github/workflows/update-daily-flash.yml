@@ -1,0 +1,103 @@
+name: Update Daily Flash
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Asia/Shanghai: 08:50 premarket and 15:55 after close, weekdays.
+    - cron: "50 0 * * 1-5"
+    - cron: "55 7 * * 1-5"
+  workflow_run:
+    workflows: ["Update Research Engine", "Update Watchlist Market Quotes", "Update A-share News", "Update Market Sentiment"]
+    branches: [main]
+    types: [completed]
+  push:
+    branches: [main]
+    paths:
+      - catalysts_manual.json
+      - scripts/fetch_global_markets.py
+      - scripts/fetch_catalysts.py
+      - scripts/build_daily_flash.py
+      - tests/test_daily_flash.py
+      - .github/workflows/update-daily-flash.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: investment-daily-flash
+  cancel-in-progress: true
+
+jobs:
+  update:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements-sentiment.txt
+
+      - name: Install market provider
+        run: python -m pip install "akshare>=1.18,<2"
+
+      - name: Test Daily Flash contracts
+        run: python -m unittest tests/test_daily_flash.py -v
+
+      - name: Refresh cross-asset markets
+        run: python scripts/fetch_global_markets.py
+
+      - name: Refresh catalyst calendar
+        run: python scripts/fetch_catalysts.py
+
+      - name: Build Daily Flash
+        run: python scripts/build_daily_flash.py
+
+      - name: Validate Daily Flash
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          flash = json.load(open("daily_flash.json", encoding="utf-8"))
+          global_markets = json.load(open("global_markets.json", encoding="utf-8"))
+          catalysts = json.load(open("catalysts.json", encoding="utf-8"))
+          assert flash.get("version") == 1
+          assert global_markets.get("version") == 1
+          assert catalysts.get("version") == 1
+          for key in ("core_conclusion", "market", "sector_rotation", "global_markets", "key_events", "catalysts", "dimensions", "themes", "outlook", "matrix_focus"):
+              assert key in flash, key
+          assert isinstance(flash.get("global_markets"), list)
+          assert isinstance(flash.get("catalysts"), list)
+          assert isinstance(flash.get("dimensions"), list)
+          assert isinstance(flash.get("themes"), list)
+          forbidden = {"quantity", "position_size", "buy", "sell", "cost_basis", "stop_loss"}
+          assert not forbidden.intersection(flash), "private/trade fields leaked into Daily Flash"
+          assert Path("dashboard-v5.html").exists()
+          print("daily flash validated", flash.get("generated_at"), "global", global_markets.get("summary"), "catalysts", catalysts.get("summary"))
+          PY
+
+      - name: Commit Daily Flash artifacts
+        run: |
+          git config user.name "investment-news-bot"
+          git config user.email "investment-news-bot@users.noreply.github.com"
+          git add global_markets.json catalysts.json daily_flash.json
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: refresh Daily Flash"
+          for attempt in 1 2 3; do
+            if git pull --rebase origin main && git push; then
+              exit 0
+            fi
+            git rebase --abort || true
+            echo "Push retry ${attempt}/3"
+            sleep $((attempt * 5))
+          done
+          echo "::error::Unable to push Daily Flash artifacts after 3 attempts"
+          exit 1
