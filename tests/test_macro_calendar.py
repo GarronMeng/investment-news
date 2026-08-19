@@ -1,27 +1,52 @@
 import pathlib
 import sys
 import unittest
-from datetime import date
+from datetime import date, datetime, timedelta, timezone
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / "scripts"))
 
 from fetch_macro_calendar import build, normalize_macro_row, normalize_report_row
 
+BEIJING = timezone(timedelta(hours=8))
+
 
 class MacroCalendarTests(unittest.TestCase):
     def test_macro_filters_low_importance_and_maps_channels(self):
+        now = datetime(2026, 8, 19, 12, 0, tzinfo=BEIJING)
         high = normalize_macro_row({
             "日期": "2026-08-20", "时间": "20:30", "地区": "美国",
             "事件": "美国7月CPI同比", "公布": None, "预期": 2.8, "前值": 2.7, "重要性": 3,
-        })
+        }, now=now)
         self.assertIsNotNone(high)
         self.assertEqual(high["category"], "inflation")
         self.assertIn("美债收益率", high["impact_channels"])
         low = normalize_macro_row({
             "日期": "2026-08-20", "时间": "10:00", "地区": "美国",
             "事件": "低重要性事件", "重要性": 1,
-        })
+        }, now=now)
         self.assertIsNone(low)
+
+    def test_routine_daily_holdings_are_filtered(self):
+        now = datetime(2026, 8, 19, 12, 0, tzinfo=BEIJING)
+        row = normalize_macro_row({
+            "日期": "2026-08-20", "时间": "06:30", "地区": "美国",
+            "事件": "美国8月19日SPDR黄金持仓-每日更新(吨)",
+            "公布": None, "预期": None, "前值": 1030.66, "重要性": 3,
+        }, now=now)
+        self.assertIsNone(row)
+
+    def test_elapsed_same_day_event_is_not_upcoming(self):
+        now = datetime(2026, 8, 19, 23, 0, tzinfo=BEIJING)
+        past = normalize_macro_row({
+            "日期": "2026-08-19", "时间": "20:30", "地区": "美国",
+            "事件": "美国7月CPI同比", "公布": 2.9, "预期": 2.8, "前值": 2.7, "重要性": 3,
+        }, now=now)
+        future = normalize_macro_row({
+            "日期": "2026-08-20", "时间": "20:30", "地区": "美国",
+            "事件": "美国初请失业金人数", "公布": None, "预期": 220, "前值": 218, "重要性": 3,
+        }, now=now)
+        self.assertIsNone(past)
+        self.assertIsNotNone(future)
 
     def test_global_report_maps_theme_to_assets(self):
         universe = {"MU": {"name": "Micron", "themes": ["存储"]}}
