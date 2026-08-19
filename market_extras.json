@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "generated_at": null,
+  "timezone": "Asia/Shanghai",
+  "southbound": {"status": "unavailable", "as_of": null, "net_buy_cny_100m": null, "net_inflow_cny_100m": null, "legs": [], "source": "awaiting first refresh"},
+  "index_futures": [],
+  "warnings": ["seed awaiting first Daily Flash refresh"],
+  "methodology": {}
+}
