@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-19T22:59:13+08:00",
+  "generated_at": "2026-08-19T23:01:02+08:00",
   "timezone": "Asia/Shanghai",
   "title": "Daily Flash · 每日投资驾驶舱",
   "core_conclusion": "A股状态为 Risk-off，上涨家数占比 8.1%，风险温度 75/100（high）。沪深300 PE-TTM 14.57；10年分位 79.2%；强势：厨卫电器、煤炭开采加工、银行；弱势：电子化学品、元件、自动化设备。研究复核优先关注 太极实业、风华高科、德明利；该排序代表证据变化与复核优先级，不代表交易优先级。",
@@ -269,10 +269,10 @@
       "symbol": "^GSPC",
       "group": "美股",
       "unit": "index",
-      "value": 7737.9502,
-      "raw_value": 7737.9502,
+      "value": 7741.3501,
+      "raw_value": 7741.3501,
       "previous_close": 7691.7598,
-      "change_pct": 0.6,
+      "change_pct": 0.64,
       "as_of": "2026-08-19T21:30:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -283,10 +283,10 @@
       "symbol": "^IXIC",
       "group": "美股",
       "unit": "index",
-      "value": 26396.6738,
-      "raw_value": 26396.6738,
+      "value": 26408.5762,
+      "raw_value": 26408.5762,
       "previous_close": 26289.7109,
-      "change_pct": 0.41,
+      "change_pct": 0.45,
       "as_of": "2026-08-19T21:30:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -297,10 +297,10 @@
       "symbol": "^SOX",
       "group": "美股",
       "unit": "index",
-      "value": 11797.9502,
-      "raw_value": 11797.9502,
+      "value": 11800.1133,
+      "raw_value": 11800.1133,
       "previous_close": 11992.46,
-      "change_pct": -1.62,
+      "change_pct": -1.6,
       "as_of": "2026-08-19T21:30:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -325,11 +325,11 @@
       "symbol": "^N225",
       "group": "亚洲",
       "unit": "index",
-      "value": 65326.4219,
-      "raw_value": 65326.4219,
-      "previous_close": 67460.7266,
-      "change_pct": -3.16,
-      "as_of": "2026-08-19T08:00:00+08:00",
+      "value": 67460.7266,
+      "raw_value": 67460.7266,
+      "previous_close": 69220.25,
+      "change_pct": -2.54,
+      "as_of": "2026-08-18T08:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -339,11 +339,11 @@
       "symbol": "^KS11",
       "group": "亚洲",
       "unit": "index",
-      "value": 6471.1699,
-      "raw_value": 6471.1699,
-      "previous_close": 6869.8301,
-      "change_pct": -5.8,
-      "as_of": "2026-08-19T08:00:00+08:00",
+      "value": 6869.8301,
+      "raw_value": 6869.8301,
+      "previous_close": 6977.9399,
+      "change_pct": -1.55,
+      "as_of": "2026-08-18T08:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -367,10 +367,10 @@
       "symbol": "^TNX",
       "group": "利率",
       "unit": "yield",
-      "value": 4.643,
-      "raw_value": 4.643,
+      "value": 4.645,
+      "raw_value": 4.645,
       "previous_close": 4.706,
-      "change_pct": -1.34,
+      "change_pct": -1.3,
       "as_of": "2026-08-19T20:20:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -381,10 +381,10 @@
       "symbol": "DX-Y.NYB",
       "group": "汇率",
       "unit": "index",
-      "value": 98.848,
-      "raw_value": 98.848,
+      "value": 98.874,
+      "raw_value": 98.874,
       "previous_close": 99.65,
-      "change_pct": -0.8,
+      "change_pct": -0.78,
       "as_of": "2026-08-19T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -395,11 +395,11 @@
       "symbol": "CNH=X",
       "group": "汇率",
       "unit": "fx",
-      "value": 6.7299,
-      "raw_value": 6.7299,
+      "value": 6.7308,
+      "raw_value": 6.7308,
       "previous_close": null,
       "change_pct": null,
-      "as_of": "2026-08-19T22:58:39+08:00",
+      "as_of": "2026-08-19T23:00:27+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -409,10 +409,10 @@
       "symbol": "GC=F",
       "group": "商品",
       "unit": "usd",
-      "value": 4539.7998,
-      "raw_value": 4539.7998,
+      "value": 4537.7998,
+      "raw_value": 4537.7998,
       "previous_close": 4366.0,
-      "change_pct": 3.98,
+      "change_pct": 3.93,
       "as_of": "2026-08-19T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -423,10 +423,10 @@
       "symbol": "SI=F",
       "group": "商品",
       "unit": "usd",
-      "value": 65.6,
-      "raw_value": 65.6,
+      "value": 65.535,
+      "raw_value": 65.535,
       "previous_close": 63.941,
-      "change_pct": 2.59,
+      "change_pct": 2.49,
       "as_of": "2026-08-19T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -437,10 +437,10 @@
       "symbol": "CL=F",
       "group": "商品",
       "unit": "usd",
-      "value": 84.9,
-      "raw_value": 84.9,
+      "value": 84.97,
+      "raw_value": 84.97,
       "previous_close": 84.94,
-      "change_pct": -0.05,
+      "change_pct": 0.04,
       "as_of": "2026-08-19T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -451,10 +451,10 @@
       "symbol": "BZ=F",
       "group": "商品",
       "unit": "usd",
-      "value": 91.78,
-      "raw_value": 91.78,
+      "value": 91.88,
+      "raw_value": 91.88,
       "previous_close": 91.02,
-      "change_pct": 0.83,
+      "change_pct": 0.94,
       "as_of": "2026-08-19T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -584,21 +584,21 @@
     },
     {
       "name": "美股隔夜",
-      "score": -4.1,
+      "score": -3.4,
       "label": "中性",
       "weight": 4,
       "evidence": "标普/纳指/费半平均涨跌"
     },
     {
       "name": "美债 / 美元",
-      "score": 18.1,
+      "score": 17.6,
       "label": "偏多",
       "weight": 5,
       "evidence": "收益率与美元上行对长久期风险资产偏压制"
     },
     {
       "name": "商品避险",
-      "score": 27.6,
+      "score": 27.8,
       "label": "偏多",
       "weight": 3,
       "evidence": "黄金/白银/原油组合变化"
@@ -709,7 +709,7 @@
       "score": 45.6,
       "event_score": null,
       "technical_score": 82.0,
-      "industry_score": 0.0
+      "industry_score": null
     },
     {
       "theme": "黄金",
@@ -724,7 +724,7 @@
       "score": 35.6,
       "event_score": null,
       "technical_score": 38.0,
-      "industry_score": 0.0
+      "industry_score": null
     },
     {
       "theme": "白银",
@@ -739,7 +739,7 @@
       "score": -50.5,
       "event_score": null,
       "technical_score": -68.0,
-      "industry_score": 0.0
+      "industry_score": null
     }
   ],
   "outlook": {
@@ -820,9 +820,15 @@
     "risk": "2026-08-19T16:05:29+08:00",
     "valuation": "2026-08-19T16:05:26+08:00",
     "decision_matrix": "2026-08-19T16:05:29+08:00",
-    "global_markets": "2026-08-19T22:58:39+08:00",
-    "catalysts": "2026-08-19T22:59:13+08:00",
+    "global_markets": "2026-08-19T23:00:27+08:00",
+    "catalysts": "2026-08-19T23:01:02+08:00",
     "ai_signals": "2026-08-19 13:27"
   },
-  "boundary": "Daily Flash用于信息压缩、研究排序与条件验证；缺失数据保持缺失，不生成无条件买卖、仓位或止损指令。"
+  "boundary": "Daily Flash用于信息压缩、研究排序与条件验证；缺失数据保持缺失，不生成无条件买卖、仓位或止损指令。",
+  "integrity": {
+    "status": "ok",
+    "checked_themes": 8,
+    "failures": [],
+    "rule": "theme layer metrics average only final eligible Matrix layers; unavailable is null, never zero"
+  }
 }
