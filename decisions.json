@@ -1,35 +1,35 @@
 {
   "version": 1,
-  "generated_at": "2026-08-19T10:47:10+08:00",
+  "generated_at": "2026-08-19T11:36:21+08:00",
   "source": {
     "data_generated_at": "2026-08-19 09:54",
-    "ai_generated_at": "2026-08-19 10:05",
+    "ai_generated_at": "2026-08-19 11:33",
     "ai_source_generated_at": "2026-08-19 09:54",
-    "features_generated_at": "2026-08-19T10:47:01+08:00",
+    "features_generated_at": "2026-08-19T11:36:11+08:00",
     "fresh_ai": true
   },
   "decisions": [
     {
       "asset": "603986",
       "name": "兆易创新",
-      "as_of": "2026-08-19",
+      "as_of": "2026-08-18",
       "bias": "bearish",
       "status": "active",
       "event_score": 0.0,
-      "market_score": 35.0,
+      "market_score": 45.0,
       "freshness_score": 100,
-      "conviction": 72.0,
+      "conviction": 64.0,
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.140426",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.081572",
       "confirmation": [
-        "五只标的开盘后能否收复开盘位，并至少三只相对各自行业指数转强",
-        "费城半导体、三星电子、SK海力士及日股电子权重下一时段能否止跌"
+        "午后半导体、通信设备和元件能否至少两类收复早盘跌幅的一半并缩减净流出",
+        "五只观察标的中至少三只相对各自行业指数转强且收复开盘位"
       ],
       "invalidation": [
         "A股相关链条放量反包并形成板块扩散，海外负反馈未继续传导",
-        "长端收益率和油价显著回落，海外芯片指数快速收复主要跌幅"
+        "油价与长端收益率显著回落，海外芯片指数下一时段快速修复"
       ],
       "expires_at": "2026-08-24"
     },
@@ -48,12 +48,12 @@
       "trend_state": "mixed",
       "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.139114",
       "confirmation": [
-        "五只标的开盘后能否收复开盘位，并至少三只相对各自行业指数转强",
-        "费城半导体、三星电子、SK海力士及日股电子权重下一时段能否止跌"
+        "午后半导体、通信设备和元件能否至少两类收复早盘跌幅的一半并缩减净流出",
+        "五只观察标的中至少三只相对各自行业指数转强且收复开盘位"
       ],
       "invalidation": [
         "A股相关链条放量反包并形成板块扩散，海外负反馈未继续传导",
-        "长端收益率和油价显著回落，海外芯片指数快速收复主要跌幅"
+        "油价与长端收益率显著回落，海外芯片指数下一时段快速修复"
       ],
       "expires_at": "2026-11-17"
     },
@@ -72,12 +72,12 @@
       "trend_state": "mixed",
       "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.130615",
       "confirmation": [
-        "五只标的开盘后能否收复开盘位，并至少三只相对各自行业指数转强",
-        "费城半导体、三星电子、SK海力士及日股电子权重下一时段能否止跌"
+        "午后半导体、通信设备和元件能否至少两类收复早盘跌幅的一半并缩减净流出",
+        "五只观察标的中至少三只相对各自行业指数转强且收复开盘位"
       ],
       "invalidation": [
         "A股相关链条放量反包并形成板块扩散，海外负反馈未继续传导",
-        "长端收益率和油价显著回落，海外芯片指数快速收复主要跌幅"
+        "油价与长端收益率显著回落，海外芯片指数下一时段快速修复"
       ],
       "expires_at": "2026-08-24"
     },
@@ -96,43 +96,43 @@
       "trend_state": "mixed",
       "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.074372",
       "confirmation": [
-        "五只标的开盘后能否收复开盘位，并至少三只相对各自行业指数转强",
-        "费城半导体、三星电子、SK海力士及日股电子权重下一时段能否止跌"
+        "午后半导体、通信设备和元件能否至少两类收复早盘跌幅的一半并缩减净流出",
+        "五只观察标的中至少三只相对各自行业指数转强且收复开盘位"
       ],
       "invalidation": [
         "A股相关链条放量反包并形成板块扩散，海外负反馈未继续传导",
-        "长端收益率和油价显著回落，海外芯片指数快速收复主要跌幅"
+        "油价与长端收益率显著回落，海外芯片指数下一时段快速修复"
       ],
       "expires_at": "2026-08-24"
     },
     {
       "asset": "600667",
       "name": "太极实业",
-      "as_of": "2026-08-19",
+      "as_of": "2026-08-18",
       "bias": "bearish",
       "status": "watch",
       "event_score": 0.0,
-      "market_score": 75.0,
+      "market_score": 85.0,
       "freshness_score": 100,
-      "conviction": 40.0,
+      "conviction": 32.0,
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.288197",
+      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.378071",
       "confirmation": [
-        "五只标的开盘后能否收复开盘位，并至少三只相对各自行业指数转强",
-        "费城半导体、三星电子、SK海力士及日股电子权重下一时段能否止跌"
+        "午后半导体、通信设备和元件能否至少两类收复早盘跌幅的一半并缩减净流出",
+        "五只观察标的中至少三只相对各自行业指数转强且收复开盘位"
       ],
       "invalidation": [
         "A股相关链条放量反包并形成板块扩散，海外负反馈未继续传导",
-        "长端收益率和油价显著回落，海外芯片指数快速收复主要跌幅"
+        "油价与长端收益率显著回落，海外芯片指数下一时段快速修复"
       ],
       "expires_at": "2026-08-24"
     },
     {
       "asset": "000636",
       "name": "风华高科",
-      "as_of": "2026-08-19",
+      "as_of": "2026-08-18",
       "bias": "bullish",
       "status": "market_watch",
       "event_score": 50.0,
@@ -142,7 +142,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.400726",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.406588",
       "confirmation": [
         "被动元件板块形成联动",
         "涨价新闻后价格走势能够确认"
@@ -158,22 +158,22 @@
       "name": "国投白银LOF",
       "as_of": "2026-08-18",
       "bias": "bearish",
-      "status": "active",
-      "event_score": 10.0,
+      "status": "watch",
+      "event_score": 50.0,
       "market_score": 15.0,
       "freshness_score": 100,
-      "conviction": 76.0,
+      "conviction": 28.0,
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "bearish",
       "why_now": "fresh event evidence; market trend=bearish; 20d relative strength=-0.012625",
       "confirmation": [
-        "美元与长端实际利率是否回落，国内黄金ETF能否与外盘同向企稳",
-        "国投白银LOF最新净值、场内价格、溢价率及基金公告是否同步改善"
+        "黄金ETF能否在8.95–9.00区域止跌并重新站稳9.00，同时外盘黄金与人民币计价金价同步企稳",
+        "白银LOF最新净值、场内价格、溢价率及交易限制是否同步改善"
       ],
       "invalidation": [
-        "美伊局势缓和推动油价和长端收益率快速回落，贵金属重新走强",
-        "白银LOF场内价格仅因溢价扩大而上涨，未获基金净值确认"
+        "黄金ETF继续下探且贵金属板块转为净流出",
+        "油价与长端实际利率快速回落，海外金银重新形成趋势性上行"
       ],
       "expires_at": "2026-08-24"
     },
@@ -181,30 +181,30 @@
       "asset": "518880",
       "name": "黄金ETF华安",
       "as_of": "2026-08-18",
-      "bias": "bearish",
-      "status": "neutral",
-      "event_score": 10.0,
+      "bias": "bullish",
+      "status": "watch",
+      "event_score": 50.0,
       "market_score": 85.0,
       "freshness_score": 100,
-      "conviction": 20.0,
+      "conviction": 28.0,
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "bullish",
       "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.072036",
       "confirmation": [
-        "美元与长端实际利率是否回落，国内黄金ETF能否与外盘同向企稳",
-        "国投白银LOF最新净值、场内价格、溢价率及基金公告是否同步改善"
+        "黄金ETF能否在8.95–9.00区域止跌并重新站稳9.00，同时外盘黄金与人民币计价金价同步企稳",
+        "白银LOF最新净值、场内价格、溢价率及交易限制是否同步改善"
       ],
       "invalidation": [
-        "美伊局势缓和推动油价和长端收益率快速回落，贵金属重新走强",
-        "白银LOF场内价格仅因溢价扩大而上涨，未获基金净值确认"
+        "黄金ETF继续下探且贵金属板块转为净流出",
+        "油价与长端实际利率快速回落，海外金银重新形成趋势性上行"
       ],
       "expires_at": "2026-08-24"
     },
     {
       "asset": "517380",
       "name": "创新药沪港深ETF天弘",
-      "as_of": "2026-08-18",
+      "as_of": "2026-08-19",
       "bias": "bullish",
       "status": "market_watch",
       "event_score": 50.0,
@@ -214,7 +214,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.11596",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.100872",
       "confirmation": [
         "A股与港股创新药板块形成联动",
         "利好由成交量与持续性确认"
