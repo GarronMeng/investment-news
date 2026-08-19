@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "generated_at": null,
+  "timezone": "Asia/Shanghai",
+  "status": "unavailable",
+  "report_period_code": null,
+  "report_period": null,
+  "themes": [],
+  "summary": {"themes": 0, "companies": 0, "reported": 0, "scheduled": 0},
+  "warnings": ["seed artifact; awaiting first automated refresh"],
+  "methodology": {
+    "reported": "东方财富业绩报表 stock_yjbb_em via AKShare。",
+    "schedule": "东方财富预约披露 stock_yysj_em via AKShare。"
+  },
+  "boundary": "主题公司池是公开研究样本，不代表推荐、持仓或收益预测。"
+}
