@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-08-19T11:36:21+08:00",
-  "history_generated_at": "2026-08-19T11:36:11+08:00",
+  "generated_at": "2026-08-19T12:06:42+08:00",
+  "history_generated_at": "2026-08-19T12:06:33+08:00",
   "records": 33,
   "raw_ledger_records": 42,
   "superseded_records": 9,
@@ -360,14 +360,7 @@
       "entry_close": 0.895,
       "horizons": {
         "t1": {
-          "status": "settled",
-          "date": "2026-08-19",
-          "asset_return": -0.012291,
-          "benchmark_return": null,
-          "excess_return": null,
-          "absolute_excess": null,
-          "directional_excess": -0.012291,
-          "correct": false
+          "status": "pending"
         },
         "t5": {
           "status": "pending"
@@ -393,14 +386,7 @@
       "entry_close": 0.895,
       "horizons": {
         "t1": {
-          "status": "settled",
-          "date": "2026-08-19",
-          "asset_return": -0.012291,
-          "benchmark_return": null,
-          "excess_return": null,
-          "absolute_excess": null,
-          "directional_excess": -0.012291,
-          "correct": false
+          "status": "pending"
         },
         "t5": {
           "status": "pending"
@@ -614,29 +600,7 @@
     },
     {
       "state_id": "e7a4af7793bbc55e",
-      "state_revision": 2,
-      "asset": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "signal_date": "2026-08-19",
-      "matrix_direction": "bullish",
-      "thesis_state": "supported",
-      "evidence_state": "partial_confirmation",
-      "composite_score": 42.2,
-      "confluence": 66.5,
-      "conflict_score": 35.8,
-      "entry_date": "2026-08-19",
-      "entry_close": 0.884,
-      "horizons": {
-        "t1": {
-          "status": "pending"
-        },
-        "t5": {
-          "status": "pending"
-        },
-        "t20": {
-          "status": "pending"
-        }
-      }
+      "status": "unavailable"
     },
     {
       "state_id": "2411a03567dd842f",
@@ -664,10 +628,10 @@
       "records": 7,
       "horizons": {
         "t1": {
-          "settled": 1,
-          "directional_settled": 1,
-          "win_rate": 0.0,
-          "mean_directional_excess": -0.012291,
+          "settled": 0,
+          "directional_settled": 0,
+          "win_rate": null,
+          "mean_directional_excess": null,
           "mean_excess_return": null,
           "mean_absolute_excess": null,
           "readout": "insufficient_sample"
@@ -789,13 +753,13 @@
       }
     },
     "supported": {
-      "records": 7,
+      "records": 6,
       "horizons": {
         "t1": {
-          "settled": 1,
-          "directional_settled": 1,
-          "win_rate": 0.0,
-          "mean_directional_excess": -0.012291,
+          "settled": 0,
+          "directional_settled": 0,
+          "win_rate": null,
+          "mean_directional_excess": null,
           "mean_excess_return": null,
           "mean_absolute_excess": null,
           "readout": "insufficient_sample"
@@ -858,10 +822,10 @@
       "records": 7,
       "horizons": {
         "t1": {
-          "settled": 1,
-          "directional_settled": 1,
-          "win_rate": 0.0,
-          "mean_directional_excess": -0.012291,
+          "settled": 0,
+          "directional_settled": 0,
+          "win_rate": null,
+          "mean_directional_excess": null,
           "mean_excess_return": null,
           "mean_absolute_excess": null,
           "readout": "insufficient_sample"
@@ -919,13 +883,13 @@
       }
     },
     "partial_confirmation": {
-      "records": 9,
+      "records": 8,
       "horizons": {
         "t1": {
-          "settled": 1,
-          "directional_settled": 1,
-          "win_rate": 0.0,
-          "mean_directional_excess": -0.012291,
+          "settled": 0,
+          "directional_settled": 0,
+          "win_rate": null,
+          "mean_directional_excess": null,
           "mean_excess_return": null,
           "mean_absolute_excess": null,
           "readout": "insufficient_sample"

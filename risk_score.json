@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-19T11:36:21+08:00",
+  "generated_at": "2026-08-19T12:06:42+08:00",
   "score": 74.8,
   "label": "high",
   "coverage": 100.0,
@@ -16,7 +16,7 @@
       "score": 88.6,
       "weight": 25,
       "available": true,
-      "evidence": "risk_off；上涨占比 10.5%"
+      "evidence": "risk_off；上涨占比 10.4%"
     },
     "trend": {
       "score": 73.0,
@@ -40,14 +40,14 @@
       "score": 66.0,
       "weight": 10,
       "available": true,
-      "evidence": "regime=risk_off；指数均值 -2.74% / 上涨占比 10.5%"
+      "evidence": "regime=risk_off；指数均值 -3.00% / 上涨占比 10.4%"
     }
   },
   "drivers": [
     {
       "component": "market_structure",
       "score": 88.6,
-      "evidence": "risk_off；上涨占比 10.5%"
+      "evidence": "risk_off；上涨占比 10.4%"
     },
     {
       "component": "valuation",
