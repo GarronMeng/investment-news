@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generated_at": "2026-08-19T09:58:51+08:00",
-  "score": 67.8,
-  "label": "elevated",
+  "generated_at": "2026-08-19T10:47:10+08:00",
+  "score": 74.8,
+  "label": "high",
   "coverage": 100.0,
   "available_weight": 100,
   "components": {
@@ -13,10 +13,10 @@
       "evidence": "沪深300滚动PE十年分位 79.2%"
     },
     "market_structure": {
-      "score": 63.7,
+      "score": 88.6,
       "weight": 25,
       "available": true,
-      "evidence": "transition；上涨占比 38.2%"
+      "evidence": "risk_off；上涨占比 10.5%"
     },
     "trend": {
       "score": 73.0,
@@ -37,13 +37,18 @@
       "evidence": "VIX 15.84；20日分位 50.0%"
     },
     "concentration": {
-      "score": 58.0,
+      "score": 66.0,
       "weight": 10,
       "available": true,
-      "evidence": "regime=transition；指数均值 -0.30% / 上涨占比 38.2%"
+      "evidence": "regime=risk_off；指数均值 -2.74% / 上涨占比 10.5%"
     }
   },
   "drivers": [
+    {
+      "component": "market_structure",
+      "score": 88.6,
+      "evidence": "risk_off；上涨占比 10.5%"
+    },
     {
       "component": "valuation",
       "score": 79.2,
@@ -53,14 +58,15 @@
       "component": "leverage",
       "score": 76.5,
       "evidence": "两融5日变化 3.31%（20日基线尚未完整）"
-    },
-    {
-      "component": "trend",
-      "score": 73.0,
-      "evidence": "MA60 below/falling；MACD bullish；RSI neutral"
     }
   ],
-  "state_changes": [],
+  "state_changes": [
+    {
+      "type": "label",
+      "from": "elevated",
+      "to": "high"
+    }
+  ],
   "methodology": "估值20% + 市场结构25% + 基准趋势20% + 两融15% + 海外风险10% + 集中度10%。缺失项剔除并按可用权重重新归一；高分表示环境更脆弱/压力更高，不是下跌概率。",
   "boundary": "风险温度只做环境校准，不生成买卖、仓位或止损指令。"
 }
