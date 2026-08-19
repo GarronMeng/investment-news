@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-19T13:52:06+08:00",
+  "generated_at": "2026-08-19T15:10:43+08:00",
   "score": 75.0,
   "label": "high",
   "coverage": 100.0,
@@ -13,10 +13,10 @@
       "evidence": "沪深300滚动PE十年分位 79.2%"
     },
     "market_structure": {
-      "score": 89.5,
+      "score": 89.6,
       "weight": 25,
       "available": true,
-      "evidence": "risk_off；上涨占比 8.2%"
+      "evidence": "risk_off；上涨占比 8.1%"
     },
     "trend": {
       "score": 73.0,
@@ -40,14 +40,14 @@
       "score": 66.0,
       "weight": 10,
       "available": true,
-      "evidence": "regime=risk_off；指数均值 -3.18% / 上涨占比 8.2%"
+      "evidence": "regime=risk_off；指数均值 -3.68% / 上涨占比 8.1%"
     }
   },
   "drivers": [
     {
       "component": "market_structure",
-      "score": 89.5,
-      "evidence": "risk_off；上涨占比 8.2%"
+      "score": 89.6,
+      "evidence": "risk_off；上涨占比 8.1%"
     },
     {
       "component": "valuation",

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-08-19T13:51:23+08:00",
-  "source_generated_at": "2026-08-19T13:51:22+08:00",
+  "generated_at": "2026-08-19T15:10:32+08:00",
+  "source_generated_at": "2026-08-19T15:10:32+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -246,27 +246,27 @@
     "518880": {
       "code": "518880",
       "name": "黄金ETF华安",
-      "as_of": "2026-08-19",
+      "as_of": "2026-08-18",
       "source_status": "fresh",
       "observations": 140,
-      "close": 8.952,
+      "close": 9.078,
       "ma60": {
-        "value": 8.7202,
+        "value": 8.7286,
         "position": "above",
         "direction": "falling",
-        "slope_pct": -0.000959
+        "slope_pct": -0.000828
       },
-      "rsi14": 58.48,
+      "rsi14": 65.62,
       "rsi_zone": "strong",
       "macd": {
-        "dif": 0.1302,
-        "dea": 0.08786,
-        "hist": 0.08468,
+        "dif": 0.13564,
+        "dea": 0.07728,
+        "hist": 0.11671,
         "state": "bullish",
         "cross_age": null
       },
       "volume": {
-        "ratio20": 0.629,
+        "ratio20": 0.741,
         "state": "contraction"
       },
       "breakout_20d": "inside_range",
@@ -276,27 +276,27 @@
     "517380": {
       "code": "517380",
       "name": "创新药沪港深ETF天弘",
-      "as_of": "2026-08-19",
+      "as_of": "2026-08-18",
       "source_status": "fresh",
       "observations": 140,
-      "close": 0.886,
+      "close": 0.895,
       "ma60": {
-        "value": 0.7582,
+        "value": 0.7552,
         "position": "above",
         "direction": "rising",
-        "slope_pct": 0.003928
+        "slope_pct": 0.004211
       },
-      "rsi14": 64.22,
+      "rsi14": 67.16,
       "rsi_zone": "strong",
       "macd": {
-        "dif": 0.03266,
-        "dea": 0.02942,
-        "hist": 0.00647,
+        "dif": 0.03326,
+        "dea": 0.02862,
+        "hist": 0.00928,
         "state": "bullish",
-        "cross_age": 8
+        "cross_age": 7
       },
       "volume": {
-        "ratio20": 1.02,
+        "ratio20": 1.219,
         "state": "normal"
       },
       "breakout_20d": "inside_range",
@@ -304,64 +304,7 @@
       "condition_state": "all_conditions"
     }
   },
-  "state_changes": [
-    {
-      "code": "300308",
-      "name": "中际旭创",
-      "field": "rsi_zone",
-      "from": "weak",
-      "to": "neutral"
-    },
-    {
-      "code": "600667",
-      "name": "太极实业",
-      "field": "rsi_zone",
-      "from": "neutral",
-      "to": "strong"
-    },
-    {
-      "code": "600667",
-      "name": "太极实业",
-      "field": "volume",
-      "from": "contraction",
-      "to": "normal"
-    },
-    {
-      "code": "600667",
-      "name": "太极实业",
-      "field": "condition_state",
-      "from": "partial_conditions",
-      "to": "all_conditions"
-    },
-    {
-      "code": "000636",
-      "name": "风华高科",
-      "field": "ma60_position",
-      "from": "below",
-      "to": "above"
-    },
-    {
-      "code": "000636",
-      "name": "风华高科",
-      "field": "rsi_zone",
-      "from": "neutral",
-      "to": "strong"
-    },
-    {
-      "code": "000636",
-      "name": "风华高科",
-      "field": "volume",
-      "from": "contraction",
-      "to": "normal"
-    },
-    {
-      "code": "000636",
-      "name": "风华高科",
-      "field": "condition_state",
-      "from": "partial_conditions",
-      "to": "all_conditions"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "rsi14": "Wilder RSI(14)",
     "macd": "EMA12/EMA26 DIF, EMA9 signal, histogram=(DIF-DEA)*2",

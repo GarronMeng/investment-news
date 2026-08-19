@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "generated_at": "2026-08-19T13:52:06+08:00",
+  "generated_at": "2026-08-19T15:10:43+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
-    "confirmed": 4,
+    "confirmed": 5,
     "supported": 2,
     "contradicted": 0,
-    "conflicted": 3,
+    "conflicted": 2,
     "emerging": 0,
     "insufficient": 0,
     "top_attention": [
@@ -28,9 +28,9 @@
       "as_of": "2026-08-18",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -53.4,
+      "composite_score": -53.7,
       "coverage": 100.0,
-      "confluence": 86.0,
+      "confluence": 86.1,
       "available_layers": 5,
       "opposing_weight_share": 0.0,
       "evidence_state": "multi_layer_confirmed",
@@ -58,9 +58,9 @@
         },
         "industry": {
           "available": true,
-          "score": -93.5,
+          "score": -96.0,
           "confidence": "low",
-          "evidence": "半导体 涨跌-6.15%/净流-277.6亿",
+          "evidence": "半导体 涨跌-7.44%/净流-326.9亿",
           "matches": [
             "半导体"
           ],
@@ -71,9 +71,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -65.1,
+          "score": -65.2,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.0815；风险温度=75.0。"
+          "evidence": "regime=risk_off；上涨占比=0.0808；风险温度=75.0。"
         }
       },
       "contributors": {
@@ -86,8 +86,8 @@
           },
           {
             "layer": "industry",
-            "score": -93.5,
-            "evidence": "半导体 涨跌-6.15%/净流-277.6亿"
+            "score": -96.0,
+            "evidence": "半导体 涨跌-7.44%/净流-326.9亿"
           }
         ]
       },
@@ -101,7 +101,7 @@
       ],
       "excluded_layers": [],
       "positive_direction_mass": 0.0,
-      "negative_direction_mass": 51.5,
+      "negative_direction_mass": 51.9,
       "conflict_score": 0.0
     },
     "001309": {
@@ -113,9 +113,9 @@
       "as_of": "2026-08-18",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -43.2,
+      "composite_score": -43.7,
       "coverage": 100.0,
-      "confluence": 83.0,
+      "confluence": 83.1,
       "available_layers": 5,
       "opposing_weight_share": 0.0,
       "evidence_state": "multi_layer_confirmed",
@@ -143,9 +143,9 @@
         },
         "industry": {
           "available": true,
-          "score": -79.3,
+          "score": -82.4,
           "confidence": "medium",
-          "evidence": "半导体 涨跌-6.15%/净流-277.6亿；消费电子 涨跌-5.22%/净流-76.6亿",
+          "evidence": "半导体 涨跌-7.44%/净流-326.9亿；消费电子 涨跌-6.34%/净流-92.6亿",
           "matches": [
             "半导体",
             "消费电子"
@@ -158,9 +158,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -65.1,
+          "score": -65.2,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.0815；风险温度=75.0。"
+          "evidence": "regime=risk_off；上涨占比=0.0808；风险温度=75.0。"
         }
       },
       "contributors": {
@@ -168,8 +168,8 @@
         "negative": [
           {
             "layer": "industry",
-            "score": -79.3,
-            "evidence": "半导体 涨跌-6.15%/净流-277.6亿；消费电子 涨跌-5.22%/净流-76.6亿"
+            "score": -82.4,
+            "evidence": "半导体 涨跌-7.44%/净流-326.9亿；消费电子 涨跌-6.34%/净流-92.6亿"
           },
           {
             "layer": "technical",
@@ -188,7 +188,7 @@
       ],
       "excluded_layers": [],
       "positive_direction_mass": 0.0,
-      "negative_direction_mass": 43.2,
+      "negative_direction_mass": 43.7,
       "conflict_score": 0.0
     },
     "300308": {
@@ -200,9 +200,9 @@
       "as_of": "2026-08-18",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -53.1,
+      "composite_score": -53.8,
       "coverage": 100.0,
-      "confluence": 85.9,
+      "confluence": 86.1,
       "available_layers": 5,
       "opposing_weight_share": 0.0,
       "evidence_state": "multi_layer_confirmed",
@@ -230,9 +230,9 @@
         },
         "industry": {
           "available": true,
-          "score": -78.2,
+          "score": -83.2,
           "confidence": "low",
-          "evidence": "通信设备 涨跌-6.00%/净流-139.8亿",
+          "evidence": "通信设备 涨跌-7.31%/净流-171.6亿",
           "matches": [
             "通信设备"
           ],
@@ -243,9 +243,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -65.1,
+          "score": -65.2,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.0815；风险温度=75.0。"
+          "evidence": "regime=risk_off；上涨占比=0.0808；风险温度=75.0。"
         }
       },
       "contributors": {
@@ -258,8 +258,8 @@
           },
           {
             "layer": "industry",
-            "score": -78.2,
-            "evidence": "通信设备 涨跌-6.00%/净流-139.8亿"
+            "score": -83.2,
+            "evidence": "通信设备 涨跌-7.31%/净流-171.6亿"
           }
         ]
       },
@@ -273,7 +273,7 @@
       ],
       "excluded_layers": [],
       "positive_direction_mass": 0.0,
-      "negative_direction_mass": 53.1,
+      "negative_direction_mass": 53.8,
       "conflict_score": 0.0
     },
     "002384": {
@@ -285,9 +285,9 @@
       "as_of": "2026-08-18",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -48.4,
+      "composite_score": -48.6,
       "coverage": 100.0,
-      "confluence": 84.5,
+      "confluence": 84.6,
       "available_layers": 5,
       "opposing_weight_share": 0.0,
       "evidence_state": "multi_layer_confirmed",
@@ -315,9 +315,9 @@
         },
         "industry": {
           "available": true,
-          "score": -66.9,
+          "score": -68.7,
           "confidence": "medium",
-          "evidence": "元件 涨跌-6.37%/净流-92.4亿；消费电子 涨跌-5.22%/净流-76.6亿",
+          "evidence": "元件 涨跌-7.68%/净流-91.5亿；消费电子 涨跌-6.34%/净流-92.6亿",
           "matches": [
             "元件",
             "消费电子"
@@ -330,9 +330,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -65.1,
+          "score": -65.2,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.0815；风险温度=75.0。"
+          "evidence": "regime=risk_off；上涨占比=0.0808；风险温度=75.0。"
         }
       },
       "contributors": {
@@ -345,8 +345,8 @@
           },
           {
             "layer": "industry",
-            "score": -66.9,
-            "evidence": "元件 涨跌-6.37%/净流-92.4亿；消费电子 涨跌-5.22%/净流-76.6亿"
+            "score": -68.7,
+            "evidence": "元件 涨跌-7.68%/净流-91.5亿；消费电子 涨跌-6.34%/净流-92.6亿"
           }
         ]
       },
@@ -360,7 +360,7 @@
       ],
       "excluded_layers": [],
       "positive_direction_mass": 0.0,
-      "negative_direction_mass": 47.5,
+      "negative_direction_mass": 47.8,
       "conflict_score": 0.0
     },
     "600667": {
@@ -372,9 +372,9 @@
       "as_of": "2026-08-18",
       "base_bias": "bearish",
       "matrix_direction": "neutral",
-      "composite_score": -2.1,
+      "composite_score": -2.5,
       "coverage": 100.0,
-      "confluence": 3.2,
+      "confluence": 3.8,
       "available_layers": 5,
       "opposing_weight_share": 0.0,
       "evidence_state": "conflict",
@@ -402,9 +402,9 @@
         },
         "industry": {
           "available": true,
-          "score": -93.5,
+          "score": -96.0,
           "confidence": "low",
-          "evidence": "半导体 涨跌-6.15%/净流-277.6亿",
+          "evidence": "半导体 涨跌-7.44%/净流-326.9亿",
           "matches": [
             "半导体"
           ],
@@ -415,9 +415,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -65.1,
+          "score": -65.2,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.0815；风险温度=75.0。"
+          "evidence": "regime=risk_off；上涨占比=0.0808；风险温度=75.0。"
         }
       },
       "contributors": {
@@ -441,8 +441,8 @@
           },
           {
             "layer": "industry",
-            "score": -93.5,
-            "evidence": "半导体 涨跌-6.15%/净流-277.6亿"
+            "score": -96.0,
+            "evidence": "半导体 涨跌-7.44%/净流-326.9亿"
           }
         ]
       },
@@ -456,8 +456,8 @@
       ],
       "excluded_layers": [],
       "positive_direction_mass": 43.4,
-      "negative_direction_mass": 45.5,
-      "conflict_score": 97.6
+      "negative_direction_mass": 45.9,
+      "conflict_score": 97.2
     },
     "000636": {
       "code": "000636",
@@ -498,9 +498,9 @@
         },
         "industry": {
           "available": true,
-          "score": -68.7,
+          "score": -68.5,
           "confidence": "low",
-          "evidence": "元件 涨跌-6.37%/净流-92.4亿",
+          "evidence": "元件 涨跌-7.68%/净流-91.5亿",
           "matches": [
             "元件"
           ],
@@ -511,9 +511,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -65.1,
+          "score": -65.2,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.0815；风险温度=75.0。"
+          "evidence": "regime=risk_off；上涨占比=0.0808；风险温度=75.0。"
         }
       },
       "contributors": {
@@ -532,13 +532,13 @@
         "negative": [
           {
             "layer": "industry",
-            "score": -68.7,
-            "evidence": "元件 涨跌-6.37%/净流-92.4亿"
+            "score": -68.5,
+            "evidence": "元件 涨跌-7.68%/净流-91.5亿"
           },
           {
             "layer": "market_context",
-            "score": -65.1,
-            "evidence": "regime=risk_off；上涨占比=0.0815；风险温度=75.0。"
+            "score": -65.2,
+            "evidence": "regime=risk_off；上涨占比=0.0808；风险温度=75.0。"
           }
         ]
       },
@@ -641,18 +641,18 @@
       "group": "贵金属对冲",
       "role": "低波动避险映射",
       "priority": 3,
-      "as_of": "2026-08-19",
+      "as_of": "2026-08-18",
       "base_bias": "bullish",
-      "matrix_direction": "neutral",
-      "composite_score": 17.3,
+      "matrix_direction": "bullish",
+      "composite_score": 23.8,
       "coverage": 75.0,
-      "confluence": 26.0,
+      "confluence": 77.1,
       "available_layers": 3,
       "opposing_weight_share": 0.0,
-      "evidence_state": "noise_or_no_edge",
-      "thesis_state": "under_test",
-      "attention_score": 71.7,
-      "research_focus": "原方向尚未被市场充分确认，继续观察验证/失效条件。",
+      "evidence_state": "partial_confirmation",
+      "thesis_state": "supported",
+      "attention_score": 59.1,
+      "research_focus": "维持观察，等待更多层形成共振。",
       "layers": {
         "event": {
           "available": true,
@@ -664,13 +664,13 @@
           "available": true,
           "score": 38.0,
           "confidence": "medium",
-          "evidence": "MA60 above/falling；MACD bullish；RSI 58.48 (strong)；量能 contraction；20日结构 inside_range。"
+          "evidence": "MA60 above/falling；MACD bullish；RSI 65.62 (strong)；量能 contraction；20日结构 inside_range。"
         },
         "relative_strength": {
           "available": true,
-          "score": 7.9,
+          "score": 32.1,
           "confidence": "high",
-          "evidence": "5日相对强弱 -0.029067；20日相对强弱 0.045794。"
+          "evidence": "5日相对强弱 -0.00482；20日相对强弱 0.072036。"
         },
         "industry": {
           "available": false,
@@ -692,12 +692,12 @@
           {
             "layer": "technical",
             "score": 38.0,
-            "evidence": "MA60 above/falling；MACD bullish；RSI 58.48 (strong)；量能 contraction；20日结构 inside_range。"
+            "evidence": "MA60 above/falling；MACD bullish；RSI 65.62 (strong)；量能 contraction；20日结构 inside_range。"
           },
           {
             "layer": "relative_strength",
-            "score": 7.9,
-            "evidence": "5日相对强弱 -0.029067；20日相对强弱 0.045794。"
+            "score": 32.1,
+            "evidence": "5日相对强弱 -0.00482；20日相对强弱 0.072036。"
           }
         ],
         "negative": []
@@ -711,7 +711,7 @@
         "油价与长端实际利率快速回落，海外金银重新形成趋势性上行"
       ],
       "excluded_layers": [],
-      "positive_direction_mass": 11.4,
+      "positive_direction_mass": 17.8,
       "negative_direction_mass": 0.0,
       "conflict_score": 0.0
     },
@@ -721,18 +721,18 @@
       "group": "医疗成长",
       "role": "创新药分散配置",
       "priority": 3,
-      "as_of": "2026-08-19",
+      "as_of": "2026-08-18",
       "base_bias": "bullish",
       "matrix_direction": "bullish",
-      "composite_score": 43.7,
+      "composite_score": 45.6,
       "coverage": 60.0,
-      "confluence": 71.4,
+      "confluence": 72.0,
       "available_layers": 3,
       "opposing_weight_share": 16.7,
-      "evidence_state": "partial_confirmation",
-      "thesis_state": "supported",
-      "attention_score": 58.8,
-      "research_focus": "维持观察，等待更多层形成共振。",
+      "evidence_state": "multi_layer_confirmed",
+      "thesis_state": "confirmed",
+      "attention_score": 68.8,
+      "research_focus": "验证持续性、行业扩散与后续基本面证据。",
       "layers": {
         "event": {
           "available": false,
@@ -744,13 +744,13 @@
           "available": true,
           "score": 82.0,
           "confidence": "high",
-          "evidence": "MA60 above/rising；MACD bullish；RSI 64.22 (strong)；量能 normal；20日结构 inside_range。"
+          "evidence": "MA60 above/rising；MACD bullish；RSI 67.16 (strong)；量能 normal；20日结构 inside_range。"
         },
         "relative_strength": {
           "available": true,
-          "score": 40.7,
+          "score": 46.5,
           "confidence": "high",
-          "evidence": "5日相对强弱 -0.007944；20日相对强弱 0.103362。"
+          "evidence": "5日相对强弱 -0.00346；20日相对强弱 0.11596。"
         },
         "industry": {
           "available": false,
@@ -766,9 +766,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -65.1,
+          "score": -65.2,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.0815；风险温度=75.0。"
+          "evidence": "regime=risk_off；上涨占比=0.0808；风险温度=75.0。"
         }
       },
       "contributors": {
@@ -776,19 +776,19 @@
           {
             "layer": "technical",
             "score": 82.0,
-            "evidence": "MA60 above/rising；MACD bullish；RSI 64.22 (strong)；量能 normal；20日结构 inside_range。"
+            "evidence": "MA60 above/rising；MACD bullish；RSI 67.16 (strong)；量能 normal；20日结构 inside_range。"
           },
           {
             "layer": "relative_strength",
-            "score": 40.7,
-            "evidence": "5日相对强弱 -0.007944；20日相对强弱 0.103362。"
+            "score": 46.5,
+            "evidence": "5日相对强弱 -0.00346；20日相对强弱 0.11596。"
           }
         ],
         "negative": [
           {
             "layer": "market_context",
-            "score": -65.1,
-            "evidence": "regime=risk_off；上涨占比=0.0815；风险温度=75.0。"
+            "score": -65.2,
+            "evidence": "regime=risk_off；上涨占比=0.0808；风险温度=75.0。"
           }
         ]
       },
@@ -801,9 +801,9 @@
         "监管或支付政策收紧"
       ],
       "excluded_layers": [],
-      "positive_direction_mass": 32.7,
+      "positive_direction_mass": 33.9,
       "negative_direction_mass": 6.5,
-      "conflict_score": 33.2
+      "conflict_score": 32.3
     }
   },
   "ranking": [
@@ -812,10 +812,10 @@
     "603986",
     "001309",
     "300308",
-    "518880",
     "002384",
+    "517380",
     "161226",
-    "517380"
+    "518880"
   ],
   "state_changes": [
     {
@@ -835,6 +835,13 @@
     {
       "code": "000636",
       "name": "风华高科",
+      "field": "matrix_direction",
+      "from": "bullish",
+      "to": "neutral"
+    },
+    {
+      "code": "000636",
+      "name": "风华高科",
       "field": "evidence_state",
       "from": "conflict",
       "to": "noise_or_no_edge"
@@ -850,36 +857,36 @@
       "code": "518880",
       "name": "黄金ETF华安",
       "field": "matrix_direction",
-      "from": "bullish",
-      "to": "neutral"
+      "from": "neutral",
+      "to": "bullish"
     },
     {
       "code": "518880",
       "name": "黄金ETF华安",
       "field": "evidence_state",
-      "from": "partial_confirmation",
-      "to": "noise_or_no_edge"
-    },
-    {
-      "code": "518880",
-      "name": "黄金ETF华安",
-      "field": "thesis_state",
-      "from": "supported",
-      "to": "under_test"
-    },
-    {
-      "code": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "field": "evidence_state",
-      "from": "multi_layer_confirmed",
+      "from": "noise_or_no_edge",
       "to": "partial_confirmation"
     },
     {
+      "code": "518880",
+      "name": "黄金ETF华安",
+      "field": "thesis_state",
+      "from": "under_test",
+      "to": "supported"
+    },
+    {
+      "code": "517380",
+      "name": "创新药沪港深ETF天弘",
+      "field": "evidence_state",
+      "from": "partial_confirmation",
+      "to": "multi_layer_confirmed"
+    },
+    {
       "code": "517380",
       "name": "创新药沪港深ETF天弘",
       "field": "thesis_state",
-      "from": "confirmed",
-      "to": "supported"
+      "from": "supported",
+      "to": "confirmed"
     }
   ],
   "methodology": {
