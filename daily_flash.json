@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-19T23:08:23+08:00",
+  "generated_at": "2026-08-19T23:57:07+08:00",
   "timezone": "Asia/Shanghai",
   "title": "Daily Flash · 每日投资驾驶舱",
   "core_conclusion": "A股状态为 Risk-off，上涨家数占比 8.1%，风险温度 75/100（high）。沪深300 PE-TTM 14.57；10年分位 79.2%；强势：厨卫电器、煤炭开采加工、银行；弱势：电子化学品、元件、自动化设备。研究复核优先关注 太极实业、风华高科、德明利；该排序代表证据变化与复核优先级，不代表交易优先级。资金/期指：融资余额26573亿元，5日+3.31%；南向成交净买额-106.2亿元；中证500股指期货基差-0.92%。",
@@ -361,10 +361,10 @@
       "symbol": "^GSPC",
       "group": "美股",
       "unit": "index",
-      "value": 7738.9702,
-      "raw_value": 7738.9702,
+      "value": 7721.4902,
+      "raw_value": 7721.4902,
       "previous_close": 7691.7598,
-      "change_pct": 0.61,
+      "change_pct": 0.39,
       "as_of": "2026-08-19T21:30:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -375,10 +375,10 @@
       "symbol": "^IXIC",
       "group": "美股",
       "unit": "index",
-      "value": 26393.6914,
-      "raw_value": 26393.6914,
+      "value": 26373.8848,
+      "raw_value": 26373.8848,
       "previous_close": 26289.7109,
-      "change_pct": 0.4,
+      "change_pct": 0.32,
       "as_of": "2026-08-19T21:30:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -389,10 +389,10 @@
       "symbol": "^SOX",
       "group": "美股",
       "unit": "index",
-      "value": 11764.8301,
-      "raw_value": 11764.8301,
+      "value": 11748.3086,
+      "raw_value": 11748.3086,
       "previous_close": 11992.46,
-      "change_pct": -1.9,
+      "change_pct": -2.04,
       "as_of": "2026-08-19T21:30:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -445,10 +445,10 @@
       "symbol": "^VIX",
       "group": "风险",
       "unit": "index",
-      "value": 15.2,
-      "raw_value": 15.2,
+      "value": 15.21,
+      "raw_value": 15.21,
       "previous_close": 15.84,
-      "change_pct": -4.04,
+      "change_pct": -3.98,
       "as_of": "2026-08-19T15:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -459,10 +459,10 @@
       "symbol": "^TNX",
       "group": "利率",
       "unit": "yield",
-      "value": 4.653,
-      "raw_value": 4.653,
+      "value": 4.654,
+      "raw_value": 4.654,
       "previous_close": 4.706,
-      "change_pct": -1.13,
+      "change_pct": -1.1,
       "as_of": "2026-08-19T20:20:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -473,10 +473,10 @@
       "symbol": "DX-Y.NYB",
       "group": "汇率",
       "unit": "index",
-      "value": 98.895,
-      "raw_value": 98.895,
+      "value": 98.88,
+      "raw_value": 98.88,
       "previous_close": 99.65,
-      "change_pct": -0.76,
+      "change_pct": -0.77,
       "as_of": "2026-08-19T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -487,11 +487,11 @@
       "symbol": "CNH=X",
       "group": "汇率",
       "unit": "fx",
-      "value": 6.7306,
-      "raw_value": 6.7306,
+      "value": 6.7305,
+      "raw_value": 6.7305,
       "previous_close": null,
       "change_pct": null,
-      "as_of": "2026-08-19T23:07:37+08:00",
+      "as_of": "2026-08-19T23:54:49+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -501,10 +501,10 @@
       "symbol": "GC=F",
       "group": "商品",
       "unit": "usd",
-      "value": 4546.8999,
-      "raw_value": 4546.8999,
+      "value": 4549.6001,
+      "raw_value": 4549.6001,
       "previous_close": 4366.0,
-      "change_pct": 4.14,
+      "change_pct": 4.21,
       "as_of": "2026-08-19T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -515,10 +515,10 @@
       "symbol": "SI=F",
       "group": "商品",
       "unit": "usd",
-      "value": 65.72,
-      "raw_value": 65.72,
+      "value": 65.93,
+      "raw_value": 65.93,
       "previous_close": 63.941,
-      "change_pct": 2.78,
+      "change_pct": 3.11,
       "as_of": "2026-08-19T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -529,10 +529,10 @@
       "symbol": "CL=F",
       "group": "商品",
       "unit": "usd",
-      "value": 84.98,
-      "raw_value": 84.98,
+      "value": 85.24,
+      "raw_value": 85.24,
       "previous_close": 84.94,
-      "change_pct": 0.05,
+      "change_pct": 0.35,
       "as_of": "2026-08-19T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -543,10 +543,10 @@
       "symbol": "BZ=F",
       "group": "商品",
       "unit": "usd",
-      "value": 91.89,
-      "raw_value": 91.89,
+      "value": 92.21,
+      "raw_value": 92.21,
       "previous_close": 91.02,
-      "change_pct": 0.96,
+      "change_pct": 1.31,
       "as_of": "2026-08-19T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -676,21 +676,21 @@
     },
     {
       "name": "美股隔夜",
-      "score": -5.9,
+      "score": -8.9,
       "label": "中性",
       "weight": 4,
       "evidence": "标普/纳指/费半平均涨跌"
     },
     {
       "name": "美债 / 美元",
-      "score": 16.1,
+      "score": 15.9,
       "label": "偏多",
       "weight": 5,
       "evidence": "收益率与美元上行对长久期风险资产偏压制"
     },
     {
       "name": "商品避险",
-      "score": 29.7,
+      "score": 33.7,
       "label": "偏多",
       "weight": 3,
       "evidence": "黄金/白银/原油组合变化"
@@ -912,11 +912,13 @@
     "risk": "2026-08-19T16:05:29+08:00",
     "valuation": "2026-08-19T16:05:26+08:00",
     "decision_matrix": "2026-08-19T16:05:29+08:00",
-    "global_markets": "2026-08-19T23:07:36+08:00",
-    "catalysts": "2026-08-19T23:08:23+08:00",
+    "global_markets": "2026-08-19T23:54:49+08:00",
+    "catalysts": "2026-08-19T23:55:24+08:00",
     "ai_signals": "2026-08-19 13:27",
     "sentiment": "2026-08-19T09:51:54+08:00",
-    "market_extras": "2026-08-19T23:07:38+08:00"
+    "market_extras": "2026-08-19T23:54:51+08:00",
+    "macro_calendar": "2026-08-19T23:56:27+08:00",
+    "theme_earnings": "2026-08-19T23:57:07+08:00"
   },
   "boundary": "Daily Flash用于信息压缩、研究排序与条件验证；缺失数据保持缺失，不生成无条件买卖、仓位或止损指令。",
   "integrity": {
@@ -924,5 +926,3060 @@
     "checked_themes": 8,
     "failures": [],
     "rule": "theme layer metrics average only final eligible Matrix layers; unavailable is null, never zero"
+  },
+  "macro_calendar": [
+    {
+      "date": "2026-08-19",
+      "time": "04:30",
+      "type": "macro",
+      "category": "energy",
+      "region": "美国",
+      "title": "美国截至8月14日当周API原油库存变动(万桶)",
+      "actual": -32.8,
+      "forecast": null,
+      "previous": 907.2,
+      "importance": 2,
+      "impact_channels": [
+        "原油",
+        "通胀预期",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-19",
+      "time": "04:30",
+      "type": "macro",
+      "category": "energy",
+      "region": "美国",
+      "title": "美国截至8月14日当周API汽油库存变动(万桶)",
+      "actual": 107.6,
+      "forecast": null,
+      "previous": -153.1,
+      "importance": 2,
+      "impact_channels": [
+        "原油",
+        "通胀预期",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-19",
+      "time": "06:30",
+      "type": "macro",
+      "category": "macro",
+      "region": "美国",
+      "title": "美国8月17日COMEX黄金库存-每日更新(百盎司)",
+      "actual": 266488.38,
+      "forecast": null,
+      "previous": 266488.38,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-19",
+      "time": "06:30",
+      "type": "macro",
+      "category": "macro",
+      "region": "美国",
+      "title": "美国8月18日SPDR黄金持仓-每日更新(吨)",
+      "actual": 1025.24,
+      "forecast": null,
+      "previous": 1030.66,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-19",
+      "time": "06:30",
+      "type": "macro",
+      "category": "macro",
+      "region": "美国",
+      "title": "美国8月18日iShares白银持仓-每日更新(吨)",
+      "actual": 15343.05,
+      "forecast": null,
+      "previous": 15272.78,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-19",
+      "time": "06:30",
+      "type": "macro",
+      "category": "macro",
+      "region": "美国",
+      "title": "美国8月18日iShares黄金持仓-每日更新(吨)",
+      "actual": 456.2,
+      "forecast": null,
+      "previous": 456.2,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-19",
+      "time": "10:10",
+      "type": "macro",
+      "category": "macro",
+      "region": "中国",
+      "title": "中国2025年非洲贸易指数",
+      "actual": null,
+      "forecast": null,
+      "previous": 1056.53,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-19",
+      "time": "14:00",
+      "type": "macro",
+      "category": "inflation",
+      "region": "英国",
+      "title": "英国7月CPI年率(%)",
+      "actual": 2.9,
+      "forecast": 2.9,
+      "previous": 2.6,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-19",
+      "time": "14:00",
+      "type": "macro",
+      "category": "inflation",
+      "region": "英国",
+      "title": "英国7月未季调输入PPI年率(%)",
+      "actual": 4.9,
+      "forecast": 6.6,
+      "previous": 7.3,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-19",
+      "time": "14:00",
+      "type": "macro",
+      "category": "inflation",
+      "region": "英国",
+      "title": "英国7月核心CPI年率(%)",
+      "actual": 2.6,
+      "forecast": 2.5,
+      "previous": 2.6,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-19",
+      "time": "14:00",
+      "type": "macro",
+      "category": "inflation",
+      "region": "英国",
+      "title": "英国7月零售物价指数年率(%)",
+      "actual": 3.2,
+      "forecast": 3.3,
+      "previous": 3.0,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-19",
+      "time": "14:10",
+      "type": "macro",
+      "category": "macro",
+      "region": "中国",
+      "title": "中国7月全社会用电量-每月(亿千瓦时)",
+      "actual": null,
+      "forecast": null,
+      "previous": 8981.0,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-19",
+      "time": "14:10",
+      "type": "macro",
+      "category": "macro",
+      "region": "中国",
+      "title": "中国7月全社会用电量年率-每月(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 3.7,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-19",
+      "time": "15:10",
+      "type": "macro",
+      "category": "macro",
+      "region": "中国",
+      "title": "中国8月19日上期所每日仓单变动-原油(桶)",
+      "actual": 0.0,
+      "forecast": null,
+      "previous": 0.0,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-19",
+      "time": "15:10",
+      "type": "macro",
+      "category": "macro",
+      "region": "中国",
+      "title": "中国8月19日上期所每日仓单变动-铜(吨)",
+      "actual": -1423.0,
+      "forecast": null,
+      "previous": 2829.0,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-19",
+      "time": "17:00",
+      "type": "macro",
+      "category": "inflation",
+      "region": "欧元区",
+      "title": "欧元区7月核心调和CPI年率-未季调终值(%)",
+      "actual": 2.2,
+      "forecast": null,
+      "previous": 2.2,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-19",
+      "time": "17:00",
+      "type": "macro",
+      "category": "inflation",
+      "region": "欧元区",
+      "title": "欧元区7月调和CPI年率-未季调终值(%)",
+      "actual": 2.9,
+      "forecast": 2.9,
+      "previous": 2.9,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-19",
+      "time": "22:30",
+      "type": "macro",
+      "category": "energy",
+      "region": "美国",
+      "title": "美国截至8月14日当周EIA俄克拉荷马州-库欣原油库存(万桶)",
+      "actual": -131.4,
+      "forecast": null,
+      "previous": 161.1,
+      "importance": 2,
+      "impact_channels": [
+        "原油",
+        "通胀预期",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-19",
+      "time": "22:30",
+      "type": "macro",
+      "category": "energy",
+      "region": "美国",
+      "title": "美国截至8月14日当周EIA原油库存变动(万桶)",
+      "actual": 440.5,
+      "forecast": null,
+      "previous": 1742.3,
+      "importance": 2,
+      "impact_channels": [
+        "原油",
+        "通胀预期",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-19",
+      "time": "22:30",
+      "type": "macro",
+      "category": "trade",
+      "region": "美国",
+      "title": "美国截至8月14日当周EIA每周原油进口变动(万桶)",
+      "actual": -175.4,
+      "forecast": null,
+      "previous": 176.8,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-19",
+      "time": "22:30",
+      "type": "macro",
+      "category": "energy",
+      "region": "美国",
+      "title": "美国截至8月14日当周EIA汽油库存变动(万桶)",
+      "actual": 68.8,
+      "forecast": null,
+      "previous": -96.8,
+      "importance": 2,
+      "impact_channels": [
+        "原油",
+        "通胀预期",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-19",
+      "time": "22:30",
+      "type": "macro",
+      "category": "energy",
+      "region": "美国",
+      "title": "美国截至8月14日当周EIA精炼油库存变动(万桶)",
+      "actual": -153.0,
+      "forecast": null,
+      "previous": -1.0,
+      "importance": 2,
+      "impact_channels": [
+        "原油",
+        "通胀预期",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-20",
+      "time": "06:30",
+      "type": "macro",
+      "category": "macro",
+      "region": "美国",
+      "title": "美国8月18日COMEX黄金库存-每日更新(百盎司)",
+      "actual": null,
+      "forecast": null,
+      "previous": 266488.38,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-20",
+      "time": "06:30",
+      "type": "macro",
+      "category": "macro",
+      "region": "美国",
+      "title": "美国8月19日SPDR黄金持仓-每日更新(吨)",
+      "actual": null,
+      "forecast": null,
+      "previous": 1025.24,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-20",
+      "time": "06:30",
+      "type": "macro",
+      "category": "macro",
+      "region": "美国",
+      "title": "美国8月19日iShares白银持仓-每日更新(吨)",
+      "actual": null,
+      "forecast": null,
+      "previous": 15343.05,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-20",
+      "time": "06:30",
+      "type": "macro",
+      "category": "macro",
+      "region": "美国",
+      "title": "美国8月19日iShares黄金持仓-每日更新(吨)",
+      "actual": null,
+      "forecast": null,
+      "previous": 456.2,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-20",
+      "time": "07:50",
+      "type": "macro",
+      "category": "trade",
+      "region": "日本",
+      "title": "日本7月商品出口-未季调(亿日元)",
+      "actual": null,
+      "forecast": null,
+      "previous": 109290.12,
+      "importance": 2,
+      "impact_channels": [
+        "亚洲科技风险偏好",
+        "半导体链映射"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-20",
+      "time": "07:50",
+      "type": "macro",
+      "category": "trade",
+      "region": "日本",
+      "title": "日本7月商品贸易帐-未季调(亿日元)",
+      "actual": null,
+      "forecast": -6800.0,
+      "previous": -4069.0,
+      "importance": 2,
+      "impact_channels": [
+        "亚洲科技风险偏好",
+        "半导体链映射"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-20",
+      "time": "07:50",
+      "type": "macro",
+      "category": "trade",
+      "region": "日本",
+      "title": "日本7月季调后商品贸易帐(亿日元)",
+      "actual": null,
+      "forecast": -4076.0,
+      "previous": -8819.32,
+      "importance": 2,
+      "impact_channels": [
+        "亚洲科技风险偏好",
+        "半导体链映射"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-20",
+      "time": "09:00",
+      "type": "macro",
+      "category": "liquidity",
+      "region": "中国",
+      "title": "中国8月一年期贷款市场报价利率LPR(%)",
+      "actual": null,
+      "forecast": 3.0,
+      "previous": 3.0,
+      "importance": 2,
+      "impact_channels": [
+        "A股流动性",
+        "人民币汇率",
+        "成长估值"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-20",
+      "time": "09:00",
+      "type": "macro",
+      "category": "liquidity",
+      "region": "中国",
+      "title": "中国8月五年期贷款市场报价利率LPR(%)",
+      "actual": null,
+      "forecast": 3.5,
+      "previous": 3.5,
+      "importance": 2,
+      "impact_channels": [
+        "A股流动性",
+        "人民币汇率",
+        "成长估值"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-20",
+      "time": "10:10",
+      "type": "macro",
+      "category": "macro",
+      "region": "中国",
+      "title": "中国2025年非洲贸易指数",
+      "actual": null,
+      "forecast": null,
+      "previous": 1056.53,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-20",
+      "time": "14:10",
+      "type": "macro",
+      "category": "macro",
+      "region": "中国",
+      "title": "中国7月全社会用电量-每月(亿千瓦时)",
+      "actual": null,
+      "forecast": null,
+      "previous": 8981.0,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-20",
+      "time": "14:10",
+      "type": "macro",
+      "category": "macro",
+      "region": "中国",
+      "title": "中国7月全社会用电量年率-每月(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 3.7,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-20",
+      "time": "15:10",
+      "type": "macro",
+      "category": "macro",
+      "region": "中国",
+      "title": "中国8月20日上期所每日仓单变动-原油(桶)",
+      "actual": null,
+      "forecast": null,
+      "previous": 0.0,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-20",
+      "time": "15:10",
+      "type": "macro",
+      "category": "macro",
+      "region": "中国",
+      "title": "中国8月20日上期所每日仓单变动-铜(吨)",
+      "actual": null,
+      "forecast": null,
+      "previous": -1423.0,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-20",
+      "time": "20:30",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "美国",
+      "title": "美国8月费城联储制造业指数",
+      "actual": null,
+      "forecast": 25.0,
+      "previous": 41.4,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-20",
+      "time": "20:30",
+      "type": "macro",
+      "category": "labor",
+      "region": "美国",
+      "title": "美国截至8月15日当周初请失业金人数(万)",
+      "actual": null,
+      "forecast": 21.2,
+      "previous": 20.9,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-20",
+      "time": "20:30",
+      "type": "macro",
+      "category": "labor",
+      "region": "美国",
+      "title": "美国截至8月15日当周续请失业金人数(万)",
+      "actual": null,
+      "forecast": null,
+      "previous": 177.7,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-20",
+      "time": "20:30",
+      "type": "macro",
+      "category": "labor",
+      "region": "美国",
+      "title": "美国截至8月7日当周续请失业金人数(万)",
+      "actual": null,
+      "forecast": 179.0,
+      "previous": 177.7,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-21",
+      "time": "04:30",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "美国",
+      "title": "美国截至8月19日美联储资产负债表(万亿美元)",
+      "actual": null,
+      "forecast": null,
+      "previous": 6.76,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-21",
+      "time": "06:30",
+      "type": "macro",
+      "category": "macro",
+      "region": "美国",
+      "title": "美国8月19日COMEX黄金库存-每日更新(百盎司)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-21",
+      "time": "06:30",
+      "type": "macro",
+      "category": "macro",
+      "region": "美国",
+      "title": "美国8月20日SPDR黄金持仓-每日更新(吨)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-21",
+      "time": "06:30",
+      "type": "macro",
+      "category": "macro",
+      "region": "美国",
+      "title": "美国8月20日iShares白银持仓-每日更新(吨)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-21",
+      "time": "06:30",
+      "type": "macro",
+      "category": "macro",
+      "region": "美国",
+      "title": "美国8月20日iShares黄金持仓-每日更新(吨)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-21",
+      "time": "07:01",
+      "type": "macro",
+      "category": "growth",
+      "region": "英国",
+      "title": "英国8月Gfk消费者信心指数",
+      "actual": null,
+      "forecast": -18.0,
+      "previous": -17.0,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-21",
+      "time": "07:30",
+      "type": "macro",
+      "category": "inflation",
+      "region": "日本",
+      "title": "日本7月全国CPI年率(%)",
+      "actual": null,
+      "forecast": 2.0,
+      "previous": 1.7,
+      "importance": 2,
+      "impact_channels": [
+        "亚洲科技风险偏好",
+        "半导体链映射"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-21",
+      "time": "07:30",
+      "type": "macro",
+      "category": "inflation",
+      "region": "日本",
+      "title": "日本7月全国核心CPI年率(%)",
+      "actual": null,
+      "forecast": 1.8,
+      "previous": 1.6,
+      "importance": 2,
+      "impact_channels": [
+        "亚洲科技风险偏好",
+        "半导体链映射"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-21",
+      "time": "14:00",
+      "type": "macro",
+      "category": "growth",
+      "region": "英国",
+      "title": "英国7月季调后核心零售销售月率(%)",
+      "actual": null,
+      "forecast": -0.5,
+      "previous": 1.0,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-21",
+      "time": "14:00",
+      "type": "macro",
+      "category": "growth",
+      "region": "英国",
+      "title": "英国7月季调后零售销售月率(%)",
+      "actual": null,
+      "forecast": -0.5,
+      "previous": 1.1,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-21",
+      "time": "15:10",
+      "type": "macro",
+      "category": "macro",
+      "region": "中国",
+      "title": "中国8月21日上期所每日仓单变动-原油(桶)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-21",
+      "time": "15:10",
+      "type": "macro",
+      "category": "macro",
+      "region": "中国",
+      "title": "中国8月21日上期所每日仓单变动-铜(吨)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-21",
+      "time": "16:00",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "欧元区",
+      "title": "欧元区7月欧洲央行1年期CPI预期(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 3.0,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-21",
+      "time": "16:00",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "欧元区",
+      "title": "欧元区7月欧洲央行3年期CPI预期(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 2.8,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-21",
+      "time": "22:00",
+      "type": "macro",
+      "category": "growth",
+      "region": "欧元区",
+      "title": "欧元区8月消费者信心指数初值",
+      "actual": null,
+      "forecast": -16.3,
+      "previous": -15.9,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-22",
+      "time": "01:00",
+      "type": "macro",
+      "category": "macro",
+      "region": "美国",
+      "title": "美国截至8月21日当周全美钻井总数(口)",
+      "actual": null,
+      "forecast": null,
+      "previous": 593.0,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-22",
+      "time": "01:00",
+      "type": "macro",
+      "category": "macro",
+      "region": "美国",
+      "title": "美国截至8月21日当周石油钻井总数(口)",
+      "actual": null,
+      "forecast": null,
+      "previous": 455.0,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-22",
+      "time": "06:30",
+      "type": "macro",
+      "category": "macro",
+      "region": "美国",
+      "title": "美国8月20日COMEX黄金库存-每日更新(百盎司)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-22",
+      "time": "06:30",
+      "type": "macro",
+      "category": "macro",
+      "region": "美国",
+      "title": "美国8月21日SPDR黄金持仓-每日更新(吨)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-22",
+      "time": "06:30",
+      "type": "macro",
+      "category": "macro",
+      "region": "美国",
+      "title": "美国8月21日iShares白银持仓-每日更新(吨)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-22",
+      "time": "06:30",
+      "type": "macro",
+      "category": "macro",
+      "region": "美国",
+      "title": "美国8月21日iShares黄金持仓-每日更新(吨)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-24",
+      "time": "15:10",
+      "type": "macro",
+      "category": "macro",
+      "region": "中国",
+      "title": "中国8月24日上期所每日仓单变动-原油(桶)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-24",
+      "time": "15:10",
+      "type": "macro",
+      "category": "macro",
+      "region": "中国",
+      "title": "中国8月24日上期所每日仓单变动-铜(吨)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-25",
+      "time": "06:30",
+      "type": "macro",
+      "category": "macro",
+      "region": "美国",
+      "title": "美国8月21日COMEX黄金库存-每日更新(百盎司)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-25",
+      "time": "06:30",
+      "type": "macro",
+      "category": "macro",
+      "region": "美国",
+      "title": "美国8月24日SPDR黄金持仓-每日更新(吨)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-25",
+      "time": "06:30",
+      "type": "macro",
+      "category": "macro",
+      "region": "美国",
+      "title": "美国8月24日iShares白银持仓-每日更新(吨)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-25",
+      "time": "06:30",
+      "type": "macro",
+      "category": "macro",
+      "region": "美国",
+      "title": "美国8月24日iShares黄金持仓-每日更新(吨)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-25",
+      "time": "15:10",
+      "type": "macro",
+      "category": "macro",
+      "region": "中国",
+      "title": "中国8月25日上期所每日仓单变动-原油(桶)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-25",
+      "time": "15:10",
+      "type": "macro",
+      "category": "macro",
+      "region": "中国",
+      "title": "中国8月25日上期所每日仓单变动-铜(吨)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-25",
+      "time": "20:00",
+      "type": "macro",
+      "category": "macro",
+      "region": "美国",
+      "title": "美国7月营建许可年化总数修正值(万户)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-25",
+      "time": "20:00",
+      "type": "macro",
+      "category": "macro",
+      "region": "美国",
+      "title": "美国7月营建许可月率修正值(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-25",
+      "time": "20:15",
+      "type": "macro",
+      "category": "labor",
+      "region": "美国",
+      "title": "美国截至8月8日当周ADP就业周度发布变动(万人)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-25",
+      "time": "22:00",
+      "type": "macro",
+      "category": "housing",
+      "region": "美国",
+      "title": "美国7月季调后新屋销售年化总数(万户)",
+      "actual": null,
+      "forecast": 62.1,
+      "previous": 62.8,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-25",
+      "time": "22:00",
+      "type": "macro",
+      "category": "growth",
+      "region": "美国",
+      "title": "美国8月谘商会消费者信心指数",
+      "actual": null,
+      "forecast": 91.2,
+      "previous": 90.8,
+      "importance": 2,
+      "impact_channels": [
+        "全球风险偏好",
+        "AI资本开支预期",
+        "美元"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-26",
+      "time": "04:30",
+      "type": "macro",
+      "category": "energy",
+      "region": "美国",
+      "title": "美国截至8月21日当周API原油库存变动(万桶)",
+      "actual": null,
+      "forecast": -33.0,
+      "previous": -32.8,
+      "importance": 2,
+      "impact_channels": [
+        "原油",
+        "通胀预期",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-26",
+      "time": "04:30",
+      "type": "macro",
+      "category": "energy",
+      "region": "美国",
+      "title": "美国截至8月21日当周API汽油库存变动(万桶)",
+      "actual": null,
+      "forecast": -95.4,
+      "previous": 107.6,
+      "importance": 2,
+      "impact_channels": [
+        "原油",
+        "通胀预期",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-26",
+      "time": "06:30",
+      "type": "macro",
+      "category": "macro",
+      "region": "美国",
+      "title": "美国8月24日COMEX黄金库存-每日更新(百盎司)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-26",
+      "time": "06:30",
+      "type": "macro",
+      "category": "macro",
+      "region": "美国",
+      "title": "美国8月25日SPDR黄金持仓-每日更新(吨)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-26",
+      "time": "06:30",
+      "type": "macro",
+      "category": "macro",
+      "region": "美国",
+      "title": "美国8月25日iShares白银持仓-每日更新(吨)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-26",
+      "time": "06:30",
+      "type": "macro",
+      "category": "macro",
+      "region": "美国",
+      "title": "美国8月25日iShares黄金持仓-每日更新(吨)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-26",
+      "time": "15:10",
+      "type": "macro",
+      "category": "macro",
+      "region": "中国",
+      "title": "中国8月26日上期所每日仓单变动-原油(桶)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-26",
+      "time": "15:10",
+      "type": "macro",
+      "category": "macro",
+      "region": "中国",
+      "title": "中国8月26日上期所每日仓单变动-铜(吨)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-26",
+      "time": "20:30",
+      "type": "macro",
+      "category": "inflation",
+      "region": "美国",
+      "title": "美国7月PCE物价指数年率(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 3.7,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-26",
+      "time": "20:30",
+      "type": "macro",
+      "category": "macro",
+      "region": "美国",
+      "title": "美国7月个人支出月率(%)",
+      "actual": null,
+      "forecast": 0.2,
+      "previous": 0.3,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-26",
+      "time": "20:30",
+      "type": "macro",
+      "category": "inflation",
+      "region": "美国",
+      "title": "美国7月核心PCE物价指数年率(%)",
+      "actual": null,
+      "forecast": 3.3,
+      "previous": 3.2865,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-26",
+      "time": "20:30",
+      "type": "macro",
+      "category": "growth",
+      "region": "美国",
+      "title": "美国7月耐用品订单月率初值(%)",
+      "actual": null,
+      "forecast": 0.7,
+      "previous": 0.5,
+      "importance": 2,
+      "impact_channels": [
+        "全球风险偏好",
+        "AI资本开支预期",
+        "美元"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-26",
+      "time": "20:30",
+      "type": "macro",
+      "category": "growth",
+      "region": "美国",
+      "title": "美国第二季度GDP价格指数季率修正值(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 6.2,
+      "importance": 2,
+      "impact_channels": [
+        "全球风险偏好",
+        "AI资本开支预期",
+        "美元"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-26",
+      "time": "20:30",
+      "type": "macro",
+      "category": "growth",
+      "region": "美国",
+      "title": "美国第二季度GDP隐性平减指数季率-季调后修正值(%)",
+      "actual": null,
+      "forecast": 6.2,
+      "previous": 3.5,
+      "importance": 2,
+      "impact_channels": [
+        "全球风险偏好",
+        "AI资本开支预期",
+        "美元"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-26",
+      "time": "20:30",
+      "type": "macro",
+      "category": "growth",
+      "region": "美国",
+      "title": "美国第二季度实际GDP年化季率修正值(%)",
+      "actual": null,
+      "forecast": 1.5,
+      "previous": 1.6,
+      "importance": 2,
+      "impact_channels": [
+        "全球风险偏好",
+        "AI资本开支预期",
+        "美元"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-26",
+      "time": "20:30",
+      "type": "macro",
+      "category": "inflation",
+      "region": "美国",
+      "title": "美国第二季度核心PCE物价指数年化季率修正值(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 3.4,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-26",
+      "time": "20:30",
+      "type": "macro",
+      "category": "growth",
+      "region": "美国",
+      "title": "美国第二季度消费者支出年化季率修正值(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 3.2,
+      "importance": 2,
+      "impact_channels": [
+        "全球风险偏好",
+        "AI资本开支预期",
+        "美元"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-26",
+      "time": "22:30",
+      "type": "macro",
+      "category": "energy",
+      "region": "美国",
+      "title": "美国截至8月21日当周EIA俄克拉荷马州-库欣原油库存(万桶)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "原油",
+        "通胀预期",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-26",
+      "time": "22:30",
+      "type": "macro",
+      "category": "energy",
+      "region": "美国",
+      "title": "美国截至8月21日当周EIA原油库存变动(万桶)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "原油",
+        "通胀预期",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-26",
+      "time": "22:30",
+      "type": "macro",
+      "category": "trade",
+      "region": "美国",
+      "title": "美国截至8月21日当周EIA每周原油进口变动(万桶)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-26",
+      "time": "22:30",
+      "type": "macro",
+      "category": "energy",
+      "region": "美国",
+      "title": "美国截至8月21日当周EIA汽油库存变动(万桶)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "原油",
+        "通胀预期",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-26",
+      "time": "22:30",
+      "type": "macro",
+      "category": "energy",
+      "region": "美国",
+      "title": "美国截至8月21日当周EIA精炼油库存变动(万桶)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "原油",
+        "通胀预期",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-26",
+      "time": null,
+      "type": "global_earnings",
+      "category": "earnings",
+      "region": "US",
+      "title": "NVIDIA 财报发行",
+      "ticker": "NVDA",
+      "report_period": null,
+      "importance": 3,
+      "impact_channels": [
+        "产业链景气",
+        "海外映射",
+        "风险偏好"
+      ],
+      "themes": [
+        "AI算力",
+        "AI光通信 / CPO"
+      ],
+      "assets": [
+        "300308",
+        "002384",
+        "600667"
+      ],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-26",
+      "time": null,
+      "type": "global_earnings",
+      "category": "earnings",
+      "region": "HK",
+      "title": "华虹半导体 财报发行",
+      "ticker": "01347",
+      "report_period": null,
+      "importance": 2,
+      "impact_channels": [
+        "产业链景气",
+        "海外映射",
+        "风险偏好"
+      ],
+      "themes": [
+        "半导体"
+      ],
+      "assets": [
+        "603986",
+        "001309",
+        "600667"
+      ],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-27",
+      "time": "06:30",
+      "type": "macro",
+      "category": "macro",
+      "region": "美国",
+      "title": "美国8月25日COMEX黄金库存-每日更新(百盎司)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-27",
+      "time": "06:30",
+      "type": "macro",
+      "category": "macro",
+      "region": "美国",
+      "title": "美国8月26日SPDR黄金持仓-每日更新(吨)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-27",
+      "time": "06:30",
+      "type": "macro",
+      "category": "macro",
+      "region": "美国",
+      "title": "美国8月26日iShares白银持仓-每日更新(吨)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-27",
+      "time": "06:30",
+      "type": "macro",
+      "category": "macro",
+      "region": "美国",
+      "title": "美国8月26日iShares黄金持仓-每日更新(吨)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-27",
+      "time": "09:30",
+      "type": "macro",
+      "category": "macro",
+      "region": "中国",
+      "title": "中国7月规模以上工业企业利润年率-单月(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 15.1,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-27",
+      "time": "15:10",
+      "type": "macro",
+      "category": "macro",
+      "region": "中国",
+      "title": "中国8月27日上期所每日仓单变动-原油(桶)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-27",
+      "time": "15:10",
+      "type": "macro",
+      "category": "macro",
+      "region": "中国",
+      "title": "中国8月27日上期所每日仓单变动-铜(吨)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-27",
+      "time": "16:00",
+      "type": "macro",
+      "category": "macro",
+      "region": "欧元区",
+      "title": "欧元区7月季调后货币供应M3年率(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 3.3,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-27",
+      "time": "20:30",
+      "type": "macro",
+      "category": "macro",
+      "region": "美国",
+      "title": "美国7月批发库存月率初值(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-27",
+      "time": "20:30",
+      "type": "macro",
+      "category": "labor",
+      "region": "美国",
+      "title": "美国截至8月15日当周续请失业金人数(万)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-27",
+      "time": "20:30",
+      "type": "macro",
+      "category": "labor",
+      "region": "美国",
+      "title": "美国截至8月22日当周初请失业金人数(万)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-27",
+      "time": "20:30",
+      "type": "macro",
+      "category": "labor",
+      "region": "美国",
+      "title": "美国截至8月22日当周续请失业金人数(万)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-27",
+      "time": null,
+      "type": "global_earnings",
+      "category": "earnings",
+      "region": "US",
+      "title": "Marvell 财报发行",
+      "ticker": "MRVL",
+      "report_period": null,
+      "importance": 3,
+      "impact_channels": [
+        "产业链景气",
+        "海外映射",
+        "风险偏好"
+      ],
+      "themes": [
+        "AI算力",
+        "AI光通信 / CPO"
+      ],
+      "assets": [
+        "300308",
+        "002384",
+        "600667"
+      ],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-28",
+      "time": "04:30",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "美国",
+      "title": "美国截至8月26日美联储资产负债表(万亿美元)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-28",
+      "time": "06:30",
+      "type": "macro",
+      "category": "macro",
+      "region": "美国",
+      "title": "美国8月26日COMEX黄金库存-每日更新(百盎司)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-28",
+      "time": "06:30",
+      "type": "macro",
+      "category": "macro",
+      "region": "美国",
+      "title": "美国8月27日SPDR黄金持仓-每日更新(吨)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-28",
+      "time": "06:30",
+      "type": "macro",
+      "category": "macro",
+      "region": "美国",
+      "title": "美国8月27日iShares白银持仓-每日更新(吨)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-28",
+      "time": "06:30",
+      "type": "macro",
+      "category": "macro",
+      "region": "美国",
+      "title": "美国8月27日iShares黄金持仓-每日更新(吨)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-28",
+      "time": "07:30",
+      "type": "macro",
+      "category": "labor",
+      "region": "日本",
+      "title": "日本7月失业率(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 2.5,
+      "importance": 2,
+      "impact_channels": [
+        "亚洲科技风险偏好",
+        "半导体链映射"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-28",
+      "time": "07:30",
+      "type": "macro",
+      "category": "inflation",
+      "region": "日本",
+      "title": "日本8月东京CPI年率(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 2.0,
+      "importance": 2,
+      "impact_channels": [
+        "亚洲科技风险偏好",
+        "半导体链映射"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-28",
+      "time": "15:10",
+      "type": "macro",
+      "category": "macro",
+      "region": "中国",
+      "title": "中国8月28日上期所每日仓单变动-原油(桶)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-28",
+      "time": "15:10",
+      "type": "macro",
+      "category": "macro",
+      "region": "中国",
+      "title": "中国8月28日上期所每日仓单变动-铜(吨)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-28",
+      "time": "17:00",
+      "type": "macro",
+      "category": "macro",
+      "region": "欧元区",
+      "title": "欧元区8月工业景气指数",
+      "actual": null,
+      "forecast": null,
+      "previous": -6.1,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-28",
+      "time": "17:00",
+      "type": "macro",
+      "category": "growth",
+      "region": "欧元区",
+      "title": "欧元区8月消费者信心指数终值",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-28",
+      "time": "17:00",
+      "type": "macro",
+      "category": "macro",
+      "region": "欧元区",
+      "title": "欧元区8月经济景气指数",
+      "actual": null,
+      "forecast": null,
+      "previous": 96.9,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-28",
+      "time": "22:00",
+      "type": "macro",
+      "category": "growth",
+      "region": "美国",
+      "title": "美国8月密歇根大学消费者信心指数终值",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "全球风险偏好",
+        "AI资本开支预期",
+        "美元"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-29",
+      "time": "01:00",
+      "type": "macro",
+      "category": "macro",
+      "region": "美国",
+      "title": "美国截至8月28日当周全美钻井总数(口)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-29",
+      "time": "01:00",
+      "type": "macro",
+      "category": "macro",
+      "region": "美国",
+      "title": "美国截至8月28日当周石油钻井总数(口)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-29",
+      "time": "06:30",
+      "type": "macro",
+      "category": "macro",
+      "region": "美国",
+      "title": "美国8月27日COMEX黄金库存-每日更新(百盎司)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-29",
+      "time": "06:30",
+      "type": "macro",
+      "category": "macro",
+      "region": "美国",
+      "title": "美国8月28日SPDR黄金持仓-每日更新(吨)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-29",
+      "time": "06:30",
+      "type": "macro",
+      "category": "macro",
+      "region": "美国",
+      "title": "美国8月28日iShares白银持仓-每日更新(吨)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-29",
+      "time": "06:30",
+      "type": "macro",
+      "category": "macro",
+      "region": "美国",
+      "title": "美国8月28日iShares黄金持仓-每日更新(吨)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    }
+  ],
+  "macro_calendar_summary": {
+    "total": 130,
+    "macro": 127,
+    "global_earnings": 3,
+    "high_importance": 2,
+    "macro_days_ok": 11,
+    "report_days_ok": 11
+  },
+  "theme_earnings": [
+    {
+      "theme": "存储",
+      "summary": {
+        "total": 5,
+        "reported": 2,
+        "scheduled": 3,
+        "pending": 0,
+        "positive_reports": 2,
+        "weak_reports": 0,
+        "median_revenue_yoy_pct": 157.47,
+        "median_net_profit_yoy_pct": 36310.08,
+        "breadth": "positive"
+      },
+      "companies": [
+        {
+          "code": "603986",
+          "name": "兆易创新",
+          "status": "reported",
+          "announcement_date": "2026-08-19",
+          "scheduled_date": "2026-08-19",
+          "revenue": 11565760432.15,
+          "revenue_yoy_pct": 178.6722977786,
+          "net_profit": 6856786413.68,
+          "net_profit_yoy_pct": 1091.5,
+          "gross_margin_pct": 63.1304509177,
+          "earnings_signal": "strong_growth",
+          "industry": "半导体",
+          "source": "东方财富 via AKShare"
+        },
+        {
+          "code": "001309",
+          "name": "德明利",
+          "status": "scheduled",
+          "announcement_date": null,
+          "scheduled_date": "2026-08-28",
+          "revenue": null,
+          "revenue_yoy_pct": null,
+          "net_profit": null,
+          "net_profit_yoy_pct": null,
+          "gross_margin_pct": null,
+          "earnings_signal": "not_reported",
+          "industry": null,
+          "source": "东方财富 via AKShare"
+        },
+        {
+          "code": "301308",
+          "name": "江波龙",
+          "status": "reported",
+          "announcement_date": "2026-08-11",
+          "scheduled_date": "2026-08-11",
+          "revenue": 24088363284.95,
+          "revenue_yoy_pct": 136.2610583659,
+          "net_profit": 10576875808.95,
+          "net_profit_yoy_pct": 71528.66,
+          "gross_margin_pct": 58.9022844185,
+          "earnings_signal": "strong_growth",
+          "industry": "半导体",
+          "source": "东方财富 via AKShare"
+        },
+        {
+          "code": "688525",
+          "name": "佰维存储",
+          "status": "scheduled",
+          "announcement_date": null,
+          "scheduled_date": "2026-08-25",
+          "revenue": null,
+          "revenue_yoy_pct": null,
+          "net_profit": null,
+          "net_profit_yoy_pct": null,
+          "gross_margin_pct": null,
+          "earnings_signal": "not_reported",
+          "industry": null,
+          "source": "东方财富 via AKShare"
+        },
+        {
+          "code": "688008",
+          "name": "澜起科技",
+          "status": "scheduled",
+          "announcement_date": null,
+          "scheduled_date": "2026-08-29",
+          "revenue": null,
+          "revenue_yoy_pct": null,
+          "net_profit": null,
+          "net_profit_yoy_pct": null,
+          "gross_margin_pct": null,
+          "earnings_signal": "not_reported",
+          "industry": null,
+          "source": "东方财富 via AKShare"
+        }
+      ]
+    },
+    {
+      "theme": "AI光通信 / CPO",
+      "summary": {
+        "total": 3,
+        "reported": 1,
+        "scheduled": 2,
+        "pending": 0,
+        "positive_reports": 1,
+        "weak_reports": 0,
+        "median_revenue_yoy_pct": 15.15,
+        "median_net_profit_yoy_pct": 33.92,
+        "breadth": "positive"
+      },
+      "companies": [
+        {
+          "code": "300308",
+          "name": "中际旭创",
+          "status": "scheduled",
+          "announcement_date": null,
+          "scheduled_date": "2026-08-24",
+          "revenue": null,
+          "revenue_yoy_pct": null,
+          "net_profit": null,
+          "net_profit_yoy_pct": null,
+          "gross_margin_pct": null,
+          "earnings_signal": "not_reported",
+          "industry": null,
+          "source": "东方财富 via AKShare"
+        },
+        {
+          "code": "300502",
+          "name": "新易盛",
+          "status": "scheduled",
+          "announcement_date": null,
+          "scheduled_date": "2026-08-25",
+          "revenue": null,
+          "revenue_yoy_pct": null,
+          "net_profit": null,
+          "net_profit_yoy_pct": null,
+          "gross_margin_pct": null,
+          "earnings_signal": "not_reported",
+          "industry": null,
+          "source": "东方财富 via AKShare"
+        },
+        {
+          "code": "300394",
+          "name": "天孚通信",
+          "status": "reported",
+          "announcement_date": "2026-08-19",
+          "scheduled_date": "2026-08-19",
+          "revenue": 2827938748.37,
+          "revenue_yoy_pct": 15.1492291388,
+          "net_profit": 1204285104.14,
+          "net_profit_yoy_pct": 33.92,
+          "gross_margin_pct": 60.8695979509,
+          "earnings_signal": "positive_growth",
+          "industry": "通信设备",
+          "source": "东方财富 via AKShare"
+        }
+      ]
+    },
+    {
+      "theme": "PCB / 消费电子",
+      "summary": {
+        "total": 4,
+        "reported": 1,
+        "scheduled": 3,
+        "pending": 0,
+        "positive_reports": 1,
+        "weak_reports": 0,
+        "median_revenue_yoy_pct": 50.05,
+        "median_net_profit_yoy_pct": 130.42,
+        "breadth": "positive"
+      },
+      "companies": [
+        {
+          "code": "002384",
+          "name": "东山精密",
+          "status": "scheduled",
+          "announcement_date": null,
+          "scheduled_date": "2026-08-22",
+          "revenue": null,
+          "revenue_yoy_pct": null,
+          "net_profit": null,
+          "net_profit_yoy_pct": null,
+          "gross_margin_pct": null,
+          "earnings_signal": "not_reported",
+          "industry": null,
+          "source": "东方财富 via AKShare"
+        },
+        {
+          "code": "002463",
+          "name": "沪电股份",
+          "status": "scheduled",
+          "announcement_date": null,
+          "scheduled_date": "2026-08-26",
+          "revenue": null,
+          "revenue_yoy_pct": null,
+          "net_profit": null,
+          "net_profit_yoy_pct": null,
+          "gross_margin_pct": null,
+          "earnings_signal": "not_reported",
+          "industry": null,
+          "source": "东方财富 via AKShare"
+        },
+        {
+          "code": "002916",
+          "name": "深南电路",
+          "status": "scheduled",
+          "announcement_date": null,
+          "scheduled_date": "2026-08-27",
+          "revenue": null,
+          "revenue_yoy_pct": null,
+          "net_profit": null,
+          "net_profit_yoy_pct": null,
+          "gross_margin_pct": null,
+          "earnings_signal": "not_reported",
+          "industry": null,
+          "source": "东方财富 via AKShare"
+        },
+        {
+          "code": "600183",
+          "name": "生益科技",
+          "status": "reported",
+          "announcement_date": "2026-08-15",
+          "scheduled_date": "2026-08-15",
+          "revenue": 19025611766.13,
+          "revenue_yoy_pct": 50.0454791459,
+          "net_profit": 3286977278.33,
+          "net_profit_yoy_pct": 130.42,
+          "gross_margin_pct": 30.6922750301,
+          "earnings_signal": "strong_growth",
+          "industry": "元件",
+          "source": "东方财富 via AKShare"
+        }
+      ]
+    },
+    {
+      "theme": "半导体工程 / 封测",
+      "summary": {
+        "total": 3,
+        "reported": 0,
+        "scheduled": 3,
+        "pending": 0,
+        "positive_reports": 0,
+        "weak_reports": 0,
+        "median_revenue_yoy_pct": null,
+        "median_net_profit_yoy_pct": null,
+        "breadth": "awaiting_reports"
+      },
+      "companies": [
+        {
+          "code": "600667",
+          "name": "太极实业",
+          "status": "scheduled",
+          "announcement_date": null,
+          "scheduled_date": "2026-08-27",
+          "revenue": null,
+          "revenue_yoy_pct": null,
+          "net_profit": null,
+          "net_profit_yoy_pct": null,
+          "gross_margin_pct": null,
+          "earnings_signal": "not_reported",
+          "industry": null,
+          "source": "东方财富 via AKShare"
+        },
+        {
+          "code": "600584",
+          "name": "长电科技",
+          "status": "scheduled",
+          "announcement_date": null,
+          "scheduled_date": "2026-08-21",
+          "revenue": null,
+          "revenue_yoy_pct": null,
+          "net_profit": null,
+          "net_profit_yoy_pct": null,
+          "gross_margin_pct": null,
+          "earnings_signal": "not_reported",
+          "industry": null,
+          "source": "东方财富 via AKShare"
+        },
+        {
+          "code": "002156",
+          "name": "通富微电",
+          "status": "scheduled",
+          "announcement_date": null,
+          "scheduled_date": "2026-08-29",
+          "revenue": null,
+          "revenue_yoy_pct": null,
+          "net_profit": null,
+          "net_profit_yoy_pct": null,
+          "gross_margin_pct": null,
+          "earnings_signal": "not_reported",
+          "industry": null,
+          "source": "东方财富 via AKShare"
+        }
+      ]
+    },
+    {
+      "theme": "被动元件",
+      "summary": {
+        "total": 3,
+        "reported": 1,
+        "scheduled": 2,
+        "pending": 0,
+        "positive_reports": 0,
+        "weak_reports": 0,
+        "median_revenue_yoy_pct": 19.67,
+        "median_net_profit_yoy_pct": -7.98,
+        "breadth": "mixed"
+      },
+      "companies": [
+        {
+          "code": "000636",
+          "name": "风华高科",
+          "status": "scheduled",
+          "announcement_date": null,
+          "scheduled_date": "2026-08-28",
+          "revenue": null,
+          "revenue_yoy_pct": null,
+          "net_profit": null,
+          "net_profit_yoy_pct": null,
+          "gross_margin_pct": null,
+          "earnings_signal": "not_reported",
+          "industry": null,
+          "source": "东方财富 via AKShare"
+        },
+        {
+          "code": "300408",
+          "name": "三环集团",
+          "status": "scheduled",
+          "announcement_date": null,
+          "scheduled_date": "2026-08-28",
+          "revenue": null,
+          "revenue_yoy_pct": null,
+          "net_profit": null,
+          "net_profit_yoy_pct": null,
+          "gross_margin_pct": null,
+          "earnings_signal": "not_reported",
+          "industry": null,
+          "source": "东方财富 via AKShare"
+        },
+        {
+          "code": "002138",
+          "name": "顺络电子",
+          "status": "reported",
+          "announcement_date": "2026-07-31",
+          "scheduled_date": "2026-07-31",
+          "revenue": 3858502642.34,
+          "revenue_yoy_pct": 19.6724390978,
+          "net_profit": 447107886.72,
+          "net_profit_yoy_pct": -7.98,
+          "gross_margin_pct": 33.588309397,
+          "earnings_signal": "mixed",
+          "industry": "元件",
+          "source": "东方财富 via AKShare"
+        }
+      ]
+    },
+    {
+      "theme": "创新药",
+      "summary": {
+        "total": 3,
+        "reported": 1,
+        "scheduled": 2,
+        "pending": 0,
+        "positive_reports": 0,
+        "weak_reports": 0,
+        "median_revenue_yoy_pct": -1.94,
+        "median_net_profit_yoy_pct": 0.34,
+        "breadth": "mixed"
+      },
+      "companies": [
+        {
+          "code": "600276",
+          "name": "恒瑞医药",
+          "status": "reported",
+          "announcement_date": "2026-08-20",
+          "scheduled_date": "2026-08-20",
+          "revenue": 15455583728.11,
+          "revenue_yoy_pct": -1.9390022608,
+          "net_profit": 4465439428.1,
+          "net_profit_yoy_pct": 0.34,
+          "gross_margin_pct": 86.3263460861,
+          "earnings_signal": "mixed",
+          "industry": "化学制药",
+          "source": "东方财富 via AKShare"
+        },
+        {
+          "code": "688235",
+          "name": "百济神州",
+          "status": "scheduled",
+          "announcement_date": null,
+          "scheduled_date": "2026-08-27",
+          "revenue": null,
+          "revenue_yoy_pct": null,
+          "net_profit": null,
+          "net_profit_yoy_pct": null,
+          "gross_margin_pct": null,
+          "earnings_signal": "not_reported",
+          "industry": null,
+          "source": "东方财富 via AKShare"
+        },
+        {
+          "code": "688506",
+          "name": "百利天恒",
+          "status": "scheduled",
+          "announcement_date": null,
+          "scheduled_date": "2026-08-27",
+          "revenue": null,
+          "revenue_yoy_pct": null,
+          "net_profit": null,
+          "net_profit_yoy_pct": null,
+          "gross_margin_pct": null,
+          "earnings_signal": "not_reported",
+          "industry": null,
+          "source": "东方财富 via AKShare"
+        }
+      ]
+    }
+  ],
+  "theme_earnings_summary": {
+    "themes": 6,
+    "companies": 21,
+    "reported": 6,
+    "scheduled": 15
+  },
+  "theme_earnings_period": "2026半年报",
+  "quality": {
+    "macro_calendar": {
+      "events": 130,
+      "warnings": 0,
+      "horizon_days": 10
+    },
+    "theme_earnings": {
+      "status": "fresh",
+      "reported": 6,
+      "companies": 21
+    }
   }
 }
