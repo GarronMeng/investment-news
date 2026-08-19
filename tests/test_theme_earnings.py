@@ -7,7 +7,14 @@ import pandas as pd
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / "scripts"))
 
-from fetch_theme_earnings import build, earnings_signal, normalize_report, theme_summary
+from fetch_theme_earnings import (
+    build,
+    earnings_signal,
+    filter_same_day_earnings,
+    normalize_report,
+    notice_codes,
+    theme_summary,
+)
 
 
 class ThemeEarningsTests(unittest.TestCase):
@@ -48,6 +55,24 @@ class ThemeEarningsTests(unittest.TestCase):
         self.assertIsNone(item["net_profit"])
         self.assertIsNone(item["net_profit_yoy_pct"])
         self.assertIn("look-ahead", item["reason"])
+
+    def test_same_day_rows_require_public_notice_confirmation(self):
+        earnings = pd.DataFrame([
+            {"股票代码": "603986", "最新公告日期": "2026-08-19", "营业总收入-同比增长": 25.0},
+            {"股票代码": "300394", "最新公告日期": "2026-08-19", "营业总收入-同比增长": 15.0},
+            {"股票代码": "600183", "最新公告日期": "2026-08-15", "营业总收入-同比增长": 50.0},
+        ])
+        notices = pd.DataFrame([
+            {"代码": "603986", "公告标题": "兆易创新2026年半年度报告", "公告类型": "财务报告"},
+            {"代码": "000001", "公告标题": "普通事项公告", "公告类型": "重大事项"},
+        ])
+        confirmed = notice_codes(notices)
+        filtered, withheld = filter_same_day_earnings(earnings, date(2026, 8, 19), confirmed)
+        codes = set(filtered["股票代码"].astype(str))
+        self.assertIn("603986", codes)
+        self.assertIn("600183", codes)
+        self.assertNotIn("300394", codes)
+        self.assertEqual(withheld, 1)
 
     def test_build_never_fills_unreported_financials(self):
         earnings = pd.DataFrame([
