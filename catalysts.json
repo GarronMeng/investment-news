@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "generated_at": null,
+  "timezone": "Asia/Shanghai",
+  "report_period": null,
+  "events": [],
+  "summary": {"total": 0, "earnings": 0, "manual": 0},
+  "warnings": ["seed awaiting first Daily Flash refresh"],
+  "methodology": "Awaiting first automated catalyst refresh."
+}
