@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-08-19T12:23:52+08:00",
-  "source_generated_at": "2026-08-19T12:23:52+08:00",
+  "generated_at": "2026-08-19T13:28:54+08:00",
+  "source_generated_at": "2026-08-19T13:28:53+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -96,27 +96,27 @@
     "300308": {
       "code": "300308",
       "name": "中际旭创",
-      "as_of": "2026-08-18",
+      "as_of": "2026-08-19",
       "source_status": "fresh",
       "observations": 140,
-      "close": 988.1,
+      "close": 908.98,
       "ma60": {
-        "value": 1109.3897,
+        "value": 1106.156,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.001573
+        "slope_pct": -0.002915
       },
-      "rsi14": 49.6,
-      "rsi_zone": "neutral",
+      "rsi14": 43.51,
+      "rsi_zone": "weak",
       "macd": {
-        "dif": -36.18303,
-        "dea": -49.47898,
-        "hist": 26.59191,
+        "dif": -37.09198,
+        "dea": -47.0015,
+        "hist": 19.81903,
         "state": "bullish",
-        "cross_age": 3
+        "cross_age": 4
       },
       "volume": {
-        "ratio20": 0.539,
+        "ratio20": 0.629,
         "state": "contraction"
       },
       "breakout_20d": "inside_range",
@@ -156,62 +156,62 @@
     "600667": {
       "code": "600667",
       "name": "太极实业",
-      "as_of": "2026-08-18",
+      "as_of": "2026-08-19",
       "source_status": "fresh",
       "observations": 140,
-      "close": 23.0,
+      "close": 21.28,
       "ma60": {
-        "value": 19.9827,
+        "value": 20.1162,
         "position": "above",
         "direction": "rising",
-        "slope_pct": 0.008122
+        "slope_pct": 0.006681
       },
-      "rsi14": 58.92,
-      "rsi_zone": "strong",
+      "rsi14": 52.62,
+      "rsi_zone": "neutral",
       "macd": {
-        "dif": 0.86946,
-        "dea": 0.13554,
-        "hist": 1.46784,
+        "dif": 0.80067,
+        "dea": 0.26856,
+        "hist": 1.06422,
         "state": "bullish",
-        "cross_age": 8
+        "cross_age": 9
       },
       "volume": {
-        "ratio20": 0.814,
-        "state": "normal"
+        "ratio20": 0.601,
+        "state": "contraction"
       },
       "breakout_20d": "inside_range",
       "data_quality": "usable",
-      "condition_state": "all_conditions"
+      "condition_state": "partial_conditions"
     },
     "000636": {
       "code": "000636",
       "name": "风华高科",
-      "as_of": "2026-08-18",
+      "as_of": "2026-08-19",
       "source_status": "fresh",
       "observations": 140,
-      "close": 62.34,
+      "close": 57.34,
       "ma60": {
-        "value": 59.0552,
-        "position": "above",
+        "value": 59.3158,
+        "position": "below",
         "direction": "rising",
-        "slope_pct": 0.005951
+        "slope_pct": 0.004414
       },
-      "rsi14": 57.55,
-      "rsi_zone": "strong",
+      "rsi14": 49.84,
+      "rsi_zone": "neutral",
       "macd": {
-        "dif": 2.55718,
-        "dea": 1.23045,
-        "hist": 2.65346,
+        "dif": 2.14672,
+        "dea": 1.41369,
+        "hist": 1.46606,
         "state": "bullish",
-        "cross_age": 12
+        "cross_age": 13
       },
       "volume": {
-        "ratio20": 0.804,
-        "state": "normal"
+        "ratio20": 0.597,
+        "state": "contraction"
       },
       "breakout_20d": "inside_range",
       "data_quality": "usable",
-      "condition_state": "all_conditions"
+      "condition_state": "partial_conditions"
     },
     "161226": {
       "code": "161226",
@@ -304,7 +304,64 @@
       "condition_state": "all_conditions"
     }
   },
-  "state_changes": [],
+  "state_changes": [
+    {
+      "code": "300308",
+      "name": "中际旭创",
+      "field": "rsi_zone",
+      "from": "neutral",
+      "to": "weak"
+    },
+    {
+      "code": "600667",
+      "name": "太极实业",
+      "field": "rsi_zone",
+      "from": "strong",
+      "to": "neutral"
+    },
+    {
+      "code": "600667",
+      "name": "太极实业",
+      "field": "volume",
+      "from": "normal",
+      "to": "contraction"
+    },
+    {
+      "code": "600667",
+      "name": "太极实业",
+      "field": "condition_state",
+      "from": "all_conditions",
+      "to": "partial_conditions"
+    },
+    {
+      "code": "000636",
+      "name": "风华高科",
+      "field": "ma60_position",
+      "from": "above",
+      "to": "below"
+    },
+    {
+      "code": "000636",
+      "name": "风华高科",
+      "field": "rsi_zone",
+      "from": "strong",
+      "to": "neutral"
+    },
+    {
+      "code": "000636",
+      "name": "风华高科",
+      "field": "volume",
+      "from": "normal",
+      "to": "contraction"
+    },
+    {
+      "code": "000636",
+      "name": "风华高科",
+      "field": "condition_state",
+      "from": "all_conditions",
+      "to": "partial_conditions"
+    }
+  ],
   "methodology": {
     "rsi14": "Wilder RSI(14)",
     "macd": "EMA12/EMA26 DIF, EMA9 signal, histogram=(DIF-DEA)*2",

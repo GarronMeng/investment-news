@@ -1,35 +1,35 @@
 {
   "version": 1,
-  "generated_at": "2026-08-19T12:24:01+08:00",
+  "generated_at": "2026-08-19T13:29:05+08:00",
   "source": {
     "data_generated_at": "2026-08-19 12:22",
-    "ai_generated_at": "2026-08-19 11:33",
-    "ai_source_generated_at": "2026-08-19 09:54",
-    "features_generated_at": "2026-08-19T12:23:52+08:00",
-    "fresh_ai": false
+    "ai_generated_at": "2026-08-19 13:27",
+    "ai_source_generated_at": "2026-08-19 12:22",
+    "features_generated_at": "2026-08-19T13:28:54+08:00",
+    "fresh_ai": true
   },
   "decisions": [
     {
       "asset": "603986",
       "name": "兆易创新",
       "as_of": "2026-08-18",
-      "bias": "neutral",
-      "status": "neutral",
-      "event_score": 50.0,
+      "bias": "bearish",
+      "status": "active",
+      "event_score": 0.0,
       "market_score": 45.0,
-      "freshness_score": 70,
-      "conviction": 10.0,
-      "evidence_mode": "market_only",
-      "event_count": 0,
+      "freshness_score": 100,
+      "conviction": 64.0,
+      "evidence_mode": "event_plus_market",
+      "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=-0.081572",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.081572",
       "confirmation": [
-        "股价相对半导体指数转强",
-        "成交量放大且收盘站稳"
+        "午后半导体、通信设备和元件至少两类显著缩窄跌幅并减少净流出",
+        "五只观察标的中至少三只相对各自行业指数转强且收复开盘位"
       ],
       "invalidation": [
-        "存储价格下行",
-        "库存恶化"
+        "A股相关链条放量反包并形成板块扩散，海外负反馈未继续传导",
+        "油价与长端收益率显著回落，海外芯片指数下一时段快速修复"
       ],
       "expires_at": "2026-08-24"
     },
@@ -37,47 +37,47 @@
       "asset": "001309",
       "name": "德明利",
       "as_of": "2026-08-18",
-      "bias": "neutral",
-      "status": "neutral",
-      "event_score": 50.0,
+      "bias": "bearish",
+      "status": "watch",
+      "event_score": 30.0,
       "market_score": 45.0,
-      "freshness_score": 70,
-      "conviction": 10.0,
-      "evidence_mode": "market_only",
-      "event_count": 0,
+      "freshness_score": 100,
+      "conviction": 28.0,
+      "evidence_mode": "event_plus_market",
+      "event_count": 2,
       "trend_state": "mixed",
-      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=-0.139114",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.139114",
       "confirmation": [
-        "相对存储板块止跌转强",
-        "放量突破短期压力位"
+        "午后半导体、通信设备和元件至少两类显著缩窄跌幅并减少净流出",
+        "五只观察标的中至少三只相对各自行业指数转强且收复开盘位"
       ],
       "invalidation": [
-        "NAND跌价",
-        "渠道库存上升"
+        "A股相关链条放量反包并形成板块扩散，海外负反馈未继续传导",
+        "油价与长端收益率显著回落，海外芯片指数下一时段快速修复"
       ],
-      "expires_at": "2026-08-24"
+      "expires_at": "2026-11-17"
     },
     {
       "asset": "300308",
       "name": "中际旭创",
-      "as_of": "2026-08-18",
-      "bias": "neutral",
-      "status": "neutral",
-      "event_score": 50.0,
-      "market_score": 45.0,
-      "freshness_score": 70,
-      "conviction": 10.0,
-      "evidence_mode": "market_only",
-      "event_count": 0,
-      "trend_state": "mixed",
-      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=-0.130615",
+      "as_of": "2026-08-19",
+      "bias": "bearish",
+      "status": "active",
+      "event_score": 0.0,
+      "market_score": 15.0,
+      "freshness_score": 100,
+      "conviction": 88.0,
+      "evidence_mode": "event_plus_market",
+      "event_count": 1,
+      "trend_state": "bearish",
+      "why_now": "fresh event evidence; market trend=bearish; 20d relative strength=-0.143118",
       "confirmation": [
-        "海外AI硬件与A股CPO同步走强",
-        "高位放量后能维持强势"
+        "午后半导体、通信设备和元件至少两类显著缩窄跌幅并减少净流出",
+        "五只观察标的中至少三只相对各自行业指数转强且收复开盘位"
       ],
       "invalidation": [
-        "AI资本开支下修",
-        "客户延迟采购"
+        "A股相关链条放量反包并形成板块扩散，海外负反馈未继续传导",
+        "油价与长端收益率显著回落，海外芯片指数下一时段快速修复"
       ],
       "expires_at": "2026-08-24"
     },
@@ -85,64 +85,64 @@
       "asset": "002384",
       "name": "东山精密",
       "as_of": "2026-08-18",
-      "bias": "neutral",
-      "status": "neutral",
-      "event_score": 50.0,
+      "bias": "bearish",
+      "status": "active",
+      "event_score": 0.0,
       "market_score": 45.0,
-      "freshness_score": 70,
-      "conviction": 10.0,
-      "evidence_mode": "market_only",
-      "event_count": 0,
+      "freshness_score": 100,
+      "conviction": 64.0,
+      "evidence_mode": "event_plus_market",
+      "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=-0.074372",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.074372",
       "confirmation": [
-        "PCB板块扩散上涨",
-        "订单利好得到成交量确认"
+        "午后半导体、通信设备和元件至少两类显著缩窄跌幅并减少净流出",
+        "五只观察标的中至少三只相对各自行业指数转强且收复开盘位"
       ],
       "invalidation": [
-        "终端需求下修",
-        "价格竞争"
+        "A股相关链条放量反包并形成板块扩散，海外负反馈未继续传导",
+        "油价与长端收益率显著回落，海外芯片指数下一时段快速修复"
       ],
       "expires_at": "2026-08-24"
     },
     {
       "asset": "600667",
       "name": "太极实业",
-      "as_of": "2026-08-18",
-      "bias": "bullish",
-      "status": "market_watch",
-      "event_score": 50.0,
-      "market_score": 85.0,
-      "freshness_score": 70,
-      "conviction": 55,
-      "evidence_mode": "market_only",
-      "event_count": 0,
+      "as_of": "2026-08-19",
+      "bias": "bearish",
+      "status": "watch",
+      "event_score": 0.0,
+      "market_score": 75.0,
+      "freshness_score": 100,
+      "conviction": 40.0,
+      "evidence_mode": "event_plus_market",
+      "event_count": 1,
       "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.378071",
+      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.275015",
       "confirmation": [
-        "半导体工程板块同步走强",
-        "事件后股价摆脱弱势结构"
+        "午后半导体、通信设备和元件至少两类显著缩窄跌幅并减少净流出",
+        "五只观察标的中至少三只相对各自行业指数转强且收复开盘位"
       ],
       "invalidation": [
-        "资本开支延迟",
-        "项目回款承压"
+        "A股相关链条放量反包并形成板块扩散，海外负反馈未继续传导",
+        "油价与长端收益率显著回落，海外芯片指数下一时段快速修复"
       ],
       "expires_at": "2026-08-24"
     },
     {
       "asset": "000636",
       "name": "风华高科",
-      "as_of": "2026-08-18",
+      "as_of": "2026-08-19",
       "bias": "bullish",
       "status": "market_watch",
       "event_score": 50.0,
       "market_score": 75.0,
-      "freshness_score": 70,
+      "freshness_score": 100,
       "conviction": 50.0,
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.406588",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.388378",
       "confirmation": [
         "被动元件板块形成联动",
         "涨价新闻后价格走势能够确认"
@@ -158,22 +158,22 @@
       "name": "国投白银LOF",
       "as_of": "2026-08-18",
       "bias": "bearish",
-      "status": "market_watch",
+      "status": "watch",
       "event_score": 50.0,
       "market_score": 15.0,
-      "freshness_score": 70,
-      "conviction": 55,
-      "evidence_mode": "market_only",
-      "event_count": 0,
+      "freshness_score": 100,
+      "conviction": 28.0,
+      "evidence_mode": "event_plus_market",
+      "event_count": 1,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.012625",
+      "why_now": "fresh event evidence; market trend=bearish; 20d relative strength=-0.012625",
       "confirmation": [
-        "同时核对基金净值、场内价格和溢价率",
-        "银价上涨时场内溢价未继续扩大"
+        "黄金ETF在8.95–9.00区域止跌并持续站稳9.00，同时外盘黄金与人民币计价金价企稳",
+        "白银LOF最新净值、场内价格、溢价率及交易限制同步改善"
       ],
       "invalidation": [
-        "银价下跌",
-        "美元与实际利率上行"
+        "黄金ETF继续下探且贵金属板块转为净流出",
+        "油价与长端实际利率快速回落，海外金银重新形成趋势性上行"
       ],
       "expires_at": "2026-08-24"
     },
@@ -182,22 +182,22 @@
       "name": "黄金ETF华安",
       "as_of": "2026-08-18",
       "bias": "bullish",
-      "status": "market_watch",
+      "status": "watch",
       "event_score": 50.0,
       "market_score": 85.0,
-      "freshness_score": 70,
-      "conviction": 55,
-      "evidence_mode": "market_only",
-      "event_count": 0,
+      "freshness_score": 100,
+      "conviction": 28.0,
+      "evidence_mode": "event_plus_market",
+      "event_count": 1,
       "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.072036",
+      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.072036",
       "confirmation": [
-        "外盘金价与国内黄金现货同向",
-        "ETF成交量与价格同步确认"
+        "黄金ETF在8.95–9.00区域止跌并持续站稳9.00，同时外盘黄金与人民币计价金价企稳",
+        "白银LOF最新净值、场内价格、溢价率及交易限制同步改善"
       ],
       "invalidation": [
-        "金价下跌",
-        "实际利率上行"
+        "黄金ETF继续下探且贵金属板块转为净流出",
+        "油价与长端实际利率快速回落，海外金银重新形成趋势性上行"
       ],
       "expires_at": "2026-08-24"
     },
@@ -209,7 +209,7 @@
       "status": "market_watch",
       "event_score": 50.0,
       "market_score": 85.0,
-      "freshness_score": 70,
+      "freshness_score": 100,
       "conviction": 55,
       "evidence_mode": "market_only",
       "event_count": 0,
