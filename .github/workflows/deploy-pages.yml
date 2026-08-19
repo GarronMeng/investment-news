@@ -8,6 +8,7 @@ on:
       - dashboard-v2.html
       - dashboard-v3.html
       - dashboard-v4.html
+      - dashboard-v5.html
       - chart.html
       - portfolio.html
       - performance.html
@@ -23,6 +24,9 @@ on:
       - risk_score.json
       - decision_matrix.json
       - matrix_evaluation.json
+      - global_markets.json
+      - catalysts.json
+      - daily_flash.json
       - watchlist.json
       - features.json
       - technical.json
@@ -31,7 +35,7 @@ on:
       - .nojekyll
       - .github/workflows/deploy-pages.yml
   workflow_run:
-    workflows: ["Update A-share News", "Update Market Sentiment", "Update Watchlist Market Quotes", "Update Research Engine"]
+    workflows: ["Update A-share News", "Update Market Sentiment", "Update Watchlist Market Quotes", "Update Research Engine", "Update Daily Flash"]
     branches: [main]
     types: [completed]
   workflow_dispatch:
@@ -64,8 +68,9 @@ jobs:
           cp index.html public/classic.html
           cp dashboard-v2.html public/v2.html
           cp dashboard-v3.html public/dashboard-v3.html
-          cp dashboard-v4.html public/index.html
-          cp chart.html portfolio.html performance.html health.html research.html data.js ai-signals.js sentiment.json market.json market_state.json market_history.json valuation.json risk_score.json decision_matrix.json matrix_evaluation.json watchlist.json features.json technical.json decisions.json signal_evaluation.json .nojekyll public/
+          cp dashboard-v4.html public/dashboard-v4.html
+          cp dashboard-v5.html public/index.html
+          cp chart.html portfolio.html performance.html health.html research.html data.js ai-signals.js sentiment.json market.json market_state.json market_history.json valuation.json risk_score.json decision_matrix.json matrix_evaluation.json global_markets.json catalysts.json daily_flash.json watchlist.json features.json technical.json decisions.json signal_evaluation.json .nojekyll public/
 
       - name: Enforce AI signal freshness
         run: |
@@ -122,8 +127,9 @@ jobs:
           from pathlib import Path
 
           required = [
-              "public/index.html", "public/dashboard-v3.html", "public/chart.html", "public/portfolio.html", "public/performance.html", "public/health.html", "public/research.html",
+              "public/index.html", "public/dashboard-v3.html", "public/dashboard-v4.html", "public/chart.html", "public/portfolio.html", "public/performance.html", "public/health.html", "public/research.html",
               "public/market_state.json", "public/valuation.json", "public/risk_score.json", "public/decision_matrix.json", "public/matrix_evaluation.json",
+              "public/global_markets.json", "public/catalysts.json", "public/daily_flash.json",
               "public/technical.json", "public/signal_evaluation.json", "public/market_history.json",
           ]
           for path in required:
@@ -132,10 +138,16 @@ jobs:
           valuation = json.load(open("public/valuation.json", encoding="utf-8"))
           matrix = json.load(open("public/decision_matrix.json", encoding="utf-8"))
           matrix_evaluation = json.load(open("public/matrix_evaluation.json", encoding="utf-8"))
+          daily_flash = json.load(open("public/daily_flash.json", encoding="utf-8"))
+          global_markets = json.load(open("public/global_markets.json", encoding="utf-8"))
+          catalysts = json.load(open("public/catalysts.json", encoding="utf-8"))
           assert risk.get("version") == 1
           assert valuation.get("version") == 1
           assert matrix.get("version") == 1
           assert matrix_evaluation.get("version") == 1
+          assert daily_flash.get("version") == 1
+          assert global_markets.get("version") == 1
+          assert catalysts.get("version") == 1
           assert risk.get("label") in {"low", "balanced", "elevated", "high", "insufficient"}
           if matrix.get("generated_at"):
               assert matrix.get("summary", {}).get("total") == len(matrix.get("assets", {}))
