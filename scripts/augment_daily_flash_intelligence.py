@@ -18,6 +18,40 @@ def load(path):
         return {}
 
 
+def next_catalysts(macro, limit=2):
+    rows = sorted(
+        macro.get("events", []),
+        key=lambda row: (row.get("date") or "9999-12-31", row.get("time") or "99:99", -(row.get("importance") or 0)),
+    )
+    preferred = [row for row in rows if (row.get("importance") or 0) >= 3]
+    chosen = preferred[:limit] if preferred else rows[:limit]
+    return chosen
+
+
+def enrich_conclusion(flash, macro, theme):
+    base = str(flash.get("core_conclusion") or "").strip()
+    additions = []
+    upcoming = next_catalysts(macro)
+    if upcoming:
+        labels = []
+        for row in upcoming:
+            when = (row.get("date") or "")[5:10]
+            if row.get("time"):
+                when += " " + str(row["time"])
+            labels.append(f"{when} {row.get('title','')}")
+        additions.append("下一催化：" + "；".join(labels))
+    summary = theme.get("summary") or {}
+    if summary.get("companies") is not None:
+        additions.append(
+            f"主线财报已确认披露 {int(summary.get('reported') or 0)}/{int(summary.get('companies') or 0)} 个研究样本"
+        )
+    if additions:
+        suffix = "。".join(additions) + "。"
+        if suffix not in base:
+            base = (base + (" " if base else "") + suffix).strip()
+    flash["core_conclusion"] = base
+
+
 def main():
     flash = load(FLASH)
     macro = load(MACRO)
@@ -27,6 +61,7 @@ def main():
     flash["theme_earnings"] = theme.get("themes", [])
     flash["theme_earnings_summary"] = theme.get("summary", {})
     flash["theme_earnings_period"] = theme.get("report_period")
+    enrich_conclusion(flash, macro, theme)
     sources = flash.setdefault("sources", {})
     sources["macro_calendar"] = macro.get("generated_at")
     sources["theme_earnings"] = theme.get("generated_at")
