@@ -16,9 +16,12 @@ on:
       - catalysts_manual.json
       - scripts/fetch_global_markets.py
       - scripts/fetch_catalysts.py
+      - scripts/fetch_market_extras.py
       - scripts/build_daily_flash.py
+      - scripts/augment_daily_flash_extras.py
       - scripts/finalize_daily_flash.py
       - tests/test_daily_flash.py
+      - tests/test_market_extras.py
       - .github/workflows/update-daily-flash.yml
 
 permissions:
@@ -50,16 +53,24 @@ jobs:
         run: python -m pip install "akshare>=1.18,<2"
 
       - name: Test Daily Flash contracts
-        run: python -m unittest tests/test_daily_flash.py -v
+        run: |
+          python -m unittest tests/test_daily_flash.py -v
+          python -m unittest tests/test_market_extras.py -v
 
       - name: Refresh cross-asset markets
         run: python scripts/fetch_global_markets.py
+
+      - name: Refresh market extras
+        run: python scripts/fetch_market_extras.py
 
       - name: Refresh catalyst calendar
         run: python scripts/fetch_catalysts.py
 
       - name: Build Daily Flash
         run: python scripts/build_daily_flash.py
+
+      - name: Attach leverage and futures context
+        run: python scripts/augment_daily_flash_extras.py
 
       - name: Finalize Daily Flash integrity
         run: python scripts/finalize_daily_flash.py
@@ -73,27 +84,31 @@ jobs:
           flash = json.load(open("daily_flash.json", encoding="utf-8"))
           global_markets = json.load(open("global_markets.json", encoding="utf-8"))
           catalysts = json.load(open("catalysts.json", encoding="utf-8"))
+          extras = json.load(open("market_extras.json", encoding="utf-8"))
           assert flash.get("version") == 1
           assert global_markets.get("version") == 1
           assert catalysts.get("version") == 1
+          assert extras.get("version") == 1
           for key in ("core_conclusion", "market", "sector_rotation", "global_markets", "key_events", "catalysts", "dimensions", "themes", "outlook", "matrix_focus"):
               assert key in flash, key
           assert isinstance(flash.get("global_markets"), list)
           assert isinstance(flash.get("catalysts"), list)
           assert isinstance(flash.get("dimensions"), list)
           assert isinstance(flash.get("themes"), list)
+          assert isinstance(flash.get("market", {}).get("funding_and_futures", {}).get("index_futures", []), list)
           assert flash.get("integrity", {}).get("status") == "ok", flash.get("integrity")
           forbidden = {"quantity", "position_size", "buy", "sell", "cost_basis", "stop_loss"}
           assert not forbidden.intersection(flash), "private/trade fields leaked into Daily Flash"
           assert Path("dashboard-v5.html").exists()
-          print("daily flash validated", flash.get("generated_at"), "global", global_markets.get("summary"), "catalysts", catalysts.get("summary"), flash.get("integrity"))
+          assert Path("daily-flash-extras.js").exists()
+          print("daily flash validated", flash.get("generated_at"), "global", global_markets.get("summary"), "catalysts", catalysts.get("summary"), "southbound", extras.get("southbound", {}).get("net_buy_cny_100m"), "futures", len(extras.get("index_futures", [])), flash.get("integrity"))
           PY
 
       - name: Commit Daily Flash artifacts
         run: |
           git config user.name "investment-news-bot"
           git config user.email "investment-news-bot@users.noreply.github.com"
-          git add global_markets.json catalysts.json daily_flash.json
+          git add global_markets.json market_extras.json catalysts.json daily_flash.json
           git diff --cached --quiet && exit 0
           git commit -m "chore: refresh Daily Flash"
           for attempt in 1 2 3; do
