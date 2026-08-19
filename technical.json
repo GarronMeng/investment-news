@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-08-19T09:08:38+08:00",
-  "source_generated_at": "2026-08-19T09:08:38+08:00",
+  "generated_at": "2026-08-19T09:53:16+08:00",
+  "source_generated_at": "2026-08-19T09:53:16+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -216,27 +216,27 @@
     "161226": {
       "code": "161226",
       "name": "国投白银LOF",
-      "as_of": "2026-08-18",
+      "as_of": "2026-08-19",
       "source_status": "fresh",
       "observations": 140,
-      "close": 1.877,
+      "close": 1.838,
       "ma60": {
-        "value": 1.9423,
+        "value": 1.933,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.004808
+        "slope_pct": -0.004788
       },
-      "rsi14": 46.49,
-      "rsi_zone": "neutral",
+      "rsi14": 43.76,
+      "rsi_zone": "weak",
       "macd": {
-        "dif": -0.00407,
-        "dea": 0.00354,
-        "hist": -0.01522,
+        "dif": -0.00996,
+        "dea": 0.00084,
+        "hist": -0.02159,
         "state": "bearish",
-        "cross_age": 2
+        "cross_age": 3
       },
       "volume": {
-        "ratio20": 0.682,
+        "ratio20": 0.299,
         "state": "contraction"
       },
       "breakout_20d": "inside_range",
@@ -246,27 +246,27 @@
     "518880": {
       "code": "518880",
       "name": "黄金ETF华安",
-      "as_of": "2026-08-18",
+      "as_of": "2026-08-19",
       "source_status": "fresh",
       "observations": 140,
-      "close": 9.078,
+      "close": 8.993,
       "ma60": {
-        "value": 8.7286,
+        "value": 8.7209,
         "position": "above",
         "direction": "falling",
-        "slope_pct": -0.000828
+        "slope_pct": -0.00088
       },
-      "rsi14": 65.62,
+      "rsi14": 60.63,
       "rsi_zone": "strong",
       "macd": {
-        "dif": 0.13564,
-        "dea": 0.07728,
-        "hist": 0.11671,
+        "dif": 0.13347,
+        "dea": 0.08851,
+        "hist": 0.08991,
         "state": "bullish",
         "cross_age": null
       },
       "volume": {
-        "ratio20": 0.741,
+        "ratio20": 0.17,
         "state": "contraction"
       },
       "breakout_20d": "inside_range",
@@ -304,7 +304,15 @@
       "condition_state": "all_conditions"
     }
   },
-  "state_changes": [],
+  "state_changes": [
+    {
+      "code": "161226",
+      "name": "国投白银LOF",
+      "field": "rsi_zone",
+      "from": "neutral",
+      "to": "weak"
+    }
+  ],
   "methodology": {
     "rsi14": "Wilder RSI(14)",
     "macd": "EMA12/EMA26 DIF, EMA9 signal, histogram=(DIF-DEA)*2",

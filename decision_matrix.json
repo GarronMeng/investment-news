@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-19T09:08:46+08:00",
+  "generated_at": "2026-08-19T09:53:23+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -556,17 +556,17 @@
       "group": "贵金属对冲",
       "role": "高波动商品仓观察",
       "priority": 5,
-      "as_of": "2026-08-18",
+      "as_of": "2026-08-19",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -60.3,
+      "composite_score": -70.7,
       "coverage": 75.0,
-      "confluence": 88.1,
+      "confluence": 91.2,
       "available_layers": 3,
       "opposing_weight_share": 0.0,
       "evidence_state": "multi_layer_confirmed",
       "thesis_state": "confirmed",
-      "attention_score": 73.9,
+      "attention_score": 74.1,
       "research_focus": "验证持续性、行业扩散与后续基本面证据。",
       "layers": {
         "event": {
@@ -577,15 +577,15 @@
         },
         "technical": {
           "available": true,
-          "score": -68.0,
+          "score": -82.0,
           "confidence": "medium",
-          "evidence": "MA60 below/falling；MACD bearish；RSI 46.49 (neutral)；量能 contraction；20日结构 inside_range。"
+          "evidence": "MA60 below/falling；MACD bearish；RSI 43.76 (weak)；量能 contraction；20日结构 inside_range。"
         },
         "relative_strength": {
           "available": true,
-          "score": -24.3,
+          "score": -42.3,
           "confidence": "high",
-          "evidence": "5日相对强弱 -0.032834；20日相对强弱 -0.012625。"
+          "evidence": "5日相对强弱 -0.052186；20日相对强弱 -0.033649。"
         },
         "industry": {
           "available": false,
@@ -607,8 +607,8 @@
         "negative": [
           {
             "layer": "technical",
-            "score": -68.0,
-            "evidence": "MA60 below/falling；MACD bearish；RSI 46.49 (neutral)；量能 contraction；20日结构 inside_range。"
+            "score": -82.0,
+            "evidence": "MA60 below/falling；MACD bearish；RSI 43.76 (weak)；量能 contraction；20日结构 inside_range。"
           },
           {
             "layer": "event",
@@ -627,7 +627,7 @@
       ],
       "excluded_layers": [],
       "positive_direction_mass": 0.0,
-      "negative_direction_mass": 45.3,
+      "negative_direction_mass": 53.1,
       "conflict_score": 0.0
     },
     "518880": {
@@ -636,17 +636,17 @@
       "group": "贵金属对冲",
       "role": "低波动避险映射",
       "priority": 3,
-      "as_of": "2026-08-18",
+      "as_of": "2026-08-19",
       "base_bias": "bearish",
       "matrix_direction": "neutral",
-      "composite_score": -2.9,
+      "composite_score": -8.2,
       "coverage": 75.0,
-      "confluence": 4.4,
+      "confluence": 12.3,
       "available_layers": 3,
       "opposing_weight_share": 0.0,
       "evidence_state": "conflict",
       "thesis_state": "conflicted",
-      "attention_score": 89.0,
+      "attention_score": 88.4,
       "research_focus": "正负证据正在相互抵消，优先识别哪一层先失效或被确认。",
       "layers": {
         "event": {
@@ -659,13 +659,13 @@
           "available": true,
           "score": 38.0,
           "confidence": "medium",
-          "evidence": "MA60 above/falling；MACD bullish；RSI 65.62 (strong)；量能 contraction；20日结构 inside_range。"
+          "evidence": "MA60 above/falling；MACD bullish；RSI 60.63 (strong)；量能 contraction；20日结构 inside_range。"
         },
         "relative_strength": {
           "available": true,
-          "score": 32.1,
+          "score": 12.3,
           "confidence": "high",
-          "evidence": "5日相对强弱 -0.00482；20日相对强弱 0.072036。"
+          "evidence": "5日相对强弱 -0.024563；20日相对强弱 0.050584。"
         },
         "industry": {
           "available": false,
@@ -687,12 +687,12 @@
           {
             "layer": "technical",
             "score": 38.0,
-            "evidence": "MA60 above/falling；MACD bullish；RSI 65.62 (strong)；量能 contraction；20日结构 inside_range。"
+            "evidence": "MA60 above/falling；MACD bullish；RSI 60.63 (strong)；量能 contraction；20日结构 inside_range。"
           },
           {
             "layer": "relative_strength",
-            "score": 32.1,
-            "evidence": "5日相对强弱 -0.00482；20日相对强弱 0.072036。"
+            "score": 12.3,
+            "evidence": "5日相对强弱 -0.024563；20日相对强弱 0.050584。"
           }
         ],
         "negative": [
@@ -712,9 +712,9 @@
         "白银LOF场内价格仅因溢价扩大而上涨，未获基金净值确认"
       ],
       "excluded_layers": [],
-      "positive_direction_mass": 17.8,
+      "positive_direction_mass": 11.4,
       "negative_direction_mass": 20.0,
-      "conflict_score": 94.2
+      "conflict_score": 72.6
     },
     "517380": {
       "code": "517380",
@@ -824,184 +824,72 @@
     {
       "code": "603986",
       "name": "兆易创新",
-      "field": "matrix_direction",
-      "from": "neutral",
-      "to": "bearish"
-    },
-    {
-      "code": "603986",
-      "name": "兆易创新",
       "field": "evidence_state",
-      "from": "noise_or_no_edge",
+      "from": "multi_layer_confirmed",
       "to": "partial_confirmation"
     },
     {
       "code": "603986",
       "name": "兆易创新",
       "field": "thesis_state",
-      "from": "no_directional_thesis",
+      "from": "confirmed",
       "to": "supported"
-    },
-    {
-      "code": "001309",
-      "name": "德明利",
-      "field": "thesis_state",
-      "from": "emerging",
-      "to": "supported"
-    },
-    {
-      "code": "300308",
-      "name": "中际旭创",
-      "field": "evidence_state",
-      "from": "partial_confirmation",
-      "to": "multi_layer_confirmed"
-    },
-    {
-      "code": "300308",
-      "name": "中际旭创",
-      "field": "thesis_state",
-      "from": "emerging",
-      "to": "confirmed"
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "matrix_direction",
-      "from": "neutral",
-      "to": "bearish"
     },
     {
       "code": "002384",
       "name": "东山精密",
       "field": "evidence_state",
-      "from": "noise_or_no_edge",
+      "from": "multi_layer_confirmed",
       "to": "partial_confirmation"
     },
     {
       "code": "002384",
       "name": "东山精密",
       "field": "thesis_state",
-      "from": "no_directional_thesis",
+      "from": "confirmed",
       "to": "supported"
     },
     {
       "code": "600667",
       "name": "太极实业",
-      "field": "matrix_direction",
-      "from": "bullish",
-      "to": "neutral"
-    },
-    {
-      "code": "600667",
-      "name": "太极实业",
       "field": "evidence_state",
-      "from": "partial_confirmation",
+      "from": "conflict",
       "to": "noise_or_no_edge"
     },
     {
       "code": "600667",
       "name": "太极实业",
       "field": "thesis_state",
-      "from": "supported",
+      "from": "conflicted",
       "to": "under_test"
     },
     {
-      "code": "161226",
-      "name": "国投白银LOF",
+      "code": "000636",
+      "name": "风华高科",
       "field": "evidence_state",
-      "from": "insufficient",
-      "to": "partial_confirmation"
-    },
-    {
-      "code": "518880",
-      "name": "黄金ETF华安",
-      "field": "matrix_direction",
-      "from": "bullish",
-      "to": "neutral"
+      "from": "partial_confirmation",
+      "to": "conflict"
     },
     {
       "code": "518880",
       "name": "黄金ETF华安",
       "field": "evidence_state",
-      "from": "insufficient",
+      "from": "conflict",
       "to": "noise_or_no_edge"
     },
     {
       "code": "518880",
       "name": "黄金ETF华安",
       "field": "thesis_state",
-      "from": "supported",
+      "from": "conflicted",
       "to": "under_test"
     },
     {
-      "code": "603986",
-      "name": "兆易创新",
-      "field": "evidence_state",
-      "from": "noise_or_no_edge",
-      "to": "multi_layer_confirmed"
-    },
-    {
-      "code": "603986",
-      "name": "兆易创新",
-      "field": "thesis_state",
-      "from": "no_directional_thesis",
-      "to": "confirmed"
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "evidence_state",
-      "from": "noise_or_no_edge",
-      "to": "multi_layer_confirmed"
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "thesis_state",
-      "from": "no_directional_thesis",
-      "to": "confirmed"
-    },
-    {
-      "code": "600667",
-      "name": "太极实业",
+      "code": "517380",
+      "name": "创新药沪港深ETF天弘",
       "field": "evidence_state",
       "from": "partial_confirmation",
       "to": "conflict"
-    },
-    {
-      "code": "600667",
-      "name": "太极实业",
-      "field": "thesis_state",
-      "from": "supported",
-      "to": "conflicted"
-    },
-    {
-      "code": "161226",
-      "name": "国投白银LOF",
-      "field": "evidence_state",
-      "from": "insufficient",
-      "to": "multi_layer_confirmed"
-    },
-    {
-      "code": "161226",
-      "name": "国投白银LOF",
-      "field": "thesis_state",
-      "from": "supported",
-      "to": "confirmed"
-    },
-    {
-      "code": "518880",
-      "name": "黄金ETF华安",
-      "field": "evidence_state",
-      "from": "insufficient",
-      "to": "conflict"
-    },
-    {
-      "code": "518880",
-      "name": "黄金ETF华安",
-      "field": "thesis_state",
-      "from": "supported",
-      "to": "conflicted"
     }
   ],
   "methodology": {

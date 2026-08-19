@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generated_at": "2026-08-19T09:08:46+08:00",
+  "generated_at": "2026-08-19T09:53:23+08:00",
   "source": {
     "data_generated_at": "2026-08-19 07:48",
     "ai_generated_at": "2026-08-19 09:06",
     "ai_source_generated_at": "2026-08-19 07:48",
-    "features_generated_at": "2026-08-19T09:08:38+08:00",
+    "features_generated_at": "2026-08-19T09:53:16+08:00",
     "fresh_ai": true
   },
   "decisions": [
@@ -156,7 +156,7 @@
     {
       "asset": "161226",
       "name": "国投白银LOF",
-      "as_of": "2026-08-18",
+      "as_of": "2026-08-19",
       "bias": "bearish",
       "status": "active",
       "event_score": 10.0,
@@ -166,7 +166,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "bearish",
-      "why_now": "fresh event evidence; market trend=bearish; 20d relative strength=-0.012625",
+      "why_now": "fresh event evidence; market trend=bearish; 20d relative strength=-0.033649",
       "confirmation": [
         "美元与长端实际利率是否回落，国内黄金ETF能否与外盘同向企稳",
         "国投白银LOF最新净值、场内价格、溢价率及基金公告是否同步改善"
@@ -180,17 +180,17 @@
     {
       "asset": "518880",
       "name": "黄金ETF华安",
-      "as_of": "2026-08-18",
+      "as_of": "2026-08-19",
       "bias": "bearish",
-      "status": "neutral",
+      "status": "watch",
       "event_score": 10.0,
-      "market_score": 85.0,
+      "market_score": 75.0,
       "freshness_score": 100,
-      "conviction": 20.0,
+      "conviction": 28.0,
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.072036",
+      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.050584",
       "confirmation": [
         "美元与长端实际利率是否回落，国内黄金ETF能否与外盘同向企稳",
         "国投白银LOF最新净值、场内价格、溢价率及基金公告是否同步改善"

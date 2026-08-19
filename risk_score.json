@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-08-19T09:08:46+08:00",
-  "score": 65.0,
+  "generated_at": "2026-08-19T09:53:23+08:00",
+  "score": 67.8,
   "label": "elevated",
   "coverage": 100.0,
   "available_weight": 100,
@@ -25,16 +25,16 @@
       "evidence": "MA60 below/falling；MACD bullish；RSI neutral"
     },
     "leverage": {
-      "score": 68.2,
+      "score": 76.5,
       "weight": 15,
       "available": true,
-      "evidence": "两融5日变化 2.27%（20日基线尚未完整）"
+      "evidence": "两融5日变化 3.31%（20日基线尚未完整）"
     },
     "overseas": {
-      "score": 25.7,
+      "score": 41.3,
       "weight": 10,
       "available": true,
-      "evidence": "VIX 15.19；20日分位 30.0%"
+      "evidence": "VIX 15.84；20日分位 50.0%"
     },
     "concentration": {
       "score": 58.0,
@@ -50,14 +50,14 @@
       "evidence": "沪深300滚动PE十年分位 79.2%"
     },
     {
+      "component": "leverage",
+      "score": 76.5,
+      "evidence": "两融5日变化 3.31%（20日基线尚未完整）"
+    },
+    {
       "component": "trend",
       "score": 73.0,
       "evidence": "MA60 below/falling；MACD bullish；RSI neutral"
-    },
-    {
-      "component": "leverage",
-      "score": 68.2,
-      "evidence": "两融5日变化 2.27%（20日基线尚未完整）"
     }
   ],
   "state_changes": [],
