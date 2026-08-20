@@ -1,18 +1,18 @@
 {
   "version": 1,
-  "generated_at": "2026-08-20T16:07:31+08:00",
+  "generated_at": "2026-08-21T07:52:33+08:00",
   "source": {
-    "data_generated_at": "2026-08-20 15:59",
+    "data_generated_at": "2026-08-21 07:51",
     "ai_generated_at": "2026-08-20 13:33",
     "ai_source_generated_at": "2026-08-20 12:25",
-    "features_generated_at": "2026-08-20T16:07:19+08:00",
+    "features_generated_at": "2026-08-21T07:52:14+08:00",
     "fresh_ai": false
   },
   "decisions": [
     {
       "asset": "603986",
       "name": "兆易创新",
-      "as_of": "2026-08-19",
+      "as_of": "2026-08-20",
       "bias": "bearish",
       "status": "market_watch",
       "event_score": 50.0,
@@ -22,7 +22,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "mixed",
-      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=-0.117748",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=-0.079229",
       "confirmation": [
         "股价相对半导体指数转强",
         "成交量放大且收盘站稳"
@@ -31,22 +31,22 @@
         "存储价格下行",
         "库存恶化"
       ],
-      "expires_at": "2026-08-25"
+      "expires_at": "2026-08-26"
     },
     {
       "asset": "001309",
       "name": "德明利",
-      "as_of": "2026-08-19",
-      "bias": "bearish",
-      "status": "market_watch",
+      "as_of": "2026-08-20",
+      "bias": "neutral",
+      "status": "neutral",
       "event_score": 50.0,
-      "market_score": 15.0,
+      "market_score": 45.0,
       "freshness_score": 70,
-      "conviction": 55,
+      "conviction": 10.0,
       "evidence_mode": "market_only",
       "event_count": 0,
-      "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.115375",
+      "trend_state": "mixed",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=-0.056835",
       "confirmation": [
         "相对存储板块止跌转强",
         "放量突破短期压力位"
@@ -55,12 +55,12 @@
         "NAND跌价",
         "渠道库存上升"
       ],
-      "expires_at": "2026-08-25"
+      "expires_at": "2026-08-26"
     },
     {
       "asset": "300308",
       "name": "中际旭创",
-      "as_of": "2026-08-19",
+      "as_of": "2026-08-20",
       "bias": "bearish",
       "status": "market_watch",
       "event_score": 50.0,
@@ -70,7 +70,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.132437",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.128946",
       "confirmation": [
         "海外AI硬件与A股CPO同步走强",
         "高位放量后能维持强势"
@@ -79,12 +79,12 @@
         "AI资本开支下修",
         "客户延迟采购"
       ],
-      "expires_at": "2026-08-25"
+      "expires_at": "2026-08-26"
     },
     {
       "asset": "002384",
       "name": "东山精密",
-      "as_of": "2026-08-19",
+      "as_of": "2026-08-20",
       "bias": "bearish",
       "status": "market_watch",
       "event_score": 50.0,
@@ -94,7 +94,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "mixed",
-      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=-0.070498",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=-0.015463",
       "confirmation": [
         "PCB板块扩散上涨",
         "订单利好得到成交量确认"
@@ -103,12 +103,12 @@
         "终端需求下修",
         "价格竞争"
       ],
-      "expires_at": "2026-08-25"
+      "expires_at": "2026-08-26"
     },
     {
       "asset": "600667",
       "name": "太极实业",
-      "as_of": "2026-08-19",
+      "as_of": "2026-08-20",
       "bias": "bullish",
       "status": "market_watch",
       "event_score": 50.0,
@@ -118,7 +118,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.288723",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.334832",
       "confirmation": [
         "半导体工程板块同步走强",
         "事件后股价摆脱弱势结构"
@@ -127,22 +127,22 @@
         "资本开支延迟",
         "项目回款承压"
       ],
-      "expires_at": "2026-08-25"
+      "expires_at": "2026-08-26"
     },
     {
       "asset": "000636",
       "name": "风华高科",
-      "as_of": "2026-08-19",
-      "bias": "bullish",
-      "status": "market_watch",
+      "as_of": "2026-08-20",
+      "bias": "neutral",
+      "status": "neutral",
       "event_score": 50.0,
-      "market_score": 75.0,
+      "market_score": 55.0,
       "freshness_score": 70,
-      "conviction": 50.0,
+      "conviction": 10.0,
       "evidence_mode": "market_only",
       "event_count": 0,
-      "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.38189",
+      "trend_state": "mixed",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.256643",
       "confirmation": [
         "被动元件板块形成联动",
         "涨价新闻后价格走势能够确认"
@@ -151,22 +151,22 @@
         "价格下跌",
         "库存去化不及预期"
       ],
-      "expires_at": "2026-08-25"
+      "expires_at": "2026-08-26"
     },
     {
       "asset": "161226",
       "name": "国投白银LOF",
-      "as_of": "2026-08-19",
-      "bias": "bearish",
+      "as_of": "2026-08-20",
+      "bias": "bullish",
       "status": "market_watch",
       "event_score": 50.0,
-      "market_score": 15.0,
+      "market_score": 65.0,
       "freshness_score": 70,
-      "conviction": 55,
+      "conviction": 30.0,
       "evidence_mode": "market_only",
       "event_count": 0,
-      "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.012983",
+      "trend_state": "mixed",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.032212",
       "confirmation": [
         "同时核对基金净值、场内价格和溢价率",
         "银价上涨时场内溢价未继续扩大"
@@ -175,36 +175,12 @@
         "银价下跌",
         "美元与实际利率上行"
       ],
-      "expires_at": "2026-08-25"
+      "expires_at": "2026-08-26"
     },
     {
       "asset": "518880",
       "name": "黄金ETF华安",
-      "as_of": "2026-08-19",
-      "bias": "bullish",
-      "status": "market_watch",
-      "event_score": 50.0,
-      "market_score": 75.0,
-      "freshness_score": 70,
-      "conviction": 50.0,
-      "evidence_mode": "market_only",
-      "event_count": 0,
-      "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.071659",
-      "confirmation": [
-        "外盘金价与国内黄金现货同向",
-        "ETF成交量与价格同步确认"
-      ],
-      "invalidation": [
-        "金价下跌",
-        "实际利率上行"
-      ],
-      "expires_at": "2026-08-25"
-    },
-    {
-      "asset": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "as_of": "2026-08-19",
+      "as_of": "2026-08-20",
       "bias": "bullish",
       "status": "market_watch",
       "event_score": 50.0,
@@ -214,7 +190,31 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.126657",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.106731",
+      "confirmation": [
+        "外盘金价与国内黄金现货同向",
+        "ETF成交量与价格同步确认"
+      ],
+      "invalidation": [
+        "金价下跌",
+        "实际利率上行"
+      ],
+      "expires_at": "2026-08-26"
+    },
+    {
+      "asset": "517380",
+      "name": "创新药沪港深ETF天弘",
+      "as_of": "2026-08-20",
+      "bias": "bullish",
+      "status": "market_watch",
+      "event_score": 50.0,
+      "market_score": 90.0,
+      "freshness_score": 70,
+      "conviction": 55,
+      "evidence_mode": "market_only",
+      "event_count": 0,
+      "trend_state": "bullish",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.164638",
       "confirmation": [
         "A股与港股创新药板块形成联动",
         "利好由成交量与持续性确认"
@@ -223,7 +223,7 @@
         "临床失败",
         "监管或支付政策收紧"
       ],
-      "expires_at": "2026-08-25"
+      "expires_at": "2026-08-26"
     }
   ],
   "methodology": {
