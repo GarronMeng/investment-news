@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-08-20T13:33:10+08:00",
-  "source_generated_at": "2026-08-20T13:33:10+08:00",
+  "generated_at": "2026-08-20T13:50:31+08:00",
+  "source_generated_at": "2026-08-20T13:50:31+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -36,28 +36,28 @@
     "603986": {
       "code": "603986",
       "name": "兆易创新",
-      "as_of": "2026-08-19",
+      "as_of": "2026-08-20",
       "source_status": "fresh",
       "observations": 140,
-      "close": 403.71,
+      "close": 402.95,
       "ma60": {
-        "value": 520.9127,
+        "value": 519.0588,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.003904
+        "slope_pct": -0.003559
       },
-      "rsi14": 43.19,
+      "rsi14": 43.07,
       "rsi_zone": "weak",
       "macd": {
-        "dif": -24.93101,
-        "dea": -35.63422,
-        "hist": 21.40642,
+        "dif": -24.07196,
+        "dea": -33.3216,
+        "hist": 18.49929,
         "state": "bullish",
-        "cross_age": 7
+        "cross_age": 8
       },
       "volume": {
-        "ratio20": 1.057,
-        "state": "normal"
+        "ratio20": 0.453,
+        "state": "contraction"
       },
       "breakout_20d": "inside_range",
       "data_quality": "usable",
@@ -66,28 +66,28 @@
     "001309": {
       "code": "001309",
       "name": "德明利",
-      "as_of": "2026-08-19",
+      "as_of": "2026-08-20",
       "source_status": "fresh",
       "observations": 140,
-      "close": 393.8,
+      "close": 396.3,
       "ma60": {
-        "value": 606.9885,
+        "value": 602.5102,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.007232
+        "slope_pct": -0.007378
       },
-      "rsi14": 38.2,
+      "rsi14": 38.71,
       "rsi_zone": "weak",
       "macd": {
-        "dif": -48.71638,
-        "dea": -64.79346,
-        "hist": 32.15415,
+        "dif": -46.4461,
+        "dea": -61.12404,
+        "hist": 29.35589,
         "state": "bullish",
-        "cross_age": 8
+        "cross_age": 9
       },
       "volume": {
-        "ratio20": 0.832,
-        "state": "normal"
+        "ratio20": 0.35,
+        "state": "contraction"
       },
       "breakout_20d": "inside_range",
       "data_quality": "usable",
@@ -96,28 +96,28 @@
     "300308": {
       "code": "300308",
       "name": "中际旭创",
-      "as_of": "2026-08-19",
+      "as_of": "2026-08-20",
       "source_status": "fresh",
       "observations": 140,
-      "close": 895.6,
+      "close": 891.42,
       "ma60": {
-        "value": 1105.933,
+        "value": 1102.2672,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.003116
+        "slope_pct": -0.003315
       },
-      "rsi14": 42.62,
+      "rsi14": 42.33,
       "rsi_zone": "weak",
       "macd": {
-        "dif": -38.15933,
-        "dea": -47.21497,
-        "hist": 18.11127,
+        "dif": -39.60718,
+        "dea": -45.69445,
+        "hist": 12.17455,
         "state": "bullish",
-        "cross_age": 4
+        "cross_age": 5
       },
       "volume": {
-        "ratio20": 0.876,
-        "state": "normal"
+        "ratio20": 0.423,
+        "state": "contraction"
       },
       "breakout_20d": "inside_range",
       "data_quality": "usable",
@@ -216,27 +216,27 @@
     "161226": {
       "code": "161226",
       "name": "国投白银LOF",
-      "as_of": "2026-08-20",
+      "as_of": "2026-08-19",
       "source_status": "fresh",
       "observations": 140,
-      "close": 1.898,
+      "close": 1.833,
       "ma60": {
-        "value": 1.9263,
+        "value": 1.9329,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.003432
+        "slope_pct": -0.004831
       },
-      "rsi14": 48.79,
-      "rsi_zone": "neutral",
+      "rsi14": 43.43,
+      "rsi_zone": "weak",
       "macd": {
-        "dif": -0.00998,
-        "dea": -0.0014,
-        "hist": -0.01717,
+        "dif": -0.01036,
+        "dea": 0.00076,
+        "hist": -0.02223,
         "state": "bearish",
-        "cross_age": 4
+        "cross_age": 3
       },
       "volume": {
-        "ratio20": 1.003,
+        "ratio20": 0.776,
         "state": "normal"
       },
       "breakout_20d": "inside_range",
@@ -306,11 +306,32 @@
   },
   "state_changes": [
     {
+      "code": "603986",
+      "name": "兆易创新",
+      "field": "volume",
+      "from": "normal",
+      "to": "contraction"
+    },
+    {
+      "code": "001309",
+      "name": "德明利",
+      "field": "volume",
+      "from": "normal",
+      "to": "contraction"
+    },
+    {
+      "code": "300308",
+      "name": "中际旭创",
+      "field": "volume",
+      "from": "normal",
+      "to": "contraction"
+    },
+    {
       "code": "161226",
       "name": "国投白银LOF",
       "field": "rsi_zone",
-      "from": "weak",
-      "to": "neutral"
+      "from": "neutral",
+      "to": "weak"
     }
   ],
   "methodology": {

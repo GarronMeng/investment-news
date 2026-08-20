@@ -1,18 +1,18 @@
 {
   "version": 1,
-  "generated_at": "2026-08-20T13:33:24+08:00",
+  "generated_at": "2026-08-20T13:50:46+08:00",
   "source": {
     "data_generated_at": "2026-08-20 12:25",
     "ai_generated_at": "2026-08-20 13:33",
     "ai_source_generated_at": "2026-08-20 12:25",
-    "features_generated_at": "2026-08-20T13:33:10+08:00",
+    "features_generated_at": "2026-08-20T13:50:31+08:00",
     "fresh_ai": true
   },
   "decisions": [
     {
       "asset": "603986",
       "name": "兆易创新",
-      "as_of": "2026-08-19",
+      "as_of": "2026-08-20",
       "bias": "bullish",
       "status": "watch",
       "event_score": 100.0,
@@ -22,7 +22,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 2,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.117748",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.085144",
       "confirmation": [
         "股价相对半导体指数转强并收复8月19日开盘区间",
         "存储板块上涨家数与行业资金流同时改善，而非单一个股反抽"
@@ -36,17 +36,17 @@
     {
       "asset": "001309",
       "name": "德明利",
-      "as_of": "2026-08-19",
+      "as_of": "2026-08-20",
       "bias": "bullish",
       "status": "watch",
       "event_score": 100.0,
-      "market_score": 15.0,
+      "market_score": 35.0,
       "freshness_score": 100,
-      "conviction": 32.0,
+      "conviction": 48.0,
       "evidence_mode": "event_plus_market",
       "event_count": 1,
-      "trend_state": "bearish",
-      "why_now": "fresh event evidence; market trend=bearish; 20d relative strength=-0.115375",
+      "trend_state": "mixed",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.065671",
       "confirmation": [
         "三星、SK海力士与NAND价格/订单数据继续同向改善",
         "兆易创新、德明利、太极实业至少两只相对半导体指数转强"
@@ -60,7 +60,7 @@
     {
       "asset": "300308",
       "name": "中际旭创",
-      "as_of": "2026-08-19",
+      "as_of": "2026-08-20",
       "bias": "bearish",
       "status": "market_watch",
       "event_score": 50.0,
@@ -70,7 +70,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.132437",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.14556",
       "confirmation": [
         "海外AI硬件与A股CPO同步走强",
         "高位放量后能维持强势"
@@ -156,17 +156,17 @@
     {
       "asset": "161226",
       "name": "国投白银LOF",
-      "as_of": "2026-08-20",
+      "as_of": "2026-08-19",
       "bias": "bullish",
-      "status": "active",
+      "status": "neutral",
       "event_score": 90.0,
-      "market_score": 65.0,
+      "market_score": 15.0,
       "freshness_score": 100,
-      "conviction": 60.0,
+      "conviction": 20.0,
       "evidence_mode": "event_plus_market",
       "event_count": 1,
-      "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=0.02435",
+      "trend_state": "bearish",
+      "why_now": "fresh event evidence; market trend=bearish; 20d relative strength=-0.012983",
       "confirmation": [
         "黄金ETF维持9.15上方且国内黄金产业ETF保持相对强势",
         "美元与美债实际收益率维持回落，外盘黄金守住突破区间"
