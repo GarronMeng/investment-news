@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-20T16:23:30+08:00",
+  "generated_at": "2026-08-21T07:55:32+08:00",
   "timezone": "Asia/Shanghai",
   "status": "fresh",
   "report_period_code": "20260630",
@@ -250,14 +250,14 @@
       "theme": "半导体工程 / 封测",
       "summary": {
         "total": 3,
-        "reported": 0,
-        "scheduled": 3,
+        "reported": 1,
+        "scheduled": 2,
         "pending": 0,
-        "positive_reports": 0,
+        "positive_reports": 1,
         "weak_reports": 0,
-        "median_revenue_yoy_pct": null,
-        "median_net_profit_yoy_pct": null,
-        "breadth": "awaiting_reports"
+        "median_revenue_yoy_pct": 4.96,
+        "median_net_profit_yoy_pct": 79.41,
+        "breadth": "positive"
       },
       "companies": [
         {
@@ -279,17 +279,17 @@
         {
           "code": "600584",
           "name": "长电科技",
-          "status": "scheduled",
-          "announcement_date": null,
+          "status": "reported",
+          "announcement_date": "2026-08-21",
           "scheduled_date": "2026-08-21",
-          "revenue": null,
-          "revenue_yoy_pct": null,
-          "net_profit": null,
-          "net_profit_yoy_pct": null,
-          "gross_margin_pct": null,
-          "earnings_signal": "not_reported",
-          "industry": null,
-          "source": "东方财富 via AKShare",
+          "revenue": 19527223323.13,
+          "revenue_yoy_pct": 4.9555934613,
+          "net_profit": 844644275.04,
+          "net_profit_yoy_pct": 79.41,
+          "gross_margin_pct": 15.1490497017,
+          "earnings_signal": "positive_growth",
+          "industry": "半导体",
+          "source": "东方财富 via AKShare + 公告确认",
           "reason": null
         },
         {
@@ -442,11 +442,11 @@
   "summary": {
     "themes": 6,
     "companies": 21,
-    "reported": 6,
-    "scheduled": 15
+    "reported": 7,
+    "scheduled": 14
   },
   "warnings": [
-    "withheld 267 same-day earnings rows without corroborating public financial-report notice"
+    "withheld 4 same-day earnings rows without corroborating public financial-report notice"
   ],
   "methodology": {
     "reported": "东方财富业绩报表 stock_yjbb_em via AKShare；未来公告日期不暴露财务字段；同日行必须在stock_notice_report财务报告公告中得到代码级确认。",

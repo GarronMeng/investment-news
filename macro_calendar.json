@@ -1,71 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-08-20T16:22:48+08:00",
+  "generated_at": "2026-08-21T07:54:43+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
-    {
-      "date": "2026-08-21",
-      "time": "04:30",
-      "type": "macro",
-      "category": "monetary_policy",
-      "region": "美国",
-      "title": "美国截至8月19日美联储资产负债表(万亿美元)",
-      "actual": null,
-      "forecast": null,
-      "previous": 6.76,
-      "importance": 2,
-      "impact_channels": [
-        "美债收益率",
-        "美元",
-        "全球成长估值",
-        "黄金/白银"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-08-21",
-      "time": "07:30",
-      "type": "macro",
-      "category": "inflation",
-      "region": "日本",
-      "title": "日本7月全国CPI年率(%)",
-      "actual": null,
-      "forecast": 2.0,
-      "previous": 1.7,
-      "importance": 2,
-      "impact_channels": [
-        "亚洲科技风险偏好",
-        "半导体链映射"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-08-21",
-      "time": "07:30",
-      "type": "macro",
-      "category": "inflation",
-      "region": "日本",
-      "title": "日本7月全国核心CPI年率(%)",
-      "actual": null,
-      "forecast": 1.8,
-      "previous": 1.6,
-      "importance": 2,
-      "impact_channels": [
-        "亚洲科技风险偏好",
-        "半导体链映射"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
     {
       "date": "2026-08-21",
       "time": "14:00",
@@ -137,7 +75,7 @@
       "region": "欧元区",
       "title": "欧元区7月欧洲央行3年期CPI预期(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": 2.8,
       "previous": 2.8,
       "importance": 2,
       "impact_channels": [
@@ -159,7 +97,7 @@
       "title": "美国截至8月8日当周ADP就业周度发布变动(万人)",
       "actual": null,
       "forecast": null,
-      "previous": null,
+      "previous": 0.95,
       "importance": 2,
       "impact_channels": [
         "美债收益率",
@@ -264,8 +202,8 @@
       "region": "美国",
       "title": "美国截至8月21日当周EIA原油库存变动(万桶)",
       "actual": null,
-      "forecast": null,
-      "previous": null,
+      "forecast": -59.1,
+      "previous": 440.5,
       "importance": 2,
       "impact_channels": [
         "原油",
@@ -466,21 +404,59 @@
       "assets": [],
       "source": "百度股市通 via AKShare",
       "status": "scheduled"
+    },
+    {
+      "date": "2026-08-28",
+      "time": "21:45",
+      "type": "macro",
+      "category": "growth",
+      "region": "美国",
+      "title": "美国8月芝加哥PMI",
+      "actual": null,
+      "forecast": null,
+      "previous": 57.6,
+      "importance": 2,
+      "impact_channels": [
+        "全球风险偏好",
+        "AI资本开支预期",
+        "美元"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-31",
+      "time": "09:30",
+      "type": "macro",
+      "category": "growth",
+      "region": "中国",
+      "title": "中国8月官方制造业PMI",
+      "actual": null,
+      "forecast": null,
+      "previous": 49.2,
+      "importance": 2,
+      "impact_channels": [
+        "中国增长预期",
+        "行业盈利预期",
+        "人民币汇率"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
     }
   ],
   "summary": {
-    "total": 21,
-    "macro": 17,
+    "total": 20,
+    "macro": 16,
     "global_earnings": 4,
     "high_importance": 2,
-    "macro_days_ok": 9,
-    "report_days_ok": 10
+    "macro_days_ok": 11,
+    "report_days_ok": 11
   },
-  "warnings": [
-    "news_economic_baidu 20260820: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-    "news_economic_baidu 20260822: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10000 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-    "news_report_time_baidu 20260824: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10001 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
-  ],
+  "warnings": [],
   "methodology": {
     "macro": "百度股市通全球宏观日历 via AKShare；保留重要性>=3及少量核心importance-2宏观数据，过滤每日持仓/仓单等例行噪声，并剔除已过时的当日时点。",
     "global_earnings": "百度股市通财报发行 via AKShare；仅保留global_catalyst_universe.json中的公开研究公司。",
