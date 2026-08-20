@@ -1,53 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-08-20T16:09:24+08:00",
+  "generated_at": "2026-08-20T16:22:48+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
-    {
-      "date": "2026-08-20",
-      "time": "20:30",
-      "type": "macro",
-      "category": "monetary_policy",
-      "region": "美国",
-      "title": "美国8月费城联储制造业指数",
-      "actual": null,
-      "forecast": 25.0,
-      "previous": 41.4,
-      "importance": 2,
-      "impact_channels": [
-        "美债收益率",
-        "美元",
-        "全球成长估值",
-        "黄金/白银"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-08-20",
-      "time": "20:30",
-      "type": "macro",
-      "category": "labor",
-      "region": "美国",
-      "title": "美国截至8月15日当周初请失业金人数(万)",
-      "actual": null,
-      "forecast": 21.0,
-      "previous": 20.9,
-      "importance": 2,
-      "impact_channels": [
-        "美债收益率",
-        "美元",
-        "全球成长估值",
-        "黄金/白银"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
     {
       "date": "2026-08-21",
       "time": "04:30",
@@ -513,14 +469,18 @@
     }
   ],
   "summary": {
-    "total": 23,
-    "macro": 19,
+    "total": 21,
+    "macro": 17,
     "global_earnings": 4,
     "high_importance": 2,
-    "macro_days_ok": 11,
-    "report_days_ok": 11
+    "macro_days_ok": 9,
+    "report_days_ok": 10
   },
-  "warnings": [],
+  "warnings": [
+    "news_economic_baidu 20260820: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+    "news_economic_baidu 20260822: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10000 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+    "news_report_time_baidu 20260824: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10001 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  ],
   "methodology": {
     "macro": "百度股市通全球宏观日历 via AKShare；保留重要性>=3及少量核心importance-2宏观数据，过滤每日持仓/仓单等例行噪声，并剔除已过时的当日时点。",
     "global_earnings": "百度股市通财报发行 via AKShare；仅保留global_catalyst_universe.json中的公开研究公司。",
