@@ -1,0 +1,60 @@
+{
+  "enabled": true,
+  "base_url": "https://bidclub.ai",
+  "lookback_days": 14,
+  "max_episode_metadata": 100,
+  "max_episode_details": 40,
+  "minimum_relevance_score": 18,
+  "max_insights": 20,
+  "max_insights_per_asset": 5,
+  "topics": [
+    {
+      "id": "memory_hbm",
+      "label": "存储 / HBM",
+      "keywords": ["HBM", "DRAM", "NAND", "memory", "memory pricing", "Micron", "SK hynix", "SK Hynix", "HBM4", "存储", "内存", "闪存"],
+      "assets": ["603986", "001309", "600667"]
+    },
+    {
+      "id": "ai_compute",
+      "label": "AI算力 / GPU / Capex",
+      "keywords": ["GPU", "NVIDIA", "Vera Rubin", "Blackwell", "hyperscaler", "AI capex", "capex", "inference", "token demand", "compute", "data center", "datacenter", "AI infrastructure", "算力", "推理", "资本开支", "数据中心"],
+      "assets": ["300308", "002384", "600667"]
+    },
+    {
+      "id": "optical_cpo",
+      "label": "光通信 / CPO",
+      "keywords": ["optical", "optical transceiver", "CPO", "800G", "1.6T", "silicon photonics", "光模块", "光通信", "硅光"],
+      "assets": ["300308"]
+    },
+    {
+      "id": "pcb_electronics",
+      "label": "PCB / 消费电子",
+      "keywords": ["PCB", "FPC", "printed circuit board", "consumer electronics", "smartphone", "iPhone", "消费电子", "手机"],
+      "assets": ["002384", "000636"]
+    },
+    {
+      "id": "passive_components",
+      "label": "MLCC / 被动元件",
+      "keywords": ["MLCC", "passive components", "capacitor", "被动元件", "电容"],
+      "assets": ["000636"]
+    },
+    {
+      "id": "biotech",
+      "label": "创新药 / Biotech",
+      "keywords": ["biotech", "biopharma", "drug development", "clinical trial", "FDA", "licensing deal", "license-out", "创新药", "临床试验", "医药", "授权交易", "BD交易"],
+      "assets": ["517380"]
+    },
+    {
+      "id": "gold_macro",
+      "label": "黄金 / 宏观避险",
+      "keywords": ["gold", "real yield", "real rates", "central bank gold", "debasement", "黄金", "实际利率", "央行购金", "货币贬值"],
+      "assets": ["518880"]
+    },
+    {
+      "id": "silver_macro",
+      "label": "白银 / 宏观与工业需求",
+      "keywords": ["silver", "gold silver ratio", "precious metals", "industrial demand", "白银", "金银比", "贵金属", "工业需求"],
+      "assets": ["161226"]
+    }
+  ]
+}
