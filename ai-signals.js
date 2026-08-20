@@ -1,6 +1,6 @@
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-20 09:35",
-  "source_generated_at": "2026-08-20 07:48",
+  "generated_at": "2026-08-20 10:41",
+  "source_generated_at": "2026-08-20 09:53",
   "generated_by": "ChatGPT Web",
   "status": "ready",
   "news_titles": {
@@ -1323,14 +1323,39 @@ window.AI_SIGNALS = {
     "https://seekingalpha.com/news/4635194-wolfspeed-targets-140m-160m-q1-fy2027-revenue-while-citing-ai-data-center-growth-and": "Wolfspeed预计2027财年第一季度营收1.4亿至1.6亿美元，称AI数据中心需求增长但毛利率仍为负",
     "https://seekingalpha.com/news/4635193-accuray-expects-15m-of-incremental-annualized-cost-and-margin-improvement-in-fy27-while": "Accuray预计2027财年成本与利润率将实现1500万美元年化改善，但暂未给出正式营收及调整后EBITDA指引",
     "https://www.marketwatch.com/story/retirees-this-investment-gives-you-a-guaranteed-5-safe-withdrawal-rate-facdfd76": "退休人士：这种投资可提供有保障的5%安全提取率",
-    "https://seekingalpha.com/news/4635191-tentative-trade-deal-would-cut-canada-steel-aluminum-tariffs-by-half-reports": "报道称暂定贸易协议将把加拿大钢铝关税削减一半"
+    "https://seekingalpha.com/news/4635191-tentative-trade-deal-would-cut-canada-steel-aluminum-tariffs-by-half-reports": "报道称暂定贸易协议将把加拿大钢铝关税削减一半",
+    "https://www.digitimes.com/news/a20260819PD229/samsung-loan-demand-2026-sdc.html": "三星在存储需求激增之际提前偿还20万亿韩元SDC贷款",
+    "https://www.digitimes.com/news/a20260819VL211/ymtc-ipo-nand-flash-market.html": "长存母公司推进IPO，NAND份额达14%且AI存储业务扩大",
+    "https://www.digitimes.com/news/a20260819PD233/techman-demand-robot-2026-taipei.html": "达明机器人将系统集成占比提升至20%，服务器密集型建设带动机器人需求",
+    "https://www.digitimes.com/news/a20260819PD228/ai-server-power-supply-taiwan-2026.html": "AI服务器市场复合年增率接近40%；机架功率密度飙升100倍令电网承压",
+    "https://www.digitimes.com/news/a20260819PR203/pc-hardware-gaming-growth-sales.html": "PC涨价压力促使玩家转向高毛利外设，游戏显示器实现两位数增长",
+    "https://www.digitimes.com/news/a20260819PD221/innolux-packaging-foplp-panel-capacity.html": "群创将面板厂改造为FOPLP产能，押注黏性更强的先进封装合作",
+    "https://cleantechnica.com/2026/08/19/translucent-solar-starts-producing-solar-panels-in-south-carolina": "Translucent Solar在南卡罗来纳州开始生产太阳能电池板",
+    "https://oilprice.com/Energy/Coal/Coal-Remains-The-Undisputed-King-Of-Global-Power.html": "煤炭仍是全球发电无可争议的主导能源",
+    "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-as-logins-and-signups-fail": "OpenAI确认ChatGPT故障，登录和注册均受影响",
+    "https://www.tmtpost.com/8109762.html": "百度AI业务占核心收入过半，但市场仍按“双重身份”定价",
+    "https://www.techmeme.com/260819/p50": "三星宣布8月27日美东时间上午8点举行Galaxy线上发布会，预计推出Galaxy S26 FE",
+    "https://www.techmeme.com/260819/p49": "德国保险巨头慕尼黑再保险同意以5.75亿美元收购网络保险商At-Bay",
+    "https://arstechnica.com/space/2026/08/nasa-calls-off-mission-to-rescue-swift-gamma-ray-observatory": "NASA取消营救Swift伽马射线天文台的任务",
+    "https://arxiv.org/abs/2007.13664": "梯度下降神经网络训练的普适性",
+    "https://9to5mac.com/2026/08/19/astropad-workbench-1-3-adds-faster-streaming-privacy-curtain-and-more": "Astropad Workbench 1.3加入更快串流、隐私幕布等功能",
+    "https://www.gsmarena.com/iphone_17_pro_cases_may_fit_the_iphone_18_pro-news-74249.php": "iPhone 17 Pro保护壳或可适配iPhone 18 Pro",
+    "https://9to5mac.com/2026/08/19/psa-chatgpt-outage-is-blocking-users-from-logging-in-or-creating-new-accounts": "提醒：ChatGPT故障导致用户无法登录或创建新账户（已修复）",
+    "https://wallstreetcn.com/articles/3779844": "马斯克要突破AI编程：继Cursor之后，SpaceX试图收购Cognition但遭拒",
+    "https://www.cnbc.com/2026/08/20/japan-exports-imports-july-chip-ai.html": "日本7月出口超预期，芯片出货强劲推动连续第五个月增长",
+    "https://www.ft.com/content/28a39ff4-cc0b-4a32-93d7-d5fbc8a4bcb9": "特朗普提议重启Keystone XL管道，加拿大仍有意愿吗？",
+    "https://www.cnbc.com/2026/08/20/india-apple-samsung-china-smartphone-chip-inflation.html": "印度内部通讯：芯片紧缺冲击中国手机品牌，苹果和三星扩大优势",
+    "https://seekingalpha.com/news/4635196-bill-forecasts-fy-2027-non-gaap-eps-of-3_56-3_79-while-targeting-meaningful-gaap": "BILL预计2027财年非GAAP每股收益3.56至3.79美元，并力争实现可观GAAP盈利",
+    "https://seekingalpha.com/news/4635192-iran-may-be-losing-its-grip-on-hormuz-as-us-steps-up-help-for-tankers-reports-say": "报道称美国加大对油轮支持，伊朗或正失去对霍尔木兹海峡的控制",
+    "https://www.cnbc.com/2026/08/19/call-buying-bonanza-around-trumps-hyperliquid-comments-includes-eyebrow-raising-trades.html": "围绕特朗普Hyperliquid言论的看涨期权狂潮中出现一些引人侧目的交易",
+    "https://www.nature.com/articles/d41586-026-02586-2": "这些树正在让城市空气质量变得更差"
   },
   "overseas_markets": [
     {
       "market": "美股",
       "flag": "🇺🇸",
       "session": "2026-08-19 收盘",
-      "updated_at": "2026-08-20 09:05 北京时间核验",
+      "updated_at": "2026-08-20 10:35 北京时间复核",
       "status": "mixed",
       "status_label": "指数温和反弹，半导体继续落后",
       "move": "道指 +0.22%，标普500 +0.21%，纳指 +0.16%；费城半导体指数 -2.12%。",
@@ -1351,9 +1376,9 @@ window.AI_SIGNALS = {
       "market": "日股",
       "flag": "🇯🇵",
       "session": "2026-08-20 早盘",
-      "updated_at": "2026-08-20 09:05 北京时间",
+      "updated_at": "2026-08-20 10:35 北京时间",
       "status": "pending",
-      "status_label": "实时开盘待双源核验",
+      "status_label": "实时开盘仍待双源核验",
       "move": "仓库最新日经数据仍停留在8月18日，不能作为8月20日实时行情。",
       "driver": "隔夜美债收益率回落偏正面，但费半继续下跌，电子与半导体方向存在相反驱动。",
       "a_share_links": [
@@ -1372,9 +1397,9 @@ window.AI_SIGNALS = {
       "market": "韩股",
       "flag": "🇰🇷",
       "session": "2026-08-20 早盘",
-      "updated_at": "2026-08-20 09:05 北京时间",
+      "updated_at": "2026-08-20 10:35 北京时间",
       "status": "pending",
-      "status_label": "SK海力士回购催化，指数实时值待核验",
+      "status_label": "指数实时值仍待双源核验",
       "move": "SK海力士宣布从8月20日至11月19日回购并注销约24.07百万股、总额400,000亿韩元；KOSPI实时开盘点位尚未取得双源一致确认。",
       "driver": "巨额回购有利于存储龙头股东回报与风险偏好，但不直接等同于DRAM/NAND需求或价格上调。",
       "a_share_links": [
@@ -1417,30 +1442,56 @@ window.AI_SIGNALS = {
       ]
     },
     {
-      "event": "SK海力士启动400,000亿韩元回购注销，存储龙头风险偏好出现新催化",
+      "event": "三星提前偿还20万亿韩元贷款、长存母公司推进IPO，与SK海力士回购共同强化存储景气与融资预期",
       "industry": "semi",
       "industry_name": "HBM / DRAM / NAND / 存储",
       "direction": "positive",
-      "strength": 4,
-      "horizon": "1-5d",
-      "priced_in": "low",
-      "reason": "SK海力士董事会批准在8月20日至11月19日回购并注销约24.07百万股、约占总股本3.3%，总额400,000亿韩元，并计划将2025至2027年累计自由现金流超过50%用于股东回报。该动作直接改善韩股存储龙头的股东回报预期，但不等同于存储需求或价格上调。",
+      "strength": 5,
+      "horizon": "1-4w",
+      "priced_in": "medium",
+      "reason": "三星电子在存储需求走强背景下提前偿还来自三星显示的20万亿韩元贷款；长江存储母公司完成IPO前关键环节，报道所述全球NAND份额升至14%且企业级AI存储扩张；叠加SK海力士约24.07百万股回购注销计划，存储链的需求、融资与股东回报出现多层正向证据，但A股价格层仍需验证。",
       "assets": [
         "603986",
         "001309",
         "600667"
       ],
       "validation": [
-        "SK海力士与KOSPI存储权重守住公告后涨幅",
-        "A股兆易创新、德明利、太极实业至少两只相对半导体指数转强"
+        "三星、SK海力士与NAND价格/订单数据继续同向改善",
+        "兆易创新、德明利、太极实业至少两只相对半导体指数转强"
       ],
       "invalidation": [
-        "回购实施节奏低于公告或韩股高开低走",
-        "DRAM/NAND价格、订单或资本开支出现独立转弱信号"
+        "NAND/DRAM价格或订单独立转弱",
+        "A股存储链放量走弱且持续弱于半导体指数"
       ],
       "urls": [
-        "https://www.reuters.com/legal/transactional/sk-hynix-buy-back-cancel-29-billion-worth-treasury-shares-2026-08-19/",
-        "https://www.digitimes.com/news/a20260819VL214/hbm-earnings-cash-flow.html"
+        "https://www.digitimes.com/news/a20260819PD229/samsung-loan-demand-2026-sdc.html",
+        "https://www.digitimes.com/news/a20260819VL211/ymtc-ipo-nand-flash-market.html",
+        "https://www.reuters.com/legal/transactional/sk-hynix-buy-back-cancel-29-billion-worth-treasury-shares-2026-08-19/"
+      ]
+    },
+    {
+      "event": "创新药ETF放量站上0.905，A股与港股创新药方向形成早盘共振",
+      "industry": "bio",
+      "industry_name": "创新药 / 生物医药",
+      "direction": "positive",
+      "strength": 4,
+      "horizon": "intraday",
+      "priced_in": "high",
+      "reason": "截至09:59，创新药ETF天弘报0.93、上涨5.42%，成交额约6396万元，开盘后持续高于0.905；同期医药制造业平均上涨4.89%，疫苗、CRO、基因测序概念均涨逾6%，多只港股创新药ETF上涨7%以上，价格、成交与板块广度形成确认。短线涨幅较大，不能外推为无条件追涨信号。",
+      "assets": [
+        "517380"
+      ],
+      "validation": [
+        "0.905上方维持至少30分钟且成交继续高于同期常态",
+        "A股医药与港股创新药ETF涨幅和上涨家数保持共振"
+      ],
+      "invalidation": [
+        "跌回0.905下方30分钟且成交放大",
+        "跌破0.898并伴随医药板块广度快速收缩"
+      ],
+      "urls": [
+        "https://quote.cfi.cn/quote_517380.html",
+        "https://quote.cfi.cn/quote_399006.html"
       ]
     },
     {
@@ -1450,24 +1501,24 @@ window.AI_SIGNALS = {
       "direction": "positive",
       "strength": 4,
       "horizon": "1-5d",
-      "priced_in": "medium",
-      "reason": "美国财政部宣布扩大长期国债回购后，10年期美债收益率降至约4.653%，美元指数跌至约98.77；现货黄金8月19日上涨逾3%至约4488美元，白银上涨近4%。这相较上一轮信号的油价与利率压制构成显著变化，但FOMC纪要仍显示若通胀持续，多数官员认为可能需要加息。",
+      "priced_in": "high",
+      "reason": "美国财政部扩大长期国债回购后，长端收益率与美元回落，现货金银显著上涨；截至10:29，黄金ETF华安报9.23、上涨2.81%，早盘低点9.21，已持续处于9.15修复位上方。宏观驱动与ETF价格层相互确认，但高开后不构成追涨条件。",
       "assets": [
         "518880",
         "161226"
       ],
       "validation": [
-        "美元与美债实际收益率维持回落，黄金守住突破区间",
-        "国投白银LOF场内价格、基金净值、溢价率和交易限制分别核验后未出现价差恶化"
+        "黄金ETF维持9.15上方且国内黄金产业ETF保持相对强势",
+        "美元与美债实际收益率维持回落，外盘黄金守住突破区间"
       ],
       "invalidation": [
-        "长端收益率和美元快速反弹，金银跌回突破前区间",
-        "白银LOF溢价扩大或交易限制升级，场内价格与白银本体背离"
+        "黄金ETF跌回9.15下方30分钟且黄金板块同步转弱",
+        "长端收益率和美元快速反弹，金价跌回突破前区间"
       ],
       "urls": [
         "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-19/",
-        "https://www.reuters.com/world/india/gold-inches-higher-focus-fed-minutes-2026-08-19/",
-        "https://www.reuters.com/business/fed-policymakers-inflation-concerns-increased-july-meeting-minutes-show-2026-08-19/"
+        "https://quote.cfi.cn/quote_518880.html",
+        "https://www.reuters.com/world/india/gold-inches-higher-focus-fed-minutes-2026-08-19/"
       ]
     }
   ]
