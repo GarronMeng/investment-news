@@ -1,20 +1,20 @@
 {
   "version": 1,
-  "generated_at": "2026-08-20T07:49:59+08:00",
+  "generated_at": "2026-08-20T09:08:02+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
-    "confirmed": 5,
-    "supported": 2,
-    "contradicted": 0,
+    "confirmed": 4,
+    "supported": 1,
+    "contradicted": 2,
     "conflicted": 2,
     "emerging": 0,
-    "insufficient": 2,
+    "insufficient": 0,
     "top_attention": [
-      "600667",
-      "000636",
       "603986",
       "001309",
+      "161226",
+      "000636",
       "300308"
     ]
   },
@@ -26,23 +26,23 @@
       "role": "存储核心观察",
       "priority": 5,
       "as_of": "2026-08-19",
-      "base_bias": "bearish",
+      "base_bias": "bullish",
       "matrix_direction": "bearish",
-      "composite_score": -54.9,
-      "coverage": 75.0,
-      "confluence": 86.5,
-      "available_layers": 4,
-      "opposing_weight_share": 0.0,
-      "evidence_state": "multi_layer_confirmed",
-      "thesis_state": "confirmed",
-      "attention_score": 73.8,
-      "research_focus": "验证持续性、行业扩散与后续基本面证据。",
+      "composite_score": -21.2,
+      "coverage": 100.0,
+      "confluence": 58.9,
+      "available_layers": 5,
+      "opposing_weight_share": 25.0,
+      "evidence_state": "partial_confirmation",
+      "thesis_state": "contradicted",
+      "attention_score": 100.0,
+      "research_focus": "优先复核原假设的失效条件与事件时效。",
       "layers": {
         "event": {
-          "available": false,
-          "score": null,
-          "confidence": "none",
-          "evidence": "无新鲜映射事件；该层不参与合成。"
+          "available": true,
+          "score": 80.0,
+          "confidence": "high",
+          "evidence": "2 条新鲜映射事件；event_score=90.0/100。"
         },
         "technical": {
           "available": true,
@@ -77,7 +77,13 @@
         }
       },
       "contributors": {
-        "positive": [],
+        "positive": [
+          {
+            "layer": "event",
+            "score": 80.0,
+            "evidence": "2 条新鲜映射事件；event_score=90.0/100。"
+          }
+        ],
         "negative": [
           {
             "layer": "industry",
@@ -92,17 +98,17 @@
         ]
       },
       "confirmation": [
-        "股价相对半导体指数转强",
-        "成交量放大且收盘站稳"
+        "股价相对半导体指数转强并收复8月19日开盘区间",
+        "存储板块上涨家数与行业资金流同时改善，而非单一个股反抽"
       ],
       "invalidation": [
-        "存储价格下行",
-        "库存恶化"
+        "继续放量跌破8月19日低点且弱于半导体指数",
+        "高增长主要由不可持续项目贡献，后续产品价格或订单指引转弱"
       ],
       "excluded_layers": [],
-      "positive_direction_mass": 0.0,
+      "positive_direction_mass": 20.0,
       "negative_direction_mass": 41.2,
-      "conflict_score": 0.0
+      "conflict_score": 65.4
     },
     "001309": {
       "code": "001309",
@@ -111,23 +117,23 @@
       "role": "存储弹性观察",
       "priority": 5,
       "as_of": "2026-08-19",
-      "base_bias": "bearish",
+      "base_bias": "bullish",
       "matrix_direction": "bearish",
-      "composite_score": -53.7,
-      "coverage": 75.0,
-      "confluence": 86.1,
-      "available_layers": 4,
-      "opposing_weight_share": 0.0,
-      "evidence_state": "multi_layer_confirmed",
-      "thesis_state": "confirmed",
-      "attention_score": 73.7,
-      "research_focus": "验证持续性、行业扩散与后续基本面证据。",
+      "composite_score": -20.3,
+      "coverage": 100.0,
+      "confluence": 58.6,
+      "available_layers": 5,
+      "opposing_weight_share": 25.0,
+      "evidence_state": "partial_confirmation",
+      "thesis_state": "contradicted",
+      "attention_score": 100.0,
+      "research_focus": "优先复核原假设的失效条件与事件时效。",
       "layers": {
         "event": {
-          "available": false,
-          "score": null,
-          "confidence": "none",
-          "evidence": "无新鲜映射事件；该层不参与合成。"
+          "available": true,
+          "score": 80.0,
+          "confidence": "high",
+          "evidence": "1 条新鲜映射事件；event_score=90.0/100。"
         },
         "technical": {
           "available": true,
@@ -164,7 +170,13 @@
         }
       },
       "contributors": {
-        "positive": [],
+        "positive": [
+          {
+            "layer": "event",
+            "score": 80.0,
+            "evidence": "1 条新鲜映射事件；event_score=90.0/100。"
+          }
+        ],
         "negative": [
           {
             "layer": "industry",
@@ -179,17 +191,17 @@
         ]
       },
       "confirmation": [
-        "相对存储板块止跌转强",
-        "放量突破短期压力位"
+        "SK海力士与KOSPI存储权重守住公告后涨幅",
+        "A股兆易创新、德明利、太极实业至少两只相对半导体指数转强"
       ],
       "invalidation": [
-        "NAND跌价",
-        "渠道库存上升"
+        "回购实施节奏低于公告或韩股高开低走",
+        "DRAM/NAND价格、订单或资本开支出现独立转弱信号"
       ],
       "excluded_layers": [],
-      "positive_direction_mass": 0.0,
+      "positive_direction_mass": 20.0,
       "negative_direction_mass": 40.3,
-      "conflict_score": 0.0
+      "conflict_score": 66.4
     },
     "300308": {
       "code": "300308",
@@ -371,22 +383,22 @@
       "priority": 3,
       "as_of": "2026-08-19",
       "base_bias": "bullish",
-      "matrix_direction": "neutral",
-      "composite_score": 10.1,
-      "coverage": 75.0,
-      "confluence": 15.1,
-      "available_layers": 4,
-      "opposing_weight_share": 0.0,
-      "evidence_state": "conflict",
-      "thesis_state": "conflicted",
-      "attention_score": 89.2,
-      "research_focus": "正负证据正在相互抵消，优先识别哪一层先失效或被确认。",
+      "matrix_direction": "bullish",
+      "composite_score": 27.6,
+      "coverage": 100.0,
+      "confluence": 60.8,
+      "available_layers": 5,
+      "opposing_weight_share": 25.0,
+      "evidence_state": "partial_confirmation",
+      "thesis_state": "supported",
+      "attention_score": 58.1,
+      "research_focus": "维持观察，等待更多层形成共振。",
       "layers": {
         "event": {
-          "available": false,
-          "score": null,
-          "confidence": "none",
-          "evidence": "无新鲜映射事件；该层不参与合成。"
+          "available": true,
+          "score": 80.0,
+          "confidence": "high",
+          "evidence": "1 条新鲜映射事件；event_score=90.0/100。"
         },
         "technical": {
           "available": true,
@@ -428,9 +440,9 @@
             "evidence": "MA60 above/rising；MACD bullish；RSI 52.11 (neutral)；量能 normal；20日结构 inside_range。"
           },
           {
-            "layer": "relative_strength",
-            "score": 40.0,
-            "evidence": "5日相对强弱 -0.050215；20日相对强弱 0.288723。"
+            "layer": "event",
+            "score": 80.0,
+            "evidence": "1 条新鲜映射事件；event_score=90.0/100。"
           }
         ],
         "negative": [
@@ -447,17 +459,17 @@
         ]
       },
       "confirmation": [
-        "半导体工程板块同步走强",
-        "事件后股价摆脱弱势结构"
+        "SK海力士与KOSPI存储权重守住公告后涨幅",
+        "A股兆易创新、德明利、太极实业至少两只相对半导体指数转强"
       ],
       "invalidation": [
-        "资本开支延迟",
-        "项目回款承压"
+        "回购实施节奏低于公告或韩股高开低走",
+        "DRAM/NAND价格、订单或资本开支出现独立转弱信号"
       ],
       "excluded_layers": [],
-      "positive_direction_mass": 28.4,
+      "positive_direction_mass": 48.4,
       "negative_direction_mass": 20.8,
-      "conflict_score": 84.6
+      "conflict_score": 60.2
     },
     "000636": {
       "code": "000636",
@@ -562,23 +574,23 @@
       "role": "高波动商品仓观察",
       "priority": 5,
       "as_of": "2026-08-19",
-      "base_bias": "bearish",
-      "matrix_direction": "bearish",
-      "composite_score": -57.0,
-      "coverage": 50.0,
-      "confluence": 87.1,
-      "available_layers": 2,
+      "base_bias": "bullish",
+      "matrix_direction": "neutral",
+      "composite_score": -11.4,
+      "coverage": 75.0,
+      "confluence": 17.0,
+      "available_layers": 3,
       "opposing_weight_share": 0.0,
-      "evidence_state": "insufficient",
-      "thesis_state": "supported",
-      "attention_score": 66.8,
-      "research_focus": "维持观察，等待更多层形成共振。",
+      "evidence_state": "conflict",
+      "thesis_state": "conflicted",
+      "attention_score": 93.3,
+      "research_focus": "正负证据正在相互抵消，优先识别哪一层先失效或被确认。",
       "layers": {
         "event": {
-          "available": false,
-          "score": null,
-          "confidence": "none",
-          "evidence": "无新鲜映射事件；该层不参与合成。"
+          "available": true,
+          "score": 80.0,
+          "confidence": "high",
+          "evidence": "1 条新鲜映射事件；event_score=90.0/100。"
         },
         "technical": {
           "available": true,
@@ -608,7 +620,13 @@
         }
       },
       "contributors": {
-        "positive": [],
+        "positive": [
+          {
+            "layer": "event",
+            "score": 80.0,
+            "evidence": "1 条新鲜映射事件；event_score=90.0/100。"
+          }
+        ],
         "negative": [
           {
             "layer": "technical",
@@ -623,17 +641,17 @@
         ]
       },
       "confirmation": [
-        "同时核对基金净值、场内价格和溢价率",
-        "银价上涨时场内溢价未继续扩大"
+        "美元与美债实际收益率维持回落，黄金守住突破区间",
+        "国投白银LOF场内价格、基金净值、溢价率和交易限制分别核验后未出现价差恶化"
       ],
       "invalidation": [
-        "银价下跌",
-        "美元与实际利率上行"
+        "长端收益率和美元快速反弹，金银跌回突破前区间",
+        "白银LOF溢价扩大或交易限制升级，场内价格与白银本体背离"
       ],
       "excluded_layers": [],
-      "positive_direction_mass": 0.0,
+      "positive_direction_mass": 20.0,
       "negative_direction_mass": 28.5,
-      "conflict_score": 0.0
+      "conflict_score": 82.4
     },
     "518880": {
       "code": "518880",
@@ -644,21 +662,21 @@
       "as_of": "2026-08-19",
       "base_bias": "bullish",
       "matrix_direction": "bullish",
-      "composite_score": 38.0,
-      "coverage": 50.0,
-      "confluence": 81.4,
-      "available_layers": 2,
+      "composite_score": 52.0,
+      "coverage": 75.0,
+      "confluence": 85.6,
+      "available_layers": 3,
       "opposing_weight_share": 0.0,
-      "evidence_state": "insufficient",
-      "thesis_state": "supported",
-      "attention_score": 62.4,
-      "research_focus": "维持观察，等待更多层形成共振。",
+      "evidence_state": "multi_layer_confirmed",
+      "thesis_state": "confirmed",
+      "attention_score": 69.7,
+      "research_focus": "验证持续性、行业扩散与后续基本面证据。",
       "layers": {
         "event": {
-          "available": false,
-          "score": null,
-          "confidence": "none",
-          "evidence": "无新鲜映射事件；该层不参与合成。"
+          "available": true,
+          "score": 80.0,
+          "confidence": "high",
+          "evidence": "1 条新鲜映射事件；event_score=90.0/100。"
         },
         "technical": {
           "available": true,
@@ -690,28 +708,28 @@
       "contributors": {
         "positive": [
           {
+            "layer": "event",
+            "score": 80.0,
+            "evidence": "1 条新鲜映射事件；event_score=90.0/100。"
+          },
+          {
             "layer": "technical",
             "score": 38.0,
             "evidence": "MA60 above/falling；MACD bullish；RSI 59.61 (strong)；量能 normal；20日结构 inside_range。"
-          },
-          {
-            "layer": "relative_strength",
-            "score": 38.0,
-            "evidence": "5日相对强弱 0.005627；20日相对强弱 0.071659。"
           }
         ],
         "negative": []
       },
       "confirmation": [
-        "外盘金价与国内黄金现货同向",
-        "ETF成交量与价格同步确认"
+        "美元与美债实际收益率维持回落，黄金守住突破区间",
+        "国投白银LOF场内价格、基金净值、溢价率和交易限制分别核验后未出现价差恶化"
       ],
       "invalidation": [
-        "金价下跌",
-        "实际利率上行"
+        "长端收益率和美元快速反弹，金银跌回突破前区间",
+        "白银LOF溢价扩大或交易限制升级，场内价格与白银本体背离"
       ],
       "excluded_layers": [],
-      "positive_direction_mass": 19.0,
+      "positive_direction_mass": 39.0,
       "negative_direction_mass": 0.0,
       "conflict_score": 0.0
     },
@@ -807,79 +825,79 @@
     }
   },
   "ranking": [
-    "600667",
-    "000636",
     "603986",
     "001309",
+    "161226",
+    "000636",
     "300308",
+    "518880",
     "002384",
     "517380",
-    "161226",
-    "518880"
+    "600667"
   ],
   "state_changes": [
     {
       "code": "603986",
       "name": "兆易创新",
+      "field": "matrix_direction",
+      "from": "bearish",
+      "to": "neutral"
+    },
+    {
+      "code": "603986",
+      "name": "兆易创新",
+      "field": "evidence_state",
+      "from": "multi_layer_confirmed",
+      "to": "noise_or_no_edge"
+    },
+    {
+      "code": "603986",
+      "name": "兆易创新",
       "field": "thesis_state",
-      "from": "emerging",
-      "to": "confirmed"
+      "from": "confirmed",
+      "to": "under_test"
+    },
+    {
+      "code": "001309",
+      "name": "德明利",
+      "field": "matrix_direction",
+      "from": "bearish",
+      "to": "neutral"
+    },
+    {
+      "code": "001309",
+      "name": "德明利",
+      "field": "evidence_state",
+      "from": "multi_layer_confirmed",
+      "to": "noise_or_no_edge"
     },
     {
       "code": "001309",
       "name": "德明利",
       "field": "thesis_state",
-      "from": "emerging",
-      "to": "confirmed"
-    },
-    {
-      "code": "300308",
-      "name": "中际旭创",
-      "field": "thesis_state",
-      "from": "emerging",
-      "to": "confirmed"
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "evidence_state",
-      "from": "partial_confirmation",
-      "to": "multi_layer_confirmed"
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "thesis_state",
-      "from": "emerging",
-      "to": "confirmed"
+      "from": "confirmed",
+      "to": "under_test"
     },
     {
       "code": "600667",
       "name": "太极实业",
       "field": "matrix_direction",
-      "from": "bullish",
-      "to": "neutral"
+      "from": "neutral",
+      "to": "bullish"
     },
     {
       "code": "600667",
       "name": "太极实业",
       "field": "evidence_state",
       "from": "conflict",
-      "to": "noise_or_no_edge"
+      "to": "partial_confirmation"
     },
     {
       "code": "600667",
       "name": "太极实业",
       "field": "thesis_state",
       "from": "conflicted",
-      "to": "under_test"
-    },
-    {
-      "code": "000636",
-      "name": "风华高科",
-      "field": "matrix_direction",
-      "from": "bullish",
-      "to": "neutral"
+      "to": "supported"
     },
     {
       "code": "000636",
@@ -898,16 +916,79 @@
     {
       "code": "161226",
       "name": "国投白银LOF",
+      "field": "matrix_direction",
+      "from": "bearish",
+      "to": "neutral"
+    },
+    {
+      "code": "161226",
+      "name": "国投白银LOF",
       "field": "evidence_state",
       "from": "insufficient",
-      "to": "partial_confirmation"
+      "to": "noise_or_no_edge"
+    },
+    {
+      "code": "161226",
+      "name": "国投白银LOF",
+      "field": "thesis_state",
+      "from": "supported",
+      "to": "under_test"
     },
     {
       "code": "518880",
       "name": "黄金ETF华安",
       "field": "evidence_state",
       "from": "insufficient",
-      "to": "partial_confirmation"
+      "to": "multi_layer_confirmed"
+    },
+    {
+      "code": "518880",
+      "name": "黄金ETF华安",
+      "field": "thesis_state",
+      "from": "supported",
+      "to": "confirmed"
+    },
+    {
+      "code": "603986",
+      "name": "兆易创新",
+      "field": "evidence_state",
+      "from": "multi_layer_confirmed",
+      "to": "conflict"
+    },
+    {
+      "code": "603986",
+      "name": "兆易创新",
+      "field": "thesis_state",
+      "from": "confirmed",
+      "to": "conflicted"
+    },
+    {
+      "code": "001309",
+      "name": "德明利",
+      "field": "evidence_state",
+      "from": "multi_layer_confirmed",
+      "to": "conflict"
+    },
+    {
+      "code": "001309",
+      "name": "德明利",
+      "field": "thesis_state",
+      "from": "confirmed",
+      "to": "conflicted"
+    },
+    {
+      "code": "161226",
+      "name": "国投白银LOF",
+      "field": "evidence_state",
+      "from": "insufficient",
+      "to": "conflict"
+    },
+    {
+      "code": "161226",
+      "name": "国投白银LOF",
+      "field": "thesis_state",
+      "from": "supported",
+      "to": "conflicted"
     }
   ],
   "methodology": {

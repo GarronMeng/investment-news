@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-08-20T07:49:59+08:00",
-  "history_generated_at": "2026-08-20T07:49:48+08:00",
-  "records": 44,
-  "raw_ledger_records": 53,
+  "generated_at": "2026-08-20T09:08:02+08:00",
+  "history_generated_at": "2026-08-20T09:07:49+08:00",
+  "records": 48,
+  "raw_ledger_records": 57,
   "superseded_records": 9,
   "evaluations": [
     {
@@ -1035,6 +1035,32 @@
       }
     },
     {
+      "state_id": "62e7ce68a5be0f65",
+      "state_revision": 2,
+      "asset": "001309",
+      "name": "德明利",
+      "signal_date": "2026-08-19",
+      "matrix_direction": "bearish",
+      "thesis_state": "contradicted",
+      "evidence_state": "partial_confirmation",
+      "composite_score": -20.3,
+      "confluence": 58.6,
+      "conflict_score": 66.4,
+      "entry_date": "2026-08-19",
+      "entry_close": 393.8,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
       "state_id": "8b0485c9f258e1ab",
       "state_revision": 2,
       "asset": "002384",
@@ -1098,6 +1124,32 @@
       "composite_score": -70.7,
       "confluence": 91.2,
       "conflict_score": 0.0,
+      "entry_date": "2026-08-19",
+      "entry_close": 1.833,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "state_id": "aedd156f2b200430",
+      "state_revision": 2,
+      "asset": "161226",
+      "name": "国投白银LOF",
+      "signal_date": "2026-08-19",
+      "matrix_direction": "neutral",
+      "thesis_state": "conflicted",
+      "evidence_state": "conflict",
+      "composite_score": -11.4,
+      "confluence": 17.0,
+      "conflict_score": 82.4,
       "entry_date": "2026-08-19",
       "entry_close": 1.833,
       "horizons": {
@@ -1243,6 +1295,32 @@
       }
     },
     {
+      "state_id": "2446c2b8fb1ac605",
+      "state_revision": 2,
+      "asset": "518880",
+      "name": "黄金ETF华安",
+      "signal_date": "2026-08-19",
+      "matrix_direction": "bullish",
+      "thesis_state": "confirmed",
+      "evidence_state": "multi_layer_confirmed",
+      "composite_score": 52.0,
+      "confluence": 85.6,
+      "conflict_score": 0.0,
+      "entry_date": "2026-08-19",
+      "entry_close": 8.974,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
       "state_id": "60ffe6e2e12cd184",
       "state_revision": 2,
       "asset": "600667",
@@ -1345,11 +1423,37 @@
           "status": "pending"
         }
       }
+    },
+    {
+      "state_id": "182f01a93bb56ff5",
+      "state_revision": 2,
+      "asset": "603986",
+      "name": "兆易创新",
+      "signal_date": "2026-08-19",
+      "matrix_direction": "bearish",
+      "thesis_state": "contradicted",
+      "evidence_state": "partial_confirmation",
+      "composite_score": -21.2,
+      "confluence": 58.9,
+      "conflict_score": 65.4,
+      "entry_date": "2026-08-19",
+      "entry_close": 403.71,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
     }
   ],
   "by_thesis_state": {
     "confirmed": {
-      "records": 13,
+      "records": 14,
       "horizons": {
         "t1": {
           "settled": 7,
@@ -1381,7 +1485,7 @@
       }
     },
     "conflicted": {
-      "records": 7,
+      "records": 8,
       "horizons": {
         "t1": {
           "settled": 4,
@@ -1390,6 +1494,38 @@
           "mean_directional_excess": -0.063054,
           "mean_excess_return": -0.040934,
           "mean_absolute_excess": 0.049098,
+          "readout": "insufficient_sample"
+        },
+        "t5": {
+          "settled": 0,
+          "directional_settled": 0,
+          "win_rate": null,
+          "mean_directional_excess": null,
+          "mean_excess_return": null,
+          "mean_absolute_excess": null,
+          "readout": "insufficient_sample"
+        },
+        "t20": {
+          "settled": 0,
+          "directional_settled": 0,
+          "win_rate": null,
+          "mean_directional_excess": null,
+          "mean_excess_return": null,
+          "mean_absolute_excess": null,
+          "readout": "insufficient_sample"
+        }
+      }
+    },
+    "contradicted": {
+      "records": 2,
+      "horizons": {
+        "t1": {
+          "settled": 0,
+          "directional_settled": 0,
+          "win_rate": null,
+          "mean_directional_excess": null,
+          "mean_excess_return": null,
+          "mean_absolute_excess": null,
           "readout": "insufficient_sample"
         },
         "t5": {
@@ -1543,7 +1679,7 @@
   },
   "by_evidence_state": {
     "conflict": {
-      "records": 7,
+      "records": 8,
       "horizons": {
         "t1": {
           "settled": 4,
@@ -1575,7 +1711,7 @@
       }
     },
     "multi_layer_confirmed": {
-      "records": 17,
+      "records": 18,
       "horizons": {
         "t1": {
           "settled": 10,
@@ -1639,7 +1775,7 @@
       }
     },
     "partial_confirmation": {
-      "records": 14,
+      "records": 16,
       "horizons": {
         "t1": {
           "settled": 10,
