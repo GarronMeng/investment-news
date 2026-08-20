@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generated_at": "2026-08-20T10:39:39+08:00",
+  "generated_at": "2026-08-20T10:49:16+08:00",
   "source": {
     "data_generated_at": "2026-08-20 09:53",
     "ai_generated_at": "2026-08-20 10:41",
     "ai_source_generated_at": "2026-08-20 09:53",
-    "features_generated_at": "2026-08-20T10:39:26+08:00",
+    "features_generated_at": "2026-08-20T10:49:06+08:00",
     "fresh_ai": true
   },
   "decisions": [
@@ -36,17 +36,17 @@
     {
       "asset": "001309",
       "name": "德明利",
-      "as_of": "2026-08-19",
+      "as_of": "2026-08-20",
       "bias": "bullish",
       "status": "watch",
       "event_score": 100.0,
-      "market_score": 15.0,
+      "market_score": 45.0,
       "freshness_score": 100,
-      "conviction": 32.0,
+      "conviction": 56.0,
       "evidence_mode": "event_plus_market",
       "event_count": 1,
-      "trend_state": "bearish",
-      "why_now": "fresh event evidence; market trend=bearish; 20d relative strength=-0.115375",
+      "trend_state": "mixed",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.057211",
       "confirmation": [
         "三星、SK海力士与NAND价格/订单数据继续同向改善",
         "兆易创新、德明利、太极实业至少两只相对半导体指数转强"
@@ -84,7 +84,7 @@
     {
       "asset": "002384",
       "name": "东山精密",
-      "as_of": "2026-08-19",
+      "as_of": "2026-08-20",
       "bias": "bearish",
       "status": "market_watch",
       "event_score": 50.0,
@@ -94,7 +94,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "mixed",
-      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=-0.070498",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=-0.009079",
       "confirmation": [
         "PCB板块扩散上涨",
         "订单利好得到成交量确认"
@@ -108,7 +108,7 @@
     {
       "asset": "600667",
       "name": "太极实业",
-      "as_of": "2026-08-19",
+      "as_of": "2026-08-20",
       "bias": "bullish",
       "status": "active",
       "event_score": 100.0,
@@ -118,7 +118,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.288723",
+      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.350467",
       "confirmation": [
         "三星、SK海力士与NAND价格/订单数据继续同向改善",
         "兆易创新、德明利、太极实业至少两只相对半导体指数转强"
@@ -132,7 +132,7 @@
     {
       "asset": "000636",
       "name": "风华高科",
-      "as_of": "2026-08-19",
+      "as_of": "2026-08-20",
       "bias": "bullish",
       "status": "market_watch",
       "event_score": 50.0,
@@ -142,7 +142,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.38189",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.322068",
       "confirmation": [
         "被动元件板块形成联动",
         "涨价新闻后价格走势能够确认"
@@ -166,7 +166,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=0.025405",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=0.026459",
       "confirmation": [
         "黄金ETF维持9.15上方且国内黄金产业ETF保持相对强势",
         "美元与美债实际收益率维持回落，外盘黄金守住突破区间"
@@ -190,7 +190,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.101215",
+      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.100865",
       "confirmation": [
         "黄金ETF维持9.15上方且国内黄金产业ETF保持相对强势",
         "美元与美债实际收益率维持回落，外盘黄金守住突破区间"
@@ -214,7 +214,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.173605",
+      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.17609",
       "confirmation": [
         "0.905上方维持至少30分钟且成交继续高于同期常态",
         "A股医药与港股创新药ETF涨幅和上涨家数保持共振"
