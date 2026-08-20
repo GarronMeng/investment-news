@@ -1,0 +1,98 @@
+name: Update BidClub Intelligence
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Extra evening refresh. The main intraday refresh is chained after Daily Flash.
+    - cron: "0 13 * * *" # 21:00 Asia/Shanghai
+  workflow_run:
+    workflows: ["Update Daily Flash"]
+    branches: [main]
+    types: [completed]
+  pull_request:
+    paths:
+      - bidclub_config.json
+      - scripts/fetch_bidclub_intelligence.py
+      - scripts/augment_daily_flash_bidclub.py
+      - tests/test_bidclub_intelligence.py
+      - .github/workflows/update-bidclub-intelligence.yml
+  push:
+    branches: [main]
+    paths:
+      - bidclub_config.json
+      - scripts/fetch_bidclub_intelligence.py
+      - scripts/augment_daily_flash_bidclub.py
+      - tests/test_bidclub_intelligence.py
+      - .github/workflows/update-bidclub-intelligence.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: investment-bidclub-intelligence
+  cancel-in-progress: true
+
+jobs:
+  update:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.sha || 'main' }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Test BidClub contracts
+        run: python -m unittest tests/test_bidclub_intelligence.py -v
+
+      - name: Refresh BidClub expert intelligence
+        run: python scripts/fetch_bidclub_intelligence.py
+
+      - name: Attach to Daily Flash
+        run: python scripts/augment_daily_flash_bidclub.py
+
+      - name: Validate sidecar boundary
+        run: |
+          python - <<'PY'
+          import json
+
+          intel = json.load(open("expert_intelligence.json", encoding="utf-8"))
+          flash = json.load(open("daily_flash.json", encoding="utf-8"))
+          assert intel.get("version") == 1
+          assert intel.get("source") == "BidClub"
+          assert intel.get("status") in {"ok", "partial", "degraded"}
+          assert isinstance(intel.get("insights"), list)
+          assert isinstance(intel.get("assets"), dict)
+          assert "expert_intelligence" in flash
+          assert flash["expert_intelligence"].get("source") == "BidClub"
+          forbidden = {"quantity", "position_size", "cost_basis", "stop_loss", "target_price"}
+          for code, row in intel.get("assets", {}).items():
+              assert not forbidden.intersection(row), (code, forbidden.intersection(row))
+              assert "composite_score" not in row, f"BidClub sidecar leaked into directional composite: {code}"
+          print("BidClub validated", intel.get("status"), intel.get("summary"))
+          PY
+
+      - name: Commit intelligence artifacts
+        if: ${{ github.event_name != 'pull_request' }}
+        run: |
+          git config user.name "investment-news-bot"
+          git config user.email "investment-news-bot@users.noreply.github.com"
+          git add expert_intelligence.json daily_flash.json
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: refresh BidClub intelligence"
+          for attempt in 1 2 3; do
+            if git pull --rebase origin main && git push origin HEAD:main; then
+              exit 0
+            fi
+            git rebase --abort || true
+            echo "Push retry ${attempt}/3"
+            sleep $((attempt * 5))
+          done
+          echo "::error::Unable to push BidClub artifacts after 3 attempts"
+          exit 1
