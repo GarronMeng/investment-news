@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-20T15:08:37+08:00",
+  "generated_at": "2026-08-20T15:56:19+08:00",
   "timezone": "Asia/Shanghai",
   "breadth": {
     "total": 5547,
@@ -13,7 +13,7 @@
     "touched_limit_up": 298,
     "broken_limit_up": 146,
     "seal_rate": 0.5101,
-    "turnover": 2093528396988.0,
+    "turnover": 2093533933788.0,
     "turnover_coverage": 1.0
   },
   "indices": [
@@ -62,15 +62,15 @@
     {
       "symbol": "hkHSI",
       "name": "恒生指数",
-      "price": 25817.21,
-      "change_pct": 1.26,
+      "price": 25763.89,
+      "change_pct": 1.05,
       "source": "腾讯行情"
     },
     {
       "symbol": "hkHSTECH",
       "name": "恒生科技指数",
-      "price": 4736.92,
-      "change_pct": 1.17,
+      "price": 4711.38,
+      "change_pct": 0.63,
       "source": "腾讯行情"
     }
   ],
@@ -393,10 +393,10 @@
   "regime": {
     "label": "Risk-on",
     "code": "risk_on",
-    "score": 52.7,
+    "score": 50.9,
     "components": {
       "breadth": 59.5,
-      "indices": 33.2,
+      "indices": 26.9,
       "limit_structure": 67.0
     },
     "methodology": "市场广度55% + 核心指数30% + 涨跌停结构15%；仅用于状态分类，不是收益概率。"
