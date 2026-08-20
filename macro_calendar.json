@@ -1,51 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-08-20T07:52:28+08:00",
+  "generated_at": "2026-08-20T09:10:20+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
-    {
-      "date": "2026-08-20",
-      "time": "09:00",
-      "type": "macro",
-      "category": "liquidity",
-      "region": "中国",
-      "title": "中国8月一年期贷款市场报价利率LPR(%)",
-      "actual": null,
-      "forecast": 3.0,
-      "previous": 3.0,
-      "importance": 2,
-      "impact_channels": [
-        "A股流动性",
-        "人民币汇率",
-        "成长估值"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-08-20",
-      "time": "09:00",
-      "type": "macro",
-      "category": "liquidity",
-      "region": "中国",
-      "title": "中国8月五年期贷款市场报价利率LPR(%)",
-      "actual": null,
-      "forecast": 3.5,
-      "previous": 3.5,
-      "importance": 2,
-      "impact_channels": [
-        "A股流动性",
-        "人民币汇率",
-        "成长估值"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
     {
       "date": "2026-08-20",
       "time": "20:30",
@@ -529,8 +487,8 @@
     }
   ],
   "summary": {
-    "total": 24,
-    "macro": 21,
+    "total": 22,
+    "macro": 19,
     "global_earnings": 3,
     "high_importance": 2,
     "macro_days_ok": 11,
