@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-08-20T12:26:58+08:00",
-  "history_generated_at": "2026-08-20T12:26:19+08:00",
+  "generated_at": "2026-08-20T13:33:24+08:00",
+  "history_generated_at": "2026-08-20T13:33:10+08:00",
   "records": 62,
   "raw_ledger_records": 71,
   "superseded_records": 9,
@@ -1206,7 +1206,14 @@
       "entry_close": 1.833,
       "horizons": {
         "t1": {
-          "status": "pending"
+          "status": "settled",
+          "date": "2026-08-20",
+          "asset_return": 0.035461,
+          "benchmark_return": null,
+          "excess_return": null,
+          "absolute_excess": null,
+          "directional_excess": -0.035461,
+          "correct": false
         },
         "t5": {
           "status": "pending"
@@ -1232,7 +1239,14 @@
       "entry_close": 1.833,
       "horizons": {
         "t1": {
-          "status": "pending"
+          "status": "settled",
+          "date": "2026-08-20",
+          "asset_return": 0.035461,
+          "benchmark_return": null,
+          "excess_return": null,
+          "absolute_excess": null,
+          "directional_excess": null,
+          "correct": null
         },
         "t5": {
           "status": "pending"
@@ -1646,7 +1660,29 @@
     },
     {
       "state_id": "376f261b890937bb",
-      "status": "unavailable"
+      "state_revision": 2,
+      "asset": "161226",
+      "name": "国投白银LOF",
+      "signal_date": "2026-08-20",
+      "matrix_direction": "neutral",
+      "thesis_state": "conflicted",
+      "evidence_state": "conflict",
+      "composite_score": 8.5,
+      "confluence": 12.7,
+      "conflict_score": 86.5,
+      "entry_date": "2026-08-20",
+      "entry_close": 1.898,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
     },
     {
       "state_id": "5a660b694136b26f",
@@ -1666,13 +1702,13 @@
       "records": 15,
       "horizons": {
         "t1": {
-          "settled": 7,
-          "directional_settled": 7,
-          "win_rate": 0.7143,
-          "mean_directional_excess": 0.027896,
+          "settled": 8,
+          "directional_settled": 8,
+          "win_rate": 0.625,
+          "mean_directional_excess": 0.019976,
           "mean_excess_return": -0.038247,
           "mean_absolute_excess": 0.044552,
-          "readout": "insufficient_sample"
+          "readout": "usable"
         },
         "t5": {
           "settled": 0,
@@ -1695,10 +1731,10 @@
       }
     },
     "conflicted": {
-      "records": 11,
+      "records": 12,
       "horizons": {
         "t1": {
-          "settled": 4,
+          "settled": 5,
           "directional_settled": 2,
           "win_rate": 0.0,
           "mean_directional_excess": -0.063054,
@@ -1889,10 +1925,10 @@
   },
   "by_evidence_state": {
     "conflict": {
-      "records": 11,
+      "records": 12,
       "horizons": {
         "t1": {
-          "settled": 4,
+          "settled": 5,
           "directional_settled": 2,
           "win_rate": 0.0,
           "mean_directional_excess": -0.063054,
@@ -1924,10 +1960,10 @@
       "records": 19,
       "horizons": {
         "t1": {
-          "settled": 10,
-          "directional_settled": 10,
-          "win_rate": 0.8,
-          "mean_directional_excess": 0.03807,
+          "settled": 11,
+          "directional_settled": 11,
+          "win_rate": 0.7273,
+          "mean_directional_excess": 0.031385,
           "mean_excess_return": -0.045315,
           "mean_absolute_excess": 0.049729,
           "readout": "usable"

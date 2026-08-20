@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-08-20T12:26:19+08:00",
-  "source_generated_at": "2026-08-20T12:26:19+08:00",
+  "generated_at": "2026-08-20T13:33:10+08:00",
+  "source_generated_at": "2026-08-20T13:33:10+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -216,27 +216,27 @@
     "161226": {
       "code": "161226",
       "name": "国投白银LOF",
-      "as_of": "2026-08-19",
+      "as_of": "2026-08-20",
       "source_status": "fresh",
       "observations": 140,
-      "close": 1.833,
+      "close": 1.898,
       "ma60": {
-        "value": 1.9329,
+        "value": 1.9263,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.004831
+        "slope_pct": -0.003432
       },
-      "rsi14": 43.43,
-      "rsi_zone": "weak",
+      "rsi14": 48.79,
+      "rsi_zone": "neutral",
       "macd": {
-        "dif": -0.01036,
-        "dea": 0.00076,
-        "hist": -0.02223,
+        "dif": -0.00998,
+        "dea": -0.0014,
+        "hist": -0.01717,
         "state": "bearish",
-        "cross_age": 3
+        "cross_age": 4
       },
       "volume": {
-        "ratio20": 0.776,
+        "ratio20": 1.003,
         "state": "normal"
       },
       "breakout_20d": "inside_range",
@@ -304,7 +304,15 @@
       "condition_state": "all_conditions"
     }
   },
-  "state_changes": [],
+  "state_changes": [
+    {
+      "code": "161226",
+      "name": "国投白银LOF",
+      "field": "rsi_zone",
+      "from": "weak",
+      "to": "neutral"
+    }
+  ],
   "methodology": {
     "rsi14": "Wilder RSI(14)",
     "macd": "EMA12/EMA26 DIF, EMA9 signal, histogram=(DIF-DEA)*2",
