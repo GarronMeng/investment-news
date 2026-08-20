@@ -12,6 +12,7 @@ on:
   pull_request:
     paths:
       - bidclub_config.json
+      - dashboard-v5.html
       - scripts/fetch_bidclub_intelligence.py
       - scripts/augment_daily_flash_bidclub.py
       - tests/test_bidclub_intelligence.py
@@ -20,6 +21,7 @@ on:
     branches: [main]
     paths:
       - bidclub_config.json
+      - dashboard-v5.html
       - scripts/fetch_bidclub_intelligence.py
       - scripts/augment_daily_flash_bidclub.py
       - tests/test_bidclub_intelligence.py
@@ -61,9 +63,11 @@ jobs:
         run: |
           python - <<'PY'
           import json
+          from pathlib import Path
 
           intel = json.load(open("expert_intelligence.json", encoding="utf-8"))
           flash = json.load(open("daily_flash.json", encoding="utf-8"))
+          dashboard = Path("dashboard-v5.html").read_text(encoding="utf-8")
           assert intel.get("version") == 1
           assert intel.get("source") == "BidClub"
           assert intel.get("status") in {"ok", "partial", "degraded"}
@@ -71,6 +75,9 @@ jobs:
           assert isinstance(intel.get("assets"), dict)
           assert "expert_intelligence" in flash
           assert flash["expert_intelligence"].get("source") == "BidClub"
+          assert 'id="expert-summary"' in dashboard
+          assert 'id="expert"' in dashboard
+          assert "renderExpert(D)" in dashboard
           forbidden = {"quantity", "position_size", "cost_basis", "stop_loss", "target_price"}
           for code, row in intel.get("assets", {}).items():
               assert not forbidden.intersection(row), (code, forbidden.intersection(row))
