@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-08-20T13:50:31+08:00",
-  "source_generated_at": "2026-08-20T13:50:31+08:00",
+  "generated_at": "2026-08-20T15:58:55+08:00",
+  "source_generated_at": "2026-08-20T15:58:55+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -36,28 +36,28 @@
     "603986": {
       "code": "603986",
       "name": "兆易创新",
-      "as_of": "2026-08-20",
+      "as_of": "2026-08-19",
       "source_status": "fresh",
       "observations": 140,
-      "close": 402.95,
+      "close": 403.71,
       "ma60": {
-        "value": 519.0588,
+        "value": 520.9127,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.003559
+        "slope_pct": -0.003904
       },
-      "rsi14": 43.07,
+      "rsi14": 43.19,
       "rsi_zone": "weak",
       "macd": {
-        "dif": -24.07196,
-        "dea": -33.3216,
-        "hist": 18.49929,
+        "dif": -24.93101,
+        "dea": -35.63422,
+        "hist": 21.40642,
         "state": "bullish",
-        "cross_age": 8
+        "cross_age": 7
       },
       "volume": {
-        "ratio20": 0.453,
-        "state": "contraction"
+        "ratio20": 1.057,
+        "state": "normal"
       },
       "breakout_20d": "inside_range",
       "data_quality": "usable",
@@ -66,28 +66,28 @@
     "001309": {
       "code": "001309",
       "name": "德明利",
-      "as_of": "2026-08-20",
+      "as_of": "2026-08-19",
       "source_status": "fresh",
       "observations": 140,
-      "close": 396.3,
+      "close": 393.8,
       "ma60": {
-        "value": 602.5102,
+        "value": 606.9885,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.007378
+        "slope_pct": -0.007232
       },
-      "rsi14": 38.71,
+      "rsi14": 38.2,
       "rsi_zone": "weak",
       "macd": {
-        "dif": -46.4461,
-        "dea": -61.12404,
-        "hist": 29.35589,
+        "dif": -48.71638,
+        "dea": -64.79346,
+        "hist": 32.15415,
         "state": "bullish",
-        "cross_age": 9
+        "cross_age": 8
       },
       "volume": {
-        "ratio20": 0.35,
-        "state": "contraction"
+        "ratio20": 0.832,
+        "state": "normal"
       },
       "breakout_20d": "inside_range",
       "data_quality": "usable",
@@ -96,28 +96,28 @@
     "300308": {
       "code": "300308",
       "name": "中际旭创",
-      "as_of": "2026-08-20",
+      "as_of": "2026-08-19",
       "source_status": "fresh",
       "observations": 140,
-      "close": 891.42,
+      "close": 895.6,
       "ma60": {
-        "value": 1102.2672,
+        "value": 1105.933,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.003315
+        "slope_pct": -0.003116
       },
-      "rsi14": 42.33,
+      "rsi14": 42.62,
       "rsi_zone": "weak",
       "macd": {
-        "dif": -39.60718,
-        "dea": -45.69445,
-        "hist": 12.17455,
+        "dif": -38.15933,
+        "dea": -47.21497,
+        "hist": 18.11127,
         "state": "bullish",
-        "cross_age": 5
+        "cross_age": 4
       },
       "volume": {
-        "ratio20": 0.423,
-        "state": "contraction"
+        "ratio20": 0.876,
+        "state": "normal"
       },
       "breakout_20d": "inside_range",
       "data_quality": "usable",
@@ -309,29 +309,22 @@
       "code": "603986",
       "name": "兆易创新",
       "field": "volume",
-      "from": "normal",
-      "to": "contraction"
+      "from": "contraction",
+      "to": "normal"
     },
     {
       "code": "001309",
       "name": "德明利",
       "field": "volume",
-      "from": "normal",
-      "to": "contraction"
+      "from": "contraction",
+      "to": "normal"
     },
     {
       "code": "300308",
       "name": "中际旭创",
       "field": "volume",
-      "from": "normal",
-      "to": "contraction"
-    },
-    {
-      "code": "161226",
-      "name": "国投白银LOF",
-      "field": "rsi_zone",
-      "from": "neutral",
-      "to": "weak"
+      "from": "contraction",
+      "to": "normal"
     }
   ],
   "methodology": {
