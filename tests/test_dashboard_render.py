@@ -15,6 +15,15 @@ class DashboardRenderTests(unittest.TestCase):
         self.assertIn("market.json watchlist.json", workflow)
         self.assertNotIn("portfolio.json", workflow)
 
+    def test_pages_deployment_is_verified_after_publish(self):
+        workflow = (ROOT / ".github/workflows/deploy-pages.yml").read_text(encoding="utf-8")
+        deploy_position = workflow.index("uses: actions/deploy-pages@v5")
+        verify_position = workflow.index("name: Verify deployed Pages content")
+        self.assertGreater(verify_position, deploy_position)
+        self.assertIn("scripts/pages_deployment.py build", workflow)
+        self.assertIn("scripts/pages_deployment.py verify", workflow)
+        self.assertIn("deployment manifest plus index.html", workflow)
+
     def test_headline_is_not_replaced_by_keywords(self):
         html = (ROOT / "index.html").read_text(encoding="utf-8")
         self.assertIn("function newsHeadline(it,titleMap)", html)
