@@ -1,35 +1,35 @@
 {
   "version": 1,
-  "generated_at": "2026-08-20T09:08:01+08:00",
+  "generated_at": "2026-08-20T09:57:53+08:00",
   "source": {
-    "data_generated_at": "2026-08-20 07:48",
-    "ai_generated_at": "2026-08-20 09:06",
+    "data_generated_at": "2026-08-20 09:53",
+    "ai_generated_at": "2026-08-20 09:35",
     "ai_source_generated_at": "2026-08-20 07:48",
-    "features_generated_at": "2026-08-20T09:07:50+08:00",
-    "fresh_ai": true
+    "features_generated_at": "2026-08-20T09:57:44+08:00",
+    "fresh_ai": false
   },
   "decisions": [
     {
       "asset": "603986",
       "name": "兆易创新",
       "as_of": "2026-08-19",
-      "bias": "bullish",
-      "status": "watch",
-      "event_score": 90.0,
+      "bias": "bearish",
+      "status": "market_watch",
+      "event_score": 50.0,
       "market_score": 35.0,
-      "freshness_score": 100,
-      "conviction": 36.0,
-      "evidence_mode": "event_plus_market",
-      "event_count": 2,
+      "freshness_score": 70,
+      "conviction": 30.0,
+      "evidence_mode": "market_only",
+      "event_count": 0,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.117748",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=-0.117748",
       "confirmation": [
-        "股价相对半导体指数转强并收复8月19日开盘区间",
-        "存储板块上涨家数与行业资金流同时改善，而非单一个股反抽"
+        "股价相对半导体指数转强",
+        "成交量放大且收盘站稳"
       ],
       "invalidation": [
-        "继续放量跌破8月19日低点且弱于半导体指数",
-        "高增长主要由不可持续项目贡献，后续产品价格或订单指引转弱"
+        "存储价格下行",
+        "库存恶化"
       ],
       "expires_at": "2026-08-25"
     },
@@ -37,23 +37,23 @@
       "asset": "001309",
       "name": "德明利",
       "as_of": "2026-08-19",
-      "bias": "bullish",
-      "status": "neutral",
-      "event_score": 90.0,
+      "bias": "bearish",
+      "status": "market_watch",
+      "event_score": 50.0,
       "market_score": 15.0,
-      "freshness_score": 100,
-      "conviction": 20.0,
-      "evidence_mode": "event_plus_market",
-      "event_count": 1,
+      "freshness_score": 70,
+      "conviction": 55,
+      "evidence_mode": "market_only",
+      "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "fresh event evidence; market trend=bearish; 20d relative strength=-0.115375",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.115375",
       "confirmation": [
-        "SK海力士与KOSPI存储权重守住公告后涨幅",
-        "A股兆易创新、德明利、太极实业至少两只相对半导体指数转强"
+        "相对存储板块止跌转强",
+        "放量突破短期压力位"
       ],
       "invalidation": [
-        "回购实施节奏低于公告或韩股高开低走",
-        "DRAM/NAND价格、订单或资本开支出现独立转弱信号"
+        "NAND跌价",
+        "渠道库存上升"
       ],
       "expires_at": "2026-08-25"
     },
@@ -65,7 +65,7 @@
       "status": "market_watch",
       "event_score": 50.0,
       "market_score": 15.0,
-      "freshness_score": 100,
+      "freshness_score": 70,
       "conviction": 55,
       "evidence_mode": "market_only",
       "event_count": 0,
@@ -89,7 +89,7 @@
       "status": "market_watch",
       "event_score": 50.0,
       "market_score": 35.0,
-      "freshness_score": 100,
+      "freshness_score": 70,
       "conviction": 30.0,
       "evidence_mode": "market_only",
       "event_count": 0,
@@ -110,22 +110,22 @@
       "name": "太极实业",
       "as_of": "2026-08-19",
       "bias": "bullish",
-      "status": "active",
-      "event_score": 90.0,
+      "status": "market_watch",
+      "event_score": 50.0,
       "market_score": 75.0,
-      "freshness_score": 100,
-      "conviction": 68.0,
-      "evidence_mode": "event_plus_market",
-      "event_count": 1,
+      "freshness_score": 70,
+      "conviction": 50.0,
+      "evidence_mode": "market_only",
+      "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.288723",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.288723",
       "confirmation": [
-        "SK海力士与KOSPI存储权重守住公告后涨幅",
-        "A股兆易创新、德明利、太极实业至少两只相对半导体指数转强"
+        "半导体工程板块同步走强",
+        "事件后股价摆脱弱势结构"
       ],
       "invalidation": [
-        "回购实施节奏低于公告或韩股高开低走",
-        "DRAM/NAND价格、订单或资本开支出现独立转弱信号"
+        "资本开支延迟",
+        "项目回款承压"
       ],
       "expires_at": "2026-08-25"
     },
@@ -137,7 +137,7 @@
       "status": "market_watch",
       "event_score": 50.0,
       "market_score": 75.0,
-      "freshness_score": 100,
+      "freshness_score": 70,
       "conviction": 50.0,
       "evidence_mode": "market_only",
       "event_count": 0,
@@ -157,23 +157,23 @@
       "asset": "161226",
       "name": "国投白银LOF",
       "as_of": "2026-08-19",
-      "bias": "bullish",
-      "status": "neutral",
-      "event_score": 90.0,
+      "bias": "bearish",
+      "status": "market_watch",
+      "event_score": 50.0,
       "market_score": 15.0,
-      "freshness_score": 100,
-      "conviction": 20.0,
-      "evidence_mode": "event_plus_market",
-      "event_count": 1,
+      "freshness_score": 70,
+      "conviction": 55,
+      "evidence_mode": "market_only",
+      "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "fresh event evidence; market trend=bearish; 20d relative strength=-0.012983",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.012983",
       "confirmation": [
-        "美元与美债实际收益率维持回落，黄金守住突破区间",
-        "国投白银LOF场内价格、基金净值、溢价率和交易限制分别核验后未出现价差恶化"
+        "同时核对基金净值、场内价格和溢价率",
+        "银价上涨时场内溢价未继续扩大"
       ],
       "invalidation": [
-        "长端收益率和美元快速反弹，金银跌回突破前区间",
-        "白银LOF溢价扩大或交易限制升级，场内价格与白银本体背离"
+        "银价下跌",
+        "美元与实际利率上行"
       ],
       "expires_at": "2026-08-25"
     },
@@ -182,22 +182,22 @@
       "name": "黄金ETF华安",
       "as_of": "2026-08-19",
       "bias": "bullish",
-      "status": "active",
-      "event_score": 90.0,
+      "status": "market_watch",
+      "event_score": 50.0,
       "market_score": 75.0,
-      "freshness_score": 100,
-      "conviction": 68.0,
-      "evidence_mode": "event_plus_market",
-      "event_count": 1,
+      "freshness_score": 70,
+      "conviction": 50.0,
+      "evidence_mode": "market_only",
+      "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.071659",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.071659",
       "confirmation": [
-        "美元与美债实际收益率维持回落，黄金守住突破区间",
-        "国投白银LOF场内价格、基金净值、溢价率和交易限制分别核验后未出现价差恶化"
+        "外盘金价与国内黄金现货同向",
+        "ETF成交量与价格同步确认"
       ],
       "invalidation": [
-        "长端收益率和美元快速反弹，金银跌回突破前区间",
-        "白银LOF溢价扩大或交易限制升级，场内价格与白银本体背离"
+        "金价下跌",
+        "实际利率上行"
       ],
       "expires_at": "2026-08-25"
     },
@@ -209,7 +209,7 @@
       "status": "market_watch",
       "event_score": 50.0,
       "market_score": 85.0,
-      "freshness_score": 100,
+      "freshness_score": 70,
       "conviction": 55,
       "evidence_mode": "market_only",
       "event_count": 0,
