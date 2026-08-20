@@ -1,6 +1,6 @@
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-20 10:41",
-  "source_generated_at": "2026-08-20 09:53",
+  "generated_at": "2026-08-20 13:33",
+  "source_generated_at": "2026-08-20 12:25",
   "generated_by": "ChatGPT Web",
   "status": "ready",
   "news_titles": {
@@ -1348,14 +1348,56 @@ window.AI_SIGNALS = {
     "https://seekingalpha.com/news/4635196-bill-forecasts-fy-2027-non-gaap-eps-of-3_56-3_79-while-targeting-meaningful-gaap": "BILL预计2027财年非GAAP每股收益3.56至3.79美元，并力争实现可观GAAP盈利",
     "https://seekingalpha.com/news/4635192-iran-may-be-losing-its-grip-on-hormuz-as-us-steps-up-help-for-tankers-reports-say": "报道称美国加大对油轮支持，伊朗或正失去对霍尔木兹海峡的控制",
     "https://www.cnbc.com/2026/08/19/call-buying-bonanza-around-trumps-hyperliquid-comments-includes-eyebrow-raising-trades.html": "围绕特朗普Hyperliquid言论的看涨期权狂潮中出现一些引人侧目的交易",
-    "https://www.nature.com/articles/d41586-026-02586-2": "这些树正在让城市空气质量变得更差"
+    "https://www.nature.com/articles/d41586-026-02586-2": "这些树正在让城市空气质量变得更差",
+    "https://arxiv.org/abs/2608.18078": "立场：AI推理智能体之间的合谋风险证明市场决策需要认证要求",
+    "https://arxiv.org/abs/2608.18079": "立场：以状态转移复杂度刻画游戏世界",
+    "https://arxiv.org/abs/2608.18080": "心理健康中的大型语言模型：应用、创新与伦理挑战的系统综述",
+    "https://arxiv.org/abs/2608.18081": "立场：行为系统需要行为测试",
+    "https://arxiv.org/abs/2608.18086": "立场：现有模型卡不足以支持开放权重基础模型的下游治理",
+    "https://arxiv.org/abs/2608.18088": "基于飞行日志的无人机螺旋桨健康监测：变形人工年龄评分决策支持原型",
+    "https://www.digitimes.com/news/a20260820VL206/sicc-sic-substrate-revenue-2026.html": "中国SiC衬底厂商天岳先进第二季度创纪录；8英寸晶圆占核心收入超50%",
+    "https://www.digitimes.com/news/a20260820VL202/robot-ipo-shanghai-cost-commercial.html": "分析：宇树IPO揭示中国人形机器人热潮背后的经济逻辑",
+    "https://www.digitimes.com/news/a20260820VL203/samsung-hbm-packaging-plant-production.html": "三星9月开工建设6万亿韩元温阳HBM封装厂",
+    "https://www.digitimes.com/news/a20260820PD208/production-tv-lg-lg-electronics-mexico.html": "LG收购墨西哥电视零部件工厂以降低生产成本",
+    "https://www.digitimes.com/news/a20260820PD212/taiwan-manufacturing-robotics-asia-supply-chain.html": "AI机器人为台湾精密制造供应链打开更大机会",
+    "https://www.digitimes.com/news/a20260820PD204/kenmec-aidc-chairman-ceo-sic.html": "广运子公司瞄准SiC和AIDC增长",
+    "https://cnevpost.com/2026/08/20/byd-fang-cheng-bao-opens-pre-orders-formula-s-gt": "比亚迪方程豹首款轿车系列开启预售，起价3.39万美元",
+    "https://electrek.co/2026/08/19/genesis-gv90-luxury-coach-doors-images": "Genesis GV90配备对开门，将豪华感再提升一级（图片）",
+    "https://insideevs.com/news/805381/genesis-gv90-luxury-lounge": "Genesis GV90亮相，宛如车轮上的豪华休息室",
+    "https://cnevpost.com/2026/08/20/gac-aion-unveils-ray-7": "广汽埃安发布首款新标车型Ray 7，搭载华为驱动单元",
+    "https://www.pv-magazine.com/2026/08/20/new-materials-in-the-frame": "车架中的新材料",
+    "https://www.energy-storage.news/windlab-squadron-energy-submit-500mw-battery-storage-system-for-federal-assessment-in-queensland-australia": "Windlab和Squadron Energy提交澳大利亚昆士兰500MW电池储能项目进行联邦评估",
+    "https://www.energy-storage.news/one-market-into-many-aer-says-battery-storage-systems-are-reshaping-australias-nem": "“一个市场变多个”：AER称电池储能正重塑澳大利亚国家电力市场",
+    "https://www.energy-storage.news/apa-to-build-104mwh-battery-storage-system-for-evolution-minings-ernest-henry-operations-in-australia": "APA将为澳大利亚Evolution Mining的Ernest Henry矿区建设104MWh电池储能系统",
+    "https://cleantechnica.com/2026/08/19/cadillac-celestiq-night-test-is-inspired-by-the-quiet-after-hours-world-where-real-performance-is-honed": "凯迪拉克CELESTIQ夜间测试的灵感来自真实性能不断打磨的静谧深夜世界",
+    "https://cleantechnica.com/2026/08/19/nlr-north-american-electric-reliability-corporation-launch-partnership-to-advance-north-american-grid-reliability": "NLR与北美电力可靠性公司建立合作，推进北美电网可靠性",
+    "https://www.space.com/space-exploration/launches-spacecraft/rocket-lab-launch-private-japanese-earth-observing-sar-satellite-lightning-god-defends": "观看Rocket Lab今日发射一颗日本私人地球观测卫星",
+    "https://www.techmeme.com/260819/p53": "欧盟似正从对大型科技公司开巨额罚单转向强制合规的DMA技术命令，例如共享搜索数据",
+    "https://www.techmeme.com/260819/p51": "美国陆军将逐步撤销无人机突击营并回归“基本功”；该营今年1月成立以吸取乌克兰冲突经验",
+    "https://www.computerenhance.com/p/turns-are-better-than-radians": "转数优于弧度",
+    "https://www.androidauthority.com/google-pixel-11-custom-vibration-3700805": "Pixel 11系列悄然独家加入一项非常实用的新触觉功能",
+    "https://9to5google.com/2026/08/19/gboard-emoji-size-setting": "Gboard开始推出新的“表情符号大小”设置",
+    "https://www.gsmarena.com/is_this_a_google_pixel_smartband_or_a_new_fitbit_device-news-74248.php": "这是Google Pixel智能手环还是一款新Fitbit设备？",
+    "https://www.androidauthority.com/samsung-galaxy-s26-fe-launch-date-3700799": "三星确定下一场Galaxy S26发布会日期，这次面向粉丝",
+    "https://9to5google.com/2026/08/19/samsung-august-event-galaxy-s26-family": "三星确认8月27日举行活动，发布“Galaxy S26家族最新成员”",
+    "https://9to5mac.com/2026/08/19/apple-hits-back-at-openais-bid-to-dismiss-lawsuit-reaffirms-pervasive-trade-secret-misappropriation": "苹果反击OpenAI驳回诉讼请求，再次指控其“普遍盗用商业秘密”",
+    "https://seekingalpha.com/news/4634962-thursdays-economic-calendar": "周四经济日历",
+    "http://www.eeo.com.cn/2026/0820/1004730.shtml": "科学城隧道预计年内建成通车，大学城到天星桥车程缩短至20分钟",
+    "https://www.cnbc.com/2026/08/20/sk-hynixs-south-korean-shares-surge-stock-buyback-.html": "SK海力士宣布大规模股票回购后，首尔股价飙升逾12%",
+    "https://seekingalpha.com/news/4635198-jaguar-health-targets-midminus-2027-mvid-nda-filing-with-possible-endminus-2027-u-s-approval": "Jaguar Health目标2027年中提交MVID新药申请，最快2027年底获美国批准，注射支持需求最多可减少48%",
+    "https://www.ft.com/content/b88c3466-4525-4e16-b3fe-e10e713a2025": "建构全球化的集装箱",
+    "https://www.cnbc.com/2026/08/20/china-defies-global-bond-yield-surge-safe-haven.html": "中国逆全球债券收益率飙升而行，提升其分散配置吸引力",
+    "https://news.mit.edu/2026/mit-engineers-design-better-controller-operating-construction-diggers-0820": "MIT工程师设计出更好的工程挖掘机控制器",
+    "https://www.sciencedaily.com/releases/2026/08/260819041242.htm": "AI设计的“胞内抗体”或为阿尔茨海默病、帕金森病和运动神经元病带来新疗法",
+    "https://www.sciencedaily.com/releases/2026/08/260819041231.htm": "MIT物理学家发现量子材料中的电子像冰一样重新排列",
+    "https://www.sciencedaily.com/releases/2026/08/260819041224.htm": "研究人员揭示大脑信息枢纽更深层运作机制"
   },
   "overseas_markets": [
     {
       "market": "美股",
       "flag": "🇺🇸",
       "session": "2026-08-19 收盘",
-      "updated_at": "2026-08-20 10:35 北京时间复核",
+      "updated_at": "2026-08-20 13:25 北京时间复核",
       "status": "mixed",
       "status_label": "指数温和反弹，半导体继续落后",
       "move": "道指 +0.22%，标普500 +0.21%，纳指 +0.16%；费城半导体指数 -2.12%。",
@@ -1375,12 +1417,12 @@ window.AI_SIGNALS = {
     {
       "market": "日股",
       "flag": "🇯🇵",
-      "session": "2026-08-20 早盘",
-      "updated_at": "2026-08-20 10:35 北京时间",
+      "session": "2026-08-20 午后",
+      "updated_at": "2026-08-20 13:25 北京时间",
       "status": "pending",
-      "status_label": "实时开盘仍待双源核验",
+      "status_label": "指数午后实时值待双源核验",
       "move": "仓库最新日经数据仍停留在8月18日，不能作为8月20日实时行情。",
-      "driver": "隔夜美债收益率回落偏正面，但费半继续下跌，电子与半导体方向存在相反驱动。",
+      "driver": "日本7月出口好于预期、芯片出货强劲，但指数点位仍待两个独立报价源一致确认。",
       "a_share_links": [
         "半导体设备",
         "被动元件",
@@ -1390,18 +1432,18 @@ window.AI_SIGNALS = {
       "validation": "待日经官方指数与第二报价源确认开盘、当前点位和跳空幅度。",
       "sources": [
         "https://indexes.nikkei.co.jp/en/nkave/index/profile?cid=1&idx=nk225",
-        "https://www.reuters.com/markets/quote/.N225/"
+        "https://www.cnbc.com/2026/08/20/japan-exports-imports-july-chip-ai.html"
       ]
     },
     {
       "market": "韩股",
       "flag": "🇰🇷",
-      "session": "2026-08-20 早盘",
-      "updated_at": "2026-08-20 10:35 北京时间",
+      "session": "2026-08-20 午后",
+      "updated_at": "2026-08-20 13:25 北京时间",
       "status": "pending",
-      "status_label": "指数实时值仍待双源核验",
-      "move": "SK海力士宣布从8月20日至11月19日回购并注销约24.07百万股、总额400,000亿韩元；KOSPI实时开盘点位尚未取得双源一致确认。",
-      "driver": "巨额回购有利于存储龙头股东回报与风险偏好，但不直接等同于DRAM/NAND需求或价格上调。",
+      "status_label": "SK海力士价格确认，KOSPI仍待双源核验",
+      "move": "SK海力士在宣布大规模回购后首尔股价一度上涨逾12%；KOSPI指数午后点位未取得双源一致确认。",
+      "driver": "回购获得价格层确认，同时三星计划9月开建约6万亿韩元温阳HBM封装厂，强化存储与HBM资本开支预期。",
       "a_share_links": [
         "HBM",
         "DRAM/NAND",
@@ -1410,8 +1452,9 @@ window.AI_SIGNALS = {
       ],
       "validation": "观察SK海力士能否守住公告后涨幅、KOSPI能否收复前一交易日跌幅，以及A股存储链是否同步转强。",
       "sources": [
-        "https://www.reuters.com/legal/transactional/sk-hynix-buy-back-cancel-29-billion-worth-treasury-shares-2026-08-19/",
-        "https://www.channelnewsasia.com/business/sk-hynix-buy-back-cancel-29-billion-worth-treasury-shares-6328106"
+        "https://www.cnbc.com/2026/08/20/sk-hynixs-south-korean-shares-surge-stock-buyback-.html",
+        "https://www.digitimes.com/news/a20260820VL203/samsung-hbm-packaging-plant-production.html",
+        "https://www.reuters.com/legal/transactional/sk-hynix-buy-back-cancel-29-billion-worth-treasury-shares-2026-08-19/"
       ]
     }
   ],
@@ -1442,14 +1485,14 @@ window.AI_SIGNALS = {
       ]
     },
     {
-      "event": "三星提前偿还20万亿韩元贷款、长存母公司推进IPO，与SK海力士回购共同强化存储景气与融资预期",
+      "event": "三星拟建设6万亿韩元HBM封装厂，SK海力士回购后股价涨逾12%，存储链催化获得价格确认",
       "industry": "semi",
       "industry_name": "HBM / DRAM / NAND / 存储",
       "direction": "positive",
       "strength": 5,
       "horizon": "1-4w",
       "priced_in": "medium",
-      "reason": "三星电子在存储需求走强背景下提前偿还来自三星显示的20万亿韩元贷款；长江存储母公司完成IPO前关键环节，报道所述全球NAND份额升至14%且企业级AI存储扩张；叠加SK海力士约24.07百万股回购注销计划，存储链的需求、融资与股东回报出现多层正向证据，但A股价格层仍需验证。",
+      "reason": "三星计划9月开工建设约6万亿韩元温阳HBM封装厂，扩充HBM后段产能；SK海力士宣布大规模回购后首尔股价一度上涨逾12%。叠加三星提前偿还20万亿韩元贷款和长存母公司推进IPO，存储链的资本开支、融资与股东回报形成多层正向证据；A股存储链仍需持续相对强弱确认。",
       "assets": [
         "603986",
         "001309",
@@ -1464,9 +1507,9 @@ window.AI_SIGNALS = {
         "A股存储链放量走弱且持续弱于半导体指数"
       ],
       "urls": [
-        "https://www.digitimes.com/news/a20260819PD229/samsung-loan-demand-2026-sdc.html",
-        "https://www.digitimes.com/news/a20260819VL211/ymtc-ipo-nand-flash-market.html",
-        "https://www.reuters.com/legal/transactional/sk-hynix-buy-back-cancel-29-billion-worth-treasury-shares-2026-08-19/"
+        "https://www.digitimes.com/news/a20260820VL203/samsung-hbm-packaging-plant-production.html",
+        "https://www.cnbc.com/2026/08/20/sk-hynixs-south-korean-shares-surge-stock-buyback-.html",
+        "https://www.digitimes.com/news/a20260819VL211/ymtc-ipo-nand-flash-market.html"
       ]
     },
     {
@@ -1477,7 +1520,7 @@ window.AI_SIGNALS = {
       "strength": 4,
       "horizon": "intraday",
       "priced_in": "high",
-      "reason": "截至09:59，创新药ETF天弘报0.93、上涨5.42%，成交额约6396万元，开盘后持续高于0.905；同期医药制造业平均上涨4.89%，疫苗、CRO、基因测序概念均涨逾6%，多只港股创新药ETF上涨7%以上，价格、成交与板块广度形成确认。短线涨幅较大，不能外推为无条件追涨信号。",
+      "reason": "截至12:03，创新药ETF天弘报0.929、上涨4.85%，成交额约1.06亿元，持续处于0.905上方；医药制造业、CRO、疫苗及基因测序仍处涨幅前列，价格、成交与板块广度继续确认。短线涨幅较大，不能外推为无条件追涨信号。",
       "assets": [
         "517380"
       ],
@@ -1502,7 +1545,7 @@ window.AI_SIGNALS = {
       "strength": 4,
       "horizon": "1-5d",
       "priced_in": "high",
-      "reason": "美国财政部扩大长期国债回购后，长端收益率与美元回落，现货金银显著上涨；截至10:29，黄金ETF华安报9.23、上涨2.81%，早盘低点9.21，已持续处于9.15修复位上方。宏观驱动与ETF价格层相互确认，但高开后不构成追涨条件。",
+      "reason": "美国财政部扩大长期国债回购后，长端收益率与美元回落，现货金银显著上涨；截至12:03，黄金ETF华安报9.231、上涨2.86%，13:21仍约9.22，持续处于9.15修复位上方。宏观驱动与ETF价格层相互确认，但高开后不构成追涨条件。",
       "assets": [
         "518880",
         "161226"
