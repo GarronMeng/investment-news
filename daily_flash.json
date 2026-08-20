@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-08-20T12:30:14+08:00",
+  "generated_at": "2026-08-20T13:36:11+08:00",
   "timezone": "Asia/Shanghai",
   "title": "Daily Flash · 每日投资驾驶舱",
-  "core_conclusion": "A股状态为 Risk-on，上涨家数占比 79.2%，风险温度 52/100（balanced）。沪深300 PE-TTM 14.29；10年分位 71.3%；强势：生物制品、医疗服务、医疗器械；弱势：种植业与林业、厨卫电器、煤炭开采加工。研究复核优先关注 中际旭创、德明利、兆易创新；该排序代表证据变化与复核优先级，不代表交易优先级。资金/期指：融资余额26573亿元，5日+3.31%（stale）；南向成交净买额-8.0亿元；中证500股指期货基差-1.30%。 下一催化：08-26 NVIDIA 财报发行；08-27 Marvell 财报发行。主线财报已确认披露 6/21 个研究样本。",
+  "core_conclusion": "A股状态为 Risk-on，上涨家数占比 79.2%，风险温度 52/100（balanced）。沪深300 PE-TTM 14.29；10年分位 71.3%；强势：生物制品、医疗服务、医疗器械；弱势：种植业与林业、厨卫电器、煤炭开采加工。研究复核优先关注 国投白银LOF、兆易创新、德明利；该排序代表证据变化与复核优先级，不代表交易优先级。资金/期指：融资余额26573亿元，5日+3.31%（stale）；南向成交净买额-6.0亿元；中证500股指期货基差-1.70%。 下一催化：08-26 NVIDIA 财报发行；08-27 Marvell 财报发行。主线财报已确认披露 6/21 个研究样本。",
   "market": {
     "regime": {
       "label": "Risk-on",
@@ -122,18 +122,18 @@
       "southbound": {
         "status": "fresh",
         "as_of": "2026-08-20",
-        "net_buy_cny_100m": -8.01,
+        "net_buy_cny_100m": -6.01,
         "net_inflow_cny_100m": 840.0,
         "closed": false,
         "legs": [
           {
             "name": "港股通(沪)",
-            "net_buy_cny_100m": -19.382811,
+            "net_buy_cny_100m": -20.905838,
             "net_inflow_cny_100m": 420.0
           },
           {
             "name": "港股通(深)",
-            "net_buy_cny_100m": 11.368045,
+            "net_buy_cny_100m": 14.894651999999999,
             "net_inflow_cny_100m": 420.0
           }
         ],
@@ -144,56 +144,56 @@
         {
           "symbol": "沪深300指数期货2609",
           "underlying": "沪深300",
-          "current_price": 4556.8,
+          "current_price": 4547.2,
           "change_pct": null,
           "spot": 4598.14,
-          "basis": -41.34,
-          "basis_pct": -0.899,
-          "hold": 148251.0,
-          "volume": 34248.0,
-          "time": "11:29:59",
+          "basis": -50.94,
+          "basis_pct": -1.108,
+          "hold": 147822.0,
+          "volume": 41412.0,
+          "time": "13:33:48",
           "status": "fresh",
           "source": "新浪财经 via AKShare"
         },
         {
           "symbol": "上证50指数期货2609",
           "underlying": "上证50",
-          "current_price": 2861.4,
+          "current_price": 2855.6,
           "change_pct": null,
           "spot": null,
           "basis": null,
           "basis_pct": null,
-          "hold": 71450.0,
-          "volume": 18432.0,
-          "time": "11:29:59",
+          "hold": 71934.0,
+          "volume": 21635.0,
+          "time": "13:33:48",
           "status": "fresh",
           "source": "新浪财经 via AKShare"
         },
         {
           "symbol": "中证500指数期货2609",
           "underlying": "中证500",
-          "current_price": 7778.0,
+          "current_price": 7746.4,
           "change_pct": null,
           "spot": 7880.34,
-          "basis": -102.34,
-          "basis_pct": -1.299,
-          "hold": 158691.0,
-          "volume": 63657.0,
-          "time": "11:30:00",
+          "basis": -133.94,
+          "basis_pct": -1.7,
+          "hold": 159796.0,
+          "volume": 75705.0,
+          "time": "13:33:48",
           "status": "fresh",
           "source": "新浪财经 via AKShare"
         },
         {
           "symbol": "中证1000指数期货2609",
           "underlying": "中证1000",
-          "current_price": 7555.0,
+          "current_price": 7516.6,
           "change_pct": null,
           "spot": null,
           "basis": null,
           "basis_pct": null,
-          "hold": 234443.0,
-          "volume": 98861.0,
-          "time": "11:30:00",
+          "hold": 236596.0,
+          "volume": 118611.0,
+          "time": "13:33:48",
           "status": "fresh",
           "source": "新浪财经 via AKShare"
         }
@@ -403,10 +403,10 @@
       "symbol": "^HSI",
       "group": "港股",
       "unit": "index",
-      "value": 25786.3203,
-      "raw_value": 25786.3203,
+      "value": 25832.5996,
+      "raw_value": 25832.5996,
       "previous_close": 25495.0703,
-      "change_pct": 1.14,
+      "change_pct": 1.32,
       "as_of": "2026-08-20T09:30:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -417,10 +417,10 @@
       "symbol": "^N225",
       "group": "亚洲",
       "unit": "index",
-      "value": 66100.9766,
-      "raw_value": 66100.9766,
+      "value": 66171.5625,
+      "raw_value": 66171.5625,
       "previous_close": 65326.4219,
-      "change_pct": 1.19,
+      "change_pct": 1.29,
       "as_of": "2026-08-20T08:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -431,10 +431,10 @@
       "symbol": "^KS11",
       "group": "亚洲",
       "unit": "index",
-      "value": 6887.9502,
-      "raw_value": 6887.9502,
+      "value": 6809.6899,
+      "raw_value": 6809.6899,
       "previous_close": 6471.1699,
-      "change_pct": 6.44,
+      "change_pct": 5.23,
       "as_of": "2026-08-20T08:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -473,10 +473,10 @@
       "symbol": "DX-Y.NYB",
       "group": "汇率",
       "unit": "index",
-      "value": 98.806,
-      "raw_value": 98.806,
+      "value": 98.858,
+      "raw_value": 98.858,
       "previous_close": 98.83,
-      "change_pct": -0.02,
+      "change_pct": 0.03,
       "as_of": "2026-08-20T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -487,11 +487,11 @@
       "symbol": "CNH=X",
       "group": "汇率",
       "unit": "fx",
-      "value": 6.7225,
-      "raw_value": 6.7225,
+      "value": 6.7244,
+      "raw_value": 6.7244,
       "previous_close": null,
       "change_pct": null,
-      "as_of": "2026-08-20T12:27:42+08:00",
+      "as_of": "2026-08-20T13:33:53+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -501,10 +501,10 @@
       "symbol": "GC=F",
       "group": "商品",
       "unit": "usd",
-      "value": 4553.8999,
-      "raw_value": 4553.8999,
+      "value": 4543.5,
+      "raw_value": 4543.5,
       "previous_close": 4489.3999,
-      "change_pct": 1.44,
+      "change_pct": 1.21,
       "as_of": "2026-08-20T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -515,10 +515,10 @@
       "symbol": "SI=F",
       "group": "商品",
       "unit": "usd",
-      "value": 67.235,
-      "raw_value": 67.235,
+      "value": 67.135,
+      "raw_value": 67.135,
       "previous_close": 65.734,
-      "change_pct": 2.28,
+      "change_pct": 2.13,
       "as_of": "2026-08-20T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -529,10 +529,10 @@
       "symbol": "CL=F",
       "group": "商品",
       "unit": "usd",
-      "value": 84.55,
-      "raw_value": 84.55,
+      "value": 84.48,
+      "raw_value": 84.48,
       "previous_close": 85.83,
-      "change_pct": -1.49,
+      "change_pct": -1.57,
       "as_of": "2026-08-20T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -543,10 +543,10 @@
       "symbol": "BZ=F",
       "group": "商品",
       "unit": "usd",
-      "value": 91.95,
-      "raw_value": 91.95,
+      "value": 91.76,
+      "raw_value": 91.76,
       "previous_close": 91.62,
-      "change_pct": 0.36,
+      "change_pct": 0.15,
       "as_of": "2026-08-20T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -566,8 +566,8 @@
     },
     {
       "date": "2026-08-20",
-      "title": "三星提前偿还20万亿韩元贷款、长存母公司推进IPO，与SK海力士回购共同强化存储景气与融资预期",
-      "impact": "三星电子在存储需求走强背景下提前偿还来自三星显示的20万亿韩元贷款；长江存储母公司完成IPO前关键环节，报道所述全球NAND份额升至14%且企业级AI存储扩张；叠加SK海力士约24.07百万股回购注销计划，存储链的需求、融资与股东回报出现多层正向证据，但A股价格层仍需验证。",
+      "title": "三星拟建设6万亿韩元HBM封装厂，SK海力士回购后股价涨逾12%，存储链催化获得价格确认",
+      "impact": "三星计划9月开工建设约6万亿韩元温阳HBM封装厂，扩充HBM后段产能；SK海力士宣布大规模回购后首尔股价一度上涨逾12%。叠加三星提前偿还20万亿韩元贷款和长存母公司推进IPO，存储链的资本开支、融资与股东回报形成多层正向证据；A股存储链仍需持续相对强弱确认。",
       "direction": "positive",
       "strength": 5,
       "assets": [
@@ -580,7 +580,7 @@
     {
       "date": "2026-08-20",
       "title": "创新药ETF放量站上0.905，A股与港股创新药方向形成早盘共振",
-      "impact": "截至09:59，创新药ETF天弘报0.93、上涨5.42%，成交额约6396万元，开盘后持续高于0.905；同期医药制造业平均上涨4.89%，疫苗、CRO、基因测序概念均涨逾6%，多只港股创新药ETF上涨7%以上，价格、成交与板块广度形成确认。短线涨幅较大，不能外推为无条件追涨信号。",
+      "impact": "截至12:03，创新药ETF天弘报0.929、上涨4.85%，成交额约1.06亿元，持续处于0.905上方；医药制造业、CRO、疫苗及基因测序仍处涨幅前列，价格、成交与板块广度继续确认。短线涨幅较大，不能外推为无条件追涨信号。",
       "direction": "positive",
       "strength": 4,
       "assets": [
@@ -591,7 +591,7 @@
     {
       "date": "2026-08-20",
       "title": "美国长期国债回购压低收益率和美元，黄金白银出现显著反向重定价",
-      "impact": "美国财政部扩大长期国债回购后，长端收益率与美元回落，现货金银显著上涨；截至10:29，黄金ETF华安报9.23、上涨2.81%，早盘低点9.21，已持续处于9.15修复位上方。宏观驱动与ETF价格层相互确认，但高开后不构成追涨条件。",
+      "impact": "美国财政部扩大长期国债回购后，长端收益率与美元回落，现货金银显著上涨；截至12:03，黄金ETF华安报9.231、上涨2.86%，13:21仍约9.22，持续处于9.15修复位上方。宏观驱动与ETF价格层相互确认，但高开后不构成追涨条件。",
       "direction": "positive",
       "strength": 4,
       "assets": [
@@ -692,14 +692,14 @@
     },
     {
       "name": "美债 / 美元",
-      "score": 8.7,
+      "score": 8.2,
       "label": "中性",
       "weight": 5,
       "evidence": "收益率与美元上行对长久期风险资产偏压制"
     },
     {
       "name": "商品避险",
-      "score": 9.7,
+      "score": 7.2,
       "label": "中性",
       "weight": 3,
       "evidence": "黄金/白银/原油组合变化"
@@ -732,8 +732,8 @@
         "德明利"
       ],
       "direction": "neutral",
-      "score": -18.8,
-      "event_score": null,
+      "score": 10.9,
+      "event_score": 100.0,
       "technical_score": -34.0,
       "industry_score": 16.0
     },
@@ -777,8 +777,8 @@
         "太极实业"
       ],
       "direction": "bullish",
-      "score": 47.0,
-      "event_score": null,
+      "score": 60.3,
+      "event_score": 100.0,
       "technical_score": 68.0,
       "industry_score": 16.0
     },
@@ -807,14 +807,14 @@
         "创新药沪港深ETF天弘"
       ],
       "direction": "bullish",
-      "score": 65.9,
-      "event_score": null,
+      "score": 69.4,
+      "event_score": 80.0,
       "technical_score": 82.0,
       "industry_score": 49.6
     },
     {
       "theme": "黄金",
-      "status": "方向获支持",
+      "status": "多层确认",
       "assets": [
         "518880"
       ],
@@ -822,33 +822,66 @@
         "黄金ETF华安"
       ],
       "direction": "bullish",
-      "score": 38.0,
-      "event_score": null,
+      "score": 52.0,
+      "event_score": 80.0,
       "technical_score": 38.0,
       "industry_score": null
     },
     {
       "theme": "白银",
-      "status": "方向获支持",
+      "status": "证据冲突",
       "assets": [
         "161226"
       ],
       "names": [
         "国投白银LOF"
       ],
-      "direction": "bearish",
-      "score": -57.0,
-      "event_score": null,
-      "technical_score": -82.0,
+      "direction": "neutral",
+      "score": 8.2,
+      "event_score": 80.0,
+      "technical_score": -68.0,
       "industry_score": null
     }
   ],
   "outlook": {
-    "base": "当前基准情景：regime=risk_on，风险温度=51.7；Matrix中 confirmed=2、supported=3。",
+    "base": "当前基准情景：regime=risk_on，风险温度=51.7；Matrix中 confirmed=3、supported=1。",
     "bullish": "若上涨占比重新站上50%、Market Regime转向risk_on/narrow_risk_on，且强势主题的行业与技术层同步扩散，则风险偏好修复更可信。",
     "bearish": "若市场广度继续恶化、风险温度抬升，同时当前获支持主题转为conflict/contradicted，则应把环境定义为进一步收缩而非普通波动。"
   },
   "matrix_focus": [
+    {
+      "code": "161226",
+      "name": "国投白银LOF",
+      "thesis_state": "conflicted",
+      "direction": "neutral",
+      "attention_score": 93.2,
+      "composite_score": 8.2,
+      "confluence": 12.4,
+      "conflict_score": 86.8,
+      "focus": "正负证据正在相互抵消，优先识别哪一层先失效或被确认。"
+    },
+    {
+      "code": "603986",
+      "name": "兆易创新",
+      "thesis_state": "conflicted",
+      "direction": "neutral",
+      "attention_score": 93.1,
+      "composite_score": 11.5,
+      "confluence": 17.3,
+      "conflict_score": 78.0,
+      "focus": "正负证据正在相互抵消，优先识别哪一层先失效或被确认。"
+    },
+    {
+      "code": "001309",
+      "name": "德明利",
+      "thesis_state": "conflicted",
+      "direction": "neutral",
+      "attention_score": 93.1,
+      "composite_score": 10.4,
+      "confluence": 15.6,
+      "conflict_score": 80.5,
+      "focus": "正负证据正在相互抵消，优先识别哪一层先失效或被确认。"
+    },
     {
       "code": "300308",
       "name": "中际旭创",
@@ -859,28 +892,6 @@
       "confluence": 17.6,
       "conflict_score": 74.2,
       "focus": "正负证据正在相互抵消，优先识别哪一层先失效或被确认。"
-    },
-    {
-      "code": "001309",
-      "name": "德明利",
-      "thesis_state": "under_test",
-      "direction": "neutral",
-      "attention_score": 75.9,
-      "composite_score": -19.5,
-      "confluence": 29.2,
-      "conflict_score": 48.5,
-      "focus": "原方向尚未被市场充分确认，继续观察验证/失效条件。"
-    },
-    {
-      "code": "603986",
-      "name": "兆易创新",
-      "thesis_state": "under_test",
-      "direction": "neutral",
-      "attention_score": 75.8,
-      "composite_score": -18.0,
-      "confluence": 27.0,
-      "conflict_score": 50.5,
-      "focus": "原方向尚未被市场充分确认，继续观察验证/失效条件。"
     },
     {
       "code": "002384",
@@ -898,36 +909,25 @@
       "name": "创新药沪港深ETF天弘",
       "thesis_state": "confirmed",
       "direction": "bullish",
-      "attention_score": 70.0,
-      "composite_score": 65.9,
-      "confluence": 89.8,
-      "conflict_score": 0.0,
-      "focus": "验证持续性、行业扩散与后续基本面证据。"
-    },
-    {
-      "code": "600667",
-      "name": "太极实业",
-      "thesis_state": "confirmed",
-      "direction": "bullish",
-      "attention_score": 69.6,
-      "composite_score": 47.0,
-      "confluence": 84.1,
+      "attention_score": 70.1,
+      "composite_score": 69.4,
+      "confluence": 90.8,
       "conflict_score": 0.0,
       "focus": "验证持续性、行业扩散与后续基本面证据。"
     }
   ],
   "sources": {
     "market_state": "2026-08-20T12:05:04+08:00",
-    "risk": "2026-08-20T12:26:58+08:00",
-    "valuation": "2026-08-20T12:26:19+08:00",
-    "decision_matrix": "2026-08-20T12:26:58+08:00",
-    "global_markets": "2026-08-20T12:27:41+08:00",
-    "catalysts": "2026-08-20T12:28:17+08:00",
-    "ai_signals": "2026-08-20 10:41",
+    "risk": "2026-08-20T13:33:24+08:00",
+    "valuation": "2026-08-20T13:33:10+08:00",
+    "decision_matrix": "2026-08-20T13:33:24+08:00",
+    "global_markets": "2026-08-20T13:33:55+08:00",
+    "catalysts": "2026-08-20T13:34:26+08:00",
+    "ai_signals": "2026-08-20 13:33",
     "sentiment": "2026-08-20T09:49:44+08:00",
-    "market_extras": "2026-08-20T12:27:43+08:00",
-    "macro_calendar": "2026-08-20T12:29:37+08:00",
-    "theme_earnings": "2026-08-20T12:30:14+08:00"
+    "market_extras": "2026-08-20T13:33:56+08:00",
+    "macro_calendar": "2026-08-20T13:35:20+08:00",
+    "theme_earnings": "2026-08-20T13:36:11+08:00"
   },
   "boundary": "Daily Flash用于信息压缩、研究排序与条件验证；缺失数据保持缺失，不生成无条件买卖、仓位或止损指令。",
   "integrity": {
