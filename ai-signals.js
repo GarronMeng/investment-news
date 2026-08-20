@@ -1,5 +1,5 @@
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-20 09:06",
+  "generated_at": "2026-08-20 09:35",
   "source_generated_at": "2026-08-20 07:48",
   "generated_by": "ChatGPT Web",
   "status": "ready",
@@ -1314,7 +1314,16 @@ window.AI_SIGNALS = {
     "https://www.newscientist.com/article/2584938-this-sci-fi-novel-is-a-riveting-tale-of-an-oppressive-galactic-empire": "科幻小说讲述压迫性银河帝国的故事",
     "https://www.newscientist.com/article/2584937-stunning-image-of-a-polar-bear-with-an-outsized-snack-wins-major-award": "叼着巨型食物的北极熊照片获重要奖项",
     "https://www.newscientist.com/article/2584877-twisteddoodles-4": "Twisteddoodles用猫解释分布图",
-    "https://www.digitimes.com/news/a20260819VL214/hbm-earnings-cash-flow.html": "SK海力士拟回购并注销400,000亿韩元股份，释放长期AI存储周期信心"
+    "https://www.digitimes.com/news/a20260819VL214/hbm-earnings-cash-flow.html": "SK海力士拟回购并注销400,000亿韩元股份，释放长期AI存储周期信心",
+    "https://www.techmeme.com/260819/p48": "特朗普在白宫活动上敦促国会通过《CLARITY法案》，Coinbase和Robinhood等公司CEO出席；该法案仍滞留参议院",
+    "https://www.wired.com/story/elon-musk-is-expected-to-point-his-money-machine-at-texas": "预计马斯克将把政治资金投入得州选举",
+    "https://www.theverge.com/tech/981834/hoverair-versa-drone-camera-fcc-loophole-indiegogo": "给相机装上翅膀能否绕过FCC的无人机禁令？",
+    "https://www.techmeme.com/260819/p47": "消息称YouTube向头部创作者支付数百万美元以换取阶段性独家发布，并将惩罚同期向Netflix发布视频的创作者",
+    "https://www.marketwatch.com/story/im-my-mother-in-laws-power-of-attorney-executor-and-trustee-do-i-hold-all-the-power-a11968a2": "我持有岳母或婆婆的授权委托书，同时担任遗嘱执行人与受托人，我是否拥有最终决定权？",
+    "https://seekingalpha.com/news/4635194-wolfspeed-targets-140m-160m-q1-fy2027-revenue-while-citing-ai-data-center-growth-and": "Wolfspeed预计2027财年第一季度营收1.4亿至1.6亿美元，称AI数据中心需求增长但毛利率仍为负",
+    "https://seekingalpha.com/news/4635193-accuray-expects-15m-of-incremental-annualized-cost-and-margin-improvement-in-fy27-while": "Accuray预计2027财年成本与利润率将实现1500万美元年化改善，但暂未给出正式营收及调整后EBITDA指引",
+    "https://www.marketwatch.com/story/retirees-this-investment-gives-you-a-guaranteed-5-safe-withdrawal-rate-facdfd76": "退休人士：这种投资可提供有保障的5%安全提取率",
+    "https://seekingalpha.com/news/4635191-tentative-trade-deal-would-cut-canada-steel-aluminum-tariffs-by-half-reports": "报道称暂定贸易协议将把加拿大钢铝关税削减一半"
   },
   "overseas_markets": [
     {
