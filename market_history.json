@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated_at": "2026-08-21T10:04:43+08:00",
+  "generated_at": "2026-08-21T10:45:06+08:00",
   "timezone": "Asia/Shanghai",
   "benchmark": {
     "code": "510300",
@@ -1273,7 +1273,7 @@
         "amount": 3491619584.0
       }
     ],
-    "fallback_reason": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    "fallback_reason": "HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61%2Cf116&ut=7eea3"
   },
   "summary": {
     "total": 9,
@@ -2553,7 +2553,7 @@
           "amount": 14629180703.0
         }
       ],
-      "fallback_reason": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "fallback_reason": "HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61%2Cf116&ut=7eea3"
     },
     "001309": {
       "code": "001309",
@@ -3826,7 +3826,7 @@
           "amount": 4036607527.0
         }
       ],
-      "fallback_reason": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "fallback_reason": "HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61%2Cf116&ut=7eea3"
     },
     "300308": {
       "code": "300308",
@@ -5099,7 +5099,7 @@
           "amount": 20338306136.0
         }
       ],
-      "fallback_reason": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "fallback_reason": "HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61%2Cf116&ut=7eea3"
     },
     "002384": {
       "code": "002384",
@@ -6372,7 +6372,7 @@
           "amount": 10335940236.0
         }
       ],
-      "fallback_reason": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "fallback_reason": "HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61%2Cf116&ut=7eea3"
     },
     "600667": {
       "code": "600667",
@@ -7645,7 +7645,7 @@
           "amount": 4735294162.0
         }
       ],
-      "fallback_reason": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "fallback_reason": "HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61%2Cf116&ut=7eea3"
     },
     "000636": {
       "code": "000636",
@@ -10191,7 +10191,7 @@
           "amount": 379515484.0
         }
       ],
-      "fallback_reason": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "fallback_reason": "HTTPSConnectionPool(host='2.push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/clist/get?pn=1&pz=100&po=1&np=1&ut=bd1d9ddb04089700cf9c27f6f7426281&fltt=2&invt=2&wbp2u=%7C0%7C0%7C0%7Cweb&fid=f12&fs=b%3AMK0404%2Cb%3AMK040"
     },
     "518880": {
       "code": "518880",
@@ -12741,14 +12741,14 @@
     }
   },
   "warnings": [
-    "510300 AKShare: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
-    "603986 AKShare: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
-    "001309 AKShare: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
-    "300308 AKShare: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
-    "002384 AKShare: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
-    "600667 AKShare: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+    "510300 AKShare: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61%2Cf116&ut=7eea3edcaed734bea9cbfc24409ed989&klt=101&fqt=0&beg=20250627&end=20260821&secid=1.510300 (Caused by NewConnectionError(\"HTTPSConnection(host='push2his.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+    "603986 AKShare: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61%2Cf116&ut=7eea3edcaed734bea9cbfc24409ed989&klt=101&fqt=0&secid=1.603986&beg=20250627&end=20260821 (Caused by NewConnectionError(\"HTTPSConnection(host='push2his.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+    "001309 AKShare: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61%2Cf116&ut=7eea3edcaed734bea9cbfc24409ed989&klt=101&fqt=0&secid=0.001309&beg=20250627&end=20260821 (Caused by NewConnectionError(\"HTTPSConnection(host='push2his.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+    "300308 AKShare: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61%2Cf116&ut=7eea3edcaed734bea9cbfc24409ed989&klt=101&fqt=0&secid=0.300308&beg=20250627&end=20260821 (Caused by NewConnectionError(\"HTTPSConnection(host='push2his.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+    "002384 AKShare: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61%2Cf116&ut=7eea3edcaed734bea9cbfc24409ed989&klt=101&fqt=0&secid=0.002384&beg=20250627&end=20260821 (Caused by NewConnectionError(\"HTTPSConnection(host='push2his.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+    "600667 AKShare: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61%2Cf116&ut=7eea3edcaed734bea9cbfc24409ed989&klt=101&fqt=0&secid=1.600667&beg=20250627&end=20260821 (Caused by NewConnectionError(\"HTTPSConnection(host='push2his.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
     "000636 AKShare: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
-    "161226 AKShare: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+    "161226 AKShare: HTTPSConnectionPool(host='2.push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/clist/get?pn=1&pz=100&po=1&np=1&ut=bd1d9ddb04089700cf9c27f6f7426281&fltt=2&invt=2&wbp2u=%7C0%7C0%7C0%7Cweb&fid=f12&fs=b%3AMK0404%2Cb%3AMK0405%2Cb%3AMK0406%2Cb%3AMK0407&fields=f3%2Cf12%2Cf13 (Caused by NewConnectionError(\"HTTPSConnection(host='2.push2.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
     "518880 AKShare: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
     "517380 AKShare: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
   ],

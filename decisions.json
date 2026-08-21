@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generated_at": "2026-08-21T10:04:53+08:00",
+  "generated_at": "2026-08-21T10:45:23+08:00",
   "source": {
     "data_generated_at": "2026-08-21 09:59",
-    "ai_generated_at": "2026-08-21 09:25",
-    "ai_source_generated_at": "2026-08-21 07:51",
-    "features_generated_at": "2026-08-21T10:04:43+08:00",
-    "fresh_ai": false
+    "ai_generated_at": "2026-08-21 10:43",
+    "ai_source_generated_at": "2026-08-21 09:59",
+    "features_generated_at": "2026-08-21T10:45:06+08:00",
+    "fresh_ai": true
   },
   "decisions": [
     {
@@ -17,7 +17,7 @@
       "status": "market_watch",
       "event_score": 50.0,
       "market_score": 35.0,
-      "freshness_score": 70,
+      "freshness_score": 100,
       "conviction": 30.0,
       "evidence_mode": "market_only",
       "event_count": 0,
@@ -41,7 +41,7 @@
       "status": "neutral",
       "event_score": 50.0,
       "market_score": 45.0,
-      "freshness_score": 70,
+      "freshness_score": 100,
       "conviction": 10.0,
       "evidence_mode": "market_only",
       "event_count": 0,
@@ -62,72 +62,72 @@
       "name": "中际旭创",
       "as_of": "2026-08-20",
       "bias": "bearish",
-      "status": "market_watch",
+      "status": "watch",
       "event_score": 50.0,
       "market_score": 15.0,
-      "freshness_score": 70,
-      "conviction": 55,
-      "evidence_mode": "market_only",
-      "event_count": 0,
+      "freshness_score": 100,
+      "conviction": 28.0,
+      "evidence_mode": "event_plus_market",
+      "event_count": 1,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.128946",
+      "why_now": "fresh event evidence; market trend=bearish; 20d relative strength=-0.128946",
       "confirmation": [
-        "海外AI硬件与A股CPO同步走强",
-        "高位放量后能维持强势"
+        "融资条款正式落地，相关云厂商或AI实验室确认新增算力部署规模",
+        "中际旭创与东山精密相对各自行业指数转强，并由成交与板块广度确认"
       ],
       "invalidation": [
-        "AI资本开支下修",
-        "客户延迟采购"
+        "融资谈判缩减、延迟或取消，AI算力建设节奏同步下修",
+        "长端利率继续快速上行并压制AI硬件估值与资本开支"
       ],
-      "expires_at": "2026-08-26"
+      "expires_at": "2026-09-18"
     },
     {
       "asset": "002384",
       "name": "东山精密",
       "as_of": "2026-08-20",
-      "bias": "bearish",
-      "status": "market_watch",
+      "bias": "neutral",
+      "status": "neutral",
       "event_score": 50.0,
       "market_score": 35.0,
-      "freshness_score": 70,
-      "conviction": 30.0,
-      "evidence_mode": "market_only",
-      "event_count": 0,
+      "freshness_score": 100,
+      "conviction": 12.0,
+      "evidence_mode": "event_plus_market",
+      "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=-0.015463",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.015463",
       "confirmation": [
-        "PCB板块扩散上涨",
-        "订单利好得到成交量确认"
+        "融资条款正式落地，相关云厂商或AI实验室确认新增算力部署规模",
+        "中际旭创与东山精密相对各自行业指数转强，并由成交与板块广度确认"
       ],
       "invalidation": [
-        "终端需求下修",
-        "价格竞争"
+        "融资谈判缩减、延迟或取消，AI算力建设节奏同步下修",
+        "长端利率继续快速上行并压制AI硬件估值与资本开支"
       ],
-      "expires_at": "2026-08-26"
+      "expires_at": "2026-09-18"
     },
     {
       "asset": "600667",
       "name": "太极实业",
       "as_of": "2026-08-20",
       "bias": "bullish",
-      "status": "market_watch",
-      "event_score": 50.0,
+      "status": "active",
+      "event_score": 90.0,
       "market_score": 75.0,
-      "freshness_score": 70,
-      "conviction": 50.0,
-      "evidence_mode": "market_only",
-      "event_count": 0,
+      "freshness_score": 100,
+      "conviction": 68.0,
+      "evidence_mode": "event_plus_market",
+      "event_count": 1,
       "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.334832",
+      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.334832",
       "confirmation": [
-        "半导体工程板块同步走强",
-        "事件后股价摆脱弱势结构"
+        "太极实业相对半导体指数转强，且封测板块上涨家数与资金流同步改善",
+        "8月27日太极实业半年报确认订单、收入或利润趋势改善"
       ],
       "invalidation": [
-        "资本开支延迟",
-        "项目回款承压"
+        "长电科技利润增长主要由非经常性因素驱动或后续指引转弱",
+        "太极实业业绩或项目回款显著低于预期"
       ],
-      "expires_at": "2026-08-26"
+      "expires_at": "2026-09-18"
     },
     {
       "asset": "000636",
@@ -137,7 +137,7 @@
       "status": "neutral",
       "event_score": 50.0,
       "market_score": 55.0,
-      "freshness_score": 70,
+      "freshness_score": 100,
       "conviction": 10.0,
       "evidence_mode": "market_only",
       "event_count": 0,
@@ -157,23 +157,23 @@
       "asset": "161226",
       "name": "国投白银LOF",
       "as_of": "2026-08-20",
-      "bias": "bullish",
-      "status": "market_watch",
+      "bias": "neutral",
+      "status": "neutral",
       "event_score": 50.0,
       "market_score": 65.0,
-      "freshness_score": 70,
-      "conviction": 30.0,
-      "evidence_mode": "market_only",
-      "event_count": 0,
+      "freshness_score": 100,
+      "conviction": 12.0,
+      "evidence_mode": "event_plus_market",
+      "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.032212",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=0.032212",
       "confirmation": [
-        "同时核对基金净值、场内价格和溢价率",
-        "银价上涨时场内溢价未继续扩大"
+        "外盘金银守住上涨区间，黄金ETF华安与基金净值同步确认",
+        "国投白银LOF的净值、场内价格与溢价率同时更新，且溢价未继续扩大"
       ],
       "invalidation": [
-        "银价下跌",
-        "美元与实际利率上行"
+        "长端收益率继续上行并推动金银跌回突破前区间",
+        "国投白银LOF场内溢价扩大或出现新的申购、停复牌限制"
       ],
       "expires_at": "2026-08-26"
     },
@@ -182,22 +182,22 @@
       "name": "黄金ETF华安",
       "as_of": "2026-08-20",
       "bias": "bullish",
-      "status": "market_watch",
+      "status": "watch",
       "event_score": 50.0,
       "market_score": 85.0,
-      "freshness_score": 70,
-      "conviction": 55,
-      "evidence_mode": "market_only",
-      "event_count": 0,
+      "freshness_score": 100,
+      "conviction": 28.0,
+      "evidence_mode": "event_plus_market",
+      "event_count": 1,
       "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.106731",
+      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.106731",
       "confirmation": [
-        "外盘金价与国内黄金现货同向",
-        "ETF成交量与价格同步确认"
+        "外盘金银守住上涨区间，黄金ETF华安与基金净值同步确认",
+        "国投白银LOF的净值、场内价格与溢价率同时更新，且溢价未继续扩大"
       ],
       "invalidation": [
-        "金价下跌",
-        "实际利率上行"
+        "长端收益率继续上行并推动金银跌回突破前区间",
+        "国投白银LOF场内溢价扩大或出现新的申购、停复牌限制"
       ],
       "expires_at": "2026-08-26"
     },
@@ -209,7 +209,7 @@
       "status": "market_watch",
       "event_score": 50.0,
       "market_score": 90.0,
-      "freshness_score": 70,
+      "freshness_score": 100,
       "conviction": 55,
       "evidence_mode": "market_only",
       "event_count": 0,

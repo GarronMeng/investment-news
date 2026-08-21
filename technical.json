@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-08-21T10:04:43+08:00",
-  "source_generated_at": "2026-08-21T10:04:43+08:00",
+  "generated_at": "2026-08-21T10:45:06+08:00",
+  "source_generated_at": "2026-08-21T10:45:06+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -304,29 +304,7 @@
       "condition_state": "all_conditions"
     }
   },
-  "state_changes": [
-    {
-      "code": "518880",
-      "name": "黄金ETF华安",
-      "field": "volume",
-      "from": "contraction",
-      "to": "normal"
-    },
-    {
-      "code": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "field": "volume",
-      "from": "contraction",
-      "to": "expansion"
-    },
-    {
-      "code": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "field": "condition_state",
-      "from": "partial_conditions",
-      "to": "all_conditions"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "rsi14": "Wilder RSI(14)",
     "macd": "EMA12/EMA26 DIF, EMA9 signal, histogram=(DIF-DEA)*2",

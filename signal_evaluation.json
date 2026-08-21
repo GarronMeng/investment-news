@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-08-21T10:04:53+08:00",
-  "history_generated_at": "2026-08-21T10:04:43+08:00",
+  "generated_at": "2026-08-21T10:45:23+08:00",
+  "history_generated_at": "2026-08-21T10:45:06+08:00",
   "summary": {
     "t1": {
       "settled": 212,
@@ -6836,6 +6836,78 @@
       "entry_close": 0.915,
       "mfe_20d": 0.021858,
       "mae_20d": -0.014208,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "da84e9763803ee43",
+      "asset": "300308",
+      "name": "中际旭创",
+      "signal_date": "2026-08-20",
+      "bias": "bearish",
+      "research_status": "watch",
+      "conviction": 28.0,
+      "entry_date": "2026-08-20",
+      "entry_close": 904.2,
+      "mfe_20d": 0.025658,
+      "mae_20d": -0.008637,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "2f2de8f9c99fe0c6",
+      "asset": "600667",
+      "name": "太极实业",
+      "signal_date": "2026-08-20",
+      "bias": "bullish",
+      "research_status": "active",
+      "conviction": 68.0,
+      "entry_date": "2026-08-20",
+      "entry_close": 21.21,
+      "mfe_20d": 0.030174,
+      "mae_20d": -0.021688,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "cb83afce800dc22c",
+      "asset": "518880",
+      "name": "黄金ETF华安",
+      "signal_date": "2026-08-20",
+      "bias": "bullish",
+      "research_status": "watch",
+      "conviction": 28.0,
+      "entry_date": "2026-08-20",
+      "entry_close": 9.234,
+      "mfe_20d": 0.002058,
+      "mae_20d": -0.003682,
       "horizons": {
         "t1": {
           "status": "pending"
