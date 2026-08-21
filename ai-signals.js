@@ -1,6 +1,7 @@
+// AI-generated; do not edit manually.
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-21 10:43",
-  "source_generated_at": "2026-08-21 09:59",
+  "generated_at": "2026-08-21 13:23",
+  "source_generated_at": "2026-08-21 12:25",
   "generated_by": "ChatGPT Web",
   "status": "ready",
   "news_titles": {
@@ -127,7 +128,47 @@ window.AI_SIGNALS = {
     "https://www.cnbc.com/2026/08/21/japan-inflation-iran-war-energy.html": "能源价格冲击推动日本整体通胀率升至年内最高",
     "https://seekingalpha.com/news/4635735-osi-systems-forecasts-1_875b-1_93b-fiscal-2027-revenue-as-middle-east-deliveries-shift-into": "OSI Systems预计2027财年营收18.75亿至19.3亿美元，中东交付转至下半年",
     "https://wallstreetcn.com/articles/3779954": "能源分析师Jeff Currie警示：大宗商品正在释放新信号",
-    "http://finance.eastmoney.com/news/1354,202608213848250290.html": "SpaceX继续瞄准AI编程赛道，据称曾洽谈收购另一家初创公司"
+    "http://finance.eastmoney.com/news/1354,202608213848250290.html": "SpaceX继续瞄准AI编程赛道，据称曾洽谈收购另一家初创公司",
+    "https://arxiv.org/abs/2608.19202": "将主动推断用于AI智能体的上下文获取",
+    "https://arxiv.org/abs/2608.19214": "不确定性下泊位分配与岸桥调度的稳健元启发式方法综述",
+    "https://arxiv.org/abs/2608.19215": "如何应对关于AI意识的不确定性",
+    "https://arxiv.org/abs/2608.19216": "有限主权与控制成本：部署方不拥有模型时如何为AI监督定价",
+    "https://arxiv.org/abs/2608.19222": "互动效价揭示奶牛群体中截然不同的社会网络",
+    "https://arxiv.org/abs/2608.19299": "利用大语言模型进行空中交通管制：提示工程、架构与评估",
+    "https://www.digitimes.com/news/a20260821VL210/sk-hynix-investment-fab-manufacturing-infrastructure.html": "SK海力士考虑在日本宫城建设存储芯片工厂，但称投资尚未敲定",
+    "https://www.digitimes.com/news/a20260821VL205/manufacturing-2026-taipei-capacity-taiwan.html": "2026台北自动化展：德国供应商瞄准航空航天制造的隐性瓶颈",
+    "https://www.digitimes.com/news/a20260821VL208/apple-vr-spatial-computing-layoffs-headset.html": "传苹果Vision团队裁员，VR业务收缩进一步加深",
+    "https://www.digitimes.com/news/a20260821PD212/ai-server-market-digitimes-growth-2026.html": "美国AI付费用户转化率仅3%，Token成本上升推动边缘AI服务器需求",
+    "https://www.digitimes.com/news/a20260821PD210/communications-2028-digitimes-ai-server-demand.html": "分析师：2028年将是AI机架采用光互连的关键年份",
+    "https://www.digitimes.com/news/a20260821PD200/iris-optronics-chlcd-e-paper-commercial.html": "虹彩光电升级太阳能ChLCD电子纸系列，拓展室内外显示应用",
+    "https://cnevpost.com/2026/08/21/byd-starts-da-han-ev-pre-sales": "比亚迪大汉EV开启预售，约合3.68万美元起，续航最高1008公里",
+    "https://electrek.co/2026/08/20/tesla-discontinues-solar-roof-panels-only": "特斯拉停止供应太阳能屋瓦，称其经济性不足",
+    "https://cnevpost.com/2026/08/21/bmw-pre-sales-china-only-long-wheelbase-neue-klasse-ix3": "宝马中国专属长轴距新世代iX3开启预售，约合3.98万美元起",
+    "https://www.pv-magazine.com/2026/08/21/solar-powerhouse-to-storage-leader": "从太阳能强国迈向储能领导者",
+    "https://www.pv-tech.org/sa-power-networks-to-test-emergency-solar-shutdown-capability-across-south-australia": "南澳电网公司将测试全州太阳能紧急停机能力",
+    "https://www.pv-tech.org/australia-extends-capital-gains-tax-concession-for-foreign-renewables-investors-to-2040": "澳大利亚将外国可再生能源投资者资本利得税优惠延长至2040年",
+    "https://www.energy-storage.news/australias-allegro-energy-partners-with-jena-batteries-to-scale-microemulsion-flow-battery-manufacturing": "澳大利亚Allegro Energy携手Jena Batteries扩大微乳液液流电池生产",
+    "https://cleantechnica.com/2026/08/20/princeton-critical-minerals-raises-16m-to-scale-lithium-production-technologies": "Princeton Critical Minerals融资1600万美元，扩大锂生产技术规模",
+    "https://cleantechnica.com/2026/08/20/waymo-fully-launches-robotaxi-service-in-houston": "Waymo在休斯敦全面推出Robotaxi服务",
+    "https://www.techmeme.com/260820/p48": "巴西宣布约4.442亿美元AI投资，由美国和中国企业参与",
+    "https://github.com/openai/codex/issues/37674": "Codex在AWS Bedrock上的漏洞导致收费增加10倍",
+    "https://annas-archive.gl/blog/physical-destruction.html": "AI公司为扫描而毁坏实体书：应在为时已晚前保存珍本",
+    "https://www.techmeme.com/260820/p47": "消息称AI训练数据初创公司Micro1的年度总收入运行率八个月内从1亿升至5亿美元",
+    "https://www.law.berkeley.edu/academics/registrar/academic-rules/artificial-intelligence-policy": "人工智能政策",
+    "https://www.techmeme.com/260820/p46": "内华达州批准特斯拉未来一年在拉斯维加斯部署最多5000辆Robotaxi",
+    "https://www.techmeme.com/260820/p45": "新泽西少女撤回针对Meta、Google和Snap的社交媒体成瘾诉讼",
+    "https://jacob.gold/posts/theres-no-such-thing-as-a-small-software-team": "如今已不存在所谓的小型软件团队",
+    "https://www.gsmarena.com/new_samsung_galaxy_a08_certification_reveals_a_jump_in_battery_capacity-news-74265.php": "三星Galaxy A08新认证显示电池容量大幅提升",
+    "https://9to5google.com/2026/08/20/pixel-watch-5-images": "Google发布Pixel Watch 5工厂镜像，采用统一构建版本",
+    "https://wallstreetcn.com/articles/3779967": "Moderna的mRNA个性化疫苗首度成功，中国创新药也在排队中",
+    "https://seekingalpha.com/news/4635737-avnet-raises-dividend-by-5-to-037": "安富利将股息提高5%至0.37美元",
+    "https://www.ft.com/content/f01ff762-3e68-4bac-bb73-6f35a6bf2771": "贝森特在32万亿美元美国国债市场迎战债券卫士",
+    "https://www.ft.com/content/4b7b8d3f-5625-4dba-ad90-66192c101956": "不是女权主义终结了男性养家模式，而是经济",
+    "https://www.ft.com/content/d286cb7f-c63e-42a6-86db-d0a9ad0f296a": "围绕高尔夫未来的争夺",
+    "https://www.ft.com/content/d8bc75ee-77c6-4810-967c-0c2cff69bf7a": "汇丰斥资6800万美元进行金融危机以来最大规模高级银行家裁撤",
+    "https://seekingalpha.com/news/4635486-fridays-economic-calendar": "周五经济日历",
+    "https://www.cnbc.com/2026/08/21/taiwan-gdp-growth-outlook-tech-forecast.html": "经济学家称台湾AI推动的11%经济增长预测恐难持续",
+    "https://www.ft.com/content/182f8161-b1a8-43f7-8918-f78f34e03cab": "朝鲜经济罕见出现“追求排场”的热潮"
   },
   "overseas_markets": [
     {
@@ -196,6 +237,55 @@ window.AI_SIGNALS = {
     }
   ],
   "signals": [
+    {
+      "event": "SK海力士考虑在日本宫城建设大型存储芯片工厂，但公司强调投资尚未最终决定",
+      "industry": "semi",
+      "industry_name": "存储芯片 / 晶圆厂资本开支",
+      "direction": "mixed",
+      "strength": 3,
+      "horizon": "1-3m",
+      "priced_in": "unknown",
+      "reason": "潜在日本存储产能投资为存储设备、工程与产业链需求提供中期增量想象，但项目地点、规模和最终投资均未确定；若扩产兑现，也可能在更长周期增加供给压力，因此现阶段只能视为待验证的资本开支线索。",
+      "assets": [
+        "603986",
+        "600667"
+      ],
+      "validation": [
+        "SK海力士正式披露投资规模、工艺与投产时间表",
+        "兆易创新、太极实业相对半导体指数转强，并由成交量和板块广度确认"
+      ],
+      "invalidation": [
+        "公司明确否认或取消项目，或项目长期没有资本开支落地",
+        "存储价格转弱且新增供给预期压制板块相对强度"
+      ],
+      "urls": [
+        "https://www.digitimes.com/news/a20260821VL210/sk-hynix-investment-fab-manufacturing-infrastructure.html"
+      ]
+    },
+    {
+      "event": "Moderna个性化mRNA肿瘤疫苗三期试验取得关键成功，为肿瘤mRNA技术提供首次重要概念验证",
+      "industry": "bio",
+      "industry_name": "创新药 / mRNA肿瘤疫苗",
+      "direction": "positive",
+      "strength": 4,
+      "horizon": "1-4w",
+      "priced_in": "unknown",
+      "reason": "三期临床成功提高mRNA技术在肿瘤治疗中的可行性，但黑色素瘤以外适应症、抗原筛选、LNP递送和个性化生产仍需验证；对中国创新药只能映射为平台与赛道层面的正向证据，不能外推为全部成分股受益。",
+      "assets": [
+        "517380"
+      ],
+      "validation": [
+        "A股与港股创新药板块同步修复，且创新药ETF成交量放大并站稳关键价位",
+        "国内相关企业披露可核验的临床、递送平台或合作进展"
+      ],
+      "invalidation": [
+        "后续完整数据暴露疗效、安全性或商业化限制",
+        "创新药板块继续放量下跌，单一海外事件未形成行业扩散"
+      ],
+      "urls": [
+        "https://wallstreetcn.com/articles/3779967"
+      ]
+    },
     {
       "event": "长电科技半年报确认封测利润增速显著高于营收，半导体工程/封测样本新增正向证据",
       "industry": "semi",
