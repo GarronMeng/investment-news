@@ -1,5 +1,5 @@
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-21 09:07",
+  "generated_at": "2026-08-21 09:25",
   "source_generated_at": "2026-08-21 07:51",
   "generated_by": "ChatGPT Web",
   "status": "ready",
@@ -99,7 +99,10 @@ window.AI_SIGNALS = {
     "https://www.livescience.com/products/health-fitness/climate-change-will-triple-the-number-of-days-over-105-f-in-the-us-the-health-impacts-will-be-dire": "气候变化将使美国超过华氏105度的天数增至三倍",
     "https://www.newscientist.com/article/2585809-will-personalised-mrna-vaccines-transform-cancer-treatments": "个性化mRNA疫苗会改变癌症治疗吗？",
     "https://www.livescience.com/space/black-holes/black-hole-star-solar-system-size-dot-from-the-early-universe-is-our-best-evidence-yet-of-a-brand-new-type-of-cosmic-object": "早期宇宙中太阳系大小的“黑洞恒星”候选提供新天体证据",
-    "https://www.newscientist.com/article/2585662-two-emerging-tick-viruses-that-can-be-deadly-are-spreading-in-the-us": "两种可能致命的新兴蜱传病毒正在美国传播"
+    "https://www.newscientist.com/article/2585662-two-emerging-tick-viruses-that-can-be-deadly-are-spreading-in-the-us": "两种可能致命的新兴蜱传病毒正在美国传播",
+    "https://wallstreetcn.com/articles/3779853": "贝森特干预影响消退，美债美股齐跌，沃尔玛暴跌9%，黄金突破200日均线，数字货币再猛涨",
+    "https://wallstreetcn.com/articles/3779945": "博通寻求逾600亿美元债务融资，为Anthropic等AI企业提供芯片基础设施",
+    "http://finance.eastmoney.com/news/1351,202608213848244783.html": "美债、伊朗两头忙！美国财长贝森特放话：回购还能加码，制裁下周披露"
   },
   "overseas_markets": [
     {
