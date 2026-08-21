@@ -1,18 +1,18 @@
 {
   "version": 1,
-  "generated_at": "2026-08-21T13:31:47+08:00",
+  "generated_at": "2026-08-21T13:54:07+08:00",
   "source": {
     "data_generated_at": "2026-08-21 12:25",
     "ai_generated_at": "2026-08-21 13:23",
     "ai_source_generated_at": "2026-08-21 12:25",
-    "features_generated_at": "2026-08-21T13:31:41+08:00",
+    "features_generated_at": "2026-08-21T13:53:56+08:00",
     "fresh_ai": true
   },
   "decisions": [
     {
       "asset": "603986",
       "name": "兆易创新",
-      "as_of": "2026-08-21",
+      "as_of": "2026-08-20",
       "bias": "neutral",
       "status": "neutral",
       "event_score": 50.0,
@@ -22,7 +22,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.085246",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.079229",
       "confirmation": [
         "SK海力士正式披露投资规模、工艺与投产时间表",
         "兆易创新、太极实业相对半导体指数转强，并由成交量和板块广度确认"
@@ -60,17 +60,17 @@
     {
       "asset": "300308",
       "name": "中际旭创",
-      "as_of": "2026-08-21",
-      "bias": "neutral",
-      "status": "neutral",
+      "as_of": "2026-08-20",
+      "bias": "bearish",
+      "status": "watch",
       "event_score": 50.0,
-      "market_score": 35.0,
+      "market_score": 15.0,
       "freshness_score": 100,
-      "conviction": 12.0,
+      "conviction": 28.0,
       "evidence_mode": "event_plus_market",
       "event_count": 1,
-      "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.077606",
+      "trend_state": "bearish",
+      "why_now": "fresh event evidence; market trend=bearish; 20d relative strength=-0.128946",
       "confirmation": [
         "融资条款正式落地，相关云厂商或AI实验室确认新增算力部署规模",
         "中际旭创与东山精密相对各自行业指数转强，并由成交与板块广度确认"
@@ -84,17 +84,17 @@
     {
       "asset": "002384",
       "name": "东山精密",
-      "as_of": "2026-08-21",
-      "bias": "bullish",
+      "as_of": "2026-08-20",
+      "bias": "neutral",
       "status": "neutral",
       "event_score": 50.0,
-      "market_score": 75.0,
+      "market_score": 35.0,
       "freshness_score": 100,
-      "conviction": 20.0,
+      "conviction": 12.0,
       "evidence_mode": "event_plus_market",
       "event_count": 1,
-      "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.043506",
+      "trend_state": "mixed",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.015463",
       "confirmation": [
         "融资条款正式落地，相关云厂商或AI实验室确认新增算力部署规模",
         "中际旭创与东山精密相对各自行业指数转强，并由成交与板块广度确认"
@@ -132,7 +132,7 @@
     {
       "asset": "000636",
       "name": "风华高科",
-      "as_of": "2026-08-21",
+      "as_of": "2026-08-20",
       "bias": "neutral",
       "status": "neutral",
       "event_score": 50.0,
@@ -142,7 +142,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "mixed",
-      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.381797",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.256643",
       "confirmation": [
         "被动元件板块形成联动",
         "涨价新闻后价格走势能够确认"

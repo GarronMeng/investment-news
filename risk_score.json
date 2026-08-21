@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-08-21T13:31:47+08:00",
-  "score": 66.5,
+  "generated_at": "2026-08-21T13:54:07+08:00",
+  "score": 66.1,
   "label": "elevated",
   "coverage": 100.0,
   "available_weight": 100,
@@ -13,10 +13,10 @@
       "evidence": "沪深300滚动PE十年分位 71.3%"
     },
     "market_structure": {
-      "score": 65.8,
+      "score": 64.2,
       "weight": 25,
       "available": true,
-      "evidence": "transition；上涨占比 33.0%"
+      "evidence": "transition；上涨占比 37.0%"
     },
     "trend": {
       "score": 73.0,
@@ -40,7 +40,7 @@
       "score": 58.0,
       "weight": 10,
       "available": true,
-      "evidence": "regime=transition；指数均值 0.43% / 上涨占比 33.0%"
+      "evidence": "regime=transition；指数均值 0.30% / 上涨占比 37.0%"
     }
   },
   "drivers": [
@@ -55,9 +55,9 @@
       "evidence": "沪深300滚动PE十年分位 71.3%"
     },
     {
-      "component": "market_structure",
-      "score": 65.8,
-      "evidence": "transition；上涨占比 33.0%"
+      "component": "leverage",
+      "score": 65.0,
+      "evidence": "两融5日变化 1.88%（20日基线尚未完整）"
     }
   ],
   "state_changes": [],
