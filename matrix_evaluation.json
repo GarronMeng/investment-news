@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-08-21T10:45:24+08:00",
-  "history_generated_at": "2026-08-21T10:45:06+08:00",
-  "records": 74,
-  "raw_ledger_records": 83,
+  "generated_at": "2026-08-21T10:56:42+08:00",
+  "history_generated_at": "2026-08-21T10:56:31+08:00",
+  "records": 79,
+  "raw_ledger_records": 88,
   "superseded_records": 9,
   "evaluations": [
     {
@@ -2077,6 +2077,32 @@
       }
     },
     {
+      "state_id": "a983efcfbfa3ec4b",
+      "state_revision": 2,
+      "asset": "002384",
+      "name": "东山精密",
+      "signal_date": "2026-08-20",
+      "matrix_direction": "neutral",
+      "thesis_state": "no_directional_thesis",
+      "evidence_state": "noise_or_no_edge",
+      "composite_score": -6.7,
+      "confluence": 10.0,
+      "conflict_score": 44.3,
+      "entry_date": "2026-08-20",
+      "entry_close": 197.67,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
       "state_id": "376f261b890937bb",
       "state_revision": 2,
       "asset": "161226",
@@ -2092,7 +2118,14 @@
       "entry_close": 1.904,
       "horizons": {
         "t1": {
-          "status": "pending"
+          "status": "settled",
+          "date": "2026-08-21",
+          "asset_return": 0.036239,
+          "benchmark_return": null,
+          "excess_return": null,
+          "absolute_excess": null,
+          "directional_excess": null,
+          "correct": null
         },
         "t5": {
           "status": "pending"
@@ -2118,7 +2151,14 @@
       "entry_close": 1.904,
       "horizons": {
         "t1": {
-          "status": "pending"
+          "status": "settled",
+          "date": "2026-08-21",
+          "asset_return": 0.036239,
+          "benchmark_return": null,
+          "excess_return": null,
+          "absolute_excess": null,
+          "directional_excess": null,
+          "correct": null
         },
         "t5": {
           "status": "pending"
@@ -2155,6 +2195,32 @@
       }
     },
     {
+      "state_id": "1ae252c39f5eb8a1",
+      "state_revision": 2,
+      "asset": "300308",
+      "name": "中际旭创",
+      "signal_date": "2026-08-20",
+      "matrix_direction": "neutral",
+      "thesis_state": "under_test",
+      "evidence_state": "noise_or_no_edge",
+      "composite_score": -18.8,
+      "confluence": 28.2,
+      "conflict_score": 31.2,
+      "entry_date": "2026-08-20",
+      "entry_close": 904.2,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
       "state_id": "5a660b694136b26f",
       "state_revision": 2,
       "asset": "517380",
@@ -2170,7 +2236,14 @@
       "entry_close": 0.915,
       "horizons": {
         "t1": {
-          "status": "pending"
+          "status": "settled",
+          "date": "2026-08-21",
+          "asset_return": -0.017486,
+          "benchmark_return": null,
+          "excess_return": null,
+          "absolute_excess": null,
+          "directional_excess": -0.017486,
+          "correct": false
         },
         "t5": {
           "status": "pending"
@@ -2196,7 +2269,14 @@
       "entry_close": 9.234,
       "horizons": {
         "t1": {
-          "status": "pending"
+          "status": "settled",
+          "date": "2026-08-21",
+          "asset_return": 0.010288,
+          "benchmark_return": null,
+          "excess_return": null,
+          "absolute_excess": null,
+          "directional_excess": 0.010288,
+          "correct": true
         },
         "t5": {
           "status": "pending"
@@ -2285,23 +2365,145 @@
       }
     },
     {
+      "state_id": "b7c655f2890a9b98",
+      "state_revision": 2,
+      "asset": "603986",
+      "name": "兆易创新",
+      "signal_date": "2026-08-20",
+      "matrix_direction": "bearish",
+      "thesis_state": "supported",
+      "evidence_state": "partial_confirmation",
+      "composite_score": -22.1,
+      "confluence": 76.6,
+      "conflict_score": 0.0,
+      "entry_date": "2026-08-20",
+      "entry_close": 403.5,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "state_id": "d9aa084f62d3a005",
+      "state_revision": 2,
+      "asset": "161226",
+      "name": "国投白银LOF",
+      "signal_date": "2026-08-21",
+      "matrix_direction": "neutral",
+      "thesis_state": "conflicted",
+      "evidence_state": "conflict",
+      "composite_score": 11.1,
+      "confluence": 16.7,
+      "conflict_score": 63.3,
+      "entry_date": "2026-08-21",
+      "entry_close": 1.973,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
       "state_id": "6dac186123c88d55",
-      "status": "unavailable"
+      "state_revision": 2,
+      "asset": "517380",
+      "name": "创新药沪港深ETF天弘",
+      "signal_date": "2026-08-21",
+      "matrix_direction": "bullish",
+      "thesis_state": "confirmed",
+      "evidence_state": "multi_layer_confirmed",
+      "composite_score": 78.1,
+      "confluence": 93.4,
+      "conflict_score": 0.0,
+      "entry_date": "2026-08-21",
+      "entry_close": 0.899,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "state_id": "1b2a51f4247fbadf",
+      "state_revision": 2,
+      "asset": "517380",
+      "name": "创新药沪港深ETF天弘",
+      "signal_date": "2026-08-21",
+      "matrix_direction": "bullish",
+      "thesis_state": "supported",
+      "evidence_state": "partial_confirmation",
+      "composite_score": 51.9,
+      "confluence": 69.4,
+      "conflict_score": 29.5,
+      "entry_date": "2026-08-21",
+      "entry_close": 0.899,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
     },
     {
       "state_id": "214eebd65420d304",
-      "status": "unavailable"
+      "state_revision": 2,
+      "asset": "518880",
+      "name": "黄金ETF华安",
+      "signal_date": "2026-08-21",
+      "matrix_direction": "bullish",
+      "thesis_state": "confirmed",
+      "evidence_state": "multi_layer_confirmed",
+      "composite_score": 49.9,
+      "confluence": 85.0,
+      "conflict_score": 0.0,
+      "entry_date": "2026-08-21",
+      "entry_close": 9.329,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
     }
   ],
   "by_thesis_state": {
     "confirmed": {
-      "records": 18,
+      "records": 20,
       "horizons": {
         "t1": {
-          "settled": 15,
-          "directional_settled": 15,
-          "win_rate": 0.6,
-          "mean_directional_excess": 0.013278,
+          "settled": 17,
+          "directional_settled": 17,
+          "win_rate": 0.5882,
+          "mean_directional_excess": 0.011293,
           "mean_excess_return": -0.009228,
           "mean_absolute_excess": 0.029452,
           "readout": "usable"
@@ -2327,10 +2529,10 @@
       }
     },
     "conflicted": {
-      "records": 18,
+      "records": 19,
       "horizons": {
         "t1": {
-          "settled": 12,
+          "settled": 13,
           "directional_settled": 2,
           "win_rate": 0.0,
           "mean_directional_excess": -0.063054,
@@ -2423,10 +2625,10 @@
       }
     },
     "no_directional_thesis": {
-      "records": 7,
+      "records": 8,
       "horizons": {
         "t1": {
-          "settled": 5,
+          "settled": 6,
           "directional_settled": 0,
           "win_rate": null,
           "mean_directional_excess": null,
@@ -2455,7 +2657,7 @@
       }
     },
     "supported": {
-      "records": 12,
+      "records": 14,
       "horizons": {
         "t1": {
           "settled": 11,
@@ -2487,7 +2689,7 @@
       }
     },
     "under_test": {
-      "records": 6,
+      "records": 7,
       "horizons": {
         "t1": {
           "settled": 4,
@@ -2521,10 +2723,10 @@
   },
   "by_evidence_state": {
     "conflict": {
-      "records": 18,
+      "records": 19,
       "horizons": {
         "t1": {
-          "settled": 12,
+          "settled": 13,
           "directional_settled": 2,
           "win_rate": 0.0,
           "mean_directional_excess": -0.063054,
@@ -2553,13 +2755,13 @@
       }
     },
     "multi_layer_confirmed": {
-      "records": 22,
+      "records": 24,
       "horizons": {
         "t1": {
-          "settled": 19,
-          "directional_settled": 19,
-          "win_rate": 0.6842,
-          "mean_directional_excess": 0.020258,
+          "settled": 21,
+          "directional_settled": 21,
+          "win_rate": 0.6667,
+          "mean_directional_excess": 0.017986,
           "mean_excess_return": -0.01706,
           "mean_absolute_excess": 0.033027,
           "readout": "usable"
@@ -2585,10 +2787,10 @@
       }
     },
     "noise_or_no_edge": {
-      "records": 13,
+      "records": 15,
       "horizons": {
         "t1": {
-          "settled": 9,
+          "settled": 10,
           "directional_settled": 0,
           "win_rate": null,
           "mean_directional_excess": null,
@@ -2617,7 +2819,7 @@
       }
     },
     "partial_confirmation": {
-      "records": 19,
+      "records": 21,
       "horizons": {
         "t1": {
           "settled": 18,
