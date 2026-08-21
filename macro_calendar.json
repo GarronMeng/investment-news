@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-21T16:23:47+08:00",
+  "generated_at": "2026-08-22T07:53:24+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
@@ -55,7 +55,7 @@
       "region": "美国",
       "title": "美国第二季度GDP价格指数季率修正值(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": 6.2,
       "previous": 6.2,
       "importance": 2,
       "impact_channels": [
@@ -362,11 +362,95 @@
       "assets": [],
       "source": "百度股市通 via AKShare",
       "status": "scheduled"
+    },
+    {
+      "date": "2026-09-01",
+      "time": "17:00",
+      "type": "macro",
+      "category": "labor",
+      "region": "欧元区",
+      "title": "欧元区7月失业率(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 6.3,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-01",
+      "time": "17:00",
+      "type": "macro",
+      "category": "inflation",
+      "region": "欧元区",
+      "title": "欧元区8月核心调和CPI年率-未季调初值(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-01",
+      "time": "17:00",
+      "type": "macro",
+      "category": "inflation",
+      "region": "欧元区",
+      "title": "欧元区8月调和CPI年率-未季调初值(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-01",
+      "time": "22:00",
+      "type": "macro",
+      "category": "growth",
+      "region": "美国",
+      "title": "美国8月ISM制造业PMI",
+      "actual": null,
+      "forecast": null,
+      "previous": 55.6,
+      "importance": 2,
+      "impact_channels": [
+        "全球风险偏好",
+        "AI资本开支预期",
+        "美元"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
     }
   ],
   "summary": {
-    "total": 16,
-    "macro": 12,
+    "total": 20,
+    "macro": 16,
     "global_earnings": 4,
     "high_importance": 2,
     "macro_days_ok": 11,
