@@ -38,6 +38,8 @@ on:
       - decisions.json
       - signal_evaluation.json
       - .nojekyll
+      - scripts/pages_deployment.py
+      - tests/test_pages_deployment.py
       - .github/workflows/deploy-pages.yml
   workflow_run:
     workflows: ["Update A-share News", "Update Market Sentiment", "Update Watchlist Market Quotes", "Update Research Engine", "Update Daily Flash"]
@@ -75,7 +77,7 @@ jobs:
           cp dashboard-v3.html public/dashboard-v3.html
           cp dashboard-v4.html public/dashboard-v4.html
           cp dashboard-v5.html public/index.html
-          cp daily-flash-extras.js daily-flash-intelligence.js chart.html portfolio.html performance.html health.html research.html data.js ai-signals.js sentiment.json market.json market_state.json market_history.json valuation.json risk_score.json decision_matrix.json matrix_evaluation.json global_markets.json market_extras.json catalysts.json macro_calendar.json theme_earnings.json daily_flash.json watchlist.json features.json technical.json decisions.json signal_evaluation.json .nojekyll public/
+          cp daily-flash-extras.js daily-flash-intelligence.js chart.html portfolio.html performance.html health.html research.html data.js ai-signals.js sentiment.json market.json watchlist.json market_state.json market_history.json valuation.json risk_score.json decision_matrix.json matrix_evaluation.json global_markets.json market_extras.json catalysts.json macro_calendar.json theme_earnings.json daily_flash.json features.json technical.json decisions.json signal_evaluation.json .nojekyll public/
           python - <<'PY'
           from pathlib import Path
           path = Path("public/index.html")
@@ -181,6 +183,12 @@ jobs:
           print("public artifacts validated")
           PY
 
+      - name: Build deployment manifest
+        run: |
+          python scripts/pages_deployment.py build \
+            --public-dir public \
+            --commit "$(git rev-parse HEAD)"
+
       - name: Configure Pages
         uses: actions/configure-pages@v6
 
@@ -192,3 +200,21 @@ jobs:
       - name: Deploy to Pages
         id: deployment
         uses: actions/deploy-pages@v5
+
+      - name: Verify deployed Pages content
+        env:
+          PAGE_URL: ${{ steps.deployment.outputs.page_url }}
+        run: |
+          DEPLOY_COMMIT="$(git rev-parse HEAD)"
+          python scripts/pages_deployment.py verify \
+            --page-url "$PAGE_URL" \
+            --commit "$DEPLOY_COMMIT" \
+            --attempts 36 \
+            --delay 5
+          {
+            echo "### GitHub Pages verification"
+            echo "- Status: verified"
+            echo "- Commit: \`$DEPLOY_COMMIT\`"
+            echo "- URL: $PAGE_URL"
+            echo "- Checked: deployment manifest plus index.html, ai-signals.js, decision_matrix.json and risk_score.json"
+          } >> "$GITHUB_STEP_SUMMARY"

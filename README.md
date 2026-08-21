@@ -103,6 +103,7 @@
 ### 9. 数据新鲜度与部署安全
 
 - Pages 部署前执行 AI 信号新鲜度门槛：源数据超过 36 小时、时间戳缺失或 AI 所引用源与最新 `data.js` 不一致时，旧 AI 信号会被强制降级为 `stale` 并从线上展示数据中清空。
+- Pages 产物写入带主分支 commit 与关键文件 SHA-256 的 `deployment-manifest.json`；部署完成后由 GitHub Actions 回读线上清单及关键文件并轮询校验。只有 commit 和文件哈希全部一致，工作流才会成功，因此核验不依赖聊天浏览器能否直连 `github.io`。
 - 日线历史以东方财富 via AKShare 为主；A 股个股失败时增加新浪财经 `stock_zh_a_daily` 独立回退，基金继续使用新浪/东方财富 direct/Yahoo 多级回退。
 - **最终 fresh 判定按基准交易日对齐**：即使某序列距离今天只有 1–4 个自然日，只要它的 `last_date` 落后于当前 fresh 基准（沪深300ETF）的最新交易日，就会被标记为 `stale`，避免“一交易日旧数据”被误称为新鲜。
 - 原始新闻、行情/特征、市场状态、估值、情绪、AI 研判和 Decision Matrix 保持独立数据层。
@@ -200,7 +201,7 @@ decisions → signals/YYYY-MM.jsonl → scripts/evaluate_signals.py
 - `Update Watchlist Market Quotes`：更新 `market.json` 与 `market_state.json`。
 - `Update Market Sentiment`：更新 `sentiment.json`。
 - `Update Research Engine`：更新历史行情、技术矩阵、估值、风险温度、基础研究决策、Unified Decision Matrix、信号账本与前向评价；工作日 08:30 和 15:35（Asia/Shanghai）运行，并在新闻/行情/情绪任务成功后重新计算。
-- `Deploy dashboard to Pages`：发布 V4 决策驾驶舱及 V3/K线/私人组合/战绩/Research 附属页，并在发布前执行 AI freshness gate 与公共产物契约检查。
+- `Deploy dashboard to Pages`：发布 V4 决策驾驶舱及 V3/K线/私人组合/战绩/Research 附属页；发布前执行 AI freshness gate 与公共产物契约检查，发布后校验线上 commit 和关键文件哈希。
 
 ## ChatGPT 信号规则
 
