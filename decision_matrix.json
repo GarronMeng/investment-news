@@ -1,21 +1,21 @@
 {
   "version": 1,
-  "generated_at": "2026-08-21T09:57:26+08:00",
+  "generated_at": "2026-08-21T10:04:53+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
-    "confirmed": 3,
-    "supported": 0,
+    "confirmed": 2,
+    "supported": 1,
     "contradicted": 0,
-    "conflicted": 4,
+    "conflicted": 5,
     "emerging": 0,
-    "insufficient": 0,
+    "insufficient": 2,
     "top_attention": [
+      "161226",
       "300308",
       "000636",
       "002384",
-      "603986",
-      "517380"
+      "603986"
     ]
   },
   "assets": {
@@ -211,21 +211,21 @@
       "as_of": "2026-08-20",
       "base_bias": "bearish",
       "matrix_direction": "neutral",
-      "composite_score": -9.1,
-      "coverage": 100.0,
-      "confluence": 13.7,
-      "available_layers": 5,
+      "composite_score": -12.2,
+      "coverage": 75.0,
+      "confluence": 18.2,
+      "available_layers": 4,
       "opposing_weight_share": 0.0,
       "evidence_state": "conflict",
       "thesis_state": "conflicted",
-      "attention_score": 90.5,
+      "attention_score": 90.8,
       "research_focus": "正负证据正在相互抵消，优先识别哪一层先失效或被确认。",
       "layers": {
         "event": {
-          "available": true,
-          "score": 0.0,
-          "confidence": "high",
-          "evidence": "1 条新鲜映射事件；event_score=50.0/100。"
+          "available": false,
+          "score": null,
+          "confidence": "none",
+          "evidence": "无新鲜映射事件；该层不参与合成。"
         },
         "technical": {
           "available": true,
@@ -286,12 +286,12 @@
         ]
       },
       "confirmation": [
-        "融资条款正式落地，相关云厂商或AI实验室确认新增算力部署规模",
-        "中际旭创与东山精密相对各自行业指数转强，并由成交与板块广度确认"
+        "海外AI硬件与A股CPO同步走强",
+        "高位放量后能维持强势"
       ],
       "invalidation": [
-        "融资谈判缩减、延迟或取消，AI算力建设节奏同步下修",
-        "长端利率继续快速上行并压制AI硬件估值与资本开支"
+        "AI资本开支下修",
+        "客户延迟采购"
       ],
       "excluded_layers": [],
       "positive_direction_mass": 11.6,
@@ -305,23 +305,23 @@
       "role": "PCB与终端映射",
       "priority": 3,
       "as_of": "2026-08-20",
-      "base_bias": "neutral",
+      "base_bias": "bearish",
       "matrix_direction": "neutral",
-      "composite_score": -2.3,
-      "coverage": 100.0,
-      "confluence": 3.4,
-      "available_layers": 5,
+      "composite_score": -3.0,
+      "coverage": 75.0,
+      "confluence": 4.5,
+      "available_layers": 4,
       "opposing_weight_share": 0.0,
       "evidence_state": "conflict",
       "thesis_state": "conflicted",
-      "attention_score": 88.2,
+      "attention_score": 88.3,
       "research_focus": "正负证据正在相互抵消，优先识别哪一层先失效或被确认。",
       "layers": {
         "event": {
-          "available": true,
-          "score": 0.0,
-          "confidence": "high",
-          "evidence": "1 条新鲜映射事件；event_score=50.0/100。"
+          "available": false,
+          "score": null,
+          "confidence": "none",
+          "evidence": "无新鲜映射事件；该层不参与合成。"
         },
         "technical": {
           "available": true,
@@ -383,12 +383,12 @@
         ]
       },
       "confirmation": [
-        "融资条款正式落地，相关云厂商或AI实验室确认新增算力部署规模",
-        "中际旭创与东山精密相对各自行业指数转强，并由成交与板块广度确认"
+        "PCB板块扩散上涨",
+        "订单利好得到成交量确认"
       ],
       "invalidation": [
-        "融资谈判缩减、延迟或取消，AI算力建设节奏同步下修",
-        "长端利率继续快速上行并压制AI硬件估值与资本开支"
+        "终端需求下修",
+        "价格竞争"
       ],
       "excluded_layers": [],
       "positive_direction_mass": 4.0,
@@ -404,21 +404,21 @@
       "as_of": "2026-08-20",
       "base_bias": "bullish",
       "matrix_direction": "bullish",
-      "composite_score": 49.5,
-      "coverage": 100.0,
-      "confluence": 84.9,
-      "available_layers": 5,
+      "composite_score": 39.4,
+      "coverage": 75.0,
+      "confluence": 81.8,
+      "available_layers": 4,
       "opposing_weight_share": 0.0,
       "evidence_state": "multi_layer_confirmed",
       "thesis_state": "confirmed",
-      "attention_score": 69.7,
+      "attention_score": 69.5,
       "research_focus": "验证持续性、行业扩散与后续基本面证据。",
       "layers": {
         "event": {
-          "available": true,
-          "score": 80.0,
-          "confidence": "high",
-          "evidence": "1 条新鲜映射事件；event_score=90.0/100。"
+          "available": false,
+          "score": null,
+          "confidence": "none",
+          "evidence": "无新鲜映射事件；该层不参与合成。"
         },
         "technical": {
           "available": true,
@@ -460,9 +460,9 @@
             "evidence": "MA60 above/rising；MACD bullish；RSI 52.39 (neutral)；量能 contraction；20日结构 inside_range。"
           },
           {
-            "layer": "event",
-            "score": 80.0,
-            "evidence": "1 条新鲜映射事件；event_score=90.0/100。"
+            "layer": "relative_strength",
+            "score": 32.6,
+            "evidence": "5日相对强弱 -0.092003；20日相对强弱 0.334832。"
           }
         ],
         "negative": [
@@ -474,15 +474,15 @@
         ]
       },
       "confirmation": [
-        "太极实业相对半导体指数转强，且封测板块上涨家数与资金流同步改善",
-        "8月27日太极实业半年报确认订单、收入或利润趋势改善"
+        "半导体工程板块同步走强",
+        "事件后股价摆脱弱势结构"
       ],
       "invalidation": [
-        "长电科技利润增长主要由非经常性因素驱动或后续指引转弱",
-        "太极实业业绩或项目回款显著低于预期"
+        "资本开支延迟",
+        "项目回款承压"
       ],
       "excluded_layers": [],
-      "positive_direction_mass": 50.9,
+      "positive_direction_mass": 30.9,
       "negative_direction_mass": 0.0,
       "conflict_score": 0.0
     },
@@ -584,23 +584,23 @@
       "role": "高波动商品仓观察",
       "priority": 5,
       "as_of": "2026-08-20",
-      "base_bias": "neutral",
-      "matrix_direction": "neutral",
-      "composite_score": -17.4,
-      "coverage": 75.0,
-      "confluence": 26.1,
-      "available_layers": 3,
-      "opposing_weight_share": 0.0,
-      "evidence_state": "noise_or_no_edge",
-      "thesis_state": "no_directional_thesis",
-      "attention_score": 42.7,
-      "research_focus": "当前缺少足够方向性证据，维持低优先级观察。",
+      "base_bias": "bullish",
+      "matrix_direction": "bearish",
+      "composite_score": -26.1,
+      "coverage": 50.0,
+      "confluence": 49.8,
+      "available_layers": 2,
+      "opposing_weight_share": 40.0,
+      "evidence_state": "insufficient",
+      "thesis_state": "conflicted",
+      "attention_score": 91.3,
+      "research_focus": "正负证据正在相互抵消，优先识别哪一层先失效或被确认。",
       "layers": {
         "event": {
-          "available": true,
-          "score": 0.0,
-          "confidence": "high",
-          "evidence": "1 条新鲜映射事件；event_score=50.0/100。"
+          "available": false,
+          "score": null,
+          "confidence": "none",
+          "evidence": "无新鲜映射事件；该层不参与合成。"
         },
         "technical": {
           "available": true,
@@ -646,12 +646,12 @@
         ]
       },
       "confirmation": [
-        "外盘金银守住上涨区间，黄金ETF华安与基金净值同步确认",
-        "国投白银LOF的净值、场内价格与溢价率同时更新，且溢价未继续扩大"
+        "同时核对基金净值、场内价格和溢价率",
+        "银价上涨时场内溢价未继续扩大"
       ],
       "invalidation": [
-        "长端收益率继续上行并推动金银跌回突破前区间",
-        "国投白银LOF场内溢价扩大或出现新的申购、停复牌限制"
+        "银价下跌",
+        "美元与实际利率上行"
       ],
       "excluded_layers": [],
       "positive_direction_mass": 7.3,
@@ -664,36 +664,36 @@
       "group": "贵金属对冲",
       "role": "低波动避险映射",
       "priority": 3,
-      "as_of": "2026-08-21",
+      "as_of": "2026-08-20",
       "base_bias": "bullish",
       "matrix_direction": "bullish",
-      "composite_score": 49.9,
-      "coverage": 75.0,
-      "confluence": 85.0,
-      "available_layers": 3,
+      "composite_score": 69.4,
+      "coverage": 50.0,
+      "confluence": 90.8,
+      "available_layers": 2,
       "opposing_weight_share": 0.0,
-      "evidence_state": "multi_layer_confirmed",
-      "thesis_state": "confirmed",
-      "attention_score": 69.7,
-      "research_focus": "验证持续性、行业扩散与后续基本面证据。",
+      "evidence_state": "insufficient",
+      "thesis_state": "supported",
+      "attention_score": 63.1,
+      "research_focus": "维持观察，等待更多层形成共振。",
       "layers": {
         "event": {
-          "available": true,
-          "score": 0.0,
-          "confidence": "high",
-          "evidence": "1 条新鲜映射事件；event_score=50.0/100。"
+          "available": false,
+          "score": null,
+          "confidence": "none",
+          "evidence": "无新鲜映射事件；该层不参与合成。"
         },
         "technical": {
           "available": true,
           "score": 72.0,
-          "confidence": "medium",
-          "evidence": "MA60 above/flat；MACD bullish；RSI 69.54 (strong)；量能 contraction；20日结构 new_high_20d。"
+          "confidence": "high",
+          "evidence": "MA60 above/flat；MACD bullish；RSI 67.6 (strong)；量能 normal；20日结构 new_high_20d。"
         },
         "relative_strength": {
           "available": true,
-          "score": 79.1,
+          "score": 65.6,
           "confidence": "high",
-          "evidence": "5日相对强弱 0.056983；20日相对强弱 0.138547。"
+          "evidence": "5日相对强弱 0.037305；20日相对强弱 0.106731。"
         },
         "industry": {
           "available": false,
@@ -715,26 +715,26 @@
           {
             "layer": "technical",
             "score": 72.0,
-            "evidence": "MA60 above/flat；MACD bullish；RSI 69.54 (strong)；量能 contraction；20日结构 new_high_20d。"
+            "evidence": "MA60 above/flat；MACD bullish；RSI 67.6 (strong)；量能 normal；20日结构 new_high_20d。"
           },
           {
             "layer": "relative_strength",
-            "score": 79.1,
-            "evidence": "5日相对强弱 0.056983；20日相对强弱 0.138547。"
+            "score": 65.6,
+            "evidence": "5日相对强弱 0.037305；20日相对强弱 0.106731。"
           }
         ],
         "negative": []
       },
       "confirmation": [
-        "外盘金银守住上涨区间，黄金ETF华安与基金净值同步确认",
-        "国投白银LOF的净值、场内价格与溢价率同时更新，且溢价未继续扩大"
+        "外盘金价与国内黄金现货同向",
+        "ETF成交量与价格同步确认"
       ],
       "invalidation": [
-        "长端收益率继续上行并推动金银跌回突破前区间",
-        "国投白银LOF场内溢价扩大或出现新的申购、停复牌限制"
+        "金价下跌",
+        "实际利率上行"
       ],
       "excluded_layers": [],
-      "positive_direction_mass": 37.4,
+      "positive_direction_mass": 34.7,
       "negative_direction_mass": 0.0,
       "conflict_score": 0.0
     },
@@ -744,17 +744,17 @@
       "group": "医疗成长",
       "role": "创新药分散配置",
       "priority": 3,
-      "as_of": "2026-08-21",
+      "as_of": "2026-08-20",
       "base_bias": "bullish",
       "matrix_direction": "bullish",
-      "composite_score": 78.1,
+      "composite_score": 79.3,
       "coverage": 75.0,
-      "confluence": 93.4,
+      "confluence": 93.8,
       "available_layers": 4,
       "opposing_weight_share": 0.0,
       "evidence_state": "multi_layer_confirmed",
       "thesis_state": "confirmed",
-      "attention_score": 70.2,
+      "attention_score": 70.3,
       "research_focus": "验证持续性、行业扩散与后续基本面证据。",
       "layers": {
         "event": {
@@ -766,14 +766,14 @@
         "technical": {
           "available": true,
           "score": 82.0,
-          "confidence": "medium",
-          "evidence": "MA60 above/rising；MACD bullish；RSI 61.16 (strong)；量能 contraction；20日结构 inside_range。"
+          "confidence": "high",
+          "evidence": "MA60 above/rising；MACD bullish；RSI 68.94 (strong)；量能 expansion；20日结构 inside_range。"
         },
         "relative_strength": {
           "available": true,
-          "score": 74.9,
+          "score": 79.1,
           "confidence": "high",
-          "evidence": "5日相对强弱 0.034399；20日相对强弱 0.161921。"
+          "evidence": "5日相对强弱 0.044161；20日相对强弱 0.164638。"
         },
         "industry": {
           "available": true,
@@ -802,12 +802,12 @@
           {
             "layer": "technical",
             "score": 82.0,
-            "evidence": "MA60 above/rising；MACD bullish；RSI 61.16 (strong)；量能 contraction；20日结构 inside_range。"
+            "evidence": "MA60 above/rising；MACD bullish；RSI 68.94 (strong)；量能 expansion；20日结构 inside_range。"
           },
           {
-            "layer": "industry",
-            "score": 100.0,
-            "evidence": "生物制品 涨跌+9.12%/净流—；化学制药 涨跌+3.82%/净流—"
+            "layer": "relative_strength",
+            "score": 79.1,
+            "evidence": "5日相对强弱 0.044161；20日相对强弱 0.164638。"
           }
         ],
         "negative": []
@@ -821,12 +821,13 @@
         "监管或支付政策收紧"
       ],
       "excluded_layers": [],
-      "positive_direction_mass": 58.6,
+      "positive_direction_mass": 59.4,
       "negative_direction_mass": 0.0,
       "conflict_score": 0.0
     }
   },
   "ranking": [
+    "161226",
     "300308",
     "000636",
     "002384",
@@ -834,7 +835,6 @@
     "517380",
     "600667",
     "518880",
-    "161226",
     "001309"
   ],
   "state_changes": [
@@ -864,7 +864,7 @@
       "name": "东山精密",
       "field": "thesis_state",
       "from": "conflicted",
-      "to": "no_directional_thesis"
+      "to": "under_test"
     },
     {
       "code": "000636",
@@ -881,6 +881,27 @@
       "to": "no_directional_thesis"
     },
     {
+      "code": "161226",
+      "name": "国投白银LOF",
+      "field": "matrix_direction",
+      "from": "neutral",
+      "to": "bearish"
+    },
+    {
+      "code": "161226",
+      "name": "国投白银LOF",
+      "field": "evidence_state",
+      "from": "noise_or_no_edge",
+      "to": "conflict"
+    },
+    {
+      "code": "161226",
+      "name": "国投白银LOF",
+      "field": "thesis_state",
+      "from": "no_directional_thesis",
+      "to": "conflicted"
+    },
+    {
       "code": "518880",
       "name": "黄金ETF华安",
       "field": "evidence_state",
@@ -893,6 +914,20 @@
       "field": "thesis_state",
       "from": "confirmed",
       "to": "supported"
+    },
+    {
+      "code": "161226",
+      "name": "国投白银LOF",
+      "field": "evidence_state",
+      "from": "noise_or_no_edge",
+      "to": "insufficient"
+    },
+    {
+      "code": "518880",
+      "name": "黄金ETF华安",
+      "field": "evidence_state",
+      "from": "multi_layer_confirmed",
+      "to": "insufficient"
     }
   ],
   "methodology": {
