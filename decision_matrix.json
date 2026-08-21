@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-21T16:01:18+08:00",
+  "generated_at": "2026-08-21T16:07:54+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -843,8 +843,22 @@
     {
       "code": "603986",
       "name": "兆易创新",
+      "field": "matrix_direction",
+      "from": "bearish",
+      "to": "neutral"
+    },
+    {
+      "code": "603986",
+      "name": "兆易创新",
+      "field": "evidence_state",
+      "from": "partial_confirmation",
+      "to": "noise_or_no_edge"
+    },
+    {
+      "code": "603986",
+      "name": "兆易创新",
       "field": "thesis_state",
-      "from": "no_directional_thesis",
+      "from": "supported",
       "to": "under_test"
     },
     {
@@ -899,58 +913,23 @@
     {
       "code": "161226",
       "name": "国投白银LOF",
-      "field": "matrix_direction",
-      "from": "neutral",
-      "to": "bearish"
-    },
-    {
-      "code": "161226",
-      "name": "国投白银LOF",
       "field": "evidence_state",
-      "from": "noise_or_no_edge",
+      "from": "insufficient",
       "to": "conflict"
     },
     {
-      "code": "161226",
-      "name": "国投白银LOF",
-      "field": "thesis_state",
-      "from": "no_directional_thesis",
-      "to": "conflicted"
-    },
-    {
-      "code": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "field": "evidence_state",
-      "from": "multi_layer_confirmed",
-      "to": "partial_confirmation"
-    },
-    {
-      "code": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "field": "thesis_state",
-      "from": "confirmed",
-      "to": "supported"
-    },
-    {
-      "code": "161226",
-      "name": "国投白银LOF",
-      "field": "evidence_state",
-      "from": "noise_or_no_edge",
-      "to": "insufficient"
-    },
-    {
       "code": "518880",
       "name": "黄金ETF华安",
       "field": "evidence_state",
-      "from": "multi_layer_confirmed",
-      "to": "insufficient"
+      "from": "insufficient",
+      "to": "multi_layer_confirmed"
     },
     {
       "code": "518880",
       "name": "黄金ETF华安",
       "field": "thesis_state",
-      "from": "confirmed",
-      "to": "supported"
+      "from": "supported",
+      "to": "confirmed"
     }
   ],
   "methodology": {
