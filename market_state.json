@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-21T15:09:36+08:00",
+  "generated_at": "2026-08-21T15:57:05+08:00",
   "timezone": "Asia/Shanghai",
   "breadth": {
     "total": 5548,
@@ -13,7 +13,7 @@
     "touched_limit_up": 155,
     "broken_limit_up": 60,
     "seal_rate": 0.6129,
-    "turnover": 1891977694360.0,
+    "turnover": 1891983264760.0,
     "turnover_coverage": 1.0
   },
   "indices": [
@@ -62,15 +62,15 @@
     {
       "symbol": "hkHSI",
       "name": "恒生指数",
-      "price": 25967.47,
-      "change_pct": 1.05,
+      "price": 25973.16,
+      "change_pct": 1.07,
       "source": "腾讯行情"
     },
     {
       "symbol": "hkHSTECH",
       "name": "恒生科技指数",
-      "price": 4759.98,
-      "change_pct": 1.26,
+      "price": 4758.15,
+      "change_pct": 1.23,
       "source": "腾讯行情"
     }
   ],
