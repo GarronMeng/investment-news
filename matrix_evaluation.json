@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-08-21T09:09:11+08:00",
-  "history_generated_at": "2026-08-21T09:08:57+08:00",
-  "records": 72,
-  "raw_ledger_records": 81,
+  "generated_at": "2026-08-21T09:57:26+08:00",
+  "history_generated_at": "2026-08-21T09:57:08+08:00",
+  "records": 74,
+  "raw_ledger_records": 83,
   "superseded_records": 9,
   "evaluations": [
     {
@@ -2170,7 +2170,14 @@
       "entry_close": 0.915,
       "horizons": {
         "t1": {
-          "status": "pending"
+          "status": "settled",
+          "date": "2026-08-21",
+          "asset_return": -0.028415,
+          "benchmark_return": null,
+          "excess_return": null,
+          "absolute_excess": null,
+          "directional_excess": -0.028415,
+          "correct": false
         },
         "t5": {
           "status": "pending"
@@ -2196,7 +2203,14 @@
       "entry_close": 9.234,
       "horizons": {
         "t1": {
-          "status": "pending"
+          "status": "settled",
+          "date": "2026-08-21",
+          "asset_return": 0.008447,
+          "benchmark_return": null,
+          "excess_return": null,
+          "absolute_excess": null,
+          "directional_excess": 0.008447,
+          "correct": true
         },
         "t5": {
           "status": "pending"
@@ -2283,17 +2297,69 @@
           "status": "pending"
         }
       }
+    },
+    {
+      "state_id": "6dac186123c88d55",
+      "state_revision": 2,
+      "asset": "517380",
+      "name": "创新药沪港深ETF天弘",
+      "signal_date": "2026-08-21",
+      "matrix_direction": "bullish",
+      "thesis_state": "confirmed",
+      "evidence_state": "multi_layer_confirmed",
+      "composite_score": 78.1,
+      "confluence": 93.4,
+      "conflict_score": 0.0,
+      "entry_date": "2026-08-21",
+      "entry_close": 0.889,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "state_id": "214eebd65420d304",
+      "state_revision": 2,
+      "asset": "518880",
+      "name": "黄金ETF华安",
+      "signal_date": "2026-08-21",
+      "matrix_direction": "bullish",
+      "thesis_state": "confirmed",
+      "evidence_state": "multi_layer_confirmed",
+      "composite_score": 49.9,
+      "confluence": 85.0,
+      "conflict_score": 0.0,
+      "entry_date": "2026-08-21",
+      "entry_close": 9.312,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
     }
   ],
   "by_thesis_state": {
     "confirmed": {
-      "records": 18,
+      "records": 20,
       "horizons": {
         "t1": {
-          "settled": 15,
-          "directional_settled": 15,
-          "win_rate": 0.6,
-          "mean_directional_excess": 0.013278,
+          "settled": 17,
+          "directional_settled": 17,
+          "win_rate": 0.5882,
+          "mean_directional_excess": 0.010542,
           "mean_excess_return": -0.009228,
           "mean_absolute_excess": 0.029452,
           "readout": "usable"
@@ -2545,13 +2611,13 @@
       }
     },
     "multi_layer_confirmed": {
-      "records": 22,
+      "records": 24,
       "horizons": {
         "t1": {
-          "settled": 19,
-          "directional_settled": 19,
-          "win_rate": 0.6842,
-          "mean_directional_excess": 0.020258,
+          "settled": 21,
+          "directional_settled": 21,
+          "win_rate": 0.6667,
+          "mean_directional_excess": 0.017378,
           "mean_excess_return": -0.01706,
           "mean_absolute_excess": 0.033027,
           "readout": "usable"

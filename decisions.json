@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generated_at": "2026-08-21T09:09:11+08:00",
+  "generated_at": "2026-08-21T09:57:26+08:00",
   "source": {
     "data_generated_at": "2026-08-21 07:51",
-    "ai_generated_at": "2026-08-21 09:07",
+    "ai_generated_at": "2026-08-21 09:25",
     "ai_source_generated_at": "2026-08-21 07:51",
-    "features_generated_at": "2026-08-21T09:08:57+08:00",
+    "features_generated_at": "2026-08-21T09:57:08+08:00",
     "fresh_ai": true
   },
   "decisions": [
@@ -180,7 +180,7 @@
     {
       "asset": "518880",
       "name": "黄金ETF华安",
-      "as_of": "2026-08-20",
+      "as_of": "2026-08-21",
       "bias": "bullish",
       "status": "watch",
       "event_score": 50.0,
@@ -190,7 +190,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.106731",
+      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.138547",
       "confirmation": [
         "外盘金银守住上涨区间，黄金ETF华安与基金净值同步确认",
         "国投白银LOF的净值、场内价格与溢价率同时更新，且溢价未继续扩大"
@@ -204,17 +204,17 @@
     {
       "asset": "517380",
       "name": "创新药沪港深ETF天弘",
-      "as_of": "2026-08-20",
+      "as_of": "2026-08-21",
       "bias": "bullish",
       "status": "market_watch",
       "event_score": 50.0,
-      "market_score": 90.0,
+      "market_score": 85.0,
       "freshness_score": 100,
       "conviction": 55,
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.164638",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.161921",
       "confirmation": [
         "A股与港股创新药板块形成联动",
         "利好由成交量与持续性确认"
