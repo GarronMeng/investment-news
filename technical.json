@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-08-21T13:53:56+08:00",
-  "source_generated_at": "2026-08-21T13:53:56+08:00",
+  "generated_at": "2026-08-21T15:12:30+08:00",
+  "source_generated_at": "2026-08-21T15:12:30+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -304,29 +304,7 @@
       "condition_state": "all_conditions"
     }
   },
-  "state_changes": [
-    {
-      "code": "300308",
-      "name": "中际旭创",
-      "field": "rsi_zone",
-      "from": "neutral",
-      "to": "weak"
-    },
-    {
-      "code": "000636",
-      "name": "风华高科",
-      "field": "rsi_zone",
-      "from": "neutral",
-      "to": "weak"
-    },
-    {
-      "code": "000636",
-      "name": "风华高科",
-      "field": "volume",
-      "from": "contraction",
-      "to": "normal"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "rsi14": "Wilder RSI(14)",
     "macd": "EMA12/EMA26 DIF, EMA9 signal, histogram=(DIF-DEA)*2",
