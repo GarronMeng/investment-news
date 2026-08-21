@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-08-21T10:56:42+08:00",
-  "history_generated_at": "2026-08-21T10:56:31+08:00",
-  "records": 79,
-  "raw_ledger_records": 88,
+  "generated_at": "2026-08-21T12:08:58+08:00",
+  "history_generated_at": "2026-08-21T12:08:46+08:00",
+  "records": 80,
+  "raw_ledger_records": 89,
   "superseded_records": 9,
   "evaluations": [
     {
@@ -2118,14 +2118,7 @@
       "entry_close": 1.904,
       "horizons": {
         "t1": {
-          "status": "settled",
-          "date": "2026-08-21",
-          "asset_return": 0.036239,
-          "benchmark_return": null,
-          "excess_return": null,
-          "absolute_excess": null,
-          "directional_excess": null,
-          "correct": null
+          "status": "pending"
         },
         "t5": {
           "status": "pending"
@@ -2151,14 +2144,7 @@
       "entry_close": 1.904,
       "horizons": {
         "t1": {
-          "status": "settled",
-          "date": "2026-08-21",
-          "asset_return": 0.036239,
-          "benchmark_return": null,
-          "excess_return": null,
-          "absolute_excess": null,
-          "directional_excess": null,
-          "correct": null
+          "status": "pending"
         },
         "t5": {
           "status": "pending"
@@ -2236,14 +2222,33 @@
       "entry_close": 0.915,
       "horizons": {
         "t1": {
-          "status": "settled",
-          "date": "2026-08-21",
-          "asset_return": -0.017486,
-          "benchmark_return": null,
-          "excess_return": null,
-          "absolute_excess": null,
-          "directional_excess": -0.017486,
-          "correct": false
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "state_id": "99ba4bb1c09f41d1",
+      "state_revision": 2,
+      "asset": "517380",
+      "name": "创新药沪港深ETF天弘",
+      "signal_date": "2026-08-20",
+      "matrix_direction": "bullish",
+      "thesis_state": "conflicted",
+      "evidence_state": "conflict",
+      "composite_score": 41.3,
+      "confluence": 59.1,
+      "conflict_score": 37.9,
+      "entry_date": "2026-08-20",
+      "entry_close": 0.915,
+      "horizons": {
+        "t1": {
+          "status": "pending"
         },
         "t5": {
           "status": "pending"
@@ -2269,14 +2274,7 @@
       "entry_close": 9.234,
       "horizons": {
         "t1": {
-          "status": "settled",
-          "date": "2026-08-21",
-          "asset_return": 0.010288,
-          "benchmark_return": null,
-          "excess_return": null,
-          "absolute_excess": null,
-          "directional_excess": 0.010288,
-          "correct": true
+          "status": "pending"
         },
         "t5": {
           "status": "pending"
@@ -2392,118 +2390,30 @@
     },
     {
       "state_id": "d9aa084f62d3a005",
-      "state_revision": 2,
-      "asset": "161226",
-      "name": "国投白银LOF",
-      "signal_date": "2026-08-21",
-      "matrix_direction": "neutral",
-      "thesis_state": "conflicted",
-      "evidence_state": "conflict",
-      "composite_score": 11.1,
-      "confluence": 16.7,
-      "conflict_score": 63.3,
-      "entry_date": "2026-08-21",
-      "entry_close": 1.973,
-      "horizons": {
-        "t1": {
-          "status": "pending"
-        },
-        "t5": {
-          "status": "pending"
-        },
-        "t20": {
-          "status": "pending"
-        }
-      }
+      "status": "unavailable"
     },
     {
       "state_id": "6dac186123c88d55",
-      "state_revision": 2,
-      "asset": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "signal_date": "2026-08-21",
-      "matrix_direction": "bullish",
-      "thesis_state": "confirmed",
-      "evidence_state": "multi_layer_confirmed",
-      "composite_score": 78.1,
-      "confluence": 93.4,
-      "conflict_score": 0.0,
-      "entry_date": "2026-08-21",
-      "entry_close": 0.899,
-      "horizons": {
-        "t1": {
-          "status": "pending"
-        },
-        "t5": {
-          "status": "pending"
-        },
-        "t20": {
-          "status": "pending"
-        }
-      }
+      "status": "unavailable"
     },
     {
       "state_id": "1b2a51f4247fbadf",
-      "state_revision": 2,
-      "asset": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "signal_date": "2026-08-21",
-      "matrix_direction": "bullish",
-      "thesis_state": "supported",
-      "evidence_state": "partial_confirmation",
-      "composite_score": 51.9,
-      "confluence": 69.4,
-      "conflict_score": 29.5,
-      "entry_date": "2026-08-21",
-      "entry_close": 0.899,
-      "horizons": {
-        "t1": {
-          "status": "pending"
-        },
-        "t5": {
-          "status": "pending"
-        },
-        "t20": {
-          "status": "pending"
-        }
-      }
+      "status": "unavailable"
     },
     {
       "state_id": "214eebd65420d304",
-      "state_revision": 2,
-      "asset": "518880",
-      "name": "黄金ETF华安",
-      "signal_date": "2026-08-21",
-      "matrix_direction": "bullish",
-      "thesis_state": "confirmed",
-      "evidence_state": "multi_layer_confirmed",
-      "composite_score": 49.9,
-      "confluence": 85.0,
-      "conflict_score": 0.0,
-      "entry_date": "2026-08-21",
-      "entry_close": 9.329,
-      "horizons": {
-        "t1": {
-          "status": "pending"
-        },
-        "t5": {
-          "status": "pending"
-        },
-        "t20": {
-          "status": "pending"
-        }
-      }
+      "status": "unavailable"
     }
   ],
   "by_thesis_state": {
     "confirmed": {
-      "records": 20,
+      "records": 18,
       "horizons": {
         "t1": {
-          "settled": 17,
-          "directional_settled": 17,
-          "win_rate": 0.5882,
-          "mean_directional_excess": 0.011293,
+          "settled": 15,
+          "directional_settled": 15,
+          "win_rate": 0.6,
+          "mean_directional_excess": 0.013278,
           "mean_excess_return": -0.009228,
           "mean_absolute_excess": 0.029452,
           "readout": "usable"
@@ -2532,7 +2442,7 @@
       "records": 19,
       "horizons": {
         "t1": {
-          "settled": 13,
+          "settled": 12,
           "directional_settled": 2,
           "win_rate": 0.0,
           "mean_directional_excess": -0.063054,
@@ -2628,7 +2538,7 @@
       "records": 8,
       "horizons": {
         "t1": {
-          "settled": 6,
+          "settled": 5,
           "directional_settled": 0,
           "win_rate": null,
           "mean_directional_excess": null,
@@ -2657,7 +2567,7 @@
       }
     },
     "supported": {
-      "records": 14,
+      "records": 13,
       "horizons": {
         "t1": {
           "settled": 11,
@@ -2726,7 +2636,7 @@
       "records": 19,
       "horizons": {
         "t1": {
-          "settled": 13,
+          "settled": 12,
           "directional_settled": 2,
           "win_rate": 0.0,
           "mean_directional_excess": -0.063054,
@@ -2755,13 +2665,13 @@
       }
     },
     "multi_layer_confirmed": {
-      "records": 24,
+      "records": 22,
       "horizons": {
         "t1": {
-          "settled": 21,
-          "directional_settled": 21,
-          "win_rate": 0.6667,
-          "mean_directional_excess": 0.017986,
+          "settled": 19,
+          "directional_settled": 19,
+          "win_rate": 0.6842,
+          "mean_directional_excess": 0.020258,
           "mean_excess_return": -0.01706,
           "mean_absolute_excess": 0.033027,
           "readout": "usable"
@@ -2790,7 +2700,7 @@
       "records": 15,
       "horizons": {
         "t1": {
-          "settled": 10,
+          "settled": 9,
           "directional_settled": 0,
           "win_rate": null,
           "mean_directional_excess": null,
@@ -2819,7 +2729,7 @@
       }
     },
     "partial_confirmation": {
-      "records": 21,
+      "records": 20,
       "horizons": {
         "t1": {
           "settled": 18,
