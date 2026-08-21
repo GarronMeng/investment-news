@@ -1,6 +1,6 @@
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-21 09:25",
-  "source_generated_at": "2026-08-21 07:51",
+  "generated_at": "2026-08-21 10:43",
+  "source_generated_at": "2026-08-21 09:59",
   "generated_by": "ChatGPT Web",
   "status": "ready",
   "news_titles": {
@@ -102,7 +102,32 @@ window.AI_SIGNALS = {
     "https://www.newscientist.com/article/2585662-two-emerging-tick-viruses-that-can-be-deadly-are-spreading-in-the-us": "两种可能致命的新兴蜱传病毒正在美国传播",
     "https://wallstreetcn.com/articles/3779853": "贝森特干预影响消退，美债美股齐跌，沃尔玛暴跌9%，黄金突破200日均线，数字货币再猛涨",
     "https://wallstreetcn.com/articles/3779945": "博通寻求逾600亿美元债务融资，为Anthropic等AI企业提供芯片基础设施",
-    "http://finance.eastmoney.com/news/1351,202608213848244783.html": "美债、伊朗两头忙！美国财长贝森特放话：回购还能加码，制裁下周披露"
+    "http://finance.eastmoney.com/news/1351,202608213848244783.html": "美债、伊朗两头忙！美国财长贝森特放话：回购还能加码，制裁下周披露",
+    "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom": "AI训练热潮推动数据初创公司Micro1年化总收入达5亿美元",
+    "https://www.marktechpost.com/2026/08/20/meet-s1-mini-superwhispers-462-mb-open-weights-text-normalizer-that-turns-raw-asr-transcripts-into-clean-written-text": "S1-mini：Superwhisper推出462MB开放权重文本规范化模型，将原始语音识别稿转为整洁文本",
+    "https://www.marktechpost.com/2026/08/20/meet-updf-a-lightweight-adobe-alternative-built-for-the-agentic-era": "UPDF：面向智能体时代的轻量级Adobe替代方案",
+    "https://www.electronicsweekly.com/blogs/mannerisms/dilemmas/no-ones-no-1-problem-2026-08": "没有人愿意把它列为头号问题",
+    "https://techcrunch.com/2026/08/20/tesla-uber-and-waymo-all-get-the-ok-to-operate-thousands-of-robotaxis-in-nevada": "特斯拉、Uber和Waymo获准在内华达州运营数千辆自动驾驶出租车",
+    "https://cleantechnica.com/2026/08/20/waymo-a-look-under-our-trunk-whats-in-our-compute": "Waymo揭示车辆计算系统：后备厢下装了什么",
+    "https://cleantechnica.com/2026/08/20/sunrun-shifts-away-from-affiliates-to-direct-sales": "Sunrun从联盟渠道转向直接销售",
+    "https://cleantechnica.com/2026/08/20/tva-approves-gas-powered-data-center-plan": "田纳西河谷管理局批准燃气供电数据中心计划",
+    "https://oilprice.com/Energy/Energy-General/Brazils-New-Oil-Frontier-Could-Keep-Its-Boom-Alive-For-Decades.html": "巴西新石油前沿或让其繁荣延续数十年",
+    "https://www.ithome.com/0/992/459.htm": "小鹏MONA系列上市两年累计交付31万台，罗兰紫与牛油果绿主题套装限时5499元",
+    "https://www.ithome.com/0/992/458.htm": "小鹏G9L发布全新黑金套件：双24K金标，限时1万元",
+    "https://www.ithome.com/0/992/457.htm": "小鹏GX上市两个月交付超1.5万台，在阿联酋等地区获超2000台订单",
+    "https://www.ithome.com/0/992/456.htm": "鸿蒙智行问界儿童车开启预售：350W电机、20公里续航、前后双1080P摄像头，到手价1.48万元",
+    "https://www.ithome.com/0/992/453.htm": "微软加强Windows 11安全，9月累积更新将彻底移除WMIC",
+    "https://www.gsmarena.com/redmi_watch_6_active_is_now_official_with_a_big_battery_and_140_sports_modes-news-74272.php": "Redmi Watch 6 Active正式发布，配备大容量电池并支持140种运动模式",
+    "https://9to5mac.com/2026/08/20/the-dynasty-uconn-huskies-now-available-to-stream-on-apple-tv": "《王朝：康涅狄格大学哈士奇队》现已上线Apple TV",
+    "https://www.gsmarena.com/samsung_galaxy_tab_s12_and_s12_ultra_prices_leak-news-74268.php": "三星Galaxy Tab S12+与S12 Ultra价格曝光",
+    "https://sspai.com/post/113666": "派早报：华为发布Pura X View、享界G9等多款新品",
+    "https://www.cnbc.com/2026/08/21/chinese-humanoid-robots-face-challenge-of-their-own-capabilities.html": "中国人形机器人最大障碍：人类在多数任务上仍更胜一筹",
+    "https://wallstreetcn.com/articles/3779960": "美光CEO：AI彻底改写存储芯片周期，客户需求超出公司供给约50%",
+    "https://wallstreetcn.com/articles/3779953": "“7级地震后一定还有余震”？7月AI巨亏后，对冲基金周三再遭重创",
+    "https://www.cnbc.com/2026/08/21/japan-inflation-iran-war-energy.html": "能源价格冲击推动日本整体通胀率升至年内最高",
+    "https://seekingalpha.com/news/4635735-osi-systems-forecasts-1_875b-1_93b-fiscal-2027-revenue-as-middle-east-deliveries-shift-into": "OSI Systems预计2027财年营收18.75亿至19.3亿美元，中东交付转至下半年",
+    "https://wallstreetcn.com/articles/3779954": "能源分析师Jeff Currie警示：大宗商品正在释放新信号",
+    "http://finance.eastmoney.com/news/1354,202608213848250290.html": "SpaceX继续瞄准AI编程赛道，据称曾洽谈收购另一家初创公司"
   },
   "overseas_markets": [
     {
@@ -229,7 +254,7 @@ window.AI_SIGNALS = {
       "strength": 4,
       "horizon": "1-5d",
       "priced_in": "unknown",
-      "reason": "隔夜美国10年期收益率回升至约4.70%，布伦特原油上涨，标普500与纳指分别下跌0.87%和1.00%；同期仓库跨资产数据记录黄金期货上涨2.02%、白银上涨3.88%。贵金属价格动量仍强，但实际利率和通胀预期方向不再同步利好，国内ETF与LOF开盘反馈待验证。",
+      "reason": "隔夜美国10年期收益率回升至约4.70%，标普500与纳指回落，但仓库跨资产数据记录黄金、白银继续上涨；新增的大宗商品评论进一步强调实物供应瓶颈、货币贬值与政策干预共振。贵金属价格动量仍强，但长端利率与通胀预期并非单向利好，国内ETF与LOF需由量价、净值及溢价继续验证。",
       "assets": [
         "518880",
         "161226"
@@ -244,7 +269,8 @@ window.AI_SIGNALS = {
       ],
       "urls": [
         "https://www.reuters.com/business/us-stock-futures-muted-bond-yields-resume-uptrend-ahead-walmarts-earnings-2026-08-20/",
-        "https://www.wsj.com/finance/commodities-futures/gold-drops-focus-on-fed-july-minutes-db5bfcf6"
+        "https://www.wsj.com/finance/commodities-futures/gold-drops-focus-on-fed-july-minutes-db5bfcf6",
+        "https://wallstreetcn.com/articles/3779954"
       ]
     }
   ]
