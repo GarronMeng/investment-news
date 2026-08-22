@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-22T09:05:31+08:00",
+  "generated_at": "2026-08-22T09:08:52+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -853,7 +853,7 @@
       "code": "603986",
       "name": "兆易创新",
       "field": "thesis_state",
-      "from": "supported",
+      "from": "emerging",
       "to": "no_directional_thesis"
     },
     {
@@ -885,20 +885,6 @@
       "to": "under_test"
     },
     {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "evidence_state",
-      "from": "conflict",
-      "to": "noise_or_no_edge"
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "thesis_state",
-      "from": "conflicted",
-      "to": "under_test"
-    },
-    {
       "code": "000636",
       "name": "风华高科",
       "field": "evidence_state",
@@ -915,44 +901,9 @@
     {
       "code": "161226",
       "name": "国投白银LOF",
-      "field": "matrix_direction",
-      "from": "neutral",
-      "to": "bullish"
-    },
-    {
-      "code": "161226",
-      "name": "国投白银LOF",
-      "field": "evidence_state",
-      "from": "insufficient",
-      "to": "conflict"
-    },
-    {
-      "code": "161226",
-      "name": "国投白银LOF",
       "field": "thesis_state",
-      "from": "under_test",
+      "from": "conflicted",
       "to": "supported"
-    },
-    {
-      "code": "518880",
-      "name": "黄金ETF华安",
-      "field": "evidence_state",
-      "from": "insufficient",
-      "to": "multi_layer_confirmed"
-    },
-    {
-      "code": "518880",
-      "name": "黄金ETF华安",
-      "field": "thesis_state",
-      "from": "supported",
-      "to": "confirmed"
-    },
-    {
-      "code": "161226",
-      "name": "国投白银LOF",
-      "field": "thesis_state",
-      "from": "under_test",
-      "to": "conflicted"
     }
   ],
   "methodology": {
