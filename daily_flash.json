@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-08-22T07:54:32+08:00",
+  "generated_at": "2026-08-22T09:08:50+08:00",
   "timezone": "Asia/Shanghai",
   "title": "Daily Flash · 每日投资驾驶舱",
-  "core_conclusion": "A股状态为 Narrow Risk-on，上涨家数占比 45.1%，风险温度 67/100（elevated）。沪深300 PE-TTM 14.35；10年分位 73.4%；强势：贵金属、能源金属、工业金属；弱势：种植业与林业、医疗服务、化学制药。研究复核优先关注 德明利、中际旭创、东山精密；该排序代表证据变化与复核优先级，不代表交易优先级。资金/期指：融资余额26328亿元，5日+1.88%；南向成交净买额-76.3亿元；中证500股指期货基差-1.18%。 下一催化：08-26 NVIDIA 财报发行；08-27 Marvell 财报发行。主线财报已确认披露 9/21 个研究样本。",
+  "core_conclusion": "A股状态为 Narrow Risk-on，上涨家数占比 45.1%，风险温度 67/100（elevated）。沪深300 PE-TTM 14.35；10年分位 73.4%；强势：贵金属、能源金属、工业金属；弱势：种植业与林业、医疗服务、化学制药。研究复核优先关注 国投白银LOF、德明利、中际旭创；该排序代表证据变化与复核优先级，不代表交易优先级。资金/期指：融资余额26328亿元，5日+1.88%；南向成交净买额-76.3亿元；中证500股指期货基差-1.18%。 下一催化：08-26 NVIDIA 财报发行；08-27 Marvell 财报发行。主线财报已确认披露 7/21 个研究样本。",
   "market": {
     "regime": {
       "label": "Narrow Risk-on",
@@ -361,14 +361,13 @@
       "symbol": "^GSPC",
       "group": "美股",
       "unit": "index",
-      "value": 7641.1602,
-      "raw_value": 7641.1602,
-      "previous_close": 7707.98,
-      "change_pct": -0.87,
-      "as_of": "2026-08-20T21:30:00+08:00",
-      "status": "stale",
-      "source": "Yahoo Finance",
-      "error": "HTTP Error 429: Too Many Requests"
+      "value": 7674.3701,
+      "raw_value": 7674.3701,
+      "previous_close": 7641.1602,
+      "change_pct": 0.43,
+      "as_of": "2026-08-21T21:30:00+08:00",
+      "status": "fresh",
+      "source": "Yahoo Finance"
     },
     {
       "key": "nasdaq",
@@ -404,11 +403,11 @@
       "symbol": "^HSI",
       "group": "港股",
       "unit": "index",
-      "value": 25698.4902,
-      "raw_value": 25698.4902,
-      "previous_close": 25495.0703,
-      "change_pct": 0.8,
-      "as_of": "2026-08-20T09:30:00+08:00",
+      "value": 26009.4609,
+      "raw_value": 26009.4609,
+      "previous_close": 25698.4902,
+      "change_pct": 1.21,
+      "as_of": "2026-08-21T09:30:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -418,11 +417,11 @@
       "symbol": "^N225",
       "group": "亚洲",
       "unit": "index",
-      "value": 66216.7891,
-      "raw_value": 66216.7891,
-      "previous_close": 65326.4219,
-      "change_pct": 1.36,
-      "as_of": "2026-08-20T08:00:00+08:00",
+      "value": 66016.3594,
+      "raw_value": 66016.3594,
+      "previous_close": 66216.7891,
+      "change_pct": -0.3,
+      "as_of": "2026-08-21T08:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -432,11 +431,11 @@
       "symbol": "^KS11",
       "group": "亚洲",
       "unit": "index",
-      "value": 6852.5801,
-      "raw_value": 6852.5801,
-      "previous_close": 6471.1699,
-      "change_pct": 5.89,
-      "as_of": "2026-08-20T08:00:00+08:00",
+      "value": 6912.9502,
+      "raw_value": 6912.9502,
+      "previous_close": 6852.5801,
+      "change_pct": 0.88,
+      "as_of": "2026-08-21T08:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -555,60 +554,59 @@
   ],
   "key_events": [
     {
-      "date": "2026-08-21",
-      "title": "SK海力士考虑在日本宫城建设大型存储芯片工厂，但公司强调投资尚未最终决定",
-      "impact": "潜在日本存储产能投资为存储设备、工程与产业链需求提供中期增量想象，但项目地点、规模和最终投资均未确定；若扩产兑现，也可能在更长周期增加供给压力，因此现阶段只能视为待验证的资本开支线索。",
-      "direction": "mixed",
-      "strength": 3,
+      "date": "2026-08-22",
+      "title": "中际旭创半年报确认800G与1.6T光模块放量，营收和利润高速增长，但经营现金流同比下降",
+      "impact": "2026年上半年营收417.78亿元、同比增长182.49%，归母净利润136.51亿元、同比增长241.7%；800G和1.6T出货增长确认AI算力需求传导。经营活动现金流约18亿元、同比下降44.08%，扩张质量仍需结合应收、库存及后续回款核验。",
+      "direction": "positive",
+      "strength": 5,
       "assets": [
-        "603986",
-        "600667"
+        "300308"
       ],
       "source_url": null
     },
     {
-      "date": "2026-08-21",
-      "title": "Moderna个性化mRNA肿瘤疫苗三期试验取得关键成功，为肿瘤mRNA技术提供首次重要概念验证",
-      "impact": "三期临床成功提高mRNA技术在肿瘤治疗中的可行性，但黑色素瘤以外适应症、抗原筛选、LNP递送和个性化生产仍需验证；对中国创新药只能映射为平台与赛道层面的正向证据，不能外推为全部成分股受益。",
+      "date": "2026-08-22",
+      "title": "东山精密半年报确认光模块并表与新客户导入推动营收利润高增长",
+      "impact": "2026年上半年营收277.98亿元、同比增长63.95%，归母净利润29.57亿元、同比增长290.09%，光模块新客户和新产品导入为主要增量；但经营现金流同比下降4.65%、财务费用增幅较高，且并表贡献与内生增长需要分开评估。",
       "direction": "positive",
       "strength": 4,
       "assets": [
-        "517380"
-      ],
-      "source_url": null
-    },
-    {
-      "date": "2026-08-21",
-      "title": "长电科技半年报确认封测利润增速显著高于营收，半导体工程/封测样本新增正向证据",
-      "impact": "长电科技2026年上半年营业收入195.27亿元、同比增长4.96%，归母净利润8.45亿元、同比增长79.41%，毛利率15.15%。这为AI相关封测与产品结构改善提供公司级样本，但当前主题仅披露1/3，不能外推为全行业景气；太极实业自身业绩尚待8月27日披露。",
-      "direction": "positive",
-      "strength": 4,
-      "assets": [
-        "600667"
-      ],
-      "source_url": null
-    },
-    {
-      "date": "2026-08-21",
-      "title": "Broadcom寻求逾600亿美元AI融资，算力建设需求与高利率融资约束同时上升",
-      "impact": "Broadcom据报道正与贷款方讨论逾600亿美元债务融资，用于支持包括Anthropic在内的AI芯片与算力项目，潜在总融资规模可达约1000亿美元。项目若落地将强化数据中心、高速光模块与服务器PCB需求，但交易尚未最终确定，且长端收益率回升提高融资成本。",
-      "direction": "mixed",
-      "strength": 4,
-      "assets": [
-        "300308",
         "002384"
       ],
       "source_url": null
     },
     {
-      "date": "2026-08-21",
-      "title": "美债收益率与原油反弹压制美股，但黄金白银仍上涨，贵金属驱动转为冲突",
-      "impact": "隔夜美国10年期收益率回升至约4.70%，标普500与纳指回落，但仓库跨资产数据记录黄金、白银继续上涨；新增的大宗商品评论进一步强调实物供应瓶颈、货币贬值与政策干预共振。贵金属价格动量仍强，但长端利率与通胀预期并非单向利好，国内ETF与LOF需由量价、净值及溢价继续验证。",
+      "date": "2026-08-22",
+      "title": "长江存储母公司拟募资330亿元登陆科创板，AI需求与NAND供给扩张同时得到新证据",
+      "impact": "上交所已受理其科创板申请，拟募资330亿元，其中208亿元用于产线升级、122亿元用于下一代NAND研发；一季度收入同比接近五倍、平均售价较2025年均值高173%。这确认AI数据中心对NAND的需求与价格景气，也意味着中期供给、研发和资本竞争增强。",
       "direction": "mixed",
+      "strength": 5,
+      "assets": [
+        "603986",
+        "001309"
+      ],
+      "source_url": null
+    },
+    {
+      "date": "2026-08-22",
+      "title": "周五A股与外盘共同确认贵金属强势，但高收益率与白银LOF溢价风险仍独立存在",
+      "impact": "周五A股贵金属行业上涨5.34%、主力净流入约50.21亿元；仓库跨资产快照显示黄金期货涨3.22%、白银涨1.45%。美元偏弱和财政担忧提供支持，但美国10年期收益率仍约4.73%；国投白银LOF还需单独核验净值、场内价格、溢价与交易限制。",
+      "direction": "positive",
       "strength": 4,
       "assets": [
         "518880",
         "161226"
+      ],
+      "source_url": null
+    },
+    {
+      "date": "2026-08-22",
+      "title": "Moderna三期利好未转化为周五A股创新药扩散，行业资金与价格出现负向验证",
+      "impact": "Moderna个性化mRNA肿瘤疫苗三期成功仍是平台层正向证据，但周五A股生物制品下跌3.50%、净流出约15.14亿元，化学制药下跌3.66%、净流出约54.18亿元。单一海外临床事件尚未形成国内行业扩散，且主线财报样本仅1/3。",
+      "direction": "mixed",
+      "strength": 4,
+      "assets": [
+        "517380"
       ],
       "source_url": null
     }
@@ -685,7 +683,7 @@
     },
     {
       "name": "美股隔夜",
-      "score": -6.3,
+      "score": 2.3,
       "label": "中性",
       "weight": 4,
       "evidence": "标普/纳指/费半平均涨跌"
@@ -732,8 +730,8 @@
         "德明利"
       ],
       "direction": "mixed",
-      "score": -15.3,
-      "event_score": null,
+      "score": -10.8,
+      "event_score": 0.0,
       "technical_score": -34.0,
       "industry_score": 27.6
     },
@@ -747,8 +745,8 @@
         "中际旭创"
       ],
       "direction": "neutral",
-      "score": -10.1,
-      "event_score": null,
+      "score": 17.4,
+      "event_score": 100.0,
       "technical_score": -20.0,
       "industry_score": 37.1
     },
@@ -762,8 +760,8 @@
         "东山精密"
       ],
       "direction": "neutral",
-      "score": -0.5,
-      "event_score": null,
+      "score": 19.6,
+      "event_score": 80.0,
       "technical_score": -20.0,
       "industry_score": 33.5
     },
@@ -807,14 +805,14 @@
         "创新药沪港深ETF天弘"
       ],
       "direction": "bullish",
-      "score": 41.9,
-      "event_score": null,
+      "score": 31.4,
+      "event_score": 0.0,
       "technical_score": 82.0,
       "industry_score": -54.4
     },
     {
       "theme": "黄金",
-      "status": "方向获支持",
+      "status": "多层确认",
       "assets": [
         "518880"
       ],
@@ -822,8 +820,8 @@
         "黄金ETF华安"
       ],
       "direction": "bullish",
-      "score": 69.2,
-      "event_score": null,
+      "score": 72.8,
+      "event_score": 80.0,
       "technical_score": 64.0,
       "industry_score": null
     },
@@ -836,27 +834,38 @@
       "names": [
         "国投白银LOF"
       ],
-      "direction": "neutral",
-      "score": 14.7,
-      "event_score": null,
+      "direction": "bullish",
+      "score": 36.5,
+      "event_score": 80.0,
       "technical_score": -24.0,
       "industry_score": null
     }
   ],
   "outlook": {
-    "base": "当前基准情景：regime=narrow_risk_on，风险温度=67.1；Matrix中 confirmed=1、supported=3。",
+    "base": "当前基准情景：regime=narrow_risk_on，风险温度=67.1；Matrix中 confirmed=2、supported=1。",
     "bullish": "若上涨占比重新站上50%、Market Regime转向risk_on/narrow_risk_on，且强势主题的行业与技术层同步扩散，则风险偏好修复更可信。",
     "bearish": "若市场广度继续恶化、风险温度抬升，同时当前获支持主题转为conflict/contradicted，则应把环境定义为进一步收缩而非普通波动。"
   },
   "matrix_focus": [
     {
+      "code": "161226",
+      "name": "国投白银LOF",
+      "thesis_state": "conflicted",
+      "direction": "bullish",
+      "attention_score": 93.3,
+      "composite_score": 36.5,
+      "confluence": 52.9,
+      "conflict_score": 34.5,
+      "focus": "正负证据正在相互抵消，优先识别哪一层先失效或被确认。"
+    },
+    {
       "code": "001309",
       "name": "德明利",
       "thesis_state": "conflicted",
       "direction": "neutral",
-      "attention_score": 92.9,
-      "composite_score": 2.7,
-      "confluence": 4.1,
+      "attention_score": 92.8,
+      "composite_score": 2.0,
+      "confluence": 3.1,
       "conflict_score": 92.1,
       "focus": "正负证据正在相互抵消，优先识别哪一层先失效或被确认。"
     },
@@ -865,21 +874,10 @@
       "name": "中际旭创",
       "thesis_state": "conflicted",
       "direction": "neutral",
-      "attention_score": 89.9,
-      "composite_score": -10.1,
-      "confluence": 15.1,
-      "conflict_score": 58.6,
-      "focus": "正负证据正在相互抵消，优先识别哪一层先失效或被确认。"
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "thesis_state": "conflicted",
-      "direction": "neutral",
-      "attention_score": 88.6,
-      "composite_score": -0.5,
-      "confluence": 0.8,
-      "conflict_score": 91.2,
+      "attention_score": 90.8,
+      "composite_score": 17.4,
+      "confluence": 26.1,
+      "conflict_score": 61.0,
       "focus": "正负证据正在相互抵消，优先识别哪一层先失效或被确认。"
     },
     {
@@ -894,40 +892,40 @@
       "focus": "正负证据正在相互抵消，优先识别哪一层先失效或被确认。"
     },
     {
-      "code": "161226",
-      "name": "国投白银LOF",
+      "code": "002384",
+      "name": "东山精密",
       "thesis_state": "under_test",
       "direction": "neutral",
-      "attention_score": 75.5,
-      "composite_score": 14.7,
-      "confluence": 22.0,
-      "conflict_score": 66.2,
+      "attention_score": 72.0,
+      "composite_score": 19.6,
+      "confluence": 29.4,
+      "conflict_score": 38.7,
       "focus": "原方向尚未被市场充分确认，继续观察验证/失效条件。"
     },
     {
-      "code": "600667",
-      "name": "太极实业",
-      "thesis_state": "confirmed",
-      "direction": "bullish",
-      "attention_score": 69.6,
-      "composite_score": 47.4,
-      "confluence": 84.2,
+      "code": "603986",
+      "name": "兆易创新",
+      "thesis_state": "emerging",
+      "direction": "bearish",
+      "attention_score": 71.1,
+      "composite_score": -23.6,
+      "confluence": 77.1,
       "conflict_score": 0.0,
-      "focus": "验证持续性、行业扩散与后续基本面证据。"
+      "focus": "出现新方向，但先等待事件或行业证据确认。"
     }
   ],
   "sources": {
     "market_state": "2026-08-21T15:57:05+08:00",
-    "risk": "2026-08-22T07:51:03+08:00",
-    "valuation": "2026-08-22T07:50:55+08:00",
-    "decision_matrix": "2026-08-22T07:51:03+08:00",
-    "global_markets": "2026-08-22T07:51:53+08:00",
-    "catalysts": "2026-08-22T07:52:26+08:00",
-    "ai_signals": "2026-08-21 13:23",
+    "risk": "2026-08-22T09:05:31+08:00",
+    "valuation": "2026-08-22T09:05:24+08:00",
+    "decision_matrix": "2026-08-22T09:05:31+08:00",
+    "global_markets": "2026-08-22T09:06:13+08:00",
+    "catalysts": "2026-08-22T09:06:44+08:00",
+    "ai_signals": "2026-08-22 09:16",
     "sentiment": "2026-08-21T09:55:56+08:00",
-    "market_extras": "2026-08-22T07:51:55+08:00",
-    "macro_calendar": "2026-08-22T07:53:24+08:00",
-    "theme_earnings": "2026-08-22T07:54:32+08:00"
+    "market_extras": "2026-08-22T09:06:14+08:00",
+    "macro_calendar": "2026-08-22T09:07:36+08:00",
+    "theme_earnings": "2026-08-22T09:08:50+08:00"
   },
   "boundary": "Daily Flash用于信息压缩、研究排序与条件验证；缺失数据保持缺失，不生成无条件买卖、仓位或止损指令。",
   "integrity": {
@@ -1490,30 +1488,30 @@
       "theme": "AI光通信 / CPO",
       "summary": {
         "total": 3,
-        "reported": 2,
-        "scheduled": 1,
+        "reported": 1,
+        "scheduled": 2,
         "pending": 0,
-        "positive_reports": 2,
+        "positive_reports": 1,
         "weak_reports": 0,
-        "median_revenue_yoy_pct": 98.82,
-        "median_net_profit_yoy_pct": 137.81,
+        "median_revenue_yoy_pct": 15.15,
+        "median_net_profit_yoy_pct": 33.92,
         "breadth": "positive"
       },
       "companies": [
         {
           "code": "300308",
           "name": "中际旭创",
-          "status": "reported",
-          "announcement_date": "2026-08-22",
+          "status": "scheduled",
+          "announcement_date": null,
           "scheduled_date": "2026-08-24",
-          "revenue": 41777861795.03,
-          "revenue_yoy_pct": 182.4913813287,
-          "net_profit": 13651149693.27,
-          "net_profit_yoy_pct": 241.7,
-          "gross_margin_pct": 46.2521843492,
-          "earnings_signal": "strong_growth",
-          "industry": "通信设备",
-          "source": "东方财富 via AKShare + 公告确认",
+          "revenue": null,
+          "revenue_yoy_pct": null,
+          "net_profit": null,
+          "net_profit_yoy_pct": null,
+          "gross_margin_pct": null,
+          "earnings_signal": "not_reported",
+          "industry": null,
+          "source": "东方财富 via AKShare",
           "reason": null
         },
         {
@@ -1554,30 +1552,30 @@
       "theme": "PCB / 消费电子",
       "summary": {
         "total": 4,
-        "reported": 2,
-        "scheduled": 2,
+        "reported": 1,
+        "scheduled": 3,
         "pending": 0,
-        "positive_reports": 2,
+        "positive_reports": 1,
         "weak_reports": 0,
-        "median_revenue_yoy_pct": 57.0,
-        "median_net_profit_yoy_pct": 210.25,
+        "median_revenue_yoy_pct": 50.05,
+        "median_net_profit_yoy_pct": 130.42,
         "breadth": "positive"
       },
       "companies": [
         {
           "code": "002384",
           "name": "东山精密",
-          "status": "reported",
-          "announcement_date": "2026-08-22",
+          "status": "scheduled",
+          "announcement_date": null,
           "scheduled_date": "2026-08-22",
-          "revenue": 27797683972.88,
-          "revenue_yoy_pct": 63.9481879305,
-          "net_profit": 2956898811.04,
-          "net_profit_yoy_pct": 290.09,
-          "gross_margin_pct": 20.1513507952,
-          "earnings_signal": "strong_growth",
-          "industry": "元件",
-          "source": "东方财富 via AKShare + 公告确认",
+          "revenue": null,
+          "revenue_yoy_pct": null,
+          "net_profit": null,
+          "net_profit_yoy_pct": null,
+          "gross_margin_pct": null,
+          "earnings_signal": "not_reported",
+          "industry": null,
+          "source": "东方财富 via AKShare",
           "reason": null
         },
         {
@@ -1826,8 +1824,8 @@
   "theme_earnings_summary": {
     "themes": 6,
     "companies": 21,
-    "reported": 9,
-    "scheduled": 12
+    "reported": 7,
+    "scheduled": 14
   },
   "theme_earnings_period": "2026半年报",
   "quality": {
@@ -1838,7 +1836,7 @@
     },
     "theme_earnings": {
       "status": "fresh",
-      "reported": 9,
+      "reported": 7,
       "companies": 21
     }
   }

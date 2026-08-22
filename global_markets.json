@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generated_at": "2026-08-22T07:51:53+08:00",
+  "generated_at": "2026-08-22T09:06:13+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 14,
-    "fresh": 13,
-    "stale": 1,
+    "fresh": 14,
+    "stale": 0,
     "unavailable": 0
   },
   "assets": [
@@ -15,14 +15,13 @@
       "symbol": "^GSPC",
       "group": "美股",
       "unit": "index",
-      "value": 7641.1602,
-      "raw_value": 7641.1602,
-      "previous_close": 7707.98,
-      "change_pct": -0.87,
-      "as_of": "2026-08-20T21:30:00+08:00",
-      "status": "stale",
-      "source": "Yahoo Finance",
-      "error": "HTTP Error 429: Too Many Requests"
+      "value": 7674.3701,
+      "raw_value": 7674.3701,
+      "previous_close": 7641.1602,
+      "change_pct": 0.43,
+      "as_of": "2026-08-21T21:30:00+08:00",
+      "status": "fresh",
+      "source": "Yahoo Finance"
     },
     {
       "key": "nasdaq",
@@ -58,11 +57,11 @@
       "symbol": "^HSI",
       "group": "港股",
       "unit": "index",
-      "value": 25698.4902,
-      "raw_value": 25698.4902,
-      "previous_close": 25495.0703,
-      "change_pct": 0.8,
-      "as_of": "2026-08-20T09:30:00+08:00",
+      "value": 26009.4609,
+      "raw_value": 26009.4609,
+      "previous_close": 25698.4902,
+      "change_pct": 1.21,
+      "as_of": "2026-08-21T09:30:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -72,11 +71,11 @@
       "symbol": "^N225",
       "group": "亚洲",
       "unit": "index",
-      "value": 66216.7891,
-      "raw_value": 66216.7891,
-      "previous_close": 65326.4219,
-      "change_pct": 1.36,
-      "as_of": "2026-08-20T08:00:00+08:00",
+      "value": 66016.3594,
+      "raw_value": 66016.3594,
+      "previous_close": 66216.7891,
+      "change_pct": -0.3,
+      "as_of": "2026-08-21T08:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -86,11 +85,11 @@
       "symbol": "^KS11",
       "group": "亚洲",
       "unit": "index",
-      "value": 6852.5801,
-      "raw_value": 6852.5801,
-      "previous_close": 6471.1699,
-      "change_pct": 5.89,
-      "as_of": "2026-08-20T08:00:00+08:00",
+      "value": 6912.9502,
+      "raw_value": 6912.9502,
+      "previous_close": 6852.5801,
+      "change_pct": 0.88,
+      "as_of": "2026-08-21T08:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -207,8 +206,6 @@
       "source": "Yahoo Finance"
     }
   ],
-  "warnings": [
-    "sp500: HTTP Error 429: Too Many Requests"
-  ],
+  "warnings": [],
   "methodology": "Yahoo Finance日线跨资产快照；失败保留最近成功值并显式标记stale/unavailable。美债10Y的^TNX展示值按Yahoo指数惯例换算为收益率百分比。"
 }
