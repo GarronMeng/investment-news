@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-22T09:53:51+08:00",
+  "generated_at": "2026-08-22T12:19:33+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -838,13 +838,6 @@
       "to": "tentative"
     },
     {
-      "code": "603986",
-      "name": "兆易创新",
-      "field": "thesis_state",
-      "from": "emerging",
-      "to": "supported"
-    },
-    {
       "code": "001309",
       "name": "德明利",
       "field": "evidence_state",
@@ -868,6 +861,20 @@
     {
       "code": "300308",
       "name": "中际旭创",
+      "field": "thesis_state",
+      "from": "conflicted",
+      "to": "under_test"
+    },
+    {
+      "code": "002384",
+      "name": "东山精密",
+      "field": "evidence_state",
+      "from": "conflict",
+      "to": "noise_or_no_edge"
+    },
+    {
+      "code": "002384",
+      "name": "东山精密",
       "field": "thesis_state",
       "from": "conflicted",
       "to": "under_test"
@@ -889,23 +896,23 @@
     {
       "code": "161226",
       "name": "国投白银LOF",
-      "field": "matrix_direction",
-      "from": "bullish",
-      "to": "neutral"
-    },
-    {
-      "code": "161226",
-      "name": "国投白银LOF",
       "field": "evidence_state",
-      "from": "conflict",
+      "from": "insufficient",
       "to": "noise_or_no_edge"
     },
     {
-      "code": "161226",
-      "name": "国投白银LOF",
+      "code": "518880",
+      "name": "黄金ETF华安",
+      "field": "evidence_state",
+      "from": "insufficient",
+      "to": "multi_layer_confirmed"
+    },
+    {
+      "code": "518880",
+      "name": "黄金ETF华安",
       "field": "thesis_state",
-      "from": "conflicted",
-      "to": "under_test"
+      "from": "supported",
+      "to": "confirmed"
     },
     {
       "code": "603986",
@@ -925,43 +932,8 @@
       "code": "603986",
       "name": "兆易创新",
       "field": "thesis_state",
-      "from": "emerging",
+      "from": "supported",
       "to": "under_test"
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "evidence_state",
-      "from": "noise_or_no_edge",
-      "to": "conflict"
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "thesis_state",
-      "from": "under_test",
-      "to": "conflicted"
-    },
-    {
-      "code": "161226",
-      "name": "国投白银LOF",
-      "field": "evidence_state",
-      "from": "conflict",
-      "to": "insufficient"
-    },
-    {
-      "code": "518880",
-      "name": "黄金ETF华安",
-      "field": "evidence_state",
-      "from": "multi_layer_confirmed",
-      "to": "insufficient"
-    },
-    {
-      "code": "518880",
-      "name": "黄金ETF华安",
-      "field": "thesis_state",
-      "from": "confirmed",
-      "to": "supported"
     }
   ],
   "methodology": {
