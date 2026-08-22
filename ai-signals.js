@@ -1,6 +1,6 @@
 // AI-generated; do not edit manually.
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-22 09:16",
+  "generated_at": "2026-08-22 09:08",
   "source_generated_at": "2026-08-22 07:49",
   "generated_by": "ChatGPT Web",
   "status": "ready",
