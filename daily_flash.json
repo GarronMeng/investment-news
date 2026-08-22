@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-08-22T09:12:05+08:00",
+  "generated_at": "2026-08-22T09:57:20+08:00",
   "timezone": "Asia/Shanghai",
   "title": "Daily Flash · 每日投资驾驶舱",
-  "core_conclusion": "A股状态为 Narrow Risk-on，上涨家数占比 45.1%，风险温度 67/100（elevated）。沪深300 PE-TTM 14.35；10年分位 73.4%；强势：贵金属、能源金属、工业金属；弱势：种植业与林业、医疗服务、化学制药。研究复核优先关注 国投白银LOF、德明利、中际旭创；该排序代表证据变化与复核优先级，不代表交易优先级。资金/期指：融资余额26328亿元，5日+1.88%；南向成交净买额-76.3亿元；中证500股指期货基差-1.18%。 下一催化：08-26 NVIDIA 财报发行；08-27 Marvell 财报发行。主线财报已确认披露 9/21 个研究样本。",
+  "core_conclusion": "A股状态为 Narrow Risk-on，上涨家数占比 45.1%，风险温度 67/100（elevated）。沪深300 PE-TTM 14.35；10年分位 73.4%；强势：贵金属、能源金属、工业金属；弱势：种植业与林业、医疗服务、化学制药。研究复核优先关注 德明利、中际旭创、东山精密；该排序代表证据变化与复核优先级，不代表交易优先级。资金/期指：融资余额26328亿元，5日+1.88%；南向成交净买额-76.3亿元；中证500股指期货基差-1.18%。 下一催化：08-26 NVIDIA 财报发行；08-27 Marvell 财报发行。主线财报已确认披露 9/21 个研究样本。",
   "market": {
     "regime": {
       "label": "Narrow Risk-on",
@@ -730,8 +730,8 @@
         "德明利"
       ],
       "direction": "mixed",
-      "score": -10.8,
-      "event_score": 0.0,
+      "score": -15.3,
+      "event_score": null,
       "technical_score": -34.0,
       "industry_score": 27.6
     },
@@ -745,8 +745,8 @@
         "中际旭创"
       ],
       "direction": "neutral",
-      "score": 17.4,
-      "event_score": 100.0,
+      "score": -10.1,
+      "event_score": null,
       "technical_score": -20.0,
       "industry_score": 37.1
     },
@@ -760,8 +760,8 @@
         "东山精密"
       ],
       "direction": "neutral",
-      "score": 19.6,
-      "event_score": 80.0,
+      "score": -0.5,
+      "event_score": null,
       "technical_score": -20.0,
       "industry_score": 33.5
     },
@@ -805,14 +805,14 @@
         "创新药沪港深ETF天弘"
       ],
       "direction": "bullish",
-      "score": 31.4,
-      "event_score": 0.0,
+      "score": 41.9,
+      "event_score": null,
       "technical_score": 82.0,
       "industry_score": -54.4
     },
     {
       "theme": "黄金",
-      "status": "多层确认",
+      "status": "方向获支持",
       "assets": [
         "518880"
       ],
@@ -820,8 +820,8 @@
         "黄金ETF华安"
       ],
       "direction": "bullish",
-      "score": 72.8,
-      "event_score": 80.0,
+      "score": 69.2,
+      "event_score": null,
       "technical_score": 64.0,
       "industry_score": null
     },
@@ -834,38 +834,27 @@
       "names": [
         "国投白银LOF"
       ],
-      "direction": "bullish",
-      "score": 36.5,
-      "event_score": 80.0,
+      "direction": "neutral",
+      "score": 14.7,
+      "event_score": null,
       "technical_score": -24.0,
       "industry_score": null
     }
   ],
   "outlook": {
-    "base": "当前基准情景：regime=narrow_risk_on，风险温度=67.1；Matrix中 confirmed=2、supported=1。",
+    "base": "当前基准情景：regime=narrow_risk_on，风险温度=67.1；Matrix中 confirmed=1、supported=3。",
     "bullish": "若上涨占比重新站上50%、Market Regime转向risk_on/narrow_risk_on，且强势主题的行业与技术层同步扩散，则风险偏好修复更可信。",
     "bearish": "若市场广度继续恶化、风险温度抬升，同时当前获支持主题转为conflict/contradicted，则应把环境定义为进一步收缩而非普通波动。"
   },
   "matrix_focus": [
     {
-      "code": "161226",
-      "name": "国投白银LOF",
-      "thesis_state": "conflicted",
-      "direction": "bullish",
-      "attention_score": 93.3,
-      "composite_score": 36.5,
-      "confluence": 52.9,
-      "conflict_score": 34.5,
-      "focus": "正负证据正在相互抵消，优先识别哪一层先失效或被确认。"
-    },
-    {
       "code": "001309",
       "name": "德明利",
       "thesis_state": "conflicted",
       "direction": "neutral",
-      "attention_score": 92.8,
-      "composite_score": 2.0,
-      "confluence": 3.1,
+      "attention_score": 92.9,
+      "composite_score": 2.7,
+      "confluence": 4.1,
       "conflict_score": 92.1,
       "focus": "正负证据正在相互抵消，优先识别哪一层先失效或被确认。"
     },
@@ -874,10 +863,21 @@
       "name": "中际旭创",
       "thesis_state": "conflicted",
       "direction": "neutral",
-      "attention_score": 90.8,
-      "composite_score": 17.4,
-      "confluence": 26.1,
-      "conflict_score": 61.0,
+      "attention_score": 89.9,
+      "composite_score": -10.1,
+      "confluence": 15.1,
+      "conflict_score": 58.6,
+      "focus": "正负证据正在相互抵消，优先识别哪一层先失效或被确认。"
+    },
+    {
+      "code": "002384",
+      "name": "东山精密",
+      "thesis_state": "conflicted",
+      "direction": "neutral",
+      "attention_score": 88.6,
+      "composite_score": -0.5,
+      "confluence": 0.8,
+      "conflict_score": 91.2,
       "focus": "正负证据正在相互抵消，优先识别哪一层先失效或被确认。"
     },
     {
@@ -892,40 +892,40 @@
       "focus": "正负证据正在相互抵消，优先识别哪一层先失效或被确认。"
     },
     {
-      "code": "002384",
-      "name": "东山精密",
+      "code": "161226",
+      "name": "国投白银LOF",
       "thesis_state": "under_test",
       "direction": "neutral",
-      "attention_score": 72.0,
-      "composite_score": 19.6,
-      "confluence": 29.4,
-      "conflict_score": 38.7,
+      "attention_score": 75.5,
+      "composite_score": 14.7,
+      "confluence": 22.0,
+      "conflict_score": 66.2,
       "focus": "原方向尚未被市场充分确认，继续观察验证/失效条件。"
     },
     {
-      "code": "603986",
-      "name": "兆易创新",
-      "thesis_state": "emerging",
-      "direction": "bearish",
-      "attention_score": 71.1,
-      "composite_score": -23.6,
-      "confluence": 77.1,
+      "code": "600667",
+      "name": "太极实业",
+      "thesis_state": "confirmed",
+      "direction": "bullish",
+      "attention_score": 69.6,
+      "composite_score": 47.4,
+      "confluence": 84.2,
       "conflict_score": 0.0,
-      "focus": "出现新方向，但先等待事件或行业证据确认。"
+      "focus": "验证持续性、行业扩散与后续基本面证据。"
     }
   ],
   "sources": {
     "market_state": "2026-08-21T15:57:05+08:00",
-    "risk": "2026-08-22T09:08:52+08:00",
-    "valuation": "2026-08-22T09:08:44+08:00",
-    "decision_matrix": "2026-08-22T09:08:52+08:00",
-    "global_markets": "2026-08-22T09:09:16+08:00",
-    "catalysts": "2026-08-22T09:09:49+08:00",
+    "risk": "2026-08-22T09:53:51+08:00",
+    "valuation": "2026-08-22T09:53:41+08:00",
+    "decision_matrix": "2026-08-22T09:53:51+08:00",
+    "global_markets": "2026-08-22T09:54:33+08:00",
+    "catalysts": "2026-08-22T09:55:09+08:00",
     "ai_signals": "2026-08-22 09:08",
     "sentiment": "2026-08-21T09:55:56+08:00",
-    "market_extras": "2026-08-22T09:09:19+08:00",
-    "macro_calendar": "2026-08-22T09:11:02+08:00",
-    "theme_earnings": "2026-08-22T09:12:05+08:00"
+    "market_extras": "2026-08-22T09:54:34+08:00",
+    "macro_calendar": "2026-08-22T09:56:26+08:00",
+    "theme_earnings": "2026-08-22T09:57:20+08:00"
   },
   "boundary": "Daily Flash用于信息压缩、研究排序与条件验证；缺失数据保持缺失，不生成无条件买卖、仓位或止损指令。",
   "integrity": {
