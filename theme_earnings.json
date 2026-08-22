@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-22T09:08:50+08:00",
+  "generated_at": "2026-08-22T09:12:05+08:00",
   "timezone": "Asia/Shanghai",
   "status": "fresh",
   "report_period_code": "20260630",
@@ -106,30 +106,30 @@
       "theme": "AI光通信 / CPO",
       "summary": {
         "total": 3,
-        "reported": 1,
-        "scheduled": 2,
+        "reported": 2,
+        "scheduled": 1,
         "pending": 0,
-        "positive_reports": 1,
+        "positive_reports": 2,
         "weak_reports": 0,
-        "median_revenue_yoy_pct": 15.15,
-        "median_net_profit_yoy_pct": 33.92,
+        "median_revenue_yoy_pct": 98.82,
+        "median_net_profit_yoy_pct": 137.81,
         "breadth": "positive"
       },
       "companies": [
         {
           "code": "300308",
           "name": "中际旭创",
-          "status": "scheduled",
-          "announcement_date": null,
+          "status": "reported",
+          "announcement_date": "2026-08-22",
           "scheduled_date": "2026-08-24",
-          "revenue": null,
-          "revenue_yoy_pct": null,
-          "net_profit": null,
-          "net_profit_yoy_pct": null,
-          "gross_margin_pct": null,
-          "earnings_signal": "not_reported",
-          "industry": null,
-          "source": "东方财富 via AKShare",
+          "revenue": 41777861795.03,
+          "revenue_yoy_pct": 182.4913813287,
+          "net_profit": 13651149693.27,
+          "net_profit_yoy_pct": 241.7,
+          "gross_margin_pct": 46.2521843492,
+          "earnings_signal": "strong_growth",
+          "industry": "通信设备",
+          "source": "东方财富 via AKShare + 公告确认",
           "reason": null
         },
         {
@@ -170,30 +170,30 @@
       "theme": "PCB / 消费电子",
       "summary": {
         "total": 4,
-        "reported": 1,
-        "scheduled": 3,
+        "reported": 2,
+        "scheduled": 2,
         "pending": 0,
-        "positive_reports": 1,
+        "positive_reports": 2,
         "weak_reports": 0,
-        "median_revenue_yoy_pct": 50.05,
-        "median_net_profit_yoy_pct": 130.42,
+        "median_revenue_yoy_pct": 57.0,
+        "median_net_profit_yoy_pct": 210.25,
         "breadth": "positive"
       },
       "companies": [
         {
           "code": "002384",
           "name": "东山精密",
-          "status": "scheduled",
-          "announcement_date": null,
+          "status": "reported",
+          "announcement_date": "2026-08-22",
           "scheduled_date": "2026-08-22",
-          "revenue": null,
-          "revenue_yoy_pct": null,
-          "net_profit": null,
-          "net_profit_yoy_pct": null,
-          "gross_margin_pct": null,
-          "earnings_signal": "not_reported",
-          "industry": null,
-          "source": "东方财富 via AKShare",
+          "revenue": 27797683972.88,
+          "revenue_yoy_pct": 63.9481879305,
+          "net_profit": 2956898811.04,
+          "net_profit_yoy_pct": 290.09,
+          "gross_margin_pct": 20.1513507952,
+          "earnings_signal": "strong_growth",
+          "industry": "元件",
+          "source": "东方财富 via AKShare + 公告确认",
           "reason": null
         },
         {
@@ -442,12 +442,11 @@
   "summary": {
     "themes": 6,
     "companies": 21,
-    "reported": 7,
-    "scheduled": 14
+    "reported": 9,
+    "scheduled": 12
   },
   "warnings": [
-    "stock_notice_report 20260822: ('Connection broken: IncompleteRead(46101 bytes read, 41793 more expected)', IncompleteRead(46101 bytes read, 41793 more expected)); same-day financial rows withheld",
-    "withheld 358 same-day earnings rows without corroborating public financial-report notice"
+    "withheld 6 same-day earnings rows without corroborating public financial-report notice"
   ],
   "methodology": {
     "reported": "东方财富业绩报表 stock_yjbb_em via AKShare；未来公告日期不暴露财务字段；同日行必须在stock_notice_report财务报告公告中得到代码级确认。",
