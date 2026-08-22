@@ -1,109 +1,109 @@
 {
   "version": 1,
-  "generated_at": "2026-08-22T07:51:03+08:00",
+  "generated_at": "2026-08-22T09:05:31+08:00",
   "source": {
     "data_generated_at": "2026-08-22 07:49",
-    "ai_generated_at": "2026-08-21 13:23",
-    "ai_source_generated_at": "2026-08-21 12:25",
-    "features_generated_at": "2026-08-22T07:50:55+08:00",
-    "fresh_ai": false
+    "ai_generated_at": "2026-08-22 09:16",
+    "ai_source_generated_at": "2026-08-22 07:49",
+    "features_generated_at": "2026-08-22T09:05:24+08:00",
+    "fresh_ai": true
   },
   "decisions": [
     {
       "asset": "603986",
       "name": "兆易创新",
       "as_of": "2026-08-21",
-      "bias": "bearish",
-      "status": "market_watch",
+      "bias": "neutral",
+      "status": "neutral",
       "event_score": 50.0,
       "market_score": 35.0,
-      "freshness_score": 70,
-      "conviction": 30.0,
-      "evidence_mode": "market_only",
-      "event_count": 0,
+      "freshness_score": 100,
+      "conviction": 12.0,
+      "evidence_mode": "event_plus_market",
+      "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=-0.100434",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.100434",
       "confirmation": [
-        "股价相对半导体指数转强",
-        "成交量放大且收盘站稳"
+        "招股书审核与募资用途按计划推进，NAND价格和企业级SSD需求保持强势",
+        "兆易创新、德明利相对半导体指数转强并出现存储链扩散"
       ],
       "invalidation": [
-        "存储价格下行",
-        "库存恶化"
+        "IPO审核或扩产计划明显延迟",
+        "NAND价格转弱、库存上升使新增供给预期压制盈利"
       ],
-      "expires_at": "2026-08-27"
+      "expires_at": "2026-11-20"
     },
     {
       "asset": "001309",
       "name": "德明利",
       "as_of": "2026-08-21",
       "bias": "bullish",
-      "status": "market_watch",
+      "status": "watch",
       "event_score": 50.0,
       "market_score": 85.0,
-      "freshness_score": 70,
-      "conviction": 55,
-      "evidence_mode": "market_only",
-      "event_count": 0,
+      "freshness_score": 100,
+      "conviction": 28.0,
+      "evidence_mode": "event_plus_market",
+      "event_count": 1,
       "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.042553",
+      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.042553",
       "confirmation": [
-        "相对存储板块止跌转强",
-        "放量突破短期压力位"
+        "招股书审核与募资用途按计划推进，NAND价格和企业级SSD需求保持强势",
+        "兆易创新、德明利相对半导体指数转强并出现存储链扩散"
       ],
       "invalidation": [
-        "NAND跌价",
-        "渠道库存上升"
+        "IPO审核或扩产计划明显延迟",
+        "NAND价格转弱、库存上升使新增供给预期压制盈利"
       ],
-      "expires_at": "2026-08-27"
+      "expires_at": "2026-11-20"
     },
     {
       "asset": "300308",
       "name": "中际旭创",
       "as_of": "2026-08-21",
-      "bias": "bearish",
-      "status": "neutral",
-      "event_score": 50.0,
+      "bias": "bullish",
+      "status": "watch",
+      "event_score": 100.0,
       "market_score": 40.0,
-      "freshness_score": 70,
-      "conviction": 20.0,
-      "evidence_mode": "market_only",
-      "event_count": 0,
+      "freshness_score": 100,
+      "conviction": 52.0,
+      "evidence_mode": "event_plus_market",
+      "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=-0.094443",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.094443",
       "confirmation": [
-        "海外AI硬件与A股CPO同步走强",
-        "高位放量后能维持强势"
+        "周一股价能否相对通信设备指数转强，并由成交量与行业上涨家数确认",
+        "后续披露中经营现金流、应收与库存周转能否改善"
       ],
       "invalidation": [
-        "AI资本开支下修",
-        "客户延迟采购"
+        "海外云厂商下修资本开支或1.6T采购节奏",
+        "高增长未转化为现金回收，经营现金流继续显著弱于利润"
       ],
-      "expires_at": "2026-08-27"
+      "expires_at": "2026-09-19"
     },
     {
       "asset": "002384",
       "name": "东山精密",
       "as_of": "2026-08-21",
       "bias": "bullish",
-      "status": "market_watch",
-      "event_score": 50.0,
+      "status": "active",
+      "event_score": 90.0,
       "market_score": 75.0,
-      "freshness_score": 70,
-      "conviction": 50.0,
-      "evidence_mode": "market_only",
-      "event_count": 0,
+      "freshness_score": 100,
+      "conviction": 68.0,
+      "evidence_mode": "event_plus_market",
+      "event_count": 1,
       "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.014006",
+      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.014006",
       "confirmation": [
-        "PCB板块扩散上涨",
-        "订单利好得到成交量确认"
+        "周一能否相对元件与消费电子指数转强，并由板块资金流继续确认",
+        "后续分部数据能否确认光模块良率、客户扩散和经营现金流改善"
       ],
       "invalidation": [
-        "终端需求下修",
-        "价格竞争"
+        "光模块新客户导入或产能爬坡低于预期",
+        "并表增长无法延续，财务费用和营运资金占用继续上升"
       ],
-      "expires_at": "2026-08-27"
+      "expires_at": "2026-09-19"
     },
     {
       "asset": "600667",
@@ -113,7 +113,7 @@
       "status": "market_watch",
       "event_score": 50.0,
       "market_score": 75.0,
-      "freshness_score": 70,
+      "freshness_score": 100,
       "conviction": 50.0,
       "evidence_mode": "market_only",
       "event_count": 0,
@@ -137,7 +137,7 @@
       "status": "neutral",
       "event_score": 50.0,
       "market_score": 55.0,
-      "freshness_score": 70,
+      "freshness_score": 100,
       "conviction": 10.0,
       "evidence_mode": "market_only",
       "event_count": 0,
@@ -158,22 +158,22 @@
       "name": "国投白银LOF",
       "as_of": "2026-08-21",
       "bias": "bullish",
-      "status": "market_watch",
-      "event_score": 50.0,
+      "status": "active",
+      "event_score": 90.0,
       "market_score": 85.0,
-      "freshness_score": 70,
-      "conviction": 55,
-      "evidence_mode": "market_only",
-      "event_count": 0,
+      "freshness_score": 100,
+      "conviction": 76.0,
+      "evidence_mode": "event_plus_market",
+      "event_count": 1,
       "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.092186",
+      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.092186",
       "confirmation": [
-        "同时核对基金净值、场内价格和溢价率",
-        "银价上涨时场内溢价未继续扩大"
+        "周一国内金价与黄金ETF华安同步守住强势区间",
+        "国投白银LOF净值、场内价格和溢价同步更新且溢价不扩大"
       ],
       "invalidation": [
-        "银价下跌",
-        "美元与实际利率上行"
+        "美元和实际利率继续上行并推动金银跌回突破前区间",
+        "白银LOF溢价扩大或出现新的申购、停复牌限制"
       ],
       "expires_at": "2026-08-27"
     },
@@ -182,22 +182,22 @@
       "name": "黄金ETF华安",
       "as_of": "2026-08-21",
       "bias": "bullish",
-      "status": "market_watch",
-      "event_score": 50.0,
+      "status": "active",
+      "event_score": 90.0,
       "market_score": 90.0,
-      "freshness_score": 70,
-      "conviction": 55,
-      "evidence_mode": "market_only",
-      "event_count": 0,
+      "freshness_score": 100,
+      "conviction": 80.0,
+      "evidence_mode": "event_plus_market",
+      "event_count": 1,
       "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.124086",
+      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.124086",
       "confirmation": [
-        "外盘金价与国内黄金现货同向",
-        "ETF成交量与价格同步确认"
+        "周一国内金价与黄金ETF华安同步守住强势区间",
+        "国投白银LOF净值、场内价格和溢价同步更新且溢价不扩大"
       ],
       "invalidation": [
-        "金价下跌",
-        "实际利率上行"
+        "美元和实际利率继续上行并推动金银跌回突破前区间",
+        "白银LOF溢价扩大或出现新的申购、停复牌限制"
       ],
       "expires_at": "2026-08-27"
     },
@@ -206,22 +206,22 @@
       "name": "创新药沪港深ETF天弘",
       "as_of": "2026-08-21",
       "bias": "bullish",
-      "status": "market_watch",
+      "status": "watch",
       "event_score": 50.0,
       "market_score": 85.0,
-      "freshness_score": 70,
-      "conviction": 55,
-      "evidence_mode": "market_only",
-      "event_count": 0,
+      "freshness_score": 100,
+      "conviction": 28.0,
+      "evidence_mode": "event_plus_market",
+      "event_count": 1,
       "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.147324",
+      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.147324",
       "confirmation": [
-        "A股与港股创新药板块形成联动",
-        "利好由成交量与持续性确认"
+        "周一A股与港股创新药板块同步修复，行业上涨家数和资金流转正",
+        "国内相关企业披露可核验的临床、递送平台或合作进展"
       ],
       "invalidation": [
-        "临床失败",
-        "监管或支付政策收紧"
+        "行业继续放量下跌并跌破近期支撑",
+        "后续完整临床数据暴露疗效、安全性或商业化限制"
       ],
       "expires_at": "2026-08-27"
     }
