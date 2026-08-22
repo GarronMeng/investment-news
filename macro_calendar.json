@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-22T15:52:06+08:00",
+  "generated_at": "2026-08-23T07:51:12+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
@@ -446,13 +446,104 @@
       "assets": [],
       "source": "百度股市通 via AKShare",
       "status": "scheduled"
+    },
+    {
+      "date": "2026-09-02",
+      "time": "04:30",
+      "type": "macro",
+      "category": "energy",
+      "region": "美国",
+      "title": "美国截至8月28日当周API原油库存变动(万桶)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "原油",
+        "通胀预期",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-02",
+      "time": "20:15",
+      "type": "macro",
+      "category": "labor",
+      "region": "美国",
+      "title": "美国8月ADP就业人数变动(万)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-02",
+      "time": "22:30",
+      "type": "macro",
+      "category": "energy",
+      "region": "美国",
+      "title": "美国截至8月28日当周EIA原油库存变动(万桶)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "原油",
+        "通胀预期",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-02",
+      "time": null,
+      "type": "global_earnings",
+      "category": "earnings",
+      "region": "US",
+      "title": "Broadcom 财报发行",
+      "ticker": "AVGO",
+      "report_period": null,
+      "importance": 3,
+      "impact_channels": [
+        "产业链景气",
+        "海外映射",
+        "风险偏好"
+      ],
+      "themes": [
+        "AI算力",
+        "AI光通信 / CPO"
+      ],
+      "assets": [
+        "300308",
+        "002384",
+        "600667"
+      ],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
     }
   ],
   "summary": {
-    "total": 20,
-    "macro": 16,
-    "global_earnings": 4,
-    "high_importance": 2,
+    "total": 24,
+    "macro": 19,
+    "global_earnings": 5,
+    "high_importance": 3,
     "macro_days_ok": 11,
     "report_days_ok": 11
   },
