@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-23T15:53:50+08:00",
+  "generated_at": "2026-08-24T07:51:34+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
@@ -537,11 +537,94 @@
       ],
       "source": "百度股市通 via AKShare",
       "status": "scheduled"
+    },
+    {
+      "date": "2026-09-03",
+      "time": "20:30",
+      "type": "macro",
+      "category": "trade",
+      "region": "美国",
+      "title": "美国7月贸易帐(亿美元)",
+      "actual": null,
+      "forecast": null,
+      "previous": -733.0,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-03",
+      "time": "20:30",
+      "type": "macro",
+      "category": "labor",
+      "region": "美国",
+      "title": "美国截至8月29日当周初请失业金人数(万)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-03",
+      "time": "22:00",
+      "type": "macro",
+      "category": "growth",
+      "region": "美国",
+      "title": "美国8月ISM非制造业PMI",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "全球风险偏好",
+        "AI资本开支预期",
+        "美元"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-03",
+      "time": "22:00",
+      "type": "macro",
+      "category": "growth",
+      "region": "美国",
+      "title": "美国8月ISM非制造业PMI分项-企业活动指数",
+      "actual": null,
+      "forecast": null,
+      "previous": 59.1,
+      "importance": null,
+      "impact_channels": [
+        "全球风险偏好",
+        "AI资本开支预期",
+        "美元"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
     }
   ],
   "summary": {
-    "total": 24,
-    "macro": 19,
+    "total": 28,
+    "macro": 23,
     "global_earnings": 5,
     "high_importance": 3,
     "macro_days_ok": 11,
