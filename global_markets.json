@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-23T10:03:36+08:00",
+  "generated_at": "2026-08-23T12:25:40+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 14,
@@ -155,10 +155,10 @@
       "symbol": "GC=F",
       "group": "商品",
       "unit": "usd",
-      "value": 4624.1001,
-      "raw_value": 4624.1001,
+      "value": 4680.6001,
+      "raw_value": 4680.6001,
       "previous_close": 4516.2998,
-      "change_pct": 2.39,
+      "change_pct": 3.64,
       "as_of": "2026-08-21T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -169,10 +169,10 @@
       "symbol": "SI=F",
       "group": "商品",
       "unit": "usd",
-      "value": 69.466,
-      "raw_value": 69.466,
+      "value": 69.53,
+      "raw_value": 69.53,
       "previous_close": 68.026,
-      "change_pct": 2.12,
+      "change_pct": 2.21,
       "as_of": "2026-08-21T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
