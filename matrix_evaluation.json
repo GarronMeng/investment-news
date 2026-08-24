@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-08-24T12:32:47+08:00",
-  "history_generated_at": "2026-08-24T12:32:36+08:00",
-  "records": 113,
-  "raw_ledger_records": 122,
+  "generated_at": "2026-08-24T13:39:51+08:00",
+  "history_generated_at": "2026-08-24T13:39:41+08:00",
+  "records": 116,
+  "raw_ledger_records": 125,
   "superseded_records": 9,
   "evaluations": [
     {
@@ -2699,6 +2699,32 @@
       }
     },
     {
+      "state_id": "fa20626edbf4fc8d",
+      "state_revision": 2,
+      "asset": "000636",
+      "name": "风华高科",
+      "signal_date": "2026-08-21",
+      "matrix_direction": "neutral",
+      "thesis_state": "no_directional_thesis",
+      "evidence_state": "noise_or_no_edge",
+      "composite_score": -16.3,
+      "confluence": 24.4,
+      "conflict_score": 43.3,
+      "entry_date": "2026-08-21",
+      "entry_close": 54.67,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
       "state_id": "2e2009fdeaed89c8",
       "state_revision": 2,
       "asset": "001309",
@@ -3037,6 +3063,32 @@
       }
     },
     {
+      "state_id": "b331654e9fa201b5",
+      "state_revision": 2,
+      "asset": "517380",
+      "name": "创新药沪港深ETF天弘",
+      "signal_date": "2026-08-21",
+      "matrix_direction": "neutral",
+      "thesis_state": "conflicted",
+      "evidence_state": "conflict",
+      "composite_score": 7.5,
+      "confluence": 11.3,
+      "conflict_score": 89.4,
+      "entry_date": "2026-08-21",
+      "entry_close": 0.896,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
       "state_id": "214eebd65420d304",
       "state_revision": 2,
       "asset": "518880",
@@ -3219,6 +3271,32 @@
       }
     },
     {
+      "state_id": "d0f16af845b753b1",
+      "state_revision": 2,
+      "asset": "603986",
+      "name": "兆易创新",
+      "signal_date": "2026-08-21",
+      "matrix_direction": "neutral",
+      "thesis_state": "conflicted",
+      "evidence_state": "conflict",
+      "composite_score": -12.2,
+      "confluence": 18.4,
+      "conflict_score": 80.3,
+      "entry_date": "2026-08-21",
+      "entry_close": 409.06,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
       "state_id": "58f9bae654e276bf",
       "status": "unavailable"
     },
@@ -3297,7 +3375,7 @@
       }
     },
     "conflicted": {
-      "records": 27,
+      "records": 29,
       "horizons": {
         "t1": {
           "settled": 19,
@@ -3393,7 +3471,7 @@
       }
     },
     "no_directional_thesis": {
-      "records": 10,
+      "records": 11,
       "horizons": {
         "t1": {
           "settled": 9,
@@ -3491,7 +3569,7 @@
   },
   "by_evidence_state": {
     "conflict": {
-      "records": 27,
+      "records": 29,
       "horizons": {
         "t1": {
           "settled": 19,
@@ -3555,7 +3633,7 @@
       }
     },
     "noise_or_no_edge": {
-      "records": 18,
+      "records": 19,
       "horizons": {
         "t1": {
           "settled": 16,
