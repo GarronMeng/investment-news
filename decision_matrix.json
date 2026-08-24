@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-24T16:08:01+08:00",
+  "generated_at": "2026-08-24T16:12:51+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -835,178 +835,80 @@
   ],
   "state_changes": [
     {
-      "code": "603986",
-      "name": "兆易创新",
-      "field": "matrix_direction",
-      "from": "neutral",
-      "to": "bearish"
-    },
-    {
-      "code": "603986",
-      "name": "兆易创新",
-      "field": "evidence_state",
-      "from": "conflict",
-      "to": "multi_layer_confirmed"
-    },
-    {
-      "code": "603986",
-      "name": "兆易创新",
-      "field": "thesis_state",
-      "from": "conflicted",
-      "to": "confirmed"
-    },
-    {
-      "code": "001309",
-      "name": "德明利",
-      "field": "matrix_direction",
-      "from": "neutral",
-      "to": "bearish"
-    },
-    {
-      "code": "001309",
-      "name": "德明利",
-      "field": "evidence_state",
-      "from": "conflict",
-      "to": "partial_confirmation"
-    },
-    {
-      "code": "001309",
-      "name": "德明利",
-      "field": "thesis_state",
-      "from": "conflicted",
-      "to": "contradicted"
-    },
-    {
-      "code": "300308",
-      "name": "中际旭创",
-      "field": "matrix_direction",
-      "from": "neutral",
-      "to": "bearish"
-    },
-    {
-      "code": "300308",
-      "name": "中际旭创",
-      "field": "evidence_state",
-      "from": "conflict",
-      "to": "partial_confirmation"
-    },
-    {
-      "code": "300308",
-      "name": "中际旭创",
-      "field": "thesis_state",
-      "from": "conflicted",
-      "to": "supported"
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "matrix_direction",
-      "from": "neutral",
-      "to": "bearish"
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "evidence_state",
-      "from": "noise_or_no_edge",
-      "to": "partial_confirmation"
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "thesis_state",
-      "from": "under_test",
-      "to": "contradicted"
-    },
-    {
-      "code": "600667",
-      "name": "太极实业",
-      "field": "matrix_direction",
-      "from": "bullish",
-      "to": "neutral"
-    },
-    {
       "code": "600667",
       "name": "太极实业",
       "field": "evidence_state",
-      "from": "partial_confirmation",
+      "from": "conflict",
       "to": "noise_or_no_edge"
     },
     {
       "code": "600667",
       "name": "太极实业",
       "field": "thesis_state",
-      "from": "supported",
+      "from": "conflicted",
       "to": "under_test"
     },
     {
-      "code": "161226",
-      "name": "国投白银LOF",
+      "code": "000636",
+      "name": "风华高科",
       "field": "matrix_direction",
-      "from": "neutral",
-      "to": "bullish"
+      "from": "bearish",
+      "to": "neutral"
     },
     {
-      "code": "161226",
-      "name": "国投白银LOF",
-      "field": "thesis_state",
-      "from": "conflicted",
-      "to": "supported"
-    },
-    {
-      "code": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "field": "matrix_direction",
-      "from": "neutral",
-      "to": "bullish"
-    },
-    {
-      "code": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "field": "thesis_state",
-      "from": "conflicted",
-      "to": "supported"
-    },
-    {
-      "code": "600667",
-      "name": "太极实业",
+      "code": "000636",
+      "name": "风华高科",
       "field": "evidence_state",
       "from": "partial_confirmation",
+      "to": "noise_or_no_edge"
+    },
+    {
+      "code": "000636",
+      "name": "风华高科",
+      "field": "thesis_state",
+      "from": "emerging",
+      "to": "no_directional_thesis"
+    },
+    {
+      "code": "161226",
+      "name": "国投白银LOF",
+      "field": "matrix_direction",
+      "from": "neutral",
+      "to": "bullish"
+    },
+    {
+      "code": "161226",
+      "name": "国投白银LOF",
+      "field": "evidence_state",
+      "from": "insufficient",
       "to": "conflict"
     },
     {
-      "code": "600667",
-      "name": "太极实业",
+      "code": "161226",
+      "name": "国投白银LOF",
+      "field": "thesis_state",
+      "from": "under_test",
+      "to": "supported"
+    },
+    {
+      "code": "518880",
+      "name": "黄金ETF华安",
+      "field": "evidence_state",
+      "from": "insufficient",
+      "to": "multi_layer_confirmed"
+    },
+    {
+      "code": "518880",
+      "name": "黄金ETF华安",
       "field": "thesis_state",
       "from": "supported",
-      "to": "conflicted"
+      "to": "confirmed"
     },
     {
-      "code": "161226",
-      "name": "国投白银LOF",
-      "field": "evidence_state",
-      "from": "conflict",
-      "to": "insufficient"
-    },
-    {
-      "code": "161226",
-      "name": "国投白银LOF",
+      "code": "517380",
+      "name": "创新药沪港深ETF天弘",
       "field": "thesis_state",
       "from": "conflicted",
-      "to": "under_test"
-    },
-    {
-      "code": "518880",
-      "name": "黄金ETF华安",
-      "field": "evidence_state",
-      "from": "multi_layer_confirmed",
-      "to": "insufficient"
-    },
-    {
-      "code": "518880",
-      "name": "黄金ETF华安",
-      "field": "thesis_state",
-      "from": "confirmed",
       "to": "supported"
     }
   ],
