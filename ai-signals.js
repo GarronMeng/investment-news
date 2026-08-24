@@ -1,7 +1,7 @@
 // AI-generated; do not edit manually.
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-23 09:05",
-  "source_generated_at": "2026-08-23 07:47",
+  "generated_at": "2026-08-24 09:12",
+  "source_generated_at": "2026-08-24 07:47",
   "generated_by": "ChatGPT Web",
   "status": "ready",
   "news_titles": {
@@ -152,124 +152,206 @@ window.AI_SIGNALS = {
     "https://www.reuters.com/business/nvidia-customers-notified-about-ai-related-price-hikes-above-15-bloomberg-news-2026-08-22/": "英伟达客户被告知AI服务器相关价格将上涨逾15%",
     "https://www.reuters.com/world/asia-pacific/samsung-elec-convene-board-meeting-friday-discuss-shareholder-return-plan-says-2026-08-21/": "三星电子预计今年向股东返还最高800亿美元",
     "https://www.reuters.com/business/energy/iran-grants-permission-number-iraqi-oil-tankers-pass-through-hormuz-2026-08-22/": "伊朗允许部分伊拉克油轮通过霍尔木兹海峡",
-    "https://www.reuters.com/world/middle-east/us-iran-keep-up-hostile-rhetoric-ahead-new-sanctions-2026-08-22/": "美国将宣布新制裁，美伊继续强硬交锋"
+    "https://www.reuters.com/world/middle-east/us-iran-keep-up-hostile-rhetoric-ahead-new-sanctions-2026-08-22/": "美国将宣布新制裁，美伊继续强硬交锋",
+    "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha": "谁是新“隐身模型”Ox Alpha的幕后团队？",
+    "https://techcrunch.com/2026/08/23/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule": "Linkdaze智能日历面向家庭管理，而不只是记录日程",
+    "https://www.marktechpost.com/2026/08/23/harvey-tenet-post-trained-kimi-k3-legal-agent-model": "Harvey推出Harvey Tenet：基于Kimi K3并由Fireworks后训练的长程法律智能体模型",
+    "https://techcrunch.com/2026/08/23/flock-ceo-calls-for-compromise-as-surveillance-company-faces-growing-backlash": "监控公司Flock面临日益强烈反对，CEO呼吁“妥协”",
+    "https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated": "用受版权保护书籍训练AI是否合法？答案很复杂",
+    "https://semiwiki.com/lithography/372293-reducing-euv-exposure-dose-through-underlayer-engineering": "通过底层材料工程降低EUV曝光剂量",
+    "https://semiwiki.com/ceo-interviews/372266-ceo-interview-with-ajit-prabhu-of-quest-global": "Quest Global首席执行官Ajit Prabhu访谈",
+    "https://semiwiki.com/semiconductor-manufacturers/372509-the-twelve-month-rule-does-not-describe-a-new-fab": "“十二个月规则”不适用于全新晶圆厂",
+    "https://semiwiki.com/ceo-interviews/371350-ceo-interview-with-sumeet-kumar-of-innatera": "Innatera首席执行官Sumeet Kumar访谈",
+    "https://www.therobotreport.com/use-digital-twin-explore-automation-before-committing-capital": "在投入资本前用数字孪生评估自动化",
+    "https://www.theverge.com/transportation/982464/audi-s6-sportback-etron-sedan-ev-review": "奥迪S6 Sportback E-tron证明轿车仍有价值",
+    "https://techcrunch.com/2026/08/23/uber-faces-fine-of-nearly-1b-over-automated-driver-suspensions": "Uber因自动暂停司机账户面临近10亿美元罚款",
+    "https://techcrunch.com/2026/08/23/techcrunch-mobility-the-custom-chip-driving-waymos-robotaxi-ambitions": "TechCrunch出行周报：推动Waymo机器人出租车雄心的定制芯片",
+    "https://oilprice.com/Energy/Energy-General/Diesel-Crisis-Threatens-to-Outlast-the-Middle-East-War.html": "柴油危机可能比中东战争持续更久",
+    "https://cleantechnica.com/2026/08/23/byd-da-han-claims-global-flagship-status": "比亚迪“大汉”宣称达到全球旗舰水平",
+    "https://oilprice.com/Energy/Crude-Oil/Pemex-and-Petrobras-Bet-Big-on-High-Risk-High-Reward-Drilling-Off-Mexico.html": "墨西哥石油与巴西石油押注墨西哥近海高风险高回报钻探",
+    "https://cleantechnica.com/2026/08/23/in-the-american-southwest-the-water-crisis-threatens-existential-harm-to-millions": "美国西南部水危机威胁数百万人生存",
+    "https://oilprice.com/Energy/Energy-General/Super-El-Nio-Threatens-Food-Water-and-Trade-Worldwide.html": "超级厄尔尼诺威胁全球粮食、水资源与贸易",
+    "https://oilprice.com/Energy/Energy-General/Private-Equity-Is-Circling-Utilities-as-AI-Reshapes-the-Grid.html": "AI重塑电网，私募股权开始围猎公用事业",
+    "https://cleantechnica.com/2026/08/23/tesla-semi-moves-into-europe-gets-largest-order-to-date": "特斯拉Semi进入欧洲并获得迄今最大订单",
+    "https://cleantechnica.com/2026/08/23/hydrogen-ship-charging-tilbury-battery-test": "氢能发电机为电动船充电：为何要使用氢能？",
+    "https://www.genengnews.com/topics/cancer/stockwatch-merck-moderna-cancer-vaccine-gives-a-shot-in-the-arm-to-sequencing-companies-too": "默沙东/Moderna癌症疫苗也提振测序公司",
+    "https://www.nasaspaceflight.com/2026/08/roman-update-082326": "NASA罗曼望远镜接近发射，进入最终整合与演练阶段",
+    "https://www.nasaspaceflight.com/2026/08/landspaces-zhuque-3-topples": "蓝箭航天朱雀三号完成里程碑着陆后倾倒",
+    "https://www.space.com/entertainment/space-movies-shows/new-star-trek-documentary-featuring-william-shatner-hits-theaters-this-fall-celebrating-60-years-of-trek": "威廉·夏特纳参演的新《星际迷航》纪录片今秋上映，纪念系列60周年",
+    "https://www.space.com/astronomy/sun/how-a-huge-fleet-of-17-spacecraft-discovered-something-surprising-about-solar-eruptions": "17艘航天器组成庞大观测网，揭示太阳爆发的意外特征",
+    "https://www.space.com/space-exploration/launches-spacecraft/bad-weather-delays-launch-of-chinas-historic-change-7-mission-to-moons-south-pole": "恶劣天气推迟中国嫦娥七号月球南极任务发射",
+    "https://www.space.com/technology/launching-10-000-tiny-femtosats-to-saturn-nasa-funds-18-futuristic-spaceflight-ideas": "向土星发射1万颗微型卫星？NASA资助18项未来太空飞行构想",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4982-4987-back-to-our-regularly-scheduled-programming": "好奇号日志第4982至4987火星日：恢复常规任务",
+    "https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play": "ToxicPanda安卓恶意软件利用VPN权限阻止Google Play",
+    "https://www.darkreading.com/ics-ot-security/how-emerging-industrial-protocol-family-put-ot-at-risk": "新兴工业协议族可能如何威胁工业控制系统安全",
+    "https://www.techmeme.com/260823/p12": "文件显示Shein将于9月1日在港上市，IPO最多募资18亿美元",
+    "https://9to5google.com/2026/08/23/samsung-galaxy-s27-redesign-leaks": "三星据报将在Galaxy S27上复活一项重大外观设计",
+    "https://www.engadget.com/2240255/vesa-tv-mount-how-to-know-type-guide": "什么是VESA支架，如何判断电视适配规格？",
+    "https://www.dpreview.com/photography/stop-photographing-the-landmark-start-photographing-the-trip": "别再只拍地标，开始记录旅程",
+    "https://www.engadget.com/2240251/android-auto-vs-automotive-how-different": "Android Auto与Android Automotive有何不同？",
+    "https://9to5mac.com/2026/08/23/mophie-new-pocketable-battery-banks-for-iphone": "上手体验：Mophie新款移动电源体积小、内置线缆且定价较低",
+    "https://www.engadget.com/2240187/apple-carplay-stop-siri-from-interrupting": "如何防止使用CarPlay时Siri频繁打断",
+    "https://www.engadget.com/2242295/humanoid-robots-have-beaten-usain-bolts-100-meter-dash-record": "人形机器人已打破博尔特百米纪录",
+    "https://www.engadget.com/2241124/fast-charging-differenent-standards-explained": "为何快充标准如此繁多，它们有何区别？",
+    "https://www.finextra.com/newsarticle/48284/egypts-cib-scores-preliminary-approval-for-new-digital-bank": "埃及商业国际银行获准筹建新数字银行",
+    "https://www.finextra.com/newsarticle/48285/uk-fintech-funding-hits-lowest-level-in-a-decade": "英国金融科技融资降至十年最低",
+    "https://www.marketwatch.com/story/stock-futures-slip-as-u-s-and-canada-appear-headed-for-trade-war-a9814b24": "美加似将爆发贸易战，美国股指期货持平",
+    "https://www.sciencedaily.com/releases/2026/08/260822015208.htm": "科学家放任这片农田自然恢复，数千株兰花随后出现",
+    "https://www.sciencedaily.com/releases/2026/08/260822015217.htm": "未来牙冠或可在患者等待期间完成3D打印",
+    "https://www.sciencedaily.com/releases/2026/08/260823014943.htm": "人类DNA中隐藏的“启动开关”终于被解码",
+    "https://arstechnica.com/science/2026/08/volcanoes-that-made-history": "那些改变历史的火山",
+    "https://www.livescience.com/technology/artificial-intelligence/why-is-ai-going-on-a-hacking-spree": "AI为何掀起黑客攻击潮？",
+    "https://www.sciencedaily.com/releases/2026/08/260823014953.htm": "实验性化合物帮助减脂而不损失肌肉",
+    "https://www.livescience.com/space/astronomy/starry-night-telescope-photo-captures-some-of-the-oldest-stars-in-the-universe-space-photo-of-the-week": "“星夜”望远镜照片捕捉宇宙中部分最古老恒星｜本周太空图片",
+    "https://www.livescience.com/animals/do-other-animals-call-each-other-by-name": "其他动物会用名字互相称呼吗？",
+    "https://www.reuters.com/business/retail-consumer/alibaba-proposes-hong-kong-share-placement-worth-10-billion-2026-08-23/": "阿里巴巴启动100亿美元香港配售以资助AI投入",
+    "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-24/": "亚洲股市在伊朗制裁消息与英伟达财报前持平",
+    "https://www.reuters.com/world/asia-pacific/oil-falls-1-ahead-us-announcement-impose-further-sanctions-iran-2026-08-23/": "美国公布伊朗新制裁前油价下跌",
+    "https://www.reuters.com/business/energy/iran-says-it-discovered-over-75-trillion-cubic-feet-gas-2026-08-23/": "美国誓言发动“经济D日”，伊朗威胁停止全部石油出口"
   },
   "overseas_markets": [
     {
       "market": "美股",
       "flag": "🇺🇸",
       "session": "2026-08-21 收盘",
-      "updated_at": "2026-08-23 09:05 北京时间周末复核",
+      "updated_at": "2026-08-24 09:12 北京时间盘前复核",
       "status": "mixed",
-      "status_label": "大盘反弹，费半继续落后",
-      "move": "标普500 +0.43%，纳指 +0.44%，费城半导体指数 -0.51%；周末休市。",
-      "driver": "大盘风险偏好修复，但10年期美债收益率约4.74%、费半继续落后；英伟达服务器提价报道使AI需求、存储成本与资本回报重新成为下周焦点。",
+      "status_label": "大盘反弹，费半仍落后",
+      "move": "标普500 +0.43%，纳指 +0.43%，费城半导体指数 -0.51%；周一亚洲时段美股期货小幅走低。",
+      "driver": "大盘风险偏好有所修复，但费半继续落后、美债10年期收益率约4.74%。阿里巴巴百亿美元级融资和周三英伟达财报，使AI资本开支与资本回报继续成为主要定价变量。",
       "a_share_links": [
         "CPO/光模块",
-        "DRAM/NAND",
         "服务器PCB",
+        "DRAM/NAND",
         "封测"
       ],
-      "validation": "周一观察通信设备、半导体和元件资金流能否延续改善；周三等待英伟达财报验证AI资本开支。",
+      "validation": "观察A股通信设备、半导体和元件资金流能否延续改善；8月26日英伟达财报验证AI资本开支。",
       "sources": [
         "https://www.reuters.com/business/us-stock-futures-rise-after-sharp-losses-prior-session-2026-08-21/",
-        "https://www.reuters.com/business/nvidia-customers-notified-about-ai-related-price-hikes-above-15-bloomberg-news-2026-08-22/"
+        "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-24/"
       ]
     },
     {
       "market": "日股",
       "flag": "🇯🇵",
-      "session": "2026-08-21 收盘",
-      "updated_at": "2026-08-23 09:05 北京时间周末复核",
-      "status": "negative",
-      "status_label": "周五收窄跌幅，全周仍明显回落",
-      "move": "日经225收于66,016.36点，跌0.30%；周末休市。",
-      "driver": "美债收益率高位与科技高波动继续约束电子链估值；周五从低位回升尚不能视为趋势反转。",
+      "session": "2026-08-24 早盘",
+      "updated_at": "2026-08-24 09:12 北京时间",
+      "status": "neutral",
+      "status_label": "近乎平开，电子链未形成明显扩散",
+      "move": "日经225开于65,978.95点，较前收66,016.36点低0.06%；10:07 JST报65,967.62点、跌0.07%。",
+      "driver": "周末存储与AI资本开支消息未推动指数显著高开；盘中高低波动仍需结合电子权重与日元判断。",
       "a_share_links": [
         "半导体设备",
         "被动元件",
         "消费电子",
         "CPO"
       ],
-      "validation": "周一观察东京电子、材料及被动元件权重能否止跌，并核验日元与长端收益率。",
+      "validation": "观察东京电子、材料及被动元件权重能否转强，并核验A股电子链开盘承接。",
       "sources": [
-        "https://indexes.nikkei.co.jp/nkave/archives/data",
-        "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-21/"
+        "https://indexes.nikkei.co.jp/en/nkave/index/profile",
+        "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-24/"
       ]
     },
     {
       "market": "韩股",
       "flag": "🇰🇷",
-      "session": "2026-08-21 收盘",
-      "updated_at": "2026-08-23 09:05 北京时间周末复核",
-      "status": "positive",
-      "status_label": "存储股东回报支撑反弹，波动风险仍高",
-      "move": "KOSPI收于6,912.95点，涨0.88%；周末休市。",
-      "driver": "三星与SK海力士的大规模股东回报反映AI存储现金创造能力，但指数仍处高波动与去杠杆后的价格发现阶段。",
+      "session": "2026-08-24 早盘",
+      "updated_at": "2026-08-24 09:12 北京时间",
+      "status": "negative",
+      "status_label": "周末存储利好未阻止早盘回落",
+      "move": "Reuters盘初记录KOSPI约跌0.8%；精确开盘点位尚缺独立来源复核，标记待验证。",
+      "driver": "三星与SK海力士股东回报强化现金流证据，但指数早盘回落说明利好尚未形成价格扩散。",
       "a_share_links": [
         "HBM",
         "DRAM/NAND",
         "企业级SSD",
         "封测"
       ],
-      "validation": "周一观察三星电子、SK海力士能否延续反弹，并核验外资流向与存储链扩散。",
+      "validation": "观察三星电子、SK海力士能否在午前止跌，以及兆易创新、德明利、太极实业能否相对行业转强。",
       "sources": [
-        "https://www.reuters.com/world/asia-pacific/samsung-elec-convene-board-meeting-friday-discuss-shareholder-return-plan-says-2026-08-21/",
-        "https://www.reuters.com/legal/transactional/sk-hynix-buy-back-cancel-29-billion-worth-treasury-shares-2026-08-19/"
+        "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-24/",
+        "https://www.reuters.com/world/asia-pacific/samsung-elec-convene-board-meeting-friday-discuss-shareholder-return-plan-says-2026-08-21/"
       ]
     }
   ],
   "signals": [
     {
-      "event": "英伟达服务器拟提价逾15%，三星巨额股东回报进一步确认AI存储的价格与现金流斜率",
-      "industry": "semi",
-      "industry_name": "AI服务器 / DRAM / NAND",
-      "direction": "mixed",
+      "event": "阿里巴巴启动约100亿美元香港配售，募集资金用于芯片、基础设施和模型等全栈AI投入",
+      "industry": "ai",
+      "industry_name": "AI资本开支 / CPO / 服务器PCB / 封测",
+      "direction": "positive",
       "strength": 4,
       "horizon": "1-4w",
       "priced_in": "unknown",
-      "reason": "媒体报道称，英伟达已通知主要客户，配备Vera Rubin和Grace Blackwell芯片的服务器因存储成本上升，2027年初出货价格将上调逾15%；三星预计2026年股东回报最高约110万亿韩元，反映AI存储景气带来的现金创造能力。需求与价格偏强利于存储景气映射，但服务器总成本上升也可能影响客户采购节奏，且三星最终分红和回购决定要到2027年1月确认。",
+      "reason": "阿里巴巴拟配售约7.10亿股、募资约800亿港元，表示全部净募集资金将用于全栈AI能力，包括芯片、基础设施与模型。该事件为国内AI资本开支提供新增、可量化的资金层证据，映射高速光通信、服务器PCB和半导体工程需求；但配售价较上周五收盘折让约3.6%，且公司近期自由现金流承压，港股稀释和资本回报压力不能忽略。",
       "assets": [
-        "603986",
-        "001309"
+        "300308",
+        "002384",
+        "600667"
       ],
       "validation": [
-        "周一三星电子、SK海力士及A股存储链能否同步获得价格与成交量确认",
-        "英伟达8月26日财报是否维持AI服务器需求、交付与资本开支指引"
+        "阿里巴巴配售能否按计划完成，港股价格能否消化稀释压力",
+        "A股通信设备、元件和半导体行业能否获得成交量及净流入确认"
       ],
       "invalidation": [
-        "服务器提价导致客户延后采购或下修部署规模",
-        "DRAM/NAND报价转弱，或三星最终股东回报显著低于当前区间"
+        "配售延期、缩减或AI资本开支指引下调",
+        "融资成本与稀释压力导致港股科技风险偏好显著恶化"
       ],
       "urls": [
-        "https://www.reuters.com/business/nvidia-customers-notified-about-ai-related-price-hikes-above-15-bloomberg-news-2026-08-22/",
+        "https://www.reuters.com/business/retail-consumer/alibaba-proposes-hong-kong-share-placement-worth-10-billion-2026-08-23/"
+      ]
+    },
+    {
+      "event": "日韩早盘未延续周末存储利好，存储现金流证据与短期价格反馈出现分化",
+      "industry": "semi",
+      "industry_name": "DRAM / NAND / 企业级SSD / 封测",
+      "direction": "mixed",
+      "strength": 3,
+      "horizon": "1-5d",
+      "priced_in": "partial",
+      "reason": "周末三星巨额股东回报和英伟达服务器提价继续强化存储价格与现金创造能力，但周一日经近乎平开、KOSPI盘初约跌0.8%。产业证据仍偏正面，亚洲价格层却尚未确认，需防止把股东回报直接等同于A股存储链上涨。",
+      "assets": [
+        "603986",
+        "001309",
+        "600667"
+      ],
+      "validation": [
+        "三星电子、SK海力士能否在午前止跌，A股存储链能否强于半导体指数",
+        "兆易创新、德明利是否出现放量与行业资金流同步改善"
+      ],
+      "invalidation": [
+        "韩股存储权重转强且A股存储形成价格与资金共振",
+        "NAND/DRAM报价或下游采购指引转弱"
+      ],
+      "urls": [
+        "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-24/",
         "https://www.reuters.com/world/asia-pacific/samsung-elec-convene-board-meeting-friday-discuss-shareholder-return-plan-says-2026-08-21/"
       ]
     },
     {
-      "event": "伊朗仅对部分伊拉克油轮给予霍尔木兹通行许可，美伊新制裁言辞使能源与贵金属维持双向波动",
+      "event": "伊朗新制裁公布前油价回落而黄金走强，贵金属内部出现分化",
       "industry": "macro",
       "industry_name": "原油 / 黄金 / 白银 / 地缘政治",
       "direction": "mixed",
       "strength": 3,
       "horizon": "1-5d",
-      "priced_in": "unknown",
-      "reason": "伊朗周六允许若干伊拉克油轮特别通行，但海峡整体航运仍明显受限；与此同时，美国准备公布新制裁，伊朗予以谴责。局部放行有助缓解部分供应压力，制裁升级又抬高油价与避险尾部风险，因此不能将周末消息解释为海峡全面重开。",
+      "priced_in": "partial",
+      "reason": "周一亚洲时段WTI与Brent约跌1%，黄金上涨，而白银期货小幅回落。市场在美国即将公布伊朗新制裁、伊朗威胁停止石油出口之间重新定价：油价回落减轻部分通胀压力并支持黄金，但白银没有同步，不能把黄金的避险上涨直接外推至国投白银LOF。",
       "assets": [
         "518880",
         "161226"
       ],
       "validation": [
-        "周一亚洲时段Brent、现货金银是否同向突破或出现油价回落与金银分化",
-        "黄金ETF华安映射外盘的幅度，以及国投白银LOF净值、场内价和溢价是否同步"
+        "美国制裁细节公布后原油、金银与美元的方向是否延续",
+        "黄金ETF华安对人民币金价的映射，以及国投白银LOF净值、场内价和溢价是否同步"
       ],
       "invalidation": [
-        "霍尔木兹恢复常态航运且制裁谈判出现可核验缓和",
-        "美元与实际利率持续上行并推动金银跌回周五突破前区间"
+        "制裁缓和并推动黄金跌回突破前区间",
+        "原油反弹、实际利率和美元同步上行压制金银"
       ],
       "urls": [
-        "https://www.reuters.com/business/energy/iran-grants-permission-number-iraqi-oil-tankers-pass-through-hormuz-2026-08-22/",
-        "https://www.reuters.com/world/middle-east/us-iran-keep-up-hostile-rhetoric-ahead-new-sanctions-2026-08-22/"
+        "https://www.reuters.com/world/asia-pacific/oil-falls-1-ahead-us-announcement-impose-further-sanctions-iran-2026-08-23/",
+        "https://www.reuters.com/business/energy/iran-says-it-discovered-over-75-trillion-cubic-feet-gas-2026-08-23/"
       ]
     }
   ]
