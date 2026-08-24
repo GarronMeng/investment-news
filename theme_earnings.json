@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-24T16:16:15+08:00",
+  "generated_at": "2026-08-24T16:34:44+08:00",
   "timezone": "Asia/Shanghai",
   "status": "fresh",
   "report_period_code": "20260630",
@@ -446,8 +446,8 @@
     "scheduled": 12
   },
   "warnings": [
-    "stock_notice_report 20260824: ('Connection broken: IncompleteRead(24381 bytes read, 45171 more expected)', IncompleteRead(24381 bytes read, 45171 more expected)); same-day financial rows withheld",
-    "withheld 288 same-day earnings rows without corroborating public financial-report notice"
+    "stock_notice_report 20260824: ('Connection broken: IncompleteRead(16121 bytes read, 71089 more expected)', IncompleteRead(16121 bytes read, 71089 more expected)); same-day financial rows withheld",
+    "withheld 303 same-day earnings rows without corroborating public financial-report notice"
   ],
   "methodology": {
     "reported": "东方财富业绩报表 stock_yjbb_em via AKShare；未来公告日期不暴露财务字段；同日行必须在stock_notice_report财务报告公告中得到代码级确认。",
