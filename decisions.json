@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generated_at": "2026-08-24T09:12:07+08:00",
+  "generated_at": "2026-08-24T09:31:21+08:00",
   "source": {
     "data_generated_at": "2026-08-24 07:47",
-    "ai_generated_at": "2026-08-24 09:12",
+    "ai_generated_at": "2026-08-24 09:28",
     "ai_source_generated_at": "2026-08-24 07:47",
-    "features_generated_at": "2026-08-24T09:11:58+08:00",
+    "features_generated_at": "2026-08-24T09:31:11+08:00",
     "fresh_ai": true
   },
   "decisions": [
@@ -84,17 +84,17 @@
     {
       "asset": "002384",
       "name": "东山精密",
-      "as_of": "2026-08-21",
+      "as_of": "2026-08-24",
       "bias": "bullish",
-      "status": "active",
+      "status": "watch",
       "event_score": 90.0,
-      "market_score": 75.0,
+      "market_score": 35.0,
       "freshness_score": 100,
-      "conviction": 68.0,
+      "conviction": 36.0,
       "evidence_mode": "event_plus_market",
       "event_count": 1,
-      "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.014006",
+      "trend_state": "mixed",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.023329",
       "confirmation": [
         "阿里巴巴配售能否按计划完成，港股价格能否消化稀释压力",
         "A股通信设备、元件和半导体行业能否获得成交量及净流入确认"
@@ -132,7 +132,7 @@
     {
       "asset": "000636",
       "name": "风华高科",
-      "as_of": "2026-08-21",
+      "as_of": "2026-08-24",
       "bias": "neutral",
       "status": "neutral",
       "event_score": 50.0,
@@ -142,7 +142,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "mixed",
-      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.363741",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.229603",
       "confirmation": [
         "被动元件板块形成联动",
         "涨价新闻后价格走势能够确认"
@@ -156,7 +156,7 @@
     {
       "asset": "161226",
       "name": "国投白银LOF",
-      "as_of": "2026-08-21",
+      "as_of": "2026-08-24",
       "bias": "bullish",
       "status": "watch",
       "event_score": 50.0,
@@ -166,7 +166,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.092186",
+      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.062569",
       "confirmation": [
         "美国制裁细节公布后原油、金银与美元的方向是否延续",
         "黄金ETF华安对人民币金价的映射，以及国投白银LOF净值、场内价和溢价是否同步"
@@ -180,17 +180,17 @@
     {
       "asset": "518880",
       "name": "黄金ETF华安",
-      "as_of": "2026-08-21",
+      "as_of": "2026-08-24",
       "bias": "bullish",
       "status": "watch",
       "event_score": 50.0,
-      "market_score": 90.0,
+      "market_score": 85.0,
       "freshness_score": 100,
-      "conviction": 32.0,
+      "conviction": 28.0,
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.124086",
+      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.120205",
       "confirmation": [
         "美国制裁细节公布后原油、金银与美元的方向是否延续",
         "黄金ETF华安对人民币金价的映射，以及国投白银LOF净值、场内价和溢价是否同步"
@@ -204,7 +204,7 @@
     {
       "asset": "517380",
       "name": "创新药沪港深ETF天弘",
-      "as_of": "2026-08-21",
+      "as_of": "2026-08-24",
       "bias": "bullish",
       "status": "market_watch",
       "event_score": 50.0,
@@ -214,7 +214,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.147324",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.119467",
       "confirmation": [
         "A股与港股创新药板块形成联动",
         "利好由成交量与持续性确认"
