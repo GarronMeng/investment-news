@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-24T15:35:50+08:00",
+  "generated_at": "2026-08-24T16:10:20+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
@@ -309,7 +309,7 @@
       "region": "日本",
       "title": "日本8月东京CPI年率(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": 1.9,
       "previous": 2.0,
       "importance": 2,
       "impact_channels": [
