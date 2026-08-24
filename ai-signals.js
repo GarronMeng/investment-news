@@ -1,6 +1,6 @@
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-24 10:35",
-  "source_generated_at": "2026-08-24 09:59",
+  "generated_at": "2026-08-24 13:35",
+  "source_generated_at": "2026-08-24 12:31",
   "generated_by": "ChatGPT Web",
   "status": "ready",
   "news_titles": {
@@ -235,204 +235,259 @@ window.AI_SIGNALS = {
     "https://www.cnbc.com/2026/08/24/oil-price-today-wti-brent-us-sanctions-iran.html": "投资者等待美国对伊朗实施“最严厉”制裁，油价下跌",
     "https://seekingalpha.com/news/4636048-here-are-the-major-earnings-before-the-open-monday": "周一开盘前将公布的主要公司财报",
     "https://seekingalpha.com/news/4635951-gorilla-technology-group-q2-2026-earnings-preview": "Gorilla Technology Group 2026年第二季度业绩前瞻",
-    "https://seekingalpha.com/news/4635952-pics-q2-2026-earnings-preview": "PicS 2026年第二季度业绩前瞻"
+    "https://seekingalpha.com/news/4635952-pics-q2-2026-earnings-preview": "PicS 2026年第二季度业绩前瞻",
+    "https://arxiv.org/abs/2608.20341": "SDAD：面向AI原生软件开发生命周期的规范驱动智能体开发",
+    "https://arxiv.org/abs/2608.20342": "PrimeAgentOrchestrator：面向个人AI基础设施的记忆预置式智能体生成",
+    "https://arxiv.org/abs/2608.20378": "真相深藏：通过潜在意图验证对抗语义伪装",
+    "https://arxiv.org/abs/2608.20379": "多模态智能体框架的基础与前沿综述：技术与应用",
+    "https://arxiv.org/abs/2608.20384": "采用线性判别树集成的可解释多模态分类",
+    "https://arxiv.org/abs/2608.20389": "表征影响检索：多模态智能体工具中技能发现与路由的案例研究",
+    "https://www.marktechpost.com/2026/08/23/scientific-data-analysis-with-labplot-in-python-signal-processing-spectral-peak-fitting-visualization-and-batch-automation": "使用Python版LabPlot进行科学数据分析：信号处理、谱峰拟合、可视化与批量自动化",
+    "https://zhidx.com/p/587461.html": "估值874亿元！传Hugging Face寻求出售",
+    "https://www.digitimes.com/news/a20260824PD216/sk-hynix-hbm-cpo-capacity-competition.html": "分析：SK海力士从HBM进一步拓展至HBF与CPO",
+    "https://www.digitimes.com/news/a20260824VL207/rapidus-2nm-investment-production-chips.html": "Rapidus 2纳米量产计划按期推进，日本准备投资1500亿日元",
+    "https://www.digitimes.com/news/a20260824PD222/fujifilm-materials-capacity-demand-semiconductors.html": "富士胶片在大分启用新型CMP后清洗剂工厂，以满足AI芯片需求",
+    "https://www.digitimes.com/news/a20260824VL202/polysilicon-solar-capacity-manufacturing-government.html": "印度考虑新增资本补贴，以建设本土多晶硅产能",
+    "https://www.digitimes.com/news/a20260824PD217/notebooks-supply-chain-manufacturing-cost-southeast-asia.html": "东南亚成本上升，笔记本品牌将生产转回中国",
+    "https://www.digitimes.com/news/a20260824PD207/2026-robotics-robot-data-beijing.html": "评论：机器人走上岗位——2026世界机器人大会五大趋势",
+    "https://semiwiki.com/events/372540-what-hot-chips-2026-tells-us-about-what-silicon-valley-is-actually-building": "Hot Chips 2026揭示硅谷正在实际打造什么",
+    "https://cnevpost.com/2026/08/24/zeekr-7x-orders-top-200000-globally": "极氪7X全球订单突破20万辆，已进入50多个国家",
+    "https://cnevpost.com/2026/08/24/byd-exec-ocean-mpv-may-launch-year-end": "比亚迪高管称海洋网首款MPV或于年底上市",
+    "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Slide-2-as-Markets-Brace-for-Bessents-Economic-D-Day.html": "市场迎接贝森特“经济决战日”，油价下跌2%",
+    "https://www.huxiu.com/article/4885442.html": "“Token贷”来了：Token消耗成为银行授信新坐标？",
+    "https://www.ithome.com/0/993/479.htm": "诺兰电影《奥德赛》11月17日上线数字版，并发行4K超高清与蓝光版本",
+    "https://www.techmeme.com/260824/p1": "消息称AI研究员Luke Metz离开TML回归OpenAI后，又将加入Meta超级智能实验室",
+    "https://www.androidauthority.com/xiaomi-smartphones-price-hike-3701917": "RAM成本飙升，另一家安卓手机大厂被迫涨价",
+    "https://sspai.com/post/112983": "快捷指令：让特定App小点声，在iPhone上实现独立音量控制",
+    "https://9to5mac.com/2026/08/23/best-apple-macbook-deals-right-now-august": "2026年8月MacBook最佳优惠购买指南",
+    "http://www.eeo.com.cn/2026/0824/1009289.shtml": "美元持续走弱，人民币汇率上周小幅走强",
+    "https://wallstreetcn.com/articles/3780123": "高盛大幅上调全球晶圆厂设备支出：存储与先进代工成为主引擎",
+    "https://seekingalpha.com/news/4636073-cross-timbers-royalty-trust-declares-00679-dividend": "Cross Timbers Royalty Trust宣布派发0.0679美元股息",
+    "https://seekingalpha.com/news/4636072-halliburton-declares--017-dividend": "哈里伯顿宣布派发0.17美元股息"
   },
   "overseas_markets": [
     {
       "market": "美股",
       "flag": "🇺🇸",
-      "session": "2026-08-21 收盘 / 8月24日期货",
-      "updated_at": "2026-08-24 10:30 北京时间复核",
-      "status": "mixed",
-      "status_label": "现货反弹但期货趋平，长端利率仍压制估值",
-      "move": "8月21日道指 +0.98%、标普500 +0.43%、纳指 +0.44%；周一亚洲时段美股期货大致持平至小幅走低。",
-      "driver": "长端美债收益率维持高位，美国与加拿大贸易摩擦、伊朗制裁及8月26日英伟达财报共同抬高波动；美元偏软和黄金走强反映防御需求。",
+      "session": "2026-08-21收盘 / 8月24日期货",
+      "updated_at": "2026-08-24 13:35 北京时间复核",
+      "status": "pending",
+      "status_label": "期货小幅走弱，缺少同刻双源验证",
+      "move": "8月21日道指+0.98%、标普500+0.43%、纳指+0.44%；8月24日Markets Insider显示道指期货约-0.09%、标普500期货约-0.13%、纳指100期货约-0.34%，观测时点不同且未获得第二个同刻报价源。",
+      "driver": "长端收益率、加拿大贸易摩擦与英伟达财报前观望压制科技风险偏好，弱美元与黄金上涨反映防御需求。",
       "a_share_links": [
         "CPO/光模块",
         "服务器PCB",
         "DRAM/NAND",
-        "封测",
-        "黄金"
+        "半导体工程"
       ],
-      "validation": "观察美股期货与费半能否摆脱长端利率压力，并核验A股通信设备、半导体资金流与成交量是否同步。",
+      "validation": "待美股开盘后观察纳指、费半与AI硬件能否摆脱利率压力，并核验A股通信设备和半导体资金流。",
       "sources": [
-        "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-24/",
-        "https://www.reuters.com/business/us-stock-futures-rise-after-sharp-losses-prior-session-2026-08-21/"
+        "https://www.reuters.com/business/us-stock-futures-rise-after-sharp-losses-prior-session-2026-08-21/",
+        "https://markets.businessinsider.com/premarket",
+        "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-24/"
       ]
     },
     {
       "market": "日股",
       "flag": "🇯🇵",
-      "session": "2026-08-24 早盘",
-      "updated_at": "2026-08-24 10:08 北京时间",
+      "session": "2026-08-24午后",
+      "updated_at": "2026-08-24 14:10 JST",
       "status": "negative",
-      "status_label": "冲高回落，电子链扩散不足",
-      "move": "日经225于11:08 JST报65,801.51点，跌0.33%；早盘高66,257.73点、低65,653.39点。",
-      "driver": "指数开盘后冲高回落，说明周末AI与存储利好没有形成持续价格扩散；全球长端利率和贸易摩擦仍压制风险偏好。",
+      "status_label": "午后转弱，半导体利好未形成指数确认",
+      "move": "日经225开盘65,978.95点，较前收66,016.36点低开约0.06%；14:10 JST官方报65,725.40点、跌0.44%，MarketWatch于14:06 JST报65,702.69点、跌0.48%，两源差0.04个百分点。",
+      "driver": "贸易摩擦、长端利率与亚洲科技股回撤压制风险偏好，存储和设备产业利好尚未形成持续价格扩散。",
       "a_share_links": [
         "半导体设备",
         "被动元件",
         "消费电子",
         "CPO"
       ],
-      "validation": "观察日经能否收复66,000点，以及东京电子、材料和被动元件权重能否转强。",
+      "validation": "观察收盘能否收复65,980点开盘位，以及东京电子、材料和被动元件权重能否转强。",
       "sources": [
         "https://indexes.nikkei.co.jp/en/nkave/index/profile",
-        "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-24/"
+        "https://www.marketwatch.com/investing/index/nik?countrycode=jp"
       ]
     },
     {
       "market": "韩股",
       "flag": "🇰🇷",
-      "session": "2026-08-24 早盘",
-      "updated_at": "2026-08-24 09:27 北京时间",
-      "status": "negative",
-      "status_label": "KOSPI显著回落，存储利好未获价格确认",
-      "move": "KOSPI于10:27 KST约报6,755.90点，跌2.27%，日内低点约6,710点。",
-      "driver": "三星与SK海力士股东回报继续提供现金流证据，但指数显著下跌表明资金层未确认，韩国市场高杠杆与芯片波动放大了压力。",
+      "session": "2026-08-24午后",
+      "updated_at": "2026-08-24 13:35 北京时间复核",
+      "status": "pending",
+      "status_label": "午后显著下跌，但开盘数据未获双源一致复核",
+      "move": "Reuters延时报价曾为6,724.18点、跌2.73%；Trading Economics后续约6,684点、跌3.31%。另一报价页列示开盘6,881.07点、前收6,912.95点，但未获得第二个独立来源对开盘价的一致验证。",
+      "driver": "三星电子、SK海力士与亚洲科技股同步承压，存储股东回报及HBF/CPO路线图未得到价格层确认。",
       "a_share_links": [
         "HBM",
         "DRAM/NAND",
         "企业级SSD",
         "封测"
       ],
-      "validation": "观察KOSPI能否收复开盘位6,881点，三星电子、SK海力士及A股存储链能否同步止跌。",
+      "validation": "待收盘数据确认，并观察三星电子、SK海力士及A股存储链能否同步止跌。",
       "sources": [
-        "https://cn.investing.com/indices/kospi",
-        "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-24/"
+        "https://www.reuters.com/markets/quote/.KS11/",
+        "https://tradingeconomics.com/south-korea/stock-market",
+        "https://data.krx.co.kr/contents/MDC/MAIN/main/index.cmd?locale=en"
       ]
     }
   ],
   "signals": [
     {
-      "event": "阿里巴巴启动约100亿美元香港配售，募集资金用于芯片、基础设施和模型等全栈AI投入",
-      "industry": "ai",
-      "industry_name": "AI资本开支 / CPO / 服务器PCB / 封测",
+      "event": "高盛大幅上调2026—2028年全球晶圆厂设备支出预测，存储与先进代工成为主要增量",
+      "industry": "semi",
+      "industry_name": "晶圆厂设备 / 存储扩产 / 半导体工程",
       "direction": "positive",
-      "strength": 4,
-      "horizon": "1-4w",
+      "strength": 5,
+      "horizon": "1-3m",
       "priced_in": "unknown",
-      "reason": "阿里巴巴拟配售约7.10亿股、募资约800亿港元，表示全部净募集资金将用于全栈AI能力，包括芯片、基础设施与模型。该事件为国内AI资本开支提供新增、可量化的资金层证据，映射高速光通信、服务器PCB和半导体工程需求；但配售价较上周五收盘折让约3.6%，且公司近期自由现金流承压，港股稀释和资本回报压力不能忽略。",
+      "reason": "WFE支出预测被显著上调，若设备商订单与存储厂资本开支同步确认，将强化半导体工程、存储及封测链的中期需求；但A股相关标的午前明显下跌，价格层尚未确认。",
       "assets": [
-        "300308",
-        "002384",
-        "600667"
+        "600667",
+        "603986",
+        "001309"
       ],
       "validation": [
-        "阿里巴巴配售能否按计划完成，港股价格能否消化稀释压力",
-        "A股通信设备、元件和半导体行业能否获得成交量及净流入确认"
+        "设备商订单、存储厂资本开支及在建项目是否继续上修",
+        "太极实业、兆易创新和德明利能否放量止跌并相对半导体指数转强"
       ],
       "invalidation": [
-        "配售延期、缩减或AI资本开支指引下调",
-        "融资成本与稀释压力导致港股科技风险偏好显著恶化"
+        "晶圆厂推迟扩产或设备交付指引下调",
+        "存储价格或终端采购转弱，导致资本开支预测回落"
       ],
       "urls": [
-        "https://www.reuters.com/business/retail-consumer/alibaba-proposes-hong-kong-share-placement-worth-10-billion-2026-08-23/"
+        "https://wallstreetcn.com/articles/3780123"
       ]
     },
     {
-      "event": "日韩早盘转弱，存储现金流证据与短期价格反馈继续分化",
+      "event": "长江存储据报进一步接近IPO，以筹集AI驱动存储需求所需扩产资金",
       "industry": "semi",
-      "industry_name": "DRAM / NAND / 企业级SSD / 封测",
+      "industry_name": "NAND / 存储模组 / 国产替代",
       "direction": "mixed",
-      "strength": 3,
-      "horizon": "1-5d",
-      "priced_in": "partial",
-      "reason": "三星与SK海力士股东回报、英伟达服务器涨价继续强化存储价格与现金创造能力，但日经早盘冲高回落至约-0.33%，KOSPI约跌2.27%。产业证据仍偏正面，亚洲价格层明显未确认，需防止把股东回报直接等同于A股存储链上涨。",
+      "strength": 4,
+      "horizon": "1-3m",
+      "priced_in": "unknown",
+      "reason": "IPO融资有利于国产NAND扩产、设备与供应链投入，但新增产能也可能加剧中期供给竞争；对存储芯片、模组和半导体工程的影响取决于价格、良率与扩产节奏。",
       "assets": [
         "603986",
         "001309",
         "600667"
       ],
       "validation": [
-        "KOSPI能否收复开盘位，三星电子、SK海力士能否止跌",
-        "兆易创新、德明利和太极实业能否放量并相对半导体指数转强"
+        "招股文件、融资规模和产能用途是否获得正式披露",
+        "NAND报价、渠道库存与A股存储链价格能否同步转强"
       ],
       "invalidation": [
-        "韩股存储权重与A股存储链形成价格和资金共振",
-        "NAND/DRAM报价或下游采购指引转弱"
+        "IPO进程延后或融资规模显著低于预期",
+        "新增供给先于需求释放并压低NAND价格"
       ],
       "urls": [
-        "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-24/",
-        "https://www.reuters.com/world/asia-pacific/samsung-elec-convene-board-meeting-friday-discuss-shareholder-return-plan-says-2026-08-21/"
+        "https://www.eetimes.com/chinas-nand-specialist-ymtc-moves-closer-to-ipo"
       ]
     },
     {
-      "event": "伊朗新制裁公布前油价回落而黄金走强，贵金属内部出现分化",
-      "industry": "macro",
-      "industry_name": "原油 / 黄金 / 白银 / 地缘政治",
-      "direction": "mixed",
+      "event": "SK海力士将系统级存储布局由HBM拓展至HBF与CPO",
+      "industry": "semi",
+      "industry_name": "HBM / HBF / CPO / 高速光模块",
+      "direction": "positive",
       "strength": 3,
-      "horizon": "1-5d",
-      "priced_in": "partial",
-      "reason": "周一亚洲时段WTI与Brent约跌1%，黄金上涨，而白银期货小幅回落。市场在美国即将公布伊朗新制裁、伊朗威胁停止石油出口之间重新定价：油价回落减轻部分通胀压力并支持黄金，但白银没有同步，不能把黄金的避险上涨直接外推至国投白银LOF。",
-      "assets": [
-        "518880",
-        "161226"
-      ],
-      "validation": [
-        "美国制裁细节公布后原油、金银与美元的方向是否延续",
-        "黄金ETF华安对人民币金价的映射，以及国投白银LOF净值、场内价和溢价是否同步"
-      ],
-      "invalidation": [
-        "制裁缓和并推动黄金跌回突破前区间",
-        "原油反弹、实际利率和美元同步上行压制金银"
-      ],
-      "urls": [
-        "https://www.reuters.com/world/asia-pacific/oil-falls-1-ahead-us-announcement-impose-further-sanctions-iran-2026-08-23/",
-        "https://www.reuters.com/business/energy/iran-says-it-discovered-over-75-trillion-cubic-feet-gas-2026-08-23/"
-      ]
-    },
-    {
-      "event": "数据中心影子借贷与GPU金融化风险升温，AI资本开支从需求验证转向回报与杠杆约束",
-      "industry": "ai",
-      "industry_name": "AI数据中心 / CPO / 服务器PCB",
-      "direction": "negative",
-      "strength": 4,
-      "horizon": "1-4w",
-      "priced_in": "partial",
-      "reason": "新增报道集中讨论数据中心项目中的表外融资、GPU抵押和高杠杆结构，叠加长端利率高企，使AI基础设施链的估值开始面临资本回报与融资可持续性检验。该风险并不否定阿里巴巴等新增投入，但会放大高估值环节的波动和项目延期风险。",
+      "horizon": "1-3m",
+      "priced_in": "unknown",
+      "reason": "HBF与CPO路线图显示存储、互连和光通信的系统级融合正在加深，为高速光模块和高带宽存储提供中期产业证据；当前日韩科技股走弱，尚未得到价格与资金确认。",
       "assets": [
         "300308",
-        "002384",
-        "600667"
+        "603986",
+        "001309"
       ],
       "validation": [
-        "相关数据中心融资条款、资本开支回报率和云厂商自由现金流是否恶化",
-        "CPO、服务器PCB和封测板块是否出现放量下跌与资金流出共振"
+        "SK海力士是否披露客户、量产时间与资本开支安排",
+        "CPO、存储及通信设备板块能否放量并形成跨市场共振"
       ],
       "invalidation": [
-        "融资成本回落且云厂商现金流、订单和资本回报同步改善",
-        "报道所涉杠杆规模被可靠披露显著下修"
+        "路线图延后或客户验证不及预期",
+        "AI服务器资本开支下调压制高带宽互连需求"
       ],
       "urls": [
-        "https://www.tmtpost.com/8113444.html"
+        "https://www.digitimes.com/news/a20260824PD216/sk-hynix-hbm-cpo-capacity-competition.html"
       ]
     },
     {
-      "event": "美国长端利率与财政公信力风险升温，美元偏软、黄金走强但风险资产承压",
-      "industry": "macro",
-      "industry_name": "美债 / 美元 / 黄金 / 白银",
+      "event": "内存成本上涨推动AI服务器与小米部分手机提价，产业链呈现上游受益、终端承压",
+      "industry": "consumer",
+      "industry_name": "DRAM / NAND / AI服务器 / 消费电子",
       "direction": "mixed",
       "strength": 4,
       "horizon": "1-4w",
-      "priced_in": "partial",
-      "reason": "美银策略观点把扩大长债回购称为“准QE”，同时强调若长端利率无法受控，美元与风险资产可能同步承压。当前美元偏软、黄金上涨提供避险层确认，但白银与权益资产并未形成一致方向，因此不能把黄金强势无条件外推至白银或科技股。",
+      "priced_in": "unknown",
+      "reason": "服务器价格上调与手机厂商公开承认RAM成本压力，共同确认内存紧张正在向下游传导；这对存储价格和上游盈利偏正面，但可能压制服务器采购节奏、手机销量及下游硬件毛利。",
+      "assets": [
+        "603986",
+        "001309",
+        "300308",
+        "002384",
+        "000636"
+      ],
+      "validation": [
+        "DRAM、NAND报价与存储厂毛利率是否继续上行",
+        "服务器订单、手机销量和消费电子板块能否消化提价压力"
+      ],
+      "invalidation": [
+        "内存供给恢复导致报价回落",
+        "提价引发订单取消、采购延后或终端销量显著下修"
+      ],
+      "urls": [
+        "https://www.qbitai.com/2026/08/478164.html",
+        "https://www.androidauthority.com/xiaomi-smartphones-price-hike-3701917"
+      ]
+    },
+    {
+      "event": "中国研究者发起试验死亡事件促使美国议员要求FDA收紧对中国临床数据的接受",
+      "industry": "bio",
+      "industry_name": "创新药 / 临床试验 / FDA监管",
+      "direction": "negative",
+      "strength": 3,
+      "horizon": "1-4w",
+      "priced_in": "unknown",
+      "reason": "若FDA提高中国试验中心审计与数据接受门槛，可能增加跨境申报成本、延长审批周期；目前仍是议员要求而非正式监管规则，不能外推为行业全面受限。",
+      "assets": [
+        "517380"
+      ],
+      "validation": [
+        "FDA是否发布正式审查、审计或数据接受规则",
+        "港股与A股创新药、CXO板块是否出现持续资金流出"
+      ],
+      "invalidation": [
+        "FDA澄清不会扩大限制或仅针对个别试验中心",
+        "相关试验数据完成独立复核并获监管继续接受"
+      ],
+      "urls": [
+        "https://endpoints.news/china-iit-deaths-prompt-lawmakers-to-request-fda-clampdown"
+      ]
+    },
+    {
+      "event": "美元持续走弱、人民币升值并推动国际金价上行，国内金银映射出现汇率对冲",
+      "industry": "macro",
+      "industry_name": "美元 / 人民币 / 黄金 / 白银",
+      "direction": "mixed",
+      "strength": 3,
+      "horizon": "1-4w",
+      "priced_in": "medium",
+      "reason": "弱美元和美国债务担忧支持国际黄金，但人民币升值会削弱以人民币计价的涨幅；黄金ETF价格已处高位，白银与黄金表现也并不同步，需分别核验。",
       "assets": [
         "518880",
         "161226"
       ],
       "validation": [
-        "美国10年与30年期收益率、美元和金银能否形成持续方向",
-        "黄金ETF与人民币金价是否同步，白银LOF净值、场内价及溢价是否一致"
+        "美元、人民币、国际金价与国内Au99.99能否继续同向确认",
+        "黄金ETF成交量与价格是否同步，白银LOF净值、场内价及溢价是否一致"
       ],
       "invalidation": [
-        "长端收益率回落且美元与风险资产同步企稳",
-        "黄金跌回突破前区间，或白银与黄金持续背离"
+        "美元与实际利率同步上行压制贵金属",
+        "人民币快速升值抵消国际金价上涨，或白银与黄金背离扩大"
       ],
       "urls": [
-        "https://wallstreetcn.com/articles/3780113",
-        "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-24/"
+        "http://www.eeo.com.cn/2026/0824/1009289.shtml",
+        "https://www.reuters.com/world/india/gold-hits-over-3-month-high-ahead-us-inflation-data-fed-chair-speech-2026-08-24/"
       ]
     }
   ]
