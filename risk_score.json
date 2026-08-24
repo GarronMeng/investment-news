@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "generated_at": "2026-08-24T16:12:51+08:00",
-  "score": 67.3,
+  "generated_at": "2026-08-25T07:49:15+08:00",
+  "score": 70.0,
   "label": "elevated",
   "coverage": 100.0,
   "available_weight": 100,
   "components": {
     "valuation": {
-      "score": 73.4,
+      "score": 70.7,
       "weight": 20,
       "available": true,
-      "evidence": "沪深300滚动PE十年分位 73.4%"
+      "evidence": "沪深300滚动PE十年分位 70.7%"
     },
     "market_structure": {
       "score": 82.3,
@@ -19,10 +19,10 @@
       "evidence": "risk_off；上涨占比 26.3%"
     },
     "trend": {
-      "score": 73.0,
+      "score": 89.0,
       "weight": 20,
       "available": true,
-      "evidence": "MA60 below/falling；MACD bullish；RSI neutral"
+      "evidence": "MA60 below/falling；MACD bearish；RSI weak"
     },
     "leverage": {
       "score": 55.2,
@@ -45,19 +45,19 @@
   },
   "drivers": [
     {
+      "component": "trend",
+      "score": 89.0,
+      "evidence": "MA60 below/falling；MACD bearish；RSI weak"
+    },
+    {
       "component": "market_structure",
       "score": 82.3,
       "evidence": "risk_off；上涨占比 26.3%"
     },
     {
       "component": "valuation",
-      "score": 73.4,
-      "evidence": "沪深300滚动PE十年分位 73.4%"
-    },
-    {
-      "component": "trend",
-      "score": 73.0,
-      "evidence": "MA60 below/falling；MACD bullish；RSI neutral"
+      "score": 70.7,
+      "evidence": "沪深300滚动PE十年分位 70.7%"
     }
   ],
   "state_changes": [],
