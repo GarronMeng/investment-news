@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-24T10:41:26+08:00",
+  "generated_at": "2026-08-24T10:58:46+08:00",
   "timezone": "Asia/Shanghai",
   "status": "fresh",
   "report_period_code": "20260630",
@@ -446,7 +446,7 @@
     "scheduled": 12
   },
   "warnings": [
-    "stock_notice_report 20260824: ('Connection broken: IncompleteRead(69725 bytes read, 16893 more expected)', IncompleteRead(69725 bytes read, 16893 more expected)); same-day financial rows withheld",
+    "stock_notice_report 20260824: HTTPSConnectionPool(host='np-anotice-stock.eastmoney.com', port=443): Max retries exceeded with url: /api/security/ann?sr=-1&page_size=100&page_index=1&ann_type=A&client_source=web&f_node=1&s_node=0&begin_time=2026-08-24&end_time=2026-08-24 (Caused by NewConnectionError(\"HTTPSConnection(host='np-anotice-stock.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")); same-day financial rows withheld",
     "withheld 128 same-day earnings rows without corroborating public financial-report notice"
   ],
   "methodology": {
