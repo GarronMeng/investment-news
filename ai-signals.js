@@ -1,6 +1,5 @@
-// AI-generated; do not edit manually.
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-24 09:12",
+  "generated_at": "2026-08-24 09:28",
   "source_generated_at": "2026-08-24 07:47",
   "generated_by": "ChatGPT Web",
   "status": "ready",
@@ -207,7 +206,20 @@ window.AI_SIGNALS = {
     "https://www.reuters.com/business/retail-consumer/alibaba-proposes-hong-kong-share-placement-worth-10-billion-2026-08-23/": "阿里巴巴启动100亿美元香港配售以资助AI投入",
     "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-24/": "亚洲股市在伊朗制裁消息与英伟达财报前持平",
     "https://www.reuters.com/world/asia-pacific/oil-falls-1-ahead-us-announcement-impose-further-sanctions-iran-2026-08-23/": "美国公布伊朗新制裁前油价下跌",
-    "https://www.reuters.com/business/energy/iran-says-it-discovered-over-75-trillion-cubic-feet-gas-2026-08-23/": "美国誓言发动“经济D日”，伊朗威胁停止全部石油出口"
+    "https://www.reuters.com/business/energy/iran-says-it-discovered-over-75-trillion-cubic-feet-gas-2026-08-23/": "美国誓言发动“经济D日”，伊朗威胁停止全部石油出口",
+    "https://www.qbitai.com/2026/08/478164.html": "英伟达AI服务器将涨价15%！1GW数据中心成本激增50亿美元",
+    "https://www.marktechpost.com/2026/08/23/meet-freetoken-an-edge-native-moe-serving-engine-that-runs-753b-glm-5-2-on-a-single-workstation-gpu": "Meet FreeToken：边缘原生MoE推理引擎，可在单台工作站GPU上运行7530亿参数GLM-5.2",
+    "https://www.marktechpost.com/2026/08/23/building-an-end-to-end-document-intelligence-pipeline-with-deepdoctection": "使用deepDoctection构建端到端文档智能流水线",
+    "https://www.marktechpost.com/2026/08/23/vercel-introduces-is-agentic-a-free-agent-readiness-scoring-tool-that-audits-public-websites-using-oras-100-checks": "Vercel推出“Is Agentic”：利用Ora逾100项检查审计公共网站的免费智能体就绪度评分工具",
+    "https://www.techmeme.com/260823/p11": "Sam Altman称AI最终可能由少数强者控制，因对AI的恐惧或促使人们以“大量自由换取安全”",
+    "https://www.techmeme.com/260823/p10": "Greg Abbott称数据中心企业未先争取社区支持便进驻是“自掘坟墓”，显示共和党反对声浪升温",
+    "https://wallstreetcn.com/articles/3780083": "英伟达财报“万众瞩目”：Rubin周期、循环融资与远期市场份额",
+    "https://wallstreetcn.com/articles/3780076": "特朗普投资账户6月交易上千笔，金融股成重仓方向",
+    "https://finance.yahoo.com/healthcare/articles/abbott-vs-intuitive-surgical-medtech-232811319.html": "雅培与直觉外科：哪只医疗科技股的长期上涨空间更大？",
+    "https://finance.yahoo.com/healthcare/articles/gilead-hiv-business-surging-company-231505800.html": "吉利德HIV业务快速增长，但公司是否过度依赖单一业务？",
+    "https://finance.yahoo.com/healthcare/articles/pfizer-turnaround-gaining-traction-products-231313770.html": "辉瑞复苏势头增强，但新产品能否抵消专利悬崖影响？",
+    "https://finance.yahoo.com/markets/stocks/articles/johnson-johnson-5-5-billion-230104916.html": "强生55亿美元滑石粉和解协议是买入信号，还是法律风险远未结束？",
+    "https://www.cnbc.com/2026/08/23/treasury-secretary-bessent-iran-sanctions-press-conference.html": "美国财长将宣布对伊朗制裁，德黑兰驳斥“经济战争”威胁"
   },
   "overseas_markets": [
     {
