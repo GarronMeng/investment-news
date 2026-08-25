@@ -1,52 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-08-25T16:27:03+08:00",
+  "generated_at": "2026-08-26T07:53:17+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
-    {
-      "date": "2026-08-25",
-      "time": "20:15",
-      "type": "macro",
-      "category": "labor",
-      "region": "美国",
-      "title": "美国截至8月8日当周ADP就业周度发布变动(万人)",
-      "actual": null,
-      "forecast": null,
-      "previous": 0.95,
-      "importance": 2,
-      "impact_channels": [
-        "美债收益率",
-        "美元",
-        "全球成长估值",
-        "黄金/白银"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-08-26",
-      "time": "04:30",
-      "type": "macro",
-      "category": "energy",
-      "region": "美国",
-      "title": "美国截至8月21日当周API原油库存变动(万桶)",
-      "actual": null,
-      "forecast": -33.0,
-      "previous": -32.8,
-      "importance": 2,
-      "impact_channels": [
-        "原油",
-        "通胀预期",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
     {
       "date": "2026-08-26",
       "time": "18:00",
@@ -139,7 +96,7 @@
       "region": "美国",
       "title": "美国截至8月21日当周EIA原油库存变动(万桶)",
       "actual": null,
-      "forecast": -59.1,
+      "forecast": 186.0,
       "previous": 440.5,
       "importance": 2,
       "impact_channels": [
@@ -414,7 +371,7 @@
       "title": "欧元区8月核心调和CPI年率-未季调初值(%)",
       "actual": null,
       "forecast": null,
-      "previous": null,
+      "previous": 2.2,
       "importance": 2,
       "impact_channels": [
         "全球利率",
@@ -434,8 +391,8 @@
       "region": "欧元区",
       "title": "欧元区8月调和CPI年率-未季调初值(%)",
       "actual": null,
-      "forecast": null,
-      "previous": null,
+      "forecast": 3.3,
+      "previous": 2.9,
       "importance": 2,
       "impact_channels": [
         "全球利率",
@@ -457,7 +414,7 @@
       "actual": null,
       "forecast": null,
       "previous": 55.6,
-      "importance": 2,
+      "importance": null,
       "impact_channels": [
         "全球风险偏好",
         "AI资本开支预期",
@@ -774,8 +731,8 @@
     }
   ],
   "summary": {
-    "total": 35,
-    "macro": 30,
+    "total": 33,
+    "macro": 28,
     "global_earnings": 5,
     "high_importance": 3,
     "macro_days_ok": 11,
