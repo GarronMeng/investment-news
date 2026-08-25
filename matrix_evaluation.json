@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-08-25T09:58:35+08:00",
-  "history_generated_at": "2026-08-25T09:58:20+08:00",
-  "records": 130,
-  "raw_ledger_records": 139,
+  "generated_at": "2026-08-25T12:08:31+08:00",
+  "history_generated_at": "2026-08-25T12:08:18+08:00",
+  "records": 133,
+  "raw_ledger_records": 142,
   "superseded_records": 9,
   "evaluations": [
     {
@@ -3602,6 +3602,32 @@
       }
     },
     {
+      "state_id": "2f8673526f1c63cd",
+      "state_revision": 2,
+      "asset": "001309",
+      "name": "德明利",
+      "signal_date": "2026-08-24",
+      "matrix_direction": "neutral",
+      "thesis_state": "no_directional_thesis",
+      "evidence_state": "noise_or_no_edge",
+      "composite_score": -13.2,
+      "confluence": 19.8,
+      "conflict_score": 12.7,
+      "entry_date": "2026-08-24",
+      "entry_close": 400.36,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
       "state_id": "e00ecd546eb50c62",
       "state_revision": 2,
       "asset": "002384",
@@ -3784,6 +3810,32 @@
       }
     },
     {
+      "state_id": "0edb618ac4b49c12",
+      "state_revision": 2,
+      "asset": "300308",
+      "name": "中际旭创",
+      "signal_date": "2026-08-24",
+      "matrix_direction": "neutral",
+      "thesis_state": "conflicted",
+      "evidence_state": "conflict",
+      "composite_score": -5.3,
+      "confluence": 8.0,
+      "conflict_score": 87.1,
+      "entry_date": "2026-08-24",
+      "entry_close": 870.22,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
       "state_id": "b0b41b85352f8f2a",
       "state_revision": 2,
       "asset": "517380",
@@ -3940,6 +3992,32 @@
       }
     },
     {
+      "state_id": "9eb28f446590de4c",
+      "state_revision": 2,
+      "asset": "603986",
+      "name": "兆易创新",
+      "signal_date": "2026-08-24",
+      "matrix_direction": "bearish",
+      "thesis_state": "supported",
+      "evidence_state": "partial_confirmation",
+      "composite_score": -32.5,
+      "confluence": 70.4,
+      "conflict_score": 5.2,
+      "entry_date": "2026-08-24",
+      "entry_close": 381.66,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
       "state_id": "cc42b273607105b4",
       "status": "unavailable"
     },
@@ -4002,7 +4080,7 @@
       }
     },
     "conflicted": {
-      "records": 35,
+      "records": 36,
       "horizons": {
         "t1": {
           "settled": 29,
@@ -4098,7 +4176,7 @@
       }
     },
     "no_directional_thesis": {
-      "records": 11,
+      "records": 12,
       "horizons": {
         "t1": {
           "settled": 11,
@@ -4130,7 +4208,7 @@
       }
     },
     "supported": {
-      "records": 23,
+      "records": 24,
       "horizons": {
         "t1": {
           "settled": 20,
@@ -4196,7 +4274,7 @@
   },
   "by_evidence_state": {
     "conflict": {
-      "records": 35,
+      "records": 36,
       "horizons": {
         "t1": {
           "settled": 29,
@@ -4260,7 +4338,7 @@
       }
     },
     "noise_or_no_edge": {
-      "records": 19,
+      "records": 20,
       "horizons": {
         "t1": {
           "settled": 19,
@@ -4292,7 +4370,7 @@
       }
     },
     "partial_confirmation": {
-      "records": 38,
+      "records": 39,
       "horizons": {
         "t1": {
           "settled": 31,
