@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-08-25T12:26:16+08:00",
-  "history_generated_at": "2026-08-25T12:26:05+08:00",
+  "generated_at": "2026-08-25T13:35:54+08:00",
+  "history_generated_at": "2026-08-25T13:35:40+08:00",
   "summary": {
     "t1": {
       "settled": 369,
@@ -12013,6 +12013,102 @@
       "entry_close": 0.857,
       "mfe_20d": 0.045508,
       "mae_20d": -0.004667,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "43c2372955fa5888",
+      "asset": "603986",
+      "name": "兆易创新",
+      "signal_date": "2026-08-24",
+      "bias": "bearish",
+      "research_status": "watch",
+      "conviction": 28.0,
+      "entry_date": "2026-08-24",
+      "entry_close": 381.66,
+      "mfe_20d": 0.009642,
+      "mae_20d": -0.06249,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "03128861da3958a4",
+      "asset": "300308",
+      "name": "中际旭创",
+      "signal_date": "2026-08-24",
+      "bias": "bearish",
+      "research_status": "watch",
+      "conviction": 28.0,
+      "entry_date": "2026-08-24",
+      "entry_close": 870.22,
+      "mfe_20d": 0.023236,
+      "mae_20d": -0.091368,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "45134ea694ce7a69",
+      "asset": "161226",
+      "name": "国投白银LOF",
+      "signal_date": "2026-08-24",
+      "bias": "bullish",
+      "research_status": "watch",
+      "conviction": 32.0,
+      "entry_date": "2026-08-24",
+      "entry_close": 2.115,
+      "mfe_20d": 0.016548,
+      "mae_20d": -0.068558,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "0f243a068fb4b1ba",
+      "asset": "518880",
+      "name": "黄金ETF华安",
+      "signal_date": "2026-08-24",
+      "bias": "bullish",
+      "research_status": "watch",
+      "conviction": 32.0,
+      "entry_date": "2026-08-24",
+      "entry_close": 9.564,
+      "mfe_20d": 0.001882,
+      "mae_20d": -0.008783,
       "horizons": {
         "t1": {
           "status": "pending"

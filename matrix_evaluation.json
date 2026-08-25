@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-08-25T12:26:16+08:00",
-  "history_generated_at": "2026-08-25T12:26:05+08:00",
-  "records": 135,
-  "raw_ledger_records": 144,
+  "generated_at": "2026-08-25T13:35:54+08:00",
+  "history_generated_at": "2026-08-25T13:35:40+08:00",
+  "records": 137,
+  "raw_ledger_records": 146,
   "superseded_records": 9,
   "evaluations": [
     {
@@ -3732,6 +3732,32 @@
       }
     },
     {
+      "state_id": "4552093d0aa021fb",
+      "state_revision": 2,
+      "asset": "002384",
+      "name": "东山精密",
+      "signal_date": "2026-08-24",
+      "matrix_direction": "neutral",
+      "thesis_state": "no_directional_thesis",
+      "evidence_state": "noise_or_no_edge",
+      "composite_score": -12.9,
+      "confluence": 19.4,
+      "conflict_score": 43.6,
+      "entry_date": "2026-08-24",
+      "entry_close": 193.6,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
       "state_id": "ef182a56e65078d4",
       "state_revision": 2,
       "asset": "161226",
@@ -3951,6 +3977,32 @@
       "composite_score": -22.3,
       "confluence": 41.7,
       "conflict_score": 56.8,
+      "entry_date": "2026-08-24",
+      "entry_close": 0.857,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "state_id": "b4a571e3fbee9b54",
+      "state_revision": 2,
+      "asset": "517380",
+      "name": "创新药沪港深ETF天弘",
+      "signal_date": "2026-08-24",
+      "matrix_direction": "neutral",
+      "thesis_state": "no_directional_thesis",
+      "evidence_state": "noise_or_no_edge",
+      "composite_score": 19.2,
+      "confluence": 28.8,
+      "conflict_score": 0.0,
       "entry_date": "2026-08-24",
       "entry_close": 0.857,
       "horizons": {
@@ -4228,7 +4280,7 @@
       }
     },
     "no_directional_thesis": {
-      "records": 12,
+      "records": 14,
       "horizons": {
         "t1": {
           "settled": 11,
@@ -4390,7 +4442,7 @@
       }
     },
     "noise_or_no_edge": {
-      "records": 21,
+      "records": 23,
       "horizons": {
         "t1": {
           "settled": 19,
