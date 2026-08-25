@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-25T12:08:31+08:00",
+  "generated_at": "2026-08-25T12:26:16+08:00",
   "score": 64.8,
   "label": "elevated",
   "coverage": 100.0,
@@ -60,13 +60,7 @@
       "evidence": "沪深300滚动PE十年分位 70.7%"
     }
   ],
-  "state_changes": [
-    {
-      "type": "label",
-      "from": "high",
-      "to": "elevated"
-    }
-  ],
+  "state_changes": [],
   "methodology": "估值20% + 市场结构25% + 基准趋势20% + 两融15% + 海外风险10% + 集中度10%。缺失项剔除并按可用权重重新归一；高分表示环境更脆弱/压力更高，不是下跌概率。",
   "boundary": "风险温度只做环境校准，不生成买卖、仓位或止损指令。"
 }
