@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generated_at": "2026-08-25T13:35:53+08:00",
-  "score": 64.8,
-  "label": "elevated",
+  "generated_at": "2026-08-25T13:52:49+08:00",
+  "score": 54.6,
+  "label": "balanced",
   "coverage": 100.0,
   "available_weight": 100,
   "components": {
@@ -13,10 +13,10 @@
       "evidence": "沪深300滚动PE十年分位 70.7%"
     },
     "market_structure": {
-      "score": 48.3,
+      "score": 28.5,
       "weight": 25,
       "available": true,
-      "evidence": "narrow_risk_on；上涨占比 66.4%"
+      "evidence": "risk_on；上涨占比 73.6%"
     },
     "trend": {
       "score": 89.0,
@@ -37,10 +37,10 @@
       "evidence": "VIX 15.85；20日分位 65.0%"
     },
     "concentration": {
-      "score": 82.0,
+      "score": 30.0,
       "weight": 10,
       "available": true,
-      "evidence": "regime=narrow_risk_on；指数均值 -0.65% / 上涨占比 66.4%"
+      "evidence": "regime=risk_on；指数均值 -0.34% / 上涨占比 73.6%"
     }
   },
   "drivers": [
@@ -50,17 +50,28 @@
       "evidence": "MA60 below/falling；MACD bearish；RSI weak"
     },
     {
-      "component": "concentration",
-      "score": 82.0,
-      "evidence": "regime=narrow_risk_on；指数均值 -0.65% / 上涨占比 66.4%"
-    },
-    {
       "component": "valuation",
       "score": 70.7,
       "evidence": "沪深300滚动PE十年分位 70.7%"
+    },
+    {
+      "component": "overseas",
+      "score": 52.6,
+      "evidence": "VIX 15.85；20日分位 65.0%"
     }
   ],
-  "state_changes": [],
+  "state_changes": [
+    {
+      "type": "label",
+      "from": "elevated",
+      "to": "balanced"
+    },
+    {
+      "type": "score",
+      "from": 64.8,
+      "to": 54.6
+    }
+  ],
   "methodology": "估值20% + 市场结构25% + 基准趋势20% + 两融15% + 海外风险10% + 集中度10%。缺失项剔除并按可用权重重新归一；高分表示环境更脆弱/压力更高，不是下跌概率。",
   "boundary": "风险温度只做环境校准，不生成买卖、仓位或止损指令。"
 }

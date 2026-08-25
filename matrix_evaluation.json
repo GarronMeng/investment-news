@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-08-25T13:35:54+08:00",
-  "history_generated_at": "2026-08-25T13:35:40+08:00",
-  "records": 137,
-  "raw_ledger_records": 146,
+  "generated_at": "2026-08-25T13:52:49+08:00",
+  "history_generated_at": "2026-08-25T13:52:39+08:00",
+  "records": 141,
+  "raw_ledger_records": 150,
   "superseded_records": 9,
   "evaluations": [
     {
@@ -3628,6 +3628,32 @@
       }
     },
     {
+      "state_id": "963ac1312be3bfeb",
+      "state_revision": 2,
+      "asset": "001309",
+      "name": "德明利",
+      "signal_date": "2026-08-24",
+      "matrix_direction": "neutral",
+      "thesis_state": "conflicted",
+      "evidence_state": "conflict",
+      "composite_score": -5.7,
+      "confluence": 8.5,
+      "conflict_score": 77.3,
+      "entry_date": "2026-08-24",
+      "entry_close": 400.36,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
       "state_id": "e00ecd546eb50c62",
       "state_revision": 2,
       "asset": "002384",
@@ -3914,6 +3940,32 @@
       }
     },
     {
+      "state_id": "48967c6aa68d77fd",
+      "state_revision": 2,
+      "asset": "300308",
+      "name": "中际旭创",
+      "signal_date": "2026-08-24",
+      "matrix_direction": "neutral",
+      "thesis_state": "under_test",
+      "evidence_state": "noise_or_no_edge",
+      "composite_score": -19.4,
+      "confluence": 29.1,
+      "conflict_score": 47.3,
+      "entry_date": "2026-08-24",
+      "entry_close": 870.22,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
       "state_id": "b0b41b85352f8f2a",
       "state_revision": 2,
       "asset": "517380",
@@ -4018,6 +4070,32 @@
       }
     },
     {
+      "state_id": "077f57075bde0c13",
+      "state_revision": 2,
+      "asset": "517380",
+      "name": "创新药沪港深ETF天弘",
+      "signal_date": "2026-08-24",
+      "matrix_direction": "bullish",
+      "thesis_state": "emerging",
+      "evidence_state": "partial_confirmation",
+      "composite_score": 21.9,
+      "confluence": 76.6,
+      "conflict_score": 0.0,
+      "entry_date": "2026-08-24",
+      "entry_close": 0.857,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
       "state_id": "f0248778b0d609a2",
       "state_revision": 2,
       "asset": "518880",
@@ -4055,6 +4133,32 @@
       "composite_score": 6.0,
       "confluence": 8.9,
       "conflict_score": 68.3,
+      "entry_date": "2026-08-24",
+      "entry_close": 20.3,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "state_id": "7ef86d8b54f40d60",
+      "state_revision": 2,
+      "asset": "600667",
+      "name": "太极实业",
+      "signal_date": "2026-08-24",
+      "matrix_direction": "neutral",
+      "thesis_state": "under_test",
+      "evidence_state": "noise_or_no_edge",
+      "composite_score": 15.4,
+      "confluence": 23.1,
+      "conflict_score": 0.0,
       "entry_date": "2026-08-24",
       "entry_close": 20.3,
       "horizons": {
@@ -4184,7 +4288,7 @@
       }
     },
     "conflicted": {
-      "records": 36,
+      "records": 37,
       "horizons": {
         "t1": {
           "settled": 29,
@@ -4248,7 +4352,7 @@
       }
     },
     "emerging": {
-      "records": 14,
+      "records": 15,
       "horizons": {
         "t1": {
           "settled": 11,
@@ -4344,7 +4448,7 @@
       }
     },
     "under_test": {
-      "records": 9,
+      "records": 11,
       "horizons": {
         "t1": {
           "settled": 8,
@@ -4378,7 +4482,7 @@
   },
   "by_evidence_state": {
     "conflict": {
-      "records": 36,
+      "records": 37,
       "horizons": {
         "t1": {
           "settled": 29,
@@ -4442,7 +4546,7 @@
       }
     },
     "noise_or_no_edge": {
-      "records": 23,
+      "records": 25,
       "horizons": {
         "t1": {
           "settled": 19,
@@ -4474,7 +4578,7 @@
       }
     },
     "partial_confirmation": {
-      "records": 40,
+      "records": 41,
       "horizons": {
         "t1": {
           "settled": 31,
