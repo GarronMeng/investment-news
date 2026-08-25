@@ -1,6 +1,6 @@
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-25 09:29",
-  "source_generated_at": "2026-08-25 07:48",
+  "generated_at": "2026-08-25 09:56",
+  "source_generated_at": "2026-08-25 09:54",
   "generated_by": "ChatGPT Web",
   "status": "ready",
   "news_titles": {
@@ -359,7 +359,40 @@ window.AI_SIGNALS = {
     "https://news.mit.edu/2026/generating-scenarios-extreme-events-without-extreme-data-0824": "无需极端数据也能生成极端事件情景",
     "https://arstechnica.com/science/2026/08/modern-trade-of-mummified-remains-may-carry-its-own-mummys-curse": "买家注意：木乃伊遗骸可能携带有毒孢子",
     "https://www.newscientist.com/article/2586177-lack-of-sleep-may-cause-anxiety-by-making-us-less-adaptable-to-threats": "睡眠不足或因降低威胁适应能力而引发焦虑",
-    "https://www.livescience.com/health/viruses-infections-disease/severe-covid-19-may-wake-up-dormant-viruses-and-lead-to-lasting-physical-disability-study-finds": "研究发现重症新冠可能唤醒休眠病毒并导致长期身体功能障碍"
+    "https://www.livescience.com/health/viruses-infections-disease/severe-covid-19-may-wake-up-dormant-viruses-and-lead-to-lasting-physical-disability-study-finds": "研究发现重症新冠可能唤醒休眠病毒并导致长期身体功能障碍",
+    "https://techcrunch.com/2026/08/24/situational-awareness-star-ai-hedge-fund-that-nearly-imploded-now-being-probed-by-the-sec": "明星AI对冲基金Situational Awareness险些崩盘，现遭美国证交会调查",
+    "https://www.digitimes.com/news/a20260825PR202/nvidia-groq-production-rubin-demand.html": "英伟达Groq 3 LPX全面量产，加速智能体AI推理",
+    "https://www.digitimes.com/news/a20260825PR201/nvidia-data-rubin-infrastructure-cpu.html": "SpaceXAI将采用英伟达Vera CPU，大规模加速智能体AI",
+    "https://www.digitimes.com/news/a20260825PR200/ibm-arm-linux-processor-software.html": "IBM发布双架构大型机芯片，可运行Arm、z/OS与Linux工作负载",
+    "https://www.digitimes.com/news/a20260824VL215/broadcom-infrastructure-silicon-financing-demand.html": "博通推动举债融资，显示AI算力正成为华尔街资产类别",
+    "https://www.digitimes.com/news/a20260824PD233/aidc-drone-satellite-business-2026-taiwan.html": "汉翔航空看好无人机与飞机业务带动2026年下半年增长",
+    "https://www.digitimes.com/news/a20260824VL217/infrastructure-revenue-growth-profit.html": "中际旭创1.6T业务激增，显示AI网络正成为超大规模云厂商下一处瓶颈",
+    "https://www.electronicsweekly.com/blogs/mannerisms/memory-lane/iee-christmas-lectures-for-children-2026-08": "英国电气工程师学会儿童圣诞讲座",
+    "https://electrek.co/2026/08/24/tesla-semi-factory-inauguration-nevada": "特斯拉将于下月启用内华达州新Semi工厂",
+    "https://cleantechnica.com/2026/08/24/making-this-fossil-fuel-crisis-europes-last-one": "让这场化石燃料危机成为欧洲的最后一次",
+    "https://cleantechnica.com/2026/08/24/sierra-club-condemns-trump-appointed-tva-approval-of-massive-illinois-coal-mining-expansion": "塞拉俱乐部谴责特朗普任命的田纳西河谷管理局批准伊利诺伊州大型煤矿扩建",
+    "https://cleantechnica.com/2026/08/24/lynk-co-partnership-comes-to-life-as-cev-trendyol-eurovolley-2026-women-opens-in-gothenburg": "2026年欧洲女排锦标赛哥德堡开幕，领克合作项目正式亮相",
+    "https://oilprice.com/Energy/Energy-General/The-Biggest-Victims-Of-Trumps-Economic-D-Day-On-Iran.html": "特朗普对伊朗发动“经济决战日”的最大受害者",
+    "https://www.techmeme.com/260824/p39": "研究人员详述多个中国背景团体日益利用AI发动网络攻击，主要采用Kimi K3和DeepSeek等开放权重模型",
+    "https://plicara.ai/research/agent-skill-languages": "智能体技能使用哪些语言编写？",
+    "https://www.techmeme.com/260824/p38": "数据中心光互连初创公司Quintessent获4000万美元A轮融资",
+    "https://www.tmtpost.com/8115448.html": "特斯拉首次在中国车型中接入中国大模型",
+    "https://techcrunch.com/2026/08/24/oura-is-reportedly-eyeing-a-september-ipo-that-could-value-it-at-more-than-16b": "据报Oura拟于9月上市，估值或超过160亿美元",
+    "https://github.com/murerkinn/bookshelf": "Bookshelf：基于对象存储运行的自托管电子书库",
+    "https://www.techmeme.com/260824/p37": "文件显示Meta拟于8月底或9月初推出OpenClaw竞品Hatch，10月发布Watermelon模型",
+    "https://9to5mac.com/2026/08/24/openai-restores-5-hour-codex-and-work-limits-for-chatgpt-plus-users": "OpenAI恢复ChatGPT Plus用户每5小时的Codex与Work使用额度",
+    "https://9to5mac.com/2026/08/24/tom-selleck-confirmed-as-guest-star-in-upcoming-apple-tv-comedy-series": "汤姆·塞立克确认客串即将上线的Apple TV喜剧",
+    "https://9to5google.com/2026/08/24/august-2026-google-system-updates": "Android 2026年8月Google系统更新有哪些新内容？",
+    "https://www.gsmarena.com/motorolas_2027_flagships_will_officially_support_grapheneos-news-74312.php": "摩托罗拉2027年旗舰手机将正式支持GrapheneOS",
+    "https://www.dpreview.com/reviews/sony-rx10-v-review": "索尼RX10 V评测：全能型相机表现如何？",
+    "https://wallstreetcn.com/articles/3780204": "黄仁勋不停歇：芯片、数据中心、模型三线并进，英伟达以投资换锁定加固AI霸主地位",
+    "http://www.eeo.com.cn/2026/0825/1009849.shtml": "纽约金价8月24日上涨",
+    "https://seekingalpha.com/news/4636427-europe-may-need-100-gas-to-secure-sufficient-winter-supply-goldman-sachs-says": "高盛称欧洲或需每兆瓦时100欧元的天然气价格，才能确保冬季供应充足",
+    "https://seekingalpha.com/news/4636426-us-rin-prices-plunge-after-epa-delays-biofuel-compliance-deadline---reuters": "美国环保署推迟生物燃料合规期限后，RIN价格暴跌",
+    "https://www.marketwatch.com/story/shes-desperate-my-friend-was-laid-off-and-lost-her-health-insurance-how-can-she-find-affordable-coverage-3b17b553": "朋友失业并失去医疗保险，如何找到负担得起的保障？",
+    "https://seekingalpha.com/news/4636425-exxon-turning-to-more-automated-drilling-in-the-permian-basin-to-boost-production---report": "报道称埃克森美孚将在二叠纪盆地采用更多自动化钻井以提高产量",
+    "https://www.cnbc.com/2026/08/24/paramount-ceo-david-ellison-wbd-acquisition-final-hurdle.html": "派拉蒙CEO戴维·埃里森收购华纳兄弟探索已到最后关卡，但仍未能跨越",
+    "https://www.marketwatch.com/story/my-father-in-law-passed-away-leaving-a-house-with-tenants-do-i-evict-them-f974428c": "岳父去世后留下一套有租客的房子，我该驱逐他们吗？"
   },
   "overseas_markets": [
     {
@@ -424,6 +457,33 @@ window.AI_SIGNALS = {
     }
   ],
   "signals": [
+    {
+      "event": "英伟达Groq 3 LPX进入全面量产，SpaceXAI计划采用Vera CPU，中际旭创1.6T增长凸显推理与网络互连瓶颈",
+      "industry": "semi",
+      "industry_name": "AI推理 / 1.6T光模块 / CPO / 服务器互连",
+      "direction": "positive",
+      "strength": 4,
+      "horizon": "1-4w",
+      "priced_in": "unknown",
+      "reason": "Groq 3 LPX量产与Vera CPU部署计划强化智能体推理算力需求，中际旭创1.6T业务增长则显示高速网络正成为超大规模集群的新瓶颈；但今早科创创业ETF与科技指数仍偏弱，需求逻辑尚未获得A股价格层确认。",
+      "assets": [
+        "300308",
+        "002384"
+      ],
+      "validation": [
+        "中际旭创、CPO与通信设备板块能否放量跑赢创业板和科创50",
+        "英伟达Rubin/Vera相关客户部署、网络采购与资本开支是否继续上修"
+      ],
+      "invalidation": [
+        "客户部署或量产节奏推迟，1.6T订单未按预期扩散",
+        "云厂商下调AI资本开支或高速互连采购指引"
+      ],
+      "urls": [
+        "https://www.digitimes.com/news/a20260825PR202/nvidia-groq-production-rubin-demand.html",
+        "https://www.digitimes.com/news/a20260825PR201/nvidia-data-rubin-infrastructure-cpu.html",
+        "https://www.digitimes.com/news/a20260824VL217/infrastructure-revenue-growth-profit.html"
+      ]
+    },
     {
       "event": "佰维存储半年报显著增长，研究池存储主线已披露样本增至3/5；但A股半导体与隔夜费半同步走弱",
       "industry": "semi",
