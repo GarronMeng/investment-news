@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-25T09:40:43+08:00",
+  "generated_at": "2026-08-25T10:01:48+08:00",
   "timezone": "Asia/Shanghai",
   "status": "fresh",
   "report_period_code": "20260630",
@@ -446,7 +446,7 @@
     "scheduled": 12
   },
   "warnings": [
-    "stock_notice_report 20260825: ('Connection broken: IncompleteRead(38861 bytes read, 47079 more expected)', IncompleteRead(38861 bytes read, 47079 more expected)); same-day financial rows withheld",
+    "stock_notice_report 20260825: ('Connection broken: IncompleteRead(60581 bytes read, 29763 more expected)', IncompleteRead(60581 bytes read, 29763 more expected)); same-day financial rows withheld",
     "withheld 648 same-day earnings rows without corroborating public financial-report notice"
   ],
   "methodology": {
