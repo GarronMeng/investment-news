@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generated_at": "2026-08-25T09:37:18+08:00",
+  "generated_at": "2026-08-25T09:51:49+08:00",
   "source": {
     "data_generated_at": "2026-08-25 07:48",
     "ai_generated_at": "2026-08-25 09:29",
     "ai_source_generated_at": "2026-08-25 07:48",
-    "features_generated_at": "2026-08-25T09:37:10+08:00",
+    "features_generated_at": "2026-08-25T09:51:40+08:00",
     "fresh_ai": true
   },
   "decisions": [
@@ -36,7 +36,7 @@
     {
       "asset": "001309",
       "name": "德明利",
-      "as_of": "2026-08-24",
+      "as_of": "2026-08-25",
       "bias": "neutral",
       "status": "neutral",
       "event_score": 50.0,
@@ -46,7 +46,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 2,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=0.023422",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=0.098361",
       "confirmation": [
         "兆易创新、德明利能否相对半导体指数转强且行业净流出显著收窄",
         "NAND报价、企业级SSD订单与存储厂毛利率能否继续上行"
@@ -84,17 +84,17 @@
     {
       "asset": "002384",
       "name": "东山精密",
-      "as_of": "2026-08-24",
-      "bias": "neutral",
+      "as_of": "2026-08-25",
+      "bias": "bullish",
       "status": "neutral",
       "event_score": 50.0,
-      "market_score": 35.0,
+      "market_score": 75.0,
       "freshness_score": 100,
-      "conviction": 12.0,
+      "conviction": 20.0,
       "evidence_mode": "event_plus_market",
       "event_count": 2,
-      "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=-0.059852",
+      "trend_state": "bullish",
+      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.031229",
       "confirmation": [
         "中际旭创与CPO板块能否放量强于通信设备指数，行业资金流由大额净流出转向改善",
         "8月26日英伟达财报是否继续确认AI服务器资本开支与高速互连需求"
@@ -108,17 +108,17 @@
     {
       "asset": "600667",
       "name": "太极实业",
-      "as_of": "2026-08-24",
-      "bias": "bullish",
+      "as_of": "2026-08-25",
+      "bias": "neutral",
       "status": "neutral",
       "event_score": 50.0,
-      "market_score": 75.0,
+      "market_score": 55.0,
       "freshness_score": 100,
-      "conviction": 20.0,
+      "conviction": 4.0,
       "evidence_mode": "event_plus_market",
       "event_count": 1,
-      "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.159322",
+      "trend_state": "mixed",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=0.071692",
       "confirmation": [
         "兆易创新、德明利能否相对半导体指数转强且行业净流出显著收窄",
         "NAND报价、企业级SSD订单与存储厂毛利率能否继续上行"
@@ -132,7 +132,7 @@
     {
       "asset": "000636",
       "name": "风华高科",
-      "as_of": "2026-08-24",
+      "as_of": "2026-08-25",
       "bias": "neutral",
       "status": "neutral",
       "event_score": 50.0,
@@ -142,7 +142,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=0.199882",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=0.182796",
       "confirmation": [
         "内存报价与存储厂毛利率继续上行，同时手机和服务器订单未明显下修",
         "元件、消费电子与通信设备行业资金流能否改善"

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-08-25T09:37:10+08:00",
-  "source_generated_at": "2026-08-25T09:37:10+08:00",
+  "generated_at": "2026-08-25T09:51:40+08:00",
+  "source_generated_at": "2026-08-25T09:51:40+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -66,27 +66,27 @@
     "001309": {
       "code": "001309",
       "name": "德明利",
-      "as_of": "2026-08-24",
+      "as_of": "2026-08-25",
       "source_status": "fresh",
       "observations": 140,
-      "close": 400.36,
+      "close": 387.41,
       "ma60": {
-        "value": 594.509,
+        "value": 591.009,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.006673
+        "slope_pct": -0.005887
       },
-      "rsi14": 40.37,
+      "rsi14": 38.55,
       "rsi_zone": "weak",
       "macd": {
-        "dif": -40.25953,
-        "dea": -53.95674,
-        "hist": 27.39441,
+        "dif": -39.05844,
+        "dea": -50.97717,
+        "hist": 23.83746,
         "state": "bullish",
-        "cross_age": 11
+        "cross_age": 12
       },
       "volume": {
-        "ratio20": 0.637,
+        "ratio20": 0.116,
         "state": "contraction"
       },
       "breakout_20d": "inside_range",
@@ -126,87 +126,87 @@
     "002384": {
       "code": "002384",
       "name": "东山精密",
-      "as_of": "2026-08-24",
+      "as_of": "2026-08-25",
       "source_status": "fresh",
       "observations": 140,
-      "close": 193.6,
+      "close": 191.61,
       "ma60": {
-        "value": 221.6048,
+        "value": 221.6025,
         "position": "below",
-        "direction": "falling",
-        "slope_pct": -0.001461
+        "direction": "flat",
+        "slope_pct": -1.1e-05
       },
-      "rsi14": 45.62,
-      "rsi_zone": "neutral",
+      "rsi14": 44.85,
+      "rsi_zone": "weak",
       "macd": {
-        "dif": -3.95562,
-        "dea": -6.0191,
-        "hist": 4.12695,
+        "dif": -4.28388,
+        "dea": -5.67215,
+        "hist": 2.77653,
         "state": "bullish",
-        "cross_age": 9
+        "cross_age": 10
       },
       "volume": {
-        "ratio20": 0.908,
-        "state": "normal"
-      },
-      "breakout_20d": "inside_range",
-      "data_quality": "usable",
-      "condition_state": "partial_conditions"
-    },
-    "600667": {
-      "code": "600667",
-      "name": "太极实业",
-      "as_of": "2026-08-24",
-      "source_status": "fresh",
-      "observations": 140,
-      "close": 20.3,
-      "ma60": {
-        "value": 20.4892,
-        "position": "below",
-        "direction": "rising",
-        "slope_pct": 0.006089
-      },
-      "rsi14": 48.96,
-      "rsi_zone": "neutral",
-      "macd": {
-        "dif": 0.54978,
-        "dea": 0.44755,
-        "hist": 0.20446,
-        "state": "bullish",
-        "cross_age": 12
-      },
-      "volume": {
-        "ratio20": 0.573,
+        "ratio20": 0.174,
         "state": "contraction"
       },
       "breakout_20d": "inside_range",
       "data_quality": "usable",
-      "condition_state": "partial_conditions"
+      "condition_state": "conditions_not_met"
+    },
+    "600667": {
+      "code": "600667",
+      "name": "太极实业",
+      "as_of": "2026-08-25",
+      "source_status": "fresh",
+      "observations": 140,
+      "close": 19.2,
+      "ma60": {
+        "value": 20.5828,
+        "position": "below",
+        "direction": "rising",
+        "slope_pct": 0.004572
+      },
+      "rsi14": 45.25,
+      "rsi_zone": "neutral",
+      "macd": {
+        "dif": 0.35304,
+        "dea": 0.42863,
+        "hist": -0.15118,
+        "state": "bearish",
+        "cross_age": 0
+      },
+      "volume": {
+        "ratio20": 0.169,
+        "state": "contraction"
+      },
+      "breakout_20d": "inside_range",
+      "data_quality": "usable",
+      "condition_state": "conditions_not_met"
     },
     "000636": {
       "code": "000636",
       "name": "风华高科",
-      "as_of": "2026-08-24",
+      "as_of": "2026-08-25",
       "source_status": "fresh",
       "observations": 140,
-      "close": 51.91,
+      "close": 49.94,
       "ma60": {
-        "value": 59.525,
+        "value": 59.4398,
         "position": "below",
-        "direction": "flat",
-        "slope_pct": -0.000313
+        "direction": "falling",
+        "slope_pct": -0.001431
       },
-      "rsi14": 43.4,
+      "rsi14": 41.08,
       "rsi_zone": "weak",
       "macd": {
-        "dif": 0.4252,
-        "dea": 1.13251,
-        "hist": -1.41461,
+        "dif": -0.16906,
+        "dea": 0.87218,
+        "hist": -2.08249,
         "state": "bearish",
-        "cross_age": 2
+        "cross_age": 3
       },
       "volume": {
-        "ratio20": 0.568,
+        "ratio20": 0.13,
         "state": "contraction"
       },
       "breakout_20d": "inside_range",
@@ -304,7 +304,57 @@
       "condition_state": "partial_conditions"
     }
   },
-  "state_changes": [],
+  "state_changes": [
+    {
+      "code": "002384",
+      "name": "东山精密",
+      "field": "ma60_direction",
+      "from": "falling",
+      "to": "flat"
+    },
+    {
+      "code": "002384",
+      "name": "东山精密",
+      "field": "rsi_zone",
+      "from": "neutral",
+      "to": "weak"
+    },
+    {
+      "code": "002384",
+      "name": "东山精密",
+      "field": "volume",
+      "from": "normal",
+      "to": "contraction"
+    },
+    {
+      "code": "002384",
+      "name": "东山精密",
+      "field": "condition_state",
+      "from": "partial_conditions",
+      "to": "conditions_not_met"
+    },
+    {
+      "code": "600667",
+      "name": "太极实业",
+      "field": "macd",
+      "from": "bullish",
+      "to": "bearish"
+    },
+    {
+      "code": "600667",
+      "name": "太极实业",
+      "field": "condition_state",
+      "from": "partial_conditions",
+      "to": "conditions_not_met"
+    },
+    {
+      "code": "000636",
+      "name": "风华高科",
+      "field": "ma60_direction",
+      "from": "flat",
+      "to": "falling"
+    }
+  ],
   "methodology": {
     "rsi14": "Wilder RSI(14)",
     "macd": "EMA12/EMA26 DIF, EMA9 signal, histogram=(DIF-DEA)*2",

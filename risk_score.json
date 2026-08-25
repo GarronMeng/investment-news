@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generated_at": "2026-08-25T09:37:18+08:00",
-  "score": 70.0,
-  "label": "elevated",
+  "generated_at": "2026-08-25T09:51:49+08:00",
+  "score": 71.7,
+  "label": "high",
   "coverage": 100.0,
   "available_weight": 100,
   "components": {
@@ -25,16 +25,16 @@
       "evidence": "MA60 below/falling；MACD bearish；RSI weak"
     },
     "leverage": {
-      "score": 55.2,
+      "score": 48.6,
       "weight": 15,
       "available": true,
-      "evidence": "两融5日变化 0.65%（20日基线尚未完整）"
+      "evidence": "两融5日变化 -0.17%（20日基线尚未完整）"
     },
     "overseas": {
-      "score": 25.6,
+      "score": 52.6,
       "weight": 10,
       "available": true,
-      "evidence": "VIX 15.13；20日分位 30.0%"
+      "evidence": "VIX 15.85；20日分位 65.0%"
     },
     "concentration": {
       "score": 66.0,
@@ -60,7 +60,13 @@
       "evidence": "沪深300滚动PE十年分位 70.7%"
     }
   ],
-  "state_changes": [],
+  "state_changes": [
+    {
+      "type": "label",
+      "from": "elevated",
+      "to": "high"
+    }
+  ],
   "methodology": "估值20% + 市场结构25% + 基准趋势20% + 两融15% + 海外风险10% + 集中度10%。缺失项剔除并按可用权重重新归一；高分表示环境更脆弱/压力更高，不是下跌概率。",
   "boundary": "风险温度只做环境校准，不生成买卖、仓位或止损指令。"
 }
