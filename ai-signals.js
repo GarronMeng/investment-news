@@ -1,9 +1,51 @@
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-25 09:56",
-  "source_generated_at": "2026-08-25 09:54",
+  "generated_at": "2026-08-25 13:33",
+  "source_generated_at": "2026-08-25 12:25",
   "generated_by": "ChatGPT Web",
   "status": "ready",
   "news_titles": {
+    "https://arxiv.org/abs/2608.21362": "KVBoost：通过偏差引导重计算实现分块级键值缓存复用，提升大语言模型推理效率",
+    "https://arxiv.org/abs/2608.21363": "AIREP：面向AI运行时治理的逐决策证据协议",
+    "https://arxiv.org/abs/2608.21366": "模型坍塌及其应对措施综述",
+    "https://arxiv.org/abs/2608.21372": "隐藏规则游戏中的AI学习与概念迁移",
+    "https://arxiv.org/abs/2608.21374": "LitReview Arena：用对战式同行评审平台评估文献综述智能体",
+    "https://arxiv.org/abs/2608.21375": "SchemaRouter：面向异构智能体RAG的字段感知高效工具路由",
+    "https://huggingface.co/blog/gradio-workflow-guide": "连接、运行、部署：Gradio中的AI工作流",
+    "https://www.digitimes.com/news/a20260825PD214/foxconn-fii-demand-taiwan-investment.html": "AI热潮推动鸿海在台湾上市公司中国大陆投资收益中占比超过40%，工业富联领跑",
+    "https://www.digitimes.com/news/a20260825VL212/taiwan-semiconductor-supply-chain-taiwan-tsmc-plant-materials.html": "据报台积电供应商计划在台湾建设关键芯片制造管材工厂",
+    "https://www.digitimes.com/news/a20260825VL203/capacity-taiwan-data-demand-cooling.html": "AI电力紧张冲击台湾：晶圆代工产能趋紧，芯片价格或在2026年下半年上涨",
+    "https://www.digitimes.com/news/a20260825PD212/rubin-asic-nvidia-supply-chain-shipments.html": "ASIC与通用服务器支撑供应链，Vera Rubin换代空档影响缓解",
+    "https://www.digitimes.com/news/a20260825PD218/investment-government-chipmakers-demand-production.html": "投资压力上升，美国首次对韩国800万亿韩元芯片集群表达不满",
+    "https://www.digitimes.com/news/a20260825PR205/president-manufacturing-equipment-ceo-2026.html": "库力索法任命Raj Talluri为首席执行官",
+    "https://semiwiki.com/semiconductor-services/372299-avestra-agentic-ai-for-systemverilog-assertion-generation": "Avestra：用于生成SystemVerilog断言的智能体AI",
+    "https://cnevpost.com/2026/08/25/wall-street-on-xpeng-robot-financing": "华尔街认为小鹏机器人融资将成为释放估值的催化剂",
+    "https://techcrunch.com/2026/08/24/indias-airbound-bags-37m-to-take-on-trucks-with-rocket-like-drones": "印度Airbound融资3700万美元，以火箭式无人机挑战卡车运输",
+    "https://www.pv-magazine.com/2026/08/25/brazils-plan-for-a-battery-supply-chain": "巴西建设电池供应链的计划",
+    "https://cleantechnica.com/2026/08/24/massachusetts-is-taking-steps-to-lower-energy-costs-lets-get-the-details-right": "马萨诸塞州正采取措施降低能源成本，关键在于把细节做对",
+    "https://cleantechnica.com/2026/08/24/when-do-you-trade-in-your-ev-for-a-new-one": "什么时候该把电动车置换成新车？",
+    "https://www.biopharmadive.com/news/massbio-industry-biotech-vc-ipo-funding-licensing/828621": "MassBio称年轻初创企业未能分享到生物科技风投资金复苏",
+    "https://www.space.com/space-exploration/international-space-station/watch-2-astronauts-replace-failed-iss-antenna-during-spacewalk-today": "观看两名宇航员在今日太空行走中更换国际空间站故障天线",
+    "https://www.wired.com/story/us-data-centers-drive-gas-power-expansion": "数据中心正推动美国天然气发电大规模扩张，引发担忧",
+    "https://www.laude.org/updates/headlong-a-microharness-for-persistent-agents": "Headlong：面向持久化智能体的微型运行框架",
+    "https://www.engadget.com/2243391/how-to-watch-the-nancy-grace-roman-space-telescopes-launch": "如何观看南希·格雷斯·罗曼太空望远镜发射",
+    "https://news.ycombinator.com/item": "Ask HN：有哪些不错的20英寸以上大尺寸触控电子纸显示器？",
+    "https://www.techmeme.com/260824/p42": "消息称英伟达支持的云计算公司Lambda拟融资最多30亿美元，估值超过120亿美元",
+    "https://www.techmeme.com/260824/p41": "消息称苹果即将推出新款Mac mini，可能早于9月iPhone发布会",
+    "https://www.thomsonreuters.com/en/press-releases/2026/august/thomson-reuters-leverages-its-world-class-data-assets-to-launch-its-own-frontier-model": "汤森路透推出自研前沿模型",
+    "https://www.gsmarena.com/samsung_led_southeast_asia_smartphone_market_in_q2_was_the_only_brand_growing-news-74311.php": "三星领跑第二季度东南亚智能手机市场，也是唯一实现增长的品牌",
+    "https://9to5mac.com/2026/08/24/apple-could-debut-two-airpods-5-models-next-month-per-report": "报道称苹果可能于下月推出两款AirPods 5",
+    "https://9to5mac.com/2026/08/24/report-new-mac-mini-could-launch-before-apples-september-event": "报道称新款Mac mini可能在苹果9月发布会前推出",
+    "https://www.gsmarena.com/sony_xperia_10_viii-review-2992.php": "索尼Xperia 10 VIII评测",
+    "https://www.gsmarena.com/sony_xperia_10_viii_is_a_350_midranger_with_a_600_starting_price_-news-74308.php": "索尼Xperia 10 VIII正式发布，保留microSD卡槽但升级有限",
+    "https://wallstreetcn.com/articles/3780220": "马斯克坦承Grok落后，收购Cursor只为追赶AI对手",
+    "https://seekingalpha.com/news/4636431-tuya-non-gaap-epads-of-003-in-line-revenue-of-929m-beats-by-507m": "涂鸦智能非GAAP每股ADS收益0.03美元符合预期，营收9290万美元超预期507万美元",
+    "https://www.cnbc.com/2026/08/25/xpeng-shares-robot-valuation-china.html": "交付指引疲弱盖过机器人业务63亿美元估值，小鹏汽车股价下跌",
+    "https://seekingalpha.com/news/4636428-waste-management-declares-0_945-dividend": "Waste Management宣布派发每股0.945美元股息",
+    "https://www.ft.com/content/acb64e29-a3ce-4282-82b0-6b7b5dd4f63e": "伊朗战争推高成本，美国粮食种植户遭受重创",
+    "https://www.ft.com/content/02e197fb-e6dc-426b-a952-72cc906a2733": "社会主义者与MAGA阵营对经济自由主义的看法都错了",
+    "https://www.ft.com/content/5d54c148-861e-45f3-b867-821705c212a7": "联合国秘书长称超级大国正认识到自身局限",
+    "https://www.ft.com/content/d18b330f-1cc2-4f83-9720-5ab5b13981e4": "摩根大通放宽股票质押贷款做法，以争取AI创造的新财富",
+    "https://www.ft.com/content/db7494b8-c590-4a50-8644-211d154a8f7b": "“瑞士制造”面临的威胁",
     "https://www.marktechpost.com/2026/08/21/best-gpu-neoclouds-2026": "2026年GPU新云服务商排名：CoreWeave、Nebius、Lambda、Crusoe与Groq的定价及签约电力比较",
     "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine": "Anthropic的Opus 4.6被指可轻易绕过色情内容限制",
     "https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf": "英伟达与数据中心开发商Cloverleaf达成合作",
@@ -420,17 +462,17 @@ window.AI_SIGNALS = {
       "market": "日股",
       "flag": "🇯🇵",
       "session": "2026-08-25 早盘",
-      "updated_at": "2026-08-25 10:13 JST",
+      "updated_at": "2026-08-25 12:27 北京时间",
       "status": "pending",
-      "status_label": "偏弱，开盘来源待统一",
-      "move": "日经225前收65,528.09点；官方页面显示开盘65,195.26点、低开约0.51%，10:13 JST报64,983.39点、跌0.83%。另一报价页显示开盘约65,212.50点，精确开盘值不一致。",
-      "driver": "隔夜美国芯片股下跌向日本电子、半导体设备与材料链传导。",
+      "status_label": "来源冲突，待日终核验",
+      "move": "前收65,528.09点；早盘官方与第三方报价曾显示约跌0.83%，而仓库12:27的Yahoo日线快照为65,751.75点、涨0.34%。观测时刻与数值不一致，不能作为同刻交叉验证。",
+      "driver": "隔夜美国芯片股下跌构成压力，但日内是否完成修复须等待统一口径。",
       "a_share_links": [
         "半导体工程 / 封测",
         "被动元件",
         "存储"
       ],
-      "validation": "核验东京电子、爱德万测试和村田能否在午前止跌，并等待官方日终OHLC确认开盘点位。",
+      "validation": "等待日经官方日终OHLC，并核验东京电子、爱德万测试和村田的收盘方向。",
       "sources": [
         "https://indexes.nikkei.co.jp/en/nkave/index/profile?cid=1&idx=nk225",
         "https://www.investing.com/indices/japan-ni225"
@@ -440,10 +482,10 @@ window.AI_SIGNALS = {
       "market": "韩股",
       "flag": "🇰🇷",
       "session": "2026-08-25 早盘",
-      "updated_at": "2026-08-25 10:20 KST附近",
+      "updated_at": "2026-08-25 12:27 北京时间",
       "status": "pending",
       "status_label": "报价来源冲突，待验证",
-      "move": "公开报价页显示KOSPI早盘约6,530点、跌约2.5%，但同页缓存值与开盘点位存在冲突；缺少KRX独立复核，精确幅度不作为已确认事实。",
+      "move": "仓库Yahoo日线快照显示KOSPI 6,665.93点、跌0.46%；早盘另一公开报价曾显示约跌2.5%，缺少KRX同刻复核，因此精确幅度仍不作为已确认事实。",
       "driver": "隔夜费半下跌及存储股调整对三星电子、SK海力士构成负向映射。",
       "a_share_links": [
         "存储",
@@ -458,41 +500,41 @@ window.AI_SIGNALS = {
   ],
   "signals": [
     {
-      "event": "英伟达Groq 3 LPX进入全面量产，SpaceXAI计划采用Vera CPU，中际旭创1.6T增长凸显推理与网络互连瓶颈",
+      "event": "英伟达推理与Rubin生态继续扩张，但台湾电力和晶圆产能趋紧成为新增供给约束",
       "industry": "semi",
       "industry_name": "AI推理 / 1.6T光模块 / CPO / 服务器互连",
-      "direction": "positive",
+      "direction": "mixed",
       "strength": 4,
       "horizon": "1-4w",
       "priced_in": "unknown",
-      "reason": "Groq 3 LPX量产与Vera CPU部署计划强化智能体推理算力需求，中际旭创1.6T业务增长则显示高速网络正成为超大规模集群的新瓶颈；但今早科创创业ETF与科技指数仍偏弱，需求逻辑尚未获得A股价格层确认。",
+      "reason": "Groq 3 LPX量产、Vera CPU部署与1.6T互连增长继续确认需求；新增报道显示台湾AI用电紧张、晶圆产能趋紧并可能推高2026年下半年芯片价格。午后科创50转涨但创业板仍弱，需求和供给逻辑尚未形成一致价格确认。",
       "assets": [
         "300308",
         "002384"
       ],
       "validation": [
         "中际旭创、CPO与通信设备板块能否放量跑赢创业板和科创50",
-        "英伟达Rubin/Vera相关客户部署、网络采购与资本开支是否继续上修"
+        "Rubin/Vera客户部署与1.6T网络采购是否继续上修，供电及产能约束是否推迟交付"
       ],
       "invalidation": [
         "客户部署或量产节奏推迟，1.6T订单未按预期扩散",
         "云厂商下调AI资本开支或高速互连采购指引"
       ],
       "urls": [
-        "https://www.digitimes.com/news/a20260825PR202/nvidia-groq-production-rubin-demand.html",
-        "https://www.digitimes.com/news/a20260825PR201/nvidia-data-rubin-infrastructure-cpu.html",
+        "https://www.digitimes.com/news/a20260825VL203/capacity-taiwan-data-demand-cooling.html",
+        "https://www.digitimes.com/news/a20260825PD212/rubin-asic-nvidia-supply-chain-shipments.html",
         "https://www.digitimes.com/news/a20260824VL217/infrastructure-revenue-growth-profit.html"
       ]
     },
     {
-      "event": "佰维存储半年报显著增长，研究池存储主线已披露样本增至3/5；但A股半导体与隔夜费半同步走弱",
+      "event": "存储研究池当前仅确认2/5样本披露且均为正增长；同日公告抓取异常，新增业绩暂不外推",
       "industry": "semi",
       "industry_name": "存储 / NAND / 企业级SSD",
       "direction": "mixed",
-      "strength": 5,
+      "strength": 4,
       "horizon": "1-4w",
       "priced_in": "unknown",
-      "reason": "佰维存储上半年营收同比增长298.10%、归母净利润增长3273.48%，存储研究样本3/5均为正增长，强化需求与价格景气证据；但昨日半导体跌2.10%、净流出150.44亿元，隔夜费半跌2.70%，基本面与价格资金层明显冲突。",
+      "reason": "最新主题财报文件只确认兆易创新与江波龙2/5样本披露且均为正增长；因当日公告抓取不完整，佰维存储等同日数据被暂缓纳入。半导体午间仍跌1.77%，价格层尚未确认基本面扩散。",
       "assets": [
         "603986",
         "001309",
@@ -503,7 +545,7 @@ window.AI_SIGNALS = {
         "NAND报价、企业级SSD订单与存储厂毛利率能否继续上行"
       ],
       "invalidation": [
-        "德明利8月28日半年报或后续存储样本显著弱于当前分布",
+        "德明利8月28日半年报或后续已核验存储样本显著弱于当前分布",
         "海外存储股和A股存储链继续放量下跌，且NAND报价转弱"
       ],
       "urls": [
@@ -513,14 +555,14 @@ window.AI_SIGNALS = {
       ]
     },
     {
-      "event": "新易盛半年报披露后，AI光通信/CPO研究池3/3样本均已披露并保持正增长；价格资金层仍未确认",
+      "event": "AI光通信/CPO研究池当前确认2/3样本正增长，新易盛同日披露尚待公告层复核",
       "industry": "semi",
       "industry_name": "AI光通信 / CPO / 高速光模块",
       "direction": "mixed",
-      "strength": 5,
+      "strength": 4,
       "horizon": "1-4w",
       "priced_in": "unknown",
-      "reason": "新易盛上半年营收同比增长100.34%、归母净利润增长90.98%，使研究池CPO样本达到3/3且全部正增长；但昨日通信设备跌1.47%、净流出130.85亿元，隔夜AI芯片继续承压，业绩兑现能否转化为价格承接仍待验证。",
+      "reason": "最新主题财报文件确认中际旭创、天孚通信2/3样本正增长；新易盛仍显示scheduled，不能把未获公告层复核的数据当作已披露。隔夜费半跌2.70%，午后科技指数仅局部修复。",
       "assets": [
         "300308",
         "002384"
@@ -568,14 +610,14 @@ window.AI_SIGNALS = {
       ]
     },
     {
-      "event": "创新药监管风险获得A股价格与资金负反馈，但尚未形成新的正式FDA规则",
+      "event": "创新药在前一日重挫后出现局部修复，但仍未解除0.880下方的价格弱势",
       "industry": "bio",
       "industry_name": "创新药 / 临床试验 / FDA监管",
-      "direction": "negative",
+      "direction": "mixed",
       "strength": 4,
       "horizon": "1-4w",
       "priced_in": "medium",
-      "reason": "此前美国议员要求FDA收紧对中国临床数据的接受仍未升级为正式规则；新增变化是昨日生物制品跌4.47%、化学制药跌2.88%且净流出48.28亿元，负向事件开始获得价格与资金层确认，但不能据此外推所有创新药公司基本面恶化。",
+      "reason": "监管担忧尚未升级为正式FDA规则；午后药明康德涨2.71%、药明生物涨5.25%，创新药ETF反弹约2.22%，但仍在0.880下方，说明行业修复存在而核心价格弱势尚未解除。",
       "assets": [
         "517380"
       ],
@@ -593,14 +635,14 @@ window.AI_SIGNALS = {
       ]
     },
     {
-      "event": "黄金继续上涨而白银近乎持平，贵金属内部由共振转为分化",
+      "event": "外盘黄金续涨而白银下跌，黄金ETF冲高回落，贵金属分化扩大",
       "industry": "macro",
       "industry_name": "黄金 / 白银 / 美元 / 实际利率",
       "direction": "mixed",
       "strength": 4,
       "horizon": "1-5d",
       "priced_in": "medium",
-      "reason": "黄金期货上涨2.34%，A股贵金属行业上涨3.19%；白银期货仅跌0.04%，金银不再同步。黄金ETF华安获得跨市场确认，而国投白银LOF仍须独立核验净值、场内价格、溢价和交易限制。",
+      "reason": "12:27跨资产快照显示黄金期货涨1.11%、白银期货跌0.81%；黄金ETF华安午后约跌0.21%，日内高9.620后回落。外盘黄金与ETF短线不同步，国投白银LOF还须独立核验净值、场内价格、溢价及交易限制。",
       "assets": [
         "518880",
         "161226"
