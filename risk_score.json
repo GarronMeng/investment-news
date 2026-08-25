@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-08-25T13:52:49+08:00",
-  "score": 54.6,
+  "generated_at": "2026-08-25T15:13:52+08:00",
+  "score": 54.4,
   "label": "balanced",
   "coverage": 100.0,
   "available_weight": 100,
@@ -13,10 +13,10 @@
       "evidence": "沪深300滚动PE十年分位 70.7%"
     },
     "market_structure": {
-      "score": 28.5,
+      "score": 27.5,
       "weight": 25,
       "available": true,
-      "evidence": "risk_on；上涨占比 73.6%"
+      "evidence": "risk_on；上涨占比 76.3%"
     },
     "trend": {
       "score": 89.0,
@@ -40,7 +40,7 @@
       "score": 30.0,
       "weight": 10,
       "available": true,
-      "evidence": "regime=risk_on；指数均值 -0.34% / 上涨占比 73.6%"
+      "evidence": "regime=risk_on；指数均值 -0.16% / 上涨占比 76.3%"
     }
   },
   "drivers": [
@@ -60,18 +60,7 @@
       "evidence": "VIX 15.85；20日分位 65.0%"
     }
   ],
-  "state_changes": [
-    {
-      "type": "label",
-      "from": "elevated",
-      "to": "balanced"
-    },
-    {
-      "type": "score",
-      "from": 64.8,
-      "to": 54.6
-    }
-  ],
+  "state_changes": [],
   "methodology": "估值20% + 市场结构25% + 基准趋势20% + 两融15% + 海外风险10% + 集中度10%。缺失项剔除并按可用权重重新归一；高分表示环境更脆弱/压力更高，不是下跌概率。",
   "boundary": "风险温度只做环境校准，不生成买卖、仓位或止损指令。"
 }
