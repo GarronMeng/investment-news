@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-08-25T07:49:15+08:00",
-  "history_generated_at": "2026-08-25T07:49:06+08:00",
-  "records": 120,
-  "raw_ledger_records": 129,
+  "generated_at": "2026-08-25T09:37:18+08:00",
+  "history_generated_at": "2026-08-25T09:37:10+08:00",
+  "records": 122,
+  "raw_ledger_records": 131,
   "superseded_records": 9,
   "evaluations": [
     {
@@ -19,7 +19,7 @@
       "confluence": 65.0,
       "conflict_score": 14.0,
       "entry_date": "2026-08-18",
-      "entry_close": 62.34,
+      "entry_close": 62.34000015258789,
       "horizons": {
         "t1": {
           "status": "settled",
@@ -52,7 +52,7 @@
       "confluence": 53.2,
       "conflict_score": 65.9,
       "entry_date": "2026-08-18",
-      "entry_close": 62.34,
+      "entry_close": 62.34000015258789,
       "horizons": {
         "t1": {
           "status": "settled",
@@ -943,7 +943,7 @@
       "confluence": 64.1,
       "conflict_score": 28.5,
       "entry_date": "2026-08-19",
-      "entry_close": 56.11,
+      "entry_close": 56.11000061035156,
       "horizons": {
         "t1": {
           "status": "settled",
@@ -976,7 +976,7 @@
       "confluence": 4.9,
       "conflict_score": 91.6,
       "entry_date": "2026-08-19",
-      "entry_close": 56.11,
+      "entry_close": 56.11000061035156,
       "horizons": {
         "t1": {
           "status": "settled",
@@ -1933,7 +1933,7 @@
       "confluence": 79.2,
       "conflict_score": 0.0,
       "entry_date": "2026-08-20",
-      "entry_close": 53.09,
+      "entry_close": 53.09000015258789,
       "horizons": {
         "t1": {
           "status": "settled",
@@ -1966,7 +1966,7 @@
       "confluence": 1.3,
       "conflict_score": 93.3,
       "entry_date": "2026-08-20",
-      "entry_close": 53.09,
+      "entry_close": 53.09000015258789,
       "horizons": {
         "t1": {
           "status": "settled",
@@ -2659,7 +2659,7 @@
       "confluence": 1.5,
       "conflict_score": 95.9,
       "entry_date": "2026-08-21",
-      "entry_close": 54.67,
+      "entry_close": 54.66999816894531,
       "horizons": {
         "t1": {
           "status": "settled",
@@ -2692,7 +2692,7 @@
       "confluence": 57.8,
       "conflict_score": 43.3,
       "entry_date": "2026-08-21",
-      "entry_close": 54.67,
+      "entry_close": 54.66999816894531,
       "horizons": {
         "t1": {
           "status": "settled",
@@ -2725,7 +2725,7 @@
       "confluence": 24.4,
       "conflict_score": 43.3,
       "entry_date": "2026-08-21",
-      "entry_close": 54.67,
+      "entry_close": 54.66999816894531,
       "horizons": {
         "t1": {
           "status": "settled",
@@ -3484,7 +3484,7 @@
       "confluence": 4.0,
       "conflict_score": 91.0,
       "entry_date": "2026-08-24",
-      "entry_close": 51.91,
+      "entry_close": 51.90999984741211,
       "horizons": {
         "t1": {
           "status": "pending"
@@ -3510,7 +3510,7 @@
       "confluence": 56.1,
       "conflict_score": 33.3,
       "entry_date": "2026-08-24",
-      "entry_close": 51.91,
+      "entry_close": 51.90999984741211,
       "horizons": {
         "t1": {
           "status": "pending"
@@ -3536,7 +3536,7 @@
       "confluence": 62.5,
       "conflict_score": 27.1,
       "entry_date": "2026-08-24",
-      "entry_close": 51.91,
+      "entry_close": 51.90999984741211,
       "horizons": {
         "t1": {
           "status": "pending"
@@ -3706,6 +3706,32 @@
       }
     },
     {
+      "state_id": "d6d347b3e484621b",
+      "state_revision": 2,
+      "asset": "161226",
+      "name": "国投白银LOF",
+      "signal_date": "2026-08-24",
+      "matrix_direction": "bullish",
+      "thesis_state": "confirmed",
+      "evidence_state": "multi_layer_confirmed",
+      "composite_score": 39.3,
+      "confluence": 81.8,
+      "conflict_score": 0.0,
+      "entry_date": "2026-08-24",
+      "entry_close": 2.115,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
       "state_id": "203b57a373add929",
       "state_revision": 2,
       "asset": "300308",
@@ -3769,6 +3795,32 @@
       "composite_score": 12.1,
       "confluence": 18.1,
       "conflict_score": 65.6,
+      "entry_date": "2026-08-24",
+      "entry_close": 0.857,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "state_id": "23f9273b0421b137",
+      "state_revision": 2,
+      "asset": "517380",
+      "name": "创新药沪港深ETF天弘",
+      "signal_date": "2026-08-24",
+      "matrix_direction": "bearish",
+      "thesis_state": "conflicted",
+      "evidence_state": "conflict",
+      "composite_score": -22.3,
+      "confluence": 41.7,
+      "conflict_score": 56.8,
       "entry_date": "2026-08-24",
       "entry_close": 0.857,
       "horizons": {
@@ -3864,7 +3916,7 @@
   ],
   "by_thesis_state": {
     "confirmed": {
-      "records": 26,
+      "records": 27,
       "horizons": {
         "t1": {
           "settled": 22,
@@ -3896,7 +3948,7 @@
       }
     },
     "conflicted": {
-      "records": 34,
+      "records": 35,
       "horizons": {
         "t1": {
           "settled": 29,
@@ -4090,7 +4142,7 @@
   },
   "by_evidence_state": {
     "conflict": {
-      "records": 34,
+      "records": 35,
       "horizons": {
         "t1": {
           "settled": 29,
@@ -4122,7 +4174,7 @@
       }
     },
     "multi_layer_confirmed": {
-      "records": 30,
+      "records": 31,
       "horizons": {
         "t1": {
           "settled": 26,
