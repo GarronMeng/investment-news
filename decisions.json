@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generated_at": "2026-08-26T15:14:12+08:00",
+  "generated_at": "2026-08-26T16:04:10+08:00",
   "source": {
-    "data_generated_at": "2026-08-26 12:26",
+    "data_generated_at": "2026-08-26 16:02",
     "ai_generated_at": "2026-08-26 13:33",
     "ai_source_generated_at": "2026-08-26 12:26",
-    "features_generated_at": "2026-08-26T15:13:58+08:00",
-    "fresh_ai": true
+    "features_generated_at": "2026-08-26T16:03:58+08:00",
+    "fresh_ai": false
   },
   "decisions": [
     {
@@ -17,93 +17,93 @@
       "status": "neutral",
       "event_score": 50.0,
       "market_score": 55.0,
-      "freshness_score": 100,
-      "conviction": 4.0,
-      "evidence_mode": "event_plus_market",
-      "event_count": 1,
+      "freshness_score": 70,
+      "conviction": 10.0,
+      "evidence_mode": "market_only",
+      "event_count": 0,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=0.01487",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.01487",
       "confirmation": [
-        "兆易创新、德明利能否放量跑赢半导体指数，存储板块成交额能否持续扩张",
-        "苹果审批结果、实际采购规模及NAND/DRAM报价能否继续上行"
+        "股价相对半导体指数转强",
+        "成交量放大且收盘站稳"
       ],
       "invalidation": [
-        "美国否决采购或苹果放弃长鑫方案",
-        "存储价格转弱且相关标的持续跑输半导体指数"
+        "存储价格下行",
+        "库存恶化"
       ],
-      "expires_at": "2026-09-23"
+      "expires_at": "2026-08-31"
     },
     {
       "asset": "001309",
       "name": "德明利",
       "as_of": "2026-08-25",
       "bias": "bullish",
-      "status": "neutral",
+      "status": "market_watch",
       "event_score": 50.0,
       "market_score": 75.0,
-      "freshness_score": 100,
-      "conviction": 20.0,
-      "evidence_mode": "event_plus_market",
-      "event_count": 1,
+      "freshness_score": 70,
+      "conviction": 50.0,
+      "evidence_mode": "market_only",
+      "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.100845",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.100845",
       "confirmation": [
-        "兆易创新、德明利能否放量跑赢半导体指数，存储板块成交额能否持续扩张",
-        "苹果审批结果、实际采购规模及NAND/DRAM报价能否继续上行"
+        "相对存储板块止跌转强",
+        "放量突破短期压力位"
       ],
       "invalidation": [
-        "美国否决采购或苹果放弃长鑫方案",
-        "存储价格转弱且相关标的持续跑输半导体指数"
+        "NAND跌价",
+        "渠道库存上升"
       ],
-      "expires_at": "2026-09-23"
+      "expires_at": "2026-08-31"
     },
     {
       "asset": "300308",
       "name": "中际旭创",
       "as_of": "2026-08-25",
-      "bias": "bullish",
-      "status": "watch",
-      "event_score": 100.0,
+      "bias": "bearish",
+      "status": "market_watch",
+      "event_score": 50.0,
       "market_score": 15.0,
-      "freshness_score": 100,
-      "conviction": 32.0,
-      "evidence_mode": "event_plus_market",
-      "event_count": 1,
+      "freshness_score": 70,
+      "conviction": 55,
+      "evidence_mode": "market_only",
+      "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "fresh event evidence; market trend=bearish; 20d relative strength=-0.065905",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.065905",
       "confirmation": [
-        "中际旭创能否放量强于通信设备指数并改善5日相对强弱",
-        "英伟达财报及指引是否继续确认云厂商资本开支、AI服务器与高速互连需求"
+        "海外AI硬件与A股CPO同步走强",
+        "高位放量后能维持强势"
       ],
       "invalidation": [
-        "英伟达或云厂商下调AI资本开支、网络互连需求或交付指引",
-        "通信设备资金转为大额流出且中际旭创继续显著弱于行业"
+        "AI资本开支下修",
+        "客户延迟采购"
       ],
-      "expires_at": "2026-09-23"
+      "expires_at": "2026-08-31"
     },
     {
       "asset": "002384",
       "name": "东山精密",
       "as_of": "2026-08-25",
-      "bias": "bullish",
-      "status": "active",
-      "event_score": 100.0,
+      "bias": "neutral",
+      "status": "neutral",
+      "event_score": 50.0,
       "market_score": 55.0,
-      "freshness_score": 100,
-      "conviction": 64.0,
-      "evidence_mode": "event_plus_market",
-      "event_count": 2,
+      "freshness_score": 70,
+      "conviction": 10.0,
+      "evidence_mode": "market_only",
+      "event_count": 0,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=0.003059",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.003059",
       "confirmation": [
-        "中际旭创能否放量强于通信设备指数并改善5日相对强弱",
-        "英伟达财报及指引是否继续确认云厂商资本开支、AI服务器与高速互连需求"
+        "PCB板块扩散上涨",
+        "订单利好得到成交量确认"
       ],
       "invalidation": [
-        "英伟达或云厂商下调AI资本开支、网络互连需求或交付指引",
-        "通信设备资金转为大额流出且中际旭创继续显著弱于行业"
+        "终端需求下修",
+        "价格竞争"
       ],
-      "expires_at": "2026-09-23"
+      "expires_at": "2026-08-31"
     },
     {
       "asset": "600667",
@@ -113,21 +113,21 @@
       "status": "neutral",
       "event_score": 50.0,
       "market_score": 55.0,
-      "freshness_score": 100,
-      "conviction": 4.0,
-      "evidence_mode": "event_plus_market",
-      "event_count": 1,
+      "freshness_score": 70,
+      "conviction": 10.0,
+      "evidence_mode": "market_only",
+      "event_count": 0,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=0.087843",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.087843",
       "confirmation": [
-        "兆易创新、德明利能否放量跑赢半导体指数，存储板块成交额能否持续扩张",
-        "苹果审批结果、实际采购规模及NAND/DRAM报价能否继续上行"
+        "半导体工程板块同步走强",
+        "事件后股价摆脱弱势结构"
       ],
       "invalidation": [
-        "美国否决采购或苹果放弃长鑫方案",
-        "存储价格转弱且相关标的持续跑输半导体指数"
+        "资本开支延迟",
+        "项目回款承压"
       ],
-      "expires_at": "2026-09-23"
+      "expires_at": "2026-08-31"
     },
     {
       "asset": "000636",
@@ -137,43 +137,43 @@
       "status": "neutral",
       "event_score": 50.0,
       "market_score": 55.0,
-      "freshness_score": 100,
-      "conviction": 4.0,
-      "evidence_mode": "event_plus_market",
-      "event_count": 1,
+      "freshness_score": 70,
+      "conviction": 10.0,
+      "evidence_mode": "market_only",
+      "event_count": 0,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=0.190847",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.190847",
       "confirmation": [
-        "东山精密能否放量跑赢消费电子和元件板块",
-        "8月27日深南电路披露后，PCB样本能否维持营收和利润双增长"
+        "被动元件板块形成联动",
+        "涨价新闻后价格走势能够确认"
       ],
       "invalidation": [
-        "深南电路或后续订单、毛利率显著弱于当前样本",
-        "消费电子资金转为净流出且东山精密继续弱于行业"
+        "价格下跌",
+        "库存去化不及预期"
       ],
-      "expires_at": "2026-09-23"
+      "expires_at": "2026-08-31"
     },
     {
       "asset": "161226",
       "name": "国投白银LOF",
       "as_of": "2026-08-25",
       "bias": "bullish",
-      "status": "active",
-      "event_score": 90.0,
+      "status": "market_watch",
+      "event_score": 50.0,
       "market_score": 85.0,
-      "freshness_score": 100,
-      "conviction": 76.0,
-      "evidence_mode": "event_plus_market",
-      "event_count": 1,
+      "freshness_score": 70,
+      "conviction": 55,
+      "evidence_mode": "market_only",
+      "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.113187",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.113187",
       "confirmation": [
-        "国内Au99.99、黄金ETF与外盘黄金能否继续同向并维持成交量",
-        "美元与实际利率能否保持偏弱，白银LOF溢价是否稳定"
+        "同时核对基金净值、场内价格和溢价率",
+        "银价上涨时场内溢价未继续扩大"
       ],
       "invalidation": [
-        "美元与实际利率同步上行并推动金银明显回吐",
-        "黄金ETF跌破9.15，或白银LOF溢价及交易限制显著恶化"
+        "银价下跌",
+        "美元与实际利率上行"
       ],
       "expires_at": "2026-08-31"
     },
@@ -182,22 +182,22 @@
       "name": "黄金ETF华安",
       "as_of": "2026-08-25",
       "bias": "bullish",
-      "status": "active",
-      "event_score": 90.0,
+      "status": "market_watch",
+      "event_score": 50.0,
       "market_score": 80.0,
-      "freshness_score": 100,
-      "conviction": 72.0,
-      "evidence_mode": "event_plus_market",
-      "event_count": 1,
+      "freshness_score": 70,
+      "conviction": 55,
+      "evidence_mode": "market_only",
+      "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.137258",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.137258",
       "confirmation": [
-        "国内Au99.99、黄金ETF与外盘黄金能否继续同向并维持成交量",
-        "美元与实际利率能否保持偏弱，白银LOF溢价是否稳定"
+        "外盘金价与国内黄金现货同向",
+        "ETF成交量与价格同步确认"
       ],
       "invalidation": [
-        "美元与实际利率同步上行并推动金银明显回吐",
-        "黄金ETF跌破9.15，或白银LOF溢价及交易限制显著恶化"
+        "金价下跌",
+        "实际利率上行"
       ],
       "expires_at": "2026-08-31"
     },
@@ -206,24 +206,24 @@
       "name": "创新药沪港深ETF天弘",
       "as_of": "2026-08-25",
       "bias": "bullish",
-      "status": "active",
-      "event_score": 90.0,
+      "status": "market_watch",
+      "event_score": 50.0,
       "market_score": 75.0,
-      "freshness_score": 100,
-      "conviction": 68.0,
-      "evidence_mode": "event_plus_market",
-      "event_count": 1,
+      "freshness_score": 70,
+      "conviction": 50.0,
+      "evidence_mode": "market_only",
+      "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.119426",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.119426",
       "confirmation": [
-        "信达生物能否在业绩后维持相对恒生生物科技与创新药指数强势",
-        "A/H创新药上涨家数、成交量和行业资金流能否连续改善"
+        "A股与港股创新药板块形成联动",
+        "利好由成交量与持续性确认"
       ],
       "invalidation": [
-        "业绩后信达生物放量转弱或商业化增速明显降温",
-        "A/H创新药继续出现广度收缩和持续资金流出"
+        "临床失败",
+        "监管或支付政策收紧"
       ],
-      "expires_at": "2026-09-23"
+      "expires_at": "2026-08-31"
     }
   ],
   "methodology": {

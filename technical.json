@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-08-26T15:13:58+08:00",
-  "source_generated_at": "2026-08-26T15:13:58+08:00",
+  "generated_at": "2026-08-26T16:03:58+08:00",
+  "source_generated_at": "2026-08-26T16:03:57+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -304,22 +304,7 @@
       "condition_state": "partial_conditions"
     }
   },
-  "state_changes": [
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "ma60_direction",
-      "from": "falling",
-      "to": "flat"
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "rsi_zone",
-      "from": "neutral",
-      "to": "weak"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "rsi14": "Wilder RSI(14)",
     "macd": "EMA12/EMA26 DIF, EMA9 signal, histogram=(DIF-DEA)*2",

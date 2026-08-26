@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-08-26T15:14:12+08:00",
-  "history_generated_at": "2026-08-26T15:13:58+08:00",
-  "records": 174,
-  "raw_ledger_records": 183,
+  "generated_at": "2026-08-26T16:04:11+08:00",
+  "history_generated_at": "2026-08-26T16:03:57+08:00",
+  "records": 175,
+  "raw_ledger_records": 184,
   "superseded_records": 9,
   "evaluations": [
     {
@@ -5029,6 +5029,32 @@
       }
     },
     {
+      "state_id": "12199ed62cdc9b69",
+      "state_revision": 2,
+      "asset": "002384",
+      "name": "东山精密",
+      "signal_date": "2026-08-25",
+      "matrix_direction": "neutral",
+      "thesis_state": "no_directional_thesis",
+      "evidence_state": "noise_or_no_edge",
+      "composite_score": -13.5,
+      "confluence": 20.3,
+      "conflict_score": 0.0,
+      "entry_date": "2026-08-25",
+      "entry_close": 190.84,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
       "state_id": "18daa032060c5d29",
       "state_revision": 2,
       "asset": "161226",
@@ -5567,7 +5593,7 @@
       }
     },
     "no_directional_thesis": {
-      "records": 18,
+      "records": 19,
       "horizons": {
         "t1": {
           "settled": 14,
@@ -5729,7 +5755,7 @@
       }
     },
     "noise_or_no_edge": {
-      "records": 30,
+      "records": 31,
       "horizons": {
         "t1": {
           "settled": 25,
