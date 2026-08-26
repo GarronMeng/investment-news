@@ -1,6 +1,6 @@
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-26 10:35",
-  "source_generated_at": "2026-08-26 10:00",
+  "generated_at": "2026-08-26 13:33",
+  "source_generated_at": "2026-08-26 12:26",
   "generated_by": "ChatGPT Web",
   "status": "ready",
   "news_titles": {
@@ -554,7 +554,48 @@ window.AI_SIGNALS = {
     "https://www.cnbc.com/2026/08/25/trump-darline-graham-south-carolina-primary.html": "特朗普支持的Darline Graham赢得南卡罗来纳州共和党参议员初选",
     "https://www.cnbc.com/2026/08/25/amazon-service-that-jeff-bezos-called-artificial-ai-is-shutting-down.html": "亚马逊将关闭贝索斯曾称为“人工的人工智能”的服务",
     "https://seekingalpha.com/news/4636833-qumulusai-outlines-18-mw-hpc-capacity-plan-by-year-end-2026-as-signed-contract-value-reaches": "QumulusAI计划2026年底前建成18兆瓦HPC容量，已签合同价值达2.825亿美元",
-    "https://www.sciencedaily.com/releases/2026/08/260824065549.htm": "三位被遗忘的国王或将改写古亚述历史"
+    "https://www.sciencedaily.com/releases/2026/08/260824065549.htm": "三位被遗忘的国王或将改写古亚述历史",
+    "https://arxiv.org/abs/2608.23568": "RENDER：控制大模型记忆评估中面向读者的证据呈现",
+    "https://arxiv.org/abs/2608.23569": "ESQ-Bench：评估NL2SQL方言泛化与隐性语义偏差的企业级基准",
+    "https://arxiv.org/abs/2608.23622": "大语言模型智能体利用仿真模型开展受控实验",
+    "https://arxiv.org/abs/2608.23626": "天文基础模型中的巡天检测通道覆盖像素信息并造成红移估计偏差",
+    "https://arxiv.org/abs/2608.23631": "TRACE：面向多目标材料发现的转移感知残差控制",
+    "https://arxiv.org/abs/2608.23632": "用于代码偏好优化的函数级执行反馈",
+    "https://zhidx.com/p/588084.html": "面壁智能发布全员信：聚焦端侧智能、产业规模化与AI组织改造",
+    "https://techcrunch.com/2026/08/25/indias-ringg-gets-backing-from-peak-xv-as-it-pushes-voice-ai-past-the-phone-call": "印度语音AI公司Ringg获Peak XV支持，A轮扩展融资1000万美元",
+    "https://www.digitimes.com/news/a20260826VL208/production-2026-price.html": "SK海力士生产工会以25票之差否决股票占比较高的薪酬协议",
+    "https://www.digitimes.com/news/a20260826PD200/taiwan-accelerator-technology-nstc-development.html": "台湾光子源推动本土加速器供应链并挑战尖端技术极限",
+    "https://www.digitimes.com/news/a20260826PD211/supply-chain-automakers-production-auto-industry-vehicle.html": "美加贸易谈判破裂，汽车关税威胁北美供应链",
+    "https://www.digitimes.com/news/a20260826PD209/samsung-2026-earnings-cash-flow-policy.html": "三星三年股东回报规模或超过600万亿韩元",
+    "https://www.digitimes.com/news/a20260826PD208/tcl-lg-display-asus-boe-panel.html": "TCL与华硕减少采用中国OLED面板，LG Display优势扩大",
+    "https://www.digitimes.com/news/a20260826PD207/apple-cxmt-capacity-supply-chain-chips.html": "苹果寻求批准采购中国存储芯片，长鑫存储产能已满",
+    "https://cnevpost.com/2026/08/26/li-auto-launch-next-gen-mega-sept-2": "理想汽车将于9月2日发布新一代MEGA，升级座舱与智驾硬件",
+    "https://www.pv-magazine.com/2026/08/26/argentinas-next-era": "阿根廷光伏产业迈入新阶段，装机接近2.6GW",
+    "https://www.energy-storage.news/up-to-six-months-faster-dc-coupling-expedites-hybrid-solar-plus-storage-grid-connection-approvals-in-australia": "直流耦合可将澳大利亚光储项目并网审批提速最多六个月",
+    "https://www.nasaspaceflight.com/2026/08/starbase-louisiana-largest-private-spaceport-world": "SpaceX公布路易斯安那星舰基地，拟建全球最大私人航天港",
+    "https://www.ithome.com/0/994/484.htm": "多亲J36 AI按键手机发布：支持红外遥控与一句话生成文案",
+    "https://www.techmeme.com/260826/p1": "住宅建筑AI软件公司Digs完成2530万美元A轮融资",
+    "https://www.huxiu.com/article/4886069.html": "老人进店后离世，店主赔偿1.9万元事件引发争议",
+    "https://www.ithome.com/0/994/483.htm": "挪威拟加强智能眼镜监管，考虑禁用公共场所人脸识别",
+    "https://www.huxiu.com/article/4886068.html": "具身智能一年半更换15轮叙事，投资逻辑频繁切换",
+    "https://www.huxiu.com/article/4886067.html": "扶老人后赔偿1.9万元事件引发法治与社会风气讨论",
+    "https://www.ithome.com/0/994/481.htm": "联想发布V14 Gen 6 AMN笔记本，标称续航19小时",
+    "https://www.huxiu.com/article/4886065.html": "智能戒指厂商Oura拟以160亿美元估值冲刺IPO并面临诉讼",
+    "https://www.gsmarena.com/iqoo_16_key_specs_geekbench-news-74327.php": "高通新旗舰芯片现身Geekbench，疑由iQOO 16搭载",
+    "https://9to5mac.com/2026/08/25/apple-renews-push-for-expedited-discovery-in-openai-trade-secret-misappropriation-lawsuit": "苹果再次推动OpenAI商业秘密诉讼加快证据开示",
+    "https://sspai.com/post/113714": "在正镶白旗用五天共同生活理解现代牧场",
+    "https://9to5google.com/2026/08/25/android-pulse-app-google-play": "Android Pulse应用出现在Google Play更新列表",
+    "https://www.gsmarena.com/samsung_launches_one_ui_9_beta_6_for_the_galaxy_s26_series-news-74334.php": "三星为Galaxy S26系列推出One UI 9第六个测试版",
+    "https://sspai.com/post/113847": "派早报：苹果发布新款Mac mini和Mac Studio等产品",
+    "https://seekingalpha.com/news/4636845-paladin-energy-reports-fy-results": "Paladin Energy发布全年业绩",
+    "https://www.cnbc.com/2026/08/25/hp-partners-huawei-wifi-tech-us-entity-list.html": "惠普与被列入美国实体清单的华为达成WiFi技术许可合作",
+    "https://seekingalpha.com/news/4636843-joyy-beats-top-line-and-bottom-line-estimates-gives-fy-2026-outlook": "欢聚集团营收与利润超预期并发布2026年展望",
+    "https://seekingalpha.com/news/4636838-fcc-queried-stations-about-coverage-plans-before-trumps-speech-report": "报道称FCC在特朗普演讲前询问电视台报道计划",
+    "http://finance.eastmoney.com/news/11139,202608263854383439.html": "黄金概念早盘持续走强，美债风险推动资金转向贵金属",
+    "http://www.eeo.com.cn/2026/0826/1011604.shtml": "返乡大学生参与基层志愿服务的实践日记",
+    "https://seekingalpha.com/news/4636841-qfin-holdings-declares-046ads-semi-annual-dividend": "奇富科技宣布每ADS派发0.46美元半年度股息",
+    "http://finance.eastmoney.com/news/1348,202608263854383662.html": "我国新能源汽车产业规模已突破千万辆级",
+    "https://news.mit.edu/2026/retooling-to-help-democracy-revive-daron-acemoglu-book-0826": "阿西莫格鲁新书探讨如何重建支持民主的社会联盟"
   },
   "overseas_markets": [
     {
@@ -581,70 +622,70 @@ window.AI_SIGNALS = {
     {
       "market": "日股",
       "flag": "🇯🇵",
-      "session": "2026-08-26 早盘",
-      "updated_at": "2026-08-26 09:14 北京时间",
-      "status": "negative",
-      "status_label": "芯片股拖累",
-      "move": "日经225早盘约跌0.4%至65,595点；铠侠约跌1.0%，东京电子约跌1.9%。",
-      "driver": "市场在英伟达财报前降低芯片风险敞口，日股电子链未跟随隔夜费半反弹。",
+      "session": "2026-08-26 盘中",
+      "updated_at": "2026-08-26 12:28 北京时间",
+      "status": "pending",
+      "status_label": "盘中转涨，单源待复核",
+      "move": "Yahoo Finance快照显示日经225较前收上涨约0.60%至66,248.65点；当前缺少同刻第二报价源。",
+      "driver": "早盘芯片股压力后指数转涨，但英伟达财报前的电子链持续性仍待收盘确认。",
       "a_share_links": [
         "存储",
         "半导体工程 / 封测",
         "被动元件"
       ],
-      "validation": "等待日经与主要电子权重收盘方向，当前为早盘观测值。",
+      "validation": "等待日经官方收盘值与电子设备、测试及材料权重表现确认。",
       "sources": [
-        "https://www.wsj.com/finance/stocks/nikkei-falls-0-4-dragged-by-chip-related-stocks-472365b8"
+        "https://github.com/GarronMeng/investment-news/blob/main/global_markets.json"
       ]
     },
     {
       "market": "韩股",
       "flag": "🇰🇷",
-      "session": "2026-08-26 早盘",
-      "updated_at": "2026-08-26 09:14 北京时间",
-      "status": "positive",
-      "status_label": "低开后芯片带动转涨",
-      "move": "KOSPI低开0.23%后，截至09:15 KST约涨0.9%至6,803.74点；三星电子涨2.14%，SK海力士涨1.85%。",
-      "driver": "隔夜费半反弹与英伟达财报前的芯片承接推动指数转强，但仍是早盘快照。",
+      "session": "2026-08-26 盘中",
+      "updated_at": "2026-08-26 12:28 北京时间",
+      "status": "pending",
+      "status_label": "芯片带动上涨，单源待复核",
+      "move": "Yahoo Finance快照显示KOSPI较前收上涨约2.05%至6,880.77点；当前缺少同刻第二报价源。",
+      "driver": "三星电子、SK海力士早盘走强带动指数，但盘中精确涨幅仍需第二来源确认。",
       "a_share_links": [
         "存储",
         "AI光通信 / CPO",
         "半导体工程 / 封测"
       ],
-      "validation": "观察三星电子、SK海力士能否维持涨幅并等待KOSPI日终确认。",
+      "validation": "等待KOSPI收盘以及三星电子、SK海力士日终涨幅确认。",
       "sources": [
-        "https://en.yna.co.kr/view/AEN20260826001400320",
-        "https://www.koreatimes.co.kr/economy/20260826/seoul-stocks-turn-higher-after-weak-start-ahead-of-nvidia-earnings"
+        "https://github.com/GarronMeng/investment-news/blob/main/global_markets.json",
+        "https://en.yna.co.kr/view/AEN20260826001400320"
       ]
     }
   ],
   "signals": [
     {
-      "event": "苹果M6/M5 Ultra新品抬升存储需求与成本关注，三星和英特尔把AI芯片竞争扩展至存储与先进封装",
+      "event": "苹果寻求获批采购长鑫存储且长鑫产能满载，国产存储供需景气与政策风险同时升温",
       "industry": "semi",
       "industry_name": "存储 / NAND / 企业级SSD",
       "direction": "mixed",
       "strength": 5,
       "horizon": "1-4w",
-      "priced_in": "unknown",
-      "reason": "10:00新闻快照新增三项直接证据：苹果发布M6 Mac mini与M5 Ultra Mac Studio并强调存储成本压力；三星、英特尔把AI芯片竞争延伸到HBM、存储和先进封装；二季度半导体公司排名继续反映AI与存储景气分化。需求和竞争均升温，对兆易创新、德明利、太极实业的映射偏正面但并非价格确认；国内技术层仍需今日量价验证。",
+      "priced_in": "medium",
+      "reason": "12:26新闻新增苹果寻求美国批准采购长鑫存储的直接证据，同时披露长鑫产能已满。需求与国产替代预期偏正面，但审批、制裁及苹果最终采购规模仍不确定；对兆易创新、德明利和太极实业的映射需由量价与存储报价确认。",
       "assets": [
         "603986",
         "001309",
         "600667"
       ],
       "validation": [
-        "兆易创新、德明利能否放量跑赢半导体指数，存储与先进封装板块成交额能否扩张",
-        "苹果新品存储配置、NAND/HBM报价及8月28日德明利半年报能否确认盈利斜率"
+        "兆易创新、德明利能否放量跑赢半导体指数，存储板块成交额能否持续扩张",
+        "苹果审批结果、实际采购规模及NAND/DRAM报价能否继续上行"
       ],
       "invalidation": [
-        "苹果新品存储配置或出货指引弱于预期，NAND/HBM报价转弱",
-        "半导体与先进封装资金重新大额流出且相关标的显著跑输行业"
+        "美国否决采购或苹果放弃长鑫方案",
+        "存储价格转弱且相关标的持续跑输半导体指数"
       ],
       "urls": [
+        "https://www.digitimes.com/news/a20260826PD207/apple-cxmt-capacity-supply-chain-chips.html",
         "https://www.digitimes.com/news/a20260826VL200/apple-launch-tim-cook-mac-mini-gpu.html",
-        "https://www.digitimes.com/news/a20260825PD224/samsung-intel-packaging-hbm-business.html",
-        "https://www.electronicsweekly.com/blogs/mannerisms/ten-best/top-ten-semiconductor-companies-in-q2-2026-08"
+        "https://www.digitimes.com/news/a20260825PD224/samsung-intel-packaging-hbm-business.html"
       ]
     },
     {
@@ -726,30 +767,29 @@ window.AI_SIGNALS = {
       ]
     },
     {
-      "event": "外盘金银同步上涨而A股贵金属显著回撤，黄金ETF与白银LOF的跨市场映射出现背离",
+      "event": "外盘金银与A股黄金概念同步走强，但黄金ETF高位横盘，修复延续不构成追涨信号",
       "industry": "macro",
       "industry_name": "黄金 / 白银 / 美元 / 实际利率",
-      "direction": "mixed",
+      "direction": "positive",
       "strength": 4,
       "horizon": "1-5d",
-      "priced_in": "medium",
-      "reason": "隔夜黄金期货上涨1.58%、白银上涨0.33%，美元指数小幅回落、美国10年期收益率降至约4.64%；但8月25日A股贵金属行业下跌4.82%、净流出16.52亿元，黄金ETF华安下跌0.32%。外盘支撑与A股兑现压力冲突，黄金ETF RSI已偏热；国投白银LOF还需独立核验净值、场内价格、溢价和交易限制。",
+      "priced_in": "high",
+      "reason": "12:00快照显示黄金上涨1.31%、白银上涨0.79%，A股黄金概念早盘涨约2.48%；黄金ETF华安午后仍在9.54附近，明显高于9.15修复位但未继续加速。跨市场方向已转为一致，估值与短线过热风险限制追高空间。",
       "assets": [
         "518880",
         "161226"
       ],
       "validation": [
-        "国内Au99.99、黄金ETF与外盘黄金能否恢复同向，美元和实际利率是否继续回落",
-        "国投白银LOF净值、场内价格及溢价能否与白银同步且交易限制未恶化"
+        "国内Au99.99、黄金ETF与外盘黄金能否继续同向并维持成交量",
+        "美元与实际利率能否保持偏弱，白银LOF溢价是否稳定"
       ],
       "invalidation": [
-        "美元与实际利率重新同步上行并推动金银回吐",
-        "A股贵金属继续大额流出，或白银LOF场内溢价扩大"
+        "美元与实际利率同步上行并推动金银明显回吐",
+        "黄金ETF跌破9.15，或白银LOF溢价及交易限制显著恶化"
       ],
       "urls": [
-        "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-25/",
-        "https://github.com/GarronMeng/investment-news/blob/main/global_markets.json",
-        "https://github.com/GarronMeng/investment-news/blob/main/market_state.json"
+        "http://finance.eastmoney.com/news/11139,202608263854383439.html",
+        "https://github.com/GarronMeng/investment-news/blob/main/global_markets.json"
       ]
     }
   ]
