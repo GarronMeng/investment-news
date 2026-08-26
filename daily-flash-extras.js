@@ -1,4 +1,5 @@
 (()=>{
+  if(document.querySelector('meta[name="dashboard-mode"][content="decision-cockpit"]'))return;
   const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const num=(v,d=2)=>Number.isFinite(Number(v))?Number(v).toFixed(d):'—';
   const signed=(v,d=2)=>Number.isFinite(Number(v))?`${Number(v)>0?'+':''}${Number(v).toFixed(d)}`:'—';

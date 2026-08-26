@@ -6,6 +6,75 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class DashboardRenderTests(unittest.TestCase):
+    def test_decision_cockpit_has_action_first_hierarchy(self):
+        html = (ROOT / "dashboard-v5.html").read_text(encoding="utf-8")
+        ordered_sections = [
+            'id="actions"',
+            'id="portfolioSection"',
+            'id="themesSection"',
+            'id="catalystsSection"',
+            'id="marketDetail"',
+            'id="dataHealth"',
+        ]
+        positions = [html.index(section) for section in ordered_sections]
+        self.assertEqual(positions, sorted(positions))
+        self.assertIn("风险优先", html)
+        self.assertIn("等待确认", html)
+        self.assertIn("可观察", html)
+        self.assertIn('aria-expanded="false"', html)
+
+    def test_decision_cockpit_encodes_recent_execution_discipline(self):
+        html = (ROOT / "dashboard-v5.html").read_text(encoding="utf-8")
+        for text in (
+            "09:25 · 竞价定方向",
+            "09:35 · 第一次分歧",
+            "10:00 · 资金选择",
+            "14:00 · 承接 / 兑现",
+            "等第一次回踩",
+            "默认放弃追价",
+            "仅新重大催化复核",
+        ):
+            self.assertIn(text, html)
+        self.assertIn("function openingGap(q)", html)
+        self.assertIn("gap>=6", html)
+        self.assertIn("gap>=4", html)
+        self.assertIn("gap>=2", html)
+        self.assertIn("偏多情景", html)
+        self.assertIn("基准情景", html)
+        self.assertIn("偏空情景", html)
+
+    def test_decision_cockpit_separates_logic_price_and_private_holdings(self):
+        html = (ROOT / "dashboard-v5.html").read_text(encoding="utf-8")
+        self.assertIn("逻辑获支持", html)
+        self.assertIn("价格未确认", html)
+        self.assertIn("下一确认", html)
+        self.assertIn("失效条件", html)
+        self.assertIn("garron-private-portfolio-v1", html)
+        self.assertIn("localStorage.getItem(PORTFOLIO_KEY)", html)
+        self.assertNotIn("fetchJson('portfolio.json'", html)
+
+    def test_decision_cockpit_surfaces_data_lag_and_quote_confidence(self):
+        html = (ROOT / "dashboard-v5.html").read_text(encoding="utf-8")
+        self.assertIn("q.confidence!=='low'", html)
+        self.assertIn("低置信度报价不参与确认", html)
+        self.assertIn("技术层截至", html)
+        self.assertIn("等行情刷新，不沿用旧价", html)
+
+    def test_legacy_daily_flash_extensions_skip_decision_cockpit(self):
+        html = (ROOT / "dashboard-v5.html").read_text(encoding="utf-8")
+        extras = (ROOT / "daily-flash-extras.js").read_text(encoding="utf-8")
+        intelligence = (ROOT / "daily-flash-intelligence.js").read_text(encoding="utf-8")
+        marker = 'meta[name="dashboard-mode"][content="decision-cockpit"]'
+        self.assertIn('<meta name="dashboard-mode" content="decision-cockpit">', html)
+        self.assertIn(marker, extras)
+        self.assertIn(marker, intelligence)
+
+    def test_pages_keeps_decision_cockpit_as_root_and_detail_pages_as_drilldowns(self):
+        workflow = (ROOT / ".github/workflows/deploy-pages.yml").read_text(encoding="utf-8")
+        self.assertIn("cp dashboard-v5.html public/index.html", workflow)
+        self.assertIn("cp dashboard-v3.html public/dashboard-v3.html", workflow)
+        self.assertIn("cp dashboard-v4.html public/dashboard-v4.html", workflow)
+
     def test_pages_deploys_sentiment_data(self):
         workflow = (ROOT / ".github/workflows/deploy-pages.yml").read_text(encoding="utf-8")
         self.assertIn('"Update Watchlist Market Quotes"', workflow)
