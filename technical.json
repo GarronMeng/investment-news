@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-08-26T12:27:27+08:00",
-  "source_generated_at": "2026-08-26T12:27:27+08:00",
+  "generated_at": "2026-08-26T13:34:58+08:00",
+  "source_generated_at": "2026-08-26T13:34:58+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -96,27 +96,27 @@
     "300308": {
       "code": "300308",
       "name": "中际旭创",
-      "as_of": "2026-08-25",
+      "as_of": "2026-08-26",
       "source_status": "fresh",
       "observations": 140,
-      "close": 846.0,
+      "close": 862.0,
       "ma60": {
-        "value": 1088.648,
+        "value": 1083.1512,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.004329
+        "slope_pct": -0.005049
       },
-      "rsi14": 40.05,
+      "rsi14": 41.67,
       "rsi_zone": "weak",
       "macd": {
-        "dif": -42.04741,
-        "dea": -42.35555,
-        "hist": 0.6163,
-        "state": "bullish",
-        "cross_age": 8
+        "dif": -43.24137,
+        "dea": -42.53305,
+        "hist": -1.41665,
+        "state": "bearish",
+        "cross_age": 0
       },
       "volume": {
-        "ratio20": 0.726,
+        "ratio20": 0.438,
         "state": "contraction"
       },
       "breakout_20d": "inside_range",
@@ -304,7 +304,15 @@
       "condition_state": "partial_conditions"
     }
   },
-  "state_changes": [],
+  "state_changes": [
+    {
+      "code": "300308",
+      "name": "中际旭创",
+      "field": "macd",
+      "from": "bullish",
+      "to": "bearish"
+    }
+  ],
   "methodology": {
     "rsi14": "Wilder RSI(14)",
     "macd": "EMA12/EMA26 DIF, EMA9 signal, histogram=(DIF-DEA)*2",
