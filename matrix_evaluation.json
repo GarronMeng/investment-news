@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-08-26T11:41:36+08:00",
-  "history_generated_at": "2026-08-26T11:41:10+08:00",
-  "records": 168,
-  "raw_ledger_records": 177,
+  "generated_at": "2026-08-26T12:11:09+08:00",
+  "history_generated_at": "2026-08-26T12:10:42+08:00",
+  "records": 170,
+  "raw_ledger_records": 179,
   "superseded_records": 9,
   "evaluations": [
     {
@@ -5003,6 +5003,32 @@
       }
     },
     {
+      "state_id": "a9c2406ee8a1d310",
+      "state_revision": 2,
+      "asset": "002384",
+      "name": "东山精密",
+      "signal_date": "2026-08-25",
+      "matrix_direction": "bullish",
+      "thesis_state": "supported",
+      "evidence_state": "tentative",
+      "composite_score": 20.7,
+      "confluence": 50.7,
+      "conflict_score": 32.4,
+      "entry_date": "2026-08-25",
+      "entry_close": 190.84,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
       "state_id": "18daa032060c5d29",
       "state_revision": 2,
       "asset": "161226",
@@ -5263,6 +5289,32 @@
       }
     },
     {
+      "state_id": "af94fab1779f01fe",
+      "state_revision": 2,
+      "asset": "603986",
+      "name": "兆易创新",
+      "signal_date": "2026-08-25",
+      "matrix_direction": "neutral",
+      "thesis_state": "conflicted",
+      "evidence_state": "conflict",
+      "composite_score": -8.0,
+      "confluence": 12.0,
+      "conflict_score": 59.3,
+      "entry_date": "2026-08-25",
+      "entry_close": 395.51,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
       "state_id": "f8390c4617272054",
       "status": "unavailable"
     },
@@ -5337,7 +5389,7 @@
       }
     },
     "conflicted": {
-      "records": 44,
+      "records": 45,
       "horizons": {
         "t1": {
           "settled": 38,
@@ -5465,7 +5517,7 @@
       }
     },
     "supported": {
-      "records": 28,
+      "records": 29,
       "horizons": {
         "t1": {
           "settled": 26,
@@ -5531,7 +5583,7 @@
   },
   "by_evidence_state": {
     "conflict": {
-      "records": 44,
+      "records": 45,
       "horizons": {
         "t1": {
           "settled": 38,
@@ -5659,7 +5711,7 @@
       }
     },
     "tentative": {
-      "records": 1,
+      "records": 2,
       "horizons": {
         "t1": {
           "settled": 0,
