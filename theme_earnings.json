@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-26T14:39:28+08:00",
+  "generated_at": "2026-08-26T15:19:20+08:00",
   "timezone": "Asia/Shanghai",
   "status": "fresh",
   "report_period_code": "20260630",
@@ -170,13 +170,13 @@
       "theme": "PCB / 消费电子",
       "summary": {
         "total": 4,
-        "reported": 3,
-        "scheduled": 1,
+        "reported": 2,
+        "scheduled": 2,
         "pending": 0,
-        "positive_reports": 3,
+        "positive_reports": 2,
         "weak_reports": 0,
-        "median_revenue_yoy_pct": 61.17,
-        "median_net_profit_yoy_pct": 130.42,
+        "median_revenue_yoy_pct": 57.0,
+        "median_net_profit_yoy_pct": 210.25,
         "breadth": "positive"
       },
       "companies": [
@@ -199,17 +199,17 @@
         {
           "code": "002463",
           "name": "沪电股份",
-          "status": "reported",
-          "announcement_date": "2026-08-26",
+          "status": "scheduled",
+          "announcement_date": null,
           "scheduled_date": "2026-08-26",
-          "revenue": 13689427504.0,
-          "revenue_yoy_pct": 61.1682833526,
-          "net_profit": 2923361746.0,
-          "net_profit_yoy_pct": 73.72,
-          "gross_margin_pct": 38.7155693432,
-          "earnings_signal": "strong_growth",
-          "industry": "元件",
-          "source": "东方财富 via AKShare + 公告确认",
+          "revenue": null,
+          "revenue_yoy_pct": null,
+          "net_profit": null,
+          "net_profit_yoy_pct": null,
+          "gross_margin_pct": null,
+          "earnings_signal": "not_reported",
+          "industry": null,
+          "source": "东方财富 via AKShare",
           "reason": null
         },
         {
@@ -442,11 +442,12 @@
   "summary": {
     "themes": 6,
     "companies": 21,
-    "reported": 12,
-    "scheduled": 9
+    "reported": 11,
+    "scheduled": 10
   },
   "warnings": [
-    "withheld 9 same-day earnings rows without corroborating public financial-report notice"
+    "stock_notice_report 20260826: ('Connection broken: IncompleteRead(2661 bytes read, 85680 more expected)', IncompleteRead(2661 bytes read, 85680 more expected)); same-day financial rows withheld",
+    "withheld 677 same-day earnings rows without corroborating public financial-report notice"
   ],
   "methodology": {
     "reported": "东方财富业绩报表 stock_yjbb_em via AKShare；未来公告日期不暴露财务字段；同日行必须在stock_notice_report财务报告公告中得到代码级确认。",
