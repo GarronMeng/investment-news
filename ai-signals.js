@@ -1,6 +1,6 @@
 window.AI_SIGNALS = {
-  "generated_at": "2026-08-26 09:14",
-  "source_generated_at": "2026-08-26 07:50",
+  "generated_at": "2026-08-26 10:35",
+  "source_generated_at": "2026-08-26 10:00",
   "generated_by": "ChatGPT Web",
   "status": "ready",
   "news_titles": {
@@ -525,7 +525,36 @@ window.AI_SIGNALS = {
     "https://arstechnica.com/science/2026/08/lab-supply-companies-have-been-selling-antibodies-using-manipulated-images": "实验室耗材公司被曝使用篡改图像销售抗体",
     "https://www.sciencenews.org/article/cancer-vaccine-melanoma-treatment-mrna": "新型癌症疫苗或可防止黑色素瘤复发",
     "https://www.newscientist.com/article/2581592-the-engineer-racing-to-run-the-worlds-most-dangerous-algorithm": "争相运行全球最危险算法的工程师",
-    "https://www.livescience.com/archaeology/ritual-solstice-structure-1-000-years-older-than-stonehenge-unearthed-in-czech-republic": "捷克发现比巨石阵早1000年的冬至仪式建筑"
+    "https://www.livescience.com/archaeology/ritual-solstice-structure-1-000-years-older-than-stonehenge-unearthed-in-czech-republic": "捷克发现比巨石阵早1000年的冬至仪式建筑",
+    "https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say": "消息称机器人初创公司Generalist估值达到30亿美元",
+    "https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues": "OpenAI再失一名数据中心高管，高层持续离职",
+    "https://www.digitimes.com/news/a20260826VL200/apple-launch-tim-cook-mac-mini-gpu.html": "苹果发布M6 Mac mini与M5 Ultra Mac Studio，存储成本压力上升",
+    "https://www.digitimes.com/news/a20260825PD224/samsung-intel-packaging-hbm-business.html": "三星与英特尔将AI芯片竞争扩展至存储和先进封装",
+    "https://www.electronicsweekly.com/blogs/mannerisms/ten-best/top-ten-semiconductor-companies-in-q2-2026-08": "第二季度全球十大半导体公司",
+    "https://www.digitimes.com/news/a20260826PR200/openai-efficiency-design-performance-infrastructure.html": "OpenAI称Jalapeño可将延迟降低至多3.6倍，瞄准智能体速度瓶颈",
+    "https://www.digitimes.com/news/a20260825PD223/taiwan-biotech-manufacturing-market-chips.html": "台湾规划四项AI驱动战略以扩大生物科技产业",
+    "https://www.digitimes.com/news/a20260825PD225/market-sales-sdc-shipments-panel.html": "Galaxy Z面板订单增至三倍，三星显示提升OLED销量",
+    "https://www.digitimes.com/news/a20260825VL204/robotaxi-waymo-silicon-samsung-expansion.html": "Waymo累计行驶3.2亿公里，Robotaxi下一挑战转向芯片规模化",
+    "https://www.theverge.com/transportation/984485/dreame-rocket-car-shut-down": "追觅的火箭动力汽车计划宣告终止",
+    "https://cleantechnica.com/2026/08/25/energy-storage-is-strengthening-reliability-these-5-states-are-leading-the-charge": "储能正在增强电网可靠性，这五个州走在前列",
+    "https://cleantechnica.com/2026/08/25/nlr-nrri-partnership-advances-industry-scale-innovation-and-process-demonstration": "NLR与NRRI合作推进产业级创新和工艺示范",
+    "https://cleantechnica.com/2026/08/25/photovoltaic-windows-have-been-heating-water-in-a-bucharest-apartment-for-two-years": "光伏窗已为布加勒斯特一套公寓供热水两年",
+    "https://cleantechnica.com/2026/08/25/tesla-gets-robotaxi-permit-in-nevada-for-10-vehicles": "特斯拉在内华达获得10辆车规模的Robotaxi许可",
+    "https://www.techmeme.com/260825/p47": "AWS计划于2026年9月30日关闭Mechanical Turk服务",
+    "https://www.economist.com/science-and-technology/2026/08/11/the-brain-may-be-about-to-have-its-ozempic-moment": "大脑疾病治疗或将迎来“司美格鲁肽时刻”",
+    "https://www.techmeme.com/260825/p46": "韩国AI服务平台Wrtn完成约7220万美元C轮融资，估值超7.22亿美元",
+    "https://fzakaria.com/2026/08/24/actually-queryable-executables": "真正可查询的可执行文件",
+    "https://www.dpreview.com/news/remembering-rishi-sanyal-dpreviews-former-science-editor-a-rare-mix-of-scientist-photographer-filmmaker": "纪念DPReview前科学编辑Rishi Sanyal：科学家、摄影师与电影人的独特结合",
+    "https://www.gsmarena.com/leakster_details_the_upcoming_snapdragon_8_elite_gen_6_pro_and_dimensity_9600_pro_flagship_chipsets-news-74328.php": "爆料者详解骁龙8 Elite Gen 6 Pro与天玑9600 Pro旗舰芯片",
+    "http://finance.eastmoney.com/news/1351,202608263853527076.html": "加拿大宣布对美国加征等额反制关税，涉及700多种商品",
+    "https://www.marketwatch.com/story/are-older-americans-spoiling-the-economy-for-everyone-else-064b5820": "美国老年人是否正在拖累其他人的经济处境？",
+    "https://www.marketwatch.com/story/5-cheap-u-s-cities-to-retire-in-if-you-can-deal-with-this-one-thing-fbda5d1a": "五个生活成本较低的美国退休城市，但需要接受一个现实",
+    "https://www.cnbc.com/2026/08/26/oil-falls-as-the-us-pivots-to-economic-pressure-on-iran-.html": "美国转向对伊朗施加经济压力，原油因紧张局势缓和而下跌",
+    "https://www.ft.com/content/3b4c4dc2-3b26-4973-b1c3-4286bc072bb2": "北极海运贸易中的中国新挑战者",
+    "https://www.cnbc.com/2026/08/25/trump-darline-graham-south-carolina-primary.html": "特朗普支持的Darline Graham赢得南卡罗来纳州共和党参议员初选",
+    "https://www.cnbc.com/2026/08/25/amazon-service-that-jeff-bezos-called-artificial-ai-is-shutting-down.html": "亚马逊将关闭贝索斯曾称为“人工的人工智能”的服务",
+    "https://seekingalpha.com/news/4636833-qumulusai-outlines-18-mw-hpc-capacity-plan-by-year-end-2026-as-signed-contract-value-reaches": "QumulusAI计划2026年底前建成18兆瓦HPC容量，已签合同价值达2.825亿美元",
+    "https://www.sciencedaily.com/releases/2026/08/260824065549.htm": "三位被遗忘的国王或将改写古亚述历史"
   },
   "overseas_markets": [
     {
@@ -591,31 +620,31 @@ window.AI_SIGNALS = {
   ],
   "signals": [
     {
-      "event": "存储研究池已由2/5扩展至3/5且均维持高增长，半导体资金由大额流出转为净流入但价格仍弱",
+      "event": "苹果M6/M5 Ultra新品抬升存储需求与成本关注，三星和英特尔把AI芯片竞争扩展至存储与先进封装",
       "industry": "semi",
       "industry_name": "存储 / NAND / 企业级SSD",
       "direction": "mixed",
       "strength": 5,
       "horizon": "1-4w",
-      "priced_in": "medium",
-      "reason": "theme_earnings.json已将佰维存储纳入reported，存储样本3/5营收同比均为正增长；8月25日半导体行业虽跌0.39%，但资金净流入48.42亿元，较前一日大额流出显著改善。隔夜费城半导体指数上涨1.44%，基本面和资金层增强，但兆易创新、德明利的弱技术与相对强弱仍待价格确认。",
+      "priced_in": "unknown",
+      "reason": "10:00新闻快照新增三项直接证据：苹果发布M6 Mac mini与M5 Ultra Mac Studio并强调存储成本压力；三星、英特尔把AI芯片竞争延伸到HBM、存储和先进封装；二季度半导体公司排名继续反映AI与存储景气分化。需求和竞争均升温，对兆易创新、德明利、太极实业的映射偏正面但并非价格确认；国内技术层仍需今日量价验证。",
       "assets": [
         "603986",
         "001309",
         "600667"
       ],
       "validation": [
-        "兆易创新、德明利能否放量跑赢半导体指数，半导体资金净流入能否延续",
-        "8月28日德明利半年报及NAND报价、企业级SSD订单能否维持当前盈利斜率"
+        "兆易创新、德明利能否放量跑赢半导体指数，存储与先进封装板块成交额能否扩张",
+        "苹果新品存储配置、NAND/HBM报价及8月28日德明利半年报能否确认盈利斜率"
       ],
       "invalidation": [
-        "德明利或后续存储样本明显弱于当前分布",
-        "半导体资金重新转为大额流出且NAND报价或海外存储股转弱"
+        "苹果新品存储配置或出货指引弱于预期，NAND/HBM报价转弱",
+        "半导体与先进封装资金重新大额流出且相关标的显著跑输行业"
       ],
       "urls": [
-        "https://github.com/GarronMeng/investment-news/blob/main/theme_earnings.json",
-        "https://github.com/GarronMeng/investment-news/blob/main/market_state.json",
-        "https://www.reuters.com/business/us-stock-futures-rise-tech-rebound-before-nvidia-inflation-tests-2026-08-25/"
+        "https://www.digitimes.com/news/a20260826VL200/apple-launch-tim-cook-mac-mini-gpu.html",
+        "https://www.digitimes.com/news/a20260825PD224/samsung-intel-packaging-hbm-business.html",
+        "https://www.electronicsweekly.com/blogs/mannerisms/ten-best/top-ten-semiconductor-companies-in-q2-2026-08"
       ]
     },
     {
