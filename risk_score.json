@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-08-26T14:34:17+08:00",
-  "score": 64.2,
+  "generated_at": "2026-08-26T15:14:12+08:00",
+  "score": 64.1,
   "label": "elevated",
   "coverage": 100.0,
   "available_weight": 100,
@@ -13,10 +13,10 @@
       "evidence": "沪深300滚动PE十年分位 70.0%"
     },
     "market_structure": {
-      "score": 53.9,
+      "score": 53.6,
       "weight": 25,
       "available": true,
-      "evidence": "narrow_risk_on；上涨占比 52.4%"
+      "evidence": "narrow_risk_on；上涨占比 53.1%"
     },
     "trend": {
       "score": 89.0,
@@ -40,7 +40,7 @@
       "score": 82.0,
       "weight": 10,
       "available": true,
-      "evidence": "regime=narrow_risk_on；指数均值 1.02% / 上涨占比 52.4%"
+      "evidence": "regime=narrow_risk_on；指数均值 0.90% / 上涨占比 53.1%"
     }
   },
   "drivers": [
@@ -52,7 +52,7 @@
     {
       "component": "concentration",
       "score": 82.0,
-      "evidence": "regime=narrow_risk_on；指数均值 1.02% / 上涨占比 52.4%"
+      "evidence": "regime=narrow_risk_on；指数均值 0.90% / 上涨占比 53.1%"
     },
     {
       "component": "valuation",
@@ -60,18 +60,7 @@
       "evidence": "沪深300滚动PE十年分位 70.0%"
     }
   ],
-  "state_changes": [
-    {
-      "type": "label",
-      "from": "balanced",
-      "to": "elevated"
-    },
-    {
-      "type": "score",
-      "from": 53.6,
-      "to": 64.2
-    }
-  ],
+  "state_changes": [],
   "methodology": "估值20% + 市场结构25% + 基准趋势20% + 两融15% + 海外风险10% + 集中度10%。缺失项剔除并按可用权重重新归一；高分表示环境更脆弱/压力更高，不是下跌概率。",
   "boundary": "风险温度只做环境校准，不生成买卖、仓位或止损指令。"
 }

@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generated_at": "2026-08-26T14:34:17+08:00",
+  "generated_at": "2026-08-26T15:14:12+08:00",
   "source": {
     "data_generated_at": "2026-08-26 12:26",
     "ai_generated_at": "2026-08-26 13:33",
     "ai_source_generated_at": "2026-08-26 12:26",
-    "features_generated_at": "2026-08-26T14:34:06+08:00",
+    "features_generated_at": "2026-08-26T15:13:58+08:00",
     "fresh_ai": true
   },
   "decisions": [
@@ -84,17 +84,17 @@
     {
       "asset": "002384",
       "name": "东山精密",
-      "as_of": "2026-08-26",
+      "as_of": "2026-08-25",
       "bias": "bullish",
       "status": "active",
       "event_score": 100.0,
-      "market_score": 75.0,
+      "market_score": 55.0,
       "freshness_score": 100,
-      "conviction": 80.0,
+      "conviction": 64.0,
       "evidence_mode": "event_plus_market",
       "event_count": 2,
-      "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.086925",
+      "trend_state": "mixed",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=0.003059",
       "confirmation": [
         "中际旭创能否放量强于通信设备指数并改善5日相对强弱",
         "英伟达财报及指引是否继续确认云厂商资本开支、AI服务器与高速互连需求"
@@ -108,7 +108,7 @@
     {
       "asset": "600667",
       "name": "太极实业",
-      "as_of": "2026-08-26",
+      "as_of": "2026-08-25",
       "bias": "neutral",
       "status": "neutral",
       "event_score": 50.0,
@@ -118,7 +118,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=0.124791",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=0.087843",
       "confirmation": [
         "兆易创新、德明利能否放量跑赢半导体指数，存储板块成交额能否持续扩张",
         "苹果审批结果、实际采购规模及NAND/DRAM报价能否继续上行"
@@ -132,7 +132,7 @@
     {
       "asset": "000636",
       "name": "风华高科",
-      "as_of": "2026-08-26",
+      "as_of": "2026-08-25",
       "bias": "neutral",
       "status": "neutral",
       "event_score": 50.0,
@@ -142,7 +142,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=0.07773",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=0.190847",
       "confirmation": [
         "东山精密能否放量跑赢消费电子和元件板块",
         "8月27日深南电路披露后，PCB样本能否维持营收和利润双增长"
@@ -204,17 +204,17 @@
     {
       "asset": "517380",
       "name": "创新药沪港深ETF天弘",
-      "as_of": "2026-08-26",
+      "as_of": "2026-08-25",
       "bias": "bullish",
       "status": "active",
       "event_score": 90.0,
-      "market_score": 80.0,
+      "market_score": 75.0,
       "freshness_score": 100,
-      "conviction": 72.0,
+      "conviction": 68.0,
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.115443",
+      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.119426",
       "confirmation": [
         "信达生物能否在业绩后维持相对恒生生物科技与创新药指数强势",
         "A/H创新药上涨家数、成交量和行业资金流能否连续改善"
