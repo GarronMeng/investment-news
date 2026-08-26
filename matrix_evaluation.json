@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-08-26T12:11:09+08:00",
-  "history_generated_at": "2026-08-26T12:10:42+08:00",
-  "records": 170,
-  "raw_ledger_records": 179,
+  "generated_at": "2026-08-26T12:27:37+08:00",
+  "history_generated_at": "2026-08-26T12:27:27+08:00",
+  "records": 172,
+  "raw_ledger_records": 181,
   "superseded_records": 9,
   "evaluations": [
     {
@@ -5107,6 +5107,32 @@
       }
     },
     {
+      "state_id": "03c56a49cfd8c515",
+      "state_revision": 2,
+      "asset": "300308",
+      "name": "中际旭创",
+      "signal_date": "2026-08-25",
+      "matrix_direction": "bearish",
+      "thesis_state": "supported",
+      "evidence_state": "partial_confirmation",
+      "composite_score": -24.4,
+      "confluence": 65.6,
+      "conflict_score": 26.0,
+      "entry_date": "2026-08-25",
+      "entry_close": 846.0,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
       "state_id": "81430b6fb0c01ca2",
       "state_revision": 2,
       "asset": "517380",
@@ -5117,6 +5143,32 @@
       "evidence_state": "multi_layer_confirmed",
       "composite_score": 43.6,
       "confluence": 83.1,
+      "conflict_score": 0.0,
+      "entry_date": "2026-08-25",
+      "entry_close": 0.878,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "state_id": "e9775938f3f40961",
+      "state_revision": 2,
+      "asset": "517380",
+      "name": "创新药沪港深ETF天弘",
+      "signal_date": "2026-08-25",
+      "matrix_direction": "bullish",
+      "thesis_state": "supported",
+      "evidence_state": "partial_confirmation",
+      "composite_score": 32.8,
+      "confluence": 79.8,
       "conflict_score": 0.0,
       "entry_date": "2026-08-25",
       "entry_close": 0.878,
@@ -5517,7 +5569,7 @@
       }
     },
     "supported": {
-      "records": 29,
+      "records": 31,
       "horizons": {
         "t1": {
           "settled": 26,
@@ -5679,7 +5731,7 @@
       }
     },
     "partial_confirmation": {
-      "records": 48,
+      "records": 50,
       "horizons": {
         "t1": {
           "settled": 42,
