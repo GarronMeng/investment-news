@@ -1,18 +1,18 @@
 {
   "version": 1,
-  "generated_at": "2026-08-26T10:36:09+08:00",
+  "generated_at": "2026-08-26T11:41:36+08:00",
   "source": {
     "data_generated_at": "2026-08-26 10:00",
     "ai_generated_at": "2026-08-26 10:35",
     "ai_source_generated_at": "2026-08-26 10:00",
-    "features_generated_at": "2026-08-26T10:36:00+08:00",
+    "features_generated_at": "2026-08-26T11:41:10+08:00",
     "fresh_ai": true
   },
   "decisions": [
     {
       "asset": "603986",
       "name": "兆易创新",
-      "as_of": "2026-08-26",
+      "as_of": "2026-08-25",
       "bias": "neutral",
       "status": "neutral",
       "event_score": 50.0,
@@ -22,7 +22,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=0.083058",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=0.01487",
       "confirmation": [
         "兆易创新、德明利能否放量跑赢半导体指数，存储与先进封装板块成交额能否扩张",
         "苹果新品存储配置、NAND/HBM报价及8月28日德明利半年报能否确认盈利斜率"
@@ -36,17 +36,17 @@
     {
       "asset": "001309",
       "name": "德明利",
-      "as_of": "2026-08-26",
-      "bias": "neutral",
+      "as_of": "2026-08-25",
+      "bias": "bullish",
       "status": "neutral",
       "event_score": 50.0,
-      "market_score": 65.0,
+      "market_score": 75.0,
       "freshness_score": 100,
-      "conviction": 12.0,
+      "conviction": 20.0,
       "evidence_mode": "event_plus_market",
       "event_count": 1,
-      "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=0.121927",
+      "trend_state": "bullish",
+      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.100845",
       "confirmation": [
         "兆易创新、德明利能否放量跑赢半导体指数，存储与先进封装板块成交额能否扩张",
         "苹果新品存储配置、NAND/HBM报价及8月28日德明利半年报能否确认盈利斜率"
@@ -84,7 +84,7 @@
     {
       "asset": "002384",
       "name": "东山精密",
-      "as_of": "2026-08-26",
+      "as_of": "2026-08-25",
       "bias": "bullish",
       "status": "active",
       "event_score": 100.0,
@@ -94,7 +94,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 2,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=0.067513",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=0.003059",
       "confirmation": [
         "中际旭创能否放量强于通信设备指数并改善5日相对强弱",
         "英伟达财报及指引是否继续确认云厂商资本开支、AI服务器与高速互连需求"
@@ -108,7 +108,7 @@
     {
       "asset": "600667",
       "name": "太极实业",
-      "as_of": "2026-08-26",
+      "as_of": "2026-08-25",
       "bias": "neutral",
       "status": "neutral",
       "event_score": 50.0,
@@ -118,7 +118,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "mixed",
-      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=0.135711",
+      "why_now": "fresh event evidence; market trend=mixed; 20d relative strength=0.087843",
       "confirmation": [
         "兆易创新、德明利能否放量跑赢半导体指数，存储与先进封装板块成交额能否扩张",
         "苹果新品存储配置、NAND/HBM报价及8月28日德明利半年报能否确认盈利斜率"
@@ -156,7 +156,7 @@
     {
       "asset": "161226",
       "name": "国投白银LOF",
-      "as_of": "2026-08-26",
+      "as_of": "2026-08-25",
       "bias": "bullish",
       "status": "watch",
       "event_score": 50.0,
@@ -166,7 +166,7 @@
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.112722",
+      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.113187",
       "confirmation": [
         "国内Au99.99、黄金ETF与外盘黄金能否恢复同向，美元和实际利率是否继续回落",
         "国投白银LOF净值、场内价格及溢价能否与白银同步且交易限制未恶化"
@@ -180,17 +180,17 @@
     {
       "asset": "518880",
       "name": "黄金ETF华安",
-      "as_of": "2026-08-26",
+      "as_of": "2026-08-25",
       "bias": "bullish",
-      "status": "watch",
+      "status": "neutral",
       "event_score": 50.0,
-      "market_score": 85.0,
+      "market_score": 80.0,
       "freshness_score": 100,
-      "conviction": 28.0,
+      "conviction": 24.0,
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.14406",
+      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.137258",
       "confirmation": [
         "国内Au99.99、黄金ETF与外盘黄金能否恢复同向，美元和实际利率是否继续回落",
         "国投白银LOF净值、场内价格及溢价能否与白银同步且交易限制未恶化"
@@ -204,17 +204,17 @@
     {
       "asset": "517380",
       "name": "创新药沪港深ETF天弘",
-      "as_of": "2026-08-26",
+      "as_of": "2026-08-25",
       "bias": "bullish",
       "status": "active",
       "event_score": 90.0,
-      "market_score": 85.0,
+      "market_score": 75.0,
       "freshness_score": 100,
-      "conviction": 76.0,
+      "conviction": 68.0,
       "evidence_mode": "event_plus_market",
       "event_count": 1,
       "trend_state": "bullish",
-      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.120468",
+      "why_now": "fresh event evidence; market trend=bullish; 20d relative strength=0.119426",
       "confirmation": [
         "信达生物能否在业绩后维持相对恒生生物科技与创新药指数强势",
         "A/H创新药上涨家数、成交量和行业资金流能否连续改善"
