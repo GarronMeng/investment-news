@@ -296,7 +296,11 @@ def attention_score(thesis, evidence, confluence, priority, conflict_score):
 def refine(payload, previous=None, market_state=None, technical=None, features=None):
     previous = previous or {}
     old_assets = previous.get("assets", {})
-    changes = list(payload.get("state_changes") or [])
+    # Rebuild transitions from the final refined states. The base matrix can
+    # record an intermediate transition which is subsequently reversed by
+    # eligibility/conflict refinement; carrying that row forward would expose
+    # a state change that is not present in the published asset state.
+    changes = []
     assets = payload.get("assets", {})
 
     for code, item in assets.items():

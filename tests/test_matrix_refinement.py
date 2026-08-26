@@ -87,6 +87,47 @@ class MatrixRefinementTests(unittest.TestCase):
         self.assertGreater(item["attention_score"], 80)
         self.assertTrue(any(x["field"] == "evidence_state" for x in result["state_changes"]))
 
+    def test_refine_discards_intermediate_change_reversed_by_final_state(self):
+        payload = {
+            "version": 1,
+            "summary": {},
+            "assets": {
+                "000001": {
+                    "code": "000001", "name": "样本", "priority": 5,
+                    "base_bias": "neutral", "matrix_direction": "neutral",
+                    "composite_score": 0, "coverage": 100, "confluence": 5,
+                    "available_layers": 5, "opposing_weight_share": 0,
+                    "evidence_state": "noise_or_no_edge", "thesis_state": "no_directional_thesis",
+                    "layers": {
+                        "event": {"available": True, "score": 0},
+                        "technical": {"available": True, "score": -60},
+                        "relative_strength": {"available": True, "score": 80},
+                        "industry": {"available": True, "score": -30},
+                        "market_context": {"available": True, "score": 10},
+                    },
+                }
+            },
+            "ranking": ["000001"],
+            "state_changes": [
+                {"code": "000001", "name": "样本", "field": "thesis_state", "from": "conflicted", "to": "under_test"}
+            ],
+            "methodology": {},
+        }
+        previous = {
+            "assets": {
+                "000001": {
+                    "matrix_direction": "neutral",
+                    "evidence_state": "conflict",
+                    "thesis_state": "conflicted",
+                }
+            }
+        }
+
+        result = refine(payload, previous)
+
+        self.assertEqual(result["assets"]["000001"]["thesis_state"], "conflicted")
+        self.assertEqual(result["state_changes"], [])
+
     def test_hedge_excludes_a_share_industry_and_reweights(self):
         item = {
             "code": "518880", "group": "贵金属对冲",

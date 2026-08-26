@@ -7,6 +7,7 @@ pass applies the precise mapping, recomputes eligibility/composite semantics, an
 then rebuilds contributor cards exclusively from final available layers.
 """
 
+import argparse
 import json
 import math
 import os
@@ -97,7 +98,11 @@ def finalize(payload):
 
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--previous", default=None)
+    args = parser.parse_args()
     payload = load(OUTPUT)
+    previous = load(args.previous) if args.previous else {}
     watchlist = load(os.path.join(ROOT, "watchlist.json"))
     market_state = load(os.path.join(ROOT, "market_state.json"))
     technical = load(os.path.join(ROOT, "technical.json"))
@@ -106,7 +111,7 @@ def main():
     payload = apply_sector_overrides(payload, watchlist, market_state)
     payload = refine(
         payload,
-        previous={},
+        previous=previous,
         market_state=market_state,
         technical=technical,
         features=features,

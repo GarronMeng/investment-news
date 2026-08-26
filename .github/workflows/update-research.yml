@@ -105,7 +105,7 @@ jobs:
         run: python scripts/refine_decision_matrix.py --previous /tmp/decision_matrix.prev.json
 
       - name: Finalize matrix contributor integrity
-        run: python scripts/finalize_decision_matrix.py
+        run: python scripts/finalize_decision_matrix.py --previous /tmp/decision_matrix.prev.json
 
       - name: Update append-only signal ledger
         run: python scripts/update_signal_ledger.py
