@@ -1,4 +1,5 @@
 (()=>{
+  if(document.querySelector('meta[name="dashboard-mode"][content="decision-cockpit"]'))return;
   const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const n=v=>Number.isFinite(Number(v))?Number(v):null;
   const pct=v=>n(v)==null?'—':`${n(v)>0?'+':''}${n(v).toFixed(1)}%`;
