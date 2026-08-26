@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-26T13:37:09+08:00",
+  "generated_at": "2026-08-26T14:37:00+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
@@ -735,10 +735,14 @@
     "macro": 28,
     "global_earnings": 5,
     "high_importance": 3,
-    "macro_days_ok": 11,
-    "report_days_ok": 11
+    "macro_days_ok": 9,
+    "report_days_ok": 10
   },
-  "warnings": [],
+  "warnings": [
+    "news_report_time_baidu 20260828: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+    "news_economic_baidu 20260829: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10001 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+    "news_economic_baidu 20260830: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  ],
   "methodology": {
     "macro": "百度股市通全球宏观日历 via AKShare；保留重要性>=3及少量核心importance-2宏观数据，过滤每日持仓/仓单等例行噪声，并剔除已过时的当日时点。",
     "global_earnings": "百度股市通财报发行 via AKShare；仅保留global_catalyst_universe.json中的公开研究公司。",
