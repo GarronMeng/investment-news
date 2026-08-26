@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-26T09:33:03+08:00",
+  "generated_at": "2026-08-26T09:40:43+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -587,12 +587,12 @@
       "group": "贵金属对冲",
       "role": "高波动商品仓观察",
       "priority": 5,
-      "as_of": "2026-08-25",
+      "as_of": "2026-08-26",
       "base_bias": "bullish",
       "matrix_direction": "bullish",
-      "composite_score": 37.0,
+      "composite_score": 34.6,
       "coverage": 75.0,
-      "confluence": 81.1,
+      "confluence": 80.4,
       "available_layers": 3,
       "opposing_weight_share": 0.0,
       "evidence_state": "partial_confirmation",
@@ -609,14 +609,14 @@
         "technical": {
           "available": true,
           "score": 38.0,
-          "confidence": "high",
-          "evidence": "MA60 above/falling；MACD bullish；RSI 56.88 (strong)；量能 expansion；20日结构 inside_range。"
+          "confidence": "medium",
+          "evidence": "MA60 above/falling；MACD bullish；RSI 56.07 (strong)；量能 contraction；20日结构 inside_range。"
         },
         "relative_strength": {
           "available": true,
-          "score": 81.8,
+          "score": 72.8,
           "confidence": "high",
-          "evidence": "5日相对强弱 0.125226；20日相对强弱 0.113187。"
+          "evidence": "5日相对强弱 0.145378；20日相对强弱 0.081422。"
         },
         "industry": {
           "available": false,
@@ -637,13 +637,13 @@
         "positive": [
           {
             "layer": "relative_strength",
-            "score": 81.8,
-            "evidence": "5日相对强弱 0.125226；20日相对强弱 0.113187。"
+            "score": 72.8,
+            "evidence": "5日相对强弱 0.145378；20日相对强弱 0.081422。"
           },
           {
             "layer": "technical",
             "score": 38.0,
-            "evidence": "MA60 above/falling；MACD bullish；RSI 56.88 (strong)；量能 expansion；20日结构 inside_range。"
+            "evidence": "MA60 above/falling；MACD bullish；RSI 56.07 (strong)；量能 contraction；20日结构 inside_range。"
           }
         ],
         "negative": []
@@ -657,7 +657,7 @@
         "A股贵金属继续大额流出，或白银LOF场内溢价扩大"
       ],
       "excluded_layers": [],
-      "positive_direction_mass": 27.8,
+      "positive_direction_mass": 26.0,
       "negative_direction_mass": 0.0,
       "conflict_score": 0.0
     },
@@ -667,12 +667,12 @@
       "group": "贵金属对冲",
       "role": "低波动避险映射",
       "priority": 3,
-      "as_of": "2026-08-25",
+      "as_of": "2026-08-26",
       "base_bias": "bullish",
       "matrix_direction": "bullish",
-      "composite_score": 43.3,
+      "composite_score": 43.7,
       "coverage": 75.0,
-      "confluence": 83.0,
+      "confluence": 83.1,
       "available_layers": 3,
       "opposing_weight_share": 0.0,
       "evidence_state": "multi_layer_confirmed",
@@ -689,14 +689,14 @@
         "technical": {
           "available": true,
           "score": 52.0,
-          "confidence": "high",
-          "evidence": "MA60 above/flat；MACD bullish；RSI 73.03 (overbought)；量能 expansion；20日结构 inside_range。"
+          "confidence": "medium",
+          "evidence": "MA60 above/flat；MACD bullish；RSI 73.22 (overbought)；量能 contraction；20日结构 inside_range。"
         },
         "relative_strength": {
           "available": true,
-          "score": 84.2,
+          "score": 85.9,
           "confidence": "high",
-          "evidence": "5日相对强弱 0.085843；20日相对强弱 0.137258。"
+          "evidence": "5日相对强弱 0.099016；20日相对强弱 0.139413。"
         },
         "industry": {
           "available": false,
@@ -717,13 +717,13 @@
         "positive": [
           {
             "layer": "relative_strength",
-            "score": 84.2,
-            "evidence": "5日相对强弱 0.085843；20日相对强弱 0.137258。"
+            "score": 85.9,
+            "evidence": "5日相对强弱 0.099016；20日相对强弱 0.139413。"
           },
           {
             "layer": "technical",
             "score": 52.0,
-            "evidence": "MA60 above/flat；MACD bullish；RSI 73.03 (overbought)；量能 expansion；20日结构 inside_range。"
+            "evidence": "MA60 above/flat；MACD bullish；RSI 73.22 (overbought)；量能 contraction；20日结构 inside_range。"
           }
         ],
         "negative": []
@@ -737,7 +737,7 @@
         "A股贵金属继续大额流出，或白银LOF场内溢价扩大"
       ],
       "excluded_layers": [],
-      "positive_direction_mass": 32.4,
+      "positive_direction_mass": 32.8,
       "negative_direction_mass": 0.0,
       "conflict_score": 0.0
     },
@@ -747,12 +747,12 @@
       "group": "医疗成长",
       "role": "创新药分散配置",
       "priority": 3,
-      "as_of": "2026-08-25",
+      "as_of": "2026-08-26",
       "base_bias": "bullish",
       "matrix_direction": "bullish",
-      "composite_score": 54.3,
+      "composite_score": 58.0,
       "coverage": 85.0,
-      "confluence": 86.3,
+      "confluence": 87.4,
       "available_layers": 4,
       "opposing_weight_share": 0.0,
       "evidence_state": "multi_layer_confirmed",
@@ -769,14 +769,14 @@
         "technical": {
           "available": true,
           "score": 34.0,
-          "confidence": "high",
-          "evidence": "MA60 above/rising；MACD bearish；RSI 57.03 (strong)；量能 normal；20日结构 inside_range。"
+          "confidence": "medium",
+          "evidence": "MA60 above/rising；MACD bearish；RSI 60.29 (strong)；量能 contraction；20日结构 inside_range。"
         },
         "relative_strength": {
           "available": true,
-          "score": 58.9,
+          "score": 74.8,
           "confidence": "high",
-          "evidence": "5日相对强弱 0.016727；20日相对强弱 0.119426。"
+          "evidence": "5日相对强弱 0.048137；20日相对强弱 0.129262。"
         },
         "industry": {
           "available": false,
@@ -806,8 +806,8 @@
           },
           {
             "layer": "relative_strength",
-            "score": 58.9,
-            "evidence": "5日相对强弱 0.016727；20日相对强弱 0.119426。"
+            "score": 74.8,
+            "evidence": "5日相对强弱 0.048137；20日相对强弱 0.129262。"
           }
         ],
         "negative": []
@@ -821,7 +821,7 @@
         "A/H创新药继续出现广度收缩和持续资金流出"
       ],
       "excluded_layers": [],
-      "positive_direction_mass": 46.1,
+      "positive_direction_mass": 49.3,
       "negative_direction_mass": 0.0,
       "conflict_score": 0.0
     }
