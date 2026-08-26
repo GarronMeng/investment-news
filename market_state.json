@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-26T15:10:43+08:00",
+  "generated_at": "2026-08-26T15:58:58+08:00",
   "timezone": "Asia/Shanghai",
   "breadth": {
     "total": 5549,
@@ -62,15 +62,15 @@
     {
       "symbol": "hkHSI",
       "name": "恒生指数",
-      "price": 25711.19,
-      "change_pct": 0.78,
+      "price": 25661.33,
+      "change_pct": 0.59,
       "source": "腾讯行情"
     },
     {
       "symbol": "hkHSTECH",
       "name": "恒生科技指数",
-      "price": 4648.89,
-      "change_pct": 1.32,
+      "price": 4632.21,
+      "change_pct": 0.95,
       "source": "腾讯行情"
     }
   ],
@@ -393,19 +393,18 @@
   "regime": {
     "label": "Narrow Risk-on",
     "code": "narrow_risk_on",
-    "score": 31.9,
+    "score": 30.5,
     "components": {
       "breadth": 7.7,
-      "indices": 60.2,
+      "indices": 55.5,
       "limit_structure": 64.2
     },
     "methodology": "市场广度55% + 核心指数30% + 涨跌停结构15%；仅用于状态分类，不是收益概率。"
   },
   "section_status": {
     "breadth": {
-      "status": "fresh",
-      "source": "新浪财经 via AKShare",
-      "fallback": true
+      "status": "stale",
+      "error": "A-share breadth unavailable"
     },
     "indices": {
       "status": "fresh"
@@ -430,14 +429,13 @@
     "industry_flow: Expecting value: line 1 column 1 (char 0)",
     "sectors primary unavailable; using 同花顺 via AKShare fallback",
     "industry_flow primary unavailable; using 同花顺 via AKShare fallback",
-    "breadth primary source unavailable; using 新浪财经 via AKShare fallback"
+    "breadth_sina_fallback: Can not decode value starting with character '<'"
   ],
   "methodology": {
     "breadth": "全A实时快照计算上涨/下跌/平盘、涨跌停触及与封板率；涨跌停阈值按板块/ST规则近似。",
     "industry_flow": "东方财富行业主力净流入为主；失败时回退同花顺行业净额（原始单位亿元），统一换算为元。",
     "sector_rank": "东方财富行业涨跌为主；失败时回退同花顺行业资金流页面的行业涨跌幅。",
-    "etf_activity": "ETF成交额活跃度代理，不等同ETF净申购或真实资金净流入。",
-    "breadth_source": "东方财富主源；失败时单次回退新浪财经 AKShare stock_zh_a_spot。"
+    "etf_activity": "ETF成交额活跃度代理，不等同ETF净申购或真实资金净流入。"
   },
   "alerts": []
 }
