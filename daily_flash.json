@@ -1,24 +1,24 @@
 {
   "version": 1,
-  "generated_at": "2026-08-26T10:39:21+08:00",
+  "generated_at": "2026-08-26T11:46:18+08:00",
   "timezone": "Asia/Shanghai",
   "title": "Daily Flash · 每日投资驾驶舱",
-  "core_conclusion": "A股状态为 Risk-on，上涨家数占比 76.3%，风险温度 52/100（balanced）。沪深300 PE-TTM 14.25；10年分位 70.0%；强势：种植业与林业、美容护理、医药商业；弱势：贵金属、能源金属、小金属。研究复核优先关注 兆易创新、德明利、中际旭创；该排序代表证据变化与复核优先级，不代表交易优先级。资金/期指：融资余额26208亿元，5日-0.71%；南向成交净买额+7.3亿元；沪深300股指期货基差+0.52%。 下一催化：08-26 NVIDIA 财报发行；08-27 Marvell 财报发行。主线财报已确认披露 12/21 个研究样本。",
+  "core_conclusion": "A股状态为 Narrow Risk-on，上涨家数占比 59.2%，风险温度 64/100（elevated）。沪深300 PE-TTM 14.25；10年分位 70.0%；强势：工业金属、证券、贵金属；弱势：医疗服务、油气开采及服务、医药商业。研究复核优先关注 中际旭创、德明利、东山精密；该排序代表证据变化与复核优先级，不代表交易优先级。资金/期指：融资余额26208亿元，5日-0.71%；南向成交净买额+11.9亿元；中证500股指期货基差-0.95%。 下一催化：08-27 Marvell 财报发行；09-02 Broadcom 财报发行。主线财报已确认披露 12/21 个研究样本。",
   "market": {
     "regime": {
-      "label": "Risk-on",
-      "code": "risk_on",
-      "score": 45.5,
+      "label": "Narrow Risk-on",
+      "code": "narrow_risk_on",
+      "score": 49.5,
       "components": {
-        "breadth": 65.7,
-        "indices": -11.2,
-        "limit_structure": 84.6
+        "breadth": 23.1,
+        "indices": 87.8,
+        "limit_structure": 69.9
       },
       "methodology": "市场广度55% + 核心指数30% + 涨跌停结构15%；仅用于状态分类，不是收益概率。"
     },
     "risk": {
-      "score": 52.4,
-      "label": "balanced",
+      "score": 63.5,
+      "label": "elevated",
       "coverage": 100.0
     },
     "valuation_hs300": {
@@ -31,80 +31,80 @@
       {
         "name": "上证指数",
         "code": null,
-        "value": 3889.44,
-        "change_pct": 0.19,
+        "value": 3920.43,
+        "change_pct": 0.8,
         "status": "fresh",
         "source": "腾讯行情"
       },
       {
         "name": "深证成指",
         "code": null,
-        "value": 13745.87,
-        "change_pct": -0.35,
+        "value": 13918.0,
+        "change_pct": 1.25,
         "status": "fresh",
         "source": "腾讯行情"
       },
       {
         "name": "创业板指",
         "code": null,
-        "value": 3397.52,
-        "change_pct": -1.0,
+        "value": 3446.03,
+        "change_pct": 1.43,
         "status": "fresh",
         "source": "腾讯行情"
       },
       {
         "name": "科创50",
         "code": null,
-        "value": 1604.59,
-        "change_pct": 0.14,
+        "value": 1638.38,
+        "change_pct": 2.11,
         "status": "fresh",
         "source": "腾讯行情"
       },
       {
         "name": "沪深300",
         "code": null,
-        "value": 4552.03,
-        "change_pct": -0.24,
+        "value": 4603.94,
+        "change_pct": 1.14,
         "status": "fresh",
         "source": "腾讯行情"
       },
       {
         "name": "中证500",
         "code": null,
-        "value": 7710.94,
-        "change_pct": -0.08,
+        "value": 7816.56,
+        "change_pct": 1.37,
         "status": "fresh",
         "source": "腾讯行情"
       },
       {
         "name": "恒生指数",
         "code": null,
-        "value": 25526.15,
-        "change_pct": 0.03,
+        "value": 25747.11,
+        "change_pct": 0.93,
         "status": "fresh",
         "source": "腾讯行情"
       },
       {
         "name": "恒生科技指数",
         "code": null,
-        "value": 4592.47,
-        "change_pct": -0.03,
+        "value": 4657.98,
+        "change_pct": 1.51,
         "status": "fresh",
         "source": "腾讯行情"
       }
     ],
     "metrics": {
       "total": 5549,
-      "up": 4232,
-      "down": 1244,
-      "flat": 73,
-      "advance_ratio": 0.7627,
-      "limit_up": 108,
-      "limit_down": 9,
-      "touched_limit_up": 184,
-      "broken_limit_up": 76,
-      "seal_rate": 0.587,
-      "turnover": 1843686069062.0,
+      "up": 3287,
+      "down": 2055,
+      "flat": 207,
+      "advance_ratio": 0.5924,
+      "limit_up": 62,
+      "limit_down": 11,
+      "touched_limit_up": 122,
+      "broken_limit_up": 60,
+      "seal_rate": 0.5082,
+      "turnover": 1079368603289.0,
       "status": "fresh"
     },
     "funding_and_futures": {
@@ -122,18 +122,18 @@
       "southbound": {
         "status": "fresh",
         "as_of": "2026-08-26",
-        "net_buy_cny_100m": 7.3,
+        "net_buy_cny_100m": 11.88,
         "net_inflow_cny_100m": 840.0,
         "closed": false,
         "legs": [
           {
             "name": "港股通(沪)",
-            "net_buy_cny_100m": -3.369636,
+            "net_buy_cny_100m": -5.3593779999999995,
             "net_inflow_cny_100m": 420.0
           },
           {
             "name": "港股通(深)",
-            "net_buy_cny_100m": 10.672007,
+            "net_buy_cny_100m": 17.238322,
             "net_inflow_cny_100m": 420.0
           }
         ],
@@ -144,56 +144,56 @@
         {
           "symbol": "沪深300指数期货2609",
           "underlying": "沪深300",
-          "current_price": 4575.8,
+          "current_price": 4573.2,
           "change_pct": null,
-          "spot": 4552.03,
-          "basis": 23.77,
-          "basis_pct": 0.522,
-          "hold": 144175.0,
-          "volume": 30357.0,
-          "time": "10:36:34",
+          "spot": 4603.94,
+          "basis": -30.74,
+          "basis_pct": -0.668,
+          "hold": 144684.0,
+          "volume": 46607.0,
+          "time": "11:30:00",
           "status": "fresh",
           "source": "新浪财经 via AKShare"
         },
         {
           "symbol": "上证50指数期货2609",
           "underlying": "上证50",
-          "current_price": 2897.6,
+          "current_price": 2891.0,
           "change_pct": null,
           "spot": null,
           "basis": null,
           "basis_pct": null,
-          "hold": 68998.0,
-          "volume": 17243.0,
-          "time": "10:36:34",
+          "hold": 70007.0,
+          "volume": 25344.0,
+          "time": "11:30:00",
           "status": "fresh",
           "source": "新浪财经 via AKShare"
         },
         {
           "symbol": "中证500指数期货2609",
           "underlying": "中证500",
-          "current_price": 7736.6,
+          "current_price": 7742.0,
           "change_pct": null,
-          "spot": 7710.94,
-          "basis": 25.66,
-          "basis_pct": 0.333,
-          "hold": 154687.0,
-          "volume": 51020.0,
-          "time": "10:36:34",
+          "spot": 7816.56,
+          "basis": -74.56,
+          "basis_pct": -0.954,
+          "hold": 156300.0,
+          "volume": 74745.0,
+          "time": "11:30:00",
           "status": "fresh",
           "source": "新浪财经 via AKShare"
         },
         {
           "symbol": "中证1000指数期货2609",
           "underlying": "中证1000",
-          "current_price": 7516.4,
+          "current_price": 7515.8,
           "change_pct": null,
           "spot": null,
           "basis": null,
           "basis_pct": null,
-          "hold": 231170.0,
-          "volume": 79870.0,
-          "time": "10:36:34",
+          "hold": 232459.0,
+          "volume": 113705.0,
+          "time": "11:30:00",
           "status": "fresh",
           "source": "新浪财经 via AKShare"
         }
@@ -203,154 +203,154 @@
   "sector_rotation": {
     "leaders": [
       {
-        "name": "种植业与林业",
-        "change_pct": 3.29,
-        "leader": "万向德农",
+        "name": "工业金属",
+        "change_pct": 3.68,
+        "leader": "精艺股份",
         "source": "同花顺 via AKShare"
       },
       {
-        "name": "美容护理",
-        "change_pct": 3.26,
-        "leader": "维琪科技",
+        "name": "证券",
+        "change_pct": 3.05,
+        "leader": "锦龙股份",
         "source": "同花顺 via AKShare"
       },
       {
-        "name": "医药商业",
-        "change_pct": 3.25,
-        "leader": "人民同泰",
+        "name": "贵金属",
+        "change_pct": 2.63,
+        "leader": "湖南白银",
         "source": "同花顺 via AKShare"
       },
       {
-        "name": "小家电",
-        "change_pct": 3.04,
-        "leader": "石头科技",
+        "name": "造纸",
+        "change_pct": 2.44,
+        "leader": "青山纸业",
         "source": "同花顺 via AKShare"
       },
       {
-        "name": "影视院线",
-        "change_pct": 2.9,
-        "leader": "博纳影业",
+        "name": "能源金属",
+        "change_pct": 2.39,
+        "leader": "盛新锂能",
         "source": "同花顺 via AKShare"
       },
       {
-        "name": "零售",
-        "change_pct": 2.89,
-        "leader": "汇通能源",
+        "name": "多元金融",
+        "change_pct": 2.16,
+        "leader": "南华期货",
         "source": "同花顺 via AKShare"
       }
     ],
     "laggards": [
       {
-        "name": "贵金属",
-        "change_pct": -4.82,
-        "leader": "湖南黄金",
+        "name": "医疗服务",
+        "change_pct": -1.7,
+        "leader": "澳洋健康",
         "source": "同花顺 via AKShare"
       },
       {
-        "name": "能源金属",
-        "change_pct": -2.7,
-        "leader": "*ST威领",
+        "name": "油气开采及服务",
+        "change_pct": -1.43,
+        "leader": "新潮能源",
         "source": "同花顺 via AKShare"
       },
       {
-        "name": "小金属",
-        "change_pct": -1.59,
-        "leader": "华阳新材",
+        "name": "医药商业",
+        "change_pct": -0.32,
+        "leader": "开开实业",
         "source": "同花顺 via AKShare"
       },
       {
-        "name": "工业金属",
-        "change_pct": -0.89,
-        "leader": "和胜股份",
+        "name": "厨卫电器",
+        "change_pct": -0.28,
+        "leader": "华帝股份",
         "source": "同花顺 via AKShare"
       },
       {
-        "name": "电池",
-        "change_pct": -0.86,
-        "leader": "滨海能源",
+        "name": "小家电",
+        "change_pct": -0.24,
+        "leader": "莱克电气",
         "source": "同花顺 via AKShare"
       },
       {
-        "name": "银行",
-        "change_pct": -0.75,
-        "leader": "兰州银行",
+        "name": "种植业与林业",
+        "change_pct": -0.23,
+        "leader": "万向德农",
         "source": "同花顺 via AKShare"
       }
     ],
     "inflow": [
       {
-        "name": "通信设备",
-        "change_pct": 1.57,
-        "net_inflow": 4898000000.0,
-        "source": "同花顺 via AKShare"
+        "name": "有色金属",
+        "net_inflow": 7005245440.0,
+        "change_pct": 2.28,
+        "source": "东方财富 via AKShare"
       },
       {
-        "name": "半导体",
-        "change_pct": -0.39,
-        "net_inflow": 4842000000.0,
-        "source": "同花顺 via AKShare"
+        "name": "工业金属",
+        "net_inflow": 6355238400.0,
+        "change_pct": 3.56,
+        "source": "东方财富 via AKShare"
       },
       {
-        "name": "通用设备",
-        "change_pct": 2.27,
-        "net_inflow": 2620000000.0,
-        "source": "同花顺 via AKShare"
+        "name": "铜",
+        "net_inflow": 5101149696.0,
+        "change_pct": 5.96,
+        "source": "东方财富 via AKShare"
       },
       {
-        "name": "消费电子",
-        "change_pct": 2.3,
-        "net_inflow": 2514000000.0,
-        "source": "同花顺 via AKShare"
+        "name": "非银金融",
+        "net_inflow": 4563537664.0,
+        "change_pct": 2.69,
+        "source": "东方财富 via AKShare"
       },
       {
-        "name": "自动化设备",
-        "change_pct": 1.82,
-        "net_inflow": 1906000000.0,
-        "source": "同花顺 via AKShare"
+        "name": "证券Ⅱ",
+        "net_inflow": 3993834448.0,
+        "change_pct": 3.06,
+        "source": "东方财富 via AKShare"
       },
       {
-        "name": "汽车零部件",
-        "change_pct": 1.94,
-        "net_inflow": 1518000000.0,
-        "source": "同花顺 via AKShare"
+        "name": "证券Ⅲ",
+        "net_inflow": 3993272240.0,
+        "change_pct": 3.06,
+        "source": "东方财富 via AKShare"
       }
     ],
     "outflow": [
       {
-        "name": "工业金属",
-        "change_pct": -0.89,
-        "net_inflow": -3133000000.0,
-        "source": "同花顺 via AKShare"
+        "name": "通信网络设备及器件",
+        "net_inflow": -2066113280.0,
+        "change_pct": -0.24,
+        "source": "东方财富 via AKShare"
       },
       {
-        "name": "电池",
-        "change_pct": -0.86,
-        "net_inflow": -2384000000.0,
-        "source": "同花顺 via AKShare"
+        "name": "电子",
+        "net_inflow": -1799338240.0,
+        "change_pct": 0.46,
+        "source": "东方财富 via AKShare"
       },
       {
-        "name": "银行",
-        "change_pct": -0.75,
-        "net_inflow": -1869000000.0,
-        "source": "同花顺 via AKShare"
+        "name": "通信",
+        "net_inflow": -1778961408.0,
+        "change_pct": 0.16,
+        "source": "东方财富 via AKShare"
       },
       {
-        "name": "贵金属",
-        "change_pct": -4.82,
-        "net_inflow": -1652000000.0,
-        "source": "同花顺 via AKShare"
+        "name": "通信设备",
+        "net_inflow": -1583902976.0,
+        "change_pct": 0.26,
+        "source": "东方财富 via AKShare"
       },
       {
-        "name": "小金属",
-        "change_pct": -1.59,
-        "net_inflow": -1571000000.0,
-        "source": "同花顺 via AKShare"
+        "name": "半导体",
+        "net_inflow": -1240018688.0,
+        "change_pct": 0.79,
+        "source": "东方财富 via AKShare"
       },
       {
-        "name": "能源金属",
-        "change_pct": -2.7,
-        "net_inflow": -1431000000.0,
-        "source": "同花顺 via AKShare"
+        "name": "数字芯片设计",
+        "net_inflow": -1083598336.0,
+        "change_pct": 0.58,
+        "source": "东方财富 via AKShare"
       }
     ]
   },
@@ -403,10 +403,10 @@
       "symbol": "^HSI",
       "group": "港股",
       "unit": "index",
-      "value": 25756.4395,
-      "raw_value": 25756.4395,
+      "value": 25704.5898,
+      "raw_value": 25704.5898,
       "previous_close": 25511.0996,
-      "change_pct": 0.96,
+      "change_pct": 0.76,
       "as_of": "2026-08-26T09:30:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -417,10 +417,10 @@
       "symbol": "^N225",
       "group": "亚洲",
       "unit": "index",
-      "value": 66061.7734,
-      "raw_value": 66061.7734,
+      "value": 66227.5469,
+      "raw_value": 66227.5469,
       "previous_close": 65856.4297,
-      "change_pct": 0.31,
+      "change_pct": 0.56,
       "as_of": "2026-08-26T08:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -431,10 +431,10 @@
       "symbol": "^KS11",
       "group": "亚洲",
       "unit": "index",
-      "value": 6791.0498,
-      "raw_value": 6791.0498,
+      "value": 6870.4702,
+      "raw_value": 6870.4702,
       "previous_close": 6742.7402,
-      "change_pct": 0.72,
+      "change_pct": 1.89,
       "as_of": "2026-08-26T08:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -473,11 +473,11 @@
       "symbol": "DX-Y.NYB",
       "group": "汇率",
       "unit": "index",
-      "value": 98.94,
-      "raw_value": 98.94,
+      "value": 98.976,
+      "raw_value": 98.976,
       "previous_close": 98.92,
-      "change_pct": 0.02,
-      "as_of": "2026-08-26T10:26:33+08:00",
+      "change_pct": 0.06,
+      "as_of": "2026-08-26T11:32:01+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -487,11 +487,11 @@
       "symbol": "CNH=X",
       "group": "汇率",
       "unit": "fx",
-      "value": 6.7199,
-      "raw_value": 6.7199,
+      "value": 6.7206,
+      "raw_value": 6.7206,
       "previous_close": null,
       "change_pct": null,
-      "as_of": "2026-08-26T10:36:32+08:00",
+      "as_of": "2026-08-26T11:42:04+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -501,11 +501,11 @@
       "symbol": "GC=F",
       "group": "商品",
       "unit": "usd",
-      "value": 4716.0,
-      "raw_value": 4716.0,
+      "value": 4707.5,
+      "raw_value": 4707.5,
       "previous_close": 4638.1001,
-      "change_pct": 1.68,
-      "as_of": "2026-08-26T10:26:34+08:00",
+      "change_pct": 1.5,
+      "as_of": "2026-08-26T11:32:01+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -515,11 +515,11 @@
       "symbol": "SI=F",
       "group": "商品",
       "unit": "usd",
-      "value": 69.405,
-      "raw_value": 69.405,
+      "value": 69.36,
+      "raw_value": 69.36,
       "previous_close": 68.636,
-      "change_pct": 1.12,
-      "as_of": "2026-08-26T10:25:40+08:00",
+      "change_pct": 1.05,
+      "as_of": "2026-08-26T11:32:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -529,11 +529,11 @@
       "symbol": "CL=F",
       "group": "商品",
       "unit": "usd",
-      "value": 80.37,
-      "raw_value": 80.37,
+      "value": 80.3,
+      "raw_value": 80.3,
       "previous_close": 82.36,
-      "change_pct": -2.42,
-      "as_of": "2026-08-26T10:26:32+08:00",
+      "change_pct": -2.5,
+      "as_of": "2026-08-26T11:32:02+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -543,11 +543,11 @@
       "symbol": "BZ=F",
       "group": "商品",
       "unit": "usd",
-      "value": 85.32,
-      "raw_value": 85.32,
+      "value": 85.2,
+      "raw_value": 85.2,
       "previous_close": 88.58,
-      "change_pct": -3.68,
-      "as_of": "2026-08-26T10:26:11+08:00",
+      "change_pct": -3.82,
+      "as_of": "2026-08-26T11:30:18+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     }
@@ -655,10 +655,10 @@
   "dimensions": [
     {
       "name": "A股盘面",
-      "score": 45.5,
+      "score": 49.5,
       "label": "偏多",
       "weight": 5,
-      "evidence": "Market Regime=risk_on"
+      "evidence": "Market Regime=narrow_risk_on"
     },
     {
       "name": "美股隔夜",
@@ -669,14 +669,14 @@
     },
     {
       "name": "美债 / 美元",
-      "score": 10.2,
+      "score": 9.8,
       "label": "中性",
       "weight": 5,
       "evidence": "收益率与美元上行对长久期风险资产偏压制"
     },
     {
       "name": "商品避险",
-      "score": -12.4,
+      "score": -14.1,
       "label": "中性",
       "weight": 3,
       "evidence": "黄金/白银/原油组合变化"
@@ -709,10 +709,10 @@
         "德明利"
       ],
       "direction": "neutral",
-      "score": 8.1,
+      "score": -8.2,
       "event_score": 0.0,
       "technical_score": -34.0,
-      "industry_score": 15.8
+      "industry_score": 4.5
     },
     {
       "theme": "AI光通信 / CPO",
@@ -724,10 +724,10 @@
         "中际旭创"
       ],
       "direction": "neutral",
-      "score": 11.5,
+      "score": 2.9,
       "event_score": 100.0,
       "technical_score": -34.0,
-      "industry_score": 36.8
+      "industry_score": -0.4
     },
     {
       "theme": "PCB / 消费电子",
@@ -738,15 +738,15 @@
       "names": [
         "东山精密"
       ],
-      "direction": "bullish",
-      "score": 32.8,
+      "direction": "neutral",
+      "score": 16.1,
       "event_score": 100.0,
-      "technical_score": -34.0,
-      "industry_score": 41.4
+      "technical_score": -12.0,
+      "industry_score": -7.3
     },
     {
       "theme": "半导体工程 / 封测",
-      "status": "证据冲突",
+      "status": "等待确认",
       "assets": [
         "600667"
       ],
@@ -754,22 +754,22 @@
         "太极实业"
       ],
       "direction": "neutral",
-      "score": 5.4,
+      "score": -3.0,
       "event_score": 0.0,
       "technical_score": -24.0,
-      "industry_score": 7.2
+      "industry_score": 8.4
     },
     {
       "theme": "被动元件",
-      "status": "证据冲突",
+      "status": "等待确认",
       "assets": [
         "000636"
       ],
       "names": [
         "风华高科"
       ],
-      "direction": "neutral",
-      "score": -18.0,
+      "direction": "bearish",
+      "score": -21.4,
       "event_score": 0.0,
       "technical_score": -82.0,
       "industry_score": null
@@ -784,10 +784,10 @@
         "创新药沪港深ETF天弘"
       ],
       "direction": "bullish",
-      "score": 57.0,
+      "score": 42.2,
       "event_score": 80.0,
       "technical_score": 34.0,
-      "industry_score": null
+      "industry_score": -7.3
     },
     {
       "theme": "黄金",
@@ -799,7 +799,7 @@
         "黄金ETF华安"
       ],
       "direction": "bullish",
-      "score": 44.0,
+      "score": 43.3,
       "event_score": 0.0,
       "technical_score": 52.0,
       "industry_score": null
@@ -814,97 +814,97 @@
         "国投白银LOF"
       ],
       "direction": "bullish",
-      "score": 37.2,
+      "score": 37.0,
       "event_score": 0.0,
       "technical_score": 38.0,
       "industry_score": null
     }
   ],
   "outlook": {
-    "base": "当前基准情景：regime=risk_on，风险温度=52.4；Matrix中 confirmed=2、supported=1。",
+    "base": "当前基准情景：regime=narrow_risk_on，风险温度=63.5；Matrix中 confirmed=2、supported=1。",
     "bullish": "若上涨占比重新站上50%、Market Regime转向risk_on/narrow_risk_on，且强势主题的行业与技术层同步扩散，则风险偏好修复更可信。",
     "bearish": "若市场广度继续恶化、风险温度抬升，同时当前获支持主题转为conflict/contradicted，则应把环境定义为进一步收缩而非普通波动。"
   },
   "matrix_focus": [
     {
-      "code": "603986",
-      "name": "兆易创新",
+      "code": "300308",
+      "name": "中际旭创",
       "thesis_state": "conflicted",
       "direction": "neutral",
-      "attention_score": 92.8,
-      "composite_score": 4.1,
-      "confluence": 6.1,
-      "conflict_score": 87.1,
+      "attention_score": 91.1,
+      "composite_score": 2.9,
+      "confluence": 4.4,
+      "conflict_score": 96.5,
       "focus": "正负证据正在相互抵消，优先识别哪一层先失效或被确认。"
     },
     {
       "code": "001309",
       "name": "德明利",
-      "thesis_state": "conflicted",
+      "thesis_state": "under_test",
       "direction": "neutral",
-      "attention_score": 92.4,
-      "composite_score": 12.0,
-      "confluence": 18.1,
-      "conflict_score": 62.9,
-      "focus": "正负证据正在相互抵消，优先识别哪一层先失效或被确认。"
-    },
-    {
-      "code": "300308",
-      "name": "中际旭创",
-      "thesis_state": "conflicted",
-      "direction": "neutral",
-      "attention_score": 91.2,
-      "composite_score": 11.5,
-      "confluence": 17.2,
-      "conflict_score": 80.3,
-      "focus": "正负证据正在相互抵消，优先识别哪一层先失效或被确认。"
+      "attention_score": 74.5,
+      "composite_score": -5.0,
+      "confluence": 7.5,
+      "conflict_score": 54.1,
+      "focus": "原方向尚未被市场充分确认，继续观察验证/失效条件。"
     },
     {
       "code": "002384",
       "name": "东山精密",
-      "thesis_state": "conflicted",
+      "thesis_state": "under_test",
+      "direction": "neutral",
+      "attention_score": 71.6,
+      "composite_score": 16.1,
+      "confluence": 24.2,
+      "conflict_score": 36.1,
+      "focus": "原方向尚未被市场充分确认，继续观察验证/失效条件。"
+    },
+    {
+      "code": "517380",
+      "name": "创新药沪港深ETF天弘",
+      "thesis_state": "confirmed",
       "direction": "bullish",
-      "attention_score": 89.8,
-      "composite_score": 32.8,
-      "confluence": 58.8,
-      "conflict_score": 38.4,
-      "focus": "正负证据正在相互抵消，优先识别哪一层先失效或被确认。"
+      "attention_score": 69.5,
+      "composite_score": 42.2,
+      "confluence": 82.7,
+      "conflict_score": 0.0,
+      "focus": "验证持续性、行业扩散与后续基本面证据。"
     },
     {
-      "code": "000636",
-      "name": "风华高科",
-      "thesis_state": "conflicted",
-      "direction": "neutral",
-      "attention_score": 88.5,
-      "composite_score": -18.0,
-      "confluence": 26.9,
-      "conflict_score": 55.0,
-      "focus": "正负证据正在相互抵消，优先识别哪一层先失效或被确认。"
+      "code": "518880",
+      "name": "黄金ETF华安",
+      "thesis_state": "confirmed",
+      "direction": "bullish",
+      "attention_score": 69.5,
+      "composite_score": 43.3,
+      "confluence": 83.0,
+      "conflict_score": 0.0,
+      "focus": "验证持续性、行业扩散与后续基本面证据。"
     },
     {
-      "code": "600667",
-      "name": "太极实业",
-      "thesis_state": "conflicted",
-      "direction": "neutral",
-      "attention_score": 88.4,
-      "composite_score": 5.4,
-      "confluence": 8.1,
-      "conflict_score": 76.9,
-      "focus": "正负证据正在相互抵消，优先识别哪一层先失效或被确认。"
+      "code": "161226",
+      "name": "国投白银LOF",
+      "thesis_state": "supported",
+      "direction": "bullish",
+      "attention_score": 63.4,
+      "composite_score": 37.0,
+      "confluence": 81.1,
+      "conflict_score": 0.0,
+      "focus": "维持观察，等待更多层形成共振。"
     }
   ],
   "sources": {
-    "market_state": "2026-08-25T15:57:44+08:00",
-    "risk": "2026-08-26T10:36:09+08:00",
-    "valuation": "2026-08-26T10:36:01+08:00",
-    "decision_matrix": "2026-08-26T10:36:09+08:00",
-    "global_markets": "2026-08-26T10:36:33+08:00",
-    "catalysts": "2026-08-26T10:37:12+08:00",
+    "market_state": "2026-08-26T10:52:38+08:00",
+    "risk": "2026-08-26T11:41:36+08:00",
+    "valuation": "2026-08-26T11:41:10+08:00",
+    "decision_matrix": "2026-08-26T11:41:36+08:00",
+    "global_markets": "2026-08-26T11:42:04+08:00",
+    "catalysts": "2026-08-26T11:42:37+08:00",
     "ai_signals": "2026-08-26 10:35",
     "sentiment": "2026-08-26T09:56:40+08:00",
-    "market_extras": "2026-08-26T10:36:36+08:00",
-    "macro_calendar": "2026-08-26T10:38:15+08:00",
-    "theme_earnings": "2026-08-26T10:39:21+08:00"
+    "market_extras": "2026-08-26T11:42:06+08:00",
+    "macro_calendar": "2026-08-26T11:44:50+08:00",
+    "theme_earnings": "2026-08-26T11:46:18+08:00"
   },
   "boundary": "Daily Flash用于信息压缩、研究排序与条件验证；缺失数据保持缺失，不生成无条件买卖、仓位或止损指令。",
   "integrity": {
@@ -1016,59 +1016,6 @@
       ],
       "themes": [],
       "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-08-26",
-      "time": null,
-      "type": "global_earnings",
-      "category": "earnings",
-      "region": "US",
-      "title": "NVIDIA 财报发行",
-      "ticker": "NVDA",
-      "report_period": null,
-      "importance": 3,
-      "impact_channels": [
-        "产业链景气",
-        "海外映射",
-        "风险偏好"
-      ],
-      "themes": [
-        "AI算力",
-        "AI光通信 / CPO"
-      ],
-      "assets": [
-        "300308",
-        "002384",
-        "600667"
-      ],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-08-26",
-      "time": null,
-      "type": "global_earnings",
-      "category": "earnings",
-      "region": "HK",
-      "title": "华虹半导体 财报发行",
-      "ticker": "01347",
-      "report_period": null,
-      "importance": 2,
-      "impact_channels": [
-        "产业链景气",
-        "海外映射",
-        "风险偏好"
-      ],
-      "themes": [
-        "半导体"
-      ],
-      "assets": [
-        "603986",
-        "001309",
-        "600667"
-      ],
       "source": "百度股市通 via AKShare",
       "status": "scheduled"
     },
@@ -1224,27 +1171,6 @@
         "全球风险偏好",
         "AI资本开支预期",
         "美元"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-08-31",
-      "time": "09:30",
-      "type": "macro",
-      "category": "growth",
-      "region": "中国",
-      "title": "中国8月官方制造业PMI",
-      "actual": null,
-      "forecast": null,
-      "previous": 49.2,
-      "importance": 2,
-      "impact_channels": [
-        "中国增长预期",
-        "行业盈利预期",
-        "人民币汇率"
       ],
       "themes": [],
       "assets": [],
@@ -1641,12 +1567,12 @@
     }
   ],
   "macro_calendar_summary": {
-    "total": 33,
-    "macro": 28,
-    "global_earnings": 5,
-    "high_importance": 3,
-    "macro_days_ok": 11,
-    "report_days_ok": 11
+    "total": 30,
+    "macro": 27,
+    "global_earnings": 3,
+    "high_importance": 2,
+    "macro_days_ok": 9,
+    "report_days_ok": 5
   },
   "theme_earnings": [
     {
@@ -2091,8 +2017,8 @@
   "theme_earnings_period": "2026半年报",
   "quality": {
     "macro_calendar": {
-      "events": 33,
-      "warnings": 0,
+      "events": 30,
+      "warnings": 8,
       "horizon_days": 10
     },
     "theme_earnings": {
