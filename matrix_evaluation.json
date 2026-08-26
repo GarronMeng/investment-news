@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-08-26T07:51:14+08:00",
-  "history_generated_at": "2026-08-26T07:51:03+08:00",
-  "records": 150,
-  "raw_ledger_records": 159,
+  "generated_at": "2026-08-26T09:10:42+08:00",
+  "history_generated_at": "2026-08-26T09:10:33+08:00",
+  "records": 154,
+  "raw_ledger_records": 163,
   "superseded_records": 9,
   "evaluations": [
     {
@@ -4743,6 +4743,32 @@
       }
     },
     {
+      "state_id": "4406c8e9e6896589",
+      "state_revision": 2,
+      "asset": "000636",
+      "name": "风华高科",
+      "signal_date": "2026-08-25",
+      "matrix_direction": "neutral",
+      "thesis_state": "no_directional_thesis",
+      "evidence_state": "noise_or_no_edge",
+      "composite_score": -18.1,
+      "confluence": 27.1,
+      "conflict_score": 54.7,
+      "entry_date": "2026-08-25",
+      "entry_close": 51.33,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
       "state_id": "c853c9c94f914f54",
       "state_revision": 2,
       "asset": "001309",
@@ -4873,6 +4899,58 @@
       }
     },
     {
+      "state_id": "0def3b853817d678",
+      "state_revision": 2,
+      "asset": "002384",
+      "name": "东山精密",
+      "signal_date": "2026-08-25",
+      "matrix_direction": "bullish",
+      "thesis_state": "supported",
+      "evidence_state": "partial_confirmation",
+      "composite_score": 26.3,
+      "confluence": 57.9,
+      "conflict_score": 26.9,
+      "entry_date": "2026-08-25",
+      "entry_close": 190.84,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "state_id": "18daa032060c5d29",
+      "state_revision": 2,
+      "asset": "161226",
+      "name": "国投白银LOF",
+      "signal_date": "2026-08-25",
+      "matrix_direction": "bullish",
+      "thesis_state": "supported",
+      "evidence_state": "partial_confirmation",
+      "composite_score": 37.0,
+      "confluence": 81.1,
+      "conflict_score": 0.0,
+      "entry_date": "2026-08-25",
+      "entry_close": 2.045,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
       "state_id": "9187b6df97315f76",
       "state_revision": 2,
       "asset": "300308",
@@ -4938,6 +5016,32 @@
       "conflict_score": 0.0,
       "entry_date": "2026-08-25",
       "entry_close": 0.878,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "state_id": "9d18b43357bf3794",
+      "state_revision": 2,
+      "asset": "518880",
+      "name": "黄金ETF华安",
+      "signal_date": "2026-08-25",
+      "matrix_direction": "bullish",
+      "thesis_state": "confirmed",
+      "evidence_state": "multi_layer_confirmed",
+      "composite_score": 43.3,
+      "confluence": 83.0,
+      "conflict_score": 0.0,
+      "entry_date": "2026-08-25",
+      "entry_close": 9.533,
       "horizons": {
         "t1": {
           "status": "pending"
@@ -5057,7 +5161,7 @@
   ],
   "by_thesis_state": {
     "confirmed": {
-      "records": 30,
+      "records": 31,
       "horizons": {
         "t1": {
           "settled": 27,
@@ -5185,7 +5289,7 @@
       }
     },
     "no_directional_thesis": {
-      "records": 15,
+      "records": 16,
       "horizons": {
         "t1": {
           "settled": 14,
@@ -5217,7 +5321,7 @@
       }
     },
     "supported": {
-      "records": 26,
+      "records": 28,
       "horizons": {
         "t1": {
           "settled": 26,
@@ -5315,7 +5419,7 @@
       }
     },
     "multi_layer_confirmed": {
-      "records": 34,
+      "records": 35,
       "horizons": {
         "t1": {
           "settled": 31,
@@ -5347,7 +5451,7 @@
       }
     },
     "noise_or_no_edge": {
-      "records": 27,
+      "records": 28,
       "horizons": {
         "t1": {
           "settled": 25,
@@ -5379,7 +5483,7 @@
       }
     },
     "partial_confirmation": {
-      "records": 46,
+      "records": 48,
       "horizons": {
         "t1": {
           "settled": 42,
