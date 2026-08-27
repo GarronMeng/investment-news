@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-08-27T12:40:21+08:00",
-  "score": 64.8,
+  "generated_at": "2026-08-27T17:56:35+08:00",
+  "score": 63.3,
   "label": "elevated",
   "coverage": 100.0,
   "available_weight": 100,
@@ -31,10 +31,10 @@
       "evidence": "两融5日变化 -0.71%（20日基线尚未完整）"
     },
     "overseas": {
-      "score": 41.0,
+      "score": 25.4,
       "weight": 10,
       "available": true,
-      "evidence": "VIX 15.45；20日分位 50.0%"
+      "evidence": "VIX 14.90；20日分位 30.0%"
     },
     "concentration": {
       "score": 82.0,
