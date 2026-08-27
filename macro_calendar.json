@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-27T18:06:10+08:00",
+  "generated_at": "2026-08-27T18:37:24+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
@@ -492,7 +492,7 @@
       "region": "美国",
       "title": "美国8月失业率(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": 4.2,
       "previous": 4.1,
       "importance": 2,
       "impact_channels": [
@@ -514,7 +514,7 @@
       "region": "美国",
       "title": "美国8月私营企业非农就业人数变动(万)",
       "actual": null,
-      "forecast": null,
+      "forecast": 5.0,
       "previous": 3.0,
       "importance": 2,
       "impact_channels": [
@@ -536,7 +536,7 @@
       "region": "美国",
       "title": "美国8月非农就业人口变动季调后(万)",
       "actual": null,
-      "forecast": null,
+      "forecast": 4.5,
       "previous": -2.3,
       "importance": 2,
       "impact_channels": [
