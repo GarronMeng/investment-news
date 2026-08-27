@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-28T02:20:41+08:00",
+  "generated_at": "2026-08-28T02:23:39+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -830,29 +830,7 @@
     "518880",
     "517380"
   ],
-  "state_changes": [
-    {
-      "code": "300308",
-      "name": "中际旭创",
-      "field": "evidence_state",
-      "from": "partial_confirmation",
-      "to": "conflict"
-    },
-    {
-      "code": "300308",
-      "name": "中际旭创",
-      "field": "thesis_state",
-      "from": "supported",
-      "to": "conflicted"
-    },
-    {
-      "code": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "field": "evidence_state",
-      "from": "insufficient",
-      "to": "partial_confirmation"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "weights": {
       "event": 25,
