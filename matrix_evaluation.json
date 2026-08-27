@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-08-27T22:50:02+08:00",
-  "history_generated_at": "2026-08-27T22:49:58+08:00",
-  "records": 186,
-  "raw_ledger_records": 195,
+  "generated_at": "2026-08-28T00:36:30+08:00",
+  "history_generated_at": "2026-08-28T00:36:19+08:00",
+  "records": 187,
+  "raw_ledger_records": 196,
   "superseded_records": 9,
   "evaluations": [
     {
@@ -6557,6 +6557,32 @@
       }
     },
     {
+      "state_id": "b48f53481fb0abe1",
+      "state_revision": 2,
+      "asset": "300308",
+      "name": "中际旭创",
+      "signal_date": "2026-08-27",
+      "matrix_direction": "bearish",
+      "thesis_state": "supported",
+      "evidence_state": "partial_confirmation",
+      "composite_score": -30.1,
+      "confluence": 62.9,
+      "conflict_score": 54.1,
+      "entry_date": "2026-08-27",
+      "entry_close": 866.12,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
       "state_id": "511723382893d5b6",
       "state_revision": 2,
       "asset": "517380",
@@ -6797,7 +6823,7 @@
       }
     },
     "supported": {
-      "records": 34,
+      "records": 35,
       "horizons": {
         "t1": {
           "settled": 33,
@@ -6959,7 +6985,7 @@
       }
     },
     "partial_confirmation": {
-      "records": 54,
+      "records": 55,
       "horizons": {
         "t1": {
           "settled": 53,

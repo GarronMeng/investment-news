@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "generated_at": "2026-08-27T22:49:58+08:00",
+  "generated_at": "2026-08-28T00:36:19+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 4,
-    "fresh": 0,
+    "fresh": 4,
     "usable": 4
   },
   "indices": {
@@ -12,9 +12,9 @@
       "code": "000300",
       "name": "沪深300",
       "as_of": "2026-08-27",
-      "status": "stale",
+      "status": "fresh",
       "source": "中证指数 via AKShare stock_zh_index_hist_csindex",
-      "confidence": "low",
+      "confidence": "high",
       "pe_ttm": 14.44,
       "pe_1m_ago": 14.29,
       "pe_3m_ago": 14.62,
@@ -510,16 +510,15 @@
         }
       ],
       "metric": "滚动市盈率",
-      "drives_risk_score": true,
-      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+      "drives_risk_score": true
     },
     "000905": {
       "code": "000905",
       "name": "中证500",
       "as_of": "2026-08-27",
-      "status": "stale",
+      "status": "fresh",
       "source": "中证指数 via AKShare stock_zh_index_hist_csindex",
-      "confidence": "low",
+      "confidence": "high",
       "pe_ttm": 28.17,
       "pe_1m_ago": 26.55,
       "pe_3m_ago": 28.29,
@@ -1015,16 +1014,15 @@
         }
       ],
       "metric": "滚动市盈率",
-      "drives_risk_score": false,
-      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+      "drives_risk_score": false
     },
     "000852": {
       "code": "000852",
       "name": "中证1000",
       "as_of": "2026-08-27",
-      "status": "stale",
+      "status": "fresh",
       "source": "中证指数 via AKShare stock_zh_index_hist_csindex",
-      "confidence": "low",
+      "confidence": "high",
       "pe_ttm": 32.66,
       "pe_1m_ago": 29.79,
       "pe_3m_ago": 36.45,
@@ -1520,16 +1518,15 @@
         }
       ],
       "metric": "滚动市盈率",
-      "drives_risk_score": false,
-      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+      "drives_risk_score": false
     },
     "000906": {
       "code": "000906",
       "name": "中证800",
       "as_of": "2026-08-27",
-      "status": "stale",
+      "status": "fresh",
       "source": "中证指数 via AKShare stock_zh_index_hist_csindex",
-      "confidence": "low",
+      "confidence": "high",
       "pe_ttm": 16.24,
       "pe_1m_ago": 15.9,
       "pe_3m_ago": 16.53,
@@ -2025,16 +2022,10 @@
         }
       ],
       "metric": "滚动市盈率",
-      "drives_risk_score": false,
-      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+      "drives_risk_score": false
     }
   },
-  "warnings": [
-    "000300 沪深300: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
-    "000905 中证500: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
-    "000852 中证1000: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
-    "000906 中证800: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
-  ],
+  "warnings": [],
   "methodology": {
     "metric": "中证指数官方历史行情中的滚动市盈率",
     "percentile": "仅在同一滚动PE序列内计算3/5/10年历史分位；不以价格分位替代估值分位。",
