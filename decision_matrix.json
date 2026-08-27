@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-27T17:56:35+08:00",
+  "generated_at": "2026-08-27T18:03:53+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -810,43 +810,7 @@
     "517380",
     "600667"
   ],
-  "state_changes": [
-    {
-      "code": "603986",
-      "name": "兆易创新",
-      "field": "thesis_state",
-      "from": "no_directional_thesis",
-      "to": "under_test"
-    },
-    {
-      "code": "300308",
-      "name": "中际旭创",
-      "field": "thesis_state",
-      "from": "supported",
-      "to": "no_directional_thesis"
-    },
-    {
-      "code": "000636",
-      "name": "风华高科",
-      "field": "matrix_direction",
-      "from": "bearish",
-      "to": "neutral"
-    },
-    {
-      "code": "000636",
-      "name": "风华高科",
-      "field": "evidence_state",
-      "from": "partial_confirmation",
-      "to": "conflict"
-    },
-    {
-      "code": "000636",
-      "name": "风华高科",
-      "field": "thesis_state",
-      "from": "emerging",
-      "to": "conflicted"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "weights": {
       "event": 25,

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-08-27T17:56:27+08:00",
-  "source_generated_at": "2026-08-27T17:56:26+08:00",
+  "generated_at": "2026-08-27T18:03:41+08:00",
+  "source_generated_at": "2026-08-27T18:03:41+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -304,71 +304,7 @@
       "condition_state": "partial_conditions"
     }
   },
-  "state_changes": [
-    {
-      "code": "603986",
-      "name": "兆易创新",
-      "field": "rsi_zone",
-      "from": "weak",
-      "to": "neutral"
-    },
-    {
-      "code": "603986",
-      "name": "兆易创新",
-      "field": "volume",
-      "from": "contraction",
-      "to": "normal"
-    },
-    {
-      "code": "603986",
-      "name": "兆易创新",
-      "field": "condition_state",
-      "from": "conditions_not_met",
-      "to": "partial_conditions"
-    },
-    {
-      "code": "001309",
-      "name": "德明利",
-      "field": "rsi_zone",
-      "from": "weak",
-      "to": "neutral"
-    },
-    {
-      "code": "001309",
-      "name": "德明利",
-      "field": "volume",
-      "from": "contraction",
-      "to": "normal"
-    },
-    {
-      "code": "001309",
-      "name": "德明利",
-      "field": "condition_state",
-      "from": "conditions_not_met",
-      "to": "partial_conditions"
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "volume",
-      "from": "normal",
-      "to": "contraction"
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "condition_state",
-      "from": "partial_conditions",
-      "to": "conditions_not_met"
-    },
-    {
-      "code": "000636",
-      "name": "风华高科",
-      "field": "rsi_zone",
-      "from": "weak",
-      "to": "neutral"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "rsi14": "Wilder RSI(14)",
     "macd": "EMA12/EMA26 DIF, EMA9 signal, histogram=(DIF-DEA)*2",
