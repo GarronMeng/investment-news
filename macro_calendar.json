@@ -1,167 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-08-26T16:27:34+08:00",
+  "generated_at": "2026-08-27T12:42:33+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
-    {
-      "date": "2026-08-26",
-      "time": "18:00",
-      "type": "macro",
-      "category": "growth",
-      "region": "英国",
-      "title": "英国8月CBI零售销售差值",
-      "actual": null,
-      "forecast": null,
-      "previous": -26.0,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-08-26",
-      "time": "20:30",
-      "type": "macro",
-      "category": "growth",
-      "region": "美国",
-      "title": "美国第二季度GDP价格指数季率修正值(%)",
-      "actual": null,
-      "forecast": 6.2,
-      "previous": 6.2,
-      "importance": 2,
-      "impact_channels": [
-        "全球风险偏好",
-        "AI资本开支预期",
-        "美元"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-08-26",
-      "time": "20:30",
-      "type": "macro",
-      "category": "growth",
-      "region": "美国",
-      "title": "美国第二季度GDP隐性平减指数季率-季调后修正值(%)",
-      "actual": null,
-      "forecast": 6.2,
-      "previous": 3.5,
-      "importance": 2,
-      "impact_channels": [
-        "全球风险偏好",
-        "AI资本开支预期",
-        "美元"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-08-26",
-      "time": "20:30",
-      "type": "macro",
-      "category": "growth",
-      "region": "美国",
-      "title": "美国第二季度实际GDP年化季率修正值(%)",
-      "actual": null,
-      "forecast": 1.5,
-      "previous": 1.6,
-      "importance": 2,
-      "impact_channels": [
-        "全球风险偏好",
-        "AI资本开支预期",
-        "美元"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-08-26",
-      "time": "22:30",
-      "type": "macro",
-      "category": "energy",
-      "region": "美国",
-      "title": "美国截至8月21日当周EIA原油库存变动(万桶)",
-      "actual": null,
-      "forecast": 59.7,
-      "previous": 440.5,
-      "importance": 2,
-      "impact_channels": [
-        "原油",
-        "通胀预期",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-08-26",
-      "time": null,
-      "type": "global_earnings",
-      "category": "earnings",
-      "region": "US",
-      "title": "NVIDIA 财报发行",
-      "ticker": "NVDA",
-      "report_period": null,
-      "importance": 3,
-      "impact_channels": [
-        "产业链景气",
-        "海外映射",
-        "风险偏好"
-      ],
-      "themes": [
-        "AI算力",
-        "AI光通信 / CPO"
-      ],
-      "assets": [
-        "300308",
-        "002384",
-        "600667"
-      ],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-08-26",
-      "time": null,
-      "type": "global_earnings",
-      "category": "earnings",
-      "region": "HK",
-      "title": "华虹半导体 财报发行",
-      "ticker": "01347",
-      "report_period": null,
-      "importance": 2,
-      "impact_channels": [
-        "产业链景气",
-        "海外映射",
-        "风险偏好"
-      ],
-      "themes": [
-        "半导体"
-      ],
-      "assets": [
-        "603986",
-        "001309",
-        "600667"
-      ],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
     {
       "date": "2026-08-27",
       "time": "20:30",
@@ -170,7 +12,7 @@
       "region": "美国",
       "title": "美国截至8月22日当周初请失业金人数(万)",
       "actual": null,
-      "forecast": 20.9,
+      "forecast": 20.8,
       "previous": 20.6,
       "importance": 2,
       "impact_channels": [
@@ -328,7 +170,7 @@
       "region": "中国",
       "title": "中国8月官方制造业PMI",
       "actual": null,
-      "forecast": null,
+      "forecast": 49.7,
       "previous": 49.2,
       "importance": 2,
       "impact_channels": [
@@ -731,10 +573,10 @@
     }
   ],
   "summary": {
-    "total": 33,
-    "macro": 28,
-    "global_earnings": 5,
-    "high_importance": 3,
+    "total": 26,
+    "macro": 23,
+    "global_earnings": 3,
+    "high_importance": 2,
     "macro_days_ok": 11,
     "report_days_ok": 11
   },
