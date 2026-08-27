@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-28T00:40:15+08:00",
+  "generated_at": "2026-08-28T02:27:51+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
@@ -109,6 +109,90 @@
       "status": "scheduled"
     },
     {
+      "date": "2026-09-01",
+      "time": "17:00",
+      "type": "macro",
+      "category": "labor",
+      "region": "欧元区",
+      "title": "欧元区7月失业率(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 6.3,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-01",
+      "time": "17:00",
+      "type": "macro",
+      "category": "inflation",
+      "region": "欧元区",
+      "title": "欧元区8月核心调和CPI年率-未季调初值(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 2.2,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-01",
+      "time": "17:00",
+      "type": "macro",
+      "category": "inflation",
+      "region": "欧元区",
+      "title": "欧元区8月调和CPI年率-未季调初值(%)",
+      "actual": null,
+      "forecast": 3.3,
+      "previous": 2.9,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-01",
+      "time": "22:00",
+      "type": "macro",
+      "category": "growth",
+      "region": "美国",
+      "title": "美国8月ISM制造业PMI",
+      "actual": null,
+      "forecast": null,
+      "previous": 55.6,
+      "importance": null,
+      "impact_channels": [
+        "全球风险偏好",
+        "AI资本开支预期",
+        "美元"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
       "date": "2026-09-02",
       "time": "04:30",
       "type": "macro",
@@ -173,29 +257,64 @@
       "status": "scheduled"
     },
     {
-      "date": "2026-09-02",
-      "time": null,
-      "type": "global_earnings",
-      "category": "earnings",
-      "region": "US",
-      "title": "Broadcom 财报发行",
-      "ticker": "AVGO",
-      "report_period": null,
-      "importance": 3,
+      "date": "2026-09-03",
+      "time": "20:30",
+      "type": "macro",
+      "category": "trade",
+      "region": "美国",
+      "title": "美国7月贸易帐(亿美元)",
+      "actual": null,
+      "forecast": null,
+      "previous": -733.0,
+      "importance": 2,
       "impact_channels": [
-        "产业链景气",
-        "海外映射",
-        "风险偏好"
+        "宏观环境"
       ],
-      "themes": [
-        "AI算力",
-        "AI光通信 / CPO"
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-03",
+      "time": "20:30",
+      "type": "macro",
+      "category": "labor",
+      "region": "美国",
+      "title": "美国截至8月29日当周初请失业金人数(万)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
       ],
-      "assets": [
-        "300308",
-        "002384",
-        "600667"
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-03",
+      "time": "22:00",
+      "type": "macro",
+      "category": "growth",
+      "region": "美国",
+      "title": "美国8月ISM非制造业PMI",
+      "actual": null,
+      "forecast": null,
+      "previous": 54.1,
+      "importance": null,
+      "impact_channels": [
+        "全球风险偏好",
+        "AI资本开支预期",
+        "美元"
       ],
+      "themes": [],
+      "assets": [],
       "source": "百度股市通 via AKShare",
       "status": "scheduled"
     },
@@ -373,19 +492,17 @@
     }
   ],
   "summary": {
-    "total": 17,
-    "macro": 16,
-    "global_earnings": 1,
-    "high_importance": 1,
-    "macro_days_ok": 9,
-    "report_days_ok": 8
+    "total": 23,
+    "macro": 23,
+    "global_earnings": 0,
+    "high_importance": 0,
+    "macro_days_ok": 10,
+    "report_days_ok": 9
   },
   "warnings": [
-    "news_report_time_baidu 20260828: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-    "news_report_time_baidu 20260829: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10000 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-    "news_economic_baidu 20260901: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10001 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-    "news_economic_baidu 20260903: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10000 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-    "news_report_time_baidu 20260903: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+    "news_report_time_baidu 20260902: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10001 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+    "news_report_time_baidu 20260903: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+    "news_economic_baidu 20260905: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10001 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
   ],
   "methodology": {
     "macro": "百度股市通全球宏观日历 via AKShare；保留重要性>=3及少量核心importance-2宏观数据，过滤每日持仓/仓单等例行噪声，并剔除已过时的当日时点。",
