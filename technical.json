@@ -1,32 +1,32 @@
 {
   "version": 1,
-  "generated_at": "2026-08-27T20:04:37+08:00",
-  "source_generated_at": "2026-08-27T20:04:37+08:00",
+  "generated_at": "2026-08-27T22:23:40+08:00",
+  "source_generated_at": "2026-08-27T22:23:40+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
-    "as_of": "2026-08-26",
+    "as_of": "2026-08-27",
     "source_status": "fresh",
     "observations": 140,
-    "close": 4.652,
+    "close": 4.691,
     "ma60": {
-      "value": 4.7943,
+      "value": 4.7897,
       "position": "below",
       "direction": "falling",
-      "slope_pct": -0.000986
+      "slope_pct": -0.000953
     },
-    "rsi14": 44.77,
-    "rsi_zone": "weak",
+    "rsi14": 48.32,
+    "rsi_zone": "neutral",
     "macd": {
-      "dif": -0.02944,
-      "dea": -0.02405,
-      "hist": -0.01078,
+      "dif": -0.02638,
+      "dea": -0.02451,
+      "hist": -0.00372,
       "state": "bearish",
-      "cross_age": 2
+      "cross_age": 3
     },
     "volume": {
-      "ratio20": 0.892,
-      "state": "normal"
+      "ratio20": 0.709,
+      "state": "contraction"
     },
     "breakout_20d": "inside_range",
     "data_quality": "usable",
@@ -216,27 +216,27 @@
     "161226": {
       "code": "161226",
       "name": "国投白银LOF",
-      "as_of": "2026-08-26",
+      "as_of": "2026-08-27",
       "source_status": "fresh",
       "observations": 140,
-      "close": 2.058,
+      "close": 2.028,
       "ma60": {
-        "value": 1.9155,
+        "value": 1.9128,
         "position": "above",
         "direction": "falling",
-        "slope_pct": -0.001633
+        "slope_pct": -0.001383
       },
-      "rsi14": 57.61,
+      "rsi14": 55.28,
       "rsi_zone": "strong",
       "macd": {
-        "dif": 0.02679,
-        "dea": 0.00963,
-        "hist": 0.03432,
+        "dif": 0.02892,
+        "dea": 0.01347,
+        "hist": 0.03089,
         "state": "bullish",
-        "cross_age": 2
+        "cross_age": 3
       },
       "volume": {
-        "ratio20": 1.073,
+        "ratio20": 0.968,
         "state": "normal"
       },
       "breakout_20d": "inside_range",
@@ -276,28 +276,28 @@
     "517380": {
       "code": "517380",
       "name": "创新药沪港深ETF天弘",
-      "as_of": "2026-08-26",
+      "as_of": "2026-08-27",
       "source_status": "fresh",
       "observations": 140,
-      "close": 0.884,
+      "close": 0.89,
       "ma60": {
-        "value": 0.7745,
+        "value": 0.7783,
         "position": "above",
         "direction": "rising",
-        "slope_pct": 0.004431
+        "slope_pct": 0.004842
       },
-      "rsi14": 58.12,
+      "rsi14": 59.22,
       "rsi_zone": "strong",
       "macd": {
-        "dif": 0.02615,
-        "dea": 0.02922,
-        "hist": -0.00615,
+        "dif": 0.02532,
+        "dea": 0.02844,
+        "hist": -0.00625,
         "state": "bearish",
-        "cross_age": 2
+        "cross_age": 3
       },
       "volume": {
-        "ratio20": 1.43,
-        "state": "expansion"
+        "ratio20": 0.94,
+        "state": "normal"
       },
       "breakout_20d": "inside_range",
       "data_quality": "usable",
@@ -306,11 +306,11 @@
   },
   "state_changes": [
     {
-      "code": "518880",
-      "name": "黄金ETF华安",
-      "field": "rsi_zone",
-      "from": "overbought",
-      "to": "strong"
+      "code": "517380",
+      "name": "创新药沪港深ETF天弘",
+      "field": "volume",
+      "from": "expansion",
+      "to": "normal"
     }
   ],
   "methodology": {
