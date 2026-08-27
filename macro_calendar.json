@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-27T12:42:33+08:00",
+  "generated_at": "2026-08-27T17:59:07+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
@@ -23,59 +23,6 @@
       ],
       "themes": [],
       "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-08-27",
-      "time": null,
-      "type": "global_earnings",
-      "category": "earnings",
-      "region": "US",
-      "title": "Marvell 财报发行",
-      "ticker": "MRVL",
-      "report_period": null,
-      "importance": 3,
-      "impact_channels": [
-        "产业链景气",
-        "海外映射",
-        "风险偏好"
-      ],
-      "themes": [
-        "AI算力",
-        "AI光通信 / CPO"
-      ],
-      "assets": [
-        "300308",
-        "002384",
-        "600667"
-      ],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-08-27",
-      "time": null,
-      "type": "global_earnings",
-      "category": "earnings",
-      "region": "HK",
-      "title": "中芯国际 财报发行",
-      "ticker": "00981",
-      "report_period": null,
-      "importance": 2,
-      "impact_channels": [
-        "产业链景气",
-        "海外映射",
-        "风险偏好"
-      ],
-      "themes": [
-        "半导体"
-      ],
-      "assets": [
-        "603986",
-        "001309",
-        "600667"
-      ],
       "source": "百度股市通 via AKShare",
       "status": "scheduled"
     },
@@ -276,7 +223,7 @@
       "title": "美国截至8月28日当周API原油库存变动(万桶)",
       "actual": null,
       "forecast": null,
-      "previous": null,
+      "previous": 420.0,
       "importance": 2,
       "impact_channels": [
         "原油",
@@ -297,7 +244,7 @@
       "title": "美国8月ADP就业人数变动(万)",
       "actual": null,
       "forecast": null,
-      "previous": null,
+      "previous": 4.4,
       "importance": 2,
       "impact_channels": [
         "美债收益率",
@@ -319,7 +266,7 @@
       "title": "美国截至8月28日当周EIA原油库存变动(万桶)",
       "actual": null,
       "forecast": null,
-      "previous": null,
+      "previous": 9.5,
       "importance": 2,
       "impact_channels": [
         "原油",
@@ -408,29 +355,8 @@
       "title": "美国8月ISM非制造业PMI",
       "actual": null,
       "forecast": null,
-      "previous": null,
+      "previous": 54.1,
       "importance": 2,
-      "impact_channels": [
-        "全球风险偏好",
-        "AI资本开支预期",
-        "美元"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-03",
-      "time": "22:00",
-      "type": "macro",
-      "category": "growth",
-      "region": "美国",
-      "title": "美国8月ISM非制造业PMI分项-企业活动指数",
-      "actual": null,
-      "forecast": null,
-      "previous": 59.1,
-      "importance": null,
       "impact_channels": [
         "全球风险偏好",
         "AI资本开支预期",
@@ -472,7 +398,7 @@
       "title": "欧元区7月零售销售年率(%)",
       "actual": null,
       "forecast": null,
-      "previous": null,
+      "previous": 0.7,
       "importance": 2,
       "impact_channels": [
         "全球利率",
@@ -493,7 +419,7 @@
       "title": "欧元区7月零售销售月率(%)",
       "actual": null,
       "forecast": null,
-      "previous": null,
+      "previous": -0.3,
       "importance": 2,
       "impact_channels": [
         "全球利率",
@@ -514,7 +440,7 @@
       "title": "美国8月失业率(%)",
       "actual": null,
       "forecast": null,
-      "previous": null,
+      "previous": 4.1,
       "importance": 2,
       "impact_channels": [
         "美债收益率",
@@ -536,7 +462,7 @@
       "title": "美国8月私营企业非农就业人数变动(万)",
       "actual": null,
       "forecast": null,
-      "previous": null,
+      "previous": 3.0,
       "importance": 2,
       "impact_channels": [
         "美债收益率",
@@ -558,7 +484,7 @@
       "title": "美国8月非农就业人口变动季调后(万)",
       "actual": null,
       "forecast": null,
-      "previous": null,
+      "previous": -2.3,
       "importance": 2,
       "impact_channels": [
         "美债收益率",
@@ -573,14 +499,16 @@
     }
   ],
   "summary": {
-    "total": 26,
-    "macro": 23,
-    "global_earnings": 3,
-    "high_importance": 2,
+    "total": 23,
+    "macro": 22,
+    "global_earnings": 1,
+    "high_importance": 1,
     "macro_days_ok": 11,
-    "report_days_ok": 11
+    "report_days_ok": 10
   },
-  "warnings": [],
+  "warnings": [
+    "news_report_time_baidu 20260827: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  ],
   "methodology": {
     "macro": "百度股市通全球宏观日历 via AKShare；保留重要性>=3及少量核心importance-2宏观数据，过滤每日持仓/仓单等例行噪声，并剔除已过时的当日时点。",
     "global_earnings": "百度股市通财报发行 via AKShare；仅保留global_catalyst_universe.json中的公开研究公司。",
