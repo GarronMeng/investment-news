@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-08-27T18:00:48+08:00",
+  "generated_at": "2026-08-27T18:07:35+08:00",
   "timezone": "Asia/Shanghai",
   "title": "Daily Flash · 每日投资驾驶舱",
-  "core_conclusion": "A股状态为 Narrow Risk-on，上涨家数占比 53.1%，风险温度 63/100（elevated）。沪深300 PE-TTM 14.35；10年分位 73.4%；强势：证券、工业金属、保险；弱势：医疗服务、电机、其他电子。研究复核优先关注 德明利、风华高科、东山精密；该排序代表证据变化与复核优先级，不代表交易优先级。资金/期指：融资余额26208亿元，5日-0.71%（stale）；南向成交净买额+31.8亿元；中证500股指期货基差+1.71%。 下一催化：09-02 Broadcom 财报发行。主线财报已确认披露 16/21 个研究样本。",
+  "core_conclusion": "A股状态为 Narrow Risk-on，上涨家数占比 53.1%，风险温度 63/100（elevated）。沪深300 PE-TTM 14.35；10年分位 73.4%；强势：证券、工业金属、保险；弱势：医疗服务、电机、其他电子。研究复核优先关注 德明利、风华高科、东山精密；该排序代表证据变化与复核优先级，不代表交易优先级。资金/期指：融资余额26208亿元，5日-0.71%（stale）；南向成交净买额+31.8亿元；中证500股指期货基差+1.71%。 下一催化：08-27 Marvell 财报发行；09-02 Broadcom 财报发行。主线财报已确认披露 16/21 个研究样本。",
   "market": {
     "regime": {
       "label": "Narrow Risk-on",
@@ -473,10 +473,10 @@
       "symbol": "DX-Y.NYB",
       "group": "汇率",
       "unit": "index",
-      "value": 99.226,
-      "raw_value": 99.226,
+      "value": 99.211,
+      "raw_value": 99.211,
       "previous_close": 99.17,
-      "change_pct": 0.06,
+      "change_pct": 0.04,
       "as_of": "2026-08-27T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -487,11 +487,11 @@
       "symbol": "CNH=X",
       "group": "汇率",
       "unit": "fx",
-      "value": 6.7206,
-      "raw_value": 6.7206,
+      "value": 6.7214,
+      "raw_value": 6.7214,
       "previous_close": null,
       "change_pct": null,
-      "as_of": "2026-08-27T17:57:18+08:00",
+      "as_of": "2026-08-27T18:04:25+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -501,8 +501,8 @@
       "symbol": "GC=F",
       "group": "商品",
       "unit": "usd",
-      "value": 4636.8999,
-      "raw_value": 4636.8999,
+      "value": 4636.6001,
+      "raw_value": 4636.6001,
       "previous_close": 4598.2002,
       "change_pct": 0.84,
       "as_of": "2026-08-27T12:00:00+08:00",
@@ -515,10 +515,10 @@
       "symbol": "SI=F",
       "group": "商品",
       "unit": "usd",
-      "value": 69.035,
-      "raw_value": 69.035,
+      "value": 69.01,
+      "raw_value": 69.01,
       "previous_close": 67.99,
-      "change_pct": 1.54,
+      "change_pct": 1.5,
       "as_of": "2026-08-27T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -529,10 +529,10 @@
       "symbol": "CL=F",
       "group": "商品",
       "unit": "usd",
-      "value": 82.03,
-      "raw_value": 82.03,
+      "value": 82.12,
+      "raw_value": 82.12,
       "previous_close": 82.23,
-      "change_pct": -0.24,
+      "change_pct": -0.13,
       "as_of": "2026-08-27T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -543,10 +543,10 @@
       "symbol": "BZ=F",
       "group": "商品",
       "unit": "usd",
-      "value": 86.87,
-      "raw_value": 86.87,
+      "value": 87.0,
+      "raw_value": 87.0,
       "previous_close": 87.84,
-      "change_pct": -1.1,
+      "change_pct": -0.96,
       "as_of": "2026-08-27T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -669,14 +669,14 @@
     },
     {
       "name": "美债 / 美元",
-      "score": -4.7,
+      "score": -4.5,
       "label": "中性",
       "weight": 5,
       "evidence": "收益率与美元上行对长久期风险资产偏压制"
     },
     {
       "name": "商品避险",
-      "score": 3.9,
+      "score": 4.7,
       "label": "中性",
       "weight": 3,
       "evidence": "黄金/白银/原油组合变化"
@@ -895,16 +895,16 @@
   ],
   "sources": {
     "market_state": "2026-08-26T15:58:58+08:00",
-    "risk": "2026-08-27T17:56:35+08:00",
-    "valuation": "2026-08-27T17:56:27+08:00",
-    "decision_matrix": "2026-08-27T17:56:35+08:00",
-    "global_markets": "2026-08-27T17:57:19+08:00",
-    "catalysts": "2026-08-27T17:57:48+08:00",
+    "risk": "2026-08-27T18:03:53+08:00",
+    "valuation": "2026-08-27T18:03:41+08:00",
+    "decision_matrix": "2026-08-27T18:03:53+08:00",
+    "global_markets": "2026-08-27T18:04:25+08:00",
+    "catalysts": "2026-08-27T18:05:02+08:00",
     "ai_signals": "2026-08-26 13:33",
     "sentiment": "2026-08-27T17:40:57+08:00",
-    "market_extras": "2026-08-27T17:57:20+08:00",
-    "macro_calendar": "2026-08-27T17:59:07+08:00",
-    "theme_earnings": "2026-08-27T18:00:48+08:00"
+    "market_extras": "2026-08-27T18:04:27+08:00",
+    "macro_calendar": "2026-08-27T18:06:10+08:00",
+    "theme_earnings": "2026-08-27T18:07:35+08:00"
   },
   "boundary": "Daily Flash用于信息压缩、研究排序与条件验证；缺失数据保持缺失，不生成无条件买卖、仓位或止损指令。",
   "integrity": {
@@ -933,6 +933,59 @@
       ],
       "themes": [],
       "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-27",
+      "time": null,
+      "type": "global_earnings",
+      "category": "earnings",
+      "region": "US",
+      "title": "Marvell 财报发行",
+      "ticker": "MRVL",
+      "report_period": null,
+      "importance": 3,
+      "impact_channels": [
+        "产业链景气",
+        "海外映射",
+        "风险偏好"
+      ],
+      "themes": [
+        "AI算力",
+        "AI光通信 / CPO"
+      ],
+      "assets": [
+        "300308",
+        "002384",
+        "600667"
+      ],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-27",
+      "time": null,
+      "type": "global_earnings",
+      "category": "earnings",
+      "region": "HK",
+      "title": "中芯国际 财报发行",
+      "ticker": "00981",
+      "report_period": null,
+      "importance": 2,
+      "impact_channels": [
+        "产业链景气",
+        "海外映射",
+        "风险偏好"
+      ],
+      "themes": [
+        "半导体"
+      ],
+      "assets": [
+        "603986",
+        "001309",
+        "600667"
+      ],
       "source": "百度股市通 via AKShare",
       "status": "scheduled"
     },
@@ -1266,7 +1319,7 @@
       "actual": null,
       "forecast": null,
       "previous": 54.1,
-      "importance": 2,
+      "importance": null,
       "impact_channels": [
         "全球风险偏好",
         "AI资本开支预期",
@@ -1409,12 +1462,12 @@
     }
   ],
   "macro_calendar_summary": {
-    "total": 23,
+    "total": 25,
     "macro": 22,
-    "global_earnings": 1,
-    "high_importance": 1,
+    "global_earnings": 3,
+    "high_importance": 2,
     "macro_days_ok": 11,
-    "report_days_ok": 10
+    "report_days_ok": 11
   },
   "theme_earnings": [
     {
@@ -1859,8 +1912,8 @@
   "theme_earnings_period": "2026半年报",
   "quality": {
     "macro_calendar": {
-      "events": 23,
-      "warnings": 1,
+      "events": 25,
+      "warnings": 0,
       "horizon_days": 10
     },
     "theme_earnings": {
