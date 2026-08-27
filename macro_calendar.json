@@ -1,31 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-08-27T20:07:27+08:00",
+  "generated_at": "2026-08-27T22:26:37+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
-    {
-      "date": "2026-08-27",
-      "time": "20:30",
-      "type": "macro",
-      "category": "labor",
-      "region": "美国",
-      "title": "美国截至8月22日当周初请失业金人数(万)",
-      "actual": null,
-      "forecast": 20.8,
-      "previous": 20.6,
-      "importance": 2,
-      "impact_channels": [
-        "美债收益率",
-        "美元",
-        "全球成长估值",
-        "黄金/白银"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
     {
       "date": "2026-08-27",
       "time": null,
@@ -552,8 +530,8 @@
     }
   ],
   "summary": {
-    "total": 25,
-    "macro": 22,
+    "total": 24,
+    "macro": 21,
     "global_earnings": 3,
     "high_importance": 2,
     "macro_days_ok": 11,
