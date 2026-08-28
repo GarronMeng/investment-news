@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-28T02:29:05+08:00",
+  "generated_at": "2026-08-28T15:07:27+08:00",
   "timezone": "Asia/Shanghai",
   "status": "fresh",
   "report_period_code": "20260630",
@@ -10,13 +10,13 @@
       "theme": "存储",
       "summary": {
         "total": 5,
-        "reported": 4,
-        "scheduled": 1,
+        "reported": 3,
+        "scheduled": 2,
         "pending": 0,
-        "positive_reports": 4,
+        "positive_reports": 3,
         "weak_reports": 0,
-        "median_revenue_yoy_pct": 238.39,
-        "median_net_profit_yoy_pct": 4237.54,
+        "median_revenue_yoy_pct": 178.67,
+        "median_net_profit_yoy_pct": 3273.48,
         "breadth": "positive"
       },
       "companies": [
@@ -39,17 +39,17 @@
         {
           "code": "001309",
           "name": "德明利",
-          "status": "reported",
-          "announcement_date": "2026-08-28",
+          "status": "scheduled",
+          "announcement_date": null,
           "scheduled_date": "2026-08-28",
-          "revenue": 16910558920.73,
-          "revenue_yoy_pct": 311.5455913213,
-          "net_profit": 6017114995.48,
-          "net_profit_yoy_pct": 5201.6,
-          "gross_margin_pct": 47.1244497902,
-          "earnings_signal": "strong_growth",
-          "industry": "半导体",
-          "source": "东方财富 via AKShare + 公告确认",
+          "revenue": null,
+          "revenue_yoy_pct": null,
+          "net_profit": null,
+          "net_profit_yoy_pct": null,
+          "gross_margin_pct": null,
+          "earnings_signal": "not_reported",
+          "industry": null,
+          "source": "东方财富 via AKShare",
           "reason": null
         },
         {
@@ -314,46 +314,46 @@
       "theme": "被动元件",
       "summary": {
         "total": 3,
-        "reported": 3,
-        "scheduled": 0,
+        "reported": 1,
+        "scheduled": 2,
         "pending": 0,
-        "positive_reports": 2,
+        "positive_reports": 0,
         "weak_reports": 0,
-        "median_revenue_yoy_pct": 26.28,
-        "median_net_profit_yoy_pct": 56.18,
-        "breadth": "positive"
+        "median_revenue_yoy_pct": 19.67,
+        "median_net_profit_yoy_pct": -7.98,
+        "breadth": "mixed"
       },
       "companies": [
         {
           "code": "000636",
           "name": "风华高科",
-          "status": "reported",
-          "announcement_date": "2026-08-28",
+          "status": "scheduled",
+          "announcement_date": null,
           "scheduled_date": "2026-08-28",
-          "revenue": 3499796818.88,
-          "revenue_yoy_pct": 26.2768121063,
-          "net_profit": 290300156.58,
-          "net_profit_yoy_pct": 74.01,
-          "gross_margin_pct": 18.7570541492,
-          "earnings_signal": "strong_growth",
-          "industry": "元件",
-          "source": "东方财富 via AKShare + 公告确认",
+          "revenue": null,
+          "revenue_yoy_pct": null,
+          "net_profit": null,
+          "net_profit_yoy_pct": null,
+          "gross_margin_pct": null,
+          "earnings_signal": "not_reported",
+          "industry": null,
+          "source": "东方财富 via AKShare",
           "reason": null
         },
         {
           "code": "300408",
           "name": "三环集团",
-          "status": "reported",
-          "announcement_date": "2026-08-28",
+          "status": "scheduled",
+          "announcement_date": null,
           "scheduled_date": "2026-08-28",
-          "revenue": 6423331756.2,
-          "revenue_yoy_pct": 54.824030357,
-          "net_profit": 1932118240.71,
-          "net_profit_yoy_pct": 56.18,
-          "gross_margin_pct": 44.3196613034,
-          "earnings_signal": "strong_growth",
-          "industry": "元件",
-          "source": "东方财富 via AKShare + 公告确认",
+          "revenue": null,
+          "revenue_yoy_pct": null,
+          "net_profit": null,
+          "net_profit_yoy_pct": null,
+          "gross_margin_pct": null,
+          "earnings_signal": "not_reported",
+          "industry": null,
+          "source": "东方财富 via AKShare",
           "reason": null
         },
         {
@@ -442,11 +442,12 @@
   "summary": {
     "themes": 6,
     "companies": 21,
-    "reported": 19,
-    "scheduled": 2
+    "reported": 16,
+    "scheduled": 5
   },
   "warnings": [
-    "withheld 5 same-day earnings rows without corroborating public financial-report notice"
+    "stock_notice_report 20260828: ('Connection broken: IncompleteRead(65273 bytes read, 24109 more expected)', IncompleteRead(65273 bytes read, 24109 more expected)); same-day financial rows withheld",
+    "withheld 705 same-day earnings rows without corroborating public financial-report notice"
   ],
   "methodology": {
     "reported": "东方财富业绩报表 stock_yjbb_em via AKShare；未来公告日期不暴露财务字段；同日行必须在stock_notice_report财务报告公告中得到代码级确认。",
