@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-08-29T01:36:55+08:00",
+  "generated_at": "2026-08-29T03:42:52+08:00",
   "timezone": "Asia/Shanghai",
   "title": "Daily Flash · 每日投资驾驶舱",
-  "core_conclusion": "A股状态为 Transition，上涨家数占比 54.3%，风险温度 60/100（elevated）。沪深300 PE-TTM 14.42；10年分位 75.7%；强势：种植业与林业、农化制品、化学原料；弱势：医疗服务、生物制品、半导体。研究复核优先关注 德明利、东山精密、风华高科；该排序代表证据变化与复核优先级，不代表交易优先级。资金/期指：融资余额26168亿元，5日-1.52%；南向成交净买额+11.8亿元；中证500股指期货基差-0.53%。 下一催化：09-02 Broadcom 财报发行。主线财报已确认披露 19/21 个研究样本。",
+  "core_conclusion": "A股状态为 Transition，上涨家数占比 54.3%，风险温度 60/100（elevated）。沪深300 PE-TTM 14.42；10年分位 75.7%；强势：种植业与林业、农化制品、化学原料；弱势：医疗服务、生物制品、半导体。研究复核优先关注 德明利、东山精密、风华高科；该排序代表证据变化与复核优先级，不代表交易优先级。资金/期指：融资余额26168亿元，5日-1.52%；南向成交净买额+11.8亿元；中证500股指期货基差-0.53%。 下一催化：09-02 Broadcom 财报发行。主线财报已确认披露 21/21 个研究样本。",
   "market": {
     "regime": {
       "label": "Transition",
@@ -361,10 +361,10 @@
       "symbol": "^GSPC",
       "group": "美股",
       "unit": "index",
-      "value": 7708.2998,
-      "raw_value": 7708.2998,
+      "value": 7710.2202,
+      "raw_value": 7710.2202,
       "previous_close": 7730.9902,
-      "change_pct": -0.29,
+      "change_pct": -0.27,
       "as_of": "2026-08-28T21:30:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -375,10 +375,10 @@
       "symbol": "^IXIC",
       "group": "美股",
       "unit": "index",
-      "value": 26411.6445,
-      "raw_value": 26411.6445,
+      "value": 26401.7109,
+      "raw_value": 26401.7109,
       "previous_close": 26541.3496,
-      "change_pct": -0.49,
+      "change_pct": -0.53,
       "as_of": "2026-08-28T21:30:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -389,10 +389,10 @@
       "symbol": "^SOX",
       "group": "美股",
       "unit": "index",
-      "value": 11486.5391,
-      "raw_value": 11486.5391,
+      "value": 11480.4824,
+      "raw_value": 11480.4824,
       "previous_close": 11882.1699,
-      "change_pct": -3.33,
+      "change_pct": -3.38,
       "as_of": "2026-08-28T21:30:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -445,10 +445,10 @@
       "symbol": "^VIX",
       "group": "风险",
       "unit": "index",
-      "value": 14.7,
-      "raw_value": 14.7,
+      "value": 14.44,
+      "raw_value": 14.44,
       "previous_close": 14.51,
-      "change_pct": 1.31,
+      "change_pct": -0.48,
       "as_of": "2026-08-28T15:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -459,10 +459,10 @@
       "symbol": "^TNX",
       "group": "利率",
       "unit": "yield",
-      "value": 4.724,
-      "raw_value": 4.724,
+      "value": 4.72,
+      "raw_value": 4.72,
       "previous_close": 4.672,
-      "change_pct": 1.11,
+      "change_pct": 1.03,
       "as_of": "2026-08-28T20:20:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -473,8 +473,8 @@
       "symbol": "DX-Y.NYB",
       "group": "汇率",
       "unit": "index",
-      "value": 99.659,
-      "raw_value": 99.659,
+      "value": 99.657,
+      "raw_value": 99.657,
       "previous_close": 99.16,
       "change_pct": 0.5,
       "as_of": "2026-08-28T12:00:00+08:00",
@@ -487,11 +487,11 @@
       "symbol": "CNH=X",
       "group": "汇率",
       "unit": "fx",
-      "value": 6.7311,
-      "raw_value": 6.7311,
+      "value": 6.7318,
+      "raw_value": 6.7318,
       "previous_close": null,
       "change_pct": null,
-      "as_of": "2026-08-29T01:32:10+08:00",
+      "as_of": "2026-08-29T03:37:34+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -501,10 +501,10 @@
       "symbol": "GC=F",
       "group": "商品",
       "unit": "usd",
-      "value": 4535.8999,
-      "raw_value": 4535.8999,
+      "value": 4512.7998,
+      "raw_value": 4512.7998,
       "previous_close": 4609.7002,
-      "change_pct": -1.6,
+      "change_pct": -2.1,
       "as_of": "2026-08-28T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -515,10 +515,10 @@
       "symbol": "SI=F",
       "group": "商品",
       "unit": "usd",
-      "value": 67.935,
-      "raw_value": 67.935,
+      "value": 67.275,
+      "raw_value": 67.275,
       "previous_close": 69.429,
-      "change_pct": -2.15,
+      "change_pct": -3.1,
       "as_of": "2026-08-28T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -529,10 +529,10 @@
       "symbol": "CL=F",
       "group": "商品",
       "unit": "usd",
-      "value": 83.4,
-      "raw_value": 83.4,
+      "value": 83.3,
+      "raw_value": 83.3,
       "previous_close": 83.53,
-      "change_pct": -0.16,
+      "change_pct": -0.28,
       "as_of": "2026-08-28T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -543,10 +543,10 @@
       "symbol": "BZ=F",
       "group": "商品",
       "unit": "usd",
-      "value": 88.12,
-      "raw_value": 88.12,
+      "value": 88.06,
+      "raw_value": 88.06,
       "previous_close": 89.7,
-      "change_pct": -1.76,
+      "change_pct": -1.83,
       "as_of": "2026-08-28T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -650,21 +650,21 @@
     },
     {
       "name": "美股隔夜",
-      "score": -27.4,
+      "score": -27.9,
       "label": "偏空",
       "weight": 4,
       "evidence": "标普/纳指/费半平均涨跌"
     },
     {
       "name": "美债 / 美元",
-      "score": -13.3,
+      "score": -12.7,
       "label": "中性",
       "weight": 5,
       "evidence": "收益率与美元上行对长久期风险资产偏压制"
     },
     {
       "name": "商品避险",
-      "score": -21.3,
+      "score": -27.4,
       "label": "偏空",
       "weight": 3,
       "evidence": "黄金/白银/原油组合变化"
@@ -882,17 +882,17 @@
     }
   ],
   "sources": {
-    "market_state": "2026-08-29T01:28:19+08:00",
-    "risk": "2026-08-29T01:31:25+08:00",
-    "valuation": "2026-08-29T01:31:15+08:00",
-    "decision_matrix": "2026-08-29T01:31:25+08:00",
-    "global_markets": "2026-08-29T01:32:10+08:00",
-    "catalysts": "2026-08-29T01:32:41+08:00",
+    "market_state": "2026-08-29T03:26:27+08:00",
+    "risk": "2026-08-29T03:34:04+08:00",
+    "valuation": "2026-08-29T03:33:55+08:00",
+    "decision_matrix": "2026-08-29T03:34:04+08:00",
+    "global_markets": "2026-08-29T03:37:35+08:00",
+    "catalysts": "2026-08-29T03:38:06+08:00",
     "ai_signals": "2026-08-26 13:33",
     "sentiment": "2026-08-28T19:19:29+08:00",
-    "market_extras": "2026-08-29T01:32:11+08:00",
-    "macro_calendar": "2026-08-29T01:33:55+08:00",
-    "theme_earnings": "2026-08-29T01:36:55+08:00"
+    "market_extras": "2026-08-29T03:37:37+08:00",
+    "macro_calendar": "2026-08-29T03:40:18+08:00",
+    "theme_earnings": "2026-08-29T03:42:52+08:00"
   },
   "boundary": "Daily Flash用于信息压缩、研究排序与条件验证；缺失数据保持缺失，不生成无条件买卖、仓位或止损指令。",
   "integrity": {
@@ -1030,70 +1030,6 @@
     },
     {
       "date": "2026-09-02",
-      "time": "04:30",
-      "type": "macro",
-      "category": "energy",
-      "region": "美国",
-      "title": "美国截至8月28日当周API原油库存变动(万桶)",
-      "actual": null,
-      "forecast": null,
-      "previous": 420.0,
-      "importance": 2,
-      "impact_channels": [
-        "原油",
-        "通胀预期",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-02",
-      "time": "20:15",
-      "type": "macro",
-      "category": "labor",
-      "region": "美国",
-      "title": "美国8月ADP就业人数变动(万)",
-      "actual": null,
-      "forecast": 3.9,
-      "previous": 4.4,
-      "importance": 2,
-      "impact_channels": [
-        "美债收益率",
-        "美元",
-        "全球成长估值",
-        "黄金/白银"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-02",
-      "time": "22:30",
-      "type": "macro",
-      "category": "energy",
-      "region": "美国",
-      "title": "美国截至8月28日当周EIA原油库存变动(万桶)",
-      "actual": null,
-      "forecast": null,
-      "previous": 9.5,
-      "importance": 2,
-      "impact_channels": [
-        "原油",
-        "通胀预期",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-02",
       "time": null,
       "type": "global_earnings",
       "category": "earnings",
@@ -1116,68 +1052,6 @@
         "002384",
         "600667"
       ],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-03",
-      "time": "20:30",
-      "type": "macro",
-      "category": "trade",
-      "region": "美国",
-      "title": "美国7月贸易帐(亿美元)",
-      "actual": null,
-      "forecast": null,
-      "previous": -733.0,
-      "importance": 2,
-      "impact_channels": [
-        "宏观环境"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-03",
-      "time": "20:30",
-      "type": "macro",
-      "category": "labor",
-      "region": "美国",
-      "title": "美国截至8月29日当周初请失业金人数(万)",
-      "actual": null,
-      "forecast": null,
-      "previous": 20.3,
-      "importance": 2,
-      "impact_channels": [
-        "美债收益率",
-        "美元",
-        "全球成长估值",
-        "黄金/白银"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-03",
-      "time": "22:00",
-      "type": "macro",
-      "category": "growth",
-      "region": "美国",
-      "title": "美国8月ISM非制造业PMI",
-      "actual": null,
-      "forecast": null,
-      "previous": 54.1,
-      "importance": null,
-      "impact_channels": [
-        "全球风险偏好",
-        "AI资本开支预期",
-        "美元"
-      ],
-      "themes": [],
-      "assets": [],
       "source": "百度股市通 via AKShare",
       "status": "scheduled"
     },
@@ -1739,25 +1613,25 @@
     }
   ],
   "macro_calendar_summary": {
-    "total": 39,
-    "macro": 38,
+    "total": 33,
+    "macro": 32,
     "global_earnings": 1,
     "high_importance": 1,
-    "macro_days_ok": 11,
-    "report_days_ok": 11
+    "macro_days_ok": 7,
+    "report_days_ok": 7
   },
   "theme_earnings": [
     {
       "theme": "存储",
       "summary": {
         "total": 5,
-        "reported": 4,
-        "scheduled": 1,
+        "reported": 5,
+        "scheduled": 0,
         "pending": 0,
-        "positive_reports": 4,
+        "positive_reports": 5,
         "weak_reports": 0,
-        "median_revenue_yoy_pct": 238.39,
-        "median_net_profit_yoy_pct": 4237.54,
+        "median_revenue_yoy_pct": 178.67,
+        "median_net_profit_yoy_pct": 3273.48,
         "breadth": "positive"
       },
       "companies": [
@@ -1828,17 +1702,17 @@
         {
           "code": "688008",
           "name": "澜起科技",
-          "status": "scheduled",
-          "announcement_date": null,
+          "status": "reported",
+          "announcement_date": "2026-08-29",
           "scheduled_date": "2026-08-29",
-          "revenue": null,
-          "revenue_yoy_pct": null,
-          "net_profit": null,
-          "net_profit_yoy_pct": null,
-          "gross_margin_pct": null,
-          "earnings_signal": "not_reported",
-          "industry": null,
-          "source": "东方财富 via AKShare",
+          "revenue": 3335497521.81,
+          "revenue_yoy_pct": 26.6585396711,
+          "net_profit": 1997374517.87,
+          "net_profit_yoy_pct": 72.33,
+          "gross_margin_pct": 65.3126948791,
+          "earnings_signal": "strong_growth",
+          "industry": "半导体",
+          "source": "东方财富 via AKShare + 公告确认",
           "reason": null
         }
       ]
@@ -1991,14 +1865,14 @@
       "theme": "半导体工程 / 封测",
       "summary": {
         "total": 3,
-        "reported": 2,
-        "scheduled": 1,
+        "reported": 3,
+        "scheduled": 0,
         "pending": 0,
-        "positive_reports": 1,
+        "positive_reports": 2,
         "weak_reports": 1,
-        "median_revenue_yoy_pct": -4.96,
-        "median_net_profit_yoy_pct": 37.93,
-        "breadth": "mixed"
+        "median_revenue_yoy_pct": 4.96,
+        "median_net_profit_yoy_pct": 79.41,
+        "breadth": "positive"
       },
       "companies": [
         {
@@ -2036,17 +1910,17 @@
         {
           "code": "002156",
           "name": "通富微电",
-          "status": "scheduled",
-          "announcement_date": null,
+          "status": "reported",
+          "announcement_date": "2026-08-29",
           "scheduled_date": "2026-08-29",
-          "revenue": null,
-          "revenue_yoy_pct": null,
-          "net_profit": null,
-          "net_profit_yoy_pct": null,
-          "gross_margin_pct": null,
-          "earnings_signal": "not_reported",
-          "industry": null,
-          "source": "东方财富 via AKShare",
+          "revenue": 16041019909.75,
+          "revenue_yoy_pct": 23.0305036236,
+          "net_profit": 1717458597.0,
+          "net_profit_yoy_pct": 316.77,
+          "gross_margin_pct": 15.4536234754,
+          "earnings_signal": "strong_growth",
+          "industry": "半导体",
+          "source": "东方财富 via AKShare + 公告确认",
           "reason": null
         }
       ]
@@ -2183,19 +2057,19 @@
   "theme_earnings_summary": {
     "themes": 6,
     "companies": 21,
-    "reported": 19,
-    "scheduled": 2
+    "reported": 21,
+    "scheduled": 0
   },
   "theme_earnings_period": "2026半年报",
   "quality": {
     "macro_calendar": {
-      "events": 39,
-      "warnings": 0,
+      "events": 33,
+      "warnings": 8,
       "horizon_days": 10
     },
     "theme_earnings": {
       "status": "fresh",
-      "reported": 19,
+      "reported": 21,
       "companies": 21
     }
   }
