@@ -1,53 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-08-28T21:27:45+08:00",
+  "generated_at": "2026-08-28T23:36:14+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
-    {
-      "date": "2026-08-28",
-      "time": "22:00",
-      "type": "macro",
-      "category": "labor",
-      "region": "美国",
-      "title": "美国2026年非农就业基准修订-未季调初值(万人)",
-      "actual": null,
-      "forecast": 18.5,
-      "previous": -86.2,
-      "importance": 2,
-      "impact_channels": [
-        "美债收益率",
-        "美元",
-        "全球成长估值",
-        "黄金/白银"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-08-28",
-      "time": "22:00",
-      "type": "macro",
-      "category": "labor",
-      "region": "美国",
-      "title": "美国2026年非农就业基准年度变动-未季调初值(万人)",
-      "actual": null,
-      "forecast": 18.5,
-      "previous": -86.2,
-      "importance": 2,
-      "impact_channels": [
-        "美债收益率",
-        "美元",
-        "全球成长估值",
-        "黄金/白银"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
     {
       "date": "2026-08-31",
       "time": "09:30",
@@ -203,7 +159,7 @@
       "region": "美国",
       "title": "美国8月ADP就业人数变动(万)",
       "actual": null,
-      "forecast": null,
+      "forecast": 3.9,
       "previous": 4.4,
       "importance": 2,
       "impact_channels": [
@@ -501,8 +457,8 @@
     }
   ],
   "summary": {
-    "total": 23,
-    "macro": 22,
+    "total": 21,
+    "macro": 20,
     "global_earnings": 1,
     "high_importance": 1,
     "macro_days_ok": 11,
