@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated_at": "2026-08-28T19:20:37+08:00",
+  "generated_at": "2026-08-28T19:30:54+08:00",
   "timezone": "Asia/Shanghai",
   "benchmark": {
     "code": "510300",
@@ -10191,7 +10191,7 @@
           "amount": 410887617.0
         }
       ],
-      "fallback_reason": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "fallback_reason": "HTTPSConnectionPool(host='2.push2.eastmoney.com', port=443): Read timed out. (read timeout=15)"
     },
     "518880": {
       "code": "518880",
@@ -12748,7 +12748,7 @@
     "002384 AKShare: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
     "600667 AKShare: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
     "000636 AKShare: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
-    "161226 AKShare: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+    "161226 AKShare: HTTPSConnectionPool(host='2.push2.eastmoney.com', port=443): Read timed out. (read timeout=15)",
     "518880 AKShare: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
     "517380 AKShare: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
   ],
