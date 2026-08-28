@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "generated_at": "2026-08-28T15:02:45+08:00",
-  "score": 53.6,
+  "generated_at": "2026-08-28T19:20:48+08:00",
+  "score": 51.0,
   "label": "balanced",
   "coverage": 100.0,
   "available_weight": 100,
   "components": {
     "valuation": {
-      "score": 76.3,
+      "score": 75.7,
       "weight": 20,
       "available": true,
-      "evidence": "沪深300滚动PE十年分位 76.3%"
+      "evidence": "沪深300滚动PE十年分位 75.7%"
     },
     "market_structure": {
       "score": 33.5,
@@ -25,16 +25,16 @@
       "evidence": "MA60 below/falling；MACD bearish；RSI neutral"
     },
     "leverage": {
-      "score": 44.3,
+      "score": 37.8,
       "weight": 15,
       "available": true,
-      "evidence": "两融5日变化 -0.71%（20日基线尚未完整）"
+      "evidence": "两融5日变化 -1.52%（20日基线尚未完整）"
     },
     "overseas": {
-      "score": 25.4,
+      "score": 10.0,
       "weight": 10,
       "available": true,
-      "evidence": "VIX 14.90；20日分位 30.0%"
+      "evidence": "VIX 14.47；20日分位 10.0%"
     },
     "concentration": {
       "score": 30.0,
@@ -51,13 +51,13 @@
     },
     {
       "component": "valuation",
-      "score": 76.3,
-      "evidence": "沪深300滚动PE十年分位 76.3%"
+      "score": 75.7,
+      "evidence": "沪深300滚动PE十年分位 75.7%"
     },
     {
       "component": "leverage",
-      "score": 44.3,
-      "evidence": "两融5日变化 -0.71%（20日基线尚未完整）"
+      "score": 37.8,
+      "evidence": "两融5日变化 -1.52%（20日基线尚未完整）"
     }
   ],
   "state_changes": [],
