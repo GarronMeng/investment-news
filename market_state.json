@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-28T21:22:13+08:00",
+  "generated_at": "2026-08-28T23:30:14+08:00",
   "timezone": "Asia/Shanghai",
   "breadth": {
     "total": 5550,
@@ -439,12 +439,5 @@
     "etf_activity": "ETF成交额活跃度代理，不等同ETF净申购或真实资金净流入。",
     "breadth_source": "东方财富主源；失败时单次回退新浪财经 AKShare stock_zh_a_spot。"
   },
-  "alerts": [
-    {
-      "type": "regime",
-      "from": "risk_on",
-      "to": "narrow_risk_on",
-      "message": "市场状态由 risk_on 切换为 narrow_risk_on"
-    }
-  ]
+  "alerts": []
 }
