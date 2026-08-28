@@ -1,9 +1,53 @@
 {
   "version": 1,
-  "generated_at": "2026-08-28T15:05:14+08:00",
+  "generated_at": "2026-08-28T19:23:12+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
+    {
+      "date": "2026-08-28",
+      "time": "22:00",
+      "type": "macro",
+      "category": "labor",
+      "region": "美国",
+      "title": "美国2026年非农就业基准修订-未季调初值(万人)",
+      "actual": null,
+      "forecast": 18.5,
+      "previous": -86.2,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-28",
+      "time": "22:00",
+      "type": "macro",
+      "category": "labor",
+      "region": "美国",
+      "title": "美国2026年非农就业基准年度变动-未季调初值(万人)",
+      "actual": null,
+      "forecast": 18.5,
+      "previous": -86.2,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
     {
       "date": "2026-08-31",
       "time": "09:30",
@@ -12,13 +56,34 @@
       "region": "中国",
       "title": "中国8月官方制造业PMI",
       "actual": null,
-      "forecast": 49.5,
+      "forecast": 49.6,
       "previous": 49.2,
       "importance": 2,
       "impact_channels": [
         "中国增长预期",
         "行业盈利预期",
         "人民币汇率"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-08-31",
+      "time": "21:45",
+      "type": "macro",
+      "category": "growth",
+      "region": "美国",
+      "title": "美国8月芝加哥PMI",
+      "actual": null,
+      "forecast": 57.9,
+      "previous": 57.6,
+      "importance": 2,
+      "impact_channels": [
+        "全球风险偏好",
+        "AI资本开支预期",
+        "美元"
       ],
       "themes": [],
       "assets": [],
@@ -75,7 +140,7 @@
       "region": "欧元区",
       "title": "欧元区8月调和CPI年率-未季调初值(%)",
       "actual": null,
-      "forecast": 3.3,
+      "forecast": 3.2,
       "previous": 2.9,
       "importance": 2,
       "impact_channels": [
@@ -228,7 +293,7 @@
       "title": "美国截至8月29日当周初请失业金人数(万)",
       "actual": null,
       "forecast": null,
-      "previous": null,
+      "previous": 20.3,
       "importance": 2,
       "impact_channels": [
         "美债收益率",
@@ -271,7 +336,7 @@
       "title": "美国截至9月2日美联储资产负债表(万亿美元)",
       "actual": null,
       "forecast": null,
-      "previous": null,
+      "previous": 6.73,
       "importance": 2,
       "impact_channels": [
         "美债收益率",
@@ -436,8 +501,8 @@
     }
   ],
   "summary": {
-    "total": 20,
-    "macro": 19,
+    "total": 23,
+    "macro": 22,
     "global_earnings": 1,
     "high_importance": 1,
     "macro_days_ok": 11,
