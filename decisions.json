@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generated_at": "2026-08-28T19:35:18+08:00",
+  "generated_at": "2026-08-28T21:25:20+08:00",
   "source": {
     "data_generated_at": "2026-08-28 19:29",
     "ai_generated_at": "2026-08-26 13:33",
     "ai_source_generated_at": "2026-08-26 12:26",
-    "features_generated_at": "2026-08-28T19:35:08+08:00",
+    "features_generated_at": "2026-08-28T21:25:10+08:00",
     "fresh_ai": false
   },
   "decisions": [
@@ -22,7 +22,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "mixed",
-      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.029449",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.042537",
       "confirmation": [
         "股价相对半导体指数转强",
         "成交量放大且收盘站稳"
@@ -46,7 +46,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.093089",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.106177",
       "confirmation": [
         "相对存储板块止跌转强",
         "放量突破短期压力位"
@@ -70,7 +70,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.067078",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.053991",
       "confirmation": [
         "海外AI硬件与A股CPO同步走强",
         "高位放量后能维持强势"
@@ -94,7 +94,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.122099",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.135187",
       "confirmation": [
         "PCB板块扩散上涨",
         "订单利好得到成交量确认"
@@ -118,7 +118,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "mixed",
-      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.114813",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.1279",
       "confirmation": [
         "半导体工程板块同步走强",
         "事件后股价摆脱弱势结构"
@@ -142,7 +142,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "mixed",
-      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.104932",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.118019",
       "confirmation": [
         "被动元件板块形成联动",
         "涨价新闻后价格走势能够确认"
@@ -156,7 +156,7 @@
     {
       "asset": "161226",
       "name": "国投白银LOF",
-      "as_of": "2026-08-27",
+      "as_of": "2026-08-28",
       "bias": "bullish",
       "status": "market_watch",
       "event_score": 50.0,
@@ -166,7 +166,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.060048",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.080081",
       "confirmation": [
         "同时核对基金净值、场内价格和溢价率",
         "银价上涨时场内溢价未继续扩大"
@@ -180,7 +180,7 @@
     {
       "asset": "518880",
       "name": "黄金ETF华安",
-      "as_of": "2026-08-27",
+      "as_of": "2026-08-28",
       "bias": "bullish",
       "status": "market_watch",
       "event_score": 50.0,
@@ -190,7 +190,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.111229",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.117974",
       "confirmation": [
         "外盘金价与国内黄金现货同向",
         "ETF成交量与价格同步确认"
@@ -204,7 +204,7 @@
     {
       "asset": "517380",
       "name": "创新药沪港深ETF天弘",
-      "as_of": "2026-08-27",
+      "as_of": "2026-08-28",
       "bias": "bullish",
       "status": "market_watch",
       "event_score": 50.0,
@@ -214,7 +214,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.12235",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.114005",
       "confirmation": [
         "A股与港股创新药板块形成联动",
         "利好由成交量与持续性确认"
