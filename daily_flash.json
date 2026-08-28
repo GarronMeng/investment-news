@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-28T23:49:02+08:00",
+  "generated_at": "2026-08-29T01:36:55+08:00",
   "timezone": "Asia/Shanghai",
   "title": "Daily Flash · 每日投资驾驶舱",
   "core_conclusion": "A股状态为 Transition，上涨家数占比 54.3%，风险温度 60/100（elevated）。沪深300 PE-TTM 14.42；10年分位 75.7%；强势：种植业与林业、农化制品、化学原料；弱势：医疗服务、生物制品、半导体。研究复核优先关注 德明利、东山精密、风华高科；该排序代表证据变化与复核优先级，不代表交易优先级。资金/期指：融资余额26168亿元，5日-1.52%；南向成交净买额+11.8亿元；中证500股指期货基差-0.53%。 下一催化：09-02 Broadcom 财报发行。主线财报已确认披露 19/21 个研究样本。",
@@ -361,10 +361,10 @@
       "symbol": "^GSPC",
       "group": "美股",
       "unit": "index",
-      "value": 7747.27,
-      "raw_value": 7747.27,
+      "value": 7708.2998,
+      "raw_value": 7708.2998,
       "previous_close": 7730.9902,
-      "change_pct": 0.21,
+      "change_pct": -0.29,
       "as_of": "2026-08-28T21:30:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -375,10 +375,10 @@
       "symbol": "^IXIC",
       "group": "美股",
       "unit": "index",
-      "value": 26591.2246,
-      "raw_value": 26591.2246,
+      "value": 26411.6445,
+      "raw_value": 26411.6445,
       "previous_close": 26541.3496,
-      "change_pct": 0.19,
+      "change_pct": -0.49,
       "as_of": "2026-08-28T21:30:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -389,10 +389,10 @@
       "symbol": "^SOX",
       "group": "美股",
       "unit": "index",
-      "value": 11623.1475,
-      "raw_value": 11623.1475,
+      "value": 11486.5391,
+      "raw_value": 11486.5391,
       "previous_close": 11882.1699,
-      "change_pct": -2.18,
+      "change_pct": -3.33,
       "as_of": "2026-08-28T21:30:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -403,11 +403,11 @@
       "symbol": "^HSI",
       "group": "港股",
       "unit": "index",
-      "value": 25584.7891,
-      "raw_value": 25584.7891,
-      "previous_close": 25565.7402,
-      "change_pct": 0.07,
-      "as_of": "2026-08-28T09:30:00+08:00",
+      "value": 25565.7402,
+      "raw_value": 25565.7402,
+      "previous_close": 25652.9707,
+      "change_pct": -0.34,
+      "as_of": "2026-08-27T09:30:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -445,10 +445,10 @@
       "symbol": "^VIX",
       "group": "风险",
       "unit": "index",
-      "value": 14.17,
-      "raw_value": 14.17,
+      "value": 14.7,
+      "raw_value": 14.7,
       "previous_close": 14.51,
-      "change_pct": -2.34,
+      "change_pct": 1.31,
       "as_of": "2026-08-28T15:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -459,10 +459,10 @@
       "symbol": "^TNX",
       "group": "利率",
       "unit": "yield",
-      "value": 4.702,
-      "raw_value": 4.702,
+      "value": 4.724,
+      "raw_value": 4.724,
       "previous_close": 4.672,
-      "change_pct": 0.64,
+      "change_pct": 1.11,
       "as_of": "2026-08-28T20:20:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -473,10 +473,10 @@
       "symbol": "DX-Y.NYB",
       "group": "汇率",
       "unit": "index",
-      "value": 99.523,
-      "raw_value": 99.523,
+      "value": 99.659,
+      "raw_value": 99.659,
       "previous_close": 99.16,
-      "change_pct": 0.37,
+      "change_pct": 0.5,
       "as_of": "2026-08-28T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -487,11 +487,11 @@
       "symbol": "CNH=X",
       "group": "汇率",
       "unit": "fx",
-      "value": 6.7297,
-      "raw_value": 6.7297,
+      "value": 6.7311,
+      "raw_value": 6.7311,
       "previous_close": null,
       "change_pct": null,
-      "as_of": "2026-08-28T23:44:17+08:00",
+      "as_of": "2026-08-29T01:32:10+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -501,10 +501,10 @@
       "symbol": "GC=F",
       "group": "商品",
       "unit": "usd",
-      "value": 4613.6001,
-      "raw_value": 4613.6001,
+      "value": 4535.8999,
+      "raw_value": 4535.8999,
       "previous_close": 4609.7002,
-      "change_pct": 0.08,
+      "change_pct": -1.6,
       "as_of": "2026-08-28T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -515,10 +515,10 @@
       "symbol": "SI=F",
       "group": "商品",
       "unit": "usd",
-      "value": 69.945,
-      "raw_value": 69.945,
+      "value": 67.935,
+      "raw_value": 67.935,
       "previous_close": 69.429,
-      "change_pct": 0.74,
+      "change_pct": -2.15,
       "as_of": "2026-08-28T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -529,10 +529,10 @@
       "symbol": "CL=F",
       "group": "商品",
       "unit": "usd",
-      "value": 83.21,
-      "raw_value": 83.21,
+      "value": 83.4,
+      "raw_value": 83.4,
       "previous_close": 83.53,
-      "change_pct": -0.38,
+      "change_pct": -0.16,
       "as_of": "2026-08-28T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -543,10 +543,10 @@
       "symbol": "BZ=F",
       "group": "商品",
       "unit": "usd",
-      "value": 88.27,
-      "raw_value": 88.27,
+      "value": 88.12,
+      "raw_value": 88.12,
       "previous_close": 89.7,
-      "change_pct": -1.59,
+      "change_pct": -1.76,
       "as_of": "2026-08-28T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -616,18 +616,6 @@
   ],
   "catalysts": [
     {
-      "date": "2026-08-27",
-      "type": "earnings",
-      "title": "太极实业 2026半年报预约披露",
-      "assets": [
-        "600667"
-      ],
-      "name": "太极实业",
-      "source": "东方财富 via AKShare",
-      "status": "scheduled",
-      "importance": "medium"
-    },
-    {
       "date": "2026-08-28",
       "type": "earnings",
       "title": "德明利 2026半年报预约披露",
@@ -662,22 +650,22 @@
     },
     {
       "name": "美股隔夜",
-      "score": -11.9,
-      "label": "中性",
+      "score": -27.4,
+      "label": "偏空",
       "weight": 4,
       "evidence": "标普/纳指/费半平均涨跌"
     },
     {
       "name": "美债 / 美元",
-      "score": -8.5,
+      "score": -13.3,
       "label": "中性",
       "weight": 5,
       "evidence": "收益率与美元上行对长久期风险资产偏压制"
     },
     {
       "name": "商品避险",
-      "score": -4.3,
-      "label": "中性",
+      "score": -21.3,
+      "label": "偏空",
       "weight": 3,
       "evidence": "黄金/白银/原油组合变化"
     },
@@ -894,17 +882,17 @@
     }
   ],
   "sources": {
-    "market_state": "2026-08-28T23:30:14+08:00",
-    "risk": "2026-08-28T23:43:29+08:00",
-    "valuation": "2026-08-28T23:43:22+08:00",
-    "decision_matrix": "2026-08-28T23:43:29+08:00",
-    "global_markets": "2026-08-28T23:44:17+08:00",
-    "catalysts": "2026-08-28T23:44:54+08:00",
+    "market_state": "2026-08-29T01:28:19+08:00",
+    "risk": "2026-08-29T01:31:25+08:00",
+    "valuation": "2026-08-29T01:31:15+08:00",
+    "decision_matrix": "2026-08-29T01:31:25+08:00",
+    "global_markets": "2026-08-29T01:32:10+08:00",
+    "catalysts": "2026-08-29T01:32:41+08:00",
     "ai_signals": "2026-08-26 13:33",
     "sentiment": "2026-08-28T19:19:29+08:00",
-    "market_extras": "2026-08-28T23:44:19+08:00",
-    "macro_calendar": "2026-08-28T23:46:08+08:00",
-    "theme_earnings": "2026-08-28T23:49:02+08:00"
+    "market_extras": "2026-08-29T01:32:11+08:00",
+    "macro_calendar": "2026-08-29T01:33:55+08:00",
+    "theme_earnings": "2026-08-29T01:36:55+08:00"
   },
   "boundary": "Daily Flash用于信息压缩、研究排序与条件验证；缺失数据保持缺失，不生成无条件买卖、仓位或止损指令。",
   "integrity": {
@@ -1364,11 +1352,395 @@
       "assets": [],
       "source": "百度股市通 via AKShare",
       "status": "scheduled"
+    },
+    {
+      "date": "2026-09-08",
+      "time": "07:50",
+      "type": "macro",
+      "category": "growth",
+      "region": "日本",
+      "title": "日本第二季度季调后名义GDP季率修正值(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 1.2,
+      "importance": 2,
+      "impact_channels": [
+        "亚洲科技风险偏好",
+        "半导体链映射"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-08",
+      "time": "07:50",
+      "type": "macro",
+      "category": "growth",
+      "region": "日本",
+      "title": "日本第二季度季调后实际GDP季率修正值(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 0.3,
+      "importance": 2,
+      "impact_channels": [
+        "亚洲科技风险偏好",
+        "半导体链映射"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-08",
+      "time": "07:50",
+      "type": "macro",
+      "category": "growth",
+      "region": "日本",
+      "title": "日本第二季度季调后实际GDP年化季率修正值(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 1.1,
+      "importance": 2,
+      "impact_channels": [
+        "亚洲科技风险偏好",
+        "半导体链映射"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-08",
+      "time": "09:30",
+      "type": "macro",
+      "category": "trade",
+      "region": "中国",
+      "title": "中国8月出口年率-人民币计价(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 17.8,
+      "importance": 2,
+      "impact_channels": [
+        "中国增长预期",
+        "行业盈利预期",
+        "人民币汇率"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-08",
+      "time": "09:30",
+      "type": "macro",
+      "category": "trade",
+      "region": "中国",
+      "title": "中国8月出口年率-美元计价(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 23.0,
+      "importance": 2,
+      "impact_channels": [
+        "中国增长预期",
+        "行业盈利预期",
+        "人民币汇率"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-08",
+      "time": "09:30",
+      "type": "macro",
+      "category": "trade",
+      "region": "中国",
+      "title": "中国8月贸易帐-人民币计价(亿元)",
+      "actual": null,
+      "forecast": null,
+      "previous": 7670.7,
+      "importance": 2,
+      "impact_channels": [
+        "中国增长预期",
+        "行业盈利预期",
+        "人民币汇率"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-08",
+      "time": "09:30",
+      "type": "macro",
+      "category": "trade",
+      "region": "中国",
+      "title": "中国8月贸易帐-美元计价(亿美元)",
+      "actual": null,
+      "forecast": null,
+      "previous": 1125.0,
+      "importance": 2,
+      "impact_channels": [
+        "中国增长预期",
+        "行业盈利预期",
+        "人民币汇率"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-08",
+      "time": "09:30",
+      "type": "macro",
+      "category": "trade",
+      "region": "中国",
+      "title": "中国8月进口年率-人民币计价(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 21.2,
+      "importance": 2,
+      "impact_channels": [
+        "中国增长预期",
+        "行业盈利预期",
+        "人民币汇率"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-08",
+      "time": "09:30",
+      "type": "macro",
+      "category": "trade",
+      "region": "中国",
+      "title": "中国8月进口年率-美元计价(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 27.5,
+      "importance": 2,
+      "impact_channels": [
+        "中国增长预期",
+        "行业盈利预期",
+        "人民币汇率"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-08",
+      "time": "20:15",
+      "type": "macro",
+      "category": "labor",
+      "region": "美国",
+      "title": "美国截至8月22日当周ADP就业周度发布变动(万人)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-08",
+      "time": "23:00",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "美国",
+      "title": "美国9月纽约联储1年家庭支出增长预期(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 4.883824,
+      "importance": null,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-08",
+      "time": "23:00",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "美国",
+      "title": "美国9月纽约联储1年家庭收入增长预期(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 2.98299,
+      "importance": null,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-08",
+      "time": "23:00",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "美国",
+      "title": "美国9月纽约联储1年房价通胀预期(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 3.204563,
+      "importance": null,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-08",
+      "time": "23:00",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "美国",
+      "title": "美国9月纽约联储1年汽油通胀预期(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 2.89128,
+      "importance": null,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-08",
+      "time": "23:00",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "美国",
+      "title": "美国9月纽约联储1年通胀预期(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 3.632116,
+      "importance": null,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-08",
+      "time": "23:00",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "美国",
+      "title": "美国9月纽约联储1年黄金涨幅预期(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 4.64438,
+      "importance": null,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-08",
+      "time": "23:00",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "美国",
+      "title": "美国9月纽约联储3年通胀预期(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 3.261532,
+      "importance": null,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-08",
+      "time": "23:00",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "美国",
+      "title": "美国9月纽约联储未来3个月无法偿最低债平均预期(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 12.003121,
+      "importance": null,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
     }
   ],
   "macro_calendar_summary": {
-    "total": 21,
-    "macro": 20,
+    "total": 39,
+    "macro": 38,
     "global_earnings": 1,
     "high_importance": 1,
     "macro_days_ok": 11,
@@ -1467,7 +1839,7 @@
           "earnings_signal": "not_reported",
           "industry": null,
           "source": "东方财富 via AKShare",
-          "reason": "future-dated report row withheld to prevent look-ahead"
+          "reason": null
         }
       ]
     },
@@ -1675,7 +2047,7 @@
           "earnings_signal": "not_reported",
           "industry": null,
           "source": "东方财富 via AKShare",
-          "reason": "future-dated report row withheld to prevent look-ahead"
+          "reason": null
         }
       ]
     },
@@ -1817,7 +2189,7 @@
   "theme_earnings_period": "2026半年报",
   "quality": {
     "macro_calendar": {
-      "events": 21,
+      "events": 39,
       "warnings": 0,
       "horizon_days": 10
     },
