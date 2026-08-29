@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-29T12:21:54+08:00",
+  "generated_at": "2026-08-29T15:14:52+08:00",
   "timezone": "Asia/Shanghai",
   "title": "Daily Flash · 每日投资驾驶舱",
   "core_conclusion": "A股状态为 Transition，上涨家数占比 54.3%，风险温度 60/100（elevated）。沪深300 PE-TTM 14.42；10年分位 75.7%；强势：种植业与林业、农化制品、化学原料；弱势：医疗服务、生物制品、半导体。研究复核优先关注 德明利、东山精密、风华高科；该排序代表证据变化与复核优先级，不代表交易优先级。资金/期指：融资余额26168亿元，5日-1.52%；南向成交净买额+11.8亿元；中证500股指期货基差-0.53%。 下一催化：09-02 Broadcom 财报发行。主线财报已确认披露 19/21 个研究样本。",
@@ -445,11 +445,11 @@
       "symbol": "^VIX",
       "group": "风险",
       "unit": "index",
-      "value": 14.43,
-      "raw_value": 14.43,
-      "previous_close": 14.51,
-      "change_pct": -0.55,
-      "as_of": "2026-08-28T15:00:00+08:00",
+      "value": 14.51,
+      "raw_value": 14.51,
+      "previous_close": 15.21,
+      "change_pct": -4.6,
+      "as_of": "2026-08-27T15:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -459,11 +459,11 @@
       "symbol": "^TNX",
       "group": "利率",
       "unit": "yield",
-      "value": 4.72,
-      "raw_value": 4.72,
-      "previous_close": 4.672,
-      "change_pct": 1.03,
-      "as_of": "2026-08-28T20:20:00+08:00",
+      "value": 4.672,
+      "raw_value": 4.672,
+      "previous_close": 4.664,
+      "change_pct": 0.17,
+      "as_of": "2026-08-27T20:20:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -657,7 +657,7 @@
     },
     {
       "name": "美债 / 美元",
-      "score": -7.6,
+      "score": -1.2,
       "label": "中性",
       "weight": 5,
       "evidence": "收益率与美元上行对长久期风险资产偏压制"
@@ -883,16 +883,16 @@
   ],
   "sources": {
     "market_state": "2026-08-29T03:26:27+08:00",
-    "risk": "2026-08-29T12:18:06+08:00",
-    "valuation": "2026-08-29T12:17:53+08:00",
-    "decision_matrix": "2026-08-29T12:18:06+08:00",
-    "global_markets": "2026-08-29T12:18:52+08:00",
-    "catalysts": "2026-08-29T12:19:22+08:00",
+    "risk": "2026-08-29T15:10:00+08:00",
+    "valuation": "2026-08-29T15:09:45+08:00",
+    "decision_matrix": "2026-08-29T15:10:00+08:00",
+    "global_markets": "2026-08-29T15:10:42+08:00",
+    "catalysts": "2026-08-29T15:11:14+08:00",
     "ai_signals": "2026-08-26 13:33",
     "sentiment": "2026-08-28T19:19:29+08:00",
-    "market_extras": "2026-08-29T12:18:53+08:00",
-    "macro_calendar": "2026-08-29T12:20:11+08:00",
-    "theme_earnings": "2026-08-29T12:21:54+08:00"
+    "market_extras": "2026-08-29T15:10:44+08:00",
+    "macro_calendar": "2026-08-29T15:13:10+08:00",
+    "theme_earnings": "2026-08-29T15:14:52+08:00"
   },
   "boundary": "Daily Flash用于信息压缩、研究排序与条件验证；缺失数据保持缺失，不生成无条件买卖、仓位或止损指令。",
   "integrity": {
@@ -938,154 +938,6 @@
         "全球风险偏好",
         "AI资本开支预期",
         "美元"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-01",
-      "time": "17:00",
-      "type": "macro",
-      "category": "labor",
-      "region": "欧元区",
-      "title": "欧元区7月失业率(%)",
-      "actual": null,
-      "forecast": 6.3,
-      "previous": 6.3,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-01",
-      "time": "17:00",
-      "type": "macro",
-      "category": "inflation",
-      "region": "欧元区",
-      "title": "欧元区8月核心调和CPI年率-未季调初值(%)",
-      "actual": null,
-      "forecast": null,
-      "previous": 2.2,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-01",
-      "time": "17:00",
-      "type": "macro",
-      "category": "inflation",
-      "region": "欧元区",
-      "title": "欧元区8月调和CPI年率-未季调初值(%)",
-      "actual": null,
-      "forecast": 3.2,
-      "previous": 2.9,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-01",
-      "time": "22:00",
-      "type": "macro",
-      "category": "growth",
-      "region": "美国",
-      "title": "美国8月ISM制造业PMI",
-      "actual": null,
-      "forecast": null,
-      "previous": 55.6,
-      "importance": null,
-      "impact_channels": [
-        "全球风险偏好",
-        "AI资本开支预期",
-        "美元"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-02",
-      "time": "04:30",
-      "type": "macro",
-      "category": "energy",
-      "region": "美国",
-      "title": "美国截至8月28日当周API原油库存变动(万桶)",
-      "actual": null,
-      "forecast": null,
-      "previous": 420.0,
-      "importance": 2,
-      "impact_channels": [
-        "原油",
-        "通胀预期",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-02",
-      "time": "20:15",
-      "type": "macro",
-      "category": "labor",
-      "region": "美国",
-      "title": "美国8月ADP就业人数变动(万)",
-      "actual": null,
-      "forecast": 3.9,
-      "previous": 4.4,
-      "importance": 2,
-      "impact_channels": [
-        "美债收益率",
-        "美元",
-        "全球成长估值",
-        "黄金/白银"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-02",
-      "time": "22:30",
-      "type": "macro",
-      "category": "energy",
-      "region": "美国",
-      "title": "美国截至8月28日当周EIA原油库存变动(万桶)",
-      "actual": null,
-      "forecast": null,
-      "previous": 9.5,
-      "importance": 2,
-      "impact_channels": [
-        "原油",
-        "通胀预期",
-        "风险偏好"
       ],
       "themes": [],
       "assets": [],
@@ -1175,136 +1027,6 @@
         "全球风险偏好",
         "AI资本开支预期",
         "美元"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-04",
-      "time": "04:30",
-      "type": "macro",
-      "category": "monetary_policy",
-      "region": "美国",
-      "title": "美国截至9月2日美联储资产负债表(万亿美元)",
-      "actual": null,
-      "forecast": null,
-      "previous": 6.73,
-      "importance": 2,
-      "impact_channels": [
-        "美债收益率",
-        "美元",
-        "全球成长估值",
-        "黄金/白银"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-04",
-      "time": "17:00",
-      "type": "macro",
-      "category": "growth",
-      "region": "欧元区",
-      "title": "欧元区7月零售销售年率(%)",
-      "actual": null,
-      "forecast": null,
-      "previous": 0.7,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-04",
-      "time": "17:00",
-      "type": "macro",
-      "category": "growth",
-      "region": "欧元区",
-      "title": "欧元区7月零售销售月率(%)",
-      "actual": null,
-      "forecast": null,
-      "previous": -0.3,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-04",
-      "time": "20:30",
-      "type": "macro",
-      "category": "labor",
-      "region": "美国",
-      "title": "美国8月失业率(%)",
-      "actual": null,
-      "forecast": 4.2,
-      "previous": 4.1,
-      "importance": 2,
-      "impact_channels": [
-        "美债收益率",
-        "美元",
-        "全球成长估值",
-        "黄金/白银"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-04",
-      "time": "20:30",
-      "type": "macro",
-      "category": "labor",
-      "region": "美国",
-      "title": "美国8月私营企业非农就业人数变动(万)",
-      "actual": null,
-      "forecast": 5.0,
-      "previous": 3.0,
-      "importance": 2,
-      "impact_channels": [
-        "美债收益率",
-        "美元",
-        "全球成长估值",
-        "黄金/白银"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-04",
-      "time": "20:30",
-      "type": "macro",
-      "category": "labor",
-      "region": "美国",
-      "title": "美国8月非农就业人口变动季调后(万)",
-      "actual": null,
-      "forecast": 4.5,
-      "previous": -2.3,
-      "importance": 2,
-      "impact_channels": [
-        "美债收益率",
-        "美元",
-        "全球成长估值",
-        "黄金/白银"
       ],
       "themes": [],
       "assets": [],
@@ -1739,12 +1461,12 @@
     }
   ],
   "macro_calendar_summary": {
-    "total": 39,
-    "macro": 38,
+    "total": 26,
+    "macro": 25,
     "global_earnings": 1,
     "high_importance": 1,
-    "macro_days_ok": 11,
-    "report_days_ok": 11
+    "macro_days_ok": 7,
+    "report_days_ok": 8
   },
   "theme_earnings": [
     {
@@ -2189,8 +1911,8 @@
   "theme_earnings_period": "2026半年报",
   "quality": {
     "macro_calendar": {
-      "events": 39,
-      "warnings": 0,
+      "events": 26,
+      "warnings": 7,
       "horizon_days": 10
     },
     "theme_earnings": {
