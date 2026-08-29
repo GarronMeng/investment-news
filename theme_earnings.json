@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-29T15:14:52+08:00",
+  "generated_at": "2026-08-29T18:34:08+08:00",
   "timezone": "Asia/Shanghai",
   "status": "fresh",
   "report_period_code": "20260630",
@@ -10,13 +10,13 @@
       "theme": "存储",
       "summary": {
         "total": 5,
-        "reported": 4,
-        "scheduled": 1,
+        "reported": 5,
+        "scheduled": 0,
         "pending": 0,
-        "positive_reports": 4,
+        "positive_reports": 5,
         "weak_reports": 0,
-        "median_revenue_yoy_pct": 238.39,
-        "median_net_profit_yoy_pct": 4237.54,
+        "median_revenue_yoy_pct": 178.67,
+        "median_net_profit_yoy_pct": 3273.48,
         "breadth": "positive"
       },
       "companies": [
@@ -87,17 +87,17 @@
         {
           "code": "688008",
           "name": "澜起科技",
-          "status": "scheduled",
-          "announcement_date": null,
+          "status": "reported",
+          "announcement_date": "2026-08-29",
           "scheduled_date": "2026-08-29",
-          "revenue": null,
-          "revenue_yoy_pct": null,
-          "net_profit": null,
-          "net_profit_yoy_pct": null,
-          "gross_margin_pct": null,
-          "earnings_signal": "not_reported",
-          "industry": null,
-          "source": "东方财富 via AKShare",
+          "revenue": 3335497521.81,
+          "revenue_yoy_pct": 26.6585396711,
+          "net_profit": 1997374517.87,
+          "net_profit_yoy_pct": 72.33,
+          "gross_margin_pct": 65.3126948791,
+          "earnings_signal": "strong_growth",
+          "industry": "半导体",
+          "source": "东方财富 via AKShare + 公告确认",
           "reason": null
         }
       ]
@@ -250,14 +250,14 @@
       "theme": "半导体工程 / 封测",
       "summary": {
         "total": 3,
-        "reported": 2,
-        "scheduled": 1,
+        "reported": 3,
+        "scheduled": 0,
         "pending": 0,
-        "positive_reports": 1,
+        "positive_reports": 2,
         "weak_reports": 1,
-        "median_revenue_yoy_pct": -4.96,
-        "median_net_profit_yoy_pct": 37.93,
-        "breadth": "mixed"
+        "median_revenue_yoy_pct": 4.96,
+        "median_net_profit_yoy_pct": 79.41,
+        "breadth": "positive"
       },
       "companies": [
         {
@@ -295,17 +295,17 @@
         {
           "code": "002156",
           "name": "通富微电",
-          "status": "scheduled",
-          "announcement_date": null,
+          "status": "reported",
+          "announcement_date": "2026-08-29",
           "scheduled_date": "2026-08-29",
-          "revenue": null,
-          "revenue_yoy_pct": null,
-          "net_profit": null,
-          "net_profit_yoy_pct": null,
-          "gross_margin_pct": null,
-          "earnings_signal": "not_reported",
-          "industry": null,
-          "source": "东方财富 via AKShare",
+          "revenue": 16041019909.75,
+          "revenue_yoy_pct": 23.0305036236,
+          "net_profit": 1717458597.0,
+          "net_profit_yoy_pct": 316.77,
+          "gross_margin_pct": 15.4536234754,
+          "earnings_signal": "strong_growth",
+          "industry": "半导体",
+          "source": "东方财富 via AKShare + 公告确认",
           "reason": null
         }
       ]
@@ -442,12 +442,11 @@
   "summary": {
     "themes": 6,
     "companies": 21,
-    "reported": 19,
-    "scheduled": 2
+    "reported": 21,
+    "scheduled": 0
   },
   "warnings": [
-    "stock_notice_report 20260829: ('Connection broken: IncompleteRead(16121 bytes read, 73139 more expected)', IncompleteRead(16121 bytes read, 73139 more expected)); same-day financial rows withheld",
-    "withheld 783 same-day earnings rows without corroborating public financial-report notice"
+    "withheld 17 same-day earnings rows without corroborating public financial-report notice"
   ],
   "methodology": {
     "reported": "东方财富业绩报表 stock_yjbb_em via AKShare；未来公告日期不暴露财务字段；同日行必须在stock_notice_report财务报告公告中得到代码级确认。",
