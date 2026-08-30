@@ -1,37 +1,12 @@
 {
   "version": 1,
-  "generated_at": "2026-08-29T21:13:49+08:00",
+  "generated_at": "2026-08-30T09:33:25+08:00",
   "timezone": "Asia/Shanghai",
   "report_period": "2026半年报",
-  "events": [
-    {
-      "date": "2026-08-28",
-      "type": "earnings",
-      "title": "德明利 2026半年报预约披露",
-      "assets": [
-        "001309"
-      ],
-      "name": "德明利",
-      "source": "东方财富 via AKShare",
-      "status": "scheduled",
-      "importance": "high"
-    },
-    {
-      "date": "2026-08-28",
-      "type": "earnings",
-      "title": "风华高科 2026半年报预约披露",
-      "assets": [
-        "000636"
-      ],
-      "name": "风华高科",
-      "source": "东方财富 via AKShare",
-      "status": "scheduled",
-      "importance": "medium"
-    }
-  ],
+  "events": [],
   "summary": {
-    "total": 2,
-    "earnings": 2,
+    "total": 0,
+    "earnings": 0,
     "manual": 0
   },
   "warnings": [],

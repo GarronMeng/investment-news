@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-29T21:16:59+08:00",
+  "generated_at": "2026-08-30T09:35:29+08:00",
   "timezone": "Asia/Shanghai",
   "title": "Daily Flash · 每日投资驾驶舱",
   "core_conclusion": "A股状态为 Transition，上涨家数占比 54.3%，风险温度 60/100（elevated）。沪深300 PE-TTM 14.42；10年分位 75.7%；强势：种植业与林业、农化制品、化学原料；弱势：医疗服务、生物制品、半导体。研究复核优先关注 德明利、东山精密、风华高科；该排序代表证据变化与复核优先级，不代表交易优先级。资金/期指：融资余额26168亿元，5日-1.52%；南向成交净买额+11.8亿元；中证500股指期货基差-0.53%。 下一催化：09-02 Broadcom 财报发行。主线财报已确认披露 21/21 个研究样本。",
@@ -361,11 +361,11 @@
       "symbol": "^GSPC",
       "group": "美股",
       "unit": "index",
-      "value": 7730.9902,
-      "raw_value": 7730.9902,
-      "previous_close": 7675.7002,
-      "change_pct": 0.72,
-      "as_of": "2026-08-27T21:30:00+08:00",
+      "value": 7711.7598,
+      "raw_value": 7711.7598,
+      "previous_close": 7730.9902,
+      "change_pct": -0.25,
+      "as_of": "2026-08-28T21:30:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -375,11 +375,11 @@
       "symbol": "^IXIC",
       "group": "美股",
       "unit": "index",
-      "value": 26541.3496,
-      "raw_value": 26541.3496,
-      "previous_close": 26130.1992,
-      "change_pct": 1.57,
-      "as_of": "2026-08-27T21:30:00+08:00",
+      "value": 26402.4199,
+      "raw_value": 26402.4199,
+      "previous_close": 26541.3496,
+      "change_pct": -0.52,
+      "as_of": "2026-08-28T21:30:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -389,11 +389,11 @@
       "symbol": "^SOX",
       "group": "美股",
       "unit": "index",
-      "value": 11882.1699,
-      "raw_value": 11882.1699,
-      "previous_close": 11611.2402,
-      "change_pct": 2.33,
-      "as_of": "2026-08-27T21:30:00+08:00",
+      "value": 11469.6602,
+      "raw_value": 11469.6602,
+      "previous_close": 11882.1699,
+      "change_pct": -3.47,
+      "as_of": "2026-08-28T21:30:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -403,11 +403,11 @@
       "symbol": "^HSI",
       "group": "港股",
       "unit": "index",
-      "value": 25565.7402,
-      "raw_value": 25565.7402,
-      "previous_close": 25652.9707,
-      "change_pct": -0.34,
-      "as_of": "2026-08-27T09:30:00+08:00",
+      "value": 25584.7891,
+      "raw_value": 25584.7891,
+      "previous_close": 25565.7402,
+      "change_pct": 0.07,
+      "as_of": "2026-08-28T09:30:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -417,11 +417,11 @@
       "symbol": "^N225",
       "group": "亚洲",
       "unit": "index",
-      "value": 66131.9766,
-      "raw_value": 66131.9766,
-      "previous_close": 66262.1562,
-      "change_pct": -0.2,
-      "as_of": "2026-08-27T08:00:00+08:00",
+      "value": 66405.5625,
+      "raw_value": 66405.5625,
+      "previous_close": 66131.9766,
+      "change_pct": 0.41,
+      "as_of": "2026-08-28T08:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -431,11 +431,11 @@
       "symbol": "^KS11",
       "group": "亚洲",
       "unit": "index",
-      "value": 6912.3701,
-      "raw_value": 6912.3701,
-      "previous_close": 6808.21,
-      "change_pct": 1.53,
-      "as_of": "2026-08-27T08:00:00+08:00",
+      "value": 6788.8799,
+      "raw_value": 6788.8799,
+      "previous_close": 6912.3701,
+      "change_pct": -1.79,
+      "as_of": "2026-08-28T08:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -445,11 +445,11 @@
       "symbol": "^VIX",
       "group": "风险",
       "unit": "index",
-      "value": 14.51,
-      "raw_value": 14.51,
-      "previous_close": 15.21,
-      "change_pct": -4.6,
-      "as_of": "2026-08-27T15:00:00+08:00",
+      "value": 14.43,
+      "raw_value": 14.43,
+      "previous_close": 14.51,
+      "change_pct": -0.55,
+      "as_of": "2026-08-28T15:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -459,11 +459,11 @@
       "symbol": "^TNX",
       "group": "利率",
       "unit": "yield",
-      "value": 4.672,
-      "raw_value": 4.672,
-      "previous_close": 4.664,
-      "change_pct": 0.17,
-      "as_of": "2026-08-27T20:20:00+08:00",
+      "value": 4.72,
+      "raw_value": 4.72,
+      "previous_close": 4.672,
+      "change_pct": 1.03,
+      "as_of": "2026-08-28T20:20:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -473,11 +473,11 @@
       "symbol": "DX-Y.NYB",
       "group": "汇率",
       "unit": "index",
-      "value": 99.16,
-      "raw_value": 99.16,
-      "previous_close": 99.17,
-      "change_pct": -0.01,
-      "as_of": "2026-08-27T12:00:00+08:00",
+      "value": 99.7,
+      "raw_value": 99.7,
+      "previous_close": 99.16,
+      "change_pct": 0.54,
+      "as_of": "2026-08-28T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -501,11 +501,11 @@
       "symbol": "GC=F",
       "group": "商品",
       "unit": "usd",
-      "value": 4609.7002,
-      "raw_value": 4609.7002,
-      "previous_close": 4598.2002,
-      "change_pct": 0.25,
-      "as_of": "2026-08-27T12:00:00+08:00",
+      "value": 4478.1001,
+      "raw_value": 4478.1001,
+      "previous_close": 4609.7002,
+      "change_pct": -2.85,
+      "as_of": "2026-08-28T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -515,11 +515,11 @@
       "symbol": "SI=F",
       "group": "商品",
       "unit": "usd",
-      "value": 69.429,
-      "raw_value": 69.429,
-      "previous_close": 67.99,
-      "change_pct": 2.12,
-      "as_of": "2026-08-27T12:00:00+08:00",
+      "value": 66.995,
+      "raw_value": 66.995,
+      "previous_close": 69.429,
+      "change_pct": -3.51,
+      "as_of": "2026-08-28T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -529,11 +529,11 @@
       "symbol": "CL=F",
       "group": "商品",
       "unit": "usd",
-      "value": 83.53,
-      "raw_value": 83.53,
-      "previous_close": 82.23,
-      "change_pct": 1.58,
-      "as_of": "2026-08-27T12:00:00+08:00",
+      "value": 83.4,
+      "raw_value": 83.4,
+      "previous_close": 83.53,
+      "change_pct": -0.16,
+      "as_of": "2026-08-28T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -543,11 +543,11 @@
       "symbol": "BZ=F",
       "group": "商品",
       "unit": "usd",
-      "value": 89.7,
-      "raw_value": 89.7,
-      "previous_close": 87.84,
-      "change_pct": 2.12,
-      "as_of": "2026-08-27T12:00:00+08:00",
+      "value": 89.31,
+      "raw_value": 89.31,
+      "previous_close": 89.7,
+      "change_pct": -0.43,
+      "as_of": "2026-08-28T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     }
@@ -614,32 +614,7 @@
       "source_url": null
     }
   ],
-  "catalysts": [
-    {
-      "date": "2026-08-28",
-      "type": "earnings",
-      "title": "德明利 2026半年报预约披露",
-      "assets": [
-        "001309"
-      ],
-      "name": "德明利",
-      "source": "东方财富 via AKShare",
-      "status": "scheduled",
-      "importance": "high"
-    },
-    {
-      "date": "2026-08-28",
-      "type": "earnings",
-      "title": "风华高科 2026半年报预约披露",
-      "assets": [
-        "000636"
-      ],
-      "name": "风华高科",
-      "source": "东方财富 via AKShare",
-      "status": "scheduled",
-      "importance": "medium"
-    }
-  ],
+  "catalysts": [],
   "dimensions": [
     {
       "name": "A股盘面",
@@ -650,22 +625,22 @@
     },
     {
       "name": "美股隔夜",
-      "score": 30.8,
-      "label": "偏多",
+      "score": -28.3,
+      "label": "偏空",
       "weight": 4,
       "evidence": "标普/纳指/费半平均涨跌"
     },
     {
       "name": "美债 / 美元",
-      "score": -1.2,
+      "score": -13.1,
       "label": "中性",
       "weight": 5,
       "evidence": "收益率与美元上行对长久期风险资产偏压制"
     },
     {
       "name": "商品避险",
-      "score": 22.8,
-      "label": "偏多",
+      "score": -26.1,
+      "label": "偏空",
       "weight": 3,
       "evidence": "黄金/白银/原油组合变化"
     },
@@ -883,16 +858,16 @@
   ],
   "sources": {
     "market_state": "2026-08-29T03:26:27+08:00",
-    "risk": "2026-08-29T21:12:28+08:00",
-    "valuation": "2026-08-29T21:12:19+08:00",
-    "decision_matrix": "2026-08-29T21:12:28+08:00",
-    "global_markets": "2026-08-29T21:13:10+08:00",
-    "catalysts": "2026-08-29T21:13:49+08:00",
+    "risk": "2026-08-30T09:32:09+08:00",
+    "valuation": "2026-08-30T09:31:59+08:00",
+    "decision_matrix": "2026-08-30T09:32:09+08:00",
+    "global_markets": "2026-08-30T09:32:55+08:00",
+    "catalysts": "2026-08-30T09:33:25+08:00",
     "ai_signals": "2026-08-26 13:33",
     "sentiment": "2026-08-28T19:19:29+08:00",
-    "market_extras": "2026-08-29T21:13:12+08:00",
-    "macro_calendar": "2026-08-29T21:14:49+08:00",
-    "theme_earnings": "2026-08-29T21:16:59+08:00"
+    "market_extras": "2026-08-30T09:32:57+08:00",
+    "macro_calendar": "2026-08-30T09:34:24+08:00",
+    "theme_earnings": "2026-08-30T09:35:28+08:00"
   },
   "boundary": "Daily Flash用于信息压缩、研究排序与条件验证；缺失数据保持缺失，不生成无条件买卖、仓位或止损指令。",
   "integrity": {
@@ -902,132 +877,6 @@
     "rule": "theme layer metrics average only final eligible Matrix layers; unavailable is null, never zero"
   },
   "macro_calendar": [
-    {
-      "date": "2026-08-31",
-      "time": "09:30",
-      "type": "macro",
-      "category": "growth",
-      "region": "中国",
-      "title": "中国8月官方制造业PMI",
-      "actual": null,
-      "forecast": 49.6,
-      "previous": 49.2,
-      "importance": 2,
-      "impact_channels": [
-        "中国增长预期",
-        "行业盈利预期",
-        "人民币汇率"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-08-31",
-      "time": "21:45",
-      "type": "macro",
-      "category": "growth",
-      "region": "美国",
-      "title": "美国8月芝加哥PMI",
-      "actual": null,
-      "forecast": 57.9,
-      "previous": 57.6,
-      "importance": 2,
-      "impact_channels": [
-        "全球风险偏好",
-        "AI资本开支预期",
-        "美元"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-01",
-      "time": "17:00",
-      "type": "macro",
-      "category": "labor",
-      "region": "欧元区",
-      "title": "欧元区7月失业率(%)",
-      "actual": null,
-      "forecast": 6.3,
-      "previous": 6.3,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-01",
-      "time": "17:00",
-      "type": "macro",
-      "category": "inflation",
-      "region": "欧元区",
-      "title": "欧元区8月核心调和CPI年率-未季调初值(%)",
-      "actual": null,
-      "forecast": null,
-      "previous": 2.2,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-01",
-      "time": "17:00",
-      "type": "macro",
-      "category": "inflation",
-      "region": "欧元区",
-      "title": "欧元区8月调和CPI年率-未季调初值(%)",
-      "actual": null,
-      "forecast": 3.2,
-      "previous": 2.9,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-01",
-      "time": "22:00",
-      "type": "macro",
-      "category": "growth",
-      "region": "美国",
-      "title": "美国8月ISM制造业PMI",
-      "actual": null,
-      "forecast": null,
-      "previous": 55.6,
-      "importance": null,
-      "impact_channels": [
-        "全球风险偏好",
-        "AI资本开支预期",
-        "美元"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
     {
       "date": "2026-09-02",
       "time": "04:30",
@@ -1736,15 +1585,57 @@
       "assets": [],
       "source": "百度股市通 via AKShare",
       "status": "scheduled"
+    },
+    {
+      "date": "2026-09-09",
+      "time": "09:30",
+      "type": "macro",
+      "category": "inflation",
+      "region": "中国",
+      "title": "中国8月CPI年率(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 0.5,
+      "importance": 2,
+      "impact_channels": [
+        "中国增长预期",
+        "行业盈利预期",
+        "人民币汇率"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-09",
+      "time": "09:30",
+      "type": "macro",
+      "category": "inflation",
+      "region": "中国",
+      "title": "中国8月PPI年率(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 3.5,
+      "importance": 2,
+      "impact_channels": [
+        "中国增长预期",
+        "行业盈利预期",
+        "人民币汇率"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
     }
   ],
   "macro_calendar_summary": {
-    "total": 39,
-    "macro": 38,
+    "total": 35,
+    "macro": 34,
     "global_earnings": 1,
     "high_importance": 1,
-    "macro_days_ok": 11,
-    "report_days_ok": 11
+    "macro_days_ok": 9,
+    "report_days_ok": 10
   },
   "theme_earnings": [
     {
@@ -2189,8 +2080,8 @@
   "theme_earnings_period": "2026半年报",
   "quality": {
     "macro_calendar": {
-      "events": 39,
-      "warnings": 0,
+      "events": 35,
+      "warnings": 3,
       "horizon_days": 10
     },
     "theme_earnings": {
