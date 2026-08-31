@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-31T15:43:07+08:00",
+  "generated_at": "2026-08-31T18:02:49+08:00",
   "score": 62.4,
   "label": "elevated",
   "coverage": 100.0,
@@ -40,7 +40,7 @@
       "score": 82.0,
       "weight": 10,
       "available": true,
-      "evidence": "regime=narrow_risk_on；指数均值 0.52% / 上涨占比 57.3%"
+      "evidence": "regime=narrow_risk_on；指数均值 0.55% / 上涨占比 57.3%"
     }
   },
   "drivers": [
@@ -52,7 +52,7 @@
     {
       "component": "concentration",
       "score": 82.0,
-      "evidence": "regime=narrow_risk_on；指数均值 0.52% / 上涨占比 57.3%"
+      "evidence": "regime=narrow_risk_on；指数均值 0.55% / 上涨占比 57.3%"
     },
     {
       "component": "valuation",
