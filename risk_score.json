@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-08-31T13:44:04+08:00",
-  "score": 61.3,
+  "generated_at": "2026-08-31T15:43:07+08:00",
+  "score": 62.4,
   "label": "elevated",
   "coverage": 100.0,
   "available_weight": 100,
@@ -13,10 +13,10 @@
       "evidence": "沪深300滚动PE十年分位 75.7%"
     },
     "market_structure": {
-      "score": 57.3,
+      "score": 51.9,
       "weight": 25,
       "available": true,
-      "evidence": "transition；上涨占比 54.3%"
+      "evidence": "narrow_risk_on；上涨占比 57.3%"
     },
     "trend": {
       "score": 89.0,
@@ -37,10 +37,10 @@
       "evidence": "VIX 14.43；20日分位 10.0%"
     },
     "concentration": {
-      "score": 58.0,
+      "score": 82.0,
       "weight": 10,
       "available": true,
-      "evidence": "regime=transition；指数均值 -0.68% / 上涨占比 54.3%"
+      "evidence": "regime=narrow_risk_on；指数均值 0.52% / 上涨占比 57.3%"
     }
   },
   "drivers": [
@@ -50,14 +50,14 @@
       "evidence": "MA60 below/falling；MACD bearish；RSI neutral"
     },
     {
+      "component": "concentration",
+      "score": 82.0,
+      "evidence": "regime=narrow_risk_on；指数均值 0.52% / 上涨占比 57.3%"
+    },
+    {
       "component": "valuation",
       "score": 75.7,
       "evidence": "沪深300滚动PE十年分位 75.7%"
-    },
-    {
-      "component": "concentration",
-      "score": 58.0,
-      "evidence": "regime=transition；指数均值 -0.68% / 上涨占比 54.3%"
     }
   ],
   "state_changes": [],
