@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-31T23:08:43+08:00",
+  "generated_at": "2026-08-31T23:10:47+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -840,22 +840,7 @@
     "300308",
     "518880"
   ],
-  "state_changes": [
-    {
-      "code": "161226",
-      "name": "国投白银LOF",
-      "field": "matrix_direction",
-      "from": "bullish",
-      "to": "neutral"
-    },
-    {
-      "code": "161226",
-      "name": "国投白银LOF",
-      "field": "thesis_state",
-      "from": "supported",
-      "to": "under_test"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "weights": {
       "event": 25,
