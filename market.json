@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generated_at": "2026-09-01T18:08:27+08:00",
+  "generated_at": "2026-09-01T20:33:43+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
-    "fresh": 8,
-    "stale": 1,
+    "fresh": 9,
+    "stale": 0,
     "unavailable": 0
   },
   "quotes": [
@@ -45,18 +45,17 @@
       "code": "300308",
       "name": "中际旭创",
       "exchange": "SZSE",
-      "price": 858.0,
+      "price": 859.3,
       "previous_close": 851.9,
-      "change_pct": 0.72,
+      "change_pct": 0.87,
       "open": 863.989990234375,
       "high": 887.0,
       "low": 837.3300170898438,
       "turnover": null,
       "as_of": "2026-09-01T09:30:00+08:00",
-      "status": "stale",
+      "status": "fresh",
       "confidence": "low",
-      "source": "Yahoo Finance",
-      "error": "HTTP Error 400: Bad Request"
+      "source": "Yahoo Finance"
     },
     {
       "code": "002384",
@@ -133,7 +132,7 @@
       "high": null,
       "low": null,
       "turnover": 4118875882.0,
-      "as_of": "2026-09-01T18:08:27+08:00",
+      "as_of": "2026-09-01T20:33:43+08:00",
       "status": "fresh",
       "confidence": "medium",
       "source": "东方财富 via AKShare"
@@ -149,7 +148,7 @@
       "high": null,
       "low": null,
       "turnover": 103558355.0,
-      "as_of": "2026-09-01T18:08:27+08:00",
+      "as_of": "2026-09-01T20:33:43+08:00",
       "status": "fresh",
       "confidence": "medium",
       "source": "东方财富 via AKShare"
@@ -157,8 +156,7 @@
   ],
   "warnings": [
     "A股: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
-    "LOF: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
-    "300308 refresh failed: HTTP Error 400: Bad Request"
+    "LOF: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
   ],
   "methodology": "AKShare/东方财富批量行情为主，Yahoo Finance为逐标的备用；失败时保留最近成功值并标记过期。"
 }
