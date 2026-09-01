@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-31T23:34:00+08:00",
+  "generated_at": "2026-09-01T13:06:49+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
@@ -33,7 +33,7 @@
       "region": "欧元区",
       "title": "欧元区8月核心调和CPI年率-未季调初值(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": 2.3,
       "previous": 2.2,
       "importance": 2,
       "impact_channels": [
@@ -54,7 +54,7 @@
       "region": "欧元区",
       "title": "欧元区8月调和CPI年率-未季调初值(%)",
       "actual": null,
-      "forecast": 3.2,
+      "forecast": 3.3,
       "previous": 2.9,
       "importance": 2,
       "impact_channels": [
@@ -75,7 +75,7 @@
       "region": "美国",
       "title": "美国8月ISM制造业PMI",
       "actual": null,
-      "forecast": 55.3,
+      "forecast": 55.2,
       "previous": 55.6,
       "importance": 2,
       "impact_channels": [
@@ -117,7 +117,7 @@
       "region": "美国",
       "title": "美国8月ADP就业人数变动(万)",
       "actual": null,
-      "forecast": 3.9,
+      "forecast": 4.8,
       "previous": 4.4,
       "importance": 2,
       "impact_channels": [
@@ -187,7 +187,7 @@
       "region": "美国",
       "title": "美国7月贸易帐(亿美元)",
       "actual": null,
-      "forecast": null,
+      "forecast": -900.0,
       "previous": -733.0,
       "importance": 2,
       "impact_channels": [
@@ -206,7 +206,7 @@
       "region": "美国",
       "title": "美国截至8月29日当周初请失业金人数(万)",
       "actual": null,
-      "forecast": null,
+      "forecast": 20.5,
       "previous": 20.3,
       "importance": 2,
       "impact_channels": [
@@ -228,9 +228,9 @@
       "region": "美国",
       "title": "美国8月ISM非制造业PMI",
       "actual": null,
-      "forecast": null,
+      "forecast": 54.2,
       "previous": 54.1,
-      "importance": null,
+      "importance": 2,
       "impact_channels": [
         "全球风险偏好",
         "AI资本开支预期",
@@ -292,7 +292,7 @@
       "region": "欧元区",
       "title": "欧元区7月零售销售月率(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": 0.3,
       "previous": -0.3,
       "importance": 2,
       "impact_channels": [
@@ -313,7 +313,7 @@
       "region": "美国",
       "title": "美国8月失业率(%)",
       "actual": null,
-      "forecast": 4.2,
+      "forecast": 4.1,
       "previous": 4.1,
       "importance": 2,
       "impact_channels": [
@@ -335,7 +335,7 @@
       "region": "美国",
       "title": "美国8月私营企业非农就业人数变动(万)",
       "actual": null,
-      "forecast": 5.0,
+      "forecast": 4.5,
       "previous": 3.0,
       "importance": 2,
       "impact_channels": [
@@ -357,7 +357,7 @@
       "region": "美国",
       "title": "美国8月非农就业人口变动季调后(万)",
       "actual": null,
-      "forecast": 4.5,
+      "forecast": 5.5,
       "previous": -2.3,
       "importance": 2,
       "impact_channels": [
@@ -967,11 +967,225 @@
       "assets": [],
       "source": "百度股市通 via AKShare",
       "status": "scheduled"
+    },
+    {
+      "date": "2026-09-11",
+      "time": "00:00",
+      "type": "macro",
+      "category": "energy",
+      "region": "美国",
+      "title": "美国截至9月4日当周EIA原油库存变动(万桶)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "原油",
+        "通胀预期",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-11",
+      "time": "04:30",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "美国",
+      "title": "美国截至9月9日美联储资产负债表(万亿美元)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-11",
+      "time": "14:00",
+      "type": "macro",
+      "category": "growth",
+      "region": "英国",
+      "title": "英国7月GDP月率(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 0.3,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-11",
+      "time": "14:00",
+      "type": "macro",
+      "category": "trade",
+      "region": "英国",
+      "title": "英国7月商品贸易帐-季调后(亿英镑)",
+      "actual": null,
+      "forecast": null,
+      "previous": -230.07,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-11",
+      "time": "14:00",
+      "type": "macro",
+      "category": "trade",
+      "region": "英国",
+      "title": "英国7月季调后贸易帐(亿英镑)",
+      "actual": null,
+      "forecast": null,
+      "previous": -55.37,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-11",
+      "time": "14:00",
+      "type": "macro",
+      "category": "growth",
+      "region": "英国",
+      "title": "英国7月工业产出年率(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": -0.2,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-11",
+      "time": "14:00",
+      "type": "macro",
+      "category": "growth",
+      "region": "英国",
+      "title": "英国7月工业产出月率(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": -0.2,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-11",
+      "time": "20:30",
+      "type": "macro",
+      "category": "inflation",
+      "region": "美国",
+      "title": "美国8月CPI年率未季调(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 3.4,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-11",
+      "time": "20:30",
+      "type": "macro",
+      "category": "inflation",
+      "region": "美国",
+      "title": "美国8月核心CPI年率未季调(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 2.5,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-11",
+      "time": "20:30",
+      "type": "macro",
+      "category": "inflation",
+      "region": "美国",
+      "title": "美国8月能源CPI年率-未季调(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 14.7,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
     }
   ],
   "summary": {
-    "total": 45,
-    "macro": 44,
+    "total": 55,
+    "macro": 54,
     "global_earnings": 1,
     "high_importance": 1,
     "macro_days_ok": 11,
