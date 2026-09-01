@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-01T16:56:49+08:00",
-  "source_generated_at": "2026-09-01T16:56:49+08:00",
+  "generated_at": "2026-09-01T18:12:14+08:00",
+  "source_generated_at": "2026-09-01T18:12:14+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -304,43 +304,7 @@
       "condition_state": "partial_conditions"
     }
   },
-  "state_changes": [
-    {
-      "code": "603986",
-      "name": "兆易创新",
-      "field": "rsi_zone",
-      "from": "neutral",
-      "to": "weak"
-    },
-    {
-      "code": "300308",
-      "name": "中际旭创",
-      "field": "macd",
-      "from": "bearish",
-      "to": "bullish"
-    },
-    {
-      "code": "300308",
-      "name": "中际旭创",
-      "field": "volume",
-      "from": "contraction",
-      "to": "normal"
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "volume",
-      "from": "contraction",
-      "to": "normal"
-    },
-    {
-      "code": "000636",
-      "name": "风华高科",
-      "field": "rsi_zone",
-      "from": "neutral",
-      "to": "weak"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "rsi14": "Wilder RSI(14)",
     "macd": "EMA12/EMA26 DIF, EMA9 signal, histogram=(DIF-DEA)*2",
