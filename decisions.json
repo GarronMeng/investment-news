@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generated_at": "2026-09-01T13:17:12+08:00",
+  "generated_at": "2026-09-01T13:23:23+08:00",
   "source": {
     "data_generated_at": "2026-09-01 13:16",
     "ai_generated_at": "2026-08-26 13:33",
     "ai_source_generated_at": "2026-08-26 12:26",
-    "features_generated_at": "2026-09-01T13:17:02+08:00",
+    "features_generated_at": "2026-09-01T13:23:11+08:00",
     "fresh_ai": false
   },
   "decisions": [
@@ -84,17 +84,17 @@
     {
       "asset": "002384",
       "name": "东山精密",
-      "as_of": "2026-08-31",
-      "bias": "bullish",
-      "status": "market_watch",
+      "as_of": "2026-09-01",
+      "bias": "neutral",
+      "status": "neutral",
       "event_score": 50.0,
-      "market_score": 85.0,
+      "market_score": 55.0,
       "freshness_score": 70,
-      "conviction": 55,
+      "conviction": 10.0,
       "evidence_mode": "market_only",
       "event_count": 0,
-      "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.197442",
+      "trend_state": "mixed",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.036636",
       "confirmation": [
         "PCB板块扩散上涨",
         "订单利好得到成交量确认"
@@ -108,7 +108,7 @@
     {
       "asset": "600667",
       "name": "太极实业",
-      "as_of": "2026-08-31",
+      "as_of": "2026-09-01",
       "bias": "neutral",
       "status": "neutral",
       "event_score": 50.0,
@@ -118,7 +118,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "mixed",
-      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.169261",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.065848",
       "confirmation": [
         "半导体工程板块同步走强",
         "事件后股价摆脱弱势结构"
@@ -132,17 +132,17 @@
     {
       "asset": "000636",
       "name": "风华高科",
-      "as_of": "2026-08-31",
-      "bias": "bullish",
+      "as_of": "2026-09-01",
+      "bias": "bearish",
       "status": "market_watch",
       "event_score": 50.0,
-      "market_score": 65.0,
+      "market_score": 25.0,
       "freshness_score": 70,
-      "conviction": 30.0,
+      "conviction": 50.0,
       "evidence_mode": "market_only",
       "event_count": 0,
-      "trend_state": "mixed",
-      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.056743",
+      "trend_state": "bearish",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.050174",
       "confirmation": [
         "被动元件板块形成联动",
         "涨价新闻后价格走势能够确认"

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-01T13:17:02+08:00",
-  "source_generated_at": "2026-09-01T13:17:02+08:00",
+  "generated_at": "2026-09-01T13:23:11+08:00",
+  "source_generated_at": "2026-09-01T13:23:11+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -126,27 +126,27 @@
     "002384": {
       "code": "002384",
       "name": "东山精密",
-      "as_of": "2026-08-31",
+      "as_of": "2026-09-01",
       "source_status": "fresh",
       "observations": 140,
-      "close": 198.0,
+      "close": 189.0,
       "ma60": {
-        "value": 219.8305,
+        "value": 219.4305,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.001772
+        "slope_pct": -0.00182
       },
-      "rsi14": 48.25,
-      "rsi_zone": "neutral",
+      "rsi14": 44.1,
+      "rsi_zone": "weak",
       "macd": {
-        "dif": -3.36243,
-        "dea": -4.50998,
-        "hist": 2.29509,
+        "dif": -3.80566,
+        "dea": -4.36909,
+        "hist": 1.12687,
         "state": "bullish",
-        "cross_age": 14
+        "cross_age": 15
       },
       "volume": {
-        "ratio20": 0.594,
+        "ratio20": 0.704,
         "state": "contraction"
       },
       "breakout_20d": "inside_range",
@@ -156,27 +156,27 @@
     "600667": {
       "code": "600667",
       "name": "太极实业",
-      "as_of": "2026-08-31",
+      "as_of": "2026-09-01",
       "source_status": "fresh",
       "observations": 140,
-      "close": 19.34,
+      "close": 18.6,
       "ma60": {
-        "value": 20.8672,
+        "value": 20.9282,
         "position": "below",
         "direction": "rising",
-        "slope_pct": 0.002554
+        "slope_pct": 0.002923
       },
-      "rsi14": 45.55,
-      "rsi_zone": "neutral",
+      "rsi14": 42.64,
+      "rsi_zone": "weak",
       "macd": {
-        "dif": -0.00033,
-        "dea": 0.2505,
-        "hist": -0.50167,
+        "dif": -0.1371,
+        "dea": 0.17298,
+        "hist": -0.62015,
         "state": "bearish",
-        "cross_age": 4
+        "cross_age": 5
       },
       "volume": {
-        "ratio20": 0.51,
+        "ratio20": 0.366,
         "state": "contraction"
       },
       "breakout_20d": "inside_range",
@@ -186,28 +186,28 @@
     "000636": {
       "code": "000636",
       "name": "风华高科",
-      "as_of": "2026-08-31",
+      "as_of": "2026-09-01",
       "source_status": "fresh",
       "observations": 140,
-      "close": 55.88,
+      "close": 52.62,
       "ma60": {
-        "value": 59.0105,
+        "value": 58.962,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.001064
+        "slope_pct": -0.000822
       },
-      "rsi14": 50.36,
+      "rsi14": 45.24,
       "rsi_zone": "neutral",
       "macd": {
-        "dif": -0.37338,
-        "dea": 0.10318,
-        "hist": -0.95314,
+        "dif": -0.55951,
+        "dea": -0.02937,
+        "hist": -1.06028,
         "state": "bearish",
-        "cross_age": 7
+        "cross_age": 8
       },
       "volume": {
-        "ratio20": 0.779,
-        "state": "normal"
+        "ratio20": 0.491,
+        "state": "contraction"
       },
       "breakout_20d": "inside_range",
       "data_quality": "usable",
@@ -309,57 +309,22 @@
       "code": "002384",
       "name": "东山精密",
       "field": "rsi_zone",
-      "from": "weak",
-      "to": "neutral"
+      "from": "neutral",
+      "to": "weak"
     },
     {
       "code": "600667",
       "name": "太极实业",
       "field": "rsi_zone",
-      "from": "weak",
-      "to": "neutral"
+      "from": "neutral",
+      "to": "weak"
     },
     {
-      "code": "161226",
-      "name": "国投白银LOF",
-      "field": "ma60_direction",
-      "from": "flat",
-      "to": "falling"
-    },
-    {
-      "code": "161226",
-      "name": "国投白银LOF",
+      "code": "000636",
+      "name": "风华高科",
       "field": "volume",
-      "from": "contraction",
-      "to": "normal"
-    },
-    {
-      "code": "518880",
-      "name": "黄金ETF华安",
-      "field": "macd",
-      "from": "bearish",
-      "to": "bullish"
-    },
-    {
-      "code": "518880",
-      "name": "黄金ETF华安",
-      "field": "volume",
-      "from": "contraction",
-      "to": "expansion"
-    },
-    {
-      "code": "518880",
-      "name": "黄金ETF华安",
-      "field": "condition_state",
-      "from": "conditions_not_met",
-      "to": "partial_conditions"
-    },
-    {
-      "code": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "field": "volume",
-      "from": "contraction",
-      "to": "normal"
+      "from": "normal",
+      "to": "contraction"
     }
   ],
   "methodology": {
