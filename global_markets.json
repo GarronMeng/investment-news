@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generated_at": "2026-09-01T18:13:06+08:00",
+  "generated_at": "2026-09-01T20:48:54+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 14,
-    "fresh": 14,
-    "stale": 0,
+    "fresh": 13,
+    "stale": 1,
     "unavailable": 0
   },
   "assets": [
@@ -76,8 +76,9 @@
       "previous_close": 66311.9297,
       "change_pct": -0.15,
       "as_of": "2026-09-01T08:00:00+08:00",
-      "status": "fresh",
-      "source": "Yahoo Finance"
+      "status": "stale",
+      "source": "Yahoo Finance",
+      "error": "HTTP Error 400: Bad Request"
     },
     {
       "key": "kospi",
@@ -99,10 +100,10 @@
       "symbol": "^VIX",
       "group": "风险",
       "unit": "index",
-      "value": 15.87,
-      "raw_value": 15.87,
+      "value": 15.9,
+      "raw_value": 15.9,
       "previous_close": 14.92,
-      "change_pct": 6.37,
+      "change_pct": 6.57,
       "as_of": "2026-09-01T15:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -113,11 +114,11 @@
       "symbol": "^TNX",
       "group": "利率",
       "unit": "yield",
-      "value": 4.758,
-      "raw_value": 4.758,
-      "previous_close": 4.672,
-      "change_pct": 1.84,
-      "as_of": "2026-08-31T20:20:00+08:00",
+      "value": 4.788,
+      "raw_value": 4.788,
+      "previous_close": 4.758,
+      "change_pct": 0.63,
+      "as_of": "2026-09-01T20:20:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -127,10 +128,10 @@
       "symbol": "DX-Y.NYB",
       "group": "汇率",
       "unit": "index",
-      "value": 99.585,
-      "raw_value": 99.585,
+      "value": 99.616,
+      "raw_value": 99.616,
       "previous_close": 99.43,
-      "change_pct": 0.16,
+      "change_pct": 0.19,
       "as_of": "2026-09-01T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -141,11 +142,11 @@
       "symbol": "CNH=X",
       "group": "汇率",
       "unit": "fx",
-      "value": 6.724,
-      "raw_value": 6.724,
+      "value": 6.7226,
+      "raw_value": 6.7226,
       "previous_close": null,
       "change_pct": null,
-      "as_of": "2026-09-01T18:13:04+08:00",
+      "as_of": "2026-09-01T20:48:53+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -155,10 +156,10 @@
       "symbol": "GC=F",
       "group": "商品",
       "unit": "usd",
-      "value": 4419.1001,
-      "raw_value": 4419.1001,
+      "value": 4405.2002,
+      "raw_value": 4405.2002,
       "previous_close": 4431.1001,
-      "change_pct": -0.27,
+      "change_pct": -0.58,
       "as_of": "2026-09-01T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -169,10 +170,10 @@
       "symbol": "SI=F",
       "group": "商品",
       "unit": "usd",
-      "value": 65.285,
-      "raw_value": 65.285,
+      "value": 65.27,
+      "raw_value": 65.27,
       "previous_close": 66.221,
-      "change_pct": -1.41,
+      "change_pct": -1.44,
       "as_of": "2026-09-01T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -183,10 +184,10 @@
       "symbol": "CL=F",
       "group": "商品",
       "unit": "usd",
-      "value": 87.91,
-      "raw_value": 87.91,
+      "value": 88.15,
+      "raw_value": 88.15,
       "previous_close": 85.76,
-      "change_pct": 2.51,
+      "change_pct": 2.79,
       "as_of": "2026-09-01T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -197,15 +198,17 @@
       "symbol": "BZ=F",
       "group": "商品",
       "unit": "usd",
-      "value": 92.24,
-      "raw_value": 92.24,
+      "value": 92.56,
+      "raw_value": 92.56,
       "previous_close": 90.49,
-      "change_pct": 1.93,
+      "change_pct": 2.29,
       "as_of": "2026-09-01T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     }
   ],
-  "warnings": [],
+  "warnings": [
+    "nikkei: HTTP Error 400: Bad Request"
+  ],
   "methodology": "Yahoo Finance日线跨资产快照；失败保留最近成功值并显式标记stale/unavailable。美债10Y的^TNX展示值按Yahoo指数惯例换算为收益率百分比。"
 }
