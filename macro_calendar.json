@@ -1,72 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-09-01T16:59:13+08:00",
+  "generated_at": "2026-09-01T18:14:56+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
-    {
-      "date": "2026-09-01",
-      "time": "17:00",
-      "type": "macro",
-      "category": "labor",
-      "region": "欧元区",
-      "title": "欧元区7月失业率(%)",
-      "actual": null,
-      "forecast": 6.3,
-      "previous": 6.3,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-01",
-      "time": "17:00",
-      "type": "macro",
-      "category": "inflation",
-      "region": "欧元区",
-      "title": "欧元区8月核心调和CPI年率-未季调初值(%)",
-      "actual": null,
-      "forecast": 2.3,
-      "previous": 2.2,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-01",
-      "time": "17:00",
-      "type": "macro",
-      "category": "inflation",
-      "region": "欧元区",
-      "title": "欧元区8月调和CPI年率-未季调初值(%)",
-      "actual": null,
-      "forecast": 3.3,
-      "previous": 2.9,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
     {
       "date": "2026-09-01",
       "time": "22:00",
@@ -1184,8 +1121,8 @@
     }
   ],
   "summary": {
-    "total": 55,
-    "macro": 54,
+    "total": 52,
+    "macro": 51,
     "global_earnings": 1,
     "high_importance": 1,
     "macro_days_ok": 11,
