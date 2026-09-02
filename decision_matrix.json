@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-02T16:03:24+08:00",
+  "generated_at": "2026-09-02T16:10:46+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -822,43 +822,7 @@
     "518880",
     "603986"
   ],
-  "state_changes": [
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "matrix_direction",
-      "from": "neutral",
-      "to": "bearish"
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "evidence_state",
-      "from": "noise_or_no_edge",
-      "to": "partial_confirmation"
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "thesis_state",
-      "from": "no_directional_thesis",
-      "to": "emerging"
-    },
-    {
-      "code": "161226",
-      "name": "国投白银LOF",
-      "field": "matrix_direction",
-      "from": "bearish",
-      "to": "bullish"
-    },
-    {
-      "code": "161226",
-      "name": "国投白银LOF",
-      "field": "thesis_state",
-      "from": "supported",
-      "to": "no_directional_thesis"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "weights": {
       "event": 25,

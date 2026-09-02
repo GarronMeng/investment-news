@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-02T16:03:24+08:00",
-  "history_generated_at": "2026-09-02T16:03:15+08:00",
+  "generated_at": "2026-09-02T16:10:46+08:00",
+  "history_generated_at": "2026-09-02T16:10:34+08:00",
   "summary": {
     "t1": {
       "settled": 639,
@@ -21096,6 +21096,78 @@
     {
       "decision_id": "a0302e867fb15c98",
       "status": "unavailable"
+    },
+    {
+      "decision_id": "dcc181c6053cd5cf",
+      "asset": "001309",
+      "name": "德明利",
+      "signal_date": "2026-09-01",
+      "bias": "bullish",
+      "research_status": "market_watch",
+      "conviction": 55,
+      "entry_date": "2026-09-01",
+      "entry_close": 418.04,
+      "mfe_20d": 0.050569,
+      "mae_20d": -0.002775,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "5b47975678f60353",
+      "asset": "300308",
+      "name": "中际旭创",
+      "signal_date": "2026-09-01",
+      "bias": "bearish",
+      "research_status": "market_watch",
+      "conviction": 50.0,
+      "entry_date": "2026-09-01",
+      "entry_close": 859.3,
+      "mfe_20d": 0.025567,
+      "mae_20d": -0.032236,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "2741add6773e6484",
+      "asset": "000636",
+      "name": "风华高科",
+      "signal_date": "2026-09-01",
+      "bias": "bearish",
+      "research_status": "market_watch",
+      "conviction": 50.0,
+      "entry_date": "2026-09-01",
+      "entry_close": 51.87,
+      "mfe_20d": -0.0,
+      "mae_20d": -0.081357,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
     }
   ],
   "methodology": "Forward evaluation uses future trading observations; correctness is based on benchmark excess return when benchmark data is available, otherwise raw return. MFE/MAE are directional over up to 20 future observations."
