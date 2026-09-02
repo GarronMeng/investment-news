@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-02T17:43:02+08:00",
+  "generated_at": "2026-09-02T20:16:05+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -28,7 +28,7 @@
       "as_of": "2026-09-02",
       "base_bias": "neutral",
       "matrix_direction": "bearish",
-      "composite_score": -30.0,
+      "composite_score": -29.9,
       "coverage": 75.0,
       "confluence": 79.0,
       "available_layers": 4,
@@ -71,9 +71,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -47.1,
+          "score": -46.8,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.2775；风险温度=61.9。"
+          "evidence": "regime=risk_off；上涨占比=0.2775；风险温度=61.3。"
         }
       },
       "contributors": {
@@ -113,9 +113,9 @@
       "as_of": "2026-09-02",
       "base_bias": "bullish",
       "matrix_direction": "neutral",
-      "composite_score": -12.8,
+      "composite_score": -12.7,
       "coverage": 75.0,
-      "confluence": 19.2,
+      "confluence": 19.1,
       "available_layers": 4,
       "opposing_weight_share": 0.0,
       "evidence_state": "conflict",
@@ -157,9 +157,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -47.1,
+          "score": -46.8,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.2775；风险温度=61.9。"
+          "evidence": "regime=risk_off；上涨占比=0.2775；风险温度=61.3。"
         }
       },
       "contributors": {
@@ -194,7 +194,7 @@
       "excluded_layers": [],
       "positive_direction_mass": 10.4,
       "negative_direction_mass": 20.0,
-      "conflict_score": 68.5
+      "conflict_score": 68.6
     },
     "300308": {
       "code": "300308",
@@ -248,9 +248,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -47.1,
+          "score": -46.8,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.2775；风险温度=61.9。"
+          "evidence": "regime=risk_off；上涨占比=0.2775；风险温度=61.3。"
         }
       },
       "contributors": {
@@ -290,7 +290,7 @@
       "as_of": "2026-09-02",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -64.8,
+      "composite_score": -64.7,
       "coverage": 60.0,
       "confluence": 89.4,
       "available_layers": 3,
@@ -332,9 +332,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -47.1,
+          "score": -46.8,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.2775；风险温度=61.9。"
+          "evidence": "regime=risk_off；上涨占比=0.2775；风险温度=61.3。"
         }
       },
       "contributors": {
@@ -362,7 +362,7 @@
       ],
       "excluded_layers": [],
       "positive_direction_mass": 0.0,
-      "negative_direction_mass": 38.9,
+      "negative_direction_mass": 38.8,
       "conflict_score": 0.0
     },
     "600667": {
@@ -417,9 +417,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -47.1,
+          "score": -46.8,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.2775；风险温度=61.9。"
+          "evidence": "regime=risk_off；上涨占比=0.2775；风险温度=61.3。"
         }
       },
       "contributors": {
@@ -459,7 +459,7 @@
       "as_of": "2026-09-02",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -73.7,
+      "composite_score": -73.6,
       "coverage": 60.0,
       "confluence": 92.1,
       "available_layers": 3,
@@ -500,9 +500,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -47.1,
+          "score": -46.8,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.2775；风险温度=61.9。"
+          "evidence": "regime=risk_off；上涨占比=0.2775；风险温度=61.3。"
         }
       },
       "contributors": {
@@ -704,7 +704,7 @@
       "as_of": "2026-09-01",
       "base_bias": "neutral",
       "matrix_direction": "neutral",
-      "composite_score": -1.6,
+      "composite_score": -1.5,
       "coverage": 75.0,
       "confluence": 2.3,
       "available_layers": 4,
@@ -748,9 +748,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -47.1,
+          "score": -46.8,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.2775；风险温度=61.9。"
+          "evidence": "regime=risk_off；上涨占比=0.2775；风险温度=61.3。"
         }
       },
       "contributors": {
@@ -769,8 +769,8 @@
         "negative": [
           {
             "layer": "market_context",
-            "score": -47.1,
-            "evidence": "regime=risk_off；上涨占比=0.2775；风险温度=61.9。"
+            "score": -46.8,
+            "evidence": "regime=risk_off；上涨占比=0.2775；风险温度=61.3。"
           },
           {
             "layer": "industry",
@@ -790,7 +790,7 @@
       "excluded_layers": [],
       "positive_direction_mass": 6.0,
       "negative_direction_mass": 8.3,
-      "conflict_score": 83.8
+      "conflict_score": 83.9
     }
   },
   "ranking": [
@@ -804,57 +804,7 @@
     "161226",
     "518880"
   ],
-  "state_changes": [
-    {
-      "code": "603986",
-      "name": "兆易创新",
-      "field": "matrix_direction",
-      "from": "neutral",
-      "to": "bearish"
-    },
-    {
-      "code": "603986",
-      "name": "兆易创新",
-      "field": "evidence_state",
-      "from": "noise_or_no_edge",
-      "to": "partial_confirmation"
-    },
-    {
-      "code": "603986",
-      "name": "兆易创新",
-      "field": "thesis_state",
-      "from": "no_directional_thesis",
-      "to": "emerging"
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "evidence_state",
-      "from": "partial_confirmation",
-      "to": "multi_layer_confirmed"
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "thesis_state",
-      "from": "emerging",
-      "to": "confirmed"
-    },
-    {
-      "code": "600667",
-      "name": "太极实业",
-      "field": "evidence_state",
-      "from": "partial_confirmation",
-      "to": "multi_layer_confirmed"
-    },
-    {
-      "code": "600667",
-      "name": "太极实业",
-      "field": "thesis_state",
-      "from": "emerging",
-      "to": "confirmed"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "weights": {
       "event": 25,

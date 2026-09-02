@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-02T17:43:02+08:00",
-  "history_generated_at": "2026-09-02T17:42:55+08:00",
+  "generated_at": "2026-09-02T20:16:05+08:00",
+  "history_generated_at": "2026-09-02T20:15:55+08:00",
   "summary": {
     "t1": {
       "settled": 652,
@@ -21402,6 +21402,126 @@
     },
     {
       "decision_id": "405b0fb5e6e178fa",
+      "asset": "000636",
+      "name": "风华高科",
+      "signal_date": "2026-09-02",
+      "bias": "bearish",
+      "research_status": "market_watch",
+      "conviction": 55,
+      "entry_date": "2026-09-02",
+      "entry_close": 49.78,
+      "mfe_20d": 0.01828,
+      "mae_20d": -0.030534,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "34403cef5590d409",
+      "asset": "001309",
+      "name": "德明利",
+      "signal_date": "2026-09-02",
+      "bias": "bullish",
+      "research_status": "market_watch",
+      "conviction": 55,
+      "entry_date": "2026-09-02",
+      "entry_close": 412.93,
+      "mfe_20d": 0.019059,
+      "mae_20d": -0.010728,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "bbcdecaf6ede9156",
+      "asset": "300308",
+      "name": "中际旭创",
+      "signal_date": "2026-09-02",
+      "bias": "bearish",
+      "research_status": "market_watch",
+      "conviction": 55,
+      "entry_date": "2026-09-02",
+      "entry_close": 822.4,
+      "mfe_20d": 0.010141,
+      "mae_20d": -0.031128,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "2c2d6a47674f614b",
+      "asset": "002384",
+      "name": "东山精密",
+      "signal_date": "2026-09-02",
+      "bias": "bearish",
+      "research_status": "market_watch",
+      "conviction": 55,
+      "entry_date": "2026-09-02",
+      "entry_close": 183.43,
+      "mfe_20d": 0.012157,
+      "mae_20d": -0.018263,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "4f8fb91ff1b7064a",
+      "asset": "600667",
+      "name": "太极实业",
+      "signal_date": "2026-09-02",
+      "bias": "bearish",
+      "research_status": "market_watch",
+      "conviction": 55,
+      "entry_date": "2026-09-02",
+      "entry_close": 18.23,
+      "mfe_20d": 0.021393,
+      "mae_20d": -0.013165,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "f587fb3d76ceed75",
       "asset": "000636",
       "name": "风华高科",
       "signal_date": "2026-09-02",
