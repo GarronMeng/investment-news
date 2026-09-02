@@ -1,51 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-09-01T20:50:38+08:00",
+  "generated_at": "2026-09-02T09:19:33+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
-    {
-      "date": "2026-09-01",
-      "time": "22:00",
-      "type": "macro",
-      "category": "growth",
-      "region": "美国",
-      "title": "美国8月ISM制造业PMI",
-      "actual": null,
-      "forecast": 55.2,
-      "previous": 55.6,
-      "importance": 2,
-      "impact_channels": [
-        "全球风险偏好",
-        "AI资本开支预期",
-        "美元"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-02",
-      "time": "04:30",
-      "type": "macro",
-      "category": "energy",
-      "region": "美国",
-      "title": "美国截至8月28日当周API原油库存变动(万桶)",
-      "actual": null,
-      "forecast": null,
-      "previous": 420.0,
-      "importance": 2,
-      "impact_channels": [
-        "原油",
-        "通胀预期",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
     {
       "date": "2026-09-02",
       "time": "20:15",
@@ -76,7 +34,7 @@
       "region": "美国",
       "title": "美国截至8月28日当周EIA原油库存变动(万桶)",
       "actual": null,
-      "forecast": -82.0,
+      "forecast": -108.5,
       "previous": 9.5,
       "importance": 2,
       "impact_channels": [
@@ -735,48 +693,6 @@
       "status": "scheduled"
     },
     {
-      "date": "2026-09-09",
-      "time": "09:30",
-      "type": "macro",
-      "category": "inflation",
-      "region": "中国",
-      "title": "中国8月CPI年率(%)",
-      "actual": null,
-      "forecast": null,
-      "previous": 0.5,
-      "importance": 2,
-      "impact_channels": [
-        "中国增长预期",
-        "行业盈利预期",
-        "人民币汇率"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-09",
-      "time": "09:30",
-      "type": "macro",
-      "category": "inflation",
-      "region": "中国",
-      "title": "中国8月PPI年率(%)",
-      "actual": null,
-      "forecast": null,
-      "previous": 3.5,
-      "importance": 2,
-      "impact_channels": [
-        "中国增长预期",
-        "行业盈利预期",
-        "人民币汇率"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
       "date": "2026-09-10",
       "time": "04:30",
       "type": "macro",
@@ -1121,14 +1037,17 @@
     }
   ],
   "summary": {
-    "total": 52,
-    "macro": 51,
+    "total": 48,
+    "macro": 47,
     "global_earnings": 1,
     "high_importance": 1,
-    "macro_days_ok": 11,
-    "report_days_ok": 11
+    "macro_days_ok": 10,
+    "report_days_ok": 10
   },
-  "warnings": [],
+  "warnings": [
+    "news_report_time_baidu 20260903: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10001 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+    "news_economic_baidu 20260909: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  ],
   "methodology": {
     "macro": "百度股市通全球宏观日历 via AKShare；保留重要性>=3及少量核心importance-2宏观数据，过滤每日持仓/仓单等例行噪声，并剔除已过时的当日时点。",
     "global_earnings": "百度股市通财报发行 via AKShare；仅保留global_catalyst_universe.json中的公开研究公司。",
