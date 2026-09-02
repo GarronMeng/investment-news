@@ -1,18 +1,18 @@
 {
   "version": 1,
-  "generated_at": "2026-09-02T16:10:46+08:00",
+  "generated_at": "2026-09-02T17:43:02+08:00",
   "source": {
     "data_generated_at": "2026-09-02 16:09",
     "ai_generated_at": "2026-08-26 13:33",
     "ai_source_generated_at": "2026-08-26 12:26",
-    "features_generated_at": "2026-09-02T16:10:34+08:00",
+    "features_generated_at": "2026-09-02T17:42:55+08:00",
     "fresh_ai": false
   },
   "decisions": [
     {
       "asset": "603986",
       "name": "兆易创新",
-      "as_of": "2026-09-01",
+      "as_of": "2026-09-02",
       "bias": "neutral",
       "status": "neutral",
       "event_score": 50.0,
@@ -22,7 +22,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "mixed",
-      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.096775",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.001778",
       "confirmation": [
         "股价相对半导体指数转强",
         "成交量放大且收盘站稳"
@@ -36,7 +36,7 @@
     {
       "asset": "001309",
       "name": "德明利",
-      "as_of": "2026-09-01",
+      "as_of": "2026-09-02",
       "bias": "bullish",
       "status": "market_watch",
       "event_score": 50.0,
@@ -46,7 +46,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.140799",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.062007",
       "confirmation": [
         "相对存储板块止跌转强",
         "放量突破短期压力位"
@@ -60,17 +60,17 @@
     {
       "asset": "300308",
       "name": "中际旭创",
-      "as_of": "2026-09-01",
+      "as_of": "2026-09-02",
       "bias": "bearish",
       "status": "market_watch",
       "event_score": 50.0,
-      "market_score": 25.0,
+      "market_score": 15.0,
       "freshness_score": 70,
-      "conviction": 50.0,
+      "conviction": 55,
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.166285",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.139347",
       "confirmation": [
         "海外AI硬件与A股CPO同步走强",
         "高位放量后能维持强势"
@@ -84,17 +84,17 @@
     {
       "asset": "002384",
       "name": "东山精密",
-      "as_of": "2026-09-01",
-      "bias": "neutral",
-      "status": "neutral",
+      "as_of": "2026-09-02",
+      "bias": "bearish",
+      "status": "market_watch",
       "event_score": 50.0,
-      "market_score": 55.0,
+      "market_score": 15.0,
       "freshness_score": 70,
-      "conviction": 10.0,
+      "conviction": 55,
       "evidence_mode": "market_only",
       "event_count": 0,
-      "trend_state": "mixed",
-      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.046509",
+      "trend_state": "bearish",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.035692",
       "confirmation": [
         "PCB板块扩散上涨",
         "订单利好得到成交量确认"
@@ -108,17 +108,17 @@
     {
       "asset": "600667",
       "name": "太极实业",
-      "as_of": "2026-09-01",
-      "bias": "neutral",
-      "status": "neutral",
+      "as_of": "2026-09-02",
+      "bias": "bearish",
+      "status": "market_watch",
       "event_score": 50.0,
-      "market_score": 55.0,
+      "market_score": 15.0,
       "freshness_score": 70,
-      "conviction": 10.0,
+      "conviction": 55,
       "evidence_mode": "market_only",
       "event_count": 0,
-      "trend_state": "mixed",
-      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.072788",
+      "trend_state": "bearish",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.019019",
       "confirmation": [
         "半导体工程板块同步走强",
         "事件后股价摆脱弱势结构"
@@ -132,17 +132,17 @@
     {
       "asset": "000636",
       "name": "风华高科",
-      "as_of": "2026-09-01",
+      "as_of": "2026-09-02",
       "bias": "bearish",
       "status": "market_watch",
       "event_score": 50.0,
-      "market_score": 25.0,
+      "market_score": 15.0,
       "freshness_score": 70,
-      "conviction": 50.0,
+      "conviction": 55,
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.052374",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.14585",
       "confirmation": [
         "被动元件板块形成联动",
         "涨价新闻后价格走势能够确认"
