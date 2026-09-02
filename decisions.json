@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generated_at": "2026-09-01T18:12:23+08:00",
+  "generated_at": "2026-09-02T09:17:06+08:00",
   "source": {
-    "data_generated_at": "2026-09-01 16:55",
+    "data_generated_at": "2026-09-02 09:16",
     "ai_generated_at": "2026-08-26 13:33",
     "ai_source_generated_at": "2026-08-26 12:26",
-    "features_generated_at": "2026-09-01T18:12:14+08:00",
+    "features_generated_at": "2026-09-02T09:16:58+08:00",
     "fresh_ai": false
   },
   "decisions": [
@@ -22,7 +22,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "mixed",
-      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.085171",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.096775",
       "confirmation": [
         "股价相对半导体指数转强",
         "成交量放大且收盘站稳"
@@ -31,7 +31,7 @@
         "存储价格下行",
         "库存恶化"
       ],
-      "expires_at": "2026-09-06"
+      "expires_at": "2026-09-07"
     },
     {
       "asset": "001309",
@@ -46,7 +46,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.129194",
+      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.140799",
       "confirmation": [
         "相对存储板块止跌转强",
         "放量突破短期压力位"
@@ -55,7 +55,7 @@
         "NAND跌价",
         "渠道库存上升"
       ],
-      "expires_at": "2026-09-06"
+      "expires_at": "2026-09-07"
     },
     {
       "asset": "300308",
@@ -70,7 +70,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.177889",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.166285",
       "confirmation": [
         "海外AI硬件与A股CPO同步走强",
         "高位放量后能维持强势"
@@ -79,7 +79,7 @@
         "AI资本开支下修",
         "客户延迟采购"
       ],
-      "expires_at": "2026-09-06"
+      "expires_at": "2026-09-07"
     },
     {
       "asset": "002384",
@@ -94,7 +94,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "mixed",
-      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.034905",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.046509",
       "confirmation": [
         "PCB板块扩散上涨",
         "订单利好得到成交量确认"
@@ -103,7 +103,7 @@
         "终端需求下修",
         "价格竞争"
       ],
-      "expires_at": "2026-09-06"
+      "expires_at": "2026-09-07"
     },
     {
       "asset": "600667",
@@ -118,7 +118,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "mixed",
-      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.061184",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.072788",
       "confirmation": [
         "半导体工程板块同步走强",
         "事件后股价摆脱弱势结构"
@@ -127,7 +127,7 @@
         "资本开支延迟",
         "项目回款承压"
       ],
-      "expires_at": "2026-09-06"
+      "expires_at": "2026-09-07"
     },
     {
       "asset": "000636",
@@ -142,7 +142,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.063979",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.052374",
       "confirmation": [
         "被动元件板块形成联动",
         "涨价新闻后价格走势能够确认"
@@ -151,60 +151,12 @@
         "价格下跌",
         "库存去化不及预期"
       ],
-      "expires_at": "2026-09-06"
+      "expires_at": "2026-09-07"
     },
     {
       "asset": "161226",
       "name": "国投白银LOF",
-      "as_of": "2026-08-31",
-      "bias": "bullish",
-      "status": "market_watch",
-      "event_score": 50.0,
-      "market_score": 75.0,
-      "freshness_score": 70,
-      "conviction": 50.0,
-      "evidence_mode": "market_only",
-      "event_count": 0,
-      "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.030481",
-      "confirmation": [
-        "同时核对基金净值、场内价格和溢价率",
-        "银价上涨时场内溢价未继续扩大"
-      ],
-      "invalidation": [
-        "银价下跌",
-        "美元与实际利率上行"
-      ],
-      "expires_at": "2026-09-06"
-    },
-    {
-      "asset": "518880",
-      "name": "黄金ETF华安",
-      "as_of": "2026-08-31",
-      "bias": "bullish",
-      "status": "market_watch",
-      "event_score": 50.0,
-      "market_score": 70.0,
-      "freshness_score": 70,
-      "conviction": 40.0,
-      "evidence_mode": "market_only",
-      "event_count": 0,
-      "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.066604",
-      "confirmation": [
-        "外盘金价与国内黄金现货同向",
-        "ETF成交量与价格同步确认"
-      ],
-      "invalidation": [
-        "金价下跌",
-        "实际利率上行"
-      ],
-      "expires_at": "2026-09-06"
-    },
-    {
-      "asset": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "as_of": "2026-08-31",
+      "as_of": "2026-09-01",
       "bias": "neutral",
       "status": "neutral",
       "event_score": 50.0,
@@ -214,7 +166,55 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "mixed",
-      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.086087",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.033979",
+      "confirmation": [
+        "同时核对基金净值、场内价格和溢价率",
+        "银价上涨时场内溢价未继续扩大"
+      ],
+      "invalidation": [
+        "银价下跌",
+        "美元与实际利率上行"
+      ],
+      "expires_at": "2026-09-07"
+    },
+    {
+      "asset": "518880",
+      "name": "黄金ETF华安",
+      "as_of": "2026-09-01",
+      "bias": "neutral",
+      "status": "neutral",
+      "event_score": 50.0,
+      "market_score": 55.0,
+      "freshness_score": 70,
+      "conviction": 10.0,
+      "evidence_mode": "market_only",
+      "event_count": 0,
+      "trend_state": "mixed",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.077348",
+      "confirmation": [
+        "外盘金价与国内黄金现货同向",
+        "ETF成交量与价格同步确认"
+      ],
+      "invalidation": [
+        "金价下跌",
+        "实际利率上行"
+      ],
+      "expires_at": "2026-09-07"
+    },
+    {
+      "asset": "517380",
+      "name": "创新药沪港深ETF天弘",
+      "as_of": "2026-09-01",
+      "bias": "neutral",
+      "status": "neutral",
+      "event_score": 50.0,
+      "market_score": 55.0,
+      "freshness_score": 70,
+      "conviction": 10.0,
+      "evidence_mode": "market_only",
+      "event_count": 0,
+      "trend_state": "mixed",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.051001",
       "confirmation": [
         "A股与港股创新药板块形成联动",
         "利好由成交量与持续性确认"
@@ -223,7 +223,7 @@
         "临床失败",
         "监管或支付政策收紧"
       ],
-      "expires_at": "2026-09-06"
+      "expires_at": "2026-09-07"
     }
   ],
   "methodology": {
