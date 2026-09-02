@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-02T12:29:15+08:00",
+  "generated_at": "2026-09-02T12:42:33+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -847,22 +847,7 @@
     "002384",
     "517380"
   ],
-  "state_changes": [
-    {
-      "code": "603986",
-      "name": "兆易创新",
-      "field": "matrix_direction",
-      "from": "neutral",
-      "to": "bearish"
-    },
-    {
-      "code": "603986",
-      "name": "兆易创新",
-      "field": "evidence_state",
-      "from": "noise_or_no_edge",
-      "to": "tentative"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "weights": {
       "event": 25,

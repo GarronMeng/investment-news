@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-02T12:29:15+08:00",
-  "history_generated_at": "2026-09-02T12:29:04+08:00",
+  "generated_at": "2026-09-02T12:42:33+08:00",
+  "history_generated_at": "2026-09-02T12:42:25+08:00",
   "summary": {
     "t1": {
       "settled": 639,
@@ -20991,6 +20991,78 @@
     },
     {
       "decision_id": "7f5c3d9b4c4e9d61",
+      "asset": "000636",
+      "name": "风华高科",
+      "signal_date": "2026-09-01",
+      "bias": "bearish",
+      "research_status": "market_watch",
+      "conviction": 50.0,
+      "entry_date": "2026-09-01",
+      "entry_close": 51.87,
+      "mfe_20d": -0.0,
+      "mae_20d": -0.081357,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "c2b761770b3deaf0",
+      "asset": "001309",
+      "name": "德明利",
+      "signal_date": "2026-09-01",
+      "bias": "bullish",
+      "research_status": "market_watch",
+      "conviction": 55,
+      "entry_date": "2026-09-01",
+      "entry_close": 418.04,
+      "mfe_20d": 0.050569,
+      "mae_20d": -0.002775,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "6bad9980ef7bd0ab",
+      "asset": "300308",
+      "name": "中际旭创",
+      "signal_date": "2026-09-01",
+      "bias": "bearish",
+      "research_status": "market_watch",
+      "conviction": 50.0,
+      "entry_date": "2026-09-01",
+      "entry_close": 859.3,
+      "mfe_20d": 0.025567,
+      "mae_20d": -0.032236,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "1d34c8b5157ca97b",
       "asset": "000636",
       "name": "风华高科",
       "signal_date": "2026-09-01",
