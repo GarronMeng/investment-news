@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-03T16:20:05+08:00",
+  "generated_at": "2026-09-03T17:56:30+08:00",
   "score": 64.3,
   "label": "elevated",
   "coverage": 100.0,
@@ -40,7 +40,7 @@
       "score": 58.0,
       "weight": 10,
       "available": true,
-      "evidence": "regime=transition；指数均值 -0.20% / 上涨占比 33.2%"
+      "evidence": "regime=transition；指数均值 -0.16% / 上涨占比 33.2%"
     }
   },
   "drivers": [

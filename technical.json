@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-03T16:19:56+08:00",
-  "source_generated_at": "2026-09-03T16:19:56+08:00",
+  "generated_at": "2026-09-03T17:56:16+08:00",
+  "source_generated_at": "2026-09-03T17:56:16+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -36,27 +36,27 @@
     "603986": {
       "code": "603986",
       "name": "兆易创新",
-      "as_of": "2026-09-02",
+      "as_of": "2026-09-03",
       "source_status": "fresh",
       "observations": 140,
-      "close": 388.86,
+      "close": 383.2,
       "ma60": {
-        "value": 505.699,
+        "value": 504.0717,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.003666
+        "slope_pct": -0.003218
       },
-      "rsi14": 42.84,
+      "rsi14": 41.71,
       "rsi_zone": "weak",
       "macd": {
-        "dif": -16.89674,
-        "dea": -20.77761,
-        "hist": 7.76173,
+        "dif": -17.01419,
+        "dea": -20.0248,
+        "hist": 6.02123,
         "state": "bullish",
-        "cross_age": 17
+        "cross_age": 18
       },
       "volume": {
-        "ratio20": 0.458,
+        "ratio20": 0.544,
         "state": "contraction"
       },
       "breakout_20d": "inside_range",
@@ -66,27 +66,27 @@
     "001309": {
       "code": "001309",
       "name": "德明利",
-      "as_of": "2026-09-02",
+      "as_of": "2026-09-03",
       "source_status": "fresh",
       "observations": 140,
-      "close": 412.93,
+      "close": 405.06,
       "ma60": {
-        "value": 570.6178,
+        "value": 566.903,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.006177
+        "slope_pct": -0.00651
       },
-      "rsi14": 44.23,
+      "rsi14": 42.73,
       "rsi_zone": "weak",
       "macd": {
-        "dif": -20.75846,
-        "dea": -32.02974,
-        "hist": 22.54256,
+        "dif": -20.06507,
+        "dea": -29.63659,
+        "hist": 19.14305,
         "state": "bullish",
-        "cross_age": 18
+        "cross_age": 19
       },
       "volume": {
-        "ratio20": 0.476,
+        "ratio20": 0.565,
         "state": "contraction"
       },
       "breakout_20d": "inside_range",
@@ -96,28 +96,28 @@
     "300308": {
       "code": "300308",
       "name": "中际旭创",
-      "as_of": "2026-09-02",
+      "as_of": "2026-09-03",
       "source_status": "fresh",
       "observations": 140,
-      "close": 822.4,
+      "close": 813.0,
       "ma60": {
-        "value": 1052.7677,
+        "value": 1047.201,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.005629
+        "slope_pct": -0.005288
       },
-      "rsi14": 38.65,
+      "rsi14": 37.83,
       "rsi_zone": "weak",
       "macd": {
-        "dif": -44.71022,
-        "dea": -43.6011,
-        "hist": -2.21824,
+        "dif": -46.22541,
+        "dea": -44.12602,
+        "hist": -4.19878,
         "state": "bearish",
-        "cross_age": 0
+        "cross_age": 1
       },
       "volume": {
-        "ratio20": 0.836,
-        "state": "normal"
+        "ratio20": 0.701,
+        "state": "contraction"
       },
       "breakout_20d": "new_low_20d",
       "data_quality": "usable",
@@ -126,27 +126,27 @@
     "002384": {
       "code": "002384",
       "name": "东山精密",
-      "as_of": "2026-09-02",
+      "as_of": "2026-09-03",
       "source_status": "fresh",
       "observations": 140,
-      "close": 183.43,
+      "close": 179.16,
       "ma60": {
-        "value": 218.7425,
+        "value": 218.1907,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.003112
+        "slope_pct": -0.002523
       },
-      "rsi14": 41.72,
+      "rsi14": 39.93,
       "rsi_zone": "weak",
       "macd": {
-        "dif": -4.5729,
-        "dea": -4.4137,
-        "hist": -0.3184,
+        "dif": -5.44323,
+        "dea": -4.61962,
+        "hist": -1.64723,
         "state": "bearish",
-        "cross_age": 0
+        "cross_age": 1
       },
       "volume": {
-        "ratio20": 0.654,
+        "ratio20": 0.664,
         "state": "contraction"
       },
       "breakout_20d": "inside_range",
@@ -156,27 +156,27 @@
     "600667": {
       "code": "600667",
       "name": "太极实业",
-      "as_of": "2026-09-02",
+      "as_of": "2026-09-03",
       "source_status": "fresh",
       "observations": 140,
-      "close": 18.23,
+      "close": 17.98,
       "ma60": {
-        "value": 20.9705,
+        "value": 21.0048,
         "position": "below",
         "direction": "rising",
-        "slope_pct": 0.002087
+        "slope_pct": 0.001637
       },
-      "rsi14": 41.25,
+      "rsi14": 40.27,
       "rsi_zone": "weak",
       "macd": {
-        "dif": -0.27712,
-        "dea": 0.08194,
-        "hist": -0.71813,
+        "dif": -0.39861,
+        "dea": -0.01416,
+        "hist": -0.76891,
         "state": "bearish",
-        "cross_age": 6
+        "cross_age": 7
       },
       "volume": {
-        "ratio20": 0.433,
+        "ratio20": 0.438,
         "state": "contraction"
       },
       "breakout_20d": "inside_range",
@@ -186,27 +186,27 @@
     "000636": {
       "code": "000636",
       "name": "风华高科",
-      "as_of": "2026-09-02",
+      "as_of": "2026-09-03",
       "source_status": "fresh",
       "observations": 140,
-      "close": 49.78,
+      "close": 50.62,
       "ma60": {
-        "value": 58.7612,
+        "value": 58.608,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.003195
+        "slope_pct": -0.002607
       },
-      "rsi14": 41.38,
+      "rsi14": 42.96,
       "rsi_zone": "weak",
       "macd": {
-        "dif": -0.97171,
-        "dea": -0.22743,
-        "hist": -1.48856,
+        "dif": -1.16973,
+        "dea": -0.41595,
+        "hist": -1.50757,
         "state": "bearish",
-        "cross_age": 9
+        "cross_age": 10
       },
       "volume": {
-        "ratio20": 0.737,
+        "ratio20": 0.637,
         "state": "contraction"
       },
       "breakout_20d": "inside_range",
@@ -304,7 +304,15 @@
       "condition_state": "partial_conditions"
     }
   },
-  "state_changes": [],
+  "state_changes": [
+    {
+      "code": "300308",
+      "name": "中际旭创",
+      "field": "volume",
+      "from": "normal",
+      "to": "contraction"
+    }
+  ],
   "methodology": {
     "rsi14": "Wilder RSI(14)",
     "macd": "EMA12/EMA26 DIF, EMA9 signal, histogram=(DIF-DEA)*2",
