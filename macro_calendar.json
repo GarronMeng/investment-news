@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-03T13:10:57+08:00",
+  "generated_at": "2026-09-03T16:15:57+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
@@ -452,6 +452,72 @@
       "type": "macro",
       "category": "monetary_policy",
       "region": "美国",
+      "title": "美国8月纽约联储1年通胀预期(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 3.6,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-08",
+      "time": "23:00",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "美国",
+      "title": "美国8月纽约联储1年黄金涨幅预期(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 4.6,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-08",
+      "time": "23:00",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "美国",
+      "title": "美国8月纽约联储3年通胀预期(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-08",
+      "time": "23:00",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "美国",
       "title": "美国9月纽约联储1年家庭支出增长预期(%)",
       "actual": null,
       "forecast": null,
@@ -673,7 +739,7 @@
       "title": "美国截至9月4日当周API原油库存变动(万桶)",
       "actual": null,
       "forecast": null,
-      "previous": null,
+      "previous": -259.3,
       "importance": 2,
       "impact_channels": [
         "原油",
@@ -802,7 +868,7 @@
       "title": "美国截至9月4日当周EIA原油库存变动(万桶)",
       "actual": null,
       "forecast": null,
-      "previous": null,
+      "previous": -445.0,
       "importance": 2,
       "impact_channels": [
         "原油",
@@ -1009,8 +1075,8 @@
     }
   ],
   "summary": {
-    "total": 47,
-    "macro": 47,
+    "total": 50,
+    "macro": 50,
     "global_earnings": 0,
     "high_importance": 0,
     "macro_days_ok": 11,
