@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generated_at": "2026-09-03T20:10:02+08:00",
+  "generated_at": "2026-09-03T20:14:13+08:00",
   "source": {
     "data_generated_at": "2026-09-03 20:07",
     "ai_generated_at": "2026-08-26 13:33",
     "ai_source_generated_at": "2026-08-26 12:26",
-    "features_generated_at": "2026-09-03T20:09:51+08:00",
+    "features_generated_at": "2026-09-03T20:14:00+08:00",
     "fresh_ai": false
   },
   "decisions": [
@@ -180,17 +180,17 @@
     {
       "asset": "518880",
       "name": "黄金ETF华安",
-      "as_of": "2026-09-03",
+      "as_of": "2026-09-02",
       "bias": "neutral",
       "status": "neutral",
       "event_score": 50.0,
-      "market_score": 55.0,
+      "market_score": 50.0,
       "freshness_score": 70,
-      "conviction": 10.0,
+      "conviction": 0.0,
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "mixed",
-      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.055188",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.050265",
       "confirmation": [
         "外盘金价与国内黄金现货同向",
         "ETF成交量与价格同步确认"
@@ -204,7 +204,7 @@
     {
       "asset": "517380",
       "name": "创新药沪港深ETF天弘",
-      "as_of": "2026-09-03",
+      "as_of": "2026-09-02",
       "bias": "neutral",
       "status": "neutral",
       "event_score": 50.0,
@@ -214,7 +214,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "mixed",
-      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.086117",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.057562",
       "confirmation": [
         "A股与港股创新药板块形成联动",
         "利好由成交量与持续性确认"

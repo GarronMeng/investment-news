@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-03T20:10:02+08:00",
-  "history_generated_at": "2026-09-03T20:09:51+08:00",
+  "generated_at": "2026-09-03T20:14:13+08:00",
+  "history_generated_at": "2026-09-03T20:14:00+08:00",
   "records": 238,
   "raw_ledger_records": 254,
   "superseded_records": 16,
@@ -7392,14 +7392,7 @@
           "correct": false
         },
         "t5": {
-          "status": "settled",
-          "date": "2026-09-03",
-          "asset_return": -0.022472,
-          "benchmark_return": null,
-          "excess_return": null,
-          "absolute_excess": null,
-          "directional_excess": -0.022472,
-          "correct": false
+          "status": "pending"
         },
         "t20": {
           "status": "pending"
@@ -8756,14 +8749,7 @@
       "entry_close": 0.855,
       "horizons": {
         "t1": {
-          "status": "settled",
-          "date": "2026-09-03",
-          "asset_return": 0.017544,
-          "benchmark_return": null,
-          "excess_return": null,
-          "absolute_excess": null,
-          "directional_excess": null,
-          "correct": null
+          "status": "pending"
         },
         "t5": {
           "status": "pending"
@@ -8789,14 +8775,7 @@
       "entry_close": 0.855,
       "horizons": {
         "t1": {
-          "status": "settled",
-          "date": "2026-09-03",
-          "asset_return": 0.017544,
-          "benchmark_return": null,
-          "excess_return": null,
-          "absolute_excess": null,
-          "directional_excess": null,
-          "correct": null
+          "status": "pending"
         },
         "t5": {
           "status": "pending"
@@ -9044,29 +9023,7 @@
     },
     {
       "state_id": "1c3d64a8f0ee2e76",
-      "state_revision": 2,
-      "asset": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "signal_date": "2026-09-03",
-      "matrix_direction": "neutral",
-      "thesis_state": "no_directional_thesis",
-      "evidence_state": "noise_or_no_edge",
-      "composite_score": 17.6,
-      "confluence": 26.3,
-      "conflict_score": 13.7,
-      "entry_date": "2026-09-03",
-      "entry_close": 0.87,
-      "horizons": {
-        "t1": {
-          "status": "pending"
-        },
-        "t5": {
-          "status": "pending"
-        },
-        "t20": {
-          "status": "pending"
-        }
-      }
+      "status": "unavailable"
     },
     {
       "state_id": "2d5ad2af0c0af73a",
@@ -9158,7 +9115,7 @@
       "records": 82,
       "horizons": {
         "t1": {
-          "settled": 82,
+          "settled": 81,
           "directional_settled": 21,
           "win_rate": 0.4286,
           "mean_directional_excess": -0.011562,
@@ -9251,10 +9208,10 @@
       }
     },
     "no_directional_thesis": {
-      "records": 28,
+      "records": 27,
       "horizons": {
         "t1": {
-          "settled": 26,
+          "settled": 25,
           "directional_settled": 2,
           "win_rate": 0.5,
           "mean_directional_excess": 0.005452,
@@ -9295,10 +9252,10 @@
           "readout": "usable"
         },
         "t5": {
-          "settled": 35,
-          "directional_settled": 35,
-          "win_rate": 0.3143,
-          "mean_directional_excess": -0.022694,
+          "settled": 34,
+          "directional_settled": 34,
+          "win_rate": 0.3235,
+          "mean_directional_excess": -0.0227,
           "mean_excess_return": -0.026959,
           "mean_absolute_excess": 0.049973,
           "readout": "usable"
@@ -9352,7 +9309,7 @@
       "records": 82,
       "horizons": {
         "t1": {
-          "settled": 82,
+          "settled": 81,
           "directional_settled": 21,
           "win_rate": 0.4286,
           "mean_directional_excess": -0.011562,
@@ -9413,10 +9370,10 @@
       }
     },
     "noise_or_no_edge": {
-      "records": 40,
+      "records": 39,
       "horizons": {
         "t1": {
-          "settled": 38,
+          "settled": 37,
           "directional_settled": 0,
           "win_rate": null,
           "mean_directional_excess": null,
@@ -9457,10 +9414,10 @@
           "readout": "usable"
         },
         "t5": {
-          "settled": 55,
-          "directional_settled": 55,
-          "win_rate": 0.4364,
-          "mean_directional_excess": -0.009562,
+          "settled": 54,
+          "directional_settled": 54,
+          "win_rate": 0.4444,
+          "mean_directional_excess": -0.009323,
           "mean_excess_return": -0.021474,
           "mean_absolute_excess": 0.046235,
           "readout": "usable"

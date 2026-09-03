@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-03T20:10:02+08:00",
-  "history_generated_at": "2026-09-03T20:09:51+08:00",
+  "generated_at": "2026-09-03T20:14:13+08:00",
+  "history_generated_at": "2026-09-03T20:14:00+08:00",
   "summary": {
     "t1": {
       "settled": 680,
@@ -9,8 +9,8 @@
       "mean_excess_return": -0.007271
     },
     "t5": {
-      "settled": 504,
-      "win_rate": 0.4087,
+      "settled": 494,
+      "win_rate": 0.417,
       "mean_excess_return": -0.020226
     },
     "t20": {
@@ -16294,12 +16294,7 @@
           "correct": true
         },
         "t5": {
-          "status": "settled",
-          "date": "2026-09-03",
-          "asset_return": -0.0361,
-          "benchmark_return": null,
-          "excess_return": null,
-          "correct": false
+          "status": "pending"
         },
         "t20": {
           "status": "pending"
@@ -16391,12 +16386,7 @@
           "correct": false
         },
         "t5": {
-          "status": "settled",
-          "date": "2026-09-03",
-          "asset_return": -0.022472,
-          "benchmark_return": null,
-          "excess_return": null,
-          "correct": false
+          "status": "pending"
         },
         "t20": {
           "status": "pending"
@@ -16624,12 +16614,7 @@
           "correct": true
         },
         "t5": {
-          "status": "settled",
-          "date": "2026-09-03",
-          "asset_return": -0.0361,
-          "benchmark_return": null,
-          "excess_return": null,
-          "correct": false
+          "status": "pending"
         },
         "t20": {
           "status": "pending"
@@ -16658,12 +16643,7 @@
           "correct": false
         },
         "t5": {
-          "status": "settled",
-          "date": "2026-09-03",
-          "asset_return": -0.022472,
-          "benchmark_return": null,
-          "excess_return": null,
-          "correct": false
+          "status": "pending"
         },
         "t20": {
           "status": "pending"
@@ -16891,12 +16871,7 @@
           "correct": true
         },
         "t5": {
-          "status": "settled",
-          "date": "2026-09-03",
-          "asset_return": -0.0361,
-          "benchmark_return": null,
-          "excess_return": null,
-          "correct": false
+          "status": "pending"
         },
         "t20": {
           "status": "pending"
@@ -16925,12 +16900,7 @@
           "correct": false
         },
         "t5": {
-          "status": "settled",
-          "date": "2026-09-03",
-          "asset_return": -0.022472,
-          "benchmark_return": null,
-          "excess_return": null,
-          "correct": false
+          "status": "pending"
         },
         "t20": {
           "status": "pending"
@@ -17158,12 +17128,7 @@
           "correct": true
         },
         "t5": {
-          "status": "settled",
-          "date": "2026-09-03",
-          "asset_return": -0.0361,
-          "benchmark_return": null,
-          "excess_return": null,
-          "correct": false
+          "status": "pending"
         },
         "t20": {
           "status": "pending"
@@ -17192,12 +17157,7 @@
           "correct": false
         },
         "t5": {
-          "status": "settled",
-          "date": "2026-09-03",
-          "asset_return": -0.022472,
-          "benchmark_return": null,
-          "excess_return": null,
-          "correct": false
+          "status": "pending"
         },
         "t20": {
           "status": "pending"
@@ -17487,12 +17447,7 @@
           "correct": true
         },
         "t5": {
-          "status": "settled",
-          "date": "2026-09-03",
-          "asset_return": -0.0361,
-          "benchmark_return": null,
-          "excess_return": null,
-          "correct": false
+          "status": "pending"
         },
         "t20": {
           "status": "pending"
@@ -17521,12 +17476,7 @@
           "correct": false
         },
         "t5": {
-          "status": "settled",
-          "date": "2026-09-03",
-          "asset_return": -0.022472,
-          "benchmark_return": null,
-          "excess_return": null,
-          "correct": false
+          "status": "pending"
         },
         "t20": {
           "status": "pending"
