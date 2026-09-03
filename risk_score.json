@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-02T20:16:05+08:00",
-  "score": 61.3,
+  "generated_at": "2026-09-03T09:21:28+08:00",
+  "score": 67.3,
   "label": "elevated",
   "coverage": 100.0,
   "available_weight": 100,
@@ -19,10 +19,10 @@
       "evidence": "risk_off；上涨占比 27.8%"
     },
     "trend": {
-      "score": 59.0,
+      "score": 89.0,
       "weight": 20,
       "available": true,
-      "evidence": "MA60 below/flat；MACD bullish；RSI neutral"
+      "evidence": "MA60 below/falling；MACD bearish；RSI weak"
     },
     "leverage": {
       "score": 50.6,
@@ -45,6 +45,11 @@
   },
   "drivers": [
     {
+      "component": "trend",
+      "score": 89.0,
+      "evidence": "MA60 below/falling；MACD bearish；RSI weak"
+    },
+    {
       "component": "market_structure",
       "score": 81.7,
       "evidence": "risk_off；上涨占比 27.8%"
@@ -53,11 +58,6 @@
       "component": "concentration",
       "score": 66.0,
       "evidence": "regime=risk_off；指数均值 -1.36% / 上涨占比 27.8%"
-    },
-    {
-      "component": "trend",
-      "score": 59.0,
-      "evidence": "MA60 below/flat；MACD bullish；RSI neutral"
     }
   ],
   "state_changes": [],
