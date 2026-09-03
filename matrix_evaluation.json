@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-09-03T12:48:15+08:00",
-  "history_generated_at": "2026-09-03T12:48:01+08:00",
-  "records": 229,
-  "raw_ledger_records": 245,
+  "generated_at": "2026-09-03T16:13:27+08:00",
+  "history_generated_at": "2026-09-03T16:13:14+08:00",
+  "records": 231,
+  "raw_ledger_records": 247,
   "superseded_records": 16,
   "evaluations": [
     {
@@ -8662,6 +8662,32 @@
       }
     },
     {
+      "state_id": "4ccbad20bf78fe78",
+      "state_revision": 2,
+      "asset": "517380",
+      "name": "创新药沪港深ETF天弘",
+      "signal_date": "2026-09-02",
+      "matrix_direction": "neutral",
+      "thesis_state": "no_directional_thesis",
+      "evidence_state": "noise_or_no_edge",
+      "composite_score": 12.1,
+      "confluence": 18.1,
+      "conflict_score": 24.8,
+      "entry_date": "2026-09-02",
+      "entry_close": 0.855,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
       "state_id": "92fa0a62b132b3bf",
       "state_revision": 2,
       "asset": "600667",
@@ -8724,6 +8750,32 @@
       "evidence_state": "partial_confirmation",
       "composite_score": -30.0,
       "confluence": 79.0,
+      "conflict_score": 0.0,
+      "entry_date": "2026-09-02",
+      "entry_close": 388.86,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "state_id": "18530139362d66bb",
+      "state_revision": 2,
+      "asset": "603986",
+      "name": "兆易创新",
+      "signal_date": "2026-09-02",
+      "matrix_direction": "neutral",
+      "thesis_state": "no_directional_thesis",
+      "evidence_state": "noise_or_no_edge",
+      "composite_score": -14.5,
+      "confluence": 21.8,
       "conflict_score": 0.0,
       "entry_date": "2026-09-02",
       "entry_close": 388.86,
@@ -8870,7 +8922,7 @@
       }
     },
     "no_directional_thesis": {
-      "records": 24,
+      "records": 26,
       "horizons": {
         "t1": {
           "settled": 24,
@@ -9032,7 +9084,7 @@
       }
     },
     "noise_or_no_edge": {
-      "records": 36,
+      "records": 38,
       "horizons": {
         "t1": {
           "settled": 36,

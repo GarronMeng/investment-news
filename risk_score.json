@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-03T12:48:14+08:00",
-  "score": 69.1,
+  "generated_at": "2026-09-03T16:13:27+08:00",
+  "score": 64.3,
   "label": "elevated",
   "coverage": 100.0,
   "available_weight": 100,
@@ -13,10 +13,10 @@
       "evidence": "沪深300滚动PE十年分位 58.0%"
     },
     "market_structure": {
-      "score": 81.7,
+      "score": 65.7,
       "weight": 25,
       "available": true,
-      "evidence": "risk_off；上涨占比 27.8%"
+      "evidence": "transition；上涨占比 33.2%"
     },
     "trend": {
       "score": 89.0,
@@ -37,10 +37,10 @@
       "evidence": "VIX 15.20；20日分位 60.0%"
     },
     "concentration": {
-      "score": 66.0,
+      "score": 58.0,
       "weight": 10,
       "available": true,
-      "evidence": "regime=risk_off；指数均值 -1.36% / 上涨占比 27.8%"
+      "evidence": "regime=transition；指数均值 -0.20% / 上涨占比 33.2%"
     }
   },
   "drivers": [
@@ -51,13 +51,13 @@
     },
     {
       "component": "market_structure",
-      "score": 81.7,
-      "evidence": "risk_off；上涨占比 27.8%"
+      "score": 65.7,
+      "evidence": "transition；上涨占比 33.2%"
     },
     {
-      "component": "concentration",
-      "score": 66.0,
-      "evidence": "regime=risk_off；指数均值 -1.36% / 上涨占比 27.8%"
+      "component": "valuation",
+      "score": 58.0,
+      "evidence": "沪深300滚动PE十年分位 58.0%"
     }
   ],
   "state_changes": [],
