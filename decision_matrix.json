@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-03T17:56:30+08:00",
+  "generated_at": "2026-09-03T20:10:02+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -635,17 +635,17 @@
       "group": "贵金属对冲",
       "role": "低波动避险映射",
       "priority": 3,
-      "as_of": "2026-09-02",
+      "as_of": "2026-09-03",
       "base_bias": "neutral",
       "matrix_direction": "neutral",
-      "composite_score": -9.7,
+      "composite_score": 16.8,
       "coverage": 50.0,
-      "confluence": 14.6,
+      "confluence": 25.3,
       "available_layers": 2,
       "opposing_weight_share": 0.0,
       "evidence_state": "insufficient",
       "thesis_state": "no_directional_thesis",
-      "attention_score": 58.0,
+      "attention_score": 58.7,
       "research_focus": "数据或证据覆盖不足，先补齐关键层。",
       "layers": {
         "event": {
@@ -656,15 +656,15 @@
         },
         "technical": {
           "available": true,
-          "score": -16.0,
+          "score": 20.0,
           "confidence": "high",
-          "evidence": "MA60 above/flat；MACD bearish；RSI 44.72 (weak)；量能 normal；20日结构 inside_range。"
+          "evidence": "MA60 above/rising；MACD bearish；RSI 51.77 (neutral)；量能 normal；20日结构 inside_range。"
         },
         "relative_strength": {
           "available": true,
-          "score": -0.3,
+          "score": 12.1,
           "confidence": "high",
-          "evidence": "5日相对强弱 -0.057742；20日相对强弱 0.050265。"
+          "evidence": "5日相对强弱 -0.029221；20日相对强弱 0.055188。"
         },
         "industry": {
           "available": false,
@@ -682,19 +682,19 @@
         }
       },
       "contributors": {
-        "positive": [],
-        "negative": [
+        "positive": [
           {
             "layer": "technical",
-            "score": -16.0,
-            "evidence": "MA60 above/flat；MACD bearish；RSI 44.72 (weak)；量能 normal；20日结构 inside_range。"
+            "score": 20.0,
+            "evidence": "MA60 above/rising；MACD bearish；RSI 51.77 (neutral)；量能 normal；20日结构 inside_range。"
           },
           {
             "layer": "relative_strength",
-            "score": -0.3,
-            "evidence": "5日相对强弱 -0.057742；20日相对强弱 0.050265。"
+            "score": 12.1,
+            "evidence": "5日相对强弱 -0.029221；20日相对强弱 0.055188。"
           }
-        ]
+        ],
+        "negative": []
       },
       "confirmation": [
         "外盘金价与国内黄金现货同向",
@@ -705,8 +705,8 @@
         "实际利率上行"
       ],
       "excluded_layers": [],
-      "positive_direction_mass": 0.0,
-      "negative_direction_mass": 4.8,
+      "positive_direction_mass": 6.0,
+      "negative_direction_mass": 0.0,
       "conflict_score": 0.0
     },
     "517380": {
@@ -715,17 +715,17 @@
       "group": "医疗成长",
       "role": "创新药分散配置",
       "priority": 3,
-      "as_of": "2026-09-02",
+      "as_of": "2026-09-03",
       "base_bias": "neutral",
       "matrix_direction": "neutral",
-      "composite_score": 12.1,
+      "composite_score": 17.6,
       "coverage": 60.0,
-      "confluence": 18.1,
+      "confluence": 26.3,
       "available_layers": 3,
       "opposing_weight_share": 0.0,
       "evidence_state": "noise_or_no_edge",
       "thesis_state": "no_directional_thesis",
-      "attention_score": 38.2,
+      "attention_score": 38.8,
       "research_focus": "当前缺少足够方向性证据，维持低优先级观察。",
       "layers": {
         "event": {
@@ -738,13 +738,13 @@
           "available": true,
           "score": 20.0,
           "confidence": "medium",
-          "evidence": "MA60 above/rising；MACD bearish；RSI 50.39 (neutral)；量能 contraction；20日结构 inside_range。"
+          "evidence": "MA60 above/rising；MACD bearish；RSI 54.06 (neutral)；量能 contraction；20日结构 inside_range。"
         },
         "relative_strength": {
           "available": true,
-          "score": 14.7,
+          "score": 31.1,
           "confidence": "high",
-          "evidence": "5日相对强弱 -0.025927；20日相对强弱 0.057562。"
+          "evidence": "5日相对强弱 -0.015593；20日相对强弱 0.086117。"
         },
         "industry": {
           "available": false,
@@ -768,14 +768,14 @@
       "contributors": {
         "positive": [
           {
-            "layer": "technical",
-            "score": 20.0,
-            "evidence": "MA60 above/rising；MACD bearish；RSI 50.39 (neutral)；量能 contraction；20日结构 inside_range。"
+            "layer": "relative_strength",
+            "score": 31.1,
+            "evidence": "5日相对强弱 -0.015593；20日相对强弱 0.086117。"
           },
           {
-            "layer": "relative_strength",
-            "score": 14.7,
-            "evidence": "5日相对强弱 -0.025927；20日相对强弱 0.057562。"
+            "layer": "technical",
+            "score": 20.0,
+            "evidence": "MA60 above/rising；MACD bearish；RSI 54.06 (neutral)；量能 contraction；20日结构 inside_range。"
           }
         ],
         "negative": [
@@ -795,9 +795,9 @@
         "监管或支付政策收紧"
       ],
       "excluded_layers": [],
-      "positive_direction_mass": 6.0,
+      "positive_direction_mass": 12.2,
       "negative_direction_mass": 1.7,
-      "conflict_score": 24.8
+      "conflict_score": 13.7
     }
   },
   "ranking": [
@@ -811,43 +811,7 @@
     "001309",
     "517380"
   ],
-  "state_changes": [
-    {
-      "code": "603986",
-      "name": "兆易创新",
-      "field": "matrix_direction",
-      "from": "neutral",
-      "to": "bearish"
-    },
-    {
-      "code": "603986",
-      "name": "兆易创新",
-      "field": "evidence_state",
-      "from": "noise_or_no_edge",
-      "to": "partial_confirmation"
-    },
-    {
-      "code": "603986",
-      "name": "兆易创新",
-      "field": "thesis_state",
-      "from": "no_directional_thesis",
-      "to": "supported"
-    },
-    {
-      "code": "001309",
-      "name": "德明利",
-      "field": "evidence_state",
-      "from": "conflict",
-      "to": "noise_or_no_edge"
-    },
-    {
-      "code": "001309",
-      "name": "德明利",
-      "field": "thesis_state",
-      "from": "conflicted",
-      "to": "no_directional_thesis"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "weights": {
       "event": 25,
