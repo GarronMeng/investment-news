@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-03T16:22:35+08:00",
+  "generated_at": "2026-09-03T17:59:10+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
@@ -452,6 +452,72 @@
       "type": "macro",
       "category": "monetary_policy",
       "region": "美国",
+      "title": "美国8月纽约联储1年通胀预期(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 3.6,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-08",
+      "time": "23:00",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "美国",
+      "title": "美国8月纽约联储1年黄金涨幅预期(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 4.6,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-08",
+      "time": "23:00",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "美国",
+      "title": "美国8月纽约联储3年通胀预期(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 3.3,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-08",
+      "time": "23:00",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "美国",
       "title": "美国9月纽约联储1年家庭支出增长预期(%)",
       "actual": null,
       "forecast": null,
@@ -624,6 +690,27 @@
     },
     {
       "date": "2026-09-09",
+      "time": "04:30",
+      "type": "macro",
+      "category": "energy",
+      "region": "美国",
+      "title": "美国截至9月4日当周API原油库存变动(万桶)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "原油",
+        "通胀预期",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-09",
       "time": "09:30",
       "type": "macro",
       "category": "inflation",
@@ -665,20 +752,21 @@
       "status": "scheduled"
     },
     {
-      "date": "2026-09-10",
-      "time": "04:30",
+      "date": "2026-09-09",
+      "time": "20:15",
       "type": "macro",
-      "category": "energy",
+      "category": "labor",
       "region": "美国",
-      "title": "美国截至9月4日当周API原油库存变动(万桶)",
+      "title": "美国截至8月22日当周ADP就业周度发布变动(万人)",
       "actual": null,
       "forecast": null,
-      "previous": -259.3,
+      "previous": 1.18,
       "importance": 2,
       "impact_channels": [
-        "原油",
-        "通胀预期",
-        "风险偏好"
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
       ],
       "themes": [],
       "assets": [],
@@ -792,233 +880,18 @@
       "assets": [],
       "source": "百度股市通 via AKShare",
       "status": "scheduled"
-    },
-    {
-      "date": "2026-09-11",
-      "time": "00:00",
-      "type": "macro",
-      "category": "energy",
-      "region": "美国",
-      "title": "美国截至9月4日当周EIA原油库存变动(万桶)",
-      "actual": null,
-      "forecast": null,
-      "previous": -445.0,
-      "importance": 2,
-      "impact_channels": [
-        "原油",
-        "通胀预期",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-11",
-      "time": "04:30",
-      "type": "macro",
-      "category": "monetary_policy",
-      "region": "美国",
-      "title": "美国截至9月9日美联储资产负债表(万亿美元)",
-      "actual": null,
-      "forecast": null,
-      "previous": null,
-      "importance": 2,
-      "impact_channels": [
-        "美债收益率",
-        "美元",
-        "全球成长估值",
-        "黄金/白银"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-11",
-      "time": "14:00",
-      "type": "macro",
-      "category": "growth",
-      "region": "英国",
-      "title": "英国7月GDP月率(%)",
-      "actual": null,
-      "forecast": null,
-      "previous": 0.3,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-11",
-      "time": "14:00",
-      "type": "macro",
-      "category": "trade",
-      "region": "英国",
-      "title": "英国7月商品贸易帐-季调后(亿英镑)",
-      "actual": null,
-      "forecast": null,
-      "previous": -230.07,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-11",
-      "time": "14:00",
-      "type": "macro",
-      "category": "trade",
-      "region": "英国",
-      "title": "英国7月季调后贸易帐(亿英镑)",
-      "actual": null,
-      "forecast": null,
-      "previous": -55.37,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-11",
-      "time": "14:00",
-      "type": "macro",
-      "category": "growth",
-      "region": "英国",
-      "title": "英国7月工业产出年率(%)",
-      "actual": null,
-      "forecast": null,
-      "previous": -0.2,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-11",
-      "time": "14:00",
-      "type": "macro",
-      "category": "growth",
-      "region": "英国",
-      "title": "英国7月工业产出月率(%)",
-      "actual": null,
-      "forecast": null,
-      "previous": -0.2,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-11",
-      "time": "20:30",
-      "type": "macro",
-      "category": "inflation",
-      "region": "美国",
-      "title": "美国8月CPI年率未季调(%)",
-      "actual": null,
-      "forecast": null,
-      "previous": 3.4,
-      "importance": 2,
-      "impact_channels": [
-        "美债收益率",
-        "美元",
-        "全球成长估值",
-        "黄金/白银"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-11",
-      "time": "20:30",
-      "type": "macro",
-      "category": "inflation",
-      "region": "美国",
-      "title": "美国8月核心CPI年率未季调(%)",
-      "actual": null,
-      "forecast": null,
-      "previous": 2.5,
-      "importance": 2,
-      "impact_channels": [
-        "美债收益率",
-        "美元",
-        "全球成长估值",
-        "黄金/白银"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-11",
-      "time": "20:30",
-      "type": "macro",
-      "category": "inflation",
-      "region": "美国",
-      "title": "美国8月能源CPI年率-未季调(%)",
-      "actual": null,
-      "forecast": null,
-      "previous": 14.7,
-      "importance": 2,
-      "impact_channels": [
-        "美债收益率",
-        "美元",
-        "全球成长估值",
-        "黄金/白银"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
     }
   ],
   "summary": {
-    "total": 47,
-    "macro": 47,
+    "total": 41,
+    "macro": 41,
     "global_earnings": 0,
     "high_importance": 0,
-    "macro_days_ok": 11,
-    "report_days_ok": 9
+    "macro_days_ok": 10,
+    "report_days_ok": 11
   },
   "warnings": [
-    "news_report_time_baidu 20260903: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10000 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-    "news_report_time_baidu 20260906: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10001 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+    "news_economic_baidu 20260911: HTTP Error 403: "
   ],
   "methodology": {
     "macro": "百度股市通全球宏观日历 via AKShare；保留重要性>=3及少量核心importance-2宏观数据，过滤每日持仓/仓单等例行噪声，并剔除已过时的当日时点。",
