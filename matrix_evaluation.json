@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-09-04T12:49:36+08:00",
-  "history_generated_at": "2026-09-04T12:49:24+08:00",
-  "records": 238,
-  "raw_ledger_records": 254,
+  "generated_at": "2026-09-04T14:36:09+08:00",
+  "history_generated_at": "2026-09-04T14:35:56+08:00",
+  "records": 241,
+  "raw_ledger_records": 257,
   "superseded_records": 16,
   "evaluations": [
     {
@@ -7743,7 +7743,14 @@
           "correct": null
         },
         "t5": {
-          "status": "pending"
+          "status": "settled",
+          "date": "2026-09-04",
+          "asset_return": -0.025,
+          "benchmark_return": null,
+          "excess_return": null,
+          "absolute_excess": null,
+          "directional_excess": null,
+          "correct": null
         },
         "t20": {
           "status": "pending"
@@ -8991,6 +8998,32 @@
       }
     },
     {
+      "state_id": "7d751ea00f951db2",
+      "state_revision": 2,
+      "asset": "001309",
+      "name": "德明利",
+      "signal_date": "2026-09-03",
+      "matrix_direction": "bearish",
+      "thesis_state": "emerging",
+      "evidence_state": "partial_confirmation",
+      "composite_score": -27.9,
+      "confluence": 78.4,
+      "conflict_score": 0.0,
+      "entry_date": "2026-09-03",
+      "entry_close": 405.06,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
       "state_id": "d6b9bc95dbd77417",
       "state_revision": 2,
       "asset": "002384",
@@ -9058,7 +9091,14 @@
       "entry_close": 0.87,
       "horizons": {
         "t1": {
-          "status": "pending"
+          "status": "settled",
+          "date": "2026-09-04",
+          "asset_return": -0.013793,
+          "benchmark_return": null,
+          "excess_return": null,
+          "absolute_excess": null,
+          "directional_excess": null,
+          "correct": null
         },
         "t5": {
           "status": "pending"
@@ -9079,6 +9119,32 @@
       "evidence_state": "partial_confirmation",
       "composite_score": -34.3,
       "confluence": 80.3,
+      "conflict_score": 0.0,
+      "entry_date": "2026-09-03",
+      "entry_close": 17.98,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "state_id": "bcd4aceb71a0aea0",
+      "state_revision": 2,
+      "asset": "600667",
+      "name": "太极实业",
+      "signal_date": "2026-09-03",
+      "matrix_direction": "bearish",
+      "thesis_state": "confirmed",
+      "evidence_state": "multi_layer_confirmed",
+      "composite_score": -46.6,
+      "confluence": 84.0,
       "conflict_score": 0.0,
       "entry_date": "2026-09-03",
       "entry_close": 17.98,
@@ -9119,11 +9185,37 @@
           "status": "pending"
         }
       }
+    },
+    {
+      "state_id": "b9e1c33ea764f297",
+      "state_revision": 2,
+      "asset": "517380",
+      "name": "创新药沪港深ETF天弘",
+      "signal_date": "2026-09-04",
+      "matrix_direction": "neutral",
+      "thesis_state": "under_test",
+      "evidence_state": "noise_or_no_edge",
+      "composite_score": 7.0,
+      "confluence": 10.6,
+      "conflict_score": 0.0,
+      "entry_date": "2026-09-04",
+      "entry_close": 0.858,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
     }
   ],
   "by_thesis_state": {
     "confirmed": {
-      "records": 45,
+      "records": 46,
       "horizons": {
         "t1": {
           "settled": 42,
@@ -9167,7 +9259,7 @@
           "readout": "usable"
         },
         "t5": {
-          "settled": 61,
+          "settled": 62,
           "directional_settled": 16,
           "win_rate": 0.375,
           "mean_directional_excess": -0.032675,
@@ -9219,7 +9311,7 @@
       }
     },
     "emerging": {
-      "records": 24,
+      "records": 25,
       "horizons": {
         "t1": {
           "settled": 24,
@@ -9254,7 +9346,7 @@
       "records": 28,
       "horizons": {
         "t1": {
-          "settled": 26,
+          "settled": 27,
           "directional_settled": 2,
           "win_rate": 0.5,
           "mean_directional_excess": 0.005452,
@@ -9315,7 +9407,7 @@
       }
     },
     "under_test": {
-      "records": 14,
+      "records": 15,
       "horizons": {
         "t1": {
           "settled": 14,
@@ -9361,7 +9453,7 @@
           "readout": "usable"
         },
         "t5": {
-          "settled": 61,
+          "settled": 62,
           "directional_settled": 16,
           "win_rate": 0.375,
           "mean_directional_excess": -0.032675,
@@ -9381,7 +9473,7 @@
       }
     },
     "multi_layer_confirmed": {
-      "records": 49,
+      "records": 50,
       "horizons": {
         "t1": {
           "settled": 46,
@@ -9413,10 +9505,10 @@
       }
     },
     "noise_or_no_edge": {
-      "records": 40,
+      "records": 41,
       "horizons": {
         "t1": {
-          "settled": 38,
+          "settled": 39,
           "directional_settled": 0,
           "win_rate": null,
           "mean_directional_excess": null,
@@ -9445,7 +9537,7 @@
       }
     },
     "partial_confirmation": {
-      "records": 64,
+      "records": 65,
       "horizons": {
         "t1": {
           "settled": 62,
