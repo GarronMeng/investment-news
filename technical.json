@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-04T09:13:00+08:00",
-  "source_generated_at": "2026-09-04T09:13:00+08:00",
+  "generated_at": "2026-09-04T12:28:06+08:00",
+  "source_generated_at": "2026-09-04T12:28:05+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -304,43 +304,7 @@
       "condition_state": "partial_conditions"
     }
   },
-  "state_changes": [
-    {
-      "code": "161226",
-      "name": "国投白银LOF",
-      "field": "ma60_direction",
-      "from": "flat",
-      "to": "rising"
-    },
-    {
-      "code": "161226",
-      "name": "国投白银LOF",
-      "field": "condition_state",
-      "from": "conditions_not_met",
-      "to": "partial_conditions"
-    },
-    {
-      "code": "518880",
-      "name": "黄金ETF华安",
-      "field": "ma60_direction",
-      "from": "flat",
-      "to": "rising"
-    },
-    {
-      "code": "518880",
-      "name": "黄金ETF华安",
-      "field": "rsi_zone",
-      "from": "weak",
-      "to": "neutral"
-    },
-    {
-      "code": "518880",
-      "name": "黄金ETF华安",
-      "field": "condition_state",
-      "from": "conditions_not_met",
-      "to": "partial_conditions"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "rsi14": "Wilder RSI(14)",
     "macd": "EMA12/EMA26 DIF, EMA9 signal, histogram=(DIF-DEA)*2",
