@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-04T13:10:03+08:00",
+  "generated_at": "2026-09-04T14:38:32+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
@@ -141,7 +141,7 @@
       "region": "欧元区",
       "title": "欧元区第二季度季调后GDP年率终值(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": 1.0,
       "previous": 1.0,
       "importance": 2,
       "impact_channels": [
@@ -182,7 +182,7 @@
       "region": "日本",
       "title": "日本第二季度季调后实际GDP季率修正值(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": 0.4,
       "previous": 0.3,
       "importance": 2,
       "impact_channels": [
@@ -202,7 +202,7 @@
       "region": "日本",
       "title": "日本第二季度季调后实际GDP年化季率修正值(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": 1.6,
       "previous": 1.1,
       "importance": 2,
       "impact_channels": [
@@ -243,7 +243,7 @@
       "region": "中国",
       "title": "中国8月出口年率-美元计价(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": 25.0,
       "previous": 23.0,
       "importance": 2,
       "impact_channels": [
@@ -285,7 +285,7 @@
       "region": "中国",
       "title": "中国8月贸易帐-美元计价(亿美元)",
       "actual": null,
-      "forecast": null,
+      "forecast": 1200.0,
       "previous": 1125.0,
       "importance": 2,
       "impact_channels": [
@@ -327,7 +327,7 @@
       "region": "中国",
       "title": "中国8月进口年率-美元计价(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": 30.0,
       "previous": 27.5,
       "importance": 2,
       "impact_channels": [
