@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-04T20:10:45+08:00",
+  "generated_at": "2026-09-04T20:11:47+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -796,29 +796,7 @@
     "001309",
     "518880"
   ],
-  "state_changes": [
-    {
-      "code": "603986",
-      "name": "兆易创新",
-      "field": "evidence_state",
-      "from": "partial_confirmation",
-      "to": "multi_layer_confirmed"
-    },
-    {
-      "code": "603986",
-      "name": "兆易创新",
-      "field": "thesis_state",
-      "from": "supported",
-      "to": "confirmed"
-    },
-    {
-      "code": "001309",
-      "name": "德明利",
-      "field": "thesis_state",
-      "from": "emerging",
-      "to": "supported"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "weights": {
       "event": 25,
