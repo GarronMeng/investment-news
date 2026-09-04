@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-04T12:51:47+08:00",
+  "generated_at": "2026-09-04T13:10:03+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
@@ -784,7 +784,7 @@
       "title": "美国截至9月5日当周初请失业金人数(万)",
       "actual": null,
       "forecast": null,
-      "previous": null,
+      "previous": 20.6,
       "importance": 2,
       "impact_channels": [
         "美债收益率",
@@ -827,7 +827,7 @@
       "title": "美国截至9月9日美联储资产负债表(万亿美元)",
       "actual": null,
       "forecast": null,
-      "previous": null,
+      "previous": 6.74,
       "importance": 2,
       "impact_channels": [
         "美债收益率",
