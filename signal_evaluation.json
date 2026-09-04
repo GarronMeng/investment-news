@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-04T14:36:09+08:00",
-  "history_generated_at": "2026-09-04T14:35:56+08:00",
+  "generated_at": "2026-09-04T16:08:33+08:00",
+  "history_generated_at": "2026-09-04T16:08:22+08:00",
   "summary": {
     "t1": {
       "settled": 685,
@@ -9,8 +9,8 @@
       "mean_excess_return": -0.007095
     },
     "t5": {
-      "settled": 523,
-      "win_rate": 0.3939,
+      "settled": 509,
+      "win_rate": 0.4047,
       "mean_excess_return": -0.021432
     },
     "t20": {
@@ -17638,12 +17638,7 @@
           "correct": false
         },
         "t5": {
-          "status": "settled",
-          "date": "2026-09-04",
-          "asset_return": -0.025,
-          "benchmark_return": null,
-          "excess_return": null,
-          "correct": false
+          "status": "pending"
         },
         "t20": {
           "status": "pending"
@@ -17846,12 +17841,7 @@
           "correct": false
         },
         "t5": {
-          "status": "settled",
-          "date": "2026-09-04",
-          "asset_return": -0.025,
-          "benchmark_return": null,
-          "excess_return": null,
-          "correct": false
+          "status": "pending"
         },
         "t20": {
           "status": "pending"
@@ -18054,12 +18044,7 @@
           "correct": false
         },
         "t5": {
-          "status": "settled",
-          "date": "2026-09-04",
-          "asset_return": -0.025,
-          "benchmark_return": null,
-          "excess_return": null,
-          "correct": false
+          "status": "pending"
         },
         "t20": {
           "status": "pending"
@@ -18262,12 +18247,7 @@
           "correct": false
         },
         "t5": {
-          "status": "settled",
-          "date": "2026-09-04",
-          "asset_return": -0.025,
-          "benchmark_return": null,
-          "excess_return": null,
-          "correct": false
+          "status": "pending"
         },
         "t20": {
           "status": "pending"
@@ -18470,12 +18450,7 @@
           "correct": false
         },
         "t5": {
-          "status": "settled",
-          "date": "2026-09-04",
-          "asset_return": -0.025,
-          "benchmark_return": null,
-          "excess_return": null,
-          "correct": false
+          "status": "pending"
         },
         "t20": {
           "status": "pending"
@@ -18678,12 +18653,7 @@
           "correct": false
         },
         "t5": {
-          "status": "settled",
-          "date": "2026-09-04",
-          "asset_return": -0.025,
-          "benchmark_return": null,
-          "excess_return": null,
-          "correct": false
+          "status": "pending"
         },
         "t20": {
           "status": "pending"
@@ -18886,12 +18856,7 @@
           "correct": false
         },
         "t5": {
-          "status": "settled",
-          "date": "2026-09-04",
-          "asset_return": -0.025,
-          "benchmark_return": null,
-          "excess_return": null,
-          "correct": false
+          "status": "pending"
         },
         "t20": {
           "status": "pending"
@@ -19094,12 +19059,7 @@
           "correct": false
         },
         "t5": {
-          "status": "settled",
-          "date": "2026-09-04",
-          "asset_return": -0.025,
-          "benchmark_return": null,
-          "excess_return": null,
-          "correct": false
+          "status": "pending"
         },
         "t20": {
           "status": "pending"
@@ -19302,12 +19262,7 @@
           "correct": false
         },
         "t5": {
-          "status": "settled",
-          "date": "2026-09-04",
-          "asset_return": -0.025,
-          "benchmark_return": null,
-          "excess_return": null,
-          "correct": false
+          "status": "pending"
         },
         "t20": {
           "status": "pending"
@@ -19510,12 +19465,7 @@
           "correct": false
         },
         "t5": {
-          "status": "settled",
-          "date": "2026-09-04",
-          "asset_return": -0.025,
-          "benchmark_return": null,
-          "excess_return": null,
-          "correct": false
+          "status": "pending"
         },
         "t20": {
           "status": "pending"
@@ -19718,12 +19668,7 @@
           "correct": false
         },
         "t5": {
-          "status": "settled",
-          "date": "2026-09-04",
-          "asset_return": -0.025,
-          "benchmark_return": null,
-          "excess_return": null,
-          "correct": false
+          "status": "pending"
         },
         "t20": {
           "status": "pending"
@@ -19926,12 +19871,7 @@
           "correct": false
         },
         "t5": {
-          "status": "settled",
-          "date": "2026-09-04",
-          "asset_return": -0.025,
-          "benchmark_return": null,
-          "excess_return": null,
-          "correct": false
+          "status": "pending"
         },
         "t20": {
           "status": "pending"
@@ -20134,12 +20074,7 @@
           "correct": false
         },
         "t5": {
-          "status": "settled",
-          "date": "2026-09-04",
-          "asset_return": -0.025,
-          "benchmark_return": null,
-          "excess_return": null,
-          "correct": false
+          "status": "pending"
         },
         "t20": {
           "status": "pending"
@@ -20516,12 +20451,7 @@
           "correct": false
         },
         "t5": {
-          "status": "settled",
-          "date": "2026-09-04",
-          "asset_return": -0.025,
-          "benchmark_return": null,
-          "excess_return": null,
-          "correct": false
+          "status": "pending"
         },
         "t20": {
           "status": "pending"
@@ -23030,27 +22960,7 @@
     },
     {
       "decision_id": "f89d12e454d54961",
-      "asset": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "signal_date": "2026-09-04",
-      "bias": "bearish",
-      "research_status": "market_watch",
-      "conviction": 30.0,
-      "entry_date": "2026-09-04",
-      "entry_close": 0.858,
-      "mfe_20d": -0.0,
-      "mae_20d": -0.017483,
-      "horizons": {
-        "t1": {
-          "status": "pending"
-        },
-        "t5": {
-          "status": "pending"
-        },
-        "t20": {
-          "status": "pending"
-        }
-      }
+      "status": "unavailable"
     }
   ],
   "methodology": "Forward evaluation uses future trading observations; correctness is based on benchmark excess return when benchmark data is available, otherwise raw return. MFE/MAE are directional over up to 20 future observations."

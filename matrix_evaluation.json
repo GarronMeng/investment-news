@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-09-04T14:36:09+08:00",
-  "history_generated_at": "2026-09-04T14:35:56+08:00",
-  "records": 241,
-  "raw_ledger_records": 257,
+  "generated_at": "2026-09-04T16:08:33+08:00",
+  "history_generated_at": "2026-09-04T16:08:22+08:00",
+  "records": 242,
+  "raw_ledger_records": 258,
   "superseded_records": 16,
   "evaluations": [
     {
@@ -7743,14 +7743,7 @@
           "correct": null
         },
         "t5": {
-          "status": "settled",
-          "date": "2026-09-04",
-          "asset_return": -0.025,
-          "benchmark_return": null,
-          "excess_return": null,
-          "absolute_excess": null,
-          "directional_excess": null,
-          "correct": null
+          "status": "pending"
         },
         "t20": {
           "status": "pending"
@@ -9091,14 +9084,33 @@
       "entry_close": 0.87,
       "horizons": {
         "t1": {
-          "status": "settled",
-          "date": "2026-09-04",
-          "asset_return": -0.013793,
-          "benchmark_return": null,
-          "excess_return": null,
-          "absolute_excess": null,
-          "directional_excess": null,
-          "correct": null
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "state_id": "17d2c0943aa53572",
+      "state_revision": 2,
+      "asset": "517380",
+      "name": "创新药沪港深ETF天弘",
+      "signal_date": "2026-09-03",
+      "matrix_direction": "bullish",
+      "thesis_state": "emerging",
+      "evidence_state": "partial_confirmation",
+      "composite_score": 20.1,
+      "confluence": 76.0,
+      "conflict_score": 0.0,
+      "entry_date": "2026-09-03",
+      "entry_close": 0.87,
+      "horizons": {
+        "t1": {
+          "status": "pending"
         },
         "t5": {
           "status": "pending"
@@ -9188,29 +9200,7 @@
     },
     {
       "state_id": "b9e1c33ea764f297",
-      "state_revision": 2,
-      "asset": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "signal_date": "2026-09-04",
-      "matrix_direction": "neutral",
-      "thesis_state": "under_test",
-      "evidence_state": "noise_or_no_edge",
-      "composite_score": 7.0,
-      "confluence": 10.6,
-      "conflict_score": 0.0,
-      "entry_date": "2026-09-04",
-      "entry_close": 0.858,
-      "horizons": {
-        "t1": {
-          "status": "pending"
-        },
-        "t5": {
-          "status": "pending"
-        },
-        "t20": {
-          "status": "pending"
-        }
-      }
+      "status": "unavailable"
     }
   ],
   "by_thesis_state": {
@@ -9259,7 +9249,7 @@
           "readout": "usable"
         },
         "t5": {
-          "settled": 62,
+          "settled": 61,
           "directional_settled": 16,
           "win_rate": 0.375,
           "mean_directional_excess": -0.032675,
@@ -9311,7 +9301,7 @@
       }
     },
     "emerging": {
-      "records": 25,
+      "records": 26,
       "horizons": {
         "t1": {
           "settled": 24,
@@ -9346,7 +9336,7 @@
       "records": 28,
       "horizons": {
         "t1": {
-          "settled": 27,
+          "settled": 26,
           "directional_settled": 2,
           "win_rate": 0.5,
           "mean_directional_excess": 0.005452,
@@ -9407,7 +9397,7 @@
       }
     },
     "under_test": {
-      "records": 15,
+      "records": 14,
       "horizons": {
         "t1": {
           "settled": 14,
@@ -9453,7 +9443,7 @@
           "readout": "usable"
         },
         "t5": {
-          "settled": 62,
+          "settled": 61,
           "directional_settled": 16,
           "win_rate": 0.375,
           "mean_directional_excess": -0.032675,
@@ -9505,10 +9495,10 @@
       }
     },
     "noise_or_no_edge": {
-      "records": 41,
+      "records": 40,
       "horizons": {
         "t1": {
-          "settled": 39,
+          "settled": 38,
           "directional_settled": 0,
           "win_rate": null,
           "mean_directional_excess": null,
@@ -9537,7 +9527,7 @@
       }
     },
     "partial_confirmation": {
-      "records": 65,
+      "records": 66,
       "horizons": {
         "t1": {
           "settled": 62,
