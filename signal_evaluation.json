@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-04T16:08:33+08:00",
-  "history_generated_at": "2026-09-04T16:08:22+08:00",
+  "generated_at": "2026-09-04T16:16:21+08:00",
+  "history_generated_at": "2026-09-04T16:16:07+08:00",
   "summary": {
     "t1": {
       "settled": 685,
@@ -22961,6 +22961,150 @@
     {
       "decision_id": "f89d12e454d54961",
       "status": "unavailable"
+    },
+    {
+      "decision_id": "5fe34fd01f2580d1",
+      "asset": "603986",
+      "name": "兆易创新",
+      "signal_date": "2026-09-03",
+      "bias": "bearish",
+      "research_status": "market_watch",
+      "conviction": 30.0,
+      "entry_date": "2026-09-03",
+      "entry_close": 383.2,
+      "mfe_20d": 0.007855,
+      "mae_20d": -0.027897,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "c53a03a644dc3a4d",
+      "asset": "300308",
+      "name": "中际旭创",
+      "signal_date": "2026-09-03",
+      "bias": "bearish",
+      "research_status": "market_watch",
+      "conviction": 55,
+      "entry_date": "2026-09-03",
+      "entry_close": 813.0,
+      "mfe_20d": 0.011046,
+      "mae_20d": -0.028167,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "3e9d3a5e6fdcaa0a",
+      "asset": "002384",
+      "name": "东山精密",
+      "signal_date": "2026-09-03",
+      "bias": "bearish",
+      "research_status": "market_watch",
+      "conviction": 55,
+      "entry_date": "2026-09-03",
+      "entry_close": 179.16,
+      "mfe_20d": 0.003851,
+      "mae_20d": -0.037955,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "4b93cf76f3880ac4",
+      "asset": "600667",
+      "name": "太极实业",
+      "signal_date": "2026-09-03",
+      "bias": "bearish",
+      "research_status": "market_watch",
+      "conviction": 55,
+      "entry_date": "2026-09-03",
+      "entry_close": 17.98,
+      "mfe_20d": 0.015573,
+      "mae_20d": -0.029477,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "5f251cf29f47f91a",
+      "asset": "000636",
+      "name": "风华高科",
+      "signal_date": "2026-09-03",
+      "bias": "bearish",
+      "research_status": "market_watch",
+      "conviction": 55,
+      "entry_date": "2026-09-03",
+      "entry_close": 50.62,
+      "mfe_20d": 0.024299,
+      "mae_20d": -0.021335,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "79614af4e5000847",
+      "asset": "161226",
+      "name": "国投白银LOF",
+      "signal_date": "2026-09-03",
+      "bias": "bearish",
+      "research_status": "market_watch",
+      "conviction": 30.0,
+      "entry_date": "2026-09-03",
+      "entry_close": 1.98,
+      "mfe_20d": 0.015152,
+      "mae_20d": -0.00202,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
     }
   ],
   "methodology": "Forward evaluation uses future trading observations; correctness is based on benchmark excess return when benchmark data is available, otherwise raw return. MFE/MAE are directional over up to 20 future observations."
