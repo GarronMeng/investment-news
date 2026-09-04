@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-04T09:16:05+08:00",
+  "generated_at": "2026-09-04T12:30:27+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
@@ -216,7 +216,7 @@
     },
     {
       "date": "2026-09-08",
-      "time": "09:30",
+      "time": "10:30",
       "type": "macro",
       "category": "trade",
       "region": "中国",
@@ -237,7 +237,7 @@
     },
     {
       "date": "2026-09-08",
-      "time": "09:30",
+      "time": "10:30",
       "type": "macro",
       "category": "trade",
       "region": "中国",
@@ -258,7 +258,7 @@
     },
     {
       "date": "2026-09-08",
-      "time": "09:30",
+      "time": "10:30",
       "type": "macro",
       "category": "trade",
       "region": "中国",
@@ -279,7 +279,7 @@
     },
     {
       "date": "2026-09-08",
-      "time": "09:30",
+      "time": "10:30",
       "type": "macro",
       "category": "trade",
       "region": "中国",
@@ -300,7 +300,7 @@
     },
     {
       "date": "2026-09-08",
-      "time": "09:30",
+      "time": "10:30",
       "type": "macro",
       "category": "trade",
       "region": "中国",
@@ -321,7 +321,7 @@
     },
     {
       "date": "2026-09-08",
-      "time": "09:30",
+      "time": "10:30",
       "type": "macro",
       "category": "trade",
       "region": "中国",
@@ -1083,14 +1083,10 @@
     "macro": 50,
     "global_earnings": 0,
     "high_importance": 0,
-    "macro_days_ok": 10,
-    "report_days_ok": 9
+    "macro_days_ok": 11,
+    "report_days_ok": 11
   },
-  "warnings": [
-    "news_report_time_baidu 20260910: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10001 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-    "news_economic_baidu 20260912: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-    "news_report_time_baidu 20260913: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
-  ],
+  "warnings": [],
   "methodology": {
     "macro": "百度股市通全球宏观日历 via AKShare；保留重要性>=3及少量核心importance-2宏观数据，过滤每日持仓/仓单等例行噪声，并剔除已过时的当日时点。",
     "global_earnings": "百度股市通财报发行 via AKShare；仅保留global_catalyst_universe.json中的公开研究公司。",
