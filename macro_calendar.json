@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-04T14:38:32+08:00",
+  "generated_at": "2026-09-04T16:10:59+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
@@ -633,7 +633,7 @@
       "region": "中国",
       "title": "中国8月CPI年率(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": 0.8,
       "previous": 0.5,
       "importance": 2,
       "impact_channels": [
@@ -654,7 +654,7 @@
       "region": "中国",
       "title": "中国8月PPI年率(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": 3.7,
       "previous": 3.5,
       "importance": 2,
       "impact_channels": [
