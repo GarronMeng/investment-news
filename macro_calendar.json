@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-04T12:43:08+08:00",
+  "generated_at": "2026-09-04T12:51:47+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
@@ -613,7 +613,7 @@
       "title": "美国截至9月4日当周API原油库存变动(万桶)",
       "actual": null,
       "forecast": null,
-      "previous": null,
+      "previous": -259.3,
       "importance": 2,
       "impact_channels": [
         "原油",
