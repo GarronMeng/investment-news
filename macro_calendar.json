@@ -1,75 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-09-04T20:18:36+08:00",
+  "generated_at": "2026-09-05T09:21:00+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
-    {
-      "date": "2026-09-04",
-      "time": "20:30",
-      "type": "macro",
-      "category": "labor",
-      "region": "美国",
-      "title": "美国8月失业率(%)",
-      "actual": null,
-      "forecast": 4.1,
-      "previous": 4.1,
-      "importance": 2,
-      "impact_channels": [
-        "美债收益率",
-        "美元",
-        "全球成长估值",
-        "黄金/白银"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-04",
-      "time": "20:30",
-      "type": "macro",
-      "category": "labor",
-      "region": "美国",
-      "title": "美国8月私营企业非农就业人数变动(万)",
-      "actual": null,
-      "forecast": 4.5,
-      "previous": 3.0,
-      "importance": 2,
-      "impact_channels": [
-        "美债收益率",
-        "美元",
-        "全球成长估值",
-        "黄金/白银"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-04",
-      "time": "20:30",
-      "type": "macro",
-      "category": "labor",
-      "region": "美国",
-      "title": "美国8月非农就业人口变动季调后(万)",
-      "actual": null,
-      "forecast": 5.6,
-      "previous": -2.3,
-      "importance": 2,
-      "impact_channels": [
-        "美债收益率",
-        "美元",
-        "全球成长估值",
-        "黄金/白银"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
     {
       "date": "2026-09-07",
       "time": "17:00",
@@ -1034,11 +968,161 @@
       "assets": [],
       "source": "百度股市通 via AKShare",
       "status": "scheduled"
+    },
+    {
+      "date": "2026-09-15",
+      "time": "10:00",
+      "type": "macro",
+      "category": "growth",
+      "region": "中国",
+      "title": "中国8月规模以上工业增加值年率-单月(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 4.5,
+      "importance": 2,
+      "impact_channels": [
+        "中国增长预期",
+        "行业盈利预期",
+        "人民币汇率"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-15",
+      "time": "10:00",
+      "type": "macro",
+      "category": "growth",
+      "region": "中国",
+      "title": "中国8月规模以上工业增加值年率-年初至今(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 5.3,
+      "importance": 2,
+      "impact_channels": [
+        "中国增长预期",
+        "行业盈利预期",
+        "人民币汇率"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-15",
+      "time": "14:00",
+      "type": "macro",
+      "category": "labor",
+      "region": "英国",
+      "title": "英国7月失业率-按ILO标准(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 4.9,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-15",
+      "time": "17:00",
+      "type": "macro",
+      "category": "trade",
+      "region": "欧元区",
+      "title": "欧元区7月季调后贸易帐(亿欧元)",
+      "actual": null,
+      "forecast": null,
+      "previous": 18.0,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-15",
+      "time": "20:15",
+      "type": "macro",
+      "category": "labor",
+      "region": "美国",
+      "title": "美国截至8月29日当周ADP就业周度发布变动(万人)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-15",
+      "time": "20:30",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "美国",
+      "title": "美国9月纽约联储制造业指数",
+      "actual": null,
+      "forecast": null,
+      "previous": 20.6,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-15",
+      "time": "20:30",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "美国",
+      "title": "美国9月纽约联储制造业未来6个月预期指数",
+      "actual": null,
+      "forecast": null,
+      "previous": 32.1,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
     }
   ],
   "summary": {
-    "total": 48,
-    "macro": 48,
+    "total": 52,
+    "macro": 52,
     "global_earnings": 0,
     "high_importance": 0,
     "macro_days_ok": 11,
