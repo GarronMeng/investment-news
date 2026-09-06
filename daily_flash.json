@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-06T16:13:35+08:00",
+  "generated_at": "2026-09-06T19:45:08+08:00",
   "timezone": "Asia/Shanghai",
   "title": "Daily Flash · 每日投资驾驶舱",
   "core_conclusion": "A股状态为 Transition，上涨家数占比 44.0%，风险温度 60/100（elevated）。沪深300 PE-TTM 13.64；10年分位 57.7%；强势：养殖业、农产品加工、白酒；弱势：电子化学品、半导体、元件。研究复核优先关注 国投白银LOF、兆易创新、中际旭创；该排序代表证据变化与复核优先级，不代表交易优先级。资金/期指：融资余额26231亿元，5日+0.24%；南向成交净买额-100.2亿元；中证500股指期货基差-0.58%。 下一催化：09-07 17:00 欧元区第二季度季调后GDP季率终值(%)；09-07 17:00 欧元区第二季度季调后GDP年率终值(%)。主线财报已确认披露 21/21 个研究样本。",
@@ -858,16 +858,16 @@
   ],
   "sources": {
     "market_state": "2026-09-04T20:07:59+08:00",
-    "risk": "2026-09-06T16:09:47+08:00",
-    "valuation": "2026-09-06T16:09:39+08:00",
-    "decision_matrix": "2026-09-06T16:09:47+08:00",
-    "global_markets": "2026-09-06T16:10:34+08:00",
-    "catalysts": "2026-09-06T16:11:07+08:00",
+    "risk": "2026-09-06T19:41:47+08:00",
+    "valuation": "2026-09-06T19:41:37+08:00",
+    "decision_matrix": "2026-09-06T19:41:47+08:00",
+    "global_markets": "2026-09-06T19:42:29+08:00",
+    "catalysts": "2026-09-06T19:42:59+08:00",
     "ai_signals": "2026-08-26 13:33",
     "sentiment": "2026-09-04T12:26:52+08:00",
-    "market_extras": "2026-09-06T16:10:35+08:00",
-    "macro_calendar": "2026-09-06T16:12:22+08:00",
-    "theme_earnings": "2026-09-06T16:13:35+08:00"
+    "market_extras": "2026-09-06T19:42:30+08:00",
+    "macro_calendar": "2026-09-06T19:44:08+08:00",
+    "theme_earnings": "2026-09-06T19:45:08+08:00"
   },
   "boundary": "Daily Flash用于信息压缩、研究排序与条件验证；缺失数据保持缺失，不生成无条件买卖、仓位或止损指令。",
   "integrity": {
@@ -2227,8 +2227,8 @@
     "macro": 63,
     "global_earnings": 0,
     "high_importance": 0,
-    "macro_days_ok": 10,
-    "report_days_ok": 9
+    "macro_days_ok": 11,
+    "report_days_ok": 11
   },
   "theme_earnings": [
     {
@@ -2674,7 +2674,7 @@
   "quality": {
     "macro_calendar": {
       "events": 63,
-      "warnings": 3,
+      "warnings": 0,
       "horizon_days": 10
     },
     "theme_earnings": {
