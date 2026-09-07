@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-07T12:38:54+08:00",
+  "generated_at": "2026-09-07T12:53:52+08:00",
   "timezone": "Asia/Shanghai",
   "title": "Daily Flash · 每日投资驾驶舱",
   "core_conclusion": "A股状态为 Transition，上涨家数占比 44.0%，风险温度 57/100（elevated）。沪深300 PE-TTM 13.64；10年分位 57.7%；强势：养殖业、农产品加工、白酒；弱势：电子化学品、半导体、元件。研究复核优先关注 国投白银LOF、兆易创新、中际旭创；该排序代表证据变化与复核优先级，不代表交易优先级。资金/期指：融资余额26190亿元，5日-0.34%；南向成交净买额+14.6亿元；中证500股指期货基差+0.54%。 下一催化：09-07 17:00 欧元区第二季度季调后GDP季率终值(%)；09-07 17:00 欧元区第二季度季调后GDP年率终值(%)。主线财报已确认披露 21/21 个研究样本。",
@@ -417,10 +417,10 @@
       "symbol": "^N225",
       "group": "亚洲",
       "unit": "index",
-      "value": 66228.4766,
-      "raw_value": 66228.4766,
+      "value": 66219.5078,
+      "raw_value": 66219.5078,
       "previous_close": 65020.9414,
-      "change_pct": 1.86,
+      "change_pct": 1.84,
       "as_of": "2026-09-07T08:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -431,10 +431,10 @@
       "symbol": "^KS11",
       "group": "亚洲",
       "unit": "index",
-      "value": 6941.9502,
-      "raw_value": 6941.9502,
+      "value": 6960.75,
+      "raw_value": 6960.75,
       "previous_close": 6687.21,
-      "change_pct": 3.81,
+      "change_pct": 4.09,
       "as_of": "2026-09-07T08:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -473,11 +473,11 @@
       "symbol": "DX-Y.NYB",
       "group": "汇率",
       "unit": "index",
-      "value": 99.183,
-      "raw_value": 99.183,
+      "value": 99.189,
+      "raw_value": 99.189,
       "previous_close": 99.16,
-      "change_pct": 0.02,
-      "as_of": "2026-09-07T12:25:53+08:00",
+      "change_pct": 0.03,
+      "as_of": "2026-09-07T12:41:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -487,11 +487,11 @@
       "symbol": "CNH=X",
       "group": "汇率",
       "unit": "fx",
-      "value": 6.7106,
-      "raw_value": 6.7106,
+      "value": 6.7098,
+      "raw_value": 6.7098,
       "previous_close": null,
       "change_pct": null,
-      "as_of": "2026-09-07T12:35:55+08:00",
+      "as_of": "2026-09-07T12:51:01+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -505,7 +505,7 @@
       "raw_value": 4476.6001,
       "previous_close": 4429.7998,
       "change_pct": 1.06,
-      "as_of": "2026-09-07T12:25:51+08:00",
+      "as_of": "2026-09-07T12:40:54+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -519,7 +519,7 @@
       "raw_value": 66.748,
       "previous_close": 66.047,
       "change_pct": 1.06,
-      "as_of": "2026-09-07T12:25:04+08:00",
+      "as_of": "2026-09-07T12:39:19+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -533,7 +533,7 @@
       "raw_value": 91.48,
       "previous_close": 91.48,
       "change_pct": 0.0,
-      "as_of": "2026-09-07T12:25:43+08:00",
+      "as_of": "2026-09-07T12:40:41+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -547,7 +547,7 @@
       "raw_value": 96.28,
       "previous_close": 96.28,
       "change_pct": 0.0,
-      "as_of": "2026-09-07T12:25:06+08:00",
+      "as_of": "2026-09-07T12:40:15+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     }
@@ -632,7 +632,7 @@
     },
     {
       "name": "美债 / 美元",
-      "score": -3.7,
+      "score": -3.8,
       "label": "中性",
       "weight": 5,
       "evidence": "收益率与美元上行对长久期风险资产偏压制"
@@ -858,16 +858,16 @@
   ],
   "sources": {
     "market_state": "2026-09-04T20:07:59+08:00",
-    "risk": "2026-09-07T12:35:13+08:00",
-    "valuation": "2026-09-07T12:35:04+08:00",
-    "decision_matrix": "2026-09-07T12:35:13+08:00",
-    "global_markets": "2026-09-07T12:35:56+08:00",
-    "catalysts": "2026-09-07T12:36:27+08:00",
+    "risk": "2026-09-07T12:50:21+08:00",
+    "valuation": "2026-09-07T12:50:02+08:00",
+    "decision_matrix": "2026-09-07T12:50:21+08:00",
+    "global_markets": "2026-09-07T12:51:02+08:00",
+    "catalysts": "2026-09-07T12:51:34+08:00",
     "ai_signals": "2026-08-26 13:33",
     "sentiment": "2026-09-07T12:33:58+08:00",
-    "market_extras": "2026-09-07T12:35:57+08:00",
-    "macro_calendar": "2026-09-07T12:37:38+08:00",
-    "theme_earnings": "2026-09-07T12:38:54+08:00"
+    "market_extras": "2026-09-07T12:51:03+08:00",
+    "macro_calendar": "2026-09-07T12:52:44+08:00",
+    "theme_earnings": "2026-09-07T12:53:52+08:00"
   },
   "boundary": "Daily Flash用于信息压缩、研究排序与条件验证；缺失数据保持缺失，不生成无条件买卖、仓位或止损指令。",
   "integrity": {
