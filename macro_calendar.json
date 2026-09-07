@@ -1,51 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-09-07T16:38:20+08:00",
+  "generated_at": "2026-09-07T18:26:16+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
-    {
-      "date": "2026-09-07",
-      "time": "17:00",
-      "type": "macro",
-      "category": "growth",
-      "region": "欧元区",
-      "title": "欧元区第二季度季调后GDP季率终值(%)",
-      "actual": null,
-      "forecast": 0.4,
-      "previous": 0.4,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-07",
-      "time": "17:00",
-      "type": "macro",
-      "category": "growth",
-      "region": "欧元区",
-      "title": "欧元区第二季度季调后GDP年率终值(%)",
-      "actual": null,
-      "forecast": 1.0,
-      "previous": 1.0,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
     {
       "date": "2026-09-08",
       "time": "07:50",
@@ -1524,8 +1482,8 @@
     }
   ],
   "summary": {
-    "total": 71,
-    "macro": 71,
+    "total": 69,
+    "macro": 69,
     "global_earnings": 0,
     "high_importance": 0,
     "macro_days_ok": 11,
