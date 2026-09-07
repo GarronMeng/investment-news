@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-09-07T14:42:48+08:00",
-  "history_generated_at": "2026-09-07T14:42:27+08:00",
-  "records": 254,
-  "raw_ledger_records": 270,
+  "generated_at": "2026-09-07T16:35:55+08:00",
+  "history_generated_at": "2026-09-07T16:35:40+08:00",
+  "records": 258,
+  "raw_ledger_records": 274,
   "superseded_records": 16,
   "evaluations": [
     {
@@ -9405,6 +9405,32 @@
       }
     },
     {
+      "state_id": "079da057da866e1a",
+      "state_revision": 2,
+      "asset": "000636",
+      "name": "风华高科",
+      "signal_date": "2026-09-04",
+      "matrix_direction": "bearish",
+      "thesis_state": "supported",
+      "evidence_state": "partial_confirmation",
+      "composite_score": -42.7,
+      "confluence": 66.7,
+      "conflict_score": 41.9,
+      "entry_date": "2026-09-04",
+      "entry_close": 48.41,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
       "state_id": "5d2b542d10f8c113",
       "state_revision": 2,
       "asset": "001309",
@@ -9509,6 +9535,32 @@
       }
     },
     {
+      "state_id": "81fe4a7a5e4333f8",
+      "state_revision": 2,
+      "asset": "002384",
+      "name": "东山精密",
+      "signal_date": "2026-09-04",
+      "matrix_direction": "bearish",
+      "thesis_state": "supported",
+      "evidence_state": "partial_confirmation",
+      "composite_score": -34.8,
+      "confluence": 64.3,
+      "conflict_score": 38.4,
+      "entry_date": "2026-09-04",
+      "entry_close": 178.67,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
       "state_id": "897b1b49c61f8848",
       "state_revision": 2,
       "asset": "300308",
@@ -9546,6 +9598,32 @@
       "composite_score": -29.9,
       "confluence": 55.6,
       "conflict_score": 55.8,
+      "entry_date": "2026-09-04",
+      "entry_close": 814.0,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "state_id": "e0f76ff7fc79f67f",
+      "state_revision": 2,
+      "asset": "300308",
+      "name": "中际旭创",
+      "signal_date": "2026-09-04",
+      "matrix_direction": "bearish",
+      "thesis_state": "supported",
+      "evidence_state": "partial_confirmation",
+      "composite_score": -29.7,
+      "confluence": 62.8,
+      "conflict_score": 51.9,
       "entry_date": "2026-09-04",
       "entry_close": 814.0,
       "horizons": {
@@ -9624,6 +9702,32 @@
       "composite_score": -30.1,
       "confluence": 55.7,
       "conflict_score": 55.1,
+      "entry_date": "2026-09-04",
+      "entry_close": 17.22,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "state_id": "2c94a4aec6e7a55c",
+      "state_revision": 2,
+      "asset": "600667",
+      "name": "太极实业",
+      "signal_date": "2026-09-04",
+      "matrix_direction": "bearish",
+      "thesis_state": "supported",
+      "evidence_state": "partial_confirmation",
+      "composite_score": -30.0,
+      "confluence": 62.8,
+      "conflict_score": 51.0,
       "entry_date": "2026-09-04",
       "entry_close": 17.22,
       "horizons": {
@@ -9853,7 +9957,7 @@
       }
     },
     "supported": {
-      "records": 40,
+      "records": 44,
       "horizons": {
         "t1": {
           "settled": 39,
@@ -10015,7 +10119,7 @@
       }
     },
     "partial_confirmation": {
-      "records": 67,
+      "records": 71,
       "horizons": {
         "t1": {
           "settled": 66,
