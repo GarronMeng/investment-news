@@ -1,20 +1,20 @@
 {
   "version": 1,
-  "generated_at": "2026-09-07T12:59:39+08:00",
+  "generated_at": "2026-09-07T14:42:48+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
-    "confirmed": 5,
-    "supported": 1,
+    "confirmed": 0,
+    "supported": 0,
     "contradicted": 0,
-    "conflicted": 2,
+    "conflicted": 8,
     "emerging": 0,
     "insufficient": 2,
     "top_attention": [
-      "161226",
       "603986",
+      "001309",
       "300308",
-      "517380",
+      "600667",
       "000636"
     ]
   },
@@ -27,16 +27,16 @@
       "priority": 5,
       "as_of": "2026-09-04",
       "base_bias": "bearish",
-      "matrix_direction": "bearish",
-      "composite_score": -46.6,
+      "matrix_direction": "neutral",
+      "composite_score": -11.5,
       "coverage": 75.0,
-      "confluence": 84.0,
+      "confluence": 17.3,
       "available_layers": 4,
       "opposing_weight_share": 0.0,
-      "evidence_state": "multi_layer_confirmed",
-      "thesis_state": "confirmed",
-      "attention_score": 73.6,
-      "research_focus": "验证持续性、行业扩散与后续基本面证据。",
+      "evidence_state": "conflict",
+      "thesis_state": "conflicted",
+      "attention_score": 93.0,
+      "research_focus": "正负证据正在相互抵消，优先识别哪一层先失效或被确认。",
       "layers": {
         "event": {
           "available": false,
@@ -58,9 +58,9 @@
         },
         "industry": {
           "available": true,
-          "score": -78.6,
+          "score": 82.3,
           "confidence": "low",
-          "evidence": "半导体 涨跌-2.82%/净流-158.7亿",
+          "evidence": "半导体 涨跌+2.54%/净流222.0亿",
           "matches": [
             "半导体"
           ],
@@ -71,13 +71,24 @@
         },
         "market_context": {
           "available": true,
-          "score": -6.9,
+          "score": 15.0,
           "confidence": "medium",
-          "evidence": "regime=transition；上涨占比=0.44；风险温度=56.9。"
+          "evidence": "regime=narrow_risk_on；上涨占比=0.5719；风险温度=56.9。"
         }
       },
       "contributors": {
-        "positive": [],
+        "positive": [
+          {
+            "layer": "industry",
+            "score": 82.3,
+            "evidence": "半导体 涨跌+2.54%/净流222.0亿"
+          },
+          {
+            "layer": "market_context",
+            "score": 15.0,
+            "evidence": "regime=narrow_risk_on；上涨占比=0.5719；风险温度=56.9。"
+          }
+        ],
         "negative": [
           {
             "layer": "relative_strength",
@@ -85,9 +96,9 @@
             "evidence": "5日相对强弱 -0.049385；20日相对强弱 -0.079893。"
           },
           {
-            "layer": "industry",
-            "score": -78.6,
-            "evidence": "半导体 涨跌-2.82%/净流-158.7亿"
+            "layer": "technical",
+            "score": -34.0,
+            "evidence": "MA60 below/falling；MACD bullish；RSI 39.47 (weak)；量能 contraction；20日结构 inside_range。"
           }
         ]
       },
@@ -100,9 +111,9 @@
         "库存恶化"
       ],
       "excluded_layers": [],
-      "positive_direction_mass": 0.0,
-      "negative_direction_mass": 34.3,
-      "conflict_score": 0.0
+      "positive_direction_mass": 13.8,
+      "negative_direction_mass": 22.5,
+      "conflict_score": 76.2
     },
     "001309": {
       "code": "001309",
@@ -112,16 +123,16 @@
       "priority": 5,
       "as_of": "2026-09-04",
       "base_bias": "bearish",
-      "matrix_direction": "bearish",
-      "composite_score": -34.9,
+      "matrix_direction": "neutral",
+      "composite_score": -8.5,
       "coverage": 75.0,
-      "confluence": 80.5,
+      "confluence": 12.7,
       "available_layers": 4,
       "opposing_weight_share": 0.0,
-      "evidence_state": "partial_confirmation",
-      "thesis_state": "supported",
-      "attention_score": 63.4,
-      "research_focus": "维持观察，等待更多层形成共振。",
+      "evidence_state": "conflict",
+      "thesis_state": "conflicted",
+      "attention_score": 92.6,
+      "research_focus": "正负证据正在相互抵消，优先识别哪一层先失效或被确认。",
       "layers": {
         "event": {
           "available": false,
@@ -143,9 +154,9 @@
         },
         "industry": {
           "available": true,
-          "score": -59.9,
+          "score": 57.4,
           "confidence": "medium",
-          "evidence": "半导体 涨跌-2.82%/净流-158.7亿；消费电子 涨跌-2.06%/净流-37.6亿",
+          "evidence": "半导体 涨跌+2.54%/净流222.0亿；消费电子 涨跌+1.54%/净流34.4亿",
           "matches": [
             "半导体",
             "消费电子"
@@ -158,13 +169,24 @@
         },
         "market_context": {
           "available": true,
-          "score": -6.9,
+          "score": 15.0,
           "confidence": "medium",
-          "evidence": "regime=transition；上涨占比=0.44；风险温度=56.9。"
+          "evidence": "regime=narrow_risk_on；上涨占比=0.5719；风险温度=56.9。"
         }
       },
       "contributors": {
-        "positive": [],
+        "positive": [
+          {
+            "layer": "industry",
+            "score": 57.4,
+            "evidence": "半导体 涨跌+2.54%/净流222.0亿；消费电子 涨跌+1.54%/净流34.4亿"
+          },
+          {
+            "layer": "market_context",
+            "score": 15.0,
+            "evidence": "regime=narrow_risk_on；上涨占比=0.5719；风险温度=56.9。"
+          }
+        ],
         "negative": [
           {
             "layer": "technical",
@@ -172,9 +194,9 @@
             "evidence": "MA60 below/falling；MACD bullish；RSI 40.16 (weak)；量能 contraction；20日结构 inside_range。"
           },
           {
-            "layer": "industry",
-            "score": -59.9,
-            "evidence": "半导体 涨跌-2.82%/净流-158.7亿；消费电子 涨跌-2.06%/净流-37.6亿"
+            "layer": "relative_strength",
+            "score": -31.4,
+            "evidence": "5日相对强弱 -0.074478；20日相对强弱 -0.003404。"
           }
         ]
       },
@@ -187,9 +209,9 @@
         "渠道库存上升"
       ],
       "excluded_layers": [],
-      "positive_direction_mass": 0.0,
-      "negative_direction_mass": 25.5,
-      "conflict_score": 0.0
+      "positive_direction_mass": 10.1,
+      "negative_direction_mass": 16.5,
+      "conflict_score": 76.0
     },
     "300308": {
       "code": "300308",
@@ -200,15 +222,15 @@
       "as_of": "2026-09-04",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -56.8,
+      "composite_score": -29.9,
       "coverage": 75.0,
-      "confluence": 87.0,
+      "confluence": 55.6,
       "available_layers": 4,
-      "opposing_weight_share": 0.0,
-      "evidence_state": "multi_layer_confirmed",
-      "thesis_state": "confirmed",
-      "attention_score": 71.8,
-      "research_focus": "验证持续性、行业扩散与后续基本面证据。",
+      "opposing_weight_share": 33.3,
+      "evidence_state": "conflict",
+      "thesis_state": "conflicted",
+      "attention_score": 92.5,
+      "research_focus": "正负证据正在相互抵消，优先识别哪一层先失效或被确认。",
       "layers": {
         "event": {
           "available": false,
@@ -230,9 +252,9 @@
         },
         "industry": {
           "available": true,
-          "score": -35.5,
+          "score": 84.3,
           "confidence": "low",
-          "evidence": "通信设备 涨跌-1.64%/净流-40.1亿",
+          "evidence": "通信设备 涨跌+3.72%/净流179.4亿",
           "matches": [
             "通信设备"
           ],
@@ -243,13 +265,24 @@
         },
         "market_context": {
           "available": true,
-          "score": -6.9,
+          "score": 15.0,
           "confidence": "medium",
-          "evidence": "regime=transition；上涨占比=0.44；风险温度=56.9。"
+          "evidence": "regime=narrow_risk_on；上涨占比=0.5719；风险温度=56.9。"
         }
       },
       "contributors": {
-        "positive": [],
+        "positive": [
+          {
+            "layer": "industry",
+            "score": 84.3,
+            "evidence": "通信设备 涨跌+3.72%/净流179.4亿"
+          },
+          {
+            "layer": "market_context",
+            "score": 15.0,
+            "evidence": "regime=narrow_risk_on；上涨占比=0.5719；风险温度=56.9。"
+          }
+        ],
         "negative": [
           {
             "layer": "technical",
@@ -272,9 +305,9 @@
         "客户延迟采购"
       ],
       "excluded_layers": [],
-      "positive_direction_mass": 0.0,
-      "negative_direction_mass": 41.9,
-      "conflict_score": 0.0
+      "positive_direction_mass": 14.1,
+      "negative_direction_mass": 36.6,
+      "conflict_score": 55.8
     },
     "002384": {
       "code": "002384",
@@ -285,15 +318,15 @@
       "as_of": "2026-09-04",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -58.6,
+      "composite_score": -35.0,
       "coverage": 75.0,
-      "confluence": 87.6,
+      "confluence": 57.2,
       "available_layers": 4,
-      "opposing_weight_share": 0.0,
-      "evidence_state": "multi_layer_confirmed",
-      "thesis_state": "confirmed",
-      "attention_score": 69.8,
-      "research_focus": "验证持续性、行业扩散与后续基本面证据。",
+      "opposing_weight_share": 33.3,
+      "evidence_state": "conflict",
+      "thesis_state": "conflicted",
+      "attention_score": 90.0,
+      "research_focus": "正负证据正在相互抵消，优先识别哪一层先失效或被确认。",
       "layers": {
         "event": {
           "available": false,
@@ -315,9 +348,9 @@
         },
         "industry": {
           "available": true,
-          "score": -46.9,
+          "score": 56.1,
           "confidence": "medium",
-          "evidence": "元件 涨跌-2.73%/净流-43.6亿；消费电子 涨跌-2.06%/净流-37.6亿",
+          "evidence": "元件 涨跌+6.73%/净流149.3亿；消费电子 涨跌+1.54%/净流34.4亿",
           "matches": [
             "元件",
             "消费电子"
@@ -330,13 +363,24 @@
         },
         "market_context": {
           "available": true,
-          "score": -6.9,
+          "score": 15.0,
           "confidence": "medium",
-          "evidence": "regime=transition；上涨占比=0.44；风险温度=56.9。"
+          "evidence": "regime=narrow_risk_on；上涨占比=0.5719；风险温度=56.9。"
         }
       },
       "contributors": {
-        "positive": [],
+        "positive": [
+          {
+            "layer": "industry",
+            "score": 56.1,
+            "evidence": "元件 涨跌+6.73%/净流149.3亿；消费电子 涨跌+1.54%/净流34.4亿"
+          },
+          {
+            "layer": "market_context",
+            "score": 15.0,
+            "evidence": "regime=narrow_risk_on；上涨占比=0.5719；风险温度=56.9。"
+          }
+        ],
         "negative": [
           {
             "layer": "technical",
@@ -359,9 +403,9 @@
         "价格竞争"
       ],
       "excluded_layers": [],
-      "positive_direction_mass": 0.0,
-      "negative_direction_mass": 43.2,
-      "conflict_score": 0.0
+      "positive_direction_mass": 9.9,
+      "negative_direction_mass": 36.2,
+      "conflict_score": 43.0
     },
     "600667": {
       "code": "600667",
@@ -372,15 +416,15 @@
       "as_of": "2026-09-04",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -65.2,
+      "composite_score": -30.1,
       "coverage": 75.0,
-      "confluence": 89.6,
+      "confluence": 55.7,
       "available_layers": 4,
-      "opposing_weight_share": 0.0,
-      "evidence_state": "multi_layer_confirmed",
-      "thesis_state": "confirmed",
-      "attention_score": 70.0,
-      "research_focus": "验证持续性、行业扩散与后续基本面证据。",
+      "opposing_weight_share": 33.3,
+      "evidence_state": "conflict",
+      "thesis_state": "conflicted",
+      "attention_score": 90.5,
+      "research_focus": "正负证据正在相互抵消，优先识别哪一层先失效或被确认。",
       "layers": {
         "event": {
           "available": false,
@@ -402,9 +446,9 @@
         },
         "industry": {
           "available": true,
-          "score": -78.6,
+          "score": 82.3,
           "confidence": "low",
-          "evidence": "半导体 涨跌-2.82%/净流-158.7亿",
+          "evidence": "半导体 涨跌+2.54%/净流222.0亿",
           "matches": [
             "半导体"
           ],
@@ -415,13 +459,24 @@
         },
         "market_context": {
           "available": true,
-          "score": -6.9,
+          "score": 15.0,
           "confidence": "medium",
-          "evidence": "regime=transition；上涨占比=0.44；风险温度=56.9。"
+          "evidence": "regime=narrow_risk_on；上涨占比=0.5719；风险温度=56.9。"
         }
       },
       "contributors": {
-        "positive": [],
+        "positive": [
+          {
+            "layer": "industry",
+            "score": 82.3,
+            "evidence": "半导体 涨跌+2.54%/净流222.0亿"
+          },
+          {
+            "layer": "market_context",
+            "score": 15.0,
+            "evidence": "regime=narrow_risk_on；上涨占比=0.5719；风险温度=56.9。"
+          }
+        ],
         "negative": [
           {
             "layer": "technical",
@@ -444,9 +499,9 @@
         "项目回款承压"
       ],
       "excluded_layers": [],
-      "positive_direction_mass": 0.0,
-      "negative_direction_mass": 48.2,
-      "conflict_score": 0.0
+      "positive_direction_mass": 13.8,
+      "negative_direction_mass": 36.4,
+      "conflict_score": 55.1
     },
     "000636": {
       "code": "000636",
@@ -457,15 +512,15 @@
       "as_of": "2026-09-04",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -72.3,
+      "composite_score": -42.9,
       "coverage": 75.0,
-      "confluence": 91.7,
+      "confluence": 59.5,
       "available_layers": 4,
-      "opposing_weight_share": 0.0,
-      "evidence_state": "multi_layer_confirmed",
-      "thesis_state": "confirmed",
-      "attention_score": 70.1,
-      "research_focus": "验证持续性、行业扩散与后续基本面证据。",
+      "opposing_weight_share": 33.3,
+      "evidence_state": "conflict",
+      "thesis_state": "conflicted",
+      "attention_score": 90.2,
+      "research_focus": "正负证据正在相互抵消，优先识别哪一层先失效或被确认。",
       "layers": {
         "event": {
           "available": false,
@@ -487,9 +542,9 @@
         },
         "industry": {
           "available": true,
-          "score": -52.8,
+          "score": 79.8,
           "confidence": "low",
-          "evidence": "元件 涨跌-2.73%/净流-43.6亿",
+          "evidence": "元件 涨跌+6.73%/净流149.3亿",
           "matches": [
             "元件"
           ],
@@ -500,13 +555,24 @@
         },
         "market_context": {
           "available": true,
-          "score": -6.9,
+          "score": 15.0,
           "confidence": "medium",
-          "evidence": "regime=transition；上涨占比=0.44；风险温度=56.9。"
+          "evidence": "regime=narrow_risk_on；上涨占比=0.5719；风险温度=56.9。"
         }
       },
       "contributors": {
-        "positive": [],
+        "positive": [
+          {
+            "layer": "industry",
+            "score": 79.8,
+            "evidence": "元件 涨跌+6.73%/净流149.3亿"
+          },
+          {
+            "layer": "market_context",
+            "score": 15.0,
+            "evidence": "regime=narrow_risk_on；上涨占比=0.5719；风险温度=56.9。"
+          }
+        ],
         "negative": [
           {
             "layer": "technical",
@@ -529,9 +595,9 @@
         "库存去化不及预期"
       ],
       "excluded_layers": [],
-      "positive_direction_mass": 0.0,
-      "negative_direction_mass": 53.5,
-      "conflict_score": 0.0
+      "positive_direction_mass": 13.5,
+      "negative_direction_mass": 45.6,
+      "conflict_score": 45.6
     },
     "161226": {
       "code": "161226",
@@ -703,14 +769,14 @@
       "as_of": "2026-09-04",
       "base_bias": "bearish",
       "matrix_direction": "neutral",
-      "composite_score": 10.1,
+      "composite_score": 13.7,
       "coverage": 60.0,
-      "confluence": 15.1,
+      "confluence": 20.6,
       "available_layers": 3,
       "opposing_weight_share": 0.0,
       "evidence_state": "noise_or_no_edge",
       "thesis_state": "under_test",
-      "attention_score": 71.0,
+      "attention_score": 71.4,
       "research_focus": "原方向尚未被市场充分确认，继续观察验证/失效条件。",
       "layers": {
         "event": {
@@ -745,9 +811,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -6.9,
+          "score": 15.0,
           "confidence": "medium",
-          "evidence": "regime=transition；上涨占比=0.44；风险温度=56.9。"
+          "evidence": "regime=narrow_risk_on；上涨占比=0.5719；风险温度=56.9。"
         }
       },
       "contributors": {
@@ -758,18 +824,12 @@
             "evidence": "MA60 above/rising；MACD bearish；RSI 51.33 (neutral)；量能 contraction；20日结构 inside_range。"
           },
           {
-            "layer": "relative_strength",
-            "score": 3.7,
-            "evidence": "5日相对强弱 -0.009263；20日相对强弱 0.016921。"
+            "layer": "market_context",
+            "score": 15.0,
+            "evidence": "regime=narrow_risk_on；上涨占比=0.5719；风险温度=56.9。"
           }
         ],
-        "negative": [
-          {
-            "layer": "market_context",
-            "score": -6.9,
-            "evidence": "regime=transition；上涨占比=0.44；风险温度=56.9。"
-          }
-        ]
+        "negative": []
       },
       "confirmation": [
         "A股与港股创新药板块形成联动",
@@ -780,23 +840,122 @@
         "监管或支付政策收紧"
       ],
       "excluded_layers": [],
-      "positive_direction_mass": 6.0,
+      "positive_direction_mass": 7.5,
       "negative_direction_mass": 0.0,
       "conflict_score": 0.0
     }
   },
   "ranking": [
-    "161226",
     "603986",
-    "300308",
-    "517380",
-    "000636",
-    "600667",
-    "002384",
     "001309",
+    "300308",
+    "600667",
+    "000636",
+    "002384",
+    "161226",
+    "517380",
     "518880"
   ],
-  "state_changes": [],
+  "state_changes": [
+    {
+      "code": "603986",
+      "name": "兆易创新",
+      "field": "matrix_direction",
+      "from": "bearish",
+      "to": "neutral"
+    },
+    {
+      "code": "603986",
+      "name": "兆易创新",
+      "field": "evidence_state",
+      "from": "multi_layer_confirmed",
+      "to": "conflict"
+    },
+    {
+      "code": "603986",
+      "name": "兆易创新",
+      "field": "thesis_state",
+      "from": "confirmed",
+      "to": "conflicted"
+    },
+    {
+      "code": "001309",
+      "name": "德明利",
+      "field": "matrix_direction",
+      "from": "bearish",
+      "to": "neutral"
+    },
+    {
+      "code": "001309",
+      "name": "德明利",
+      "field": "evidence_state",
+      "from": "partial_confirmation",
+      "to": "conflict"
+    },
+    {
+      "code": "001309",
+      "name": "德明利",
+      "field": "thesis_state",
+      "from": "supported",
+      "to": "conflicted"
+    },
+    {
+      "code": "300308",
+      "name": "中际旭创",
+      "field": "evidence_state",
+      "from": "multi_layer_confirmed",
+      "to": "conflict"
+    },
+    {
+      "code": "300308",
+      "name": "中际旭创",
+      "field": "thesis_state",
+      "from": "confirmed",
+      "to": "conflicted"
+    },
+    {
+      "code": "002384",
+      "name": "东山精密",
+      "field": "evidence_state",
+      "from": "multi_layer_confirmed",
+      "to": "conflict"
+    },
+    {
+      "code": "002384",
+      "name": "东山精密",
+      "field": "thesis_state",
+      "from": "confirmed",
+      "to": "conflicted"
+    },
+    {
+      "code": "600667",
+      "name": "太极实业",
+      "field": "evidence_state",
+      "from": "multi_layer_confirmed",
+      "to": "conflict"
+    },
+    {
+      "code": "600667",
+      "name": "太极实业",
+      "field": "thesis_state",
+      "from": "confirmed",
+      "to": "conflicted"
+    },
+    {
+      "code": "000636",
+      "name": "风华高科",
+      "field": "evidence_state",
+      "from": "multi_layer_confirmed",
+      "to": "conflict"
+    },
+    {
+      "code": "000636",
+      "name": "风华高科",
+      "field": "thesis_state",
+      "from": "confirmed",
+      "to": "conflicted"
+    }
+  ],
   "methodology": {
     "weights": {
       "event": 25,
@@ -828,7 +987,6 @@
         "半导体",
         "元件",
         "电子化学品",
-        "光学光电子",
         "消费电子"
       ],
       "after_matches": [
@@ -846,7 +1004,6 @@
         "半导体",
         "元件",
         "电子化学品",
-        "光学光电子",
         "消费电子"
       ],
       "after_matches": [
@@ -863,7 +1020,6 @@
       "before_matches": [
         "通信设备",
         "半导体",
-        "光学光电子",
         "软件开发",
         "消费电子",
         "元件"
@@ -882,7 +1038,6 @@
       "before_matches": [
         "消费电子",
         "元件",
-        "光学光电子",
         "通信设备",
         "软件开发",
         "半导体"
@@ -901,8 +1056,7 @@
       "before_matches": [
         "半导体",
         "元件",
-        "电子化学品",
-        "光学光电子"
+        "电子化学品"
       ],
       "after_matches": [
         "半导体"
@@ -917,7 +1071,6 @@
       "before_matches": [
         "消费电子",
         "元件",
-        "光学光电子",
         "半导体",
         "电子化学品"
       ],
