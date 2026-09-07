@@ -1,22 +1,22 @@
 {
   "version": 1,
-  "generated_at": "2026-09-07T13:00:10+08:00",
+  "generated_at": "2026-09-07T13:15:52+08:00",
   "timezone": "Asia/Shanghai",
   "southbound": {
     "status": "fresh",
     "as_of": "2026-09-07",
-    "net_buy_cny_100m": 14.57,
+    "net_buy_cny_100m": 13.69,
     "net_inflow_cny_100m": 840.0,
     "closed": false,
     "legs": [
       {
         "name": "港股通(沪)",
-        "net_buy_cny_100m": -4.238745,
+        "net_buy_cny_100m": -3.274088,
         "net_inflow_cny_100m": 420.0
       },
       {
         "name": "港股通(深)",
-        "net_buy_cny_100m": 18.810914999999998,
+        "net_buy_cny_100m": 16.968598,
         "net_inflow_cny_100m": 420.0
       }
     ],
@@ -27,28 +27,28 @@
     {
       "symbol": "沪深300指数期货2609",
       "underlying": "沪深300",
-      "current_price": 4552.8,
+      "current_price": 4552.6,
       "change_pct": null,
       "spot": 4548.05,
-      "basis": 4.75,
-      "basis_pct": 0.104,
-      "hold": 121507.0,
-      "volume": 37618.0,
-      "time": "13:00:22",
+      "basis": 4.55,
+      "basis_pct": 0.1,
+      "hold": 121281.0,
+      "volume": 41101.0,
+      "time": "13:16:00",
       "status": "fresh",
       "source": "新浪财经 via AKShare"
     },
     {
       "symbol": "上证50指数期货2609",
       "underlying": "上证50",
-      "current_price": 2898.2,
+      "current_price": 2898.4,
       "change_pct": null,
       "spot": null,
       "basis": null,
       "basis_pct": null,
-      "hold": 56600.0,
-      "volume": 20316.0,
-      "time": "13:00:22",
+      "hold": 56194.0,
+      "volume": 22263.0,
+      "time": "13:15:59",
       "status": "fresh",
       "source": "新浪财经 via AKShare"
     },
@@ -60,23 +60,23 @@
       "spot": 7652.69,
       "basis": 51.31,
       "basis_pct": 0.67,
-      "hold": 129950.0,
-      "volume": 62000.0,
-      "time": "13:00:22",
+      "hold": 129827.0,
+      "volume": 66411.0,
+      "time": "13:16:00",
       "status": "fresh",
       "source": "新浪财经 via AKShare"
     },
     {
       "symbol": "中证1000指数期货2609",
       "underlying": "中证1000",
-      "current_price": 7597.8,
+      "current_price": 7585.8,
       "change_pct": null,
       "spot": null,
       "basis": null,
       "basis_pct": null,
-      "hold": 197560.0,
-      "volume": 93496.0,
-      "time": "13:00:22",
+      "hold": 198059.0,
+      "volume": 101551.0,
+      "time": "13:16:00",
       "status": "fresh",
       "source": "新浪财经 via AKShare"
     }
