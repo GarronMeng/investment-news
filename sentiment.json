@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "generated_at": "2026-09-04T12:26:52+08:00",
+  "generated_at": "2026-09-07T12:33:58+08:00",
   "timezone": "Asia/Shanghai",
   "states": {
     "overseas_risk": {
       "title": "海外风险",
-      "level": "normal",
-      "label": "正常",
-      "tone": "neutral",
+      "level": "calm",
+      "label": "低波动",
+      "tone": "positive",
       "status": "fresh",
       "summary": "用于校准海外风险环境，不直接触发A股买卖。",
       "metric_id": "vix"
@@ -26,41 +26,41 @@
     {
       "id": "vix",
       "label": "VIX海外风险",
-      "value": 15.2,
+      "value": 14.53,
       "unit": "点",
-      "as_of": "2026-09-02",
-      "lag_days": 2,
+      "as_of": "2026-09-04",
+      "lag_days": 3,
       "status": "fresh",
       "confidence": "medium",
       "source": "OpenBB/YFinance",
       "source_url": "https://www.cboe.com/tradable_products/vix/vix_historical_data/",
-      "change_1d_pct": -6.98,
-      "percentile_20d": 60.0,
-      "level": "normal",
-      "state_label": "正常",
-      "tone": "neutral",
+      "change_1d_pct": 1.47,
+      "percentile_20d": 25.0,
+      "level": "calm",
+      "state_label": "低波动",
+      "tone": "positive",
       "sample_size": 20
     },
     {
       "id": "margin_balance",
       "label": "A股杠杆情绪",
-      "value": 26230.74,
-      "total_margin_balance": 26525.03,
-      "financing_buy_amount": 1487.81,
+      "value": 26190.38,
+      "total_margin_balance": 26482.15,
+      "financing_buy_amount": 1486.16,
       "unit": "亿元",
-      "as_of": "2026-09-02",
-      "lag_days": 2,
+      "as_of": "2026-09-03",
+      "lag_days": 4,
       "status": "fresh",
       "confidence": "high",
       "source": "SSE+SZSE via AKShare",
       "source_url": "https://www.sse.com.cn/market/othersdata/margin/sum/",
-      "change_1d_pct": -0.21,
-      "change_5d_pct": 0.24,
+      "change_1d_pct": -0.15,
+      "change_5d_pct": -0.34,
       "zscore_20d": null,
       "level": "building",
       "state_label": "基线建立中",
       "tone": "neutral",
-      "sample_size": 17
+      "sample_size": 18
     }
   ],
   "history": {
@@ -166,6 +166,12 @@
         "financing": 26230.74259547,
         "total": 26525.03457693,
         "buy": 1487.80553522
+      },
+      {
+        "date": "2026-09-03",
+        "financing": 26190.37630194,
+        "total": 26482.15473831,
+        "buy": 1486.15882394
       }
     ]
   },
