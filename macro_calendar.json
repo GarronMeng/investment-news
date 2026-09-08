@@ -1,135 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-09-08T09:23:49+08:00",
+  "generated_at": "2026-09-08T12:34:18+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
-    {
-      "date": "2026-09-08",
-      "time": "10:30",
-      "type": "macro",
-      "category": "trade",
-      "region": "中国",
-      "title": "中国8月出口年率-人民币计价(%)",
-      "actual": null,
-      "forecast": null,
-      "previous": 17.8,
-      "importance": 2,
-      "impact_channels": [
-        "中国增长预期",
-        "行业盈利预期",
-        "人民币汇率"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-08",
-      "time": "10:30",
-      "type": "macro",
-      "category": "trade",
-      "region": "中国",
-      "title": "中国8月出口年率-美元计价(%)",
-      "actual": null,
-      "forecast": 25.0,
-      "previous": 23.0,
-      "importance": 2,
-      "impact_channels": [
-        "中国增长预期",
-        "行业盈利预期",
-        "人民币汇率"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-08",
-      "time": "10:30",
-      "type": "macro",
-      "category": "trade",
-      "region": "中国",
-      "title": "中国8月贸易帐-人民币计价(亿元)",
-      "actual": null,
-      "forecast": null,
-      "previous": 7670.7,
-      "importance": 2,
-      "impact_channels": [
-        "中国增长预期",
-        "行业盈利预期",
-        "人民币汇率"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-08",
-      "time": "10:30",
-      "type": "macro",
-      "category": "trade",
-      "region": "中国",
-      "title": "中国8月贸易帐-美元计价(亿美元)",
-      "actual": null,
-      "forecast": 1190.5,
-      "previous": 1125.0,
-      "importance": 2,
-      "impact_channels": [
-        "中国增长预期",
-        "行业盈利预期",
-        "人民币汇率"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-08",
-      "time": "10:30",
-      "type": "macro",
-      "category": "trade",
-      "region": "中国",
-      "title": "中国8月进口年率-人民币计价(%)",
-      "actual": null,
-      "forecast": null,
-      "previous": 21.2,
-      "importance": 2,
-      "impact_channels": [
-        "中国增长预期",
-        "行业盈利预期",
-        "人民币汇率"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-08",
-      "time": "10:30",
-      "type": "macro",
-      "category": "trade",
-      "region": "中国",
-      "title": "中国8月进口年率-美元计价(%)",
-      "actual": null,
-      "forecast": 30.0,
-      "previous": 27.5,
-      "importance": 2,
-      "impact_channels": [
-        "中国增长预期",
-        "行业盈利预期",
-        "人民币汇率"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
     {
       "date": "2026-09-08",
       "time": "20:15",
@@ -1589,8 +1463,8 @@
     }
   ],
   "summary": {
-    "total": 74,
-    "macro": 74,
+    "total": 68,
+    "macro": 68,
     "global_earnings": 0,
     "high_importance": 0,
     "macro_days_ok": 11,
