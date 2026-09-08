@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-08T09:21:25+08:00",
+  "generated_at": "2026-09-08T12:31:57+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -28,7 +28,7 @@
       "as_of": "2026-09-07",
       "base_bias": "bearish",
       "matrix_direction": "neutral",
-      "composite_score": -3.1,
+      "composite_score": -3.0,
       "coverage": 75.0,
       "confluence": 4.6,
       "available_layers": 4,
@@ -71,9 +71,9 @@
         },
         "market_context": {
           "available": true,
-          "score": 13.5,
+          "score": 13.8,
           "confidence": "medium",
-          "evidence": "regime=narrow_risk_on；上涨占比=0.5697；风险温度=59.8。"
+          "evidence": "regime=narrow_risk_on；上涨占比=0.5697；风险温度=59.2。"
         }
       },
       "contributors": {
@@ -85,8 +85,8 @@
           },
           {
             "layer": "market_context",
-            "score": 13.5,
-            "evidence": "regime=narrow_risk_on；上涨占比=0.5697；风险温度=59.8。"
+            "score": 13.8,
+            "evidence": "regime=narrow_risk_on；上涨占比=0.5697；风险温度=59.2。"
           }
         ],
         "negative": [
@@ -169,9 +169,9 @@
         },
         "market_context": {
           "available": true,
-          "score": 13.5,
+          "score": 13.8,
           "confidence": "medium",
-          "evidence": "regime=narrow_risk_on；上涨占比=0.5697；风险温度=59.8。"
+          "evidence": "regime=narrow_risk_on；上涨占比=0.5697；风险温度=59.2。"
         }
       },
       "contributors": {
@@ -183,8 +183,8 @@
           },
           {
             "layer": "market_context",
-            "score": 13.5,
-            "evidence": "regime=narrow_risk_on；上涨占比=0.5697；风险温度=59.8。"
+            "score": 13.8,
+            "evidence": "regime=narrow_risk_on；上涨占比=0.5697；风险温度=59.2。"
           }
         ],
         "negative": [
@@ -222,7 +222,7 @@
       "as_of": "2026-09-07",
       "base_bias": "bullish",
       "matrix_direction": "bullish",
-      "composite_score": 26.9,
+      "composite_score": 27.0,
       "coverage": 75.0,
       "confluence": 45.8,
       "available_layers": 4,
@@ -265,9 +265,9 @@
         },
         "market_context": {
           "available": true,
-          "score": 13.5,
+          "score": 13.8,
           "confidence": "medium",
-          "evidence": "regime=narrow_risk_on；上涨占比=0.5697；风险温度=59.8。"
+          "evidence": "regime=narrow_risk_on；上涨占比=0.5697；风险温度=59.2。"
         }
       },
       "contributors": {
@@ -313,14 +313,14 @@
       "as_of": "2026-09-07",
       "base_bias": "neutral",
       "matrix_direction": "neutral",
-      "composite_score": -10.9,
+      "composite_score": -10.8,
       "coverage": 75.0,
-      "confluence": 16.3,
+      "confluence": 16.2,
       "available_layers": 4,
       "opposing_weight_share": 0.0,
       "evidence_state": "conflict",
       "thesis_state": "conflicted",
-      "attention_score": 88.1,
+      "attention_score": 88.0,
       "research_focus": "正负证据正在相互抵消，优先识别哪一层先失效或被确认。",
       "layers": {
         "event": {
@@ -358,9 +358,9 @@
         },
         "market_context": {
           "available": true,
-          "score": 13.5,
+          "score": 13.8,
           "confidence": "medium",
-          "evidence": "regime=narrow_risk_on；上涨占比=0.5697；风险温度=59.8。"
+          "evidence": "regime=narrow_risk_on；上涨占比=0.5697；风险温度=59.2。"
         }
       },
       "contributors": {
@@ -449,9 +449,9 @@
         },
         "market_context": {
           "available": true,
-          "score": 13.5,
+          "score": 13.8,
           "confidence": "medium",
-          "evidence": "regime=narrow_risk_on；上涨占比=0.5697；风险温度=59.8。"
+          "evidence": "regime=narrow_risk_on；上涨占比=0.5697；风险温度=59.2。"
         }
       },
       "contributors": {
@@ -463,8 +463,8 @@
           },
           {
             "layer": "market_context",
-            "score": 13.5,
-            "evidence": "regime=narrow_risk_on；上涨占比=0.5697；风险温度=59.8。"
+            "score": 13.8,
+            "evidence": "regime=narrow_risk_on；上涨占比=0.5697；风险温度=59.2。"
           }
         ],
         "negative": [
@@ -502,7 +502,7 @@
       "as_of": "2026-09-07",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -38.2,
+      "composite_score": -38.1,
       "coverage": 75.0,
       "confluence": 65.3,
       "available_layers": 4,
@@ -545,9 +545,9 @@
         },
         "market_context": {
           "available": true,
-          "score": 13.5,
+          "score": 13.8,
           "confidence": "medium",
-          "evidence": "regime=narrow_risk_on；上涨占比=0.5697；风险温度=59.8。"
+          "evidence": "regime=narrow_risk_on；上涨占比=0.5697；风险温度=59.2。"
         }
       },
       "contributors": {
@@ -559,8 +559,8 @@
           },
           {
             "layer": "market_context",
-            "score": 13.5,
-            "evidence": "regime=narrow_risk_on；上涨占比=0.5697；风险温度=59.8。"
+            "score": 13.8,
+            "evidence": "regime=narrow_risk_on；上涨占比=0.5697；风险温度=59.2。"
           }
         ],
         "negative": [
@@ -758,9 +758,9 @@
       "as_of": "2026-09-07",
       "base_bias": "bearish",
       "matrix_direction": "neutral",
-      "composite_score": 12.7,
+      "composite_score": 12.8,
       "coverage": 60.0,
-      "confluence": 19.1,
+      "confluence": 19.2,
       "available_layers": 3,
       "opposing_weight_share": 0.0,
       "evidence_state": "noise_or_no_edge",
@@ -800,9 +800,9 @@
         },
         "market_context": {
           "available": true,
-          "score": 13.5,
+          "score": 13.8,
           "confidence": "medium",
-          "evidence": "regime=narrow_risk_on；上涨占比=0.5697；风险温度=59.8。"
+          "evidence": "regime=narrow_risk_on；上涨占比=0.5697；风险温度=59.2。"
         }
       },
       "contributors": {
@@ -814,8 +814,8 @@
           },
           {
             "layer": "market_context",
-            "score": 13.5,
-            "evidence": "regime=narrow_risk_on；上涨占比=0.5697；风险温度=59.8。"
+            "score": 13.8,
+            "evidence": "regime=narrow_risk_on；上涨占比=0.5697；风险温度=59.2。"
           }
         ],
         "negative": []
