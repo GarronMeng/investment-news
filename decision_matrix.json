@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-08T17:46:47+08:00",
+  "generated_at": "2026-09-08T20:12:10+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -30,7 +30,7 @@
       "matrix_direction": "bearish",
       "composite_score": -20.6,
       "coverage": 75.0,
-      "confluence": 63.5,
+      "confluence": 63.4,
       "available_layers": 4,
       "opposing_weight_share": 13.3,
       "evidence_state": "partial_confirmation",
@@ -71,17 +71,17 @@
         },
         "market_context": {
           "available": true,
-          "score": 16.7,
+          "score": 16.8,
           "confidence": "medium",
-          "evidence": "regime=narrow_risk_on；上涨占比=0.6149；风险温度=58.7。"
+          "evidence": "regime=narrow_risk_on；上涨占比=0.6149；风险温度=58.6。"
         }
       },
       "contributors": {
         "positive": [
           {
             "layer": "market_context",
-            "score": 16.7,
-            "evidence": "regime=narrow_risk_on；上涨占比=0.6149；风险温度=58.7。"
+            "score": 16.8,
+            "evidence": "regime=narrow_risk_on；上涨占比=0.6149；风险温度=58.6。"
           }
         ],
         "negative": [
@@ -108,7 +108,7 @@
       "excluded_layers": [],
       "positive_direction_mass": 1.7,
       "negative_direction_mass": 14.8,
-      "conflict_score": 11.3
+      "conflict_score": 11.4
     },
     "001309": {
       "code": "001309",
@@ -164,9 +164,9 @@
         },
         "market_context": {
           "available": true,
-          "score": 16.7,
+          "score": 16.8,
           "confidence": "medium",
-          "evidence": "regime=narrow_risk_on；上涨占比=0.6149；风险温度=58.7。"
+          "evidence": "regime=narrow_risk_on；上涨占比=0.6149；风险温度=58.6。"
         }
       },
       "contributors": {
@@ -178,8 +178,8 @@
           },
           {
             "layer": "market_context",
-            "score": 16.7,
-            "evidence": "regime=narrow_risk_on；上涨占比=0.6149；风险温度=58.7。"
+            "score": 16.8,
+            "evidence": "regime=narrow_risk_on；上涨占比=0.6149；风险温度=58.6。"
           }
         ],
         "negative": [
@@ -206,7 +206,7 @@
       "excluded_layers": [],
       "positive_direction_mass": 9.1,
       "negative_direction_mass": 10.4,
-      "conflict_score": 93.1
+      "conflict_score": 93.2
     },
     "300308": {
       "code": "300308",
@@ -217,7 +217,7 @@
       "as_of": "2026-09-08",
       "base_bias": "bullish",
       "matrix_direction": "neutral",
-      "composite_score": 6.5,
+      "composite_score": 6.6,
       "coverage": 75.0,
       "confluence": 9.8,
       "available_layers": 4,
@@ -260,9 +260,9 @@
         },
         "market_context": {
           "available": true,
-          "score": 16.7,
+          "score": 16.8,
           "confidence": "medium",
-          "evidence": "regime=narrow_risk_on；上涨占比=0.6149；风险温度=58.7。"
+          "evidence": "regime=narrow_risk_on；上涨占比=0.6149；风险温度=58.6。"
         }
       },
       "contributors": {
@@ -274,8 +274,8 @@
           },
           {
             "layer": "market_context",
-            "score": 16.7,
-            "evidence": "regime=narrow_risk_on；上涨占比=0.6149；风险温度=58.7。"
+            "score": 16.8,
+            "evidence": "regime=narrow_risk_on；上涨占比=0.6149；风险温度=58.6。"
           }
         ],
         "negative": [
@@ -357,17 +357,17 @@
         },
         "market_context": {
           "available": true,
-          "score": 16.7,
+          "score": 16.8,
           "confidence": "medium",
-          "evidence": "regime=narrow_risk_on；上涨占比=0.6149；风险温度=58.7。"
+          "evidence": "regime=narrow_risk_on；上涨占比=0.6149；风险温度=58.6。"
         }
       },
       "contributors": {
         "positive": [
           {
             "layer": "market_context",
-            "score": 16.7,
-            "evidence": "regime=narrow_risk_on；上涨占比=0.6149；风险温度=58.7。"
+            "score": 16.8,
+            "evidence": "regime=narrow_risk_on；上涨占比=0.6149；风险温度=58.6。"
           }
         ],
         "negative": [
@@ -394,7 +394,7 @@
       "excluded_layers": [],
       "positive_direction_mass": 1.7,
       "negative_direction_mass": 28.9,
-      "conflict_score": 6.1
+      "conflict_score": 6.2
     },
     "600667": {
       "code": "600667",
@@ -448,17 +448,17 @@
         },
         "market_context": {
           "available": true,
-          "score": 16.7,
+          "score": 16.8,
           "confidence": "medium",
-          "evidence": "regime=narrow_risk_on；上涨占比=0.6149；风险温度=58.7。"
+          "evidence": "regime=narrow_risk_on；上涨占比=0.6149；风险温度=58.6。"
         }
       },
       "contributors": {
         "positive": [
           {
             "layer": "market_context",
-            "score": 16.7,
-            "evidence": "regime=narrow_risk_on；上涨占比=0.6149；风险温度=58.7。"
+            "score": 16.8,
+            "evidence": "regime=narrow_risk_on；上涨占比=0.6149；风险温度=58.6。"
           }
         ],
         "negative": [
@@ -485,7 +485,7 @@
       "excluded_layers": [],
       "positive_direction_mass": 1.7,
       "negative_direction_mass": 18.8,
-      "conflict_score": 9.1
+      "conflict_score": 9.2
     },
     "000636": {
       "code": "000636",
@@ -537,17 +537,17 @@
         },
         "market_context": {
           "available": true,
-          "score": 16.7,
+          "score": 16.8,
           "confidence": "medium",
-          "evidence": "regime=narrow_risk_on；上涨占比=0.6149；风险温度=58.7。"
+          "evidence": "regime=narrow_risk_on；上涨占比=0.6149；风险温度=58.6。"
         }
       },
       "contributors": {
         "positive": [
           {
             "layer": "market_context",
-            "score": 16.7,
-            "evidence": "regime=narrow_risk_on；上涨占比=0.6149；风险温度=58.7。"
+            "score": 16.8,
+            "evidence": "regime=narrow_risk_on；上涨占比=0.6149；风险温度=58.6。"
           }
         ],
         "negative": [
@@ -745,7 +745,7 @@
       "as_of": "2026-09-07",
       "base_bias": "bearish",
       "matrix_direction": "neutral",
-      "composite_score": 13.2,
+      "composite_score": 13.3,
       "coverage": 60.0,
       "confluence": 19.9,
       "available_layers": 3,
@@ -787,9 +787,9 @@
         },
         "market_context": {
           "available": true,
-          "score": 16.7,
+          "score": 16.8,
           "confidence": "medium",
-          "evidence": "regime=narrow_risk_on；上涨占比=0.6149；风险温度=58.7。"
+          "evidence": "regime=narrow_risk_on；上涨占比=0.6149；风险温度=58.6。"
         }
       },
       "contributors": {
@@ -801,8 +801,8 @@
           },
           {
             "layer": "market_context",
-            "score": 16.7,
-            "evidence": "regime=narrow_risk_on；上涨占比=0.6149；风险温度=58.7。"
+            "score": 16.8,
+            "evidence": "regime=narrow_risk_on；上涨占比=0.6149；风险温度=58.6。"
           }
         ],
         "negative": []
@@ -832,29 +832,7 @@
     "002384",
     "600667"
   ],
-  "state_changes": [
-    {
-      "code": "001309",
-      "name": "德明利",
-      "field": "evidence_state",
-      "from": "noise_or_no_edge",
-      "to": "conflict"
-    },
-    {
-      "code": "001309",
-      "name": "德明利",
-      "field": "thesis_state",
-      "from": "no_directional_thesis",
-      "to": "conflicted"
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "thesis_state",
-      "from": "emerging",
-      "to": "supported"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "weights": {
       "event": 25,
