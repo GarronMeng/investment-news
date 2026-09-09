@@ -1,31 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-09-09T17:54:04+08:00",
+  "generated_at": "2026-09-09T20:26:08+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
-    {
-      "date": "2026-09-09",
-      "time": "20:15",
-      "type": "macro",
-      "category": "labor",
-      "region": "美国",
-      "title": "美国截至8月22日当周ADP就业周度发布变动(万人)",
-      "actual": null,
-      "forecast": null,
-      "previous": 1.18,
-      "importance": 2,
-      "impact_channels": [
-        "美债收益率",
-        "美元",
-        "全球成长估值",
-        "黄金/白银"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
     {
       "date": "2026-09-10",
       "time": "16:00",
@@ -1136,8 +1114,8 @@
     }
   ],
   "summary": {
-    "total": 53,
-    "macro": 53,
+    "total": 52,
+    "macro": 52,
     "global_earnings": 0,
     "high_importance": 0,
     "macro_days_ok": 11,
