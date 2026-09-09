@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-09T16:15:55+08:00",
+  "generated_at": "2026-09-09T17:48:55+08:00",
   "timezone": "Asia/Shanghai",
   "breadth": {
     "total": 5559,
@@ -62,15 +62,15 @@
     {
       "symbol": "hkHSI",
       "name": "恒生指数",
-      "price": 25255.42,
-      "change_pct": -0.24,
+      "price": 25274.96,
+      "change_pct": -0.17,
       "source": "腾讯行情"
     },
     {
       "symbol": "hkHSTECH",
       "name": "恒生科技指数",
-      "price": 4421.84,
-      "change_pct": -0.74,
+      "price": 4420.79,
+      "change_pct": -0.76,
       "source": "腾讯行情"
     }
   ],
@@ -393,10 +393,10 @@
   "regime": {
     "label": "Transition",
     "code": "transition",
-    "score": -18.6,
+    "score": -18.4,
     "components": {
       "breadth": -44.3,
-      "indices": -9.2,
+      "indices": -8.8,
       "limit_structure": 57.3
     },
     "methodology": "市场广度55% + 核心指数30% + 涨跌停结构15%；仅用于状态分类，不是收益概率。"
