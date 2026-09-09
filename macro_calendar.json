@@ -1,51 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-09-09T09:27:39+08:00",
+  "generated_at": "2026-09-09T12:40:52+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
-    {
-      "date": "2026-09-09",
-      "time": "09:30",
-      "type": "macro",
-      "category": "inflation",
-      "region": "中国",
-      "title": "中国8月CPI年率(%)",
-      "actual": null,
-      "forecast": 0.8,
-      "previous": 0.5,
-      "importance": 2,
-      "impact_channels": [
-        "中国增长预期",
-        "行业盈利预期",
-        "人民币汇率"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-09",
-      "time": "09:30",
-      "type": "macro",
-      "category": "inflation",
-      "region": "中国",
-      "title": "中国8月PPI年率(%)",
-      "actual": null,
-      "forecast": 3.6,
-      "previous": 3.5,
-      "importance": 2,
-      "impact_channels": [
-        "中国增长预期",
-        "行业盈利预期",
-        "人民币汇率"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
     {
       "date": "2026-09-09",
       "time": "20:15",
@@ -607,235 +565,6 @@
       "status": "scheduled"
     },
     {
-      "date": "2026-09-16",
-      "time": "04:30",
-      "type": "macro",
-      "category": "energy",
-      "region": "美国",
-      "title": "美国截至9月11日当周API原油库存变动(万桶)",
-      "actual": null,
-      "forecast": null,
-      "previous": null,
-      "importance": 2,
-      "impact_channels": [
-        "原油",
-        "通胀预期",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-16",
-      "time": "07:50",
-      "type": "macro",
-      "category": "trade",
-      "region": "日本",
-      "title": "日本8月商品贸易帐-未季调(亿日元)",
-      "actual": null,
-      "forecast": null,
-      "previous": -6345.0,
-      "importance": 2,
-      "impact_channels": [
-        "亚洲科技风险偏好",
-        "半导体链映射"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-16",
-      "time": "07:50",
-      "type": "macro",
-      "category": "trade",
-      "region": "日本",
-      "title": "日本8月季调后商品贸易帐(亿日元)",
-      "actual": null,
-      "forecast": null,
-      "previous": -6860.09,
-      "importance": 2,
-      "impact_channels": [
-        "亚洲科技风险偏好",
-        "半导体链映射"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-16",
-      "time": "14:00",
-      "type": "macro",
-      "category": "inflation",
-      "region": "英国",
-      "title": "英国8月CPI年率(%)",
-      "actual": null,
-      "forecast": null,
-      "previous": 2.9,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-16",
-      "time": "14:00",
-      "type": "macro",
-      "category": "inflation",
-      "region": "英国",
-      "title": "英国8月未季调输入PPI年率(%)",
-      "actual": null,
-      "forecast": null,
-      "previous": 4.9,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-16",
-      "time": "14:00",
-      "type": "macro",
-      "category": "inflation",
-      "region": "英国",
-      "title": "英国8月核心CPI年率(%)",
-      "actual": null,
-      "forecast": null,
-      "previous": 2.6,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-16",
-      "time": "20:30",
-      "type": "macro",
-      "category": "growth",
-      "region": "美国",
-      "title": "美国8月关联GDP的零售额控制组月率-季调后(%)",
-      "actual": null,
-      "forecast": null,
-      "previous": -0.4,
-      "importance": 2,
-      "impact_channels": [
-        "全球风险偏好",
-        "AI资本开支预期",
-        "美元"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-16",
-      "time": "20:30",
-      "type": "macro",
-      "category": "growth",
-      "region": "美国",
-      "title": "美国8月核心零售销售月率(%)",
-      "actual": null,
-      "forecast": null,
-      "previous": -0.3,
-      "importance": 2,
-      "impact_channels": [
-        "全球风险偏好",
-        "AI资本开支预期",
-        "美元"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-16",
-      "time": "20:30",
-      "type": "macro",
-      "category": "growth",
-      "region": "美国",
-      "title": "美国8月零售销售年率(%)",
-      "actual": null,
-      "forecast": null,
-      "previous": 5.01,
-      "importance": 2,
-      "impact_channels": [
-        "全球风险偏好",
-        "AI资本开支预期",
-        "美元"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-16",
-      "time": "20:30",
-      "type": "macro",
-      "category": "growth",
-      "region": "美国",
-      "title": "美国8月零售销售月率(%)",
-      "actual": null,
-      "forecast": null,
-      "previous": -0.6,
-      "importance": 2,
-      "impact_channels": [
-        "全球风险偏好",
-        "AI资本开支预期",
-        "美元"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-16",
-      "time": "22:30",
-      "type": "macro",
-      "category": "energy",
-      "region": "美国",
-      "title": "美国截至9月11日当周EIA原油库存变动(万桶)",
-      "actual": null,
-      "forecast": null,
-      "previous": null,
-      "importance": 2,
-      "impact_channels": [
-        "原油",
-        "通胀预期",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
       "date": "2026-09-17",
       "time": "17:00",
       "type": "macro",
@@ -1178,14 +907,16 @@
     }
   ],
   "summary": {
-    "total": 55,
-    "macro": 55,
+    "total": 42,
+    "macro": 42,
     "global_earnings": 0,
     "high_importance": 0,
-    "macro_days_ok": 11,
+    "macro_days_ok": 10,
     "report_days_ok": 11
   },
-  "warnings": [],
+  "warnings": [
+    "news_economic_baidu 20260916: HTTP Error 403: "
+  ],
   "methodology": {
     "macro": "百度股市通全球宏观日历 via AKShare；保留重要性>=3及少量核心importance-2宏观数据，过滤每日持仓/仓单等例行噪声，并剔除已过时的当日时点。",
     "global_earnings": "百度股市通财报发行 via AKShare；仅保留global_catalyst_universe.json中的公开研究公司。",
