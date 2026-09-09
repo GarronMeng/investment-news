@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-09T16:18:50+08:00",
+  "generated_at": "2026-09-09T16:26:06+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -831,50 +831,7 @@
     "002384",
     "518880"
   ],
-  "state_changes": [
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "evidence_state",
-      "from": "multi_layer_confirmed",
-      "to": "partial_confirmation"
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "thesis_state",
-      "from": "confirmed",
-      "to": "supported"
-    },
-    {
-      "code": "000636",
-      "name": "风华高科",
-      "field": "evidence_state",
-      "from": "multi_layer_confirmed",
-      "to": "partial_confirmation"
-    },
-    {
-      "code": "000636",
-      "name": "风华高科",
-      "field": "thesis_state",
-      "from": "confirmed",
-      "to": "supported"
-    },
-    {
-      "code": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "field": "evidence_state",
-      "from": "noise_or_no_edge",
-      "to": "conflict"
-    },
-    {
-      "code": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "field": "thesis_state",
-      "from": "under_test",
-      "to": "conflicted"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "weights": {
       "event": 25,
