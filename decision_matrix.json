@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-10T16:18:39+08:00",
+  "generated_at": "2026-09-10T16:28:09+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -821,50 +821,7 @@
     "518880",
     "001309"
   ],
-  "state_changes": [
-    {
-      "code": "603986",
-      "name": "兆易创新",
-      "field": "evidence_state",
-      "from": "partial_confirmation",
-      "to": "multi_layer_confirmed"
-    },
-    {
-      "code": "603986",
-      "name": "兆易创新",
-      "field": "thesis_state",
-      "from": "supported",
-      "to": "confirmed"
-    },
-    {
-      "code": "000636",
-      "name": "风华高科",
-      "field": "evidence_state",
-      "from": "partial_confirmation",
-      "to": "multi_layer_confirmed"
-    },
-    {
-      "code": "000636",
-      "name": "风华高科",
-      "field": "thesis_state",
-      "from": "supported",
-      "to": "confirmed"
-    },
-    {
-      "code": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "field": "evidence_state",
-      "from": "conflict",
-      "to": "noise_or_no_edge"
-    },
-    {
-      "code": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "field": "thesis_state",
-      "from": "conflicted",
-      "to": "under_test"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "weights": {
       "event": 25,
