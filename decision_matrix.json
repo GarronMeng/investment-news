@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-10T17:51:03+08:00",
+  "generated_at": "2026-09-10T20:16:55+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -69,9 +69,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -57.5,
+          "score": -57.4,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.1718；风险温度=70.5。"
+          "evidence": "regime=risk_off；上涨占比=0.1718；风险温度=70.3。"
         }
       },
       "contributors": {
@@ -84,8 +84,8 @@
           },
           {
             "layer": "market_context",
-            "score": -57.5,
-            "evidence": "regime=risk_off；上涨占比=0.1718；风险温度=70.5。"
+            "score": -57.4,
+            "evidence": "regime=risk_off；上涨占比=0.1718；风险温度=70.3。"
           }
         ]
       },
@@ -113,7 +113,7 @@
       "matrix_direction": "neutral",
       "composite_score": -2.0,
       "coverage": 60.0,
-      "confluence": 3.0,
+      "confluence": 2.9,
       "available_layers": 3,
       "opposing_weight_share": 0.0,
       "evidence_state": "conflict",
@@ -153,9 +153,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -57.5,
+          "score": -57.4,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.1718；风险温度=70.5。"
+          "evidence": "regime=risk_off；上涨占比=0.1718；风险温度=70.3。"
         }
       },
       "contributors": {
@@ -174,8 +174,8 @@
           },
           {
             "layer": "market_context",
-            "score": -57.5,
-            "evidence": "regime=risk_off；上涨占比=0.1718；风险温度=70.5。"
+            "score": -57.4,
+            "evidence": "regime=risk_off；上涨占比=0.1718；风险温度=70.3。"
           }
         ]
       },
@@ -189,7 +189,7 @@
       ],
       "excluded_layers": [],
       "positive_direction_mass": 10.6,
-      "negative_direction_mass": 11.8,
+      "negative_direction_mass": 11.7,
       "conflict_score": 94.7
     },
     "300308": {
@@ -201,7 +201,7 @@
       "as_of": "2026-09-10",
       "base_bias": "neutral",
       "matrix_direction": "neutral",
-      "composite_score": -14.8,
+      "composite_score": -14.7,
       "coverage": 75.0,
       "confluence": 22.1,
       "available_layers": 4,
@@ -244,9 +244,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -57.5,
+          "score": -57.4,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.1718；风险温度=70.5。"
+          "evidence": "regime=risk_off；上涨占比=0.1718；风险温度=70.3。"
         }
       },
       "contributors": {
@@ -265,8 +265,8 @@
           },
           {
             "layer": "market_context",
-            "score": -57.5,
-            "evidence": "regime=risk_off；上涨占比=0.1718；风险温度=70.5。"
+            "score": -57.4,
+            "evidence": "regime=risk_off；上涨占比=0.1718；风险温度=70.3。"
           }
         ]
       },
@@ -281,7 +281,7 @@
       "excluded_layers": [],
       "positive_direction_mass": 5.3,
       "negative_direction_mass": 16.3,
-      "conflict_score": 48.7
+      "conflict_score": 48.8
     },
     "002384": {
       "code": "002384",
@@ -336,9 +336,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -57.5,
+          "score": -57.4,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.1718；风险温度=70.5。"
+          "evidence": "regime=risk_off；上涨占比=0.1718；风险温度=70.3。"
         }
       },
       "contributors": {
@@ -362,8 +362,8 @@
           },
           {
             "layer": "market_context",
-            "score": -57.5,
-            "evidence": "regime=risk_off；上涨占比=0.1718；风险温度=70.5。"
+            "score": -57.4,
+            "evidence": "regime=risk_off；上涨占比=0.1718；风险温度=70.3。"
           }
         ]
       },
@@ -377,7 +377,7 @@
       ],
       "excluded_layers": [],
       "positive_direction_mass": 7.2,
-      "negative_direction_mass": 11.8,
+      "negative_direction_mass": 11.7,
       "conflict_score": 76.3
     },
     "600667": {
@@ -430,9 +430,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -57.5,
+          "score": -57.4,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.1718；风险温度=70.5。"
+          "evidence": "regime=risk_off；上涨占比=0.1718；风险温度=70.3。"
         }
       },
       "contributors": {
@@ -445,8 +445,8 @@
           },
           {
             "layer": "market_context",
-            "score": -57.5,
-            "evidence": "regime=risk_off；上涨占比=0.1718；风险温度=70.5。"
+            "score": -57.4,
+            "evidence": "regime=risk_off；上涨占比=0.1718；风险温度=70.3。"
           }
         ]
       },
@@ -515,9 +515,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -57.5,
+          "score": -57.4,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.1718；风险温度=70.5。"
+          "evidence": "regime=risk_off；上涨占比=0.1718；风险温度=70.3。"
         }
       },
       "contributors": {
@@ -725,7 +725,7 @@
       "as_of": "2026-09-09",
       "base_bias": "bearish",
       "matrix_direction": "neutral",
-      "composite_score": -17.1,
+      "composite_score": -17.0,
       "coverage": 75.0,
       "confluence": 25.6,
       "available_layers": 4,
@@ -770,9 +770,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -57.5,
+          "score": -57.4,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.1718；风险温度=70.5。"
+          "evidence": "regime=risk_off；上涨占比=0.1718；风险温度=70.3。"
         }
       },
       "contributors": {
@@ -791,8 +791,8 @@
           },
           {
             "layer": "market_context",
-            "score": -57.5,
-            "evidence": "regime=risk_off；上涨占比=0.1718；风险温度=70.5。"
+            "score": -57.4,
+            "evidence": "regime=risk_off；上涨占比=0.1718；风险温度=70.3。"
           }
         ]
       },
@@ -821,78 +821,7 @@
     "518880",
     "300308"
   ],
-  "state_changes": [
-    {
-      "code": "603986",
-      "name": "兆易创新",
-      "field": "evidence_state",
-      "from": "multi_layer_confirmed",
-      "to": "partial_confirmation"
-    },
-    {
-      "code": "603986",
-      "name": "兆易创新",
-      "field": "thesis_state",
-      "from": "confirmed",
-      "to": "supported"
-    },
-    {
-      "code": "001309",
-      "name": "德明利",
-      "field": "evidence_state",
-      "from": "noise_or_no_edge",
-      "to": "conflict"
-    },
-    {
-      "code": "001309",
-      "name": "德明利",
-      "field": "thesis_state",
-      "from": "no_directional_thesis",
-      "to": "conflicted"
-    },
-    {
-      "code": "300308",
-      "name": "中际旭创",
-      "field": "evidence_state",
-      "from": "conflict",
-      "to": "noise_or_no_edge"
-    },
-    {
-      "code": "300308",
-      "name": "中际旭创",
-      "field": "thesis_state",
-      "from": "conflicted",
-      "to": "no_directional_thesis"
-    },
-    {
-      "code": "600667",
-      "name": "太极实业",
-      "field": "evidence_state",
-      "from": "multi_layer_confirmed",
-      "to": "partial_confirmation"
-    },
-    {
-      "code": "600667",
-      "name": "太极实业",
-      "field": "thesis_state",
-      "from": "confirmed",
-      "to": "emerging"
-    },
-    {
-      "code": "000636",
-      "name": "风华高科",
-      "field": "evidence_state",
-      "from": "multi_layer_confirmed",
-      "to": "partial_confirmation"
-    },
-    {
-      "code": "000636",
-      "name": "风华高科",
-      "field": "thesis_state",
-      "from": "confirmed",
-      "to": "supported"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "weights": {
       "event": 25,
