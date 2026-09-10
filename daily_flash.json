@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-10T12:41:59+08:00",
+  "generated_at": "2026-09-10T12:54:34+08:00",
   "timezone": "Asia/Shanghai",
   "title": "Daily Flash · 每日投资驾驶舱",
   "core_conclusion": "A股状态为 Transition，上涨家数占比 32.3%，风险温度 65/100（elevated）。沪深300 PE-TTM 13.66；10年分位 58.3%；强势：煤炭开采加工、港口航运、元件；弱势：游戏、文化传媒、小家电。研究复核优先关注 中际旭创、东山精密、创新药沪港深ETF天弘；该排序代表证据变化与复核优先级，不代表交易优先级。资金/期指：融资余额26142亿元，5日-0.54%；南向成交净买额+34.8亿元；中证500股指期货基差-0.76%。 下一催化：09-10 16:00 中国8月新增人民币贷款-年初至今(亿元)；09-10 16:00 中国8月社会融资规模-年初至今(亿元)。主线财报已确认披露 21/21 个研究样本。",
@@ -417,10 +417,10 @@
       "symbol": "^N225",
       "group": "亚洲",
       "unit": "index",
-      "value": 64796.1992,
-      "raw_value": 64796.1992,
+      "value": 64768.6602,
+      "raw_value": 64768.6602,
       "previous_close": 65142.7812,
-      "change_pct": -0.53,
+      "change_pct": -0.57,
       "as_of": "2026-09-10T08:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -431,10 +431,10 @@
       "symbol": "^KS11",
       "group": "亚洲",
       "unit": "index",
-      "value": 7004.6802,
-      "raw_value": 7004.6802,
+      "value": 7019.6602,
+      "raw_value": 7019.6602,
       "previous_close": 7051.6401,
-      "change_pct": -0.67,
+      "change_pct": -0.45,
       "as_of": "2026-09-10T08:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -473,10 +473,10 @@
       "symbol": "DX-Y.NYB",
       "group": "汇率",
       "unit": "index",
-      "value": 98.737,
-      "raw_value": 98.737,
+      "value": 98.732,
+      "raw_value": 98.732,
       "previous_close": 98.77,
-      "change_pct": -0.03,
+      "change_pct": -0.04,
       "as_of": "2026-09-10T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -487,11 +487,11 @@
       "symbol": "CNH=X",
       "group": "汇率",
       "unit": "fx",
-      "value": 6.7062,
-      "raw_value": 6.7062,
+      "value": 6.7069,
+      "raw_value": 6.7069,
       "previous_close": null,
       "change_pct": null,
-      "as_of": "2026-09-10T12:38:55+08:00",
+      "as_of": "2026-09-10T12:51:43+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -501,10 +501,10 @@
       "symbol": "GC=F",
       "group": "商品",
       "unit": "usd",
-      "value": 4455.6001,
-      "raw_value": 4455.6001,
+      "value": 4449.1001,
+      "raw_value": 4449.1001,
       "previous_close": 4416.0,
-      "change_pct": 0.9,
+      "change_pct": 0.75,
       "as_of": "2026-09-10T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -515,10 +515,10 @@
       "symbol": "SI=F",
       "group": "商品",
       "unit": "usd",
-      "value": 68.115,
-      "raw_value": 68.115,
+      "value": 68.01,
+      "raw_value": 68.01,
       "previous_close": 67.942,
-      "change_pct": 0.25,
+      "change_pct": 0.1,
       "as_of": "2026-09-10T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -529,10 +529,10 @@
       "symbol": "CL=F",
       "group": "商品",
       "unit": "usd",
-      "value": 96.11,
-      "raw_value": 96.11,
+      "value": 96.13,
+      "raw_value": 96.13,
       "previous_close": 96.05,
-      "change_pct": 0.06,
+      "change_pct": 0.08,
       "as_of": "2026-09-10T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -543,10 +543,10 @@
       "symbol": "BZ=F",
       "group": "商品",
       "unit": "usd",
-      "value": 101.03,
-      "raw_value": 101.03,
+      "value": 101.04,
+      "raw_value": 101.04,
       "previous_close": 101.21,
-      "change_pct": -0.18,
+      "change_pct": -0.17,
       "as_of": "2026-09-10T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -632,14 +632,14 @@
     },
     {
       "name": "美债 / 美元",
-      "score": -4.6,
+      "score": -4.5,
       "label": "中性",
       "weight": 5,
       "evidence": "收益率与美元上行对长久期风险资产偏压制"
     },
     {
       "name": "商品避险",
-      "score": 3.9,
+      "score": 2.8,
       "label": "中性",
       "weight": 3,
       "evidence": "黄金/白银/原油组合变化"
@@ -858,16 +858,16 @@
   ],
   "sources": {
     "market_state": "2026-09-09T20:20:41+08:00",
-    "risk": "2026-09-10T12:38:14+08:00",
-    "valuation": "2026-09-10T12:38:04+08:00",
-    "decision_matrix": "2026-09-10T12:38:14+08:00",
-    "global_markets": "2026-09-10T12:38:56+08:00",
-    "catalysts": "2026-09-10T12:39:27+08:00",
+    "risk": "2026-09-10T12:50:56+08:00",
+    "valuation": "2026-09-10T12:50:46+08:00",
+    "decision_matrix": "2026-09-10T12:50:56+08:00",
+    "global_markets": "2026-09-10T12:51:42+08:00",
+    "catalysts": "2026-09-10T12:52:14+08:00",
     "ai_signals": "2026-08-26 13:33",
     "sentiment": "2026-09-10T12:36:57+08:00",
-    "market_extras": "2026-09-10T12:38:56+08:00",
-    "macro_calendar": "2026-09-10T12:40:51+08:00",
-    "theme_earnings": "2026-09-10T12:41:59+08:00"
+    "market_extras": "2026-09-10T12:51:45+08:00",
+    "macro_calendar": "2026-09-10T12:53:11+08:00",
+    "theme_earnings": "2026-09-10T12:54:34+08:00"
   },
   "boundary": "Daily Flash用于信息压缩、研究排序与条件验证；缺失数据保持缺失，不生成无条件买卖、仓位或止损指令。",
   "integrity": {
@@ -973,6 +973,220 @@
       "actual": null,
       "forecast": 20.5,
       "previous": 20.6,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-11",
+      "time": "00:00",
+      "type": "macro",
+      "category": "energy",
+      "region": "美国",
+      "title": "美国截至9月4日当周EIA原油库存变动(万桶)",
+      "actual": null,
+      "forecast": -133.6,
+      "previous": -445.0,
+      "importance": 2,
+      "impact_channels": [
+        "原油",
+        "通胀预期",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-11",
+      "time": "04:30",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "美国",
+      "title": "美国截至9月9日美联储资产负债表(万亿美元)",
+      "actual": null,
+      "forecast": null,
+      "previous": 6.74,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-11",
+      "time": "14:00",
+      "type": "macro",
+      "category": "growth",
+      "region": "英国",
+      "title": "英国7月GDP月率(%)",
+      "actual": null,
+      "forecast": 0.0,
+      "previous": 0.3,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-11",
+      "time": "14:00",
+      "type": "macro",
+      "category": "trade",
+      "region": "英国",
+      "title": "英国7月商品贸易帐-季调后(亿英镑)",
+      "actual": null,
+      "forecast": -223.0,
+      "previous": -230.07,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-11",
+      "time": "14:00",
+      "type": "macro",
+      "category": "trade",
+      "region": "英国",
+      "title": "英国7月季调后贸易帐(亿英镑)",
+      "actual": null,
+      "forecast": null,
+      "previous": -55.37,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-11",
+      "time": "14:00",
+      "type": "macro",
+      "category": "growth",
+      "region": "英国",
+      "title": "英国7月工业产出年率(%)",
+      "actual": null,
+      "forecast": 0.2,
+      "previous": -0.2,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-11",
+      "time": "14:00",
+      "type": "macro",
+      "category": "growth",
+      "region": "英国",
+      "title": "英国7月工业产出月率(%)",
+      "actual": null,
+      "forecast": -0.2,
+      "previous": -0.2,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-11",
+      "time": "20:30",
+      "type": "macro",
+      "category": "inflation",
+      "region": "美国",
+      "title": "美国8月CPI年率未季调(%)",
+      "actual": null,
+      "forecast": 3.4,
+      "previous": 3.4,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-11",
+      "time": "20:30",
+      "type": "macro",
+      "category": "inflation",
+      "region": "美国",
+      "title": "美国8月核心CPI年率未季调(%)",
+      "actual": null,
+      "forecast": 2.4,
+      "previous": 2.5,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-11",
+      "time": "20:30",
+      "type": "macro",
+      "category": "inflation",
+      "region": "美国",
+      "title": "美国8月能源CPI年率-未季调(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 14.7,
       "importance": 2,
       "impact_channels": [
         "美债收益率",
@@ -1773,12 +1987,12 @@
     }
   ],
   "macro_calendar_summary": {
-    "total": 42,
-    "macro": 42,
+    "total": 52,
+    "macro": 52,
     "global_earnings": 0,
     "high_importance": 0,
-    "macro_days_ok": 10,
-    "report_days_ok": 10
+    "macro_days_ok": 11,
+    "report_days_ok": 11
   },
   "theme_earnings": [
     {
@@ -2223,8 +2437,8 @@
   "theme_earnings_period": "2026半年报",
   "quality": {
     "macro_calendar": {
-      "events": 42,
-      "warnings": 2,
+      "events": 52,
+      "warnings": 0,
       "horizon_days": 10
     },
     "theme_earnings": {
