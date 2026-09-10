@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-10T09:20:49+08:00",
+  "generated_at": "2026-09-10T12:38:14+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -71,9 +71,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -17.6,
+          "score": -17.7,
           "confidence": "medium",
-          "evidence": "regime=transition；上涨占比=0.3227；风险温度=64.4。"
+          "evidence": "regime=transition；上涨占比=0.3227；风险温度=64.8。"
         }
       },
       "contributors": {
@@ -101,7 +101,7 @@
       ],
       "excluded_layers": [],
       "positive_direction_mass": 0.0,
-      "negative_direction_mass": 24.7,
+      "negative_direction_mass": 24.8,
       "conflict_score": 0.0
     },
     "001309": {
@@ -157,9 +157,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -17.6,
+          "score": -17.7,
           "confidence": "medium",
-          "evidence": "regime=transition；上涨占比=0.3227；风险温度=64.4。"
+          "evidence": "regime=transition；上涨占比=0.3227；风险温度=64.8。"
         }
       },
       "contributors": {
@@ -205,7 +205,7 @@
       "as_of": "2026-09-09",
       "base_bias": "bullish",
       "matrix_direction": "neutral",
-      "composite_score": 1.7,
+      "composite_score": 1.6,
       "coverage": 75.0,
       "confluence": 2.5,
       "available_layers": 4,
@@ -248,9 +248,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -17.6,
+          "score": -17.7,
           "confidence": "medium",
-          "evidence": "regime=transition；上涨占比=0.3227；风险温度=64.4。"
+          "evidence": "regime=transition；上涨占比=0.3227；风险温度=64.8。"
         }
       },
       "contributors": {
@@ -274,8 +274,8 @@
           },
           {
             "layer": "market_context",
-            "score": -17.6,
-            "evidence": "regime=transition；上涨占比=0.3227；风险温度=64.4。"
+            "score": -17.7,
+            "evidence": "regime=transition；上涨占比=0.3227；风险温度=64.8。"
           }
         ]
       },
@@ -345,9 +345,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -17.6,
+          "score": -17.7,
           "confidence": "medium",
-          "evidence": "regime=transition；上涨占比=0.3227；风险温度=64.4。"
+          "evidence": "regime=transition；上涨占比=0.3227；风险温度=64.8。"
         }
       },
       "contributors": {
@@ -371,8 +371,8 @@
           },
           {
             "layer": "market_context",
-            "score": -17.6,
-            "evidence": "regime=transition；上涨占比=0.3227；风险温度=64.4。"
+            "score": -17.7,
+            "evidence": "regime=transition；上涨占比=0.3227；风险温度=64.8。"
           }
         ]
       },
@@ -387,7 +387,7 @@
       "excluded_layers": [],
       "positive_direction_mass": 12.2,
       "negative_direction_mass": 7.8,
-      "conflict_score": 77.9
+      "conflict_score": 78.0
     },
     "600667": {
       "code": "600667",
@@ -400,7 +400,7 @@
       "matrix_direction": "bearish",
       "composite_score": -49.8,
       "coverage": 75.0,
-      "confluence": 84.9,
+      "confluence": 85.0,
       "available_layers": 4,
       "opposing_weight_share": 0.0,
       "evidence_state": "multi_layer_confirmed",
@@ -441,9 +441,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -17.6,
+          "score": -17.7,
           "confidence": "medium",
-          "evidence": "regime=transition；上涨占比=0.3227；风险温度=64.4。"
+          "evidence": "regime=transition；上涨占比=0.3227；风险温度=64.8。"
         }
       },
       "contributors": {
@@ -485,7 +485,7 @@
       "matrix_direction": "bearish",
       "composite_score": -44.2,
       "coverage": 75.0,
-      "confluence": 69.2,
+      "confluence": 69.3,
       "available_layers": 4,
       "opposing_weight_share": 20.0,
       "evidence_state": "partial_confirmation",
@@ -526,9 +526,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -17.6,
+          "score": -17.7,
           "confidence": "medium",
-          "evidence": "regime=transition；上涨占比=0.3227；风险温度=64.4。"
+          "evidence": "regime=transition；上涨占比=0.3227；风险温度=64.8。"
         }
       },
       "contributors": {
@@ -736,7 +736,7 @@
       "as_of": "2026-09-09",
       "base_bias": "bearish",
       "matrix_direction": "neutral",
-      "composite_score": -6.2,
+      "composite_score": -6.3,
       "coverage": 75.0,
       "confluence": 9.4,
       "available_layers": 4,
@@ -780,9 +780,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -17.6,
+          "score": -17.7,
           "confidence": "medium",
-          "evidence": "regime=transition；上涨占比=0.3227；风险温度=64.4。"
+          "evidence": "regime=transition；上涨占比=0.3227；风险温度=64.8。"
         }
       },
       "contributors": {
@@ -831,15 +831,7 @@
     "518880",
     "001309"
   ],
-  "state_changes": [
-    {
-      "code": "161226",
-      "name": "国投白银LOF",
-      "field": "thesis_state",
-      "from": "no_directional_thesis",
-      "to": "under_test"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "weights": {
       "event": 25,
