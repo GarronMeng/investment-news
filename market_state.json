@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-10T17:47:55+08:00",
+  "generated_at": "2026-09-10T20:14:23+08:00",
   "timezone": "Asia/Shanghai",
   "breadth": {
     "total": 5560,
@@ -411,14 +411,12 @@
       "status": "fresh"
     },
     "sectors": {
-      "status": "fresh",
-      "source": "同花顺 via AKShare",
-      "fallback": true
+      "status": "stale",
+      "error": "sectors unavailable"
     },
     "industry_flow": {
-      "status": "fresh",
-      "source": "同花顺 via AKShare",
-      "fallback": true
+      "status": "stale",
+      "error": "industry_flow unavailable"
     },
     "etf_activity": {
       "status": "fresh"
@@ -428,8 +426,7 @@
     "breadth: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
     "sectors: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
     "industry_flow: Expecting value: line 1 column 1 (char 0)",
-    "sectors primary unavailable; using 同花顺 via AKShare fallback",
-    "industry_flow primary unavailable; using 同花顺 via AKShare fallback",
+    "industry_fallback_ths: No tables found",
     "breadth primary source unavailable; using 新浪财经 via AKShare fallback"
   ],
   "methodology": {
