@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-10T17:53:30+08:00",
+  "generated_at": "2026-09-10T20:25:13+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
@@ -78,7 +78,7 @@
       "region": "美国",
       "title": "美国截至9月4日当周EIA原油库存变动(万桶)",
       "actual": null,
-      "forecast": -133.6,
+      "forecast": -155.4,
       "previous": -445.0,
       "importance": 2,
       "impact_channels": [
@@ -443,7 +443,7 @@
       "title": "美国截至8月29日当周ADP就业周度发布变动(万人)",
       "actual": null,
       "forecast": null,
-      "previous": null,
+      "previous": 1.2,
       "importance": 2,
       "impact_channels": [
         "美债收益率",
@@ -509,7 +509,7 @@
       "title": "美国截至9月11日当周API原油库存变动(万桶)",
       "actual": null,
       "forecast": null,
-      "previous": null,
+      "previous": -32.7,
       "importance": 2,
       "impact_channels": [
         "原油",
@@ -738,7 +738,7 @@
       "title": "欧元区8月核心调和CPI年率-未季调终值(%)",
       "actual": null,
       "forecast": null,
-      "previous": null,
+      "previous": 2.1,
       "importance": 2,
       "impact_channels": [
         "全球利率",
@@ -759,7 +759,7 @@
       "title": "欧元区8月调和CPI年率-未季调终值(%)",
       "actual": null,
       "forecast": null,
-      "previous": null,
+      "previous": 3.3,
       "importance": 2,
       "impact_channels": [
         "全球利率",
