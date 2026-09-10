@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-09T20:32:03+08:00",
+  "generated_at": "2026-09-10T09:23:01+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
@@ -120,7 +120,7 @@
       "region": "美国",
       "title": "美国截至9月4日当周EIA原油库存变动(万桶)",
       "actual": null,
-      "forecast": null,
+      "forecast": -133.6,
       "previous": -445.0,
       "importance": 2,
       "impact_channels": [
