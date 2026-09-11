@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-11T09:23:24+08:00",
-  "source_generated_at": "2026-09-11T09:23:24+08:00",
+  "generated_at": "2026-09-11T12:48:02+08:00",
+  "source_generated_at": "2026-09-11T12:48:02+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -304,29 +304,7 @@
       "condition_state": "conditions_not_met"
     }
   },
-  "state_changes": [
-    {
-      "code": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "field": "rsi_zone",
-      "from": "neutral",
-      "to": "weak"
-    },
-    {
-      "code": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "field": "breakout_20d",
-      "from": "inside_range",
-      "to": "new_low_20d"
-    },
-    {
-      "code": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "field": "condition_state",
-      "from": "partial_conditions",
-      "to": "conditions_not_met"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "rsi14": "Wilder RSI(14)",
     "macd": "EMA12/EMA26 DIF, EMA9 signal, histogram=(DIF-DEA)*2",
