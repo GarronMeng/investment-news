@@ -1,118 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-09-10T20:25:13+08:00",
+  "generated_at": "2026-09-11T09:25:53+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
-    {
-      "date": "2026-09-10",
-      "time": "20:30",
-      "type": "macro",
-      "category": "inflation",
-      "region": "美国",
-      "title": "美国8月PPI年率(%)",
-      "actual": null,
-      "forecast": 5.3,
-      "previous": 4.7,
-      "importance": 2,
-      "impact_channels": [
-        "美债收益率",
-        "美元",
-        "全球成长估值",
-        "黄金/白银"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-10",
-      "time": "20:30",
-      "type": "macro",
-      "category": "inflation",
-      "region": "美国",
-      "title": "美国8月核心PPI年率(%)",
-      "actual": null,
-      "forecast": 4.6,
-      "previous": 4.2,
-      "importance": 2,
-      "impact_channels": [
-        "美债收益率",
-        "美元",
-        "全球成长估值",
-        "黄金/白银"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-10",
-      "time": "20:30",
-      "type": "macro",
-      "category": "labor",
-      "region": "美国",
-      "title": "美国截至9月5日当周初请失业金人数(万)",
-      "actual": null,
-      "forecast": 20.5,
-      "previous": 20.6,
-      "importance": 2,
-      "impact_channels": [
-        "美债收益率",
-        "美元",
-        "全球成长估值",
-        "黄金/白银"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-11",
-      "time": "00:00",
-      "type": "macro",
-      "category": "energy",
-      "region": "美国",
-      "title": "美国截至9月4日当周EIA原油库存变动(万桶)",
-      "actual": null,
-      "forecast": -155.4,
-      "previous": -445.0,
-      "importance": 2,
-      "impact_channels": [
-        "原油",
-        "通胀预期",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-11",
-      "time": "04:30",
-      "type": "macro",
-      "category": "monetary_policy",
-      "region": "美国",
-      "title": "美国截至9月9日美联储资产负债表(万亿美元)",
-      "actual": null,
-      "forecast": null,
-      "previous": 6.74,
-      "importance": 2,
-      "impact_channels": [
-        "美债收益率",
-        "美元",
-        "全球成长估值",
-        "黄金/白银"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
     {
       "date": "2026-09-11",
       "time": "14:00",
@@ -1069,11 +960,75 @@
       "assets": [],
       "source": "百度股市通 via AKShare",
       "status": "scheduled"
+    },
+    {
+      "date": "2026-09-21",
+      "time": "09:00",
+      "type": "macro",
+      "category": "liquidity",
+      "region": "中国",
+      "title": "中国9月一年期贷款市场报价利率LPR(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 3.0,
+      "importance": 2,
+      "impact_channels": [
+        "A股流动性",
+        "人民币汇率",
+        "成长估值"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-21",
+      "time": "09:00",
+      "type": "macro",
+      "category": "liquidity",
+      "region": "中国",
+      "title": "中国9月五年期贷款市场报价利率LPR(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 3.5,
+      "importance": 2,
+      "impact_channels": [
+        "A股流动性",
+        "人民币汇率",
+        "成长估值"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-21",
+      "time": "20:30",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "美国",
+      "title": "美国8月芝加哥联储全国活动指数",
+      "actual": null,
+      "forecast": null,
+      "previous": -0.08,
+      "importance": null,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
     }
   ],
   "summary": {
-    "total": 50,
-    "macro": 50,
+    "total": 48,
+    "macro": 48,
     "global_earnings": 0,
     "high_importance": 0,
     "macro_days_ok": 11,
