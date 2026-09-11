@@ -1,114 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-09-11T13:20:24+08:00",
+  "generated_at": "2026-09-11T16:16:14+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
-    {
-      "date": "2026-09-11",
-      "time": "14:00",
-      "type": "macro",
-      "category": "growth",
-      "region": "英国",
-      "title": "英国7月GDP月率(%)",
-      "actual": null,
-      "forecast": 0.0,
-      "previous": 0.3,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-11",
-      "time": "14:00",
-      "type": "macro",
-      "category": "trade",
-      "region": "英国",
-      "title": "英国7月商品贸易帐-季调后(亿英镑)",
-      "actual": null,
-      "forecast": -223.0,
-      "previous": -230.07,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-11",
-      "time": "14:00",
-      "type": "macro",
-      "category": "trade",
-      "region": "英国",
-      "title": "英国7月季调后贸易帐(亿英镑)",
-      "actual": null,
-      "forecast": null,
-      "previous": -55.37,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-11",
-      "time": "14:00",
-      "type": "macro",
-      "category": "growth",
-      "region": "英国",
-      "title": "英国7月工业产出年率(%)",
-      "actual": null,
-      "forecast": 0.2,
-      "previous": -0.2,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-11",
-      "time": "14:00",
-      "type": "macro",
-      "category": "growth",
-      "region": "英国",
-      "title": "英国7月工业产出月率(%)",
-      "actual": null,
-      "forecast": -0.2,
-      "previous": -0.2,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
     {
       "date": "2026-09-11",
       "time": "20:30",
@@ -420,7 +315,7 @@
       "region": "日本",
       "title": "日本8月商品贸易帐-未季调(亿日元)",
       "actual": null,
-      "forecast": null,
+      "forecast": -1052.0,
       "previous": -6345.0,
       "importance": 2,
       "impact_channels": [
@@ -844,7 +739,7 @@
       "region": "日本",
       "title": "日本8月全国核心CPI年率(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": 1.8,
       "previous": 1.8,
       "importance": 2,
       "impact_channels": [
@@ -1027,8 +922,8 @@
     }
   ],
   "summary": {
-    "total": 48,
-    "macro": 48,
+    "total": 43,
+    "macro": 43,
     "global_earnings": 0,
     "high_importance": 0,
     "macro_days_ok": 11,
