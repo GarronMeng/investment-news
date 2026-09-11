@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-09-11T12:56:33+08:00",
-  "history_generated_at": "2026-09-11T12:55:57+08:00",
-  "records": 301,
-  "raw_ledger_records": 317,
+  "generated_at": "2026-09-11T16:13:53+08:00",
+  "history_generated_at": "2026-09-11T16:13:20+08:00",
+  "records": 302,
+  "raw_ledger_records": 318,
   "superseded_records": 16,
   "evaluations": [
     {
@@ -11555,11 +11555,37 @@
           "status": "pending"
         }
       }
+    },
+    {
+      "state_id": "71f881d8a00e620a",
+      "state_revision": 2,
+      "asset": "603986",
+      "name": "兆易创新",
+      "signal_date": "2026-09-10",
+      "matrix_direction": "bearish",
+      "thesis_state": "confirmed",
+      "evidence_state": "multi_layer_confirmed",
+      "composite_score": -38.3,
+      "confluence": 81.5,
+      "conflict_score": 0.0,
+      "entry_date": "2026-09-10",
+      "entry_close": 380.64,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
     }
   ],
   "by_thesis_state": {
     "confirmed": {
-      "records": 58,
+      "records": 59,
       "horizons": {
         "t1": {
           "settled": 57,
@@ -11817,7 +11843,7 @@
       }
     },
     "multi_layer_confirmed": {
-      "records": 62,
+      "records": 63,
       "horizons": {
         "t1": {
           "settled": 61,
