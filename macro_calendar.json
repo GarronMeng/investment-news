@@ -1,72 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-09-14T15:11:31+08:00",
+  "generated_at": "2026-09-14T17:10:15+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
-    {
-      "date": "2026-09-14",
-      "time": "16:00",
-      "type": "macro",
-      "category": "liquidity",
-      "region": "中国",
-      "title": "中国8月M2货币供应年率(%)",
-      "actual": null,
-      "forecast": 7.6,
-      "previous": 7.7,
-      "importance": 2,
-      "impact_channels": [
-        "A股流动性",
-        "人民币汇率",
-        "成长估值"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-14",
-      "time": "16:00",
-      "type": "macro",
-      "category": "liquidity",
-      "region": "中国",
-      "title": "中国8月新增人民币贷款-年初至今(亿元)",
-      "actual": null,
-      "forecast": null,
-      "previous": 103800.0,
-      "importance": 2,
-      "impact_channels": [
-        "A股流动性",
-        "人民币汇率",
-        "成长估值"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-14",
-      "time": "16:00",
-      "type": "macro",
-      "category": "liquidity",
-      "region": "中国",
-      "title": "中国8月社会融资规模-年初至今(亿元)",
-      "actual": null,
-      "forecast": null,
-      "previous": 222500.0,
-      "importance": 2,
-      "impact_channels": [
-        "A股流动性",
-        "人民币汇率",
-        "成长估值"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
     {
       "date": "2026-09-18",
       "time": "04:30",
@@ -407,8 +344,8 @@
     }
   ],
   "summary": {
-    "total": 19,
-    "macro": 19,
+    "total": 16,
+    "macro": 16,
     "global_earnings": 0,
     "high_importance": 0,
     "macro_days_ok": 8,
