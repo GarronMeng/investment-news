@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-15T13:00:27+08:00",
-  "source_generated_at": "2026-09-15T13:00:27+08:00",
+  "generated_at": "2026-09-15T14:45:46+08:00",
+  "source_generated_at": "2026-09-15T14:45:46+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -276,35 +276,43 @@
     "517380": {
       "code": "517380",
       "name": "创新药沪港深ETF天弘",
-      "as_of": "2026-09-14",
+      "as_of": "2026-09-15",
       "source_status": "fresh",
       "observations": 140,
-      "close": 0.847,
+      "close": 0.839,
       "ma60": {
-        "value": 0.8181,
+        "value": 0.8209,
         "position": "above",
         "direction": "rising",
-        "slope_pct": 0.003598
+        "slope_pct": 0.003422
       },
-      "rsi14": 49.34,
+      "rsi14": 47.35,
       "rsi_zone": "neutral",
       "macd": {
-        "dif": -0.00089,
-        "dea": 0.00684,
-        "hist": -0.01546,
+        "dif": -0.00163,
+        "dea": 0.00515,
+        "hist": -0.01357,
         "state": "bearish",
-        "cross_age": 15
+        "cross_age": 16
       },
       "volume": {
-        "ratio20": 0.843,
-        "state": "normal"
+        "ratio20": 0.507,
+        "state": "contraction"
       },
       "breakout_20d": "inside_range",
       "data_quality": "usable",
       "condition_state": "partial_conditions"
     }
   },
-  "state_changes": [],
+  "state_changes": [
+    {
+      "code": "517380",
+      "name": "创新药沪港深ETF天弘",
+      "field": "volume",
+      "from": "normal",
+      "to": "contraction"
+    }
+  ],
   "methodology": {
     "rsi14": "Wilder RSI(14)",
     "macd": "EMA12/EMA26 DIF, EMA9 signal, histogram=(DIF-DEA)*2",

@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generated_at": "2026-09-15T13:00:38+08:00",
+  "generated_at": "2026-09-15T14:45:58+08:00",
   "source": {
     "data_generated_at": "2026-09-15 12:59",
     "ai_generated_at": "2026-08-26 13:33",
     "ai_source_generated_at": "2026-08-26 12:26",
-    "features_generated_at": "2026-09-15T13:00:27+08:00",
+    "features_generated_at": "2026-09-15T14:45:46+08:00",
     "fresh_ai": false
   },
   "decisions": [
@@ -204,17 +204,17 @@
     {
       "asset": "517380",
       "name": "创新药沪港深ETF天弘",
-      "as_of": "2026-09-14",
+      "as_of": "2026-09-15",
       "bias": "bearish",
       "status": "market_watch",
       "event_score": 50.0,
-      "market_score": 35.0,
+      "market_score": 15.0,
       "freshness_score": 70,
-      "conviction": 30.0,
+      "conviction": 55,
       "evidence_mode": "market_only",
       "event_count": 0,
-      "trend_state": "mixed",
-      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.00355",
+      "trend_state": "bearish",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.010706",
       "confirmation": [
         "A股与港股创新药板块形成联动",
         "利好由成交量与持续性确认"
