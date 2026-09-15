@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-09-15T17:00:54+08:00",
-  "history_generated_at": "2026-09-15T17:00:44+08:00",
-  "records": 330,
-  "raw_ledger_records": 346,
+  "generated_at": "2026-09-15T18:17:08+08:00",
+  "history_generated_at": "2026-09-15T18:16:59+08:00",
+  "records": 333,
+  "raw_ledger_records": 349,
   "superseded_records": 16,
   "evaluations": [
     {
@@ -12785,6 +12785,32 @@
       }
     },
     {
+      "state_id": "fb558b419de3adac",
+      "state_revision": 2,
+      "asset": "000636",
+      "name": "风华高科",
+      "signal_date": "2026-09-15",
+      "matrix_direction": "bullish",
+      "thesis_state": "emerging",
+      "evidence_state": "partial_confirmation",
+      "composite_score": 23.4,
+      "confluence": 77.0,
+      "conflict_score": 0.0,
+      "entry_date": "2026-09-15",
+      "entry_close": 57.51,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
       "state_id": "2b0129cf2cee2913",
       "state_revision": 2,
       "asset": "001309",
@@ -12795,6 +12821,32 @@
       "evidence_state": "multi_layer_confirmed",
       "composite_score": -39.7,
       "confluence": 81.9,
+      "conflict_score": 0.0,
+      "entry_date": "2026-09-15",
+      "entry_close": 385.98,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "state_id": "14fe43d7fd32786b",
+      "state_revision": 2,
+      "asset": "001309",
+      "name": "德明利",
+      "signal_date": "2026-09-15",
+      "matrix_direction": "bearish",
+      "thesis_state": "supported",
+      "evidence_state": "partial_confirmation",
+      "composite_score": -37.7,
+      "confluence": 81.3,
       "conflict_score": 0.0,
       "entry_date": "2026-09-15",
       "entry_close": 385.98,
@@ -12893,6 +12945,32 @@
       }
     },
     {
+      "state_id": "3a89a5e60ead6894",
+      "state_revision": 2,
+      "asset": "600667",
+      "name": "太极实业",
+      "signal_date": "2026-09-15",
+      "matrix_direction": "neutral",
+      "thesis_state": "conflicted",
+      "evidence_state": "conflict",
+      "composite_score": -10.8,
+      "confluence": 16.2,
+      "conflict_score": 61.0,
+      "entry_date": "2026-09-15",
+      "entry_close": 18.91,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
       "state_id": "823aca757751f561",
       "state_revision": 2,
       "asset": "603986",
@@ -12953,7 +13031,7 @@
       }
     },
     "conflicted": {
-      "records": 109,
+      "records": 110,
       "horizons": {
         "t1": {
           "settled": 108,
@@ -13017,7 +13095,7 @@
       }
     },
     "emerging": {
-      "records": 30,
+      "records": 31,
       "horizons": {
         "t1": {
           "settled": 30,
@@ -13081,7 +13159,7 @@
       }
     },
     "supported": {
-      "records": 66,
+      "records": 67,
       "horizons": {
         "t1": {
           "settled": 63,
@@ -13147,7 +13225,7 @@
   },
   "by_evidence_state": {
     "conflict": {
-      "records": 109,
+      "records": 110,
       "horizons": {
         "t1": {
           "settled": 108,
@@ -13243,7 +13321,7 @@
       }
     },
     "partial_confirmation": {
-      "records": 98,
+      "records": 100,
       "horizons": {
         "t1": {
           "settled": 94,
