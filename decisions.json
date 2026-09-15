@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generated_at": "2026-09-15T16:51:44+08:00",
+  "generated_at": "2026-09-15T17:00:54+08:00",
   "source": {
-    "data_generated_at": "2026-09-15 12:59",
+    "data_generated_at": "2026-09-15 16:59",
     "ai_generated_at": "2026-08-26 13:33",
     "ai_source_generated_at": "2026-08-26 12:26",
-    "features_generated_at": "2026-09-15T16:51:35+08:00",
+    "features_generated_at": "2026-09-15T17:00:44+08:00",
     "fresh_ai": false
   },
   "decisions": [
@@ -180,7 +180,7 @@
     {
       "asset": "518880",
       "name": "黄金ETF华安",
-      "as_of": "2026-09-15",
+      "as_of": "2026-09-14",
       "bias": "bearish",
       "status": "market_watch",
       "event_score": 50.0,
@@ -190,7 +190,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "mixed",
-      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.024435",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.030581",
       "confirmation": [
         "外盘金价与国内黄金现货同向",
         "ETF成交量与价格同步确认"

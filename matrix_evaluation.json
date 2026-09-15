@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-15T16:51:44+08:00",
-  "history_generated_at": "2026-09-15T16:51:35+08:00",
+  "generated_at": "2026-09-15T17:00:54+08:00",
+  "history_generated_at": "2026-09-15T17:00:44+08:00",
   "records": 330,
   "raw_ledger_records": 346,
   "superseded_records": 16,
@@ -860,14 +860,7 @@
           "correct": true
         },
         "t20": {
-          "status": "settled",
-          "date": "2026-09-15",
-          "asset_return": -0.027429,
-          "benchmark_return": null,
-          "excess_return": null,
-          "absolute_excess": null,
-          "directional_excess": -0.027429,
-          "correct": false
+          "status": "pending"
         }
       }
     },
@@ -907,14 +900,7 @@
           "correct": null
         },
         "t20": {
-          "status": "settled",
-          "date": "2026-09-15",
-          "asset_return": -0.027429,
-          "benchmark_return": null,
-          "excess_return": null,
-          "absolute_excess": null,
-          "directional_excess": null,
-          "correct": null
+          "status": "pending"
         }
       }
     },
@@ -12988,7 +12974,7 @@
           "readout": "usable"
         },
         "t20": {
-          "settled": 4,
+          "settled": 3,
           "directional_settled": 2,
           "win_rate": 0.0,
           "mean_directional_excess": -0.127652,
@@ -13116,10 +13102,10 @@
           "readout": "usable"
         },
         "t20": {
-          "settled": 4,
-          "directional_settled": 4,
-          "win_rate": 0.25,
-          "mean_directional_excess": -0.041329,
+          "settled": 3,
+          "directional_settled": 3,
+          "win_rate": 0.3333,
+          "mean_directional_excess": -0.045962,
           "mean_excess_return": null,
           "mean_absolute_excess": null,
           "readout": "insufficient_sample"
@@ -13182,7 +13168,7 @@
           "readout": "usable"
         },
         "t20": {
-          "settled": 4,
+          "settled": 3,
           "directional_settled": 2,
           "win_rate": 0.0,
           "mean_directional_excess": -0.127652,
@@ -13278,13 +13264,13 @@
           "readout": "usable"
         },
         "t20": {
-          "settled": 8,
-          "directional_settled": 8,
-          "win_rate": 0.625,
-          "mean_directional_excess": 0.048907,
+          "settled": 7,
+          "directional_settled": 7,
+          "win_rate": 0.7143,
+          "mean_directional_excess": 0.059812,
           "mean_excess_return": null,
           "mean_absolute_excess": null,
-          "readout": "usable"
+          "readout": "insufficient_sample"
         }
       }
     },

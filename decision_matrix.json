@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-15T16:51:44+08:00",
+  "generated_at": "2026-09-15T17:00:54+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -647,17 +647,17 @@
       "group": "贵金属对冲",
       "role": "低波动避险映射",
       "priority": 3,
-      "as_of": "2026-09-15",
+      "as_of": "2026-09-14",
       "base_bias": "bearish",
       "matrix_direction": "neutral",
-      "composite_score": 0.1,
+      "composite_score": -2.8,
       "coverage": 50.0,
-      "confluence": 0.2,
+      "confluence": 4.3,
       "available_layers": 2,
       "opposing_weight_share": 0.0,
       "evidence_state": "insufficient",
       "thesis_state": "under_test",
-      "attention_score": 70.0,
+      "attention_score": 70.3,
       "research_focus": "原方向尚未被市场充分确认，继续观察验证/失效条件。",
       "layers": {
         "event": {
@@ -668,15 +668,15 @@
         },
         "technical": {
           "available": true,
-          "score": -6.0,
-          "confidence": "medium",
-          "evidence": "MA60 above/rising；MACD bearish；RSI 41.92 (weak)；量能 contraction；20日结构 new_low_20d。"
+          "score": -16.0,
+          "confidence": "high",
+          "evidence": "MA60 above/flat；MACD bearish；RSI 43.47 (weak)；量能 normal；20日结构 inside_range。"
         },
         "relative_strength": {
           "available": true,
-          "score": 9.3,
+          "score": 16.9,
           "confidence": "high",
-          "evidence": "5日相对强弱 -0.006401；20日相对强弱 0.024435。"
+          "evidence": "5日相对强弱 0.001184；20日相对强弱 0.030581。"
         },
         "industry": {
           "available": false,
@@ -697,15 +697,15 @@
         "positive": [
           {
             "layer": "relative_strength",
-            "score": 9.3,
-            "evidence": "5日相对强弱 -0.006401；20日相对强弱 0.024435。"
+            "score": 16.9,
+            "evidence": "5日相对强弱 0.001184；20日相对强弱 0.030581。"
           }
         ],
         "negative": [
           {
             "layer": "technical",
-            "score": -6.0,
-            "evidence": "MA60 above/rising；MACD bearish；RSI 41.92 (weak)；量能 contraction；20日结构 new_low_20d。"
+            "score": -16.0,
+            "evidence": "MA60 above/flat；MACD bearish；RSI 43.47 (weak)；量能 normal；20日结构 inside_range。"
           }
         ]
       },
@@ -718,9 +718,9 @@
         "实际利率上行"
       ],
       "excluded_layers": [],
-      "positive_direction_mass": 0.0,
-      "negative_direction_mass": 0.0,
-      "conflict_score": 0.0
+      "positive_direction_mass": 3.4,
+      "negative_direction_mass": 4.8,
+      "conflict_score": 82.6
     },
     "517380": {
       "code": "517380",
@@ -824,43 +824,7 @@
     "002384",
     "000636"
   ],
-  "state_changes": [
-    {
-      "code": "001309",
-      "name": "德明利",
-      "field": "evidence_state",
-      "from": "partial_confirmation",
-      "to": "multi_layer_confirmed"
-    },
-    {
-      "code": "001309",
-      "name": "德明利",
-      "field": "thesis_state",
-      "from": "supported",
-      "to": "confirmed"
-    },
-    {
-      "code": "600667",
-      "name": "太极实业",
-      "field": "matrix_direction",
-      "from": "bearish",
-      "to": "neutral"
-    },
-    {
-      "code": "600667",
-      "name": "太极实业",
-      "field": "evidence_state",
-      "from": "partial_confirmation",
-      "to": "noise_or_no_edge"
-    },
-    {
-      "code": "600667",
-      "name": "太极实业",
-      "field": "thesis_state",
-      "from": "supported",
-      "to": "under_test"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "weights": {
       "event": 25,
