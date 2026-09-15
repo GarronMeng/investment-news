@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-15T09:47:59+08:00",
+  "generated_at": "2026-09-15T12:51:07+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -28,9 +28,9 @@
       "as_of": "2026-09-14",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -40.2,
+      "composite_score": -40.0,
       "coverage": 75.0,
-      "confluence": 82.1,
+      "confluence": 82.0,
       "available_layers": 4,
       "opposing_weight_share": 0.0,
       "evidence_state": "multi_layer_confirmed",
@@ -71,13 +71,19 @@
         },
         "market_context": {
           "available": true,
-          "score": -0.5,
+          "score": 0.7,
           "confidence": "medium",
-          "evidence": "regime=transition；上涨占比=0.5619；风险温度=58.7。"
+          "evidence": "regime=transition；上涨占比=0.5619；风险温度=56.3。"
         }
       },
       "contributors": {
-        "positive": [],
+        "positive": [
+          {
+            "layer": "market_context",
+            "score": 0.7,
+            "evidence": "regime=transition；上涨占比=0.5619；风险温度=56.3。"
+          }
+        ],
         "negative": [
           {
             "layer": "relative_strength",
@@ -113,9 +119,9 @@
       "as_of": "2026-09-14",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -24.0,
+      "composite_score": -23.8,
       "coverage": 75.0,
-      "confluence": 77.2,
+      "confluence": 77.1,
       "available_layers": 4,
       "opposing_weight_share": 0.0,
       "evidence_state": "partial_confirmation",
@@ -158,9 +164,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -0.5,
+          "score": 0.7,
           "confidence": "medium",
-          "evidence": "regime=transition；上涨占比=0.5619；风险温度=58.7。"
+          "evidence": "regime=transition；上涨占比=0.5619；风险温度=56.3。"
         }
       },
       "contributors": {
@@ -169,6 +175,11 @@
             "layer": "industry",
             "score": 3.5,
             "evidence": "半导体 涨跌+0.51%/净流-35.3亿；消费电子 涨跌+1.02%/净流-23.5亿"
+          },
+          {
+            "layer": "market_context",
+            "score": 0.7,
+            "evidence": "regime=transition；上涨占比=0.5619；风险温度=56.3。"
           }
         ],
         "negative": [
@@ -206,7 +217,7 @@
       "as_of": "2026-09-14",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -25.1,
+      "composite_score": -24.9,
       "coverage": 75.0,
       "confluence": 77.5,
       "available_layers": 4,
@@ -249,13 +260,19 @@
         },
         "market_context": {
           "available": true,
-          "score": -0.5,
+          "score": 0.7,
           "confidence": "medium",
-          "evidence": "regime=transition；上涨占比=0.5619；风险温度=58.7。"
+          "evidence": "regime=transition；上涨占比=0.5619；风险温度=56.3。"
         }
       },
       "contributors": {
-        "positive": [],
+        "positive": [
+          {
+            "layer": "market_context",
+            "score": 0.7,
+            "evidence": "regime=transition；上涨占比=0.5619；风险温度=56.3。"
+          }
+        ],
         "negative": [
           {
             "layer": "relative_strength",
@@ -291,9 +308,9 @@
       "as_of": "2026-09-14",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -21.1,
+      "composite_score": -20.9,
       "coverage": 75.0,
-      "confluence": 60.2,
+      "confluence": 60.1,
       "available_layers": 4,
       "opposing_weight_share": 20.0,
       "evidence_state": "partial_confirmation",
@@ -336,9 +353,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -0.5,
+          "score": 0.7,
           "confidence": "medium",
-          "evidence": "regime=transition；上涨占比=0.5619；风险温度=58.7。"
+          "evidence": "regime=transition；上涨占比=0.5619；风险温度=56.3。"
         }
       },
       "contributors": {
@@ -347,6 +364,11 @@
             "layer": "industry",
             "score": 29.5,
             "evidence": "元件 涨跌+2.84%/净流27.5亿；消费电子 涨跌+1.02%/净流-23.5亿"
+          },
+          {
+            "layer": "market_context",
+            "score": 0.7,
+            "evidence": "regime=transition；上涨占比=0.5619；风险温度=56.3。"
           }
         ],
         "negative": [
@@ -384,7 +406,7 @@
       "as_of": "2026-09-14",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -35.7,
+      "composite_score": -35.5,
       "coverage": 75.0,
       "confluence": 80.7,
       "available_layers": 4,
@@ -427,13 +449,19 @@
         },
         "market_context": {
           "available": true,
-          "score": -0.5,
+          "score": 0.7,
           "confidence": "medium",
-          "evidence": "regime=transition；上涨占比=0.5619；风险温度=58.7。"
+          "evidence": "regime=transition；上涨占比=0.5619；风险温度=56.3。"
         }
       },
       "contributors": {
-        "positive": [],
+        "positive": [
+          {
+            "layer": "market_context",
+            "score": 0.7,
+            "evidence": "regime=transition；上涨占比=0.5619；风险温度=56.3。"
+          }
+        ],
         "negative": [
           {
             "layer": "technical",
@@ -469,7 +497,7 @@
       "as_of": "2026-09-14",
       "base_bias": "neutral",
       "matrix_direction": "bullish",
-      "composite_score": 31.6,
+      "composite_score": 31.8,
       "coverage": 75.0,
       "confluence": 79.5,
       "available_layers": 4,
@@ -512,9 +540,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -0.5,
+          "score": 0.7,
           "confidence": "medium",
-          "evidence": "regime=transition；上涨占比=0.5619；风险温度=58.7。"
+          "evidence": "regime=transition；上涨占比=0.5619；风险温度=56.3。"
         }
       },
       "contributors": {
@@ -530,13 +558,7 @@
             "evidence": "元件 涨跌+2.84%/净流27.5亿"
           }
         ],
-        "negative": [
-          {
-            "layer": "market_context",
-            "score": -0.5,
-            "evidence": "regime=transition；上涨占比=0.5619；风险温度=58.7。"
-          }
-        ]
+        "negative": []
       },
       "confirmation": [
         "被动元件板块形成联动",
@@ -722,7 +744,7 @@
       "as_of": "2026-09-14",
       "base_bias": "bearish",
       "matrix_direction": "bullish",
-      "composite_score": 23.2,
+      "composite_score": 23.4,
       "coverage": 75.0,
       "confluence": 77.0,
       "available_layers": 4,
@@ -767,9 +789,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -0.5,
+          "score": 0.7,
           "confidence": "medium",
-          "evidence": "regime=transition；上涨占比=0.5619；风险温度=58.7。"
+          "evidence": "regime=transition；上涨占比=0.5619；风险温度=56.3。"
         }
       },
       "contributors": {
@@ -785,13 +807,7 @@
             "evidence": "MA60 above/rising；MACD bearish；RSI 49.34 (neutral)；量能 normal；20日结构 inside_range。"
           }
         ],
-        "negative": [
-          {
-            "layer": "market_context",
-            "score": -0.5,
-            "evidence": "regime=transition；上涨占比=0.5619；风险温度=58.7。"
-          }
-        ]
+        "negative": []
       },
       "confirmation": [
         "A股与港股创新药板块形成联动",
