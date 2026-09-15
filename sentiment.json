@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-14T12:50:44+08:00",
+  "generated_at": "2026-09-15T12:49:53+08:00",
   "timezone": "Asia/Shanghai",
   "states": {
     "overseas_risk": {
@@ -8,7 +8,7 @@
       "level": "normal",
       "label": "正常",
       "tone": "neutral",
-      "status": "fresh",
+      "status": "stale",
       "summary": "用于校准海外风险环境，不直接触发A股买卖。",
       "metric_id": "vix"
     },
@@ -29,8 +29,8 @@
       "value": 15.84,
       "unit": "点",
       "as_of": "2026-09-11",
-      "lag_days": 3,
-      "status": "fresh",
+      "lag_days": 4,
+      "status": "stale",
       "confidence": "medium",
       "source": "OpenBB/YFinance",
       "source_url": "https://www.cboe.com/tradable_products/vix/vix_historical_data/",
@@ -44,19 +44,19 @@
     {
       "id": "margin_balance",
       "label": "A股杠杆情绪",
-      "value": 26088.2,
-      "total_margin_balance": 26380.0,
-      "financing_buy_amount": 1357.93,
+      "value": 25943.12,
+      "total_margin_balance": 26233.42,
+      "financing_buy_amount": 1593.91,
       "unit": "亿元",
-      "as_of": "2026-09-10",
+      "as_of": "2026-09-11",
       "lag_days": 4,
       "status": "fresh",
       "confidence": "high",
       "source": "SSE+SZSE via AKShare",
       "source_url": "https://www.sse.com.cn/market/othersdata/margin/sum/",
-      "change_1d_pct": -0.08,
-      "change_5d_pct": -0.39,
-      "zscore_20d": -1.19,
+      "change_1d_pct": -0.56,
+      "change_5d_pct": -0.25,
+      "zscore_20d": -2.06,
       "level": "stable",
       "state_label": "中性",
       "tone": "neutral",
@@ -202,6 +202,12 @@
         "financing": 26088.19851396,
         "total": 26380.00041411,
         "buy": 1357.93005937
+      },
+      {
+        "date": "2026-09-11",
+        "financing": 25943.116778149997,
+        "total": 26233.421141669998,
+        "buy": 1593.90994649
       }
     ]
   },
