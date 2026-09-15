@@ -1,30 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-09-15T13:28:23+08:00",
+  "generated_at": "2026-09-15T14:48:22+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
-    {
-      "date": "2026-09-15",
-      "time": "14:00",
-      "type": "macro",
-      "category": "labor",
-      "region": "英国",
-      "title": "英国7月失业率-按ILO标准(%)",
-      "actual": null,
-      "forecast": 5.0,
-      "previous": 4.9,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
     {
       "date": "2026-09-15",
       "time": "17:00",
@@ -877,8 +856,8 @@
     }
   ],
   "summary": {
-    "total": 41,
-    "macro": 41,
+    "total": 40,
+    "macro": 40,
     "global_earnings": 0,
     "high_importance": 0,
     "macro_days_ok": 11,
