@@ -1,70 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-09-15T20:56:45+08:00",
+  "generated_at": "2026-09-16T12:49:19+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
-    {
-      "date": "2026-09-16",
-      "time": "04:30",
-      "type": "macro",
-      "category": "energy",
-      "region": "美国",
-      "title": "美国截至9月11日当周API原油库存变动(万桶)",
-      "actual": null,
-      "forecast": -175.0,
-      "previous": -32.7,
-      "importance": 2,
-      "impact_channels": [
-        "原油",
-        "通胀预期",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-16",
-      "time": "07:50",
-      "type": "macro",
-      "category": "trade",
-      "region": "日本",
-      "title": "日本8月商品贸易帐-未季调(亿日元)",
-      "actual": null,
-      "forecast": -1052.0,
-      "previous": -6345.0,
-      "importance": 2,
-      "impact_channels": [
-        "亚洲科技风险偏好",
-        "半导体链映射"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-16",
-      "time": "07:50",
-      "type": "macro",
-      "category": "trade",
-      "region": "日本",
-      "title": "日本8月季调后商品贸易帐(亿日元)",
-      "actual": null,
-      "forecast": null,
-      "previous": -6860.09,
-      "importance": 2,
-      "impact_channels": [
-        "亚洲科技风险偏好",
-        "半导体链映射"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
     {
       "date": "2026-09-16",
       "time": "14:00",
@@ -157,7 +96,7 @@
       "region": "美国",
       "title": "美国8月核心零售销售月率(%)",
       "actual": null,
-      "forecast": 0.6,
+      "forecast": 0.5,
       "previous": -0.3,
       "importance": 2,
       "impact_channels": [
@@ -199,7 +138,7 @@
       "region": "美国",
       "title": "美国8月零售销售月率(%)",
       "actual": null,
-      "forecast": 0.9,
+      "forecast": 0.8,
       "previous": -0.6,
       "importance": 2,
       "impact_channels": [
@@ -220,7 +159,7 @@
       "region": "美国",
       "title": "美国截至9月11日当周EIA原油库存变动(万桶)",
       "actual": null,
-      "forecast": -175.0,
+      "forecast": -162.0,
       "previous": -39.1,
       "importance": 2,
       "impact_channels": [
@@ -769,8 +708,8 @@
     }
   ],
   "summary": {
-    "total": 36,
-    "macro": 36,
+    "total": 33,
+    "macro": 33,
     "global_earnings": 0,
     "high_importance": 0,
     "macro_days_ok": 11,
