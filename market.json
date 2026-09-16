@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-16T17:58:16+08:00",
+  "generated_at": "2026-09-16T20:35:32+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -132,7 +132,7 @@
       "high": null,
       "low": null,
       "turnover": 4945405175.0,
-      "as_of": "2026-09-16T17:58:16+08:00",
+      "as_of": "2026-09-16T20:35:32+08:00",
       "status": "fresh",
       "confidence": "medium",
       "source": "东方财富 via AKShare"
@@ -148,7 +148,7 @@
       "high": null,
       "low": null,
       "turnover": 63291919.0,
-      "as_of": "2026-09-16T17:58:16+08:00",
+      "as_of": "2026-09-16T20:35:32+08:00",
       "status": "fresh",
       "confidence": "medium",
       "source": "东方财富 via AKShare"
