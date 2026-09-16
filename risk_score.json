@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "generated_at": "2026-09-15T18:17:07+08:00",
-  "score": 64.2,
+  "generated_at": "2026-09-16T12:46:50+08:00",
+  "score": 65.5,
   "label": "elevated",
   "coverage": 100.0,
   "available_weight": 100,
   "components": {
     "valuation": {
-      "score": 53.3,
+      "score": 51.6,
       "weight": 20,
       "available": true,
-      "evidence": "沪深300滚动PE十年分位 53.3%"
+      "evidence": "沪深300滚动PE十年分位 51.6%"
     },
     "market_structure": {
       "score": 84.8,
@@ -25,16 +25,16 @@
       "evidence": "MA60 below/falling；MACD bearish；RSI weak"
     },
     "leverage": {
-      "score": 12.9,
+      "score": 13.3,
       "weight": 15,
       "available": true,
-      "evidence": "两融20日Z -2.06"
+      "evidence": "两融20日Z -2.04"
     },
     "overseas": {
-      "score": 60.1,
+      "score": 76.3,
       "weight": 10,
       "available": true,
-      "evidence": "VIX 15.84；20日分位 75.0%"
+      "evidence": "VIX 17.10；20日分位 95.0%"
     },
     "concentration": {
       "score": 66.0,
@@ -55,9 +55,9 @@
       "evidence": "risk_off；上涨占比 20.1%"
     },
     {
-      "component": "concentration",
-      "score": 66.0,
-      "evidence": "regime=risk_off；指数均值 -0.41% / 上涨占比 20.1%"
+      "component": "overseas",
+      "score": 76.3,
+      "evidence": "VIX 17.10；20日分位 95.0%"
     }
   ],
   "state_changes": [],
