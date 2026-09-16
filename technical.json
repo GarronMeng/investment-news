@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-16T12:55:31+08:00",
-  "source_generated_at": "2026-09-16T12:55:31+08:00",
+  "generated_at": "2026-09-16T14:49:36+08:00",
+  "source_generated_at": "2026-09-16T14:49:36+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -96,32 +96,32 @@
     "300308": {
       "code": "300308",
       "name": "中际旭创",
-      "as_of": "2026-09-15",
+      "as_of": "2026-09-16",
       "source_status": "fresh",
       "observations": 140,
-      "close": 864.01,
+      "close": 906.99,
       "ma60": {
-        "value": 996.7747,
+        "value": 990.0215,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.007402
+        "slope_pct": -0.006775
       },
-      "rsi14": 45.17,
+      "rsi14": 50.71,
       "rsi_zone": "neutral",
       "macd": {
-        "dif": -18.85331,
-        "dea": -27.76543,
-        "hist": 17.82424,
+        "dif": -15.31552,
+        "dea": -25.27561,
+        "hist": 19.92019,
         "state": "bullish",
-        "cross_age": 6
+        "cross_age": 7
       },
       "volume": {
-        "ratio20": 0.661,
-        "state": "contraction"
+        "ratio20": 0.866,
+        "state": "normal"
       },
       "breakout_20d": "inside_range",
       "data_quality": "usable",
-      "condition_state": "conditions_not_met"
+      "condition_state": "partial_conditions"
     },
     "002384": {
       "code": "002384",
@@ -304,7 +304,22 @@
       "condition_state": "partial_conditions"
     }
   },
-  "state_changes": [],
+  "state_changes": [
+    {
+      "code": "300308",
+      "name": "中际旭创",
+      "field": "volume",
+      "from": "contraction",
+      "to": "normal"
+    },
+    {
+      "code": "300308",
+      "name": "中际旭创",
+      "field": "condition_state",
+      "from": "conditions_not_met",
+      "to": "partial_conditions"
+    }
+  ],
   "methodology": {
     "rsi14": "Wilder RSI(14)",
     "macd": "EMA12/EMA26 DIF, EMA9 signal, histogram=(DIF-DEA)*2",
