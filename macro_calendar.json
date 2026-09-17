@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-17T17:00:16+08:00",
+  "generated_at": "2026-09-17T18:06:30+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
@@ -370,12 +370,11 @@
     "macro": 17,
     "global_earnings": 0,
     "high_importance": 0,
-    "macro_days_ok": 9,
+    "macro_days_ok": 10,
     "report_days_ok": 11
   },
   "warnings": [
-    "news_economic_baidu 20260917: HTTP Error 403: ",
-    "news_economic_baidu 20260927: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+    "news_economic_baidu 20260917: HTTP Error 403: "
   ],
   "methodology": {
     "macro": "百度股市通全球宏观日历 via AKShare；保留重要性>=3及少量核心importance-2宏观数据，过滤每日持仓/仓单等例行噪声，并剔除已过时的当日时点。",
