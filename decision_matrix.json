@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-17T16:49:13+08:00",
+  "generated_at": "2026-09-17T16:57:49+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -828,99 +828,7 @@
     "161226",
     "002384"
   ],
-  "state_changes": [
-    {
-      "code": "603986",
-      "name": "兆易创新",
-      "field": "matrix_direction",
-      "from": "neutral",
-      "to": "bearish"
-    },
-    {
-      "code": "603986",
-      "name": "兆易创新",
-      "field": "evidence_state",
-      "from": "conflict",
-      "to": "partial_confirmation"
-    },
-    {
-      "code": "603986",
-      "name": "兆易创新",
-      "field": "thesis_state",
-      "from": "conflicted",
-      "to": "supported"
-    },
-    {
-      "code": "001309",
-      "name": "德明利",
-      "field": "matrix_direction",
-      "from": "neutral",
-      "to": "bearish"
-    },
-    {
-      "code": "001309",
-      "name": "德明利",
-      "field": "evidence_state",
-      "from": "conflict",
-      "to": "partial_confirmation"
-    },
-    {
-      "code": "001309",
-      "name": "德明利",
-      "field": "thesis_state",
-      "from": "conflicted",
-      "to": "supported"
-    },
-    {
-      "code": "300308",
-      "name": "中际旭创",
-      "field": "matrix_direction",
-      "from": "bullish",
-      "to": "neutral"
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "evidence_state",
-      "from": "conflict",
-      "to": "noise_or_no_edge"
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "thesis_state",
-      "from": "conflicted",
-      "to": "no_directional_thesis"
-    },
-    {
-      "code": "600667",
-      "name": "太极实业",
-      "field": "matrix_direction",
-      "from": "bullish",
-      "to": "neutral"
-    },
-    {
-      "code": "000636",
-      "name": "风华高科",
-      "field": "matrix_direction",
-      "from": "bullish",
-      "to": "neutral"
-    },
-    {
-      "code": "000636",
-      "name": "风华高科",
-      "field": "evidence_state",
-      "from": "multi_layer_confirmed",
-      "to": "conflict"
-    },
-    {
-      "code": "000636",
-      "name": "风华高科",
-      "field": "thesis_state",
-      "from": "confirmed",
-      "to": "conflicted"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "weights": {
       "event": 25,
