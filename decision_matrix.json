@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-17T12:49:49+08:00",
+  "generated_at": "2026-09-17T12:59:04+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -836,22 +836,7 @@
     "000636",
     "161226"
   ],
-  "state_changes": [
-    {
-      "code": "161226",
-      "name": "国投白银LOF",
-      "field": "matrix_direction",
-      "from": "bearish",
-      "to": "neutral"
-    },
-    {
-      "code": "161226",
-      "name": "国投白银LOF",
-      "field": "thesis_state",
-      "from": "supported",
-      "to": "no_directional_thesis"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "weights": {
       "event": 25,
