@@ -1,30 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-09-16T20:53:07+08:00",
+  "generated_at": "2026-09-17T12:52:08+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
-    {
-      "date": "2026-09-16",
-      "time": "22:30",
-      "type": "macro",
-      "category": "energy",
-      "region": "美国",
-      "title": "美国截至9月11日当周EIA原油库存变动(万桶)",
-      "actual": null,
-      "forecast": -162.0,
-      "previous": -39.1,
-      "importance": 2,
-      "impact_channels": [
-        "原油",
-        "通胀预期",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
     {
       "date": "2026-09-17",
       "time": "17:00",
@@ -473,8 +452,8 @@
     }
   ],
   "summary": {
-    "total": 22,
-    "macro": 22,
+    "total": 21,
+    "macro": 21,
     "global_earnings": 0,
     "high_importance": 0,
     "macro_days_ok": 11,
