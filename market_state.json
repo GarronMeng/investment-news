@@ -1,19 +1,19 @@
 {
   "version": 1,
-  "generated_at": "2026-09-18T16:22:29+08:00",
+  "generated_at": "2026-09-18T17:48:17+08:00",
   "timezone": "Asia/Shanghai",
   "breadth": {
     "total": 5564,
-    "up": 2575,
-    "down": 2820,
-    "flat": 169,
-    "advance_ratio": 0.4628,
-    "limit_up": 74,
-    "limit_down": 8,
-    "touched_limit_up": 139,
-    "broken_limit_up": 65,
-    "seal_rate": 0.5324,
-    "turnover": 1836352715987.0,
+    "up": 4233,
+    "down": 1152,
+    "flat": 179,
+    "advance_ratio": 0.7608,
+    "limit_up": 130,
+    "limit_down": 5,
+    "touched_limit_up": 222,
+    "broken_limit_up": 92,
+    "seal_rate": 0.5856,
+    "turnover": 2092632855050.0,
     "turnover_coverage": 1.0
   },
   "indices": [
@@ -62,15 +62,15 @@
     {
       "symbol": "hkHSI",
       "name": "恒生指数",
-      "price": 24748.22,
-      "change_pct": 0.58,
+      "price": 24750.78,
+      "change_pct": 0.6,
       "source": "腾讯行情"
     },
     {
       "symbol": "hkHSTECH",
       "name": "恒生科技指数",
-      "price": 4406.23,
-      "change_pct": 2.22,
+      "price": 4405.5,
+      "change_pct": 2.2,
       "source": "腾讯行情"
     }
   ],
@@ -391,20 +391,21 @@
     }
   ],
   "regime": {
-    "label": "Narrow Risk-on",
-    "code": "narrow_risk_on",
-    "score": 37.0,
+    "label": "Risk-on",
+    "code": "risk_on",
+    "score": 79.7,
     "components": {
-      "breadth": -9.3,
+      "breadth": 65.2,
       "indices": 100.0,
-      "limit_structure": 80.5
+      "limit_structure": 92.6
     },
     "methodology": "市场广度55% + 核心指数30% + 涨跌停结构15%；仅用于状态分类，不是收益概率。"
   },
   "section_status": {
     "breadth": {
-      "status": "stale",
-      "error": "A-share breadth unavailable"
+      "status": "fresh",
+      "source": "新浪财经 via AKShare",
+      "fallback": true
     },
     "indices": {
       "status": "fresh"
@@ -429,13 +430,14 @@
     "industry_flow: Expecting value: line 1 column 1 (char 0)",
     "sectors primary unavailable; using 同花顺 via AKShare fallback",
     "industry_flow primary unavailable; using 同花顺 via AKShare fallback",
-    "breadth_sina_fallback: Can not decode value starting with character '<'"
+    "breadth primary source unavailable; using 新浪财经 via AKShare fallback"
   ],
   "methodology": {
     "breadth": "全A实时快照计算上涨/下跌/平盘、涨跌停触及与封板率；涨跌停阈值按板块/ST规则近似。",
     "industry_flow": "东方财富行业主力净流入为主；失败时回退同花顺行业净额（原始单位亿元），统一换算为元。",
     "sector_rank": "东方财富行业涨跌为主；失败时回退同花顺行业资金流页面的行业涨跌幅。",
-    "etf_activity": "ETF成交额活跃度代理，不等同ETF净申购或真实资金净流入。"
+    "etf_activity": "ETF成交额活跃度代理，不等同ETF净申购或真实资金净流入。",
+    "breadth_source": "东方财富主源；失败时单次回退新浪财经 AKShare stock_zh_a_spot。"
   },
   "alerts": []
 }
