@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-18T20:17:42+08:00",
+  "generated_at": "2026-09-18T20:20:49+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -649,17 +649,17 @@
       "group": "贵金属对冲",
       "role": "低波动避险映射",
       "priority": 3,
-      "as_of": "2026-09-18",
+      "as_of": "2026-09-17",
       "base_bias": "bearish",
       "matrix_direction": "neutral",
-      "composite_score": 14.6,
+      "composite_score": -1.2,
       "coverage": 50.0,
-      "confluence": 21.8,
+      "confluence": 1.7,
       "available_layers": 2,
       "opposing_weight_share": 0.0,
       "evidence_state": "insufficient",
       "thesis_state": "under_test",
-      "attention_score": 71.5,
+      "attention_score": 70.1,
       "research_focus": "原方向尚未被市场充分确认，继续观察验证/失效条件。",
       "layers": {
         "event": {
@@ -670,15 +670,15 @@
         },
         "technical": {
           "available": true,
-          "score": 20.0,
+          "score": 6.0,
           "confidence": "high",
-          "evidence": "MA60 above/rising；MACD bearish；RSI 50.24 (neutral)；量能 normal；20日结构 inside_range。"
+          "evidence": "MA60 above/rising；MACD bearish；RSI 43.58 (weak)；量能 normal；20日结构 inside_range。"
         },
         "relative_strength": {
           "available": true,
-          "score": 6.4,
+          "score": -11.9,
           "confidence": "high",
-          "evidence": "5日相对强弱 0.02579；20日相对强弱 -0.014366。"
+          "evidence": "5日相对强弱 -0.006582；20日相对强弱 -0.014931。"
         },
         "industry": {
           "available": false,
@@ -699,16 +699,17 @@
         "positive": [
           {
             "layer": "technical",
-            "score": 20.0,
-            "evidence": "MA60 above/rising；MACD bearish；RSI 50.24 (neutral)；量能 normal；20日结构 inside_range。"
-          },
-          {
-            "layer": "relative_strength",
-            "score": 6.4,
-            "evidence": "5日相对强弱 0.02579；20日相对强弱 -0.014366。"
+            "score": 6.0,
+            "evidence": "MA60 above/rising；MACD bearish；RSI 43.58 (weak)；量能 normal；20日结构 inside_range。"
           }
         ],
-        "negative": []
+        "negative": [
+          {
+            "layer": "relative_strength",
+            "score": -11.9,
+            "evidence": "5日相对强弱 -0.006582；20日相对强弱 -0.014931。"
+          }
+        ]
       },
       "confirmation": [
         "外盘金价与国内黄金现货同向",
@@ -719,7 +720,7 @@
         "实际利率上行"
       ],
       "excluded_layers": [],
-      "positive_direction_mass": 6.0,
+      "positive_direction_mass": 0.0,
       "negative_direction_mass": 0.0,
       "conflict_score": 0.0
     },
