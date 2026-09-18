@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-09-18T17:54:19+08:00",
+  "generated_at": "2026-09-18T20:27:17+08:00",
   "timezone": "Asia/Shanghai",
   "title": "Daily Flash · 每日投资驾驶舱",
-  "core_conclusion": "A股状态为 Risk-on，上涨家数占比 76.1%，风险温度 50/100（balanced）。沪深300 PE-TTM 13.34；10年分位 51.3%；强势：半导体、其他电子、光伏设备；弱势：汽车整车、煤炭开采加工、银行。研究复核优先关注 创新药沪港深ETF天弘、中际旭创、太极实业；该排序代表证据变化与复核优先级，不代表交易优先级。资金/期指：融资余额25992亿元，5日-0.45%；南向成交净买额+11.9亿元；中证500股指期货基差-2.03%。 下一催化：09-18 18:00 英国9月CBI零售销售差值；09-18 21:15 美国8月工业产出年率-季调后(%)。主线财报已确认披露 21/21 个研究样本。",
+  "core_conclusion": "A股状态为 Risk-on，上涨家数占比 76.1%，风险温度 50/100（balanced）。沪深300 PE-TTM 13.42；10年分位 52.5%；强势：半导体、其他电子、光伏设备；弱势：汽车整车、煤炭开采加工、银行。研究复核优先关注 创新药沪港深ETF天弘、中际旭创、太极实业；该排序代表证据变化与复核优先级，不代表交易优先级。资金/期指：融资余额25992亿元，5日-0.45%；南向成交净买额+11.9亿元；中证500股指期货基差-2.03%。 下一催化：09-18 21:15 美国8月工业产出年率-季调后(%)；09-18 21:15 美国8月工业产出月率(%)。主线财报已确认披露 21/21 个研究样本。",
   "market": {
     "regime": {
       "label": "Risk-on",
@@ -17,13 +17,13 @@
       "methodology": "市场广度55% + 核心指数30% + 涨跌停结构15%；仅用于状态分类，不是收益概率。"
     },
     "risk": {
-      "score": 50.0,
+      "score": 50.3,
       "label": "balanced",
       "coverage": 100.0
     },
     "valuation_hs300": {
-      "pe_ttm": 13.34,
-      "percentile_10y": 51.3,
+      "pe_ttm": 13.42,
+      "percentile_10y": 52.5,
       "band": "neutral",
       "status": "fresh"
     },
@@ -445,10 +445,10 @@
       "symbol": "^VIX",
       "group": "风险",
       "unit": "index",
-      "value": 15.27,
-      "raw_value": 15.27,
+      "value": 15.45,
+      "raw_value": 15.45,
       "previous_close": 15.44,
-      "change_pct": -1.1,
+      "change_pct": 0.06,
       "as_of": "2026-09-18T15:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -473,10 +473,10 @@
       "symbol": "DX-Y.NYB",
       "group": "汇率",
       "unit": "index",
-      "value": 100.359,
-      "raw_value": 100.359,
+      "value": 100.518,
+      "raw_value": 100.518,
       "previous_close": 100.22,
-      "change_pct": 0.14,
+      "change_pct": 0.3,
       "as_of": "2026-09-18T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -487,11 +487,11 @@
       "symbol": "CNH=X",
       "group": "汇率",
       "unit": "fx",
-      "value": 6.6968,
-      "raw_value": 6.6968,
+      "value": 6.6983,
+      "raw_value": 6.6983,
       "previous_close": null,
       "change_pct": null,
-      "as_of": "2026-09-18T17:51:46+08:00",
+      "as_of": "2026-09-18T20:23:51+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -501,10 +501,10 @@
       "symbol": "GC=F",
       "group": "商品",
       "unit": "usd",
-      "value": 4419.6001,
-      "raw_value": 4419.6001,
+      "value": 4411.7002,
+      "raw_value": 4411.7002,
       "previous_close": 4399.7002,
-      "change_pct": 0.45,
+      "change_pct": 0.27,
       "as_of": "2026-09-18T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -515,10 +515,10 @@
       "symbol": "SI=F",
       "group": "商品",
       "unit": "usd",
-      "value": 67.585,
-      "raw_value": 67.585,
+      "value": 67.07,
+      "raw_value": 67.07,
       "previous_close": 65.47,
-      "change_pct": 3.23,
+      "change_pct": 2.44,
       "as_of": "2026-09-18T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -529,10 +529,10 @@
       "symbol": "CL=F",
       "group": "商品",
       "unit": "usd",
-      "value": 96.37,
-      "raw_value": 96.37,
+      "value": 96.35,
+      "raw_value": 96.35,
       "previous_close": 101.91,
-      "change_pct": -5.44,
+      "change_pct": -5.46,
       "as_of": "2026-09-18T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -543,10 +543,10 @@
       "symbol": "BZ=F",
       "group": "商品",
       "unit": "usd",
-      "value": 99.01,
-      "raw_value": 99.01,
+      "value": 98.76,
+      "raw_value": 98.76,
       "previous_close": 104.82,
-      "change_pct": -5.54,
+      "change_pct": -5.78,
       "as_of": "2026-09-18T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -632,14 +632,14 @@
     },
     {
       "name": "美债 / 美元",
-      "score": 7.4,
+      "score": 5.8,
       "label": "中性",
       "weight": 5,
       "evidence": "收益率与美元上行对长久期风险资产偏压制"
     },
     {
       "name": "商品避险",
-      "score": -27.4,
+      "score": -32.0,
       "label": "偏空",
       "weight": 3,
       "evidence": "黄金/白银/原油组合变化"
@@ -732,7 +732,7 @@
         "风华高科"
       ],
       "direction": "bullish",
-      "score": 43.1,
+      "score": 43.0,
       "event_score": null,
       "technical_score": 38.0,
       "industry_score": 20.1
@@ -784,7 +784,7 @@
     }
   ],
   "outlook": {
-    "base": "当前基准情景：regime=risk_on，风险温度=50.0；Matrix中 confirmed=1、supported=1。",
+    "base": "当前基准情景：regime=risk_on，风险温度=50.3；Matrix中 confirmed=1、supported=1。",
     "bullish": "若上涨占比重新站上50%、Market Regime转向risk_on/narrow_risk_on，且强势主题的行业与技术层同步扩散，则风险偏好修复更可信。",
     "bearish": "若市场广度继续恶化、风险温度抬升，同时当前获支持主题转为conflict/contradicted，则应把环境定义为进一步收缩而非普通波动。"
   },
@@ -807,7 +807,7 @@
       "direction": "neutral",
       "attention_score": 90.1,
       "composite_score": 10.9,
-      "confluence": 16.4,
+      "confluence": 16.3,
       "conflict_score": 59.5,
       "focus": "正负证据正在相互抵消，优先识别哪一层先失效或被确认。"
     },
@@ -819,7 +819,7 @@
       "attention_score": 89.4,
       "composite_score": 20.5,
       "confluence": 48.1,
-      "conflict_score": 43.8,
+      "conflict_score": 43.9,
       "focus": "正负证据正在相互抵消，优先识别哪一层先失效或被确认。"
     },
     {
@@ -840,8 +840,8 @@
       "direction": "neutral",
       "attention_score": 75.9,
       "composite_score": 19.4,
-      "confluence": 29.1,
-      "conflict_score": 45.2,
+      "confluence": 29.0,
+      "conflict_score": 45.3,
       "focus": "原方向尚未被市场充分确认，继续观察验证/失效条件。"
     },
     {
@@ -857,17 +857,17 @@
     }
   ],
   "sources": {
-    "market_state": "2026-09-18T17:48:17+08:00",
-    "risk": "2026-09-18T17:51:02+08:00",
-    "valuation": "2026-09-18T17:50:54+08:00",
-    "decision_matrix": "2026-09-18T17:51:02+08:00",
-    "global_markets": "2026-09-18T17:51:45+08:00",
-    "catalysts": "2026-09-18T17:52:17+08:00",
+    "market_state": "2026-09-18T20:14:17+08:00",
+    "risk": "2026-09-18T20:20:49+08:00",
+    "valuation": "2026-09-18T20:20:39+08:00",
+    "decision_matrix": "2026-09-18T20:20:49+08:00",
+    "global_markets": "2026-09-18T20:23:50+08:00",
+    "catalysts": "2026-09-18T20:24:34+08:00",
     "ai_signals": "2026-08-26 13:33",
     "sentiment": "2026-09-18T12:38:35+08:00",
-    "market_extras": "2026-09-18T17:51:47+08:00",
-    "macro_calendar": "2026-09-18T17:53:18+08:00",
-    "theme_earnings": "2026-09-18T17:54:19+08:00"
+    "market_extras": "2026-09-18T20:23:52+08:00",
+    "macro_calendar": "2026-09-18T20:25:39+08:00",
+    "theme_earnings": "2026-09-18T20:27:17+08:00"
   },
   "boundary": "Daily Flash用于信息压缩、研究排序与条件验证；缺失数据保持缺失，不生成无条件买卖、仓位或止损指令。",
   "integrity": {
@@ -877,27 +877,6 @@
     "rule": "theme layer metrics average only final eligible Matrix layers; unavailable is null, never zero"
   },
   "macro_calendar": [
-    {
-      "date": "2026-09-18",
-      "time": "18:00",
-      "type": "macro",
-      "category": "growth",
-      "region": "英国",
-      "title": "英国9月CBI零售销售差值",
-      "actual": null,
-      "forecast": null,
-      "previous": -48.0,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
     {
       "date": "2026-09-18",
       "time": "21:15",
@@ -948,7 +927,7 @@
       "region": "中国",
       "title": "中国9月一年期贷款市场报价利率LPR(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": 3.0,
       "previous": 3.0,
       "importance": 2,
       "impact_channels": [
@@ -969,7 +948,7 @@
       "region": "中国",
       "title": "中国9月五年期贷款市场报价利率LPR(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": 3.5,
       "previous": 3.5,
       "importance": 2,
       "impact_channels": [
@@ -1135,8 +1114,8 @@
     }
   ],
   "macro_calendar_summary": {
-    "total": 12,
-    "macro": 12,
+    "total": 11,
+    "macro": 11,
     "global_earnings": 0,
     "high_importance": 0,
     "macro_days_ok": 11,
@@ -1585,7 +1564,7 @@
   "theme_earnings_period": "2026半年报",
   "quality": {
     "macro_calendar": {
-      "events": 12,
+      "events": 11,
       "warnings": 0,
       "horizon_days": 10
     },

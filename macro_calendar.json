@@ -1,30 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-09-18T17:53:18+08:00",
+  "generated_at": "2026-09-18T20:25:39+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
-    {
-      "date": "2026-09-18",
-      "time": "18:00",
-      "type": "macro",
-      "category": "growth",
-      "region": "英国",
-      "title": "英国9月CBI零售销售差值",
-      "actual": null,
-      "forecast": null,
-      "previous": -48.0,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
     {
       "date": "2026-09-18",
       "time": "21:15",
@@ -75,7 +54,7 @@
       "region": "中国",
       "title": "中国9月一年期贷款市场报价利率LPR(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": 3.0,
       "previous": 3.0,
       "importance": 2,
       "impact_channels": [
@@ -96,7 +75,7 @@
       "region": "中国",
       "title": "中国9月五年期贷款市场报价利率LPR(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": 3.5,
       "previous": 3.5,
       "importance": 2,
       "impact_channels": [
@@ -262,8 +241,8 @@
     }
   ],
   "summary": {
-    "total": 12,
-    "macro": 12,
+    "total": 11,
+    "macro": 11,
     "global_earnings": 0,
     "high_importance": 0,
     "macro_days_ok": 11,
