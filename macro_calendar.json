@@ -1,51 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-09-18T14:45:01+08:00",
+  "generated_at": "2026-09-18T16:27:24+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
-    {
-      "date": "2026-09-18",
-      "time": "16:00",
-      "type": "macro",
-      "category": "monetary_policy",
-      "region": "欧元区",
-      "title": "欧元区8月欧洲央行1年期CPI预期(%)",
-      "actual": null,
-      "forecast": null,
-      "previous": 2.9,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-18",
-      "time": "16:00",
-      "type": "macro",
-      "category": "monetary_policy",
-      "region": "欧元区",
-      "title": "欧元区8月欧洲央行3年期CPI预期(%)",
-      "actual": null,
-      "forecast": null,
-      "previous": 2.7,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
     {
       "date": "2026-09-18",
       "time": "18:00",
@@ -289,7 +247,7 @@
       "title": "美国截至9月23日美联储资产负债表(万亿美元)",
       "actual": null,
       "forecast": null,
-      "previous": null,
+      "previous": 6.8,
       "importance": 2,
       "impact_channels": [
         "美债收益率",
@@ -304,8 +262,8 @@
     }
   ],
   "summary": {
-    "total": 14,
-    "macro": 14,
+    "total": 12,
+    "macro": 12,
     "global_earnings": 0,
     "high_importance": 0,
     "macro_days_ok": 11,
