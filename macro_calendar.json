@@ -1,51 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-09-18T20:25:39+08:00",
+  "generated_at": "2026-09-19T09:31:18+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
-    {
-      "date": "2026-09-18",
-      "time": "21:15",
-      "type": "macro",
-      "category": "growth",
-      "region": "美国",
-      "title": "美国8月工业产出年率-季调后(%)",
-      "actual": null,
-      "forecast": null,
-      "previous": 1.08,
-      "importance": 2,
-      "impact_channels": [
-        "全球风险偏好",
-        "AI资本开支预期",
-        "美元"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-18",
-      "time": "21:15",
-      "type": "macro",
-      "category": "growth",
-      "region": "美国",
-      "title": "美国8月工业产出月率(%)",
-      "actual": null,
-      "forecast": 0.3,
-      "previous": 0.2,
-      "importance": 2,
-      "impact_channels": [
-        "全球风险偏好",
-        "AI资本开支预期",
-        "美元"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
     {
       "date": "2026-09-21",
       "time": "09:00",
@@ -241,8 +199,8 @@
     }
   ],
   "summary": {
-    "total": 11,
-    "macro": 11,
+    "total": 9,
+    "macro": 9,
     "global_earnings": 0,
     "high_importance": 0,
     "macro_days_ok": 11,
