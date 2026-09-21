@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-21T12:51:58+08:00",
+  "generated_at": "2026-09-21T13:04:48+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -484,12 +484,12 @@
       "group": "科技核心",
       "role": "MLCC周期观察",
       "priority": 3,
-      "as_of": "2026-09-18",
+      "as_of": "2026-09-21",
       "base_bias": "bullish",
       "matrix_direction": "bullish",
-      "composite_score": 41.3,
+      "composite_score": 40.3,
       "coverage": 75.0,
-      "confluence": 82.4,
+      "confluence": 82.1,
       "available_layers": 4,
       "opposing_weight_share": 0.0,
       "evidence_state": "multi_layer_confirmed",
@@ -507,13 +507,13 @@
           "available": true,
           "score": 38.0,
           "confidence": "high",
-          "evidence": "MA60 above/falling；MACD bullish；RSI 56.49 (strong)；量能 normal；20日结构 inside_range。"
+          "evidence": "MA60 above/falling；MACD bullish；RSI 57.71 (strong)；量能 normal；20日结构 inside_range。"
         },
         "relative_strength": {
           "available": true,
-          "score": 59.7,
+          "score": 56.2,
           "confidence": "high",
-          "evidence": "5日相对强弱 0.038816；20日相对强弱 0.085509。"
+          "evidence": "5日相对强弱 0.000194；20日相对强弱 0.15656。"
         },
         "industry": {
           "available": true,
@@ -538,14 +538,14 @@
       "contributors": {
         "positive": [
           {
-            "layer": "relative_strength",
-            "score": 59.7,
-            "evidence": "5日相对强弱 0.038816；20日相对强弱 0.085509。"
-          },
-          {
             "layer": "technical",
             "score": 38.0,
-            "evidence": "MA60 above/falling；MACD bullish；RSI 56.49 (strong)；量能 normal；20日结构 inside_range。"
+            "evidence": "MA60 above/falling；MACD bullish；RSI 57.71 (strong)；量能 normal；20日结构 inside_range。"
+          },
+          {
+            "layer": "relative_strength",
+            "score": 56.2,
+            "evidence": "5日相对强弱 0.000194；20日相对强弱 0.15656。"
           }
         ],
         "negative": []
@@ -559,7 +559,7 @@
         "库存去化不及预期"
       ],
       "excluded_layers": [],
-      "positive_direction_mass": 30.9,
+      "positive_direction_mass": 30.2,
       "negative_direction_mass": 0.0,
       "conflict_score": 0.0
     },
