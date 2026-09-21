@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-21T17:06:57+08:00",
+  "generated_at": "2026-09-21T18:46:08+08:00",
   "timezone": "Asia/Shanghai",
   "breadth": {
     "total": 5564,
@@ -403,9 +403,8 @@
   },
   "section_status": {
     "breadth": {
-      "status": "fresh",
-      "source": "新浪财经 via AKShare",
-      "fallback": true
+      "status": "stale",
+      "error": "A-share breadth unavailable"
     },
     "indices": {
       "status": "fresh"
@@ -421,23 +420,24 @@
       "fallback": true
     },
     "etf_activity": {
-      "status": "fresh"
+      "status": "stale",
+      "error": "etf_activity unavailable"
     }
   },
   "warnings": [
     "breadth: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
     "sectors: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
     "industry_flow: Expecting value: line 1 column 1 (char 0)",
+    "etf_activity: 502 Server Error: Bad Gateway for url: https://push2delay.eastmoney.com/api/qt/clist/get?pn=1&pz=100&po=1&np=1&ut=bd1d9ddb04089700cf9c27f6f7426281&fltt=2&invt=2&wbp2u=%7C0%7C0%7C0%7Cweb&fid=f12&fs=b%3AMK0021%2Cb%3AMK0022%2Cb%3AMK0023%2Cb%3AMK0024%2Cb%3AMK0827&fields=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6%2Cf7%2Cf8%2Cf9%2Cf10%2Cf12%2Cf13%2Cf14%2Cf15%2Cf16%2Cf17%2Cf18%2Cf20%2Cf21%2Cf23%2Cf24%2Cf25%2Cf22%2Cf11%2Cf30%2Cf31%2Cf32%2Cf33%2Cf34%2Cf35%2Cf38%2Cf62%2Cf63%2Cf64%2Cf65%2Cf66%2Cf69%2Cf72%2Cf75%2Cf78%2Cf81%2Cf84%2Cf87%2Cf115%2Cf124%2Cf128%2Cf136%2Cf152%2Cf184%2Cf297%2Cf402%2Cf441",
     "sectors primary unavailable; using 同花顺 via AKShare fallback",
     "industry_flow primary unavailable; using 同花顺 via AKShare fallback",
-    "breadth primary source unavailable; using 新浪财经 via AKShare fallback"
+    "breadth_sina_fallback: HTTPConnectionPool(host='vip.stock.finance.sina.com.cn', port=80): Read timed out. (read timeout=15)"
   ],
   "methodology": {
     "breadth": "全A实时快照计算上涨/下跌/平盘、涨跌停触及与封板率；涨跌停阈值按板块/ST规则近似。",
     "industry_flow": "东方财富行业主力净流入为主；失败时回退同花顺行业净额（原始单位亿元），统一换算为元。",
     "sector_rank": "东方财富行业涨跌为主；失败时回退同花顺行业资金流页面的行业涨跌幅。",
-    "etf_activity": "ETF成交额活跃度代理，不等同ETF净申购或真实资金净流入。",
-    "breadth_source": "东方财富主源；失败时单次回退新浪财经 AKShare stock_zh_a_spot。"
+    "etf_activity": "ETF成交额活跃度代理，不等同ETF净申购或真实资金净流入。"
   },
   "alerts": []
 }
