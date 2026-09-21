@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-21T13:04:34+08:00",
-  "source_generated_at": "2026-09-21T13:04:34+08:00",
+  "generated_at": "2026-09-21T13:11:04+08:00",
+  "source_generated_at": "2026-09-21T13:11:04+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -186,27 +186,27 @@
     "000636": {
       "code": "000636",
       "name": "风华高科",
-      "as_of": "2026-09-21",
+      "as_of": "2026-09-18",
       "source_status": "fresh",
       "observations": 140,
-      "close": 58.95,
+      "close": 58.2,
       "ma60": {
-        "value": 55.1478,
+        "value": 55.5032,
         "position": "above",
         "direction": "falling",
-        "slope_pct": -0.006402
+        "slope_pct": -0.006059
       },
-      "rsi14": 57.71,
+      "rsi14": 56.49,
       "rsi_zone": "strong",
       "macd": {
-        "dif": 0.84659,
-        "dea": -0.02653,
-        "hist": 1.74623,
+        "dif": 0.61077,
+        "dea": -0.2449,
+        "hist": 1.71134,
         "state": "bullish",
-        "cross_age": 6
+        "cross_age": 5
       },
       "volume": {
-        "ratio20": 1.029,
+        "ratio20": 1.106,
         "state": "normal"
       },
       "breakout_20d": "inside_range",
