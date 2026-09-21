@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-21T22:10:20+08:00",
+  "generated_at": "2026-09-21T22:18:02+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -812,36 +812,7 @@
     "161226",
     "000636"
   ],
-  "state_changes": [
-    {
-      "code": "161226",
-      "name": "国投白银LOF",
-      "field": "matrix_direction",
-      "from": "neutral",
-      "to": "bearish"
-    },
-    {
-      "code": "161226",
-      "name": "国投白银LOF",
-      "field": "thesis_state",
-      "from": "under_test",
-      "to": "supported"
-    },
-    {
-      "code": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "field": "evidence_state",
-      "from": "partial_confirmation",
-      "to": "multi_layer_confirmed"
-    },
-    {
-      "code": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "field": "thesis_state",
-      "from": "emerging",
-      "to": "confirmed"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "weights": {
       "event": 25,
