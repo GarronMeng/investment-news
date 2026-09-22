@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-22T16:53:26+08:00",
+  "generated_at": "2026-09-22T18:04:34+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
@@ -55,7 +55,7 @@
       "region": "美国",
       "title": "美国截至9月18日当周EIA原油库存变动(万桶)",
       "actual": null,
-      "forecast": null,
+      "forecast": -56.3,
       "previous": -64.0,
       "importance": 2,
       "impact_channels": [
@@ -97,7 +97,7 @@
       "region": "美国",
       "title": "美国截至9月19日当周初请失业金人数(万)",
       "actual": null,
-      "forecast": 20.3,
+      "forecast": 20.1,
       "previous": 19.6,
       "importance": 2,
       "impact_channels": [
