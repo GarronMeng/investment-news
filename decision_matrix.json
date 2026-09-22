@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-22T16:50:58+08:00",
+  "generated_at": "2026-09-22T18:01:55+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -853,22 +853,7 @@
     "161226",
     "000636"
   ],
-  "state_changes": [
-    {
-      "code": "600667",
-      "name": "太极实业",
-      "field": "evidence_state",
-      "from": "noise_or_no_edge",
-      "to": "conflict"
-    },
-    {
-      "code": "600667",
-      "name": "太极实业",
-      "field": "thesis_state",
-      "from": "no_directional_thesis",
-      "to": "conflicted"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "weights": {
       "event": 25,
