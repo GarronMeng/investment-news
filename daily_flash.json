@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-09-23T16:48:42+08:00",
+  "generated_at": "2026-09-23T18:08:52+08:00",
   "timezone": "Asia/Shanghai",
   "title": "Daily Flash · 每日投资驾驶舱",
-  "core_conclusion": "A股状态为 Transition，上涨家数占比 34.0%，风险温度 59/100（elevated）。沪深300 PE-TTM 13.53；10年分位 55.2%；强势：非金属材料、厨卫电器、元件；弱势：煤炭开采加工、文化传媒、影视院线。研究复核优先关注 德明利、兆易创新、中际旭创；该排序代表证据变化与复核优先级，不代表交易优先级。资金/期指：融资余额26144亿元，5日+0.97%；南向成交净买额+34.5亿元；中证500股指期货基差-1.81%。 下一催化：09-30 Micron 财报发行。主线财报已确认披露 21/21 个研究样本。",
+  "core_conclusion": "A股状态为 Transition，上涨家数占比 34.0%，风险温度 58/100（elevated）。沪深300 PE-TTM 13.45；10年分位 53.3%；强势：非金属材料、厨卫电器、元件；弱势：煤炭开采加工、文化传媒、影视院线。研究复核优先关注 德明利、兆易创新、中际旭创；该排序代表证据变化与复核优先级，不代表交易优先级。资金/期指：融资余额26144亿元，5日+0.97%；南向成交净买额+34.5亿元；中证500股指期货基差-1.81%。 下一催化：09-30 Micron 财报发行。主线财报已确认披露 21/21 个研究样本。",
   "market": {
     "regime": {
       "label": "Transition",
@@ -17,13 +17,13 @@
       "methodology": "市场广度55% + 核心指数30% + 涨跌停结构15%；仅用于状态分类，不是收益概率。"
     },
     "risk": {
-      "score": 58.6,
+      "score": 58.2,
       "label": "elevated",
       "coverage": 100.0
     },
     "valuation_hs300": {
-      "pe_ttm": 13.53,
-      "percentile_10y": 55.2,
+      "pe_ttm": 13.45,
+      "percentile_10y": 53.3,
       "band": "neutral",
       "status": "fresh"
     },
@@ -445,10 +445,10 @@
       "symbol": "^VIX",
       "group": "风险",
       "unit": "index",
-      "value": 14.15,
-      "raw_value": 14.15,
+      "value": 14.17,
+      "raw_value": 14.17,
       "previous_close": 14.87,
-      "change_pct": -4.84,
+      "change_pct": -4.71,
       "as_of": "2026-09-23T15:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -473,10 +473,10 @@
       "symbol": "DX-Y.NYB",
       "group": "汇率",
       "unit": "index",
-      "value": 100.774,
-      "raw_value": 100.774,
+      "value": 100.878,
+      "raw_value": 100.878,
       "previous_close": 100.43,
-      "change_pct": 0.34,
+      "change_pct": 0.45,
       "as_of": "2026-09-23T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -487,11 +487,11 @@
       "symbol": "CNH=X",
       "group": "汇率",
       "unit": "fx",
-      "value": 6.706,
-      "raw_value": 6.706,
+      "value": 6.7064,
+      "raw_value": 6.7064,
       "previous_close": null,
       "change_pct": null,
-      "as_of": "2026-09-23T16:45:52+08:00",
+      "as_of": "2026-09-23T18:06:01+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -501,10 +501,10 @@
       "symbol": "GC=F",
       "group": "商品",
       "unit": "usd",
-      "value": 4355.7998,
-      "raw_value": 4355.7998,
+      "value": 4350.2998,
+      "raw_value": 4350.2998,
       "previous_close": 4376.3999,
-      "change_pct": -0.47,
+      "change_pct": -0.6,
       "as_of": "2026-09-23T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -515,10 +515,10 @@
       "symbol": "SI=F",
       "group": "商品",
       "unit": "usd",
-      "value": 65.895,
-      "raw_value": 65.895,
+      "value": 65.72,
+      "raw_value": 65.72,
       "previous_close": 65.932,
-      "change_pct": -0.06,
+      "change_pct": -0.32,
       "as_of": "2026-09-23T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -529,10 +529,10 @@
       "symbol": "CL=F",
       "group": "商品",
       "unit": "usd",
-      "value": 90.26,
-      "raw_value": 90.26,
+      "value": 90.12,
+      "raw_value": 90.12,
       "previous_close": 94.59,
-      "change_pct": -4.58,
+      "change_pct": -4.73,
       "as_of": "2026-09-23T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -543,10 +543,10 @@
       "symbol": "BZ=F",
       "group": "商品",
       "unit": "usd",
-      "value": 95.91,
-      "raw_value": 95.91,
+      "value": 95.82,
+      "raw_value": 95.82,
       "previous_close": 99.25,
-      "change_pct": -3.37,
+      "change_pct": -3.46,
       "as_of": "2026-09-23T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -632,14 +632,14 @@
     },
     {
       "name": "美债 / 美元",
-      "score": 1.8,
+      "score": 0.8,
       "label": "中性",
       "weight": 5,
       "evidence": "收益率与美元上行对长久期风险资产偏压制"
     },
     {
       "name": "商品避险",
-      "score": -31.8,
+      "score": -34.2,
       "label": "偏空",
       "weight": 3,
       "evidence": "黄金/白银/原油组合变化"
@@ -687,7 +687,7 @@
         "中际旭创"
       ],
       "direction": "neutral",
-      "score": 3.5,
+      "score": -4.8,
       "event_score": null,
       "technical_score": -20.0,
       "industry_score": -24.8
@@ -784,7 +784,7 @@
     }
   ],
   "outlook": {
-    "base": "当前基准情景：regime=transition，风险温度=58.6；Matrix中 confirmed=1、supported=3。",
+    "base": "当前基准情景：regime=transition，风险温度=58.2；Matrix中 confirmed=1、supported=3。",
     "bullish": "若上涨占比重新站上50%、Market Regime转向risk_on/narrow_risk_on，且强势主题的行业与技术层同步扩散，则风险偏好修复更可信。",
     "bearish": "若市场广度继续恶化、风险温度抬升，同时当前获支持主题转为conflict/contradicted，则应把环境定义为进一步收缩而非普通波动。"
   },
@@ -816,10 +816,10 @@
       "name": "中际旭创",
       "thesis_state": "conflicted",
       "direction": "neutral",
-      "attention_score": 90.5,
-      "composite_score": 3.5,
-      "confluence": 5.3,
-      "conflict_score": 82.9,
+      "attention_score": 90.8,
+      "composite_score": -4.8,
+      "confluence": 7.2,
+      "conflict_score": 87.0,
       "focus": "正负证据正在相互抵消，优先识别哪一层先失效或被确认。"
     },
     {
@@ -857,17 +857,17 @@
     }
   ],
   "sources": {
-    "market_state": "2026-09-23T16:42:05+08:00",
-    "risk": "2026-09-23T16:44:59+08:00",
-    "valuation": "2026-09-23T16:44:48+08:00",
-    "decision_matrix": "2026-09-23T16:44:59+08:00",
-    "global_markets": "2026-09-23T16:45:52+08:00",
-    "catalysts": "2026-09-23T16:46:21+08:00",
+    "market_state": "2026-09-23T18:02:32+08:00",
+    "risk": "2026-09-23T18:05:10+08:00",
+    "valuation": "2026-09-23T18:04:58+08:00",
+    "decision_matrix": "2026-09-23T18:05:10+08:00",
+    "global_markets": "2026-09-23T18:06:03+08:00",
+    "catalysts": "2026-09-23T18:06:40+08:00",
     "ai_signals": "2026-08-26 13:33",
     "sentiment": "2026-09-23T12:41:15+08:00",
-    "market_extras": "2026-09-23T16:45:53+08:00",
-    "macro_calendar": "2026-09-23T16:47:42+08:00",
-    "theme_earnings": "2026-09-23T16:48:42+08:00"
+    "market_extras": "2026-09-23T18:06:05+08:00",
+    "macro_calendar": "2026-09-23T18:07:45+08:00",
+    "theme_earnings": "2026-09-23T18:08:52+08:00"
   },
   "boundary": "Daily Flash用于信息压缩、研究排序与条件验证；缺失数据保持缺失，不生成无条件买卖、仓位或止损指令。",
   "integrity": {
@@ -899,6 +899,49 @@
       "status": "scheduled"
     },
     {
+      "date": "2026-09-24",
+      "time": "18:00",
+      "type": "macro",
+      "category": "growth",
+      "region": "英国",
+      "title": "英国9月CBI零售销售差值",
+      "actual": null,
+      "forecast": null,
+      "previous": -48.0,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-24",
+      "time": "20:30",
+      "type": "macro",
+      "category": "labor",
+      "region": "美国",
+      "title": "美国截至9月19日当周初请失业金人数(万)",
+      "actual": null,
+      "forecast": 20.1,
+      "previous": 19.6,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
       "date": "2026-09-25",
       "time": "04:30",
       "type": "macro",
@@ -914,6 +957,217 @@
         "美元",
         "全球成长估值",
         "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-30",
+      "time": "04:30",
+      "type": "macro",
+      "category": "energy",
+      "region": "美国",
+      "title": "美国截至9月25日当周API原油库存变动(万桶)",
+      "actual": null,
+      "forecast": null,
+      "previous": 178.6,
+      "importance": 2,
+      "impact_channels": [
+        "原油",
+        "通胀预期",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-30",
+      "time": "09:30",
+      "type": "macro",
+      "category": "growth",
+      "region": "中国",
+      "title": "中国9月官方制造业PMI",
+      "actual": null,
+      "forecast": null,
+      "previous": 49.8,
+      "importance": 2,
+      "impact_channels": [
+        "中国增长预期",
+        "行业盈利预期",
+        "人民币汇率"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-30",
+      "time": "14:00",
+      "type": "macro",
+      "category": "growth",
+      "region": "英国",
+      "title": "英国第二季度生产法GDP季率终值(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 0.4,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-30",
+      "time": "14:00",
+      "type": "macro",
+      "category": "growth",
+      "region": "英国",
+      "title": "英国第二季度生产法GDP年率终值(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 1.2,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-30",
+      "time": "20:15",
+      "type": "macro",
+      "category": "labor",
+      "region": "美国",
+      "title": "美国9月ADP就业人数变动(万)",
+      "actual": null,
+      "forecast": null,
+      "previous": 3.8,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-30",
+      "time": "20:30",
+      "type": "macro",
+      "category": "growth",
+      "region": "美国",
+      "title": "美国第二季度GDP价格指数季率终值(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 6.4,
+      "importance": 2,
+      "impact_channels": [
+        "全球风险偏好",
+        "AI资本开支预期",
+        "美元"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-30",
+      "time": "20:30",
+      "type": "macro",
+      "category": "growth",
+      "region": "美国",
+      "title": "美国第二季度GDP隐性平减指数季率-季调后终值(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 6.4,
+      "importance": 2,
+      "impact_channels": [
+        "全球风险偏好",
+        "AI资本开支预期",
+        "美元"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-30",
+      "time": "20:30",
+      "type": "macro",
+      "category": "growth",
+      "region": "美国",
+      "title": "美国第二季度实际GDP年化季率终值(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 2.1,
+      "importance": null,
+      "impact_channels": [
+        "全球风险偏好",
+        "AI资本开支预期",
+        "美元"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-30",
+      "time": "21:45",
+      "type": "macro",
+      "category": "growth",
+      "region": "美国",
+      "title": "美国9月芝加哥PMI",
+      "actual": null,
+      "forecast": null,
+      "previous": 47.1,
+      "importance": 2,
+      "impact_channels": [
+        "全球风险偏好",
+        "AI资本开支预期",
+        "美元"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-09-30",
+      "time": "22:30",
+      "type": "macro",
+      "category": "energy",
+      "region": "美国",
+      "title": "美国截至9月25日当周EIA原油库存变动(万桶)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "原油",
+        "通胀预期",
+        "风险偏好"
       ],
       "themes": [],
       "assets": [],
@@ -1099,7 +1353,7 @@
       "region": "美国",
       "title": "美国9月失业率(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": 4.2,
       "previous": 4.1,
       "importance": 2,
       "impact_channels": [
@@ -1121,7 +1375,7 @@
       "region": "美国",
       "title": "美国9月私营企业非农就业人数变动(万)",
       "actual": null,
-      "forecast": null,
+      "forecast": 8.5,
       "previous": 12.7,
       "importance": 2,
       "impact_channels": [
@@ -1143,7 +1397,7 @@
       "region": "美国",
       "title": "美国9月非农就业人口变动季调后(万)",
       "actual": null,
-      "forecast": null,
+      "forecast": 10.0,
       "previous": 16.2,
       "importance": 2,
       "impact_channels": [
@@ -1159,11 +1413,11 @@
     }
   ],
   "macro_calendar_summary": {
-    "total": 13,
-    "macro": 12,
+    "total": 25,
+    "macro": 24,
     "global_earnings": 1,
     "high_importance": 1,
-    "macro_days_ok": 9,
+    "macro_days_ok": 11,
     "report_days_ok": 11
   },
   "theme_earnings": [
@@ -1609,8 +1863,8 @@
   "theme_earnings_period": "2026半年报",
   "quality": {
     "macro_calendar": {
-      "events": 13,
-      "warnings": 2,
+      "events": 25,
+      "warnings": 0,
       "horizon_days": 10
     },
     "theme_earnings": {
