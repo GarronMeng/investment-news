@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generated_at": "2026-09-23T09:43:03+08:00",
+  "generated_at": "2026-09-23T12:42:35+08:00",
   "source": {
     "data_generated_at": "2026-09-23 09:41",
     "ai_generated_at": "2026-08-26 13:33",
     "ai_source_generated_at": "2026-08-26 12:26",
-    "features_generated_at": "2026-09-23T09:42:54+08:00",
+    "features_generated_at": "2026-09-23T12:42:24+08:00",
     "fresh_ai": false
   },
   "decisions": [
@@ -108,17 +108,17 @@
     {
       "asset": "600667",
       "name": "太极实业",
-      "as_of": "2026-09-23",
-      "bias": "bullish",
-      "status": "market_watch",
+      "as_of": "2026-09-22",
+      "bias": "neutral",
+      "status": "neutral",
       "event_score": 50.0,
-      "market_score": 75.0,
+      "market_score": 45.0,
       "freshness_score": 70,
-      "conviction": 50.0,
+      "conviction": 10.0,
       "evidence_mode": "market_only",
       "event_count": 0,
-      "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.012367",
+      "trend_state": "mixed",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=-0.002861",
       "confirmation": [
         "半导体工程板块同步走强",
         "事件后股价摆脱弱势结构"
