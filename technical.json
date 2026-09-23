@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-23T16:44:48+08:00",
-  "source_generated_at": "2026-09-23T16:44:48+08:00",
+  "generated_at": "2026-09-23T18:04:58+08:00",
+  "source_generated_at": "2026-09-23T18:04:58+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -96,32 +96,32 @@
     "300308": {
       "code": "300308",
       "name": "中际旭创",
-      "as_of": "2026-09-22",
+      "as_of": "2026-09-23",
       "source_status": "fresh",
       "observations": 140,
-      "close": 927.72,
+      "close": 922.5,
       "ma60": {
-        "value": 967.0993,
+        "value": 962.0882,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.005864
+        "slope_pct": -0.005182
       },
-      "rsi14": 52.91,
+      "rsi14": 52.14,
       "rsi_zone": "neutral",
       "macd": {
-        "dif": -1.90816,
-        "dea": -13.94663,
-        "hist": 24.07695,
+        "dif": -0.30287,
+        "dea": -11.21836,
+        "hist": 21.83097,
         "state": "bullish",
-        "cross_age": 11
+        "cross_age": 12
       },
       "volume": {
-        "ratio20": 0.924,
-        "state": "normal"
+        "ratio20": 0.589,
+        "state": "contraction"
       },
       "breakout_20d": "inside_range",
       "data_quality": "usable",
-      "condition_state": "partial_conditions"
+      "condition_state": "conditions_not_met"
     },
     "002384": {
       "code": "002384",
@@ -306,53 +306,18 @@
   },
   "state_changes": [
     {
-      "code": "603986",
-      "name": "兆易创新",
-      "field": "volume",
-      "from": "expansion",
-      "to": "normal"
-    },
-    {
-      "code": "001309",
-      "name": "德明利",
+      "code": "300308",
+      "name": "中际旭创",
       "field": "volume",
       "from": "normal",
       "to": "contraction"
     },
     {
-      "code": "001309",
-      "name": "德明利",
+      "code": "300308",
+      "name": "中际旭创",
       "field": "condition_state",
       "from": "partial_conditions",
       "to": "conditions_not_met"
-    },
-    {
-      "code": "600667",
-      "name": "太极实业",
-      "field": "ma60_position",
-      "from": "below",
-      "to": "above"
-    },
-    {
-      "code": "600667",
-      "name": "太极实业",
-      "field": "rsi_zone",
-      "from": "neutral",
-      "to": "strong"
-    },
-    {
-      "code": "000636",
-      "name": "风华高科",
-      "field": "rsi_zone",
-      "from": "neutral",
-      "to": "strong"
-    },
-    {
-      "code": "000636",
-      "name": "风华高科",
-      "field": "volume",
-      "from": "normal",
-      "to": "contraction"
     }
   ],
   "methodology": {
