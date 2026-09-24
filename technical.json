@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-24T16:47:45+08:00",
-  "source_generated_at": "2026-09-24T16:47:45+08:00",
+  "generated_at": "2026-09-24T18:05:41+08:00",
+  "source_generated_at": "2026-09-24T18:05:41+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -96,27 +96,27 @@
     "300308": {
       "code": "300308",
       "name": "中际旭创",
-      "as_of": "2026-09-23",
+      "as_of": "2026-09-24",
       "source_status": "fresh",
       "observations": 140,
-      "close": 922.5,
+      "close": 895.86,
       "ma60": {
-        "value": 962.0882,
+        "value": 957.9692,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.005182
+        "slope_pct": -0.004281
       },
-      "rsi14": 52.14,
+      "rsi14": 48.27,
       "rsi_zone": "neutral",
       "macd": {
-        "dif": -0.30287,
-        "dea": -11.21836,
-        "hist": 21.83097,
+        "dif": -1.16629,
+        "dea": -9.20764,
+        "hist": 16.0827,
         "state": "bullish",
-        "cross_age": 12
+        "cross_age": 13
       },
       "volume": {
-        "ratio20": 0.589,
+        "ratio20": 0.749,
         "state": "contraction"
       },
       "breakout_20d": "inside_range",
@@ -304,71 +304,7 @@
       "condition_state": "all_conditions"
     }
   },
-  "state_changes": [
-    {
-      "code": "001309",
-      "name": "德明利",
-      "field": "rsi_zone",
-      "from": "neutral",
-      "to": "weak"
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "rsi_zone",
-      "from": "neutral",
-      "to": "weak"
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "volume",
-      "from": "normal",
-      "to": "contraction"
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "condition_state",
-      "from": "partial_conditions",
-      "to": "conditions_not_met"
-    },
-    {
-      "code": "600667",
-      "name": "太极实业",
-      "field": "ma60_position",
-      "from": "above",
-      "to": "below"
-    },
-    {
-      "code": "600667",
-      "name": "太极实业",
-      "field": "rsi_zone",
-      "from": "strong",
-      "to": "neutral"
-    },
-    {
-      "code": "600667",
-      "name": "太极实业",
-      "field": "volume",
-      "from": "normal",
-      "to": "contraction"
-    },
-    {
-      "code": "600667",
-      "name": "太极实业",
-      "field": "condition_state",
-      "from": "partial_conditions",
-      "to": "conditions_not_met"
-    },
-    {
-      "code": "000636",
-      "name": "风华高科",
-      "field": "rsi_zone",
-      "from": "strong",
-      "to": "neutral"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "rsi14": "Wilder RSI(14)",
     "macd": "EMA12/EMA26 DIF, EMA9 signal, histogram=(DIF-DEA)*2",
