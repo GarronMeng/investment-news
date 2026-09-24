@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-23T18:05:10+08:00",
-  "score": 58.2,
+  "generated_at": "2026-09-24T12:45:21+08:00",
+  "score": 59.0,
   "label": "elevated",
   "coverage": 100.0,
   "available_weight": 100,
@@ -25,10 +25,10 @@
       "evidence": "MA60 below/falling；MACD bullish；RSI neutral"
     },
     "leverage": {
-      "score": 55.0,
+      "score": 60.3,
       "weight": 15,
       "available": true,
-      "evidence": "两融20日Z 0.28"
+      "evidence": "两融20日Z 0.57"
     },
     "overseas": {
       "score": 25.4,
@@ -55,9 +55,9 @@
       "evidence": "transition；上涨占比 34.0%"
     },
     {
-      "component": "concentration",
-      "score": 58.0,
-      "evidence": "regime=transition；指数均值 -0.66% / 上涨占比 34.0%"
+      "component": "leverage",
+      "score": 60.3,
+      "evidence": "两融20日Z 0.57"
     }
   ],
   "state_changes": [],
