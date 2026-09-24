@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-24T13:06:59+08:00",
-  "score": 59.0,
+  "generated_at": "2026-09-24T16:47:52+08:00",
+  "score": 64.6,
   "label": "elevated",
   "coverage": 100.0,
   "available_weight": 100,
@@ -13,10 +13,10 @@
       "evidence": "沪深300滚动PE十年分位 53.3%"
     },
     "market_structure": {
-      "score": 65.4,
+      "score": 84.8,
       "weight": 25,
       "available": true,
-      "evidence": "transition；上涨占比 34.0%"
+      "evidence": "risk_off；上涨占比 20.1%"
     },
     "trend": {
       "score": 73.0,
@@ -37,27 +37,27 @@
       "evidence": "VIX 14.87；20日分位 30.0%"
     },
     "concentration": {
-      "score": 58.0,
+      "score": 66.0,
       "weight": 10,
       "available": true,
-      "evidence": "regime=transition；指数均值 -0.66% / 上涨占比 34.0%"
+      "evidence": "regime=risk_off；指数均值 -1.65% / 上涨占比 20.1%"
     }
   },
   "drivers": [
+    {
+      "component": "market_structure",
+      "score": 84.8,
+      "evidence": "risk_off；上涨占比 20.1%"
+    },
     {
       "component": "trend",
       "score": 73.0,
       "evidence": "MA60 below/falling；MACD bullish；RSI neutral"
     },
     {
-      "component": "market_structure",
-      "score": 65.4,
-      "evidence": "transition；上涨占比 34.0%"
-    },
-    {
-      "component": "leverage",
-      "score": 60.3,
-      "evidence": "两融20日Z 0.57"
+      "component": "concentration",
+      "score": 66.0,
+      "evidence": "regime=risk_off；指数均值 -1.65% / 上涨占比 20.1%"
     }
   ],
   "state_changes": [],
