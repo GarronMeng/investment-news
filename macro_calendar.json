@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-24T18:08:26+08:00",
+  "generated_at": "2026-09-24T20:57:37+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
@@ -269,11 +269,10 @@
     "macro": 11,
     "global_earnings": 1,
     "high_importance": 1,
-    "macro_days_ok": 9,
+    "macro_days_ok": 10,
     "report_days_ok": 11
   },
   "warnings": [
-    "news_economic_baidu 20260924: HTTP Error 403: ",
     "news_economic_baidu 20260930: HTTP Error 403: "
   ],
   "methodology": {
