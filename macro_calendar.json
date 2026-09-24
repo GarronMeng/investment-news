@@ -1,9 +1,31 @@
 {
   "version": 1,
-  "generated_at": "2026-09-24T13:09:21+08:00",
+  "generated_at": "2026-09-24T13:31:19+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
+    {
+      "date": "2026-09-25",
+      "time": "04:30",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "美国",
+      "title": "美国截至9月23日美联储资产负债表(万亿美元)",
+      "actual": null,
+      "forecast": null,
+      "previous": 6.8,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
     {
       "date": "2026-09-30",
       "time": null,
@@ -243,17 +265,17 @@
     }
   ],
   "summary": {
-    "total": 11,
-    "macro": 10,
+    "total": 12,
+    "macro": 11,
     "global_earnings": 1,
     "high_importance": 1,
     "macro_days_ok": 8,
     "report_days_ok": 10
   },
   "warnings": [
-    "news_economic_baidu 20260924: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10000 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-    "news_report_time_baidu 20260924: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10001 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-    "news_economic_baidu 20260925: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+    "news_economic_baidu 20260924: HTTP Error 403: ",
+    "news_economic_baidu 20260926: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+    "news_report_time_baidu 20260929: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
     "news_economic_baidu 20260930: HTTP Error 403: "
   ],
   "methodology": {
