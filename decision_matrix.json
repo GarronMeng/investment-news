@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-24T12:45:21+08:00",
+  "generated_at": "2026-09-24T12:59:33+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -816,43 +816,7 @@
     "600667",
     "161226"
   ],
-  "state_changes": [
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "thesis_state",
-      "from": "no_directional_thesis",
-      "to": "under_test"
-    },
-    {
-      "code": "600667",
-      "name": "太极实业",
-      "field": "evidence_state",
-      "from": "partial_confirmation",
-      "to": "multi_layer_confirmed"
-    },
-    {
-      "code": "600667",
-      "name": "太极实业",
-      "field": "thesis_state",
-      "from": "supported",
-      "to": "confirmed"
-    },
-    {
-      "code": "000636",
-      "name": "风华高科",
-      "field": "evidence_state",
-      "from": "partial_confirmation",
-      "to": "multi_layer_confirmed"
-    },
-    {
-      "code": "000636",
-      "name": "风华高科",
-      "field": "thesis_state",
-      "from": "supported",
-      "to": "confirmed"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "weights": {
       "event": 25,
