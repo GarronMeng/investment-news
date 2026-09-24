@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-23T12:41:15+08:00",
+  "generated_at": "2026-09-24T12:43:57+08:00",
   "timezone": "Asia/Shanghai",
   "states": {
     "overseas_risk": {
@@ -29,7 +29,7 @@
       "value": 14.87,
       "unit": "点",
       "as_of": "2026-09-21",
-      "lag_days": 2,
+      "lag_days": 3,
       "status": "fresh",
       "confidence": "medium",
       "source": "OpenBB/YFinance",
@@ -44,19 +44,19 @@
     {
       "id": "margin_balance",
       "label": "A股杠杆情绪",
-      "value": 26144.47,
-      "total_margin_balance": 26442.9,
-      "financing_buy_amount": 1858.95,
+      "value": 26178.69,
+      "total_margin_balance": 26478.21,
+      "financing_buy_amount": 2091.5,
       "unit": "亿元",
-      "as_of": "2026-09-21",
+      "as_of": "2026-09-22",
       "lag_days": 2,
       "status": "fresh",
       "confidence": "high",
       "source": "SSE+SZSE via AKShare",
       "source_url": "https://www.sse.com.cn/market/othersdata/margin/sum/",
-      "change_1d_pct": 0.54,
-      "change_5d_pct": 0.97,
-      "zscore_20d": 0.28,
+      "change_1d_pct": 0.13,
+      "change_5d_pct": 1.08,
+      "zscore_20d": 0.57,
       "level": "stable",
       "state_label": "中性",
       "tone": "neutral",
@@ -65,12 +65,6 @@
   ],
   "history": {
     "margin_balance": [
-      {
-        "date": "2026-07-31",
-        "financing": 25809.68268667,
-        "total": 26031.77818124,
-        "buy": 2434.20378973
-      },
       {
         "date": "2026-08-03",
         "financing": 25721.740644539997,
@@ -244,6 +238,12 @@
         "financing": 26144.4733761,
         "total": 26442.89894468,
         "buy": 1858.95003793
+      },
+      {
+        "date": "2026-09-22",
+        "financing": 26178.691516760002,
+        "total": 26478.20873397,
+        "buy": 2091.50198148
       }
     ]
   },
