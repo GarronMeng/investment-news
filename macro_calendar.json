@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-24T13:31:19+08:00",
+  "generated_at": "2026-09-24T16:50:15+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
@@ -269,13 +269,11 @@
     "macro": 11,
     "global_earnings": 1,
     "high_importance": 1,
-    "macro_days_ok": 8,
-    "report_days_ok": 10
+    "macro_days_ok": 9,
+    "report_days_ok": 11
   },
   "warnings": [
     "news_economic_baidu 20260924: HTTP Error 403: ",
-    "news_economic_baidu 20260926: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-    "news_report_time_baidu 20260929: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
     "news_economic_baidu 20260930: HTTP Error 403: "
   ],
   "methodology": {
