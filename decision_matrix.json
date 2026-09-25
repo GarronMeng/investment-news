@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-25T20:48:40+08:00",
+  "generated_at": "2026-09-25T20:49:56+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -816,57 +816,7 @@
     "518880",
     "517380"
   ],
-  "state_changes": [
-    {
-      "code": "001309",
-      "name": "德明利",
-      "field": "evidence_state",
-      "from": "multi_layer_confirmed",
-      "to": "partial_confirmation"
-    },
-    {
-      "code": "001309",
-      "name": "德明利",
-      "field": "thesis_state",
-      "from": "confirmed",
-      "to": "supported"
-    },
-    {
-      "code": "300308",
-      "name": "中际旭创",
-      "field": "evidence_state",
-      "from": "noise_or_no_edge",
-      "to": "conflict"
-    },
-    {
-      "code": "300308",
-      "name": "中际旭创",
-      "field": "thesis_state",
-      "from": "under_test",
-      "to": "conflicted"
-    },
-    {
-      "code": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "field": "matrix_direction",
-      "from": "neutral",
-      "to": "bullish"
-    },
-    {
-      "code": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "field": "evidence_state",
-      "from": "conflict",
-      "to": "partial_confirmation"
-    },
-    {
-      "code": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "field": "thesis_state",
-      "from": "conflicted",
-      "to": "supported"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "weights": {
       "event": 25,
