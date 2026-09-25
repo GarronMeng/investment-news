@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-25T14:36:42+08:00",
+  "generated_at": "2026-09-25T16:56:24+08:00",
   "timezone": "Asia/Shanghai",
   "breadth": {
     "total": 5568,
@@ -62,15 +62,15 @@
     {
       "symbol": "hkHSI",
       "name": "恒生指数",
-      "price": 24432.87,
-      "change_pct": -1.33,
+      "price": 24510.09,
+      "change_pct": -1.01,
       "source": "腾讯行情"
     },
     {
       "symbol": "hkHSTECH",
       "name": "恒生科技指数",
-      "price": 4295.38,
-      "change_pct": -1.51,
+      "price": 4311.78,
+      "change_pct": -1.13,
       "source": "腾讯行情"
     }
   ],
