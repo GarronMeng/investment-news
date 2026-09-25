@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-09-25T18:16:18+08:00",
-  "history_generated_at": "2026-09-25T18:16:07+08:00",
-  "records": 404,
-  "raw_ledger_records": 420,
+  "generated_at": "2026-09-25T20:48:40+08:00",
+  "history_generated_at": "2026-09-25T20:48:29+08:00",
+  "records": 407,
+  "raw_ledger_records": 423,
   "superseded_records": 16,
   "evaluations": [
     {
@@ -16909,6 +16909,32 @@
       }
     },
     {
+      "state_id": "cbdfffa5befcf3f5",
+      "state_revision": 2,
+      "asset": "001309",
+      "name": "德明利",
+      "signal_date": "2026-09-24",
+      "matrix_direction": "bearish",
+      "thesis_state": "supported",
+      "evidence_state": "partial_confirmation",
+      "composite_score": -35.9,
+      "confluence": 80.8,
+      "conflict_score": 0.0,
+      "entry_date": "2026-09-24",
+      "entry_close": 394.43,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
       "state_id": "df05d3f5c64c1df0",
       "state_revision": 2,
       "asset": "002384",
@@ -16987,6 +17013,32 @@
       }
     },
     {
+      "state_id": "9e301f22cde853ed",
+      "state_revision": 2,
+      "asset": "300308",
+      "name": "中际旭创",
+      "signal_date": "2026-09-24",
+      "matrix_direction": "neutral",
+      "thesis_state": "conflicted",
+      "evidence_state": "conflict",
+      "composite_score": -11.1,
+      "confluence": 16.6,
+      "conflict_score": 67.2,
+      "entry_date": "2026-09-24",
+      "entry_close": 895.86,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
       "state_id": "a544f8adb010d585",
       "state_revision": 2,
       "asset": "517380",
@@ -16998,6 +17050,32 @@
       "composite_score": 12.0,
       "confluence": 18.0,
       "conflict_score": 77.9,
+      "entry_date": "2026-09-24",
+      "entry_close": 0.87,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "state_id": "9352e500412d80f0",
+      "state_revision": 2,
+      "asset": "517380",
+      "name": "创新药沪港深ETF天弘",
+      "signal_date": "2026-09-24",
+      "matrix_direction": "bullish",
+      "thesis_state": "supported",
+      "evidence_state": "partial_confirmation",
+      "composite_score": 22.0,
+      "confluence": 60.4,
+      "conflict_score": 59.8,
       "entry_date": "2026-09-24",
       "entry_close": 0.87,
       "horizons": {
@@ -17125,7 +17203,7 @@
       }
     },
     "conflicted": {
-      "records": 144,
+      "records": 145,
       "horizons": {
         "t1": {
           "settled": 142,
@@ -17253,7 +17331,7 @@
       }
     },
     "supported": {
-      "records": 73,
+      "records": 75,
       "horizons": {
         "t1": {
           "settled": 73,
@@ -17319,7 +17397,7 @@
   },
   "by_evidence_state": {
     "conflict": {
-      "records": 144,
+      "records": 145,
       "horizons": {
         "t1": {
           "settled": 142,
@@ -17415,7 +17493,7 @@
       }
     },
     "partial_confirmation": {
-      "records": 112,
+      "records": 114,
       "horizons": {
         "t1": {
           "settled": 109,
