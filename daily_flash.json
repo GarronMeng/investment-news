@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-27T09:44:27+08:00",
+  "generated_at": "2026-09-27T13:29:25+08:00",
   "timezone": "Asia/Shanghai",
   "title": "Daily Flash · 每日投资驾驶舱",
   "core_conclusion": "A股状态为 Risk-off，上涨家数占比 20.1%，风险温度 65/100（elevated）。沪深300 PE-TTM 13.29；10年分位 50.9%；强势：风电设备、纺织制造、教育；弱势：贵金属、元件、能源金属。研究复核优先关注 中际旭创、风华高科、兆易创新；该排序代表证据变化与复核优先级，不代表交易优先级。资金/期指：融资余额26168亿元，5日+0.68%；南向成交净买额+29.0亿元；中证500股指期货基差-2.26%。 下一催化：09-30 Micron 财报发行。主线财报已确认披露 21/21 个研究样本。",
@@ -515,10 +515,10 @@
       "symbol": "SI=F",
       "group": "商品",
       "unit": "usd",
-      "value": 64.245,
-      "raw_value": 64.245,
+      "value": 64.801,
+      "raw_value": 64.801,
       "previous_close": 63.457,
-      "change_pct": 1.24,
+      "change_pct": 2.12,
       "as_of": "2026-09-25T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -543,10 +543,10 @@
       "symbol": "BZ=F",
       "group": "商品",
       "unit": "usd",
-      "value": 104.32,
-      "raw_value": 104.32,
+      "value": 97.44,
+      "raw_value": 97.44,
       "previous_close": 106.6,
-      "change_pct": -2.14,
+      "change_pct": -8.59,
       "as_of": "2026-09-25T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -639,8 +639,8 @@
     },
     {
       "name": "商品避险",
-      "score": -10.1,
-      "label": "中性",
+      "score": -31.0,
+      "label": "偏空",
       "weight": 3,
       "evidence": "黄金/白银/原油组合变化"
     },
@@ -858,16 +858,16 @@
   ],
   "sources": {
     "market_state": "2026-09-25T20:45:39+08:00",
-    "risk": "2026-09-27T09:40:48+08:00",
-    "valuation": "2026-09-27T09:40:38+08:00",
-    "decision_matrix": "2026-09-27T09:40:48+08:00",
-    "global_markets": "2026-09-27T09:41:48+08:00",
-    "catalysts": "2026-09-27T09:42:25+08:00",
+    "risk": "2026-09-27T13:24:45+08:00",
+    "valuation": "2026-09-27T13:24:38+08:00",
+    "decision_matrix": "2026-09-27T13:24:45+08:00",
+    "global_markets": "2026-09-27T13:25:37+08:00",
+    "catalysts": "2026-09-27T13:26:10+08:00",
     "ai_signals": "2026-08-26 13:33",
     "sentiment": "2026-09-25T12:52:58+08:00",
-    "market_extras": "2026-09-27T09:41:50+08:00",
-    "macro_calendar": "2026-09-27T09:43:19+08:00",
-    "theme_earnings": "2026-09-27T09:44:27+08:00"
+    "market_extras": "2026-09-27T13:25:38+08:00",
+    "macro_calendar": "2026-09-27T13:27:25+08:00",
+    "theme_earnings": "2026-09-27T13:29:25+08:00"
   },
   "boundary": "Daily Flash用于信息压缩、研究排序与条件验证；缺失数据保持缺失，不生成无条件买卖、仓位或止损指令。",
   "integrity": {
