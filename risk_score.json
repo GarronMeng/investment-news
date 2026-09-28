@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-27T21:07:48+08:00",
-  "score": 64.7,
+  "generated_at": "2026-09-28T13:19:40+08:00",
+  "score": 63.9,
   "label": "elevated",
   "coverage": 100.0,
   "available_weight": 100,
@@ -31,10 +31,10 @@
       "evidence": "两融20日Z 0.49"
     },
     "overseas": {
-      "score": 33.2,
+      "score": 25.4,
       "weight": 10,
       "available": true,
-      "evidence": "VIX 15.18；20日分位 40.0%"
+      "evidence": "VIX 14.87；20日分位 30.0%"
     },
     "concentration": {
       "score": 66.0,
