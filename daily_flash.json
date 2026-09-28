@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-09-28T18:04:01+08:00",
+  "generated_at": "2026-09-28T18:17:09+08:00",
   "timezone": "Asia/Shanghai",
   "title": "Daily Flash · 每日投资驾驶舱",
-  "core_conclusion": "A股状态为 Risk-off，上涨家数占比 16.1%，风险温度 64/100（elevated）。沪深300 PE-TTM 13.29；10年分位 50.9%；强势：汽车整车、小家电、风电设备；弱势：元件、通信设备、电子化学品。研究复核优先关注 德明利、兆易创新、中际旭创；该排序代表证据变化与复核优先级，不代表交易优先级。资金/期指：融资余额26168亿元，5日+0.68%（stale）；南向成交净买额-65.5亿元；中证500股指期货基差-1.79%。 下一催化：09-30 Micron 财报发行。主线财报已确认披露 21/21 个研究样本。",
+  "core_conclusion": "A股状态为 Risk-off，上涨家数占比 16.1%，风险温度 64/100（elevated）。沪深300 PE-TTM 13.09；10年分位 47.4%；强势：汽车整车、小家电、风电设备；弱势：元件、通信设备、电子化学品。研究复核优先关注 德明利、兆易创新、中际旭创；该排序代表证据变化与复核优先级，不代表交易优先级。资金/期指：融资余额26168亿元，5日+0.68%（stale）；南向成交净买额-65.5亿元；中证500股指期货基差-1.79%。 下一催化：09-30 Micron 财报发行。主线财报已确认披露 21/21 个研究样本。",
   "market": {
     "regime": {
       "label": "Risk-off",
@@ -17,13 +17,13 @@
       "methodology": "市场广度55% + 核心指数30% + 涨跌停结构15%；仅用于状态分类，不是收益概率。"
     },
     "risk": {
-      "score": 64.3,
+      "score": 63.6,
       "label": "elevated",
       "coverage": 100.0
     },
     "valuation_hs300": {
-      "pe_ttm": 13.29,
-      "percentile_10y": 50.9,
+      "pe_ttm": 13.09,
+      "percentile_10y": 47.4,
       "band": "neutral",
       "status": "fresh"
     },
@@ -445,10 +445,10 @@
       "symbol": "^VIX",
       "group": "风险",
       "unit": "index",
-      "value": 16.28,
-      "raw_value": 16.28,
+      "value": 16.31,
+      "raw_value": 16.31,
       "previous_close": 14.87,
-      "change_pct": 9.48,
+      "change_pct": 9.68,
       "as_of": "2026-09-28T15:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -473,10 +473,10 @@
       "symbol": "DX-Y.NYB",
       "group": "汇率",
       "unit": "index",
-      "value": 101.107,
-      "raw_value": 101.107,
+      "value": 101.142,
+      "raw_value": 101.142,
       "previous_close": 100.97,
-      "change_pct": 0.14,
+      "change_pct": 0.17,
       "as_of": "2026-09-28T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -487,11 +487,11 @@
       "symbol": "CNH=X",
       "group": "汇率",
       "unit": "fx",
-      "value": 6.713,
-      "raw_value": 6.713,
+      "value": 6.7139,
+      "raw_value": 6.7139,
       "previous_close": null,
       "change_pct": null,
-      "as_of": "2026-09-28T18:01:04+08:00",
+      "as_of": "2026-09-28T18:14:26+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -501,10 +501,10 @@
       "symbol": "GC=F",
       "group": "商品",
       "unit": "usd",
-      "value": 4186.6001,
-      "raw_value": 4186.6001,
+      "value": 4190.3999,
+      "raw_value": 4190.3999,
       "previous_close": 4321.2002,
-      "change_pct": -3.11,
+      "change_pct": -3.03,
       "as_of": "2026-09-28T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -515,10 +515,10 @@
       "symbol": "SI=F",
       "group": "商品",
       "unit": "usd",
-      "value": 61.615,
-      "raw_value": 61.615,
+      "value": 61.765,
+      "raw_value": 61.765,
       "previous_close": 64.245,
-      "change_pct": -4.09,
+      "change_pct": -3.86,
       "as_of": "2026-09-28T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -529,10 +529,10 @@
       "symbol": "CL=F",
       "group": "商品",
       "unit": "usd",
-      "value": 95.71,
-      "raw_value": 95.71,
+      "value": 95.91,
+      "raw_value": 95.91,
       "previous_close": 92.41,
-      "change_pct": 3.57,
+      "change_pct": 3.79,
       "as_of": "2026-09-28T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -543,10 +543,10 @@
       "symbol": "BZ=F",
       "group": "商品",
       "unit": "usd",
-      "value": 100.75,
-      "raw_value": 100.75,
+      "value": 100.65,
+      "raw_value": 100.65,
       "previous_close": 104.32,
-      "change_pct": -3.42,
+      "change_pct": -3.52,
       "as_of": "2026-09-28T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -632,14 +632,14 @@
     },
     {
       "name": "美债 / 美元",
-      "score": -4.6,
+      "score": -4.9,
       "label": "中性",
       "weight": 5,
       "evidence": "收益率与美元上行对长久期风险资产偏压制"
     },
     {
       "name": "商品避险",
-      "score": -26.4,
+      "score": -24.8,
       "label": "偏空",
       "weight": 3,
       "evidence": "黄金/白银/原油组合变化"
@@ -687,7 +687,7 @@
         "中际旭创"
       ],
       "direction": "bearish",
-      "score": -46.0,
+      "score": -45.9,
       "event_score": null,
       "technical_score": -34.0,
       "industry_score": -70.9
@@ -702,7 +702,7 @@
         "东山精密"
       ],
       "direction": "bearish",
-      "score": -77.3,
+      "score": -77.2,
       "event_score": null,
       "technical_score": -94.0,
       "industry_score": -55.8
@@ -717,7 +717,7 @@
         "太极实业"
       ],
       "direction": "bearish",
-      "score": -69.7,
+      "score": -69.6,
       "event_score": null,
       "technical_score": -82.0,
       "industry_score": -67.8
@@ -784,7 +784,7 @@
     }
   ],
   "outlook": {
-    "base": "当前基准情景：regime=risk_off，风险温度=64.3；Matrix中 confirmed=6、supported=3。",
+    "base": "当前基准情景：regime=risk_off，风险温度=63.6；Matrix中 confirmed=6、supported=3。",
     "bullish": "若上涨占比重新站上50%、Market Regime转向risk_on/narrow_risk_on，且强势主题的行业与技术层同步扩散，则风险偏好修复更可信。",
     "bearish": "若市场广度继续恶化、风险温度抬升，同时当前获支持主题转为conflict/contradicted，则应把环境定义为进一步收缩而非普通波动。"
   },
@@ -817,7 +817,7 @@
       "thesis_state": "confirmed",
       "direction": "bearish",
       "attention_score": 71.6,
-      "composite_score": -46.0,
+      "composite_score": -45.9,
       "confluence": 83.8,
       "conflict_score": 0.0,
       "focus": "验证持续性、行业扩散与后续基本面证据。"
@@ -828,7 +828,7 @@
       "thesis_state": "confirmed",
       "direction": "bearish",
       "attention_score": 70.2,
-      "composite_score": -77.3,
+      "composite_score": -77.2,
       "confluence": 93.2,
       "conflict_score": 0.0,
       "focus": "验证持续性、行业扩散与后续基本面证据。"
@@ -839,7 +839,7 @@
       "thesis_state": "confirmed",
       "direction": "bearish",
       "attention_score": 70.1,
-      "composite_score": -69.7,
+      "composite_score": -69.6,
       "confluence": 90.9,
       "conflict_score": 0.0,
       "focus": "验证持续性、行业扩散与后续基本面证据。"
@@ -851,23 +851,23 @@
       "direction": "bearish",
       "attention_score": 70.0,
       "composite_score": -68.5,
-      "confluence": 90.6,
+      "confluence": 90.5,
       "conflict_score": 0.0,
       "focus": "验证持续性、行业扩散与后续基本面证据。"
     }
   ],
   "sources": {
     "market_state": "2026-09-28T17:57:36+08:00",
-    "risk": "2026-09-28T18:00:00+08:00",
-    "valuation": "2026-09-28T17:59:54+08:00",
-    "decision_matrix": "2026-09-28T18:00:00+08:00",
-    "global_markets": "2026-09-28T18:01:04+08:00",
-    "catalysts": "2026-09-28T18:01:35+08:00",
+    "risk": "2026-09-28T18:13:35+08:00",
+    "valuation": "2026-09-28T18:13:24+08:00",
+    "decision_matrix": "2026-09-28T18:13:35+08:00",
+    "global_markets": "2026-09-28T18:14:26+08:00",
+    "catalysts": "2026-09-28T18:15:00+08:00",
     "ai_signals": "2026-08-26 13:33",
     "sentiment": "2026-09-28T13:18:08+08:00",
-    "market_extras": "2026-09-28T18:01:05+08:00",
-    "macro_calendar": "2026-09-28T18:02:42+08:00",
-    "theme_earnings": "2026-09-28T18:04:01+08:00"
+    "market_extras": "2026-09-28T18:14:27+08:00",
+    "macro_calendar": "2026-09-28T18:16:06+08:00",
+    "theme_earnings": "2026-09-28T18:17:08+08:00"
   },
   "boundary": "Daily Flash用于信息压缩、研究排序与条件验证；缺失数据保持缺失，不生成无条件买卖、仓位或止损指令。",
   "integrity": {
