@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "generated_at": "2026-09-25T12:52:58+08:00",
+  "generated_at": "2026-09-28T13:18:08+08:00",
   "timezone": "Asia/Shanghai",
   "states": {
     "overseas_risk": {
       "title": "海外风险",
-      "level": "normal",
-      "label": "正常",
-      "tone": "neutral",
+      "level": "calm",
+      "label": "低波动",
+      "tone": "positive",
       "status": "fresh",
       "summary": "用于校准海外风险环境，不直接触发A股买卖。",
       "metric_id": "vix"
@@ -17,7 +17,7 @@
       "level": "stable",
       "label": "中性",
       "tone": "neutral",
-      "status": "fresh",
+      "status": "stale",
       "summary": "观察融资余额5日变化与20日位置，资金流不在本阶段计分。",
       "metric_id": "margin_balance"
     }
@@ -26,19 +26,19 @@
     {
       "id": "vix",
       "label": "VIX海外风险",
-      "value": 15.18,
+      "value": 14.87,
       "unit": "点",
-      "as_of": "2026-09-23",
-      "lag_days": 2,
+      "as_of": "2026-09-25",
+      "lag_days": 3,
       "status": "fresh",
       "confidence": "medium",
       "source": "OpenBB/YFinance",
       "source_url": "https://www.cboe.com/tradable_products/vix/vix_historical_data/",
-      "change_1d_pct": 2.08,
-      "percentile_20d": 40.0,
-      "level": "normal",
-      "state_label": "正常",
-      "tone": "neutral",
+      "change_1d_pct": -5.11,
+      "percentile_20d": 30.0,
+      "level": "calm",
+      "state_label": "低波动",
+      "tone": "positive",
       "sample_size": 20
     },
     {
@@ -49,8 +49,8 @@
       "financing_buy_amount": 1603.26,
       "unit": "亿元",
       "as_of": "2026-09-23",
-      "lag_days": 2,
-      "status": "fresh",
+      "lag_days": 5,
+      "status": "stale",
       "confidence": "high",
       "source": "SSE+SZSE via AKShare",
       "source_url": "https://www.sse.com.cn/market/othersdata/margin/sum/",
