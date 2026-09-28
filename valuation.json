@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-28T17:59:54+08:00",
+  "generated_at": "2026-09-28T18:13:24+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 4,
@@ -11,18 +11,18 @@
     "000300": {
       "code": "000300",
       "name": "沪深300",
-      "as_of": "2026-09-24",
+      "as_of": "2026-09-28",
       "status": "fresh",
       "source": "中证指数 via AKShare stock_zh_index_hist_csindex",
       "confidence": "high",
-      "pe_ttm": 13.29,
-      "pe_1m_ago": 14.25,
-      "pe_3m_ago": 14.54,
-      "percentile_3y": 62.9,
-      "percentile_5y": 68.3,
-      "percentile_10y": 50.9,
+      "pe_ttm": 13.09,
+      "pe_1m_ago": 14.42,
+      "pe_3m_ago": 14.76,
+      "percentile_3y": 59.7,
+      "percentile_5y": 66.0,
+      "percentile_10y": 47.4,
       "band": "neutral",
-      "observations_10y": 2430,
+      "observations_10y": 2429,
       "history_monthly_10y": [
         {
           "date": "2016-09-30",
@@ -505,8 +505,8 @@
           "pe_ttm": 14.53
         },
         {
-          "date": "2026-09-24",
-          "pe_ttm": 13.29
+          "date": "2026-09-28",
+          "pe_ttm": 13.09
         }
       ],
       "metric": "滚动市盈率",
@@ -515,18 +515,18 @@
     "000905": {
       "code": "000905",
       "name": "中证500",
-      "as_of": "2026-09-24",
+      "as_of": "2026-09-28",
       "status": "fresh",
       "source": "中证指数 via AKShare stock_zh_index_hist_csindex",
       "confidence": "high",
-      "pe_ttm": 25.64,
-      "pe_1m_ago": 27.39,
-      "pe_3m_ago": 30.9,
-      "percentile_3y": 66.3,
-      "percentile_5y": 79.8,
-      "percentile_10y": 72.4,
+      "pe_ttm": 24.95,
+      "pe_1m_ago": 28.01,
+      "pe_3m_ago": 31.78,
+      "percentile_3y": 63.4,
+      "percentile_5y": 78.1,
+      "percentile_10y": 70.5,
       "band": "high",
-      "observations_10y": 2431,
+      "observations_10y": 2430,
       "history_monthly_10y": [
         {
           "date": "2016-09-30",
@@ -1009,8 +1009,8 @@
           "pe_ttm": 28.2
         },
         {
-          "date": "2026-09-24",
-          "pe_ttm": 25.64
+          "date": "2026-09-28",
+          "pe_ttm": 24.95
         }
       ],
       "metric": "滚动市盈率",
@@ -1019,18 +1019,18 @@
     "000852": {
       "code": "000852",
       "name": "中证1000",
-      "as_of": "2026-09-24",
+      "as_of": "2026-09-28",
       "status": "fresh",
       "source": "中证指数 via AKShare stock_zh_index_hist_csindex",
       "confidence": "high",
-      "pe_ttm": 30.69,
-      "pe_1m_ago": 31.83,
-      "pe_3m_ago": 36.33,
-      "percentile_3y": 67.2,
-      "percentile_5y": 80.3,
-      "percentile_10y": 70.5,
+      "pe_ttm": 29.57,
+      "pe_1m_ago": 32.53,
+      "pe_3m_ago": 37.16,
+      "percentile_3y": 63.1,
+      "percentile_5y": 77.6,
+      "percentile_10y": 65.6,
       "band": "high",
-      "observations_10y": 2431,
+      "observations_10y": 2430,
       "history_monthly_10y": [
         {
           "date": "2016-09-30",
@@ -1513,8 +1513,8 @@
           "pe_ttm": 32.83
         },
         {
-          "date": "2026-09-24",
-          "pe_ttm": 30.69
+          "date": "2026-09-28",
+          "pe_ttm": 29.57
         }
       ],
       "metric": "滚动市盈率",
@@ -1523,18 +1523,18 @@
     "000906": {
       "code": "000906",
       "name": "中证800",
-      "as_of": "2026-09-24",
+      "as_of": "2026-09-28",
       "status": "fresh",
       "source": "中证指数 via AKShare stock_zh_index_hist_csindex",
       "confidence": "high",
-      "pe_ttm": 14.92,
-      "pe_1m_ago": 15.97,
-      "pe_3m_ago": 16.69,
-      "percentile_3y": 63.5,
-      "percentile_5y": 75.5,
-      "percentile_10y": 58.7,
+      "pe_ttm": 14.65,
+      "pe_1m_ago": 16.2,
+      "pe_3m_ago": 16.99,
+      "percentile_3y": 63.0,
+      "percentile_5y": 73.3,
+      "percentile_10y": 55.9,
       "band": "neutral",
-      "observations_10y": 2431,
+      "observations_10y": 2430,
       "history_monthly_10y": [
         {
           "date": "2016-09-30",
@@ -2017,8 +2017,8 @@
           "pe_ttm": 16.32
         },
         {
-          "date": "2026-09-24",
-          "pe_ttm": 14.92
+          "date": "2026-09-28",
+          "pe_ttm": 14.65
         }
       ],
       "metric": "滚动市盈率",
