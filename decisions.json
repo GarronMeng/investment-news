@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generated_at": "2026-09-29T13:56:11+08:00",
+  "generated_at": "2026-09-29T15:33:55+08:00",
   "source": {
     "data_generated_at": "2026-09-29 13:48",
     "ai_generated_at": "2026-08-26 13:33",
     "ai_source_generated_at": "2026-08-26 12:26",
-    "features_generated_at": "2026-09-29T13:56:01+08:00",
+    "features_generated_at": "2026-09-29T15:33:41+08:00",
     "fresh_ai": false
   },
   "decisions": [
@@ -132,7 +132,7 @@
     {
       "asset": "000636",
       "name": "风华高科",
-      "as_of": "2026-09-29",
+      "as_of": "2026-09-28",
       "bias": "bearish",
       "status": "market_watch",
       "event_score": 50.0,
@@ -142,7 +142,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.032409",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.034717",
       "confirmation": [
         "被动元件板块形成联动",
         "涨价新闻后价格走势能够确认"
