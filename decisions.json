@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generated_at": "2026-09-29T13:40:55+08:00",
+  "generated_at": "2026-09-29T13:56:11+08:00",
   "source": {
-    "data_generated_at": "2026-09-29 10:40",
+    "data_generated_at": "2026-09-29 13:48",
     "ai_generated_at": "2026-08-26 13:33",
     "ai_source_generated_at": "2026-08-26 12:26",
-    "features_generated_at": "2026-09-29T13:40:43+08:00",
+    "features_generated_at": "2026-09-29T13:56:01+08:00",
     "fresh_ai": false
   },
   "decisions": [
@@ -132,7 +132,7 @@
     {
       "asset": "000636",
       "name": "风华高科",
-      "as_of": "2026-09-28",
+      "as_of": "2026-09-29",
       "bias": "bearish",
       "status": "market_watch",
       "event_score": 50.0,
@@ -142,7 +142,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.034717",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.032409",
       "confirmation": [
         "被动元件板块形成联动",
         "涨价新闻后价格走势能够确认"
@@ -204,17 +204,17 @@
     {
       "asset": "517380",
       "name": "创新药沪港深ETF天弘",
-      "as_of": "2026-09-29",
+      "as_of": "2026-09-28",
       "bias": "bullish",
       "status": "market_watch",
       "event_score": 50.0,
-      "market_score": 75.0,
+      "market_score": 70.0,
       "freshness_score": 70,
-      "conviction": 50.0,
+      "conviction": 40.0,
       "evidence_mode": "market_only",
       "event_count": 0,
-      "trend_state": "bullish",
-      "why_now": "no fresh mapped event; market trend=bullish; 20d relative strength=0.078243",
+      "trend_state": "mixed",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.046904",
       "confirmation": [
         "A股与港股创新药板块形成联动",
         "利好由成交量与持续性确认"

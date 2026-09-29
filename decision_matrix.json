@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-29T13:40:55+08:00",
+  "generated_at": "2026-09-29T13:56:11+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -454,12 +454,12 @@
       "group": "科技核心",
       "role": "MLCC周期观察",
       "priority": 3,
-      "as_of": "2026-09-28",
+      "as_of": "2026-09-29",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -65.9,
+      "composite_score": -65.7,
       "coverage": 75.0,
-      "confluence": 89.8,
+      "confluence": 89.7,
       "available_layers": 4,
       "opposing_weight_share": 0.0,
       "evidence_state": "multi_layer_confirmed",
@@ -476,14 +476,14 @@
         "technical": {
           "available": true,
           "score": -82.0,
-          "confidence": "high",
-          "evidence": "MA60 below/falling；MACD bearish；RSI 41.48 (weak)；量能 normal；20日结构 inside_range。"
+          "confidence": "medium",
+          "evidence": "MA60 below/falling；MACD bearish；RSI 42.54 (weak)；量能 contraction；20日结构 inside_range。"
         },
         "relative_strength": {
           "available": true,
-          "score": -50.7,
+          "score": -50.0,
           "confidence": "high",
-          "evidence": "5日相对强弱 -0.097667；20日相对强弱 -0.034717。"
+          "evidence": "5日相对强弱 -0.104243；20日相对强弱 -0.032409。"
         },
         "industry": {
           "available": true,
@@ -511,12 +511,12 @@
           {
             "layer": "technical",
             "score": -82.0,
-            "evidence": "MA60 below/falling；MACD bearish；RSI 41.48 (weak)；量能 normal；20日结构 inside_range。"
+            "evidence": "MA60 below/falling；MACD bearish；RSI 42.54 (weak)；量能 contraction；20日结构 inside_range。"
           },
           {
             "layer": "relative_strength",
-            "score": -50.7,
-            "evidence": "5日相对强弱 -0.097667；20日相对强弱 -0.034717。"
+            "score": -50.0,
+            "evidence": "5日相对强弱 -0.104243；20日相对强弱 -0.032409。"
           }
         ]
       },
@@ -530,7 +530,7 @@
       ],
       "excluded_layers": [],
       "positive_direction_mass": 0.0,
-      "negative_direction_mass": 49.4,
+      "negative_direction_mass": 49.3,
       "conflict_score": 0.0
     },
     "161226": {
@@ -699,12 +699,12 @@
       "group": "医疗成长",
       "role": "创新药分散配置",
       "priority": 3,
-      "as_of": "2026-09-29",
+      "as_of": "2026-09-28",
       "base_bias": "bullish",
       "matrix_direction": "bullish",
-      "composite_score": 30.0,
+      "composite_score": 32.0,
       "coverage": 75.0,
-      "confluence": 67.3,
+      "confluence": 67.9,
       "available_layers": 4,
       "opposing_weight_share": 13.3,
       "evidence_state": "partial_confirmation",
@@ -722,13 +722,13 @@
           "available": true,
           "score": 68.0,
           "confidence": "high",
-          "evidence": "MA60 above/rising；MACD bullish；RSI 53.67 (neutral)；量能 normal；20日结构 inside_range。"
+          "evidence": "MA60 above/rising；MACD bullish；RSI 53.4 (neutral)；量能 expansion；20日结构 inside_range。"
         },
         "relative_strength": {
           "available": true,
-          "score": 40.7,
+          "score": 48.4,
           "confidence": "high",
-          "evidence": "5日相对强弱 0.00601；20日相对强弱 0.078243。"
+          "evidence": "5日相对强弱 0.051144；20日相对强弱 0.046904。"
         },
         "industry": {
           "available": true,
@@ -756,12 +756,12 @@
           {
             "layer": "technical",
             "score": 68.0,
-            "evidence": "MA60 above/rising；MACD bullish；RSI 53.67 (neutral)；量能 normal；20日结构 inside_range。"
+            "evidence": "MA60 above/rising；MACD bullish；RSI 53.4 (neutral)；量能 expansion；20日结构 inside_range。"
           },
           {
             "layer": "relative_strength",
-            "score": 40.7,
-            "evidence": "5日相对强弱 0.00601；20日相对强弱 0.078243。"
+            "score": 48.4,
+            "evidence": "5日相对强弱 0.051144；20日相对强弱 0.046904。"
           }
         ],
         "negative": [
@@ -786,9 +786,9 @@
         "监管或支付政策收紧"
       ],
       "excluded_layers": [],
-      "positive_direction_mass": 28.5,
+      "positive_direction_mass": 30.1,
       "negative_direction_mass": 5.7,
-      "conflict_score": 33.1
+      "conflict_score": 31.7
     }
   },
   "ranking": [
