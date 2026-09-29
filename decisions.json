@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generated_at": "2026-09-28T23:49:09+08:00",
+  "generated_at": "2026-09-29T10:41:40+08:00",
   "source": {
-    "data_generated_at": "2026-09-28 23:34",
+    "data_generated_at": "2026-09-29 10:40",
     "ai_generated_at": "2026-08-26 13:33",
     "ai_source_generated_at": "2026-08-26 12:26",
-    "features_generated_at": "2026-09-28T23:49:02+08:00",
+    "features_generated_at": "2026-09-29T10:41:26+08:00",
     "fresh_ai": false
   },
   "decisions": [
@@ -31,7 +31,7 @@
         "存储价格下行",
         "库存恶化"
       ],
-      "expires_at": "2026-10-03"
+      "expires_at": "2026-10-04"
     },
     {
       "asset": "001309",
@@ -55,7 +55,7 @@
         "NAND跌价",
         "渠道库存上升"
       ],
-      "expires_at": "2026-10-03"
+      "expires_at": "2026-10-04"
     },
     {
       "asset": "300308",
@@ -79,7 +79,7 @@
         "AI资本开支下修",
         "客户延迟采购"
       ],
-      "expires_at": "2026-10-03"
+      "expires_at": "2026-10-04"
     },
     {
       "asset": "002384",
@@ -103,12 +103,12 @@
         "终端需求下修",
         "价格竞争"
       ],
-      "expires_at": "2026-10-03"
+      "expires_at": "2026-10-04"
     },
     {
       "asset": "600667",
       "name": "太极实业",
-      "as_of": "2026-09-28",
+      "as_of": "2026-09-29",
       "bias": "bearish",
       "status": "market_watch",
       "event_score": 50.0,
@@ -118,7 +118,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.032075",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.011223",
       "confirmation": [
         "半导体工程板块同步走强",
         "事件后股价摆脱弱势结构"
@@ -127,12 +127,12 @@
         "资本开支延迟",
         "项目回款承压"
       ],
-      "expires_at": "2026-10-03"
+      "expires_at": "2026-10-04"
     },
     {
       "asset": "000636",
       "name": "风华高科",
-      "as_of": "2026-09-28",
+      "as_of": "2026-09-29",
       "bias": "bearish",
       "status": "market_watch",
       "event_score": 50.0,
@@ -142,7 +142,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.034717",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.035809",
       "confirmation": [
         "被动元件板块形成联动",
         "涨价新闻后价格走势能够确认"
@@ -151,7 +151,7 @@
         "价格下跌",
         "库存去化不及预期"
       ],
-      "expires_at": "2026-10-03"
+      "expires_at": "2026-10-04"
     },
     {
       "asset": "161226",
@@ -175,7 +175,7 @@
         "银价下跌",
         "美元与实际利率上行"
       ],
-      "expires_at": "2026-10-03"
+      "expires_at": "2026-10-04"
     },
     {
       "asset": "518880",
@@ -199,7 +199,7 @@
         "金价下跌",
         "实际利率上行"
       ],
-      "expires_at": "2026-10-03"
+      "expires_at": "2026-10-04"
     },
     {
       "asset": "517380",
@@ -223,7 +223,7 @@
         "临床失败",
         "监管或支付政策收紧"
       ],
-      "expires_at": "2026-10-03"
+      "expires_at": "2026-10-04"
     }
   ],
   "methodology": {

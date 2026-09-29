@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-28T23:49:09+08:00",
+  "generated_at": "2026-09-29T10:41:40+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -15,7 +15,7 @@
       "603986",
       "300308",
       "002384",
-      "600667"
+      "000636"
     ]
   },
   "assets": {
@@ -369,17 +369,17 @@
       "group": "科技核心",
       "role": "扩产与封测映射",
       "priority": 3,
-      "as_of": "2026-09-28",
+      "as_of": "2026-09-29",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -67.0,
+      "composite_score": -63.5,
       "coverage": 75.0,
-      "confluence": 90.1,
+      "confluence": 89.1,
       "available_layers": 4,
       "opposing_weight_share": 0.0,
       "evidence_state": "multi_layer_confirmed",
       "thesis_state": "confirmed",
-      "attention_score": 70.0,
+      "attention_score": 69.9,
       "research_focus": "验证持续性、行业扩散与后续基本面证据。",
       "layers": {
         "event": {
@@ -392,13 +392,13 @@
           "available": true,
           "score": -82.0,
           "confidence": "medium",
-          "evidence": "MA60 below/falling；MACD bearish；RSI 41.08 (weak)；量能 contraction；20日结构 inside_range。"
+          "evidence": "MA60 below/falling；MACD bearish；RSI 42.43 (weak)；量能 contraction；20日结构 inside_range。"
         },
         "relative_strength": {
           "available": true,
-          "score": -49.0,
+          "score": -35.8,
           "confidence": "high",
-          "evidence": "5日相对强弱 -0.093511；20日相对强弱 -0.032075。"
+          "evidence": "5日相对强弱 -0.07532；20日相对强弱 -0.011223。"
         },
         "industry": {
           "available": true,
@@ -426,7 +426,7 @@
           {
             "layer": "technical",
             "score": -82.0,
-            "evidence": "MA60 below/falling；MACD bearish；RSI 41.08 (weak)；量能 contraction；20日结构 inside_range。"
+            "evidence": "MA60 below/falling；MACD bearish；RSI 42.43 (weak)；量能 contraction；20日结构 inside_range。"
           },
           {
             "layer": "industry",
@@ -445,7 +445,7 @@
       ],
       "excluded_layers": [],
       "positive_direction_mass": 0.0,
-      "negative_direction_mass": 50.3,
+      "negative_direction_mass": 47.6,
       "conflict_score": 0.0
     },
     "000636": {
@@ -454,12 +454,12 @@
       "group": "科技核心",
       "role": "MLCC周期观察",
       "priority": 3,
-      "as_of": "2026-09-28",
+      "as_of": "2026-09-29",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -66.0,
+      "composite_score": -66.3,
       "coverage": 75.0,
-      "confluence": 89.8,
+      "confluence": 89.9,
       "available_layers": 4,
       "opposing_weight_share": 0.0,
       "evidence_state": "multi_layer_confirmed",
@@ -476,14 +476,14 @@
         "technical": {
           "available": true,
           "score": -82.0,
-          "confidence": "high",
-          "evidence": "MA60 below/falling；MACD bearish；RSI 41.48 (weak)；量能 normal；20日结构 inside_range。"
+          "confidence": "medium",
+          "evidence": "MA60 below/falling；MACD bearish；RSI 42.16 (weak)；量能 contraction；20日结构 inside_range。"
         },
         "relative_strength": {
           "available": true,
-          "score": -50.7,
+          "score": -51.9,
           "confidence": "high",
-          "evidence": "5日相对强弱 -0.097667；20日相对强弱 -0.034717。"
+          "evidence": "5日相对强弱 -0.107449；20日相对强弱 -0.035809。"
         },
         "industry": {
           "available": true,
@@ -511,12 +511,12 @@
           {
             "layer": "technical",
             "score": -82.0,
-            "evidence": "MA60 below/falling；MACD bearish；RSI 41.48 (weak)；量能 normal；20日结构 inside_range。"
+            "evidence": "MA60 below/falling；MACD bearish；RSI 42.16 (weak)；量能 contraction；20日结构 inside_range。"
           },
           {
             "layer": "relative_strength",
-            "score": -50.7,
-            "evidence": "5日相对强弱 -0.097667；20日相对强弱 -0.034717。"
+            "score": -51.9,
+            "evidence": "5日相对强弱 -0.107449；20日相对强弱 -0.035809。"
           }
         ]
       },
@@ -530,7 +530,7 @@
       ],
       "excluded_layers": [],
       "positive_direction_mass": 0.0,
-      "negative_direction_mass": 49.5,
+      "negative_direction_mass": 49.7,
       "conflict_score": 0.0
     },
     "161226": {
@@ -796,8 +796,8 @@
     "603986",
     "300308",
     "002384",
-    "600667",
     "000636",
+    "600667",
     "161226",
     "518880",
     "517380"
