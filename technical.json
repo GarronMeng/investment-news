@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-29T10:41:26+08:00",
-  "source_generated_at": "2026-09-29T10:41:25+08:00",
+  "generated_at": "2026-09-29T13:40:43+08:00",
+  "source_generated_at": "2026-09-29T13:40:42+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -156,27 +156,27 @@
     "600667": {
       "code": "600667",
       "name": "太极实业",
-      "as_of": "2026-09-29",
+      "as_of": "2026-09-28",
       "source_status": "fresh",
       "observations": 140,
-      "close": 18.04,
+      "close": 17.81,
       "ma60": {
-        "value": 19.7033,
+        "value": 19.8595,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.007864
+        "slope_pct": -0.010094
       },
-      "rsi14": 42.43,
+      "rsi14": 41.08,
       "rsi_zone": "weak",
       "macd": {
-        "dif": -0.18969,
-        "dea": -0.08391,
-        "hist": -0.21156,
+        "dif": -0.08159,
+        "dea": -0.05744,
+        "hist": -0.04829,
         "state": "bearish",
-        "cross_age": 1
+        "cross_age": 0
       },
       "volume": {
-        "ratio20": 0.24,
+        "ratio20": 0.71,
         "state": "contraction"
       },
       "breakout_20d": "inside_range",
@@ -186,28 +186,28 @@
     "000636": {
       "code": "000636",
       "name": "风华高科",
-      "as_of": "2026-09-29",
+      "as_of": "2026-09-28",
       "source_status": "fresh",
       "observations": 140,
-      "close": 50.75,
+      "close": 50.42,
       "ma60": {
-        "value": 54.1253,
+        "value": 54.2545,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.002381
+        "slope_pct": -0.00392
       },
-      "rsi14": 42.16,
+      "rsi14": 41.48,
       "rsi_zone": "weak",
       "macd": {
-        "dif": -0.03593,
-        "dea": 0.35388,
-        "hist": -0.77963,
+        "dif": 0.38053,
+        "dea": 0.45137,
+        "hist": -0.14167,
         "state": "bearish",
-        "cross_age": 1
+        "cross_age": 0
       },
       "volume": {
-        "ratio20": 0.251,
-        "state": "contraction"
+        "ratio20": 0.783,
+        "state": "normal"
       },
       "breakout_20d": "inside_range",
       "data_quality": "usable",
@@ -276,28 +276,28 @@
     "517380": {
       "code": "517380",
       "name": "创新药沪港深ETF天弘",
-      "as_of": "2026-09-28",
+      "as_of": "2026-09-29",
       "source_status": "fresh",
       "observations": 140,
-      "close": 0.872,
+      "close": 0.873,
       "ma60": {
-        "value": 0.8394,
+        "value": 0.8406,
         "position": "above",
         "direction": "rising",
-        "slope_pct": 0.001691
+        "slope_pct": 0.00143
       },
-      "rsi14": 53.4,
+      "rsi14": 53.67,
       "rsi_zone": "neutral",
       "macd": {
-        "dif": 0.00786,
-        "dea": 0.00562,
-        "hist": 0.00448,
+        "dif": 0.0076,
+        "dea": 0.00602,
+        "hist": 0.00316,
         "state": "bullish",
-        "cross_age": 4
+        "cross_age": 5
       },
       "volume": {
-        "ratio20": 1.399,
-        "state": "expansion"
+        "ratio20": 0.824,
+        "state": "normal"
       },
       "breakout_20d": "inside_range",
       "data_quality": "usable",
@@ -309,8 +309,15 @@
       "code": "000636",
       "name": "风华高科",
       "field": "volume",
-      "from": "normal",
-      "to": "contraction"
+      "from": "contraction",
+      "to": "normal"
+    },
+    {
+      "code": "517380",
+      "name": "创新药沪港深ETF天弘",
+      "field": "volume",
+      "from": "expansion",
+      "to": "normal"
     }
   ],
   "methodology": {
