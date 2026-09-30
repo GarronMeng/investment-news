@@ -1,51 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-09-30T13:42:30+08:00",
+  "generated_at": "2026-09-30T14:02:45+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
-    {
-      "date": "2026-09-30",
-      "time": "14:00",
-      "type": "macro",
-      "category": "growth",
-      "region": "英国",
-      "title": "英国第二季度生产法GDP季率终值(%)",
-      "actual": null,
-      "forecast": 0.4,
-      "previous": 0.4,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-30",
-      "time": "14:00",
-      "type": "macro",
-      "category": "growth",
-      "region": "英国",
-      "title": "英国第二季度生产法GDP年率终值(%)",
-      "actual": null,
-      "forecast": 1.2,
-      "previous": 1.2,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
     {
       "date": "2026-09-30",
       "time": "20:15",
@@ -866,8 +824,8 @@
     }
   ],
   "summary": {
-    "total": 40,
-    "macro": 39,
+    "total": 38,
+    "macro": 37,
     "global_earnings": 1,
     "high_importance": 1,
     "macro_days_ok": 11,
