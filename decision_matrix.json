@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-30T13:29:18+08:00",
+  "generated_at": "2026-09-30T13:40:02+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -756,17 +756,17 @@
       "group": "医疗成长",
       "role": "创新药分散配置",
       "priority": 3,
-      "as_of": "2026-09-29",
+      "as_of": "2026-09-30",
       "base_bias": "bullish",
       "matrix_direction": "bullish",
-      "composite_score": 53.0,
+      "composite_score": 68.4,
       "coverage": 60.0,
-      "confluence": 85.9,
+      "confluence": 90.5,
       "available_layers": 3,
       "opposing_weight_share": 0.0,
       "evidence_state": "multi_layer_confirmed",
       "thesis_state": "confirmed",
-      "attention_score": 69.7,
+      "attention_score": 70.0,
       "research_focus": "验证持续性、行业扩散与后续基本面证据。",
       "layers": {
         "event": {
@@ -777,15 +777,15 @@
         },
         "technical": {
           "available": true,
-          "score": 68.0,
+          "score": 82.0,
           "confidence": "high",
-          "evidence": "MA60 above/rising；MACD bullish；RSI 54.47 (neutral)；量能 normal；20日结构 inside_range。"
+          "evidence": "MA60 above/rising；MACD bullish；RSI 61.63 (strong)；量能 normal；20日结构 inside_range。"
         },
         "relative_strength": {
           "available": true,
-          "score": 47.6,
+          "score": 72.9,
           "confidence": "high",
-          "evidence": "5日相对强弱 0.015；20日相对强弱 0.083178。"
+          "evidence": "5日相对强弱 0.0517；20日相对强弱 0.115829。"
         },
         "industry": {
           "available": false,
@@ -810,13 +810,13 @@
         "positive": [
           {
             "layer": "technical",
-            "score": 68.0,
-            "evidence": "MA60 above/rising；MACD bullish；RSI 54.47 (neutral)；量能 normal；20日结构 inside_range。"
+            "score": 82.0,
+            "evidence": "MA60 above/rising；MACD bullish；RSI 61.63 (strong)；量能 normal；20日结构 inside_range。"
           },
           {
             "layer": "relative_strength",
-            "score": 47.6,
-            "evidence": "5日相对强弱 0.015；20日相对强弱 0.083178。"
+            "score": 72.9,
+            "evidence": "5日相对强弱 0.0517；20日相对强弱 0.115829。"
           }
         ],
         "negative": []
@@ -830,7 +830,7 @@
         "监管或支付政策收紧"
       ],
       "excluded_layers": [],
-      "positive_direction_mass": 31.8,
+      "positive_direction_mass": 41.0,
       "negative_direction_mass": 0.0,
       "conflict_score": 0.0
     }
