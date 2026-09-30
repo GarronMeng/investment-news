@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-30T15:30:46+08:00",
+  "generated_at": "2026-09-30T17:52:39+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -798,71 +798,7 @@
     "161226",
     "518880"
   ],
-  "state_changes": [
-    {
-      "code": "603986",
-      "name": "兆易创新",
-      "field": "matrix_direction",
-      "from": "neutral",
-      "to": "bearish"
-    },
-    {
-      "code": "603986",
-      "name": "兆易创新",
-      "field": "evidence_state",
-      "from": "noise_or_no_edge",
-      "to": "multi_layer_confirmed"
-    },
-    {
-      "code": "603986",
-      "name": "兆易创新",
-      "field": "thesis_state",
-      "from": "under_test",
-      "to": "confirmed"
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "evidence_state",
-      "from": "conflict",
-      "to": "multi_layer_confirmed"
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "thesis_state",
-      "from": "conflicted",
-      "to": "confirmed"
-    },
-    {
-      "code": "600667",
-      "name": "太极实业",
-      "field": "evidence_state",
-      "from": "partial_confirmation",
-      "to": "multi_layer_confirmed"
-    },
-    {
-      "code": "600667",
-      "name": "太极实业",
-      "field": "thesis_state",
-      "from": "supported",
-      "to": "confirmed"
-    },
-    {
-      "code": "000636",
-      "name": "风华高科",
-      "field": "evidence_state",
-      "from": "conflict",
-      "to": "multi_layer_confirmed"
-    },
-    {
-      "code": "000636",
-      "name": "风华高科",
-      "field": "thesis_state",
-      "from": "conflicted",
-      "to": "confirmed"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "weights": {
       "event": 25,
