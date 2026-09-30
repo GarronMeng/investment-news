@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-09-30T17:52:30+08:00",
-  "source_generated_at": "2026-09-30T17:52:29+08:00",
+  "generated_at": "2026-09-30T18:11:01+08:00",
+  "source_generated_at": "2026-09-30T18:11:00+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -86,7 +86,7 @@
         "cross_age": 1
       },
       "volume": {
-        "ratio20": 0.842,
+        "ratio20": 0.851,
         "state": "normal"
       },
       "breakout_20d": "new_low_20d",

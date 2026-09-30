@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-30T17:52:39+08:00",
+  "generated_at": "2026-09-30T18:11:18+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -71,9 +71,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -5.2,
+          "score": -5.3,
           "confidence": "medium",
-          "evidence": "regime=transition；上涨占比=0.4606；风险温度=56.0。"
+          "evidence": "regime=transition；上涨占比=0.4606；风险温度=56.2。"
         }
       },
       "contributors": {
@@ -115,7 +115,7 @@
       "matrix_direction": "bearish",
       "composite_score": -67.2,
       "coverage": 75.0,
-      "confluence": 90.1,
+      "confluence": 90.2,
       "available_layers": 4,
       "opposing_weight_share": 0.0,
       "evidence_state": "multi_layer_confirmed",
@@ -158,9 +158,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -5.2,
+          "score": -5.3,
           "confidence": "medium",
-          "evidence": "regime=transition；上涨占比=0.4606；风险温度=56.0。"
+          "evidence": "regime=transition；上涨占比=0.4606；风险温度=56.2。"
         }
       },
       "contributors": {
@@ -243,9 +243,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -5.2,
+          "score": -5.3,
           "confidence": "medium",
-          "evidence": "regime=transition；上涨占比=0.4606；风险温度=56.0。"
+          "evidence": "regime=transition；上涨占比=0.4606；风险温度=56.2。"
         }
       },
       "contributors": {
@@ -330,9 +330,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -5.2,
+          "score": -5.3,
           "confidence": "medium",
-          "evidence": "regime=transition；上涨占比=0.4606；风险温度=56.0。"
+          "evidence": "regime=transition；上涨占比=0.4606；风险温度=56.2。"
         }
       },
       "contributors": {
@@ -415,9 +415,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -5.2,
+          "score": -5.3,
           "confidence": "medium",
-          "evidence": "regime=transition；上涨占比=0.4606；风险温度=56.0。"
+          "evidence": "regime=transition；上涨占比=0.4606；风险温度=56.2。"
         }
       },
       "contributors": {
@@ -500,9 +500,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -5.2,
+          "score": -5.3,
           "confidence": "medium",
-          "evidence": "regime=transition；上涨占比=0.4606；风险温度=56.0。"
+          "evidence": "regime=transition；上涨占比=0.4606；风险温度=56.2。"
         }
       },
       "contributors": {
@@ -747,9 +747,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -5.2,
+          "score": -5.3,
           "confidence": "medium",
-          "evidence": "regime=transition；上涨占比=0.4606；风险温度=56.0。"
+          "evidence": "regime=transition；上涨占比=0.4606；风险温度=56.2。"
         }
       },
       "contributors": {
@@ -768,8 +768,8 @@
         "negative": [
           {
             "layer": "market_context",
-            "score": -5.2,
-            "evidence": "regime=transition；上涨占比=0.4606；风险温度=56.0。"
+            "score": -5.3,
+            "evidence": "regime=transition；上涨占比=0.4606；风险温度=56.2。"
           }
         ]
       },
