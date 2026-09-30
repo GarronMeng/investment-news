@@ -1,51 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-09-29T22:24:41+08:00",
+  "generated_at": "2026-09-30T13:31:45+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
-    {
-      "date": "2026-09-30",
-      "time": "04:30",
-      "type": "macro",
-      "category": "energy",
-      "region": "美国",
-      "title": "美国截至9月25日当周API原油库存变动(万桶)",
-      "actual": null,
-      "forecast": -114.0,
-      "previous": 178.6,
-      "importance": 2,
-      "impact_channels": [
-        "原油",
-        "通胀预期",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-30",
-      "time": "09:30",
-      "type": "macro",
-      "category": "growth",
-      "region": "中国",
-      "title": "中国9月官方制造业PMI",
-      "actual": null,
-      "forecast": 50.1,
-      "previous": 49.8,
-      "importance": 2,
-      "impact_channels": [
-        "中国增长预期",
-        "行业盈利预期",
-        "人民币汇率"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
     {
       "date": "2026-09-30",
       "time": "14:00",
@@ -202,7 +160,7 @@
       "region": "美国",
       "title": "美国截至9月25日当周EIA原油库存变动(万桶)",
       "actual": null,
-      "forecast": -114.0,
+      "forecast": -26.4,
       "previous": 296.9,
       "importance": 2,
       "impact_channels": [
@@ -908,8 +866,8 @@
     }
   ],
   "summary": {
-    "total": 42,
-    "macro": 41,
+    "total": 40,
+    "macro": 39,
     "global_earnings": 1,
     "high_importance": 1,
     "macro_days_ok": 11,
