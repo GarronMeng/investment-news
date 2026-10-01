@@ -1,55 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-09-30T22:18:16+08:00",
+  "generated_at": "2026-10-01T10:22:02+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
-    {
-      "date": "2026-09-30",
-      "time": "22:30",
-      "type": "macro",
-      "category": "energy",
-      "region": "美国",
-      "title": "美国截至9月25日当周EIA原油库存变动(万桶)",
-      "actual": null,
-      "forecast": -26.4,
-      "previous": 296.9,
-      "importance": 2,
-      "impact_channels": [
-        "原油",
-        "通胀预期",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-09-30",
-      "time": null,
-      "type": "global_earnings",
-      "category": "earnings",
-      "region": "US",
-      "title": "Micron 财报发行",
-      "ticker": "MU",
-      "report_period": null,
-      "importance": 3,
-      "impact_channels": [
-        "产业链景气",
-        "海外映射",
-        "风险偏好"
-      ],
-      "themes": [
-        "存储"
-      ],
-      "assets": [
-        "603986",
-        "001309"
-      ],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
     {
       "date": "2026-10-01",
       "time": "17:00",
@@ -718,10 +672,10 @@
     }
   ],
   "summary": {
-    "total": 33,
-    "macro": 32,
-    "global_earnings": 1,
-    "high_importance": 1,
+    "total": 31,
+    "macro": 31,
+    "global_earnings": 0,
+    "high_importance": 0,
     "macro_days_ok": 11,
     "report_days_ok": 11
   },

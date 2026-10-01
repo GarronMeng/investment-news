@@ -1,12 +1,85 @@
 {
   "version": 1,
-  "generated_at": "2026-09-30T22:16:48+08:00",
+  "generated_at": "2026-10-01T10:21:07+08:00",
   "timezone": "Asia/Shanghai",
-  "report_period": "2026半年报",
-  "events": [],
+  "report_period": "2026三季报",
+  "events": [
+    {
+      "date": "2026-10-24",
+      "type": "earnings",
+      "title": "中际旭创 2026三季报预约披露",
+      "assets": [
+        "300308"
+      ],
+      "name": "中际旭创",
+      "source": "东方财富 via AKShare",
+      "status": "scheduled",
+      "importance": "high"
+    },
+    {
+      "date": "2026-10-24",
+      "type": "earnings",
+      "title": "风华高科 2026三季报预约披露",
+      "assets": [
+        "000636"
+      ],
+      "name": "风华高科",
+      "source": "东方财富 via AKShare",
+      "status": "scheduled",
+      "importance": "medium"
+    },
+    {
+      "date": "2026-10-26",
+      "type": "earnings",
+      "title": "德明利 2026三季报预约披露",
+      "assets": [
+        "001309"
+      ],
+      "name": "德明利",
+      "source": "东方财富 via AKShare",
+      "status": "scheduled",
+      "importance": "high"
+    },
+    {
+      "date": "2026-10-27",
+      "type": "earnings",
+      "title": "太极实业 2026三季报预约披露",
+      "assets": [
+        "600667"
+      ],
+      "name": "太极实业",
+      "source": "东方财富 via AKShare",
+      "status": "scheduled",
+      "importance": "medium"
+    },
+    {
+      "date": "2026-10-30",
+      "type": "earnings",
+      "title": "东山精密 2026三季报预约披露",
+      "assets": [
+        "002384"
+      ],
+      "name": "东山精密",
+      "source": "东方财富 via AKShare",
+      "status": "scheduled",
+      "importance": "medium"
+    },
+    {
+      "date": "2026-10-30",
+      "type": "earnings",
+      "title": "兆易创新 2026三季报预约披露",
+      "assets": [
+        "603986"
+      ],
+      "name": "兆易创新",
+      "source": "东方财富 via AKShare",
+      "status": "scheduled",
+      "importance": "high"
+    }
+  ],
   "summary": {
-    "total": 0,
-    "earnings": 0,
+    "total": 6,
+    "earnings": 6,
     "manual": 0
   },
   "warnings": [],
