@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generated_at": "2026-10-01T10:19:30+08:00",
-  "score": 55.0,
-  "label": "balanced",
+  "generated_at": "2026-10-01T13:47:51+08:00",
+  "score": 56.1,
+  "label": "elevated",
   "coverage": 100.0,
   "available_weight": 100,
   "components": {
@@ -25,16 +25,16 @@
       "evidence": "MA60 below/falling；MACD bearish；RSI weak"
     },
     "leverage": {
-      "score": 5.9,
+      "score": 10.4,
       "weight": 15,
       "available": true,
-      "evidence": "两融20日Z -2.45"
+      "evidence": "两融20日Z -2.20"
     },
     "overseas": {
-      "score": 56.5,
+      "score": 60.6,
       "weight": 10,
       "available": true,
-      "evidence": "VIX 16.04；20日分位 70.0%"
+      "evidence": "VIX 16.34；20日分位 75.0%"
     },
     "concentration": {
       "score": 58.0,
@@ -55,12 +55,18 @@
       "evidence": "transition；上涨占比 46.1%"
     },
     {
-      "component": "concentration",
-      "score": 58.0,
-      "evidence": "regime=transition；指数均值 -0.23% / 上涨占比 46.1%"
+      "component": "overseas",
+      "score": 60.6,
+      "evidence": "VIX 16.34；20日分位 75.0%"
     }
   ],
-  "state_changes": [],
+  "state_changes": [
+    {
+      "type": "label",
+      "from": "balanced",
+      "to": "elevated"
+    }
+  ],
   "methodology": "估值20% + 市场结构25% + 基准趋势20% + 两融15% + 海外风险10% + 集中度10%。缺失项剔除并按可用权重重新归一；高分表示环境更脆弱/压力更高，不是下跌概率。",
   "boundary": "风险温度只做环境校准，不生成买卖、仓位或止损指令。"
 }
