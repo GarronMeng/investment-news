@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-01T10:21:07+08:00",
+  "generated_at": "2026-10-01T13:49:32+08:00",
   "timezone": "Asia/Shanghai",
   "report_period": "2026三季报",
   "events": [
@@ -13,7 +13,7 @@
       ],
       "name": "中际旭创",
       "source": "东方财富 via AKShare",
-      "status": "scheduled",
+      "status": "stale",
       "importance": "high"
     },
     {
@@ -25,7 +25,7 @@
       ],
       "name": "风华高科",
       "source": "东方财富 via AKShare",
-      "status": "scheduled",
+      "status": "stale",
       "importance": "medium"
     },
     {
@@ -37,7 +37,7 @@
       ],
       "name": "德明利",
       "source": "东方财富 via AKShare",
-      "status": "scheduled",
+      "status": "stale",
       "importance": "high"
     },
     {
@@ -49,7 +49,7 @@
       ],
       "name": "太极实业",
       "source": "东方财富 via AKShare",
-      "status": "scheduled",
+      "status": "stale",
       "importance": "medium"
     },
     {
@@ -61,7 +61,7 @@
       ],
       "name": "东山精密",
       "source": "东方财富 via AKShare",
-      "status": "scheduled",
+      "status": "stale",
       "importance": "medium"
     },
     {
@@ -73,7 +73,7 @@
       ],
       "name": "兆易创新",
       "source": "东方财富 via AKShare",
-      "status": "scheduled",
+      "status": "stale",
       "importance": "high"
     }
   ],
@@ -82,6 +82,9 @@
     "earnings": 6,
     "manual": 0
   },
-  "warnings": [],
+  "warnings": [
+    "stock_yysj_em 20260930: Response ended prematurely",
+    "refresh returned no events; preserved prior future events as stale"
+  ],
   "methodology": "A股财报预约披露来自东方财富/AKShare；其他未来催化来自可审计的手工公共事件覆盖。无数据时不推断具体日期。"
 }
