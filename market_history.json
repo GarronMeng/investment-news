@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated_at": "2026-10-02T21:56:04+08:00",
+  "generated_at": "2026-10-02T22:03:31+08:00",
   "timezone": "Asia/Shanghai",
   "benchmark": {
     "code": "510300",
@@ -10191,7 +10191,7 @@
           "amount": 86067687.0
         }
       ],
-      "fallback_reason": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "fallback_reason": "502 Server Error: Bad Gateway for url: https://2.push2delay.eastmoney.com/api/qt/clist/get?pn=2&pz=100&po=1&np=1&ut=bd1d9ddb04089700cf9c27f6f7426281&fltt=2&invt=2&wbp2u=%7C0%7C0%7C0%7Cweb&fid=f12&fs=b%3AMK0404%2Cb%3AMK0405%2Cb%3AMK0406%2Cb%"
     },
     "518880": {
       "code": "518880",
@@ -12748,7 +12748,7 @@
     "002384 AKShare: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
     "600667 AKShare: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
     "000636 AKShare: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
-    "161226 AKShare: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+    "161226 AKShare: 502 Server Error: Bad Gateway for url: https://2.push2delay.eastmoney.com/api/qt/clist/get?pn=2&pz=100&po=1&np=1&ut=bd1d9ddb04089700cf9c27f6f7426281&fltt=2&invt=2&wbp2u=%7C0%7C0%7C0%7Cweb&fid=f12&fs=b%3AMK0404%2Cb%3AMK0405%2Cb%3AMK0406%2Cb%3AMK0407&fields=f3%2Cf12%2Cf13",
     "518880 AKShare: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
     "517380 AKShare: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
   ],
