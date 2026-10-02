@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-02T10:30:00+08:00",
+  "generated_at": "2026-10-02T13:32:27+08:00",
   "score": 56.1,
   "label": "elevated",
   "coverage": 100.0,
@@ -34,7 +34,7 @@
       "score": 60.6,
       "weight": 10,
       "available": true,
-      "evidence": "VIX 16.34；20日分位 75.0%"
+      "evidence": "VIX 16.39；20日分位 75.0%"
     },
     "concentration": {
       "score": 58.0,
@@ -57,7 +57,7 @@
     {
       "component": "overseas",
       "score": 60.6,
-      "evidence": "VIX 16.34；20日分位 75.0%"
+      "evidence": "VIX 16.39；20日分位 75.0%"
     }
   ],
   "state_changes": [],
