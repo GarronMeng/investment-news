@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "generated_at": "2026-10-02T22:10:45+08:00",
+  "generated_at": "2026-10-03T10:16:41+08:00",
   "timezone": "Asia/Shanghai",
   "southbound": {
     "status": "fresh",
-    "as_of": "2026-10-02",
+    "as_of": "2026-10-03",
     "net_buy_cny_100m": 68.64,
     "net_inflow_cny_100m": 840.0,
-    "closed": false,
+    "closed": true,
     "legs": [
       {
         "name": "港股通(沪)",
