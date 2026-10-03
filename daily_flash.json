@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-03T13:28:16+08:00",
+  "generated_at": "2026-10-03T17:31:34+08:00",
   "timezone": "Asia/Shanghai",
   "title": "Daily Flash · 每日投资驾驶舱",
   "core_conclusion": "A股状态为 Transition，上涨家数占比 46.1%，风险温度 56/100（elevated）。沪深300 PE-TTM 13.15；10年分位 48.5%；强势：生物制品、医疗服务、白酒；弱势：元件、通信服务、半导体。研究复核优先关注 德明利、兆易创新、中际旭创；该排序代表证据变化与复核优先级，不代表交易优先级。资金/期指：融资余额25715亿元，5日-1.64%；南向成交净买额+68.6亿元；中证500股指期货基差-1.68%。 下一催化：10-05 22:00 美国9月ISM非制造业PMI；10-06 17:00 欧元区8月零售销售年率(%)。主线财报已确认披露 0/21 个研究样本。",
@@ -931,16 +931,16 @@
   ],
   "sources": {
     "market_state": "2026-10-02T21:50:45+08:00",
-    "risk": "2026-10-03T13:24:58+08:00",
-    "valuation": "2026-10-03T13:24:50+08:00",
-    "decision_matrix": "2026-10-03T13:24:58+08:00",
-    "global_markets": "2026-10-03T13:25:47+08:00",
-    "catalysts": "2026-10-03T13:26:19+08:00",
+    "risk": "2026-10-03T17:28:10+08:00",
+    "valuation": "2026-10-03T17:27:56+08:00",
+    "decision_matrix": "2026-10-03T17:28:11+08:00",
+    "global_markets": "2026-10-03T17:29:06+08:00",
+    "catalysts": "2026-10-03T17:29:38+08:00",
     "ai_signals": "2026-08-26 13:33",
     "sentiment": "2026-10-02T13:30:57+08:00",
-    "market_extras": "2026-10-03T13:25:48+08:00",
-    "macro_calendar": "2026-10-03T13:27:52+08:00",
-    "theme_earnings": "2026-10-03T13:28:16+08:00"
+    "market_extras": "2026-10-03T17:29:07+08:00",
+    "macro_calendar": "2026-10-03T17:31:09+08:00",
+    "theme_earnings": "2026-10-03T17:31:34+08:00"
   },
   "boundary": "Daily Flash用于信息压缩、研究排序与条件验证；缺失数据保持缺失，不生成无条件买卖、仓位或止损指令。",
   "integrity": {
@@ -1055,15 +1055,233 @@
       "status": "scheduled"
     },
     {
-      "date": "2026-10-08",
-      "time": "20:30",
+      "date": "2026-10-07",
+      "time": "04:30",
       "type": "macro",
-      "category": "labor",
+      "category": "energy",
       "region": "美国",
-      "title": "美国截至10月3日当周初请失业金人数(万)",
+      "title": "美国截至10月2日当周API原油库存变动(万桶)",
       "actual": null,
       "forecast": null,
-      "previous": null,
+      "previous": 101.9,
+      "importance": 2,
+      "impact_channels": [
+        "原油",
+        "通胀预期",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-07",
+      "time": "22:30",
+      "type": "macro",
+      "category": "energy",
+      "region": "美国",
+      "title": "美国截至10月2日当周EIA原油库存变动(万桶)",
+      "actual": null,
+      "forecast": null,
+      "previous": 92.2,
+      "importance": 2,
+      "impact_channels": [
+        "原油",
+        "通胀预期",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-07",
+      "time": "23:00",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "美国",
+      "title": "美国10月纽约联储1年家庭支出增长预期(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 5.225735,
+      "importance": null,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-07",
+      "time": "23:00",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "美国",
+      "title": "美国10月纽约联储1年家庭收入增长预期(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 2.978876,
+      "importance": null,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-07",
+      "time": "23:00",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "美国",
+      "title": "美国10月纽约联储1年房价通胀预期(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 3.023833,
+      "importance": null,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-07",
+      "time": "23:00",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "美国",
+      "title": "美国10月纽约联储1年汽油通胀预期(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 4.605483,
+      "importance": null,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-07",
+      "time": "23:00",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "美国",
+      "title": "美国10月纽约联储1年通胀预期(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 3.579437,
+      "importance": null,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-07",
+      "time": "23:00",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "美国",
+      "title": "美国10月纽约联储1年黄金涨幅预期(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 4.720933,
+      "importance": null,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-07",
+      "time": "23:00",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "美国",
+      "title": "美国10月纽约联储3年通胀预期(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 3.187809,
+      "importance": null,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-07",
+      "time": "23:00",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "美国",
+      "title": "美国10月纽约联储未来3个月无法偿最低债平均预期(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 13.157956,
+      "importance": null,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-07",
+      "time": "23:00",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "美国",
+      "title": "美国9月纽约联储1年通胀预期(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 3.6,
       "importance": 2,
       "impact_channels": [
         "美债收益率",
@@ -1077,12 +1295,56 @@
       "status": "scheduled"
     },
     {
-      "date": "2026-10-09",
-      "time": "04:30",
+      "date": "2026-10-07",
+      "time": "23:00",
       "type": "macro",
       "category": "monetary_policy",
       "region": "美国",
-      "title": "美国截至10月7日美联储资产负债表(万亿美元)",
+      "title": "美国9月纽约联储1年黄金涨幅预期(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 4.7,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-07",
+      "time": "23:00",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "美国",
+      "title": "美国9月纽约联储3年通胀预期(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 3.2,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-08",
+      "time": "20:30",
+      "type": "macro",
+      "category": "labor",
+      "region": "美国",
+      "title": "美国截至10月3日当周初请失业金人数(万)",
       "actual": null,
       "forecast": null,
       "previous": null,
@@ -1188,12 +1450,12 @@
     }
   ],
   "macro_calendar_summary": {
-    "total": 11,
-    "macro": 11,
+    "total": 23,
+    "macro": 23,
     "global_earnings": 0,
     "high_importance": 0,
-    "macro_days_ok": 10,
-    "report_days_ok": 9
+    "macro_days_ok": 9,
+    "report_days_ok": 10
   },
   "theme_earnings": [
     {
@@ -1638,7 +1900,7 @@
   "theme_earnings_period": "2026三季报",
   "quality": {
     "macro_calendar": {
-      "events": 11,
+      "events": 23,
       "warnings": 3,
       "horizon_days": 10
     },
