@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "generated_at": "2026-10-03T20:38:30+08:00",
+  "generated_at": "2026-10-04T10:51:10+08:00",
   "timezone": "Asia/Shanghai",
   "southbound": {
     "status": "fresh",
-    "as_of": "2026-10-03",
+    "as_of": "2026-10-04",
     "net_buy_cny_100m": 68.64,
     "net_inflow_cny_100m": 840.0,
     "closed": true,

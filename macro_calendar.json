@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-03T20:40:13+08:00",
+  "generated_at": "2026-10-04T10:52:45+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
@@ -523,11 +523,245 @@
       "assets": [],
       "source": "百度股市通 via AKShare",
       "status": "scheduled"
+    },
+    {
+      "date": "2026-10-14",
+      "time": "09:30",
+      "type": "macro",
+      "category": "inflation",
+      "region": "中国",
+      "title": "中国9月CPI年率(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 0.8,
+      "importance": 2,
+      "impact_channels": [
+        "中国增长预期",
+        "行业盈利预期",
+        "人民币汇率"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-14",
+      "time": "09:30",
+      "type": "macro",
+      "category": "inflation",
+      "region": "中国",
+      "title": "中国9月PPI年率(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 3.8,
+      "importance": 2,
+      "impact_channels": [
+        "中国增长预期",
+        "行业盈利预期",
+        "人民币汇率"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-14",
+      "time": "09:30",
+      "type": "macro",
+      "category": "trade",
+      "region": "中国",
+      "title": "中国9月出口年率-人民币计价(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 18.6,
+      "importance": 2,
+      "impact_channels": [
+        "中国增长预期",
+        "行业盈利预期",
+        "人民币汇率"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-14",
+      "time": "09:30",
+      "type": "macro",
+      "category": "trade",
+      "region": "中国",
+      "title": "中国9月出口年率-美元计价(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 25.0,
+      "importance": 2,
+      "impact_channels": [
+        "中国增长预期",
+        "行业盈利预期",
+        "人民币汇率"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-14",
+      "time": "09:30",
+      "type": "macro",
+      "category": "trade",
+      "region": "中国",
+      "title": "中国9月贸易帐-人民币计价(亿元)",
+      "actual": null,
+      "forecast": null,
+      "previous": 8093.0,
+      "importance": 2,
+      "impact_channels": [
+        "中国增长预期",
+        "行业盈利预期",
+        "人民币汇率"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-14",
+      "time": "09:30",
+      "type": "macro",
+      "category": "trade",
+      "region": "中国",
+      "title": "中国9月贸易帐-美元计价(亿美元)",
+      "actual": null,
+      "forecast": null,
+      "previous": 1190.9,
+      "importance": 2,
+      "impact_channels": [
+        "中国增长预期",
+        "行业盈利预期",
+        "人民币汇率"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-14",
+      "time": "09:30",
+      "type": "macro",
+      "category": "trade",
+      "region": "中国",
+      "title": "中国9月进口年率-人民币计价(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 21.7,
+      "importance": 2,
+      "impact_channels": [
+        "中国增长预期",
+        "行业盈利预期",
+        "人民币汇率"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-14",
+      "time": "09:30",
+      "type": "macro",
+      "category": "trade",
+      "region": "中国",
+      "title": "中国9月进口年率-美元计价(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 28.2,
+      "importance": 2,
+      "impact_channels": [
+        "中国增长预期",
+        "行业盈利预期",
+        "人民币汇率"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-14",
+      "time": "20:30",
+      "type": "macro",
+      "category": "inflation",
+      "region": "美国",
+      "title": "美国9月CPI年率未季调(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 3.4,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-14",
+      "time": "20:30",
+      "type": "macro",
+      "category": "inflation",
+      "region": "美国",
+      "title": "美国9月核心CPI年率未季调(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 2.4,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-14",
+      "time": "20:30",
+      "type": "macro",
+      "category": "inflation",
+      "region": "美国",
+      "title": "美国9月能源CPI年率-未季调(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 16.3,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
     }
   ],
   "summary": {
-    "total": 24,
-    "macro": 24,
+    "total": 35,
+    "macro": 35,
     "global_earnings": 0,
     "high_importance": 0,
     "macro_days_ok": 11,
