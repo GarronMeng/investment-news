@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generated_at": "2026-10-02T21:50:15+08:00",
+  "generated_at": "2026-10-05T15:41:44+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
-    "fresh": 9,
-    "stale": 0,
+    "fresh": 0,
+    "stale": 9,
     "unavailable": 0
   },
   "quotes": [
@@ -21,7 +21,7 @@
       "low": 351.2799987792969,
       "turnover": null,
       "as_of": "2026-09-30T09:30:00+08:00",
-      "status": "fresh",
+      "status": "stale",
       "confidence": "low",
       "source": "Yahoo Finance"
     },
@@ -37,7 +37,7 @@
       "low": 355.1499938964844,
       "turnover": null,
       "as_of": "2026-09-30T09:30:00+08:00",
-      "status": "fresh",
+      "status": "stale",
       "confidence": "low",
       "source": "Yahoo Finance"
     },
@@ -53,7 +53,7 @@
       "low": 808.0,
       "turnover": null,
       "as_of": "2026-09-30T09:30:00+08:00",
-      "status": "fresh",
+      "status": "stale",
       "confidence": "low",
       "source": "Yahoo Finance"
     },
@@ -69,7 +69,7 @@
       "low": 166.99000549316406,
       "turnover": null,
       "as_of": "2026-09-30T09:30:00+08:00",
-      "status": "fresh",
+      "status": "stale",
       "confidence": "low",
       "source": "Yahoo Finance"
     },
@@ -85,7 +85,7 @@
       "low": 17.280000686645508,
       "turnover": null,
       "as_of": "2026-09-30T09:30:00+08:00",
-      "status": "fresh",
+      "status": "stale",
       "confidence": "low",
       "source": "Yahoo Finance"
     },
@@ -101,7 +101,7 @@
       "low": 49.540000915527344,
       "turnover": null,
       "as_of": "2026-09-30T09:30:00+08:00",
-      "status": "fresh",
+      "status": "stale",
       "confidence": "low",
       "source": "Yahoo Finance"
     },
@@ -112,12 +112,12 @@
       "price": 1.832,
       "previous_close": 1.821,
       "change_pct": 0.6,
-      "open": 1.871000051498413,
+      "open": 1.8079999685287476,
       "high": 1.8329999446868896,
       "low": 1.805999994277954,
       "turnover": null,
       "as_of": "2026-09-30T15:04:22+08:00",
-      "status": "fresh",
+      "status": "stale",
       "confidence": "low",
       "source": "Yahoo Finance"
     },
@@ -133,7 +133,7 @@
       "low": 8.562000274658203,
       "turnover": null,
       "as_of": "2026-09-30T09:30:00+08:00",
-      "status": "fresh",
+      "status": "stale",
       "confidence": "low",
       "source": "Yahoo Finance"
     },
@@ -149,13 +149,13 @@
       "low": 0.8690000176429749,
       "turnover": null,
       "as_of": "2026-09-30T09:30:00+08:00",
-      "status": "fresh",
+      "status": "stale",
       "confidence": "low",
       "source": "Yahoo Finance"
     }
   ],
   "warnings": [
-    "AKShare refresh failed: A股: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')); ETF: 502 Server Error: Bad Gateway for url: https://push2delay.eastmoney.com/api/qt/clist/get?pn=1&pz=100&po=1&np=1&ut=bd1d9ddb04089700cf9c27f6f7426281&fltt=2&invt=2&wbp2u=%7C0%7C0%7C0%7Cweb&fid=f12&fs=b%3AMK0021%2Cb%3AMK0022%2Cb%3AMK0023%2Cb%3AMK0024%2Cb%3AMK0827&fields=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6%2Cf7%2Cf8%2Cf9%2Cf10%2Cf12%2Cf13%2Cf14%2Cf15%2Cf16%2Cf17%2Cf18%2Cf20%2Cf21%2Cf23%2Cf24%2Cf25%2Cf22%2Cf11%2Cf30%2Cf31%2Cf32%2Cf33%2Cf34%2Cf35%2Cf38%2Cf62%2Cf63%2Cf64%2Cf65%2Cf66%2Cf69%2Cf72%2Cf75%2Cf78%2Cf81%2Cf84%2Cf87%2Cf115%2Cf124%2Cf128%2Cf136%2Cf152%2Cf184%2Cf297%2Cf402%2Cf441; LOF: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    "AKShare refresh failed: A股: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')); ETF: 502 Server Error: Bad Gateway for url: https://push2delay.eastmoney.com/api/qt/clist/get?pn=1&pz=100&po=1&np=1&ut=bd1d9ddb04089700cf9c27f6f7426281&fltt=2&invt=2&wbp2u=%7C0%7C0%7C0%7Cweb&fid=f12&fs=b%3AMK0021%2Cb%3AMK0022%2Cb%3AMK0023%2Cb%3AMK0024%2Cb%3AMK0827&fields=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6%2Cf7%2Cf8%2Cf9%2Cf10%2Cf12%2Cf13%2Cf14%2Cf15%2Cf16%2Cf17%2Cf18%2Cf20%2Cf21%2Cf23%2Cf24%2Cf25%2Cf22%2Cf11%2Cf30%2Cf31%2Cf32%2Cf33%2Cf34%2Cf35%2Cf38%2Cf62%2Cf63%2Cf64%2Cf65%2Cf66%2Cf69%2Cf72%2Cf75%2Cf78%2Cf81%2Cf84%2Cf87%2Cf115%2Cf124%2Cf128%2Cf136%2Cf152%2Cf184%2Cf297%2Cf402%2Cf441; LOF: 502 Server Error: Bad Gateway for url: https://88.push2delay.eastmoney.com/api/qt/clist/get?pn=2&pz=100&po=1&np=1&ut=bd1d9ddb04089700cf9c27f6f7426281&fltt=2&invt=2&wbp2u=%7C0%7C0%7C0%7Cweb&fid=f3&fs=b%3AMK0404%2Cb%3AMK0405%2Cb%3AMK0406%2Cb%3AMK0407&fields=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6%2Cf7%2Cf8%2Cf9%2Cf10%2Cf12%2Cf13%2Cf14%2Cf15%2Cf16%2Cf17%2Cf18%2Cf20%2Cf21%2Cf23%2Cf24%2Cf25%2Cf22%2Cf11%2Cf62%2Cf128%2Cf136%2Cf115%2Cf152"
   ],
   "methodology": "AKShare/东方财富批量行情为主，Yahoo Finance为逐标的备用；失败时保留最近成功值并标记过期。"
 }
