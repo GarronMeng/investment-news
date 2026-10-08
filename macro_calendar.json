@@ -1,31 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-10-08T14:43:11+08:00",
+  "generated_at": "2026-10-08T22:43:07+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
-    {
-      "date": "2026-10-08",
-      "time": "20:30",
-      "type": "macro",
-      "category": "labor",
-      "region": "美国",
-      "title": "美国截至10月3日当周初请失业金人数(万)",
-      "actual": null,
-      "forecast": 20.0,
-      "previous": 19.7,
-      "importance": 2,
-      "impact_channels": [
-        "美债收益率",
-        "美元",
-        "全球成长估值",
-        "黄金/白银"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
     {
       "date": "2026-10-09",
       "time": "04:30",
@@ -144,7 +122,7 @@
       "region": "中国",
       "title": "中国9月CPI年率(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": 1.1,
       "previous": 0.8,
       "importance": 2,
       "impact_channels": [
@@ -165,7 +143,7 @@
       "region": "中国",
       "title": "中国9月PPI年率(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": 4.4,
       "previous": 3.8,
       "importance": 2,
       "impact_channels": [
@@ -207,7 +185,7 @@
       "region": "中国",
       "title": "中国9月出口年率-美元计价(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": 25.3,
       "previous": 25.0,
       "importance": 2,
       "impact_channels": [
@@ -249,7 +227,7 @@
       "region": "中国",
       "title": "中国9月贸易帐-美元计价(亿美元)",
       "actual": null,
-      "forecast": null,
+      "forecast": 1145.5,
       "previous": 1190.9,
       "importance": 2,
       "impact_channels": [
@@ -291,7 +269,7 @@
       "region": "中国",
       "title": "中国9月进口年率-美元计价(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": 23.5,
       "previous": 28.2,
       "importance": 2,
       "impact_channels": [
@@ -312,7 +290,7 @@
       "region": "美国",
       "title": "美国9月CPI年率未季调(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": 3.6,
       "previous": 3.4,
       "importance": 2,
       "impact_channels": [
@@ -334,7 +312,7 @@
       "region": "美国",
       "title": "美国9月核心CPI年率未季调(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": 2.5,
       "previous": 2.4,
       "importance": 2,
       "impact_channels": [
@@ -484,7 +462,7 @@
       "region": "美国",
       "title": "美国9月工业产出月率(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": 0.3,
       "previous": 0.0,
       "importance": 2,
       "impact_channels": [
@@ -499,8 +477,8 @@
     }
   ],
   "summary": {
-    "total": 23,
-    "macro": 23,
+    "total": 22,
+    "macro": 22,
     "global_earnings": 0,
     "high_importance": 0,
     "macro_days_ok": 10,
