@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-10-09T14:24:43+08:00",
-  "history_generated_at": "2026-10-09T14:24:33+08:00",
-  "records": 446,
-  "raw_ledger_records": 469,
+  "generated_at": "2026-10-09T16:03:03+08:00",
+  "history_generated_at": "2026-10-09T16:02:51+08:00",
+  "records": 448,
+  "raw_ledger_records": 471,
   "superseded_records": 23,
   "evaluations": [
     {
@@ -18869,6 +18869,32 @@
       }
     },
     {
+      "state_id": "626728f9b1a2c393",
+      "state_revision": 2,
+      "asset": "000636",
+      "name": "风华高科",
+      "signal_date": "2026-10-08",
+      "matrix_direction": "bearish",
+      "thesis_state": "emerging",
+      "evidence_state": "partial_confirmation",
+      "composite_score": -41.4,
+      "confluence": 69.7,
+      "conflict_score": 5.8,
+      "entry_date": "2026-10-08",
+      "entry_close": 50.4,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
       "state_id": "73612a725ff6d005",
       "state_revision": 2,
       "asset": "001309",
@@ -18973,6 +18999,32 @@
       }
     },
     {
+      "state_id": "530f5afa87f45092",
+      "state_revision": 2,
+      "asset": "517380",
+      "name": "创新药沪港深ETF天弘",
+      "signal_date": "2026-10-08",
+      "matrix_direction": "bullish",
+      "thesis_state": "confirmed",
+      "evidence_state": "multi_layer_confirmed",
+      "composite_score": 51.4,
+      "confluence": 85.4,
+      "conflict_score": 0.0,
+      "entry_date": "2026-10-08",
+      "entry_close": 0.872,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
       "state_id": "23c44664f33a1df5",
       "state_revision": 2,
       "asset": "600667",
@@ -19031,7 +19083,7 @@
   ],
   "by_thesis_state": {
     "confirmed": {
-      "records": 100,
+      "records": 101,
       "horizons": {
         "t1": {
           "settled": 95,
@@ -19127,7 +19179,7 @@
       }
     },
     "emerging": {
-      "records": 36,
+      "records": 37,
       "horizons": {
         "t1": {
           "settled": 35,
@@ -19289,7 +19341,7 @@
       }
     },
     "multi_layer_confirmed": {
-      "records": 105,
+      "records": 106,
       "horizons": {
         "t1": {
           "settled": 99,
@@ -19353,7 +19405,7 @@
       }
     },
     "partial_confirmation": {
-      "records": 121,
+      "records": 122,
       "horizons": {
         "t1": {
           "settled": 121,
