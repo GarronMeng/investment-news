@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-08T13:57:16+08:00",
+  "generated_at": "2026-10-09T14:04:01+08:00",
   "timezone": "Asia/Shanghai",
   "states": {
     "overseas_risk": {
@@ -26,16 +26,16 @@
     {
       "id": "vix",
       "label": "VIX海外风险",
-      "value": 15.08,
+      "value": 15.41,
       "unit": "点",
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-08",
       "lag_days": 1,
       "status": "fresh",
       "confidence": "medium",
       "source": "OpenBB/YFinance",
       "source_url": "https://www.cboe.com/tradable_products/vix/vix_historical_data/",
-      "change_1d_pct": 0.47,
-      "percentile_20d": 30.0,
+      "change_1d_pct": 2.19,
+      "percentile_20d": 45.0,
       "level": "normal",
       "state_label": "正常",
       "tone": "neutral",
@@ -49,7 +49,7 @@
       "financing_buy_amount": 1233.41,
       "unit": "亿元",
       "as_of": "2026-09-29",
-      "lag_days": 9,
+      "lag_days": 10,
       "status": "stale",
       "confidence": "high",
       "source": "SSE+SZSE via AKShare",
@@ -61,7 +61,7 @@
       "state_label": "杠杆降温",
       "tone": "positive",
       "sample_size": 20,
-      "error": "HTTPSConnectionPool(host='query.sse.com.cn', port=443): Max retries exceeded with url: /marketdata/tradedata/queryMargin.do?isPagination=true&beginDate=20260824&endDate=20261008&tabType=&stockCode=&pageHelp.pageSize=5000&pageHelp.pageNo=1&p"
+      "error": "Expecting value: line 1 column 1 (char 0)"
     }
   ],
   "history": {
@@ -249,7 +249,7 @@
     ]
   },
   "warnings": [
-    "Margin refresh failed: HTTPSConnectionPool(host='query.sse.com.cn', port=443): Max retries exceeded with url: /marketdata/tradedata/queryMargin.do?isPagination=true&beginDate=20260824&endDate=20261008&tabType=&stockCode=&pageHelp.pageSize=5000&pageHelp.pageNo=1&pageHelp.beginPage=1&pageHelp.cacheSize=1&pageHelp.endPage=5 (Caused by NewConnectionError(\"HTTPSConnection(host='query.sse.com.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+    "Margin refresh failed: Expecting value: line 1 column 1 (char 0)"
   ],
   "methodology": {
     "vix": "优先使用OpenBB/YFinance标准化接口，限流或失败时切换CBOE官方历史数据；显示最新值、单日变化和20日分位。",
