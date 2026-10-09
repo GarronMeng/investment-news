@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-08T23:00:16+08:00",
+  "generated_at": "2026-10-09T11:06:08+08:00",
   "timezone": "Asia/Shanghai",
   "status": "fresh",
   "report_period_code": "20260930",
@@ -121,7 +121,7 @@
           "name": "中际旭创",
           "status": "scheduled",
           "announcement_date": null,
-          "scheduled_date": "2026-10-24",
+          "scheduled_date": "2026-10-30",
           "revenue": null,
           "revenue_yoy_pct": null,
           "net_profit": null,

@@ -1,31 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-10-08T22:59:51+08:00",
+  "generated_at": "2026-10-09T11:05:42+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
-    {
-      "date": "2026-10-09",
-      "time": "04:30",
-      "type": "macro",
-      "category": "monetary_policy",
-      "region": "美国",
-      "title": "美国截至10月7日美联储资产负债表(万亿美元)",
-      "actual": null,
-      "forecast": null,
-      "previous": 6.79,
-      "importance": 2,
-      "impact_channels": [
-        "美债收益率",
-        "美元",
-        "全球成长估值",
-        "黄金/白银"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
     {
       "date": "2026-10-12",
       "time": "23:00",
@@ -838,11 +816,158 @@
       "assets": [],
       "source": "百度股市通 via AKShare",
       "status": "scheduled"
+    },
+    {
+      "date": "2026-10-19",
+      "time": "10:00",
+      "type": "macro",
+      "category": "growth",
+      "region": "中国",
+      "title": "中国9月规模以上工业增加值年率-单月(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 5.2,
+      "importance": 2,
+      "impact_channels": [
+        "中国增长预期",
+        "行业盈利预期",
+        "人民币汇率"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-19",
+      "time": "10:00",
+      "type": "macro",
+      "category": "growth",
+      "region": "中国",
+      "title": "中国9月规模以上工业增加值年率-年初至今(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 5.3,
+      "importance": 2,
+      "impact_channels": [
+        "中国增长预期",
+        "行业盈利预期",
+        "人民币汇率"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-19",
+      "time": "10:00",
+      "type": "macro",
+      "category": "growth",
+      "region": "中国",
+      "title": "中国第三季度GDP季率-单季度(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 0.9,
+      "importance": 2,
+      "impact_channels": [
+        "中国增长预期",
+        "行业盈利预期",
+        "人民币汇率"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-19",
+      "time": "10:00",
+      "type": "macro",
+      "category": "growth",
+      "region": "中国",
+      "title": "中国第三季度GDP年率-单季度(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 4.3,
+      "importance": 2,
+      "impact_channels": [
+        "中国增长预期",
+        "行业盈利预期",
+        "人民币汇率"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-19",
+      "time": "10:00",
+      "type": "macro",
+      "category": "growth",
+      "region": "中国",
+      "title": "中国第三季度GDP年率-年初至今(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 4.7,
+      "importance": 2,
+      "impact_channels": [
+        "中国增长预期",
+        "行业盈利预期",
+        "人民币汇率"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-19",
+      "time": "10:00",
+      "type": "macro",
+      "category": "growth",
+      "region": "中国",
+      "title": "中国第三季度GDP总量-单季度(亿元)",
+      "actual": null,
+      "forecast": null,
+      "previous": 361511.0,
+      "importance": 2,
+      "impact_channels": [
+        "中国增长预期",
+        "行业盈利预期",
+        "人民币汇率"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-19",
+      "time": "18:00",
+      "type": "macro",
+      "category": "growth",
+      "region": "英国",
+      "title": "英国10月CBI零售销售差值",
+      "actual": null,
+      "forecast": null,
+      "previous": -55.0,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
     }
   ],
   "summary": {
-    "total": 39,
-    "macro": 39,
+    "total": 45,
+    "macro": 45,
     "global_earnings": 0,
     "high_importance": 0,
     "macro_days_ok": 11,

@@ -1,21 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-10-08T22:58:45+08:00",
+  "generated_at": "2026-10-09T11:04:41+08:00",
   "timezone": "Asia/Shanghai",
   "report_period": "2026三季报",
   "events": [
-    {
-      "date": "2026-10-24",
-      "type": "earnings",
-      "title": "中际旭创 2026三季报预约披露",
-      "assets": [
-        "300308"
-      ],
-      "name": "中际旭创",
-      "source": "东方财富 via AKShare",
-      "status": "scheduled",
-      "importance": "high"
-    },
     {
       "date": "2026-10-24",
       "type": "earnings",
@@ -63,6 +51,18 @@
       "source": "东方财富 via AKShare",
       "status": "scheduled",
       "importance": "medium"
+    },
+    {
+      "date": "2026-10-30",
+      "type": "earnings",
+      "title": "中际旭创 2026三季报预约披露",
+      "assets": [
+        "300308"
+      ],
+      "name": "中际旭创",
+      "source": "东方财富 via AKShare",
+      "status": "scheduled",
+      "importance": "high"
     },
     {
       "date": "2026-10-30",
