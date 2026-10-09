@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-09T14:26:50+08:00",
+  "generated_at": "2026-10-09T14:49:53+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
@@ -691,154 +691,6 @@
       "status": "scheduled"
     },
     {
-      "date": "2026-10-16",
-      "time": "00:00",
-      "type": "macro",
-      "category": "energy",
-      "region": "美国",
-      "title": "美国截至10月5日当周EIA原油库存变动(万桶)",
-      "actual": null,
-      "forecast": null,
-      "previous": -318.6,
-      "importance": 2,
-      "impact_channels": [
-        "原油",
-        "通胀预期",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-10-16",
-      "time": "04:30",
-      "type": "macro",
-      "category": "monetary_policy",
-      "region": "美国",
-      "title": "美国截至10月14日美联储资产负债表(万亿美元)",
-      "actual": null,
-      "forecast": null,
-      "previous": 6.8,
-      "importance": 2,
-      "impact_channels": [
-        "美债收益率",
-        "美元",
-        "全球成长估值",
-        "黄金/白银"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-10-16",
-      "time": "17:00",
-      "type": "macro",
-      "category": "trade",
-      "region": "欧元区",
-      "title": "欧元区9月季调后贸易帐(亿欧元)",
-      "actual": null,
-      "forecast": null,
-      "previous": 50.31,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-10-16",
-      "time": "17:00",
-      "type": "macro",
-      "category": "inflation",
-      "region": "欧元区",
-      "title": "欧元区9月核心调和CPI年率-未季调终值(%)",
-      "actual": null,
-      "forecast": null,
-      "previous": 2.2,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-10-16",
-      "time": "17:00",
-      "type": "macro",
-      "category": "inflation",
-      "region": "欧元区",
-      "title": "欧元区9月调和CPI年率-未季调终值(%)",
-      "actual": null,
-      "forecast": 3.8,
-      "previous": 3.8,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-10-16",
-      "time": "21:15",
-      "type": "macro",
-      "category": "growth",
-      "region": "美国",
-      "title": "美国9月工业产出年率-季调后(%)",
-      "actual": null,
-      "forecast": null,
-      "previous": 1.42,
-      "importance": 2,
-      "impact_channels": [
-        "全球风险偏好",
-        "AI资本开支预期",
-        "美元"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-10-16",
-      "time": "21:15",
-      "type": "macro",
-      "category": "growth",
-      "region": "美国",
-      "title": "美国9月工业产出月率(%)",
-      "actual": null,
-      "forecast": 0.3,
-      "previous": 0.0,
-      "importance": 2,
-      "impact_channels": [
-        "全球风险偏好",
-        "AI资本开支预期",
-        "美元"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
       "date": "2026-10-19",
       "time": "10:00",
       "type": "macro",
@@ -987,14 +839,18 @@
     }
   ],
   "summary": {
-    "total": 46,
-    "macro": 46,
+    "total": 39,
+    "macro": 39,
     "global_earnings": 0,
     "high_importance": 0,
-    "macro_days_ok": 11,
-    "report_days_ok": 11
+    "macro_days_ok": 9,
+    "report_days_ok": 10
   },
-  "warnings": [],
+  "warnings": [
+    "news_economic_baidu 20261010: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+    "news_economic_baidu 20261016: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10000 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+    "news_report_time_baidu 20261017: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  ],
   "methodology": {
     "macro": "百度股市通全球宏观日历 via AKShare；保留重要性>=3及少量核心importance-2宏观数据，过滤每日持仓/仓单等例行噪声，并剔除已过时的当日时点。",
     "global_earnings": "百度股市通财报发行 via AKShare；仅保留global_catalyst_universe.json中的公开研究公司。",
