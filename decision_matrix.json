@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-09T14:17:05+08:00",
+  "generated_at": "2026-10-09T14:24:42+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -800,15 +800,7 @@
     "161226",
     "518880"
   ],
-  "state_changes": [
-    {
-      "code": "000636",
-      "name": "风华高科",
-      "field": "thesis_state",
-      "from": "confirmed",
-      "to": "emerging"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "weights": {
       "event": 25,
