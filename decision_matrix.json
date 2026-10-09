@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "generated_at": "2026-10-09T14:05:25+08:00",
+  "generated_at": "2026-10-09T14:17:05+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
-    "confirmed": 6,
+    "confirmed": 5,
     "supported": 2,
     "contradicted": 0,
     "conflicted": 1,
-    "emerging": 0,
+    "emerging": 1,
     "insufficient": 2,
     "top_attention": [
       "517380",
@@ -453,18 +453,18 @@
       "group": "科技核心",
       "role": "MLCC周期观察",
       "priority": 3,
-      "as_of": "2026-10-09",
-      "base_bias": "bearish",
+      "as_of": "2026-10-08",
+      "base_bias": "neutral",
       "matrix_direction": "bearish",
-      "composite_score": -70.1,
+      "composite_score": -48.9,
       "coverage": 60.0,
-      "confluence": 91.0,
+      "confluence": 84.7,
       "available_layers": 3,
       "opposing_weight_share": 0.0,
       "evidence_state": "multi_layer_confirmed",
-      "thesis_state": "confirmed",
-      "attention_score": 70.1,
-      "research_focus": "验证持续性、行业扩散与后续基本面证据。",
+      "thesis_state": "emerging",
+      "attention_score": 67.6,
+      "research_focus": "出现新方向，但先等待事件或行业证据确认。",
       "layers": {
         "event": {
           "available": false,
@@ -474,15 +474,15 @@
         },
         "technical": {
           "available": true,
-          "score": -94.0,
+          "score": -82.0,
           "confidence": "high",
-          "evidence": "MA60 below/falling；MACD bearish；RSI 37.16 (weak)；量能 normal；20日结构 new_low_20d。"
+          "evidence": "MA60 below/falling；MACD bearish；RSI 42.38 (weak)；量能 normal；20日结构 inside_range。"
         },
         "relative_strength": {
           "available": true,
-          "score": -46.9,
+          "score": -1.4,
           "confidence": "high",
-          "evidence": "5日相对强弱 -0.120079；20日相对强弱 -0.024674。"
+          "evidence": "5日相对强弱 -0.098191；20日相对强弱 0.062455。"
         },
         "industry": {
           "available": false,
@@ -507,13 +507,13 @@
         "negative": [
           {
             "layer": "technical",
-            "score": -94.0,
-            "evidence": "MA60 below/falling；MACD bearish；RSI 37.16 (weak)；量能 normal；20日结构 new_low_20d。"
+            "score": -82.0,
+            "evidence": "MA60 below/falling；MACD bearish；RSI 42.38 (weak)；量能 normal；20日结构 inside_range。"
           },
           {
-            "layer": "relative_strength",
-            "score": -46.9,
-            "evidence": "5日相对强弱 -0.120079；20日相对强弱 -0.024674。"
+            "layer": "market_context",
+            "score": -44.8,
+            "evidence": "regime=risk_off；上涨占比=0.3048；风险温度=60.5。"
           }
         ]
       },
@@ -527,7 +527,7 @@
       ],
       "excluded_layers": [],
       "positive_direction_mass": 0.0,
-      "negative_direction_mass": 42.1,
+      "negative_direction_mass": 29.1,
       "conflict_score": 0.0
     },
     "161226": {
@@ -805,8 +805,8 @@
       "code": "000636",
       "name": "风华高科",
       "field": "thesis_state",
-      "from": "emerging",
-      "to": "confirmed"
+      "from": "confirmed",
+      "to": "emerging"
     }
   ],
   "methodology": {

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-10-09T14:05:16+08:00",
-  "source_generated_at": "2026-10-09T14:05:16+08:00",
+  "generated_at": "2026-10-09T14:16:57+08:00",
+  "source_generated_at": "2026-10-09T14:16:57+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -186,30 +186,30 @@
     "000636": {
       "code": "000636",
       "name": "风华高科",
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-08",
       "source_status": "fresh",
       "observations": 140,
-      "close": 46.84,
+      "close": 50.4,
       "ma60": {
-        "value": 53.472,
+        "value": 53.7672,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.00549
+        "slope_pct": -0.003183
       },
-      "rsi14": 37.16,
+      "rsi14": 42.38,
       "rsi_zone": "weak",
       "macd": {
-        "dif": -1.17355,
-        "dea": -0.21438,
-        "hist": -1.91835,
+        "dif": -0.68962,
+        "dea": 0.02539,
+        "hist": -1.43002,
         "state": "bearish",
-        "cross_age": 4
+        "cross_age": 3
       },
       "volume": {
-        "ratio20": 0.88,
+        "ratio20": 0.79,
         "state": "normal"
       },
-      "breakout_20d": "new_low_20d",
+      "breakout_20d": "inside_range",
       "data_quality": "usable",
       "condition_state": "conditions_not_met"
     },
@@ -309,8 +309,8 @@
       "code": "000636",
       "name": "风华高科",
       "field": "breakout_20d",
-      "from": "inside_range",
-      "to": "new_low_20d"
+      "from": "new_low_20d",
+      "to": "inside_range"
     }
   ],
   "methodology": {
