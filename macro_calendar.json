@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-09T14:49:53+08:00",
+  "generated_at": "2026-10-09T16:06:19+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
@@ -843,12 +843,15 @@
     "macro": 39,
     "global_earnings": 0,
     "high_importance": 0,
-    "macro_days_ok": 9,
-    "report_days_ok": 10
+    "macro_days_ok": 8,
+    "report_days_ok": 8
   },
   "warnings": [
-    "news_economic_baidu 20261010: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+    "news_economic_baidu 20261009: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10000 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+    "news_report_time_baidu 20261010: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+    "news_report_time_baidu 20261011: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
     "news_economic_baidu 20261016: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10000 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+    "news_economic_baidu 20261017: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10000 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
     "news_report_time_baidu 20261017: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
   ],
   "methodology": {
