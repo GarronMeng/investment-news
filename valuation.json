@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-09T16:02:52+08:00",
+  "generated_at": "2026-10-09T18:57:11+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 4,
@@ -11,18 +11,18 @@
     "000300": {
       "code": "000300",
       "name": "沪深300",
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-09",
       "status": "fresh",
       "source": "中证指数 via AKShare stock_zh_index_hist_csindex",
       "confidence": "high",
-      "pe_ttm": 13.09,
-      "pe_1m_ago": 13.6,
+      "pe_ttm": 13.11,
+      "pe_1m_ago": 13.66,
       "pe_3m_ago": 14.46,
-      "percentile_3y": 59.6,
-      "percentile_5y": 66.3,
-      "percentile_10y": 47.5,
+      "percentile_3y": 60.2,
+      "percentile_5y": 66.7,
+      "percentile_10y": 47.8,
       "band": "neutral",
-      "observations_10y": 2428,
+      "observations_10y": 2429,
       "history_monthly_10y": [
         {
           "date": "2016-10-31",
@@ -505,8 +505,8 @@
           "pe_ttm": 13.15
         },
         {
-          "date": "2026-10-08",
-          "pe_ttm": 13.09
+          "date": "2026-10-09",
+          "pe_ttm": 13.11
         }
       ],
       "metric": "滚动市盈率",
@@ -515,18 +515,18 @@
     "000905": {
       "code": "000905",
       "name": "中证500",
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-09",
       "status": "fresh",
       "source": "中证指数 via AKShare stock_zh_index_hist_csindex",
       "confidence": "high",
-      "pe_ttm": 24.57,
-      "pe_1m_ago": 26.12,
+      "pe_ttm": 24.55,
+      "pe_1m_ago": 26.16,
       "pe_3m_ago": 29.9,
       "percentile_3y": 62.4,
-      "percentile_5y": 77.5,
+      "percentile_5y": 77.4,
       "percentile_10y": 69.6,
       "band": "high",
-      "observations_10y": 2429,
+      "observations_10y": 2430,
       "history_monthly_10y": [
         {
           "date": "2016-10-31",
@@ -1009,8 +1009,8 @@
           "pe_ttm": 25.09
         },
         {
-          "date": "2026-10-08",
-          "pe_ttm": 24.57
+          "date": "2026-10-09",
+          "pe_ttm": 24.55
         }
       ],
       "metric": "滚动市盈率",
@@ -1019,18 +1019,18 @@
     "000852": {
       "code": "000852",
       "name": "中证1000",
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-09",
       "status": "fresh",
       "source": "中证指数 via AKShare stock_zh_index_hist_csindex",
       "confidence": "high",
-      "pe_ttm": 29.02,
-      "pe_1m_ago": 30.92,
+      "pe_ttm": 29.04,
+      "pe_1m_ago": 30.93,
       "pe_3m_ago": 34.53,
       "percentile_3y": 62.2,
-      "percentile_5y": 76.1,
-      "percentile_10y": 62.7,
+      "percentile_5y": 76.2,
+      "percentile_10y": 62.9,
       "band": "high",
-      "observations_10y": 2429,
+      "observations_10y": 2430,
       "history_monthly_10y": [
         {
           "date": "2016-10-31",
@@ -1513,8 +1513,8 @@
           "pe_ttm": 29.59
         },
         {
-          "date": "2026-10-08",
-          "pe_ttm": 29.02
+          "date": "2026-10-09",
+          "pe_ttm": 29.04
         }
       ],
       "metric": "滚动市盈率",
@@ -1523,18 +1523,18 @@
     "000906": {
       "code": "000906",
       "name": "中证800",
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-09",
       "status": "fresh",
       "source": "中证指数 via AKShare stock_zh_index_hist_csindex",
       "confidence": "high",
-      "pe_ttm": 14.6,
-      "pe_1m_ago": 15.25,
+      "pe_ttm": 14.61,
+      "pe_1m_ago": 15.3,
       "pe_3m_ago": 16.48,
-      "percentile_3y": 62.3,
-      "percentile_5y": 72.8,
-      "percentile_10y": 55.1,
+      "percentile_3y": 62.4,
+      "percentile_5y": 72.9,
+      "percentile_10y": 55.2,
       "band": "neutral",
-      "observations_10y": 2429,
+      "observations_10y": 2430,
       "history_monthly_10y": [
         {
           "date": "2016-10-31",
@@ -2017,8 +2017,8 @@
           "pe_ttm": 14.72
         },
         {
-          "date": "2026-10-08",
-          "pe_ttm": 14.6
+          "date": "2026-10-09",
+          "pe_ttm": 14.61
         }
       ],
       "metric": "滚动市盈率",
