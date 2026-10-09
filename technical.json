@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-10-09T11:03:03+08:00",
-  "source_generated_at": "2026-10-09T11:03:03+08:00",
+  "generated_at": "2026-10-09T14:05:16+08:00",
+  "source_generated_at": "2026-10-09T14:05:16+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -186,30 +186,30 @@
     "000636": {
       "code": "000636",
       "name": "风华高科",
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-09",
       "source_status": "fresh",
       "observations": 140,
-      "close": 50.4,
+      "close": 46.84,
       "ma60": {
-        "value": 53.7672,
+        "value": 53.472,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.003183
+        "slope_pct": -0.00549
       },
-      "rsi14": 42.38,
+      "rsi14": 37.16,
       "rsi_zone": "weak",
       "macd": {
-        "dif": -0.68962,
-        "dea": 0.02539,
-        "hist": -1.43002,
+        "dif": -1.17355,
+        "dea": -0.21438,
+        "hist": -1.91835,
         "state": "bearish",
-        "cross_age": 3
+        "cross_age": 4
       },
       "volume": {
-        "ratio20": 0.79,
+        "ratio20": 0.88,
         "state": "normal"
       },
-      "breakout_20d": "inside_range",
+      "breakout_20d": "new_low_20d",
       "data_quality": "usable",
       "condition_state": "conditions_not_met"
     },
@@ -304,7 +304,15 @@
       "condition_state": "all_conditions"
     }
   },
-  "state_changes": [],
+  "state_changes": [
+    {
+      "code": "000636",
+      "name": "风华高科",
+      "field": "breakout_20d",
+      "from": "inside_range",
+      "to": "new_low_20d"
+    }
+  ],
   "methodology": {
     "rsi14": "Wilder RSI(14)",
     "macd": "EMA12/EMA26 DIF, EMA9 signal, histogram=(DIF-DEA)*2",
