@@ -1,9 +1,72 @@
 {
   "version": 1,
-  "generated_at": "2026-10-10T14:03:31+08:00",
+  "generated_at": "2026-10-10T18:12:44+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
+    {
+      "date": "2026-10-12",
+      "time": "16:00",
+      "type": "macro",
+      "category": "liquidity",
+      "region": "中国",
+      "title": "中国9月M2货币供应年率(%)",
+      "actual": null,
+      "forecast": 7.4,
+      "previous": 7.5,
+      "importance": 2,
+      "impact_channels": [
+        "A股流动性",
+        "人民币汇率",
+        "成长估值"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-12",
+      "time": "16:00",
+      "type": "macro",
+      "category": "liquidity",
+      "region": "中国",
+      "title": "中国9月新增人民币贷款-年初至今(亿元)",
+      "actual": null,
+      "forecast": null,
+      "previous": 104400.0,
+      "importance": 2,
+      "impact_channels": [
+        "A股流动性",
+        "人民币汇率",
+        "成长估值"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-12",
+      "time": "16:00",
+      "type": "macro",
+      "category": "liquidity",
+      "region": "中国",
+      "title": "中国9月社会融资规模-年初至今(亿元)",
+      "actual": null,
+      "forecast": null,
+      "previous": 239100.0,
+      "importance": 2,
+      "impact_channels": [
+        "A股流动性",
+        "人民币汇率",
+        "成长估值"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
     {
       "date": "2026-10-13",
       "time": "20:15",
@@ -14,6 +77,240 @@
       "actual": null,
       "forecast": null,
       "previous": 2.38,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-14",
+      "time": "09:30",
+      "type": "macro",
+      "category": "inflation",
+      "region": "中国",
+      "title": "中国9月CPI年率(%)",
+      "actual": null,
+      "forecast": 1.0,
+      "previous": 0.8,
+      "importance": 2,
+      "impact_channels": [
+        "中国增长预期",
+        "行业盈利预期",
+        "人民币汇率"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-14",
+      "time": "09:30",
+      "type": "macro",
+      "category": "inflation",
+      "region": "中国",
+      "title": "中国9月PPI年率(%)",
+      "actual": null,
+      "forecast": 4.5,
+      "previous": 3.8,
+      "importance": 2,
+      "impact_channels": [
+        "中国增长预期",
+        "行业盈利预期",
+        "人民币汇率"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-14",
+      "time": "10:30",
+      "type": "macro",
+      "category": "trade",
+      "region": "中国",
+      "title": "中国9月出口年率-人民币计价(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 18.6,
+      "importance": 2,
+      "impact_channels": [
+        "中国增长预期",
+        "行业盈利预期",
+        "人民币汇率"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-14",
+      "time": "10:30",
+      "type": "macro",
+      "category": "trade",
+      "region": "中国",
+      "title": "中国9月出口年率-美元计价(%)",
+      "actual": null,
+      "forecast": 25.3,
+      "previous": 25.0,
+      "importance": 2,
+      "impact_channels": [
+        "中国增长预期",
+        "行业盈利预期",
+        "人民币汇率"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-14",
+      "time": "10:30",
+      "type": "macro",
+      "category": "trade",
+      "region": "中国",
+      "title": "中国9月贸易帐-人民币计价(亿元)",
+      "actual": null,
+      "forecast": null,
+      "previous": 8093.0,
+      "importance": 2,
+      "impact_channels": [
+        "中国增长预期",
+        "行业盈利预期",
+        "人民币汇率"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-14",
+      "time": "10:30",
+      "type": "macro",
+      "category": "trade",
+      "region": "中国",
+      "title": "中国9月贸易帐-美元计价(亿美元)",
+      "actual": null,
+      "forecast": 1143.0,
+      "previous": 1190.9,
+      "importance": 2,
+      "impact_channels": [
+        "中国增长预期",
+        "行业盈利预期",
+        "人民币汇率"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-14",
+      "time": "10:30",
+      "type": "macro",
+      "category": "trade",
+      "region": "中国",
+      "title": "中国9月进口年率-人民币计价(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 21.7,
+      "importance": 2,
+      "impact_channels": [
+        "中国增长预期",
+        "行业盈利预期",
+        "人民币汇率"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-14",
+      "time": "10:30",
+      "type": "macro",
+      "category": "trade",
+      "region": "中国",
+      "title": "中国9月进口年率-美元计价(%)",
+      "actual": null,
+      "forecast": 23.5,
+      "previous": 28.2,
+      "importance": 2,
+      "impact_channels": [
+        "中国增长预期",
+        "行业盈利预期",
+        "人民币汇率"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-14",
+      "time": "20:30",
+      "type": "macro",
+      "category": "inflation",
+      "region": "美国",
+      "title": "美国9月CPI年率未季调(%)",
+      "actual": null,
+      "forecast": 3.6,
+      "previous": 3.4,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-14",
+      "time": "20:30",
+      "type": "macro",
+      "category": "inflation",
+      "region": "美国",
+      "title": "美国9月核心CPI年率未季调(%)",
+      "actual": null,
+      "forecast": 2.5,
+      "previous": 2.4,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-14",
+      "time": "20:30",
+      "type": "macro",
+      "category": "inflation",
+      "region": "美国",
+      "title": "美国9月能源CPI年率-未季调(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 16.3,
       "importance": 2,
       "impact_channels": [
         "美债收益率",
@@ -260,21 +557,16 @@
     }
   ],
   "summary": {
-    "total": 12,
-    "macro": 12,
+    "total": 26,
+    "macro": 26,
     "global_earnings": 0,
     "high_importance": 0,
-    "macro_days_ok": 6,
-    "report_days_ok": 9
+    "macro_days_ok": 9,
+    "report_days_ok": 11
   },
   "warnings": [
-    "news_economic_baidu 20261011: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10000 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-    "news_report_time_baidu 20261011: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10001 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-    "news_economic_baidu 20261012: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10001 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-    "news_economic_baidu 20261014: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10000 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
     "news_economic_baidu 20261015: HTTP Error 403: ",
-    "news_economic_baidu 20261016: HTTP Error 403: ",
-    "news_report_time_baidu 20261018: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10001 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+    "news_economic_baidu 20261016: HTTP Error 403: "
   ],
   "methodology": {
     "macro": "百度股市通全球宏观日历 via AKShare；保留重要性>=3及少量核心importance-2宏观数据，过滤每日持仓/仓单等例行噪声，并剔除已过时的当日时点。",
