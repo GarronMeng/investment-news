@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-10-10T18:10:10+08:00",
-  "history_generated_at": "2026-10-10T18:10:01+08:00",
+  "generated_at": "2026-10-10T21:49:04+08:00",
+  "history_generated_at": "2026-10-10T21:48:54+08:00",
   "summary": {
     "t1": {
       "settled": 1681,
@@ -60361,6 +60361,222 @@
     },
     {
       "decision_id": "a9ce9edb4ca59b11",
+      "asset": "517380",
+      "name": "创新药沪港深ETF天弘",
+      "signal_date": "2026-10-09",
+      "bias": "bearish",
+      "research_status": "market_watch",
+      "conviction": 40.0,
+      "entry_date": "2026-10-09",
+      "entry_close": 0.86,
+      "mfe_20d": 0.025581,
+      "mae_20d": -0.013953,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "ba441f06b32b6afc",
+      "asset": "603986",
+      "name": "兆易创新",
+      "signal_date": "2026-10-09",
+      "bias": "bearish",
+      "research_status": "market_watch",
+      "conviction": 55,
+      "entry_date": "2026-10-09",
+      "entry_close": 326.46,
+      "mfe_20d": 0.04607,
+      "mae_20d": -0.009312,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "e139b314f3c8342a",
+      "asset": "001309",
+      "name": "德明利",
+      "signal_date": "2026-10-09",
+      "bias": "bearish",
+      "research_status": "market_watch",
+      "conviction": 55,
+      "entry_date": "2026-10-09",
+      "entry_close": 336.91,
+      "mfe_20d": 0.051319,
+      "mae_20d": -0.007569,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "86d63c205ac5f7ad",
+      "asset": "300308",
+      "name": "中际旭创",
+      "signal_date": "2026-10-09",
+      "bias": "bearish",
+      "research_status": "market_watch",
+      "conviction": 30.0,
+      "entry_date": "2026-10-09",
+      "entry_close": 775.29,
+      "mfe_20d": 0.058417,
+      "mae_20d": -0.006075,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "13bbd3c265a6e88e",
+      "asset": "002384",
+      "name": "东山精密",
+      "signal_date": "2026-10-09",
+      "bias": "bearish",
+      "research_status": "market_watch",
+      "conviction": 55,
+      "entry_date": "2026-10-09",
+      "entry_close": 145.49,
+      "mfe_20d": 0.044608,
+      "mae_20d": -0.014709,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "206846a2b5c995cb",
+      "asset": "600667",
+      "name": "太极实业",
+      "signal_date": "2026-10-09",
+      "bias": "bearish",
+      "research_status": "market_watch",
+      "conviction": 55,
+      "entry_date": "2026-10-09",
+      "entry_close": 16.32,
+      "mfe_20d": 0.064338,
+      "mae_20d": -0.012255,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "156d57017af2afa1",
+      "asset": "000636",
+      "name": "风华高科",
+      "signal_date": "2026-10-09",
+      "bias": "bearish",
+      "research_status": "market_watch",
+      "conviction": 55,
+      "entry_date": "2026-10-09",
+      "entry_close": 47.17,
+      "mfe_20d": 0.038372,
+      "mae_20d": -0.0477,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "7131be17db32fac9",
+      "asset": "161226",
+      "name": "国投白银LOF",
+      "signal_date": "2026-10-09",
+      "bias": "bearish",
+      "research_status": "market_watch",
+      "conviction": 55,
+      "entry_date": "2026-10-09",
+      "entry_close": 1.824,
+      "mfe_20d": 0.013158,
+      "mae_20d": -0.003289,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "78d3a7bfa355fb4f",
+      "asset": "518880",
+      "name": "黄金ETF华安",
+      "signal_date": "2026-10-09",
+      "bias": "bearish",
+      "research_status": "market_watch",
+      "conviction": 55,
+      "entry_date": "2026-10-09",
+      "entry_close": 8.617,
+      "mfe_20d": 0.007427,
+      "mae_20d": -0.003481,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "8610eab7276892e5",
       "asset": "517380",
       "name": "创新药沪港深ETF天弘",
       "signal_date": "2026-10-09",
