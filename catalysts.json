@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-09T22:43:47+08:00",
+  "generated_at": "2026-10-10T10:37:48+08:00",
   "timezone": "Asia/Shanghai",
   "report_period": "2026三季报",
   "events": [
@@ -43,18 +43,6 @@
     {
       "date": "2026-10-30",
       "type": "earnings",
-      "title": "东山精密 2026三季报预约披露",
-      "assets": [
-        "002384"
-      ],
-      "name": "东山精密",
-      "source": "东方财富 via AKShare",
-      "status": "scheduled",
-      "importance": "medium"
-    },
-    {
-      "date": "2026-10-30",
-      "type": "earnings",
       "title": "中际旭创 2026三季报预约披露",
       "assets": [
         "300308"
@@ -75,6 +63,18 @@
       "source": "东方财富 via AKShare",
       "status": "scheduled",
       "importance": "high"
+    },
+    {
+      "date": "2026-10-31",
+      "type": "earnings",
+      "title": "东山精密 2026三季报预约披露",
+      "assets": [
+        "002384"
+      ],
+      "name": "东山精密",
+      "source": "东方财富 via AKShare",
+      "status": "scheduled",
+      "importance": "medium"
     }
   ],
   "summary": {
