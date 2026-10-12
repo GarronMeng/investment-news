@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generated_at": "2026-10-12T14:06:34+08:00",
+  "generated_at": "2026-10-12T14:14:48+08:00",
   "source": {
     "data_generated_at": "2026-10-12 14:05",
     "ai_generated_at": "2026-08-26 13:33",
     "ai_source_generated_at": "2026-08-26 12:26",
-    "features_generated_at": "2026-10-12T14:06:27+08:00",
+    "features_generated_at": "2026-10-12T14:14:38+08:00",
     "fresh_ai": false
   },
   "decisions": [
@@ -60,17 +60,17 @@
     {
       "asset": "300308",
       "name": "中际旭创",
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-09",
       "bias": "bearish",
       "status": "market_watch",
       "event_score": 50.0,
-      "market_score": 15.0,
+      "market_score": 35.0,
       "freshness_score": 70,
-      "conviction": 55,
+      "conviction": 30.0,
       "evidence_mode": "market_only",
       "event_count": 0,
-      "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.048364",
+      "trend_state": "mixed",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.004687",
       "confirmation": [
         "海外AI硬件与A股CPO同步走强",
         "高位放量后能维持强势"
@@ -84,17 +84,17 @@
     {
       "asset": "002384",
       "name": "东山精密",
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-09",
       "bias": "bearish",
       "status": "market_watch",
       "event_score": 50.0,
-      "market_score": 15.0,
+      "market_score": 10.0,
       "freshness_score": 70,
       "conviction": 55,
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.186238",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.136861",
       "confirmation": [
         "PCB板块扩散上涨",
         "订单利好得到成交量确认"
@@ -156,7 +156,7 @@
     {
       "asset": "161226",
       "name": "国投白银LOF",
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-09",
       "bias": "bearish",
       "status": "market_watch",
       "event_score": 50.0,
@@ -166,7 +166,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.032979",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.027717",
       "confirmation": [
         "同时核对基金净值、场内价格和溢价率",
         "银价上涨时场内溢价未继续扩大"

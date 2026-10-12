@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-10-12T14:06:27+08:00",
-  "source_generated_at": "2026-10-12T14:06:27+08:00",
+  "generated_at": "2026-10-12T14:14:38+08:00",
+  "source_generated_at": "2026-10-12T14:14:38+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -96,28 +96,28 @@
     "300308": {
       "code": "300308",
       "name": "中际旭创",
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-09",
       "source_status": "fresh",
       "observations": 140,
-      "close": 733.06,
+      "close": 775.29,
       "ma60": {
-        "value": 924.1983,
+        "value": 930.2137,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.006467
+        "slope_pct": -0.007462
       },
-      "rsi14": 30.65,
+      "rsi14": 34.69,
       "rsi_zone": "weak",
       "macd": {
-        "dif": -35.2356,
-        "dea": -20.6859,
-        "hist": -29.0994,
+        "dif": -28.58505,
+        "dea": -17.04782,
+        "hist": -23.07446,
         "state": "bearish",
-        "cross_age": 4
+        "cross_age": 3
       },
       "volume": {
-        "ratio20": 0.643,
-        "state": "contraction"
+        "ratio20": 1.166,
+        "state": "normal"
       },
       "breakout_20d": "inside_range",
       "data_quality": "usable",
@@ -126,28 +126,28 @@
     "002384": {
       "code": "002384",
       "name": "东山精密",
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-09",
       "source_status": "fresh",
       "observations": 140,
-      "close": 136.27,
+      "close": 145.49,
       "ma60": {
-        "value": 195.1922,
+        "value": 196.9593,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.008972
+        "slope_pct": -0.009706
       },
-      "rsi14": 25.26,
+      "rsi14": 28.0,
       "rsi_zone": "oversold",
       "macd": {
-        "dif": -11.8663,
-        "dea": -6.62447,
-        "hist": -10.48366,
+        "dif": -9.66448,
+        "dea": -5.31374,
+        "hist": -8.70147,
         "state": "bearish",
-        "cross_age": 5
+        "cross_age": 4
       },
       "volume": {
-        "ratio20": 0.957,
-        "state": "normal"
+        "ratio20": 1.526,
+        "state": "expansion"
       },
       "breakout_20d": "new_low_20d",
       "data_quality": "usable",
@@ -216,27 +216,27 @@
     "161226": {
       "code": "161226",
       "name": "国投白银LOF",
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-09",
       "source_status": "fresh",
       "observations": 140,
-      "close": 1.809,
+      "close": 1.824,
       "ma60": {
-        "value": 1.9123,
+        "value": 1.9134,
         "position": "below",
-        "direction": "falling",
-        "slope_pct": -0.00054
+        "direction": "flat",
+        "slope_pct": -0.000305
       },
-      "rsi14": 40.09,
+      "rsi14": 41.56,
       "rsi_zone": "weak",
       "macd": {
-        "dif": -0.03574,
-        "dea": -0.02683,
-        "hist": -0.01782,
+        "dif": -0.03447,
+        "dea": -0.02461,
+        "hist": -0.01972,
         "state": "bearish",
-        "cross_age": 22
+        "cross_age": 21
       },
       "volume": {
-        "ratio20": 0.537,
+        "ratio20": 0.714,
         "state": "contraction"
       },
       "breakout_20d": "inside_range",
@@ -309,36 +309,22 @@
       "code": "300308",
       "name": "中际旭创",
       "field": "volume",
-      "from": "normal",
-      "to": "contraction"
+      "from": "contraction",
+      "to": "normal"
     },
     {
       "code": "002384",
       "name": "东山精密",
       "field": "volume",
-      "from": "expansion",
-      "to": "normal"
+      "from": "normal",
+      "to": "expansion"
     },
     {
       "code": "161226",
       "name": "国投白银LOF",
       "field": "ma60_direction",
-      "from": "flat",
-      "to": "falling"
-    },
-    {
-      "code": "518880",
-      "name": "黄金ETF华安",
-      "field": "volume",
-      "from": "contraction",
-      "to": "normal"
-    },
-    {
-      "code": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "field": "volume",
-      "from": "contraction",
-      "to": "normal"
+      "from": "falling",
+      "to": "flat"
     }
   ],
   "methodology": {
