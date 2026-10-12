@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-10-11T22:07:47+08:00",
-  "source_generated_at": "2026-10-11T22:07:47+08:00",
+  "generated_at": "2026-10-12T10:36:59+08:00",
+  "source_generated_at": "2026-10-12T10:36:59+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -246,28 +246,28 @@
     "518880": {
       "code": "518880",
       "name": "黄金ETF华安",
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-12",
       "source_status": "fresh",
       "observations": 140,
-      "close": 8.617,
+      "close": 8.63,
       "ma60": {
-        "value": 8.8268,
+        "value": 8.8283,
         "position": "below",
         "direction": "flat",
-        "slope_pct": 0.000138
+        "slope_pct": 0.000168
       },
-      "rsi14": 41.58,
+      "rsi14": 42.15,
       "rsi_zone": "weak",
       "macd": {
-        "dif": -0.11806,
-        "dea": -0.0739,
-        "hist": -0.08831,
+        "dif": -0.11653,
+        "dea": -0.08242,
+        "hist": -0.0682,
         "state": "bearish",
-        "cross_age": 22
+        "cross_age": 23
       },
       "volume": {
-        "ratio20": 0.917,
-        "state": "normal"
+        "ratio20": 0.284,
+        "state": "contraction"
       },
       "breakout_20d": "inside_range",
       "data_quality": "usable",
@@ -276,35 +276,50 @@
     "517380": {
       "code": "517380",
       "name": "创新药沪港深ETF天弘",
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-12",
       "source_status": "fresh",
       "observations": 140,
       "close": 0.86,
       "ma60": {
-        "value": 0.8465,
+        "value": 0.8476,
         "position": "above",
         "direction": "rising",
-        "slope_pct": 0.001795
+        "slope_pct": 0.001299
       },
       "rsi14": 48.72,
       "rsi_zone": "neutral",
       "macd": {
-        "dif": 0.00735,
-        "dea": 0.00739,
-        "hist": -6e-05,
+        "dif": 0.00577,
+        "dea": 0.00706,
+        "hist": -0.00259,
         "state": "bearish",
-        "cross_age": 0
+        "cross_age": 1
       },
       "volume": {
-        "ratio20": 1.31,
-        "state": "normal"
+        "ratio20": 0.367,
+        "state": "contraction"
       },
       "breakout_20d": "inside_range",
       "data_quality": "usable",
       "condition_state": "partial_conditions"
     }
   },
-  "state_changes": [],
+  "state_changes": [
+    {
+      "code": "518880",
+      "name": "黄金ETF华安",
+      "field": "volume",
+      "from": "normal",
+      "to": "contraction"
+    },
+    {
+      "code": "517380",
+      "name": "创新药沪港深ETF天弘",
+      "field": "volume",
+      "from": "normal",
+      "to": "contraction"
+    }
+  ],
   "methodology": {
     "rsi14": "Wilder RSI(14)",
     "macd": "EMA12/EMA26 DIF, EMA9 signal, histogram=(DIF-DEA)*2",
