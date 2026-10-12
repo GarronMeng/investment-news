@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-10-12T10:37:10+08:00",
-  "score": 54.8,
+  "generated_at": "2026-10-12T14:06:34+08:00",
+  "score": 51.0,
   "label": "balanced",
   "coverage": 100.0,
   "available_weight": 100,
@@ -25,16 +25,16 @@
       "evidence": "MA60 below/falling；MACD bearish；RSI oversold"
     },
     "leverage": {
-      "score": 10.4,
+      "score": 0.0,
       "weight": 15,
       "available": true,
-      "evidence": "两融20日Z -2.20"
+      "evidence": "两融20日Z -3.15"
     },
     "overseas": {
-      "score": 37.2,
+      "score": 14.1,
       "weight": 10,
       "available": true,
-      "evidence": "VIX 15.41；20日分位 45.0%"
+      "evidence": "VIX 14.84；20日分位 15.0%"
     },
     "concentration": {
       "score": 82.0,

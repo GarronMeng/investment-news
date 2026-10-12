@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-10-12T10:36:59+08:00",
-  "source_generated_at": "2026-10-12T10:36:59+08:00",
+  "generated_at": "2026-10-12T14:06:27+08:00",
+  "source_generated_at": "2026-10-12T14:06:27+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -96,28 +96,28 @@
     "300308": {
       "code": "300308",
       "name": "中际旭创",
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-12",
       "source_status": "fresh",
       "observations": 140,
-      "close": 775.29,
+      "close": 733.06,
       "ma60": {
-        "value": 930.2137,
+        "value": 924.1983,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.007462
+        "slope_pct": -0.006467
       },
-      "rsi14": 34.69,
+      "rsi14": 30.65,
       "rsi_zone": "weak",
       "macd": {
-        "dif": -28.58505,
-        "dea": -17.04782,
-        "hist": -23.07446,
+        "dif": -35.2356,
+        "dea": -20.6859,
+        "hist": -29.0994,
         "state": "bearish",
-        "cross_age": 3
+        "cross_age": 4
       },
       "volume": {
-        "ratio20": 1.166,
-        "state": "normal"
+        "ratio20": 0.643,
+        "state": "contraction"
       },
       "breakout_20d": "inside_range",
       "data_quality": "usable",
@@ -126,28 +126,28 @@
     "002384": {
       "code": "002384",
       "name": "东山精密",
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-12",
       "source_status": "fresh",
       "observations": 140,
-      "close": 145.49,
+      "close": 136.27,
       "ma60": {
-        "value": 196.9593,
+        "value": 195.1922,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.009706
+        "slope_pct": -0.008972
       },
-      "rsi14": 28.0,
+      "rsi14": 25.26,
       "rsi_zone": "oversold",
       "macd": {
-        "dif": -9.66448,
-        "dea": -5.31374,
-        "hist": -8.70147,
+        "dif": -11.8663,
+        "dea": -6.62447,
+        "hist": -10.48366,
         "state": "bearish",
-        "cross_age": 4
+        "cross_age": 5
       },
       "volume": {
-        "ratio20": 1.526,
-        "state": "expansion"
+        "ratio20": 0.957,
+        "state": "normal"
       },
       "breakout_20d": "new_low_20d",
       "data_quality": "usable",
@@ -216,27 +216,27 @@
     "161226": {
       "code": "161226",
       "name": "国投白银LOF",
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-12",
       "source_status": "fresh",
       "observations": 140,
-      "close": 1.824,
+      "close": 1.809,
       "ma60": {
-        "value": 1.9134,
+        "value": 1.9123,
         "position": "below",
-        "direction": "flat",
-        "slope_pct": -0.000305
+        "direction": "falling",
+        "slope_pct": -0.00054
       },
-      "rsi14": 41.56,
+      "rsi14": 40.09,
       "rsi_zone": "weak",
       "macd": {
-        "dif": -0.03447,
-        "dea": -0.02461,
-        "hist": -0.01972,
+        "dif": -0.03574,
+        "dea": -0.02683,
+        "hist": -0.01782,
         "state": "bearish",
-        "cross_age": 21
+        "cross_age": 22
       },
       "volume": {
-        "ratio20": 0.714,
+        "ratio20": 0.537,
         "state": "contraction"
       },
       "breakout_20d": "inside_range",
@@ -246,28 +246,28 @@
     "518880": {
       "code": "518880",
       "name": "黄金ETF华安",
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-09",
       "source_status": "fresh",
       "observations": 140,
-      "close": 8.63,
+      "close": 8.617,
       "ma60": {
-        "value": 8.8283,
+        "value": 8.8268,
         "position": "below",
         "direction": "flat",
-        "slope_pct": 0.000168
+        "slope_pct": 0.000138
       },
-      "rsi14": 42.15,
+      "rsi14": 41.58,
       "rsi_zone": "weak",
       "macd": {
-        "dif": -0.11653,
-        "dea": -0.08242,
-        "hist": -0.0682,
+        "dif": -0.11806,
+        "dea": -0.0739,
+        "hist": -0.08831,
         "state": "bearish",
-        "cross_age": 23
+        "cross_age": 22
       },
       "volume": {
-        "ratio20": 0.284,
-        "state": "contraction"
+        "ratio20": 0.917,
+        "state": "normal"
       },
       "breakout_20d": "inside_range",
       "data_quality": "usable",
@@ -276,28 +276,28 @@
     "517380": {
       "code": "517380",
       "name": "创新药沪港深ETF天弘",
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-09",
       "source_status": "fresh",
       "observations": 140,
       "close": 0.86,
       "ma60": {
-        "value": 0.8476,
+        "value": 0.8465,
         "position": "above",
         "direction": "rising",
-        "slope_pct": 0.001299
+        "slope_pct": 0.001795
       },
       "rsi14": 48.72,
       "rsi_zone": "neutral",
       "macd": {
-        "dif": 0.00577,
-        "dea": 0.00706,
-        "hist": -0.00259,
+        "dif": 0.00735,
+        "dea": 0.00739,
+        "hist": -6e-05,
         "state": "bearish",
-        "cross_age": 1
+        "cross_age": 0
       },
       "volume": {
-        "ratio20": 0.367,
-        "state": "contraction"
+        "ratio20": 1.31,
+        "state": "normal"
       },
       "breakout_20d": "inside_range",
       "data_quality": "usable",
@@ -306,18 +306,39 @@
   },
   "state_changes": [
     {
-      "code": "518880",
-      "name": "黄金ETF华安",
+      "code": "300308",
+      "name": "中际旭创",
       "field": "volume",
       "from": "normal",
       "to": "contraction"
     },
     {
+      "code": "002384",
+      "name": "东山精密",
+      "field": "volume",
+      "from": "expansion",
+      "to": "normal"
+    },
+    {
+      "code": "161226",
+      "name": "国投白银LOF",
+      "field": "ma60_direction",
+      "from": "flat",
+      "to": "falling"
+    },
+    {
+      "code": "518880",
+      "name": "黄金ETF华安",
+      "field": "volume",
+      "from": "contraction",
+      "to": "normal"
+    },
+    {
       "code": "517380",
       "name": "创新药沪港深ETF天弘",
       "field": "volume",
-      "from": "normal",
-      "to": "contraction"
+      "from": "contraction",
+      "to": "normal"
     }
   ],
   "methodology": {
