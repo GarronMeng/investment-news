@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-12T15:58:54+08:00",
+  "generated_at": "2026-10-12T19:04:03+08:00",
   "timezone": "Asia/Shanghai",
   "breadth": {
     "total": 5572,
@@ -62,15 +62,15 @@
     {
       "symbol": "hkHSI",
       "name": "恒生指数",
-      "price": 24250.3,
-      "change_pct": 0.16,
+      "price": 24271.2,
+      "change_pct": 0.25,
       "source": "腾讯行情"
     },
     {
       "symbol": "hkHSTECH",
       "name": "恒生科技指数",
-      "price": 4163.52,
-      "change_pct": -0.82,
+      "price": 4169.57,
+      "change_pct": -0.67,
       "source": "腾讯行情"
     }
   ],
@@ -393,10 +393,10 @@
   "regime": {
     "label": "Risk-off",
     "code": "risk_off",
-    "score": -66.6,
+    "score": -66.0,
     "components": {
       "breadth": -72.7,
-      "indices": -89.1,
+      "indices": -87.1,
       "limit_structure": 0.8
     },
     "methodology": "市场广度55% + 核心指数30% + 涨跌停结构15%；仅用于状态分类，不是收益概率。"
@@ -441,12 +441,5 @@
     "etf_activity": "ETF成交额活跃度代理，不等同ETF净申购或真实资金净流入。",
     "breadth_source": "东方财富主源；失败时单次回退新浪财经 AKShare stock_zh_a_spot。"
   },
-  "alerts": [
-    {
-      "type": "regime",
-      "from": "narrow_risk_on",
-      "to": "transition",
-      "message": "市场状态由 narrow_risk_on 切换为 transition"
-    }
-  ]
+  "alerts": []
 }
