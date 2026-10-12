@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-12T19:25:58+08:00",
+  "generated_at": "2026-10-12T21:17:32+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
@@ -139,7 +139,7 @@
       "region": "中国",
       "title": "中国9月贸易帐-美元计价(亿美元)",
       "actual": null,
-      "forecast": 1143.0,
+      "forecast": 1181.0,
       "previous": 1190.9,
       "importance": 2,
       "impact_channels": [
@@ -289,7 +289,7 @@
       "region": "英国",
       "title": "英国8月GDP月率(%)",
       "actual": null,
-      "forecast": 0.0,
+      "forecast": -0.1,
       "previous": 0.4,
       "importance": 2,
       "impact_channels": [
@@ -352,7 +352,7 @@
       "region": "英国",
       "title": "英国8月工业产出年率(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": 0.7,
       "previous": 0.6,
       "importance": 2,
       "impact_channels": [
@@ -438,9 +438,9 @@
       "region": "美国",
       "title": "美国10月费城联储制造业指数",
       "actual": null,
-      "forecast": 30.9,
+      "forecast": null,
       "previous": 37.8,
-      "importance": 2,
+      "importance": null,
       "impact_channels": [
         "美债收益率",
         "美元",
@@ -482,7 +482,7 @@
       "region": "美国",
       "title": "美国9月PPI年率(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": 5.4,
       "previous": 5.4,
       "importance": 2,
       "impact_channels": [
@@ -504,7 +504,7 @@
       "region": "美国",
       "title": "美国9月关联GDP的零售额控制组月率-季调后(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": 0.3,
       "previous": 1.4,
       "importance": 2,
       "impact_channels": [
@@ -525,7 +525,7 @@
       "region": "美国",
       "title": "美国9月核心PPI年率(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": 4.4,
       "previous": 4.6,
       "importance": 2,
       "impact_channels": [
@@ -547,7 +547,7 @@
       "region": "美国",
       "title": "美国9月核心零售销售月率(%)",
       "actual": null,
-      "forecast": 0.7,
+      "forecast": 0.5,
       "previous": 1.4,
       "importance": 2,
       "impact_channels": [
@@ -589,7 +589,7 @@
       "region": "美国",
       "title": "美国9月零售销售月率(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": 0.3,
       "previous": 1.2,
       "importance": 2,
       "impact_channels": [
@@ -610,7 +610,7 @@
       "region": "美国",
       "title": "美国截至10月10日当周初请失业金人数(万)",
       "actual": null,
-      "forecast": null,
+      "forecast": 20.0,
       "previous": 19.7,
       "importance": 2,
       "impact_channels": [
@@ -773,20 +773,20 @@
       "status": "scheduled"
     },
     {
-      "date": "2026-10-20",
-      "time": "09:00",
+      "date": "2026-10-19",
+      "time": "10:00",
       "type": "macro",
-      "category": "liquidity",
+      "category": "growth",
       "region": "中国",
-      "title": "中国10月一年期贷款市场报价利率LPR(%)",
+      "title": "中国9月规模以上工业增加值年率-单月(%)",
       "actual": null,
       "forecast": null,
-      "previous": 3.0,
+      "previous": 5.2,
       "importance": 2,
       "impact_channels": [
-        "A股流动性",
-        "人民币汇率",
-        "成长估值"
+        "中国增长预期",
+        "行业盈利预期",
+        "人民币汇率"
       ],
       "themes": [],
       "assets": [],
@@ -794,20 +794,20 @@
       "status": "scheduled"
     },
     {
-      "date": "2026-10-20",
-      "time": "09:00",
+      "date": "2026-10-19",
+      "time": "10:00",
       "type": "macro",
-      "category": "liquidity",
+      "category": "growth",
       "region": "中国",
-      "title": "中国10月五年期贷款市场报价利率LPR(%)",
+      "title": "中国9月规模以上工业增加值年率-年初至今(%)",
       "actual": null,
       "forecast": null,
-      "previous": 3.5,
+      "previous": 5.3,
       "importance": 2,
       "impact_channels": [
-        "A股流动性",
-        "人民币汇率",
-        "成长估值"
+        "中国增长预期",
+        "行业盈利预期",
+        "人民币汇率"
       ],
       "themes": [],
       "assets": [],
@@ -815,15 +815,99 @@
       "status": "scheduled"
     },
     {
-      "date": "2026-10-20",
-      "time": "14:00",
+      "date": "2026-10-19",
+      "time": "10:00",
       "type": "macro",
-      "category": "labor",
+      "category": "growth",
+      "region": "中国",
+      "title": "中国第三季度GDP季率-单季度(%)",
+      "actual": null,
+      "forecast": 1.1,
+      "previous": 0.9,
+      "importance": 2,
+      "impact_channels": [
+        "中国增长预期",
+        "行业盈利预期",
+        "人民币汇率"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-19",
+      "time": "10:00",
+      "type": "macro",
+      "category": "growth",
+      "region": "中国",
+      "title": "中国第三季度GDP年率-单季度(%)",
+      "actual": null,
+      "forecast": 4.3,
+      "previous": 4.3,
+      "importance": 2,
+      "impact_channels": [
+        "中国增长预期",
+        "行业盈利预期",
+        "人民币汇率"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-19",
+      "time": "10:00",
+      "type": "macro",
+      "category": "growth",
+      "region": "中国",
+      "title": "中国第三季度GDP年率-年初至今(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 4.7,
+      "importance": 2,
+      "impact_channels": [
+        "中国增长预期",
+        "行业盈利预期",
+        "人民币汇率"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-19",
+      "time": "10:00",
+      "type": "macro",
+      "category": "growth",
+      "region": "中国",
+      "title": "中国第三季度GDP总量-单季度(亿元)",
+      "actual": null,
+      "forecast": null,
+      "previous": 361511.0,
+      "importance": 2,
+      "impact_channels": [
+        "中国增长预期",
+        "行业盈利预期",
+        "人民币汇率"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-19",
+      "time": "18:00",
+      "type": "macro",
+      "category": "growth",
       "region": "英国",
-      "title": "英国8月失业率-按ILO标准(%)",
+      "title": "英国10月CBI零售销售差值",
       "actual": null,
       "forecast": null,
-      "previous": 4.9,
+      "previous": -55.0,
       "importance": 2,
       "impact_channels": [
         "全球利率",
@@ -836,21 +920,144 @@
       "status": "scheduled"
     },
     {
-      "date": "2026-10-20",
-      "time": "20:15",
+      "date": "2026-10-21",
+      "time": "04:30",
       "type": "macro",
-      "category": "labor",
+      "category": "energy",
       "region": "美国",
-      "title": "美国截至10月3日当周ADP就业周度发布变动(万人)",
+      "title": "美国截至10月16日当周API原油库存变动(万桶)",
       "actual": null,
       "forecast": null,
       "previous": null,
       "importance": 2,
       "impact_channels": [
-        "美债收益率",
-        "美元",
-        "全球成长估值",
-        "黄金/白银"
+        "原油",
+        "通胀预期",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-21",
+      "time": "07:50",
+      "type": "macro",
+      "category": "trade",
+      "region": "日本",
+      "title": "日本9月商品贸易帐-未季调(亿日元)",
+      "actual": null,
+      "forecast": null,
+      "previous": -11056.0,
+      "importance": 2,
+      "impact_channels": [
+        "亚洲科技风险偏好",
+        "半导体链映射"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-21",
+      "time": "07:50",
+      "type": "macro",
+      "category": "trade",
+      "region": "日本",
+      "title": "日本9月季调后商品贸易帐(亿日元)",
+      "actual": null,
+      "forecast": null,
+      "previous": -8405.88,
+      "importance": 2,
+      "impact_channels": [
+        "亚洲科技风险偏好",
+        "半导体链映射"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-21",
+      "time": "14:00",
+      "type": "macro",
+      "category": "inflation",
+      "region": "英国",
+      "title": "英国9月CPI年率(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 3.1,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-21",
+      "time": "14:00",
+      "type": "macro",
+      "category": "inflation",
+      "region": "英国",
+      "title": "英国9月未季调输入PPI年率(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 6.1,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-21",
+      "time": "14:00",
+      "type": "macro",
+      "category": "inflation",
+      "region": "英国",
+      "title": "英国9月核心CPI年率(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 2.6,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-21",
+      "time": "22:30",
+      "type": "macro",
+      "category": "energy",
+      "region": "美国",
+      "title": "美国截至10月16日当周EIA原油库存变动(万桶)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "原油",
+        "通胀预期",
+        "风险偏好"
       ],
       "themes": [],
       "assets": [],
@@ -881,20 +1088,15 @@
     }
   ],
   "summary": {
-    "total": 41,
-    "macro": 41,
+    "total": 51,
+    "macro": 51,
     "global_earnings": 0,
     "high_importance": 0,
-    "macro_days_ok": 9,
-    "report_days_ok": 7
+    "macro_days_ok": 10,
+    "report_days_ok": 11
   },
   "warnings": [
-    "news_report_time_baidu 20261013: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-    "news_report_time_baidu 20261017: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-    "news_economic_baidu 20261019: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-    "news_report_time_baidu 20261019: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10001 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-    "news_economic_baidu 20261021: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-    "news_report_time_baidu 20261021: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+    "news_economic_baidu 20261020: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10001 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
   ],
   "methodology": {
     "macro": "百度股市通全球宏观日历 via AKShare；保留重要性>=3及少量核心importance-2宏观数据，过滤每日持仓/仓单等例行噪声，并剔除已过时的当日时点。",
