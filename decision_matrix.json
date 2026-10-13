@@ -1,20 +1,20 @@
 {
   "version": 1,
-  "generated_at": "2026-10-13T00:56:24+08:00",
+  "generated_at": "2026-10-13T11:46:07+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
     "confirmed": 6,
     "supported": 2,
     "contradicted": 0,
-    "conflicted": 1,
+    "conflicted": 0,
     "emerging": 0,
     "insufficient": 2,
     "top_attention": [
-      "517380",
       "603986",
       "001309",
       "300308",
+      "000636",
       "002384"
     ]
   },
@@ -25,12 +25,12 @@
       "group": "科技核心",
       "role": "存储核心观察",
       "priority": 5,
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-13",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -76.3,
+      "composite_score": -75.3,
       "coverage": 75.0,
-      "confluence": 92.9,
+      "confluence": 92.6,
       "available_layers": 4,
       "opposing_weight_share": 0.0,
       "evidence_state": "multi_layer_confirmed",
@@ -46,15 +46,15 @@
         },
         "technical": {
           "available": true,
-          "score": -94.0,
-          "confidence": "high",
-          "evidence": "MA60 below/falling；MACD bearish；RSI 30.18 (weak)；量能 normal；20日结构 new_low_20d。"
+          "score": -86.0,
+          "confidence": "medium",
+          "evidence": "MA60 below/falling；MACD bearish；RSI 29.08 (oversold)；量能 contraction；20日结构 new_low_20d。"
         },
         "relative_strength": {
           "available": true,
-          "score": -80.5,
+          "score": -88.9,
           "confidence": "high",
-          "evidence": "5日相对强弱 -0.120062；20日相对强弱 -0.10868。"
+          "evidence": "5日相对强弱 -0.152428；20日相对强弱 -0.144692。"
         },
         "industry": {
           "available": true,
@@ -81,13 +81,13 @@
         "negative": [
           {
             "layer": "technical",
-            "score": -94.0,
-            "evidence": "MA60 below/falling；MACD bearish；RSI 30.18 (weak)；量能 normal；20日结构 new_low_20d。"
+            "score": -86.0,
+            "evidence": "MA60 below/falling；MACD bearish；RSI 29.08 (oversold)；量能 contraction；20日结构 new_low_20d。"
           },
           {
             "layer": "relative_strength",
-            "score": -80.5,
-            "evidence": "5日相对强弱 -0.120062；20日相对强弱 -0.10868。"
+            "score": -88.9,
+            "evidence": "5日相对强弱 -0.152428；20日相对强弱 -0.144692。"
           }
         ]
       },
@@ -101,7 +101,7 @@
       ],
       "excluded_layers": [],
       "positive_direction_mass": 0.0,
-      "negative_direction_mass": 57.2,
+      "negative_direction_mass": 56.5,
       "conflict_score": 0.0
     },
     "001309": {
@@ -110,17 +110,17 @@
       "group": "科技核心",
       "role": "存储弹性观察",
       "priority": 5,
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-13",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -69.2,
+      "composite_score": -78.2,
       "coverage": 75.0,
-      "confluence": 90.8,
+      "confluence": 93.5,
       "available_layers": 4,
       "opposing_weight_share": 0.0,
       "evidence_state": "multi_layer_confirmed",
       "thesis_state": "confirmed",
-      "attention_score": 74.1,
+      "attention_score": 74.2,
       "research_focus": "验证持续性、行业扩散与后续基本面证据。",
       "layers": {
         "event": {
@@ -131,15 +131,15 @@
         },
         "technical": {
           "available": true,
-          "score": -74.0,
-          "confidence": "medium",
-          "evidence": "MA60 below/falling；MACD bearish；RSI 27.47 (oversold)；量能 contraction；20日结构 inside_range。"
+          "score": -86.0,
+          "confidence": "high",
+          "evidence": "MA60 below/falling；MACD bearish；RSI 17.48 (oversold)；量能 normal；20日结构 new_low_20d。"
         },
         "relative_strength": {
           "available": true,
-          "score": -84.0,
+          "score": -99.7,
           "confidence": "high",
-          "evidence": "5日相对强弱 -0.121361；20日相对强弱 -0.123099。"
+          "evidence": "5日相对强弱 -0.354575；20日相对强弱 -0.357726。"
         },
         "industry": {
           "available": true,
@@ -167,13 +167,13 @@
         "negative": [
           {
             "layer": "technical",
-            "score": -74.0,
-            "evidence": "MA60 below/falling；MACD bearish；RSI 27.47 (oversold)；量能 contraction；20日结构 inside_range。"
+            "score": -86.0,
+            "evidence": "MA60 below/falling；MACD bearish；RSI 17.48 (oversold)；量能 normal；20日结构 new_low_20d。"
           },
           {
             "layer": "relative_strength",
-            "score": -84.0,
-            "evidence": "5日相对强弱 -0.121361；20日相对强弱 -0.123099。"
+            "score": -99.7,
+            "evidence": "5日相对强弱 -0.354575；20日相对强弱 -0.357726。"
           }
         ]
       },
@@ -187,7 +187,7 @@
       ],
       "excluded_layers": [],
       "positive_direction_mass": 0.0,
-      "negative_direction_mass": 51.9,
+      "negative_direction_mass": 58.7,
       "conflict_score": 0.0
     },
     "300308": {
@@ -196,17 +196,17 @@
       "group": "科技核心",
       "role": "AI硬件核心观察",
       "priority": 4,
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-13",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -68.4,
+      "composite_score": -74.8,
       "coverage": 75.0,
-      "confluence": 90.5,
+      "confluence": 92.4,
       "available_layers": 4,
       "opposing_weight_share": 0.0,
       "evidence_state": "multi_layer_confirmed",
       "thesis_state": "confirmed",
-      "attention_score": 72.0,
+      "attention_score": 72.2,
       "research_focus": "验证持续性、行业扩散与后续基本面证据。",
       "layers": {
         "event": {
@@ -219,13 +219,13 @@
           "available": true,
           "score": -86.0,
           "confidence": "high",
-          "evidence": "MA60 below/falling；MACD bearish；RSI 29.94 (oversold)；量能 normal；20日结构 new_low_20d。"
+          "evidence": "MA60 below/falling；MACD bearish；RSI 29.74 (oversold)；量能 normal；20日结构 new_low_20d。"
         },
         "relative_strength": {
           "available": true,
-          "score": -60.1,
+          "score": -84.0,
           "confidence": "high",
-          "evidence": "5日相对强弱 -0.098175；20日相对强弱 -0.054528。"
+          "evidence": "5日相对强弱 -0.093354；20日相对强弱 -0.131657。"
         },
         "industry": {
           "available": true,
@@ -253,12 +253,12 @@
           {
             "layer": "technical",
             "score": -86.0,
-            "evidence": "MA60 below/falling；MACD bearish；RSI 29.94 (oversold)；量能 normal；20日结构 new_low_20d。"
+            "evidence": "MA60 below/falling；MACD bearish；RSI 29.74 (oversold)；量能 normal；20日结构 new_low_20d。"
           },
           {
             "layer": "relative_strength",
-            "score": -60.1,
-            "evidence": "5日相对强弱 -0.098175；20日相对强弱 -0.054528。"
+            "score": -84.0,
+            "evidence": "5日相对强弱 -0.093354；20日相对强弱 -0.131657。"
           }
         ]
       },
@@ -272,7 +272,7 @@
       ],
       "excluded_layers": [],
       "positive_direction_mass": 0.0,
-      "negative_direction_mass": 51.3,
+      "negative_direction_mass": 56.1,
       "conflict_score": 0.0
     },
     "002384": {
@@ -281,17 +281,17 @@
       "group": "科技核心",
       "role": "PCB与终端映射",
       "priority": 3,
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-13",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -77.2,
+      "composite_score": -73.0,
       "coverage": 75.0,
-      "confluence": 93.2,
+      "confluence": 91.9,
       "available_layers": 4,
       "opposing_weight_share": 0.0,
       "evidence_state": "multi_layer_confirmed",
       "thesis_state": "confirmed",
-      "attention_score": 70.2,
+      "attention_score": 70.1,
       "research_focus": "验证持续性、行业扩散与后续基本面证据。",
       "layers": {
         "event": {
@@ -302,15 +302,15 @@
         },
         "technical": {
           "available": true,
-          "score": -86.0,
-          "confidence": "high",
-          "evidence": "MA60 below/falling；MACD bearish；RSI 25.16 (oversold)；量能 normal；20日结构 new_low_20d。"
+          "score": -74.0,
+          "confidence": "medium",
+          "evidence": "MA60 below/falling；MACD bearish；RSI 26.09 (oversold)；量能 contraction；20日结构 inside_range。"
         },
         "relative_strength": {
           "available": true,
-          "score": -94.0,
+          "score": -96.4,
           "confidence": "high",
-          "evidence": "5日相对强弱 -0.179513；20日相对强弱 -0.183921。"
+          "evidence": "5日相对强弱 -0.181471；20日相对强弱 -0.216506。"
         },
         "industry": {
           "available": true,
@@ -338,13 +338,13 @@
         "negative": [
           {
             "layer": "technical",
-            "score": -86.0,
-            "evidence": "MA60 below/falling；MACD bearish；RSI 25.16 (oversold)；量能 normal；20日结构 new_low_20d。"
+            "score": -74.0,
+            "evidence": "MA60 below/falling；MACD bearish；RSI 26.09 (oversold)；量能 contraction；20日结构 inside_range。"
           },
           {
             "layer": "relative_strength",
-            "score": -94.0,
-            "evidence": "5日相对强弱 -0.179513；20日相对强弱 -0.183921。"
+            "score": -96.4,
+            "evidence": "5日相对强弱 -0.181471；20日相对强弱 -0.216506。"
           }
         ]
       },
@@ -358,7 +358,7 @@
       ],
       "excluded_layers": [],
       "positive_direction_mass": 0.0,
-      "negative_direction_mass": 57.9,
+      "negative_direction_mass": 54.8,
       "conflict_score": 0.0
     },
     "600667": {
@@ -367,17 +367,17 @@
       "group": "科技核心",
       "role": "扩产与封测映射",
       "priority": 3,
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-13",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -63.4,
+      "composite_score": -67.6,
       "coverage": 75.0,
-      "confluence": 89.0,
+      "confluence": 90.3,
       "available_layers": 4,
       "opposing_weight_share": 0.0,
       "evidence_state": "multi_layer_confirmed",
       "thesis_state": "confirmed",
-      "attention_score": 69.9,
+      "attention_score": 70.0,
       "research_focus": "验证持续性、行业扩散与后续基本面证据。",
       "layers": {
         "event": {
@@ -390,13 +390,13 @@
           "available": true,
           "score": -82.0,
           "confidence": "medium",
-          "evidence": "MA60 below/falling；MACD bearish；RSI 33.01 (weak)；量能 contraction；20日结构 inside_range。"
+          "evidence": "MA60 below/falling；MACD bearish；RSI 32.64 (weak)；量能 contraction；20日结构 inside_range。"
         },
         "relative_strength": {
           "available": true,
-          "score": -50.0,
+          "score": -66.0,
           "confidence": "high",
-          "evidence": "5日相对强弱 -0.105007；20日相对强弱 -0.032229。"
+          "evidence": "5日相对强弱 -0.11202；20日相对强弱 -0.066323。"
         },
         "industry": {
           "available": true,
@@ -424,12 +424,12 @@
           {
             "layer": "technical",
             "score": -82.0,
-            "evidence": "MA60 below/falling；MACD bearish；RSI 33.01 (weak)；量能 contraction；20日结构 inside_range。"
+            "evidence": "MA60 below/falling；MACD bearish；RSI 32.64 (weak)；量能 contraction；20日结构 inside_range。"
           },
           {
             "layer": "relative_strength",
-            "score": -50.0,
-            "evidence": "5日相对强弱 -0.105007；20日相对强弱 -0.032229。"
+            "score": -66.0,
+            "evidence": "5日相对强弱 -0.11202；20日相对强弱 -0.066323。"
           }
         ]
       },
@@ -443,7 +443,7 @@
       ],
       "excluded_layers": [],
       "positive_direction_mass": 0.0,
-      "negative_direction_mass": 47.5,
+      "negative_direction_mass": 50.7,
       "conflict_score": 0.0
     },
     "000636": {
@@ -452,17 +452,17 @@
       "group": "科技核心",
       "role": "MLCC周期观察",
       "priority": 3,
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-13",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -70.0,
+      "composite_score": -74.7,
       "coverage": 75.0,
-      "confluence": 91.0,
+      "confluence": 92.4,
       "available_layers": 4,
       "opposing_weight_share": 0.0,
       "evidence_state": "multi_layer_confirmed",
       "thesis_state": "confirmed",
-      "attention_score": 70.1,
+      "attention_score": 70.2,
       "research_focus": "验证持续性、行业扩散与后续基本面证据。",
       "layers": {
         "event": {
@@ -475,13 +475,13 @@
           "available": true,
           "score": -94.0,
           "confidence": "medium",
-          "evidence": "MA60 below/falling；MACD bearish；RSI 33.3 (weak)；量能 contraction；20日结构 new_low_20d。"
+          "evidence": "MA60 below/falling；MACD bearish；RSI 32.52 (weak)；量能 contraction；20日结构 new_low_20d。"
         },
         "relative_strength": {
           "available": true,
-          "score": -54.9,
+          "score": -72.7,
           "confidence": "high",
-          "evidence": "5日相对强弱 -0.119186；20日相对强弱 -0.040595。"
+          "evidence": "5日相对强弱 -0.14022；20日相对强弱 -0.081364。"
         },
         "industry": {
           "available": true,
@@ -509,12 +509,12 @@
           {
             "layer": "technical",
             "score": -94.0,
-            "evidence": "MA60 below/falling；MACD bearish；RSI 33.3 (weak)；量能 contraction；20日结构 new_low_20d。"
+            "evidence": "MA60 below/falling；MACD bearish；RSI 32.52 (weak)；量能 contraction；20日结构 new_low_20d。"
           },
           {
             "layer": "relative_strength",
-            "score": -54.9,
-            "evidence": "5日相对强弱 -0.119186；20日相对强弱 -0.040595。"
+            "score": -72.7,
+            "evidence": "5日相对强弱 -0.14022；20日相对强弱 -0.081364。"
           }
         ]
       },
@@ -528,7 +528,7 @@
       ],
       "excluded_layers": [],
       "positive_direction_mass": 0.0,
-      "negative_direction_mass": 52.5,
+      "negative_direction_mass": 56.0,
       "conflict_score": 0.0
     },
     "161226": {
@@ -537,17 +537,17 @@
       "group": "贵金属对冲",
       "role": "高波动商品仓观察",
       "priority": 5,
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-13",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -54.3,
+      "composite_score": -37.6,
       "coverage": 50.0,
-      "confluence": 86.3,
+      "confluence": 81.3,
       "available_layers": 2,
       "opposing_weight_share": 0.0,
       "evidence_state": "insufficient",
       "thesis_state": "supported",
-      "attention_score": 66.8,
+      "attention_score": 66.4,
       "research_focus": "维持观察，等待更多层形成共振。",
       "layers": {
         "event": {
@@ -558,15 +558,15 @@
         },
         "technical": {
           "available": true,
-          "score": -82.0,
+          "score": -60.0,
           "confidence": "medium",
-          "evidence": "MA60 below/falling；MACD bearish；RSI 39.62 (weak)；量能 contraction；20日结构 inside_range。"
+          "evidence": "MA60 below/flat；MACD bearish；RSI 38.65 (weak)；量能 contraction；20日结构 inside_range。"
         },
         "relative_strength": {
           "available": true,
-          "score": -12.8,
+          "score": -4.0,
           "confidence": "high",
-          "evidence": "5日相对强弱 0.006297；20日相对强弱 -0.031123。"
+          "evidence": "5日相对强弱 0.003515；20日相对强弱 -0.011211。"
         },
         "industry": {
           "available": false,
@@ -588,13 +588,13 @@
         "negative": [
           {
             "layer": "technical",
-            "score": -82.0,
-            "evidence": "MA60 below/falling；MACD bearish；RSI 39.62 (weak)；量能 contraction；20日结构 inside_range。"
+            "score": -60.0,
+            "evidence": "MA60 below/flat；MACD bearish；RSI 38.65 (weak)；量能 contraction；20日结构 inside_range。"
           },
           {
             "layer": "relative_strength",
-            "score": -12.8,
-            "evidence": "5日相对强弱 0.006297；20日相对强弱 -0.031123。"
+            "score": -4.0,
+            "evidence": "5日相对强弱 0.003515；20日相对强弱 -0.011211。"
           }
         ]
       },
@@ -608,7 +608,7 @@
       ],
       "excluded_layers": [],
       "positive_direction_mass": 0.0,
-      "negative_direction_mass": 24.6,
+      "negative_direction_mass": 18.0,
       "conflict_score": 0.0
     },
     "518880": {
@@ -617,18 +617,18 @@
       "group": "贵金属对冲",
       "role": "低波动避险映射",
       "priority": 3,
-      "as_of": "2026-10-12",
-      "base_bias": "bearish",
+      "as_of": "2026-10-13",
+      "base_bias": "neutral",
       "matrix_direction": "bearish",
-      "composite_score": -34.3,
+      "composite_score": -26.9,
       "coverage": 50.0,
-      "confluence": 80.3,
+      "confluence": 50.1,
       "available_layers": 2,
-      "opposing_weight_share": 0.0,
+      "opposing_weight_share": 40.0,
       "evidence_state": "insufficient",
-      "thesis_state": "supported",
-      "attention_score": 62.4,
-      "research_focus": "维持观察，等待更多层形成共振。",
+      "thesis_state": "no_directional_thesis",
+      "attention_score": 60.3,
+      "research_focus": "数据或证据覆盖不足，先补齐关键层。",
       "layers": {
         "event": {
           "available": false,
@@ -640,13 +640,13 @@
           "available": true,
           "score": -60.0,
           "confidence": "medium",
-          "evidence": "MA60 below/flat；MACD bearish；RSI 40.61 (weak)；量能 contraction；20日结构 inside_range。"
+          "evidence": "MA60 below/flat；MACD bearish；RSI 40.58 (weak)；量能 contraction；20日结构 inside_range。"
         },
         "relative_strength": {
           "available": true,
-          "score": 4.3,
+          "score": 22.8,
           "confidence": "high",
-          "evidence": "5日相对强弱 0.014889；20日相对强弱 -0.007723。"
+          "evidence": "5日相对强弱 0.025972；20日相对强弱 0.015764。"
         },
         "industry": {
           "available": false,
@@ -667,15 +667,15 @@
         "positive": [
           {
             "layer": "relative_strength",
-            "score": 4.3,
-            "evidence": "5日相对强弱 0.014889；20日相对强弱 -0.007723。"
+            "score": 22.8,
+            "evidence": "5日相对强弱 0.025972；20日相对强弱 0.015764。"
           }
         ],
         "negative": [
           {
             "layer": "technical",
             "score": -60.0,
-            "evidence": "MA60 below/flat；MACD bearish；RSI 40.61 (weak)；量能 contraction；20日结构 inside_range。"
+            "evidence": "MA60 below/flat；MACD bearish；RSI 40.58 (weak)；量能 contraction；20日结构 inside_range。"
           }
         ]
       },
@@ -688,9 +688,9 @@
         "实际利率上行"
       ],
       "excluded_layers": [],
-      "positive_direction_mass": 0.0,
+      "positive_direction_mass": 4.6,
       "negative_direction_mass": 18.0,
-      "conflict_score": 0.0
+      "conflict_score": 40.4
     },
     "517380": {
       "code": "517380",
@@ -698,18 +698,18 @@
       "group": "医疗成长",
       "role": "创新药分散配置",
       "priority": 3,
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-13",
       "base_bias": "bearish",
-      "matrix_direction": "neutral",
-      "composite_score": -2.0,
+      "matrix_direction": "bearish",
+      "composite_score": -28.4,
       "coverage": 75.0,
-      "confluence": 3.0,
+      "confluence": 78.5,
       "available_layers": 4,
       "opposing_weight_share": 0.0,
-      "evidence_state": "conflict",
-      "thesis_state": "conflicted",
-      "attention_score": 88.9,
-      "research_focus": "正负证据正在相互抵消，优先识别哪一层先失效或被确认。",
+      "evidence_state": "partial_confirmation",
+      "thesis_state": "supported",
+      "attention_score": 59.2,
+      "research_focus": "维持观察，等待更多层形成共振。",
       "layers": {
         "event": {
           "available": false,
@@ -719,15 +719,15 @@
         },
         "technical": {
           "available": true,
-          "score": 20.0,
+          "score": -38.0,
           "confidence": "high",
-          "evidence": "MA60 above/rising；MACD bearish；RSI 47.29 (neutral)；量能 normal；20日结构 inside_range。"
+          "evidence": "MA60 below/rising；MACD bearish；RSI 43.19 (weak)；量能 normal；20日结构 inside_range。"
         },
         "relative_strength": {
           "available": true,
-          "score": 20.4,
+          "score": 8.2,
           "confidence": "high",
-          "evidence": "5日相对强弱 -0.007738；20日相对强弱 0.048483。"
+          "evidence": "5日相对强弱 -0.02732；20日相对强弱 0.044593。"
         },
         "industry": {
           "available": true,
@@ -753,26 +753,21 @@
       "contributors": {
         "positive": [
           {
-            "layer": "technical",
-            "score": 20.0,
-            "evidence": "MA60 above/rising；MACD bearish；RSI 47.29 (neutral)；量能 normal；20日结构 inside_range。"
-          },
-          {
             "layer": "relative_strength",
-            "score": 20.4,
-            "evidence": "5日相对强弱 -0.007738；20日相对强弱 0.048483。"
+            "score": 8.2,
+            "evidence": "5日相对强弱 -0.02732；20日相对强弱 0.044593。"
           }
         ],
         "negative": [
           {
+            "layer": "technical",
+            "score": -38.0,
+            "evidence": "MA60 below/rising；MACD bearish；RSI 43.19 (weak)；量能 normal；20日结构 inside_range。"
+          },
+          {
             "layer": "industry",
             "score": -44.3,
             "evidence": "化学制药 涨跌-2.33%/净流-34.3亿"
-          },
-          {
-            "layer": "market_context",
-            "score": -49.2,
-            "evidence": "regime=risk_off；上涨占比=0.2091；风险温度=57.7。"
           }
         ]
       },
@@ -785,23 +780,52 @@
         "监管或支付政策收紧"
       ],
       "excluded_layers": [],
-      "positive_direction_mass": 10.1,
-      "negative_direction_mass": 11.6,
-      "conflict_score": 93.1
+      "positive_direction_mass": 0.0,
+      "negative_direction_mass": 23.0,
+      "conflict_score": 0.0
     }
   },
   "ranking": [
-    "517380",
     "603986",
     "001309",
     "300308",
-    "002384",
     "000636",
+    "002384",
     "600667",
     "161226",
-    "518880"
+    "518880",
+    "517380"
   ],
-  "state_changes": [],
+  "state_changes": [
+    {
+      "code": "518880",
+      "name": "黄金ETF华安",
+      "field": "thesis_state",
+      "from": "supported",
+      "to": "no_directional_thesis"
+    },
+    {
+      "code": "517380",
+      "name": "创新药沪港深ETF天弘",
+      "field": "matrix_direction",
+      "from": "neutral",
+      "to": "bearish"
+    },
+    {
+      "code": "517380",
+      "name": "创新药沪港深ETF天弘",
+      "field": "evidence_state",
+      "from": "conflict",
+      "to": "partial_confirmation"
+    },
+    {
+      "code": "517380",
+      "name": "创新药沪港深ETF天弘",
+      "field": "thesis_state",
+      "from": "conflicted",
+      "to": "supported"
+    }
+  ],
   "methodology": {
     "weights": {
       "event": 25,
