@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-10-13T11:46:07+08:00",
-  "score": 57.7,
+  "generated_at": "2026-10-13T14:45:20+08:00",
+  "score": 60.0,
   "label": "elevated",
   "coverage": 100.0,
   "available_weight": 100,
@@ -28,13 +28,13 @@
       "score": 0.0,
       "weight": 15,
       "available": true,
-      "evidence": "两融20日Z -3.15"
+      "evidence": "两融20日Z -2.85"
     },
     "overseas": {
-      "score": 14.1,
+      "score": 37.0,
       "weight": 10,
       "available": true,
-      "evidence": "VIX 14.84；20日分位 15.0%"
+      "evidence": "VIX 15.21；20日分位 45.0%"
     },
     "concentration": {
       "score": 66.0,
