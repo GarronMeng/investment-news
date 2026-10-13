@@ -1,72 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-10-13T15:10:13+08:00",
+  "generated_at": "2026-10-13T16:43:01+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
-    {
-      "date": "2026-10-13",
-      "time": "16:00",
-      "type": "macro",
-      "category": "liquidity",
-      "region": "中国",
-      "title": "中国9月M2货币供应年率(%)",
-      "actual": null,
-      "forecast": 7.4,
-      "previous": 7.5,
-      "importance": 2,
-      "impact_channels": [
-        "A股流动性",
-        "人民币汇率",
-        "成长估值"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-10-13",
-      "time": "16:00",
-      "type": "macro",
-      "category": "liquidity",
-      "region": "中国",
-      "title": "中国9月新增人民币贷款-年初至今(亿元)",
-      "actual": null,
-      "forecast": null,
-      "previous": 104400.0,
-      "importance": 2,
-      "impact_channels": [
-        "A股流动性",
-        "人民币汇率",
-        "成长估值"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-10-13",
-      "time": "16:00",
-      "type": "macro",
-      "category": "liquidity",
-      "region": "中国",
-      "title": "中国9月社会融资规模-年初至今(亿元)",
-      "actual": null,
-      "forecast": null,
-      "previous": 239100.0,
-      "importance": 2,
-      "impact_channels": [
-        "A股流动性",
-        "人民币汇率",
-        "成长估值"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
     {
       "date": "2026-10-13",
       "time": "20:15",
@@ -1239,28 +1176,6 @@
       "status": "scheduled"
     },
     {
-      "date": "2026-10-22",
-      "time": "20:30",
-      "type": "macro",
-      "category": "labor",
-      "region": "美国",
-      "title": "美国截至10月17日当周初请失业金人数(万)",
-      "actual": null,
-      "forecast": null,
-      "previous": null,
-      "importance": 2,
-      "impact_channels": [
-        "美债收益率",
-        "美元",
-        "全球成长估值",
-        "黄金/白银"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
       "date": "2026-10-23",
       "time": "04:30",
       "type": "macro",
@@ -1366,14 +1281,17 @@
     }
   ],
   "summary": {
-    "total": 64,
-    "macro": 63,
+    "total": 60,
+    "macro": 59,
     "global_earnings": 1,
     "high_importance": 1,
-    "macro_days_ok": 11,
-    "report_days_ok": 11
+    "macro_days_ok": 10,
+    "report_days_ok": 10
   },
-  "warnings": [],
+  "warnings": [
+    "news_report_time_baidu 20261019: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+    "news_economic_baidu 20261022: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10001 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  ],
   "methodology": {
     "macro": "百度股市通全球宏观日历 via AKShare；保留重要性>=3及少量核心importance-2宏观数据，过滤每日持仓/仓单等例行噪声，并剔除已过时的当日时点。",
     "global_earnings": "百度股市通财报发行 via AKShare；仅保留global_catalyst_universe.json中的公开研究公司。",
