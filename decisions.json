@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generated_at": "2026-10-13T14:56:20+08:00",
+  "generated_at": "2026-10-13T16:40:07+08:00",
   "source": {
     "data_generated_at": "2026-10-13 14:50",
     "ai_generated_at": "2026-08-26 13:33",
     "ai_source_generated_at": "2026-08-26 12:26",
-    "features_generated_at": "2026-10-13T14:56:11+08:00",
+    "features_generated_at": "2026-10-13T16:39:55+08:00",
     "fresh_ai": false
   },
   "decisions": [
@@ -22,7 +22,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.143218",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.143166",
       "confirmation": [
         "股价相对半导体指数转强",
         "成交量放大且收盘站稳"
@@ -70,7 +70,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.120481",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.119568",
       "confirmation": [
         "海外AI硬件与A股CPO同步走强",
         "高位放量后能维持强势"
@@ -94,7 +94,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.204337",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.204232",
       "confirmation": [
         "PCB板块扩散上涨",
         "订单利好得到成交量确认"
@@ -142,7 +142,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.080747",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.079756",
       "confirmation": [
         "被动元件板块形成联动",
         "涨价新闻后价格走势能够确认"
@@ -166,7 +166,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.010278",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.010793",
       "confirmation": [
         "同时核对基金净值、场内价格和溢价率",
         "银价上涨时场内溢价未继续扩大"
@@ -190,7 +190,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "mixed",
-      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.015158",
+      "why_now": "no fresh mapped event; market trend=mixed; 20d relative strength=0.015268",
       "confirmation": [
         "外盘金价与国内黄金现货同向",
         "ETF成交量与价格同步确认"
