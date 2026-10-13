@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-13T18:55:50+08:00",
+  "generated_at": "2026-10-13T19:12:49+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -832,22 +832,7 @@
     "002384",
     "000636"
   ],
-  "state_changes": [
-    {
-      "code": "300308",
-      "name": "中际旭创",
-      "field": "evidence_state",
-      "from": "partial_confirmation",
-      "to": "multi_layer_confirmed"
-    },
-    {
-      "code": "300308",
-      "name": "中际旭创",
-      "field": "thesis_state",
-      "from": "supported",
-      "to": "confirmed"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "weights": {
       "event": 25,
