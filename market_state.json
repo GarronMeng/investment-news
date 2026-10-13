@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-13T20:47:52+08:00",
+  "generated_at": "2026-10-13T23:05:30+08:00",
   "timezone": "Asia/Shanghai",
   "breadth": {
     "total": 5562,
@@ -210,13 +210,13 @@
         "source": "东方财富 via AKShare"
       },
       {
-        "name": "航海装备Ⅱ",
+        "name": "航海装备Ⅲ",
         "net_inflow": 988968016.0,
         "change_pct": 4.36,
         "source": "东方财富 via AKShare"
       },
       {
-        "name": "航海装备Ⅲ",
+        "name": "航海装备Ⅱ",
         "net_inflow": 988968016.0,
         "change_pct": 4.36,
         "source": "东方财富 via AKShare"
