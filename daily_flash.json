@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-15T16:41:03+08:00",
+  "generated_at": "2026-10-15T18:02:38+08:00",
   "timezone": "Asia/Shanghai",
   "title": "Daily Flash · 每日投资驾驶舱",
   "core_conclusion": "A股状态为 Risk-off，上涨家数占比 7.7%，风险温度 62/100（elevated）。沪深300 PE-TTM 12.99；10年分位 44.9%；强势：白酒、证券、保险；弱势：煤炭开采加工、油气开采及服务、其他电源设备。研究复核优先关注 兆易创新、德明利、中际旭创；该排序代表证据变化与复核优先级，不代表交易优先级。资金/期指：融资余额25172亿元，5日-3.17%（stale）；南向成交净买额-50.8亿元；中证500股指期货基差-1.94%。 下一催化：10-16 00:00 美国截至10月5日当周EIA原油库存变动(万桶)；10-16 04:30 美国截至10月14日美联储资产负债表(万亿美元)。主线财报已确认披露 0/21 个研究样本。",
@@ -445,10 +445,10 @@
       "symbol": "^VIX",
       "group": "风险",
       "unit": "index",
-      "value": 17.55,
-      "raw_value": 17.55,
+      "value": 17.47,
+      "raw_value": 17.47,
       "previous_close": 16.87,
-      "change_pct": 4.03,
+      "change_pct": 3.56,
       "as_of": "2026-10-15T15:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -473,10 +473,10 @@
       "symbol": "DX-Y.NYB",
       "group": "汇率",
       "unit": "index",
-      "value": 101.953,
-      "raw_value": 101.953,
+      "value": 101.993,
+      "raw_value": 101.993,
       "previous_close": 102.55,
-      "change_pct": -0.58,
+      "change_pct": -0.54,
       "as_of": "2026-10-15T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -487,11 +487,11 @@
       "symbol": "CNH=X",
       "group": "汇率",
       "unit": "fx",
-      "value": 6.6908,
-      "raw_value": 6.6908,
+      "value": 6.6904,
+      "raw_value": 6.6904,
       "previous_close": null,
       "change_pct": null,
-      "as_of": "2026-10-15T16:38:53+08:00",
+      "as_of": "2026-10-15T18:00:41+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -501,10 +501,10 @@
       "symbol": "GC=F",
       "group": "商品",
       "unit": "usd",
-      "value": 4176.7998,
-      "raw_value": 4176.7998,
+      "value": 4178.3999,
+      "raw_value": 4178.3999,
       "previous_close": 4107.8999,
-      "change_pct": 1.68,
+      "change_pct": 1.72,
       "as_of": "2026-10-15T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -515,10 +515,10 @@
       "symbol": "SI=F",
       "group": "商品",
       "unit": "usd",
-      "value": 56.83,
-      "raw_value": 56.83,
+      "value": 56.9,
+      "raw_value": 56.9,
       "previous_close": 55.55,
-      "change_pct": 2.3,
+      "change_pct": 2.43,
       "as_of": "2026-10-15T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -529,10 +529,10 @@
       "symbol": "CL=F",
       "group": "商品",
       "unit": "usd",
-      "value": 94.24,
-      "raw_value": 94.24,
+      "value": 93.51,
+      "raw_value": 93.51,
       "previous_close": 95.09,
-      "change_pct": -0.89,
+      "change_pct": -1.66,
       "as_of": "2026-10-15T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -543,10 +543,10 @@
       "symbol": "BZ=F",
       "group": "商品",
       "unit": "usd",
-      "value": 103.61,
-      "raw_value": 103.61,
+      "value": 103.73,
+      "raw_value": 103.73,
       "previous_close": 106.06,
-      "change_pct": -2.31,
+      "change_pct": -2.2,
       "as_of": "2026-10-15T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -705,14 +705,14 @@
     },
     {
       "name": "美债 / 美元",
-      "score": 9.7,
+      "score": 9.3,
       "label": "中性",
       "weight": 5,
       "evidence": "收益率与美元上行对长久期风险资产偏压制"
     },
     {
       "name": "商品避险",
-      "score": 2.9,
+      "score": 1.1,
       "label": "中性",
       "weight": 3,
       "evidence": "黄金/白银/原油组合变化"
@@ -745,9 +745,9 @@
         "德明利"
       ],
       "direction": "bearish",
-      "score": -74.0,
+      "score": -76.8,
       "event_score": null,
-      "technical_score": -80.0,
+      "technical_score": -86.0,
       "industry_score": -42.6
     },
     {
@@ -760,9 +760,9 @@
         "中际旭创"
       ],
       "direction": "bearish",
-      "score": -81.5,
+      "score": -87.6,
       "event_score": null,
-      "technical_score": -74.0,
+      "technical_score": -86.0,
       "industry_score": -100.0
     },
     {
@@ -775,9 +775,9 @@
         "东山精密"
       ],
       "direction": "bearish",
-      "score": -66.5,
+      "score": -71.8,
       "event_score": null,
-      "technical_score": -74.0,
+      "technical_score": -86.0,
       "industry_score": -16.0
     },
     {
@@ -805,7 +805,7 @@
         "风华高科"
       ],
       "direction": "bearish",
-      "score": -61.1,
+      "score": -63.1,
       "event_score": null,
       "technical_score": -82.0,
       "industry_score": -16.0
@@ -868,8 +868,8 @@
       "thesis_state": "confirmed",
       "direction": "bearish",
       "attention_score": 74.2,
-      "composite_score": -75.4,
-      "confluence": 92.6,
+      "composite_score": -76.1,
+      "confluence": 92.8,
       "conflict_score": 0.0,
       "focus": "验证持续性、行业扩散与后续基本面证据。"
     },
@@ -878,9 +878,9 @@
       "name": "德明利",
       "thesis_state": "confirmed",
       "direction": "bearish",
-      "attention_score": 74.1,
-      "composite_score": -72.6,
-      "confluence": 91.8,
+      "attention_score": 74.2,
+      "composite_score": -77.5,
+      "confluence": 93.2,
       "conflict_score": 0.0,
       "focus": "验证持续性、行业扩散与后续基本面证据。"
     },
@@ -889,9 +889,20 @@
       "name": "中际旭创",
       "thesis_state": "confirmed",
       "direction": "bearish",
-      "attention_score": 72.3,
-      "composite_score": -81.5,
-      "confluence": 94.4,
+      "attention_score": 72.4,
+      "composite_score": -87.6,
+      "confluence": 96.3,
+      "conflict_score": 0.0,
+      "focus": "验证持续性、行业扩散与后续基本面证据。"
+    },
+    {
+      "code": "002384",
+      "name": "东山精密",
+      "thesis_state": "confirmed",
+      "direction": "bearish",
+      "attention_score": 70.1,
+      "composite_score": -71.8,
+      "confluence": 91.5,
       "conflict_score": 0.0,
       "focus": "验证持续性、行业扩散与后续基本面证据。"
     },
@@ -907,40 +918,29 @@
       "focus": "验证持续性、行业扩散与后续基本面证据。"
     },
     {
-      "code": "002384",
-      "name": "东山精密",
-      "thesis_state": "confirmed",
-      "direction": "bearish",
-      "attention_score": 70.0,
-      "composite_score": -66.5,
-      "confluence": 90.0,
-      "conflict_score": 0.0,
-      "focus": "验证持续性、行业扩散与后续基本面证据。"
-    },
-    {
       "code": "000636",
       "name": "风华高科",
       "thesis_state": "confirmed",
       "direction": "bearish",
       "attention_score": 69.9,
-      "composite_score": -61.1,
-      "confluence": 88.3,
+      "composite_score": -63.1,
+      "confluence": 88.9,
       "conflict_score": 0.0,
       "focus": "验证持续性、行业扩散与后续基本面证据。"
     }
   ],
   "sources": {
-    "market_state": "2026-10-15T16:26:21+08:00",
-    "risk": "2026-10-15T16:38:03+08:00",
-    "valuation": "2026-10-15T16:37:54+08:00",
-    "decision_matrix": "2026-10-15T16:38:03+08:00",
-    "global_markets": "2026-10-15T16:38:54+08:00",
-    "catalysts": "2026-10-15T16:39:25+08:00",
+    "market_state": "2026-10-15T17:57:23+08:00",
+    "risk": "2026-10-15T17:59:38+08:00",
+    "valuation": "2026-10-15T17:59:30+08:00",
+    "decision_matrix": "2026-10-15T17:59:38+08:00",
+    "global_markets": "2026-10-15T18:00:41+08:00",
+    "catalysts": "2026-10-15T18:01:13+08:00",
     "ai_signals": "2026-08-26 13:33",
     "sentiment": "2026-10-15T12:32:04+08:00",
-    "market_extras": "2026-10-15T16:38:57+08:00",
-    "macro_calendar": "2026-10-15T16:40:38+08:00",
-    "theme_earnings": "2026-10-15T16:41:03+08:00"
+    "market_extras": "2026-10-15T18:00:43+08:00",
+    "macro_calendar": "2026-10-15T18:02:16+08:00",
+    "theme_earnings": "2026-10-15T18:02:38+08:00"
   },
   "boundary": "Daily Flash用于信息压缩、研究排序与条件验证；缺失数据保持缺失，不生成无条件买卖、仓位或止损指令。",
   "integrity": {
@@ -1462,8 +1462,8 @@
     "macro": 24,
     "global_earnings": 0,
     "high_importance": 0,
-    "macro_days_ok": 8,
-    "report_days_ok": 6
+    "macro_days_ok": 9,
+    "report_days_ok": 7
   },
   "theme_earnings": [
     {
@@ -1909,7 +1909,7 @@
   "quality": {
     "macro_calendar": {
       "events": 24,
-      "warnings": 8,
+      "warnings": 6,
       "horizon_days": 10
     },
     "theme_earnings": {
