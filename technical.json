@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-10-15T12:56:07+08:00",
-  "source_generated_at": "2026-10-15T12:56:07+08:00",
+  "generated_at": "2026-10-15T14:30:18+08:00",
+  "source_generated_at": "2026-10-15T14:30:18+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -126,30 +126,30 @@
     "002384": {
       "code": "002384",
       "name": "东山精密",
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-15",
       "source_status": "fresh",
       "observations": 140,
-      "close": 131.41,
+      "close": 123.13,
       "ma60": {
-        "value": 191.4208,
+        "value": 189.0982,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.011104
+        "slope_pct": -0.012134
       },
-      "rsi14": 25.78,
+      "rsi14": 23.54,
       "rsi_zone": "oversold",
       "macd": {
-        "dif": -14.73853,
-        "dea": -9.30304,
-        "hist": -10.87099,
+        "dif": -16.43585,
+        "dea": -10.72972,
+        "hist": -11.41227,
         "state": "bearish",
-        "cross_age": 7
+        "cross_age": 8
       },
       "volume": {
-        "ratio20": 0.945,
+        "ratio20": 1.021,
         "state": "normal"
       },
-      "breakout_20d": "inside_range",
+      "breakout_20d": "new_low_20d",
       "data_quality": "usable",
       "condition_state": "conditions_not_met"
     },
@@ -186,27 +186,27 @@
     "000636": {
       "code": "000636",
       "name": "风华高科",
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-15",
       "source_status": "fresh",
       "observations": 140,
-      "close": 43.05,
+      "close": 42.0,
       "ma60": {
-        "value": 52.7552,
+        "value": 52.5468,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.005142
+        "slope_pct": -0.003949
       },
-      "rsi14": 32.45,
+      "rsi14": 31.12,
       "rsi_zone": "weak",
       "macd": {
-        "dif": -2.65249,
-        "dea": -1.22613,
-        "hist": -2.85271,
+        "dif": -3.00828,
+        "dea": -1.58256,
+        "hist": -2.85143,
         "state": "bearish",
-        "cross_age": 7
+        "cross_age": 8
       },
       "volume": {
-        "ratio20": 0.707,
+        "ratio20": 0.583,
         "state": "contraction"
       },
       "breakout_20d": "inside_range",
@@ -304,7 +304,15 @@
       "condition_state": "conditions_not_met"
     }
   },
-  "state_changes": [],
+  "state_changes": [
+    {
+      "code": "002384",
+      "name": "东山精密",
+      "field": "breakout_20d",
+      "from": "inside_range",
+      "to": "new_low_20d"
+    }
+  ],
   "methodology": {
     "rsi14": "Wilder RSI(14)",
     "macd": "EMA12/EMA26 DIF, EMA9 signal, histogram=(DIF-DEA)*2",
