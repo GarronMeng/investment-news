@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated_at": "2026-10-15T16:37:53+08:00",
+  "generated_at": "2026-10-15T17:59:30+08:00",
   "timezone": "Asia/Shanghai",
   "benchmark": {
     "code": "510300",
@@ -1289,18 +1289,9 @@
       "kind": "stock",
       "status": "fresh",
       "source": "新浪财经 via AKShare",
-      "last_date": "2026-10-14",
+      "last_date": "2026-10-15",
       "observations": 140,
       "rows": [
-        {
-          "date": "2026-03-18",
-          "open": 305.1,
-          "high": 313.68,
-          "low": 302.0,
-          "close": 311.25,
-          "volume": 42051352.0,
-          "amount": 12995566647.0
-        },
         {
           "date": "2026-03-19",
           "open": 300.0,
@@ -2551,6 +2542,15 @@
           "close": 292.56,
           "volume": 22928644.0,
           "amount": 6833833461.0
+        },
+        {
+          "date": "2026-10-15",
+          "open": 275.0,
+          "high": 283.8,
+          "low": 271.3,
+          "close": 278.22,
+          "volume": 37389673.0,
+          "amount": 10365265972.0
         }
       ],
       "fallback_reason": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -2562,18 +2562,9 @@
       "kind": "stock",
       "status": "fresh",
       "source": "新浪财经 via AKShare",
-      "last_date": "2026-10-14",
+      "last_date": "2026-10-15",
       "observations": 140,
       "rows": [
-        {
-          "date": "2026-03-18",
-          "open": 359.0,
-          "high": 374.0,
-          "low": 355.0,
-          "close": 374.0,
-          "volume": 19248257.0,
-          "amount": 7061636929.0
-        },
         {
           "date": "2026-03-19",
           "open": 357.0,
@@ -3824,6 +3815,15 @@
           "close": 225.5,
           "volume": 9471946.0,
           "amount": 2160253282.0
+        },
+        {
+          "date": "2026-10-15",
+          "open": 218.0,
+          "high": 218.0,
+          "low": 208.61,
+          "close": 211.05,
+          "volume": 13397296.0,
+          "amount": 2852538889.0
         }
       ],
       "fallback_reason": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -3835,18 +3835,9 @@
       "kind": "stock",
       "status": "fresh",
       "source": "新浪财经 via AKShare",
-      "last_date": "2026-10-14",
+      "last_date": "2026-10-15",
       "observations": 140,
       "rows": [
-        {
-          "date": "2026-03-18",
-          "open": 553.86,
-          "high": 582.05,
-          "low": 550.0,
-          "close": 580.0,
-          "volume": 37780487.0,
-          "amount": 21435555273.0
-        },
         {
           "date": "2026-03-19",
           "open": 580.0,
@@ -5097,6 +5088,15 @@
           "close": 692.9,
           "volume": 21996772.0,
           "amount": 15564831096.0
+        },
+        {
+          "date": "2026-10-15",
+          "open": 661.19,
+          "high": 676.0,
+          "low": 645.01,
+          "close": 656.94,
+          "volume": 33014193.0,
+          "amount": 21778343697.0
         }
       ],
       "fallback_reason": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -5108,18 +5108,9 @@
       "kind": "stock",
       "status": "fresh",
       "source": "新浪财经 via AKShare",
-      "last_date": "2026-10-14",
+      "last_date": "2026-10-15",
       "observations": 140,
       "rows": [
-        {
-          "date": "2026-03-18",
-          "open": 111.93,
-          "high": 113.88,
-          "low": 101.83,
-          "close": 107.38,
-          "volume": 137262612.0,
-          "amount": 14598556915.0
-        },
         {
           "date": "2026-03-19",
           "open": 104.0,
@@ -6370,6 +6361,15 @@
           "close": 131.41,
           "volume": 56591757.0,
           "amount": 7627102156.0
+        },
+        {
+          "date": "2026-10-15",
+          "open": 126.97,
+          "high": 128.5,
+          "low": 122.53,
+          "close": 124.2,
+          "volume": 69366254.0,
+          "amount": 8689623651.0
         }
       ],
       "fallback_reason": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -7654,18 +7654,9 @@
       "kind": "stock",
       "status": "fresh",
       "source": "新浪财经 via AKShare",
-      "last_date": "2026-10-14",
+      "last_date": "2026-10-15",
       "observations": 140,
       "rows": [
-        {
-          "date": "2026-03-18",
-          "open": 22.65,
-          "high": 22.98,
-          "low": 22.08,
-          "close": 22.5,
-          "volume": 91593926.0,
-          "amount": 2065525172.0
-        },
         {
           "date": "2026-03-19",
           "open": 21.86,
@@ -8916,6 +8907,15 @@
           "close": 43.05,
           "volume": 79138017.0,
           "amount": 3476184455.0
+        },
+        {
+          "date": "2026-10-15",
+          "open": 41.04,
+          "high": 43.29,
+          "low": 40.8,
+          "close": 42.16,
+          "volume": 72700485.0,
+          "amount": 3048778508.0
         }
       ],
       "fallback_reason": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
