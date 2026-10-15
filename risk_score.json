@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "generated_at": "2026-10-14T18:17:43+08:00",
-  "score": 61.2,
+  "generated_at": "2026-10-15T12:48:57+08:00",
+  "score": 61.1,
   "label": "elevated",
   "coverage": 100.0,
   "available_weight": 100,
   "components": {
     "valuation": {
-      "score": 47.7,
+      "score": 44.9,
       "weight": 20,
       "available": true,
-      "evidence": "沪深300滚动PE十年分位 47.7%"
+      "evidence": "沪深300滚动PE十年分位 44.9%"
     },
     "market_structure": {
       "score": 85.8,
@@ -31,10 +31,10 @@
       "evidence": "两融20日Z -2.42"
     },
     "overseas": {
-      "score": 37.0,
+      "score": 40.8,
       "weight": 10,
       "available": true,
-      "evidence": "VIX 15.21；20日分位 45.0%"
+      "evidence": "VIX 15.27；20日分位 50.0%"
     },
     "concentration": {
       "score": 66.0,
