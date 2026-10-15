@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-15T12:48:57+08:00",
+  "generated_at": "2026-10-15T12:56:16+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -787,29 +787,7 @@
     "161226",
     "518880"
   ],
-  "state_changes": [
-    {
-      "code": "518880",
-      "name": "黄金ETF华安",
-      "field": "thesis_state",
-      "from": "no_directional_thesis",
-      "to": "supported"
-    },
-    {
-      "code": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "field": "evidence_state",
-      "from": "partial_confirmation",
-      "to": "multi_layer_confirmed"
-    },
-    {
-      "code": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "field": "thesis_state",
-      "from": "supported",
-      "to": "confirmed"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "weights": {
       "event": 25,
