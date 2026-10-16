@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-16T14:34:10+08:00",
+  "generated_at": "2026-10-16T16:31:59+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
@@ -584,7 +584,7 @@
       "region": "日本",
       "title": "日本9月全国核心CPI年率(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": 2.1,
       "previous": 1.7,
       "importance": 2,
       "impact_channels": [
