@@ -1,32 +1,32 @@
 {
   "version": 1,
-  "generated_at": "2026-10-16T14:31:20+08:00",
-  "source_generated_at": "2026-10-16T14:31:20+08:00",
+  "generated_at": "2026-10-16T16:29:00+08:00",
+  "source_generated_at": "2026-10-16T16:29:00+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
     "as_of": "2026-10-16",
     "source_status": "fresh",
     "observations": 140,
-    "close": 4.221,
+    "close": 4.236,
     "ma60": {
-      "value": 4.6068,
+      "value": 4.6071,
       "position": "below",
       "direction": "falling",
-      "slope_pct": -0.001921
+      "slope_pct": -0.001867
     },
-    "rsi14": 19.58,
+    "rsi14": 20.27,
     "rsi_zone": "oversold",
     "macd": {
-      "dif": -0.09722,
-      "dea": -0.07449,
-      "hist": -0.04547,
+      "dif": -0.09603,
+      "dea": -0.07425,
+      "hist": -0.04355,
       "state": "bearish",
       "cross_age": 9
     },
     "volume": {
-      "ratio20": 0.985,
-      "state": "normal"
+      "ratio20": 4.003,
+      "state": "expansion"
     },
     "breakout_20d": "inside_range",
     "data_quality": "usable",
@@ -39,24 +39,24 @@
       "as_of": "2026-10-16",
       "source_status": "fresh",
       "observations": 140,
-      "close": 280.95,
+      "close": 281.86,
       "ma60": {
-        "value": 386.2173,
+        "value": 386.2325,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.009983
+        "slope_pct": -0.009944
       },
-      "rsi14": 25.92,
+      "rsi14": 26.34,
       "rsi_zone": "oversold",
       "macd": {
-        "dif": -28.55064,
-        "dea": -20.46185,
-        "hist": -16.17759,
+        "dif": -28.47805,
+        "dea": -20.44733,
+        "hist": -16.06145,
         "state": "bearish",
         "cross_age": 6
       },
       "volume": {
-        "ratio20": 1.019,
+        "ratio20": 1.154,
         "state": "normal"
       },
       "breakout_20d": "inside_range",
@@ -69,24 +69,24 @@
       "as_of": "2026-10-16",
       "source_status": "fresh",
       "observations": 140,
-      "close": 207.2,
+      "close": 206.01,
       "ma60": {
-        "value": 390.9062,
+        "value": 390.8863,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.016313
+        "slope_pct": -0.016363
       },
-      "rsi14": 15.54,
+      "rsi14": 15.46,
       "rsi_zone": "oversold",
       "macd": {
-        "dif": -49.83575,
-        "dea": -31.74366,
-        "hist": -36.18417,
+        "dif": -49.93068,
+        "dea": -31.76265,
+        "hist": -36.33606,
         "state": "bearish",
         "cross_age": 8
       },
       "volume": {
-        "ratio20": 1.043,
+        "ratio20": 1.249,
         "state": "normal"
       },
       "breakout_20d": "new_low_20d",
@@ -99,24 +99,24 @@
       "as_of": "2026-10-16",
       "source_status": "fresh",
       "observations": 140,
-      "close": 665.11,
+      "close": 670.0,
       "ma60": {
-        "value": 893.6483,
+        "value": 893.7298,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.008284
+        "slope_pct": -0.008194
       },
-      "rsi14": 27.39,
+      "rsi14": 28.35,
       "rsi_zone": "oversold",
       "macd": {
-        "dif": -58.70886,
-        "dea": -39.07956,
-        "hist": -39.25861,
+        "dif": -58.31877,
+        "dea": -39.00154,
+        "hist": -38.63447,
         "state": "bearish",
         "cross_age": 8
       },
       "volume": {
-        "ratio20": 0.884,
+        "ratio20": 1.018,
         "state": "normal"
       },
       "breakout_20d": "inside_range",
@@ -129,25 +129,25 @@
       "as_of": "2026-10-16",
       "source_status": "fresh",
       "observations": 140,
-      "close": 122.61,
+      "close": 122.67,
       "ma60": {
-        "value": 186.6795,
+        "value": 186.6805,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.012884
+        "slope_pct": -0.012878
       },
-      "rsi14": 23.38,
+      "rsi14": 23.4,
       "rsi_zone": "oversold",
       "macd": {
-        "dif": -17.55395,
-        "dea": -12.08102,
-        "hist": -10.94585,
+        "dif": -17.54916,
+        "dea": -12.08007,
+        "hist": -10.93819,
         "state": "bearish",
         "cross_age": 9
       },
       "volume": {
-        "ratio20": 0.658,
-        "state": "contraction"
+        "ratio20": 0.777,
+        "state": "normal"
       },
       "breakout_20d": "inside_range",
       "data_quality": "usable",
@@ -159,24 +159,24 @@
       "as_of": "2026-10-16",
       "source_status": "fresh",
       "observations": 140,
-      "close": 14.64,
+      "close": 14.63,
       "ma60": {
-        "value": 18.6887,
+        "value": 18.6885,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.003634
+        "slope_pct": -0.003643
       },
-      "rsi14": 30.91,
+      "rsi14": 30.83,
       "rsi_zone": "weak",
       "macd": {
-        "dif": -1.25063,
-        "dea": -0.82283,
-        "hist": -0.8556,
+        "dif": -1.25143,
+        "dea": -0.82299,
+        "hist": -0.85688,
         "state": "bearish",
         "cross_age": 9
       },
       "volume": {
-        "ratio20": 0.578,
+        "ratio20": 0.662,
         "state": "contraction"
       },
       "breakout_20d": "inside_range",
@@ -189,24 +189,24 @@
       "as_of": "2026-10-16",
       "source_status": "fresh",
       "observations": 140,
-      "close": 40.7,
+      "close": 40.76,
       "ma60": {
-        "value": 52.3662,
+        "value": 52.3672,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.003489
+        "slope_pct": -0.00347
       },
-      "rsi14": 29.5,
+      "rsi14": 29.57,
       "rsi_zone": "oversold",
       "macd": {
-        "dif": -3.34658,
-        "dea": -1.93329,
-        "hist": -2.82657,
+        "dif": -3.34179,
+        "dea": -1.93233,
+        "hist": -2.81891,
         "state": "bearish",
         "cross_age": 9
       },
       "volume": {
-        "ratio20": 0.489,
+        "ratio20": 0.575,
         "state": "contraction"
       },
       "breakout_20d": "inside_range",
@@ -219,24 +219,24 @@
       "as_of": "2026-10-16",
       "source_status": "fresh",
       "observations": 140,
-      "close": 1.741,
+      "close": 1.744,
       "ma60": {
         "value": 1.9077,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.000664
+        "slope_pct": -0.000637
       },
-      "rsi14": 34.31,
+      "rsi14": 34.81,
       "rsi_zone": "weak",
       "macd": {
-        "dif": -0.04734,
-        "dea": -0.03657,
-        "hist": -0.02155,
+        "dif": -0.0471,
+        "dea": -0.03652,
+        "hist": -0.02116,
         "state": "bearish",
         "cross_age": 26
       },
       "volume": {
-        "ratio20": 0.461,
+        "ratio20": 0.545,
         "state": "contraction"
       },
       "breakout_20d": "inside_range",
@@ -249,25 +249,25 @@
       "as_of": "2026-10-16",
       "source_status": "fresh",
       "observations": 140,
-      "close": 8.55,
+      "close": 8.554,
       "ma60": {
-        "value": 8.8375,
+        "value": 8.8376,
         "position": "below",
         "direction": "flat",
-        "slope_pct": 0.000353
+        "slope_pct": 0.00036
       },
-      "rsi14": 41.25,
+      "rsi14": 41.44,
       "rsi_zone": "weak",
       "macd": {
-        "dif": -0.12695,
-        "dea": -0.10851,
-        "hist": -0.03689,
+        "dif": -0.12663,
+        "dea": -0.10844,
+        "hist": -0.03638,
         "state": "bearish",
         "cross_age": 27
       },
       "volume": {
-        "ratio20": 0.684,
-        "state": "contraction"
+        "ratio20": 0.774,
+        "state": "normal"
       },
       "breakout_20d": "inside_range",
       "data_quality": "usable",
@@ -279,25 +279,25 @@
       "as_of": "2026-10-16",
       "source_status": "fresh",
       "observations": 140,
-      "close": 0.82,
+      "close": 0.812,
       "ma60": {
-        "value": 0.8488,
+        "value": 0.8487,
         "position": "below",
         "direction": "flat",
-        "slope_pct": 3.9e-05
+        "slope_pct": -0.000118
       },
-      "rsi14": 39.71,
+      "rsi14": 38.03,
       "rsi_zone": "weak",
       "macd": {
-        "dif": -0.00613,
-        "dea": 0.00116,
-        "hist": -0.01457,
+        "dif": -0.00677,
+        "dea": 0.00103,
+        "hist": -0.01559,
         "state": "bearish",
         "cross_age": 5
       },
       "volume": {
-        "ratio20": 1.326,
-        "state": "normal"
+        "ratio20": 1.691,
+        "state": "expansion"
       },
       "breakout_20d": "inside_range",
       "data_quality": "usable",
@@ -306,32 +306,25 @@
   },
   "state_changes": [
     {
-      "code": "001309",
-      "name": "德明利",
-      "field": "breakout_20d",
-      "from": "inside_range",
-      "to": "new_low_20d"
-    },
-    {
-      "code": "300308",
-      "name": "中际旭创",
+      "code": "002384",
+      "name": "东山精密",
       "field": "volume",
       "from": "contraction",
       "to": "normal"
     },
     {
-      "code": "000636",
-      "name": "风华高科",
-      "field": "rsi_zone",
-      "from": "weak",
-      "to": "oversold"
+      "code": "518880",
+      "name": "黄金ETF华安",
+      "field": "volume",
+      "from": "contraction",
+      "to": "normal"
     },
     {
       "code": "517380",
       "name": "创新药沪港深ETF天弘",
-      "field": "rsi_zone",
-      "from": "neutral",
-      "to": "weak"
+      "field": "volume",
+      "from": "normal",
+      "to": "expansion"
     }
   ],
   "methodology": {
