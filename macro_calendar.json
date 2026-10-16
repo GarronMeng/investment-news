@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-16T13:08:41+08:00",
+  "generated_at": "2026-10-16T14:34:10+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
@@ -117,7 +117,7 @@
       "region": "中国",
       "title": "中国9月规模以上工业增加值年率-单月(%)",
       "actual": null,
-      "forecast": 5.3,
+      "forecast": 5.5,
       "previous": 5.2,
       "importance": 2,
       "impact_channels": [
@@ -180,7 +180,7 @@
       "region": "中国",
       "title": "中国第三季度GDP年率-单季度(%)",
       "actual": null,
-      "forecast": 4.3,
+      "forecast": 4.4,
       "previous": 4.3,
       "importance": 2,
       "impact_channels": [
@@ -350,7 +350,7 @@
       "title": "美国截至10月16日当周API原油库存变动(万桶)",
       "actual": null,
       "forecast": null,
-      "previous": null,
+      "previous": -1112.3,
       "importance": 2,
       "impact_channels": [
         "原油",
@@ -370,7 +370,7 @@
       "region": "日本",
       "title": "日本9月商品贸易帐-未季调(亿日元)",
       "actual": null,
-      "forecast": null,
+      "forecast": 18100.0,
       "previous": -11056.0,
       "importance": 2,
       "impact_channels": [
@@ -474,7 +474,7 @@
       "title": "美国截至10月16日当周EIA原油库存变动(万桶)",
       "actual": null,
       "forecast": null,
-      "previous": null,
+      "previous": -855.7,
       "importance": 2,
       "impact_channels": [
         "原油",
@@ -521,7 +521,7 @@
       "title": "美国截至10月17日当周初请失业金人数(万)",
       "actual": null,
       "forecast": null,
-      "previous": null,
+      "previous": 19.9,
       "importance": 2,
       "impact_channels": [
         "美债收益率",
@@ -543,7 +543,7 @@
       "title": "美国截至10月21日美联储资产负债表(万亿美元)",
       "actual": null,
       "forecast": null,
-      "previous": null,
+      "previous": 6.81,
       "importance": 2,
       "impact_channels": [
         "美债收益率",
