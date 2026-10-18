@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-10-17T19:43:37+08:00",
+  "generated_at": "2026-10-18T09:28:31+08:00",
   "timezone": "Asia/Shanghai",
   "title": "Daily Flash · 每日投资驾驶舱",
-  "core_conclusion": "A股状态为 Narrow Risk-on，上涨家数占比 59.2%，风险温度 57/100（elevated）。沪深300 PE-TTM 12.88；10年分位 41.1%；强势：军工装备、军工电子、汽车零部件；弱势：元件、游戏、医疗服务。研究复核优先关注 创新药沪港深ETF天弘、德明利、兆易创新；该排序代表证据变化与复核优先级，不代表交易优先级。资金/期指：融资余额24975亿元，5日-2.95%；南向成交净买额-35.7亿元；沪深300股指期货基差-1.96%。 下一催化：10-21 Meta 财报发行。主线财报已确认披露 0/21 个研究样本。",
+  "core_conclusion": "A股状态为 Narrow Risk-on，上涨家数占比 59.2%，风险温度 57/100（elevated）。沪深300 PE-TTM 12.88；10年分位 41.1%；强势：军工装备、军工电子、汽车零部件；弱势：元件、游戏、医疗服务。研究复核优先关注 创新药沪港深ETF天弘、德明利、兆易创新；该排序代表证据变化与复核优先级，不代表交易优先级。资金/期指：融资余额24975亿元，5日-2.95%；南向成交净买额-35.7亿元；沪深300股指期货基差-1.96%。 下一催化：10-21 Meta 财报发行；10-28 Alphabet 财报发行。主线财报已确认披露 0/21 个研究样本。",
   "market": {
     "regime": {
       "label": "Narrow Risk-on",
@@ -931,16 +931,16 @@
   ],
   "sources": {
     "market_state": "2026-10-16T20:23:52+08:00",
-    "risk": "2026-10-17T19:40:33+08:00",
-    "valuation": "2026-10-17T19:40:24+08:00",
-    "decision_matrix": "2026-10-17T19:40:33+08:00",
-    "global_markets": "2026-10-17T19:41:24+08:00",
-    "catalysts": "2026-10-17T19:41:54+08:00",
+    "risk": "2026-10-18T09:25:34+08:00",
+    "valuation": "2026-10-18T09:25:25+08:00",
+    "decision_matrix": "2026-10-18T09:25:34+08:00",
+    "global_markets": "2026-10-18T09:26:40+08:00",
+    "catalysts": "2026-10-18T09:27:10+08:00",
     "ai_signals": "2026-08-26 13:33",
     "sentiment": "2026-10-16T12:25:52+08:00",
-    "market_extras": "2026-10-17T19:41:25+08:00",
-    "macro_calendar": "2026-10-17T19:43:13+08:00",
-    "theme_earnings": "2026-10-17T19:43:37+08:00"
+    "market_extras": "2026-10-18T09:26:42+08:00",
+    "macro_calendar": "2026-10-18T09:28:08+08:00",
+    "theme_earnings": "2026-10-18T09:28:31+08:00"
   },
   "boundary": "Daily Flash用于信息压缩、研究排序与条件验证；缺失数据保持缺失，不生成无条件买卖、仓位或止损指令。",
   "integrity": {
@@ -1566,13 +1566,107 @@
       "assets": [],
       "source": "百度股市通 via AKShare",
       "status": "scheduled"
+    },
+    {
+      "date": "2026-10-28",
+      "time": "04:30",
+      "type": "macro",
+      "category": "energy",
+      "region": "美国",
+      "title": "美国截至10月23日当周API原油库存变动(万桶)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "原油",
+        "通胀预期",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-28",
+      "time": "22:30",
+      "type": "macro",
+      "category": "energy",
+      "region": "美国",
+      "title": "美国截至10月23日当周EIA原油库存变动(万桶)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "原油",
+        "通胀预期",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-28",
+      "time": null,
+      "type": "global_earnings",
+      "category": "earnings",
+      "region": "US",
+      "title": "Alphabet 财报发行",
+      "ticker": "GOOGL",
+      "report_period": null,
+      "importance": 3,
+      "impact_channels": [
+        "产业链景气",
+        "海外映射",
+        "风险偏好"
+      ],
+      "themes": [
+        "AI算力"
+      ],
+      "assets": [
+        "300308",
+        "002384",
+        "600667"
+      ],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-28",
+      "time": null,
+      "type": "global_earnings",
+      "category": "earnings",
+      "region": "US",
+      "title": "Microsoft 财报发行",
+      "ticker": "MSFT",
+      "report_period": null,
+      "importance": 3,
+      "impact_channels": [
+        "产业链景气",
+        "海外映射",
+        "风险偏好"
+      ],
+      "themes": [
+        "AI算力"
+      ],
+      "assets": [
+        "300308",
+        "002384",
+        "600667"
+      ],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
     }
   ],
   "macro_calendar_summary": {
-    "total": 29,
-    "macro": 28,
-    "global_earnings": 1,
-    "high_importance": 1,
+    "total": 33,
+    "macro": 30,
+    "global_earnings": 3,
+    "high_importance": 3,
     "macro_days_ok": 11,
     "report_days_ok": 11
   },
@@ -2019,7 +2113,7 @@
   "theme_earnings_period": "2026三季报",
   "quality": {
     "macro_calendar": {
-      "events": 29,
+      "events": 33,
       "warnings": 0,
       "horizon_days": 10
     },
