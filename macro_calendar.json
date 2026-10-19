@@ -1,135 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-10-19T09:35:53+08:00",
+  "generated_at": "2026-10-19T12:38:13+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
-    {
-      "date": "2026-10-19",
-      "time": "10:00",
-      "type": "macro",
-      "category": "growth",
-      "region": "中国",
-      "title": "中国9月规模以上工业增加值年率-单月(%)",
-      "actual": null,
-      "forecast": 5.5,
-      "previous": 5.2,
-      "importance": 2,
-      "impact_channels": [
-        "中国增长预期",
-        "行业盈利预期",
-        "人民币汇率"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-10-19",
-      "time": "10:00",
-      "type": "macro",
-      "category": "growth",
-      "region": "中国",
-      "title": "中国9月规模以上工业增加值年率-年初至今(%)",
-      "actual": null,
-      "forecast": null,
-      "previous": 5.3,
-      "importance": 2,
-      "impact_channels": [
-        "中国增长预期",
-        "行业盈利预期",
-        "人民币汇率"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-10-19",
-      "time": "10:00",
-      "type": "macro",
-      "category": "growth",
-      "region": "中国",
-      "title": "中国第三季度GDP季率-单季度(%)",
-      "actual": null,
-      "forecast": 1.1,
-      "previous": 0.9,
-      "importance": 2,
-      "impact_channels": [
-        "中国增长预期",
-        "行业盈利预期",
-        "人民币汇率"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-10-19",
-      "time": "10:00",
-      "type": "macro",
-      "category": "growth",
-      "region": "中国",
-      "title": "中国第三季度GDP年率-单季度(%)",
-      "actual": null,
-      "forecast": 4.4,
-      "previous": 4.3,
-      "importance": 2,
-      "impact_channels": [
-        "中国增长预期",
-        "行业盈利预期",
-        "人民币汇率"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-10-19",
-      "time": "10:00",
-      "type": "macro",
-      "category": "growth",
-      "region": "中国",
-      "title": "中国第三季度GDP年率-年初至今(%)",
-      "actual": null,
-      "forecast": null,
-      "previous": 4.7,
-      "importance": 2,
-      "impact_channels": [
-        "中国增长预期",
-        "行业盈利预期",
-        "人民币汇率"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-10-19",
-      "time": "10:00",
-      "type": "macro",
-      "category": "growth",
-      "region": "中国",
-      "title": "中国第三季度GDP总量-单季度(亿元)",
-      "actual": null,
-      "forecast": null,
-      "previous": 361511.0,
-      "importance": 2,
-      "impact_channels": [
-        "中国增长预期",
-        "行业盈利预期",
-        "人民币汇率"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
     {
       "date": "2026-10-19",
       "time": "18:00",
@@ -828,8 +702,8 @@
     }
   ],
   "summary": {
-    "total": 38,
-    "macro": 34,
+    "total": 32,
+    "macro": 28,
     "global_earnings": 4,
     "high_importance": 4,
     "macro_days_ok": 11,
