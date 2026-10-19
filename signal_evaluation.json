@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "generated_at": "2026-10-18T20:06:25+08:00",
-  "history_generated_at": "2026-10-18T20:06:21+08:00",
+  "generated_at": "2026-10-19T09:33:28+08:00",
+  "history_generated_at": "2026-10-19T09:33:14+08:00",
   "summary": {
     "t1": {
-      "settled": 1908,
-      "win_rate": 0.5461,
+      "settled": 1919,
+      "win_rate": 0.5487,
       "mean_excess_return": -0.009054
     },
     "t5": {
-      "settled": 1791,
-      "win_rate": 0.407,
+      "settled": 1794,
+      "win_rate": 0.408,
       "mean_excess_return": -0.032541
     },
     "t20": {
@@ -65371,7 +65371,12 @@
           "correct": false
         },
         "t5": {
-          "status": "pending"
+          "status": "settled",
+          "date": "2026-10-19",
+          "asset_return": -0.03714,
+          "benchmark_return": null,
+          "excess_return": null,
+          "correct": true
         },
         "t20": {
           "status": "pending"
@@ -65846,7 +65851,12 @@
           "correct": false
         },
         "t5": {
-          "status": "pending"
+          "status": "settled",
+          "date": "2026-10-19",
+          "asset_return": -0.03714,
+          "benchmark_return": null,
+          "excess_return": null,
+          "correct": true
         },
         "t20": {
           "status": "pending"
@@ -66107,7 +66117,12 @@
           "correct": false
         },
         "t5": {
-          "status": "pending"
+          "status": "settled",
+          "date": "2026-10-19",
+          "asset_return": -0.03714,
+          "benchmark_return": null,
+          "excess_return": null,
+          "correct": true
         },
         "t20": {
           "status": "pending"
@@ -68907,11 +68922,16 @@
       "conviction": 55,
       "entry_date": "2026-10-16",
       "entry_close": 1.744,
-      "mfe_20d": 0.005161,
+      "mfe_20d": 0.006307,
       "mae_20d": -0.002867,
       "horizons": {
         "t1": {
-          "status": "pending"
+          "status": "settled",
+          "date": "2026-10-19",
+          "asset_return": -0.004014,
+          "benchmark_return": null,
+          "excess_return": null,
+          "correct": true
         },
         "t5": {
           "status": "pending"
@@ -69099,11 +69119,16 @@
       "conviction": 55,
       "entry_date": "2026-10-16",
       "entry_close": 1.744,
-      "mfe_20d": 0.005161,
+      "mfe_20d": 0.006307,
       "mae_20d": -0.002867,
       "horizons": {
         "t1": {
-          "status": "pending"
+          "status": "settled",
+          "date": "2026-10-19",
+          "asset_return": -0.004014,
+          "benchmark_return": null,
+          "excess_return": null,
+          "correct": true
         },
         "t5": {
           "status": "pending"
@@ -69339,11 +69364,16 @@
       "conviction": 55,
       "entry_date": "2026-10-16",
       "entry_close": 1.744,
-      "mfe_20d": 0.005161,
+      "mfe_20d": 0.006307,
       "mae_20d": -0.002867,
       "horizons": {
         "t1": {
-          "status": "pending"
+          "status": "settled",
+          "date": "2026-10-19",
+          "asset_return": -0.004014,
+          "benchmark_return": null,
+          "excess_return": null,
+          "correct": true
         },
         "t5": {
           "status": "pending"
@@ -69873,11 +69903,16 @@
       "conviction": 55,
       "entry_date": "2026-10-16",
       "entry_close": 1.744,
-      "mfe_20d": 0.005161,
+      "mfe_20d": 0.006307,
       "mae_20d": -0.002867,
       "horizons": {
         "t1": {
-          "status": "pending"
+          "status": "settled",
+          "date": "2026-10-19",
+          "asset_return": -0.004014,
+          "benchmark_return": null,
+          "excess_return": null,
+          "correct": true
         },
         "t5": {
           "status": "pending"
@@ -70089,11 +70124,16 @@
       "conviction": 55,
       "entry_date": "2026-10-16",
       "entry_close": 1.744,
-      "mfe_20d": 0.005161,
+      "mfe_20d": 0.006307,
       "mae_20d": -0.002867,
       "horizons": {
         "t1": {
-          "status": "pending"
+          "status": "settled",
+          "date": "2026-10-19",
+          "asset_return": -0.004014,
+          "benchmark_return": null,
+          "excess_return": null,
+          "correct": true
         },
         "t5": {
           "status": "pending"
@@ -70305,11 +70345,16 @@
       "conviction": 55,
       "entry_date": "2026-10-16",
       "entry_close": 1.744,
-      "mfe_20d": 0.005161,
+      "mfe_20d": 0.006307,
       "mae_20d": -0.002867,
       "horizons": {
         "t1": {
-          "status": "pending"
+          "status": "settled",
+          "date": "2026-10-19",
+          "asset_return": -0.004014,
+          "benchmark_return": null,
+          "excess_return": null,
+          "correct": true
         },
         "t5": {
           "status": "pending"
@@ -70521,11 +70566,16 @@
       "conviction": 55,
       "entry_date": "2026-10-16",
       "entry_close": 1.744,
-      "mfe_20d": 0.005161,
+      "mfe_20d": 0.006307,
       "mae_20d": -0.002867,
       "horizons": {
         "t1": {
-          "status": "pending"
+          "status": "settled",
+          "date": "2026-10-19",
+          "asset_return": -0.004014,
+          "benchmark_return": null,
+          "excess_return": null,
+          "correct": true
         },
         "t5": {
           "status": "pending"
@@ -70737,11 +70787,16 @@
       "conviction": 55,
       "entry_date": "2026-10-16",
       "entry_close": 1.744,
-      "mfe_20d": 0.005161,
+      "mfe_20d": 0.006307,
       "mae_20d": -0.002867,
       "horizons": {
         "t1": {
-          "status": "pending"
+          "status": "settled",
+          "date": "2026-10-19",
+          "asset_return": -0.004014,
+          "benchmark_return": null,
+          "excess_return": null,
+          "correct": true
         },
         "t5": {
           "status": "pending"
@@ -70953,11 +71008,16 @@
       "conviction": 55,
       "entry_date": "2026-10-16",
       "entry_close": 1.744,
-      "mfe_20d": 0.005161,
+      "mfe_20d": 0.006307,
       "mae_20d": -0.002867,
       "horizons": {
         "t1": {
-          "status": "pending"
+          "status": "settled",
+          "date": "2026-10-19",
+          "asset_return": -0.004014,
+          "benchmark_return": null,
+          "excess_return": null,
+          "correct": true
         },
         "t5": {
           "status": "pending"
@@ -71169,11 +71229,16 @@
       "conviction": 55,
       "entry_date": "2026-10-16",
       "entry_close": 1.744,
-      "mfe_20d": 0.005161,
+      "mfe_20d": 0.006307,
       "mae_20d": -0.002867,
       "horizons": {
         "t1": {
-          "status": "pending"
+          "status": "settled",
+          "date": "2026-10-19",
+          "asset_return": -0.004014,
+          "benchmark_return": null,
+          "excess_return": null,
+          "correct": true
         },
         "t5": {
           "status": "pending"
@@ -71385,11 +71450,16 @@
       "conviction": 55,
       "entry_date": "2026-10-16",
       "entry_close": 1.744,
-      "mfe_20d": 0.005161,
+      "mfe_20d": 0.006307,
       "mae_20d": -0.002867,
       "horizons": {
         "t1": {
-          "status": "pending"
+          "status": "settled",
+          "date": "2026-10-19",
+          "asset_return": -0.004014,
+          "benchmark_return": null,
+          "excess_return": null,
+          "correct": true
         },
         "t5": {
           "status": "pending"
@@ -71425,6 +71495,222 @@
     },
     {
       "decision_id": "e2b96e14dee0d1bb",
+      "asset": "517380",
+      "name": "创新药沪港深ETF天弘",
+      "signal_date": "2026-10-16",
+      "bias": "bearish",
+      "research_status": "market_watch",
+      "conviction": 40.0,
+      "entry_date": "2026-10-16",
+      "entry_close": 0.812,
+      "mfe_20d": 0.013547,
+      "mae_20d": -0.057882,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "6941904be8b1196a",
+      "asset": "603986",
+      "name": "兆易创新",
+      "signal_date": "2026-10-16",
+      "bias": "bearish",
+      "research_status": "market_watch",
+      "conviction": 55,
+      "entry_date": "2026-10-16",
+      "entry_close": 281.86,
+      "mfe_20d": 0.013269,
+      "mae_20d": -0.035621,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "e80263a825a21f5c",
+      "asset": "001309",
+      "name": "德明利",
+      "signal_date": "2026-10-16",
+      "bias": "bearish",
+      "research_status": "market_watch",
+      "conviction": 55,
+      "entry_date": "2026-10-16",
+      "entry_close": 206.01,
+      "mfe_20d": 0.00733,
+      "mae_20d": -0.048687,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "3aa24cbb562c26bf",
+      "asset": "300308",
+      "name": "中际旭创",
+      "signal_date": "2026-10-16",
+      "bias": "bearish",
+      "research_status": "market_watch",
+      "conviction": 55,
+      "entry_date": "2026-10-16",
+      "entry_close": 670.0,
+      "mfe_20d": 0.01491,
+      "mae_20d": -0.014776,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "9d42a8e80fadc0b5",
+      "asset": "002384",
+      "name": "东山精密",
+      "signal_date": "2026-10-16",
+      "bias": "bearish",
+      "research_status": "market_watch",
+      "conviction": 55,
+      "entry_date": "2026-10-16",
+      "entry_close": 122.67,
+      "mfe_20d": 0.011087,
+      "mae_20d": -0.045651,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "f8bccd53cdf3df61",
+      "asset": "600667",
+      "name": "太极实业",
+      "signal_date": "2026-10-16",
+      "bias": "bearish",
+      "research_status": "market_watch",
+      "conviction": 55,
+      "entry_date": "2026-10-16",
+      "entry_close": 14.63,
+      "mfe_20d": 0.017088,
+      "mae_20d": -0.030759,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "67738d59b54d0450",
+      "asset": "000636",
+      "name": "风华高科",
+      "signal_date": "2026-10-16",
+      "bias": "bearish",
+      "research_status": "market_watch",
+      "conviction": 55,
+      "entry_date": "2026-10-16",
+      "entry_close": 40.76,
+      "mfe_20d": 0.011286,
+      "mae_20d": -0.054465,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "5e18c329091cde1a",
+      "asset": "161226",
+      "name": "国投白银LOF",
+      "signal_date": "2026-10-19",
+      "bias": "bearish",
+      "research_status": "market_watch",
+      "conviction": 55,
+      "entry_date": "2026-10-19",
+      "entry_close": 1.737,
+      "mfe_20d": 0.002303,
+      "mae_20d": -0.002879,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "b5b21b2bec8dd88c",
+      "asset": "518880",
+      "name": "黄金ETF华安",
+      "signal_date": "2026-10-16",
+      "bias": "bearish",
+      "research_status": "market_watch",
+      "conviction": 30.0,
+      "entry_date": "2026-10-16",
+      "entry_close": 8.554,
+      "mfe_20d": 0.006664,
+      "mae_20d": -0.000701,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "decision_id": "366acd2836ddc7a9",
       "asset": "517380",
       "name": "创新药沪港深ETF天弘",
       "signal_date": "2026-10-16",
