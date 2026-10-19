@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-10-19T09:33:14+08:00",
-  "source_generated_at": "2026-10-19T09:33:14+08:00",
+  "generated_at": "2026-10-19T12:35:31+08:00",
+  "source_generated_at": "2026-10-19T12:35:31+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -216,27 +216,27 @@
     "161226": {
       "code": "161226",
       "name": "国投白银LOF",
-      "as_of": "2026-10-19",
+      "as_of": "2026-10-16",
       "source_status": "fresh",
       "observations": 140,
-      "close": 1.737,
+      "close": 1.744,
       "ma60": {
-        "value": 1.9069,
+        "value": 1.9077,
         "position": "below",
-        "direction": "flat",
-        "slope_pct": -0.000454
+        "direction": "falling",
+        "slope_pct": -0.000637
       },
-      "rsi14": 34.15,
+      "rsi14": 34.81,
       "rsi_zone": "weak",
       "macd": {
-        "dif": -0.04904,
-        "dea": -0.03901,
-        "hist": -0.02004,
+        "dif": -0.0471,
+        "dea": -0.03652,
+        "hist": -0.02116,
         "state": "bearish",
-        "cross_age": 27
+        "cross_age": 26
       },
       "volume": {
-        "ratio20": 0.049,
+        "ratio20": 0.545,
         "state": "contraction"
       },
       "breakout_20d": "inside_range",
@@ -309,8 +309,8 @@
       "code": "161226",
       "name": "国投白银LOF",
       "field": "ma60_direction",
-      "from": "falling",
-      "to": "flat"
+      "from": "flat",
+      "to": "falling"
     }
   ],
   "methodology": {
