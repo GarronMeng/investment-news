@@ -1,62 +1,62 @@
 {
   "version": 1,
-  "generated_at": "2026-10-16T20:23:52+08:00",
+  "generated_at": "2026-10-19T14:49:58+08:00",
   "timezone": "Asia/Shanghai",
   "breadth": {
-    "total": 5576,
-    "up": 3301,
-    "down": 2125,
-    "flat": 150,
-    "advance_ratio": 0.592,
-    "limit_up": 93,
-    "limit_down": 37,
-    "touched_limit_up": 232,
-    "broken_limit_up": 139,
-    "seal_rate": 0.4009,
-    "turnover": 1568833473333.0,
+    "total": 5574,
+    "up": 2336,
+    "down": 3082,
+    "flat": 156,
+    "advance_ratio": 0.4191,
+    "limit_up": 67,
+    "limit_down": 56,
+    "touched_limit_up": 129,
+    "broken_limit_up": 62,
+    "seal_rate": 0.5194,
+    "turnover": 1435122109401.0,
     "turnover_coverage": 1.0
   },
   "indices": [
     {
       "symbol": "sh000001",
       "name": "上证指数",
-      "price": 3716.28,
-      "change_pct": 0.24,
+      "price": 3734.54,
+      "change_pct": 0.49,
       "source": "腾讯行情"
     },
     {
       "symbol": "sz399001",
       "name": "深证成指",
-      "price": 11802.46,
-      "change_pct": -0.12,
+      "price": 11827.54,
+      "change_pct": 0.21,
       "source": "腾讯行情"
     },
     {
       "symbol": "sz399006",
       "name": "创业板指",
-      "price": 2772.38,
-      "change_pct": -0.39,
+      "price": 2748.55,
+      "change_pct": -0.86,
       "source": "腾讯行情"
     },
     {
       "symbol": "sh000688",
       "name": "科创50",
-      "price": 1358.65,
-      "change_pct": -0.06,
+      "price": 1330.38,
+      "change_pct": -2.08,
       "source": "腾讯行情"
     },
     {
       "symbol": "sh000300",
       "name": "沪深300",
-      "price": 4170.61,
-      "change_pct": 0.11,
+      "price": 4178.26,
+      "change_pct": 0.18,
       "source": "腾讯行情"
     },
     {
       "symbol": "sh000905",
       "name": "中证500",
-      "price": 6772.75,
-      "change_pct": 0.05,
+      "price": 6807.71,
+      "change_pct": 0.52,
       "source": "腾讯行情"
     },
     {
@@ -391,13 +391,13 @@
     }
   ],
   "regime": {
-    "label": "Narrow Risk-on",
-    "code": "narrow_risk_on",
-    "score": 22.9,
+    "label": "Transition",
+    "code": "transition",
+    "score": -9.4,
     "components": {
-      "breadth": 23.0,
-      "indices": 12.6,
-      "limit_structure": 43.1
+      "breadth": -20.2,
+      "indices": 1.2,
+      "limit_structure": 8.9
     },
     "methodology": "市场广度55% + 核心指数30% + 涨跌停结构15%；仅用于状态分类，不是收益概率。"
   },
@@ -411,14 +411,12 @@
       "status": "fresh"
     },
     "sectors": {
-      "status": "fresh",
-      "source": "同花顺 via AKShare",
-      "fallback": true
+      "status": "stale",
+      "error": "sectors unavailable"
     },
     "industry_flow": {
-      "status": "fresh",
-      "source": "同花顺 via AKShare",
-      "fallback": true
+      "status": "stale",
+      "error": "industry_flow unavailable"
     },
     "etf_activity": {
       "status": "stale",
@@ -429,9 +427,8 @@
     "breadth: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
     "sectors: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
     "industry_flow: Expecting value: line 1 column 1 (char 0)",
-    "etf_activity: 502 Server Error: Bad Gateway for url: https://push2delay.eastmoney.com/api/qt/clist/get?pn=1&pz=100&po=1&np=1&ut=bd1d9ddb04089700cf9c27f6f7426281&fltt=2&invt=2&wbp2u=%7C0%7C0%7C0%7Cweb&fid=f12&fs=b%3AMK0021%2Cb%3AMK0022%2Cb%3AMK0023%2Cb%3AMK0024%2Cb%3AMK0827&fields=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6%2Cf7%2Cf8%2Cf9%2Cf10%2Cf12%2Cf13%2Cf14%2Cf15%2Cf16%2Cf17%2Cf18%2Cf20%2Cf21%2Cf23%2Cf24%2Cf25%2Cf22%2Cf11%2Cf30%2Cf31%2Cf32%2Cf33%2Cf34%2Cf35%2Cf38%2Cf62%2Cf63%2Cf64%2Cf65%2Cf66%2Cf69%2Cf72%2Cf75%2Cf78%2Cf81%2Cf84%2Cf87%2Cf115%2Cf124%2Cf128%2Cf136%2Cf152%2Cf184%2Cf297%2Cf402%2Cf441",
-    "sectors primary unavailable; using 同花顺 via AKShare fallback",
-    "industry_flow primary unavailable; using 同花顺 via AKShare fallback",
+    "etf_activity: 502 Server Error: Bad Gateway for url: https://push2delay.eastmoney.com/api/qt/clist/get?pn=5&pz=100&po=1&np=1&ut=bd1d9ddb04089700cf9c27f6f7426281&fltt=2&invt=2&wbp2u=%7C0%7C0%7C0%7Cweb&fid=f12&fs=b%3AMK0021%2Cb%3AMK0022%2Cb%3AMK0023%2Cb%3AMK0024%2Cb%3AMK0827&fields=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6%2Cf7%2Cf8%2Cf9%2Cf10%2Cf12%2Cf13%2Cf14%2Cf15%2Cf16%2Cf17%2Cf18%2Cf20%2Cf21%2Cf23%2Cf24%2Cf25%2Cf22%2Cf11%2Cf30%2Cf31%2Cf32%2Cf33%2Cf34%2Cf35%2Cf38%2Cf62%2Cf63%2Cf64%2Cf65%2Cf66%2Cf69%2Cf72%2Cf75%2Cf78%2Cf81%2Cf84%2Cf87%2Cf115%2Cf124%2Cf128%2Cf136%2Cf152%2Cf184%2Cf297%2Cf402%2Cf441",
+    "industry_fallback_ths: (\"Connection broken: ConnectionResetError(104, 'Connection reset by peer')\", ConnectionResetError(104, 'Connection reset by peer'))",
     "breadth primary source unavailable; using 新浪财经 via AKShare fallback"
   ],
   "methodology": {
