@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-19T22:42:00+08:00",
+  "generated_at": "2026-10-19T22:45:01+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -818,15 +818,7 @@
     "161226",
     "518880"
   ],
-  "state_changes": [
-    {
-      "code": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "field": "matrix_direction",
-      "from": "bearish",
-      "to": "neutral"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "weights": {
       "event": 25,
