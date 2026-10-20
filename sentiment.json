@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-19T12:34:21+08:00",
+  "generated_at": "2026-10-20T12:43:16+08:00",
   "timezone": "Asia/Shanghai",
   "states": {
     "overseas_risk": {
@@ -8,7 +8,7 @@
       "level": "normal",
       "label": "正常",
       "tone": "neutral",
-      "status": "fresh",
+      "status": "stale",
       "summary": "用于校准海外风险环境，不直接触发A股买卖。",
       "metric_id": "vix"
     },
@@ -29,8 +29,8 @@
       "value": 19.99,
       "unit": "点",
       "as_of": "2026-10-16",
-      "lag_days": 3,
-      "status": "fresh",
+      "lag_days": 4,
+      "status": "stale",
       "confidence": "medium",
       "source": "OpenBB/YFinance",
       "source_url": "https://www.cboe.com/tradable_products/vix/vix_historical_data/",
@@ -44,19 +44,19 @@
     {
       "id": "margin_balance",
       "label": "A股杠杆情绪",
-      "value": 24661.61,
-      "total_margin_balance": 24951.56,
-      "financing_buy_amount": 1238.29,
+      "value": 24517.56,
+      "total_margin_balance": 24809.08,
+      "financing_buy_amount": 1213.25,
       "unit": "亿元",
-      "as_of": "2026-10-15",
+      "as_of": "2026-10-16",
       "lag_days": 4,
       "status": "fresh",
       "confidence": "high",
       "source": "SSE+SZSE via AKShare",
       "source_url": "https://www.sse.com.cn/market/othersdata/margin/sum/",
-      "change_1d_pct": -1.25,
-      "change_5d_pct": -4.1,
-      "zscore_20d": -2.55,
+      "change_1d_pct": -0.58,
+      "change_5d_pct": -3.34,
+      "zscore_20d": -2.32,
       "level": "cooling",
       "state_label": "杠杆降温",
       "tone": "positive",
@@ -65,12 +65,6 @@
   ],
   "history": {
     "margin_balance": [
-      {
-        "date": "2026-08-24",
-        "financing": 26208.14663835,
-        "total": 26482.34455998,
-        "buy": 1700.02573613
-      },
       {
         "date": "2026-08-26",
         "financing": 26167.72434619,
@@ -244,6 +238,12 @@
         "financing": 24661.60521459,
         "total": 24951.56363628,
         "buy": 1238.2877137199998
+      },
+      {
+        "date": "2026-10-16",
+        "financing": 24517.5594885,
+        "total": 24809.0765053,
+        "buy": 1213.2501042899999
       }
     ]
   },
