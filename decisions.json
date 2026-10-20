@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generated_at": "2026-10-20T16:43:58+08:00",
+  "generated_at": "2026-10-20T16:55:13+08:00",
   "source": {
-    "data_generated_at": "2026-10-20 12:57",
+    "data_generated_at": "2026-10-20 16:54",
     "ai_generated_at": "2026-08-26 13:33",
     "ai_source_generated_at": "2026-08-26 12:26",
-    "features_generated_at": "2026-10-20T16:43:48+08:00",
+    "features_generated_at": "2026-10-20T16:55:05+08:00",
     "fresh_ai": false
   },
   "decisions": [
@@ -60,7 +60,7 @@
     {
       "asset": "300308",
       "name": "中际旭创",
-      "as_of": "2026-10-19",
+      "as_of": "2026-10-20",
       "bias": "bearish",
       "status": "market_watch",
       "event_score": 50.0,
@@ -70,7 +70,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.212467",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.183813",
       "confirmation": [
         "海外AI硬件与A股CPO同步走强",
         "高位放量后能维持强势"
@@ -84,7 +84,7 @@
     {
       "asset": "002384",
       "name": "东山精密",
-      "as_of": "2026-10-19",
+      "as_of": "2026-10-20",
       "bias": "bearish",
       "status": "market_watch",
       "event_score": 50.0,
@@ -94,7 +94,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.297687",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.266088",
       "confirmation": [
         "PCB板块扩散上涨",
         "订单利好得到成交量确认"

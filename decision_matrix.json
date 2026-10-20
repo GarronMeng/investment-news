@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-20T16:43:58+08:00",
+  "generated_at": "2026-10-20T16:55:13+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -219,17 +219,17 @@
       "group": "科技核心",
       "role": "AI硬件核心观察",
       "priority": 4,
-      "as_of": "2026-10-19",
+      "as_of": "2026-10-20",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -62.9,
+      "composite_score": -63.8,
       "coverage": 60.0,
-      "confluence": 77.2,
+      "confluence": 77.5,
       "available_layers": 3,
       "opposing_weight_share": 16.7,
       "evidence_state": "multi_layer_confirmed",
       "thesis_state": "confirmed",
-      "attention_score": 71.1,
+      "attention_score": 71.2,
       "research_focus": "验证持续性、行业扩散与后续基本面证据。",
       "layers": {
         "event": {
@@ -242,13 +242,13 @@
           "available": true,
           "score": -74.0,
           "confidence": "high",
-          "evidence": "MA60 below/falling；MACD bearish；RSI 27.6 (oversold)；量能 normal；20日结构 inside_range。"
+          "evidence": "MA60 below/falling；MACD bearish；RSI 26.55 (oversold)；量能 normal；20日结构 inside_range。"
         },
         "relative_strength": {
           "available": true,
-          "score": -88.1,
+          "score": -91.0,
           "confidence": "high",
-          "evidence": "5日相对强弱 -0.0605；20日相对强弱 -0.212467。"
+          "evidence": "5日相对强弱 -0.09098；20日相对强弱 -0.183813。"
         },
         "industry": {
           "available": false,
@@ -280,12 +280,12 @@
           {
             "layer": "technical",
             "score": -74.0,
-            "evidence": "MA60 below/falling；MACD bearish；RSI 27.6 (oversold)；量能 normal；20日结构 inside_range。"
+            "evidence": "MA60 below/falling；MACD bearish；RSI 26.55 (oversold)；量能 normal；20日结构 inside_range。"
           },
           {
             "layer": "relative_strength",
-            "score": -88.1,
-            "evidence": "5日相对强弱 -0.0605；20日相对强弱 -0.212467。"
+            "score": -91.0,
+            "evidence": "5日相对强弱 -0.09098；20日相对强弱 -0.183813。"
           }
         ]
       },
@@ -299,8 +299,8 @@
       ],
       "excluded_layers": [],
       "positive_direction_mass": 2.1,
-      "negative_direction_mass": 39.8,
-      "conflict_score": 7.1
+      "negative_direction_mass": 40.4,
+      "conflict_score": 7.0
     },
     "002384": {
       "code": "002384",
@@ -308,12 +308,12 @@
       "group": "科技核心",
       "role": "PCB与终端映射",
       "priority": 3,
-      "as_of": "2026-10-19",
+      "as_of": "2026-10-20",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -41.3,
+      "composite_score": -41.9,
       "coverage": 75.0,
-      "confluence": 59.0,
+      "confluence": 59.2,
       "available_layers": 4,
       "opposing_weight_share": 33.3,
       "evidence_state": "conflict",
@@ -335,9 +335,9 @@
         },
         "relative_strength": {
           "available": true,
-          "score": -93.6,
+          "score": -95.9,
           "confidence": "high",
-          "evidence": "5日相对强弱 -0.073654；20日相对强弱 -0.297687。"
+          "evidence": "5日相对强弱 -0.098416；20日相对强弱 -0.266088。"
         },
         "industry": {
           "available": true,
@@ -381,8 +381,8 @@
           },
           {
             "layer": "relative_strength",
-            "score": -93.6,
-            "evidence": "5日相对强弱 -0.073654；20日相对强弱 -0.297687。"
+            "score": -95.9,
+            "evidence": "5日相对强弱 -0.098416；20日相对强弱 -0.266088。"
           }
         ]
       },
@@ -396,8 +396,8 @@
       ],
       "excluded_layers": [],
       "positive_direction_mass": 10.0,
-      "negative_direction_mass": 40.9,
-      "conflict_score": 39.2
+      "negative_direction_mass": 41.4,
+      "conflict_score": 38.8
     },
     "600667": {
       "code": "600667",
@@ -847,64 +847,7 @@
     "161226",
     "518880"
   ],
-  "state_changes": [
-    {
-      "code": "603986",
-      "name": "兆易创新",
-      "field": "evidence_state",
-      "from": "multi_layer_confirmed",
-      "to": "conflict"
-    },
-    {
-      "code": "603986",
-      "name": "兆易创新",
-      "field": "thesis_state",
-      "from": "confirmed",
-      "to": "conflicted"
-    },
-    {
-      "code": "001309",
-      "name": "德明利",
-      "field": "evidence_state",
-      "from": "multi_layer_confirmed",
-      "to": "conflict"
-    },
-    {
-      "code": "001309",
-      "name": "德明利",
-      "field": "thesis_state",
-      "from": "confirmed",
-      "to": "conflicted"
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "evidence_state",
-      "from": "multi_layer_confirmed",
-      "to": "conflict"
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "thesis_state",
-      "from": "confirmed",
-      "to": "conflicted"
-    },
-    {
-      "code": "600667",
-      "name": "太极实业",
-      "field": "evidence_state",
-      "from": "multi_layer_confirmed",
-      "to": "conflict"
-    },
-    {
-      "code": "600667",
-      "name": "太极实业",
-      "field": "thesis_state",
-      "from": "confirmed",
-      "to": "conflicted"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "weights": {
       "event": 25,

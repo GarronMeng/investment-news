@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated_at": "2026-10-20T16:43:48+08:00",
+  "generated_at": "2026-10-20T16:55:05+08:00",
   "timezone": "Asia/Shanghai",
   "benchmark": {
     "code": "510300",
@@ -3835,18 +3835,9 @@
       "kind": "stock",
       "status": "fresh",
       "source": "新浪财经 via AKShare",
-      "last_date": "2026-10-19",
+      "last_date": "2026-10-20",
       "observations": 140,
       "rows": [
-        {
-          "date": "2026-03-23",
-          "open": 590.31,
-          "high": 618.1,
-          "low": 585.0,
-          "close": 599.62,
-          "volume": 37851991.0,
-          "amount": 22741347135.0
-        },
         {
           "date": "2026-03-24",
           "open": 599.0,
@@ -5097,6 +5088,15 @@
           "close": 660.7,
           "volume": 19491114.0,
           "amount": 12877881374.0
+        },
+        {
+          "date": "2026-10-20",
+          "open": 650.7,
+          "high": 673.1,
+          "low": 637.0,
+          "close": 647.9,
+          "volume": 22113776.0,
+          "amount": 14463115329.0
         }
       ],
       "fallback_reason": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -5108,18 +5108,9 @@
       "kind": "stock",
       "status": "fresh",
       "source": "新浪财经 via AKShare",
-      "last_date": "2026-10-19",
+      "last_date": "2026-10-20",
       "observations": 140,
       "rows": [
-        {
-          "date": "2026-03-23",
-          "open": 110.27,
-          "high": 113.9,
-          "low": 104.9,
-          "close": 105.23,
-          "volume": 83337920.0,
-          "amount": 9080066784.0
-        },
         {
           "date": "2026-03-24",
           "open": 108.3,
@@ -6370,6 +6361,15 @@
           "close": 122.15,
           "volume": 46095694.0,
           "amount": 5586232701.0
+        },
+        {
+          "date": "2026-10-20",
+          "open": 122.0,
+          "high": 126.23,
+          "low": 120.0,
+          "close": 122.15,
+          "volume": 48768490.0,
+          "amount": 5989868910.0
         }
       ],
       "fallback_reason": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
