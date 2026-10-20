@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-10-20T13:04:35+08:00",
-  "score": 58.8,
+  "generated_at": "2026-10-20T16:43:58+08:00",
+  "score": 57.5,
   "label": "elevated",
   "coverage": 100.0,
   "available_weight": 100,
@@ -13,10 +13,10 @@
       "evidence": "沪深300滚动PE十年分位 44.2%"
     },
     "market_structure": {
-      "score": 62.7,
+      "score": 47.7,
       "weight": 25,
       "available": true,
-      "evidence": "transition；上涨占比 40.8%"
+      "evidence": "narrow_risk_on；上涨占比 67.8%"
     },
     "trend": {
       "score": 95.0,
@@ -37,10 +37,10 @@
       "evidence": "VIX 19.99；20日分位 100.0%"
     },
     "concentration": {
-      "score": 58.0,
+      "score": 82.0,
       "weight": 10,
       "available": true,
-      "evidence": "regime=transition；指数均值 -0.05% / 上涨占比 40.8%"
+      "evidence": "regime=narrow_risk_on；指数均值 -0.26% / 上涨占比 67.8%"
     }
   },
   "drivers": [
@@ -55,9 +55,9 @@
       "evidence": "VIX 19.99；20日分位 100.0%"
     },
     {
-      "component": "market_structure",
-      "score": 62.7,
-      "evidence": "transition；上涨占比 40.8%"
+      "component": "concentration",
+      "score": 82.0,
+      "evidence": "regime=narrow_risk_on；指数均值 -0.26% / 上涨占比 67.8%"
     }
   ],
   "state_changes": [],
