@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-21T14:47:24+08:00",
+  "generated_at": "2026-10-21T21:10:45+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
@@ -230,7 +230,7 @@
       "title": "美国截至10月10日当周ADP就业周度发布变动(万人)",
       "actual": null,
       "forecast": null,
-      "previous": null,
+      "previous": 1.85,
       "importance": 2,
       "impact_channels": [
         "美债收益率",
@@ -274,7 +274,7 @@
       "title": "美国截至10月23日当周API原油库存变动(万桶)",
       "actual": null,
       "forecast": null,
-      "previous": null,
+      "previous": -493.1,
       "importance": 2,
       "impact_channels": [
         "原油",
@@ -431,9 +431,9 @@
       "region": "美国",
       "title": "美国第三季度实际GDP年化季率初值(%)",
       "actual": null,
-      "forecast": null,
-      "previous": 1.5,
-      "importance": null,
+      "forecast": 3.2,
+      "previous": 2.2,
+      "importance": 2,
       "impact_channels": [
         "全球风险偏好",
         "AI资本开支预期",
@@ -561,7 +561,7 @@
       "region": "欧元区",
       "title": "欧元区第三季度季调后GDP季率初值(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": 0.3,
       "previous": 0.6,
       "importance": 2,
       "impact_channels": [
@@ -582,7 +582,7 @@
       "region": "欧元区",
       "title": "欧元区第三季度季调后GDP年率初值(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": 1.1,
       "previous": 1.2,
       "importance": 2,
       "impact_channels": [
