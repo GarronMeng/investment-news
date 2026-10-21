@@ -1,72 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-10-21T13:23:31+08:00",
+  "generated_at": "2026-10-21T14:47:24+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
-    {
-      "date": "2026-10-21",
-      "time": "14:00",
-      "type": "macro",
-      "category": "inflation",
-      "region": "英国",
-      "title": "英国9月CPI年率(%)",
-      "actual": null,
-      "forecast": 3.4,
-      "previous": 3.1,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-10-21",
-      "time": "14:00",
-      "type": "macro",
-      "category": "inflation",
-      "region": "英国",
-      "title": "英国9月未季调输入PPI年率(%)",
-      "actual": null,
-      "forecast": 7.2,
-      "previous": 6.1,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-10-21",
-      "time": "14:00",
-      "type": "macro",
-      "category": "inflation",
-      "region": "英国",
-      "title": "英国9月核心CPI年率(%)",
-      "actual": null,
-      "forecast": 2.7,
-      "previous": 2.6,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
     {
       "date": "2026-10-21",
       "time": "22:30",
@@ -702,8 +639,8 @@
     }
   ],
   "summary": {
-    "total": 32,
-    "macro": 28,
+    "total": 29,
+    "macro": 25,
     "global_earnings": 4,
     "high_importance": 4,
     "macro_days_ok": 11,
