@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-10-22T17:09:02+08:00",
-  "source_generated_at": "2026-10-22T17:09:02+08:00",
+  "generated_at": "2026-10-22T18:15:40+08:00",
+  "source_generated_at": "2026-10-22T18:15:40+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -71,22 +71,22 @@
       "observations": 140,
       "close": 243.17,
       "ma60": {
-        "value": 275.013,
+        "value": 373.0712,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.005029
+        "slope_pct": -0.009471
       },
-      "rsi14": 44.78,
-      "rsi_zone": "weak",
+      "rsi14": 29.87,
+      "rsi_zone": "oversold",
       "macd": {
-        "dif": -17.98767,
-        "dea": -18.55066,
-        "hist": 1.12598,
-        "state": "bullish",
-        "cross_age": 0
+        "dif": -50.51323,
+        "dea": -43.69136,
+        "hist": -13.64375,
+        "state": "bearish",
+        "cross_age": 12
       },
       "volume": {
-        "ratio20": 1.968,
+        "ratio20": 2.306,
         "state": "expansion"
       },
       "breakout_20d": "inside_range",
@@ -309,29 +309,15 @@
       "code": "001309",
       "name": "德明利",
       "field": "rsi_zone",
-      "from": "oversold",
-      "to": "weak"
+      "from": "weak",
+      "to": "oversold"
     },
     {
       "code": "001309",
       "name": "德明利",
       "field": "macd",
-      "from": "bearish",
-      "to": "bullish"
-    },
-    {
-      "code": "300308",
-      "name": "中际旭创",
-      "field": "volume",
-      "from": "normal",
-      "to": "expansion"
-    },
-    {
-      "code": "300308",
-      "name": "中际旭创",
-      "field": "breakout_20d",
-      "from": "inside_range",
-      "to": "new_low_20d"
+      "from": "bullish",
+      "to": "bearish"
     }
   ],
   "methodology": {
