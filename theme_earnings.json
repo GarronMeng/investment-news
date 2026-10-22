@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-22T18:18:47+08:00",
+  "generated_at": "2026-10-22T21:11:38+08:00",
   "timezone": "Asia/Shanghai",
   "status": "fresh",
   "report_period_code": "20260930",
@@ -226,7 +226,7 @@
           "earnings_signal": "not_reported",
           "industry": null,
           "source": "东方财富 via AKShare",
-          "reason": null
+          "reason": "future-dated report row withheld to prevent look-ahead"
         },
         {
           "code": "600183",
@@ -290,7 +290,7 @@
           "earnings_signal": "not_reported",
           "industry": null,
           "source": "东方财富 via AKShare",
-          "reason": null
+          "reason": "future-dated report row withheld to prevent look-ahead"
         },
         {
           "code": "002156",
