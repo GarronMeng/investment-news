@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generated_at": "2026-10-22T16:47:20+08:00",
+  "generated_at": "2026-10-22T17:09:12+08:00",
   "source": {
-    "data_generated_at": "2026-10-22 12:56",
+    "data_generated_at": "2026-10-22 16:56",
     "ai_generated_at": "2026-08-26 13:33",
     "ai_source_generated_at": "2026-08-26 12:26",
-    "features_generated_at": "2026-10-22T16:47:12+08:00",
+    "features_generated_at": "2026-10-22T17:09:02+08:00",
     "fresh_ai": false
   },
   "decisions": [
@@ -46,7 +46,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.318862",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.076298",
       "confirmation": [
         "相对存储板块止跌转强",
         "放量突破短期压力位"
@@ -60,17 +60,17 @@
     {
       "asset": "300308",
       "name": "中际旭创",
-      "as_of": "2026-10-21",
+      "as_of": "2026-10-22",
       "bias": "bearish",
       "status": "market_watch",
       "event_score": 50.0,
-      "market_score": 15.0,
+      "market_score": 10.0,
       "freshness_score": 70,
       "conviction": 55,
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.176703",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.275227",
       "confirmation": [
         "海外AI硬件与A股CPO同步走强",
         "高位放量后能维持强势"

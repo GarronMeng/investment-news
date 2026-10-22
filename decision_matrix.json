@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generated_at": "2026-10-22T16:47:20+08:00",
+  "generated_at": "2026-10-22T17:09:12+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
-    "confirmed": 6,
-    "supported": 2,
+    "confirmed": 5,
+    "supported": 3,
     "contradicted": 0,
     "conflicted": 1,
     "emerging": 0,
@@ -13,9 +13,9 @@
     "top_attention": [
       "517380",
       "603986",
-      "001309",
       "300308",
-      "002384"
+      "002384",
+      "000636"
     ]
   },
   "assets": {
@@ -111,15 +111,15 @@
       "as_of": "2026-10-22",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -56.8,
+      "composite_score": -27.5,
       "coverage": 60.0,
-      "confluence": 87.0,
+      "confluence": 78.3,
       "available_layers": 3,
       "opposing_weight_share": 0.0,
-      "evidence_state": "multi_layer_confirmed",
-      "thesis_state": "confirmed",
-      "attention_score": 73.8,
-      "research_focus": "验证持续性、行业扩散与后续基本面证据。",
+      "evidence_state": "partial_confirmation",
+      "thesis_state": "supported",
+      "attention_score": 63.2,
+      "research_focus": "维持观察，等待更多层形成共振。",
       "layers": {
         "event": {
           "available": false,
@@ -129,15 +129,15 @@
         },
         "technical": {
           "available": true,
-          "score": -74.0,
+          "score": -34.0,
           "confidence": "high",
-          "evidence": "MA60 below/falling；MACD bearish；RSI 29.87 (oversold)；量能 expansion；20日结构 inside_range。"
+          "evidence": "MA60 below/falling；MACD bullish；RSI 44.78 (weak)；量能 expansion；20日结构 inside_range。"
         },
         "relative_strength": {
           "available": true,
-          "score": -29.6,
+          "score": -1.7,
           "confidence": "high",
-          "evidence": "5日相对强弱 0.177576；20日相对强弱 -0.318862。"
+          "evidence": "5日相对强弱 0.177576；20日相对强弱 -0.076298。"
         },
         "industry": {
           "available": false,
@@ -163,8 +163,8 @@
         "negative": [
           {
             "layer": "technical",
-            "score": -74.0,
-            "evidence": "MA60 below/falling；MACD bearish；RSI 29.87 (oversold)；量能 expansion；20日结构 inside_range。"
+            "score": -34.0,
+            "evidence": "MA60 below/falling；MACD bullish；RSI 44.78 (weak)；量能 expansion；20日结构 inside_range。"
           },
           {
             "layer": "market_context",
@@ -183,7 +183,7 @@
       ],
       "excluded_layers": [],
       "positive_direction_mass": 0.0,
-      "negative_direction_mass": 34.1,
+      "negative_direction_mass": 16.2,
       "conflict_score": 0.0
     },
     "300308": {
@@ -192,17 +192,17 @@
       "group": "科技核心",
       "role": "AI硬件核心观察",
       "priority": 4,
-      "as_of": "2026-10-21",
+      "as_of": "2026-10-22",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -73.4,
+      "composite_score": -84.2,
       "coverage": 60.0,
-      "confluence": 92.0,
+      "confluence": 95.2,
       "available_layers": 3,
       "opposing_weight_share": 0.0,
       "evidence_state": "multi_layer_confirmed",
       "thesis_state": "confirmed",
-      "attention_score": 72.1,
+      "attention_score": 72.3,
       "research_focus": "验证持续性、行业扩散与后续基本面证据。",
       "layers": {
         "event": {
@@ -213,15 +213,15 @@
         },
         "technical": {
           "available": true,
-          "score": -74.0,
+          "score": -86.0,
           "confidence": "high",
-          "evidence": "MA60 below/falling；MACD bearish；RSI 26.46 (oversold)；量能 normal；20日结构 inside_range。"
+          "evidence": "MA60 below/falling；MACD bearish；RSI 22.16 (oversold)；量能 expansion；20日结构 new_low_20d。"
         },
         "relative_strength": {
           "available": true,
-          "score": -79.4,
+          "score": -93.6,
           "confidence": "high",
-          "evidence": "5日相对强弱 -0.041191；20日相对强弱 -0.176703。"
+          "evidence": "5日相对强弱 -0.076345；20日相对强弱 -0.275227。"
         },
         "industry": {
           "available": false,
@@ -246,13 +246,13 @@
         "negative": [
           {
             "layer": "technical",
-            "score": -74.0,
-            "evidence": "MA60 below/falling；MACD bearish；RSI 26.46 (oversold)；量能 normal；20日结构 inside_range。"
+            "score": -86.0,
+            "evidence": "MA60 below/falling；MACD bearish；RSI 22.16 (oversold)；量能 expansion；20日结构 new_low_20d。"
           },
           {
             "layer": "relative_strength",
-            "score": -79.4,
-            "evidence": "5日相对强弱 -0.041191；20日相对强弱 -0.176703。"
+            "score": -93.6,
+            "evidence": "5日相对强弱 -0.076345；20日相对强弱 -0.275227。"
           }
         ]
       },
@@ -266,7 +266,7 @@
       ],
       "excluded_layers": [],
       "positive_direction_mass": 0.0,
-      "negative_direction_mass": 44.0,
+      "negative_direction_mass": 50.5,
       "conflict_score": 0.0
     },
     "002384": {
@@ -780,28 +780,28 @@
   "ranking": [
     "517380",
     "603986",
-    "001309",
     "300308",
     "002384",
     "000636",
     "600667",
     "161226",
+    "001309",
     "518880"
   ],
   "state_changes": [
     {
-      "code": "300308",
-      "name": "中际旭创",
+      "code": "001309",
+      "name": "德明利",
       "field": "evidence_state",
-      "from": "partial_confirmation",
-      "to": "multi_layer_confirmed"
+      "from": "multi_layer_confirmed",
+      "to": "partial_confirmation"
     },
     {
-      "code": "300308",
-      "name": "中际旭创",
+      "code": "001309",
+      "name": "德明利",
       "field": "thesis_state",
-      "from": "supported",
-      "to": "confirmed"
+      "from": "confirmed",
+      "to": "supported"
     }
   ],
   "methodology": {
