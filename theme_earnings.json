@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-22T21:17:16+08:00",
+  "generated_at": "2026-10-23T12:48:03+08:00",
   "timezone": "Asia/Shanghai",
   "status": "fresh",
   "report_period_code": "20260930",
@@ -170,14 +170,14 @@
       "theme": "PCB / 消费电子",
       "summary": {
         "total": 4,
-        "reported": 0,
-        "scheduled": 4,
+        "reported": 1,
+        "scheduled": 3,
         "pending": 0,
-        "positive_reports": 0,
+        "positive_reports": 1,
         "weak_reports": 0,
-        "median_revenue_yoy_pct": null,
-        "median_net_profit_yoy_pct": null,
-        "breadth": "awaiting_reports"
+        "median_revenue_yoy_pct": 53.84,
+        "median_net_profit_yoy_pct": 77.54,
+        "breadth": "positive"
       },
       "companies": [
         {
@@ -215,18 +215,18 @@
         {
           "code": "002916",
           "name": "深南电路",
-          "status": "scheduled",
-          "announcement_date": null,
+          "status": "reported",
+          "announcement_date": "2026-10-23",
           "scheduled_date": "2026-10-23",
-          "revenue": null,
-          "revenue_yoy_pct": null,
-          "net_profit": null,
-          "net_profit_yoy_pct": null,
-          "gross_margin_pct": null,
-          "earnings_signal": "not_reported",
-          "industry": null,
-          "source": "东方财富 via AKShare",
-          "reason": "future-dated report row withheld to prevent look-ahead"
+          "revenue": 25773874984.81,
+          "revenue_yoy_pct": 53.8370026324,
+          "net_profit": 4129177803.87,
+          "net_profit_yoy_pct": 77.54,
+          "gross_margin_pct": 32.5750791873,
+          "earnings_signal": "strong_growth",
+          "industry": "元件",
+          "source": "东方财富 via AKShare + 公告确认",
+          "reason": null
         },
         {
           "code": "600183",
@@ -250,14 +250,14 @@
       "theme": "半导体工程 / 封测",
       "summary": {
         "total": 3,
-        "reported": 0,
-        "scheduled": 3,
+        "reported": 1,
+        "scheduled": 2,
         "pending": 0,
-        "positive_reports": 0,
+        "positive_reports": 1,
         "weak_reports": 0,
-        "median_revenue_yoy_pct": null,
-        "median_net_profit_yoy_pct": null,
-        "breadth": "awaiting_reports"
+        "median_revenue_yoy_pct": 7.96,
+        "median_net_profit_yoy_pct": 69.58,
+        "breadth": "positive"
       },
       "companies": [
         {
@@ -279,18 +279,18 @@
         {
           "code": "600584",
           "name": "长电科技",
-          "status": "scheduled",
-          "announcement_date": null,
+          "status": "reported",
+          "announcement_date": "2026-10-23",
           "scheduled_date": "2026-10-23",
-          "revenue": null,
-          "revenue_yoy_pct": null,
-          "net_profit": null,
-          "net_profit_yoy_pct": null,
-          "gross_margin_pct": null,
-          "earnings_signal": "not_reported",
-          "industry": null,
-          "source": "东方财富 via AKShare",
-          "reason": "future-dated report row withheld to prevent look-ahead"
+          "revenue": 30952329578.85,
+          "revenue_yoy_pct": 7.9645578017,
+          "net_profit": 1617336151.27,
+          "net_profit_yoy_pct": 69.58,
+          "gross_margin_pct": 16.0081419369,
+          "earnings_signal": "positive_growth",
+          "industry": "半导体",
+          "source": "东方财富 via AKShare + 公告确认",
+          "reason": null
         },
         {
           "code": "002156",
@@ -442,11 +442,11 @@
   "summary": {
     "themes": 6,
     "companies": 21,
-    "reported": 0,
-    "scheduled": 21
+    "reported": 2,
+    "scheduled": 19
   },
   "warnings": [
-    "withheld 5 same-day earnings rows without corroborating public financial-report notice"
+    "withheld 1 same-day earnings rows without corroborating public financial-report notice"
   ],
   "methodology": {
     "reported": "东方财富业绩报表 stock_yjbb_em via AKShare；未来公告日期不暴露财务字段；同日行必须在stock_notice_report财务报告公告中得到代码级确认。",
