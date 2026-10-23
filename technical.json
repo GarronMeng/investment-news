@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-10-23T16:52:30+08:00",
-  "source_generated_at": "2026-10-23T16:52:30+08:00",
+  "generated_at": "2026-10-23T18:08:16+08:00",
+  "source_generated_at": "2026-10-23T18:08:15+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -304,50 +304,7 @@
       "condition_state": "conditions_not_met"
     }
   },
-  "state_changes": [
-    {
-      "code": "603986",
-      "name": "兆易创新",
-      "field": "rsi_zone",
-      "from": "oversold",
-      "to": "weak"
-    },
-    {
-      "code": "603986",
-      "name": "兆易创新",
-      "field": "volume",
-      "from": "normal",
-      "to": "expansion"
-    },
-    {
-      "code": "001309",
-      "name": "德明利",
-      "field": "rsi_zone",
-      "from": "oversold",
-      "to": "weak"
-    },
-    {
-      "code": "300308",
-      "name": "中际旭创",
-      "field": "breakout_20d",
-      "from": "new_low_20d",
-      "to": "inside_range"
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "breakout_20d",
-      "from": "new_low_20d",
-      "to": "inside_range"
-    },
-    {
-      "code": "000636",
-      "name": "风华高科",
-      "field": "rsi_zone",
-      "from": "oversold",
-      "to": "weak"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "rsi14": "Wilder RSI(14)",
     "macd": "EMA12/EMA26 DIF, EMA9 signal, histogram=(DIF-DEA)*2",
