@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-22T21:08:43+08:00",
+  "generated_at": "2026-10-23T12:44:40+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -69,9 +69,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -59.4,
+          "score": -59.3,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.0959；风险温度=64.9。"
+          "evidence": "regime=risk_off；上涨占比=0.0959；风险温度=64.6。"
         }
       },
       "contributors": {
@@ -99,7 +99,7 @@
       ],
       "excluded_layers": [],
       "positive_direction_mass": 0.0,
-      "negative_direction_mass": 36.6,
+      "negative_direction_mass": 36.5,
       "conflict_score": 0.0
     },
     "001309": {
@@ -153,9 +153,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -59.4,
+          "score": -59.3,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.0959；风险温度=64.9。"
+          "evidence": "regime=risk_off；上涨占比=0.0959；风险温度=64.6。"
         }
       },
       "contributors": {
@@ -168,8 +168,8 @@
           },
           {
             "layer": "market_context",
-            "score": -59.4,
-            "evidence": "regime=risk_off；上涨占比=0.0959；风险温度=64.9。"
+            "score": -59.3,
+            "evidence": "regime=risk_off；上涨占比=0.0959；风险温度=64.6。"
           }
         ]
       },
@@ -236,9 +236,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -59.4,
+          "score": -59.3,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.0959；风险温度=64.9。"
+          "evidence": "regime=risk_off；上涨占比=0.0959；风险温度=64.6。"
         }
       },
       "contributors": {
@@ -278,7 +278,7 @@
       "as_of": "2026-10-22",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -77.5,
+      "composite_score": -77.4,
       "coverage": 75.0,
       "confluence": 93.2,
       "available_layers": 4,
@@ -322,9 +322,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -59.4,
+          "score": -59.3,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.0959；风险温度=64.9。"
+          "evidence": "regime=risk_off；上涨占比=0.0959；风险温度=64.6。"
         }
       },
       "contributors": {
@@ -405,9 +405,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -59.4,
+          "score": -59.3,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.0959；风险温度=64.9。"
+          "evidence": "regime=risk_off；上涨占比=0.0959；风险温度=64.6。"
         }
       },
       "contributors": {
@@ -420,8 +420,8 @@
           },
           {
             "layer": "market_context",
-            "score": -59.4,
-            "evidence": "regime=risk_off；上涨占比=0.0959；风险温度=64.9。"
+            "score": -59.3,
+            "evidence": "regime=risk_off；上涨占比=0.0959；风险温度=64.6。"
           }
         ]
       },
@@ -490,9 +490,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -59.4,
+          "score": -59.3,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.0959；风险温度=64.9。"
+          "evidence": "regime=risk_off；上涨占比=0.0959；风险温度=64.6。"
         }
       },
       "contributors": {
@@ -737,9 +737,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -59.4,
+          "score": -59.3,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.0959；风险温度=64.9。"
+          "evidence": "regime=risk_off；上涨占比=0.0959；风险温度=64.6。"
         }
       },
       "contributors": {
@@ -788,29 +788,7 @@
     "518880",
     "517380"
   ],
-  "state_changes": [
-    {
-      "code": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "field": "matrix_direction",
-      "from": "neutral",
-      "to": "bearish"
-    },
-    {
-      "code": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "field": "evidence_state",
-      "from": "conflict",
-      "to": "partial_confirmation"
-    },
-    {
-      "code": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "field": "thesis_state",
-      "from": "conflicted",
-      "to": "supported"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "weights": {
       "event": 25,
