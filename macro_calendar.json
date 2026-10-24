@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-23T20:54:57+08:00",
+  "generated_at": "2026-10-24T09:56:01+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
@@ -484,12 +484,38 @@
       "assets": [],
       "source": "百度股市通 via AKShare",
       "status": "scheduled"
+    },
+    {
+      "date": "2026-11-03",
+      "time": null,
+      "type": "global_earnings",
+      "category": "earnings",
+      "region": "US",
+      "title": "AMD 财报发行",
+      "ticker": "AMD",
+      "report_period": null,
+      "importance": 2,
+      "impact_channels": [
+        "产业链景气",
+        "海外映射",
+        "风险偏好"
+      ],
+      "themes": [
+        "AI算力"
+      ],
+      "assets": [
+        "300308",
+        "002384",
+        "600667"
+      ],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
     }
   ],
   "summary": {
-    "total": 22,
+    "total": 23,
     "macro": 19,
-    "global_earnings": 3,
+    "global_earnings": 4,
     "high_importance": 3,
     "macro_days_ok": 11,
     "report_days_ok": 11

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-23T20:55:50+08:00",
+  "generated_at": "2026-10-24T09:56:35+08:00",
   "timezone": "Asia/Shanghai",
   "status": "fresh",
   "report_period_code": "20260930",
@@ -314,31 +314,31 @@
       "theme": "被动元件",
       "summary": {
         "total": 3,
-        "reported": 0,
-        "scheduled": 3,
+        "reported": 1,
+        "scheduled": 2,
         "pending": 0,
-        "positive_reports": 0,
+        "positive_reports": 1,
         "weak_reports": 0,
-        "median_revenue_yoy_pct": null,
-        "median_net_profit_yoy_pct": null,
-        "breadth": "awaiting_reports"
+        "median_revenue_yoy_pct": 41.15,
+        "median_net_profit_yoy_pct": 180.9,
+        "breadth": "positive"
       },
       "companies": [
         {
           "code": "000636",
           "name": "风华高科",
-          "status": "scheduled",
-          "announcement_date": null,
+          "status": "reported",
+          "announcement_date": "2026-10-24",
           "scheduled_date": "2026-10-24",
-          "revenue": null,
-          "revenue_yoy_pct": null,
-          "net_profit": null,
-          "net_profit_yoy_pct": null,
-          "gross_margin_pct": null,
-          "earnings_signal": "not_reported",
-          "industry": null,
-          "source": "东方财富 via AKShare",
-          "reason": "future-dated report row withheld to prevent look-ahead"
+          "revenue": 5798778497.36,
+          "revenue_yoy_pct": 41.1455228887,
+          "net_profit": 641769479.38,
+          "net_profit_yoy_pct": 180.9,
+          "gross_margin_pct": 22.7994331938,
+          "earnings_signal": "strong_growth",
+          "industry": "元件",
+          "source": "东方财富 via AKShare + 公告确认",
+          "reason": null
         },
         {
           "code": "300408",
@@ -442,8 +442,8 @@
   "summary": {
     "themes": 6,
     "companies": 21,
-    "reported": 2,
-    "scheduled": 19
+    "reported": 3,
+    "scheduled": 18
   },
   "warnings": [
     "withheld 6 same-day earnings rows without corroborating public financial-report notice"
