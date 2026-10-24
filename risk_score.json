@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "generated_at": "2026-10-23T18:08:24+08:00",
-  "score": 45.1,
+  "generated_at": "2026-10-24T09:53:10+08:00",
+  "score": 45.6,
   "label": "balanced",
   "coverage": 100.0,
   "available_weight": 100,
   "components": {
     "valuation": {
-      "score": 35.5,
+      "score": 37.8,
       "weight": 20,
       "available": true,
-      "evidence": "沪深300滚动PE十年分位 35.5%"
+      "evidence": "沪深300滚动PE十年分位 37.8%"
     },
     "market_structure": {
       "score": 25.5,
@@ -56,8 +56,8 @@
     },
     {
       "component": "valuation",
-      "score": 35.5,
-      "evidence": "沪深300滚动PE十年分位 35.5%"
+      "score": 37.8,
+      "evidence": "沪深300滚动PE十年分位 37.8%"
     }
   ],
   "state_changes": [],
