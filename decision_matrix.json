@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-24T09:53:10+08:00",
+  "generated_at": "2026-10-24T12:44:41+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -856,22 +856,7 @@
     "518880",
     "000636"
   ],
-  "state_changes": [
-    {
-      "code": "600667",
-      "name": "太极实业",
-      "field": "matrix_direction",
-      "from": "neutral",
-      "to": "bearish"
-    },
-    {
-      "code": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "field": "matrix_direction",
-      "from": "bearish",
-      "to": "neutral"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "weights": {
       "event": 25,
