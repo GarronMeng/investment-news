@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-10-24T12:49:00+08:00",
+  "generated_at": "2026-10-24T16:30:25+08:00",
   "timezone": "Asia/Shanghai",
   "title": "Daily Flash · 每日投资驾驶舱",
-  "core_conclusion": "A股状态为 Risk-on，上涨家数占比 81.2%，风险温度 46/100（balanced）。沪深300 PE-TTM 12.74；10年分位 37.8%；强势：电机、自动化设备、软件开发；弱势：银行、电力、元件。研究复核优先关注 德明利、兆易创新、中际旭创；该排序代表证据变化与复核优先级，不代表交易优先级。资金/期指：融资余额24424亿元，5日-2.21%；南向成交净买额-16.7亿元；沪深300股指期货基差-1.23%。 下一催化：10-26 20:30 美国9月芝加哥联储全国活动指数；10-26 22:30 美国10月达拉斯联储制造业原材料支付价格指数。主线财报已确认披露 3/21 个研究样本。",
+  "core_conclusion": "A股状态为 Risk-on，上涨家数占比 81.2%，风险温度 46/100（balanced）。沪深300 PE-TTM 12.74；10年分位 37.8%；强势：电机、自动化设备、软件开发；弱势：银行、电力、元件。研究复核优先关注 德明利、兆易创新、中际旭创；该排序代表证据变化与复核优先级，不代表交易优先级。资金/期指：融资余额24424亿元，5日-2.21%；南向成交净买额-16.7亿元；沪深300股指期货基差-1.23%。 下一催化：10-28 Alphabet 财报发行；10-28 Microsoft 财报发行。主线财报已确认披露 3/21 个研究样本。",
   "market": {
     "regime": {
       "label": "Risk-on",
@@ -931,16 +931,16 @@
   ],
   "sources": {
     "market_state": "2026-10-23T20:36:51+08:00",
-    "risk": "2026-10-24T12:44:41+08:00",
-    "valuation": "2026-10-24T12:44:29+08:00",
-    "decision_matrix": "2026-10-24T12:44:41+08:00",
-    "global_markets": "2026-10-24T12:45:37+08:00",
-    "catalysts": "2026-10-24T12:46:13+08:00",
+    "risk": "2026-10-24T16:26:36+08:00",
+    "valuation": "2026-10-24T16:26:29+08:00",
+    "decision_matrix": "2026-10-24T16:26:36+08:00",
+    "global_markets": "2026-10-24T16:27:23+08:00",
+    "catalysts": "2026-10-24T16:27:52+08:00",
     "ai_signals": "2026-08-26 13:33",
     "sentiment": "2026-10-23T12:43:26+08:00",
-    "market_extras": "2026-10-24T12:45:38+08:00",
-    "macro_calendar": "2026-10-24T12:48:07+08:00",
-    "theme_earnings": "2026-10-24T12:49:00+08:00"
+    "market_extras": "2026-10-24T16:27:24+08:00",
+    "macro_calendar": "2026-10-24T16:29:11+08:00",
+    "theme_earnings": "2026-10-24T16:30:24+08:00"
   },
   "boundary": "Daily Flash用于信息压缩、研究排序与条件验证；缺失数据保持缺失，不生成无条件买卖、仓位或止损指令。",
   "integrity": {
@@ -1039,6 +1039,100 @@
       "status": "scheduled"
     },
     {
+      "date": "2026-10-28",
+      "time": "04:30",
+      "type": "macro",
+      "category": "energy",
+      "region": "美国",
+      "title": "美国截至10月23日当周API原油库存变动(万桶)",
+      "actual": null,
+      "forecast": null,
+      "previous": -493.1,
+      "importance": 2,
+      "impact_channels": [
+        "原油",
+        "通胀预期",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-28",
+      "time": "22:30",
+      "type": "macro",
+      "category": "energy",
+      "region": "美国",
+      "title": "美国截至10月23日当周EIA原油库存变动(万桶)",
+      "actual": null,
+      "forecast": null,
+      "previous": -306.0,
+      "importance": 2,
+      "impact_channels": [
+        "原油",
+        "通胀预期",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-28",
+      "time": null,
+      "type": "global_earnings",
+      "category": "earnings",
+      "region": "US",
+      "title": "Alphabet 财报发行",
+      "ticker": "GOOGL",
+      "report_period": null,
+      "importance": 3,
+      "impact_channels": [
+        "产业链景气",
+        "海外映射",
+        "风险偏好"
+      ],
+      "themes": [
+        "AI算力"
+      ],
+      "assets": [
+        "300308",
+        "002384",
+        "600667"
+      ],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-28",
+      "time": null,
+      "type": "global_earnings",
+      "category": "earnings",
+      "region": "US",
+      "title": "Microsoft 财报发行",
+      "ticker": "MSFT",
+      "report_period": null,
+      "importance": 3,
+      "impact_channels": [
+        "产业链景气",
+        "海外映射",
+        "风险偏好"
+      ],
+      "themes": [
+        "AI算力"
+      ],
+      "assets": [
+        "300308",
+        "002384",
+        "600667"
+      ],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
       "date": "2026-10-29",
       "time": "20:30",
       "type": "macro",
@@ -1124,6 +1218,178 @@
       "status": "scheduled"
     },
     {
+      "date": "2026-10-29",
+      "time": null,
+      "type": "global_earnings",
+      "category": "earnings",
+      "region": "US",
+      "title": "Amazon 财报发行",
+      "ticker": "AMZN",
+      "report_period": null,
+      "importance": 3,
+      "impact_channels": [
+        "产业链景气",
+        "海外映射",
+        "风险偏好"
+      ],
+      "themes": [
+        "AI算力"
+      ],
+      "assets": [
+        "300308",
+        "002384",
+        "600667"
+      ],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-30",
+      "time": "04:30",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "美国",
+      "title": "美国截至10月28日美联储资产负债表(万亿美元)",
+      "actual": null,
+      "forecast": null,
+      "previous": 6.81,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-30",
+      "time": "07:30",
+      "type": "macro",
+      "category": "inflation",
+      "region": "日本",
+      "title": "日本10月东京CPI年率(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 2.7,
+      "importance": 2,
+      "impact_channels": [
+        "亚洲科技风险偏好",
+        "半导体链映射"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-30",
+      "time": "07:30",
+      "type": "macro",
+      "category": "labor",
+      "region": "日本",
+      "title": "日本9月失业率(%)",
+      "actual": null,
+      "forecast": 2.5,
+      "previous": 2.5,
+      "importance": 2,
+      "impact_channels": [
+        "亚洲科技风险偏好",
+        "半导体链映射"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-30",
+      "time": "18:00",
+      "type": "macro",
+      "category": "labor",
+      "region": "欧元区",
+      "title": "欧元区9月失业率(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 6.4,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-30",
+      "time": "18:00",
+      "type": "macro",
+      "category": "growth",
+      "region": "欧元区",
+      "title": "欧元区第三季度季调后GDP季率初值(%)",
+      "actual": null,
+      "forecast": 0.2,
+      "previous": 0.6,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-30",
+      "time": "18:00",
+      "type": "macro",
+      "category": "growth",
+      "region": "欧元区",
+      "title": "欧元区第三季度季调后GDP年率初值(%)",
+      "actual": null,
+      "forecast": 1.1,
+      "previous": 1.2,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-30",
+      "time": "21:45",
+      "type": "macro",
+      "category": "growth",
+      "region": "美国",
+      "title": "美国10月芝加哥PMI",
+      "actual": null,
+      "forecast": null,
+      "previous": 58.8,
+      "importance": 2,
+      "impact_channels": [
+        "全球风险偏好",
+        "AI资本开支预期",
+        "美元"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
       "date": "2026-10-31",
       "time": "09:30",
       "type": "macro",
@@ -1164,15 +1430,41 @@
       "assets": [],
       "source": "百度股市通 via AKShare",
       "status": "scheduled"
+    },
+    {
+      "date": "2026-11-03",
+      "time": null,
+      "type": "global_earnings",
+      "category": "earnings",
+      "region": "US",
+      "title": "AMD 财报发行",
+      "ticker": "AMD",
+      "report_period": null,
+      "importance": 2,
+      "impact_channels": [
+        "产业链景气",
+        "海外映射",
+        "风险偏好"
+      ],
+      "themes": [
+        "AI算力"
+      ],
+      "assets": [
+        "300308",
+        "002384",
+        "600667"
+      ],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
     }
   ],
   "macro_calendar_summary": {
-    "total": 10,
-    "macro": 10,
-    "global_earnings": 0,
-    "high_importance": 0,
-    "macro_days_ok": 8,
-    "report_days_ok": 3
+    "total": 23,
+    "macro": 19,
+    "global_earnings": 4,
+    "high_importance": 3,
+    "macro_days_ok": 11,
+    "report_days_ok": 11
   },
   "theme_earnings": [
     {
@@ -1617,8 +1909,8 @@
   "theme_earnings_period": "2026三季报",
   "quality": {
     "macro_calendar": {
-      "events": 10,
-      "warnings": 11,
+      "events": 23,
+      "warnings": 0,
       "horizon_days": 10
     },
     "theme_earnings": {
