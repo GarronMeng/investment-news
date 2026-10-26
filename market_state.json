@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-26T14:58:27+08:00",
+  "generated_at": "2026-10-26T17:07:41+08:00",
   "timezone": "Asia/Shanghai",
   "breadth": {
     "total": 5576,
@@ -20,57 +20,57 @@
     {
       "symbol": "sh000001",
       "name": "上证指数",
-      "price": 3691.79,
-      "change_pct": 0.04,
+      "price": 3697.52,
+      "change_pct": 0.19,
       "source": "腾讯行情"
     },
     {
       "symbol": "sz399001",
       "name": "深证成指",
-      "price": 11540.02,
-      "change_pct": -1.15,
+      "price": 11534.38,
+      "change_pct": -1.19,
       "source": "腾讯行情"
     },
     {
       "symbol": "sz399006",
       "name": "创业板指",
-      "price": 2639.07,
-      "change_pct": -1.68,
+      "price": 2638.23,
+      "change_pct": -1.71,
       "source": "腾讯行情"
     },
     {
       "symbol": "sh000688",
       "name": "科创50",
-      "price": 1307.6,
-      "change_pct": -2.82,
+      "price": 1315.5,
+      "change_pct": -2.23,
       "source": "腾讯行情"
     },
     {
       "symbol": "sh000300",
       "name": "沪深300",
-      "price": 4098.05,
-      "change_pct": -0.18,
+      "price": 4103.54,
+      "change_pct": -0.04,
       "source": "腾讯行情"
     },
     {
       "symbol": "sh000905",
       "name": "中证500",
-      "price": 6710.22,
-      "change_pct": -1.53,
+      "price": 6712.73,
+      "change_pct": -1.49,
       "source": "腾讯行情"
     },
     {
       "symbol": "hkHSI",
       "name": "恒生指数",
-      "price": 23218.97,
-      "change_pct": 0.54,
+      "price": 23211.81,
+      "change_pct": 0.51,
       "source": "腾讯行情"
     },
     {
       "symbol": "hkHSTECH",
       "name": "恒生科技指数",
-      "price": 3860.62,
-      "change_pct": -0.29,
+      "price": 3857.53,
+      "change_pct": -0.36,
       "source": "腾讯行情"
     }
   ],
@@ -78,99 +78,99 @@
     "leaders": [
       {
         "name": "游戏",
-        "change_pct": 3.28,
+        "change_pct": 3.29,
         "leader": "盛天网络",
         "source": "同花顺 via AKShare"
       },
       {
         "name": "医药商业",
-        "change_pct": 3.06,
+        "change_pct": 3.09,
         "leader": "百洋医药",
         "source": "同花顺 via AKShare"
       },
       {
         "name": "白酒",
-        "change_pct": 2.44,
+        "change_pct": 2.5,
         "leader": "皇台酒业",
         "source": "同花顺 via AKShare"
       },
       {
         "name": "油气开采及服务",
-        "change_pct": 2.22,
+        "change_pct": 2.3,
         "leader": "中海油服",
         "source": "同花顺 via AKShare"
       },
       {
-        "name": "食品加工制造",
-        "change_pct": 1.39,
-        "leader": "桂发祥",
-        "source": "同花顺 via AKShare"
-      },
-      {
-        "name": "银行",
-        "change_pct": 1.38,
-        "leader": "工商银行",
-        "source": "同花顺 via AKShare"
-      },
-      {
         "name": "保险",
-        "change_pct": 1.37,
+        "change_pct": 1.72,
         "leader": "中国太保",
         "source": "同花顺 via AKShare"
       },
       {
-        "name": "物流",
-        "change_pct": 1.32,
-        "leader": "三羊马",
+        "name": "银行",
+        "change_pct": 1.52,
+        "leader": "工商银行",
+        "source": "同花顺 via AKShare"
+      },
+      {
+        "name": "食品加工制造",
+        "change_pct": 1.45,
+        "leader": "桂发祥",
+        "source": "同花顺 via AKShare"
+      },
+      {
+        "name": "医疗器械",
+        "change_pct": 1.38,
+        "leader": "山外山",
         "source": "同花顺 via AKShare"
       }
     ],
     "laggards": [
       {
         "name": "元件",
-        "change_pct": -5.82,
+        "change_pct": -5.93,
         "leader": "胜宏科技",
         "source": "同花顺 via AKShare"
       },
       {
+        "name": "贵金属",
+        "change_pct": -3.91,
+        "leader": "中金黄金",
+        "source": "同花顺 via AKShare"
+      },
+      {
         "name": "半导体",
-        "change_pct": -3.88,
+        "change_pct": -3.84,
         "leader": "芯海科技",
         "source": "同花顺 via AKShare"
       },
       {
         "name": "电子化学品",
-        "change_pct": -3.73,
+        "change_pct": -3.65,
         "leader": "硅烷科技",
         "source": "同花顺 via AKShare"
       },
       {
-        "name": "贵金属",
-        "change_pct": -3.72,
-        "leader": "中金黄金",
-        "source": "同花顺 via AKShare"
-      },
-      {
         "name": "其他电子",
-        "change_pct": -3.59,
+        "change_pct": -3.58,
         "leader": "汉朔科技",
         "source": "同花顺 via AKShare"
       },
       {
         "name": "电机",
-        "change_pct": -3.03,
+        "change_pct": -2.83,
         "leader": "华阳智能",
         "source": "同花顺 via AKShare"
       },
       {
         "name": "小金属",
-        "change_pct": -2.52,
+        "change_pct": -2.5,
         "leader": "华阳新材",
         "source": "同花顺 via AKShare"
       },
       {
         "name": "通信设备",
-        "change_pct": -2.48,
+        "change_pct": -2.46,
         "leader": "科瑞思",
         "source": "同花顺 via AKShare"
       }
@@ -181,100 +181,100 @@
     "inflow": [
       {
         "name": "银行",
-        "change_pct": 1.38,
-        "net_inflow": 3940000000.0,
+        "change_pct": 1.52,
+        "net_inflow": 3915000000.0,
         "source": "同花顺 via AKShare"
       },
       {
         "name": "白酒",
-        "change_pct": 2.44,
-        "net_inflow": 1855000000.0,
+        "change_pct": 2.5,
+        "net_inflow": 1773000000.0,
         "source": "同花顺 via AKShare"
       },
       {
         "name": "医疗器械",
-        "change_pct": 1.29,
-        "net_inflow": 1305000000.0,
+        "change_pct": 1.38,
+        "net_inflow": 1327000000.0,
         "source": "同花顺 via AKShare"
       },
       {
         "name": "游戏",
-        "change_pct": 3.28,
-        "net_inflow": 1244000000.0,
+        "change_pct": 3.29,
+        "net_inflow": 1263000000.0,
         "source": "同花顺 via AKShare"
       },
       {
         "name": "证券",
-        "change_pct": 0.17,
-        "net_inflow": 1087000000.0,
+        "change_pct": 0.15,
+        "net_inflow": 1124000000.0,
         "source": "同花顺 via AKShare"
       },
       {
         "name": "电池",
-        "change_pct": -0.38,
-        "net_inflow": 958000000.0,
+        "change_pct": -0.39,
+        "net_inflow": 1118000000.0,
         "source": "同花顺 via AKShare"
       },
       {
         "name": "保险",
-        "change_pct": 1.37,
-        "net_inflow": 923000000.0,
+        "change_pct": 1.72,
+        "net_inflow": 983000000.0,
         "source": "同花顺 via AKShare"
       },
       {
         "name": "房地产",
-        "change_pct": 0.85,
-        "net_inflow": 808000000.0,
+        "change_pct": 0.87,
+        "net_inflow": 822000000.0,
         "source": "同花顺 via AKShare"
       }
     ],
     "outflow": [
       {
         "name": "半导体",
-        "change_pct": -3.88,
-        "net_inflow": -9732000000.0,
+        "change_pct": -3.84,
+        "net_inflow": -9073000000.0,
         "source": "同花顺 via AKShare"
       },
       {
         "name": "元件",
-        "change_pct": -5.82,
-        "net_inflow": -4898000000.0,
+        "change_pct": -5.93,
+        "net_inflow": -4589000000.0,
         "source": "同花顺 via AKShare"
       },
       {
         "name": "通信设备",
-        "change_pct": -2.48,
-        "net_inflow": -3785000000.0,
+        "change_pct": -2.46,
+        "net_inflow": -3228000000.0,
         "source": "同花顺 via AKShare"
       },
       {
         "name": "通用设备",
-        "change_pct": -1.59,
-        "net_inflow": -2383000000.0,
+        "change_pct": -1.53,
+        "net_inflow": -2269000000.0,
         "source": "同花顺 via AKShare"
       },
       {
         "name": "小金属",
-        "change_pct": -2.52,
-        "net_inflow": -1836000000.0,
-        "source": "同花顺 via AKShare"
-      },
-      {
-        "name": "专用设备",
-        "change_pct": -0.77,
-        "net_inflow": -1631000000.0,
-        "source": "同花顺 via AKShare"
-      },
-      {
-        "name": "电网设备",
-        "change_pct": -1.82,
-        "net_inflow": -1629000000.0,
+        "change_pct": -2.5,
+        "net_inflow": -1802000000.0,
         "source": "同花顺 via AKShare"
       },
       {
         "name": "贵金属",
-        "change_pct": -3.72,
-        "net_inflow": -1583000000.0,
+        "change_pct": -3.91,
+        "net_inflow": -1584000000.0,
+        "source": "同花顺 via AKShare"
+      },
+      {
+        "name": "专用设备",
+        "change_pct": -0.71,
+        "net_inflow": -1584000000.0,
+        "source": "同花顺 via AKShare"
+      },
+      {
+        "name": "电网设备",
+        "change_pct": -1.79,
+        "net_inflow": -1558000000.0,
         "source": "同花顺 via AKShare"
       }
     ],
@@ -393,19 +393,18 @@
   "regime": {
     "label": "Transition",
     "code": "transition",
-    "score": -29.9,
+    "score": -28.0,
     "components": {
       "breadth": -25.4,
-      "indices": -58.9,
+      "indices": -52.7,
       "limit_structure": 12.0
     },
     "methodology": "市场广度55% + 核心指数30% + 涨跌停结构15%；仅用于状态分类，不是收益概率。"
   },
   "section_status": {
     "breadth": {
-      "status": "fresh",
-      "source": "新浪财经 via AKShare",
-      "fallback": true
+      "status": "stale",
+      "error": "A-share breadth unavailable"
     },
     "indices": {
       "status": "fresh"
@@ -432,14 +431,13 @@
     "etf_activity: 502 Server Error: Bad Gateway for url: https://push2delay.eastmoney.com/api/qt/clist/get?pn=1&pz=100&po=1&np=1&ut=bd1d9ddb04089700cf9c27f6f7426281&fltt=2&invt=2&wbp2u=%7C0%7C0%7C0%7Cweb&fid=f12&fs=b%3AMK0021%2Cb%3AMK0022%2Cb%3AMK0023%2Cb%3AMK0024%2Cb%3AMK0827&fields=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6%2Cf7%2Cf8%2Cf9%2Cf10%2Cf12%2Cf13%2Cf14%2Cf15%2Cf16%2Cf17%2Cf18%2Cf20%2Cf21%2Cf23%2Cf24%2Cf25%2Cf22%2Cf11%2Cf30%2Cf31%2Cf32%2Cf33%2Cf34%2Cf35%2Cf38%2Cf62%2Cf63%2Cf64%2Cf65%2Cf66%2Cf69%2Cf72%2Cf75%2Cf78%2Cf81%2Cf84%2Cf87%2Cf115%2Cf124%2Cf128%2Cf136%2Cf152%2Cf184%2Cf297%2Cf402%2Cf441",
     "sectors primary unavailable; using 同花顺 via AKShare fallback",
     "industry_flow primary unavailable; using 同花顺 via AKShare fallback",
-    "breadth primary source unavailable; using 新浪财经 via AKShare fallback"
+    "breadth_sina_fallback: HTTPConnectionPool(host='vip.stock.finance.sina.com.cn', port=80): Read timed out. (read timeout=15)"
   ],
   "methodology": {
     "breadth": "全A实时快照计算上涨/下跌/平盘、涨跌停触及与封板率；涨跌停阈值按板块/ST规则近似。",
     "industry_flow": "东方财富行业主力净流入为主；失败时回退同花顺行业净额（原始单位亿元），统一换算为元。",
     "sector_rank": "东方财富行业涨跌为主；失败时回退同花顺行业资金流页面的行业涨跌幅。",
-    "etf_activity": "ETF成交额活跃度代理，不等同ETF净申购或真实资金净流入。",
-    "breadth_source": "东方财富主源；失败时单次回退新浪财经 AKShare stock_zh_a_spot。"
+    "etf_activity": "ETF成交额活跃度代理，不等同ETF净申购或真实资金净流入。"
   },
   "alerts": []
 }
