@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-26T12:41:22+08:00",
+  "generated_at": "2026-10-26T12:56:53+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -856,15 +856,7 @@
     "518880",
     "000636"
   ],
-  "state_changes": [
-    {
-      "code": "603986",
-      "name": "兆易创新",
-      "field": "matrix_direction",
-      "from": "neutral",
-      "to": "bearish"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "weights": {
       "event": 25,
