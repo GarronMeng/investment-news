@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-26T17:13:55+08:00",
+  "generated_at": "2026-10-26T17:25:10+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -788,113 +788,7 @@
     "518880",
     "517380"
   ],
-  "state_changes": [
-    {
-      "code": "603986",
-      "name": "兆易创新",
-      "field": "evidence_state",
-      "from": "conflict",
-      "to": "multi_layer_confirmed"
-    },
-    {
-      "code": "603986",
-      "name": "兆易创新",
-      "field": "thesis_state",
-      "from": "conflicted",
-      "to": "confirmed"
-    },
-    {
-      "code": "001309",
-      "name": "德明利",
-      "field": "evidence_state",
-      "from": "conflict",
-      "to": "multi_layer_confirmed"
-    },
-    {
-      "code": "001309",
-      "name": "德明利",
-      "field": "thesis_state",
-      "from": "conflicted",
-      "to": "confirmed"
-    },
-    {
-      "code": "300308",
-      "name": "中际旭创",
-      "field": "evidence_state",
-      "from": "conflict",
-      "to": "multi_layer_confirmed"
-    },
-    {
-      "code": "300308",
-      "name": "中际旭创",
-      "field": "thesis_state",
-      "from": "conflicted",
-      "to": "confirmed"
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "evidence_state",
-      "from": "conflict",
-      "to": "multi_layer_confirmed"
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "thesis_state",
-      "from": "conflicted",
-      "to": "confirmed"
-    },
-    {
-      "code": "600667",
-      "name": "太极实业",
-      "field": "evidence_state",
-      "from": "conflict",
-      "to": "multi_layer_confirmed"
-    },
-    {
-      "code": "600667",
-      "name": "太极实业",
-      "field": "thesis_state",
-      "from": "conflicted",
-      "to": "confirmed"
-    },
-    {
-      "code": "000636",
-      "name": "风华高科",
-      "field": "evidence_state",
-      "from": "partial_confirmation",
-      "to": "multi_layer_confirmed"
-    },
-    {
-      "code": "000636",
-      "name": "风华高科",
-      "field": "thesis_state",
-      "from": "supported",
-      "to": "confirmed"
-    },
-    {
-      "code": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "field": "matrix_direction",
-      "from": "neutral",
-      "to": "bearish"
-    },
-    {
-      "code": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "field": "evidence_state",
-      "from": "conflict",
-      "to": "insufficient"
-    },
-    {
-      "code": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "field": "thesis_state",
-      "from": "conflicted",
-      "to": "no_directional_thesis"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "weights": {
       "event": 25,
