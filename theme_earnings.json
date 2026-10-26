@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-25T20:40:36+08:00",
+  "generated_at": "2026-10-26T12:44:22+08:00",
   "timezone": "Asia/Shanghai",
   "status": "fresh",
   "report_period_code": "20260930",
@@ -10,14 +10,14 @@
       "theme": "存储",
       "summary": {
         "total": 5,
-        "reported": 0,
-        "scheduled": 5,
+        "reported": 1,
+        "scheduled": 4,
         "pending": 0,
-        "positive_reports": 0,
+        "positive_reports": 1,
         "weak_reports": 0,
-        "median_revenue_yoy_pct": null,
-        "median_net_profit_yoy_pct": null,
-        "breadth": "awaiting_reports"
+        "median_revenue_yoy_pct": 328.81,
+        "median_net_profit_yoy_pct": 32399.91,
+        "breadth": "positive"
       },
       "companies": [
         {
@@ -39,18 +39,18 @@
         {
           "code": "001309",
           "name": "德明利",
-          "status": "scheduled",
-          "announcement_date": null,
+          "status": "reported",
+          "announcement_date": "2026-10-26",
           "scheduled_date": "2026-10-26",
-          "revenue": null,
-          "revenue_yoy_pct": null,
-          "net_profit": null,
-          "net_profit_yoy_pct": null,
-          "gross_margin_pct": null,
-          "earnings_signal": "not_reported",
-          "industry": null,
-          "source": "东方财富 via AKShare",
-          "reason": "future-dated report row withheld to prevent look-ahead"
+          "revenue": 28555260110.13,
+          "revenue_yoy_pct": 328.8149833279,
+          "net_profit": 8745688431.0,
+          "net_profit_yoy_pct": 32399.91,
+          "gross_margin_pct": 41.3203406398,
+          "earnings_signal": "strong_growth",
+          "industry": "半导体",
+          "source": "东方财富 via AKShare + 公告确认",
+          "reason": null
         },
         {
           "code": "301308",
@@ -442,11 +442,11 @@
   "summary": {
     "themes": 6,
     "companies": 21,
-    "reported": 3,
-    "scheduled": 18
+    "reported": 4,
+    "scheduled": 17
   },
   "warnings": [
-    "stock_notice_report 20261025: '代码'; same-day financial rows withheld"
+    "withheld 1 same-day earnings rows without corroborating public financial-report notice"
   ],
   "methodology": {
     "reported": "东方财富业绩报表 stock_yjbb_em via AKShare；未来公告日期不暴露财务字段；同日行必须在stock_notice_report财务报告公告中得到代码级确认。",
