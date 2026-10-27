@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generated_at": "2026-10-27T21:14:51+08:00",
+  "generated_at": "2026-10-27T21:20:24+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 14,
-    "fresh": 10,
-    "stale": 4,
+    "fresh": 14,
+    "stale": 0,
     "unavailable": 0
   },
   "assets": [
@@ -20,9 +20,8 @@
       "previous_close": 7623.6802,
       "change_pct": 0.7,
       "as_of": "2026-10-26T21:30:00+08:00",
-      "status": "stale",
-      "source": "Yahoo Finance",
-      "error": "HTTP Error 429: Too Many Requests"
+      "status": "fresh",
+      "source": "Yahoo Finance"
     },
     {
       "key": "nasdaq",
@@ -35,9 +34,8 @@
       "previous_close": 25955.3398,
       "change_pct": 0.82,
       "as_of": "2026-10-26T21:30:00+08:00",
-      "status": "stale",
-      "source": "Yahoo Finance",
-      "error": "HTTP Error 429: Too Many Requests"
+      "status": "fresh",
+      "source": "Yahoo Finance"
     },
     {
       "key": "sox",
@@ -50,9 +48,8 @@
       "previous_close": 10779.46,
       "change_pct": 2.82,
       "as_of": "2026-10-26T21:30:00+08:00",
-      "status": "stale",
-      "source": "Yahoo Finance",
-      "error": "HTTP Error 429: Too Many Requests"
+      "status": "fresh",
+      "source": "Yahoo Finance"
     },
     {
       "key": "hsi",
@@ -65,9 +62,8 @@
       "previous_close": 23211.8105,
       "change_pct": -0.73,
       "as_of": "2026-10-27T09:30:00+08:00",
-      "status": "stale",
-      "source": "Yahoo Finance",
-      "error": "HTTP Error 429: Too Many Requests"
+      "status": "fresh",
+      "source": "Yahoo Finance"
     },
     {
       "key": "nikkei",
@@ -103,10 +99,10 @@
       "symbol": "^VIX",
       "group": "风险",
       "unit": "index",
-      "value": 17.76,
-      "raw_value": 17.76,
+      "value": 17.88,
+      "raw_value": 17.88,
       "previous_close": 18.39,
-      "change_pct": -3.43,
+      "change_pct": -2.77,
       "as_of": "2026-10-27T15:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -117,10 +113,10 @@
       "symbol": "^TNX",
       "group": "利率",
       "unit": "yield",
-      "value": 4.986,
-      "raw_value": 4.986,
+      "value": 4.999,
+      "raw_value": 4.999,
       "previous_close": 4.986,
-      "change_pct": 0.0,
+      "change_pct": 0.26,
       "as_of": "2026-10-27T20:20:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -131,8 +127,8 @@
       "symbol": "DX-Y.NYB",
       "group": "汇率",
       "unit": "index",
-      "value": 102.187,
-      "raw_value": 102.187,
+      "value": 102.181,
+      "raw_value": 102.181,
       "previous_close": 101.96,
       "change_pct": 0.22,
       "as_of": "2026-10-27T12:00:00+08:00",
@@ -149,7 +145,7 @@
       "raw_value": 6.6651,
       "previous_close": null,
       "change_pct": null,
-      "as_of": "2026-10-27T21:14:51+08:00",
+      "as_of": "2026-10-27T21:20:25+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -159,10 +155,10 @@
       "symbol": "GC=F",
       "group": "商品",
       "unit": "usd",
-      "value": 4037.6001,
-      "raw_value": 4037.6001,
+      "value": 4035.7,
+      "raw_value": 4035.7,
       "previous_close": 4038.3999,
-      "change_pct": -0.02,
+      "change_pct": -0.07,
       "as_of": "2026-10-27T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -173,10 +169,10 @@
       "symbol": "SI=F",
       "group": "商品",
       "unit": "usd",
-      "value": 53.895,
-      "raw_value": 53.895,
+      "value": 53.82,
+      "raw_value": 53.82,
       "previous_close": 54.108,
-      "change_pct": -0.39,
+      "change_pct": -0.53,
       "as_of": "2026-10-27T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -187,10 +183,10 @@
       "symbol": "CL=F",
       "group": "商品",
       "unit": "usd",
-      "value": 101.48,
-      "raw_value": 101.48,
+      "value": 100.95,
+      "raw_value": 100.95,
       "previous_close": 101.76,
-      "change_pct": -0.28,
+      "change_pct": -0.8,
       "as_of": "2026-10-27T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -201,20 +197,15 @@
       "symbol": "BZ=F",
       "group": "商品",
       "unit": "usd",
-      "value": 110.45,
-      "raw_value": 110.45,
+      "value": 110.0,
+      "raw_value": 110.0,
       "previous_close": 115.81,
-      "change_pct": -4.63,
+      "change_pct": -5.02,
       "as_of": "2026-10-27T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     }
   ],
-  "warnings": [
-    "sp500: HTTP Error 429: Too Many Requests",
-    "nasdaq: HTTP Error 429: Too Many Requests",
-    "sox: HTTP Error 429: Too Many Requests",
-    "hsi: HTTP Error 429: Too Many Requests"
-  ],
+  "warnings": [],
   "methodology": "Yahoo Finance日线跨资产快照；失败保留最近成功值并显式标记stale/unavailable。美债10Y的^TNX展示值按Yahoo指数惯例换算为收益率百分比。"
 }

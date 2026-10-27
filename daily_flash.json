@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-27T21:18:13+08:00",
+  "generated_at": "2026-10-27T21:23:06+08:00",
   "timezone": "Asia/Shanghai",
   "title": "Daily Flash · 每日投资驾驶舱",
   "core_conclusion": "A股状态为 Risk-off，上涨家数占比 10.9%，风险温度 66/100（elevated）。沪深300 PE-TTM 12.69；10年分位 37.0%；强势：电机、银行、零售；弱势：软件开发、军工装备、半导体。研究复核优先关注 兆易创新、德明利、中际旭创；该排序代表证据变化与复核优先级，不代表交易优先级。资金/期指：融资余额23948亿元，5日-2.32%；南向成交净买额-12.4亿元；中证500股指期货基差-1.59%。 下一催化：10-28 Alphabet 财报发行；10-28 Microsoft 财报发行。主线财报已确认披露 5/21 个研究样本。",
@@ -366,9 +366,8 @@
       "previous_close": 7623.6802,
       "change_pct": 0.7,
       "as_of": "2026-10-26T21:30:00+08:00",
-      "status": "stale",
-      "source": "Yahoo Finance",
-      "error": "HTTP Error 429: Too Many Requests"
+      "status": "fresh",
+      "source": "Yahoo Finance"
     },
     {
       "key": "nasdaq",
@@ -381,9 +380,8 @@
       "previous_close": 25955.3398,
       "change_pct": 0.82,
       "as_of": "2026-10-26T21:30:00+08:00",
-      "status": "stale",
-      "source": "Yahoo Finance",
-      "error": "HTTP Error 429: Too Many Requests"
+      "status": "fresh",
+      "source": "Yahoo Finance"
     },
     {
       "key": "sox",
@@ -396,9 +394,8 @@
       "previous_close": 10779.46,
       "change_pct": 2.82,
       "as_of": "2026-10-26T21:30:00+08:00",
-      "status": "stale",
-      "source": "Yahoo Finance",
-      "error": "HTTP Error 429: Too Many Requests"
+      "status": "fresh",
+      "source": "Yahoo Finance"
     },
     {
       "key": "hsi",
@@ -411,9 +408,8 @@
       "previous_close": 23211.8105,
       "change_pct": -0.73,
       "as_of": "2026-10-27T09:30:00+08:00",
-      "status": "stale",
-      "source": "Yahoo Finance",
-      "error": "HTTP Error 429: Too Many Requests"
+      "status": "fresh",
+      "source": "Yahoo Finance"
     },
     {
       "key": "nikkei",
@@ -449,10 +445,10 @@
       "symbol": "^VIX",
       "group": "风险",
       "unit": "index",
-      "value": 17.76,
-      "raw_value": 17.76,
+      "value": 17.88,
+      "raw_value": 17.88,
       "previous_close": 18.39,
-      "change_pct": -3.43,
+      "change_pct": -2.77,
       "as_of": "2026-10-27T15:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -463,10 +459,10 @@
       "symbol": "^TNX",
       "group": "利率",
       "unit": "yield",
-      "value": 4.986,
-      "raw_value": 4.986,
+      "value": 4.999,
+      "raw_value": 4.999,
       "previous_close": 4.986,
-      "change_pct": 0.0,
+      "change_pct": 0.26,
       "as_of": "2026-10-27T20:20:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -477,8 +473,8 @@
       "symbol": "DX-Y.NYB",
       "group": "汇率",
       "unit": "index",
-      "value": 102.187,
-      "raw_value": 102.187,
+      "value": 102.181,
+      "raw_value": 102.181,
       "previous_close": 101.96,
       "change_pct": 0.22,
       "as_of": "2026-10-27T12:00:00+08:00",
@@ -495,7 +491,7 @@
       "raw_value": 6.6651,
       "previous_close": null,
       "change_pct": null,
-      "as_of": "2026-10-27T21:14:51+08:00",
+      "as_of": "2026-10-27T21:20:25+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -505,10 +501,10 @@
       "symbol": "GC=F",
       "group": "商品",
       "unit": "usd",
-      "value": 4037.6001,
-      "raw_value": 4037.6001,
+      "value": 4035.7,
+      "raw_value": 4035.7,
       "previous_close": 4038.3999,
-      "change_pct": -0.02,
+      "change_pct": -0.07,
       "as_of": "2026-10-27T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -519,10 +515,10 @@
       "symbol": "SI=F",
       "group": "商品",
       "unit": "usd",
-      "value": 53.895,
-      "raw_value": 53.895,
+      "value": 53.82,
+      "raw_value": 53.82,
       "previous_close": 54.108,
-      "change_pct": -0.39,
+      "change_pct": -0.53,
       "as_of": "2026-10-27T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -533,10 +529,10 @@
       "symbol": "CL=F",
       "group": "商品",
       "unit": "usd",
-      "value": 101.48,
-      "raw_value": 101.48,
+      "value": 100.95,
+      "raw_value": 100.95,
       "previous_close": 101.76,
-      "change_pct": -0.28,
+      "change_pct": -0.8,
       "as_of": "2026-10-27T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -547,10 +543,10 @@
       "symbol": "BZ=F",
       "group": "商品",
       "unit": "usd",
-      "value": 110.45,
-      "raw_value": 110.45,
+      "value": 110.0,
+      "raw_value": 110.0,
       "previous_close": 115.81,
-      "change_pct": -4.63,
+      "change_pct": -5.02,
       "as_of": "2026-10-27T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -697,14 +693,14 @@
     },
     {
       "name": "美债 / 美元",
-      "score": -2.2,
+      "score": -4.2,
       "label": "中性",
       "weight": 5,
       "evidence": "收益率与美元上行对长久期风险资产偏压制"
     },
     {
       "name": "商品避险",
-      "score": -20.0,
+      "score": -24.1,
       "label": "偏空",
       "weight": 3,
       "evidence": "黄金/白银/原油组合变化"
@@ -923,16 +919,16 @@
   ],
   "sources": {
     "market_state": "2026-10-27T21:11:18+08:00",
-    "risk": "2026-10-27T21:13:58+08:00",
-    "valuation": "2026-10-27T21:13:47+08:00",
-    "decision_matrix": "2026-10-27T21:13:58+08:00",
-    "global_markets": "2026-10-27T21:14:51+08:00",
-    "catalysts": "2026-10-27T21:15:39+08:00",
+    "risk": "2026-10-27T21:19:30+08:00",
+    "valuation": "2026-10-27T21:19:22+08:00",
+    "decision_matrix": "2026-10-27T21:19:30+08:00",
+    "global_markets": "2026-10-27T21:20:24+08:00",
+    "catalysts": "2026-10-27T21:20:58+08:00",
     "ai_signals": "2026-08-26 13:33",
     "sentiment": "2026-10-27T12:57:52+08:00",
-    "market_extras": "2026-10-27T21:14:52+08:00",
-    "macro_calendar": "2026-10-27T21:16:49+08:00",
-    "theme_earnings": "2026-10-27T21:18:13+08:00"
+    "market_extras": "2026-10-27T21:20:26+08:00",
+    "macro_calendar": "2026-10-27T21:22:02+08:00",
+    "theme_earnings": "2026-10-27T21:23:06+08:00"
   },
   "boundary": "Daily Flash用于信息压缩、研究排序与条件验证；缺失数据保持缺失，不生成无条件买卖、仓位或止损指令。",
   "integrity": {
