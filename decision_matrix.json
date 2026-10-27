@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-26T22:30:24+08:00",
+  "generated_at": "2026-10-27T13:04:01+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -196,12 +196,12 @@
       "group": "科技核心",
       "role": "AI硬件核心观察",
       "priority": 4,
-      "as_of": "2026-10-26",
+      "as_of": "2026-10-27",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -73.9,
+      "composite_score": -72.0,
       "coverage": 65.0,
-      "confluence": 92.2,
+      "confluence": 91.6,
       "available_layers": 3,
       "opposing_weight_share": 0.0,
       "evidence_state": "multi_layer_confirmed",
@@ -218,14 +218,14 @@
         "technical": {
           "available": true,
           "score": -74.0,
-          "confidence": "high",
-          "evidence": "MA60 below/falling；MACD bearish；RSI 25.77 (oversold)；量能 normal；20日结构 inside_range。"
+          "confidence": "medium",
+          "evidence": "MA60 below/falling；MACD bearish；RSI 27.78 (oversold)；量能 contraction；20日结构 inside_range。"
         },
         "relative_strength": {
           "available": true,
-          "score": -94.8,
+          "score": -88.8,
           "confidence": "high",
-          "evidence": "5日相对强弱 -0.08581；20日相对强弱 -0.270336。"
+          "evidence": "5日相对强弱 -0.054451；20日相对强弱 -0.270921。"
         },
         "industry": {
           "available": true,
@@ -253,12 +253,12 @@
           {
             "layer": "technical",
             "score": -74.0,
-            "evidence": "MA60 below/falling；MACD bearish；RSI 25.77 (oversold)；量能 normal；20日结构 inside_range。"
+            "evidence": "MA60 below/falling；MACD bearish；RSI 27.78 (oversold)；量能 contraction；20日结构 inside_range。"
           },
           {
             "layer": "relative_strength",
-            "score": -94.8,
-            "evidence": "5日相对强弱 -0.08581；20日相对强弱 -0.270336。"
+            "score": -88.8,
+            "evidence": "5日相对强弱 -0.054451；20日相对强弱 -0.270921。"
           }
         ]
       },
@@ -272,7 +272,7 @@
       ],
       "excluded_layers": [],
       "positive_direction_mass": 0.0,
-      "negative_direction_mass": 48.0,
+      "negative_direction_mass": 46.8,
       "conflict_score": 0.0
     },
     "002384": {

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-10-26T22:30:16+08:00",
-  "source_generated_at": "2026-10-26T22:30:16+08:00",
+  "generated_at": "2026-10-27T13:03:52+08:00",
+  "source_generated_at": "2026-10-27T13:03:52+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -96,28 +96,28 @@
     "300308": {
       "code": "300308",
       "name": "中际旭创",
-      "as_of": "2026-10-26",
+      "as_of": "2026-10-27",
       "source_status": "fresh",
       "observations": 140,
-      "close": 594.5,
+      "close": 603.3,
       "ma60": {
-        "value": 851.276,
+        "value": 843.382,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.008772
+        "slope_pct": -0.009273
       },
-      "rsi14": 25.77,
+      "rsi14": 27.78,
       "rsi_zone": "oversold",
       "macd": {
-        "dif": -74.20704,
-        "dea": -61.88061,
-        "hist": -24.65286,
+        "dif": -73.96888,
+        "dea": -64.29774,
+        "hist": -19.34228,
         "state": "bearish",
-        "cross_age": 14
+        "cross_age": 15
       },
       "volume": {
-        "ratio20": 1.133,
-        "state": "normal"
+        "ratio20": 0.576,
+        "state": "contraction"
       },
       "breakout_20d": "inside_range",
       "data_quality": "usable",
@@ -304,7 +304,15 @@
       "condition_state": "conditions_not_met"
     }
   },
-  "state_changes": [],
+  "state_changes": [
+    {
+      "code": "300308",
+      "name": "中际旭创",
+      "field": "volume",
+      "from": "normal",
+      "to": "contraction"
+    }
+  ],
   "methodology": {
     "rsi14": "Wilder RSI(14)",
     "macd": "EMA12/EMA26 DIF, EMA9 signal, histogram=(DIF-DEA)*2",
