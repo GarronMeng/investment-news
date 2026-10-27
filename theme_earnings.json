@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-26T22:38:27+08:00",
+  "generated_at": "2026-10-27T13:00:44+08:00",
   "timezone": "Asia/Shanghai",
   "status": "fresh",
   "report_period_code": "20260930",
@@ -250,31 +250,31 @@
       "theme": "半导体工程 / 封测",
       "summary": {
         "total": 3,
-        "reported": 1,
-        "scheduled": 2,
+        "reported": 2,
+        "scheduled": 1,
         "pending": 0,
         "positive_reports": 1,
-        "weak_reports": 0,
-        "median_revenue_yoy_pct": 7.96,
-        "median_net_profit_yoy_pct": 69.58,
-        "breadth": "positive"
+        "weak_reports": 1,
+        "median_revenue_yoy_pct": -0.92,
+        "median_net_profit_yoy_pct": 30.59,
+        "breadth": "mixed"
       },
       "companies": [
         {
           "code": "600667",
           "name": "太极实业",
-          "status": "scheduled",
-          "announcement_date": null,
+          "status": "reported",
+          "announcement_date": "2026-10-27",
           "scheduled_date": "2026-10-27",
-          "revenue": null,
-          "revenue_yoy_pct": null,
-          "net_profit": null,
-          "net_profit_yoy_pct": null,
-          "gross_margin_pct": null,
-          "earnings_signal": "not_reported",
-          "industry": null,
-          "source": "东方财富 via AKShare",
-          "reason": "future-dated report row withheld to prevent look-ahead"
+          "revenue": 20377171941.05,
+          "revenue_yoy_pct": -9.8085241505,
+          "net_profit": 404631214.69,
+          "net_profit_yoy_pct": -8.4,
+          "gross_margin_pct": 6.3011827457,
+          "earnings_signal": "weak_growth",
+          "industry": "工程咨询服务Ⅱ",
+          "source": "东方财富 via AKShare + 公告确认",
+          "reason": null
         },
         {
           "code": "600584",
@@ -442,11 +442,11 @@
   "summary": {
     "themes": 6,
     "companies": 21,
-    "reported": 4,
-    "scheduled": 17
+    "reported": 5,
+    "scheduled": 16
   },
   "warnings": [
-    "withheld 5 same-day earnings rows without corroborating public financial-report notice"
+    "withheld 8 same-day earnings rows without corroborating public financial-report notice"
   ],
   "methodology": {
     "reported": "东方财富业绩报表 stock_yjbb_em via AKShare；未来公告日期不暴露财务字段；同日行必须在stock_notice_report财务报告公告中得到代码级确认。",

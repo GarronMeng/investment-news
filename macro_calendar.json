@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-26T22:37:34+08:00",
+  "generated_at": "2026-10-27T13:00:00+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
@@ -617,12 +617,166 @@
       ],
       "source": "百度股市通 via AKShare",
       "status": "scheduled"
+    },
+    {
+      "date": "2026-11-06",
+      "time": "05:30",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "美国",
+      "title": "美国截至11月4日美联储资产负债表(万亿美元)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-11-06",
+      "time": "18:00",
+      "type": "macro",
+      "category": "growth",
+      "region": "欧元区",
+      "title": "欧元区9月零售销售年率(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 0.8,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-11-06",
+      "time": "18:00",
+      "type": "macro",
+      "category": "growth",
+      "region": "欧元区",
+      "title": "欧元区9月零售销售月率(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 0.1,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-11-06",
+      "time": "21:30",
+      "type": "macro",
+      "category": "labor",
+      "region": "美国",
+      "title": "美国10月失业率(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 4.2,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-11-06",
+      "time": "21:30",
+      "type": "macro",
+      "category": "labor",
+      "region": "美国",
+      "title": "美国10月私营企业非农就业人数变动(万)",
+      "actual": null,
+      "forecast": null,
+      "previous": 4.6,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-11-06",
+      "time": "21:30",
+      "type": "macro",
+      "category": "labor",
+      "region": "美国",
+      "title": "美国10月非农就业人口变动季调后(万)",
+      "actual": null,
+      "forecast": null,
+      "previous": 2.9,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-11-06",
+      "time": null,
+      "type": "global_earnings",
+      "category": "earnings",
+      "region": "US",
+      "title": "Moderna 财报发行",
+      "ticker": "MRNA",
+      "report_period": null,
+      "importance": 2,
+      "impact_channels": [
+        "产业链景气",
+        "海外映射",
+        "风险偏好"
+      ],
+      "themes": [
+        "创新药"
+      ],
+      "assets": [
+        "517380"
+      ],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
     }
   ],
   "summary": {
-    "total": 28,
-    "macro": 23,
-    "global_earnings": 5,
+    "total": 35,
+    "macro": 29,
+    "global_earnings": 6,
     "high_importance": 3,
     "macro_days_ok": 11,
     "report_days_ok": 11
