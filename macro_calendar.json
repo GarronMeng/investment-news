@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-27T13:41:10+08:00",
+  "generated_at": "2026-10-27T14:55:46+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
@@ -750,6 +750,50 @@
     },
     {
       "date": "2026-11-06",
+      "time": "21:30",
+      "type": "macro",
+      "category": "labor",
+      "region": "美国",
+      "title": "美国@月U6失业率(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 7.6,
+      "importance": null,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-11-06",
+      "time": "21:30",
+      "type": "macro",
+      "category": "labor",
+      "region": "美国",
+      "title": "美国@月失业率(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 4.2,
+      "importance": null,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-11-06",
       "time": null,
       "type": "global_earnings",
       "category": "earnings",
@@ -774,8 +818,8 @@
     }
   ],
   "summary": {
-    "total": 35,
-    "macro": 29,
+    "total": 37,
+    "macro": 31,
     "global_earnings": 6,
     "high_importance": 3,
     "macro_days_ok": 11,
