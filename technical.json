@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-10-27T13:20:18+08:00",
-  "source_generated_at": "2026-10-27T13:20:18+08:00",
+  "generated_at": "2026-10-27T14:53:11+08:00",
+  "source_generated_at": "2026-10-27T14:53:10+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -186,30 +186,30 @@
     "000636": {
       "code": "000636",
       "name": "风华高科",
-      "as_of": "2026-10-26",
+      "as_of": "2026-10-27",
       "source_status": "fresh",
       "observations": 140,
-      "close": 37.33,
+      "close": 36.13,
       "ma60": {
-        "value": 52.054,
+        "value": 51.9188,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.000924
+        "slope_pct": -0.002597
       },
-      "rsi14": 27.42,
+      "rsi14": 25.88,
       "rsi_zone": "oversold",
       "macd": {
-        "dif": -4.06669,
-        "dea": -3.38157,
-        "hist": -1.37023,
+        "dif": -4.24914,
+        "dea": -3.55507,
+        "hist": -1.38813,
         "state": "bearish",
-        "cross_age": 15
+        "cross_age": 16
       },
       "volume": {
-        "ratio20": 0.887,
-        "state": "normal"
+        "ratio20": 0.721,
+        "state": "contraction"
       },
-      "breakout_20d": "inside_range",
+      "breakout_20d": "new_low_20d",
       "data_quality": "usable",
       "condition_state": "conditions_not_met"
     },
@@ -306,67 +306,18 @@
   },
   "state_changes": [
     {
-      "code": "603986",
-      "name": "兆易创新",
-      "field": "volume",
-      "from": "contraction",
-      "to": "normal"
-    },
-    {
-      "code": "001309",
-      "name": "德明利",
-      "field": "rsi_zone",
-      "from": "oversold",
-      "to": "weak"
-    },
-    {
-      "code": "001309",
-      "name": "德明利",
-      "field": "macd",
-      "from": "bullish",
-      "to": "bearish"
-    },
-    {
-      "code": "001309",
-      "name": "德明利",
+      "code": "000636",
+      "name": "风华高科",
       "field": "volume",
       "from": "normal",
-      "to": "expansion"
-    },
-    {
-      "code": "300308",
-      "name": "中际旭创",
-      "field": "volume",
-      "from": "contraction",
-      "to": "normal"
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "volume",
-      "from": "contraction",
-      "to": "normal"
-    },
-    {
-      "code": "600667",
-      "name": "太极实业",
-      "field": "volume",
-      "from": "contraction",
-      "to": "normal"
-    },
-    {
-      "code": "600667",
-      "name": "太极实业",
-      "field": "breakout_20d",
-      "from": "new_low_20d",
-      "to": "inside_range"
+      "to": "contraction"
     },
     {
       "code": "000636",
       "name": "风华高科",
-      "field": "volume",
-      "from": "contraction",
-      "to": "normal"
+      "field": "breakout_20d",
+      "from": "inside_range",
+      "to": "new_low_20d"
     }
   ],
   "methodology": {
