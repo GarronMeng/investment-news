@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-27T21:34:22+08:00",
+  "generated_at": "2026-10-27T21:41:22+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
@@ -43,6 +43,58 @@
       ],
       "themes": [],
       "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-28",
+      "time": null,
+      "type": "global_earnings",
+      "category": "earnings",
+      "region": "US",
+      "title": "Alphabet 财报发行",
+      "ticker": "GOOGL",
+      "report_period": null,
+      "importance": 3,
+      "impact_channels": [
+        "产业链景气",
+        "海外映射",
+        "风险偏好"
+      ],
+      "themes": [
+        "AI算力"
+      ],
+      "assets": [
+        "300308",
+        "002384",
+        "600667"
+      ],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-10-28",
+      "time": null,
+      "type": "global_earnings",
+      "category": "earnings",
+      "region": "US",
+      "title": "Microsoft 财报发行",
+      "ticker": "MSFT",
+      "report_period": null,
+      "importance": 3,
+      "impact_channels": [
+        "产业链景气",
+        "海外映射",
+        "风险偏好"
+      ],
+      "themes": [
+        "AI算力"
+      ],
+      "assets": [
+        "300308",
+        "002384",
+        "600667"
+      ],
       "source": "百度股市通 via AKShare",
       "status": "scheduled"
     },
@@ -476,21 +528,21 @@
     }
   ],
   "summary": {
-    "total": 22,
+    "total": 24,
     "macro": 21,
-    "global_earnings": 1,
-    "high_importance": 0,
+    "global_earnings": 3,
+    "high_importance": 2,
     "macro_days_ok": 10,
     "report_days_ok": 4
   },
   "warnings": [
-    "news_report_time_baidu 20261028: HTTP Error 403: ",
+    "news_report_time_baidu 20261027: HTTP Error 403: ",
     "news_report_time_baidu 20261029: HTTP Error 403: ",
     "news_economic_baidu 20261030: HTTP Error 403: ",
-    "news_report_time_baidu 20261030: HTTP Error 403: ",
     "news_report_time_baidu 20261031: HTTP Error 403: ",
     "news_report_time_baidu 20261102: HTTP Error 403: ",
     "news_report_time_baidu 20261103: HTTP Error 403: ",
+    "news_report_time_baidu 20261104: HTTP Error 403: ",
     "news_report_time_baidu 20261105: HTTP Error 403: "
   ],
   "methodology": {
