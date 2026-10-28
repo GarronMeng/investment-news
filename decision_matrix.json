@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-27T21:30:53+08:00",
+  "generated_at": "2026-10-28T10:32:52+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -535,17 +535,17 @@
       "group": "贵金属对冲",
       "role": "高波动商品仓观察",
       "priority": 5,
-      "as_of": "2026-10-27",
+      "as_of": "2026-10-28",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -78.4,
+      "composite_score": -67.8,
       "coverage": 50.0,
-      "confluence": 93.5,
+      "confluence": 90.3,
       "available_layers": 2,
       "opposing_weight_share": 0.0,
       "evidence_state": "insufficient",
       "thesis_state": "supported",
-      "attention_score": 67.2,
+      "attention_score": 67.0,
       "research_focus": "维持观察，等待更多层形成共振。",
       "layers": {
         "event": {
@@ -556,15 +556,15 @@
         },
         "technical": {
           "available": true,
-          "score": -86.0,
-          "confidence": "high",
-          "evidence": "MA60 below/falling；MACD bearish；RSI 20.55 (oversold)；量能 normal；20日结构 new_low_20d。"
+          "score": -74.0,
+          "confidence": "medium",
+          "evidence": "MA60 below/falling；MACD bearish；RSI 23.46 (oversold)；量能 contraction；20日结构 inside_range。"
         },
         "relative_strength": {
           "available": true,
-          "score": -66.9,
+          "score": -58.5,
           "confidence": "high",
-          "evidence": "5日相对强弱 -0.067231；20日相对强弱 -0.082085。"
+          "evidence": "5日相对强弱 -0.054707；20日相对强弱 -0.067835。"
         },
         "industry": {
           "available": false,
@@ -586,13 +586,13 @@
         "negative": [
           {
             "layer": "technical",
-            "score": -86.0,
-            "evidence": "MA60 below/falling；MACD bearish；RSI 20.55 (oversold)；量能 normal；20日结构 new_low_20d。"
+            "score": -74.0,
+            "evidence": "MA60 below/falling；MACD bearish；RSI 23.46 (oversold)；量能 contraction；20日结构 inside_range。"
           },
           {
             "layer": "relative_strength",
-            "score": -66.9,
-            "evidence": "5日相对强弱 -0.067231；20日相对强弱 -0.082085。"
+            "score": -58.5,
+            "evidence": "5日相对强弱 -0.054707；20日相对强弱 -0.067835。"
           }
         ]
       },
@@ -606,7 +606,7 @@
       ],
       "excluded_layers": [],
       "positive_direction_mass": 0.0,
-      "negative_direction_mass": 39.2,
+      "negative_direction_mass": 33.9,
       "conflict_score": 0.0
     },
     "518880": {

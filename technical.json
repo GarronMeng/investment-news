@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-10-27T21:30:44+08:00",
-  "source_generated_at": "2026-10-27T21:30:44+08:00",
+  "generated_at": "2026-10-28T10:32:30+08:00",
+  "source_generated_at": "2026-10-28T10:32:30+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -216,30 +216,30 @@
     "161226": {
       "code": "161226",
       "name": "国投白银LOF",
-      "as_of": "2026-10-27",
+      "as_of": "2026-10-28",
       "source_status": "fresh",
       "observations": 140,
-      "close": 1.553,
+      "close": 1.567,
       "ma60": {
-        "value": 1.884,
+        "value": 1.8794,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.002849
+        "slope_pct": -0.002424
       },
-      "rsi14": 20.55,
+      "rsi14": 23.46,
       "rsi_zone": "oversold",
       "macd": {
-        "dif": -0.07922,
-        "dea": -0.06005,
-        "hist": -0.03835,
+        "dif": -0.08284,
+        "dea": -0.06461,
+        "hist": -0.03645,
         "state": "bearish",
         "cross_age": null
       },
       "volume": {
-        "ratio20": 0.942,
-        "state": "normal"
+        "ratio20": 0.411,
+        "state": "contraction"
       },
-      "breakout_20d": "new_low_20d",
+      "breakout_20d": "inside_range",
       "data_quality": "usable",
       "condition_state": "conditions_not_met"
     },
@@ -304,7 +304,22 @@
       "condition_state": "conditions_not_met"
     }
   },
-  "state_changes": [],
+  "state_changes": [
+    {
+      "code": "161226",
+      "name": "国投白银LOF",
+      "field": "volume",
+      "from": "normal",
+      "to": "contraction"
+    },
+    {
+      "code": "161226",
+      "name": "国投白银LOF",
+      "field": "breakout_20d",
+      "from": "new_low_20d",
+      "to": "inside_range"
+    }
+  ],
   "methodology": {
     "rsi14": "Wilder RSI(14)",
     "macd": "EMA12/EMA26 DIF, EMA9 signal, histogram=(DIF-DEA)*2",
