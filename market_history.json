@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated_at": "2026-10-28T19:24:41+08:00",
+  "generated_at": "2026-10-28T22:03:03+08:00",
   "timezone": "Asia/Shanghai",
   "benchmark": {
     "code": "510300",
@@ -9,18 +9,9 @@
     "kind": "etf",
     "status": "fresh",
     "source": "新浪财经 via AKShare",
-    "last_date": "2026-10-27",
+    "last_date": "2026-10-28",
     "observations": 140,
     "rows": [
-      {
-        "date": "2026-03-31",
-        "open": 4.501,
-        "high": 4.529,
-        "low": 4.462,
-        "close": 4.463,
-        "volume": 530565553.0,
-        "amount": 2385310576.0
-      },
       {
         "date": "2026-04-01",
         "open": 4.52,
@@ -1271,6 +1262,15 @@
         "close": 4.123,
         "volume": 1403988759.0,
         "amount": 5847854734.0
+      },
+      {
+        "date": "2026-10-28",
+        "open": 4.155,
+        "high": 4.166,
+        "low": 4.132,
+        "close": 4.152,
+        "volume": 1098623720.0,
+        "amount": 4558577920.0
       }
     ],
     "fallback_reason": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -8927,18 +8927,9 @@
       "kind": "lof",
       "status": "fresh",
       "source": "新浪财经 via AKShare",
-      "last_date": "2026-10-27",
+      "last_date": "2026-10-28",
       "observations": 140,
       "rows": [
-        {
-          "date": "2026-03-31",
-          "open": 2.799,
-          "high": 2.8,
-          "low": 2.728,
-          "close": 2.737,
-          "volume": 225210818.0,
-          "amount": 620086242.0
-        },
         {
           "date": "2026-04-01",
           "open": 2.798,
@@ -10189,6 +10180,15 @@
           "close": 1.553,
           "volume": 54827514.0,
           "amount": 86234006.0
+        },
+        {
+          "date": "2026-10-28",
+          "open": 1.581,
+          "high": 1.585,
+          "low": 1.558,
+          "close": 1.565,
+          "volume": 46648326.0,
+          "amount": 73209777.0
         }
       ],
       "fallback_reason": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -10200,18 +10200,9 @@
       "kind": "etf",
       "status": "fresh",
       "source": "新浪财经 via AKShare",
-      "last_date": "2026-10-27",
+      "last_date": "2026-10-28",
       "observations": 140,
       "rows": [
-        {
-          "date": "2026-03-31",
-          "open": 9.751,
-          "high": 9.836,
-          "low": 9.697,
-          "close": 9.699,
-          "volume": 981801710.0,
-          "amount": 9575690405.0
-        },
         {
           "date": "2026-04-01",
           "open": 9.95,
@@ -11462,6 +11453,15 @@
           "close": 8.167,
           "volume": 305794563.0,
           "amount": 2503328352.0
+        },
+        {
+          "date": "2026-10-28",
+          "open": 8.284,
+          "high": 8.286,
+          "low": 8.22,
+          "close": 8.226,
+          "volume": 268046037.0,
+          "amount": 2211567912.0
         }
       ],
       "fallback_reason": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
@@ -11473,18 +11473,9 @@
       "kind": "etf",
       "status": "fresh",
       "source": "新浪财经 via AKShare",
-      "last_date": "2026-10-27",
+      "last_date": "2026-10-28",
       "observations": 140,
       "rows": [
-        {
-          "date": "2026-03-31",
-          "open": 0.739,
-          "high": 0.759,
-          "low": 0.737,
-          "close": 0.741,
-          "volume": 43696400.0,
-          "amount": 32731825.0
-        },
         {
           "date": "2026-04-01",
           "open": 0.752,
@@ -12735,6 +12726,15 @@
           "close": 0.782,
           "volume": 85624600.0,
           "amount": 68008869.0
+        },
+        {
+          "date": "2026-10-28",
+          "open": 0.792,
+          "high": 0.816,
+          "low": 0.792,
+          "close": 0.805,
+          "volume": 68577900.0,
+          "amount": 55206799.0
         }
       ],
       "fallback_reason": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
