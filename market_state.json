@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-28T15:25:08+08:00",
+  "generated_at": "2026-10-28T17:50:36+08:00",
   "timezone": "Asia/Shanghai",
   "breadth": {
     "total": 5575,
@@ -62,15 +62,15 @@
     {
       "symbol": "hkHSI",
       "name": "恒生指数",
-      "price": 23083.48,
-      "change_pct": 0.18,
+      "price": 23094.83,
+      "change_pct": 0.23,
       "source": "腾讯行情"
     },
     {
       "symbol": "hkHSTECH",
       "name": "恒生科技指数",
-      "price": 3845.46,
-      "change_pct": 1.18,
+      "price": 3853.72,
+      "change_pct": 1.4,
       "source": "腾讯行情"
     }
   ],
@@ -441,12 +441,5 @@
     "etf_activity": "ETF成交额活跃度代理，不等同ETF净申购或真实资金净流入。",
     "breadth_source": "东方财富主源；失败时单次回退新浪财经 AKShare stock_zh_a_spot。"
   },
-  "alerts": [
-    {
-      "type": "regime",
-      "from": "risk_off",
-      "to": "transition",
-      "message": "市场状态由 risk_off 切换为 transition"
-    }
-  ]
+  "alerts": []
 }
