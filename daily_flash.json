@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-10-28T22:26:14+08:00",
+  "generated_at": "2026-10-28T22:37:41+08:00",
   "timezone": "Asia/Shanghai",
   "title": "Daily Flash · 每日投资驾驶舱",
-  "core_conclusion": "A股状态为 Risk-on，上涨家数占比 74.6%，风险温度 46/100（balanced）。沪深300 PE-TTM 12.76；10年分位 38.4%；强势：半导体、自动化设备、非金属材料；弱势：白酒、证券、旅游及酒店。研究复核优先关注 德明利、兆易创新、中际旭创；该排序代表证据变化与复核优先级，不代表交易优先级。资金/期指：融资余额23948亿元，5日-2.32%（stale）；南向成交净买额-8.0亿元；沪深300股指期货基差-1.39%。 下一催化：10-28 Alphabet 财报发行；10-28 Microsoft 财报发行。主线财报已确认披露 5/21 个研究样本。",
+  "core_conclusion": "A股状态为 Risk-on，上涨家数占比 74.6%，风险温度 46/100（balanced）。沪深300 PE-TTM 12.76；10年分位 38.4%；强势：半导体、自动化设备、非金属材料；弱势：白酒、证券、旅游及酒店。研究复核优先关注 德明利、兆易创新、中际旭创；该排序代表证据变化与复核优先级，不代表交易优先级。资金/期指：融资余额23948亿元，5日-2.32%（stale）；南向成交净买额-8.0亿元；沪深300股指期货基差-1.39%。 下一催化：10-28 Alphabet 财报发行；10-28 Microsoft 财报发行。主线财报已确认披露 7/21 个研究样本。",
   "market": {
     "regime": {
       "label": "Risk-on",
@@ -361,8 +361,8 @@
       "symbol": "^GSPC",
       "group": "美股",
       "unit": "index",
-      "value": 7733.3701,
-      "raw_value": 7733.3701,
+      "value": 7733.77,
+      "raw_value": 7733.77,
       "previous_close": 7722.6001,
       "change_pct": 0.14,
       "as_of": "2026-10-28T21:30:00+08:00",
@@ -375,10 +375,10 @@
       "symbol": "^IXIC",
       "group": "美股",
       "unit": "index",
-      "value": 26452.0332,
-      "raw_value": 26452.0332,
+      "value": 26472.2383,
+      "raw_value": 26472.2383,
       "previous_close": 26477.8105,
-      "change_pct": -0.1,
+      "change_pct": -0.02,
       "as_of": "2026-10-28T21:30:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -389,10 +389,10 @@
       "symbol": "^SOX",
       "group": "美股",
       "unit": "index",
-      "value": 11550.1084,
-      "raw_value": 11550.1084,
+      "value": 11564.7129,
+      "raw_value": 11564.7129,
       "previous_close": 11482.5,
-      "change_pct": 0.59,
+      "change_pct": 0.72,
       "as_of": "2026-10-28T21:30:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -445,10 +445,10 @@
       "symbol": "^VIX",
       "group": "风险",
       "unit": "index",
-      "value": 17.4,
-      "raw_value": 17.4,
+      "value": 17.26,
+      "raw_value": 17.26,
       "previous_close": 17.52,
-      "change_pct": -0.68,
+      "change_pct": -1.48,
       "as_of": "2026-10-28T15:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -459,10 +459,10 @@
       "symbol": "^TNX",
       "group": "利率",
       "unit": "yield",
-      "value": 5.007,
-      "raw_value": 5.007,
+      "value": 5.02,
+      "raw_value": 5.02,
       "previous_close": 4.993,
-      "change_pct": 0.28,
+      "change_pct": 0.54,
       "as_of": "2026-10-28T20:20:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -473,10 +473,10 @@
       "symbol": "DX-Y.NYB",
       "group": "汇率",
       "unit": "index",
-      "value": 102.357,
-      "raw_value": 102.357,
+      "value": 102.397,
+      "raw_value": 102.397,
       "previous_close": 102.32,
-      "change_pct": 0.04,
+      "change_pct": 0.08,
       "as_of": "2026-10-28T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -487,11 +487,11 @@
       "symbol": "CNH=X",
       "group": "汇率",
       "unit": "fx",
-      "value": 6.6634,
-      "raw_value": 6.6634,
+      "value": 6.6635,
+      "raw_value": 6.6635,
       "previous_close": null,
       "change_pct": null,
-      "as_of": "2026-10-28T22:22:46+08:00",
+      "as_of": "2026-10-28T22:33:22+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -501,10 +501,10 @@
       "symbol": "GC=F",
       "group": "商品",
       "unit": "usd",
-      "value": 4062.3,
-      "raw_value": 4062.3,
+      "value": 4058.0,
+      "raw_value": 4058.0,
       "previous_close": 4074.6001,
-      "change_pct": -0.3,
+      "change_pct": -0.41,
       "as_of": "2026-10-28T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -515,10 +515,10 @@
       "symbol": "SI=F",
       "group": "商品",
       "unit": "usd",
-      "value": 53.91,
-      "raw_value": 53.91,
+      "value": 53.785,
+      "raw_value": 53.785,
       "previous_close": 54.293,
-      "change_pct": -0.71,
+      "change_pct": -0.94,
       "as_of": "2026-10-28T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -529,10 +529,10 @@
       "symbol": "CL=F",
       "group": "商品",
       "unit": "usd",
-      "value": 101.97,
-      "raw_value": 101.97,
+      "value": 102.44,
+      "raw_value": 102.44,
       "previous_close": 99.9,
-      "change_pct": 2.07,
+      "change_pct": 2.54,
       "as_of": "2026-10-28T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -543,10 +543,10 @@
       "symbol": "BZ=F",
       "group": "商品",
       "unit": "usd",
-      "value": 111.42,
-      "raw_value": 111.42,
+      "value": 111.77,
+      "raw_value": 111.77,
       "previous_close": 113.88,
-      "change_pct": -2.16,
+      "change_pct": -1.85,
       "as_of": "2026-10-28T12:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -674,21 +674,21 @@
     },
     {
       "name": "美股隔夜",
-      "score": 4.2,
+      "score": 5.6,
       "label": "中性",
       "weight": 4,
       "evidence": "标普/纳指/费半平均涨跌"
     },
     {
       "name": "美债 / 美元",
-      "score": -2.5,
+      "score": -4.9,
       "label": "中性",
       "weight": 5,
       "evidence": "收益率与美元上行对长久期风险资产偏压制"
     },
     {
       "name": "商品避险",
-      "score": -4.1,
+      "score": -2.5,
       "label": "中性",
       "weight": 3,
       "evidence": "黄金/白银/原油组合变化"
@@ -910,13 +910,13 @@
     "risk": "2026-10-28T22:22:17+08:00",
     "valuation": "2026-10-28T22:22:08+08:00",
     "decision_matrix": "2026-10-28T22:22:17+08:00",
-    "global_markets": "2026-10-28T22:22:48+08:00",
-    "catalysts": "2026-10-28T22:23:24+08:00",
+    "global_markets": "2026-10-28T22:33:23+08:00",
+    "catalysts": "2026-10-28T22:34:36+08:00",
     "ai_signals": "2026-08-26 13:33",
     "sentiment": "2026-10-28T13:34:02+08:00",
-    "market_extras": "2026-10-28T22:22:50+08:00",
-    "macro_calendar": "2026-10-28T22:24:31+08:00",
-    "theme_earnings": "2026-10-28T22:26:14+08:00"
+    "market_extras": "2026-10-28T22:33:24+08:00",
+    "macro_calendar": "2026-10-28T22:35:39+08:00",
+    "theme_earnings": "2026-10-28T22:37:41+08:00"
   },
   "boundary": "Daily Flash用于信息压缩、研究排序与条件验证；缺失数据保持缺失，不生成无条件买卖、仓位或止损指令。",
   "integrity": {
@@ -926,27 +926,6 @@
     "rule": "theme layer metrics average only final eligible Matrix layers; unavailable is null, never zero"
   },
   "macro_calendar": [
-    {
-      "date": "2026-10-28",
-      "time": "22:30",
-      "type": "macro",
-      "category": "energy",
-      "region": "美国",
-      "title": "美国截至10月23日当周EIA原油库存变动(万桶)",
-      "actual": null,
-      "forecast": 1.5,
-      "previous": -306.0,
-      "importance": 2,
-      "impact_channels": [
-        "原油",
-        "通胀预期",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
     {
       "date": "2026-10-28",
       "time": null,
@@ -1295,32 +1274,6 @@
       ],
       "themes": [],
       "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-11-03",
-      "time": null,
-      "type": "global_earnings",
-      "category": "earnings",
-      "region": "US",
-      "title": "AMD 财报发行",
-      "ticker": "AMD",
-      "report_period": null,
-      "importance": 2,
-      "impact_channels": [
-        "产业链景气",
-        "海外映射",
-        "风险偏好"
-      ],
-      "themes": [
-        "AI算力"
-      ],
-      "assets": [
-        "300308",
-        "002384",
-        "600667"
-      ],
       "source": "百度股市通 via AKShare",
       "status": "scheduled"
     },
@@ -1696,12 +1649,12 @@
     }
   ],
   "macro_calendar_summary": {
-    "total": 35,
-    "macro": 29,
-    "global_earnings": 6,
+    "total": 33,
+    "macro": 28,
+    "global_earnings": 5,
     "high_importance": 3,
     "macro_days_ok": 11,
-    "report_days_ok": 11
+    "report_days_ok": 10
   },
   "theme_earnings": [
     {
@@ -1868,13 +1821,13 @@
       "theme": "PCB / 消费电子",
       "summary": {
         "total": 4,
-        "reported": 1,
-        "scheduled": 3,
+        "reported": 2,
+        "scheduled": 2,
         "pending": 0,
-        "positive_reports": 1,
+        "positive_reports": 2,
         "weak_reports": 0,
-        "median_revenue_yoy_pct": 53.84,
-        "median_net_profit_yoy_pct": 77.54,
+        "median_revenue_yoy_pct": 62.86,
+        "median_net_profit_yoy_pct": 92.21,
         "breadth": "positive"
       },
       "companies": [
@@ -1897,17 +1850,17 @@
         {
           "code": "002463",
           "name": "沪电股份",
-          "status": "scheduled",
-          "announcement_date": null,
+          "status": "reported",
+          "announcement_date": "2026-10-28",
           "scheduled_date": "2026-10-28",
-          "revenue": null,
-          "revenue_yoy_pct": null,
-          "net_profit": null,
-          "net_profit_yoy_pct": null,
-          "gross_margin_pct": null,
-          "earnings_signal": "not_reported",
-          "industry": null,
-          "source": "东方财富 via AKShare",
+          "revenue": 23225440347.0,
+          "revenue_yoy_pct": 71.8825459445,
+          "net_profit": 5621944032.0,
+          "net_profit_yoy_pct": 106.87,
+          "gross_margin_pct": 40.8950684254,
+          "earnings_signal": "strong_growth",
+          "industry": "元件",
+          "source": "东方财富 via AKShare + 公告确认",
           "reason": null
         },
         {
@@ -2076,30 +2029,30 @@
       "theme": "创新药",
       "summary": {
         "total": 3,
-        "reported": 0,
-        "scheduled": 3,
+        "reported": 1,
+        "scheduled": 2,
         "pending": 0,
-        "positive_reports": 0,
+        "positive_reports": 1,
         "weak_reports": 0,
-        "median_revenue_yoy_pct": null,
-        "median_net_profit_yoy_pct": null,
-        "breadth": "awaiting_reports"
+        "median_revenue_yoy_pct": 5.26,
+        "median_net_profit_yoy_pct": 20.38,
+        "breadth": "positive"
       },
       "companies": [
         {
           "code": "600276",
           "name": "恒瑞医药",
-          "status": "scheduled",
-          "announcement_date": null,
+          "status": "reported",
+          "announcement_date": "2026-10-28",
           "scheduled_date": "2026-10-28",
-          "revenue": null,
-          "revenue_yoy_pct": null,
-          "net_profit": null,
-          "net_profit_yoy_pct": null,
-          "gross_margin_pct": null,
-          "earnings_signal": "not_reported",
-          "industry": null,
-          "source": "东方财富 via AKShare",
+          "revenue": 24408762724.19,
+          "revenue_yoy_pct": 5.2642594552,
+          "net_profit": 6923404216.25,
+          "net_profit_yoy_pct": 20.38,
+          "gross_margin_pct": 86.7842820954,
+          "earnings_signal": "positive_growth",
+          "industry": "化学制药",
+          "source": "东方财富 via AKShare + 公告确认",
           "reason": null
         },
         {
@@ -2140,19 +2093,19 @@
   "theme_earnings_summary": {
     "themes": 6,
     "companies": 21,
-    "reported": 5,
-    "scheduled": 16
+    "reported": 7,
+    "scheduled": 14
   },
   "theme_earnings_period": "2026三季报",
   "quality": {
     "macro_calendar": {
-      "events": 35,
-      "warnings": 0,
+      "events": 33,
+      "warnings": 1,
       "horizon_days": 10
     },
     "theme_earnings": {
       "status": "fresh",
-      "reported": 5,
+      "reported": 7,
       "companies": 21
     }
   }
