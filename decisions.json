@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generated_at": "2026-10-28T13:59:30+08:00",
+  "generated_at": "2026-10-28T15:27:42+08:00",
   "source": {
     "data_generated_at": "2026-10-28 13:50",
     "ai_generated_at": "2026-08-26 13:33",
     "ai_source_generated_at": "2026-08-26 12:26",
-    "features_generated_at": "2026-10-28T13:59:19+08:00",
+    "features_generated_at": "2026-10-28T15:27:33+08:00",
     "fresh_ai": false
   },
   "decisions": [
@@ -36,17 +36,17 @@
     {
       "asset": "001309",
       "name": "德明利",
-      "as_of": "2026-10-28",
+      "as_of": "2026-10-27",
       "bias": "bearish",
       "status": "market_watch",
       "event_score": 50.0,
-      "market_score": 15.0,
+      "market_score": 25.0,
       "freshness_score": 70,
-      "conviction": 55,
+      "conviction": 50.0,
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.337006",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.354989",
       "confirmation": [
         "相对存储板块止跌转强",
         "放量突破短期压力位"
@@ -60,7 +60,7 @@
     {
       "asset": "300308",
       "name": "中际旭创",
-      "as_of": "2026-10-28",
+      "as_of": "2026-10-27",
       "bias": "bearish",
       "status": "market_watch",
       "event_score": 50.0,
@@ -70,7 +70,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.229397",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.281571",
       "confirmation": [
         "海外AI硬件与A股CPO同步走强",
         "高位放量后能维持强势"
