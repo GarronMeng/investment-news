@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generated_at": "2026-10-28T10:32:52+08:00",
+  "generated_at": "2026-10-28T13:51:38+08:00",
   "source": {
-    "data_generated_at": "2026-10-28 10:31",
+    "data_generated_at": "2026-10-28 13:50",
     "ai_generated_at": "2026-08-26 13:33",
     "ai_source_generated_at": "2026-08-26 12:26",
-    "features_generated_at": "2026-10-28T10:32:30+08:00",
+    "features_generated_at": "2026-10-28T13:51:27+08:00",
     "fresh_ai": false
   },
   "decisions": [
@@ -132,7 +132,7 @@
     {
       "asset": "000636",
       "name": "风华高科",
-      "as_of": "2026-10-27",
+      "as_of": "2026-10-28",
       "bias": "bearish",
       "status": "market_watch",
       "event_score": 50.0,
@@ -142,7 +142,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.288504",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.261155",
       "confirmation": [
         "被动元件板块形成联动",
         "涨价新闻后价格走势能够确认"
@@ -156,7 +156,7 @@
     {
       "asset": "161226",
       "name": "国投白银LOF",
-      "as_of": "2026-10-28",
+      "as_of": "2026-10-27",
       "bias": "bearish",
       "status": "market_watch",
       "event_score": 50.0,
@@ -166,7 +166,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.067835",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.082085",
       "confirmation": [
         "同时核对基金净值、场内价格和溢价率",
         "银价上涨时场内溢价未继续扩大"

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-28T10:32:52+08:00",
+  "generated_at": "2026-10-28T13:51:38+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -28,9 +28,9 @@
       "as_of": "2026-10-27",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -70.3,
+      "composite_score": -70.2,
       "coverage": 75.0,
-      "confluence": 91.1,
+      "confluence": 91.0,
       "available_layers": 4,
       "opposing_weight_share": 0.0,
       "evidence_state": "multi_layer_confirmed",
@@ -71,9 +71,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -59.0,
+          "score": -58.2,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.1087；风险温度=65.7。"
+          "evidence": "regime=risk_off；上涨占比=0.1087；风险温度=64.0。"
         }
       },
       "contributors": {
@@ -101,7 +101,7 @@
       ],
       "excluded_layers": [],
       "positive_direction_mass": 0.0,
-      "negative_direction_mass": 52.7,
+      "negative_direction_mass": 52.6,
       "conflict_score": 0.0
     },
     "001309": {
@@ -113,7 +113,7 @@
       "as_of": "2026-10-27",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -61.8,
+      "composite_score": -61.7,
       "coverage": 75.0,
       "confluence": 88.5,
       "available_layers": 4,
@@ -157,9 +157,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -59.0,
+          "score": -58.2,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.1087；风险温度=65.7。"
+          "evidence": "regime=risk_off；上涨占比=0.1087；风险温度=64.0。"
         }
       },
       "contributors": {
@@ -187,7 +187,7 @@
       ],
       "excluded_layers": [],
       "positive_direction_mass": 0.0,
-      "negative_direction_mass": 46.4,
+      "negative_direction_mass": 46.3,
       "conflict_score": 0.0
     },
     "300308": {
@@ -199,9 +199,9 @@
       "as_of": "2026-10-27",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -78.5,
+      "composite_score": -78.4,
       "coverage": 60.0,
-      "confluence": 93.6,
+      "confluence": 93.5,
       "available_layers": 3,
       "opposing_weight_share": 0.0,
       "evidence_state": "multi_layer_confirmed",
@@ -240,9 +240,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -59.0,
+          "score": -58.2,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.1087；风险温度=65.7。"
+          "evidence": "regime=risk_off；上涨占比=0.1087；风险温度=64.0。"
         }
       },
       "contributors": {
@@ -270,7 +270,7 @@
       ],
       "excluded_layers": [],
       "positive_direction_mass": 0.0,
-      "negative_direction_mass": 47.1,
+      "negative_direction_mass": 47.0,
       "conflict_score": 0.0
     },
     "002384": {
@@ -282,7 +282,7 @@
       "as_of": "2026-10-27",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -79.1,
+      "composite_score": -79.0,
       "coverage": 75.0,
       "confluence": 93.7,
       "available_layers": 4,
@@ -326,9 +326,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -59.0,
+          "score": -58.2,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.1087；风险温度=65.7。"
+          "evidence": "regime=risk_off；上涨占比=0.1087；风险温度=64.0。"
         }
       },
       "contributors": {
@@ -356,7 +356,7 @@
       ],
       "excluded_layers": [],
       "positive_direction_mass": 0.0,
-      "negative_direction_mass": 59.3,
+      "negative_direction_mass": 59.2,
       "conflict_score": 0.0
     },
     "600667": {
@@ -368,7 +368,7 @@
       "as_of": "2026-10-27",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -79.4,
+      "composite_score": -79.3,
       "coverage": 75.0,
       "confluence": 93.8,
       "available_layers": 4,
@@ -411,9 +411,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -59.0,
+          "score": -58.2,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.1087；风险温度=65.7。"
+          "evidence": "regime=risk_off；上涨占比=0.1087；风险温度=64.0。"
         }
       },
       "contributors": {
@@ -450,17 +450,17 @@
       "group": "科技核心",
       "role": "MLCC周期观察",
       "priority": 3,
-      "as_of": "2026-10-27",
+      "as_of": "2026-10-28",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -78.1,
+      "composite_score": -72.9,
       "coverage": 75.0,
-      "confluence": 93.4,
+      "confluence": 91.9,
       "available_layers": 4,
       "opposing_weight_share": 0.0,
       "evidence_state": "multi_layer_confirmed",
       "thesis_state": "confirmed",
-      "attention_score": 70.2,
+      "attention_score": 70.1,
       "research_focus": "验证持续性、行业扩散与后续基本面证据。",
       "layers": {
         "event": {
@@ -471,15 +471,15 @@
         },
         "technical": {
           "available": true,
-          "score": -86.0,
-          "confidence": "high",
-          "evidence": "MA60 below/falling；MACD bearish；RSI 25.63 (oversold)；量能 normal；20日结构 new_low_20d。"
+          "score": -74.0,
+          "confidence": "medium",
+          "evidence": "MA60 below/falling；MACD bearish；RSI 28.03 (oversold)；量能 contraction；20日结构 inside_range。"
         },
         "relative_strength": {
           "available": true,
-          "score": -95.5,
+          "score": -94.5,
           "confidence": "high",
-          "evidence": "5日相对强弱 -0.089224；20日相对强弱 -0.288504。"
+          "evidence": "5日相对强弱 -0.08501；20日相对强弱 -0.261155。"
         },
         "industry": {
           "available": true,
@@ -496,9 +496,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -59.0,
+          "score": -58.2,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.1087；风险温度=65.7。"
+          "evidence": "regime=risk_off；上涨占比=0.1087；风险温度=64.0。"
         }
       },
       "contributors": {
@@ -506,13 +506,13 @@
         "negative": [
           {
             "layer": "technical",
-            "score": -86.0,
-            "evidence": "MA60 below/falling；MACD bearish；RSI 25.63 (oversold)；量能 normal；20日结构 new_low_20d。"
+            "score": -74.0,
+            "evidence": "MA60 below/falling；MACD bearish；RSI 28.03 (oversold)；量能 contraction；20日结构 inside_range。"
           },
           {
             "layer": "relative_strength",
-            "score": -95.5,
-            "evidence": "5日相对强弱 -0.089224；20日相对强弱 -0.288504。"
+            "score": -94.5,
+            "evidence": "5日相对强弱 -0.08501；20日相对强弱 -0.261155。"
           }
         ]
       },
@@ -526,7 +526,7 @@
       ],
       "excluded_layers": [],
       "positive_direction_mass": 0.0,
-      "negative_direction_mass": 58.6,
+      "negative_direction_mass": 54.7,
       "conflict_score": 0.0
     },
     "161226": {
@@ -535,17 +535,17 @@
       "group": "贵金属对冲",
       "role": "高波动商品仓观察",
       "priority": 5,
-      "as_of": "2026-10-28",
+      "as_of": "2026-10-27",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -67.8,
+      "composite_score": -78.4,
       "coverage": 50.0,
-      "confluence": 90.3,
+      "confluence": 93.5,
       "available_layers": 2,
       "opposing_weight_share": 0.0,
       "evidence_state": "insufficient",
       "thesis_state": "supported",
-      "attention_score": 67.0,
+      "attention_score": 67.2,
       "research_focus": "维持观察，等待更多层形成共振。",
       "layers": {
         "event": {
@@ -556,15 +556,15 @@
         },
         "technical": {
           "available": true,
-          "score": -74.0,
-          "confidence": "medium",
-          "evidence": "MA60 below/falling；MACD bearish；RSI 23.46 (oversold)；量能 contraction；20日结构 inside_range。"
+          "score": -86.0,
+          "confidence": "high",
+          "evidence": "MA60 below/falling；MACD bearish；RSI 20.55 (oversold)；量能 normal；20日结构 new_low_20d。"
         },
         "relative_strength": {
           "available": true,
-          "score": -58.5,
+          "score": -66.9,
           "confidence": "high",
-          "evidence": "5日相对强弱 -0.054707；20日相对强弱 -0.067835。"
+          "evidence": "5日相对强弱 -0.067231；20日相对强弱 -0.082085。"
         },
         "industry": {
           "available": false,
@@ -586,13 +586,13 @@
         "negative": [
           {
             "layer": "technical",
-            "score": -74.0,
-            "evidence": "MA60 below/falling；MACD bearish；RSI 23.46 (oversold)；量能 contraction；20日结构 inside_range。"
+            "score": -86.0,
+            "evidence": "MA60 below/falling；MACD bearish；RSI 20.55 (oversold)；量能 normal；20日结构 new_low_20d。"
           },
           {
             "layer": "relative_strength",
-            "score": -58.5,
-            "evidence": "5日相对强弱 -0.054707；20日相对强弱 -0.067835。"
+            "score": -66.9,
+            "evidence": "5日相对强弱 -0.067231；20日相对强弱 -0.082085。"
           }
         ]
       },
@@ -606,7 +606,7 @@
       ],
       "excluded_layers": [],
       "positive_direction_mass": 0.0,
-      "negative_direction_mass": 33.9,
+      "negative_direction_mass": 39.2,
       "conflict_score": 0.0
     },
     "518880": {
@@ -699,7 +699,7 @@
       "as_of": "2026-10-27",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -56.7,
+      "composite_score": -56.6,
       "coverage": 75.0,
       "confluence": 87.0,
       "available_layers": 4,
@@ -744,9 +744,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -59.0,
+          "score": -58.2,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.1087；风险温度=65.7。"
+          "evidence": "regime=risk_off；上涨占比=0.1087；风险温度=64.0。"
         }
       },
       "contributors": {
@@ -774,7 +774,7 @@
       ],
       "excluded_layers": [],
       "positive_direction_mass": 0.0,
-      "negative_direction_mass": 42.5,
+      "negative_direction_mass": 42.4,
       "conflict_score": 0.0
     }
   },

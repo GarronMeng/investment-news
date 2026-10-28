@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-10-28T10:32:52+08:00",
-  "score": 65.7,
+  "generated_at": "2026-10-28T13:51:38+08:00",
+  "score": 64.0,
   "label": "elevated",
   "coverage": 100.0,
   "available_weight": 100,
@@ -31,10 +31,10 @@
       "evidence": "两融20日Z -1.78"
     },
     "overseas": {
-      "score": 78.7,
+      "score": 61.8,
       "weight": 10,
       "available": true,
-      "evidence": "VIX 19.45；20日分位 95.0%"
+      "evidence": "VIX 17.52；20日分位 75.0%"
     },
     "concentration": {
       "score": 66.0,
@@ -55,9 +55,9 @@
       "evidence": "risk_off；上涨占比 10.9%"
     },
     {
-      "component": "overseas",
-      "score": 78.7,
-      "evidence": "VIX 19.45；20日分位 95.0%"
+      "component": "concentration",
+      "score": 66.0,
+      "evidence": "regime=risk_off；指数均值 -2.32% / 上涨占比 10.9%"
     }
   ],
   "state_changes": [],
