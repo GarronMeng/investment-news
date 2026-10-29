@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-28T13:34:02+08:00",
+  "generated_at": "2026-10-29T13:41:15+08:00",
   "timezone": "Asia/Shanghai",
   "states": {
     "overseas_risk": {
@@ -17,7 +17,7 @@
       "level": "cooling",
       "label": "杠杆降温",
       "tone": "positive",
-      "status": "stale",
+      "status": "fresh",
       "summary": "观察融资余额5日变化与20日位置，资金流不在本阶段计分。",
       "metric_id": "margin_balance"
     }
@@ -26,16 +26,16 @@
     {
       "id": "vix",
       "label": "VIX海外风险",
-      "value": 17.52,
+      "value": 16.91,
       "unit": "点",
-      "as_of": "2026-10-27",
+      "as_of": "2026-10-28",
       "lag_days": 1,
       "status": "fresh",
       "confidence": "medium",
       "source": "OpenBB/YFinance",
       "source_url": "https://www.cboe.com/tradable_products/vix/vix_historical_data/",
-      "change_1d_pct": -4.73,
-      "percentile_20d": 75.0,
+      "change_1d_pct": -3.48,
+      "percentile_20d": 65.0,
       "level": "normal",
       "state_label": "正常",
       "tone": "neutral",
@@ -44,34 +44,27 @@
     {
       "id": "margin_balance",
       "label": "A股杠杆情绪",
-      "value": 23948.22,
-      "total_margin_balance": 24239.18,
-      "financing_buy_amount": 1551.27,
+      "value": 23731.96,
+      "total_margin_balance": 24019.62,
+      "financing_buy_amount": 1134.64,
       "unit": "亿元",
-      "as_of": "2026-10-23",
-      "lag_days": 5,
-      "status": "stale",
+      "as_of": "2026-10-27",
+      "lag_days": 2,
+      "status": "fresh",
       "confidence": "high",
       "source": "SSE+SZSE via AKShare",
       "source_url": "https://www.sse.com.cn/market/othersdata/margin/sum/",
-      "change_1d_pct": -1.0,
-      "change_5d_pct": -2.32,
-      "zscore_20d": -1.78,
+      "change_1d_pct": -0.9,
+      "change_5d_pct": -2.96,
+      "zscore_20d": -1.79,
       "level": "cooling",
       "state_label": "杠杆降温",
       "tone": "positive",
-      "sample_size": 20,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "sample_size": 20
     }
   ],
   "history": {
     "margin_balance": [
-      {
-        "date": "2026-09-02",
-        "financing": 26230.74259547,
-        "total": 26525.03457693,
-        "buy": 1487.80553522
-      },
       {
         "date": "2026-09-03",
         "financing": 26190.37630194,
@@ -245,12 +238,16 @@
         "financing": 23948.21994945,
         "total": 24239.18115588,
         "buy": 1551.2712530899998
+      },
+      {
+        "date": "2026-10-27",
+        "financing": 23731.96129148,
+        "total": 24019.62294388,
+        "buy": 1134.6371586599998
       }
     ]
   },
-  "warnings": [
-    "Margin refresh failed: Expecting value: line 1 column 1 (char 0)"
-  ],
+  "warnings": [],
   "methodology": {
     "vix": "优先使用OpenBB/YFinance标准化接口，限流或失败时切换CBOE官方历史数据；显示最新值、单日变化和20日分位。",
     "margin_balance": "AKShare封装上交所与深交所官方汇总；合并融资余额，显示1日/5日变化和20日Z-score。",
