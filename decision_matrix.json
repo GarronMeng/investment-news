@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-29T18:28:36+08:00",
+  "generated_at": "2026-10-29T19:35:22+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -71,9 +71,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -55.9,
+          "score": -55.8,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.1401；风险温度=63.1。"
+          "evidence": "regime=risk_off；上涨占比=0.1401；风险温度=63.0。"
         }
       },
       "contributors": {
@@ -158,9 +158,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -55.9,
+          "score": -55.8,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.1401；风险温度=63.1。"
+          "evidence": "regime=risk_off；上涨占比=0.1401；风险温度=63.0。"
         }
       },
       "contributors": {
@@ -200,7 +200,7 @@
       "as_of": "2026-10-29",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -72.4,
+      "composite_score": -72.3,
       "coverage": 75.0,
       "confluence": 91.7,
       "available_layers": 4,
@@ -243,9 +243,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -55.9,
+          "score": -55.8,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.1401；风险温度=63.1。"
+          "evidence": "regime=risk_off；上涨占比=0.1401；风险温度=63.0。"
         }
       },
       "contributors": {
@@ -330,9 +330,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -55.9,
+          "score": -55.8,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.1401；风险温度=63.1。"
+          "evidence": "regime=risk_off；上涨占比=0.1401；风险温度=63.0。"
         }
       },
       "contributors": {
@@ -415,9 +415,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -55.9,
+          "score": -55.8,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.1401；风险温度=63.1。"
+          "evidence": "regime=risk_off；上涨占比=0.1401；风险温度=63.0。"
         }
       },
       "contributors": {
@@ -500,9 +500,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -55.9,
+          "score": -55.8,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.1401；风险温度=63.1。"
+          "evidence": "regime=risk_off；上涨占比=0.1401；风险温度=63.0。"
         }
       },
       "contributors": {
@@ -703,7 +703,7 @@
       "as_of": "2026-10-28",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -45.8,
+      "composite_score": -45.7,
       "coverage": 60.0,
       "confluence": 83.7,
       "available_layers": 3,
@@ -745,9 +745,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -55.9,
+          "score": -55.8,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.1401；风险温度=63.1。"
+          "evidence": "regime=risk_off；上涨占比=0.1401；风险温度=63.0。"
         }
       },
       "contributors": {
@@ -760,8 +760,8 @@
           },
           {
             "layer": "market_context",
-            "score": -55.9,
-            "evidence": "regime=risk_off；上涨占比=0.1401；风险温度=63.1。"
+            "score": -55.8,
+            "evidence": "regime=risk_off；上涨占比=0.1401；风险温度=63.0。"
           }
         ]
       },
