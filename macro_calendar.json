@@ -1,94 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-10-29T19:37:36+08:00",
+  "generated_at": "2026-10-29T22:21:16+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
-    {
-      "date": "2026-10-29",
-      "time": "20:30",
-      "type": "macro",
-      "category": "labor",
-      "region": "美国",
-      "title": "美国截至10月24日当周初请失业金人数(万)",
-      "actual": null,
-      "forecast": 19.9,
-      "previous": 19.4,
-      "importance": 2,
-      "impact_channels": [
-        "美债收益率",
-        "美元",
-        "全球成长估值",
-        "黄金/白银"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-10-29",
-      "time": "20:30",
-      "type": "macro",
-      "category": "growth",
-      "region": "美国",
-      "title": "美国第三季度GDP价格指数季率初值(%)",
-      "actual": null,
-      "forecast": 3.5,
-      "previous": 6.1,
-      "importance": 2,
-      "impact_channels": [
-        "全球风险偏好",
-        "AI资本开支预期",
-        "美元"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-10-29",
-      "time": "20:30",
-      "type": "macro",
-      "category": "growth",
-      "region": "美国",
-      "title": "美国第三季度GDP隐性平减指数季率-季调后初值(%)",
-      "actual": null,
-      "forecast": 3.5,
-      "previous": 6.1,
-      "importance": 2,
-      "impact_channels": [
-        "全球风险偏好",
-        "AI资本开支预期",
-        "美元"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-10-29",
-      "time": "20:30",
-      "type": "macro",
-      "category": "growth",
-      "region": "美国",
-      "title": "美国第三季度实际GDP年化季率初值(%)",
-      "actual": null,
-      "forecast": 3.2,
-      "previous": 2.2,
-      "importance": 2,
-      "impact_channels": [
-        "全球风险偏好",
-        "AI资本开支预期",
-        "美元"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
     {
       "date": "2026-10-29",
       "time": null,
@@ -701,8 +616,8 @@
     }
   ],
   "summary": {
-    "total": 32,
-    "macro": 28,
+    "total": 28,
+    "macro": 24,
     "global_earnings": 4,
     "high_importance": 1,
     "macro_days_ok": 11,
