@@ -1,21 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-10-28T22:34:36+08:00",
+  "generated_at": "2026-10-29T14:07:36+08:00",
   "timezone": "Asia/Shanghai",
   "report_period": "2026三季报",
   "events": [
-    {
-      "date": "2026-10-27",
-      "type": "earnings",
-      "title": "太极实业 2026三季报预约披露",
-      "assets": [
-        "600667"
-      ],
-      "name": "太极实业",
-      "source": "东方财富 via AKShare",
-      "status": "scheduled",
-      "importance": "medium"
-    },
     {
       "date": "2026-10-30",
       "type": "earnings",
@@ -54,8 +42,8 @@
     }
   ],
   "summary": {
-    "total": 4,
-    "earnings": 4,
+    "total": 3,
+    "earnings": 3,
     "manual": 0
   },
   "warnings": [],

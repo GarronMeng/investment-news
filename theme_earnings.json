@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-28T22:37:41+08:00",
+  "generated_at": "2026-10-29T14:09:44+08:00",
   "timezone": "Asia/Shanghai",
   "status": "fresh",
   "report_period_code": "20260930",
@@ -10,13 +10,13 @@
       "theme": "存储",
       "summary": {
         "total": 5,
-        "reported": 1,
-        "scheduled": 4,
+        "reported": 2,
+        "scheduled": 3,
         "pending": 0,
-        "positive_reports": 1,
+        "positive_reports": 2,
         "weak_reports": 0,
-        "median_revenue_yoy_pct": 328.81,
-        "median_net_profit_yoy_pct": 32399.91,
+        "median_revenue_yoy_pct": 279.56,
+        "median_net_profit_yoy_pct": 30564.01,
         "breadth": "positive"
       },
       "companies": [
@@ -71,18 +71,18 @@
         {
           "code": "688525",
           "name": "佰维存储",
-          "status": "scheduled",
-          "announcement_date": null,
+          "status": "reported",
+          "announcement_date": "2026-10-29",
           "scheduled_date": "2026-10-29",
-          "revenue": null,
-          "revenue_yoy_pct": null,
-          "net_profit": null,
-          "net_profit_yoy_pct": null,
-          "gross_margin_pct": null,
-          "earnings_signal": "not_reported",
-          "industry": null,
-          "source": "东方财富 via AKShare",
-          "reason": "future-dated report row withheld to prevent look-ahead"
+          "revenue": 21717176023.44,
+          "revenue_yoy_pct": 230.2950441916,
+          "net_profit": 8767768664.37,
+          "net_profit_yoy_pct": 28728.12,
+          "gross_margin_pct": 51.4163701049,
+          "earnings_signal": "strong_growth",
+          "industry": "半导体",
+          "source": "东方财富 via AKShare + 公告确认",
+          "reason": null
         },
         {
           "code": "688008",
@@ -106,14 +106,14 @@
       "theme": "AI光通信 / CPO",
       "summary": {
         "total": 3,
-        "reported": 0,
-        "scheduled": 3,
+        "reported": 1,
+        "scheduled": 2,
         "pending": 0,
-        "positive_reports": 0,
+        "positive_reports": 1,
         "weak_reports": 0,
-        "median_revenue_yoy_pct": null,
-        "median_net_profit_yoy_pct": null,
-        "breadth": "awaiting_reports"
+        "median_revenue_yoy_pct": 21.25,
+        "median_net_profit_yoy_pct": 42.18,
+        "breadth": "positive"
       },
       "companies": [
         {
@@ -151,18 +151,18 @@
         {
           "code": "300394",
           "name": "天孚通信",
-          "status": "scheduled",
-          "announcement_date": null,
+          "status": "reported",
+          "announcement_date": "2026-10-29",
           "scheduled_date": "2026-10-29",
-          "revenue": null,
-          "revenue_yoy_pct": null,
-          "net_profit": null,
-          "net_profit_yoy_pct": null,
-          "gross_margin_pct": null,
-          "earnings_signal": "not_reported",
-          "industry": null,
-          "source": "东方财富 via AKShare",
-          "reason": "future-dated report row withheld to prevent look-ahead"
+          "revenue": 4751099905.0,
+          "revenue_yoy_pct": 21.250922103,
+          "net_profit": 2083459571.46,
+          "net_profit_yoy_pct": 42.18,
+          "gross_margin_pct": 62.5614236312,
+          "earnings_signal": "strong_growth",
+          "industry": "通信设备",
+          "source": "东方财富 via AKShare + 公告确认",
+          "reason": null
         }
       ]
     },
@@ -314,13 +314,13 @@
       "theme": "被动元件",
       "summary": {
         "total": 3,
-        "reported": 1,
-        "scheduled": 2,
+        "reported": 2,
+        "scheduled": 1,
         "pending": 0,
-        "positive_reports": 1,
+        "positive_reports": 2,
         "weak_reports": 0,
-        "median_revenue_yoy_pct": 41.15,
-        "median_net_profit_yoy_pct": 180.9,
+        "median_revenue_yoy_pct": 58.94,
+        "median_net_profit_yoy_pct": 139.12,
         "breadth": "positive"
       },
       "companies": [
@@ -343,18 +343,18 @@
         {
           "code": "300408",
           "name": "三环集团",
-          "status": "scheduled",
-          "announcement_date": null,
+          "status": "reported",
+          "announcement_date": "2026-10-29",
           "scheduled_date": "2026-10-29",
-          "revenue": null,
-          "revenue_yoy_pct": null,
-          "net_profit": null,
-          "net_profit_yoy_pct": null,
-          "gross_margin_pct": null,
-          "earnings_signal": "not_reported",
-          "industry": null,
-          "source": "东方财富 via AKShare",
-          "reason": "future-dated report row withheld to prevent look-ahead"
+          "revenue": 11502796095.24,
+          "revenue_yoy_pct": 76.7385401831,
+          "net_profit": 3865199634.0,
+          "net_profit_yoy_pct": 97.35,
+          "gross_margin_pct": 48.4725229629,
+          "earnings_signal": "strong_growth",
+          "industry": "元件",
+          "source": "东方财富 via AKShare + 公告确认",
+          "reason": null
         },
         {
           "code": "002138",
@@ -442,11 +442,11 @@
   "summary": {
     "themes": 6,
     "companies": 21,
-    "reported": 7,
-    "scheduled": 14
+    "reported": 10,
+    "scheduled": 11
   },
   "warnings": [
-    "withheld 25 same-day earnings rows without corroborating public financial-report notice"
+    "withheld 12 same-day earnings rows without corroborating public financial-report notice"
   ],
   "methodology": {
     "reported": "东方财富业绩报表 stock_yjbb_em via AKShare；未来公告日期不暴露财务字段；同日行必须在stock_notice_report财务报告公告中得到代码级确认。",
