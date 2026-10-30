@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-30T18:12:31+08:00",
+  "generated_at": "2026-10-30T19:24:50+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -66,7 +66,7 @@
       "change_pct": -8.58,
       "open": 111.0,
       "high": 92.37000274658203,
-      "low": 86.08999633789062,
+      "low": 86.08000183105469,
       "turnover": null,
       "as_of": "2026-10-30T09:30:00+08:00",
       "status": "fresh",
