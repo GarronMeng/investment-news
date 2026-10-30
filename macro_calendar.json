@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-30T14:32:05+08:00",
+  "generated_at": "2026-10-30T15:49:20+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
@@ -206,7 +206,7 @@
       "region": "欧元区",
       "title": "欧元区10月调和CPI年率-未季调初值(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": 3.9,
       "previous": 3.8,
       "importance": 2,
       "impact_channels": [
