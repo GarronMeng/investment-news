@@ -1,72 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-10-30T15:49:20+08:00",
+  "generated_at": "2026-10-30T18:16:33+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
-    {
-      "date": "2026-10-30",
-      "time": "18:00",
-      "type": "macro",
-      "category": "labor",
-      "region": "欧元区",
-      "title": "欧元区9月失业率(%)",
-      "actual": null,
-      "forecast": 6.4,
-      "previous": 6.4,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-10-30",
-      "time": "18:00",
-      "type": "macro",
-      "category": "growth",
-      "region": "欧元区",
-      "title": "欧元区第三季度季调后GDP季率初值(%)",
-      "actual": null,
-      "forecast": 0.2,
-      "previous": 0.6,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-10-30",
-      "time": "18:00",
-      "type": "macro",
-      "category": "growth",
-      "region": "欧元区",
-      "title": "欧元区第三季度季调后GDP年率初值(%)",
-      "actual": null,
-      "forecast": 1.1,
-      "previous": 1.2,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
     {
       "date": "2026-10-30",
       "time": "21:45",
@@ -119,7 +56,7 @@
       "actual": null,
       "forecast": null,
       "previous": 54.5,
-      "importance": 2,
+      "importance": null,
       "impact_channels": [
         "全球风险偏好",
         "AI资本开支预期",
@@ -227,7 +164,7 @@
       "region": "美国",
       "title": "美国10月ADP就业人数变动(万)",
       "actual": null,
-      "forecast": null,
+      "forecast": 7.5,
       "previous": 9.0,
       "importance": 2,
       "impact_channels": [
@@ -249,7 +186,7 @@
       "region": "美国",
       "title": "美国9月贸易帐(亿美元)",
       "actual": null,
-      "forecast": null,
+      "forecast": -1048.0,
       "previous": -1056.0,
       "importance": 2,
       "impact_channels": [
@@ -268,7 +205,7 @@
       "region": "美国",
       "title": "美国10月ISM非制造业PMI",
       "actual": null,
-      "forecast": null,
+      "forecast": 54.8,
       "previous": 54.9,
       "importance": 2,
       "impact_channels": [
@@ -444,9 +381,9 @@
       "region": "美国",
       "title": "美国10月失业率(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": 4.2,
       "previous": 4.2,
-      "importance": null,
+      "importance": 2,
       "impact_channels": [
         "美债收益率",
         "美元",
@@ -466,7 +403,7 @@
       "region": "美国",
       "title": "美国10月私营企业非农就业人数变动(万)",
       "actual": null,
-      "forecast": null,
+      "forecast": 6.3,
       "previous": 4.6,
       "importance": 2,
       "impact_channels": [
@@ -488,7 +425,7 @@
       "region": "美国",
       "title": "美国10月非农就业人口变动季调后(万)",
       "actual": null,
-      "forecast": null,
+      "forecast": 6.5,
       "previous": 2.9,
       "importance": 2,
       "impact_channels": [
@@ -570,8 +507,8 @@
     }
   ],
   "summary": {
-    "total": 26,
-    "macro": 23,
+    "total": 23,
+    "macro": 20,
     "global_earnings": 3,
     "high_importance": 0,
     "macro_days_ok": 11,
