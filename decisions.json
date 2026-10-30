@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generated_at": "2026-10-30T13:57:13+08:00",
+  "generated_at": "2026-10-30T15:46:38+08:00",
   "source": {
     "data_generated_at": "2026-10-30 13:55",
     "ai_generated_at": "2026-08-26 13:33",
     "ai_source_generated_at": "2026-08-26 12:26",
-    "features_generated_at": "2026-10-30T13:57:02+08:00",
+    "features_generated_at": "2026-10-30T15:46:31+08:00",
     "fresh_ai": false
   },
   "decisions": [
@@ -156,7 +156,7 @@
     {
       "asset": "161226",
       "name": "国投白银LOF",
-      "as_of": "2026-10-30",
+      "as_of": "2026-10-29",
       "bias": "bearish",
       "status": "market_watch",
       "event_score": 50.0,
@@ -166,7 +166,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.10451",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.091865",
       "confirmation": [
         "同时核对基金净值、场内价格和溢价率",
         "银价上涨时场内溢价未继续扩大"
