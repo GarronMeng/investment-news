@@ -1,76 +1,76 @@
 {
   "version": 1,
-  "generated_at": "2026-10-29T22:15:29+08:00",
+  "generated_at": "2026-10-30T15:43:48+08:00",
   "timezone": "Asia/Shanghai",
   "breadth": {
     "total": 5576,
-    "up": 781,
-    "down": 4727,
-    "flat": 68,
-    "advance_ratio": 0.1401,
-    "limit_up": 50,
-    "limit_down": 175,
-    "touched_limit_up": 130,
-    "broken_limit_up": 80,
-    "seal_rate": 0.3846,
-    "turnover": 1570362232360.0,
+    "up": 891,
+    "down": 4602,
+    "flat": 83,
+    "advance_ratio": 0.1598,
+    "limit_up": 64,
+    "limit_down": 226,
+    "touched_limit_up": 176,
+    "broken_limit_up": 112,
+    "seal_rate": 0.3636,
+    "turnover": 1687433215206.0,
     "turnover_coverage": 1.0
   },
   "indices": [
     {
       "symbol": "sh000001",
       "name": "上证指数",
-      "price": 3651.43,
-      "change_pct": -0.82,
+      "price": 3599.02,
+      "change_pct": -1.44,
       "source": "腾讯行情"
     },
     {
       "symbol": "sz399001",
       "name": "深证成指",
-      "price": 11138.2,
-      "change_pct": -2.92,
+      "price": 10833.78,
+      "change_pct": -2.73,
       "source": "腾讯行情"
     },
     {
       "symbol": "sz399006",
       "name": "创业板指",
-      "price": 2517.59,
-      "change_pct": -4.45,
+      "price": 2413.63,
+      "change_pct": -4.13,
       "source": "腾讯行情"
     },
     {
       "symbol": "sh000688",
       "name": "科创50",
-      "price": 1228.09,
-      "change_pct": -4.27,
+      "price": 1160.84,
+      "change_pct": -5.48,
       "source": "腾讯行情"
     },
     {
       "symbol": "sh000300",
       "name": "沪深300",
-      "price": 4041.84,
-      "change_pct": -1.03,
+      "price": 3985.5,
+      "change_pct": -1.39,
       "source": "腾讯行情"
     },
     {
       "symbol": "sh000905",
       "name": "中证500",
-      "price": 6453.72,
-      "change_pct": -2.82,
+      "price": 6266.19,
+      "change_pct": -2.91,
       "source": "腾讯行情"
     },
     {
       "symbol": "hkHSI",
       "name": "恒生指数",
-      "price": 22958.65,
-      "change_pct": -0.59,
+      "price": 23316.35,
+      "change_pct": 1.56,
       "source": "腾讯行情"
     },
     {
       "symbol": "hkHSTECH",
       "name": "恒生科技指数",
-      "price": 3744.14,
-      "change_pct": -2.84,
+      "price": 3758.97,
+      "change_pct": 0.4,
       "source": "腾讯行情"
     }
   ],
@@ -393,11 +393,11 @@
   "regime": {
     "label": "Risk-off",
     "code": "risk_off",
-    "score": -87.8,
+    "score": -85.2,
     "components": {
-      "breadth": -90.0,
+      "breadth": -85.0,
       "indices": -100.0,
-      "limit_structure": -55.6
+      "limit_structure": -55.9
     },
     "methodology": "市场广度55% + 核心指数30% + 涨跌停结构15%；仅用于状态分类，不是收益概率。"
   },
@@ -411,14 +411,12 @@
       "status": "fresh"
     },
     "sectors": {
-      "status": "fresh",
-      "source": "同花顺 via AKShare",
-      "fallback": true
+      "status": "stale",
+      "error": "sectors unavailable"
     },
     "industry_flow": {
-      "status": "fresh",
-      "source": "同花顺 via AKShare",
-      "fallback": true
+      "status": "stale",
+      "error": "industry_flow unavailable"
     },
     "etf_activity": {
       "status": "stale",
@@ -426,12 +424,11 @@
     }
   },
   "warnings": [
-    "breadth: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
-    "sectors: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+    "breadth: 东方财富 push2 行情服务器断开了连接，通常是短时间内请求过多，当前 IP 被临时限流。首次限流一般约 5 分钟后恢复，反复触发后可能需要 40 分钟以上；等待期间不要重复调用东方财富的行情接口，否则会延长限流。",
+    "sectors: 东方财富 push2 行情服务器断开了连接，通常是短时间内请求过多，当前 IP 被临时限流。首次限流一般约 5 分钟后恢复，反复触发后可能需要 40 分钟以上；等待期间不要重复调用东方财富的行情接口，否则会延长限流。",
     "industry_flow: Expecting value: line 1 column 1 (char 0)",
     "etf_activity: 502 Server Error: Bad Gateway for url: https://push2delay.eastmoney.com/api/qt/clist/get?pn=1&pz=100&po=1&np=1&ut=bd1d9ddb04089700cf9c27f6f7426281&fltt=2&invt=2&wbp2u=%7C0%7C0%7C0%7Cweb&fid=f12&fs=b%3AMK0021%2Cb%3AMK0022%2Cb%3AMK0023%2Cb%3AMK0024%2Cb%3AMK0827&fields=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6%2Cf7%2Cf8%2Cf9%2Cf10%2Cf12%2Cf13%2Cf14%2Cf15%2Cf16%2Cf17%2Cf18%2Cf20%2Cf21%2Cf23%2Cf24%2Cf25%2Cf22%2Cf11%2Cf30%2Cf31%2Cf32%2Cf33%2Cf34%2Cf35%2Cf38%2Cf62%2Cf63%2Cf64%2Cf65%2Cf66%2Cf69%2Cf72%2Cf75%2Cf78%2Cf81%2Cf84%2Cf87%2Cf115%2Cf124%2Cf128%2Cf136%2Cf152%2Cf184%2Cf297%2Cf402%2Cf441",
-    "sectors primary unavailable; using 同花顺 via AKShare fallback",
-    "industry_flow primary unavailable; using 同花顺 via AKShare fallback",
+    "industry_fallback_ths: HTTPConnectionPool(host='data.10jqka.com.cn', port=80): Read timed out.",
     "breadth primary source unavailable; using 新浪财经 via AKShare fallback"
   ],
   "methodology": {
