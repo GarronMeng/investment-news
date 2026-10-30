@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-29T22:44:49+08:00",
+  "generated_at": "2026-10-30T10:55:59+08:00",
   "timezone": "Asia/Shanghai",
   "status": "fresh",
   "report_period_code": "20260930",
@@ -34,7 +34,7 @@
           "earnings_signal": "not_reported",
           "industry": null,
           "source": "东方财富 via AKShare",
-          "reason": "future-dated report row withheld to prevent look-ahead"
+          "reason": null
         },
         {
           "code": "001309",
@@ -66,7 +66,7 @@
           "earnings_signal": "not_reported",
           "industry": null,
           "source": "东方财富 via AKShare",
-          "reason": "future-dated report row withheld to prevent look-ahead"
+          "reason": null
         },
         {
           "code": "688525",
@@ -98,7 +98,7 @@
           "earnings_signal": "not_reported",
           "industry": null,
           "source": "东方财富 via AKShare",
-          "reason": "future-dated report row withheld to prevent look-ahead"
+          "reason": null
         }
       ]
     },
@@ -130,7 +130,7 @@
           "earnings_signal": "not_reported",
           "industry": null,
           "source": "东方财富 via AKShare",
-          "reason": "future-dated report row withheld to prevent look-ahead"
+          "reason": null
         },
         {
           "code": "300502",
@@ -146,7 +146,7 @@
           "earnings_signal": "not_reported",
           "industry": null,
           "source": "东方财富 via AKShare",
-          "reason": "future-dated report row withheld to prevent look-ahead"
+          "reason": null
         },
         {
           "code": "300394",
@@ -242,7 +242,7 @@
           "earnings_signal": "not_reported",
           "industry": null,
           "source": "东方财富 via AKShare",
-          "reason": "future-dated report row withheld to prevent look-ahead"
+          "reason": null
         }
       ]
     },
@@ -306,7 +306,7 @@
           "earnings_signal": "not_reported",
           "industry": null,
           "source": "东方财富 via AKShare",
-          "reason": "future-dated report row withheld to prevent look-ahead"
+          "reason": null
         }
       ]
     },
@@ -370,7 +370,7 @@
           "earnings_signal": "not_reported",
           "industry": null,
           "source": "东方财富 via AKShare",
-          "reason": "future-dated report row withheld to prevent look-ahead"
+          "reason": null
         }
       ]
     },
@@ -446,7 +446,8 @@
     "scheduled": 11
   },
   "warnings": [
-    "withheld 37 same-day earnings rows without corroborating public financial-report notice"
+    "stock_notice_report 20261030: Expecting value: line 1 column 1 (char 0); same-day financial rows withheld",
+    "withheld 1218 same-day earnings rows without corroborating public financial-report notice"
   ],
   "methodology": {
     "reported": "东方财富业绩报表 stock_yjbb_em via AKShare；未来公告日期不暴露财务字段；同日行必须在stock_notice_report财务报告公告中得到代码级确认。",
