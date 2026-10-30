@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated_at": "2026-10-30T15:46:31+08:00",
+  "generated_at": "2026-10-30T18:14:15+08:00",
   "timezone": "Asia/Shanghai",
   "benchmark": {
     "code": "510300",
@@ -1289,18 +1289,9 @@
       "kind": "stock",
       "status": "fresh",
       "source": "新浪财经 via AKShare",
-      "last_date": "2026-10-29",
+      "last_date": "2026-10-30",
       "observations": 140,
       "rows": [
-        {
-          "date": "2026-04-02",
-          "open": 257.86,
-          "high": 259.8,
-          "low": 245.6,
-          "close": 246.99,
-          "volume": 25297431.0,
-          "amount": 6367107416.0
-        },
         {
           "date": "2026-04-03",
           "open": 250.99,
@@ -2551,6 +2542,15 @@
           "close": 275.99,
           "volume": 35438643.0,
           "amount": 9912559654.0
+        },
+        {
+          "date": "2026-10-30",
+          "open": 260.89,
+          "high": 274.59,
+          "low": 257.6,
+          "close": 257.8,
+          "volume": 37671568.0,
+          "amount": 10016625735.0
         }
       ],
       "fallback_reason": "stock_zh_a_hist() got an unexpected keyword argument 'timeout'"
@@ -2562,18 +2562,9 @@
       "kind": "stock",
       "status": "fresh",
       "source": "新浪财经 via AKShare",
-      "last_date": "2026-10-29",
+      "last_date": "2026-10-30",
       "observations": 140,
       "rows": [
-        {
-          "date": "2026-04-02",
-          "open": 378.88,
-          "high": 379.6,
-          "low": 358.2,
-          "close": 360.15,
-          "volume": 18972555.0,
-          "amount": 6941387994.0
-        },
         {
           "date": "2026-04-03",
           "open": 364.8,
@@ -3824,6 +3815,15 @@
           "close": 215.4,
           "volume": 18463243.0,
           "amount": 4079670080.0
+        },
+        {
+          "date": "2026-10-30",
+          "open": 209.0,
+          "high": 221.85,
+          "low": 205.89,
+          "close": 209.71,
+          "volume": 17575265.0,
+          "amount": 3787284849.0
         }
       ],
       "fallback_reason": "stock_zh_a_hist() got an unexpected keyword argument 'timeout'"
@@ -3835,18 +3835,9 @@
       "kind": "stock",
       "status": "fresh",
       "source": "新浪财经 via AKShare",
-      "last_date": "2026-10-29",
+      "last_date": "2026-10-30",
       "observations": 140,
       "rows": [
-        {
-          "date": "2026-04-02",
-          "open": 593.01,
-          "high": 596.77,
-          "low": 578.69,
-          "close": 582.0,
-          "volume": 17731014.0,
-          "amount": 10393303258.0
-        },
         {
           "date": "2026-04-03",
           "open": 600.0,
@@ -5097,6 +5088,15 @@
           "close": 582.05,
           "volume": 32533114.0,
           "amount": 19475976073.0
+        },
+        {
+          "date": "2026-10-30",
+          "open": 545.7,
+          "high": 585.0,
+          "low": 537.0,
+          "close": 553.0,
+          "volume": 36696044.0,
+          "amount": 20655528853.0
         }
       ],
       "fallback_reason": "stock_zh_a_hist() got an unexpected keyword argument 'timeout'"
@@ -5108,18 +5108,9 @@
       "kind": "stock",
       "status": "fresh",
       "source": "新浪财经 via AKShare",
-      "last_date": "2026-10-29",
+      "last_date": "2026-10-30",
       "observations": 140,
       "rows": [
-        {
-          "date": "2026-04-02",
-          "open": 107.05,
-          "high": 109.8,
-          "low": 104.8,
-          "close": 106.25,
-          "volume": 44286916.0,
-          "amount": 4723640778.0
-        },
         {
           "date": "2026-04-03",
           "open": 108.59,
@@ -6370,6 +6361,15 @@
           "close": 94.14,
           "volume": 71376625.0,
           "amount": 6940619284.0
+        },
+        {
+          "date": "2026-10-30",
+          "open": 90.01,
+          "high": 92.37,
+          "low": 86.06,
+          "close": 86.06,
+          "volume": 81357628.0,
+          "amount": 7217036243.0
         }
       ],
       "fallback_reason": "stock_zh_a_hist() got an unexpected keyword argument 'timeout'"
@@ -6381,18 +6381,9 @@
       "kind": "stock",
       "status": "fresh",
       "source": "新浪财经 via AKShare",
-      "last_date": "2026-10-29",
+      "last_date": "2026-10-30",
       "observations": 140,
       "rows": [
-        {
-          "date": "2026-04-02",
-          "open": 9.31,
-          "high": 9.35,
-          "low": 8.75,
-          "close": 8.8,
-          "volume": 123643676.0,
-          "amount": 1115067170.0
-        },
         {
           "date": "2026-04-03",
           "open": 8.89,
@@ -7643,6 +7634,15 @@
           "close": 13.79,
           "volume": 177977952.0,
           "amount": 2479147471.0
+        },
+        {
+          "date": "2026-10-30",
+          "open": 13.0,
+          "high": 13.89,
+          "low": 12.75,
+          "close": 12.81,
+          "volume": 143372322.0,
+          "amount": 1899784266.0
         }
       ],
       "fallback_reason": "stock_zh_a_hist() got an unexpected keyword argument 'timeout'"
@@ -7654,18 +7654,9 @@
       "kind": "stock",
       "status": "fresh",
       "source": "新浪财经 via AKShare",
-      "last_date": "2026-10-29",
+      "last_date": "2026-10-30",
       "observations": 140,
       "rows": [
-        {
-          "date": "2026-04-02",
-          "open": 19.39,
-          "high": 19.4,
-          "low": 18.41,
-          "close": 18.62,
-          "volume": 38507910.0,
-          "amount": 725162637.0
-        },
         {
           "date": "2026-04-03",
           "open": 18.72,
@@ -8916,6 +8907,15 @@
           "close": 34.77,
           "volume": 64160000.0,
           "amount": 2286447176.0
+        },
+        {
+          "date": "2026-10-30",
+          "open": 33.01,
+          "high": 34.44,
+          "low": 31.85,
+          "close": 32.26,
+          "volume": 78318599.0,
+          "amount": 2583701472.0
         }
       ],
       "fallback_reason": "stock_zh_a_hist() got an unexpected keyword argument 'timeout'"
