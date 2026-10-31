@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-10-31T10:40:01+08:00",
-  "source_generated_at": "2026-10-31T10:40:01+08:00",
+  "generated_at": "2026-10-31T13:53:18+08:00",
+  "source_generated_at": "2026-10-31T13:53:18+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -71,22 +71,22 @@
       "observations": 140,
       "close": 209.71,
       "ma60": {
-        "value": 356.9152,
+        "value": 270.012,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.00835
+        "slope_pct": -0.004234
       },
-      "rsi14": 27.36,
-      "rsi_zone": "oversold",
+      "rsi14": 35.33,
+      "rsi_zone": "weak",
       "macd": {
-        "dif": -42.61209,
-        "dea": -43.91981,
-        "hist": 2.61544,
+        "dif": -14.86142,
+        "dea": -15.40785,
+        "hist": 1.09285,
         "state": "bullish",
-        "cross_age": 2
+        "cross_age": 6
       },
       "volume": {
-        "ratio20": 1.045,
+        "ratio20": 0.987,
         "state": "normal"
       },
       "breakout_20d": "inside_range",
@@ -304,7 +304,15 @@
       "condition_state": "conditions_not_met"
     }
   },
-  "state_changes": [],
+  "state_changes": [
+    {
+      "code": "001309",
+      "name": "德明利",
+      "field": "rsi_zone",
+      "from": "oversold",
+      "to": "weak"
+    }
+  ],
   "methodology": {
     "rsi14": "Wilder RSI(14)",
     "macd": "EMA12/EMA26 DIF, EMA9 signal, histogram=(DIF-DEA)*2",
