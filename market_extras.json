@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-31T10:41:28+08:00",
+  "generated_at": "2026-10-31T13:54:16+08:00",
   "timezone": "Asia/Shanghai",
   "southbound": {
     "status": "fresh",
@@ -35,8 +35,9 @@
       "hold": 182758.0,
       "volume": 94604.0,
       "time": "15:00:00",
-      "status": "fresh",
-      "source": "新浪财经 via AKShare"
+      "status": "stale",
+      "source": "新浪财经 via AKShare",
+      "error": "HTTPConnectionPool(host='vip.stock.finance.sina.com.cn', port=80): Read timed out. (read timeout=60)"
     },
     {
       "symbol": "上证50指数期货2612",
@@ -49,8 +50,9 @@
       "hold": 75788.0,
       "volume": 46306.0,
       "time": "15:00:00",
-      "status": "fresh",
-      "source": "新浪财经 via AKShare"
+      "status": "stale",
+      "source": "新浪财经 via AKShare",
+      "error": "HTTPConnectionPool(host='vip.stock.finance.sina.com.cn', port=80): Read timed out. (read timeout=60)"
     },
     {
       "symbol": "中证500指数期货2612",
@@ -63,8 +65,9 @@
       "hold": 187660.0,
       "volume": 152330.0,
       "time": "15:00:00",
-      "status": "fresh",
-      "source": "新浪财经 via AKShare"
+      "status": "stale",
+      "source": "新浪财经 via AKShare",
+      "error": "HTTPConnectionPool(host='vip.stock.finance.sina.com.cn', port=80): Read timed out. (read timeout=60)"
     },
     {
       "symbol": "中证1000指数期货2612",
@@ -77,11 +80,14 @@
       "hold": 304720.0,
       "volume": 275498.0,
       "time": "15:00:00",
-      "status": "fresh",
-      "source": "新浪财经 via AKShare"
+      "status": "stale",
+      "source": "新浪财经 via AKShare",
+      "error": "HTTPConnectionPool(host='vip.stock.finance.sina.com.cn', port=80): Read timed out. (read timeout=60)"
     }
   ],
-  "warnings": [],
+  "warnings": [
+    "cffex futures: HTTPConnectionPool(host='vip.stock.finance.sina.com.cn', port=80): Read timed out. (read timeout=60)"
+  ],
   "methodology": {
     "southbound": "东方财富沪深港通资金流向，经AKShare标准化；优先汇总南向/港股通成交净买额，失败时回退南向资金历史数据。单位亿元。",
     "index_futures": "新浪财经CFFEX主力金融期货经AKShare获取；仅对能与market_state中精确同名现货指数匹配的合约计算基差。",
