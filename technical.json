@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-10-31T17:59:37+08:00",
-  "source_generated_at": "2026-10-31T17:59:37+08:00",
+  "generated_at": "2026-10-31T21:42:38+08:00",
+  "source_generated_at": "2026-10-31T21:42:37+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -304,15 +304,7 @@
       "condition_state": "conditions_not_met"
     }
   },
-  "state_changes": [
-    {
-      "code": "001309",
-      "name": "德明利",
-      "field": "rsi_zone",
-      "from": "weak",
-      "to": "oversold"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "rsi14": "Wilder RSI(14)",
     "macd": "EMA12/EMA26 DIF, EMA9 signal, histogram=(DIF-DEA)*2",
