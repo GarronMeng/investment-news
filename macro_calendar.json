@@ -1,30 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-10-30T22:37:55+08:00",
+  "generated_at": "2026-10-31T10:42:43+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
-    {
-      "date": "2026-10-31",
-      "time": "09:30",
-      "type": "macro",
-      "category": "growth",
-      "region": "中国",
-      "title": "中国10月官方制造业PMI",
-      "actual": null,
-      "forecast": 50.0,
-      "previous": 50.1,
-      "importance": 2,
-      "impact_channels": [
-        "中国增长预期",
-        "行业盈利预期",
-        "人民币汇率"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
     {
       "date": "2026-11-02",
       "time": "23:00",
@@ -419,6 +398,30 @@
       "status": "scheduled"
     },
     {
+      "date": "2026-11-06",
+      "time": null,
+      "type": "global_earnings",
+      "category": "earnings",
+      "region": "US",
+      "title": "Moderna 财报发行",
+      "ticker": "MRNA",
+      "report_period": null,
+      "importance": 2,
+      "impact_channels": [
+        "产业链景气",
+        "海外映射",
+        "风险偏好"
+      ],
+      "themes": [
+        "创新药"
+      ],
+      "assets": [
+        "517380"
+      ],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
       "date": "2026-11-09",
       "time": "09:30",
       "type": "macro",
@@ -459,19 +462,494 @@
       "assets": [],
       "source": "百度股市通 via AKShare",
       "status": "scheduled"
+    },
+    {
+      "date": "2026-11-10",
+      "time": "00:00",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "美国",
+      "title": "美国10月纽约联储1年通胀预期(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 3.9,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-11-10",
+      "time": "00:00",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "美国",
+      "title": "美国10月纽约联储1年黄金涨幅预期(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 5.2,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-11-10",
+      "time": "00:00",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "美国",
+      "title": "美国10月纽约联储3年通胀预期(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 3.3,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-11-10",
+      "time": "00:00",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "美国",
+      "title": "美国11月纽约联储1年家庭支出增长预期(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 5.50851,
+      "importance": null,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-11-10",
+      "time": "00:00",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "美国",
+      "title": "美国11月纽约联储1年家庭收入增长预期(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 3.121219,
+      "importance": null,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-11-10",
+      "time": "00:00",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "美国",
+      "title": "美国11月纽约联储1年房价通胀预期(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 3.046946,
+      "importance": null,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-11-10",
+      "time": "00:00",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "美国",
+      "title": "美国11月纽约联储1年汽油通胀预期(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 4.79983,
+      "importance": null,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-11-10",
+      "time": "00:00",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "美国",
+      "title": "美国11月纽约联储1年通胀预期(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 3.902743,
+      "importance": null,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-11-10",
+      "time": "00:00",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "美国",
+      "title": "美国11月纽约联储1年黄金涨幅预期(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 5.157961,
+      "importance": null,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-11-10",
+      "time": "00:00",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "美国",
+      "title": "美国11月纽约联储3年通胀预期(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 3.25033,
+      "importance": null,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-11-10",
+      "time": "00:00",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "美国",
+      "title": "美国11月纽约联储未来3个月无法偿最低债平均预期(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 12.195913,
+      "importance": null,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-11-10",
+      "time": "10:30",
+      "type": "macro",
+      "category": "trade",
+      "region": "中国",
+      "title": "中国10月出口年率-人民币计价(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 29.6,
+      "importance": 2,
+      "impact_channels": [
+        "中国增长预期",
+        "行业盈利预期",
+        "人民币汇率"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-11-10",
+      "time": "10:30",
+      "type": "macro",
+      "category": "trade",
+      "region": "中国",
+      "title": "中国10月出口年率-美元计价(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 36.3,
+      "importance": 2,
+      "impact_channels": [
+        "中国增长预期",
+        "行业盈利预期",
+        "人民币汇率"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-11-10",
+      "time": "10:30",
+      "type": "macro",
+      "category": "trade",
+      "region": "中国",
+      "title": "中国10月贸易帐-人民币计价(亿元)",
+      "actual": null,
+      "forecast": null,
+      "previous": 9059.7,
+      "importance": 2,
+      "impact_channels": [
+        "中国增长预期",
+        "行业盈利预期",
+        "人民币汇率"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-11-10",
+      "time": "10:30",
+      "type": "macro",
+      "category": "trade",
+      "region": "中国",
+      "title": "中国10月贸易帐-美元计价(亿美元)",
+      "actual": null,
+      "forecast": null,
+      "previous": 1335.3,
+      "importance": 2,
+      "impact_channels": [
+        "中国增长预期",
+        "行业盈利预期",
+        "人民币汇率"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-11-10",
+      "time": "10:30",
+      "type": "macro",
+      "category": "trade",
+      "region": "中国",
+      "title": "中国10月进口年率-人民币计价(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 24.6,
+      "importance": 2,
+      "impact_channels": [
+        "中国增长预期",
+        "行业盈利预期",
+        "人民币汇率"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-11-10",
+      "time": "10:30",
+      "type": "macro",
+      "category": "trade",
+      "region": "中国",
+      "title": "中国10月进口年率-美元计价(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 31.0,
+      "importance": 2,
+      "impact_channels": [
+        "中国增长预期",
+        "行业盈利预期",
+        "人民币汇率"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-11-10",
+      "time": "16:00",
+      "type": "macro",
+      "category": "liquidity",
+      "region": "中国",
+      "title": "中国10月M2货币供应年率(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "A股流动性",
+        "人民币汇率",
+        "成长估值"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-11-10",
+      "time": "21:15",
+      "type": "macro",
+      "category": "labor",
+      "region": "美国",
+      "title": "美国截至10月24日当周ADP就业周度发布变动(万人)",
+      "actual": null,
+      "forecast": null,
+      "previous": 1.68,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-11-10",
+      "time": "21:30",
+      "type": "macro",
+      "category": "inflation",
+      "region": "美国",
+      "title": "美国10月CPI年率未季调(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 3.7,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-11-10",
+      "time": "21:30",
+      "type": "macro",
+      "category": "inflation",
+      "region": "美国",
+      "title": "美国10月核心CPI年率未季调(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 2.6,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-11-10",
+      "time": "21:30",
+      "type": "macro",
+      "category": "inflation",
+      "region": "美国",
+      "title": "美国10月能源CPI年率-未季调(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": 20.4,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
     }
   ],
   "summary": {
-    "total": 21,
-    "macro": 19,
-    "global_earnings": 2,
+    "total": 43,
+    "macro": 40,
+    "global_earnings": 3,
     "high_importance": 0,
     "macro_days_ok": 11,
-    "report_days_ok": 10
+    "report_days_ok": 11
   },
-  "warnings": [
-    "news_report_time_baidu 20261106: Failed to obtain Baidu cookies: Network request failed: HTTP Error 500: Internal Server Error"
-  ],
+  "warnings": [],
   "methodology": {
     "macro": "百度股市通全球宏观日历 via AKShare；保留重要性>=3及少量核心importance-2宏观数据，过滤每日持仓/仓单等例行噪声，并剔除已过时的当日时点。",
     "global_earnings": "百度股市通财报发行 via AKShare；仅保留global_catalyst_universe.json中的公开研究公司。",
