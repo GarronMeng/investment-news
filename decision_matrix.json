@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-31T13:53:34+08:00",
+  "generated_at": "2026-10-31T17:59:46+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -113,9 +113,9 @@
       "as_of": "2026-10-30",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -56.4,
+      "composite_score": -55.4,
       "coverage": 65.0,
-      "confluence": 86.9,
+      "confluence": 86.6,
       "available_layers": 3,
       "opposing_weight_share": 0.0,
       "evidence_state": "multi_layer_confirmed",
@@ -131,15 +131,15 @@
         },
         "technical": {
           "available": true,
-          "score": -34.0,
+          "score": -26.0,
           "confidence": "high",
-          "evidence": "MA60 below/falling；MACD bullish；RSI 35.33 (weak)；量能 normal；20日结构 inside_range。"
+          "evidence": "MA60 below/falling；MACD bullish；RSI 27.36 (oversold)；量能 normal；20日结构 inside_range。"
         },
         "relative_strength": {
           "available": true,
-          "score": -90.3,
+          "score": -99.0,
           "confidence": "high",
-          "evidence": "5日相对强弱 -0.137456；20日相对强弱 -0.155982。"
+          "evidence": "5日相对强弱 -0.137456；20日相对强弱 -0.368654。"
         },
         "industry": {
           "available": true,
@@ -167,13 +167,13 @@
         "negative": [
           {
             "layer": "relative_strength",
-            "score": -90.3,
-            "evidence": "5日相对强弱 -0.137456；20日相对强弱 -0.155982。"
+            "score": -99.0,
+            "evidence": "5日相对强弱 -0.137456；20日相对强弱 -0.368654。"
           },
           {
-            "layer": "technical",
-            "score": -34.0,
-            "evidence": "MA60 below/falling；MACD bullish；RSI 35.33 (weak)；量能 normal；20日结构 inside_range。"
+            "layer": "industry",
+            "score": -56.1,
+            "evidence": "半导体 涨跌-5.44%/净流-41.0亿"
           }
         ]
       },
@@ -187,7 +187,7 @@
       ],
       "excluded_layers": [],
       "positive_direction_mass": 0.0,
-      "negative_direction_mass": 36.7,
+      "negative_direction_mass": 36.0,
       "conflict_score": 0.0
     },
     "300308": {
