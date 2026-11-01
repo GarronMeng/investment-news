@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-01T10:31:52+08:00",
+  "generated_at": "2026-11-01T14:19:11+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
@@ -12,7 +12,7 @@
       "region": "美国",
       "title": "美国10月ISM制造业PMI",
       "actual": null,
-      "forecast": 54.7,
+      "forecast": 54.6,
       "previous": 54.5,
       "importance": 2,
       "impact_channels": [
@@ -122,7 +122,7 @@
       "region": "美国",
       "title": "美国10月ADP就业人数变动(万)",
       "actual": null,
-      "forecast": 7.5,
+      "forecast": 6.5,
       "previous": 9.0,
       "importance": 2,
       "impact_channels": [
@@ -144,7 +144,7 @@
       "region": "美国",
       "title": "美国9月贸易帐(亿美元)",
       "actual": null,
-      "forecast": -1048.0,
+      "forecast": -1080.0,
       "previous": -1056.0,
       "importance": 2,
       "impact_channels": [
@@ -205,7 +205,7 @@
       "region": "美国",
       "title": "美国截至10月31日当周初请失业金人数(万)",
       "actual": null,
-      "forecast": null,
+      "forecast": 19.5,
       "previous": 19.4,
       "importance": 2,
       "impact_channels": [
@@ -296,7 +296,7 @@
       "region": "欧元区",
       "title": "欧元区9月零售销售月率(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": -0.1,
       "previous": 0.1,
       "importance": 2,
       "impact_channels": [
