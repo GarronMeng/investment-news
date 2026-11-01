@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-31T21:45:22+08:00",
+  "generated_at": "2026-11-01T10:31:52+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
@@ -939,11 +939,32 @@
       "assets": [],
       "source": "百度股市通 via AKShare",
       "status": "scheduled"
+    },
+    {
+      "date": "2026-11-11",
+      "time": "05:30",
+      "type": "macro",
+      "category": "energy",
+      "region": "美国",
+      "title": "美国截至11月6日当周API原油库存变动(万桶)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "原油",
+        "通胀预期",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
     }
   ],
   "summary": {
-    "total": 43,
-    "macro": 40,
+    "total": 44,
+    "macro": 41,
     "global_earnings": 3,
     "high_importance": 0,
     "macro_days_ok": 11,
