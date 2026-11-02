@@ -1,30 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-11-02T21:36:35+08:00",
+  "generated_at": "2026-11-03T01:12:51+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
-    {
-      "date": "2026-11-02",
-      "time": "23:00",
-      "type": "macro",
-      "category": "growth",
-      "region": "美国",
-      "title": "美国10月ISM制造业PMI",
-      "actual": null,
-      "forecast": 54.6,
-      "previous": 54.5,
-      "importance": 2,
-      "impact_channels": [
-        "全球风险偏好",
-        "AI资本开支预期",
-        "美元"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
     {
       "date": "2026-11-03",
       "time": null,
@@ -1133,11 +1112,161 @@
       ],
       "source": "百度股市通 via AKShare",
       "status": "scheduled"
+    },
+    {
+      "date": "2026-11-13",
+      "time": "01:00",
+      "type": "macro",
+      "category": "energy",
+      "region": "美国",
+      "title": "美国截至11月6日当周EIA原油库存变动(万桶)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "原油",
+        "通胀预期",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-11-13",
+      "time": "05:30",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "美国",
+      "title": "美国截至11月11日美联储资产负债表(万亿美元)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-11-13",
+      "time": "18:00",
+      "type": "macro",
+      "category": "trade",
+      "region": "欧元区",
+      "title": "欧元区10月季调后贸易帐(亿欧元)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-11-13",
+      "time": "18:00",
+      "type": "macro",
+      "category": "growth",
+      "region": "欧元区",
+      "title": "欧元区第三季度季调后GDP季率修正值(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-11-13",
+      "time": "18:00",
+      "type": "macro",
+      "category": "growth",
+      "region": "欧元区",
+      "title": "欧元区第三季度季调后GDP年率修正值(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-11-13",
+      "time": "21:30",
+      "type": "macro",
+      "category": "inflation",
+      "region": "美国",
+      "title": "美国10月PPI年率(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-11-13",
+      "time": "21:30",
+      "type": "macro",
+      "category": "inflation",
+      "region": "美国",
+      "title": "美国10月核心PPI年率(%)",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
     }
   ],
   "summary": {
-    "total": 52,
-    "macro": 48,
+    "total": 58,
+    "macro": 54,
     "global_earnings": 4,
     "high_importance": 0,
     "macro_days_ok": 11,
