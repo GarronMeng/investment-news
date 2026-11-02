@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-11-02T14:18:06+08:00",
-  "source_generated_at": "2026-11-02T14:18:06+08:00",
+  "generated_at": "2026-11-02T19:34:03+08:00",
+  "source_generated_at": "2026-11-02T19:34:02+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -36,57 +36,57 @@
     "603986": {
       "code": "603986",
       "name": "兆易创新",
-      "as_of": "2026-10-30",
+      "as_of": "2026-11-02",
       "source_status": "fresh",
       "observations": 140,
-      "close": 257.8,
+      "close": 265.67,
       "ma60": {
-        "value": 360.916,
+        "value": 359.0338,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.005205
+        "slope_pct": -0.005215
       },
-      "rsi14": 31.81,
+      "rsi14": 35.15,
       "rsi_zone": "weak",
       "macd": {
-        "dif": -26.60607,
-        "dea": -26.79904,
-        "hist": 0.38594,
+        "dif": -26.17346,
+        "dea": -26.67394,
+        "hist": 1.00097,
         "state": "bullish",
-        "cross_age": 2
+        "cross_age": 3
       },
       "volume": {
-        "ratio20": 1.21,
+        "ratio20": 1.098,
         "state": "normal"
       },
-      "breakout_20d": "new_low_20d",
+      "breakout_20d": "inside_range",
       "data_quality": "usable",
       "condition_state": "conditions_not_met"
     },
     "001309": {
       "code": "001309",
       "name": "德明利",
-      "as_of": "2026-10-30",
+      "as_of": "2026-11-02",
       "source_status": "fresh",
       "observations": 140,
-      "close": 209.71,
+      "close": 207.78,
       "ma60": {
-        "value": 356.9152,
+        "value": 353.9465,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.00835
+        "slope_pct": -0.008318
       },
-      "rsi14": 27.36,
+      "rsi14": 27.05,
       "rsi_zone": "oversold",
       "macd": {
-        "dif": -42.61209,
-        "dea": -43.91981,
-        "hist": 2.61544,
+        "dif": -41.95041,
+        "dea": -43.52662,
+        "hist": 3.15243,
         "state": "bullish",
-        "cross_age": 2
+        "cross_age": 3
       },
       "volume": {
-        "ratio20": 1.045,
+        "ratio20": 1.06,
         "state": "normal"
       },
       "breakout_20d": "inside_range",
@@ -96,120 +96,120 @@
     "300308": {
       "code": "300308",
       "name": "中际旭创",
-      "as_of": "2026-10-30",
+      "as_of": "2026-11-02",
       "source_status": "fresh",
       "observations": 140,
-      "close": 553.0,
+      "close": 550.0,
       "ma60": {
-        "value": 827.0828,
+        "value": 821.216,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.006228
+        "slope_pct": -0.007093
       },
-      "rsi14": 29.26,
+      "rsi14": 29.03,
       "rsi_zone": "oversold",
       "macd": {
-        "dif": -73.89412,
-        "dea": -68.67231,
-        "hist": -10.44363,
+        "dif": -74.62496,
+        "dea": -69.86319,
+        "hist": -9.52355,
         "state": "bearish",
-        "cross_age": 18
+        "cross_age": 19
       },
       "volume": {
-        "ratio20": 1.304,
+        "ratio20": 1.197,
         "state": "normal"
       },
-      "breakout_20d": "new_low_20d",
+      "breakout_20d": "inside_range",
       "data_quality": "usable",
       "condition_state": "conditions_not_met"
     },
     "002384": {
       "code": "002384",
       "name": "东山精密",
-      "as_of": "2026-10-30",
+      "as_of": "2026-11-02",
       "source_status": "fresh",
       "observations": 140,
-      "close": 86.06,
+      "close": 92.2,
       "ma60": {
-        "value": 170.4863,
+        "value": 169.165,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.00735
+        "slope_pct": -0.00775
       },
-      "rsi14": 17.39,
+      "rsi14": 23.64,
       "rsi_zone": "oversold",
       "macd": {
-        "dif": -22.06678,
-        "dea": -19.71753,
-        "hist": -4.69851,
+        "dif": -21.98576,
+        "dea": -20.17114,
+        "hist": -3.62926,
         "state": "bearish",
-        "cross_age": 19
+        "cross_age": 20
       },
       "volume": {
-        "ratio20": 1.334,
-        "state": "normal"
+        "ratio20": 2.002,
+        "state": "expansion"
       },
-      "breakout_20d": "new_low_20d",
+      "breakout_20d": "inside_range",
       "data_quality": "usable",
       "condition_state": "conditions_not_met"
     },
     "600667": {
       "code": "600667",
       "name": "太极实业",
-      "as_of": "2026-10-30",
+      "as_of": "2026-11-02",
       "source_status": "fresh",
       "observations": 140,
-      "close": 12.81,
+      "close": 12.99,
       "ma60": {
-        "value": 18.2655,
+        "value": 18.1948,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.002594
+        "slope_pct": -0.003869
       },
-      "rsi14": 29.01,
-      "rsi_zone": "oversold",
+      "rsi14": 30.76,
+      "rsi_zone": "weak",
       "macd": {
-        "dif": -1.35586,
-        "dea": -1.25411,
-        "hist": -0.20349,
+        "dif": -1.36538,
+        "dea": -1.27637,
+        "hist": -0.17802,
         "state": "bearish",
-        "cross_age": 19
+        "cross_age": 20
       },
       "volume": {
-        "ratio20": 1.161,
+        "ratio20": 1.058,
         "state": "normal"
       },
-      "breakout_20d": "new_low_20d",
+      "breakout_20d": "inside_range",
       "data_quality": "usable",
       "condition_state": "conditions_not_met"
     },
     "000636": {
       "code": "000636",
       "name": "风华高科",
-      "as_of": "2026-10-30",
+      "as_of": "2026-11-02",
       "source_status": "fresh",
       "observations": 140,
-      "close": 32.26,
+      "close": 32.8,
       "ma60": {
-        "value": 51.2942,
+        "value": 51.0183,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.005892
+        "slope_pct": -0.005377
       },
-      "rsi14": 23.33,
+      "rsi14": 25.25,
       "rsi_zone": "oversold",
       "macd": {
-        "dif": -4.70147,
-        "dea": -4.02224,
-        "hist": -1.35848,
+        "dif": -4.8104,
+        "dea": -4.17987,
+        "hist": -1.26106,
         "state": "bearish",
-        "cross_age": 19
+        "cross_age": 20
       },
       "volume": {
-        "ratio20": 1.06,
+        "ratio20": 0.978,
         "state": "normal"
       },
-      "breakout_20d": "new_low_20d",
+      "breakout_20d": "inside_range",
       "data_quality": "usable",
       "condition_state": "conditions_not_met"
     },
@@ -304,7 +304,57 @@
       "condition_state": "conditions_not_met"
     }
   },
-  "state_changes": [],
+  "state_changes": [
+    {
+      "code": "603986",
+      "name": "兆易创新",
+      "field": "breakout_20d",
+      "from": "new_low_20d",
+      "to": "inside_range"
+    },
+    {
+      "code": "300308",
+      "name": "中际旭创",
+      "field": "breakout_20d",
+      "from": "new_low_20d",
+      "to": "inside_range"
+    },
+    {
+      "code": "002384",
+      "name": "东山精密",
+      "field": "volume",
+      "from": "normal",
+      "to": "expansion"
+    },
+    {
+      "code": "002384",
+      "name": "东山精密",
+      "field": "breakout_20d",
+      "from": "new_low_20d",
+      "to": "inside_range"
+    },
+    {
+      "code": "600667",
+      "name": "太极实业",
+      "field": "rsi_zone",
+      "from": "oversold",
+      "to": "weak"
+    },
+    {
+      "code": "600667",
+      "name": "太极实业",
+      "field": "breakout_20d",
+      "from": "new_low_20d",
+      "to": "inside_range"
+    },
+    {
+      "code": "000636",
+      "name": "风华高科",
+      "field": "breakout_20d",
+      "from": "new_low_20d",
+      "to": "inside_range"
+    }
+  ],
   "methodology": {
     "rsi14": "Wilder RSI(14)",
     "macd": "EMA12/EMA26 DIF, EMA9 signal, histogram=(DIF-DEA)*2",
