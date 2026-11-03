@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-03T01:22:57+08:00",
+  "generated_at": "2026-11-03T14:42:46+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -28,7 +28,7 @@
       "as_of": "2026-11-02",
       "base_bias": "bearish",
       "matrix_direction": "neutral",
-      "composite_score": -14.5,
+      "composite_score": -14.6,
       "coverage": 75.0,
       "confluence": 21.8,
       "available_layers": 4,
@@ -71,9 +71,9 @@
         },
         "market_context": {
           "available": true,
-          "score": 49.1,
+          "score": 49.0,
           "confidence": "medium",
-          "evidence": "regime=risk_on；上涨占比=0.8399；风险温度=48.5。"
+          "evidence": "regime=risk_on；上涨占比=0.8399；风险温度=48.8。"
         }
       },
       "contributors": {
@@ -85,8 +85,8 @@
           },
           {
             "layer": "market_context",
-            "score": 49.1,
-            "evidence": "regime=risk_on；上涨占比=0.8399；风险温度=48.5。"
+            "score": 49.0,
+            "evidence": "regime=risk_on；上涨占比=0.8399；风险温度=48.8。"
           }
         ],
         "negative": [
@@ -113,7 +113,7 @@
       "excluded_layers": [],
       "positive_direction_mass": 13.0,
       "negative_direction_mass": 23.9,
-      "conflict_score": 70.5
+      "conflict_score": 70.4
     },
     "001309": {
       "code": "001309",
@@ -168,9 +168,9 @@
         },
         "market_context": {
           "available": true,
-          "score": 49.1,
+          "score": 49.0,
           "confidence": "medium",
-          "evidence": "regime=risk_on；上涨占比=0.8399；风险温度=48.5。"
+          "evidence": "regime=risk_on；上涨占比=0.8399；风险温度=48.8。"
         }
       },
       "contributors": {
@@ -182,8 +182,8 @@
           },
           {
             "layer": "market_context",
-            "score": 49.1,
-            "evidence": "regime=risk_on；上涨占比=0.8399；风险温度=48.5。"
+            "score": 49.0,
+            "evidence": "regime=risk_on；上涨占比=0.8399；风险温度=48.8。"
           }
         ],
         "negative": [
@@ -262,17 +262,17 @@
         },
         "market_context": {
           "available": true,
-          "score": 49.1,
+          "score": 49.0,
           "confidence": "medium",
-          "evidence": "regime=risk_on；上涨占比=0.8399；风险温度=48.5。"
+          "evidence": "regime=risk_on；上涨占比=0.8399；风险温度=48.8。"
         }
       },
       "contributors": {
         "positive": [
           {
             "layer": "market_context",
-            "score": 49.1,
-            "evidence": "regime=risk_on；上涨占比=0.8399；风险温度=48.5。"
+            "score": 49.0,
+            "evidence": "regime=risk_on；上涨占比=0.8399；风险温度=48.8。"
           }
         ],
         "negative": [
@@ -352,17 +352,17 @@
         },
         "market_context": {
           "available": true,
-          "score": 49.1,
+          "score": 49.0,
           "confidence": "medium",
-          "evidence": "regime=risk_on；上涨占比=0.8399；风险温度=48.5。"
+          "evidence": "regime=risk_on；上涨占比=0.8399；风险温度=48.8。"
         }
       },
       "contributors": {
         "positive": [
           {
             "layer": "market_context",
-            "score": 49.1,
-            "evidence": "regime=risk_on；上涨占比=0.8399；风险温度=48.5。"
+            "score": 49.0,
+            "evidence": "regime=risk_on；上涨占比=0.8399；风险温度=48.8。"
           }
         ],
         "negative": [
@@ -389,7 +389,7 @@
       "excluded_layers": [],
       "positive_direction_mass": 4.9,
       "negative_direction_mass": 41.7,
-      "conflict_score": 21.1
+      "conflict_score": 21.0
     },
     "600667": {
       "code": "600667",
@@ -443,9 +443,9 @@
         },
         "market_context": {
           "available": true,
-          "score": 49.1,
+          "score": 49.0,
           "confidence": "medium",
-          "evidence": "regime=risk_on；上涨占比=0.8399；风险温度=48.5。"
+          "evidence": "regime=risk_on；上涨占比=0.8399；风险温度=48.8。"
         }
       },
       "contributors": {
@@ -457,8 +457,8 @@
           },
           {
             "layer": "market_context",
-            "score": 49.1,
-            "evidence": "regime=risk_on；上涨占比=0.8399；风险温度=48.5。"
+            "score": 49.0,
+            "evidence": "regime=risk_on；上涨占比=0.8399；风险温度=48.8。"
           }
         ],
         "negative": [
@@ -537,17 +537,17 @@
         },
         "market_context": {
           "available": true,
-          "score": 49.1,
+          "score": 49.0,
           "confidence": "medium",
-          "evidence": "regime=risk_on；上涨占比=0.8399；风险温度=48.5。"
+          "evidence": "regime=risk_on；上涨占比=0.8399；风险温度=48.8。"
         }
       },
       "contributors": {
         "positive": [
           {
             "layer": "market_context",
-            "score": 49.1,
-            "evidence": "regime=risk_on；上涨占比=0.8399；风险温度=48.5。"
+            "score": 49.0,
+            "evidence": "regime=risk_on；上涨占比=0.8399；风险温度=48.8。"
           }
         ],
         "negative": [
@@ -574,7 +574,7 @@
       "excluded_layers": [],
       "positive_direction_mass": 4.9,
       "negative_direction_mass": 41.4,
-      "conflict_score": 21.2
+      "conflict_score": 21.1
     },
     "161226": {
       "code": "161226",
@@ -745,7 +745,7 @@
       "as_of": "2026-11-02",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -23.6,
+      "composite_score": -23.7,
       "coverage": 60.0,
       "confluence": 59.6,
       "available_layers": 3,
@@ -787,17 +787,17 @@
         },
         "market_context": {
           "available": true,
-          "score": 49.1,
+          "score": 49.0,
           "confidence": "medium",
-          "evidence": "regime=risk_on；上涨占比=0.8399；风险温度=48.5。"
+          "evidence": "regime=risk_on；上涨占比=0.8399；风险温度=48.8。"
         }
       },
       "contributors": {
         "positive": [
           {
             "layer": "market_context",
-            "score": 49.1,
-            "evidence": "regime=risk_on；上涨占比=0.8399；风险温度=48.5。"
+            "score": 49.0,
+            "evidence": "regime=risk_on；上涨占比=0.8399；风险温度=48.8。"
           }
         ],
         "negative": [
@@ -824,7 +824,7 @@
       "excluded_layers": [],
       "positive_direction_mass": 4.9,
       "negative_direction_mass": 18.0,
-      "conflict_score": 42.9
+      "conflict_score": 42.8
     }
   },
   "ranking": [
