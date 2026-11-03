@@ -1,15 +1,15 @@
 {
   "version": 1,
-  "generated_at": "2026-11-03T19:26:18+08:00",
+  "generated_at": "2026-11-03T20:58:17+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
-    "confirmed": 6,
-    "supported": 3,
+    "confirmed": 7,
+    "supported": 2,
     "contradicted": 0,
     "conflicted": 0,
     "emerging": 0,
-    "insufficient": 3,
+    "insufficient": 2,
     "top_attention": [
       "603986",
       "001309",
@@ -28,14 +28,14 @@
       "as_of": "2026-11-03",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -86.6,
-      "coverage": 65.0,
-      "confluence": 96.0,
-      "available_layers": 3,
+      "composite_score": -78.7,
+      "coverage": 75.0,
+      "confluence": 93.6,
+      "available_layers": 4,
       "opposing_weight_share": 0.0,
       "evidence_state": "multi_layer_confirmed",
       "thesis_state": "confirmed",
-      "attention_score": 74.4,
+      "attention_score": 74.2,
       "research_focus": "验证持续性、行业扩散与后续基本面证据。",
       "layers": {
         "event": {
@@ -58,9 +58,9 @@
         },
         "industry": {
           "available": true,
-          "score": -67.2,
+          "score": -76.7,
           "confidence": "low",
-          "evidence": "半导体 涨跌-5.09%/净流-85.5亿",
+          "evidence": "半导体 涨跌-5.15%/净流-131.4亿",
           "matches": [
             "半导体"
           ],
@@ -70,10 +70,10 @@
           "mapping_mode": "explicit"
         },
         "market_context": {
-          "available": false,
-          "score": null,
-          "confidence": "none",
-          "evidence": "市场广度或核心指数非 fresh；环境层暂不参与当前矩阵。"
+          "available": true,
+          "score": -12.8,
+          "confidence": "medium",
+          "evidence": "regime=transition；上涨占比=0.3783；风险温度=61.4。"
         }
       },
       "contributors": {
@@ -101,7 +101,7 @@
       ],
       "excluded_layers": [],
       "positive_direction_mass": 0.0,
-      "negative_direction_mass": 56.3,
+      "negative_direction_mass": 57.7,
       "conflict_score": 0.0
     },
     "001309": {
@@ -113,14 +113,14 @@
       "as_of": "2026-11-03",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -63.7,
-      "coverage": 65.0,
-      "confluence": 89.1,
-      "available_layers": 3,
+      "composite_score": -58.8,
+      "coverage": 75.0,
+      "confluence": 87.6,
+      "available_layers": 4,
       "opposing_weight_share": 0.0,
       "evidence_state": "multi_layer_confirmed",
       "thesis_state": "confirmed",
-      "attention_score": 73.9,
+      "attention_score": 73.8,
       "research_focus": "验证持续性、行业扩散与后续基本面证据。",
       "layers": {
         "event": {
@@ -143,9 +143,9 @@
         },
         "industry": {
           "available": true,
-          "score": -67.2,
+          "score": -76.7,
           "confidence": "low",
-          "evidence": "半导体 涨跌-5.09%/净流-85.5亿",
+          "evidence": "半导体 涨跌-5.15%/净流-131.4亿",
           "matches": [
             "半导体"
           ],
@@ -156,10 +156,10 @@
           "mapping_mode": "explicit"
         },
         "market_context": {
-          "available": false,
-          "score": null,
-          "confidence": "none",
-          "evidence": "市场广度或核心指数非 fresh；环境层暂不参与当前矩阵。"
+          "available": true,
+          "score": -12.8,
+          "confidence": "medium",
+          "evidence": "regime=transition；上涨占比=0.3783；风险温度=61.4。"
         }
       },
       "contributors": {
@@ -171,9 +171,9 @@
             "evidence": "5日相对强弱 -0.15766；20日相对强弱 -0.424212。"
           },
           {
-            "layer": "technical",
-            "score": -38.0,
-            "evidence": "MA60 below/falling；MACD bullish；RSI 23.85 (oversold)；量能 normal；20日结构 new_low_20d。"
+            "layer": "industry",
+            "score": -76.7,
+            "evidence": "半导体 涨跌-5.15%/净流-131.4亿"
           }
         ]
       },
@@ -187,7 +187,7 @@
       ],
       "excluded_layers": [],
       "positive_direction_mass": 0.0,
-      "negative_direction_mass": 41.4,
+      "negative_direction_mass": 42.8,
       "conflict_score": 0.0
     },
     "300308": {
@@ -199,14 +199,14 @@
       "as_of": "2026-11-03",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -82.7,
-      "coverage": 65.0,
-      "confluence": 94.8,
-      "available_layers": 3,
+      "composite_score": -76.7,
+      "coverage": 75.0,
+      "confluence": 93.0,
+      "available_layers": 4,
       "opposing_weight_share": 0.0,
       "evidence_state": "multi_layer_confirmed",
       "thesis_state": "confirmed",
-      "attention_score": 72.3,
+      "attention_score": 72.2,
       "research_focus": "验证持续性、行业扩散与后续基本面证据。",
       "layers": {
         "event": {
@@ -229,9 +229,9 @@
         },
         "industry": {
           "available": true,
-          "score": -54.2,
+          "score": -70.6,
           "confidence": "low",
-          "evidence": "通信设备 涨跌-4.53%/净流-33.6亿",
+          "evidence": "通信设备 涨跌-4.41%/净流-100.9亿",
           "matches": [
             "通信设备"
           ],
@@ -241,10 +241,10 @@
           "mapping_mode": "explicit"
         },
         "market_context": {
-          "available": false,
-          "score": null,
-          "confidence": "none",
-          "evidence": "市场广度或核心指数非 fresh；环境层暂不参与当前矩阵。"
+          "available": true,
+          "score": -12.8,
+          "confidence": "medium",
+          "evidence": "regime=transition；上涨占比=0.3783；风险温度=61.4。"
         }
       },
       "contributors": {
@@ -272,7 +272,7 @@
       ],
       "excluded_layers": [],
       "positive_direction_mass": 0.0,
-      "negative_direction_mass": 53.8,
+      "negative_direction_mass": 56.2,
       "conflict_score": 0.0
     },
     "002384": {
@@ -284,14 +284,14 @@
       "as_of": "2026-11-03",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -77.4,
-      "coverage": 65.0,
-      "confluence": 93.2,
-      "available_layers": 3,
+      "composite_score": -70.0,
+      "coverage": 75.0,
+      "confluence": 91.0,
+      "available_layers": 4,
       "opposing_weight_share": 0.0,
       "evidence_state": "multi_layer_confirmed",
       "thesis_state": "confirmed",
-      "attention_score": 70.2,
+      "attention_score": 70.1,
       "research_focus": "验证持续性、行业扩散与后续基本面证据。",
       "layers": {
         "event": {
@@ -314,9 +314,9 @@
         },
         "industry": {
           "available": true,
-          "score": -56.0,
+          "score": -62.2,
           "confidence": "low",
-          "evidence": "元件 涨跌-5.13%/净流-40.4亿",
+          "evidence": "元件 涨跌-5.25%/净流-64.6亿",
           "matches": [
             "元件"
           ],
@@ -327,10 +327,10 @@
           "mapping_mode": "explicit"
         },
         "market_context": {
-          "available": false,
-          "score": null,
-          "confidence": "none",
-          "evidence": "市场广度或核心指数非 fresh；环境层暂不参与当前矩阵。"
+          "available": true,
+          "score": -12.8,
+          "confidence": "medium",
+          "evidence": "regime=transition；上涨占比=0.3783；风险温度=61.4。"
         }
       },
       "contributors": {
@@ -358,7 +358,7 @@
       ],
       "excluded_layers": [],
       "positive_direction_mass": 0.0,
-      "negative_direction_mass": 50.3,
+      "negative_direction_mass": 51.2,
       "conflict_score": 0.0
     },
     "600667": {
@@ -370,14 +370,14 @@
       "as_of": "2026-11-03",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -84.2,
-      "coverage": 65.0,
-      "confluence": 95.3,
-      "available_layers": 3,
+      "composite_score": -76.6,
+      "coverage": 75.0,
+      "confluence": 93.0,
+      "available_layers": 4,
       "opposing_weight_share": 0.0,
       "evidence_state": "multi_layer_confirmed",
       "thesis_state": "confirmed",
-      "attention_score": 70.4,
+      "attention_score": 70.2,
       "research_focus": "验证持续性、行业扩散与后续基本面证据。",
       "layers": {
         "event": {
@@ -400,9 +400,9 @@
         },
         "industry": {
           "available": true,
-          "score": -67.2,
+          "score": -76.7,
           "confidence": "low",
-          "evidence": "半导体 涨跌-5.09%/净流-85.5亿",
+          "evidence": "半导体 涨跌-5.15%/净流-131.4亿",
           "matches": [
             "半导体"
           ],
@@ -412,10 +412,10 @@
           "mapping_mode": "explicit"
         },
         "market_context": {
-          "available": false,
-          "score": null,
-          "confidence": "none",
-          "evidence": "市场广度或核心指数非 fresh；环境层暂不参与当前矩阵。"
+          "available": true,
+          "score": -12.8,
+          "confidence": "medium",
+          "evidence": "regime=transition；上涨占比=0.3783；风险温度=61.4。"
         }
       },
       "contributors": {
@@ -443,7 +443,7 @@
       ],
       "excluded_layers": [],
       "positive_direction_mass": 0.0,
-      "negative_direction_mass": 54.7,
+      "negative_direction_mass": 56.2,
       "conflict_score": 0.0
     },
     "000636": {
@@ -455,14 +455,14 @@
       "as_of": "2026-11-03",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -83.1,
-      "coverage": 65.0,
-      "confluence": 94.9,
-      "available_layers": 3,
+      "composite_score": -75.0,
+      "coverage": 75.0,
+      "confluence": 92.5,
+      "available_layers": 4,
       "opposing_weight_share": 0.0,
       "evidence_state": "multi_layer_confirmed",
       "thesis_state": "confirmed",
-      "attention_score": 70.3,
+      "attention_score": 70.2,
       "research_focus": "验证持续性、行业扩散与后续基本面证据。",
       "layers": {
         "event": {
@@ -485,9 +485,9 @@
         },
         "industry": {
           "available": true,
-          "score": -56.0,
+          "score": -62.2,
           "confidence": "low",
-          "evidence": "元件 涨跌-5.13%/净流-40.4亿",
+          "evidence": "元件 涨跌-5.25%/净流-64.6亿",
           "matches": [
             "元件"
           ],
@@ -497,10 +497,10 @@
           "mapping_mode": "explicit"
         },
         "market_context": {
-          "available": false,
-          "score": null,
-          "confidence": "none",
-          "evidence": "市场广度或核心指数非 fresh；环境层暂不参与当前矩阵。"
+          "available": true,
+          "score": -12.8,
+          "confidence": "medium",
+          "evidence": "regime=transition；上涨占比=0.3783；风险温度=61.4。"
         }
       },
       "contributors": {
@@ -528,7 +528,7 @@
       ],
       "excluded_layers": [],
       "positive_direction_mass": 0.0,
-      "negative_direction_mass": 54.0,
+      "negative_direction_mass": 55.0,
       "conflict_score": 0.0
     },
     "161226": {
@@ -700,15 +700,15 @@
       "as_of": "2026-11-03",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -53.3,
-      "coverage": 50.0,
-      "confluence": 86.0,
-      "available_layers": 2,
+      "composite_score": -46.5,
+      "coverage": 60.0,
+      "confluence": 84.0,
+      "available_layers": 3,
       "opposing_weight_share": 0.0,
-      "evidence_state": "insufficient",
-      "thesis_state": "supported",
-      "attention_score": 62.7,
-      "research_focus": "维持观察，等待更多层形成共振。",
+      "evidence_state": "multi_layer_confirmed",
+      "thesis_state": "confirmed",
+      "attention_score": 69.6,
+      "research_focus": "验证持续性、行业扩散与后续基本面证据。",
       "layers": {
         "event": {
           "available": false,
@@ -741,10 +741,10 @@
           "mapping_mode": "explicit"
         },
         "market_context": {
-          "available": false,
-          "score": null,
-          "confidence": "none",
-          "evidence": "市场广度或核心指数非 fresh；环境层暂不参与当前矩阵。"
+          "available": true,
+          "score": -12.8,
+          "confidence": "medium",
+          "evidence": "regime=transition；上涨占比=0.3783；风险温度=61.4。"
         }
       },
       "contributors": {
@@ -783,73 +783,24 @@
     "600667",
     "000636",
     "002384",
-    "161226",
     "517380",
+    "161226",
     "518880"
   ],
   "state_changes": [
     {
-      "code": "603986",
-      "name": "兆易创新",
-      "field": "matrix_direction",
-      "from": "neutral",
-      "to": "bearish"
-    },
-    {
-      "code": "603986",
-      "name": "兆易创新",
+      "code": "517380",
+      "name": "创新药沪港深ETF天弘",
       "field": "evidence_state",
-      "from": "conflict",
+      "from": "insufficient",
       "to": "multi_layer_confirmed"
-    },
-    {
-      "code": "603986",
-      "name": "兆易创新",
-      "field": "thesis_state",
-      "from": "conflicted",
-      "to": "confirmed"
-    },
-    {
-      "code": "001309",
-      "name": "德明利",
-      "field": "matrix_direction",
-      "from": "neutral",
-      "to": "bearish"
-    },
-    {
-      "code": "001309",
-      "name": "德明利",
-      "field": "evidence_state",
-      "from": "conflict",
-      "to": "multi_layer_confirmed"
-    },
-    {
-      "code": "001309",
-      "name": "德明利",
-      "field": "thesis_state",
-      "from": "conflicted",
-      "to": "confirmed"
-    },
-    {
-      "code": "600667",
-      "name": "太极实业",
-      "field": "evidence_state",
-      "from": "conflict",
-      "to": "multi_layer_confirmed"
-    },
-    {
-      "code": "600667",
-      "name": "太极实业",
-      "field": "thesis_state",
-      "from": "conflicted",
-      "to": "confirmed"
     },
     {
       "code": "517380",
       "name": "创新药沪港深ETF天弘",
-      "field": "evidence_state",
-      "from": "partial_confirmation",
-      "to": "insufficient"
+      "field": "thesis_state",
+      "from": "supported",
+      "to": "confirmed"
     }
   ],
   "methodology": {
@@ -881,8 +832,7 @@
       ],
       "before_matches": [
         "半导体",
-        "元件",
-        "电子化学品"
+        "元件"
       ],
       "after_matches": [
         "半导体"
@@ -897,8 +847,7 @@
       ],
       "before_matches": [
         "半导体",
-        "元件",
-        "电子化学品"
+        "元件"
       ],
       "after_matches": [
         "半导体"
@@ -912,7 +861,6 @@
       ],
       "before_matches": [
         "通信设备",
-        "IT服务",
         "半导体",
         "元件"
       ],
@@ -929,10 +877,8 @@
       ],
       "before_matches": [
         "元件",
-        "汽车零部件",
         "电池",
         "通信设备",
-        "IT服务",
         "半导体"
       ],
       "after_matches": [
@@ -947,8 +893,7 @@
       ],
       "before_matches": [
         "半导体",
-        "元件",
-        "电子化学品"
+        "元件"
       ],
       "after_matches": [
         "半导体"
@@ -962,10 +907,8 @@
       ],
       "before_matches": [
         "元件",
-        "汽车零部件",
         "电池",
-        "半导体",
-        "电子化学品"
+        "半导体"
       ],
       "after_matches": [
         "元件"
@@ -992,9 +935,7 @@
         "生物制品",
         "化学制药"
       ],
-      "before_matches": [
-        "医疗服务"
-      ],
+      "before_matches": [],
       "after_matches": []
     }
   ],

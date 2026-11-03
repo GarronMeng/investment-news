@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-11-03T19:26:19+08:00",
-  "history_generated_at": "2026-11-03T19:26:10+08:00",
-  "records": 618,
-  "raw_ledger_records": 646,
+  "generated_at": "2026-11-03T20:58:18+08:00",
+  "history_generated_at": "2026-11-03T20:58:06+08:00",
+  "records": 619,
+  "raw_ledger_records": 647,
   "superseded_records": 28,
   "evaluations": [
     {
@@ -27314,6 +27314,32 @@
       }
     },
     {
+      "state_id": "0a0234d43d23a271",
+      "state_revision": 2,
+      "asset": "517380",
+      "name": "创新药沪港深ETF天弘",
+      "signal_date": "2026-11-03",
+      "matrix_direction": "bearish",
+      "thesis_state": "confirmed",
+      "evidence_state": "multi_layer_confirmed",
+      "composite_score": -46.5,
+      "confluence": 84.0,
+      "conflict_score": 0.0,
+      "entry_date": "2026-11-03",
+      "entry_close": 0.773,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
       "state_id": "440d9f5ce5e73209",
       "state_revision": 2,
       "asset": "600667",
@@ -27368,7 +27394,7 @@
   ],
   "by_thesis_state": {
     "confirmed": {
-      "records": 196,
+      "records": 197,
       "horizons": {
         "t1": {
           "settled": 190,
@@ -27626,7 +27652,7 @@
       }
     },
     "multi_layer_confirmed": {
-      "records": 201,
+      "records": 202,
       "horizons": {
         "t1": {
           "settled": 195,
