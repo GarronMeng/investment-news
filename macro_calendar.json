@@ -1,9 +1,134 @@
 {
   "version": 1,
-  "generated_at": "2026-11-04T14:49:35+08:00",
+  "generated_at": "2026-11-04T15:01:40+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
+    {
+      "date": "2026-11-04",
+      "time": "18:00",
+      "type": "macro",
+      "category": "inflation",
+      "region": "欧元区",
+      "title": "欧元区10月核心调和CPI年率-未季调初值(%)",
+      "actual": null,
+      "forecast": 2.2,
+      "previous": 2.2,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-11-04",
+      "time": "18:00",
+      "type": "macro",
+      "category": "inflation",
+      "region": "欧元区",
+      "title": "欧元区10月调和CPI年率-未季调初值(%)",
+      "actual": null,
+      "forecast": 4.0,
+      "previous": 3.8,
+      "importance": 2,
+      "impact_channels": [
+        "全球利率",
+        "美元相对强弱",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-11-04",
+      "time": "21:15",
+      "type": "macro",
+      "category": "labor",
+      "region": "美国",
+      "title": "美国10月ADP就业人数变动(万)",
+      "actual": null,
+      "forecast": 6.5,
+      "previous": 9.0,
+      "importance": 2,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-11-04",
+      "time": "21:30",
+      "type": "macro",
+      "category": "trade",
+      "region": "美国",
+      "title": "美国9月贸易帐(亿美元)",
+      "actual": null,
+      "forecast": -1080.0,
+      "previous": -1056.0,
+      "importance": 2,
+      "impact_channels": [
+        "宏观环境"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-11-04",
+      "time": "23:00",
+      "type": "macro",
+      "category": "growth",
+      "region": "美国",
+      "title": "美国10月ISM非制造业PMI",
+      "actual": null,
+      "forecast": 54.8,
+      "previous": 54.9,
+      "importance": 2,
+      "impact_channels": [
+        "全球风险偏好",
+        "AI资本开支预期",
+        "美元"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
+      "date": "2026-11-04",
+      "time": "23:30",
+      "type": "macro",
+      "category": "energy",
+      "region": "美国",
+      "title": "美国截至10月26日当周EIA原油库存变动(万桶)",
+      "actual": null,
+      "forecast": -87.7,
+      "previous": -189.2,
+      "importance": 2,
+      "impact_channels": [
+        "原油",
+        "通胀预期",
+        "风险偏好"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
     {
       "date": "2026-11-05",
       "time": "21:30",
@@ -1093,16 +1218,14 @@
     }
   ],
   "summary": {
-    "total": 50,
-    "macro": 47,
+    "total": 56,
+    "macro": 53,
     "global_earnings": 3,
     "high_importance": 0,
-    "macro_days_ok": 10,
+    "macro_days_ok": 11,
     "report_days_ok": 11
   },
-  "warnings": [
-    "news_economic_baidu 20261104: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10000 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
-  ],
+  "warnings": [],
   "methodology": {
     "macro": "百度股市通全球宏观日历 via AKShare；保留重要性>=3及少量核心importance-2宏观数据，过滤每日持仓/仓单等例行噪声，并剔除已过时的当日时点。",
     "global_earnings": "百度股市通财报发行 via AKShare；仅保留global_catalyst_universe.json中的公开研究公司。",
