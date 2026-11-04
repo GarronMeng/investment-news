@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-04T19:20:25+08:00",
+  "generated_at": "2026-11-04T19:39:29+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -854,36 +854,7 @@
     "517380",
     "518880"
   ],
-  "state_changes": [
-    {
-      "code": "603986",
-      "name": "兆易创新",
-      "field": "matrix_direction",
-      "from": "bearish",
-      "to": "neutral"
-    },
-    {
-      "code": "518880",
-      "name": "黄金ETF华安",
-      "field": "thesis_state",
-      "from": "supported",
-      "to": "no_directional_thesis"
-    },
-    {
-      "code": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "field": "matrix_direction",
-      "from": "bearish",
-      "to": "bullish"
-    },
-    {
-      "code": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "field": "thesis_state",
-      "from": "supported",
-      "to": "emerging"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "weights": {
       "event": 25,
