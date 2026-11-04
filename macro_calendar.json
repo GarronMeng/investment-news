@@ -1,56 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-11-03T23:32:20+08:00",
+  "generated_at": "2026-11-04T11:10:47+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
-    {
-      "date": "2026-11-03",
-      "time": null,
-      "type": "global_earnings",
-      "category": "earnings",
-      "region": "US",
-      "title": "AMD 财报发行",
-      "ticker": "AMD",
-      "report_period": null,
-      "importance": 2,
-      "impact_channels": [
-        "产业链景气",
-        "海外映射",
-        "风险偏好"
-      ],
-      "themes": [
-        "AI算力"
-      ],
-      "assets": [
-        "300308",
-        "002384",
-        "600667"
-      ],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-11-04",
-      "time": "05:30",
-      "type": "macro",
-      "category": "energy",
-      "region": "美国",
-      "title": "美国截至10月30日当周API原油库存变动(万桶)",
-      "actual": null,
-      "forecast": null,
-      "previous": -203.1,
-      "importance": 2,
-      "impact_channels": [
-        "原油",
-        "通胀预期",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
     {
       "date": "2026-11-04",
       "time": "18:00",
@@ -59,7 +12,7 @@
       "region": "欧元区",
       "title": "欧元区10月核心调和CPI年率-未季调初值(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": 2.2,
       "previous": 2.2,
       "importance": 2,
       "impact_channels": [
@@ -80,7 +33,7 @@
       "region": "欧元区",
       "title": "欧元区10月调和CPI年率-未季调初值(%)",
       "actual": null,
-      "forecast": 3.9,
+      "forecast": 4.0,
       "previous": 3.8,
       "importance": 2,
       "impact_channels": [
@@ -163,7 +116,7 @@
       "region": "美国",
       "title": "美国截至10月26日当周EIA原油库存变动(万桶)",
       "actual": null,
-      "forecast": null,
+      "forecast": -87.7,
       "previous": -189.2,
       "importance": 2,
       "impact_channels": [
@@ -1265,9 +1218,9 @@
     }
   ],
   "summary": {
-    "total": 58,
-    "macro": 54,
-    "global_earnings": 4,
+    "total": 56,
+    "macro": 53,
+    "global_earnings": 3,
     "high_importance": 0,
     "macro_days_ok": 11,
     "report_days_ok": 11
