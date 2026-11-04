@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-03T23:26:32+08:00",
+  "generated_at": "2026-11-04T11:08:07+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -697,17 +697,17 @@
       "group": "医疗成长",
       "role": "创新药分散配置",
       "priority": 3,
-      "as_of": "2026-11-03",
+      "as_of": "2026-11-04",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -51.5,
+      "composite_score": -49.0,
       "coverage": 60.0,
-      "confluence": 85.5,
+      "confluence": 84.7,
       "available_layers": 3,
       "opposing_weight_share": 0.0,
       "evidence_state": "multi_layer_confirmed",
       "thesis_state": "confirmed",
-      "attention_score": 69.7,
+      "attention_score": 69.6,
       "research_focus": "验证持续性、行业扩散与后续基本面证据。",
       "layers": {
         "event": {
@@ -718,15 +718,15 @@
         },
         "technical": {
           "available": true,
-          "score": -72.0,
-          "confidence": "high",
-          "evidence": "MA60 below/flat；MACD bearish；RSI 36.18 (weak)；量能 normal；20日结构 new_low_20d。"
+          "score": -60.0,
+          "confidence": "medium",
+          "evidence": "MA60 below/flat；MACD bearish；RSI 41.56 (weak)；量能 contraction；20日结构 inside_range。"
         },
         "relative_strength": {
           "available": true,
-          "score": -25.2,
+          "score": -35.4,
           "confidence": "high",
-          "evidence": "5日相对强弱 -0.00399；20日相对强弱 -0.04421。"
+          "evidence": "5日相对强弱 -0.011115；20日相对强弱 -0.057544。"
         },
         "industry": {
           "available": false,
@@ -752,13 +752,13 @@
         "negative": [
           {
             "layer": "technical",
-            "score": -72.0,
-            "evidence": "MA60 below/flat；MACD bearish；RSI 36.18 (weak)；量能 normal；20日结构 new_low_20d。"
+            "score": -60.0,
+            "evidence": "MA60 below/flat；MACD bearish；RSI 41.56 (weak)；量能 contraction；20日结构 inside_range。"
           },
           {
             "layer": "relative_strength",
-            "score": -25.2,
-            "evidence": "5日相对强弱 -0.00399；20日相对强弱 -0.04421。"
+            "score": -35.4,
+            "evidence": "5日相对强弱 -0.011115；20日相对强弱 -0.057544。"
           }
         ]
       },
@@ -772,7 +772,7 @@
       ],
       "excluded_layers": [],
       "positive_direction_mass": 0.0,
-      "negative_direction_mass": 30.9,
+      "negative_direction_mass": 29.4,
       "conflict_score": 0.0
     }
   },
