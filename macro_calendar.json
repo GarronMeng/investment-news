@@ -1,92 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-11-04T19:42:58+08:00",
+  "generated_at": "2026-11-04T23:36:34+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
-    {
-      "date": "2026-11-04",
-      "time": "21:15",
-      "type": "macro",
-      "category": "labor",
-      "region": "美国",
-      "title": "美国10月ADP就业人数变动(万)",
-      "actual": null,
-      "forecast": 6.5,
-      "previous": 9.0,
-      "importance": 2,
-      "impact_channels": [
-        "美债收益率",
-        "美元",
-        "全球成长估值",
-        "黄金/白银"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-11-04",
-      "time": "21:30",
-      "type": "macro",
-      "category": "trade",
-      "region": "美国",
-      "title": "美国9月贸易帐(亿美元)",
-      "actual": null,
-      "forecast": -1080.0,
-      "previous": -1056.0,
-      "importance": 2,
-      "impact_channels": [
-        "宏观环境"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-11-04",
-      "time": "23:00",
-      "type": "macro",
-      "category": "growth",
-      "region": "美国",
-      "title": "美国10月ISM非制造业PMI",
-      "actual": null,
-      "forecast": 54.8,
-      "previous": 54.9,
-      "importance": 2,
-      "impact_channels": [
-        "全球风险偏好",
-        "AI资本开支预期",
-        "美元"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-11-04",
-      "time": "23:30",
-      "type": "macro",
-      "category": "energy",
-      "region": "美国",
-      "title": "美国截至10月26日当周EIA原油库存变动(万桶)",
-      "actual": null,
-      "forecast": -87.7,
-      "previous": -189.2,
-      "importance": 2,
-      "impact_channels": [
-        "原油",
-        "通胀预期",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
     {
       "date": "2026-11-05",
       "time": "21:30",
@@ -1219,8 +1136,8 @@
     }
   ],
   "summary": {
-    "total": 56,
-    "macro": 53,
+    "total": 52,
+    "macro": 49,
     "global_earnings": 3,
     "high_importance": 0,
     "macro_days_ok": 11,
