@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-04T11:08:07+08:00",
+  "generated_at": "2026-11-04T14:47:27+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -11,8 +11,8 @@
     "emerging": 0,
     "insufficient": 2,
     "top_attention": [
-      "603986",
       "001309",
+      "603986",
       "300308",
       "600667",
       "000636"
@@ -25,17 +25,17 @@
       "group": "科技核心",
       "role": "存储核心观察",
       "priority": 5,
-      "as_of": "2026-11-03",
+      "as_of": "2026-11-04",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -80.8,
+      "composite_score": -54.5,
       "coverage": 75.0,
-      "confluence": 94.2,
+      "confluence": 86.3,
       "available_layers": 4,
       "opposing_weight_share": 0.0,
       "evidence_state": "multi_layer_confirmed",
       "thesis_state": "confirmed",
-      "attention_score": 74.3,
+      "attention_score": 73.8,
       "research_focus": "验证持续性、行业扩散与后续基本面证据。",
       "layers": {
         "event": {
@@ -46,15 +46,15 @@
         },
         "technical": {
           "available": true,
-          "score": -94.0,
+          "score": -34.0,
           "confidence": "high",
-          "evidence": "MA60 below/falling；MACD bearish；RSI 31.84 (weak)；量能 normal；20日结构 new_low_20d。"
+          "evidence": "MA60 below/falling；MACD bullish；RSI 40.36 (weak)；量能 normal；20日结构 inside_range。"
         },
         "relative_strength": {
           "available": true,
-          "score": -90.1,
+          "score": -81.4,
           "confidence": "high",
-          "evidence": "5日相对强弱 -0.062449；20日相对强弱 -0.246053。"
+          "evidence": "5日相对强弱 -0.054231；20日相对强弱 -0.158108。"
         },
         "industry": {
           "available": true,
@@ -71,23 +71,23 @@
         },
         "market_context": {
           "available": true,
-          "score": -42.9,
+          "score": -42.8,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.3778；风险温度=65.7。"
+          "evidence": "regime=risk_off；上涨占比=0.3778；风险温度=65.5。"
         }
       },
       "contributors": {
         "positive": [],
         "negative": [
           {
-            "layer": "technical",
-            "score": -94.0,
-            "evidence": "MA60 below/falling；MACD bearish；RSI 31.84 (weak)；量能 normal；20日结构 new_low_20d。"
+            "layer": "relative_strength",
+            "score": -81.4,
+            "evidence": "5日相对强弱 -0.054231；20日相对强弱 -0.158108。"
           },
           {
-            "layer": "relative_strength",
-            "score": -90.1,
-            "evidence": "5日相对强弱 -0.062449；20日相对强弱 -0.246053。"
+            "layer": "technical",
+            "score": -34.0,
+            "evidence": "MA60 below/falling；MACD bullish；RSI 40.36 (weak)；量能 normal；20日结构 inside_range。"
           }
         ]
       },
@@ -101,7 +101,7 @@
       ],
       "excluded_layers": [],
       "positive_direction_mass": 0.0,
-      "negative_direction_mass": 60.6,
+      "negative_direction_mass": 40.8,
       "conflict_score": 0.0
     },
     "001309": {
@@ -110,17 +110,17 @@
       "group": "科技核心",
       "role": "存储弹性观察",
       "priority": 5,
-      "as_of": "2026-11-03",
+      "as_of": "2026-11-04",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -60.9,
+      "composite_score": -75.2,
       "coverage": 75.0,
-      "confluence": 88.3,
+      "confluence": 92.6,
       "available_layers": 4,
       "opposing_weight_share": 0.0,
       "evidence_state": "multi_layer_confirmed",
       "thesis_state": "confirmed",
-      "attention_score": 73.9,
+      "attention_score": 74.2,
       "research_focus": "验证持续性、行业扩散与后续基本面证据。",
       "layers": {
         "event": {
@@ -131,15 +131,15 @@
         },
         "technical": {
           "available": true,
-          "score": -38.0,
+          "score": -82.0,
           "confidence": "high",
-          "evidence": "MA60 below/falling；MACD bullish；RSI 23.85 (oversold)；量能 normal；20日结构 new_low_20d。"
+          "evidence": "MA60 below/falling；MACD bearish；RSI 36.66 (weak)；量能 normal；20日结构 inside_range。"
         },
         "relative_strength": {
           "available": true,
-          "score": -99.5,
+          "score": -87.3,
           "confidence": "high",
-          "evidence": "5日相对强弱 -0.15766；20日相对强弱 -0.424212。"
+          "evidence": "5日相对强弱 -0.11939；20日相对强弱 -0.140434。"
         },
         "industry": {
           "available": true,
@@ -157,23 +157,23 @@
         },
         "market_context": {
           "available": true,
-          "score": -42.9,
+          "score": -42.8,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.3778；风险温度=65.7。"
+          "evidence": "regime=risk_off；上涨占比=0.3778；风险温度=65.5。"
         }
       },
       "contributors": {
         "positive": [],
         "negative": [
           {
-            "layer": "relative_strength",
-            "score": -99.5,
-            "evidence": "5日相对强弱 -0.15766；20日相对强弱 -0.424212。"
+            "layer": "technical",
+            "score": -82.0,
+            "evidence": "MA60 below/falling；MACD bearish；RSI 36.66 (weak)；量能 normal；20日结构 inside_range。"
           },
           {
-            "layer": "technical",
-            "score": -38.0,
-            "evidence": "MA60 below/falling；MACD bullish；RSI 23.85 (oversold)；量能 normal；20日结构 new_low_20d。"
+            "layer": "relative_strength",
+            "score": -87.3,
+            "evidence": "5日相对强弱 -0.11939；20日相对强弱 -0.140434。"
           }
         ]
       },
@@ -187,7 +187,7 @@
       ],
       "excluded_layers": [],
       "positive_direction_mass": 0.0,
-      "negative_direction_mass": 45.7,
+      "negative_direction_mass": 56.4,
       "conflict_score": 0.0
     },
     "300308": {
@@ -242,9 +242,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -42.9,
+          "score": -42.8,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.3778；风险温度=65.7。"
+          "evidence": "regime=risk_off；上涨占比=0.3778；风险温度=65.5。"
         }
       },
       "contributors": {
@@ -328,9 +328,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -42.9,
+          "score": -42.8,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.3778；风险温度=65.7。"
+          "evidence": "regime=risk_off；上涨占比=0.3778；风险温度=65.5。"
         }
       },
       "contributors": {
@@ -413,9 +413,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -42.9,
+          "score": -42.8,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.3778；风险温度=65.7。"
+          "evidence": "regime=risk_off；上涨占比=0.3778；风险温度=65.5。"
         }
       },
       "contributors": {
@@ -452,12 +452,12 @@
       "group": "科技核心",
       "role": "MLCC周期观察",
       "priority": 3,
-      "as_of": "2026-11-03",
+      "as_of": "2026-11-04",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -77.7,
+      "composite_score": -75.3,
       "coverage": 75.0,
-      "confluence": 93.3,
+      "confluence": 92.6,
       "available_layers": 4,
       "opposing_weight_share": 0.0,
       "evidence_state": "multi_layer_confirmed",
@@ -473,15 +473,15 @@
         },
         "technical": {
           "available": true,
-          "score": -86.0,
+          "score": -82.0,
           "confidence": "high",
-          "evidence": "MA60 below/falling；MACD bearish；RSI 22.36 (oversold)；量能 normal；20日结构 new_low_20d。"
+          "evidence": "MA60 below/falling；MACD bearish；RSI 31.34 (weak)；量能 normal；20日结构 inside_range。"
         },
         "relative_strength": {
           "available": true,
-          "score": -99.1,
+          "score": -95.9,
           "confidence": "high",
-          "evidence": "5日相对强弱 -0.151446；20日相对强弱 -0.336707。"
+          "evidence": "5日相对强弱 -0.099256；20日相对强弱 -0.262248。"
         },
         "industry": {
           "available": true,
@@ -498,9 +498,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -42.9,
+          "score": -42.8,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.3778；风险温度=65.7。"
+          "evidence": "regime=risk_off；上涨占比=0.3778；风险温度=65.5。"
         }
       },
       "contributors": {
@@ -508,13 +508,13 @@
         "negative": [
           {
             "layer": "technical",
-            "score": -86.0,
-            "evidence": "MA60 below/falling；MACD bearish；RSI 22.36 (oversold)；量能 normal；20日结构 new_low_20d。"
+            "score": -82.0,
+            "evidence": "MA60 below/falling；MACD bearish；RSI 31.34 (weak)；量能 normal；20日结构 inside_range。"
           },
           {
             "layer": "relative_strength",
-            "score": -99.1,
-            "evidence": "5日相对强弱 -0.151446；20日相对强弱 -0.336707。"
+            "score": -95.9,
+            "evidence": "5日相对强弱 -0.099256；20日相对强弱 -0.262248。"
           }
         ]
       },
@@ -528,7 +528,7 @@
       ],
       "excluded_layers": [],
       "positive_direction_mass": 0.0,
-      "negative_direction_mass": 58.3,
+      "negative_direction_mass": 56.5,
       "conflict_score": 0.0
     },
     "161226": {
@@ -697,17 +697,17 @@
       "group": "医疗成长",
       "role": "创新药分散配置",
       "priority": 3,
-      "as_of": "2026-11-04",
+      "as_of": "2026-11-03",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -49.0,
+      "composite_score": -51.5,
       "coverage": 60.0,
-      "confluence": 84.7,
+      "confluence": 85.5,
       "available_layers": 3,
       "opposing_weight_share": 0.0,
       "evidence_state": "multi_layer_confirmed",
       "thesis_state": "confirmed",
-      "attention_score": 69.6,
+      "attention_score": 69.7,
       "research_focus": "验证持续性、行业扩散与后续基本面证据。",
       "layers": {
         "event": {
@@ -718,15 +718,15 @@
         },
         "technical": {
           "available": true,
-          "score": -60.0,
-          "confidence": "medium",
-          "evidence": "MA60 below/flat；MACD bearish；RSI 41.56 (weak)；量能 contraction；20日结构 inside_range。"
+          "score": -72.0,
+          "confidence": "high",
+          "evidence": "MA60 below/flat；MACD bearish；RSI 36.18 (weak)；量能 normal；20日结构 new_low_20d。"
         },
         "relative_strength": {
           "available": true,
-          "score": -35.4,
+          "score": -25.2,
           "confidence": "high",
-          "evidence": "5日相对强弱 -0.011115；20日相对强弱 -0.057544。"
+          "evidence": "5日相对强弱 -0.00399；20日相对强弱 -0.04421。"
         },
         "industry": {
           "available": false,
@@ -742,9 +742,9 @@
         },
         "market_context": {
           "available": true,
-          "score": -42.9,
+          "score": -42.8,
           "confidence": "medium",
-          "evidence": "regime=risk_off；上涨占比=0.3778；风险温度=65.7。"
+          "evidence": "regime=risk_off；上涨占比=0.3778；风险温度=65.5。"
         }
       },
       "contributors": {
@@ -752,13 +752,13 @@
         "negative": [
           {
             "layer": "technical",
-            "score": -60.0,
-            "evidence": "MA60 below/flat；MACD bearish；RSI 41.56 (weak)；量能 contraction；20日结构 inside_range。"
+            "score": -72.0,
+            "evidence": "MA60 below/flat；MACD bearish；RSI 36.18 (weak)；量能 normal；20日结构 new_low_20d。"
           },
           {
             "layer": "relative_strength",
-            "score": -35.4,
-            "evidence": "5日相对强弱 -0.011115；20日相对强弱 -0.057544。"
+            "score": -25.2,
+            "evidence": "5日相对强弱 -0.00399；20日相对强弱 -0.04421。"
           }
         ]
       },
@@ -772,13 +772,13 @@
       ],
       "excluded_layers": [],
       "positive_direction_mass": 0.0,
-      "negative_direction_mass": 29.4,
+      "negative_direction_mass": 30.9,
       "conflict_score": 0.0
     }
   },
   "ranking": [
-    "603986",
     "001309",
+    "603986",
     "300308",
     "600667",
     "000636",

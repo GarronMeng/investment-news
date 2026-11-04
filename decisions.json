@@ -1,18 +1,18 @@
 {
   "version": 1,
-  "generated_at": "2026-11-04T11:08:07+08:00",
+  "generated_at": "2026-11-04T14:47:27+08:00",
   "source": {
-    "data_generated_at": "2026-11-04 11:07",
+    "data_generated_at": "2026-11-04 14:34",
     "ai_generated_at": "2026-08-26 13:33",
     "ai_source_generated_at": "2026-08-26 12:26",
-    "features_generated_at": "2026-11-04T11:07:52+08:00",
+    "features_generated_at": "2026-11-04T14:47:15+08:00",
     "fresh_ai": false
   },
   "decisions": [
     {
       "asset": "603986",
       "name": "兆易创新",
-      "as_of": "2026-11-03",
+      "as_of": "2026-11-04",
       "bias": "bearish",
       "status": "market_watch",
       "event_score": 50.0,
@@ -22,7 +22,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.246053",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.158108",
       "confirmation": [
         "股价相对半导体指数转强",
         "成交量放大且收盘站稳"
@@ -36,7 +36,7 @@
     {
       "asset": "001309",
       "name": "德明利",
-      "as_of": "2026-11-03",
+      "as_of": "2026-11-04",
       "bias": "bearish",
       "status": "market_watch",
       "event_score": 50.0,
@@ -46,7 +46,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.424212",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.140434",
       "confirmation": [
         "相对存储板块止跌转强",
         "放量突破短期压力位"
@@ -132,7 +132,7 @@
     {
       "asset": "000636",
       "name": "风华高科",
-      "as_of": "2026-11-03",
+      "as_of": "2026-11-04",
       "bias": "bearish",
       "status": "market_watch",
       "event_score": 50.0,
@@ -142,7 +142,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.336707",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.262248",
       "confirmation": [
         "被动元件板块形成联动",
         "涨价新闻后价格走势能够确认"
@@ -204,7 +204,7 @@
     {
       "asset": "517380",
       "name": "创新药沪港深ETF天弘",
-      "as_of": "2026-11-04",
+      "as_of": "2026-11-03",
       "bias": "bearish",
       "status": "market_watch",
       "event_score": 50.0,
@@ -214,7 +214,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.057544",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.04421",
       "confirmation": [
         "A股与港股创新药板块形成联动",
         "利好由成交量与持续性确认"

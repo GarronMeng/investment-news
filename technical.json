@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-11-04T11:07:52+08:00",
-  "source_generated_at": "2026-11-04T11:07:52+08:00",
+  "generated_at": "2026-11-04T14:47:15+08:00",
+  "source_generated_at": "2026-11-04T14:47:15+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -36,60 +36,60 @@
     "603986": {
       "code": "603986",
       "name": "兆易创新",
-      "as_of": "2026-11-03",
+      "as_of": "2026-11-04",
       "source_status": "fresh",
       "observations": 140,
-      "close": 250.16,
+      "close": 271.98,
       "ma60": {
-        "value": 357.5242,
+        "value": 356.1235,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.004205
+        "slope_pct": -0.003918
       },
-      "rsi14": 31.84,
+      "rsi14": 40.36,
       "rsi_zone": "weak",
       "macd": {
-        "dif": -26.77362,
-        "dea": -26.69404,
-        "hist": -0.15916,
-        "state": "bearish",
+        "dif": -25.19787,
+        "dea": -26.39466,
+        "hist": 2.39358,
+        "state": "bullish",
         "cross_age": 0
       },
       "volume": {
-        "ratio20": 1.128,
+        "ratio20": 1.152,
         "state": "normal"
       },
-      "breakout_20d": "new_low_20d",
+      "breakout_20d": "inside_range",
       "data_quality": "usable",
       "condition_state": "conditions_not_met"
     },
     "001309": {
       "code": "001309",
       "name": "德明利",
-      "as_of": "2026-11-03",
+      "as_of": "2026-11-04",
       "source_status": "fresh",
       "observations": 140,
-      "close": 187.0,
+      "close": 201.3,
       "ma60": {
-        "value": 351.2465,
+        "value": 266.8624,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.007628
+        "slope_pct": -0.003661
       },
-      "rsi14": 23.85,
-      "rsi_zone": "oversold",
+      "rsi14": 36.66,
+      "rsi_zone": "weak",
       "macd": {
-        "dif": -42.61145,
-        "dea": -43.34399,
-        "hist": 1.46508,
-        "state": "bullish",
-        "cross_age": 4
+        "dif": -17.57112,
+        "dea": -16.16346,
+        "hist": -2.81531,
+        "state": "bearish",
+        "cross_age": 2
       },
       "volume": {
-        "ratio20": 1.246,
+        "ratio20": 1.241,
         "state": "normal"
       },
-      "breakout_20d": "new_low_20d",
+      "breakout_20d": "inside_range",
       "data_quality": "usable",
       "condition_state": "conditions_not_met"
     },
@@ -186,30 +186,30 @@
     "000636": {
       "code": "000636",
       "name": "风华高科",
-      "as_of": "2026-11-03",
+      "as_of": "2026-11-04",
       "source_status": "fresh",
       "observations": 140,
-      "close": 30.21,
+      "close": 32.96,
       "ma60": {
-        "value": 50.6558,
+        "value": 50.2997,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.007105
+        "slope_pct": -0.007031
       },
-      "rsi14": 22.36,
-      "rsi_zone": "oversold",
+      "rsi14": 31.34,
+      "rsi_zone": "weak",
       "macd": {
-        "dif": -5.04755,
-        "dea": -4.35344,
-        "hist": -1.38823,
+        "dif": -4.95644,
+        "dea": -4.47403,
+        "hist": -0.96481,
         "state": "bearish",
-        "cross_age": 21
+        "cross_age": 22
       },
       "volume": {
-        "ratio20": 0.987,
+        "ratio20": 1.087,
         "state": "normal"
       },
-      "breakout_20d": "new_low_20d",
+      "breakout_20d": "inside_range",
       "data_quality": "usable",
       "condition_state": "conditions_not_met"
     },
@@ -276,48 +276,97 @@
     "517380": {
       "code": "517380",
       "name": "创新药沪港深ETF天弘",
-      "as_of": "2026-11-04",
+      "as_of": "2026-11-03",
       "source_status": "fresh",
       "observations": 140,
-      "close": 0.79,
+      "close": 0.773,
       "ma60": {
-        "value": 0.8517,
+        "value": 0.852,
         "position": "below",
         "direction": "flat",
-        "slope_pct": -0.000372
+        "slope_pct": 0.0
       },
-      "rsi14": 41.56,
+      "rsi14": 36.18,
       "rsi_zone": "weak",
       "macd": {
-        "dif": -0.01784,
-        "dea": -0.01472,
-        "hist": -0.00624,
+        "dif": -0.01794,
+        "dea": -0.01394,
+        "hist": -0.00802,
         "state": "bearish",
-        "cross_age": 18
+        "cross_age": 17
       },
       "volume": {
-        "ratio20": 0.568,
-        "state": "contraction"
+        "ratio20": 0.935,
+        "state": "normal"
       },
-      "breakout_20d": "inside_range",
+      "breakout_20d": "new_low_20d",
       "data_quality": "usable",
       "condition_state": "conditions_not_met"
     }
   },
   "state_changes": [
     {
+      "code": "603986",
+      "name": "兆易创新",
+      "field": "macd",
+      "from": "bearish",
+      "to": "bullish"
+    },
+    {
+      "code": "603986",
+      "name": "兆易创新",
+      "field": "breakout_20d",
+      "from": "new_low_20d",
+      "to": "inside_range"
+    },
+    {
+      "code": "001309",
+      "name": "德明利",
+      "field": "rsi_zone",
+      "from": "oversold",
+      "to": "weak"
+    },
+    {
+      "code": "001309",
+      "name": "德明利",
+      "field": "macd",
+      "from": "bullish",
+      "to": "bearish"
+    },
+    {
+      "code": "001309",
+      "name": "德明利",
+      "field": "breakout_20d",
+      "from": "new_low_20d",
+      "to": "inside_range"
+    },
+    {
+      "code": "000636",
+      "name": "风华高科",
+      "field": "rsi_zone",
+      "from": "oversold",
+      "to": "weak"
+    },
+    {
+      "code": "000636",
+      "name": "风华高科",
+      "field": "breakout_20d",
+      "from": "new_low_20d",
+      "to": "inside_range"
+    },
+    {
       "code": "517380",
       "name": "创新药沪港深ETF天弘",
       "field": "volume",
-      "from": "normal",
-      "to": "contraction"
+      "from": "contraction",
+      "to": "normal"
     },
     {
       "code": "517380",
       "name": "创新药沪港深ETF天弘",
       "field": "breakout_20d",
-      "from": "new_low_20d",
-      "to": "inside_range"
+      "from": "inside_range",
+      "to": "new_low_20d"
     }
   ],
   "methodology": {
