@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-04T16:04:49+08:00",
+  "generated_at": "2026-11-04T19:14:16+08:00",
   "timezone": "Asia/Shanghai",
   "breadth": {
     "total": 5574,
@@ -62,15 +62,15 @@
     {
       "symbol": "hkHSI",
       "name": "恒生指数",
-      "price": 23871.63,
-      "change_pct": 1.47,
+      "price": 23919.5,
+      "change_pct": 1.67,
       "source": "腾讯行情"
     },
     {
       "symbol": "hkHSTECH",
       "name": "恒生科技指数",
-      "price": 3928.62,
-      "change_pct": 1.57,
+      "price": 3936.02,
+      "change_pct": 1.77,
       "source": "腾讯行情"
     }
   ],
@@ -236,25 +236,25 @@
         "source": "东方财富 via AKShare"
       },
       {
-        "name": "银行",
-        "net_inflow": -1533481984.0,
-        "change_pct": -0.18,
-        "source": "东方财富 via AKShare"
-      },
-      {
         "name": "银行Ⅱ",
         "net_inflow": -1533481984.0,
         "change_pct": -0.18,
         "source": "东方财富 via AKShare"
       },
       {
-        "name": "白酒Ⅱ",
+        "name": "银行",
+        "net_inflow": -1533481984.0,
+        "change_pct": -0.18,
+        "source": "东方财富 via AKShare"
+      },
+      {
+        "name": "白酒Ⅲ",
         "net_inflow": -1401139840.0,
         "change_pct": -1.81,
         "source": "东方财富 via AKShare"
       },
       {
-        "name": "白酒Ⅲ",
+        "name": "白酒Ⅱ",
         "net_inflow": -1401139840.0,
         "change_pct": -1.81,
         "source": "东方财富 via AKShare"
@@ -425,22 +425,5 @@
     "sector_rank": "东方财富行业涨跌为主；失败时回退同花顺行业资金流页面的行业涨跌幅。",
     "etf_activity": "ETF成交额活跃度代理，不等同ETF净申购或真实资金净流入。"
   },
-  "alerts": [
-    {
-      "type": "regime",
-      "from": "risk_off",
-      "to": "risk_on",
-      "message": "市场状态由 risk_off 切换为 risk_on"
-    },
-    {
-      "type": "breadth",
-      "threshold": 0.5,
-      "message": "上涨家数占比上穿多空中轴 50%"
-    },
-    {
-      "type": "breadth",
-      "threshold": 0.65,
-      "message": "上涨家数占比上穿强势阈值 65%"
-    }
-  ]
+  "alerts": []
 }

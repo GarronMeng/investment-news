@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-04T16:00:33+08:00",
+  "generated_at": "2026-11-04T19:09:36+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -20,7 +20,7 @@
       "high": 274.28,
       "low": 248.0,
       "turnover": 11348674130.0,
-      "as_of": "2026-11-04T16:00:33+08:00",
+      "as_of": "2026-11-04T19:09:36+08:00",
       "status": "fresh",
       "confidence": "medium",
       "source": "东方财富 via AKShare"
@@ -36,7 +36,7 @@
       "high": 202.88,
       "low": 182.27,
       "turnover": 5127267101.35,
-      "as_of": "2026-11-04T16:00:33+08:00",
+      "as_of": "2026-11-04T19:09:36+08:00",
       "status": "fresh",
       "confidence": "medium",
       "source": "东方财富 via AKShare"
@@ -52,7 +52,7 @@
       "high": 544.0,
       "low": 469.5,
       "turnover": 30668663859.0,
-      "as_of": "2026-11-04T16:00:33+08:00",
+      "as_of": "2026-11-04T19:09:36+08:00",
       "status": "fresh",
       "confidence": "medium",
       "source": "东方财富 via AKShare"
@@ -68,7 +68,7 @@
       "high": 96.9,
       "low": 81.61,
       "turnover": 17652381707.28,
-      "as_of": "2026-11-04T16:00:33+08:00",
+      "as_of": "2026-11-04T19:09:36+08:00",
       "status": "fresh",
       "confidence": "medium",
       "source": "东方财富 via AKShare"
@@ -84,7 +84,7 @@
       "high": 13.2,
       "low": 11.82,
       "turnover": 2610229523.0,
-      "as_of": "2026-11-04T16:00:33+08:00",
+      "as_of": "2026-11-04T19:09:36+08:00",
       "status": "fresh",
       "confidence": "medium",
       "source": "东方财富 via AKShare"
@@ -100,7 +100,7 @@
       "high": 33.23,
       "low": 29.42,
       "turnover": 3260071848.39,
-      "as_of": "2026-11-04T16:00:33+08:00",
+      "as_of": "2026-11-04T19:09:36+08:00",
       "status": "fresh",
       "confidence": "medium",
       "source": "东方财富 via AKShare"
@@ -116,7 +116,7 @@
       "high": null,
       "low": null,
       "turnover": 196896644.023,
-      "as_of": "2026-11-04T16:00:33+08:00",
+      "as_of": "2026-11-04T19:09:36+08:00",
       "status": "fresh",
       "confidence": "medium",
       "source": "东方财富 via AKShare"
@@ -132,7 +132,7 @@
       "high": null,
       "low": null,
       "turnover": 6983160980.0,
-      "as_of": "2026-11-04T16:00:33+08:00",
+      "as_of": "2026-11-04T19:09:36+08:00",
       "status": "fresh",
       "confidence": "medium",
       "source": "东方财富 via AKShare"
@@ -148,7 +148,7 @@
       "high": null,
       "low": null,
       "turnover": 125563746.0,
-      "as_of": "2026-11-04T16:00:33+08:00",
+      "as_of": "2026-11-04T19:09:36+08:00",
       "status": "fresh",
       "confidence": "medium",
       "source": "东方财富 via AKShare"
