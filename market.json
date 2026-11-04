@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-04T19:09:36+08:00",
+  "generated_at": "2026-11-04T21:00:00+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -17,13 +17,13 @@
       "previous_close": 250.16,
       "change_pct": 8.48,
       "open": 252.0,
-      "high": 274.28,
+      "high": 274.2799987792969,
       "low": 248.0,
-      "turnover": 11348674130.0,
-      "as_of": "2026-11-04T19:09:36+08:00",
+      "turnover": null,
+      "as_of": "2026-11-04T09:30:00+08:00",
       "status": "fresh",
-      "confidence": "medium",
-      "source": "东方财富 via AKShare"
+      "confidence": "low",
+      "source": "Yahoo Finance"
     },
     {
       "code": "001309",
@@ -32,14 +32,14 @@
       "price": 200.09,
       "previous_close": 187.0,
       "change_pct": 7.0,
-      "open": 187.0,
-      "high": 202.88,
-      "low": 182.27,
-      "turnover": 5127267101.35,
-      "as_of": "2026-11-04T19:09:36+08:00",
+      "open": 209.0,
+      "high": 202.8800048828125,
+      "low": 182.27000427246094,
+      "turnover": null,
+      "as_of": "2026-11-04T09:30:00+08:00",
       "status": "fresh",
-      "confidence": "medium",
-      "source": "东方财富 via AKShare"
+      "confidence": "low",
+      "source": "Yahoo Finance"
     },
     {
       "code": "300308",
@@ -48,14 +48,14 @@
       "price": 533.38,
       "previous_close": 480.2,
       "change_pct": 11.07,
-      "open": 489.89,
+      "open": 545.7000122070312,
       "high": 544.0,
       "low": 469.5,
-      "turnover": 30668663859.0,
-      "as_of": "2026-11-04T19:09:36+08:00",
+      "turnover": null,
+      "as_of": "2026-11-04T09:30:00+08:00",
       "status": "fresh",
-      "confidence": "medium",
-      "source": "东方财富 via AKShare"
+      "confidence": "low",
+      "source": "Yahoo Finance"
     },
     {
       "code": "002384",
@@ -64,14 +64,14 @@
       "price": 94.33,
       "previous_close": 88.13,
       "change_pct": 7.04,
-      "open": 89.0,
-      "high": 96.9,
-      "low": 81.61,
-      "turnover": 17652381707.28,
-      "as_of": "2026-11-04T19:09:36+08:00",
+      "open": 90.01000213623047,
+      "high": 96.9000015258789,
+      "low": 81.61000061035156,
+      "turnover": null,
+      "as_of": "2026-11-04T09:30:00+08:00",
       "status": "fresh",
-      "confidence": "medium",
-      "source": "东方财富 via AKShare"
+      "confidence": "low",
+      "source": "Yahoo Finance"
     },
     {
       "code": "600667",
@@ -80,14 +80,14 @@
       "price": 13.1,
       "previous_close": 12.05,
       "change_pct": 8.71,
-      "open": 12.24,
-      "high": 13.2,
-      "low": 11.82,
-      "turnover": 2610229523.0,
-      "as_of": "2026-11-04T19:09:36+08:00",
+      "open": 12.239999771118164,
+      "high": 13.199999809265137,
+      "low": 11.819999694824219,
+      "turnover": null,
+      "as_of": "2026-11-04T09:30:00+08:00",
       "status": "fresh",
-      "confidence": "medium",
-      "source": "东方财富 via AKShare"
+      "confidence": "low",
+      "source": "Yahoo Finance"
     },
     {
       "code": "000636",
@@ -96,14 +96,14 @@
       "price": 33.1,
       "previous_close": 30.21,
       "change_pct": 9.57,
-      "open": 30.24,
-      "high": 33.23,
-      "low": 29.42,
-      "turnover": 3260071848.39,
-      "as_of": "2026-11-04T19:09:36+08:00",
+      "open": 33.0099983215332,
+      "high": 33.22999954223633,
+      "low": 29.420000076293945,
+      "turnover": null,
+      "as_of": "2026-11-04T09:30:00+08:00",
       "status": "fresh",
-      "confidence": "medium",
-      "source": "东方财富 via AKShare"
+      "confidence": "low",
+      "source": "Yahoo Finance"
     },
     {
       "code": "161226",
@@ -112,14 +112,14 @@
       "price": 1.507,
       "previous_close": 1.415,
       "change_pct": 6.5,
-      "open": null,
-      "high": null,
-      "low": null,
-      "turnover": 196896644.023,
-      "as_of": "2026-11-04T19:09:36+08:00",
+      "open": 1.4839999675750732,
+      "high": 1.5080000162124634,
+      "low": 1.406999945640564,
+      "turnover": null,
+      "as_of": "2026-11-04T15:04:13+08:00",
       "status": "fresh",
-      "confidence": "medium",
-      "source": "东方财富 via AKShare"
+      "confidence": "low",
+      "source": "Yahoo Finance"
     },
     {
       "code": "518880",
@@ -128,14 +128,14 @@
       "price": 8.229,
       "previous_close": 7.989,
       "change_pct": 3.0,
-      "open": null,
-      "high": null,
-      "low": null,
-      "turnover": 6983160980.0,
-      "as_of": "2026-11-04T19:09:36+08:00",
+      "open": 8.055000305175781,
+      "high": 8.229999542236328,
+      "low": 8.020999908447266,
+      "turnover": null,
+      "as_of": "2026-11-04T09:30:00+08:00",
       "status": "fresh",
-      "confidence": "medium",
-      "source": "东方财富 via AKShare"
+      "confidence": "low",
+      "source": "Yahoo Finance"
     },
     {
       "code": "517380",
@@ -144,16 +144,18 @@
       "price": 0.84,
       "previous_close": 0.773,
       "change_pct": 8.67,
-      "open": null,
-      "high": null,
-      "low": null,
-      "turnover": 125563746.0,
-      "as_of": "2026-11-04T19:09:36+08:00",
+      "open": 0.7739999890327454,
+      "high": 0.8399999737739563,
+      "low": 0.7739999890327454,
+      "turnover": null,
+      "as_of": "2026-11-04T09:30:00+08:00",
       "status": "fresh",
-      "confidence": "medium",
-      "source": "东方财富 via AKShare"
+      "confidence": "low",
+      "source": "Yahoo Finance"
     }
   ],
-  "warnings": [],
+  "warnings": [
+    "AKShare refresh failed: A股: 东方财富 push2 行情服务器断开了连接，通常是短时间内请求过多，当前 IP 被临时限流。首次限流一般约 5 分钟后恢复，反复触发后可能需要 40 分钟以上；等待期间不要重复调用东方财富的行情接口，否则会延长限流。; ETF: 502 Server Error: Bad Gateway for url: https://push2delay.eastmoney.com/api/qt/clist/get?pn=1&pz=100&po=1&np=1&ut=bd1d9ddb04089700cf9c27f6f7426281&fltt=2&invt=2&wbp2u=%7C0%7C0%7C0%7Cweb&fid=f12&fs=b%3AMK0021%2Cb%3AMK0022%2Cb%3AMK0023%2Cb%3AMK0024%2Cb%3AMK0827&fields=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6%2Cf7%2Cf8%2Cf9%2Cf10%2Cf12%2Cf13%2Cf14%2Cf15%2Cf16%2Cf17%2Cf18%2Cf20%2Cf21%2Cf23%2Cf24%2Cf25%2Cf22%2Cf11%2Cf30%2Cf31%2Cf32%2Cf33%2Cf34%2Cf35%2Cf38%2Cf62%2Cf63%2Cf64%2Cf65%2Cf66%2Cf69%2Cf72%2Cf75%2Cf78%2Cf81%2Cf84%2Cf87%2Cf115%2Cf124%2Cf128%2Cf136%2Cf152%2Cf184%2Cf297%2Cf402%2Cf441; LOF: 东方财富 push2 行情服务器断开了连接，通常是短时间内请求过多，当前 IP 被临时限流。首次限流一般约 5 分钟后恢复，反复触发后可能需要 40 分钟以上；等待期间不要重复调用东方财富的行情接口，否则会延长限流。"
+  ],
   "methodology": "AKShare/东方财富批量行情为主，Yahoo Finance为逐标的备用；失败时保留最近成功值并标记过期。"
 }
