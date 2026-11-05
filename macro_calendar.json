@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-05T19:42:17+08:00",
+  "generated_at": "2026-11-05T21:25:57+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
@@ -419,10 +419,11 @@
     "global_earnings": 1,
     "high_importance": 0,
     "macro_days_ok": 9,
-    "report_days_ok": 8
+    "report_days_ok": 7
   },
   "warnings": [
     "news_report_time_baidu 20261105: HTTP Error 403: ",
+    "news_report_time_baidu 20261109: HTTP Error 403: ",
     "news_economic_baidu 20261110: HTTP Error 403: ",
     "news_report_time_baidu 20261110: HTTP Error 403: ",
     "news_report_time_baidu 20261112: HTTP Error 403: ",
