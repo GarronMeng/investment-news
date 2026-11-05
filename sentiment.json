@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "generated_at": "2026-11-04T14:08:57+08:00",
+  "generated_at": "2026-11-05T14:38:15+08:00",
   "timezone": "Asia/Shanghai",
   "states": {
     "overseas_risk": {
       "title": "海外风险",
-      "level": "elevated",
-      "label": "偏高",
-      "tone": "warning",
+      "level": "normal",
+      "label": "正常",
+      "tone": "neutral",
       "status": "fresh",
       "summary": "用于校准海外风险环境，不直接触发A股买卖。",
       "metric_id": "vix"
@@ -26,37 +26,37 @@
     {
       "id": "vix",
       "label": "VIX海外风险",
-      "value": 20.83,
+      "value": 16.61,
       "unit": "点",
-      "as_of": "2026-11-03",
+      "as_of": "2026-11-04",
       "lag_days": 1,
       "status": "fresh",
       "confidence": "medium",
       "source": "OpenBB/YFinance",
       "source_url": "https://www.cboe.com/tradable_products/vix/vix_historical_data/",
-      "change_1d_pct": -1.51,
-      "percentile_20d": 95.0,
-      "level": "elevated",
-      "state_label": "偏高",
-      "tone": "warning",
+      "change_1d_pct": -20.26,
+      "percentile_20d": 30.0,
+      "level": "normal",
+      "state_label": "正常",
+      "tone": "neutral",
       "sample_size": 20
     },
     {
       "id": "margin_balance",
       "label": "A股杠杆情绪",
-      "value": 22951.08,
-      "total_margin_balance": 23232.96,
-      "financing_buy_amount": 1327.8,
+      "value": 22630.26,
+      "total_margin_balance": 22913.86,
+      "financing_buy_amount": 1217.28,
       "unit": "亿元",
-      "as_of": "2026-11-02",
+      "as_of": "2026-11-03",
       "lag_days": 2,
       "status": "fresh",
       "confidence": "high",
       "source": "SSE+SZSE via AKShare",
       "source_url": "https://www.sse.com.cn/market/othersdata/margin/sum/",
-      "change_1d_pct": -0.55,
-      "change_5d_pct": -4.16,
-      "zscore_20d": -1.8,
+      "change_1d_pct": -1.4,
+      "change_5d_pct": -4.64,
+      "zscore_20d": -1.91,
       "level": "cooling",
       "state_label": "杠杆降温",
       "tone": "positive",
@@ -65,12 +65,6 @@
   ],
   "history": {
     "margin_balance": [
-      {
-        "date": "2026-09-09",
-        "financing": 26110.24158663,
-        "total": 26402.22161949,
-        "buy": 1543.79048161
-      },
       {
         "date": "2026-09-10",
         "financing": 26088.19851396,
@@ -244,6 +238,12 @@
         "financing": 22951.07511122,
         "total": 23232.95716482,
         "buy": 1327.79743007
+      },
+      {
+        "date": "2026-11-03",
+        "financing": 22630.258517280003,
+        "total": 22913.86001311,
+        "buy": 1217.28383144
       }
     ]
   },
