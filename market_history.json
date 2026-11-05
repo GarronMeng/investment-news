@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated_at": "2026-11-05T23:34:25+08:00",
+  "generated_at": "2026-11-05T23:38:11+08:00",
   "timezone": "Asia/Shanghai",
   "benchmark": {
     "code": "510300",
@@ -1273,7 +1273,7 @@
         "amount": 7523081499.0
       }
     ],
-    "fallback_reason": "东方财富 push2 行情服务器断开了连接，通常是短时间内请求过多，当前 IP 被临时限流。首次限流一般约 5 分钟后恢复，反复触发后可能需要 40 分钟以上；等待期间不要重复调用东方财富的行情接口，否则会延长限流。"
+    "fallback_reason": "HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Read timed out. (read timeout=10)"
   },
   "summary": {
     "total": 9,
@@ -10191,7 +10191,7 @@
           "amount": 270274235.0
         }
       ],
-      "fallback_reason": "东方财富 push2 行情服务器断开了连接，通常是短时间内请求过多，当前 IP 被临时限流。首次限流一般约 5 分钟后恢复，反复触发后可能需要 40 分钟以上；等待期间不要重复调用东方财富的行情接口，否则会延长限流。"
+      "fallback_reason": "HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61%2Cf116&ut=7eea3"
     },
     "518880": {
       "code": "518880",
@@ -11464,7 +11464,7 @@
           "amount": 7738467734.0
         }
       ],
-      "fallback_reason": "东方财富 push2 行情服务器断开了连接，通常是短时间内请求过多，当前 IP 被临时限流。首次限流一般约 5 分钟后恢复，反复触发后可能需要 40 分钟以上；等待期间不要重复调用东方财富的行情接口，否则会延长限流。"
+      "fallback_reason": "HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Read timed out. (read timeout=10)"
     },
     "517380": {
       "code": "517380",
@@ -12737,20 +12737,20 @@
           "amount": 203112051.0
         }
       ],
-      "fallback_reason": "东方财富 push2 行情服务器断开了连接，通常是短时间内请求过多，当前 IP 被临时限流。首次限流一般约 5 分钟后恢复，反复触发后可能需要 40 分钟以上；等待期间不要重复调用东方财富的行情接口，否则会延长限流。"
+      "fallback_reason": "HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61%2Cf116&ut=7eea3"
     }
   },
   "warnings": [
-    "510300 AKShare: 东方财富 push2 行情服务器断开了连接，通常是短时间内请求过多，当前 IP 被临时限流。首次限流一般约 5 分钟后恢复，反复触发后可能需要 40 分钟以上；等待期间不要重复调用东方财富的行情接口，否则会延长限流。",
+    "510300 AKShare: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Read timed out. (read timeout=10)",
     "603986 AKShare: stock_zh_a_hist() got an unexpected keyword argument 'timeout'",
     "001309 AKShare: stock_zh_a_hist() got an unexpected keyword argument 'timeout'",
     "300308 AKShare: stock_zh_a_hist() got an unexpected keyword argument 'timeout'",
     "002384 AKShare: stock_zh_a_hist() got an unexpected keyword argument 'timeout'",
     "600667 AKShare: stock_zh_a_hist() got an unexpected keyword argument 'timeout'",
     "000636 AKShare: stock_zh_a_hist() got an unexpected keyword argument 'timeout'",
-    "161226 AKShare: 东方财富 push2 行情服务器断开了连接，通常是短时间内请求过多，当前 IP 被临时限流。首次限流一般约 5 分钟后恢复，反复触发后可能需要 40 分钟以上；等待期间不要重复调用东方财富的行情接口，否则会延长限流。",
-    "518880 AKShare: 东方财富 push2 行情服务器断开了连接，通常是短时间内请求过多，当前 IP 被临时限流。首次限流一般约 5 分钟后恢复，反复触发后可能需要 40 分钟以上；等待期间不要重复调用东方财富的行情接口，否则会延长限流。",
-    "517380 AKShare: 东方财富 push2 行情服务器断开了连接，通常是短时间内请求过多，当前 IP 被临时限流。首次限流一般约 5 分钟后恢复，反复触发后可能需要 40 分钟以上；等待期间不要重复调用东方财富的行情接口，否则会延长限流。"
+    "161226 AKShare: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61%2Cf116&ut=7eea3edcaed734bea9cbfc24409ed989&klt=101&fqt=0&secid=0.161226&beg=20250911&end=20261105 (Caused by NewConnectionError(\"HTTPSConnection(host='push2his.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
+    "518880 AKShare: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Read timed out. (read timeout=10)",
+    "517380 AKShare: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61%2Cf116&ut=7eea3edcaed734bea9cbfc24409ed989&klt=101&fqt=0&beg=20250911&end=20261105&secid=1.517380 (Caused by NewConnectionError(\"HTTPSConnection(host='push2his.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
   ],
   "methodology": "Eastmoney via AKShare primary; Sina via AKShare independent A-share/fund fallback; direct Eastmoney fund then Yahoo further fallbacks. Asset freshness is aligned to the fresh benchmark trading date; prior valid series is retained as stale on total failure; up to 140 observations retained."
 }
