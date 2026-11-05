@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-05T21:22:31+08:00",
+  "generated_at": "2026-11-05T23:34:31+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -843,85 +843,7 @@
     "000636",
     "161226"
   ],
-  "state_changes": [
-    {
-      "code": "603986",
-      "name": "兆易创新",
-      "field": "matrix_direction",
-      "from": "bearish",
-      "to": "neutral"
-    },
-    {
-      "code": "603986",
-      "name": "兆易创新",
-      "field": "evidence_state",
-      "from": "partial_confirmation",
-      "to": "conflict"
-    },
-    {
-      "code": "603986",
-      "name": "兆易创新",
-      "field": "thesis_state",
-      "from": "supported",
-      "to": "conflicted"
-    },
-    {
-      "code": "001309",
-      "name": "德明利",
-      "field": "matrix_direction",
-      "from": "bearish",
-      "to": "neutral"
-    },
-    {
-      "code": "001309",
-      "name": "德明利",
-      "field": "evidence_state",
-      "from": "partial_confirmation",
-      "to": "conflict"
-    },
-    {
-      "code": "001309",
-      "name": "德明利",
-      "field": "thesis_state",
-      "from": "supported",
-      "to": "conflicted"
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "evidence_state",
-      "from": "partial_confirmation",
-      "to": "multi_layer_confirmed"
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "thesis_state",
-      "from": "supported",
-      "to": "confirmed"
-    },
-    {
-      "code": "600667",
-      "name": "太极实业",
-      "field": "matrix_direction",
-      "from": "bearish",
-      "to": "neutral"
-    },
-    {
-      "code": "600667",
-      "name": "太极实业",
-      "field": "evidence_state",
-      "from": "partial_confirmation",
-      "to": "conflict"
-    },
-    {
-      "code": "600667",
-      "name": "太极实业",
-      "field": "thesis_state",
-      "from": "supported",
-      "to": "conflicted"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "weights": {
       "event": 25,
