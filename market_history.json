@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated_at": "2026-11-05T15:06:29+08:00",
+  "generated_at": "2026-11-05T16:40:52+08:00",
   "timezone": "Asia/Shanghai",
   "benchmark": {
     "code": "510300",
@@ -1289,18 +1289,9 @@
       "kind": "stock",
       "status": "fresh",
       "source": "新浪财经 via AKShare",
-      "last_date": "2026-11-04",
+      "last_date": "2026-11-05",
       "observations": 140,
       "rows": [
-        {
-          "date": "2026-04-09",
-          "open": 250.0,
-          "high": 253.49,
-          "low": 243.9,
-          "close": 250.49,
-          "volume": 44468257.0,
-          "amount": 11053684068.0
-        },
         {
           "date": "2026-04-10",
           "open": 255.49,
@@ -2551,6 +2542,15 @@
           "close": 271.38,
           "volume": 43642410.0,
           "amount": 11348674130.0
+        },
+        {
+          "date": "2026-11-05",
+          "open": 260.0,
+          "high": 272.99,
+          "low": 259.0,
+          "close": 263.15,
+          "volume": 43530942.0,
+          "amount": 11528243489.0
         }
       ],
       "fallback_reason": "stock_zh_a_hist() got an unexpected keyword argument 'timeout'"
@@ -6381,18 +6381,9 @@
       "kind": "stock",
       "status": "fresh",
       "source": "新浪财经 via AKShare",
-      "last_date": "2026-11-04",
+      "last_date": "2026-11-05",
       "observations": 140,
       "rows": [
-        {
-          "date": "2026-04-09",
-          "open": 9.3,
-          "high": 9.8,
-          "low": 9.25,
-          "close": 9.63,
-          "volume": 141097743.0,
-          "amount": 1349267086.0
-        },
         {
           "date": "2026-04-10",
           "open": 9.8,
@@ -7643,6 +7634,15 @@
           "close": 13.1,
           "volume": 208789750.0,
           "amount": 2610229523.0
+        },
+        {
+          "date": "2026-11-05",
+          "open": 12.7,
+          "high": 13.78,
+          "low": 12.7,
+          "close": 13.22,
+          "volume": 180851870.0,
+          "amount": 2406697540.0
         }
       ],
       "fallback_reason": "stock_zh_a_hist() got an unexpected keyword argument 'timeout'"

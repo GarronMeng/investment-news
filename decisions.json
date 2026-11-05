@@ -1,28 +1,28 @@
 {
   "version": 1,
-  "generated_at": "2026-11-05T15:06:40+08:00",
+  "generated_at": "2026-11-05T16:41:00+08:00",
   "source": {
     "data_generated_at": "2026-11-05 14:55",
     "ai_generated_at": "2026-08-26 13:33",
     "ai_source_generated_at": "2026-08-26 12:26",
-    "features_generated_at": "2026-11-05T15:06:29+08:00",
+    "features_generated_at": "2026-11-05T16:40:52+08:00",
     "fresh_ai": false
   },
   "decisions": [
     {
       "asset": "603986",
       "name": "兆易创新",
-      "as_of": "2026-11-04",
+      "as_of": "2026-11-05",
       "bias": "bearish",
       "status": "market_watch",
       "event_score": 50.0,
-      "market_score": 20.0,
+      "market_score": 10.0,
       "freshness_score": 70,
       "conviction": 55,
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.175186",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.155081",
       "confirmation": [
         "股价相对半导体指数转强",
         "成交量放大且收盘站稳"
@@ -108,7 +108,7 @@
     {
       "asset": "600667",
       "name": "太极实业",
-      "as_of": "2026-11-04",
+      "as_of": "2026-11-05",
       "bias": "bearish",
       "status": "market_watch",
       "event_score": 50.0,
@@ -118,7 +118,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.184349",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.143221",
       "confirmation": [
         "半导体工程板块同步走强",
         "事件后股价摆脱弱势结构"

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-11-05T15:06:29+08:00",
-  "source_generated_at": "2026-11-05T15:06:29+08:00",
+  "generated_at": "2026-11-05T16:40:52+08:00",
+  "source_generated_at": "2026-11-05T16:40:52+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -36,27 +36,27 @@
     "603986": {
       "code": "603986",
       "name": "兆易创新",
-      "as_of": "2026-11-04",
+      "as_of": "2026-11-05",
       "source_status": "fresh",
       "observations": 140,
-      "close": 271.38,
+      "close": 263.15,
       "ma60": {
-        "value": 356.1135,
+        "value": 354.0753,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.003946
+        "slope_pct": -0.005723
       },
-      "rsi14": 40.15,
+      "rsi14": 38.21,
       "rsi_zone": "weak",
       "macd": {
-        "dif": -25.24574,
-        "dea": -26.40424,
-        "hist": 2.31699,
+        "dif": -24.41791,
+        "dea": -26.00736,
+        "hist": 3.17891,
         "state": "bullish",
-        "cross_age": 0
+        "cross_age": 1
       },
       "volume": {
-        "ratio20": 1.315,
+        "ratio20": 1.284,
         "state": "normal"
       },
       "breakout_20d": "inside_range",
@@ -156,27 +156,27 @@
     "600667": {
       "code": "600667",
       "name": "太极实业",
-      "as_of": "2026-11-04",
+      "as_of": "2026-11-05",
       "source_status": "fresh",
       "observations": 140,
-      "close": 13.1,
+      "close": 13.22,
       "ma60": {
-        "value": 18.0568,
+        "value": 17.9697,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.003724
+        "slope_pct": -0.004827
       },
-      "rsi14": 36.34,
+      "rsi14": 37.32,
       "rsi_zone": "weak",
       "macd": {
-        "dif": -1.3846,
-        "dea": -1.32298,
-        "hist": -0.12324,
-        "state": "bearish",
-        "cross_age": 22
+        "dif": -1.32189,
+        "dea": -1.32276,
+        "hist": 0.00174,
+        "state": "bullish",
+        "cross_age": 0
       },
       "volume": {
-        "ratio20": 1.606,
+        "ratio20": 1.352,
         "state": "expansion"
       },
       "breakout_20d": "inside_range",
@@ -304,7 +304,15 @@
       "condition_state": "partial_conditions"
     }
   },
-  "state_changes": [],
+  "state_changes": [
+    {
+      "code": "600667",
+      "name": "太极实业",
+      "field": "macd",
+      "from": "bearish",
+      "to": "bullish"
+    }
+  ],
   "methodology": {
     "rsi14": "Wilder RSI(14)",
     "macd": "EMA12/EMA26 DIF, EMA9 signal, histogram=(DIF-DEA)*2",
