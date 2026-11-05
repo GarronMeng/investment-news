@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-11-05T19:12:34+08:00",
-  "source_generated_at": "2026-11-05T19:12:34+08:00",
+  "generated_at": "2026-11-05T19:39:31+08:00",
+  "source_generated_at": "2026-11-05T19:39:30+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -246,32 +246,32 @@
     "518880": {
       "code": "518880",
       "name": "黄金ETF华安",
-      "as_of": "2026-11-04",
-      "source_status": "stale",
+      "as_of": "2026-11-05",
+      "source_status": "fresh",
       "observations": 140,
-      "close": 8.229,
+      "close": 8.42,
       "ma60": {
-        "value": 8.7966,
+        "value": 8.793,
         "position": "below",
         "direction": "flat",
-        "slope_pct": -0.000339
+        "slope_pct": -0.000417
       },
-      "rsi14": 42.15,
-      "rsi_zone": "weak",
+      "rsi14": 50.43,
+      "rsi_zone": "neutral",
       "macd": {
-        "dif": -0.18379,
-        "dea": -0.1743,
-        "hist": -0.01899,
-        "state": "bearish",
-        "cross_age": null
+        "dif": -0.15376,
+        "dea": -0.17019,
+        "hist": 0.03286,
+        "state": "bullish",
+        "cross_age": 0
       },
       "volume": {
-        "ratio20": 2.173,
+        "ratio20": 2.179,
         "state": "expansion"
       },
       "breakout_20d": "inside_range",
-      "data_quality": "limited",
-      "condition_state": "conditions_not_met"
+      "data_quality": "usable",
+      "condition_state": "partial_conditions"
     },
     "517380": {
       "code": "517380",
@@ -306,39 +306,25 @@
   },
   "state_changes": [
     {
-      "code": "001309",
-      "name": "德明利",
-      "field": "volume",
-      "from": "expansion",
-      "to": "normal"
-    },
-    {
-      "code": "000636",
-      "name": "风华高科",
-      "field": "volume",
-      "from": "expansion",
-      "to": "normal"
-    },
-    {
-      "code": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "field": "ma60_position",
-      "from": "below",
-      "to": "above"
-    },
-    {
-      "code": "517380",
-      "name": "创新药沪港深ETF天弘",
+      "code": "518880",
+      "name": "黄金ETF华安",
       "field": "rsi_zone",
-      "from": "neutral",
-      "to": "strong"
+      "from": "weak",
+      "to": "neutral"
     },
     {
-      "code": "517380",
-      "name": "创新药沪港深ETF天弘",
+      "code": "518880",
+      "name": "黄金ETF华安",
+      "field": "macd",
+      "from": "bearish",
+      "to": "bullish"
+    },
+    {
+      "code": "518880",
+      "name": "黄金ETF华安",
       "field": "condition_state",
-      "from": "partial_conditions",
-      "to": "all_conditions"
+      "from": "conditions_not_met",
+      "to": "partial_conditions"
     }
   ],
   "methodology": {
