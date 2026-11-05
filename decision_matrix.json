@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-05T23:38:19+08:00",
+  "generated_at": "2026-11-05T23:43:47+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -852,43 +852,7 @@
     "000636",
     "161226"
   ],
-  "state_changes": [
-    {
-      "code": "603986",
-      "name": "兆易创新",
-      "field": "matrix_direction",
-      "from": "neutral",
-      "to": "bearish"
-    },
-    {
-      "code": "001309",
-      "name": "德明利",
-      "field": "matrix_direction",
-      "from": "neutral",
-      "to": "bearish"
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "evidence_state",
-      "from": "multi_layer_confirmed",
-      "to": "conflict"
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "thesis_state",
-      "from": "confirmed",
-      "to": "conflicted"
-    },
-    {
-      "code": "600667",
-      "name": "太极实业",
-      "field": "matrix_direction",
-      "from": "neutral",
-      "to": "bearish"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "weights": {
       "event": 25,
