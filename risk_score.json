@@ -1,22 +1,22 @@
 {
   "version": 1,
-  "generated_at": "2026-11-05T23:43:47+08:00",
-  "score": 38.6,
-  "label": "balanced",
+  "generated_at": "2026-11-06T19:17:43+08:00",
+  "score": 64.8,
+  "label": "elevated",
   "coverage": 100.0,
   "available_weight": 100,
   "components": {
     "valuation": {
-      "score": 50.9,
+      "score": 48.8,
       "weight": 20,
       "available": true,
-      "evidence": "沪深300滚动PE十年分位 50.9%"
+      "evidence": "沪深300滚动PE十年分位 48.8%"
     },
     "market_structure": {
-      "score": 23.1,
+      "score": 87.4,
       "weight": 25,
       "available": true,
-      "evidence": "risk_on；上涨占比 87.4%"
+      "evidence": "risk_off；上涨占比 13.6%"
     },
     "trend": {
       "score": 73.0,
@@ -25,42 +25,53 @@
       "evidence": "MA60 below/falling；MACD bullish；RSI weak"
     },
     "leverage": {
-      "score": 15.6,
+      "score": 19.2,
       "weight": 15,
       "available": true,
-      "evidence": "两融20日Z -1.91"
+      "evidence": "两融20日Z -1.71"
     },
     "overseas": {
-      "score": 27.1,
+      "score": 91.2,
       "weight": 10,
       "available": true,
-      "evidence": "VIX 16.61；20日分位 30.0%"
+      "evidence": "VIX 28.18；20日分位 100.0%"
     },
     "concentration": {
-      "score": 30.0,
+      "score": 66.0,
       "weight": 10,
       "available": true,
-      "evidence": "regime=risk_on；指数均值 1.89% / 上涨占比 87.4%"
+      "evidence": "regime=risk_off；指数均值 -2.11% / 上涨占比 13.6%"
     }
   },
   "drivers": [
     {
+      "component": "overseas",
+      "score": 91.2,
+      "evidence": "VIX 28.18；20日分位 100.0%"
+    },
+    {
+      "component": "market_structure",
+      "score": 87.4,
+      "evidence": "risk_off；上涨占比 13.6%"
+    },
+    {
       "component": "trend",
       "score": 73.0,
       "evidence": "MA60 below/falling；MACD bullish；RSI weak"
-    },
-    {
-      "component": "valuation",
-      "score": 50.9,
-      "evidence": "沪深300滚动PE十年分位 50.9%"
-    },
-    {
-      "component": "concentration",
-      "score": 30.0,
-      "evidence": "regime=risk_on；指数均值 1.89% / 上涨占比 87.4%"
     }
   ],
-  "state_changes": [],
+  "state_changes": [
+    {
+      "type": "label",
+      "from": "balanced",
+      "to": "elevated"
+    },
+    {
+      "type": "score",
+      "from": 38.6,
+      "to": 64.8
+    }
+  ],
   "methodology": "估值20% + 市场结构25% + 基准趋势20% + 两融15% + 海外风险10% + 集中度10%。缺失项剔除并按可用权重重新归一；高分表示环境更脆弱/压力更高，不是下跌概率。",
   "boundary": "风险温度只做环境校准，不生成买卖、仓位或止损指令。"
 }
