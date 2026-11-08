@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generated_at": "2026-11-08T14:12:12+08:00",
+  "generated_at": "2026-11-08T18:48:53+08:00",
   "source": {
-    "data_generated_at": "2026-11-08 14:10",
+    "data_generated_at": "2026-11-08 18:47",
     "ai_generated_at": "2026-08-26 13:33",
     "ai_source_generated_at": "2026-08-26 12:26",
-    "features_generated_at": "2026-11-08T14:12:03+08:00",
+    "features_generated_at": "2026-11-08T18:48:36+08:00",
     "fresh_ai": false
   },
   "decisions": [
@@ -46,7 +46,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.388551",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.16778",
       "confirmation": [
         "相对存储板块止跌转强",
         "放量突破短期压力位"
