@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-09T20:00:29+08:00",
+  "generated_at": "2026-11-09T20:16:50+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
@@ -824,173 +824,6 @@
       "status": "scheduled"
     },
     {
-      "date": "2026-11-16",
-      "time": "07:50",
-      "type": "macro",
-      "category": "growth",
-      "region": "日本",
-      "title": "日本第三季度季调后名义GDP季率初值(%)",
-      "actual": null,
-      "forecast": null,
-      "previous": 1.3,
-      "importance": 2,
-      "impact_channels": [
-        "亚洲科技风险偏好",
-        "半导体链映射"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-11-16",
-      "time": "07:50",
-      "type": "macro",
-      "category": "growth",
-      "region": "日本",
-      "title": "日本第三季度季调后实际GDP季率初值(%)",
-      "actual": null,
-      "forecast": 0.1,
-      "previous": 0.4,
-      "importance": 2,
-      "impact_channels": [
-        "亚洲科技风险偏好",
-        "半导体链映射"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-11-16",
-      "time": "07:50",
-      "type": "macro",
-      "category": "growth",
-      "region": "日本",
-      "title": "日本第三季度季调后实际GDP年化季率初值(%)",
-      "actual": null,
-      "forecast": 0.3,
-      "previous": 1.4,
-      "importance": 2,
-      "impact_channels": [
-        "亚洲科技风险偏好",
-        "半导体链映射"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-11-16",
-      "time": "10:00",
-      "type": "macro",
-      "category": "growth",
-      "region": "中国",
-      "title": "中国10月规模以上工业增加值年率-单月(%)",
-      "actual": null,
-      "forecast": 5.2,
-      "previous": 5.5,
-      "importance": 2,
-      "impact_channels": [
-        "中国增长预期",
-        "行业盈利预期",
-        "人民币汇率"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-11-16",
-      "time": "10:00",
-      "type": "macro",
-      "category": "growth",
-      "region": "中国",
-      "title": "中国10月规模以上工业增加值年率-年初至今(%)",
-      "actual": null,
-      "forecast": null,
-      "previous": 5.3,
-      "importance": 2,
-      "impact_channels": [
-        "中国增长预期",
-        "行业盈利预期",
-        "人民币汇率"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-11-16",
-      "time": "19:00",
-      "type": "macro",
-      "category": "growth",
-      "region": "英国",
-      "title": "英国11月CBI零售销售差值",
-      "actual": null,
-      "forecast": null,
-      "previous": -10.0,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-11-16",
-      "time": "21:30",
-      "type": "macro",
-      "category": "monetary_policy",
-      "region": "美国",
-      "title": "美国11月纽约联储制造业指数",
-      "actual": null,
-      "forecast": null,
-      "previous": 25.5,
-      "importance": 2,
-      "impact_channels": [
-        "美债收益率",
-        "美元",
-        "全球成长估值",
-        "黄金/白银"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-11-16",
-      "time": "21:30",
-      "type": "macro",
-      "category": "monetary_policy",
-      "region": "美国",
-      "title": "美国11月纽约联储制造业未来6个月预期指数",
-      "actual": null,
-      "forecast": null,
-      "previous": 21.0,
-      "importance": null,
-      "impact_channels": [
-        "美债收益率",
-        "美元",
-        "全球成长估值",
-        "黄金/白银"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
       "date": "2026-11-17",
       "time": "15:00",
       "type": "macro",
@@ -1156,33 +989,6 @@
       ],
       "themes": [],
       "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-11-17",
-      "time": null,
-      "type": "global_earnings",
-      "category": "earnings",
-      "region": "US",
-      "title": "NVIDIA 财报发行",
-      "ticker": "NVDA",
-      "report_period": null,
-      "importance": 3,
-      "impact_channels": [
-        "产业链景气",
-        "海外映射",
-        "风险偏好"
-      ],
-      "themes": [
-        "AI算力",
-        "AI光通信 / CPO"
-      ],
-      "assets": [
-        "300308",
-        "002384",
-        "600667"
-      ],
       "source": "百度股市通 via AKShare",
       "status": "scheduled"
     },
@@ -1529,14 +1335,18 @@
     }
   ],
   "summary": {
-    "total": 71,
-    "macro": 69,
-    "global_earnings": 2,
-    "high_importance": 1,
-    "macro_days_ok": 11,
-    "report_days_ok": 11
+    "total": 62,
+    "macro": 61,
+    "global_earnings": 1,
+    "high_importance": 0,
+    "macro_days_ok": 10,
+    "report_days_ok": 9
   },
-  "warnings": [],
+  "warnings": [
+    "news_report_time_baidu 20261114: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10000 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+    "news_economic_baidu 20261116: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10001 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+    "news_report_time_baidu 20261117: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10001 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  ],
   "methodology": {
     "macro": "百度股市通全球宏观日历 via AKShare；保留重要性>=3及少量核心importance-2宏观数据，过滤每日持仓/仓单等例行噪声，并剔除已过时的当日时点。",
     "global_earnings": "百度股市通财报发行 via AKShare；仅保留global_catalyst_universe.json中的公开研究公司。",
