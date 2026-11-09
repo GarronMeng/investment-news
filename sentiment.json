@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-06T14:34:15+08:00",
+  "generated_at": "2026-11-09T14:16:39+08:00",
   "timezone": "Asia/Shanghai",
   "states": {
     "overseas_risk": {
@@ -17,7 +17,7 @@
       "level": "cooling",
       "label": "杠杆降温",
       "tone": "positive",
-      "status": "fresh",
+      "status": "stale",
       "summary": "观察融资余额5日变化与20日位置，资金流不在本阶段计分。",
       "metric_id": "margin_balance"
     }
@@ -26,16 +26,16 @@
     {
       "id": "vix",
       "label": "VIX海外风险",
-      "value": 28.18,
+      "value": 25.64,
       "unit": "点",
-      "as_of": "2026-11-05",
-      "lag_days": 1,
+      "as_of": "2026-11-06",
+      "lag_days": 3,
       "status": "fresh",
       "confidence": "medium",
       "source": "OpenBB/YFinance",
       "source_url": "https://www.cboe.com/tradable_products/vix/vix_historical_data/",
-      "change_1d_pct": 69.66,
-      "percentile_20d": 100.0,
+      "change_1d_pct": -9.01,
+      "percentile_20d": 95.0,
       "level": "high",
       "state_label": "高风险",
       "tone": "warning",
@@ -49,8 +49,8 @@
       "financing_buy_amount": 1679.83,
       "unit": "亿元",
       "as_of": "2026-11-04",
-      "lag_days": 2,
-      "status": "fresh",
+      "lag_days": 5,
+      "status": "stale",
       "confidence": "high",
       "source": "SSE+SZSE via AKShare",
       "source_url": "https://www.sse.com.cn/market/othersdata/margin/sum/",
@@ -60,7 +60,8 @@
       "level": "cooling",
       "state_label": "杠杆降温",
       "tone": "positive",
-      "sample_size": 20
+      "sample_size": 20,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     }
   ],
   "history": {
@@ -247,7 +248,9 @@
       }
     ]
   },
-  "warnings": [],
+  "warnings": [
+    "Margin refresh failed: Expecting value: line 1 column 1 (char 0)"
+  ],
   "methodology": {
     "vix": "优先使用OpenBB/YFinance标准化接口，限流或失败时切换CBOE官方历史数据；显示最新值、单日变化和20日分位。",
     "margin_balance": "AKShare封装上交所与深交所官方汇总；合并融资余额，显示1日/5日变化和20日Z-score。",
