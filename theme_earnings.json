@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-09T22:11:46+08:00",
+  "generated_at": "2026-11-10T01:41:50+08:00",
   "timezone": "Asia/Shanghai",
   "status": "fresh",
   "report_period_code": "20260930",
@@ -378,13 +378,13 @@
       "theme": "创新药",
       "summary": {
         "total": 3,
-        "reported": 2,
-        "scheduled": 1,
+        "reported": 3,
+        "scheduled": 0,
         "pending": 0,
-        "positive_reports": 1,
+        "positive_reports": 2,
         "weak_reports": 0,
-        "median_revenue_yoy_pct": 3.31,
-        "median_net_profit_yoy_pct": -11.08,
+        "median_revenue_yoy_pct": 5.26,
+        "median_net_profit_yoy_pct": 20.38,
         "breadth": "positive"
       },
       "companies": [
@@ -407,18 +407,18 @@
         {
           "code": "688235",
           "name": "百济神州",
-          "status": "scheduled",
-          "announcement_date": null,
+          "status": "reported",
+          "announcement_date": "2026-11-10",
           "scheduled_date": "2026-11-10",
-          "revenue": null,
-          "revenue_yoy_pct": null,
-          "net_profit": null,
-          "net_profit_yoy_pct": null,
-          "gross_margin_pct": null,
-          "earnings_signal": "not_reported",
-          "industry": null,
-          "source": "东方财富 via AKShare",
-          "reason": "future-dated report row withheld to prevent look-ahead"
+          "revenue": 34993317000.0,
+          "revenue_yoy_pct": 26.8092826033,
+          "net_profit": 6055116000.0,
+          "net_profit_yoy_pct": 431.8,
+          "gross_margin_pct": 89.5866973685,
+          "earnings_signal": "strong_growth",
+          "industry": "化学制药",
+          "source": "东方财富 via AKShare + 公告确认",
+          "reason": null
         },
         {
           "code": "688506",
@@ -442,12 +442,10 @@
   "summary": {
     "themes": 6,
     "companies": 21,
-    "reported": 20,
-    "scheduled": 1
+    "reported": 21,
+    "scheduled": 0
   },
-  "warnings": [
-    "withheld 7 same-day earnings rows without corroborating public financial-report notice"
-  ],
+  "warnings": [],
   "methodology": {
     "reported": "东方财富业绩报表 stock_yjbb_em via AKShare；未来公告日期不暴露财务字段；同日行必须在stock_notice_report财务报告公告中得到代码级确认。",
     "schedule": "东方财富预约披露 stock_yysj_em via AKShare；未来日期或未披露公司只显示scheduled/pending。",
