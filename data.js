@@ -1,6 +1,6 @@
 // 自动生成，请勿手工编辑。
 window.DATA = {
- "generated_at": "2026-11-09 10:54",
+ "generated_at": "2026-11-09 14:44",
  "recent_days": 7,
  "industries": [
   {
@@ -9,6 +9,60 @@ window.DATA = {
    "accent": "#ff5a1f",
    "total": 16,
    "items": [
+    {
+     "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”",
+     "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50",
+     "time": "11-09 13:26",
+     "ts": 1794201989,
+     "summary": "Nvidia’s board is investigating Jensen Huang over his relationship with a suspected Chinese spy, and Yale’s Jeffrey Sonnenfeld thinks it’s roughly a coin flip whether Huang stays on as CEO.",
+     "source": "TechCrunch AI",
+     "agenda_layer": "media",
+     "language": "en",
+     "id": "092b13037c22",
+     "keywords_zh": [
+      "英伟达"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:092b13037c22",
+     "cluster_size": 1,
+     "sources": [
+      "TechCrunch AI"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "media"
+     ],
+     "cluster_urls": [
+      {
+       "source": "TechCrunch AI",
+       "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”",
+       "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       1
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "media"
+      ],
+      "time_windows": 1
+     }
+    },
     {
      "title": "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy",
      "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
@@ -50,23 +104,24 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "surge",
       "points": [
-       1
+       10,
+       2
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
       "confirmed": false,
-      "source_count": 2,
+      "source_count": 4,
       "languages": [
        "en"
       ],
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -108,12 +163,13 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "rebound",
+      "label": "steady",
       "points": [
        5,
-       2
+       2,
+       3
       ],
-      "observations": 2,
+      "observations": 3,
       "first_seen": 1793639330
      },
      "resonance": {
@@ -126,7 +182,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 2
+      "time_windows": 3
      }
     },
     {
@@ -165,23 +221,24 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "surge",
       "points": [
-       3
+       33,
+       4
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
       "confirmed": false,
-      "source_count": 1,
+      "source_count": 2,
       "languages": [
        "en"
       ],
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -219,15 +276,16 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "surge",
+      "label": "steady",
       "points": [
        42,
        43,
        47,
        50,
-       4
+       4,
+       5
       ],
-      "observations": 5,
+      "observations": 6,
       "first_seen": 1794105533
      },
      "resonance": {
@@ -239,7 +297,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 4
+      "time_windows": 5
      }
     },
     {
@@ -278,23 +336,24 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "surge",
       "points": [
-       5
+       45,
+       6
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
       "confirmed": false,
-      "source_count": 1,
+      "source_count": 2,
       "languages": [
        "en"
       ],
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -332,23 +391,24 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "surge",
       "points": [
-       6
+       47,
+       7
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
       "confirmed": false,
-      "source_count": 1,
+      "source_count": 2,
       "languages": [
        "en"
       ],
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -387,12 +447,13 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        2,
-       7
+       7,
+       8
       ],
-      "observations": 2,
+      "observations": 3,
       "first_seen": 1794147621
      },
      "resonance": {
@@ -404,7 +465,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 2
+      "time_windows": 3
      }
     },
     {
@@ -442,13 +503,14 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        1,
        3,
-       8
+       8,
+       9
       ],
-      "observations": 3,
+      "observations": 4,
       "first_seen": 1794134849
      },
      "resonance": {
@@ -460,7 +522,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 3
+      "time_windows": 4
      }
     },
     {
@@ -498,12 +560,13 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        4,
-       9
+       9,
+       10
       ],
-      "observations": 2,
+      "observations": 3,
       "first_seen": 1794147621
      },
      "resonance": {
@@ -515,7 +578,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 2
+      "time_windows": 3
      }
     },
     {
@@ -553,13 +616,14 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        2,
        5,
-       10
+       10,
+       11
       ],
-      "observations": 3,
+      "observations": 4,
       "first_seen": 1794134849
      },
      "resonance": {
@@ -571,7 +635,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 3
+      "time_windows": 4
      }
     },
     {
@@ -609,14 +673,15 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        1,
        3,
        6,
-       11
+       11,
+       12
       ],
-      "observations": 4,
+      "observations": 5,
       "first_seen": 1794118250
      },
      "resonance": {
@@ -628,7 +693,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 3
+      "time_windows": 4
      }
     },
     {
@@ -666,14 +731,15 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        2,
        4,
        7,
-       12
+       12,
+       13
       ],
-      "observations": 4,
+      "observations": 5,
       "first_seen": 1794118250
      },
      "resonance": {
@@ -685,7 +751,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 3
+      "time_windows": 4
      }
     },
     {
@@ -723,15 +789,16 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "surge",
+      "label": "steady",
       "points": [
        29,
        36,
        42,
        45,
-       13
+       13,
+       14
       ],
-      "observations": 5,
+      "observations": 6,
       "first_seen": 1794105533
      },
      "resonance": {
@@ -743,7 +810,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 4
+      "time_windows": 5
      }
     },
     {
@@ -781,15 +848,16 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "surge",
+      "label": "steady",
       "points": [
        32,
        38,
        43,
        46,
-       14
+       14,
+       15
       ],
-      "observations": 5,
+      "observations": 6,
       "first_seen": 1794105533
      },
      "resonance": {
@@ -801,7 +869,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 4
+      "time_windows": 5
      }
     },
     {
@@ -839,15 +907,16 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        3,
        5,
        7,
        10,
-       15
+       15,
+       16
       ],
-      "observations": 5,
+      "observations": 6,
       "first_seen": 1794105533
      },
      "resonance": {
@@ -859,7 +928,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 4
+      "time_windows": 5
      }
     },
     {
@@ -898,15 +967,16 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "surge",
+      "label": "steady",
       "points": [
        43,
        44,
        48,
        51,
-       16
+       16,
+       17
       ],
-      "observations": 5,
+      "observations": 6,
       "first_seen": 1794105533
      },
      "resonance": {
@@ -918,7 +988,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 4
+      "time_windows": 5
      }
     },
     {
@@ -957,15 +1027,16 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        6,
        8,
        10,
        13,
-       17
+       17,
+       18
       ],
-      "observations": 5,
+      "observations": 6,
       "first_seen": 1794105533
      },
      "resonance": {
@@ -977,7 +1048,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 4
+      "time_windows": 5
      }
     },
     {
@@ -1015,7 +1086,7 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        1,
        1,
@@ -1023,9 +1094,10 @@ window.DATA = {
        9,
        11,
        14,
-       18
+       18,
+       19
       ],
-      "observations": 7,
+      "observations": 8,
       "first_seen": 1794048182
      },
      "resonance": {
@@ -1037,7 +1109,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 6
+      "time_windows": 7
      }
     },
     {
@@ -1075,15 +1147,16 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        8,
        10,
        12,
        15,
-       19
+       19,
+       20
       ],
-      "observations": 5,
+      "observations": 6,
       "first_seen": 1794105533
      },
      "resonance": {
@@ -1095,7 +1168,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 4
+      "time_windows": 5
      }
     },
     {
@@ -1133,15 +1206,16 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        9,
        11,
        13,
        16,
-       20
+       20,
+       21
       ],
-      "observations": 5,
+      "observations": 6,
       "first_seen": 1794105533
      },
      "resonance": {
@@ -1153,7 +1227,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 4
+      "time_windows": 5
      }
     },
     {
@@ -1191,7 +1265,7 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        2,
        2,
@@ -1199,9 +1273,10 @@ window.DATA = {
        14,
        16,
        18,
-       21
+       21,
+       22
       ],
-      "observations": 7,
+      "observations": 8,
       "first_seen": 1794048182
      },
      "resonance": {
@@ -1213,7 +1288,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 6
+      "time_windows": 7
      }
     },
     {
@@ -1251,7 +1326,7 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        1,
        3,
@@ -1259,9 +1334,10 @@ window.DATA = {
        13,
        15,
        17,
-       22
+       22,
+       23
       ],
-      "observations": 7,
+      "observations": 8,
       "first_seen": 1794031581
      },
      "resonance": {
@@ -1273,7 +1349,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 5
+      "time_windows": 6
      }
     },
     {
@@ -1311,18 +1387,18 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
-       3,
        5,
        6,
        15,
        16,
        18,
        19,
-       23
+       23,
+       24
       ],
-      "observations": 8,
+      "observations": 9,
       "first_seen": 1794031581
      },
      "resonance": {
@@ -1334,7 +1410,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 6
+      "time_windows": 7
      }
     },
     {
@@ -1374,18 +1450,18 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
-       28,
        35,
        48,
        16,
        17,
        19,
        20,
-       24
+       24,
+       25
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -1397,7 +1473,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -1437,77 +1513,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       37,
        40,
        52,
        19,
        20,
        22,
        23,
-       25
-      ],
-      "observations": 9,
-      "first_seen": 1794020600
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 2,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "media"
-      ],
-      "time_windows": 7
-     }
-    },
-    {
-     "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
-     "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web",
-     "time": "11-07 02:44",
-     "ts": 1793990678,
-     "summary": "Security researchers found hundreds of servers hosting the penetration testing tool Artex exposed to the internet, allowing anyone access to the hacking tool.",
-     "source": "TechCrunch AI",
-     "agenda_layer": "media",
-     "language": "en",
-     "id": "5e45c79baabe",
-     "keywords_zh": [
-      "人工智能"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:5e45c79baabe",
-     "cluster_size": 1,
-     "sources": [
-      "TechCrunch AI"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "media"
-     ],
-     "cluster_urls": [
-      {
-       "source": "TechCrunch AI",
-       "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
-       "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web"
-      }
-     ],
-     "trajectory": {
-      "label": "steady",
-      "points": [
-       54,
-       57,
-       63,
-       21,
-       22,
-       24,
        25,
        26
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -1519,7 +1534,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -1559,16 +1574,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       13,
        15,
        17,
        23,
        24,
        26,
        27,
+       27,
        27
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -1580,7 +1595,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -1620,16 +1635,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       19,
        21,
        22,
        25,
        26,
        28,
        28,
+       28,
        28
       ],
-      "observations": 10,
+      "observations": 11,
       "first_seen": 1793977714
      },
      "resonance": {
@@ -1641,7 +1656,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 8
+      "time_windows": 9
      }
     },
     {
@@ -1681,16 +1696,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       16,
        20,
        22,
        26,
        27,
        29,
        29,
+       29,
        29
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1793977714
      },
      "resonance": {
@@ -1702,7 +1717,7 @@ window.DATA = {
       "agenda_layers": [
        "primary"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -1742,16 +1757,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       21,
        23,
        23,
        27,
        28,
        30,
        30,
+       30,
        30
       ],
-      "observations": 10,
+      "observations": 11,
       "first_seen": 1793977714
      },
      "resonance": {
@@ -1763,7 +1778,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 8
+      "time_windows": 9
      }
     },
     {
@@ -1809,11 +1824,11 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       22,
        24,
        24,
        28,
        29,
+       31,
        31,
        31,
        31
@@ -1871,16 +1886,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       24,
        26,
        25,
        29,
        30,
        32,
        32,
+       32,
        32
       ],
-      "observations": 11,
+      "observations": 12,
       "first_seen": 1793965064
      },
      "resonance": {
@@ -1892,7 +1907,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 9
+      "time_windows": 10
      }
     },
     {
@@ -1932,16 +1947,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       25,
        27,
        26,
        30,
        31,
        33,
        33,
+       33,
        33
       ],
-      "observations": 11,
+      "observations": 12,
       "first_seen": 1793965064
      },
      "resonance": {
@@ -1953,7 +1968,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 9
+      "time_windows": 10
      }
     },
     {
@@ -1993,16 +2008,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       29,
        30,
        29,
        31,
        32,
        34,
        34,
+       34,
        34
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -2014,7 +2029,7 @@ window.DATA = {
       "agenda_layers": [
        "primary"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -2054,16 +2069,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       30,
        31,
        30,
        32,
        33,
        35,
        35,
+       35,
        35
       ],
-      "observations": 11,
+      "observations": 12,
       "first_seen": 1793965064
      },
      "resonance": {
@@ -2075,7 +2090,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 9
+      "time_windows": 10
      }
     },
     {
@@ -2115,16 +2130,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       33,
        34,
        33,
        35,
        36,
        37,
        37,
+       36,
        36
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -2136,7 +2151,7 @@ window.DATA = {
       "agenda_layers": [
        "primary"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -2176,16 +2191,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       39,
        34,
        35,
        36,
        37,
        38,
        38,
+       37,
        37
       ],
-      "observations": 10,
+      "observations": 11,
       "first_seen": 1793965064
      },
      "resonance": {
@@ -2197,7 +2212,7 @@ window.DATA = {
       "agenda_layers": [
        "primary"
       ],
-      "time_windows": 8
+      "time_windows": 9
      }
     },
     {
@@ -2237,16 +2252,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       37,
        38,
        36,
        39,
        39,
        39,
        39,
+       38,
        38
       ],
-      "observations": 13,
+      "observations": 14,
       "first_seen": 1793936082
      },
      "resonance": {
@@ -2258,7 +2273,7 @@ window.DATA = {
       "agenda_layers": [
        "primary"
       ],
-      "time_windows": 10
+      "time_windows": 11
      }
     },
     {
@@ -2298,16 +2313,77 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       43,
        38,
        39,
        40,
        40,
        40,
        40,
+       39,
        39
       ],
-      "observations": 12,
+      "observations": 13,
+      "first_seen": 1793936082
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "primary"
+      ],
+      "time_windows": 10
+     }
+    },
+    {
+     "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+     "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips",
+     "time": "11-06 01:05",
+     "ts": 1793898316,
+     "summary": "",
+     "source": "DeepMind",
+     "agenda_layer": "primary",
+     "language": "en",
+     "id": "aecc116e64d1",
+     "keywords_zh": [
+      "AI / 大模型"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:aecc116e64d1",
+     "cluster_size": 1,
+     "sources": [
+      "DeepMind"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "primary"
+     ],
+     "cluster_urls": [
+      {
+       "source": "DeepMind",
+       "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+       "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips"
+      }
+     ],
+     "trajectory": {
+      "label": "steady",
+      "points": [
+       44,
+       39,
+       40,
+       37,
+       41,
+       41,
+       41,
+       40
+      ],
+      "observations": 10,
       "first_seen": 1793936082
      },
      "resonance": {
@@ -2359,16 +2435,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       40,
        41,
        38,
        42,
        41,
        42,
        42,
-       40
+       40,
+       41
       ],
-      "observations": 13,
+      "observations": 14,
       "first_seen": 1793936082
      },
      "resonance": {
@@ -2380,7 +2456,7 @@ window.DATA = {
       "agenda_layers": [
        "primary"
       ],
-      "time_windows": 10
+      "time_windows": 11
      }
     },
     {
@@ -2420,16 +2496,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       41,
        42,
        39,
        43,
        42,
        43,
        43,
-       41
+       41,
+       42
       ],
-      "observations": 13,
+      "observations": 14,
       "first_seen": 1793936082
      },
      "resonance": {
@@ -2441,7 +2517,7 @@ window.DATA = {
       "agenda_layers": [
        "primary"
       ],
-      "time_windows": 10
+      "time_windows": 11
      }
     },
     {
@@ -2481,16 +2557,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       42,
        43,
        40,
        44,
        43,
        44,
        44,
-       42
+       42,
+       43
       ],
-      "observations": 14,
+      "observations": 15,
       "first_seen": 1793892812
      },
      "resonance": {
@@ -2502,7 +2578,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 11
+      "time_windows": 12
      }
     },
     {
@@ -2542,16 +2618,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       43,
        44,
        41,
        45,
        44,
        45,
        45,
-       43
+       43,
+       44
       ],
-      "observations": 14,
+      "observations": 15,
       "first_seen": 1793892812
      },
      "resonance": {
@@ -2563,7 +2639,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 11
+      "time_windows": 12
      }
     },
     {
@@ -2603,16 +2679,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       44,
        45,
        42,
        46,
        45,
        46,
        46,
-       44
+       44,
+       45
       ],
-      "observations": 13,
+      "observations": 14,
       "first_seen": 1793936082
      },
      "resonance": {
@@ -2624,7 +2700,7 @@ window.DATA = {
       "agenda_layers": [
        "primary"
       ],
-      "time_windows": 10
+      "time_windows": 11
      }
     },
     {
@@ -2664,16 +2740,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       46,
        47,
        44,
        47,
        46,
        47,
        47,
-       45
+       45,
+       46
       ],
-      "observations": 13,
+      "observations": 14,
       "first_seen": 1793936082
      },
      "resonance": {
@@ -2685,7 +2761,7 @@ window.DATA = {
       "agenda_layers": [
        "primary"
       ],
-      "time_windows": 10
+      "time_windows": 11
      }
     },
     {
@@ -2725,16 +2801,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       54,
        48,
        48,
        48,
        47,
        48,
        48,
-       46
+       46,
+       47
       ],
-      "observations": 14,
+      "observations": 15,
       "first_seen": 1793878720
      },
      "resonance": {
@@ -2746,7 +2822,7 @@ window.DATA = {
       "agenda_layers": [
        "primary"
       ],
-      "time_windows": 11
+      "time_windows": 12
      }
     },
     {
@@ -2788,15 +2864,15 @@ window.DATA = {
       "label": "steady",
       "points": [
        49,
-       49,
        45,
        49,
        48,
        49,
        49,
-       47
+       47,
+       48
       ],
-      "observations": 17,
+      "observations": 18,
       "first_seen": 1793849943
      },
      "resonance": {
@@ -2808,7 +2884,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 13
+      "time_windows": 14
      }
     },
     {
@@ -2849,15 +2925,15 @@ window.DATA = {
       "label": "steady",
       "points": [
        50,
-       50,
        46,
        50,
        49,
        50,
        50,
-       48
+       48,
+       49
       ],
-      "observations": 17,
+      "observations": 18,
       "first_seen": 1793849943
      },
      "resonance": {
@@ -2869,7 +2945,7 @@ window.DATA = {
       "agenda_layers": [
        "primary"
       ],
-      "time_windows": 13
+      "time_windows": 14
      }
     },
     {
@@ -2909,16 +2985,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       57,
        51,
        51,
        51,
        50,
        51,
        51,
-       49
+       49,
+       50
       ],
-      "observations": 16,
+      "observations": 17,
       "first_seen": 1793849943
      },
      "resonance": {
@@ -2930,7 +3006,7 @@ window.DATA = {
       "agenda_layers": [
        "primary"
       ],
-      "time_windows": 12
+      "time_windows": 13
      }
     },
     {
@@ -2971,15 +3047,15 @@ window.DATA = {
       "label": "steady",
       "points": [
        52,
-       52,
        47,
        52,
        51,
        52,
        52,
-       50
+       50,
+       51
       ],
-      "observations": 18,
+      "observations": 19,
       "first_seen": 1793806180
      },
      "resonance": {
@@ -2991,7 +3067,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 14
+      "time_windows": 15
      }
     },
     {
@@ -3032,15 +3108,15 @@ window.DATA = {
       "label": "steady",
       "points": [
        53,
-       53,
        48,
        53,
        52,
        53,
        53,
-       51
+       51,
+       52
       ],
-      "observations": 18,
+      "observations": 19,
       "first_seen": 1793806180
      },
      "resonance": {
@@ -3051,6 +3127,67 @@ window.DATA = {
       ],
       "agenda_layers": [
        "media"
+      ],
+      "time_windows": 15
+     }
+    },
+    {
+     "title": "Agentic cheminformatics with Google Antigravity",
+     "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity",
+     "time": "11-04 01:01",
+     "ts": 1793725309,
+     "summary": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
+     "source": "DeepMind",
+     "agenda_layer": "primary",
+     "language": "en",
+     "id": "266167b30bce",
+     "keywords_zh": [
+      "谷歌"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:266167b30bce",
+     "cluster_size": 1,
+     "sources": [
+      "DeepMind"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "primary"
+     ],
+     "cluster_urls": [
+      {
+       "source": "DeepMind",
+       "title": "Agentic cheminformatics with Google Antigravity",
+       "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity"
+      }
+     ],
+     "trajectory": {
+      "label": "steady",
+      "points": [
+       60,
+       54,
+       54,
+       49,
+       54,
+       54,
+       54,
+       53
+      ],
+      "observations": 17,
+      "first_seen": 1793774047
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "primary"
       ],
       "time_windows": 14
      }
@@ -3090,18 +3227,18 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "surge",
+      "label": "steady",
       "points": [
-       61,
        55,
        55,
        55,
        53,
        55,
        55,
-       52
+       52,
+       54
       ],
-      "observations": 20,
+      "observations": 21,
       "first_seen": 1793761629
      },
      "resonance": {
@@ -3113,7 +3250,7 @@ window.DATA = {
       "agenda_layers": [
        "primary"
       ],
-      "time_windows": 15
+      "time_windows": 16
      }
     },
     {
@@ -3151,18 +3288,18 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "surge",
+      "label": "steady",
       "points": [
-       56,
        56,
        50,
        56,
        54,
        56,
        56,
-       53
+       53,
+       55
       ],
-      "observations": 23,
+      "observations": 24,
       "first_seen": 1793705117
      },
      "resonance": {
@@ -3174,7 +3311,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 18
+      "time_windows": 19
      }
     },
     {
@@ -3212,16 +3349,16 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "surge",
+      "label": "steady",
       "points": [
-       57,
        57,
        51,
        57,
        55,
        57,
        57,
-       54
+       54,
+       56
       ],
       "observations": 24,
       "first_seen": 1793688891
@@ -3235,7 +3372,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 18
+      "time_windows": 19
      }
     },
     {
@@ -3273,16 +3410,16 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "surge",
+      "label": "steady",
       "points": [
-       58,
        58,
        52,
        58,
        56,
        58,
        58,
-       55
+       55,
+       57
       ],
       "observations": 24,
       "first_seen": 1793678356
@@ -3296,7 +3433,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 18
+      "time_windows": 19
      }
     }
    ]
@@ -3308,23 +3445,23 @@ window.DATA = {
    "total": 9,
    "items": [
     {
-     "title": "Nvidia cancels South Korea trip of Jensen Huang's daughter over family reasons",
-     "url": "https://www.digitimes.com/news/a20261109PD227/jensen-huang-nvidia-ai-south-korea-2026.html",
-     "time": "11-09 09:58",
-     "ts": 1794189481,
-     "summary": "Madison Huang, Nvidia CEO Jensen Huang's eldest daughter and the company's senior director of marketing for Omniverse and robotics products, has canceled her entire visit to South Korea, including a planned meeting with South Korean Deputy ",
+     "title": "In US-China AI data center race, America's 118 GW capacity forecast faces China's rapid expansion by 2030",
+     "url": "https://www.digitimes.com/news/a20261109PD224/usa-data-center-capacity-expansion-china-2030.html",
+     "time": "11-09 13:57",
+     "ts": 1794203861,
+     "summary": "Surging demand for AI computing is accelerating data center construction in both the US and China, although the US is expected to retain a substantial lead in installed capacity through 2030.",
      "source": "DIGITIMES",
      "agenda_layer": "industry",
      "language": "en",
-     "id": "b6010878f138",
+     "id": "4f71a3f53404",
      "keywords_zh": [
-      "英伟达",
-      "机器人"
+      "人工智能",
+      "数据中心"
      ],
      "event_type": "",
      "related_assets": [],
      "relevance_score": 0,
-     "topic_id": "story:b6010878f138",
+     "topic_id": "story:4f71a3f53404",
      "cluster_size": 1,
      "sources": [
       "DIGITIMES"
@@ -3338,8 +3475,8 @@ window.DATA = {
      "cluster_urls": [
       {
        "source": "DIGITIMES",
-       "title": "Nvidia cancels South Korea trip of Jensen Huang's daughter over family reasons",
-       "url": "https://www.digitimes.com/news/a20261109PD227/jensen-huang-nvidia-ai-south-korea-2026.html"
+       "title": "In US-China AI data center race, America's 118 GW capacity forecast faces China's rapid expansion by 2030",
+       "url": "https://www.digitimes.com/news/a20261109PD224/usa-data-center-capacity-expansion-china-2030.html"
       }
      ],
      "trajectory": {
@@ -3348,7 +3485,7 @@ window.DATA = {
        1
       ],
       "observations": 1,
-      "first_seen": 1794192856
+      "first_seen": 1794206680
      },
      "resonance": {
       "confirmed": false,
@@ -3363,26 +3500,22 @@ window.DATA = {
      }
     },
     {
-     "title": "Sino-American Silicon Products posts record revenue in first three quarters of 2026 on AI, energy demand",
-     "url": "https://www.digitimes.com/news/a20261107PD200/sas-revenue-demand-2026-electricity.html",
-     "time": "11-09 09:50",
-     "ts": 1794189038,
-     "summary": "Sino-American Silicon Products (SAS) is focusing on computing power and electricity, as construction of artificial intelligence (AI) data centers accelerates, demand for high-bandwidth memory (HBM) surges, and the global energy transition c",
+     "title": "Microsoft reportedly phasing out Oracle compute, reassessing cloud deals",
+     "url": "https://www.digitimes.com/news/a20261109VL220/microsoft-oracle-capacity-software-2023.html",
+     "time": "11-09 13:48",
+     "ts": 1794203308,
+     "summary": "Microsoft is phasing out a rented compute capacity agreement with Oracle after deciding not to renew a contract with the cloud provider. The separation is a part of a larger rethinking of the software giant's cloud partnerships as the neocl",
      "source": "DIGITIMES",
      "agenda_layer": "industry",
      "language": "en",
-     "id": "5e1cb5cc7c4a",
+     "id": "6f51b6734930",
      "keywords_zh": [
-      "人工智能",
-      "数据中心",
-      "业绩超预期"
+      "微软"
      ],
-     "event_type": "业绩超预期",
-     "related_assets": [
-      "兆易创新"
-     ],
-     "relevance_score": 5,
-     "topic_id": "topic:ef00e440cafe",
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:6f51b6734930",
      "cluster_size": 1,
      "sources": [
       "DIGITIMES"
@@ -3396,8 +3529,8 @@ window.DATA = {
      "cluster_urls": [
       {
        "source": "DIGITIMES",
-       "title": "Sino-American Silicon Products posts record revenue in first three quarters of 2026 on AI, energy demand",
-       "url": "https://www.digitimes.com/news/a20261107PD200/sas-revenue-demand-2026-electricity.html"
+       "title": "Microsoft reportedly phasing out Oracle compute, reassessing cloud deals",
+       "url": "https://www.digitimes.com/news/a20261109VL220/microsoft-oracle-capacity-software-2023.html"
       }
      ],
      "trajectory": {
@@ -3406,7 +3539,7 @@ window.DATA = {
        2
       ],
       "observations": 1,
-      "first_seen": 1794192856
+      "first_seen": 1794206680
      },
      "resonance": {
       "confirmed": false,
@@ -3421,22 +3554,22 @@ window.DATA = {
      }
     },
     {
-     "title": "Trump says Huang should stay on as Nvidia CEO as board opens spy probe",
-     "url": "https://www.digitimes.com/news/a20261109VL214/nvidia-jensen-huang-investigation-donald-trump.html",
-     "time": "11-09 09:47",
-     "ts": 1794188870,
-     "summary": "US President Donald Trump said on November 8 that Jensen Huang should remain CEO of Nvidia, hours after the chipmaker's board opened an independent investigation into whether Huang had been the target of a foreign intelligence effort follow",
+     "title": "China's smart cockpits reach 100% domestic assembly, but foreign tech still controls over 70% of the core",
+     "url": "https://www.digitimes.com/news/a20261109PD242/technology-smart-cockpit-market-certification-automotive.html",
+     "time": "11-09 12:47",
+     "ts": 1794199677,
+     "summary": "China accounts for approximately 36% of the global smart cockpit market, with an established presence in automotive displays, head-up displays (HUDs), voice interaction and cockpit domain controller integration. Yet its strength in system i",
      "source": "DIGITIMES",
      "agenda_layer": "industry",
      "language": "en",
-     "id": "9f68a4bc8adb",
+     "id": "7866cabf90a2",
      "keywords_zh": [
-      "英伟达"
+      "半导体 / 芯片"
      ],
      "event_type": "",
      "related_assets": [],
      "relevance_score": 0,
-     "topic_id": "story:9f68a4bc8adb",
+     "topic_id": "story:7866cabf90a2",
      "cluster_size": 1,
      "sources": [
       "DIGITIMES"
@@ -3450,8 +3583,8 @@ window.DATA = {
      "cluster_urls": [
       {
        "source": "DIGITIMES",
-       "title": "Trump says Huang should stay on as Nvidia CEO as board opens spy probe",
-       "url": "https://www.digitimes.com/news/a20261109VL214/nvidia-jensen-huang-investigation-donald-trump.html"
+       "title": "China's smart cockpits reach 100% domestic assembly, but foreign tech still controls over 70% of the core",
+       "url": "https://www.digitimes.com/news/a20261109PD242/technology-smart-cockpit-market-certification-automotive.html"
       }
      ],
      "trajectory": {
@@ -3460,7 +3593,7 @@ window.DATA = {
        3
       ],
       "observations": 1,
-      "first_seen": 1794192856
+      "first_seen": 1794206680
      },
      "resonance": {
       "confirmed": false,
@@ -3475,23 +3608,22 @@ window.DATA = {
      }
     },
     {
-     "title": "Taiwan telecom provider FarEasTone evaluates AIDC demand, has no new build plans",
-     "url": "https://www.digitimes.com/news/a20261106PD238/aidc-demand-revenue-2026-data.html",
-     "time": "11-09 09:46",
-     "ts": 1794188805,
-     "summary": "FarEasTone Telecommunications is evaluating opportunities in AI data centers (AIDCs) but has no concrete plans to build a new facility, according to company president Chee Ching. Speaking at the company's latest earnings call, Ching said th",
+     "title": "Musk says SpaceX annual recurring revenue likely to top US$500 billion by December 2027",
+     "url": "https://www.digitimes.com/news/a20261109VL210/spacex-revenue-2027-ceo-elon-musk.html",
+     "time": "11-09 12:47",
+     "ts": 1794199639,
+     "summary": "SpaceX CEO Elon Musk said the company's annual recurring revenue (ARR) will likely exceed US$500 billion in December 2027, and that a US$1 trillion run rate is no longer out of the question. However, he put the odds of the higher figure at ",
      "source": "DIGITIMES",
      "agenda_layer": "industry",
      "language": "en",
-     "id": "122f41002caa",
+     "id": "a38b8110f52b",
      "keywords_zh": [
-      "人工智能",
-      "数据中心"
+      "半导体 / 芯片"
      ],
      "event_type": "",
      "related_assets": [],
      "relevance_score": 0,
-     "topic_id": "story:122f41002caa",
+     "topic_id": "story:a38b8110f52b",
      "cluster_size": 1,
      "sources": [
       "DIGITIMES"
@@ -3505,8 +3637,8 @@ window.DATA = {
      "cluster_urls": [
       {
        "source": "DIGITIMES",
-       "title": "Taiwan telecom provider FarEasTone evaluates AIDC demand, has no new build plans",
-       "url": "https://www.digitimes.com/news/a20261106PD238/aidc-demand-revenue-2026-data.html"
+       "title": "Musk says SpaceX annual recurring revenue likely to top US$500 billion by December 2027",
+       "url": "https://www.digitimes.com/news/a20261109VL210/spacex-revenue-2027-ceo-elon-musk.html"
       }
      ],
      "trajectory": {
@@ -3515,7 +3647,7 @@ window.DATA = {
        4
       ],
       "observations": 1,
-      "first_seen": 1794192856
+      "first_seen": 1794206680
      },
      "resonance": {
       "confirmed": false,
@@ -3530,22 +3662,22 @@ window.DATA = {
      }
     },
     {
-     "title": "ECS sees 4Q26 shipments plunging 56%, targets edge AI",
-     "url": "https://www.digitimes.com/news/a20261106PD239/ecs-edge-ai-pc-demand-shipments-2026.html",
-     "time": "11-09 09:46",
-     "ts": 1794188800,
-     "summary": "Weak PC demand, customer order adjustments, product transitions, and component supply changes are sharply weakening Elitegroup Computer Systems' (ECS) 2026 OEM and channel shipment outlook. Supply-chain sources estimate the company's relate",
+     "title": "Robots spur transmission makers to target customized niches",
+     "url": "https://www.digitimes.com/news/a20261109PD237/taiwan-transmission-demand-automation-equipment.html",
+     "time": "11-09 12:37",
+     "ts": 1794199048,
+     "summary": "Taiwan's machinery industry has gained strong momentum in recent years, with robust demand for semiconductors, AI applications, industrial automation and smart manufacturing driving sustained exports. The growth is benefiting not only equip",
      "source": "DIGITIMES",
      "agenda_layer": "industry",
      "language": "en",
-     "id": "14f1dc5e5d6f",
+     "id": "b1df0e89b47d",
      "keywords_zh": [
       "人工智能"
      ],
      "event_type": "",
      "related_assets": [],
      "relevance_score": 0,
-     "topic_id": "story:14f1dc5e5d6f",
+     "topic_id": "story:b1df0e89b47d",
      "cluster_size": 1,
      "sources": [
       "DIGITIMES"
@@ -3559,8 +3691,8 @@ window.DATA = {
      "cluster_urls": [
       {
        "source": "DIGITIMES",
-       "title": "ECS sees 4Q26 shipments plunging 56%, targets edge AI",
-       "url": "https://www.digitimes.com/news/a20261106PD239/ecs-edge-ai-pc-demand-shipments-2026.html"
+       "title": "Robots spur transmission makers to target customized niches",
+       "url": "https://www.digitimes.com/news/a20261109PD237/taiwan-transmission-demand-automation-equipment.html"
       }
      ],
      "trajectory": {
@@ -3569,7 +3701,7 @@ window.DATA = {
        5
       ],
       "observations": 1,
-      "first_seen": 1794192856
+      "first_seen": 1794206680
      },
      "resonance": {
       "confirmed": false,
@@ -3584,22 +3716,23 @@ window.DATA = {
      }
     },
     {
-     "title": "Adlink's shift beyond industrial PC hardware unlocks stronger margins, growth",
-     "url": "https://www.digitimes.com/news/a20261106PD240/pc-ipc-hardware-industrial-growth.html",
-     "time": "11-09 09:46",
-     "ts": 1794188789,
-     "summary": "Industrial PC (IPC) manufacturer Adlink reported a 43% year-on-year increase in consolidated revenue for the first nine months of 2026, with its operating margin rising to 11% from approximately 5% a year earlier. Earnings per share (EPS) r",
+     "title": "China's lithography ambitions gain ground as SMEE claims 90% local sourcing in chipmaking tools",
+     "url": "https://www.digitimes.com/news/a20261109PD235/smee-lithography-packaging-equipment-2026.html",
+     "time": "11-09 12:33",
+     "ts": 1794198785,
+     "summary": "Shanghai Micro Electronics Equipment (SMEE) has showcased a new generation of domestically developed lithography systems spanning front-end wafer fabrication and advanced packaging, marking further progress in China's semiconductor equipmen",
      "source": "DIGITIMES",
      "agenda_layer": "industry",
      "language": "en",
-     "id": "5e50fd791701",
+     "id": "91c0afb933b1",
      "keywords_zh": [
-      "半导体 / 芯片"
+      "晶圆代工",
+      "先进封装"
      ],
      "event_type": "",
      "related_assets": [],
      "relevance_score": 0,
-     "topic_id": "story:5e50fd791701",
+     "topic_id": "story:91c0afb933b1",
      "cluster_size": 1,
      "sources": [
       "DIGITIMES"
@@ -3613,8 +3746,8 @@ window.DATA = {
      "cluster_urls": [
       {
        "source": "DIGITIMES",
-       "title": "Adlink's shift beyond industrial PC hardware unlocks stronger margins, growth",
-       "url": "https://www.digitimes.com/news/a20261106PD240/pc-ipc-hardware-industrial-growth.html"
+       "title": "China's lithography ambitions gain ground as SMEE claims 90% local sourcing in chipmaking tools",
+       "url": "https://www.digitimes.com/news/a20261109PD235/smee-lithography-packaging-equipment-2026.html"
       }
      ],
      "trajectory": {
@@ -3623,7 +3756,7 @@ window.DATA = {
        6
       ],
       "observations": 1,
-      "first_seen": 1794192856
+      "first_seen": 1794206680
      },
      "resonance": {
       "confirmed": false,
@@ -3672,11 +3805,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "steady",
       "points": [
+       7,
        7
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -3688,7 +3822,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -3727,11 +3861,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "steady",
       "points": [
+       8,
        8
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -3743,7 +3878,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -3781,11 +3916,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "steady",
       "points": [
+       9,
        9
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -3797,7 +3933,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -3835,11 +3971,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "steady",
       "points": [
+       10,
        10
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -3851,7 +3988,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -3889,11 +4026,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "steady",
       "points": [
+       11,
        11
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -3905,7 +4043,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -3943,11 +4081,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "steady",
       "points": [
+       12,
        12
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -3959,7 +4098,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -3997,18 +4136,18 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
-       1,
        1,
        7,
        7,
        7,
        7,
        9,
+       13,
        13
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -4020,7 +4159,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -4059,18 +4198,18 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
-       5,
        5,
        9,
        9,
        9,
        9,
        11,
+       14,
        14
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -4082,7 +4221,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -4120,18 +4259,18 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
-       6,
        6,
        6,
        10,
        10,
        10,
        12,
+       15,
        15
       ],
-      "observations": 8,
+      "observations": 9,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -4143,7 +4282,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -4184,15 +4323,15 @@ window.DATA = {
       "label": "steady",
       "points": [
        8,
-       8,
        12,
        12,
        12,
        11,
        14,
+       16,
        16
       ],
-      "observations": 10,
+      "observations": 11,
       "first_seen": 1793977714
      },
      "resonance": {
@@ -4204,7 +4343,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 8
+      "time_windows": 9
      }
     },
     {
@@ -4246,14 +4385,14 @@ window.DATA = {
       "points": [
        9,
        9,
-       9,
        13,
        13,
        13,
        15,
+       17,
        17
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1793977714
      },
      "resonance": {
@@ -4265,7 +4404,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 8
+      "time_windows": 9
      }
     },
     {
@@ -4307,14 +4446,14 @@ window.DATA = {
       "points": [
        10,
        10,
-       10,
        14,
        14,
        14,
        16,
+       18,
        18
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1793977714
      },
      "resonance": {
@@ -4326,7 +4465,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 8
+      "time_windows": 9
      }
     },
     {
@@ -4367,15 +4506,15 @@ window.DATA = {
       "label": "steady",
       "points": [
        11,
-       11,
        15,
        15,
        15,
        12,
        17,
+       19,
        19
       ],
-      "observations": 10,
+      "observations": 11,
       "first_seen": 1793977714
      },
      "resonance": {
@@ -4387,7 +4526,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 8
+      "time_windows": 9
      }
     },
     {
@@ -4428,15 +4567,15 @@ window.DATA = {
       "label": "steady",
       "points": [
        13,
-       13,
        17,
        17,
        17,
        14,
        19,
+       20,
        20
       ],
-      "observations": 10,
+      "observations": 11,
       "first_seen": 1793977714
      },
      "resonance": {
@@ -4448,7 +4587,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 8
+      "time_windows": 9
      }
     },
     {
@@ -4490,14 +4629,14 @@ window.DATA = {
       "points": [
        14,
        14,
-       14,
        18,
        18,
        18,
        20,
+       21,
        21
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1793977714
      },
      "resonance": {
@@ -4509,7 +4648,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 8
+      "time_windows": 9
      }
     },
     {
@@ -4551,14 +4690,14 @@ window.DATA = {
       "points": [
        15,
        15,
-       15,
        19,
        19,
        19,
        21,
+       22,
        22
       ],
-      "observations": 10,
+      "observations": 11,
       "first_seen": 1793965064
      },
      "resonance": {
@@ -4570,7 +4709,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 9
+      "time_windows": 10
      }
     },
     {
@@ -4611,15 +4750,15 @@ window.DATA = {
       "label": "steady",
       "points": [
        18,
-       18,
        21,
        21,
        21,
        15,
        23,
+       23,
        23
       ],
-      "observations": 11,
+      "observations": 12,
       "first_seen": 1793965064
      },
      "resonance": {
@@ -4631,7 +4770,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 9
+      "time_windows": 10
      }
     },
     {
@@ -4639,7 +4778,7 @@ window.DATA = {
      "url": "https://semiengineering.com/chip-industry-week-in-review-163",
      "time": "11-06 16:01",
      "ts": 1793952061,
-     "summary": "HBM smuggling routes into China; Nvidia H200s held in Hong Kong; Micron pauses Taiwan fab work; Samsung expands HBM base-die capacity; Oracle-Tencent AI chip deal collapses; Bosch builds out semiconductors; S. Korea boosts AI and chip spend",
+     "summary": "Updated 11/8: Nvidia CEO under investigation; HBM smuggling routes into China; Micron pauses Taiwan fab work; Samsung expands HBM base-die capacity; Oracle-Tencent AI chip deal collapses; Bosch builds out semiconductors; S. Korea boosts AI ",
      "source": "Semiconductor Engineering",
      "agenda_layer": "industry",
      "language": "en",
@@ -4677,8 +4816,8 @@ window.DATA = {
        22,
        22,
        22,
-       22,
        16,
+       24,
        24,
        24
       ],
@@ -4738,12 +4877,12 @@ window.DATA = {
        23,
        23,
        23,
-       23,
        17,
+       25,
        25,
        25
       ],
-      "observations": 11,
+      "observations": 12,
       "first_seen": 1793965064
      },
      "resonance": {
@@ -4755,7 +4894,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 9
+      "time_windows": 10
      }
     },
     {
@@ -4800,12 +4939,12 @@ window.DATA = {
        24,
        24,
        24,
-       24,
        18,
+       26,
        26,
        26
       ],
-      "observations": 13,
+      "observations": 14,
       "first_seen": 1793936082
      },
      "resonance": {
@@ -4817,7 +4956,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 10
+      "time_windows": 11
      }
     },
     {
@@ -4861,12 +5000,12 @@ window.DATA = {
        25,
        25,
        25,
-       25,
        19,
+       27,
        27,
        27
       ],
-      "observations": 13,
+      "observations": 14,
       "first_seen": 1793936082
      },
      "resonance": {
@@ -4878,7 +5017,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 10
+      "time_windows": 11
      }
     },
     {
@@ -4922,12 +5061,12 @@ window.DATA = {
        26,
        26,
        26,
-       26,
        20,
+       28,
        28,
        28
       ],
-      "observations": 13,
+      "observations": 14,
       "first_seen": 1793936082
      },
      "resonance": {
@@ -4939,7 +5078,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 10
+      "time_windows": 11
      }
     },
     {
@@ -4984,12 +5123,12 @@ window.DATA = {
        27,
        27,
        27,
-       27,
        21,
+       29,
        29,
        29
       ],
-      "observations": 13,
+      "observations": 14,
       "first_seen": 1793936082
      },
      "resonance": {
@@ -5001,7 +5140,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 10
+      "time_windows": 11
      }
     },
     {
@@ -5045,12 +5184,12 @@ window.DATA = {
        29,
        29,
        29,
-       29,
        23,
+       30,
        30,
        30
       ],
-      "observations": 13,
+      "observations": 14,
       "first_seen": 1793936082
      },
      "resonance": {
@@ -5062,7 +5201,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 10
+      "time_windows": 11
      }
     },
     {
@@ -5106,12 +5245,12 @@ window.DATA = {
        30,
        30,
        30,
-       30,
        24,
+       31,
        31,
        31
       ],
-      "observations": 13,
+      "observations": 14,
       "first_seen": 1793936082
      },
      "resonance": {
@@ -5123,7 +5262,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 10
+      "time_windows": 11
      }
     },
     {
@@ -5170,12 +5309,12 @@ window.DATA = {
        32,
        32,
        32,
-       32,
        26,
+       32,
        32,
        32
       ],
-      "observations": 19,
+      "observations": 20,
       "first_seen": 1793792281
      },
      "resonance": {
@@ -5187,7 +5326,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 15
+      "time_windows": 16
      }
     },
     {
@@ -5233,12 +5372,12 @@ window.DATA = {
        33,
        33,
        33,
-       33,
        27,
+       33,
        33,
        33
       ],
-      "observations": 15,
+      "observations": 16,
       "first_seen": 1793878720
      },
      "resonance": {
@@ -5250,7 +5389,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 12
+      "time_windows": 13
      }
     },
     {
@@ -5294,12 +5433,12 @@ window.DATA = {
        34,
        34,
        34,
-       34,
        28,
+       34,
        34,
        34
       ],
-      "observations": 15,
+      "observations": 16,
       "first_seen": 1793878720
      },
      "resonance": {
@@ -5311,7 +5450,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 12
+      "time_windows": 13
      }
     },
     {
@@ -5357,12 +5496,12 @@ window.DATA = {
        35,
        35,
        35,
-       35,
        29,
+       35,
        35,
        35
       ],
-      "observations": 15,
+      "observations": 16,
       "first_seen": 1793878720
      },
      "resonance": {
@@ -5374,7 +5513,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 12
+      "time_windows": 13
      }
     },
     {
@@ -5420,12 +5559,12 @@ window.DATA = {
        36,
        36,
        36,
-       36,
        30,
+       36,
        36,
        36
       ],
-      "observations": 15,
+      "observations": 16,
       "first_seen": 1793878720
      },
      "resonance": {
@@ -5437,7 +5576,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 12
+      "time_windows": 13
      }
     },
     {
@@ -5481,12 +5620,12 @@ window.DATA = {
        37,
        37,
        37,
-       37,
        31,
+       37,
        37,
        37
       ],
-      "observations": 15,
+      "observations": 16,
       "first_seen": 1793878720
      },
      "resonance": {
@@ -5498,7 +5637,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 12
+      "time_windows": 13
      }
     },
     {
@@ -5542,12 +5681,12 @@ window.DATA = {
        38,
        38,
        38,
-       38,
        32,
+       38,
        38,
        38
       ],
-      "observations": 17,
+      "observations": 18,
       "first_seen": 1793849943
      },
      "resonance": {
@@ -5559,7 +5698,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 13
+      "time_windows": 14
      }
     },
     {
@@ -5603,12 +5742,12 @@ window.DATA = {
        39,
        39,
        39,
-       39,
        33,
+       39,
        39,
        39
       ],
-      "observations": 21,
+      "observations": 22,
       "first_seen": 1793761629
      },
      "resonance": {
@@ -5620,7 +5759,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 16
+      "time_windows": 17
      }
     },
     {
@@ -5665,12 +5804,12 @@ window.DATA = {
        40,
        40,
        40,
-       40,
        34,
+       40,
        40,
        40
       ],
-      "observations": 23,
+      "observations": 24,
       "first_seen": 1793705117
      },
      "resonance": {
@@ -5682,7 +5821,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 18
+      "time_windows": 19
      }
     },
     {
@@ -5728,8 +5867,8 @@ window.DATA = {
        41,
        41,
        41,
-       41,
        35,
+       41,
        41,
        41
       ],
@@ -5745,7 +5884,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 18
+      "time_windows": 19
      }
     }
    ]
@@ -5794,9 +5933,10 @@ window.DATA = {
       "label": "steady",
       "points": [
        1,
+       1,
        1
       ],
-      "observations": 2,
+      "observations": 3,
       "first_seen": 1794147621
      },
      "resonance": {
@@ -5808,7 +5948,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 2
+      "time_windows": 3
      }
     },
     {
@@ -5849,9 +5989,10 @@ window.DATA = {
       "label": "steady",
       "points": [
        2,
+       2,
        2
       ],
-      "observations": 2,
+      "observations": 3,
       "first_seen": 1794147621
      },
      "resonance": {
@@ -5863,7 +6004,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 2
+      "time_windows": 3
      }
     },
     {
@@ -5908,9 +6049,10 @@ window.DATA = {
        1,
        1,
        3,
+       3,
        3
       ],
-      "observations": 6,
+      "observations": 7,
       "first_seen": 1794060423
      },
      "resonance": {
@@ -5922,7 +6064,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 5
+      "time_windows": 6
      }
     },
     {
@@ -5963,15 +6105,15 @@ window.DATA = {
       "label": "steady",
       "points": [
        1,
-       1,
        2,
        2,
        2,
        2,
        4,
+       4,
        4
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -5983,7 +6125,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -6024,15 +6166,15 @@ window.DATA = {
       "label": "steady",
       "points": [
        2,
-       2,
        3,
        3,
        3,
        3,
        5,
+       5,
        5
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -6044,7 +6186,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -6087,11 +6229,11 @@ window.DATA = {
       "label": "zombie",
       "points": [
        3,
-       3,
        4,
        4,
        4,
        4,
+       6,
        6,
        6
       ],
@@ -6107,7 +6249,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 18
+      "time_windows": 19
      }
     },
     {
@@ -6148,15 +6290,15 @@ window.DATA = {
       "label": "steady",
       "points": [
        4,
-       4,
        5,
        5,
        5,
        5,
        7,
+       7,
        7
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -6168,7 +6310,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -6209,15 +6351,15 @@ window.DATA = {
       "label": "steady",
       "points": [
        5,
-       5,
        6,
        6,
        6,
        6,
        8,
+       8,
        8
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -6229,7 +6371,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -6270,15 +6412,15 @@ window.DATA = {
       "label": "steady",
       "points": [
        6,
-       6,
        7,
        7,
        7,
        7,
        9,
+       9,
        9
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -6290,7 +6432,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -6331,15 +6473,15 @@ window.DATA = {
       "label": "steady",
       "points": [
        7,
-       7,
        8,
        8,
        8,
        8,
        10,
+       10,
        10
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -6351,7 +6493,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -6392,15 +6534,15 @@ window.DATA = {
       "label": "steady",
       "points": [
        8,
-       8,
        9,
        9,
        9,
        9,
        11,
+       11,
        11
       ],
-      "observations": 13,
+      "observations": 14,
       "first_seen": 1793936082
      },
      "resonance": {
@@ -6412,7 +6554,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 10
+      "time_windows": 11
      }
     },
     {
@@ -6453,15 +6595,15 @@ window.DATA = {
       "label": "steady",
       "points": [
        10,
-       10,
        11,
        11,
        11,
        11,
        12,
+       12,
        12
       ],
-      "observations": 14,
+      "observations": 15,
       "first_seen": 1793892812
      },
      "resonance": {
@@ -6473,7 +6615,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 11
+      "time_windows": 12
      }
     },
     {
@@ -6514,15 +6656,15 @@ window.DATA = {
       "label": "steady",
       "points": [
        11,
-       11,
        12,
        12,
        12,
        12,
        13,
+       13,
        13
       ],
-      "observations": 14,
+      "observations": 15,
       "first_seen": 1793892812
      },
      "resonance": {
@@ -6534,7 +6676,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 11
+      "time_windows": 12
      }
     },
     {
@@ -6575,7 +6717,7 @@ window.DATA = {
       "label": "steady",
       "points": [
        13,
-       13,
+       14,
        14,
        14,
        14,
@@ -6583,7 +6725,7 @@ window.DATA = {
        14,
        14
       ],
-      "observations": 17,
+      "observations": 18,
       "first_seen": 1793849943
      },
      "resonance": {
@@ -6595,7 +6737,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 13
+      "time_windows": 14
      }
     },
     {
@@ -6636,7 +6778,7 @@ window.DATA = {
       "label": "steady",
       "points": [
        14,
-       14,
+       15,
        15,
        15,
        15,
@@ -6644,7 +6786,7 @@ window.DATA = {
        15,
        15
       ],
-      "observations": 18,
+      "observations": 19,
       "first_seen": 1793806180
      },
      "resonance": {
@@ -6656,7 +6798,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 14
+      "time_windows": 15
      }
     },
     {
@@ -6697,7 +6839,7 @@ window.DATA = {
       "label": "steady",
       "points": [
        15,
-       15,
+       16,
        16,
        16,
        16,
@@ -6717,7 +6859,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 18
+      "time_windows": 19
      }
     }
    ]
@@ -6728,6 +6870,222 @@ window.DATA = {
    "accent": "#fb7185",
    "total": 5,
    "items": [
+    {
+     "title": "Tesla retail sales in China fall to lowest since July 2022 as export share hits record",
+     "url": "https://cnevpost.com/2026/11/09/tesla-retail-sales-china-oct-2026",
+     "time": "11-09 14:23",
+     "ts": 1794205390,
+     "summary": "Tesla sold only 8,817 vehicles in China in October, down 66.10% year-on-year. For details, please visit CnEVPost (cnev.co).",
+     "source": "CnEVPost",
+     "agenda_layer": "media",
+     "language": "en",
+     "id": "5d967e9bbbc4",
+     "keywords_zh": [
+      "汽车 / 新能源车"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:5d967e9bbbc4",
+     "cluster_size": 1,
+     "sources": [
+      "CnEVPost"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "media"
+     ],
+     "cluster_urls": [
+      {
+       "source": "CnEVPost",
+       "title": "Tesla retail sales in China fall to lowest since July 2022 as export share hits record",
+       "url": "https://cnevpost.com/2026/11/09/tesla-retail-sales-china-oct-2026"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       1
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "media"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "Huawei-backed Maextro may launch new sub-brand focused on SUVs",
+     "url": "https://cnevpost.com/2026/11/09/maextro-may-launch-sub-brand-suvs",
+     "time": "11-09 13:06",
+     "ts": 1794200810,
+     "summary": "The sub-brand and the Maserati collaboration are separate projects, with details of the sub-brand yet to be finalized. For details, please visit CnEVPost (cnev.co).",
+     "source": "CnEVPost",
+     "agenda_layer": "media",
+     "language": "en",
+     "id": "b13846ed55fa",
+     "keywords_zh": [
+      "汽车 / 新能源车"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:b13846ed55fa",
+     "cluster_size": 1,
+     "sources": [
+      "CnEVPost"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "media"
+     ],
+     "cluster_urls": [
+      {
+       "source": "CnEVPost",
+       "title": "Huawei-backed Maextro may launch new sub-brand focused on SUVs",
+       "url": "https://cnevpost.com/2026/11/09/maextro-may-launch-sub-brand-suvs"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       2
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "media"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "Dongfeng Nissan sets NX7 debut in for November 13, pre-sales to open same day",
+     "url": "https://cnevpost.com/2026/11/09/dongfeng-nissan-nx7-debut-nov-13",
+     "time": "11-09 11:48",
+     "ts": 1794196086,
+     "summary": "The NX7 plug-in hybrid SUV, the fourth model in Dongfeng Nissan's N series, is expected to go on sale this year. For details, please visit CnEVPost (cnev.co).",
+     "source": "CnEVPost",
+     "agenda_layer": "media",
+     "language": "en",
+     "id": "821f5cb11443",
+     "keywords_zh": [
+      "汽车 / 新能源车"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:821f5cb11443",
+     "cluster_size": 1,
+     "sources": [
+      "CnEVPost"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "media"
+     ],
+     "cluster_urls": [
+      {
+       "source": "CnEVPost",
+       "title": "Dongfeng Nissan sets NX7 debut in for November 13, pre-sales to open same day",
+       "url": "https://cnevpost.com/2026/11/09/dongfeng-nissan-nx7-debut-nov-13"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       3
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "media"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "BMW advances Neue Klasse roll-out in China with iX3 and i3 launches this month",
+     "url": "https://cnevpost.com/2026/11/09/bmw-neue-klasse-ix3-i3-launches-china-nov",
+     "time": "11-09 11:01",
+     "ts": 1794193314,
+     "summary": "BMW opened reservations for the Neue Klasse iX3 in China in August, with pre-sales prices starting at 269,900 yuan ($40,170). For details, please visit CnEVPost (cnev.co).",
+     "source": "CnEVPost",
+     "agenda_layer": "media",
+     "language": "en",
+     "id": "3ba96955c1e6",
+     "keywords_zh": [
+      "产品发布"
+     ],
+     "event_type": "产品发布",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:3ba96955c1e6",
+     "cluster_size": 1,
+     "sources": [
+      "CnEVPost"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "media"
+     ],
+     "cluster_urls": [
+      {
+       "source": "CnEVPost",
+       "title": "BMW advances Neue Klasse roll-out in China with iX3 and i3 launches this month",
+       "url": "https://cnevpost.com/2026/11/09/bmw-neue-klasse-ix3-i3-launches-china-nov"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       4
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "media"
+      ],
+      "time_windows": 1
+     }
+    },
     {
      "title": "Here are the best electric bikes you can buy at every price level in November 2026",
      "url": "https://electrek.co/2026/11/08/here-are-the-best-electric-bikes-you-can-buy-at-every-price-level",
@@ -6763,11 +7121,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "decay",
       "points": [
-       1
+       1,
+       5
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -6779,7 +7138,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -6817,11 +7176,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "decay",
       "points": [
-       2
+       2,
+       6
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -6833,7 +7193,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -6871,11 +7231,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "decay",
       "points": [
-       3
+       3,
+       7
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -6887,7 +7248,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -6928,9 +7289,10 @@ window.DATA = {
       "label": "decay",
       "points": [
        1,
-       4
+       4,
+       8
       ],
-      "observations": 2,
+      "observations": 3,
       "first_seen": 1794147621
      },
      "resonance": {
@@ -6942,7 +7304,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 2
+      "time_windows": 3
      }
     },
     {
@@ -6984,9 +7346,10 @@ window.DATA = {
       "points": [
        1,
        2,
-       5
+       5,
+       9
       ],
-      "observations": 3,
+      "observations": 4,
       "first_seen": 1794134849
      },
      "resonance": {
@@ -6998,7 +7361,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 3
+      "time_windows": 4
      }
     },
     {
@@ -7041,9 +7404,10 @@ window.DATA = {
        1,
        2,
        3,
-       6
+       6,
+       10
       ],
-      "observations": 4,
+      "observations": 5,
       "first_seen": 1794118250
      },
      "resonance": {
@@ -7055,7 +7419,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 3
+      "time_windows": 4
      }
     },
     {
@@ -7099,9 +7463,10 @@ window.DATA = {
        2,
        3,
        4,
-       7
+       7,
+       11
       ],
-      "observations": 5,
+      "observations": 6,
       "first_seen": 1794105533
      },
      "resonance": {
@@ -7113,7 +7478,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 4
+      "time_windows": 5
      }
     },
     {
@@ -7157,9 +7522,10 @@ window.DATA = {
        3,
        4,
        5,
-       8
+       8,
+       12
       ],
-      "observations": 5,
+      "observations": 6,
       "first_seen": 1794105533
      },
      "resonance": {
@@ -7171,7 +7537,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 4
+      "time_windows": 5
      }
     },
     {
@@ -7215,69 +7581,11 @@ window.DATA = {
        4,
        5,
        6,
-       9
-      ],
-      "observations": 5,
-      "first_seen": 1794105533
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "media"
-      ],
-      "time_windows": 4
-     }
-    },
-    {
-     "title": "BYD Fang Cheng Bao confirms Tai 6 model, Formula SL expected in 2027",
-     "url": "https://cnevpost.com/2026/11/07/byd-fang-cheng-bao-confirms-tai-6-formula-sl-2027",
-     "time": "11-07 22:05",
-     "ts": 1794060340,
-     "summary": "The Tai 6 was mentioned for the first time by an executive at Fang Cheng Bao, but no details were disclosed. For details, please visit CnEVPost (cnev.co).",
-     "source": "CnEVPost",
-     "agenda_layer": "media",
-     "language": "en",
-     "id": "e2355b34fba3",
-     "keywords_zh": [
-      "汽车 / 新能源车"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:e2355b34fba3",
-     "cluster_size": 1,
-     "sources": [
-      "CnEVPost"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "media"
-     ],
-     "cluster_urls": [
-      {
-       "source": "CnEVPost",
-       "title": "BYD Fang Cheng Bao confirms Tai 6 model, Formula SL expected in 2027",
-       "url": "https://cnevpost.com/2026/11/07/byd-fang-cheng-bao-confirms-tai-6-formula-sl-2027"
-      }
-     ],
-     "trajectory": {
-      "label": "decay",
-      "points": [
-       1,
-       4,
-       5,
-       6,
-       7,
-       10
+       9,
+       13
       ],
       "observations": 6,
-      "first_seen": 1794060423
+      "first_seen": 1794105533
      },
      "resonance": {
       "confirmed": false,
@@ -7333,9 +7641,10 @@ window.DATA = {
        6,
        7,
        8,
-       11
+       11,
+       14
       ],
-      "observations": 6,
+      "observations": 7,
       "first_seen": 1794060423
      },
      "resonance": {
@@ -7347,7 +7656,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 5
+      "time_windows": 6
      }
     },
     {
@@ -7392,9 +7701,10 @@ window.DATA = {
        7,
        8,
        9,
-       12
+       12,
+       15
       ],
-      "observations": 6,
+      "observations": 7,
       "first_seen": 1794060423
      },
      "resonance": {
@@ -7406,7 +7716,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 5
+      "time_windows": 6
      }
     },
     {
@@ -7451,71 +7761,11 @@ window.DATA = {
        8,
        9,
        10,
-       13
+       13,
+       16
       ],
-      "observations": 6,
+      "observations": 7,
       "first_seen": 1794060423
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "media"
-      ],
-      "time_windows": 5
-     }
-    },
-    {
-     "title": "Nio Firefly wins 2026 Red Dot Award for smart cockpit design",
-     "url": "https://cnevpost.com/2026/11/07/nio-firefly-red-dot-award-smart-cockpit",
-     "time": "11-07 12:02",
-     "ts": 1794024122,
-     "summary": "Firefly Aster OS wins the Brands &#038; Communication Design award in the Interface &#038; User Experience Design category. For details, please visit CnEVPost (cnev.co).",
-     "source": "CnEVPost",
-     "agenda_layer": "media",
-     "language": "en",
-     "id": "cd5d0f5ec420",
-     "keywords_zh": [
-      "汽车 / 新能源车"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:cd5d0f5ec420",
-     "cluster_size": 1,
-     "sources": [
-      "CnEVPost"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "media"
-     ],
-     "cluster_urls": [
-      {
-       "source": "CnEVPost",
-       "title": "Nio Firefly wins 2026 Red Dot Award for smart cockpit design",
-       "url": "https://cnevpost.com/2026/11/07/nio-firefly-red-dot-award-smart-cockpit"
-      }
-     ],
-     "trajectory": {
-      "label": "steady",
-      "points": [
-       1,
-       1,
-       8,
-       11,
-       12,
-       13,
-       13,
-       14
-      ],
-      "observations": 8,
-      "first_seen": 1794031581
      },
      "resonance": {
       "confirmed": false,
@@ -7567,15 +7817,15 @@ window.DATA = {
       "label": "steady",
       "points": [
        8,
-       8,
        11,
        13,
        14,
        14,
        14,
-       15
+       15,
+       17
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -7587,7 +7837,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -7628,77 +7878,16 @@ window.DATA = {
       "label": "steady",
       "points": [
        9,
-       9,
        12,
        14,
        15,
        15,
        15,
-       16
-      ],
-      "observations": 9,
-      "first_seen": 1794020600
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "media"
-      ],
-      "time_windows": 7
-     }
-    },
-    {
-     "title": "Geely adds new special editions to hot-selling Xingyuan EV after hitting 1-million milestone",
-     "url": "https://cnevpost.com/2026/11/06/geely-adds-special-editions-xingyuan",
-     "time": "11-06 20:42",
-     "ts": 1793968972,
-     "summary": "The official guidance prices for the two new versions are both 91,800 yuan ($13,670), with a limited-time benefit price of 88,800 yuan. For details, please visit CnEVPost (cnev.co).",
-     "source": "CnEVPost",
-     "agenda_layer": "media",
-     "language": "en",
-     "id": "be6d580dd0c9",
-     "keywords_zh": [
-      "新能源汽车"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:be6d580dd0c9",
-     "cluster_size": 1,
-     "sources": [
-      "CnEVPost"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "media"
-     ],
-     "cluster_urls": [
-      {
-       "source": "CnEVPost",
-       "title": "Geely adds new special editions to hot-selling Xingyuan EV after hitting 1-million milestone",
-       "url": "https://cnevpost.com/2026/11/06/geely-adds-special-editions-xingyuan"
-      }
-     ],
-     "trajectory": {
-      "label": "steady",
-      "points": [
-       11,
-       11,
-       14,
-       15,
        16,
-       16,
-       16,
-       17
+       18
       ],
       "observations": 10,
-      "first_seen": 1793977714
+      "first_seen": 1794020600
      },
      "resonance": {
       "confirmed": false,
@@ -7750,15 +7939,15 @@ window.DATA = {
       "label": "steady",
       "points": [
        12,
-       12,
        15,
        16,
        17,
        17,
        17,
-       18
+       18,
+       19
       ],
-      "observations": 10,
+      "observations": 11,
       "first_seen": 1793977714
      },
      "resonance": {
@@ -7770,7 +7959,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 8
+      "time_windows": 9
      }
     },
     {
@@ -7811,77 +8000,16 @@ window.DATA = {
       "label": "steady",
       "points": [
        13,
-       13,
        16,
        17,
        18,
        18,
        18,
-       19
-      ],
-      "observations": 9,
-      "first_seen": 1794020600
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "media"
-      ],
-      "time_windows": 7
-     }
-    },
-    {
-     "title": "FAW-VW ID. AURA L5 electric sedan to open pre-orders on November 16",
-     "url": "https://cnevpost.com/2026/11/06/faw-vw-id-aura-l5-pre-orders-nov-16",
-     "time": "11-06 19:50",
-     "ts": 1793965850,
-     "summary": "The L5 is the second model in the ID. AURA lineup and its first all-electric sedan, expected to hit the market within this year. For details, please visit CnEVPost (cnev.co).",
-     "source": "CnEVPost",
-     "agenda_layer": "media",
-     "language": "en",
-     "id": "6b6dd4bfa868",
-     "keywords_zh": [
-      "汽车 / 新能源车"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:6b6dd4bfa868",
-     "cluster_size": 1,
-     "sources": [
-      "CnEVPost"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "media"
-     ],
-     "cluster_urls": [
-      {
-       "source": "CnEVPost",
-       "title": "FAW-VW ID. AURA L5 electric sedan to open pre-orders on November 16",
-       "url": "https://cnevpost.com/2026/11/06/faw-vw-id-aura-l5-pre-orders-nov-16"
-      }
-     ],
-     "trajectory": {
-      "label": "steady",
-      "points": [
-       14,
-       14,
-       17,
-       18,
-       19,
-       19,
        19,
        20
       ],
       "observations": 10,
-      "first_seen": 1793977714
+      "first_seen": 1794020600
      },
      "resonance": {
       "confirmed": false,
@@ -7933,15 +8061,15 @@ window.DATA = {
       "label": "steady",
       "points": [
        15,
-       15,
        18,
        19,
        20,
        20,
        20,
+       21,
        21
       ],
-      "observations": 10,
+      "observations": 11,
       "first_seen": 1793977714
      },
      "resonance": {
@@ -7953,7 +8081,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 8
+      "time_windows": 9
      }
     },
     {
@@ -7994,15 +8122,15 @@ window.DATA = {
       "label": "steady",
       "points": [
        17,
-       17,
        20,
        21,
        21,
        21,
        21,
+       22,
        22
       ],
-      "observations": 11,
+      "observations": 12,
       "first_seen": 1793965064
      },
      "resonance": {
@@ -8014,7 +8142,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 9
+      "time_windows": 10
      }
     },
     {
@@ -8063,10 +8191,10 @@ window.DATA = {
        22,
        22,
        22,
-       22,
+       23,
        23
       ],
-      "observations": 13,
+      "observations": 14,
       "first_seen": 1793936082
      },
      "resonance": {
@@ -8078,7 +8206,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 10
+      "time_windows": 11
      }
     },
     {
@@ -8124,10 +8252,10 @@ window.DATA = {
        23,
        23,
        23,
-       23,
+       24,
        24
       ],
-      "observations": 13,
+      "observations": 14,
       "first_seen": 1793936082
      },
      "resonance": {
@@ -8139,7 +8267,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 10
+      "time_windows": 11
      }
     },
     {
@@ -8185,10 +8313,10 @@ window.DATA = {
        24,
        24,
        24,
-       24,
+       25,
        25
       ],
-      "observations": 13,
+      "observations": 14,
       "first_seen": 1793936082
      },
      "resonance": {
@@ -8200,7 +8328,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 10
+      "time_windows": 11
      }
     },
     {
@@ -8246,10 +8374,10 @@ window.DATA = {
        25,
        25,
        25,
-       25,
+       26,
        26
       ],
-      "observations": 13,
+      "observations": 14,
       "first_seen": 1793936082
      },
      "resonance": {
@@ -8261,7 +8389,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 10
+      "time_windows": 11
      }
     },
     {
@@ -8307,10 +8435,10 @@ window.DATA = {
        26,
        26,
        26,
-       26,
+       27,
        27
       ],
-      "observations": 14,
+      "observations": 15,
       "first_seen": 1793892812
      },
      "resonance": {
@@ -8322,7 +8450,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 11
+      "time_windows": 12
      }
     },
     {
@@ -8368,10 +8496,10 @@ window.DATA = {
        27,
        27,
        27,
-       27,
+       28,
        28
       ],
-      "observations": 15,
+      "observations": 16,
       "first_seen": 1793878720
      },
      "resonance": {
@@ -8383,7 +8511,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 12
+      "time_windows": 13
      }
     },
     {
@@ -8432,7 +8560,7 @@ window.DATA = {
        29,
        29
       ],
-      "observations": 15,
+      "observations": 16,
       "first_seen": 1793878720
      },
      "resonance": {
@@ -8444,7 +8572,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 12
+      "time_windows": 13
      }
     },
     {
@@ -8493,7 +8621,7 @@ window.DATA = {
        30,
        30
       ],
-      "observations": 14,
+      "observations": 15,
       "first_seen": 1793892812
      },
      "resonance": {
@@ -8505,7 +8633,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 11
+      "time_windows": 12
      }
     }
    ]
@@ -8516,6 +8644,114 @@ window.DATA = {
    "accent": "#84cc16",
    "total": 9,
    "items": [
+    {
+     "title": "Oil Prices Fall as Trump Signals No New Attacks on Iran",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Trump-Signals-No-New-Attacks-on-Iran.html",
+     "time": "11-09 13:45",
+     "ts": 1794203100,
+     "summary": "Crude oil prices began the week with a decline, after President Trump signaled he had no immediate plans for further attacks on Iran. The decline comes despite fresh reports of attacks on tankers in the Strait of Hormuz and new strikes by t",
+     "source": "OilPrice",
+     "agenda_layer": "media",
+     "language": "en",
+     "id": "4126e7010008",
+     "keywords_zh": [
+      "降价"
+     ],
+     "event_type": "降价",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:4126e7010008",
+     "cluster_size": 1,
+     "sources": [
+      "OilPrice"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "media"
+     ],
+     "cluster_urls": [
+      {
+       "source": "OilPrice",
+       "title": "Oil Prices Fall as Trump Signals No New Attacks on Iran",
+       "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Trump-Signals-No-New-Attacks-on-Iran.html"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       1
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "media"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "The changing landscape of US PV imports",
+     "url": "https://www.pv-magazine.com/2026/11/09/the-changing-landscape-of-us-pv-imports",
+     "time": "11-09 13:00",
+     "ts": 1794200400,
+     "summary": "Alan Tu of InfoLink Consulting examines the worldwide impact of recent US investments in local PV manufacturing and the shifts in global trade policy and supply chains that have accompanied it. The post The changing landscape of US PV impor",
+     "source": "pv magazine",
+     "agenda_layer": "industry",
+     "language": "en",
+     "id": "4f8797c203be",
+     "keywords_zh": [
+      "能源 / 新能源"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:4f8797c203be",
+     "cluster_size": 1,
+     "sources": [
+      "pv magazine"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "industry"
+     ],
+     "cluster_urls": [
+      {
+       "source": "pv magazine",
+       "title": "The changing landscape of US PV imports",
+       "url": "https://www.pv-magazine.com/2026/11/09/the-changing-landscape-of-us-pv-imports"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       2
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "industry"
+      ],
+      "time_windows": 1
+     }
+    },
     {
      "title": "Iraq’s 5 Million Bpd Oil Claim Complicates Its OPEC Quota Push",
      "url": "https://oilprice.com/Energy/Crude-Oil/Iraqs-5-Million-Bpd-Oil-Claim-Complicates-Its-OPEC-Quota-Push.html",
@@ -8551,11 +8787,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "steady",
       "points": [
-       1
+       1,
+       3
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -8567,7 +8804,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -8605,11 +8842,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "steady",
       "points": [
-       2
+       2,
+       4
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -8621,7 +8859,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -8659,11 +8897,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "steady",
       "points": [
-       3
+       3,
+       5
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -8675,7 +8914,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -8713,11 +8952,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "steady",
       "points": [
-       4
+       4,
+       6
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -8729,7 +8969,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -8767,11 +9007,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "steady",
       "points": [
-       5
+       5,
+       7
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -8783,7 +9024,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -8821,11 +9062,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "steady",
       "points": [
-       6
+       6,
+       8
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -8837,7 +9079,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -8876,11 +9118,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "steady",
       "points": [
-       7
+       7,
+       9
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -8892,7 +9135,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -8930,11 +9173,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "steady",
       "points": [
-       8
+       8,
+       10
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -8946,7 +9190,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -8984,13 +9228,14 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        1,
        1,
-       9
+       9,
+       11
       ],
-      "observations": 3,
+      "observations": 4,
       "first_seen": 1794134849
      },
      "resonance": {
@@ -9002,7 +9247,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 3
+      "time_windows": 4
      }
     },
     {
@@ -9040,15 +9285,16 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        1,
        1,
        2,
        2,
-       10
+       10,
+       12
       ],
-      "observations": 5,
+      "observations": 6,
       "first_seen": 1794105533
      },
      "resonance": {
@@ -9060,65 +9306,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 4
-     }
-    },
-    {
-     "title": "Wars May Spur Faster Electrification",
-     "url": "https://oilprice.com/Energy/Energy-General/Wars-May-Spur-Faster-Electrification.html",
-     "time": "11-08 08:00",
-     "ts": 1794096000,
-     "summary": "The wars in Ukraine and the Middle East have prompted an increase in EV sales to avoid retail fuel inflation and gas demand destruction in favor of other power generation sources. With COP31 starting next week, some participants have signal",
-     "source": "OilPrice",
-     "agenda_layer": "media",
-     "language": "en",
-     "id": "61f63e803cb2",
-     "keywords_zh": [
-      "新能源汽车"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:61f63e803cb2",
-     "cluster_size": 1,
-     "sources": [
-      "OilPrice"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "media"
-     ],
-     "cluster_urls": [
-      {
-       "source": "OilPrice",
-       "title": "Wars May Spur Faster Electrification",
-       "url": "https://oilprice.com/Energy/Energy-General/Wars-May-Spur-Faster-Electrification.html"
-      }
-     ],
-     "trajectory": {
-      "label": "decay",
-      "points": [
-       2,
-       2,
-       3,
-       3,
-       11
-      ],
-      "observations": 5,
-      "first_seen": 1794105533
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "media"
-      ],
-      "time_windows": 4
+      "time_windows": 5
      }
     },
     {
@@ -9156,15 +9344,16 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        4,
        4,
        5,
        5,
-       12
+       12,
+       13
       ],
-      "observations": 5,
+      "observations": 6,
       "first_seen": 1794105533
      },
      "resonance": {
@@ -9176,7 +9365,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 4
+      "time_windows": 5
      }
     },
     {
@@ -9221,9 +9410,10 @@ window.DATA = {
        12,
        12,
        12,
-       13
+       13,
+       14
       ],
-      "observations": 6,
+      "observations": 7,
       "first_seen": 1794060423
      },
      "resonance": {
@@ -9235,7 +9425,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 5
+      "time_windows": 6
      }
     },
     {
@@ -9281,9 +9471,10 @@ window.DATA = {
        13,
        13,
        13,
-       14
+       14,
+       15
       ],
-      "observations": 7,
+      "observations": 8,
       "first_seen": 1794048182
      },
      "resonance": {
@@ -9295,7 +9486,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 6
+      "time_windows": 7
      }
     },
     {
@@ -9341,9 +9532,10 @@ window.DATA = {
        14,
        14,
        14,
-       15
+       15,
+       16
       ],
-      "observations": 7,
+      "observations": 8,
       "first_seen": 1794048182
      },
      "resonance": {
@@ -9355,7 +9547,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 6
+      "time_windows": 7
      }
     },
     {
@@ -9401,9 +9593,10 @@ window.DATA = {
        15,
        15,
        15,
-       16
+       16,
+       17
       ],
-      "observations": 7,
+      "observations": 8,
       "first_seen": 1794048182
      },
      "resonance": {
@@ -9415,7 +9608,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 6
+      "time_windows": 7
      }
     },
     {
@@ -9461,69 +9654,10 @@ window.DATA = {
        16,
        16,
        16,
-       17
-      ],
-      "observations": 7,
-      "first_seen": 1794048182
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "industry"
-      ],
-      "time_windows": 6
-     }
-    },
-    {
-     "title": "Researchers develop 10.56 kW solar-powered pleasure boat",
-     "url": "https://www.pv-magazine.com/2026/11/07/researchers-unveil-10-56-kw-solar-powered-pleasure-boat",
-     "time": "11-07 16:00",
-     "ts": 1794038400,
-     "summary": "Researchers in Canada have designed a solar-powered pleasure boat featuring a 10.56 kW PV array and a 19.68 kWh battery system. Simulations under solar conditions in Cyprus showed that the system could meet propulsion demand while providing",
-     "source": "pv magazine",
-     "agenda_layer": "industry",
-     "language": "en",
-     "id": "1988e94696f1",
-     "keywords_zh": [
-      "能源 / 新能源"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:1988e94696f1",
-     "cluster_size": 1,
-     "sources": [
-      "pv magazine"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "industry"
-     ],
-     "cluster_urls": [
-      {
-       "source": "pv magazine",
-       "title": "Researchers develop 10.56 kW solar-powered pleasure boat",
-       "url": "https://www.pv-magazine.com/2026/11/07/researchers-unveil-10-56-kw-solar-powered-pleasure-boat"
-      }
-     ],
-     "trajectory": {
-      "label": "steady",
-      "points": [
-       5,
-       6,
-       17,
-       17,
-       17,
        17,
        18
       ],
-      "observations": 7,
+      "observations": 8,
       "first_seen": 1794048182
      },
      "resonance": {
@@ -9535,7 +9669,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 6
+      "time_windows": 7
      }
     },
     {
@@ -9575,16 +9709,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       11,
        17,
        17,
+       19,
        19,
        19,
        19,
        19,
        19
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -9596,7 +9730,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -9636,7 +9770,7 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       14,
+       20,
        20,
        20,
        20,
@@ -9645,7 +9779,7 @@ window.DATA = {
        20,
        20
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -9657,7 +9791,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -9697,7 +9831,7 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       15,
+       21,
        21,
        21,
        21,
@@ -9706,7 +9840,7 @@ window.DATA = {
        21,
        21
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -9718,7 +9852,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -9756,14 +9890,15 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "rebound",
+      "label": "steady",
       "points": [
        17,
        22,
        22,
+       22,
        22
       ],
-      "observations": 4,
+      "observations": 5,
       "first_seen": 1794031581
      },
      "resonance": {
@@ -9775,7 +9910,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 4
+      "time_windows": 5
      }
     },
     {
@@ -9815,7 +9950,7 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       18,
+       23,
        23,
        23,
        23,
@@ -9824,7 +9959,7 @@ window.DATA = {
        23,
        23
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -9836,7 +9971,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -9876,7 +10011,7 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       19,
+       24,
        24,
        24,
        24,
@@ -9885,7 +10020,7 @@ window.DATA = {
        24,
        24
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -9897,7 +10032,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -9937,7 +10072,7 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       20,
+       25,
        25,
        25,
        25,
@@ -9946,7 +10081,7 @@ window.DATA = {
        25,
        25
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -9958,7 +10093,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -9998,7 +10133,7 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       21,
+       26,
        26,
        26,
        26,
@@ -10007,7 +10142,7 @@ window.DATA = {
        26,
        26
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -10019,7 +10154,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -10059,7 +10194,7 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       22,
+       27,
        27,
        27,
        27,
@@ -10068,7 +10203,7 @@ window.DATA = {
        27,
        27
       ],
-      "observations": 10,
+      "observations": 11,
       "first_seen": 1793977714
      },
      "resonance": {
@@ -10080,7 +10215,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 8
+      "time_windows": 9
      }
     },
     {
@@ -10120,7 +10255,7 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       23,
+       28,
        28,
        28,
        28,
@@ -10129,7 +10264,7 @@ window.DATA = {
        28,
        28
       ],
-      "observations": 10,
+      "observations": 11,
       "first_seen": 1793977714
      },
      "resonance": {
@@ -10141,7 +10276,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 8
+      "time_windows": 9
      }
     },
     {
@@ -10181,7 +10316,7 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       24,
+       29,
        29,
        29,
        29,
@@ -10190,7 +10325,7 @@ window.DATA = {
        29,
        29
       ],
-      "observations": 10,
+      "observations": 11,
       "first_seen": 1793977714
      },
      "resonance": {
@@ -10202,7 +10337,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 8
+      "time_windows": 9
      }
     },
     {
@@ -10242,7 +10377,7 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       25,
+       30,
        30,
        30,
        30,
@@ -10251,7 +10386,7 @@ window.DATA = {
        30,
        30
       ],
-      "observations": 10,
+      "observations": 11,
       "first_seen": 1793977714
      },
      "resonance": {
@@ -10263,7 +10398,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 8
+      "time_windows": 9
      }
     },
     {
@@ -10303,7 +10438,7 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       26,
+       31,
        31,
        31,
        31,
@@ -10312,7 +10447,7 @@ window.DATA = {
        31,
        31
       ],
-      "observations": 10,
+      "observations": 11,
       "first_seen": 1793977714
      },
      "resonance": {
@@ -10324,7 +10459,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 8
+      "time_windows": 9
      }
     },
     {
@@ -10364,7 +10499,7 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       31,
+       32,
        32,
        32,
        32,
@@ -10373,7 +10508,7 @@ window.DATA = {
        32,
        32
       ],
-      "observations": 10,
+      "observations": 11,
       "first_seen": 1793977714
      },
      "resonance": {
@@ -10385,7 +10520,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 8
+      "time_windows": 9
      }
     },
     {
@@ -10434,7 +10569,7 @@ window.DATA = {
        33,
        33
       ],
-      "observations": 11,
+      "observations": 12,
       "first_seen": 1793965064
      },
      "resonance": {
@@ -10446,7 +10581,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 9
+      "time_windows": 10
      }
     },
     {
@@ -10495,7 +10630,7 @@ window.DATA = {
        34,
        34
       ],
-      "observations": 11,
+      "observations": 12,
       "first_seen": 1793965064
      },
      "resonance": {
@@ -10507,7 +10642,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 9
+      "time_windows": 10
      }
     },
     {
@@ -10556,7 +10691,7 @@ window.DATA = {
        35,
        35
       ],
-      "observations": 11,
+      "observations": 12,
       "first_seen": 1793965064
      },
      "resonance": {
@@ -10568,7 +10703,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 9
+      "time_windows": 10
      }
     },
     {
@@ -10617,7 +10752,7 @@ window.DATA = {
        36,
        36
       ],
-      "observations": 13,
+      "observations": 14,
       "first_seen": 1793936082
      },
      "resonance": {
@@ -10629,7 +10764,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 10
+      "time_windows": 11
      }
     },
     {
@@ -10678,7 +10813,7 @@ window.DATA = {
        37,
        37
       ],
-      "observations": 13,
+      "observations": 14,
       "first_seen": 1793936082
      },
      "resonance": {
@@ -10690,7 +10825,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 10
+      "time_windows": 11
      }
     },
     {
@@ -10739,7 +10874,7 @@ window.DATA = {
        38,
        38
       ],
-      "observations": 13,
+      "observations": 14,
       "first_seen": 1793936082
      },
      "resonance": {
@@ -10751,7 +10886,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 10
+      "time_windows": 11
      }
     },
     {
@@ -10800,7 +10935,7 @@ window.DATA = {
        39,
        39
       ],
-      "observations": 13,
+      "observations": 14,
       "first_seen": 1793936082
      },
      "resonance": {
@@ -10812,7 +10947,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 10
+      "time_windows": 11
      }
     },
     {
@@ -10861,7 +10996,7 @@ window.DATA = {
        40,
        40
       ],
-      "observations": 13,
+      "observations": 14,
       "first_seen": 1793936082
      },
      "resonance": {
@@ -10873,7 +11008,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 10
+      "time_windows": 11
      }
     },
     {
@@ -10922,7 +11057,7 @@ window.DATA = {
        41,
        41
       ],
-      "observations": 14,
+      "observations": 15,
       "first_seen": 1793892812
      },
      "resonance": {
@@ -10934,7 +11069,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 11
+      "time_windows": 12
      }
     },
     {
@@ -10984,7 +11119,7 @@ window.DATA = {
        42,
        42
       ],
-      "observations": 16,
+      "observations": 17,
       "first_seen": 1793861748
      },
      "resonance": {
@@ -10996,7 +11131,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 12
+      "time_windows": 13
      }
     }
    ]
@@ -11042,11 +11177,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "steady",
       "points": [
+       1,
        1
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -11058,7 +11194,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -11096,11 +11232,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "steady",
       "points": [
+       2,
        2
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -11112,7 +11249,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -11150,11 +11287,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "steady",
       "points": [
+       3,
        3
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -11166,7 +11304,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -11204,13 +11342,14 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        1,
        1,
+       4,
        4
       ],
-      "observations": 3,
+      "observations": 4,
       "first_seen": 1794134849
      },
      "resonance": {
@@ -11222,7 +11361,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 3
+      "time_windows": 4
      }
     },
     {
@@ -11260,15 +11399,16 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        1,
        1,
        2,
        2,
+       5,
        5
       ],
-      "observations": 5,
+      "observations": 6,
       "first_seen": 1794105533
      },
      "resonance": {
@@ -11280,7 +11420,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 4
+      "time_windows": 5
      }
     },
     {
@@ -11320,15 +11460,16 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        2,
        2,
        3,
        3,
+       6,
        6
       ],
-      "observations": 5,
+      "observations": 6,
       "first_seen": 1794105533
      },
      "resonance": {
@@ -11340,7 +11481,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 4
+      "time_windows": 5
      }
     },
     {
@@ -11378,15 +11519,16 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        3,
        3,
        4,
        4,
+       7,
        7
       ],
-      "observations": 5,
+      "observations": 6,
       "first_seen": 1794105533
      },
      "resonance": {
@@ -11398,7 +11540,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 4
+      "time_windows": 5
      }
     },
     {
@@ -11436,15 +11578,16 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        4,
        4,
        5,
        5,
+       8,
        8
       ],
-      "observations": 5,
+      "observations": 6,
       "first_seen": 1794105533
      },
      "resonance": {
@@ -11456,7 +11599,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 4
+      "time_windows": 5
      }
     },
     {
@@ -11494,15 +11637,16 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        5,
        5,
        6,
        6,
+       9,
        9
       ],
-      "observations": 5,
+      "observations": 6,
       "first_seen": 1794105533
      },
      "resonance": {
@@ -11514,7 +11658,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 4
+      "time_windows": 5
      }
     },
     {
@@ -11552,15 +11696,16 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        6,
        6,
        7,
        7,
+       10,
        10
       ],
-      "observations": 5,
+      "observations": 6,
       "first_seen": 1794105533
      },
      "resonance": {
@@ -11572,7 +11717,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 4
+      "time_windows": 5
      }
     },
     {
@@ -11610,16 +11755,17 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        1,
        7,
        7,
        8,
        8,
+       11,
        11
       ],
-      "observations": 6,
+      "observations": 7,
       "first_seen": 1794060423
      },
      "resonance": {
@@ -11631,7 +11777,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 5
+      "time_windows": 6
      }
     },
     {
@@ -11669,18 +11815,18 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
-       1,
        1,
        2,
        8,
        8,
        9,
        9,
+       12,
        12
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -11692,7 +11838,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -11732,18 +11878,18 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
-       2,
        2,
        3,
        9,
        9,
        10,
        10,
+       13,
        13
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -11755,7 +11901,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -11796,15 +11942,15 @@ window.DATA = {
       "label": "steady",
       "points": [
        8,
-       8,
        9,
        12,
        12,
        12,
        12,
+       14,
        14
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -11816,7 +11962,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -11857,15 +12003,15 @@ window.DATA = {
       "label": "steady",
       "points": [
        9,
-       9,
        10,
        13,
        13,
        13,
        13,
+       15,
        15
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -11877,7 +12023,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -11918,15 +12064,15 @@ window.DATA = {
       "label": "steady",
       "points": [
        11,
-       11,
        12,
        15,
        15,
        15,
        15,
+       16,
        16
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -11938,7 +12084,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -11979,15 +12125,15 @@ window.DATA = {
       "label": "steady",
       "points": [
        13,
-       13,
        14,
        16,
        16,
        16,
        16,
+       17,
        17
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -11999,7 +12145,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -12040,15 +12186,15 @@ window.DATA = {
       "label": "steady",
       "points": [
        16,
-       16,
        17,
        17,
        17,
        17,
        17,
+       18,
        18
       ],
-      "observations": 10,
+      "observations": 11,
       "first_seen": 1793977714
      },
      "resonance": {
@@ -12060,7 +12206,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 8
+      "time_windows": 9
      }
     },
     {
@@ -12101,15 +12247,15 @@ window.DATA = {
       "label": "steady",
       "points": [
        17,
-       17,
        18,
        18,
        18,
        18,
        18,
+       19,
        19
       ],
-      "observations": 10,
+      "observations": 11,
       "first_seen": 1793977714
      },
      "resonance": {
@@ -12121,7 +12267,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 8
+      "time_windows": 9
      }
     },
     {
@@ -12167,10 +12313,10 @@ window.DATA = {
        19,
        19,
        19,
-       19,
+       20,
        20
       ],
-      "observations": 10,
+      "observations": 11,
       "first_seen": 1793977714
      },
      "resonance": {
@@ -12182,7 +12328,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 8
+      "time_windows": 9
      }
     },
     {
@@ -12228,10 +12374,10 @@ window.DATA = {
        20,
        20,
        20,
-       20,
+       21,
        21
       ],
-      "observations": 12,
+      "observations": 13,
       "first_seen": 1793948133
      },
      "resonance": {
@@ -12243,7 +12389,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 9
+      "time_windows": 10
      }
     },
     {
@@ -12289,10 +12435,10 @@ window.DATA = {
        21,
        21,
        21,
-       21,
+       22,
        22
       ],
-      "observations": 11,
+      "observations": 12,
       "first_seen": 1793965064
      },
      "resonance": {
@@ -12304,7 +12450,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 9
+      "time_windows": 10
      }
     },
     {
@@ -12353,7 +12499,7 @@ window.DATA = {
        23,
        23
       ],
-      "observations": 13,
+      "observations": 14,
       "first_seen": 1793936082
      },
      "resonance": {
@@ -12365,7 +12511,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 10
+      "time_windows": 11
      }
     },
     {
@@ -12414,7 +12560,7 @@ window.DATA = {
        24,
        24
       ],
-      "observations": 13,
+      "observations": 14,
       "first_seen": 1793936082
      },
      "resonance": {
@@ -12426,7 +12572,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 10
+      "time_windows": 11
      }
     },
     {
@@ -12475,7 +12621,7 @@ window.DATA = {
        25,
        25
       ],
-      "observations": 13,
+      "observations": 14,
       "first_seen": 1793936082
      },
      "resonance": {
@@ -12487,7 +12633,7 @@ window.DATA = {
       "agenda_layers": [
        "industry"
       ],
-      "time_windows": 10
+      "time_windows": 11
      }
     },
     {
@@ -12536,7 +12682,7 @@ window.DATA = {
        26,
        26
       ],
-      "observations": 22,
+      "observations": 23,
       "first_seen": 1793718948
      },
      "resonance": {
@@ -12548,7 +12694,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 17
+      "time_windows": 18
      }
     }
    ]
@@ -12559,6 +12705,114 @@ window.DATA = {
    "accent": "#8b5cf6",
    "total": 6,
    "items": [
+    {
+     "title": "APOD: 2026 November 9 – Rigel and the Witch Head Nebula",
+     "url": "https://science.nasa.gov/image-article/apod-2026-november-9-rigel-and-the-witch-head-nebula",
+     "time": "11-09 13:05",
+     "ts": 1794200700,
+     "summary": "APOD Science APOD APOD: 2026 November 9 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating",
+     "source": "NASA",
+     "agenda_layer": "primary",
+     "language": "en",
+     "id": "497b3b7d4ebe",
+     "keywords_zh": [
+      "航天 / 太空"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:497b3b7d4ebe",
+     "cluster_size": 1,
+     "sources": [
+      "NASA"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "primary"
+     ],
+     "cluster_urls": [
+      {
+       "source": "NASA",
+       "title": "APOD: 2026 November 9 – Rigel and the Witch Head Nebula",
+       "url": "https://science.nasa.gov/image-article/apod-2026-november-9-rigel-and-the-witch-head-nebula"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       1
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "primary"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "Ozone Hole Reaches Its 2026 Maximum",
+     "url": "https://science.nasa.gov/earth/earth-observatory/ozone-hole-reaches-its-2026-maximum",
+     "time": "11-09 13:00",
+     "ts": 1794200400,
+     "summary": "The ozone hole ranked seventh largest by area in 48 years of monitoring, but it was not as deep as other large holes on record.",
+     "source": "NASA",
+     "agenda_layer": "primary",
+     "language": "en",
+     "id": "21e3aba5ccf0",
+     "keywords_zh": [
+      "航天 / 太空"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:21e3aba5ccf0",
+     "cluster_size": 1,
+     "sources": [
+      "NASA"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "primary"
+     ],
+     "cluster_urls": [
+      {
+       "source": "NASA",
+       "title": "Ozone Hole Reaches Its 2026 Maximum",
+       "url": "https://science.nasa.gov/earth/earth-observatory/ozone-hole-reaches-its-2026-maximum"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       2
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "primary"
+      ],
+      "time_windows": 1
+     }
+    },
     {
      "title": "NASA Unveils Moon Base Awards at MAX POWER",
      "url": "https://payloadspace.com/nasa-unveils-moon-base-awards-at-max-power",
@@ -12594,11 +12848,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "steady",
       "points": [
-       1
+       1,
+       3
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -12610,7 +12865,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -12648,11 +12903,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "steady",
       "points": [
-       2
+       2,
+       4
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -12664,7 +12920,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -12702,11 +12958,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "steady",
       "points": [
-       3
+       3,
+       5
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -12718,7 +12975,7 @@ window.DATA = {
       "agenda_layers": [
        "primary"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -12756,11 +13013,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "steady",
       "points": [
-       4
+       4,
+       6
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -12772,7 +13030,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -12810,12 +13068,13 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        1,
-       5
+       5,
+       7
       ],
-      "observations": 2,
+      "observations": 3,
       "first_seen": 1794147621
      },
      "resonance": {
@@ -12827,7 +13086,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 2
+      "time_windows": 3
      }
     },
     {
@@ -12865,12 +13124,13 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        2,
-       6
+       6,
+       8
       ],
-      "observations": 2,
+      "observations": 3,
       "first_seen": 1794147621
      },
      "resonance": {
@@ -12882,7 +13142,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 2
+      "time_windows": 3
      }
     },
     {
@@ -12920,14 +13180,15 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        1,
        1,
        3,
-       7
+       7,
+       9
       ],
-      "observations": 4,
+      "observations": 5,
       "first_seen": 1794118250
      },
      "resonance": {
@@ -12939,7 +13200,7 @@ window.DATA = {
       "agenda_layers": [
        "primary"
       ],
-      "time_windows": 3
+      "time_windows": 4
      }
     },
     {
@@ -12977,14 +13238,15 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        2,
        2,
        4,
-       8
+       8,
+       10
       ],
-      "observations": 4,
+      "observations": 5,
       "first_seen": 1794118250
      },
      "resonance": {
@@ -12996,7 +13258,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 3
+      "time_windows": 4
      }
     },
     {
@@ -13034,15 +13296,16 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        1,
        3,
        3,
        5,
-       9
+       9,
+       11
       ],
-      "observations": 5,
+      "observations": 6,
       "first_seen": 1794105533
      },
      "resonance": {
@@ -13054,7 +13317,7 @@ window.DATA = {
       "agenda_layers": [
        "primary"
       ],
-      "time_windows": 4
+      "time_windows": 5
      }
     },
     {
@@ -13092,15 +13355,16 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        2,
        4,
        4,
        6,
-       10
+       10,
+       12
       ],
-      "observations": 5,
+      "observations": 6,
       "first_seen": 1794105533
      },
      "resonance": {
@@ -13112,7 +13376,7 @@ window.DATA = {
       "agenda_layers": [
        "primary"
       ],
-      "time_windows": 4
+      "time_windows": 5
      }
     },
     {
@@ -13150,15 +13414,16 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        3,
        5,
        5,
        7,
-       11
+       11,
+       13
       ],
-      "observations": 5,
+      "observations": 6,
       "first_seen": 1794105533
      },
      "resonance": {
@@ -13170,7 +13435,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 4
+      "time_windows": 5
      }
     },
     {
@@ -13208,15 +13473,16 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        4,
        6,
        6,
        8,
-       12
+       12,
+       14
       ],
-      "observations": 5,
+      "observations": 6,
       "first_seen": 1794105533
      },
      "resonance": {
@@ -13228,7 +13494,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 4
+      "time_windows": 5
      }
     },
     {
@@ -13266,15 +13532,16 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        5,
        7,
        7,
        9,
-       13
+       13,
+       15
       ],
-      "observations": 5,
+      "observations": 6,
       "first_seen": 1794105533
      },
      "resonance": {
@@ -13286,68 +13553,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 4
-     }
-    },
-    {
-     "title": "APOD: 2026 November 7 – De Gerlache-Kocher Massif",
-     "url": "https://science.nasa.gov/image-article/apod-2026-november-7-de-gerlache-kocher-massif",
-     "time": "11-07 13:05",
-     "ts": 1794027900,
-     "summary": "APOD Science APOD APOD: 2026 November 7 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating",
-     "source": "NASA",
-     "agenda_layer": "primary",
-     "language": "en",
-     "id": "20743b3756d8",
-     "keywords_zh": [
-      "航天 / 太空"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:20743b3756d8",
-     "cluster_size": 1,
-     "sources": [
-      "NASA"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "primary"
-     ],
-     "cluster_urls": [
-      {
-       "source": "NASA",
-       "title": "APOD: 2026 November 7 – De Gerlache-Kocher Massif",
-       "url": "https://science.nasa.gov/image-article/apod-2026-november-7-de-gerlache-kocher-massif"
-      }
-     ],
-     "trajectory": {
-      "label": "steady",
-      "points": [
-       1,
-       1,
-       3,
-       9,
-       11,
-       11,
-       12,
-       14
-      ],
-      "observations": 8,
-      "first_seen": 1794031581
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "primary"
-      ],
-      "time_windows": 6
+      "time_windows": 5
      }
     },
     {
@@ -13388,15 +13594,15 @@ window.DATA = {
       "label": "steady",
       "points": [
        2,
-       2,
        4,
        10,
        12,
        12,
        13,
-       15
+       15,
+       16
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -13408,7 +13614,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -13449,15 +13655,15 @@ window.DATA = {
       "label": "steady",
       "points": [
        5,
-       5,
        7,
        12,
        14,
        14,
        14,
-       16
+       16,
+       17
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -13469,7 +13675,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -13510,15 +13716,15 @@ window.DATA = {
       "label": "steady",
       "points": [
        7,
-       7,
        9,
        13,
        15,
        15,
        15,
-       17
+       17,
+       18
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -13530,68 +13736,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 7
-     }
-    },
-    {
-     "title": "M30’s Sparkling Stars",
-     "url": "https://www.nasa.gov/image-article/m30s-sparkling-stars",
-     "time": "11-07 00:23",
-     "ts": 1793982221,
-     "summary": "This NASA/ESA Hubble Space Telescope image released Nov. 5, 2026, provides a lesson in galactic history. The sparkling collection of stars is named Messier 30 (M30) after the French astronomer, Charles Messier, who cataloged M30 and other d",
-     "source": "NASA",
-     "agenda_layer": "primary",
-     "language": "en",
-     "id": "e6785d9ca86a",
-     "keywords_zh": [
-      "航天 / 太空"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:e6785d9ca86a",
-     "cluster_size": 1,
-     "sources": [
-      "NASA"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "primary"
-     ],
-     "cluster_urls": [
-      {
-       "source": "NASA",
-       "title": "M30’s Sparkling Stars",
-       "url": "https://www.nasa.gov/image-article/m30s-sparkling-stars"
-      }
-     ],
-     "trajectory": {
-      "label": "steady",
-      "points": [
-       11,
-       11,
-       11,
-       14,
-       16,
-       16,
-       16,
-       18
-      ],
-      "observations": 9,
-      "first_seen": 1794020600
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "primary"
-      ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -13633,14 +13778,14 @@ window.DATA = {
       "points": [
        13,
        13,
-       13,
        16,
        18,
        18,
        18,
+       19,
        19
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -13652,7 +13797,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -13694,14 +13839,14 @@ window.DATA = {
       "points": [
        14,
        14,
-       14,
        17,
        19,
        19,
        19,
+       20,
        20
       ],
-      "observations": 10,
+      "observations": 11,
       "first_seen": 1793977714
      },
      "resonance": {
@@ -13713,7 +13858,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 8
+      "time_windows": 9
      }
     },
     {
@@ -13755,14 +13900,14 @@ window.DATA = {
       "points": [
        15,
        15,
-       15,
        18,
        20,
        20,
        20,
+       21,
        21
       ],
-      "observations": 10,
+      "observations": 11,
       "first_seen": 1793977714
      },
      "resonance": {
@@ -13774,7 +13919,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 8
+      "time_windows": 9
      }
     },
     {
@@ -13812,11 +13957,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "steady",
       "points": [
+       22,
        22
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -13828,7 +13974,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -13870,14 +14016,14 @@ window.DATA = {
       "points": [
        19,
        19,
-       19,
        21,
        22,
        22,
        22,
+       23,
        23
       ],
-      "observations": 13,
+      "observations": 14,
       "first_seen": 1793936082
      },
      "resonance": {
@@ -13889,7 +14035,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 10
+      "time_windows": 11
      }
     },
     {
@@ -13931,14 +14077,14 @@ window.DATA = {
       "points": [
        20,
        20,
-       20,
        22,
        23,
        23,
        23,
+       24,
        24
       ],
-      "observations": 13,
+      "observations": 14,
       "first_seen": 1793936082
      },
      "resonance": {
@@ -13950,7 +14096,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 10
+      "time_windows": 11
      }
     },
     {
@@ -13992,14 +14138,14 @@ window.DATA = {
       "points": [
        21,
        21,
-       21,
        23,
        24,
        24,
        24,
+       25,
        25
       ],
-      "observations": 13,
+      "observations": 14,
       "first_seen": 1793936082
      },
      "resonance": {
@@ -14011,7 +14157,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 10
+      "time_windows": 11
      }
     },
     {
@@ -14053,14 +14199,14 @@ window.DATA = {
       "points": [
        22,
        22,
-       22,
        24,
        25,
        25,
        25,
+       26,
        26
       ],
-      "observations": 13,
+      "observations": 14,
       "first_seen": 1793936082
      },
      "resonance": {
@@ -14072,7 +14218,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 10
+      "time_windows": 11
      }
     },
     {
@@ -14114,14 +14260,14 @@ window.DATA = {
       "points": [
        23,
        23,
-       23,
        25,
        26,
        26,
        26,
+       27,
        27
       ],
-      "observations": 13,
+      "observations": 14,
       "first_seen": 1793936082
      },
      "resonance": {
@@ -14133,7 +14279,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 10
+      "time_windows": 11
      }
     },
     {
@@ -14175,14 +14321,14 @@ window.DATA = {
       "points": [
        24,
        24,
-       24,
        26,
        27,
        27,
        27,
+       28,
        28
       ],
-      "observations": 13,
+      "observations": 14,
       "first_seen": 1793936082
      },
      "resonance": {
@@ -14194,7 +14340,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 10
+      "time_windows": 11
      }
     },
     {
@@ -14236,14 +14382,14 @@ window.DATA = {
       "points": [
        25,
        25,
-       25,
        27,
        28,
        28,
        28,
+       29,
        29
       ],
-      "observations": 13,
+      "observations": 14,
       "first_seen": 1793936082
      },
      "resonance": {
@@ -14255,7 +14401,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 10
+      "time_windows": 11
      }
     },
     {
@@ -14297,14 +14443,14 @@ window.DATA = {
       "points": [
        26,
        26,
-       26,
        28,
        29,
        29,
        29,
+       30,
        30
       ],
-      "observations": 13,
+      "observations": 14,
       "first_seen": 1793936082
      },
      "resonance": {
@@ -14316,7 +14462,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 10
+      "time_windows": 11
      }
     },
     {
@@ -14358,14 +14504,14 @@ window.DATA = {
       "points": [
        28,
        28,
-       28,
        29,
        30,
        30,
        30,
+       31,
        31
       ],
-      "observations": 14,
+      "observations": 15,
       "first_seen": 1793892812
      },
      "resonance": {
@@ -14377,7 +14523,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 11
+      "time_windows": 12
      }
     },
     {
@@ -14419,14 +14565,14 @@ window.DATA = {
       "points": [
        29,
        29,
-       29,
        30,
        31,
        31,
        31,
+       32,
        32
       ],
-      "observations": 14,
+      "observations": 15,
       "first_seen": 1793892812
      },
      "resonance": {
@@ -14438,7 +14584,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 11
+      "time_windows": 12
      }
     },
     {
@@ -14480,14 +14626,14 @@ window.DATA = {
       "points": [
        31,
        31,
-       31,
        32,
+       33,
        33,
        33,
        33,
        33
       ],
-      "observations": 17,
+      "observations": 18,
       "first_seen": 1793849943
      },
      "resonance": {
@@ -14499,7 +14645,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 13
+      "time_windows": 14
      }
     },
     {
@@ -14541,14 +14687,14 @@ window.DATA = {
       "points": [
        33,
        33,
-       33,
+       34,
        34,
        34,
        34,
        34,
        34
       ],
-      "observations": 21,
+      "observations": 22,
       "first_seen": 1793761629
      },
      "resonance": {
@@ -14560,7 +14706,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 16
+      "time_windows": 17
      }
     },
     {
@@ -14602,14 +14748,14 @@ window.DATA = {
       "points": [
        34,
        34,
-       34,
+       35,
        35,
        35,
        35,
        35,
        35
       ],
-      "observations": 22,
+      "observations": 23,
       "first_seen": 1793718948
      },
      "resonance": {
@@ -14621,7 +14767,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 17
+      "time_windows": 18
      }
     },
     {
@@ -14682,7 +14828,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 18
+      "time_windows": 19
      }
     }
    ]
@@ -14693,6 +14839,60 @@ window.DATA = {
    "accent": "#ef4444",
    "total": 5,
    "items": [
+    {
+     "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
+     "url": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
+     "time": "11-09 14:05",
+     "ts": 1794204324,
+     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity vulnerability impacting SonicWall SonicOS to its Known Exploited Vulnerabilities (KEV) catalog, following reports that it said may have been exploite",
+     "source": "The Hacker News",
+     "agenda_layer": "media",
+     "language": "en",
+     "id": "4eb9927179be",
+     "keywords_zh": [
+      "网络安全"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:4eb9927179be",
+     "cluster_size": 1,
+     "sources": [
+      "The Hacker News"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "media"
+     ],
+     "cluster_urls": [
+      {
+       "source": "The Hacker News",
+       "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
+       "url": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       1
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "media"
+      ],
+      "time_windows": 1
+     }
+    },
     {
      "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
      "url": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers",
@@ -14728,11 +14928,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "steady",
       "points": [
-       1
+       1,
+       2
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -14744,7 +14945,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -14785,9 +14986,10 @@ window.DATA = {
       "label": "steady",
       "points": [
        1,
-       2
+       2,
+       3
       ],
-      "observations": 2,
+      "observations": 3,
       "first_seen": 1794147621
      },
      "resonance": {
@@ -14799,7 +15001,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 2
+      "time_windows": 3
      }
     },
     {
@@ -14843,9 +15045,10 @@ window.DATA = {
        1,
        1,
        2,
-       3
+       3,
+       4
       ],
-      "observations": 5,
+      "observations": 6,
       "first_seen": 1794105533
      },
      "resonance": {
@@ -14857,7 +15060,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 4
+      "time_windows": 5
      }
     },
     {
@@ -14901,9 +15104,10 @@ window.DATA = {
        2,
        2,
        3,
-       4
+       4,
+       5
       ],
-      "observations": 5,
+      "observations": 6,
       "first_seen": 1794105533
      },
      "resonance": {
@@ -14915,7 +15119,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 4
+      "time_windows": 5
      }
     },
     {
@@ -14961,9 +15165,10 @@ window.DATA = {
        3,
        3,
        4,
-       5
+       5,
+       6
       ],
-      "observations": 7,
+      "observations": 8,
       "first_seen": 1794048182
      },
      "resonance": {
@@ -14975,7 +15180,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 6
+      "time_windows": 7
      }
     },
     {
@@ -15021,9 +15226,10 @@ window.DATA = {
        4,
        4,
        5,
-       6
+       6,
+       7
       ],
-      "observations": 7,
+      "observations": 8,
       "first_seen": 1794048182
      },
      "resonance": {
@@ -15035,7 +15241,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 6
+      "time_windows": 7
      }
     },
     {
@@ -15075,16 +15281,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       1,
        3,
        3,
        5,
        5,
        5,
        6,
-       7
+       7,
+       8
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -15096,7 +15302,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -15136,16 +15342,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       2,
        4,
        4,
        6,
        6,
        6,
        7,
-       8
+       8,
+       9
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -15157,7 +15363,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -15197,16 +15403,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       3,
        5,
        5,
        7,
        7,
        7,
        8,
-       9
+       9,
+       10
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -15218,7 +15424,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -15258,16 +15464,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       5,
        7,
        7,
        9,
        9,
        9,
        10,
-       10
+       10,
+       11
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -15279,7 +15485,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -15319,16 +15525,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       6,
        8,
        8,
        10,
        10,
        10,
        11,
-       11
+       11,
+       12
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -15340,7 +15546,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -15380,16 +15586,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       8,
        10,
        10,
        11,
        11,
        11,
        12,
-       12
+       12,
+       13
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -15401,7 +15607,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -15441,16 +15647,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       10,
        12,
        12,
        12,
        12,
        12,
        13,
-       13
+       13,
+       14
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -15462,7 +15668,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -15503,16 +15709,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       11,
        13,
        13,
        13,
        13,
        13,
        14,
-       14
+       14,
+       15
       ],
-      "observations": 17,
+      "observations": 18,
       "first_seen": 1793067628
      },
      "resonance": {
@@ -15524,7 +15730,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 13
+      "time_windows": 14
      }
     },
     {
@@ -15564,16 +15770,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       12,
        14,
        14,
        14,
        14,
        14,
        15,
-       15
+       15,
+       16
       ],
-      "observations": 10,
+      "observations": 11,
       "first_seen": 1793977714
      },
      "resonance": {
@@ -15585,7 +15791,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 8
+      "time_windows": 9
      }
     },
     {
@@ -15625,16 +15831,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       13,
        15,
        15,
        15,
        15,
        15,
        16,
-       16
+       16,
+       17
       ],
-      "observations": 10,
+      "observations": 11,
       "first_seen": 1793977714
      },
      "resonance": {
@@ -15646,7 +15852,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 8
+      "time_windows": 9
      }
     },
     {
@@ -15686,16 +15892,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       14,
        16,
        16,
        16,
        16,
        16,
        17,
-       17
+       17,
+       18
       ],
-      "observations": 10,
+      "observations": 11,
       "first_seen": 1793977714
      },
      "resonance": {
@@ -15707,7 +15913,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 8
+      "time_windows": 9
      }
     },
     {
@@ -15747,16 +15953,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       15,
        17,
        17,
        17,
        17,
        17,
        18,
-       18
+       18,
+       19
       ],
-      "observations": 10,
+      "observations": 11,
       "first_seen": 1793977714
      },
      "resonance": {
@@ -15768,7 +15974,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 8
+      "time_windows": 9
      }
     },
     {
@@ -15808,77 +16014,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       18,
        19,
        19,
        19,
        19,
        19,
        19,
-       19
-      ],
-      "observations": 10,
-      "first_seen": 1793977714
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "media"
-      ],
-      "time_windows": 8
-     }
-    },
-    {
-     "title": "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers",
-     "url": "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
-     "time": "11-06 20:06",
-     "ts": 1793966795,
-     "summary": "A browser extension that can run scripts on claude.ai could make Claude Desktop run code on a person's computer, researchers at Forever Security, an endpoint security company, showed in a test. The attack needs Dispatch, a Claude feature th",
-     "source": "The Hacker News",
-     "agenda_layer": "media",
-     "language": "en",
-     "id": "64a2c8d0e10b",
-     "keywords_zh": [
-      "网络安全"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:64a2c8d0e10b",
-     "cluster_size": 1,
-     "sources": [
-      "The Hacker News"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "media"
-     ],
-     "cluster_urls": [
-      {
-       "source": "The Hacker News",
-       "title": "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers",
-       "url": "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html"
-      }
-     ],
-     "trajectory": {
-      "label": "steady",
-      "points": [
        19,
-       20,
-       20,
-       20,
-       20,
-       20,
-       20,
        20
       ],
-      "observations": 10,
+      "observations": 11,
       "first_seen": 1793977714
      },
      "resonance": {
@@ -15890,7 +16035,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 8
+      "time_windows": 9
      }
     },
     {
@@ -15939,7 +16084,7 @@ window.DATA = {
        21,
        21
       ],
-      "observations": 11,
+      "observations": 12,
       "first_seen": 1793965064
      },
      "resonance": {
@@ -15951,7 +16096,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 9
+      "time_windows": 10
      }
     },
     {
@@ -16000,7 +16145,7 @@ window.DATA = {
        22,
        22
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -16012,7 +16157,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -16061,7 +16206,7 @@ window.DATA = {
        23,
        23
       ],
-      "observations": 13,
+      "observations": 14,
       "first_seen": 1793936082
      },
      "resonance": {
@@ -16073,7 +16218,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 10
+      "time_windows": 11
      }
     },
     {
@@ -16122,7 +16267,7 @@ window.DATA = {
        24,
        24
       ],
-      "observations": 13,
+      "observations": 14,
       "first_seen": 1793936082
      },
      "resonance": {
@@ -16134,7 +16279,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 10
+      "time_windows": 11
      }
     },
     {
@@ -16183,7 +16328,7 @@ window.DATA = {
        25,
        25
       ],
-      "observations": 16,
+      "observations": 17,
       "first_seen": 1793861748
      },
      "resonance": {
@@ -16195,7 +16340,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 12
+      "time_windows": 13
      }
     },
     {
@@ -16256,7 +16401,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 18
+      "time_windows": 19
      }
     }
    ]
@@ -16268,22 +16413,22 @@ window.DATA = {
    "total": 18,
    "items": [
     {
-     "title": "某阔直板手机正面图曝光，预计为华为星芒 OSTA O1 Pro",
-     "url": "https://www.ithome.com/1/024/072.htm",
-     "time": "11-09 10:45",
-     "ts": 1794192358,
-     "summary": "IT之家 11 月 9 日消息，博主 @数码闲聊站 今日曝光了某新机正面图，采用阔直板造型设计，评论区网友推测为华为星芒 OSTA O1 Pro。IT之家注意到，该博主此前曾爆料华为子品牌星芒的英文名是 OSTA，手机盒上也写的 OSTA，第一款阔直板手机叫 OSTA O1 Pro。该机可选星空黑 / 星云白 / 星芒紫三款配色，以及 12+256GB/12+512GB/16+512GB/16+1TB 容量。“星芒”这一名称并非首次出现在公众视野。IT之家查询公开商标信息获悉",
+     "title": "消息称英国拟将 2030 年电动汽车销售目标从 80% 下调至 60%，以缓解车企压力",
+     "url": "https://www.ithome.com/1/024/267.htm",
+     "time": "11-09 14:43",
+     "ts": 1794206639,
+     "summary": "IT之家 11 月 9 日消息，据英国《卫报》援引政府消息人士的说法报道称，英国政府预计将把 2030 年电动汽车销售目标下调约四分之一，从目前的 80% 降至约 60%。据IT之家了解，英国于 2024 年推出的零排放汽车（ZEV）销售规定，要求汽车制造商逐年提高零排放汽车在年度新车销量中的占比。按照原定计划，这一比例在 2026 年应达到 33%，2030 年升至 80%，并于 2035 年达到 100%。报道称，英国实际上的副首相路易丝 · 黑格（Louise Haig",
      "source": "IT之家",
      "agenda_layer": "media",
      "language": "zh",
-     "id": "05e2a22bcf47",
+     "id": "592aff04ad75",
      "keywords_zh": [
-      "科技 / 互联网"
+      "产品发布"
      ],
-     "event_type": "",
+     "event_type": "产品发布",
      "related_assets": [],
      "relevance_score": 0,
-     "topic_id": "story:05e2a22bcf47",
+     "topic_id": "story:592aff04ad75",
      "cluster_size": 1,
      "sources": [
       "IT之家"
@@ -16297,8 +16442,8 @@ window.DATA = {
      "cluster_urls": [
       {
        "source": "IT之家",
-       "title": "某阔直板手机正面图曝光，预计为华为星芒 OSTA O1 Pro",
-       "url": "https://www.ithome.com/1/024/072.htm"
+       "title": "消息称英国拟将 2030 年电动汽车销售目标从 80% 下调至 60%，以缓解车企压力",
+       "url": "https://www.ithome.com/1/024/267.htm"
       }
      ],
      "trajectory": {
@@ -16307,7 +16452,7 @@ window.DATA = {
        1
       ],
       "observations": 1,
-      "first_seen": 1794192856
+      "first_seen": 1794206680
      },
      "resonance": {
       "confirmed": false,
@@ -16322,25 +16467,25 @@ window.DATA = {
      }
     },
     {
-     "title": "纽约随笔2026",
-     "url": "https://www.huxiu.com/article/4904018.html",
-     "time": "11-09 10:45",
-     "ts": 1794192317,
-     "summary": "再回首：我们可能正站在下一轮科技大爆发的前夜",
-     "source": "虎嗅",
+     "title": "目标 2029 年 3 月前推出手机直连卫星通信，日本乐天集团将与美国 AST 成立新公司",
+     "url": "https://www.ithome.com/1/024/264.htm",
+     "time": "11-09 14:42",
+     "ts": 1794206571,
+     "summary": "IT之家 11 月 9 日消息，据日媒 ITMedia 今天报道，日本乐天集团与美国 AST SpaceMobile 公司达成协议，双方将成立新公司“Rakuten AST”，在日本建设低轨卫星（J-LEO）与智能手机之间的直连通信服务。据报道，两家公司的提案已入选日本总务省公开招募的“面向确保自主性的低轨卫星基础设施建设项目”，预计将在 3 年时间内，通过信息通信网络产业协会获得最高 1,480 亿日元（IT之家注：现汇率约合 62.39 亿元人民币）的补助。同时，这家新公",
+     "source": "IT之家",
      "agenda_layer": "media",
      "language": "zh",
-     "id": "7357ddf89313",
+     "id": "865c9d8d3530",
      "keywords_zh": [
-      "科技 / 互联网"
+      "产品发布"
      ],
-     "event_type": "",
+     "event_type": "产品发布",
      "related_assets": [],
      "relevance_score": 0,
-     "topic_id": "story:7357ddf89313",
+     "topic_id": "story:865c9d8d3530",
      "cluster_size": 1,
      "sources": [
-      "虎嗅"
+      "IT之家"
      ],
      "languages": [
       "zh"
@@ -16350,9 +16495,9 @@ window.DATA = {
      ],
      "cluster_urls": [
       {
-       "source": "虎嗅",
-       "title": "纽约随笔2026",
-       "url": "https://www.huxiu.com/article/4904018.html"
+       "source": "IT之家",
+       "title": "目标 2029 年 3 月前推出手机直连卫星通信，日本乐天集团将与美国 AST 成立新公司",
+       "url": "https://www.ithome.com/1/024/264.htm"
       }
      ],
      "trajectory": {
@@ -16361,7 +16506,7 @@ window.DATA = {
        2
       ],
       "observations": 1,
-      "first_seen": 1794192856
+      "first_seen": 1794206680
      },
      "resonance": {
       "confirmed": false,
@@ -16376,92 +16521,22 @@ window.DATA = {
      }
     },
     {
-     "title": "智能体之争，大厂的下一场零和博弈",
-     "url": "https://www.huxiu.com/article/4904044.html",
-     "time": "11-09 10:43",
-     "ts": 1794192231,
-     "summary": "本文来自微信公众号： 嗅态 ，作者：嗅态立冬前后，大厂在智能体赛道的交锋骤然升温。11月6日，荣耀CEO李健在广州宣布，荣耀将联合中国移动等合作伙伴建设智能体服务网络，并计划在Magic9系列手机上尝试推出AI Token套餐。一天前，蚂蚁集团公布了灵光2.0上线一周的成绩单。按照蚂蚁集团披露的数据，灵光已经帮助用户管理超过116万项事务，累计执行任务超过360万次，并接入钉钉、飞书、哈啰等40多项外部服务。两家公司都想把AI推向实际履约，字节跳动走得更激进，碰到的阻力也更直",
-     "source": "虎嗅",
-     "agenda_layer": "media",
-     "language": "zh",
-     "id": "28e22e0c976d",
-     "keywords_zh": [
-      "人工智能",
-      "产品发布"
-     ],
-     "event_type": "产品发布",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "topic:1495d3aef045",
-     "cluster_size": 2,
-     "sources": [
-      "IT之家",
-      "虎嗅"
-     ],
-     "languages": [
-      "zh"
-     ],
-     "agenda_layers": [
-      "media"
-     ],
-     "cluster_urls": [
-      {
-       "source": "虎嗅",
-       "title": "智能体之争，大厂的下一场零和博弈",
-       "url": "https://www.huxiu.com/article/4904044.html"
-      },
-      {
-       "source": "IT之家",
-       "title": "LG AI 研究院宣布对外免费开放 K-EXAONE 2.5 模型 API",
-       "url": "https://www.ithome.com/1/024/069.htm"
-      }
-     ],
-     "trajectory": {
-      "label": "rebound",
-      "points": [
-       2,
-       4,
-       43,
-       6,
-       44,
-       1,
-       7,
-       3
-      ],
-      "observations": 24,
-      "first_seen": 1785807991
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 7,
-      "languages": [
-       "en",
-       "zh"
-      ],
-      "agenda_layers": [
-       "media"
-      ],
-      "time_windows": 23
-     }
-    },
-    {
-     "title": "特朗普称 AI 风险可控，但不介意设置监管护栏",
-     "url": "https://www.ithome.com/1/024/071.htm",
-     "time": "11-09 10:43",
-     "ts": 1794192198,
-     "summary": "IT之家 11 月 9 日消息，据路透社今日报道，美国总统唐纳德 · 特朗普表示，AI 带来的风险是可控的，但其对监管措施持开放态度，他“不介意设置护栏”。当被问及美国是否应该接受 AI 的风险时，特朗普表示这些危险是可控的，并表示愿意与民主党在监管措施方面进行合作。特朗普此前支持让科技公司自我监管，而不是实施全面的政府限制。他的最新发言表明，其对 AI 监管持某种开放态度，尽管目前尚不清楚开放程度如何。据IT之家此前报道，当地时间 9 月 14 日，英伟达 CEO 黄仁勋现",
+     "title": "消息称苹果调整 iOS / iPadOS / macOS 28 初期开发流程，为工程师多腾出 2 周时间来探索创意",
+     "url": "https://www.ithome.com/1/024/256.htm",
+     "time": "11-09 14:40",
+     "ts": 1794206404,
+     "summary": "IT之家 11 月 9 日消息，据彭博社马克 · 古尔曼（Mark Gurman）透露，苹果正在调整 iOS / iPadOS 28 和 macOS 28 的初期开发流程，为工程师提供更多时间探索创意、研发新功能。按照苹果以往安排，软件开发周期通常分为 M1、M2 和 M3 三个阶段。其中，每个阶段均包含“4 周功能编码”和“4 周功能整合”工作。不过，对于 iOS / iPadOS 28、macOS 28，苹果计划调整 M1 阶段的时间分配，将原本用于功能编码和整合的时间比",
      "source": "IT之家",
      "agenda_layer": "media",
      "language": "zh",
-     "id": "b21f14b5b9bb",
+     "id": "a96d776c61a4",
      "keywords_zh": [
-      "英伟达",
-      "人工智能"
+      "苹果"
      ],
      "event_type": "",
      "related_assets": [],
      "relevance_score": 0,
-     "topic_id": "story:b21f14b5b9bb",
+     "topic_id": "story:a96d776c61a4",
      "cluster_size": 1,
      "sources": [
       "IT之家"
@@ -16475,8 +16550,62 @@ window.DATA = {
      "cluster_urls": [
       {
        "source": "IT之家",
-       "title": "特朗普称 AI 风险可控，但不介意设置监管护栏",
-       "url": "https://www.ithome.com/1/024/071.htm"
+       "title": "消息称苹果调整 iOS / iPadOS / macOS 28 初期开发流程，为工程师多腾出 2 周时间来探索创意",
+       "url": "https://www.ithome.com/1/024/256.htm"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       3
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "zh"
+      ],
+      "agenda_layers": [
+       "media"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "卓威预热鼠标新品，11 月 24 日 16:00 发布",
+     "url": "https://www.ithome.com/1/024/255.htm",
+     "time": "11-09 14:39",
+     "ts": 1794206385,
+     "summary": "IT之家 11 月 9 日消息，明基 (BenQ) 旗下电竞外设品牌卓威 (ZOWIE) 近日预热鼠标新品，宣称可提供“快速的按键回弹、明确的点击反馈”。该产品将于 11 月 24 日 16:00 发布。可以看到，这款鼠标的左右键按键盖与掌托分离，一改卓威鼠标产品的传统。另据上周末出席卓威线下活动的网友反馈，此次的新品归属 EW 系列，拥有包括 U2-EW 在内的一系列款式，配备集成屏幕的信号基站。",
+     "source": "IT之家",
+     "agenda_layer": "media",
+     "language": "zh",
+     "id": "acbf493341b5",
+     "keywords_zh": [
+      "产品发布"
+     ],
+     "event_type": "产品发布",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:acbf493341b5",
+     "cluster_size": 1,
+     "sources": [
+      "IT之家"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "media"
+     ],
+     "cluster_urls": [
+      {
+       "source": "IT之家",
+       "title": "卓威预热鼠标新品，11 月 24 日 16:00 发布",
+       "url": "https://www.ithome.com/1/024/255.htm"
       }
      ],
      "trajectory": {
@@ -16485,7 +16614,7 @@ window.DATA = {
        4
       ],
       "observations": 1,
-      "first_seen": 1794192856
+      "first_seen": 1794206680
      },
      "resonance": {
       "confirmed": false,
@@ -16500,22 +16629,22 @@ window.DATA = {
      }
     },
     {
-     "title": "美国网络服务商 Spectrum 推出限时免费千兆网速升级，只为助力《GTA6》下载",
-     "url": "https://www.ithome.com/1/024/070.htm",
-     "time": "11-09 10:40",
-     "ts": 1794192016,
-     "summary": "IT之家 11 月 9 日消息，美国网络服务提供商 Spectrum 最近宣布，公司将于 11 月 9 日-11 月 30 日，为符合条件的现有用户提供免费千兆网速升级，助力《GTA6》游戏下载。Spectrum 表示，拥有兼容设备的客户可在其手机 App 上轻点一下，就能限时免费升级至 1G 互联网套餐。如果用户已经拥有 1G 套餐，则可以升级至 2G 套餐。11 月 10 日起，升级网速的可以全速预下载《GTA6》，避开发售日的下载高峰。据IT之家此前报道，Rocksta",
+     "title": "澳大利亚拟推网络监管新规，谷歌警告未成年人或将无法使用 Gmail",
+     "url": "https://www.ithome.com/1/024/254.htm",
+     "time": "11-09 14:37",
+     "ts": 1794206268,
+     "summary": "IT之家 11 月 9 日消息，据路透社报道，谷歌一名负责政策事务的高管当地时间周一表示，澳大利亚拟议中的互联网监管法律可能迫使谷歌禁止未满 18 岁的用户使用 Gmail。这项名为《数字注意义务法案》（Digital Duty of Care）的立法已经获得澳大利亚众议院通过，但仍需获得参议院跨党派支持才能正式通过。根据法案要求，互联网企业必须采取措施清除有害内容，否则可能面临最高 1.09 亿澳元（IT之家注：现汇率约合 5 亿元人民币）的罚款。互联网企业和言论自由倡导者",
      "source": "IT之家",
      "agenda_layer": "media",
      "language": "zh",
-     "id": "851e595dbb8b",
+     "id": "0aec0e820d18",
      "keywords_zh": [
-      "产品发布"
+      "谷歌"
      ],
-     "event_type": "产品发布",
+     "event_type": "",
      "related_assets": [],
      "relevance_score": 0,
-     "topic_id": "story:851e595dbb8b",
+     "topic_id": "story:0aec0e820d18",
      "cluster_size": 1,
      "sources": [
       "IT之家"
@@ -16529,8 +16658,8 @@ window.DATA = {
      "cluster_urls": [
       {
        "source": "IT之家",
-       "title": "美国网络服务商 Spectrum 推出限时免费千兆网速升级，只为助力《GTA6》下载",
-       "url": "https://www.ithome.com/1/024/070.htm"
+       "title": "澳大利亚拟推网络监管新规，谷歌警告未成年人或将无法使用 Gmail",
+       "url": "https://www.ithome.com/1/024/254.htm"
       }
      ],
      "trajectory": {
@@ -16539,7 +16668,7 @@ window.DATA = {
        5
       ],
       "observations": 1,
-      "first_seen": 1794192856
+      "first_seen": 1794206680
      },
      "resonance": {
       "confirmed": false,
@@ -16554,37 +16683,38 @@ window.DATA = {
      }
     },
     {
-     "title": "保暖便宜的羽绒服，只用4步挑选",
-     "url": "https://www.huxiu.com/article/4903171.html",
-     "time": "11-09 10:36",
-     "ts": 1794191818,
-     "summary": "冬天冷得发抖，是你衣服没选对",
-     "source": "虎嗅",
+     "title": "Google rolls out a Googlebook update that frees up 3GB-6GB of RAM via on-device AI optimizations, reduces Chrome crashes, patches ~60 Android flaws, and more (Jay Bonggolto/Android Central)",
+     "url": "https://www.techmeme.com/261109/p4",
+     "time": "11-09 14:35",
+     "ts": 1794206100,
+     "summary": "Jay Bonggolto / Android Central: Google rolls out a Googlebook update that frees up 3GB-6GB of RAM via on-device AI optimizations, reduces Chrome crashes, patches ~60 Android flaws, and more&nbsp; &mdash;&nbsp; Google's latest Googlebook up",
+     "source": "Techmeme",
      "agenda_layer": "media",
-     "language": "zh",
-     "id": "8c2877169d65",
+     "language": "en",
+     "id": "d87daaccf6a8",
      "keywords_zh": [
-      "科技 / 互联网"
+      "谷歌",
+      "人工智能"
      ],
      "event_type": "",
      "related_assets": [],
      "relevance_score": 0,
-     "topic_id": "story:8c2877169d65",
+     "topic_id": "story:d87daaccf6a8",
      "cluster_size": 1,
      "sources": [
-      "虎嗅"
+      "Techmeme"
      ],
      "languages": [
-      "zh"
+      "en"
      ],
      "agenda_layers": [
       "media"
      ],
      "cluster_urls": [
       {
-       "source": "虎嗅",
-       "title": "保暖便宜的羽绒服，只用4步挑选",
-       "url": "https://www.huxiu.com/article/4903171.html"
+       "source": "Techmeme",
+       "title": "Google rolls out a Googlebook update that frees up 3GB-6GB of RAM via on-device AI optimizations, reduces Chrome crashes, patches ~60 Android flaws, and more (Jay Bonggolto/Android Central)",
+       "url": "https://www.techmeme.com/261109/p4"
       }
      ],
      "trajectory": {
@@ -16593,13 +16723,13 @@ window.DATA = {
        6
       ],
       "observations": 1,
-      "first_seen": 1794192856
+      "first_seen": 1794206680
      },
      "resonance": {
       "confirmed": false,
       "source_count": 1,
       "languages": [
-       "zh"
+       "en"
       ],
       "agenda_layers": [
        "media"
@@ -16608,130 +16738,22 @@ window.DATA = {
      }
     },
     {
-     "title": "比亚迪 C12 DUO 首秀 2026 欧洲客车展，英国市场迎来第 3000 台电动大巴里程碑",
-     "url": "https://www.ithome.com/1/024/068.htm",
-     "time": "11-09 10:35",
-     "ts": 1794191747,
-     "summary": "IT之家 11 月 9 日消息，11 月 3 日-5 日，2026 欧洲客车展（Euro Bus Expo）于英国伯明翰举办。据比亚迪商用车消息，全新城际 C12 DUO 在此次车展上迎来全球首秀，B11 及两款双层 BD11A、BD11B 同步亮相，覆盖城市通勤、城郊接驳、城际客运等场景。▲ 图源：比亚迪商用车公众号（后同）据介绍，全新 12 米城际客车 C12 DUO，专为旅游客运、校车及城际定制化客运服务打造，最高续航可达 547 公里，最大载客量 57 人，行李舱容积",
-     "source": "IT之家",
-     "agenda_layer": "media",
-     "language": "zh",
-     "id": "22bf4ddca377",
-     "keywords_zh": [
-      "科技 / 互联网"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:22bf4ddca377",
-     "cluster_size": 1,
-     "sources": [
-      "IT之家"
-     ],
-     "languages": [
-      "zh"
-     ],
-     "agenda_layers": [
-      "media"
-     ],
-     "cluster_urls": [
-      {
-       "source": "IT之家",
-       "title": "比亚迪 C12 DUO 首秀 2026 欧洲客车展，英国市场迎来第 3000 台电动大巴里程碑",
-       "url": "https://www.ithome.com/1/024/068.htm"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       7
-      ],
-      "observations": 1,
-      "first_seen": 1794192856
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "zh"
-      ],
-      "agenda_layers": [
-       "media"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "上汽奥迪 AUDI DAY 2026 定档 11 月 13 日，E7X/E5 Sportback 特别版车型登场",
-     "url": "https://www.ithome.com/1/024/067.htm",
-     "time": "11-09 10:35",
-     "ts": 1794191707,
-     "summary": "IT之家 11 月 9 日消息，上汽奥迪官方今日宣布，AUDI DAY 2026 定档 11 月 13 日举办，奥迪世界模型全场景辅助驾驶将亮相，E7X 与 E5 Sportback 家族产品将焕新登场，特别版车型即将发布。据IT之家此前报道，上汽奥迪 AUDI E7X 于 5 月 29 日上市，长宽高分别为 5049mm/1997mm/1710mm，轴距 3060mm，车型全系标配 900V 高压快充、前双叉臂独立悬挂、奥迪助手，支持 4C 快充，售价 26.98 万元起。",
-     "source": "IT之家",
-     "agenda_layer": "media",
-     "language": "zh",
-     "id": "50b55bb86aea",
-     "keywords_zh": [
-      "产品发布"
-     ],
-     "event_type": "产品发布",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:50b55bb86aea",
-     "cluster_size": 1,
-     "sources": [
-      "IT之家"
-     ],
-     "languages": [
-      "zh"
-     ],
-     "agenda_layers": [
-      "media"
-     ],
-     "cluster_urls": [
-      {
-       "source": "IT之家",
-       "title": "上汽奥迪 AUDI DAY 2026 定档 11 月 13 日，E7X/E5 Sportback 特别版车型登场",
-       "url": "https://www.ithome.com/1/024/067.htm"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       8
-      ],
-      "observations": 1,
-      "first_seen": 1794192856
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "zh"
-      ],
-      "agenda_layers": [
-       "media"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "一汽大众取消两年“年终奖”，这项收入占部分员工年薪近半",
-     "url": "https://www.huxiu.com/article/4904040.html",
-     "time": "11-09 10:24",
-     "ts": 1794191095,
-     "summary": "本文来自微信公众号： 界面新闻 ，作者：武凯 周姝祺界面新闻从多位一汽大众员工处获悉，公司上周在内部口头传达，2025年度和2026年度的BD奖金将取消发放。BD在内部也被称为“保单”，约占全年总收入的40%至45%。由于其金额较高、按年度核定，员工通常将其视为年终奖。这项收入近年从对应年度结束后的次年8月起计入员工BD奖金账户。按这一发放节奏，2025年度BD奖金已经超过往年入账时间，2026年度BD奖金原本应在2027年发放。两年的重要收入同时被告知取消，是员工反应较大的",
+     "title": "黄仁勋八卦背后，借道东南亚的算力租赁生意",
+     "url": "https://www.huxiu.com/article/4904118.html",
+     "time": "11-09 14:33",
+     "ts": 1794206027,
+     "summary": "本文来自微信公众号： 深潮 TechFlow ，作者：值得关注的黄仁勋认了。11月8日，英伟达公开了他写给全体员工的一封信。63岁的老黄在信里承认对妻子不忠，还写了一句“我欠我的家人和你们所有人一个道歉”。随即英伟达董事会当天宣布启动独立调查。信里没写名字，但大家都知道说的是Alice Huang，新加坡公司Megaspeed的前高管。两人的交集，其实早有痕迹。2024年6月，有人在领英上晒出一张照片，Alice Huang和老黄在台北的一间酒吧里喝威士忌，同桌的还有技嘉等供",
      "source": "虎嗅",
      "agenda_layer": "media",
      "language": "zh",
-     "id": "93a10a259df3",
+     "id": "e570bc6ee180",
      "keywords_zh": [
-      "科技 / 互联网"
+      "英伟达"
      ],
      "event_type": "",
      "related_assets": [],
      "relevance_score": 0,
-     "topic_id": "story:93a10a259df3",
+     "topic_id": "story:e570bc6ee180",
      "cluster_size": 1,
      "sources": [
       "虎嗅"
@@ -16745,17 +16767,17 @@ window.DATA = {
      "cluster_urls": [
       {
        "source": "虎嗅",
-       "title": "一汽大众取消两年“年终奖”，这项收入占部分员工年薪近半",
-       "url": "https://www.huxiu.com/article/4904040.html"
+       "title": "黄仁勋八卦背后，借道东南亚的算力租赁生意",
+       "url": "https://www.huxiu.com/article/4904118.html"
       }
      ],
      "trajectory": {
       "label": "new",
       "points": [
-       9
+       7
       ],
       "observations": 1,
-      "first_seen": 1794192856
+      "first_seen": 1794206680
      },
      "resonance": {
       "confirmed": false,
@@ -16767,6 +16789,1308 @@ window.DATA = {
        "media"
       ],
       "time_windows": 1
+     }
+    },
+    {
+     "title": "2499 → 549 元：添可 20000Pa 平躺 Stretch Max 洗地机 11.11 一降再降",
+     "url": "https://www.ithome.com/1/024/253.htm",
+     "time": "11-09 14:33",
+     "ts": 1794206018,
+     "summary": "添可平躺 0 缠毛 Stretch Max 洗地机上市售价 2499 元，支持防缠抓毛齿，180° 躺平洗地，40 分钟长续航。今日天猫旗舰店多重优惠后实付 1228.81 元，叠加淘金币抵扣后实付仅需 1082.74 元。下单前咨询客服“返现”备注后下单，实付大于 1050 元，再返 533 元，折合仅需 549.74 元闭眼囤好价哦。共需 2 步点击下方卡片领券后 → 点击宝贝右上角“…”→ 点击弹出页面右下角“淘金币”点击此宝贝。淘金币页面进入宝贝后，点击以旧换新 → ",
+     "source": "IT之家",
+     "agenda_layer": "media",
+     "language": "zh",
+     "id": "2537db332a2e",
+     "keywords_zh": [
+      "科技 / 互联网"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:2537db332a2e",
+     "cluster_size": 1,
+     "sources": [
+      "IT之家"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "media"
+     ],
+     "cluster_urls": [
+      {
+       "source": "IT之家",
+       "title": "2499 → 549 元：添可 20000Pa 平躺 Stretch Max 洗地机 11.11 一降再降",
+       "url": "https://www.ithome.com/1/024/253.htm"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       8
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "zh"
+      ],
+      "agenda_layers": [
+       "media"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "先接万达，再收恒大，他凭什么抄底两个中国前首富？",
+     "url": "https://www.huxiu.com/article/4903303.html",
+     "time": "11-09 14:33",
+     "ts": 1794205981,
+     "summary": "只要把窟窿堵住，造血能力就能复苏",
+     "source": "虎嗅",
+     "agenda_layer": "media",
+     "language": "zh",
+     "id": "80e114d6a704",
+     "keywords_zh": [
+      "科技 / 互联网"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:80e114d6a704",
+     "cluster_size": 1,
+     "sources": [
+      "虎嗅"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "media"
+     ],
+     "cluster_urls": [
+      {
+       "source": "虎嗅",
+       "title": "先接万达，再收恒大，他凭什么抄底两个中国前首富？",
+       "url": "https://www.huxiu.com/article/4903303.html"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       9
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "zh"
+      ],
+      "agenda_layers": [
+       "media"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "“焊料之王”锡，价格遭重挫",
+     "url": "https://www.huxiu.com/article/4904117.html",
+     "time": "11-09 14:29",
+     "ts": 1794205755,
+     "summary": "本文来自微信公众号： 财联社 ，作者：潇湘随着投资者迅速重新评估美国数据中心的需求前景，AI概念股的暴跌正在迅速波及至金属市场……被誉为“焊料之王”的锡，凭借在电子焊接中的关键应用，此前曾深度受益于AI投资热潮。然而，由于市场担忧民主党人可能放缓AI数据中心的建设步伐，美股在上周四单日市值蒸发3.2万亿美元，锡价随之也遭遇重挫。伦敦金属交易所(LME)三个月期锡在短短不到两周时间内，从每吨逾50000美元的高位一度急挫至45360美元的八个月低点。不过，有意思的是，这轮由AI",
+     "source": "虎嗅",
+     "agenda_layer": "media",
+     "language": "zh",
+     "id": "d5a257db07aa",
+     "keywords_zh": [
+      "人工智能",
+      "数据中心"
+     ],
+     "event_type": "",
+     "related_assets": [
+      "中际旭创"
+     ],
+     "relevance_score": 3,
+     "topic_id": "story:d5a257db07aa",
+     "cluster_size": 1,
+     "sources": [
+      "虎嗅"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "media"
+     ],
+     "cluster_urls": [
+      {
+       "source": "虎嗅",
+       "title": "“焊料之王”锡，价格遭重挫",
+       "url": "https://www.huxiu.com/article/4904117.html"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       10
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "zh"
+      ],
+      "agenda_layers": [
+       "media"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "33日前赴后继：“盘踞珠穆朗玛峰”的Agent，与步入调整期的RoboDojo",
+     "url": "https://www.huxiu.com/article/4904115.html",
+     "time": "11-09 14:21",
+     "ts": 1794205286,
+     "summary": "本文来自微信公众号： 42号电波 ，作者：Starc，编辑：大吉，原文标题：《33日前赴后继：「盘踞珠穆朗玛峰」的 Agent，与步入调整期的 RoboDojo》RoboDojo是具身智能领域具有代表性的评测标准之一。这项包含42个仿真任务与18个真机任务，堪称机器人的「全科大考」。在CALVIN、LIBERO、RoboTwin、RMBench等仿真环境与ManipulationNet、RoboArena等真机基准工作之上，RoboDojo通过提供统一的结构化评测，共享策略接",
+     "source": "虎嗅",
+     "agenda_layer": "media",
+     "language": "zh",
+     "id": "6f7955f56457",
+     "keywords_zh": [
+      "机器人"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:6f7955f56457",
+     "cluster_size": 1,
+     "sources": [
+      "虎嗅"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "media"
+     ],
+     "cluster_urls": [
+      {
+       "source": "虎嗅",
+       "title": "33日前赴后继：“盘踞珠穆朗玛峰”的Agent，与步入调整期的RoboDojo",
+       "url": "https://www.huxiu.com/article/4904115.html"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       11
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "zh"
+      ],
+      "agenda_layers": [
+       "media"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "税比货贵，Temu和SHEIN们换活法",
+     "url": "https://www.huxiu.com/article/4904114.html",
+     "time": "11-09 14:19",
+     "ts": 1794205157,
+     "summary": "本文来自微信公众号： 奇点湃 ，作者：李喆11月1日，欧盟正式对境外直邮给消费者的小包开征「联盟处理费」，每个申报品类2欧元。这不是孤立的一笔费用。7月起，欧盟已经取消了150欧元以下包裹的关税豁免，改按每个商品品类收3欧元临时关税。两笔叠加，一件低值商品的固定税费到了5欧元。一件从中国直邮欧洲的T恤，售价可能只有5欧元。税费和货值打平，还没算增值税和物流费。黑色星期五、网络星期一、圣诞季，欧美一年里最大的促销档期就在眼前。欧洲消费者这个冬天会发现，购物车里的便宜货贵了一截。",
+     "source": "虎嗅",
+     "agenda_layer": "media",
+     "language": "zh",
+     "id": "1f00f83dc01e",
+     "keywords_zh": [
+      "科技 / 互联网"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:1f00f83dc01e",
+     "cluster_size": 1,
+     "sources": [
+      "虎嗅"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "media"
+     ],
+     "cluster_urls": [
+      {
+       "source": "虎嗅",
+       "title": "税比货贵，Temu和SHEIN们换活法",
+       "url": "https://www.huxiu.com/article/4904114.html"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       12
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "zh"
+      ],
+      "agenda_layers": [
+       "media"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "为什么广告语都爱八字真言？",
+     "url": "https://www.huxiu.com/article/4904045.html",
+     "time": "11-09 14:04",
+     "ts": 1794204277,
+     "summary": "像广告语，和起作用的广告语，不是一回事",
+     "source": "虎嗅",
+     "agenda_layer": "media",
+     "language": "zh",
+     "id": "318dfbd137fa",
+     "keywords_zh": [
+      "科技 / 互联网"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:318dfbd137fa",
+     "cluster_size": 1,
+     "sources": [
+      "虎嗅"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "media"
+     ],
+     "cluster_urls": [
+      {
+       "source": "虎嗅",
+       "title": "为什么广告语都爱八字真言？",
+       "url": "https://www.huxiu.com/article/4904045.html"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       13
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "zh"
+      ],
+      "agenda_layers": [
+       "media"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "Sources: ByteDance seeks to expand its data center project in Ceara, Brazil, with a second phase larger than its ongoing $10B, 300MW project (Peter Millard/Bloomberg)",
+     "url": "https://www.techmeme.com/261109/p3",
+     "time": "11-09 13:50",
+     "ts": 1794203400,
+     "summary": "Peter Millard / Bloomberg: Sources: ByteDance seeks to expand its data center project in Ceara, Brazil, with a second phase larger than its ongoing $10B, 300MW project&nbsp; &mdash;&nbsp; TikTok owner ByteDance is considering expanding a da",
+     "source": "Techmeme",
+     "agenda_layer": "media",
+     "language": "en",
+     "id": "b03124ef5d72",
+     "keywords_zh": [
+      "数据中心"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:b03124ef5d72",
+     "cluster_size": 1,
+     "sources": [
+      "Techmeme"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "media"
+     ],
+     "cluster_urls": [
+      {
+       "source": "Techmeme",
+       "title": "Sources: ByteDance seeks to expand its data center project in Ceara, Brazil, with a second phase larger than its ongoing $10B, 300MW project (Peter Millard/Bloomberg)",
+       "url": "https://www.techmeme.com/261109/p3"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       14
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "media"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "Apple capped engineers at a $200 daily AI budget",
+     "url": "https://www.stork.ai/newsletter/2026-11-08-apple-capped-engineers-at-a-200-daily-ai-budget",
+     "time": "11-09 13:30",
+     "ts": 1794202211,
+     "summary": "Article URL: https://www.stork.ai/newsletter/2026-11-08-apple-capped-engineers-at-a-200-daily-ai-budget#story-1 Comments URL: https://news.ycombinator.com/item?id=50421426 Points: 33 # Comments: 29",
+     "source": "Hacker News",
+     "agenda_layer": "media",
+     "language": "en",
+     "id": "dc6ef366404e",
+     "keywords_zh": [
+      "苹果",
+      "人工智能"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:dc6ef366404e",
+     "cluster_size": 1,
+     "sources": [
+      "Hacker News"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "media"
+     ],
+     "cluster_urls": [
+      {
+       "source": "Hacker News",
+       "title": "Apple capped engineers at a $200 daily AI budget",
+       "url": "https://www.stork.ai/newsletter/2026-11-08-apple-capped-engineers-at-a-200-daily-ai-budget"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       15
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "media"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”",
+     "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50",
+     "time": "11-09 13:26",
+     "ts": 1794201989,
+     "summary": "Nvidia’s board is investigating Jensen Huang over his relationship with a suspected Chinese spy, and Yale’s Jeffrey Sonnenfeld thinks it’s roughly a coin flip whether Huang stays on as CEO.",
+     "source": "TechCrunch",
+     "agenda_layer": "media",
+     "language": "en",
+     "id": "092b13037c22",
+     "keywords_zh": [
+      "英伟达"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:092b13037c22",
+     "cluster_size": 1,
+     "sources": [
+      "TechCrunch"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "media"
+     ],
+     "cluster_urls": [
+      {
+       "source": "TechCrunch",
+       "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”",
+       "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       16
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "media"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "When talking about AI safety, President Trump says \"I don't mind guardrails. But I don't wanna put us in a deep second position\", and \"China has no guardrails\" (CBS News)",
+     "url": "https://www.techmeme.com/261109/p2",
+     "time": "11-09 13:15",
+     "ts": 1794201301,
+     "summary": "CBS News: When talking about AI safety, President Trump says &ldquo;I don't mind guardrails. But I don't wanna put us in a deep second position&rdquo;, and &ldquo;China has no guardrails&rdquo;&nbsp; &mdash;&nbsp; This past Tuesday, Preside",
+     "source": "Techmeme",
+     "agenda_layer": "media",
+     "language": "en",
+     "id": "b4d3604ed228",
+     "keywords_zh": [
+      "人工智能"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:b4d3604ed228",
+     "cluster_size": 1,
+     "sources": [
+      "Techmeme"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "media"
+     ],
+     "cluster_urls": [
+      {
+       "source": "Techmeme",
+       "title": "When talking about AI safety, President Trump says \"I don't mind guardrails. But I don't wanna put us in a deep second position\", and \"China has no guardrails\" (CBS News)",
+       "url": "https://www.techmeme.com/261109/p2"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       17
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "media"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "Sources and filings detail how Jensen Huang has brought his children and other family members into Nvidia, making it unusually family-run for Silicon Valley (Wall Street Journal)",
+     "url": "https://www.techmeme.com/261109/p1",
+     "time": "11-09 13:10",
+     "ts": 1794201000,
+     "summary": "Wall Street Journal: Sources and filings detail how Jensen Huang has brought his children and other family members into Nvidia, making it unusually family-run for Silicon Valley&nbsp; &mdash;&nbsp; The Nvidia CEO has elevated his children t",
+     "source": "Techmeme",
+     "agenda_layer": "media",
+     "language": "en",
+     "id": "f150b80d6ce9",
+     "keywords_zh": [
+      "英伟达"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:f150b80d6ce9",
+     "cluster_size": 1,
+     "sources": [
+      "Techmeme"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "media"
+     ],
+     "cluster_urls": [
+      {
+       "source": "Techmeme",
+       "title": "Sources and filings detail how Jensen Huang has brought his children and other family members into Nvidia, making it unusually family-run for Silicon Valley (Wall Street Journal)",
+       "url": "https://www.techmeme.com/261109/p1"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       18
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "media"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "轩逸跌了65%，卡罗拉却涨了：10万元合资家轿，迎来了分化时刻",
+     "url": "https://www.tmtpost.com/8197766.html",
+     "time": "11-09 13:08",
+     "ts": 1794200880,
+     "summary": "两家的分歧，最终落在一个经营问题上：在一个燃油车持续萎缩的市场里，愿意拿出多少利润，去换一个继续留在中国家庭车库里的位置。",
+     "source": "钛媒体",
+     "agenda_layer": "media",
+     "language": "zh",
+     "id": "054901878bd1",
+     "keywords_zh": [
+      "科技 / 互联网"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:054901878bd1",
+     "cluster_size": 1,
+     "sources": [
+      "钛媒体"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "media"
+     ],
+     "cluster_urls": [
+      {
+       "source": "钛媒体",
+       "title": "轩逸跌了65%，卡罗拉却涨了：10万元合资家轿，迎来了分化时刻",
+       "url": "https://www.tmtpost.com/8197766.html"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       19
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "zh"
+      ],
+      "agenda_layers": [
+       "media"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "为什么「小电驴」也卖不动了",
+     "url": "https://www.tmtpost.com/8197760.html",
+     "time": "11-09 12:46",
+     "ts": 1794199577,
+     "summary": "存量竞争，集体承压",
+     "source": "钛媒体",
+     "agenda_layer": "media",
+     "language": "zh",
+     "id": "df9014022b12",
+     "keywords_zh": [
+      "科技 / 互联网"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:df9014022b12",
+     "cluster_size": 1,
+     "sources": [
+      "钛媒体"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "media"
+     ],
+     "cluster_urls": [
+      {
+       "source": "钛媒体",
+       "title": "为什么「小电驴」也卖不动了",
+       "url": "https://www.tmtpost.com/8197760.html"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       20
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "zh"
+      ],
+      "agenda_layers": [
+       "media"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "Jensen Huang's scandal poses a rare crisis in US corporate history, given the national security stakes, his centrality to Nvidia, and its role in the AI race (Andrew Edgecliffe-Johnson/Semafor)",
+     "url": "https://www.techmeme.com/261108/p23",
+     "time": "11-09 12:25",
+     "ts": 1794198300,
+     "summary": "Andrew Edgecliffe-Johnson / Semafor: Jensen Huang's scandal poses a rare crisis in US corporate history, given the national security stakes, his centrality to Nvidia, and its role in the AI race&nbsp; &mdash;&nbsp; There's little precedent ",
+     "source": "Techmeme",
+     "agenda_layer": "media",
+     "language": "en",
+     "id": "7b4a4c7fb7dd",
+     "keywords_zh": [
+      "英伟达",
+      "人工智能"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:7b4a4c7fb7dd",
+     "cluster_size": 1,
+     "sources": [
+      "Techmeme"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "media"
+     ],
+     "cluster_urls": [
+      {
+       "source": "Techmeme",
+       "title": "Jensen Huang's scandal poses a rare crisis in US corporate history, given the national security stakes, his centrality to Nvidia, and its role in the AI race (Andrew Edgecliffe-Johnson/Semafor)",
+       "url": "https://www.techmeme.com/261108/p23"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       21
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "media"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "An interview with Cognition CISO Alex Stamos on how AI is upending cybersecurity, AI-powered red teaming, vulnerabilities in legacy codebases, and more (Nilay Patel/The Verge)",
+     "url": "https://www.techmeme.com/261108/p22",
+     "time": "11-09 12:05",
+     "ts": 1794197100,
+     "summary": "Nilay Patel / The Verge: An interview with Cognition CISO Alex Stamos on how AI is upending cybersecurity, AI-powered red teaming, vulnerabilities in legacy codebases, and more&nbsp; &mdash;&nbsp; Today, I'm talking with Alex Stamos, chief ",
+     "source": "Techmeme",
+     "agenda_layer": "media",
+     "language": "en",
+     "id": "e22d38872b60",
+     "keywords_zh": [
+      "人工智能"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:e22d38872b60",
+     "cluster_size": 1,
+     "sources": [
+      "Techmeme"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "media"
+     ],
+     "cluster_urls": [
+      {
+       "source": "Techmeme",
+       "title": "An interview with Cognition CISO Alex Stamos on how AI is upending cybersecurity, AI-powered red teaming, vulnerabilities in legacy codebases, and more (Nilay Patel/The Verge)",
+       "url": "https://www.techmeme.com/261108/p22"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       22
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "media"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "中国讨论征收糖税",
+     "url": "https://www.solidot.org/story",
+     "time": "11-09 12:03",
+     "ts": 1794196996,
+     "summary": "随着肥胖与糖尿病风险上升，专家及媒体提议借当下消费税改革契机，对含糖饮料进行分级征税，促使民众减少糖分摄入。《健康时报》称，中国超重和肥胖者的比例已超 50%，精制糖摄入过量是重要诱因。文章指出，征收含糖税或许是大势所趋，并建议中国从审慎研究并有序试点开始，按含糖量设置阶梯税率，高糖高税、低糖轻税、无糖免税，并将税收定向用于校园健康饮食项目等。截至 2024 年 7 月，全球至少有 116 个国家对至少一种含糖饮料征收国家级消费税。世界卫生组织去年 7 月呼吁各国对含糖饮料征",
+     "source": "Solidot",
+     "agenda_layer": "media",
+     "language": "zh",
+     "id": "5c7bb6e9630d",
+     "keywords_zh": [
+      "科技 / 互联网"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:5c7bb6e9630d",
+     "cluster_size": 1,
+     "sources": [
+      "Solidot"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "media"
+     ],
+     "cluster_urls": [
+      {
+       "source": "Solidot",
+       "title": "中国讨论征收糖税",
+       "url": "https://www.solidot.org/story"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       23
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "zh"
+      ],
+      "agenda_layers": [
+       "media"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "A Critique of GPUI",
+     "url": "https://blog.zortax.de/posts/a-critique-of-gpui",
+     "time": "11-09 11:51",
+     "ts": 1794196270,
+     "summary": "Article URL: https://blog.zortax.de/posts/a-critique-of-gpui Comments URL: https://news.ycombinator.com/item?id=50420857 Points: 60 # Comments: 25",
+     "source": "Hacker News",
+     "agenda_layer": "media",
+     "language": "en",
+     "id": "164f104452df",
+     "keywords_zh": [
+      "科技 / 互联网"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:164f104452df",
+     "cluster_size": 1,
+     "sources": [
+      "Hacker News"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "media"
+     ],
+     "cluster_urls": [
+      {
+       "source": "Hacker News",
+       "title": "A Critique of GPUI",
+       "url": "https://blog.zortax.de/posts/a-critique-of-gpui"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       24
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "media"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "The Qlobe: Rotating Quine (2010)",
+     "url": "http://mamememo.blogspot.com/2010/09/qlobe.html",
+     "time": "11-09 11:15",
+     "ts": 1794194117,
+     "summary": "Article URL: http://mamememo.blogspot.com/2010/09/qlobe.html Comments URL: https://news.ycombinator.com/item?id=50420599 Points: 15 # Comments: 0",
+     "source": "Hacker News",
+     "agenda_layer": "media",
+     "language": "en",
+     "id": "c0fdf891c905",
+     "keywords_zh": [
+      "科技 / 互联网"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:c0fdf891c905",
+     "cluster_size": 1,
+     "sources": [
+      "Hacker News"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "media"
+     ],
+     "cluster_urls": [
+      {
+       "source": "Hacker News",
+       "title": "The Qlobe: Rotating Quine (2010)",
+       "url": "http://mamememo.blogspot.com/2010/09/qlobe.html"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       25
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "media"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "英伟达启动独立调查：黄仁勋继续担任CEO",
+     "url": "https://www.tmtpost.com/8198079.html",
+     "time": "11-09 11:12",
+     "ts": 1794193920,
+     "summary": "亚洲芯片股反弹，英伟达场外合约仍在下跌。",
+     "source": "钛媒体",
+     "agenda_layer": "media",
+     "language": "zh",
+     "id": "023212cdcbf1",
+     "keywords_zh": [
+      "英伟达"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:023212cdcbf1",
+     "cluster_size": 1,
+     "sources": [
+      "钛媒体"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "media"
+     ],
+     "cluster_urls": [
+      {
+       "source": "钛媒体",
+       "title": "英伟达启动独立调查：黄仁勋继续担任CEO",
+       "url": "https://www.tmtpost.com/8198079.html"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       26
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "zh"
+      ],
+      "agenda_layers": [
+       "media"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "双十一好物精选：Sonos Play 85 折送充电套装，CD 机加赠透明面盖",
+     "url": "https://sspai.com/post/118612",
+     "time": "11-09 11:00",
+     "ts": 1794193200,
+     "summary": "从墨水屏到手机壳，从磁吸信息屏到CD播放器，这些看似平常的数码产品，经过一些新的设计和尝试，也能带来不太一样的使用体验。今年双十一，各大平台的促销活动陆续开始，不过满减、凑单等规则可能还是有些繁琐。所 ...查看全文",
+     "source": "少数派",
+     "agenda_layer": "media",
+     "language": "zh",
+     "id": "3168ff3d461a",
+     "keywords_zh": [
+      "科技 / 互联网"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:3168ff3d461a",
+     "cluster_size": 1,
+     "sources": [
+      "少数派"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "media"
+     ],
+     "cluster_urls": [
+      {
+       "source": "少数派",
+       "title": "双十一好物精选：Sonos Play 85 折送充电套装，CD 机加赠透明面盖",
+       "url": "https://sspai.com/post/118612"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       27
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "zh"
+      ],
+      "agenda_layers": [
+       "media"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "汽修店越开越多，为什么赚的钱却越来越少？",
+     "url": "https://www.tmtpost.com/8197767.html",
+     "time": "11-09 10:56",
+     "ts": 1794193019,
+     "summary": "9000家修车店背后，真正集中的是什么",
+     "source": "钛媒体",
+     "agenda_layer": "media",
+     "language": "zh",
+     "id": "7e5e8b8d4d3b",
+     "keywords_zh": [
+      "科技 / 互联网"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:7e5e8b8d4d3b",
+     "cluster_size": 1,
+     "sources": [
+      "钛媒体"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "media"
+     ],
+     "cluster_urls": [
+      {
+       "source": "钛媒体",
+       "title": "汽修店越开越多，为什么赚的钱却越来越少？",
+       "url": "https://www.tmtpost.com/8197767.html"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       28
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "zh"
+      ],
+      "agenda_layers": [
+       "media"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "消费三姐妹，为什么不香了？",
+     "url": "https://www.tmtpost.com/8198041.html",
+     "time": "11-09 10:56",
+     "ts": 1794193017,
+     "summary": "生意还在，溢价没了。",
+     "source": "钛媒体",
+     "agenda_layer": "media",
+     "language": "zh",
+     "id": "e9a5a6fe9188",
+     "keywords_zh": [
+      "科技 / 互联网"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:e9a5a6fe9188",
+     "cluster_size": 1,
+     "sources": [
+      "钛媒体"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "media"
+     ],
+     "cluster_urls": [
+      {
+       "source": "钛媒体",
+       "title": "消费三姐妹，为什么不香了？",
+       "url": "https://www.tmtpost.com/8198041.html"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       29
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "zh"
+      ],
+      "agenda_layers": [
+       "media"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "A Bit about Email",
+     "url": "https://maurycyz.com/misc/email",
+     "time": "11-09 10:46",
+     "ts": 1794192381,
+     "summary": "Article URL: https://maurycyz.com/misc/email/ Comments URL: https://news.ycombinator.com/item?id=50420383 Points: 19 # Comments: 2",
+     "source": "Hacker News",
+     "agenda_layer": "media",
+     "language": "en",
+     "id": "fc197fec778c",
+     "keywords_zh": [
+      "科技 / 互联网"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:fc197fec778c",
+     "cluster_size": 1,
+     "sources": [
+      "Hacker News"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "media"
+     ],
+     "cluster_urls": [
+      {
+       "source": "Hacker News",
+       "title": "A Bit about Email",
+       "url": "https://maurycyz.com/misc/email"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       30
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "media"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "Soul Glo’s Diaspora Problems is a hardcore record like no other",
+     "url": "https://www.theverge.com/entertainment/1029579/soul-glo-diaspora-problems-hardcore-punk-review",
+     "time": "11-09 10:34",
+     "ts": 1794191659,
+     "summary": "Soul Glo has a new record called NA I'M GON GRAB ALLAT coming out in January, and I, for one, can not wait. While two singles have dropped, it's not enough to truly tide me over, so I've been revisiting Songs to Yeet at the Sun and my favor",
+     "source": "The Verge",
+     "agenda_layer": "media",
+     "language": "en",
+     "id": "f910f07f08ab",
+     "keywords_zh": [
+      "科技 / 互联网"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:f910f07f08ab",
+     "cluster_size": 1,
+     "sources": [
+      "The Verge"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "media"
+     ],
+     "cluster_urls": [
+      {
+       "source": "The Verge",
+       "title": "Soul Glo’s Diaspora Problems is a hardcore record like no other",
+       "url": "https://www.theverge.com/entertainment/1029579/soul-glo-diaspora-problems-hardcore-punk-review"
+      }
+     ],
+     "trajectory": {
+      "label": "surge",
+      "points": [
+       35,
+       31
+      ],
+      "observations": 2,
+      "first_seen": 1794192856
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "media"
+      ],
+      "time_windows": 2
      }
     },
     {
@@ -16810,11 +18134,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "decay",
       "points": [
-       10
+       10,
+       32
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -16826,116 +18151,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "Job listings show Amazon is building a \"new-to-world\" home robot to operate \"alongside family members\", after its $1,450 Astro reached only a few thousand homes (Annie Palmer/CNBC)",
-     "url": "https://www.techmeme.com/261108/p20",
-     "time": "11-09 10:20",
-     "ts": 1794190801,
-     "summary": "Annie Palmer / CNBC: Job listings show Amazon is building a &ldquo;new-to-world&rdquo; home robot to operate &ldquo;alongside family members&rdquo;, after its $1,450 Astro reached only a few thousand homes&nbsp; &mdash;&nbsp; Jeff Bezos mad",
-     "source": "Techmeme",
-     "agenda_layer": "media",
-     "language": "en",
-     "id": "2be94131fd96",
-     "keywords_zh": [
-      "亚马逊",
-      "机器人"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:2be94131fd96",
-     "cluster_size": 1,
-     "sources": [
-      "Techmeme"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "media"
-     ],
-     "cluster_urls": [
-      {
-       "source": "Techmeme",
-       "title": "Job listings show Amazon is building a \"new-to-world\" home robot to operate \"alongside family members\", after its $1,450 Astro reached only a few thousand homes (Annie Palmer/CNBC)",
-       "url": "https://www.techmeme.com/261108/p20"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       11
-      ],
-      "observations": 1,
-      "first_seen": 1794192856
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "media"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "关于本轮下跌的三个想法和一些建议",
-     "url": "https://www.huxiu.com/article/4904013.html",
-     "time": "11-09 10:20",
-     "ts": 1794190800,
-     "summary": "不要让自己陷入左右为难，不要让自己陷入被信仰把持的状态",
-     "source": "虎嗅",
-     "agenda_layer": "media",
-     "language": "zh",
-     "id": "fecfc8dceeab",
-     "keywords_zh": [
-      "科技 / 互联网"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:fecfc8dceeab",
-     "cluster_size": 1,
-     "sources": [
-      "虎嗅"
-     ],
-     "languages": [
-      "zh"
-     ],
-     "agenda_layers": [
-      "media"
-     ],
-     "cluster_urls": [
-      {
-       "source": "虎嗅",
-       "title": "关于本轮下跌的三个想法和一些建议",
-       "url": "https://www.huxiu.com/article/4904013.html"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       12
-      ],
-      "observations": 1,
-      "first_seen": 1794192856
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "zh"
-      ],
-      "agenda_layers": [
-       "media"
-      ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -16973,11 +18189,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "decay",
       "points": [
-       13
+       13,
+       33
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -16989,191 +18206,29 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
-     "title": "旁观者张朝阳",
-     "url": "https://www.tmtpost.com/8197836.html",
-     "time": "11-09 10:16",
-     "ts": 1794190565,
-     "summary": "每个时代都有自己的主角。",
-     "source": "钛媒体",
-     "agenda_layer": "media",
-     "language": "zh",
-     "id": "b2a7ac4af8b0",
-     "keywords_zh": [
-      "科技 / 互联网"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:b2a7ac4af8b0",
-     "cluster_size": 1,
-     "sources": [
-      "钛媒体"
-     ],
-     "languages": [
-      "zh"
-     ],
-     "agenda_layers": [
-      "media"
-     ],
-     "cluster_urls": [
-      {
-       "source": "钛媒体",
-       "title": "旁观者张朝阳",
-       "url": "https://www.tmtpost.com/8197836.html"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       14
-      ],
-      "observations": 1,
-      "first_seen": 1794192856
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "zh"
-      ],
-      "agenda_layers": [
-       "media"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "GDP增速再垫底，山西如何打破“资源诅咒”？",
-     "url": "https://www.huxiu.com/article/4904031.html",
-     "time": "11-09 10:04",
-     "ts": 1794189881,
-     "summary": "本文来自微信公众号： 界面新闻 ，作者：张一诺2026年前三季度，煤炭资源大省山西经济明显失速。受矿井安全整改导致煤炭供给收缩、第二产业负增长的拖累，全省实际GDP同比仅增长0.5%，大幅低于全国4.6%的平均水平，在31省份中排名末位。这距山西上一次GDP增速全国垫底仅隔一年。2024年，山西实际GDP同比增长2.3%，不仅增速全国倒数第一，也是唯一名义GDP负增长的省份，煤炭“量价双杀”是主要拖累。“烧热华北一半的炕，点亮中国一半的灯。”在中国的经济版图上，山西一直被定位",
-     "source": "虎嗅",
-     "agenda_layer": "media",
-     "language": "zh",
-     "id": "6a04ee5fb84c",
-     "keywords_zh": [
-      "科技 / 互联网"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:6a04ee5fb84c",
-     "cluster_size": 1,
-     "sources": [
-      "虎嗅"
-     ],
-     "languages": [
-      "zh"
-     ],
-     "agenda_layers": [
-      "media"
-     ],
-     "cluster_urls": [
-      {
-       "source": "虎嗅",
-       "title": "GDP增速再垫底，山西如何打破“资源诅咒”？",
-       "url": "https://www.huxiu.com/article/4904031.html"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       15
-      ],
-      "observations": 1,
-      "first_seen": 1794192856
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "zh"
-      ],
-      "agenda_layers": [
-       "media"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "涌入半导体的年轻人：两年红利，抵别人一辈子",
-     "url": "https://www.tmtpost.com/8197758.html",
-     "time": "11-09 10:02",
-     "ts": 1794189769,
-     "summary": "长坡厚雪，做时间的朋友。",
-     "source": "钛媒体",
-     "agenda_layer": "media",
-     "language": "zh",
-     "id": "72b53f090cb2",
-     "keywords_zh": [
-      "科技 / 互联网"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:72b53f090cb2",
-     "cluster_size": 1,
-     "sources": [
-      "钛媒体"
-     ],
-     "languages": [
-      "zh"
-     ],
-     "agenda_layers": [
-      "media"
-     ],
-     "cluster_urls": [
-      {
-       "source": "钛媒体",
-       "title": "涌入半导体的年轻人：两年红利，抵别人一辈子",
-       "url": "https://www.tmtpost.com/8197758.html"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       16
-      ],
-      "observations": 1,
-      "first_seen": 1794192856
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "zh"
-      ],
-      "agenda_layers": [
-       "media"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "Trump says Jensen Huang should stay on as Nvidia CEO after affair admission, saying he is a \"fine person\" and \"I haven't heard he's done anything wrong\" (Kate Sullivan/Bloomberg)",
-     "url": "https://www.techmeme.com/261108/p19",
-     "time": "11-09 09:40",
-     "ts": 1794188400,
-     "summary": "Kate Sullivan / Bloomberg: Trump says Jensen Huang should stay on as Nvidia CEO after affair admission, saying he is a &ldquo;fine person&rdquo; and &ldquo;I haven't heard he's done anything wrong&rdquo;&nbsp; &mdash;&nbsp; President Donald",
-     "source": "Techmeme",
+     "title": "RIP, Harvest",
+     "url": "https://aphyr.com/posts/427-rip-harvest",
+     "time": "11-09 09:58",
+     "ts": 1794189501,
+     "summary": "Article URL: https://aphyr.com/posts/427-rip-harvest Comments URL: https://news.ycombinator.com/item?id=50420035 Points: 274 # Comments: 82",
+     "source": "Hacker News",
      "agenda_layer": "media",
      "language": "en",
-     "id": "14e8fc7c7f84",
+     "id": "1343ae129aaa",
      "keywords_zh": [
-      "英伟达"
+      "科技 / 互联网"
      ],
      "event_type": "",
      "related_assets": [],
      "relevance_score": 0,
-     "topic_id": "story:14e8fc7c7f84",
+     "topic_id": "story:1343ae129aaa",
      "cluster_size": 1,
      "sources": [
-      "Techmeme"
+      "Hacker News"
      ],
      "languages": [
       "en"
@@ -17183,18 +18238,18 @@ window.DATA = {
      ],
      "cluster_urls": [
       {
-       "source": "Techmeme",
-       "title": "Trump says Jensen Huang should stay on as Nvidia CEO after affair admission, saying he is a \"fine person\" and \"I haven't heard he's done anything wrong\" (Kate Sullivan/Bloomberg)",
-       "url": "https://www.techmeme.com/261108/p19"
+       "source": "Hacker News",
+       "title": "RIP, Harvest",
+       "url": "https://aphyr.com/posts/427-rip-harvest"
       }
      ],
      "trajectory": {
       "label": "new",
       "points": [
-       17
+       34
       ],
       "observations": 1,
-      "first_seen": 1794192856
+      "first_seen": 1794206680
      },
      "resonance": {
       "confirmed": false,
@@ -17243,11 +18298,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "decay",
       "points": [
-       18
+       1,
+       35
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -17259,176 +18315,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "Edge AI Daily 早报（11月9日）",
-     "url": "https://www.tmtpost.com/8197806.html",
-     "time": "11-09 09:28",
-     "ts": 1794187720,
-     "summary": "中期选举后美国46项数据中心公投否决扩张，AI基建进入许可时代；纳指单日跌5.5%、费半跌12%，亚洲市场熔断。Anthropic斥34亿美元购1.7GW燃气发电机，伯恩斯坦估OpenAI至2030年算力支出或达6140亿美元。苹果推进Siri自主智能体，世界模型竞赛升温。AI攻击链反转，网络安全进入黑暗时代；Snapchat、NHTSA、NASA与苹果税收监管同步演进。",
-     "source": "钛媒体",
-     "agenda_layer": "media",
-     "language": "zh",
-     "id": "fa0147d29937",
-     "keywords_zh": [
-      "苹果",
-      "人工智能",
-      "数据中心"
-     ],
-     "event_type": "",
-     "related_assets": [
-      "中际旭创"
-     ],
-     "relevance_score": 3,
-     "topic_id": "story:fa0147d29937",
-     "cluster_size": 1,
-     "sources": [
-      "钛媒体"
-     ],
-     "languages": [
-      "zh"
-     ],
-     "agenda_layers": [
-      "media"
-     ],
-     "cluster_urls": [
-      {
-       "source": "钛媒体",
-       "title": "Edge AI Daily 早报（11月9日）",
-       "url": "https://www.tmtpost.com/8197806.html"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       19
-      ],
-      "observations": 1,
-      "first_seen": 1794192856
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "zh"
-      ],
-      "agenda_layers": [
-       "media"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "AI会撞上的下一堵墙可能是水",
-     "url": "https://www.tmtpost.com/8197774.html",
-     "time": "11-09 09:20",
-     "ts": 1794187250,
-     "summary": "世界经济论坛的报告估计，全球约45%的数据中心设施位于高水压力地区",
-     "source": "钛媒体",
-     "agenda_layer": "media",
-     "language": "zh",
-     "id": "48accc4fc110",
-     "keywords_zh": [
-      "人工智能",
-      "数据中心"
-     ],
-     "event_type": "",
-     "related_assets": [
-      "中际旭创"
-     ],
-     "relevance_score": 3,
-     "topic_id": "story:48accc4fc110",
-     "cluster_size": 1,
-     "sources": [
-      "钛媒体"
-     ],
-     "languages": [
-      "zh"
-     ],
-     "agenda_layers": [
-      "media"
-     ],
-     "cluster_urls": [
-      {
-       "source": "钛媒体",
-       "title": "AI会撞上的下一堵墙可能是水",
-       "url": "https://www.tmtpost.com/8197774.html"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       20
-      ],
-      "observations": 1,
-      "first_seen": 1794192856
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "zh"
-      ],
-      "agenda_layers": [
-       "media"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "How Sequoia's Alfred Lin and Pat Grady erased Roelof Botha's legacy, halving GPs and unwinding his fund; sources say he joined SpaceX's board behind their backs (Financial Times)",
-     "url": "https://www.techmeme.com/261108/p18",
-     "time": "11-09 09:05",
-     "ts": 1794186300,
-     "summary": "Financial Times: How Sequoia's Alfred Lin and Pat Grady erased Roelof Botha's legacy, halving GPs and unwinding his fund; sources say he joined SpaceX's board behind their backs&nbsp; &mdash;&nbsp; Closures of London office and permanent ca",
-     "source": "Techmeme",
-     "agenda_layer": "media",
-     "language": "en",
-     "id": "48df76e52bfb",
-     "keywords_zh": [
-      "科技 / 互联网"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:48df76e52bfb",
-     "cluster_size": 1,
-     "sources": [
-      "Techmeme"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "media"
-     ],
-     "cluster_urls": [
-      {
-       "source": "Techmeme",
-       "title": "How Sequoia's Alfred Lin and Pat Grady erased Roelof Botha's legacy, halving GPs and unwinding his fund; sources say he joined SpaceX's board behind their backs (Financial Times)",
-       "url": "https://www.techmeme.com/261108/p18"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       21
-      ],
-      "observations": 1,
-      "first_seen": 1794192856
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "media"
-      ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -17466,11 +18353,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "decay",
       "points": [
-       22
+       3,
+       36
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -17482,7 +18370,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -17520,11 +18408,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "decay",
       "points": [
-       23
+       4,
+       37
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -17536,61 +18425,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "单项致胜：五星股票型基金产品深度参考（2026年三季度）",
-     "url": "https://www.tmtpost.com/8197876.html",
-     "time": "11-09 08:33",
-     "ts": 1794184383,
-     "summary": "股票型基金将从盈利能力、抗风险能力、选股择时能力三个方面评价。",
-     "source": "钛媒体",
-     "agenda_layer": "media",
-     "language": "zh",
-     "id": "6cdd5fd07e2b",
-     "keywords_zh": [
-      "科技 / 互联网"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:6cdd5fd07e2b",
-     "cluster_size": 1,
-     "sources": [
-      "钛媒体"
-     ],
-     "languages": [
-      "zh"
-     ],
-     "agenda_layers": [
-      "media"
-     ],
-     "cluster_urls": [
-      {
-       "source": "钛媒体",
-       "title": "单项致胜：五星股票型基金产品深度参考（2026年三季度）",
-       "url": "https://www.tmtpost.com/8197876.html"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       24
-      ],
-      "observations": 1,
-      "first_seen": 1794192856
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "zh"
-      ],
-      "agenda_layers": [
-       "media"
-      ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -17628,11 +18463,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "decay",
       "points": [
-       25
+       5,
+       38
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -17644,7 +18480,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -17682,11 +18518,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "decay",
       "points": [
-       26
+       6,
+       39
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -17698,7 +18535,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -17706,7 +18543,7 @@ window.DATA = {
      "url": "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world",
      "time": "11-09 08:10",
      "ts": 1794183050,
-     "summary": "Article URL: https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/ Comments URL: https://news.ycombinator.com/item?id=50419215 Points: 94 # Comments: 32",
+     "summary": "Article URL: https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/ Comments URL: https://news.ycombinator.com/item?id=50419215 Points: 213 # Comments: 74",
      "source": "Hacker News",
      "agenda_layer": "media",
      "language": "en",
@@ -17736,11 +18573,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "decay",
       "points": [
-       27
+       27,
+       40
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -17752,7 +18590,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -17790,11 +18628,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "decay",
       "points": [
-       28
+       7,
+       41
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -17806,223 +18645,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "Sources: Marco Rubio oversaw the drafting of a classified memo this spring warning Trump admin that Jensen Huang was in a close relationship with a Chinese spy (New York Times)",
-     "url": "https://www.techmeme.com/261108/p17",
-     "time": "11-09 07:55",
-     "ts": 1794182100,
-     "summary": "New York Times: Sources: Marco Rubio oversaw the drafting of a classified memo this spring warning Trump admin that Jensen Huang was in a close relationship with a Chinese spy&nbsp; &mdash;&nbsp; The secretary of state's role in drafting a ",
-     "source": "Techmeme",
-     "agenda_layer": "media",
-     "language": "en",
-     "id": "36d101286c14",
-     "keywords_zh": [
-      "科技 / 互联网"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:36d101286c14",
-     "cluster_size": 1,
-     "sources": [
-      "Techmeme"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "media"
-     ],
-     "cluster_urls": [
-      {
-       "source": "Techmeme",
-       "title": "Sources: Marco Rubio oversaw the drafting of a classified memo this spring warning Trump admin that Jensen Huang was in a close relationship with a Chinese spy (New York Times)",
-       "url": "https://www.techmeme.com/261108/p17"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       29
-      ],
-      "observations": 1,
-      "first_seen": 1794192856
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "media"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "I'm Not Convinced the AI Bubble Exists",
-     "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html",
-     "time": "11-09 07:44",
-     "ts": 1794181476,
-     "summary": "Article URL: https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists Comments URL: https://news.ycombinator.com/item?id=50418975 Points: 60 # Comments: 59",
-     "source": "Hacker News",
-     "agenda_layer": "media",
-     "language": "en",
-     "id": "fa09aab229b2",
-     "keywords_zh": [
-      "人工智能"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:fa09aab229b2",
-     "cluster_size": 1,
-     "sources": [
-      "Hacker News"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "media"
-     ],
-     "cluster_urls": [
-      {
-       "source": "Hacker News",
-       "title": "I'm Not Convinced the AI Bubble Exists",
-       "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       30
-      ],
-      "observations": 1,
-      "first_seen": 1794192856
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "media"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "Herb Sutter: When a language's creator and its owners strongly disagree [pdf]",
-     "url": "https://isocpp.org/files/papers/P4454R0.pdf",
-     "time": "11-09 07:28",
-     "ts": 1794180481,
-     "summary": "Article URL: https://isocpp.org/files/papers/P4454R0.pdf Comments URL: https://news.ycombinator.com/item?id=50418818 Points: 80 # Comments: 61",
-     "source": "Hacker News",
-     "agenda_layer": "media",
-     "language": "en",
-     "id": "1bc536f1b6f0",
-     "keywords_zh": [
-      "科技 / 互联网"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:1bc536f1b6f0",
-     "cluster_size": 1,
-     "sources": [
-      "Hacker News"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "media"
-     ],
-     "cluster_urls": [
-      {
-       "source": "Hacker News",
-       "title": "Herb Sutter: When a language's creator and its owners strongly disagree [pdf]",
-       "url": "https://isocpp.org/files/papers/P4454R0.pdf"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       31
-      ],
-      "observations": 1,
-      "first_seen": 1794192856
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "media"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "Sources: officials at the Commerce Department's AI safety center CAISSI were asked to informally report to a White House office, raising independence concerns (Garance Burke/Associated Press)",
-     "url": "https://www.techmeme.com/261108/p16",
-     "time": "11-09 06:55",
-     "ts": 1794178501,
-     "summary": "Garance Burke / Associated Press: Sources: officials at the Commerce Department's AI safety center CAISSI were asked to informally report to a White House office, raising independence concerns&nbsp; &mdash;&nbsp; With public anxiety growing",
-     "source": "Techmeme",
-     "agenda_layer": "media",
-     "language": "en",
-     "id": "f3cdb3c8ec41",
-     "keywords_zh": [
-      "人工智能"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:f3cdb3c8ec41",
-     "cluster_size": 1,
-     "sources": [
-      "Techmeme"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "media"
-     ],
-     "cluster_urls": [
-      {
-       "source": "Techmeme",
-       "title": "Sources: officials at the Commerce Department's AI safety center CAISSI were asked to informally report to a White House office, raising independence concerns (Garance Burke/Associated Press)",
-       "url": "https://www.techmeme.com/261108/p16"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       32
-      ],
-      "observations": 1,
-      "first_seen": 1794192856
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "media"
-      ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -18061,11 +18684,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "decay",
       "points": [
-       33
+       33,
+       42
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -18077,7 +18701,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -18117,11 +18741,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "decay",
       "points": [
-       34
+       8,
+       43
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -18133,223 +18758,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "Soul Glo’s Diaspora Problems is a hardcore record like no other",
-     "url": "https://www.theverge.com/entertainment/1029579/soul-glo-diaspora-problems-hardcore-punk-review",
-     "time": "11-09 06:37",
-     "ts": 1794177442,
-     "summary": "Soul Glo has a new record called NA I'M GON GRAB ALLAT coming out in January, and I, for one, can not wait. While two singles have dropped, it's not enough to truly tide me over, so I've been revisiting Songs to Yeet at the Sun and my favor",
-     "source": "The Verge",
-     "agenda_layer": "media",
-     "language": "en",
-     "id": "f910f07f08ab",
-     "keywords_zh": [
-      "科技 / 互联网"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:f910f07f08ab",
-     "cluster_size": 1,
-     "sources": [
-      "The Verge"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "media"
-     ],
-     "cluster_urls": [
-      {
-       "source": "The Verge",
-       "title": "Soul Glo’s Diaspora Problems is a hardcore record like no other",
-       "url": "https://www.theverge.com/entertainment/1029579/soul-glo-diaspora-problems-hardcore-punk-review"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       35
-      ],
-      "observations": 1,
-      "first_seen": 1794192856
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "media"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "Chimera Vocal Synth",
-     "url": "https://chimera-vocal-synth.vercel.app",
-     "time": "11-09 06:36",
-     "ts": 1794177363,
-     "summary": "Article URL: https://chimera-vocal-synth.vercel.app/ Comments URL: https://news.ycombinator.com/item?id=50418182 Points: 106 # Comments: 16",
-     "source": "Hacker News",
-     "agenda_layer": "media",
-     "language": "en",
-     "id": "b6fc736cd2df",
-     "keywords_zh": [
-      "科技 / 互联网"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:b6fc736cd2df",
-     "cluster_size": 1,
-     "sources": [
-      "Hacker News"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "media"
-     ],
-     "cluster_urls": [
-      {
-       "source": "Hacker News",
-       "title": "Chimera Vocal Synth",
-       "url": "https://chimera-vocal-synth.vercel.app"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       36
-      ],
-      "observations": 1,
-      "first_seen": 1794192856
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "media"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
-     "url": "https://ketchup3d.github.io/app",
-     "time": "11-09 06:35",
-     "ts": 1794177335,
-     "summary": "Article URL: https://ketchup3d.github.io/app/ Comments URL: https://news.ycombinator.com/item?id=50418176 Points: 243 # Comments: 69",
-     "source": "Hacker News",
-     "agenda_layer": "media",
-     "language": "en",
-     "id": "5acc027573b3",
-     "keywords_zh": [
-      "科技 / 互联网"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:5acc027573b3",
-     "cluster_size": 1,
-     "sources": [
-      "Hacker News"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "media"
-     ],
-     "cluster_urls": [
-      {
-       "source": "Hacker News",
-       "title": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
-       "url": "https://ketchup3d.github.io/app"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       37
-      ],
-      "observations": 1,
-      "first_seen": 1794192856
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "media"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "Nvidia CEO Jensen Huang's letter to staff about affair",
-     "url": "https://www.axios.com/2026/11/08/nvidia-ceo-jensen-huang-affair-email-to-company",
-     "time": "11-09 06:20",
-     "ts": 1794176409,
-     "summary": "Article URL: https://www.axios.com/2026/11/08/nvidia-ceo-jensen-huang-affair-email-to-company Comments URL: https://news.ycombinator.com/item?id=50418016 Points: 387 # Comments: 410",
-     "source": "Hacker News",
-     "agenda_layer": "media",
-     "language": "en",
-     "id": "5bebb2411e53",
-     "keywords_zh": [
-      "英伟达"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:5bebb2411e53",
-     "cluster_size": 1,
-     "sources": [
-      "Hacker News"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "media"
-     ],
-     "cluster_urls": [
-      {
-       "source": "Hacker News",
-       "title": "Nvidia CEO Jensen Huang's letter to staff about affair",
-       "url": "https://www.axios.com/2026/11/08/nvidia-ceo-jensen-huang-affair-email-to-company"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       38
-      ],
-      "observations": 1,
-      "first_seen": 1794192856
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "media"
-      ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -18387,11 +18796,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "decay",
       "points": [
-       39
+       39,
+       44
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -18403,61 +18813,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "US professional services added 70K jobs in October, the most since July 2022, as AI-exposed consulting, legal, and accounting all grew despite AI job-loss fears (Ian Hodgson/Wall Street Journal)",
-     "url": "https://www.techmeme.com/261108/p15",
-     "time": "11-09 05:45",
-     "ts": 1794174303,
-     "summary": "Ian Hodgson / Wall Street Journal: US professional services added 70K jobs in October, the most since July 2022, as AI-exposed consulting, legal, and accounting all grew despite AI job-loss fears&nbsp; &mdash;&nbsp; Strong hiring at law off",
-     "source": "Techmeme",
-     "agenda_layer": "media",
-     "language": "en",
-     "id": "ae4f848e702c",
-     "keywords_zh": [
-      "人工智能"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:ae4f848e702c",
-     "cluster_size": 1,
-     "sources": [
-      "Techmeme"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "media"
-     ],
-     "cluster_urls": [
-      {
-       "source": "Techmeme",
-       "title": "US professional services added 70K jobs in October, the most since July 2022, as AI-exposed consulting, legal, and accounting all grew despite AI job-loss fears (Ian Hodgson/Wall Street Journal)",
-       "url": "https://www.techmeme.com/261108/p15"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       40
-      ],
-      "observations": 1,
-      "first_seen": 1794192856
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "media"
-      ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -18495,11 +18851,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "decay",
       "points": [
-       41
+       41,
+       45
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -18511,7 +18868,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -18549,11 +18906,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "decay",
       "points": [
-       42
+       42,
+       46
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -18565,7 +18923,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -18603,11 +18961,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "decay",
       "points": [
-       43
+       43,
+       47
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -18619,7 +18978,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -18657,11 +19016,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "decay",
       "points": [
-       44
+       44,
+       48
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -18673,7 +19033,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -18712,11 +19072,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "decay",
       "points": [
-       45
+       45,
+       49
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -18728,61 +19089,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "SNL has a new impression of Elon Musk, ‘the worst thing South Africa has ever done’",
-     "url": "https://techcrunch.com/2026/11/08/snl-has-a-new-impression-of-elon-musk-the-worst-thing-south-africa-has-ever-done",
-     "time": "11-09 02:00",
-     "ts": 1794160804,
-     "summary": "SNL seems to have its knives out for tech executives.",
-     "source": "TechCrunch",
-     "agenda_layer": "media",
-     "language": "en",
-     "id": "464d5b970572",
-     "keywords_zh": [
-      "科技 / 互联网"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:464d5b970572",
-     "cluster_size": 1,
-     "sources": [
-      "TechCrunch"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "media"
-     ],
-     "cluster_urls": [
-      {
-       "source": "TechCrunch",
-       "title": "SNL has a new impression of Elon Musk, ‘the worst thing South Africa has ever done’",
-       "url": "https://techcrunch.com/2026/11/08/snl-has-a-new-impression-of-elon-musk-the-worst-thing-south-africa-has-ever-done"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       46
-      ],
-      "observations": 1,
-      "first_seen": 1794192856
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "media"
-      ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -18820,11 +19127,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "decay",
       "points": [
-       47
+       47,
+       50
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -18836,61 +19144,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "LG 因其智能电视监视用户面临法律诉讼",
-     "url": "https://www.solidot.org/story",
-     "time": "11-08 23:23",
-     "ts": 1794151424,
-     "summary": "今年 9 月，研究人员报告 LG 智能电视会在屏幕关闭但没有断电的待机状态下扫描家庭网络，寻找手机和智能手表等设备和记录麦克风音频。除了内部 IP 地址，智能电视还会收集邻近 Wi-Fi 网络的名称、信号强度以及位置数据。收集的数据会发送到 LG 的定向广告部门 LG Ad Solutions。LG 对该报告予以否认。消费者保护组织对此并不买账。葡萄牙的 Citizens Voice 请求葡萄牙法院对 LG 的声明进行审查，它希望法院介入调查，判定此类数据收集行为是否侵犯了消",
-     "source": "Solidot",
-     "agenda_layer": "media",
-     "language": "zh",
-     "id": "d2b576bb0123",
-     "keywords_zh": [
-      "科技 / 互联网"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:d2b576bb0123",
-     "cluster_size": 1,
-     "sources": [
-      "Solidot"
-     ],
-     "languages": [
-      "zh"
-     ],
-     "agenda_layers": [
-      "media"
-     ],
-     "cluster_urls": [
-      {
-       "source": "Solidot",
-       "title": "LG 因其智能电视监视用户面临法律诉讼",
-       "url": "https://www.solidot.org/story"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       48
-      ],
-      "observations": 1,
-      "first_seen": 1794192856
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "zh"
-      ],
-      "agenda_layers": [
-       "media"
-      ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -18931,9 +19185,10 @@ window.DATA = {
       "label": "decay",
       "points": [
        2,
-       49
+       5,
+       51
       ],
-      "observations": 2,
+      "observations": 3,
       "first_seen": 1794147621
      },
      "resonance": {
@@ -18945,7 +19200,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 2
+      "time_windows": 3
      }
     },
     {
@@ -18983,12 +19238,13 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        25,
-       50
+       50,
+       52
       ],
-      "observations": 2,
+      "observations": 3,
       "first_seen": 1794147621
      },
      "resonance": {
@@ -19000,7 +19256,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 2
+      "time_windows": 3
      }
     },
     {
@@ -19038,12 +19294,13 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        26,
-       51
+       51,
+       53
       ],
-      "observations": 2,
+      "observations": 3,
       "first_seen": 1794147621
      },
      "resonance": {
@@ -19055,7 +19312,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 2
+      "time_windows": 3
      }
     },
     {
@@ -19093,12 +19350,13 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        27,
-       52
+       52,
+       54
       ],
-      "observations": 2,
+      "observations": 3,
       "first_seen": 1794147621
      },
      "resonance": {
@@ -19110,7 +19368,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 2
+      "time_windows": 3
      }
     },
     {
@@ -19148,12 +19406,13 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        30,
-       53
+       53,
+       55
       ],
-      "observations": 2,
+      "observations": 3,
       "first_seen": 1794147621
      },
      "resonance": {
@@ -19165,7 +19424,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 2
+      "time_windows": 3
      }
     },
     {
@@ -19203,13 +19462,14 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        6,
        33,
-       54
+       54,
+       56
       ],
-      "observations": 3,
+      "observations": 4,
       "first_seen": 1794134849
      },
      "resonance": {
@@ -19221,7 +19481,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 3
+      "time_windows": 4
      }
     },
     {
@@ -19259,13 +19519,14 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        9,
        35,
-       55
+       55,
+       57
       ],
-      "observations": 3,
+      "observations": 4,
       "first_seen": 1794134849
      },
      "resonance": {
@@ -19277,7 +19538,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 3
+      "time_windows": 4
      }
     },
     {
@@ -19320,9 +19581,10 @@ window.DATA = {
        2,
        5,
        15,
-       56
+       23,
+       58
       ],
-      "observations": 4,
+      "observations": 5,
       "first_seen": 1794118250
      },
      "resonance": {
@@ -19334,7 +19596,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 3
+      "time_windows": 4
      }
     },
     {
@@ -19379,9 +19641,10 @@ window.DATA = {
        4,
        6,
        15,
-       57
+       15,
+       59
       ],
-      "observations": 6,
+      "observations": 7,
       "first_seen": 1794060423
      },
      "resonance": {
@@ -19393,7 +19656,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 5
+      "time_windows": 6
      }
     },
     {
@@ -19431,16 +19694,17 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        27,
        52,
        53,
        54,
        55,
-       58
+       58,
+       60
       ],
-      "observations": 6,
+      "observations": 7,
       "first_seen": 1794060423
      },
      "resonance": {
@@ -19452,7 +19716,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 5
+      "time_windows": 6
      }
     },
     {
@@ -19498,9 +19762,10 @@ window.DATA = {
        28,
        29,
        30,
-       59
+       31,
+       61
       ],
-      "observations": 7,
+      "observations": 8,
       "first_seen": 1794048182
      },
      "resonance": {
@@ -19512,7 +19777,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 6
+      "time_windows": 7
      }
     },
     {
@@ -19552,16 +19817,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       35,
        38,
        50,
        59,
        60,
        60,
        60,
-       60
+       60,
+       62
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -19573,7 +19838,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -19613,16 +19878,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       39,
        42,
        54,
        60,
        61,
        61,
        61,
-       61
+       61,
+       63
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -19634,7 +19899,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -19674,16 +19939,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       41,
        44,
        55,
        61,
        62,
        62,
        63,
-       62
+       62,
+       64
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -19695,7 +19960,7 @@ window.DATA = {
       "agenda_layers": [
        "primary"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -19735,16 +20000,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       42,
        45,
        56,
        62,
        63,
        63,
        64,
-       63
+       63,
+       65
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -19756,7 +20021,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -19797,16 +20062,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       56,
        58,
        64,
        64,
        65,
        65,
        65,
-       64
+       64,
+       66
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -19818,7 +20083,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -19860,16 +20125,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       64,
        65,
        65,
        65,
        66,
        66,
        66,
-       65
+       65,
+       67
       ],
-      "observations": 11,
+      "observations": 12,
       "first_seen": 1793965064
      },
      "resonance": {
@@ -19881,7 +20146,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 9
+      "time_windows": 10
      }
     },
     {
@@ -19921,16 +20186,16 @@ window.DATA = {
      "trajectory": {
       "label": "decay",
       "points": [
-       33,
        34,
        32,
        35,
        36,
        36,
        37,
-       66
+       38,
+       68
       ],
-      "observations": 22,
+      "observations": 23,
       "first_seen": 1793369778
      },
      "resonance": {
@@ -19942,7 +20207,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 18
+      "time_windows": 19
      }
     },
     {
@@ -19983,16 +20248,16 @@ window.DATA = {
      "trajectory": {
       "label": "decay",
       "points": [
-       34,
        35,
        33,
        36,
        37,
        37,
        38,
-       67
+       39,
+       69
       ],
-      "observations": 11,
+      "observations": 12,
       "first_seen": 1793965064
      },
      "resonance": {
@@ -20004,68 +20269,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 9
-     }
-    },
-    {
-     "title": "更高能效比，带来新惊喜：M6 款 MacBook Pro 初探",
-     "url": "https://sspai.com/post/118570",
-     "time": "11-06 11:06",
-     "ts": 1793934413,
-     "summary": "M6 芯片提供了足够的性能保障，无论修图、视频剪辑还是运行入门级的 AI 大模型，它都能应对。在此基础上，你原本可能需要加在 Pro 级 SoC 上的预算就能省下来，花给内存或者硬盘。查看全文",
-     "source": "少数派",
-     "agenda_layer": "media",
-     "language": "zh",
-     "id": "9e1d6ae061fd",
-     "keywords_zh": [
-      "人工智能"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:9e1d6ae061fd",
-     "cluster_size": 1,
-     "sources": [
-      "少数派"
-     ],
-     "languages": [
-      "zh"
-     ],
-     "agenda_layers": [
-      "media"
-     ],
-     "cluster_urls": [
-      {
-       "source": "少数派",
-       "title": "更高能效比，带来新惊喜：M6 款 MacBook Pro 初探",
-       "url": "https://sspai.com/post/118570"
-      }
-     ],
-     "trajectory": {
-      "label": "decay",
-      "points": [
-       35,
-       36,
-       34,
-       37,
-       38,
-       38,
-       39,
-       68
-      ],
-      "observations": 12,
-      "first_seen": 1793948133
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "zh"
-      ],
-      "agenda_layers": [
-       "media"
-      ],
-      "time_windows": 9
+      "time_windows": 10
      }
     },
     {
@@ -20105,16 +20309,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
+       70,
+       70,
+       70,
+       71,
+       71,
+       71,
        69,
-       70,
-       70,
-       70,
-       71,
-       71,
-       71,
-       69
+       70
       ],
-      "observations": 13,
+      "observations": 14,
       "first_seen": 1793936082
      },
      "resonance": {
@@ -20126,7 +20330,7 @@ window.DATA = {
       "agenda_layers": [
        "primary"
       ],
-      "time_windows": 10
+      "time_windows": 11
      }
     },
     {
@@ -20166,16 +20370,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
+       71,
+       71,
+       71,
+       72,
+       72,
+       72,
        70,
-       71,
-       71,
-       71,
-       72,
-       72,
-       72,
-       70
+       71
       ],
-      "observations": 13,
+      "observations": 14,
       "first_seen": 1793936082
      },
      "resonance": {
@@ -20187,7 +20391,7 @@ window.DATA = {
       "agenda_layers": [
        "primary"
       ],
-      "time_windows": 10
+      "time_windows": 11
      }
     },
     {
@@ -20227,16 +20431,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       72,
        73,
        73,
        73,
        73,
        73,
        73,
-       71
+       71,
+       72
       ],
-      "observations": 15,
+      "observations": 16,
       "first_seen": 1793878720
      },
      "resonance": {
@@ -20248,7 +20452,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 12
+      "time_windows": 13
      }
     },
     {
@@ -20295,10 +20499,10 @@ window.DATA = {
        74,
        74,
        74,
-       74,
-       72
+       72,
+       73
       ],
-      "observations": 19,
+      "observations": 20,
       "first_seen": 1793792281
      },
      "resonance": {
@@ -20310,7 +20514,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 15
+      "time_windows": 16
      }
     },
     {
@@ -20356,10 +20560,10 @@ window.DATA = {
        75,
        75,
        75,
-       75,
-       73
+       73,
+       74
       ],
-      "observations": 21,
+      "observations": 22,
       "first_seen": 1793761629
      },
      "resonance": {
@@ -20371,7 +20575,7 @@ window.DATA = {
       "agenda_layers": [
        "primary"
       ],
-      "time_windows": 16
+      "time_windows": 17
      }
     },
     {
@@ -20417,10 +20621,10 @@ window.DATA = {
        76,
        76,
        76,
-       76,
-       74
+       74,
+       75
       ],
-      "observations": 23,
+      "observations": 24,
       "first_seen": 1793705117
      },
      "resonance": {
@@ -20432,7 +20636,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 18
+      "time_windows": 19
      }
     },
     {
@@ -20479,8 +20683,8 @@ window.DATA = {
        77,
        77,
        77,
-       77,
-       75
+       75,
+       76
       ],
       "observations": 24,
       "first_seen": 1793619782
@@ -20494,7 +20698,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 18
+      "time_windows": 19
      }
     },
     {
@@ -20540,8 +20744,8 @@ window.DATA = {
        78,
        78,
        78,
-       78,
-       76
+       76,
+       77
       ],
       "observations": 24,
       "first_seen": 1793619782
@@ -20555,7 +20759,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 18
+      "time_windows": 19
      }
     },
     {
@@ -20601,8 +20805,8 @@ window.DATA = {
        79,
        79,
        79,
-       79,
-       77
+       77,
+       78
       ],
       "observations": 24,
       "first_seen": 1793619782
@@ -20616,7 +20820,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 18
+      "time_windows": 19
      }
     },
     {
@@ -20662,8 +20866,8 @@ window.DATA = {
        80,
        80,
        80,
-       80,
-       78
+       78,
+       79
       ],
       "observations": 24,
       "first_seen": 1793619782
@@ -20677,7 +20881,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 18
+      "time_windows": 19
      }
     },
     {
@@ -20723,8 +20927,8 @@ window.DATA = {
        81,
        81,
        81,
-       81,
-       79
+       79,
+       80
       ],
       "observations": 24,
       "first_seen": 1793619782
@@ -20738,7 +20942,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 18
+      "time_windows": 19
      }
     },
     {
@@ -20784,8 +20988,8 @@ window.DATA = {
        82,
        82,
        82,
-       82,
-       80
+       80,
+       81
       ],
       "observations": 24,
       "first_seen": 1793619782
@@ -20799,7 +21003,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 18
+      "time_windows": 19
      }
     },
     {
@@ -20845,8 +21049,8 @@ window.DATA = {
        83,
        83,
        83,
-       83,
-       81
+       81,
+       82
       ],
       "observations": 24,
       "first_seen": 1793619782
@@ -20860,7 +21064,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 18
+      "time_windows": 19
      }
     }
    ]
@@ -20871,6 +21075,114 @@ window.DATA = {
    "accent": "#a855f7",
    "total": 7,
    "items": [
+    {
+     "title": "T-Mobile’s T-Mix perk changes come with a 90-day lock-in and a $15 catch",
+     "url": "https://www.androidauthority.com/t-mobile-t-mix-perk-swap-rules-3732727",
+     "time": "11-09 14:15",
+     "ts": 1794204904,
+     "summary": "Your T-Mix perks aren't as flexible as they sound.",
+     "source": "Android Authority",
+     "agenda_layer": "media",
+     "language": "en",
+     "id": "67f92b08b0c6",
+     "keywords_zh": [
+      "消费电子 / 数码"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:67f92b08b0c6",
+     "cluster_size": 1,
+     "sources": [
+      "Android Authority"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "media"
+     ],
+     "cluster_urls": [
+      {
+       "source": "Android Authority",
+       "title": "T-Mobile’s T-Mix perk changes come with a 90-day lock-in and a $15 catch",
+       "url": "https://www.androidauthority.com/t-mobile-t-mix-perk-swap-rules-3732727"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       1
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "media"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "双十一好物精选：Sonos Play 85 折送充电套装，CD 机加赠透明面盖",
+     "url": "https://sspai.com/post/118612",
+     "time": "11-09 11:00",
+     "ts": 1794193200,
+     "summary": "从墨水屏到手机壳，从磁吸信息屏到CD播放器，这些看似平常的数码产品，经过一些新的设计和尝试，也能带来不太一样的使用体验。今年双十一，各大平台的促销活动陆续开始，不过满减、凑单等规则可能还是有些繁琐。所 ...查看全文",
+     "source": "少数派",
+     "agenda_layer": "media",
+     "language": "zh",
+     "id": "3168ff3d461a",
+     "keywords_zh": [
+      "消费电子 / 数码"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:3168ff3d461a",
+     "cluster_size": 1,
+     "sources": [
+      "少数派"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "media"
+     ],
+     "cluster_urls": [
+      {
+       "source": "少数派",
+       "title": "双十一好物精选：Sonos Play 85 折送充电套装，CD 机加赠透明面盖",
+       "url": "https://sspai.com/post/118612"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       2
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "zh"
+      ],
+      "agenda_layers": [
+       "media"
+      ],
+      "time_windows": 1
+     }
+    },
     {
      "title": "How to use your laptop as a second monitor",
      "url": "https://www.engadget.com/2309277/how-to-use-laptop-second-desktop-monitor",
@@ -20906,11 +21218,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "steady",
       "points": [
-       1
+       1,
+       3
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -20922,7 +21235,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -20960,11 +21273,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "steady",
       "points": [
-       2
+       2,
+       4
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -20976,7 +21290,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -21014,11 +21328,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "steady",
       "points": [
-       3
+       3,
+       5
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -21030,7 +21345,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -21068,11 +21383,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "steady",
       "points": [
-       4
+       4,
+       6
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -21084,7 +21400,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -21122,11 +21438,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "steady",
       "points": [
-       5
+       5,
+       7
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -21138,7 +21455,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -21176,11 +21493,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "steady",
       "points": [
-       6
+       6,
+       8
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -21192,7 +21510,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -21230,11 +21548,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "steady",
       "points": [
-       7
+       7,
+       9
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -21246,7 +21565,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -21286,11 +21605,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "steady",
       "points": [
-       8
+       8,
+       10
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -21302,7 +21622,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -21340,11 +21660,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "steady",
       "points": [
-       9
+       9,
+       11
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -21356,7 +21677,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -21395,11 +21716,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "steady",
       "points": [
-       10
+       10,
+       12
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -21411,7 +21733,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -21450,11 +21772,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "steady",
       "points": [
-       11
+       11,
+       13
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -21466,7 +21789,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -21505,11 +21828,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "steady",
       "points": [
-       12
+       12,
+       14
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -21521,7 +21845,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -21559,11 +21883,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "steady",
       "points": [
-       13
+       13,
+       15
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -21575,7 +21900,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -21613,12 +21938,13 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        6,
-       14
+       14,
+       16
       ],
-      "observations": 2,
+      "observations": 3,
       "first_seen": 1794147621
      },
      "resonance": {
@@ -21630,7 +21956,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 2
+      "time_windows": 3
      }
     },
     {
@@ -21669,12 +21995,13 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        7,
-       15
+       15,
+       17
       ],
-      "observations": 2,
+      "observations": 3,
       "first_seen": 1794147621
      },
      "resonance": {
@@ -21686,7 +22013,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 2
+      "time_windows": 3
      }
     },
     {
@@ -21724,12 +22051,13 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        8,
-       16
+       16,
+       18
       ],
-      "observations": 2,
+      "observations": 3,
       "first_seen": 1794147621
      },
      "resonance": {
@@ -21741,7 +22069,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 2
+      "time_windows": 3
      }
     },
     {
@@ -21779,12 +22107,13 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        9,
-       17
+       17,
+       19
       ],
-      "observations": 2,
+      "observations": 3,
       "first_seen": 1794147621
      },
      "resonance": {
@@ -21796,7 +22125,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 2
+      "time_windows": 3
      }
     },
     {
@@ -21834,12 +22163,13 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        10,
-       18
+       18,
+       20
       ],
-      "observations": 2,
+      "observations": 3,
       "first_seen": 1794147621
      },
      "resonance": {
@@ -21851,7 +22181,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 2
+      "time_windows": 3
      }
     },
     {
@@ -21891,13 +22221,14 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        1,
        11,
-       19
+       19,
+       21
       ],
-      "observations": 3,
+      "observations": 4,
       "first_seen": 1794134849
      },
      "resonance": {
@@ -21909,7 +22240,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 3
+      "time_windows": 4
      }
     },
     {
@@ -21947,13 +22278,14 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        2,
        12,
-       20
+       20,
+       22
       ],
-      "observations": 3,
+      "observations": 4,
       "first_seen": 1794134849
      },
      "resonance": {
@@ -21965,7 +22297,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 3
+      "time_windows": 4
      }
     },
     {
@@ -22006,13 +22338,14 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        3,
        13,
-       21
+       21,
+       23
       ],
-      "observations": 3,
+      "observations": 4,
       "first_seen": 1794134849
      },
      "resonance": {
@@ -22024,7 +22357,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 3
+      "time_windows": 4
      }
     },
     {
@@ -22062,14 +22395,15 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        1,
        4,
        14,
-       22
+       22,
+       24
       ],
-      "observations": 4,
+      "observations": 5,
       "first_seen": 1794118250
      },
      "resonance": {
@@ -22081,7 +22415,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 3
+      "time_windows": 4
      }
     },
     {
@@ -22119,14 +22453,15 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        2,
        5,
        15,
-       23
+       23,
+       25
       ],
-      "observations": 4,
+      "observations": 5,
       "first_seen": 1794118250
      },
      "resonance": {
@@ -22138,7 +22473,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 3
+      "time_windows": 4
      }
     },
     {
@@ -22176,15 +22511,16 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        8,
        10,
        13,
        18,
-       24
+       24,
+       26
       ],
-      "observations": 5,
+      "observations": 6,
       "first_seen": 1794105533
      },
      "resonance": {
@@ -22196,7 +22532,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 4
+      "time_windows": 5
      }
     },
     {
@@ -22235,13 +22571,14 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        10,
        15,
-       25
+       25,
+       27
       ],
-      "observations": 3,
+      "observations": 4,
       "first_seen": 1794105533
      },
      "resonance": {
@@ -22253,7 +22590,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 3
+      "time_windows": 4
      }
     },
     {
@@ -22291,15 +22628,16 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        12,
        13,
        17,
        21,
-       26
+       26,
+       28
       ],
-      "observations": 5,
+      "observations": 6,
       "first_seen": 1794105533
      },
      "resonance": {
@@ -22311,7 +22649,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 4
+      "time_windows": 5
      }
     },
     {
@@ -22349,15 +22687,16 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "decay",
+      "label": "steady",
       "points": [
        13,
        14,
        18,
        22,
-       27
+       27,
+       29
       ],
-      "observations": 5,
+      "observations": 6,
       "first_seen": 1794105533
      },
      "resonance": {
@@ -22369,7 +22708,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 4
+      "time_windows": 5
      }
     },
     {
@@ -22413,9 +22752,10 @@ window.DATA = {
        21,
        23,
        27,
-       28
+       28,
+       30
       ],
-      "observations": 5,
+      "observations": 6,
       "first_seen": 1794105533
      },
      "resonance": {
@@ -22427,7 +22767,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 4
+      "time_windows": 5
      }
     },
     {
@@ -22472,68 +22812,10 @@ window.DATA = {
        22,
        24,
        28,
-       29
-      ],
-      "observations": 6,
-      "first_seen": 1794060423
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "media"
-      ],
-      "time_windows": 5
-     }
-    },
-    {
-     "title": "These 5 productivity apps you’ve never heard of deserve a spot on your phone",
-     "url": "https://www.androidauthority.com/underrated-productivity-apps-android-3731000",
-     "time": "11-07 20:00",
-     "ts": 1794052831,
-     "summary": "Your algorithm's been hiding these from you this whole time.",
-     "source": "Android Authority",
-     "agenda_layer": "media",
-     "language": "en",
-     "id": "f550051ff726",
-     "keywords_zh": [
-      "消费电子 / 数码"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:f550051ff726",
-     "cluster_size": 1,
-     "sources": [
-      "Android Authority"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "media"
-     ],
-     "cluster_urls": [
-      {
-       "source": "Android Authority",
-       "title": "These 5 productivity apps you’ve never heard of deserve a spot on your phone",
-       "url": "https://www.androidauthority.com/underrated-productivity-apps-android-3731000"
-      }
-     ],
-     "trajectory": {
-      "label": "steady",
-      "points": [
-       10,
-       22,
-       23,
-       25,
        29,
-       30
+       31
       ],
-      "observations": 6,
+      "observations": 7,
       "first_seen": 1794060423
      },
      "resonance": {
@@ -22545,7 +22827,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 5
+      "time_windows": 6
      }
     },
     {
@@ -22591,9 +22873,10 @@ window.DATA = {
        28,
        29,
        30,
-       31
+       31,
+       32
       ],
-      "observations": 7,
+      "observations": 8,
       "first_seen": 1794048182
      },
      "resonance": {
@@ -22605,7 +22888,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 6
+      "time_windows": 7
      }
     },
     {
@@ -22645,16 +22928,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       7,
        11,
        24,
        28,
        29,
        30,
        31,
-       32
+       32,
+       33
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -22666,7 +22949,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -22706,16 +22989,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       8,
        12,
        25,
        29,
        30,
        31,
        32,
-       33
+       33,
+       34
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -22727,7 +23010,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -22767,16 +23050,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       12,
        16,
        28,
        31,
        32,
        32,
        33,
-       34
+       34,
+       35
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -22788,7 +23071,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -22828,16 +23111,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       17,
        18,
        22,
        32,
        33,
        33,
        34,
-       35
+       35,
+       36
       ],
-      "observations": 8,
+      "observations": 9,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -22849,7 +23132,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 6
+      "time_windows": 7
      }
     },
     {
@@ -22889,16 +23172,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       19,
        23,
        29,
        33,
        34,
        34,
        35,
-       36
+       36,
+       37
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -22910,7 +23193,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -22951,15 +23234,15 @@ window.DATA = {
       "label": "steady",
       "points": [
        32,
-       32,
        33,
        34,
        35,
        35,
        36,
-       37
+       37,
+       38
       ],
-      "observations": 8,
+      "observations": 9,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -22971,7 +23254,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 6
+      "time_windows": 7
      }
     },
     {
@@ -23011,16 +23294,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       33,
        34,
        32,
        35,
        36,
        36,
        37,
-       38
+       38,
+       39
       ],
-      "observations": 22,
+      "observations": 23,
       "first_seen": 1793369778
      },
      "resonance": {
@@ -23032,7 +23315,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 18
+      "time_windows": 19
      }
     },
     {
@@ -23073,16 +23356,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       34,
        35,
        33,
        36,
        37,
        37,
        38,
-       39
+       39,
+       40
       ],
-      "observations": 11,
+      "observations": 12,
       "first_seen": 1793965064
      },
      "resonance": {
@@ -23094,68 +23377,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 9
-     }
-    },
-    {
-     "title": "更高能效比，带来新惊喜：M6 款 MacBook Pro 初探",
-     "url": "https://sspai.com/post/118570",
-     "time": "11-06 11:06",
-     "ts": 1793934413,
-     "summary": "M6 芯片提供了足够的性能保障，无论修图、视频剪辑还是运行入门级的 AI 大模型，它都能应对。在此基础上，你原本可能需要加在 Pro 级 SoC 上的预算就能省下来，花给内存或者硬盘。查看全文",
-     "source": "少数派",
-     "agenda_layer": "media",
-     "language": "zh",
-     "id": "9e1d6ae061fd",
-     "keywords_zh": [
-      "人工智能"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:9e1d6ae061fd",
-     "cluster_size": 1,
-     "sources": [
-      "少数派"
-     ],
-     "languages": [
-      "zh"
-     ],
-     "agenda_layers": [
-      "media"
-     ],
-     "cluster_urls": [
-      {
-       "source": "少数派",
-       "title": "更高能效比，带来新惊喜：M6 款 MacBook Pro 初探",
-       "url": "https://sspai.com/post/118570"
-      }
-     ],
-     "trajectory": {
-      "label": "steady",
-      "points": [
-       35,
-       36,
-       34,
-       37,
-       38,
-       38,
-       39,
-       40
-      ],
-      "observations": 12,
-      "first_seen": 1793948133
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "zh"
-      ],
-      "agenda_layers": [
-       "media"
-      ],
-      "time_windows": 9
+      "time_windows": 10
      }
     },
     {
@@ -23196,15 +23418,15 @@ window.DATA = {
       "label": "steady",
       "points": [
        37,
-       37,
        38,
        39,
        40,
        40,
        41,
+       41,
        41
       ],
-      "observations": 12,
+      "observations": 13,
       "first_seen": 1793936082
      },
      "resonance": {
@@ -23216,7 +23438,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 9
+      "time_windows": 10
      }
     },
     {
@@ -23257,15 +23479,15 @@ window.DATA = {
       "label": "steady",
       "points": [
        38,
-       38,
        39,
        40,
        41,
        41,
        42,
+       42,
        42
       ],
-      "observations": 12,
+      "observations": 13,
       "first_seen": 1793936082
      },
      "resonance": {
@@ -23277,7 +23499,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 9
+      "time_windows": 10
      }
     }
    ]
@@ -23288,6 +23510,1813 @@ window.DATA = {
    "accent": "#eab308",
    "total": 13,
    "items": [
+    {
+     "title": "奥雅股份11月9日快速回调",
+     "url": "http://stock.eastmoney.com/news/1944,202611093926194093.html",
+     "time": "11-09 14:36",
+     "ts": 1794206169,
+     "summary": "以下是奥雅股份在北京时间11月9日14:36分盘口异动快照：11月9日，奥雅股份盘中快速回调，5分钟内跌幅超过2%，截至14点36分，报57.3元，成交6.33亿元，换手率23.43%。分笔14:36:0357.308↓14:36:0057.4969↑14:35:5757.4912↓14:35:5157.519↓14:35:4857.6110↑14:35:4557.546↑14:35:4257.511↓14:35:3957.5152↑14:35:3657.508↓14:35:",
+     "source": "东方财富股票",
+     "agenda_layer": "market",
+     "language": "zh",
+     "id": "0d8d624a003e",
+     "keywords_zh": [
+      "财经 / 宏观"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:0d8d624a003e",
+     "cluster_size": 1,
+     "sources": [
+      "东方财富股票"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "东方财富股票",
+       "title": "奥雅股份11月9日快速回调",
+       "url": "http://stock.eastmoney.com/news/1944,202611093926194093.html"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       1
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "zh"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "新华传媒11月9日盘中涨幅达5%",
+     "url": "http://stock.eastmoney.com/news/1944,202611093926193453.html",
+     "time": "11-09 14:33",
+     "ts": 1794206019,
+     "summary": "以下是新华传媒在北京时间11月9日14:33分盘口异动快照：11月9日，新华传媒盘中涨幅达5%，截至14点33分，报13.59元，成交13.95亿元，换手率10.08%。分笔14:33:3213.59486↑14:33:2913.582209↑14:33:2613.551663↑14:33:2313.55355↑14:33:2013.54515↑14:33:1713.54132↑14:33:1413.54506↑14:33:1113.54438↑14:33:0813.5458",
+     "source": "东方财富股票",
+     "agenda_layer": "market",
+     "language": "zh",
+     "id": "7f0c9d50c9de",
+     "keywords_zh": [
+      "财经 / 宏观"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:7f0c9d50c9de",
+     "cluster_size": 1,
+     "sources": [
+      "东方财富股票"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "东方财富股票",
+       "title": "新华传媒11月9日盘中涨幅达5%",
+       "url": "http://stock.eastmoney.com/news/1944,202611093926193453.html"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       2
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "zh"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "*ST威领11月9日打开跌停",
+     "url": "http://stock.eastmoney.com/news/1944,202611093926193214.html",
+     "time": "11-09 14:33",
+     "ts": 1794206000,
+     "summary": "以下是*ST威领在北京时间11月9日14:33分盘口异动快照：11月9日14点33分，*ST威领盘中打开跌停，现报22.76元，成交5.31亿元，换手率9.14%。该股之前于14点32分跌停。分笔14:33:1522.76712↑14:33:1222.751305↑14:33:0922.75498↑14:33:0622.75450↑14:33:0322.75331↑14:33:0022.75160↑14:32:5722.75200↑14:32:5422.7597↑14:32:",
+     "source": "东方财富股票",
+     "agenda_layer": "market",
+     "language": "zh",
+     "id": "3c789d368288",
+     "keywords_zh": [
+      "财经 / 宏观"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:3c789d368288",
+     "cluster_size": 1,
+     "sources": [
+      "东方财富股票"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "东方财富股票",
+       "title": "*ST威领11月9日打开跌停",
+       "url": "http://stock.eastmoney.com/news/1944,202611093926193214.html"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       3
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "zh"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "*ST威领11月9日盘中跌停",
+     "url": "http://stock.eastmoney.com/news/1944,202611093926193023.html",
+     "time": "11-09 14:32",
+     "ts": 1794205967,
+     "summary": "以下是*ST威领在北京时间11月9日14:32分盘口异动快照：11月9日14点32分，*ST威领盘中跌停，报22.75元，目前封单3029手，折合689.10万元。截至目前，成交5.21亿元，换手率8.95%。分笔14:32:3922.754801↓14:32:3622.8029↑14:32:3322.8071↑14:32:3022.80361↓14:32:2722.81120↑14:32:2422.8122↑14:32:2122.81227↑14:32:1822.8084↓",
+     "source": "东方财富股票",
+     "agenda_layer": "market",
+     "language": "zh",
+     "id": "8ffdd1d70549",
+     "keywords_zh": [
+      "财经 / 宏观"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:8ffdd1d70549",
+     "cluster_size": 1,
+     "sources": [
+      "东方财富股票"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "东方财富股票",
+       "title": "*ST威领11月9日盘中跌停",
+       "url": "http://stock.eastmoney.com/news/1944,202611093926193023.html"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       4
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "zh"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "中坚科技11月9日盘中涨停",
+     "url": "http://stock.eastmoney.com/news/1944,202611093926192985.html",
+     "time": "11-09 14:32",
+     "ts": 1794205958,
+     "summary": "以下是中坚科技在北京时间11月9日14:32分盘口异动快照：11月9日14点32分，中坚科技盘中涨停，报89.54元，目前封单18855手，折合1.69亿元。截至目前，成交4.70亿元，换手率3.30%。分笔14:32:3089.541519↑14:32:2789.511138↑14:32:2489.1615↓14:32:2189.37118↑14:32:1889.0214↓14:32:1589.0210↓14:32:0989.0081↓14:32:0689.002↓14:3",
+     "source": "东方财富股票",
+     "agenda_layer": "market",
+     "language": "zh",
+     "id": "1434af330a4a",
+     "keywords_zh": [
+      "财经 / 宏观"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:1434af330a4a",
+     "cluster_size": 1,
+     "sources": [
+      "东方财富股票"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "东方财富股票",
+       "title": "中坚科技11月9日盘中涨停",
+       "url": "http://stock.eastmoney.com/news/1944,202611093926192985.html"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       5
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "zh"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "日韩股市收盘涨跌互现",
+     "url": "http://finance.eastmoney.com/news/11440,202611093926193155.html",
+     "time": "11-09 14:32",
+     "ts": 1794205958,
+     "summary": "日经225指数收涨2.33%，报58775.50点。韩国综指收跌0.79%，报5019.78点。",
+     "source": "东方财富股票",
+     "agenda_layer": "market",
+     "language": "zh",
+     "id": "cdf834cf7b4f",
+     "keywords_zh": [
+      "财经 / 宏观"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:cdf834cf7b4f",
+     "cluster_size": 1,
+     "sources": [
+      "东方财富股票"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "东方财富股票",
+       "title": "日韩股市收盘涨跌互现",
+       "url": "http://finance.eastmoney.com/news/11440,202611093926193155.html"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       6
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "zh"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "高盛：2027年美股牛市还有”最后一搏“，但随后的情形酷似2000年泡沫破灭前夕",
+     "url": "https://wallstreetcn.com/articles/3785523",
+     "time": "11-09 14:25",
+     "ts": 1794205503,
+     "summary": "市场拐点正在临近。高盛对冲基金业务全球主管Tony Pasquariello发出警告：美股牛市主趋势虽仍未断裂，但已进入倒计时。他预计标普500指数将完成最后一轮上涨，随后2027年将面临自2000年互联网泡沫破裂以来最大规模的净股票供给冲击。 Pasquariello在最新周报中指出，驱动美股过去四年强劲表现的三大核心变量——盈利增长、资金流向与AI叙事——边际方向已同步恶化。他明确表示，&#34;预计标普将在转折前完成最后一次上冲，但2027年注定是回报更为贫乏的一年&#",
+     "source": "华尔街见闻",
+     "agenda_layer": "market",
+     "language": "zh",
+     "id": "81029f041efb",
+     "keywords_zh": [
+      "人工智能"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:81029f041efb",
+     "cluster_size": 1,
+     "sources": [
+      "华尔街见闻"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "华尔街见闻",
+       "title": "高盛：2027年美股牛市还有”最后一搏“，但随后的情形酷似2000年泡沫破灭前夕",
+       "url": "https://wallstreetcn.com/articles/3785523"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       7
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "zh"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "伟伟道来 | 以色列组阁，牵一发而动中东",
+     "url": "http://www.eeo.com.cn/2026/1109/1088440.shtml",
+     "time": "11-09 14:08",
+     "ts": 1794204480,
+     "summary": "战争的阴霾还没有散去，和平的曙光已经出现，背后真正的推动力量是民意，在美国的中期选举和以色列的议会选举中，两个国家的选民都在用选票向战争说不。",
+     "source": "经济观察网",
+     "agenda_layer": "market",
+     "language": "zh",
+     "id": "f55c43304f6e",
+     "keywords_zh": [
+      "财经 / 宏观"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:f55c43304f6e",
+     "cluster_size": 1,
+     "sources": [
+      "经济观察网"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "经济观察网",
+       "title": "伟伟道来 | 以色列组阁，牵一发而动中东",
+       "url": "http://www.eeo.com.cn/2026/1109/1088440.shtml"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       8
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "zh"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "Sohu.com GAAP EPS of -$0.60, revenue of $133M",
+     "url": "https://seekingalpha.com/news/4668795-sohu-com-gaap-eps-of-0_60-revenue-of-133m",
+     "time": "11-09 14:05",
+     "ts": 1794204352,
+     "summary": "",
+     "source": "Seeking Alpha",
+     "agenda_layer": "market",
+     "language": "en",
+     "id": "0960d49fe4d5",
+     "keywords_zh": [
+      "财经 / 宏观"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:0960d49fe4d5",
+     "cluster_size": 1,
+     "sources": [
+      "Seeking Alpha"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "Seeking Alpha",
+       "title": "Sohu.com GAAP EPS of -$0.60, revenue of $133M",
+       "url": "https://seekingalpha.com/news/4668795-sohu-com-gaap-eps-of-0_60-revenue-of-133m"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       9
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "20多万元/只 实验猴身价不到1年翻倍！养殖企业：不预订 有需要明年初再来谈",
+     "url": "http://finance.eastmoney.com/news/1354,202611093926173635.html",
+     "time": "11-09 14:03",
+     "ts": 1794204220,
+     "summary": "近日，实验猴价格再度走高的消息引发关注。 11月9日，红星资本局以购猴者身份致电位于广东、广西、四川的部分实验动物养殖企业，均被告知食蟹猴已被订完。四川一家实验猴养殖企业的工作人员表示，目前食蟹猴价格在20万元出头，现在无法预订，如有需要可以等到明年初再来询问。 此外，广西、广东均有猴场表示，其养殖的实验猴是有固定合作客户的，不接外部订单，价格也不方便透露。 身价已突破20万 一年内实验猴价格翻倍 据财联社日前报道，有养殖企业给出的食蟹猴初步报价达到25万元-26万元/只。有",
+     "source": "东方财富资讯",
+     "agenda_layer": "market",
+     "language": "zh",
+     "id": "b76e141e866f",
+     "keywords_zh": [
+      "财经 / 宏观"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:b76e141e866f",
+     "cluster_size": 1,
+     "sources": [
+      "东方财富资讯"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "东方财富资讯",
+       "title": "20多万元/只 实验猴身价不到1年翻倍！养殖企业：不预订 有需要明年初再来谈",
+       "url": "http://finance.eastmoney.com/news/1354,202611093926173635.html"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       10
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "zh"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "科技股经历疫情以来最惨烈一周，大摩：AI交易跑到了马拉松的“撞墙时刻”",
+     "url": "https://wallstreetcn.com/articles/3785522",
+     "time": "11-09 13:51",
+     "ts": 1794203496,
+     "summary": "美国科技股本周遭遇新冠疫情以来最猛烈的一次抛售，AI交易的核心逻辑正面临系统性拷问。摩根士丹利认为，这场行情不是短暂的风格轮动，而是一场马拉松跑到第20英里时的&#34;撞墙&#34;——最痛苦的考验，往往就在终点线看似触手可及之时。 周四，纳斯达克100指数单日暴跌6.4%，创2020年3月以来最差单日表现；费城半导体指数重挫12.2%，为历史第二大单日跌幅。摩根士丹利美国科技、媒体及电信动量因子较6月高点已累计下跌70%，创下有记录以来最大年度回撤。对冲基金净杠杆率一周内",
+     "source": "华尔街见闻",
+     "agenda_layer": "market",
+     "language": "zh",
+     "id": "b04b6fb3b3de",
+     "keywords_zh": [
+      "人工智能"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:b04b6fb3b3de",
+     "cluster_size": 1,
+     "sources": [
+      "华尔街见闻"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "华尔街见闻",
+       "title": "科技股经历疫情以来最惨烈一周，大摩：AI交易跑到了马拉松的“撞墙时刻”",
+       "url": "https://wallstreetcn.com/articles/3785522"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       11
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "zh"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "Alphabet maintains massive SpaceX bet, initiates $548M Qualcomm stake",
+     "url": "https://seekingalpha.com/news/4668792-alphabet-maintains-massive-spacex-bet-initiates-548m-qualcomm-stake",
+     "time": "11-09 13:47",
+     "ts": 1794203222,
+     "summary": "",
+     "source": "Seeking Alpha",
+     "agenda_layer": "market",
+     "language": "en",
+     "id": "aa8e14a98840",
+     "keywords_zh": [
+      "谷歌"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:aa8e14a98840",
+     "cluster_size": 1,
+     "sources": [
+      "Seeking Alpha"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "Seeking Alpha",
+       "title": "Alphabet maintains massive SpaceX bet, initiates $548M Qualcomm stake",
+       "url": "https://seekingalpha.com/news/4668792-alphabet-maintains-massive-spacex-bet-initiates-548m-qualcomm-stake"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       12
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "Constellation Software declares $1.00 dividend",
+     "url": "https://seekingalpha.com/news/4668794-constellation-software-declares-1_00-dividend",
+     "time": "11-09 13:35",
+     "ts": 1794202533,
+     "summary": "",
+     "source": "Seeking Alpha",
+     "agenda_layer": "market",
+     "language": "en",
+     "id": "bbb270f1220a",
+     "keywords_zh": [
+      "财经 / 宏观"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:bbb270f1220a",
+     "cluster_size": 1,
+     "sources": [
+      "Seeking Alpha"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "Seeking Alpha",
+       "title": "Constellation Software declares $1.00 dividend",
+       "url": "https://seekingalpha.com/news/4668794-constellation-software-declares-1_00-dividend"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       13
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "Strathcona Resources Ltd. raises dividend by 6.7% to CAD 0.32",
+     "url": "https://seekingalpha.com/news/4668793-strathcona-resources-ltd-raises-dividend-by-67-to-cad-032",
+     "time": "11-09 13:33",
+     "ts": 1794202386,
+     "summary": "",
+     "source": "Seeking Alpha",
+     "agenda_layer": "market",
+     "language": "en",
+     "id": "807b7e99294b",
+     "keywords_zh": [
+      "财经 / 宏观"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:807b7e99294b",
+     "cluster_size": 1,
+     "sources": [
+      "Seeking Alpha"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "Seeking Alpha",
+       "title": "Strathcona Resources Ltd. raises dividend by 6.7% to CAD 0.32",
+       "url": "https://seekingalpha.com/news/4668793-strathcona-resources-ltd-raises-dividend-by-67-to-cad-032"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       14
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "New England Realty Associates Limited Partnership declares $0.40 dividend",
+     "url": "https://seekingalpha.com/news/4668791-new-england-realty-associates-limited-partnership-declares-0_40-dividend",
+     "time": "11-09 13:31",
+     "ts": 1794202307,
+     "summary": "",
+     "source": "Seeking Alpha",
+     "agenda_layer": "market",
+     "language": "en",
+     "id": "6baf24a322be",
+     "keywords_zh": [
+      "财经 / 宏观"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:6baf24a322be",
+     "cluster_size": 1,
+     "sources": [
+      "Seeking Alpha"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "Seeking Alpha",
+       "title": "New England Realty Associates Limited Partnership declares $0.40 dividend",
+       "url": "https://seekingalpha.com/news/4668791-new-england-realty-associates-limited-partnership-declares-0_40-dividend"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       15
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "Cornerstone Total Return Fund Inc declares $0.1022 dividend",
+     "url": "https://seekingalpha.com/news/4668790-cornerstone-total-return-fund-inc-declares-0_1022-dividend",
+     "time": "11-09 13:26",
+     "ts": 1794202014,
+     "summary": "",
+     "source": "Seeking Alpha",
+     "agenda_layer": "market",
+     "language": "en",
+     "id": "7ed63abbaf86",
+     "keywords_zh": [
+      "财经 / 宏观"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:7ed63abbaf86",
+     "cluster_size": 1,
+     "sources": [
+      "Seeking Alpha"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "Seeking Alpha",
+       "title": "Cornerstone Total Return Fund Inc declares $0.1022 dividend",
+       "url": "https://seekingalpha.com/news/4668790-cornerstone-total-return-fund-inc-declares-0_1022-dividend"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       16
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "时隔14年 72岁王健林重任万达商管董事长",
+     "url": "http://finance.eastmoney.com/news/1354,202611093926130077.html",
+     "time": "11-09 13:13",
+     "ts": 1794201202,
+     "summary": "11月9日，据天眼查披露的信息，近日，大连万达商业管理集团股份有限公司发生工商变更，陈洪涛卸任董事长，由72岁的王健林接任。 值得一提的是，王健林曾于2012年卸任该公司董事长，此次是时隔14年后王健林再度担任此职务。 值得一提的是，除此之外，同日人员职务发生变更的还包括大连万达商管董事、监事等职位，包括张春远、黄国斌等再次任职公司董事。而再次任职的人员绝大部分具有万达系背景。 最初，大连万达商管的董事长一直由王健林担任。此后，2012年，丁本锡接替王健林成为大连商管的董事长",
+     "source": "东方财富资讯",
+     "agenda_layer": "market",
+     "language": "zh",
+     "id": "7a4009f223de",
+     "keywords_zh": [
+      "财经 / 宏观"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:7a4009f223de",
+     "cluster_size": 1,
+     "sources": [
+      "东方财富资讯"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "东方财富资讯",
+       "title": "时隔14年 72岁王健林重任万达商管董事长",
+       "url": "http://finance.eastmoney.com/news/1354,202611093926130077.html"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       17
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "zh"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "China’s producer prices hit four-year high",
+     "url": "https://www.ft.com/content/085c4610-143a-47ad-b546-0587695294b5",
+     "time": "11-09 13:09",
+     "ts": 1794200986,
+     "summary": "Weak domestic demand weighs on the world’s second-largest economy even as energy crisis drives up costs",
+     "source": "Financial Times",
+     "agenda_layer": "market",
+     "language": "en",
+     "id": "5aa208d08be9",
+     "keywords_zh": [
+      "财经 / 宏观"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:5aa208d08be9",
+     "cluster_size": 1,
+     "sources": [
+      "Financial Times"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "Financial Times",
+       "title": "China’s producer prices hit four-year high",
+       "url": "https://www.ft.com/content/085c4610-143a-47ad-b546-0587695294b5"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       18
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "双十一退货率为何成了“不能说的秘密”",
+     "url": "http://www.eeo.com.cn/2026/1109/1088415.shtml",
+     "time": "11-09 13:07",
+     "ts": 1794200821,
+     "summary": "在每年双十一后的战报发布会上，成交额、订单量、破亿品牌数，各种维度层层叠加，却唯独没有退货率的身影。这个数据被小心翼翼地收在后台，像房间里一头不该被提及的大象。 而在现实中，退货率已经大到无法忽视。退货缘何发生？一笔交易被取消后，已经产生的推广、履约和售后成本，又由谁承担？",
+     "source": "经济观察网",
+     "agenda_layer": "market",
+     "language": "zh",
+     "id": "25c196a4ce15",
+     "keywords_zh": [
+      "产品发布"
+     ],
+     "event_type": "产品发布",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:25c196a4ce15",
+     "cluster_size": 1,
+     "sources": [
+      "经济观察网"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "经济观察网",
+       "title": "双十一退货率为何成了“不能说的秘密”",
+       "url": "http://www.eeo.com.cn/2026/1109/1088415.shtml"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       19
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "zh"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "Democrat triumph offers China ‘window to catch up’ on AI",
+     "url": "https://www.ft.com/content/ff0e9974-b855-4b9a-a8c9-0782e7af16ff",
+     "time": "11-09 13:00",
+     "ts": 1794200448,
+     "summary": "Analysts warn of impact on exporters if newly elected politicians take tougher line on US data centre construction",
+     "source": "Financial Times",
+     "agenda_layer": "market",
+     "language": "en",
+     "id": "5d448ed4a663",
+     "keywords_zh": [
+      "人工智能"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:5d448ed4a663",
+     "cluster_size": 1,
+     "sources": [
+      "Financial Times"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "Financial Times",
+       "title": "Democrat triumph offers China ‘window to catch up’ on AI",
+       "url": "https://www.ft.com/content/ff0e9974-b855-4b9a-a8c9-0782e7af16ff"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       20
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "Russian military turns to deepfake videos to claim battlefield success",
+     "url": "https://www.ft.com/content/7f36031b-ea90-4a3a-a570-a6c6ff96e45a",
+     "time": "11-09 13:00",
+     "ts": 1794200425,
+     "summary": "Army units and pro-war military bloggers are posting videos researchers say have been manipulated",
+     "source": "Financial Times",
+     "agenda_layer": "market",
+     "language": "en",
+     "id": "035c18a59d27",
+     "keywords_zh": [
+      "财经 / 宏观"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:035c18a59d27",
+     "cluster_size": 1,
+     "sources": [
+      "Financial Times"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "Financial Times",
+       "title": "Russian military turns to deepfake videos to claim battlefield success",
+       "url": "https://www.ft.com/content/7f36031b-ea90-4a3a-a570-a6c6ff96e45a"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       21
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "What Democrats must do now",
+     "url": "https://www.ft.com/content/ea60eed2-f307-425e-8d9a-7bd31d6ea81b",
+     "time": "11-09 13:00",
+     "ts": 1794200425,
+     "summary": "To keep power and make real change, they need to tell the American people painful truths",
+     "source": "Financial Times",
+     "agenda_layer": "market",
+     "language": "en",
+     "id": "b9708f6f85cf",
+     "keywords_zh": [
+      "财经 / 宏观"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:b9708f6f85cf",
+     "cluster_size": 1,
+     "sources": [
+      "Financial Times"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "Financial Times",
+       "title": "What Democrats must do now",
+       "url": "https://www.ft.com/content/ea60eed2-f307-425e-8d9a-7bd31d6ea81b"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       22
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "Tech’s teetering towers",
+     "url": "https://www.ft.com/content/d3f706c8-a936-4395-bcf1-7f8bc2bed99a",
+     "time": "11-09 13:00",
+     "ts": 1794200425,
+     "summary": "The AI race is defined by vertical integration. Will it withstand a storm?",
+     "source": "Financial Times",
+     "agenda_layer": "market",
+     "language": "en",
+     "id": "975308b1adae",
+     "keywords_zh": [
+      "人工智能"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:975308b1adae",
+     "cluster_size": 1,
+     "sources": [
+      "Financial Times"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "Financial Times",
+       "title": "Tech’s teetering towers",
+       "url": "https://www.ft.com/content/d3f706c8-a936-4395-bcf1-7f8bc2bed99a"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       23
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "From supermarket fridges to passenger flights, a wave of threats is testing Europe's defenses",
+     "url": "https://www.cnbc.com/2026/11/09/europe-fridge-hacks-bomb-threats-cyberattack.html",
+     "time": "11-09 13:00",
+     "ts": 1794200401,
+     "summary": "Cyberattacks on fridges in supermarkets and a wave of bomb threats are testing Europe’s ability to withstand disruption to crucial infrastructure.",
+     "source": "CNBC",
+     "agenda_layer": "market",
+     "language": "en",
+     "id": "00ba7b95eac7",
+     "keywords_zh": [
+      "财经 / 宏观"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:00ba7b95eac7",
+     "cluster_size": 1,
+     "sources": [
+      "CNBC"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "CNBC",
+       "title": "From supermarket fridges to passenger flights, a wave of threats is testing Europe's defenses",
+       "url": "https://www.cnbc.com/2026/11/09/europe-fridge-hacks-bomb-threats-cyberattack.html"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       24
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "从文本到代码：刘子栋的“极端斯坦”跃迁",
+     "url": "http://www.eeo.com.cn/2026/1109/1088397.shtml",
+     "time": "11-09 12:23",
+     "ts": 1794198210,
+     "summary": "名医一天接诊三十人已是极限，而代码可以被无限复制。本文借用塔勒布《黑天鹅》中“平均斯坦”与“极端斯坦”的概念，讲述一位从医四十年的肾脏病医生借助 AI 亲手编写血液透析系统的经历。传统医疗软件要经过“医生→产品经理→程序员”两次折射，临床经验层层失真，最终沦为逼医护填表的“表单怪物”。生成式 AI 让认知者成为构建者：医生把经验直接编译进代码，化作守在透析机旁的“数字孪生医生”。文章认为，这类智能体系统不能用 SaaS 年费来衡量，它能让患者、家属、透析中心、基层医疗、医保监",
+     "source": "经济观察网",
+     "agenda_layer": "market",
+     "language": "zh",
+     "id": "fd1fe840b84e",
+     "keywords_zh": [
+      "人工智能"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:fd1fe840b84e",
+     "cluster_size": 1,
+     "sources": [
+      "经济观察网"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "经济观察网",
+       "title": "从文本到代码：刘子栋的“极端斯坦”跃迁",
+       "url": "http://www.eeo.com.cn/2026/1109/1088397.shtml"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       25
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "zh"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "极端气候+供给结构性收缩！煤炭股走强 11股2026年利润预测翻倍",
+     "url": "http://finance.eastmoney.com/news/11139,202611093926109116.html",
+     "time": "11-09 12:16",
+     "ts": 1794197780,
+     "summary": "煤炭板块11月9日早盘表现强势，板块中郑州煤电、安泰集团涨停；大有能源、云煤能源、新集能源、陕西黑猫、淮北矿业等跟涨。 超强厄尔尼诺来了 市场人士表示，煤炭板块的走强，与当前气候面临的超强厄尔尼诺现象有关。 据气象部门预测，受超强厄尔尼诺事件影响，预计今冬我国气温总体偏高，但寒潮频次略多、冷暖起伏大，极端天气可能多发频发，预计将给能源保供带来挑战。 国家发改委也表示，在确保安全生产前提下全力组织煤炭生产，9月份全国煤炭产量3.85亿吨，10月份产量环比进一步提升，电煤库存保持",
+     "source": "东方财富资讯",
+     "agenda_layer": "market",
+     "language": "zh",
+     "id": "0be5ccc92012",
+     "keywords_zh": [
+      "财经 / 宏观"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:0be5ccc92012",
+     "cluster_size": 1,
+     "sources": [
+      "东方财富资讯"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "东方财富资讯",
+       "title": "极端气候+供给结构性收缩！煤炭股走强 11股2026年利润预测翻倍",
+       "url": "http://finance.eastmoney.com/news/11139,202611093926109116.html"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       26
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "zh"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "高端算力涨价！光模块出口强劲 主力吸筹多股",
+     "url": "http://finance.eastmoney.com/news/11139,202611093926108011.html",
+     "time": "11-09 12:15",
+     "ts": 1794197718,
+     "summary": "周一光模块概念股大涨，声迅股份、烽火通信等多股涨停，源杰科技、长飞光纤等个股涨超7%。 光模块出口强劲 海外方面，近期美国AI监管与数据中心审批争议升温，市场开始担心资本开支放缓。 有机构分析认为，当前预期对政策约束计提较多，对应用扩张带来的需求增量考虑不足。审批变化会影响建设和交付节奏，但企业使用AI降本增效的动力仍在，不能把项目延期直接理解为算力需求消失。据Ornn数据，截至11月5日，H100、H200、B200按需租金较30日前分别上涨10.21%、27.22%、24",
+     "source": "东方财富资讯",
+     "agenda_layer": "market",
+     "language": "zh",
+     "id": "760fefdf85db",
+     "keywords_zh": [
+      "人工智能",
+      "数据中心",
+      "AI资本开支",
+      "涨价"
+     ],
+     "event_type": "涨价",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "topic:0d4cf31a9ee7",
+     "cluster_size": 1,
+     "sources": [
+      "东方财富资讯"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "东方财富资讯",
+       "title": "高端算力涨价！光模块出口强劲 主力吸筹多股",
+       "url": "http://finance.eastmoney.com/news/11139,202611093926108011.html"
+      }
+     ],
+     "trajectory": {
+      "label": "rebound",
+      "points": [
+       13,
+       38,
+       27
+      ],
+      "observations": 3,
+      "first_seen": 1793440722
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 2,
+      "languages": [
+       "zh"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 3
+     }
+    },
+    {
+     "title": "马斯克最新透露：特斯拉可能将出租而非出售Optimus机器人",
+     "url": "http://stock.eastmoney.com/news/11219,202611093926109332.html",
+     "time": "11-09 12:08",
+     "ts": 1794197289,
+     "summary": "特斯拉的人形机器人Optimus是市场关注的焦点产品之一，其预计将在2027年底左右开始向外部客户交付，但交付形式可能与投资者此前想象不同。 马斯克上周表示，特斯拉很可能会向客户出租其人形机器人，而不是出售。他还补充称，Optimus的初期成本可能与电动汽车差不多，但随着时间推移，成本将快速下降。每个机器人的初始成本约为3万美元，之后会降至2万美元左右。 马斯克预计Optimus至少需要一年时间才能达到全面量产。在对外交付前，Optimus将先在特斯拉的自有工厂中使用，据悉该",
+     "source": "东方财富资讯",
+     "agenda_layer": "market",
+     "language": "zh",
+     "id": "ad7e308d719f",
+     "keywords_zh": [
+      "机器人"
+     ],
+     "event_type": "",
+     "related_assets": [
+      "国投白银LOF",
+      "黄金ETF华安"
+     ],
+     "relevance_score": 3,
+     "topic_id": "story:ad7e308d719f",
+     "cluster_size": 1,
+     "sources": [
+      "东方财富资讯"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "东方财富资讯",
+       "title": "马斯克最新透露：特斯拉可能将出租而非出售Optimus机器人",
+       "url": "http://stock.eastmoney.com/news/11219,202611093926109332.html"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       28
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "zh"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "创业板冲高回落涨0.56%，AI硬件反弹，煤炭、商业航天爆发，恒科指接近转跌，科网股分化、美团跌5%",
+     "url": "https://wallstreetcn.com/articles/3785511",
+     "time": "11-09 12:04",
+     "ts": 1794197050,
+     "summary": "11月9日，A股早盘集体上涨，三大股指盘初上涨，深成指、创业板涨超1%，盘中冲高回落，三大指数小幅上涨。太空算力、物理AI、商业航天、AI短剧概念股大爆发，AI硬件股显著回暖，光模块、光芯片、光通信、存储芯片等纷纷反弹。煤炭、文化传媒、航天军工等板块活跃。 港股早盘震荡上涨，恒指、恒科指双双走高，盘中回落，恒科指接近转跌，科网股分化，美团跌超5%，AI硬件、芯片反弹，长飞光纤光缆、剑桥科技等涨幅居前。AI大模型股同样走高，智谱和MINIMAX涨3%。债市方面，国债期货集体下跌",
+     "source": "华尔街见闻",
+     "agenda_layer": "market",
+     "language": "zh",
+     "id": "180bcffd98ad",
+     "keywords_zh": [
+      "人工智能",
+      "光模块",
+      "存储芯片"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:180bcffd98ad",
+     "cluster_size": 1,
+     "sources": [
+      "华尔街见闻"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "华尔街见闻",
+       "title": "创业板冲高回落涨0.56%，AI硬件反弹，煤炭、商业航天爆发，恒科指接近转跌，科网股分化、美团跌5%",
+       "url": "https://wallstreetcn.com/articles/3785511"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       29
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "zh"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "“AI缺电”具象化了：Anthropic砸钱“截胡”发电设备订单 金额或创纪录",
+     "url": "http://finance.eastmoney.com/news/1354,202611093926107864.html",
+     "time": "11-09 11:56",
+     "ts": 1794196616,
+     "summary": "随着数据中心建设拉高电力需求，发电设备正逐渐成为“稀缺资源”。 据日前媒体报道，Anthropic 9月下旬与燃气发电设备供应商OnePWR Solutions达成一笔大规模交易，为数据中心采购燃气发电机组。 这次交易金额高达34亿美元，包括总装机容量达1.7GW的重型发电机组，以及安装这些发电机组所需的工程设计及施工部分。 据悉，这是目前已知的AI实验室单笔规模最大的发电设备采购交易。 在此之前，AI公司通常依赖公用事业公司或专业电力公司来满足电力需求，但如今随着燃气轮机与",
+     "source": "东方财富资讯",
+     "agenda_layer": "market",
+     "language": "zh",
+     "id": "ec7fa7ed0790",
+     "keywords_zh": [
+      "人工智能",
+      "数据中心"
+     ],
+     "event_type": "",
+     "related_assets": [
+      "国投白银LOF",
+      "黄金ETF华安"
+     ],
+     "relevance_score": 3,
+     "topic_id": "story:ec7fa7ed0790",
+     "cluster_size": 1,
+     "sources": [
+      "东方财富资讯"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "东方财富资讯",
+       "title": "“AI缺电”具象化了：Anthropic砸钱“截胡”发电设备订单 金额或创纪录",
+       "url": "http://finance.eastmoney.com/news/1354,202611093926107864.html"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       30
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "zh"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "GUCCI母公司下场做足金，西方奢侈品开始向老铺黄金“抄作业”？",
+     "url": "https://wallstreetcn.com/articles/3785512",
+     "time": "11-09 11:27",
+     "ts": 1794194861,
+     "summary": "中国古法黄金品牌不断向奢侈品靠拢之际，国际奢侈品集团也开始反向切入中国黄金市场。 第九届中国国际进口博览会期间，开云集团旗下珠宝品牌Qeelin麒麟正式推出独立黄金品牌Qeelin GOLD，首家精品店将于11月20日在上海港汇恒隆广场开业。 与Qeelin此前主打18K金、钻石和宝石的珠宝产品不同，Qeelin GOLD以足金为核心材质，采用一口价定价模式。 虽然品牌并未明确将自身定义为“古法黄金”，但其运用的花丝、炸珠、錾刻等传统金工，与老铺黄金等本土高端黄金品牌的工艺体",
+     "source": "华尔街见闻",
+     "agenda_layer": "market",
+     "language": "zh",
+     "id": "e6a2e8b9aced",
+     "keywords_zh": [
+      "黄金",
+      "产品发布"
+     ],
+     "event_type": "产品发布",
+     "related_assets": [
+      "黄金ETF华安"
+     ],
+     "relevance_score": 7,
+     "topic_id": "topic:c2e51f45635b",
+     "cluster_size": 1,
+     "sources": [
+      "华尔街见闻"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "华尔街见闻",
+       "title": "GUCCI母公司下场做足金，西方奢侈品开始向老铺黄金“抄作业”？",
+       "url": "https://wallstreetcn.com/articles/3785512"
+      }
+     ],
+     "trajectory": {
+      "label": "rebound",
+      "points": [
+       10,
+       29,
+       33,
+       6,
+       29,
+       17,
+       34,
+       31
+      ],
+      "observations": 13,
+      "first_seen": 1790501577
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 4,
+      "languages": [
+       "zh"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 13
+     }
+    },
+    {
+     "title": "事关AI交易走向，硅谷、华尔街热议“黄仁勋绯闻”，马斯克力挺、特朗普也发声",
+     "url": "https://wallstreetcn.com/articles/3785517",
+     "time": "11-09 11:26",
+     "ts": 1794194780,
+     "summary": "黄仁勋承认婚外情的消息，迅速从一桩个人丑闻演变为一场牵动AI交易走向的市场事件。硅谷与华尔街的声音在同一时间涌向X平台——有人力挺，有人看空，有人担忧英伟达从此失去灵魂。 事件发酵后，硅谷圈最具分量的表态来自马斯克。 红杉资本合伙人Shaun Maguire率先在X上发帖，列出五点立场：“黄仁勋是这一代最伟大的企业家之一；他干了一件极其愚蠢的事；这对美国不好；但我猜他并没有恶意；错上加错并不能变对，但我相信，黄仁勋对美国的AI领导力来说不可替代。”该帖获得逾213万次浏览。 ",
+     "source": "华尔街见闻",
+     "agenda_layer": "market",
+     "language": "zh",
+     "id": "d172c5577bf5",
+     "keywords_zh": [
+      "英伟达",
+      "人工智能"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:d172c5577bf5",
+     "cluster_size": 1,
+     "sources": [
+      "华尔街见闻"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "华尔街见闻",
+       "title": "事关AI交易走向，硅谷、华尔街热议“黄仁勋绯闻”，马斯克力挺、特朗普也发声",
+       "url": "https://wallstreetcn.com/articles/3785517"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       32
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "zh"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "无惧“黄仁勋绯闻”，亚洲股市强势反弹，台股一度涨逾6%",
+     "url": "https://wallstreetcn.com/articles/3785518",
+     "time": "11-09 11:23",
+     "ts": 1794194603,
+     "summary": "周一亚洲早盘，亚太股市出现大幅反弹。 截至午盘收盘，MSCI亚太指数涨2.5%至250.39点，创近三个月最大单日涨幅。分市场来看： 中国台湾加权指数涨幅最为突出，盘中一度飙升6.7%，最终收涨约5.9%至42,084点，终结此前连续七个交易日的下跌； 日经225指数涨3.4%，东证指数同步涨3.4%； 韩国首尔综指涨幅扩大至2%； 港股恒生指数小幅上涨0.2%，上证综指涨0.4%，表现相对温和； 澳大利亚ASX 200涨0.1%，基本持平。 美股期货同步走强：标普500期货",
+     "source": "华尔街见闻",
+     "agenda_layer": "market",
+     "language": "zh",
+     "id": "d4d2daa95c4a",
+     "keywords_zh": [
+      "财经 / 宏观"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:d4d2daa95c4a",
+     "cluster_size": 1,
+     "sources": [
+      "华尔街见闻"
+     ],
+     "languages": [
+      "zh"
+     ],
+     "agenda_layers": [
+      "market"
+     ],
+     "cluster_urls": [
+      {
+       "source": "华尔街见闻",
+       "title": "无惧“黄仁勋绯闻”，亚洲股市强势反弹，台股一度涨逾6%",
+       "url": "https://wallstreetcn.com/articles/3785518"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       33
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "zh"
+      ],
+      "agenda_layers": [
+       "market"
+      ],
+      "time_windows": 1
+     }
+    },
     {
      "title": "China wholesale inflation hits highest in more than four years as consumer measure slows",
      "url": "https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html",
@@ -23323,11 +25352,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "decay",
       "points": [
-       1
+       1,
+       34
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -23339,1048 +25369,7 @@ window.DATA = {
       "agenda_layers": [
        "market"
       ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "安宁股份11月9日快速上涨",
-     "url": "http://stock.eastmoney.com/news/1944,202611093926063892.html",
-     "time": "11-09 10:48",
-     "ts": 1794192509,
-     "summary": "以下是安宁股份在北京时间11月9日10:48分盘口异动快照：11月9日，安宁股份盘中快速上涨，5分钟内涨幅超过2%，截至10点48分，报25.38元，成交7158.81万元，换手率0.78%。分笔10:48:2725.50425↑10:48:2425.38257↑10:48:2125.35969↑10:48:1825.24315↑10:48:1525.20257↑10:48:1225.15457↑10:48:0925.1418↑10:48:0625.1020↓10:48:03",
-     "source": "东方财富股票",
-     "agenda_layer": "market",
-     "language": "zh",
-     "id": "c96d84a99d23",
-     "keywords_zh": [
-      "财经 / 宏观"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:c96d84a99d23",
-     "cluster_size": 1,
-     "sources": [
-      "东方财富股票"
-     ],
-     "languages": [
-      "zh"
-     ],
-     "agenda_layers": [
-      "market"
-     ],
-     "cluster_urls": [
-      {
-       "source": "东方财富股票",
-       "title": "安宁股份11月9日快速上涨",
-       "url": "http://stock.eastmoney.com/news/1944,202611093926063892.html"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       2
-      ],
-      "observations": 1,
-      "first_seen": 1794192856
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "zh"
-      ],
-      "agenda_layers": [
-       "market"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "安宁股份11月9日盘中涨幅达5%",
-     "url": "http://stock.eastmoney.com/news/1944,202611093926063762.html",
-     "time": "11-09 10:48",
-     "ts": 1794192509,
-     "summary": "以下是安宁股份在北京时间11月9日10:48分盘口异动快照：11月9日，安宁股份盘中涨幅达5%，截至10点48分，报25.5元，成交7266.98万元，换手率0.79%。分笔10:48:2725.50425↑10:48:2425.38257↑10:48:2125.35969↑10:48:1825.24315↑10:48:1525.20257↑10:48:1225.15457↑10:48:0925.1418↑10:48:0625.1020↓10:48:0325.13178↑10",
-     "source": "东方财富股票",
-     "agenda_layer": "market",
-     "language": "zh",
-     "id": "9b91764738ee",
-     "keywords_zh": [
-      "财经 / 宏观"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:9b91764738ee",
-     "cluster_size": 1,
-     "sources": [
-      "东方财富股票"
-     ],
-     "languages": [
-      "zh"
-     ],
-     "agenda_layers": [
-      "market"
-     ],
-     "cluster_urls": [
-      {
-       "source": "东方财富股票",
-       "title": "安宁股份11月9日盘中涨幅达5%",
-       "url": "http://stock.eastmoney.com/news/1944,202611093926063762.html"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       3
-      ],
-      "observations": 1,
-      "first_seen": 1794192856
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "zh"
-      ],
-      "agenda_layers": [
-       "market"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "向日葵11月9日盘中涨幅达5%",
-     "url": "http://stock.eastmoney.com/news/1944,202611093926063614.html",
-     "time": "11-09 10:48",
-     "ts": 1794192509,
-     "summary": "以下是向日葵在北京时间11月9日10:48分盘口异动快照：11月9日，向日葵盘中涨幅达5%，截至10点48分，报3.47元，成交1.95亿元，换手率4.46%。分笔10:48:243.4758632↑10:48:213.42133↑10:48:183.42160↑10:48:153.42351↑10:48:123.42232↑10:48:063.422227↑10:48:033.4211422↑10:48:003.413↑10:47:573.4187↑10:47:543.41",
-     "source": "东方财富股票",
-     "agenda_layer": "market",
-     "language": "zh",
-     "id": "ca176d85f91e",
-     "keywords_zh": [
-      "财经 / 宏观"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:ca176d85f91e",
-     "cluster_size": 1,
-     "sources": [
-      "东方财富股票"
-     ],
-     "languages": [
-      "zh"
-     ],
-     "agenda_layers": [
-      "market"
-     ],
-     "cluster_urls": [
-      {
-       "source": "东方财富股票",
-       "title": "向日葵11月9日盘中涨幅达5%",
-       "url": "http://stock.eastmoney.com/news/1944,202611093926063614.html"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       4
-      ],
-      "observations": 1,
-      "first_seen": 1794192856
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "zh"
-      ],
-      "agenda_layers": [
-       "market"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "上海九百11月9日快速回调",
-     "url": "http://stock.eastmoney.com/news/1944,202611093926063414.html",
-     "time": "11-09 10:48",
-     "ts": 1794192494,
-     "summary": "以下是上海九百在北京时间11月9日10:48分盘口异动快照：11月9日，上海九百盘中快速回调，5分钟内跌幅超过2%，截至10点48分，报11.04元，成交6.13亿元，换手率14.20%。分笔10:48:0411.04219↑10:48:0111.04339↓10:47:5811.04236↓10:47:5511.04131↓10:47:5211.05236↑10:47:4911.05413↓10:47:4611.05102↓10:47:4311.05169↓10:47:40",
-     "source": "东方财富股票",
-     "agenda_layer": "market",
-     "language": "zh",
-     "id": "7d7990d088f2",
-     "keywords_zh": [
-      "财经 / 宏观"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:7d7990d088f2",
-     "cluster_size": 1,
-     "sources": [
-      "东方财富股票"
-     ],
-     "languages": [
-      "zh"
-     ],
-     "agenda_layers": [
-      "market"
-     ],
-     "cluster_urls": [
-      {
-       "source": "东方财富股票",
-       "title": "上海九百11月9日快速回调",
-       "url": "http://stock.eastmoney.com/news/1944,202611093926063414.html"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       5
-      ],
-      "observations": 1,
-      "first_seen": 1794192856
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "zh"
-      ],
-      "agenda_layers": [
-       "market"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "11月9日焦炭Ⅱ板块涨幅达5%",
-     "url": "http://stock.eastmoney.com/news/1944,202611093926063222.html",
-     "time": "11-09 10:47",
-     "ts": 1794192475,
-     "summary": "&emsp;&emsp;11月9日10点47分，焦炭Ⅱ板块指数报779.509点，涨幅达5%，成交8.72亿元，换手率1.74%。&emsp;&emsp;板块个股中，涨幅最大的前5个股为：安泰集团报3.32元，涨9.93%；云煤能源报4.13元，涨8.12%；陕西黑猫报3.30元，涨4.76%；宝泰隆报2.62元，涨3.97%；开滦股份报5.57元，涨3.53%。注：以上信息仅供参考，不对您构成任何投资建议。",
-     "source": "东方财富股票",
-     "agenda_layer": "market",
-     "language": "zh",
-     "id": "a1a0f57951f1",
-     "keywords_zh": [
-      "财经 / 宏观"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:a1a0f57951f1",
-     "cluster_size": 1,
-     "sources": [
-      "东方财富股票"
-     ],
-     "languages": [
-      "zh"
-     ],
-     "agenda_layers": [
-      "market"
-     ],
-     "cluster_urls": [
-      {
-       "source": "东方财富股票",
-       "title": "11月9日焦炭Ⅱ板块涨幅达5%",
-       "url": "http://stock.eastmoney.com/news/1944,202611093926063222.html"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       6
-      ],
-      "observations": 1,
-      "first_seen": 1794192856
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "zh"
-      ],
-      "agenda_layers": [
-       "market"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "Novo Nordisk reports liver improvements with Wegovy in some patients",
-     "url": "https://seekingalpha.com/news/4668784-novo-nordisk-reports-liver-improvements-with-wegovy-in-some-patients",
-     "time": "11-09 10:38",
-     "ts": 1794191883,
-     "summary": "",
-     "source": "Seeking Alpha",
-     "agenda_layer": "market",
-     "language": "en",
-     "id": "284d6b1e6ff8",
-     "keywords_zh": [
-      "财经 / 宏观"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:284d6b1e6ff8",
-     "cluster_size": 1,
-     "sources": [
-      "Seeking Alpha"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "market"
-     ],
-     "cluster_urls": [
-      {
-       "source": "Seeking Alpha",
-       "title": "Novo Nordisk reports liver improvements with Wegovy in some patients",
-       "url": "https://seekingalpha.com/news/4668784-novo-nordisk-reports-liver-improvements-with-wegovy-in-some-patients"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       7
-      ],
-      "observations": 1,
-      "first_seen": 1794192856
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "market"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "国务院关税税则委员会：11月10日起2个月内继续暂停实施24%的对美加征关税税率 保留10%的对美加征关税税率",
-     "url": "http://finance.eastmoney.com/news/1345,202611093926051572.html",
-     "time": "11-09 10:31",
-     "ts": 1794191505,
-     "summary": "国务院关税税则委员会关于调整对原产于美国的进口商品加征关税措施的公告 税委会公告2026年第6号 为落实中美两国元首华盛顿会晤达成的成果共识，根据《中华人民共和国关税法》、《中华人民共和国海关法》、《中华人民共和国对外贸易法》等法律法规和国际法基本原则，经国务院批准，自2026年11月10日13时01分起，调整《国务院关税税则委员会关于对原产于美国的进口商品加征关税的公告》（税委会公告2025年第4号）规定的加征关税措施，在2个月内继续暂停实施24%的对美加征关税税率，保留1",
-     "source": "东方财富资讯",
-     "agenda_layer": "market",
-     "language": "zh",
-     "id": "b16ec1a4cf50",
-     "keywords_zh": [
-      "财经 / 宏观"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:b16ec1a4cf50",
-     "cluster_size": 1,
-     "sources": [
-      "东方财富资讯"
-     ],
-     "languages": [
-      "zh"
-     ],
-     "agenda_layers": [
-      "market"
-     ],
-     "cluster_urls": [
-      {
-       "source": "东方财富资讯",
-       "title": "国务院关税税则委员会：11月10日起2个月内继续暂停实施24%的对美加征关税税率 保留10%的对美加征关税税率",
-       "url": "http://finance.eastmoney.com/news/1345,202611093926051572.html"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       8
-      ],
-      "observations": 1,
-      "first_seen": 1794192856
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "zh"
-      ],
-      "agenda_layers": [
-       "market"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "A股三大股指早盘齐涨，创业板涨超1%，物理AI爆发，AI硬件反弹、光模块拉升，恒指、恒科指冲高回落",
-     "url": "https://wallstreetcn.com/articles/3785511",
-     "time": "11-09 10:30",
-     "ts": 1794191430,
-     "summary": "11月9日，A股早盘集体上涨，三大股指盘初上涨，深成指、创业板涨超1%，太空算力、物理AI、商业航天、AI短剧概念股大爆发，AI硬件股显著回暖，光模块、光芯片、光通信、存储芯片等纷纷反弹。煤炭、文化传媒、航天军工等板块活跃。 港股早盘震荡上涨，恒指、恒科指双双走高，盘中涨幅有所回落，科网股多数上涨，AI硬件、芯片反弹，长飞光纤光缆、剑桥科技等涨幅居前。AI大模型股同样走高，智谱和MINIMAX涨5%。债市方面，国债期货集体下跌。商品方面，国内商品期货涨跌互现。核心市场走势： ",
-     "source": "华尔街见闻",
-     "agenda_layer": "market",
-     "language": "zh",
-     "id": "80c965f87884",
-     "keywords_zh": [
-      "人工智能",
-      "光模块",
-      "存储芯片"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:80c965f87884",
-     "cluster_size": 1,
-     "sources": [
-      "华尔街见闻"
-     ],
-     "languages": [
-      "zh"
-     ],
-     "agenda_layers": [
-      "market"
-     ],
-     "cluster_urls": [
-      {
-       "source": "华尔街见闻",
-       "title": "A股三大股指早盘齐涨，创业板涨超1%，物理AI爆发，AI硬件反弹、光模块拉升，恒指、恒科指冲高回落",
-       "url": "https://wallstreetcn.com/articles/3785511"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       9
-      ],
-      "observations": 1,
-      "first_seen": 1794192856
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "zh"
-      ],
-      "agenda_layers": [
-       "market"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "人工智能将迎来背水一战！今年剩下的唯一要事就是Anthropic的IPO",
-     "url": "http://finance.eastmoney.com/news/1344,202611093926048754.html",
-     "time": "11-09 10:27",
-     "ts": 1794191264,
-     "summary": "尽管科技股在上周迎来血腥暴跌，但人工智能领先实验室Anthropic仍坚持推进其高风险的上市计划，不过其估值据悉将从预期的2万亿美元下调至1.25万亿至1.75万亿美元之间。 市场研究机构Vital Knowledge分析师表示，人工智能股票正在被抛售，这使得Anthropic更难上市，因为资本市场对投资更加谨慎。 上周四，纳斯达克综合指数遭遇了2025年4月以来的最大单日跌幅，跌幅高达6.4%，美股市值单日蒸发3.2万亿美元。抛售的主要原因是市场担忧人工智能基础设施建设热潮",
-     "source": "东方财富资讯",
-     "agenda_layer": "market",
-     "language": "zh",
-     "id": "811a2f2d44b6",
-     "keywords_zh": [
-      "人工智能"
-     ],
-     "event_type": "",
-     "related_assets": [
-      "国投白银LOF",
-      "黄金ETF华安"
-     ],
-     "relevance_score": 3,
-     "topic_id": "story:811a2f2d44b6",
-     "cluster_size": 1,
-     "sources": [
-      "东方财富资讯"
-     ],
-     "languages": [
-      "zh"
-     ],
-     "agenda_layers": [
-      "market"
-     ],
-     "cluster_urls": [
-      {
-       "source": "东方财富资讯",
-       "title": "人工智能将迎来背水一战！今年剩下的唯一要事就是Anthropic的IPO",
-       "url": "http://finance.eastmoney.com/news/1344,202611093926048754.html"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       10
-      ],
-      "observations": 1,
-      "first_seen": 1794192856
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "zh"
-      ],
-      "agenda_layers": [
-       "market"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "芯片股“投降式抛售”何时结束？美银：或在2027年初，股价回调通常领先基本面拐点6-9个月",
-     "url": "https://wallstreetcn.com/articles/3785510",
-     "time": "11-09 10:25",
-     "ts": 1794191121,
-     "summary": "美股SOX半导体指数自2026年6月22日高点以来，截至11月5日已累计下跌38%，从14634点跌至9011点，历时136天。 相比之下，美银Vivek Arya等分析师在最新研报中统计了过去四次主要半导体下行周期——2011年、2015年、2018年、2022年——平均持续253天，平均峰谷跌幅32%。 也就是说，这轮下跌的幅度已经超过历史平均，但持续时间尚不及历史均值的一半。 据追风交易台消息，Vivek Arya等分析师判断：这场“无差别投降式抛售”（indiscri",
-     "source": "华尔街见闻",
-     "agenda_layer": "market",
-     "language": "zh",
-     "id": "8322b44cef3f",
-     "keywords_zh": [
-      "财经 / 宏观"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:8322b44cef3f",
-     "cluster_size": 1,
-     "sources": [
-      "华尔街见闻"
-     ],
-     "languages": [
-      "zh"
-     ],
-     "agenda_layers": [
-      "market"
-     ],
-     "cluster_urls": [
-      {
-       "source": "华尔街见闻",
-       "title": "芯片股“投降式抛售”何时结束？美银：或在2027年初，股价回调通常领先基本面拐点6-9个月",
-       "url": "https://wallstreetcn.com/articles/3785510"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       11
-      ],
-      "observations": 1,
-      "first_seen": 1794192856
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "zh"
-      ],
-      "agenda_layers": [
-       "market"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "AI“沉船”风险会拖垮美元吗？",
-     "url": "https://wallstreetcn.com/articles/3785508",
-     "time": "11-09 10:04",
-     "ts": 1794189849,
-     "summary": "AI投资热潮引发的市场动荡，尚未动摇美元的基本面支撑。据追风交易台消息，巴克莱最新外汇策略报告指出，美国经济数据持续强劲，AI资本开支周期短期内大幅下修的可能性有限，这使得该行倾向于看好在美元回调时逢低买入策略。 当前美元风险溢价已降至约1%，为逾一年来最低水平。分析师指出，欧元兑美元或因欧元空头仓位拥挤而短暂升至1.14附近，但鉴于美国宏观基本面的持续韧性，这一走势“难以持续”。 AI资本开支的不确定性，正在以不同方式影响各主要货币——日元因避险需求受益，欧元则因法国财政风",
-     "source": "华尔街见闻",
-     "agenda_layer": "market",
-     "language": "zh",
-     "id": "b99b913d3b64",
-     "keywords_zh": [
-      "人工智能",
-      "AI资本开支"
-     ],
-     "event_type": "",
-     "related_assets": [
-      "国投白银LOF",
-      "黄金ETF华安"
-     ],
-     "relevance_score": 5,
-     "topic_id": "story:b99b913d3b64",
-     "cluster_size": 1,
-     "sources": [
-      "华尔街见闻"
-     ],
-     "languages": [
-      "zh"
-     ],
-     "agenda_layers": [
-      "market"
-     ],
-     "cluster_urls": [
-      {
-       "source": "华尔街见闻",
-       "title": "AI“沉船”风险会拖垮美元吗？",
-       "url": "https://wallstreetcn.com/articles/3785508"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       12
-      ],
-      "observations": 1,
-      "first_seen": 1794192856
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "zh"
-      ],
-      "agenda_layers": [
-       "market"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "无惧美股抛售？“木头姐”研判：忧虑筑起高墙 牛市走得更长！",
-     "url": "http://finance.eastmoney.com/news/1360,202611093925984275.html",
-     "time": "11-09 10:02",
-     "ts": 1794189742,
-     "summary": "华尔街明星基金经理、方舟投资（Ark Invest）的掌门人凯茜·伍德（Cathie Wood）对上周的市场波动不以为意，她甚至表示，投资者的担忧实际上增强了她对未来进一步上涨的乐观情绪。 美股上周四遭遇猛烈抛售，三大股指均创下2025年4月特朗普宣布“解放日”关税政策以来最大单日跌幅，纳指进入技术性回调区间。上周五，科技股出现初步反弹。 上周的抛售潮很大程度上源于市场担忧民主党掌控的国会将导致数据中心建设放缓。但需要注意的是，对人工智能（AI）的担忧——尤其是在资本支出、现",
-     "source": "东方财富资讯",
-     "agenda_layer": "market",
-     "language": "zh",
-     "id": "5dc3b7acead8",
-     "keywords_zh": [
-      "人工智能",
-      "数据中心"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:5dc3b7acead8",
-     "cluster_size": 1,
-     "sources": [
-      "东方财富资讯"
-     ],
-     "languages": [
-      "zh"
-     ],
-     "agenda_layers": [
-      "market"
-     ],
-     "cluster_urls": [
-      {
-       "source": "东方财富资讯",
-       "title": "无惧美股抛售？“木头姐”研判：忧虑筑起高墙 牛市走得更长！",
-       "url": "http://finance.eastmoney.com/news/1360,202611093925984275.html"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       13
-      ],
-      "observations": 1,
-      "first_seen": 1794192856
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "zh"
-      ],
-      "agenda_layers": [
-       "market"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "美股抛售尚未到头？凯投宏观警告：AI投资明年将放缓 2028年恐下滑10%",
-     "url": "http://stock.eastmoney.com/news/11228,202611093926039522.html",
-     "time": "11-09 09:50",
-     "ts": 1794189025,
-     "summary": "凯投宏观（Capital Economics）指出，尽管投资者近期已遭受重创，但随着AI投资热潮逐渐消退，美股还将面临更严重的暴跌。 该机构首席经济顾问Vicky Redwood在上周五的一份报告中表示，虽然AI具备提升生产力的潜力，但她对能否产生足够的收入来维持当前的投资增速持悲观态度。 少数几家超大规模云服务商今年的支出将达到8000亿美元，是去年的两倍，且2027年的投资额预计将达到1万亿美元或更多。很多预测认为，未来几年这些公司的年度资本支出将保持在1万亿美元以上。 ",
-     "source": "东方财富资讯",
-     "agenda_layer": "market",
-     "language": "zh",
-     "id": "1026c003b9c2",
-     "keywords_zh": [
-      "人工智能"
-     ],
-     "event_type": "",
-     "related_assets": [
-      "国投白银LOF",
-      "黄金ETF华安"
-     ],
-     "relevance_score": 3,
-     "topic_id": "story:1026c003b9c2",
-     "cluster_size": 1,
-     "sources": [
-      "东方财富资讯"
-     ],
-     "languages": [
-      "zh"
-     ],
-     "agenda_layers": [
-      "market"
-     ],
-     "cluster_urls": [
-      {
-       "source": "东方财富资讯",
-       "title": "美股抛售尚未到头？凯投宏观警告：AI投资明年将放缓 2028年恐下滑10%",
-       "url": "http://stock.eastmoney.com/news/11228,202611093926039522.html"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       14
-      ],
-      "observations": 1,
-      "first_seen": 1794192856
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "zh"
-      ],
-      "agenda_layers": [
-       "market"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "胡塞武装袭击利雅得金融区 地标建筑沙特阿美大楼受损",
-     "url": "http://finance.eastmoney.com/news/1356,202611093925849285.html",
-     "time": "11-09 09:36",
-     "ts": 1794188204,
-     "summary": "周日，也门胡塞武装再次将矛头对准利雅得。一枚发射物击中了沙特首都利雅得金融区的一座标志性摩天大楼，成为该组织持续扰乱沙特社会秩序的空袭行动中，又一处遇袭的地标建筑。 据熟悉此事的当地官员称，沙特阿美石油大楼——又称“空中别墅”(Villas in the Sky)，在胡塞武装发动的无人机和导弹袭击中受损。 沙特当地媒体援引该国能源部一名人士的话称，大楼受损是由落在建筑上的弹片造成的。报道补充称，此次袭击事件中无人受伤。此前，打击胡塞武装的沙特领导的联军表示，已拦截并摧毁了该组",
-     "source": "东方财富资讯",
-     "agenda_layer": "market",
-     "language": "zh",
-     "id": "8a4d6bf03623",
-     "keywords_zh": [
-      "财经 / 宏观"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:8a4d6bf03623",
-     "cluster_size": 1,
-     "sources": [
-      "东方财富资讯"
-     ],
-     "languages": [
-      "zh"
-     ],
-     "agenda_layers": [
-      "market"
-     ],
-     "cluster_urls": [
-      {
-       "source": "东方财富资讯",
-       "title": "胡塞武装袭击利雅得金融区 地标建筑沙特阿美大楼受损",
-       "url": "http://finance.eastmoney.com/news/1356,202611093925849285.html"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       15
-      ],
-      "observations": 1,
-      "first_seen": 1794192856
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "zh"
-      ],
-      "agenda_layers": [
-       "market"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "过去19年来最大的“意外”！高盛分析师复盘上周四的“科技股灾”",
-     "url": "https://wallstreetcn.com/articles/3785507",
-     "time": "11-09 09:36",
-     "ts": 1794188164,
-     "summary": "上周四，美股遭遇了一场令期权市场措手不及的历史性冲击。高盛衍生品策略师Brian Garrett在最新周末报告中指出，无论从市值蒸发规模、成交量、波动率跳升幅度还是投资者仓位来看，这一天的市场数据均与新冠疫情冲击、全球金融危机及所谓&#34;对等关税日&#34;的关税恐慌形成呼应——但其最大的特殊性在于，此次下跌相对于期权市场此前定价的“意外程度”，是过去19年来之最。 上周四，纳斯达克100指数单日暴跌6.4%，为2020年3月以来最大单日跌幅；标普500指数下跌4.4%，",
-     "source": "华尔街见闻",
-     "agenda_layer": "market",
-     "language": "zh",
-     "id": "5aaa479e226e",
-     "keywords_zh": [
-      "财经 / 宏观"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:5aaa479e226e",
-     "cluster_size": 1,
-     "sources": [
-      "华尔街见闻"
-     ],
-     "languages": [
-      "zh"
-     ],
-     "agenda_layers": [
-      "market"
-     ],
-     "cluster_urls": [
-      {
-       "source": "华尔街见闻",
-       "title": "过去19年来最大的“意外”！高盛分析师复盘上周四的“科技股灾”",
-       "url": "https://wallstreetcn.com/articles/3785507"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       16
-      ],
-      "observations": 1,
-      "first_seen": 1794192856
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "zh"
-      ],
-      "agenda_layers": [
-       "market"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "美银Hartnett：中选标志着“AI见顶”，华尔街“牛市信念逐一崩坍”",
-     "url": "https://wallstreetcn.com/articles/3785505",
-     "time": "11-09 09:35",
-     "ts": 1794188142,
-     "summary": "民主党“蓝潮”横扫国会，一场选举重写了华尔街的交易逻辑。 美国银行首席投资策略师Michael Hartnett在最新一期《Flow Show》周报中，将2026年中期选举定性为“AI股票集中度见顶”的历史节点，并开出一张与过去两年截然相反的交易清单。 一夜之间，三大“牛市信念”轰然倒塌 今年夏天，华尔街流行着四个“不会发生”：美联储不会加息、民主党不会横扫、AI资本开支不会削减、经济不会衰退。 现实一一打脸。 Hartnett在报告中直接点名：“华尔街夏季的牛市信念是&#3",
-     "source": "华尔街见闻",
-     "agenda_layer": "market",
-     "language": "zh",
-     "id": "5619b273e668",
-     "keywords_zh": [
-      "人工智能",
-      "AI资本开支",
-      "美联储"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:5619b273e668",
-     "cluster_size": 1,
-     "sources": [
-      "华尔街见闻"
-     ],
-     "languages": [
-      "zh"
-     ],
-     "agenda_layers": [
-      "market"
-     ],
-     "cluster_urls": [
-      {
-       "source": "华尔街见闻",
-       "title": "美银Hartnett：中选标志着“AI见顶”，华尔街“牛市信念逐一崩坍”",
-       "url": "https://wallstreetcn.com/articles/3785505"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       17
-      ],
-      "observations": 1,
-      "first_seen": 1794192856
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "zh"
-      ],
-      "agenda_layers": [
-       "market"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "AbbVie reports improved facial satisfaction among weight-loss drug users",
-     "url": "https://seekingalpha.com/news/4668783-abbvie-reports-improved-facial-satisfaction-among-weight-loss-drug-users",
-     "time": "11-09 09:33",
-     "ts": 1794187989,
-     "summary": "",
-     "source": "Seeking Alpha",
-     "agenda_layer": "market",
-     "language": "en",
-     "id": "72d735e1c494",
-     "keywords_zh": [
-      "财经 / 宏观"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:72d735e1c494",
-     "cluster_size": 1,
-     "sources": [
-      "Seeking Alpha"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "market"
-     ],
-     "cluster_urls": [
-      {
-       "source": "Seeking Alpha",
-       "title": "AbbVie reports improved facial satisfaction among weight-loss drug users",
-       "url": "https://seekingalpha.com/news/4668783-abbvie-reports-improved-facial-satisfaction-among-weight-loss-drug-users"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       18
-      ],
-      "observations": 1,
-      "first_seen": 1794192856
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "market"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "国家统计局：10月CPI同比上涨0.7% PPI同比上涨5.7%",
-     "url": "http://finance.eastmoney.com/news/1345,202611093925795942.html",
-     "time": "11-09 09:30",
-     "ts": 1794187839,
-     "summary": "2026年10月份居民消费价格同比上涨0.7% 2026年10月份，全国居民消费价格同比上涨0.7%。其中，城市上涨0.7%，农村上涨0.7%；食品价格下降2.9%，非食品价格上涨1.5%；消费品价格上涨0.8%，服务价格上涨0.7%。1—10月平均，全国居民消费价格比上年同期上涨0.9%。 10月份，全国居民消费价格环比持平。其中，城市持平，农村下降0.1%；食品价格下降1.0%，非食品价格上涨0.2%；消费品价格下降0.1%，服务价格上涨0.1%。 一、各类商品及服务价格",
-     "source": "东方财富资讯",
-     "agenda_layer": "market",
-     "language": "zh",
-     "id": "3c01dae39933",
-     "keywords_zh": [
-      "财经 / 宏观"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:3c01dae39933",
-     "cluster_size": 1,
-     "sources": [
-      "东方财富资讯"
-     ],
-     "languages": [
-      "zh"
-     ],
-     "agenda_layers": [
-      "market"
-     ],
-     "cluster_urls": [
-      {
-       "source": "东方财富资讯",
-       "title": "国家统计局：10月CPI同比上涨0.7% PPI同比上涨5.7%",
-       "url": "http://finance.eastmoney.com/news/1345,202611093925795942.html"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       19
-      ],
-      "observations": 1,
-      "first_seen": 1794192856
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "zh"
-      ],
-      "agenda_layers": [
-       "market"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "中国10月CPI同比增0.7%，数据存储设备涨45.4%，中国10月PPI同比增5.7%，创2022年6月以来最高",
-     "url": "https://wallstreetcn.com/articles/3785509",
-     "time": "11-09 09:30",
-     "ts": 1794187836,
-     "summary": "国家统计局周一（11月9日）公布数据显示，10月全国居民消费价格指数（CPI）同比上涨0.7%，涨幅较上月收窄0.2个百分点，环比持平。 其中，数据存储设备、平板电脑、计算机和移动电话机价格分别上涨45.4%、29.3%、23.0%和16.7%，四项合计影响CPI同比上涨约0.26个百分点。 与此同时，工业生产者出厂价格指数（PPI）同比上涨5.7%，涨幅较上月扩大0.7个百分点，延续上行势头。国家统计局城市司首席统计师董莉娟指出，能源相关行业价格上涨是推动PPI走高的主要动",
-     "source": "华尔街见闻",
-     "agenda_layer": "market",
-     "language": "zh",
-     "id": "c320ceefdffe",
-     "keywords_zh": [
-      "财经 / 宏观"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:c320ceefdffe",
-     "cluster_size": 1,
-     "sources": [
-      "华尔街见闻"
-     ],
-     "languages": [
-      "zh"
-     ],
-     "agenda_layers": [
-      "market"
-     ],
-     "cluster_urls": [
-      {
-       "source": "华尔街见闻",
-       "title": "中国10月CPI同比增0.7%，数据存储设备涨45.4%，中国10月PPI同比增5.7%，创2022年6月以来最高",
-       "url": "https://wallstreetcn.com/articles/3785509"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       20
-      ],
-      "observations": 1,
-      "first_seen": 1794192856
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "zh"
-      ],
-      "agenda_layers": [
-       "market"
-      ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -24418,14 +25407,15 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "rebound",
+      "label": "decay",
       "points": [
        4,
        20,
        33,
-       21
+       21,
+       35
       ],
-      "observations": 4,
+      "observations": 5,
       "first_seen": 1793892812
      },
      "resonance": {
@@ -24437,7 +25427,7 @@ window.DATA = {
       "agenda_layers": [
        "market"
       ],
-      "time_windows": 4
+      "time_windows": 5
      }
     },
     {
@@ -24475,11 +25465,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "decay",
       "points": [
-       22
+       22,
+       36
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -24491,7 +25482,7 @@ window.DATA = {
       "agenda_layers": [
        "market"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -24529,11 +25520,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "decay",
       "points": [
-       23
+       23,
+       37
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -24545,7 +25537,7 @@ window.DATA = {
       "agenda_layers": [
        "market"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -24583,11 +25575,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "decay",
       "points": [
-       24
+       24,
+       38
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -24599,61 +25592,7 @@ window.DATA = {
       "agenda_layers": [
        "market"
       ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "Rubio casts doubt on Iran peace deal as Trump signals reluctance to resume strikes",
-     "url": "https://seekingalpha.com/news/4668781-rubio-casts-doubt-on-iran-peace-deal-as-trump-signals-reluctance-to-resume-strikes",
-     "time": "11-09 08:18",
-     "ts": 1794183502,
-     "summary": "",
-     "source": "Seeking Alpha",
-     "agenda_layer": "market",
-     "language": "en",
-     "id": "295a3febddeb",
-     "keywords_zh": [
-      "财经 / 宏观"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:295a3febddeb",
-     "cluster_size": 1,
-     "sources": [
-      "Seeking Alpha"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "market"
-     ],
-     "cluster_urls": [
-      {
-       "source": "Seeking Alpha",
-       "title": "Rubio casts doubt on Iran peace deal as Trump signals reluctance to resume strikes",
-       "url": "https://seekingalpha.com/news/4668781-rubio-casts-doubt-on-iran-peace-deal-as-trump-signals-reluctance-to-resume-strikes"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       25
-      ],
-      "observations": 1,
-      "first_seen": 1794192856
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "market"
-      ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -24691,16 +25630,17 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "rebound",
+      "label": "decay",
       "points": [
        33,
        19,
        41,
        45,
        46,
-       26
+       26,
+       39
       ],
-      "observations": 6,
+      "observations": 7,
       "first_seen": 1793965064
      },
      "resonance": {
@@ -24712,7 +25652,7 @@ window.DATA = {
       "agenda_layers": [
        "market"
       ],
-      "time_windows": 5
+      "time_windows": 6
      }
     },
     {
@@ -24750,11 +25690,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "decay",
       "points": [
-       27
+       27,
+       40
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -24766,7 +25707,7 @@ window.DATA = {
       "agenda_layers": [
        "market"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -24804,12 +25745,13 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "rebound",
+      "label": "decay",
       "points": [
        21,
-       28
+       28,
+       41
       ],
-      "observations": 2,
+      "observations": 3,
       "first_seen": 1793977714
      },
      "resonance": {
@@ -24821,169 +25763,7 @@ window.DATA = {
       "agenda_layers": [
        "market"
       ],
-      "time_windows": 2
-     }
-    },
-    {
-     "title": "Vir Biotechnology reports positive hepatitis results, early signs of possible cure",
-     "url": "https://seekingalpha.com/news/4668779-vir-biotechnology-reports-positive-hepatitis-results-early-signs-of-possible-cure",
-     "time": "11-09 07:27",
-     "ts": 1794180434,
-     "summary": "",
-     "source": "Seeking Alpha",
-     "agenda_layer": "market",
-     "language": "en",
-     "id": "979454cc6f45",
-     "keywords_zh": [
-      "财经 / 宏观"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:979454cc6f45",
-     "cluster_size": 1,
-     "sources": [
-      "Seeking Alpha"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "market"
-     ],
-     "cluster_urls": [
-      {
-       "source": "Seeking Alpha",
-       "title": "Vir Biotechnology reports positive hepatitis results, early signs of possible cure",
-       "url": "https://seekingalpha.com/news/4668779-vir-biotechnology-reports-positive-hepatitis-results-early-signs-of-possible-cure"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       29
-      ],
-      "observations": 1,
-      "first_seen": 1794192856
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "market"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "Asian stocks face new pressure as Nvidia spy probe rattles tech sector",
-     "url": "https://seekingalpha.com/news/4668780-asian-stocks-face-new-pressure-as-nvidia-spy-probe-rattles-tech-sector",
-     "time": "11-09 07:12",
-     "ts": 1794179520,
-     "summary": "",
-     "source": "Seeking Alpha",
-     "agenda_layer": "market",
-     "language": "en",
-     "id": "5061741ac075",
-     "keywords_zh": [
-      "英伟达"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:5061741ac075",
-     "cluster_size": 1,
-     "sources": [
-      "Seeking Alpha"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "market"
-     ],
-     "cluster_urls": [
-      {
-       "source": "Seeking Alpha",
-       "title": "Asian stocks face new pressure as Nvidia spy probe rattles tech sector",
-       "url": "https://seekingalpha.com/news/4668780-asian-stocks-face-new-pressure-as-nvidia-spy-probe-rattles-tech-sector"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       30
-      ],
-      "observations": 1,
-      "first_seen": 1794192856
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "market"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "Here are the major earnings before the open Monday",
-     "url": "https://seekingalpha.com/news/4668744-here-are-the-major-earnings-before-the-open-monday",
-     "time": "11-09 07:04",
-     "ts": 1794179078,
-     "summary": "",
-     "source": "Seeking Alpha",
-     "agenda_layer": "market",
-     "language": "en",
-     "id": "c5c254de731b",
-     "keywords_zh": [
-      "财经 / 宏观"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:c5c254de731b",
-     "cluster_size": 1,
-     "sources": [
-      "Seeking Alpha"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "market"
-     ],
-     "cluster_urls": [
-      {
-       "source": "Seeking Alpha",
-       "title": "Here are the major earnings before the open Monday",
-       "url": "https://seekingalpha.com/news/4668744-here-are-the-major-earnings-before-the-open-monday"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       31
-      ],
-      "observations": 1,
-      "first_seen": 1794192856
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "market"
-      ],
-      "time_windows": 1
+      "time_windows": 3
      }
     },
     {
@@ -25021,11 +25801,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "decay",
       "points": [
-       32
+       32,
+       42
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -25037,7 +25818,7 @@ window.DATA = {
       "agenda_layers": [
        "market"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -25075,11 +25856,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "decay",
       "points": [
-       33
+       33,
+       43
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -25091,7 +25873,7 @@ window.DATA = {
       "agenda_layers": [
        "market"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -25129,11 +25911,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "decay",
       "points": [
-       34
+       34,
+       44
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -25145,115 +25928,7 @@ window.DATA = {
       "agenda_layers": [
        "market"
       ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "Democrats vow to impeach Trump officials and investigate Republican donors",
-     "url": "https://www.ft.com/content/111fefdb-0f85-4f8f-854f-86a5f81aceec",
-     "time": "11-09 02:10",
-     "ts": 1794161424,
-     "summary": "Pete Hegseth, Elon Musk and Venezuelan oil deals are early targets for Congressional probes by incoming lawmakers",
-     "source": "Financial Times",
-     "agenda_layer": "market",
-     "language": "en",
-     "id": "d3107d93137d",
-     "keywords_zh": [
-      "财经 / 宏观"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:d3107d93137d",
-     "cluster_size": 1,
-     "sources": [
-      "Financial Times"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "market"
-     ],
-     "cluster_urls": [
-      {
-       "source": "Financial Times",
-       "title": "Democrats vow to impeach Trump officials and investigate Republican donors",
-       "url": "https://www.ft.com/content/111fefdb-0f85-4f8f-854f-86a5f81aceec"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       35
-      ],
-      "observations": 1,
-      "first_seen": 1794192856
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "market"
-      ],
-      "time_windows": 1
-     }
-    },
-    {
-     "title": "A new economic agenda for America",
-     "url": "https://www.ft.com/content/81bd54ff-61b4-4fa6-83d3-5a73821a879c",
-     "time": "11-09 00:00",
-     "ts": 1794153600,
-     "summary": "Pro-growth policies on their own won’t address the concerns of voters worried about the cost of living",
-     "source": "Financial Times",
-     "agenda_layer": "market",
-     "language": "en",
-     "id": "a716f6004568",
-     "keywords_zh": [
-      "财经 / 宏观"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:a716f6004568",
-     "cluster_size": 1,
-     "sources": [
-      "Financial Times"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "market"
-     ],
-     "cluster_urls": [
-      {
-       "source": "Financial Times",
-       "title": "A new economic agenda for America",
-       "url": "https://www.ft.com/content/81bd54ff-61b4-4fa6-83d3-5a73821a879c"
-      }
-     ],
-     "trajectory": {
-      "label": "new",
-      "points": [
-       36
-      ],
-      "observations": 1,
-      "first_seen": 1794192856
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "market"
-      ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -25294,234 +25969,11 @@ window.DATA = {
       "label": "decay",
       "points": [
        15,
-       37
+       37,
+       45
       ],
-      "observations": 2,
+      "observations": 3,
       "first_seen": 1794147621
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "market"
-      ],
-      "time_windows": 2
-     }
-    },
-    {
-     "title": "Using miles to fly for Thanksgiving? These are the most expensive and cheapest routes",
-     "url": "https://www.cnbc.com/2026/11/08/frequent-flyer-miles-points-thanksgiving.html",
-     "time": "11-08 21:00",
-     "ts": 1794142801,
-     "summary": "Thanksgiving airfare will cost more than last year as fares rise and strong demand continues.",
-     "source": "CNBC",
-     "agenda_layer": "market",
-     "language": "en",
-     "id": "55853ca2a957",
-     "keywords_zh": [
-      "财经 / 宏观"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:55853ca2a957",
-     "cluster_size": 1,
-     "sources": [
-      "CNBC"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "market"
-     ],
-     "cluster_urls": [
-      {
-       "source": "CNBC",
-       "title": "Using miles to fly for Thanksgiving? These are the most expensive and cheapest routes",
-       "url": "https://www.cnbc.com/2026/11/08/frequent-flyer-miles-points-thanksgiving.html"
-      }
-     ],
-     "trajectory": {
-      "label": "decay",
-      "points": [
-       16,
-       38
-      ],
-      "observations": 2,
-      "first_seen": 1794147621
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "market"
-      ],
-      "time_windows": 2
-     }
-    },
-    {
-     "title": "Republican infighting mounts over corruption claims after midterms wipeout",
-     "url": "https://www.ft.com/content/66e9ca46-d1ea-473c-b8d6-06ba1dfc9e76",
-     "time": "11-08 20:51",
-     "ts": 1794142285,
-     "summary": "Former health official’s allegations of corporate influence over Trump administration policy spark war of words",
-     "source": "Financial Times",
-     "agenda_layer": "market",
-     "language": "en",
-     "id": "e960315d4cea",
-     "keywords_zh": [
-      "财经 / 宏观"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:e960315d4cea",
-     "cluster_size": 1,
-     "sources": [
-      "Financial Times"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "market"
-     ],
-     "cluster_urls": [
-      {
-       "source": "Financial Times",
-       "title": "Republican infighting mounts over corruption claims after midterms wipeout",
-       "url": "https://www.ft.com/content/66e9ca46-d1ea-473c-b8d6-06ba1dfc9e76"
-      }
-     ],
-     "trajectory": {
-      "label": "decay",
-      "points": [
-       18,
-       39
-      ],
-      "observations": 2,
-      "first_seen": 1794147621
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "market"
-      ],
-      "time_windows": 2
-     }
-    },
-    {
-     "title": "‘Radical left’ get the headlines but centrists dominate new US Congress",
-     "url": "https://www.ft.com/content/c8692ed7-f32b-487f-9efa-3ccd3d144f42",
-     "time": "11-08 13:00",
-     "ts": 1794114019,
-     "summary": "Most of the Democrats who swept to power in the midterms blue wave are moderates",
-     "source": "Financial Times",
-     "agenda_layer": "market",
-     "language": "en",
-     "id": "15e55ea5dfc1",
-     "keywords_zh": [
-      "财经 / 宏观"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:15e55ea5dfc1",
-     "cluster_size": 1,
-     "sources": [
-      "Financial Times"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "market"
-     ],
-     "cluster_urls": [
-      {
-       "source": "Financial Times",
-       "title": "‘Radical left’ get the headlines but centrists dominate new US Congress",
-       "url": "https://www.ft.com/content/c8692ed7-f32b-487f-9efa-3ccd3d144f42"
-      }
-     ],
-     "trajectory": {
-      "label": "steady",
-      "points": [
-       13,
-       25,
-       40,
-       40
-      ],
-      "observations": 4,
-      "first_seen": 1794118250
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "market"
-      ],
-      "time_windows": 3
-     }
-    },
-    {
-     "title": "America is craving a return to community",
-     "url": "https://www.ft.com/content/2a0bc83c-1c48-451a-a2b6-3371a36fc287",
-     "time": "11-08 13:00",
-     "ts": 1794114019,
-     "summary": "The midterms are only the latest sign of hope",
-     "source": "Financial Times",
-     "agenda_layer": "market",
-     "language": "en",
-     "id": "662a45b91941",
-     "keywords_zh": [
-      "财经 / 宏观"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:662a45b91941",
-     "cluster_size": 1,
-     "sources": [
-      "Financial Times"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "market"
-     ],
-     "cluster_urls": [
-      {
-       "source": "Financial Times",
-       "title": "America is craving a return to community",
-       "url": "https://www.ft.com/content/2a0bc83c-1c48-451a-a2b6-3371a36fc287"
-      }
-     ],
-     "trajectory": {
-      "label": "steady",
-      "points": [
-       15,
-       27,
-       42,
-       41
-      ],
-      "observations": 4,
-      "first_seen": 1794118250
      },
      "resonance": {
       "confirmed": false,
@@ -25570,18 +26022,18 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "surge",
+      "label": "decay",
       "points": [
-       49,
        48,
        48,
        40,
        47,
        42,
        48,
-       42
+       42,
+       46
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -25593,7 +26045,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -25631,18 +26083,18 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "surge",
+      "label": "decay",
       "points": [
-       50,
        49,
        49,
        41,
        48,
        43,
        49,
-       43
+       43,
+       47
       ],
-      "observations": 10,
+      "observations": 11,
       "first_seen": 1793977714
      },
      "resonance": {
@@ -25654,7 +26106,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 8
+      "time_windows": 9
      }
     },
     {
@@ -25692,18 +26144,18 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "surge",
+      "label": "decay",
       "points": [
-       51,
        50,
        50,
        42,
        49,
        44,
        50,
-       44
+       44,
+       48
       ],
-      "observations": 10,
+      "observations": 11,
       "first_seen": 1793977714
      },
      "resonance": {
@@ -25715,7 +26167,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 8
+      "time_windows": 9
      }
     },
     {
@@ -25753,18 +26205,18 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "surge",
+      "label": "decay",
       "points": [
-       52,
        51,
        51,
        43,
        50,
        45,
        51,
-       45
+       45,
+       49
       ],
-      "observations": 11,
+      "observations": 12,
       "first_seen": 1793965064
      },
      "resonance": {
@@ -25776,7 +26228,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 9
+      "time_windows": 10
      }
     },
     {
@@ -25814,18 +26266,18 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "surge",
+      "label": "decay",
       "points": [
-       53,
        52,
        52,
        44,
        51,
        46,
        52,
-       46
+       46,
+       50
       ],
-      "observations": 13,
+      "observations": 14,
       "first_seen": 1793936082
      },
      "resonance": {
@@ -25837,7 +26289,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 10
+      "time_windows": 11
      }
     },
     {
@@ -25875,16 +26327,77 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "surge",
+      "label": "decay",
       "points": [
-       54,
        53,
        53,
        45,
        52,
        47,
        53,
-       47
+       47,
+       51
+      ],
+      "observations": 14,
+      "first_seen": 1793936082
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "media"
+      ],
+      "time_windows": 11
+     }
+    },
+    {
+     "title": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
+     "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261105a.htm",
+     "time": "11-06 00:00",
+     "ts": 1793894400,
+     "summary": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
+     "source": "Federal Reserve",
+     "agenda_layer": "primary",
+     "language": "en",
+     "id": "705c3a1face9",
+     "keywords_zh": [
+      "美联储"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:705c3a1face9",
+     "cluster_size": 1,
+     "sources": [
+      "Federal Reserve"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "primary"
+     ],
+     "cluster_urls": [
+      {
+       "source": "Federal Reserve",
+       "title": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
+       "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261105a.htm"
+      }
+     ],
+     "trajectory": {
+      "label": "steady",
+      "points": [
+       55,
+       54,
+       54,
+       46,
+       53,
+       48,
+       54,
+       52
       ],
       "observations": 13,
       "first_seen": 1793936082
@@ -25896,7 +26409,7 @@ window.DATA = {
        "en"
       ],
       "agenda_layers": [
-       "media"
+       "primary"
       ],
       "time_windows": 10
      }
@@ -25936,18 +26449,18 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "surge",
+      "label": "decay",
       "points": [
-       56,
        55,
        55,
        47,
        54,
        49,
        55,
-       48
+       48,
+       53
       ],
-      "observations": 17,
+      "observations": 18,
       "first_seen": 1793849943
      },
      "resonance": {
@@ -25959,7 +26472,7 @@ window.DATA = {
       "agenda_layers": [
        "primary"
       ],
-      "time_windows": 13
+      "time_windows": 14
      }
     }
    ]
@@ -25970,6 +26483,114 @@ window.DATA = {
    "accent": "#38bdf8",
    "total": 8,
    "items": [
+    {
+     "title": "A single AI model simulates the behavior of many substances, from sliding sand to folding proteins",
+     "url": "https://news.mit.edu/2026/single-ai-model-simulates-many-substances-behavior-1109",
+     "time": "11-09 13:00",
+     "ts": 1794200400,
+     "summary": "By learning how matter moves, the WorldParticle system could assist with developing soft robots, medicines, and more.",
+     "source": "MIT News",
+     "agenda_layer": "media",
+     "language": "en",
+     "id": "073de583ed2b",
+     "keywords_zh": [
+      "人工智能"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:073de583ed2b",
+     "cluster_size": 1,
+     "sources": [
+      "MIT News"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "media"
+     ],
+     "cluster_urls": [
+      {
+       "source": "MIT News",
+       "title": "A single AI model simulates the behavior of many substances, from sliding sand to folding proteins",
+       "url": "https://news.mit.edu/2026/single-ai-model-simulates-many-substances-behavior-1109"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       1
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "media"
+      ],
+      "time_windows": 1
+     }
+    },
+    {
+     "title": "AI-assisted learning platform helps robots reason beyond literal commands",
+     "url": "https://news.mit.edu/2026/ai-assisted-learning-platform-helps-robots-reason-beyond-literal-commands-1109",
+     "time": "11-09 13:00",
+     "ts": 1794200400,
+     "summary": "The new approach, known as FLEX, could lead to more intuitive, interactive household and assistive robots.",
+     "source": "MIT News",
+     "agenda_layer": "media",
+     "language": "en",
+     "id": "efa47b2866c4",
+     "keywords_zh": [
+      "人工智能"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:efa47b2866c4",
+     "cluster_size": 1,
+     "sources": [
+      "MIT News"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "media"
+     ],
+     "cluster_urls": [
+      {
+       "source": "MIT News",
+       "title": "AI-assisted learning platform helps robots reason beyond literal commands",
+       "url": "https://news.mit.edu/2026/ai-assisted-learning-platform-helps-robots-reason-beyond-literal-commands-1109"
+      }
+     ],
+     "trajectory": {
+      "label": "new",
+      "points": [
+       2
+      ],
+      "observations": 1,
+      "first_seen": 1794206680
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "media"
+      ],
+      "time_windows": 1
+     }
+    },
     {
      "title": "A little-known protein could be a major culprit in type 2 diabetes",
      "url": "https://www.sciencedaily.com/releases/2026/11/261106174543.htm",
@@ -26005,12 +26626,67 @@ window.DATA = {
       }
      ],
      "trajectory": {
+      "label": "steady",
+      "points": [
+       1,
+       3
+      ],
+      "observations": 2,
+      "first_seen": 1794192856
+     },
+     "resonance": {
+      "confirmed": false,
+      "source_count": 1,
+      "languages": [
+       "en"
+      ],
+      "agenda_layers": [
+       "media"
+      ],
+      "time_windows": 2
+     }
+    },
+    {
+     "title": "COP31 kicks off as planet faces imminent overshoot of 1.5°C climate target",
+     "url": "https://www.nature.com/articles/d41586-026-03631-w",
+     "time": "11-09 08:00",
+     "ts": 1794182400,
+     "summary": "",
+     "source": "Nature News",
+     "agenda_layer": "media",
+     "language": "en",
+     "id": "b1a079b8ffcf",
+     "keywords_zh": [
+      "科学 / 前沿"
+     ],
+     "event_type": "",
+     "related_assets": [],
+     "relevance_score": 0,
+     "topic_id": "story:b1a079b8ffcf",
+     "cluster_size": 1,
+     "sources": [
+      "Nature News"
+     ],
+     "languages": [
+      "en"
+     ],
+     "agenda_layers": [
+      "media"
+     ],
+     "cluster_urls": [
+      {
+       "source": "Nature News",
+       "title": "COP31 kicks off as planet faces imminent overshoot of 1.5°C climate target",
+       "url": "https://www.nature.com/articles/d41586-026-03631-w"
+      }
+     ],
+     "trajectory": {
       "label": "new",
       "points": [
-       1
+       4
       ],
       "observations": 1,
-      "first_seen": 1794192856
+      "first_seen": 1794206680
      },
      "resonance": {
       "confirmed": false,
@@ -26059,11 +26735,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "decay",
       "points": [
-       2
+       2,
+       5
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -26075,7 +26752,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -26113,11 +26790,12 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "new",
+      "label": "decay",
       "points": [
-       3
+       3,
+       6
       ],
-      "observations": 1,
+      "observations": 2,
       "first_seen": 1794192856
      },
      "resonance": {
@@ -26129,7 +26807,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 1
+      "time_windows": 2
      }
     },
     {
@@ -26170,9 +26848,10 @@ window.DATA = {
       "label": "decay",
       "points": [
        1,
-       4
+       4,
+       7
       ],
-      "observations": 2,
+      "observations": 3,
       "first_seen": 1794147621
      },
      "resonance": {
@@ -26184,7 +26863,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 2
+      "time_windows": 3
      }
     },
     {
@@ -26225,9 +26904,10 @@ window.DATA = {
       "label": "decay",
       "points": [
        2,
-       5
+       5,
+       8
       ],
-      "observations": 2,
+      "observations": 3,
       "first_seen": 1794147621
      },
      "resonance": {
@@ -26239,7 +26919,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 2
+      "time_windows": 3
      }
     },
     {
@@ -26280,9 +26960,10 @@ window.DATA = {
       "label": "decay",
       "points": [
        3,
-       6
+       6,
+       9
       ],
-      "observations": 2,
+      "observations": 3,
       "first_seen": 1794147621
      },
      "resonance": {
@@ -26294,7 +26975,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 2
+      "time_windows": 3
      }
     },
     {
@@ -26335,9 +27016,10 @@ window.DATA = {
       "label": "decay",
       "points": [
        4,
-       7
+       7,
+       10
       ],
-      "observations": 2,
+      "observations": 3,
       "first_seen": 1794147621
      },
      "resonance": {
@@ -26349,7 +27031,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 2
+      "time_windows": 3
      }
     },
     {
@@ -26391,9 +27073,10 @@ window.DATA = {
       "points": [
        1,
        5,
-       8
+       8,
+       11
       ],
-      "observations": 3,
+      "observations": 4,
       "first_seen": 1794134849
      },
      "resonance": {
@@ -26405,7 +27088,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 3
+      "time_windows": 4
      }
     },
     {
@@ -26447,9 +27130,10 @@ window.DATA = {
       "points": [
        2,
        6,
-       9
+       9,
+       12
       ],
-      "observations": 3,
+      "observations": 4,
       "first_seen": 1794134849
      },
      "resonance": {
@@ -26461,7 +27145,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 3
+      "time_windows": 4
      }
     },
     {
@@ -26502,9 +27186,10 @@ window.DATA = {
       "label": "decay",
       "points": [
        7,
-       10
+       10,
+       13
       ],
-      "observations": 2,
+      "observations": 3,
       "first_seen": 1794147621
      },
      "resonance": {
@@ -26516,7 +27201,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 2
+      "time_windows": 3
      }
     },
     {
@@ -26554,12 +27239,13 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "steady",
+      "label": "decay",
       "points": [
        10,
-       11
+       11,
+       14
       ],
-      "observations": 2,
+      "observations": 3,
       "first_seen": 1794147621
      },
      "resonance": {
@@ -26571,7 +27257,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 2
+      "time_windows": 3
      }
     },
     {
@@ -26609,12 +27295,13 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "steady",
+      "label": "decay",
       "points": [
        11,
-       12
+       12,
+       15
       ],
-      "observations": 2,
+      "observations": 3,
       "first_seen": 1794147621
      },
      "resonance": {
@@ -26626,7 +27313,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 2
+      "time_windows": 3
      }
     },
     {
@@ -26664,15 +27351,16 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "steady",
+      "label": "decay",
       "points": [
        1,
        1,
        3,
        12,
-       13
+       13,
+       16
       ],
-      "observations": 5,
+      "observations": 6,
       "first_seen": 1794105533
      },
      "resonance": {
@@ -26684,7 +27372,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 4
+      "time_windows": 5
      }
     },
     {
@@ -26722,15 +27410,16 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "steady",
+      "label": "decay",
       "points": [
        2,
        2,
        4,
        13,
-       14
+       14,
+       17
       ],
-      "observations": 5,
+      "observations": 6,
       "first_seen": 1794105533
      },
      "resonance": {
@@ -26742,7 +27431,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 4
+      "time_windows": 5
      }
     },
     {
@@ -26780,16 +27469,17 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "steady",
+      "label": "decay",
       "points": [
        1,
        4,
        4,
        6,
        15,
-       15
+       15,
+       18
       ],
-      "observations": 6,
+      "observations": 7,
       "first_seen": 1794060423
      },
      "resonance": {
@@ -26801,7 +27491,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 5
+      "time_windows": 6
      }
     },
     {
@@ -26839,7 +27529,7 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "steady",
+      "label": "decay",
       "points": [
        2,
        4,
@@ -26847,9 +27537,10 @@ window.DATA = {
        7,
        9,
        16,
-       16
+       16,
+       19
       ],
-      "observations": 7,
+      "observations": 8,
       "first_seen": 1794048182
      },
      "resonance": {
@@ -26861,7 +27552,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 6
+      "time_windows": 7
      }
     },
     {
@@ -26899,18 +27590,18 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "steady",
+      "label": "decay",
       "points": [
-       2,
        5,
        7,
        10,
        10,
        11,
        17,
-       17
+       17,
+       20
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -26922,7 +27613,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -26960,18 +27651,18 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "steady",
+      "label": "decay",
       "points": [
-       3,
        6,
        8,
        11,
        11,
        12,
        18,
-       18
+       18,
+       21
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -26983,7 +27674,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -27021,18 +27712,18 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "steady",
+      "label": "decay",
       "points": [
-       4,
        7,
        9,
        12,
        12,
        13,
        19,
-       19
+       19,
+       22
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -27044,7 +27735,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -27082,18 +27773,18 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "steady",
+      "label": "decay",
       "points": [
-       5,
        8,
        10,
        13,
        13,
        14,
        20,
-       20
+       20,
+       23
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -27105,7 +27796,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -27143,18 +27834,18 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "steady",
+      "label": "decay",
       "points": [
-       6,
        9,
        11,
        14,
        14,
        15,
        21,
-       21
+       21,
+       24
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -27166,7 +27857,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -27204,18 +27895,18 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "steady",
+      "label": "decay",
       "points": [
-       9,
        12,
        14,
        15,
        15,
        16,
        22,
-       22
+       22,
+       25
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -27227,7 +27918,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -27265,18 +27956,18 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "steady",
+      "label": "decay",
       "points": [
-       10,
        13,
        15,
        16,
        16,
        17,
        23,
-       23
+       23,
+       26
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -27288,7 +27979,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -27326,18 +28017,18 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "steady",
+      "label": "decay",
       "points": [
-       11,
        14,
        16,
        17,
        17,
        18,
        24,
-       24
+       24,
+       27
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -27349,7 +28040,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -27387,18 +28078,18 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "steady",
+      "label": "decay",
       "points": [
-       12,
        15,
        17,
        18,
        18,
        19,
        25,
-       25
+       25,
+       28
       ],
-      "observations": 10,
+      "observations": 11,
       "first_seen": 1793977714
      },
      "resonance": {
@@ -27410,7 +28101,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 8
+      "time_windows": 9
      }
     },
     {
@@ -27448,18 +28139,18 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "steady",
+      "label": "decay",
       "points": [
-       13,
        16,
        18,
        19,
        19,
        20,
        26,
-       26
+       26,
+       29
       ],
-      "observations": 10,
+      "observations": 11,
       "first_seen": 1793977714
      },
      "resonance": {
@@ -27471,7 +28162,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 8
+      "time_windows": 9
      }
     },
     {
@@ -27509,18 +28200,18 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "steady",
+      "label": "decay",
       "points": [
-       24,
        25,
        26,
        26,
        26,
        26,
        27,
-       27
+       27,
+       30
       ],
-      "observations": 10,
+      "observations": 11,
       "first_seen": 1793977714
      },
      "resonance": {
@@ -27532,7 +28223,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 8
+      "time_windows": 9
      }
     },
     {
@@ -27570,18 +28261,18 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "steady",
+      "label": "decay",
       "points": [
-       25,
        26,
        27,
        27,
        27,
        27,
        28,
-       28
+       28,
+       31
       ],
-      "observations": 10,
+      "observations": 11,
       "first_seen": 1793977714
      },
      "resonance": {
@@ -27593,7 +28284,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 8
+      "time_windows": 9
      }
     },
     {
@@ -27631,18 +28322,18 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "steady",
+      "label": "decay",
       "points": [
-       26,
        27,
        28,
        28,
        28,
        28,
        29,
-       29
+       29,
+       32
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -27654,7 +28345,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -27692,18 +28383,18 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "steady",
+      "label": "decay",
       "points": [
-       27,
        28,
        29,
        29,
        29,
        29,
        30,
-       30
+       30,
+       33
       ],
-      "observations": 10,
+      "observations": 11,
       "first_seen": 1793977714
      },
      "resonance": {
@@ -27715,7 +28406,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 8
+      "time_windows": 9
      }
     },
     {
@@ -27753,18 +28444,18 @@ window.DATA = {
       }
      ],
      "trajectory": {
-      "label": "steady",
+      "label": "decay",
       "points": [
-       28,
        29,
        30,
        30,
        30,
        30,
        31,
-       31
+       31,
+       34
       ],
-      "observations": 9,
+      "observations": 10,
       "first_seen": 1794020600
      },
      "resonance": {
@@ -27776,69 +28467,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 7
-     }
-    },
-    {
-     "title": "These AI agents design your perfect robot-powered lab — and run it for you",
-     "url": "https://www.nature.com/articles/d41586-026-03587-x",
-     "time": "11-06 08:00",
-     "ts": 1793923200,
-     "summary": "",
-     "source": "Nature News",
-     "agenda_layer": "media",
-     "language": "en",
-     "id": "3491c7dcfe5a",
-     "keywords_zh": [
-      "人工智能",
-      "机器人"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:3491c7dcfe5a",
-     "cluster_size": 1,
-     "sources": [
-      "Nature News"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "media"
-     ],
-     "cluster_urls": [
-      {
-       "source": "Nature News",
-       "title": "These AI agents design your perfect robot-powered lab — and run it for you",
-       "url": "https://www.nature.com/articles/d41586-026-03587-x"
-      }
-     ],
-     "trajectory": {
-      "label": "steady",
-      "points": [
-       29,
-       30,
-       31,
-       31,
-       31,
-       31,
-       32,
-       32
-      ],
-      "observations": 9,
-      "first_seen": 1794020600
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "media"
-      ],
-      "time_windows": 7
+      "time_windows": 8
      }
     },
     {
@@ -27878,16 +28507,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       30,
        31,
        32,
        32,
        32,
        32,
        33,
-       33
+       33,
+       35
       ],
-      "observations": 13,
+      "observations": 14,
       "first_seen": 1793936082
      },
      "resonance": {
@@ -27899,7 +28528,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 10
+      "time_windows": 11
      }
     },
     {
@@ -27939,16 +28568,16 @@ window.DATA = {
      "trajectory": {
       "label": "steady",
       "points": [
-       31,
        32,
        33,
        33,
        33,
        33,
        34,
-       34
+       34,
+       36
       ],
-      "observations": 13,
+      "observations": 14,
       "first_seen": 1793936082
      },
      "resonance": {
@@ -27960,7 +28589,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 10
+      "time_windows": 11
      }
     },
     {
@@ -28001,15 +28630,15 @@ window.DATA = {
       "label": "steady",
       "points": [
        33,
-       33,
        34,
        34,
        34,
        34,
        35,
-       35
+       35,
+       37
       ],
-      "observations": 13,
+      "observations": 14,
       "first_seen": 1793936082
      },
      "resonance": {
@@ -28021,7 +28650,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 10
+      "time_windows": 11
      }
     },
     {
@@ -28062,15 +28691,15 @@ window.DATA = {
       "label": "steady",
       "points": [
        34,
-       34,
        35,
        35,
        35,
        35,
        36,
-       36
+       36,
+       38
       ],
-      "observations": 13,
+      "observations": 14,
       "first_seen": 1793936082
      },
      "resonance": {
@@ -28082,7 +28711,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 10
+      "time_windows": 11
      }
     },
     {
@@ -28123,15 +28752,15 @@ window.DATA = {
       "label": "steady",
       "points": [
        35,
-       35,
        36,
        36,
        36,
        36,
        37,
-       37
+       37,
+       39
       ],
-      "observations": 13,
+      "observations": 14,
       "first_seen": 1793936082
      },
      "resonance": {
@@ -28143,7 +28772,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 10
+      "time_windows": 11
      }
     },
     {
@@ -28184,15 +28813,15 @@ window.DATA = {
       "label": "steady",
       "points": [
        36,
-       36,
        37,
        37,
        37,
        37,
        38,
-       38
+       38,
+       40
       ],
-      "observations": 16,
+      "observations": 17,
       "first_seen": 1793861748
      },
      "resonance": {
@@ -28204,7 +28833,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 12
+      "time_windows": 13
      }
     },
     {
@@ -28245,15 +28874,15 @@ window.DATA = {
       "label": "steady",
       "points": [
        37,
-       37,
        38,
        38,
        38,
        38,
        39,
-       39
+       39,
+       41
       ],
-      "observations": 16,
+      "observations": 17,
       "first_seen": 1793861748
      },
      "resonance": {
@@ -28265,7 +28894,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 12
+      "time_windows": 13
      }
     },
     {
@@ -28306,15 +28935,15 @@ window.DATA = {
       "label": "steady",
       "points": [
        38,
-       38,
        39,
        39,
        39,
        39,
        40,
-       40
+       40,
+       42
       ],
-      "observations": 17,
+      "observations": 18,
       "first_seen": 1793849943
      },
      "resonance": {
@@ -28326,7 +28955,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 13
+      "time_windows": 14
      }
     },
     {
@@ -28367,15 +28996,15 @@ window.DATA = {
       "label": "steady",
       "points": [
        39,
-       39,
        40,
        40,
        40,
        40,
        41,
-       41
+       41,
+       43
       ],
-      "observations": 17,
+      "observations": 18,
       "first_seen": 1793849943
      },
      "resonance": {
@@ -28387,7 +29016,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 13
+      "time_windows": 14
      }
     },
     {
@@ -28428,15 +29057,15 @@ window.DATA = {
       "label": "steady",
       "points": [
        40,
-       40,
        41,
        41,
        41,
        41,
        42,
-       42
+       42,
+       44
       ],
-      "observations": 18,
+      "observations": 19,
       "first_seen": 1793806180
      },
      "resonance": {
@@ -28448,129 +29077,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 14
-     }
-    },
-    {
-     "title": "MIT-led team receives funding to develop a wearable monitor for early disease detection",
-     "url": "https://news.mit.edu/2026/mit-led-team-receives-funding-for-early-disease-detection-wearable-monitor-1104",
-     "time": "11-04 13:00",
-     "ts": 1793768400,
-     "summary": "Awarded up to $38 million from ARPA-H, the team aims to create a low-power, noninvasive sensor patch that measures heart failure and sepsis biomarkers in real-time.",
-     "source": "MIT News",
-     "agenda_layer": "media",
-     "language": "en",
-     "id": "b4d3bb5c19d8",
-     "keywords_zh": [
-      "科学 / 前沿"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:b4d3bb5c19d8",
-     "cluster_size": 1,
-     "sources": [
-      "MIT News"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "media"
-     ],
-     "cluster_urls": [
-      {
-       "source": "MIT News",
-       "title": "MIT-led team receives funding to develop a wearable monitor for early disease detection",
-       "url": "https://news.mit.edu/2026/mit-led-team-receives-funding-for-early-disease-detection-wearable-monitor-1104"
-      }
-     ],
-     "trajectory": {
-      "label": "steady",
-      "points": [
-       41,
-       41,
-       42,
-       42,
-       42,
-       42,
-       43,
-       43
-      ],
-      "observations": 20,
-      "first_seen": 1793774047
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "media"
-      ],
       "time_windows": 15
-     }
-    },
-    {
-     "title": "Featured video: Changing the conversation about endometriosis",
-     "url": "https://news.mit.edu/2026/featured-video-changing-conversation-about-endometriosis-1103",
-     "time": "11-04 05:00",
-     "ts": 1793739600,
-     "summary": "Documentary shines a powerful light on a painful disease that affects 265 million women, highlights efforts at MIT’s Center for Gynepathology Research to study the disease and find treatments.",
-     "source": "MIT News",
-     "agenda_layer": "media",
-     "language": "en",
-     "id": "f3f94f13ac5a",
-     "keywords_zh": [
-      "科学 / 前沿"
-     ],
-     "event_type": "",
-     "related_assets": [],
-     "relevance_score": 0,
-     "topic_id": "story:f3f94f13ac5a",
-     "cluster_size": 1,
-     "sources": [
-      "MIT News"
-     ],
-     "languages": [
-      "en"
-     ],
-     "agenda_layers": [
-      "media"
-     ],
-     "cluster_urls": [
-      {
-       "source": "MIT News",
-       "title": "Featured video: Changing the conversation about endometriosis",
-       "url": "https://news.mit.edu/2026/featured-video-changing-conversation-about-endometriosis-1103"
-      }
-     ],
-     "trajectory": {
-      "label": "steady",
-      "points": [
-       42,
-       42,
-       43,
-       43,
-       43,
-       43,
-       44,
-       44
-      ],
-      "observations": 21,
-      "first_seen": 1793761629
-     },
-     "resonance": {
-      "confirmed": false,
-      "source_count": 1,
-      "languages": [
-       "en"
-      ],
-      "agenda_layers": [
-       "media"
-      ],
-      "time_windows": 16
      }
     },
     {
@@ -28631,7 +29138,7 @@ window.DATA = {
       "agenda_layers": [
        "media"
       ],
-      "time_windows": 18
+      "time_windows": 19
      }
     }
    ]
@@ -28683,7 +29190,7 @@ window.DATA = {
     "成交量放大且收盘站稳",
     "利好后不出现冲高回落"
    ],
-   "news_hits": 2
+   "news_hits": 1
   },
   {
    "code": "001309",
@@ -28765,7 +29272,7 @@ window.DATA = {
     "海外AI硬件与A股CPO同步走强",
     "高位放量后能维持强势"
    ],
-   "news_hits": 5
+   "news_hits": 4
   },
   {
    "code": "002384",
@@ -28925,7 +29432,7 @@ window.DATA = {
     "银价上涨时场内溢价未继续扩大",
     "基金公告未新增交易限制"
    ],
-   "news_hits": 3
+   "news_hits": 2
   },
   {
    "code": "518880",
@@ -29035,18 +29542,18 @@ window.DATA = {
  "stats": {
   "industries": 12,
   "total_sources": 108,
-  "raw_items": 515,
-  "unique_items": 492,
-  "failed_sources": 10,
-  "event_cards": 488,
-  "trajectory_signals": 3,
+  "raw_items": 521,
+  "unique_items": 499,
+  "failed_sources": 7,
+  "event_cards": 496,
+  "trajectory_signals": 1,
   "history": {
-   "updated_at": "2026-11-09 10:54",
-   "sampling_windows": 173,
-   "previous_sample_at": "2026-11-08 22:20",
-   "latest_sample_at": "2026-11-09 10:54",
-   "tracked_topics": 8562,
-   "comparable_topics": 4393,
+   "updated_at": "2026-11-09 14:44",
+   "sampling_windows": 174,
+   "previous_sample_at": "2026-11-09 10:54",
+   "latest_sample_at": "2026-11-09 14:44",
+   "tracked_topics": 8522,
+   "comparable_topics": 4376,
    "coalesce_minutes": 30
   }
  }
