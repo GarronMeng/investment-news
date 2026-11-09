@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-11-09T16:51:10+08:00",
-  "history_generated_at": "2026-11-09T16:50:58+08:00",
-  "records": 668,
-  "raw_ledger_records": 696,
+  "generated_at": "2026-11-09T19:58:25+08:00",
+  "history_generated_at": "2026-11-09T19:58:13+08:00",
+  "records": 669,
+  "raw_ledger_records": 697,
   "superseded_records": 28,
   "evaluations": [
     {
@@ -29501,6 +29501,32 @@
       }
     },
     {
+      "state_id": "7f6eb85c6c25dea1",
+      "state_revision": 2,
+      "asset": "600667",
+      "name": "太极实业",
+      "signal_date": "2026-11-09",
+      "matrix_direction": "bearish",
+      "thesis_state": "confirmed",
+      "evidence_state": "multi_layer_confirmed",
+      "composite_score": -41.9,
+      "confluence": 82.6,
+      "conflict_score": 0.0,
+      "entry_date": "2026-11-09",
+      "entry_close": 12.72,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
       "state_id": "e847bd0229049117",
       "state_revision": 2,
       "asset": "603986",
@@ -29529,7 +29555,7 @@
   ],
   "by_thesis_state": {
     "confirmed": {
-      "records": 214,
+      "records": 215,
       "horizons": {
         "t1": {
           "settled": 213,
@@ -29787,7 +29813,7 @@
       }
     },
     "multi_layer_confirmed": {
-      "records": 219,
+      "records": 220,
       "horizons": {
         "t1": {
           "settled": 218,
