@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated_at": "2026-11-08T22:21:22+08:00",
+  "generated_at": "2026-11-09T16:50:58+08:00",
   "timezone": "Asia/Shanghai",
   "benchmark": {
     "code": "510300",
@@ -9,18 +9,9 @@
     "kind": "etf",
     "status": "fresh",
     "source": "东方财富 via AKShare",
-    "last_date": "2026-11-06",
+    "last_date": "2026-11-09",
     "observations": 140,
     "rows": [
-      {
-        "date": "2026-04-13",
-        "open": 4.629,
-        "high": 4.66,
-        "low": 4.623,
-        "close": 4.652,
-        "volume": 3928926.0,
-        "amount": 1825187755.0
-      },
       {
         "date": "2026-04-14",
         "open": 4.679,
@@ -1271,6 +1262,15 @@
         "close": 4.124,
         "volume": 12629370.0,
         "amount": 5211672667.0
+      },
+      {
+        "date": "2026-11-09",
+        "open": 4.14,
+        "high": 4.16,
+        "low": 4.13,
+        "close": 4.13,
+        "volume": 10649267.0,
+        "amount": 4411099754.0
       }
     ]
   },
@@ -1288,18 +1288,9 @@
       "kind": "stock",
       "status": "fresh",
       "source": "新浪财经 via AKShare",
-      "last_date": "2026-11-06",
+      "last_date": "2026-11-09",
       "observations": 140,
       "rows": [
-        {
-          "date": "2026-04-13",
-          "open": 261.0,
-          "high": 269.84,
-          "low": 260.9,
-          "close": 262.14,
-          "volume": 41242092.0,
-          "amount": 10896229970.0
-        },
         {
           "date": "2026-04-14",
           "open": 269.5,
@@ -2550,6 +2541,15 @@
           "close": 239.49,
           "volume": 41225055.0,
           "amount": 9971889508.0
+        },
+        {
+          "date": "2026-11-09",
+          "open": 242.0,
+          "high": 245.11,
+          "low": 237.28,
+          "close": 238.41,
+          "volume": 28514369.0,
+          "amount": 6881663012.0
         }
       ],
       "fallback_reason": "stock_zh_a_hist() got an unexpected keyword argument 'timeout'"
@@ -2561,18 +2561,9 @@
       "kind": "stock",
       "status": "fresh",
       "source": "新浪财经 via AKShare",
-      "last_date": "2026-11-06",
+      "last_date": "2026-11-09",
       "observations": 140,
       "rows": [
-        {
-          "date": "2026-04-13",
-          "open": 450.15,
-          "high": 488.5,
-          "low": 450.15,
-          "close": 481.49,
-          "volume": 21610972.0,
-          "amount": 10120092937.0
-        },
         {
           "date": "2026-04-14",
           "open": 485.19,
@@ -3823,6 +3814,15 @@
           "close": 185.95,
           "volume": 17232851.0,
           "amount": 3225487891.0
+        },
+        {
+          "date": "2026-11-09",
+          "open": 189.0,
+          "high": 192.74,
+          "low": 185.44,
+          "close": 187.37,
+          "volume": 12334143.0,
+          "amount": 2333698749.0
         }
       ],
       "fallback_reason": "stock_zh_a_hist() got an unexpected keyword argument 'timeout'"
@@ -3834,18 +3834,9 @@
       "kind": "stock",
       "status": "fresh",
       "source": "新浪财经 via AKShare",
-      "last_date": "2026-11-06",
+      "last_date": "2026-11-09",
       "observations": 140,
       "rows": [
-        {
-          "date": "2026-04-13",
-          "open": 738.8,
-          "high": 744.0,
-          "low": 714.23,
-          "close": 738.0,
-          "volume": 22887618.0,
-          "amount": 16730510499.0
-        },
         {
           "date": "2026-04-14",
           "open": 750.0,
@@ -5096,6 +5087,15 @@
           "close": 448.0,
           "volume": 54110132.0,
           "amount": 23973458008.0
+        },
+        {
+          "date": "2026-11-09",
+          "open": 451.0,
+          "high": 475.71,
+          "low": 430.1,
+          "close": 452.03,
+          "volume": 47602447.0,
+          "amount": 21727765266.0
         }
       ],
       "fallback_reason": "stock_zh_a_hist() got an unexpected keyword argument 'timeout'"
@@ -5107,18 +5107,9 @@
       "kind": "stock",
       "status": "fresh",
       "source": "新浪财经 via AKShare",
-      "last_date": "2026-11-06",
+      "last_date": "2026-11-09",
       "observations": 140,
       "rows": [
-        {
-          "date": "2026-04-13",
-          "open": 143.61,
-          "high": 149.68,
-          "low": 143.61,
-          "close": 146.83,
-          "volume": 108615935.0,
-          "amount": 15957645533.0
-        },
         {
           "date": "2026-04-14",
           "open": 147.0,
@@ -6369,6 +6360,15 @@
           "close": 80.19,
           "volume": 152431289.0,
           "amount": 12298448737.0
+        },
+        {
+          "date": "2026-11-09",
+          "open": 81.63,
+          "high": 84.19,
+          "low": 78.0,
+          "close": 81.49,
+          "volume": 131089054.0,
+          "amount": 10715021455.0
         }
       ],
       "fallback_reason": "stock_zh_a_hist() got an unexpected keyword argument 'timeout'"
@@ -6380,18 +6380,9 @@
       "kind": "stock",
       "status": "fresh",
       "source": "新浪财经 via AKShare",
-      "last_date": "2026-11-06",
+      "last_date": "2026-11-09",
       "observations": 140,
       "rows": [
-        {
-          "date": "2026-04-13",
-          "open": 9.39,
-          "high": 9.67,
-          "low": 9.39,
-          "close": 9.61,
-          "volume": 83581434.0,
-          "amount": 801746574.0
-        },
         {
           "date": "2026-04-14",
           "open": 9.82,
@@ -7642,6 +7633,15 @@
           "close": 12.68,
           "volume": 103479194.0,
           "amount": 1314054327.0
+        },
+        {
+          "date": "2026-11-09",
+          "open": 12.9,
+          "high": 13.07,
+          "low": 12.71,
+          "close": 12.72,
+          "volume": 79002615.0,
+          "amount": 1017234570.0
         }
       ],
       "fallback_reason": "stock_zh_a_hist() got an unexpected keyword argument 'timeout'"
@@ -7653,18 +7653,9 @@
       "kind": "stock",
       "status": "fresh",
       "source": "新浪财经 via AKShare",
-      "last_date": "2026-11-06",
+      "last_date": "2026-11-09",
       "observations": 140,
       "rows": [
-        {
-          "date": "2026-04-13",
-          "open": 19.81,
-          "high": 20.68,
-          "low": 19.78,
-          "close": 20.49,
-          "volume": 55211703.0,
-          "amount": 1124895173.0
-        },
         {
           "date": "2026-04-14",
           "open": 20.98,
@@ -8915,6 +8906,15 @@
           "close": 31.49,
           "volume": 70164543.0,
           "amount": 2192296192.0
+        },
+        {
+          "date": "2026-11-09",
+          "open": 32.12,
+          "high": 32.6,
+          "low": 31.73,
+          "close": 31.78,
+          "volume": 53337552.0,
+          "amount": 1711438908.0
         }
       ],
       "fallback_reason": "stock_zh_a_hist() got an unexpected keyword argument 'timeout'"
@@ -8926,18 +8926,9 @@
       "kind": "lof",
       "status": "fresh",
       "source": "东方财富 via AKShare",
-      "last_date": "2026-11-06",
+      "last_date": "2026-11-09",
       "observations": 140,
       "rows": [
-        {
-          "date": "2026-04-13",
-          "open": 2.827,
-          "high": 2.841,
-          "low": 2.801,
-          "close": 2.824,
-          "volume": 1524021.0,
-          "amount": 429780121.494
-        },
         {
           "date": "2026-04-14",
           "open": 2.853,
@@ -10188,6 +10179,15 @@
           "close": 1.51,
           "volume": 948648.0,
           "amount": 143236423.157
+        },
+        {
+          "date": "2026-11-09",
+          "open": 1.527,
+          "high": 1.548,
+          "low": 1.52,
+          "close": 1.521,
+          "volume": 816086.0,
+          "amount": 125218892.802
         }
       ]
     },
@@ -10198,18 +10198,9 @@
       "kind": "etf",
       "status": "fresh",
       "source": "东方财富 via AKShare",
-      "last_date": "2026-11-06",
+      "last_date": "2026-11-09",
       "observations": 140,
       "rows": [
-        {
-          "date": "2026-04-13",
-          "open": 9.918,
-          "high": 9.939,
-          "low": 9.9,
-          "close": 9.924,
-          "volume": 4285544.0,
-          "amount": 4251246607.0
-        },
         {
           "date": "2026-04-14",
           "open": 9.999,
@@ -11460,6 +11451,15 @@
           "close": 8.253,
           "volume": 4575205.0,
           "amount": 3783500413.0
+        },
+        {
+          "date": "2026-11-09",
+          "open": 8.38,
+          "high": 8.431,
+          "low": 8.367,
+          "close": 8.375,
+          "volume": 4128254.0,
+          "amount": 3468428203.0
         }
       ]
     },
@@ -11470,18 +11470,9 @@
       "kind": "etf",
       "status": "fresh",
       "source": "东方财富 via AKShare",
-      "last_date": "2026-11-06",
+      "last_date": "2026-11-09",
       "observations": 140,
       "rows": [
-        {
-          "date": "2026-04-13",
-          "open": 0.779,
-          "high": 0.779,
-          "low": 0.769,
-          "close": 0.774,
-          "volume": 340872.0,
-          "amount": 26375000.0
-        },
         {
           "date": "2026-04-14",
           "open": 0.776,
@@ -12732,6 +12723,15 @@
           "close": 0.854,
           "volume": 1261652.0,
           "amount": 107952911.0
+        },
+        {
+          "date": "2026-11-09",
+          "open": 0.86,
+          "high": 0.869,
+          "low": 0.853,
+          "close": 0.853,
+          "volume": 1105522.0,
+          "amount": 95070185.0
         }
       ]
     }
