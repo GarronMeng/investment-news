@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-09T21:55:32+08:00",
+  "generated_at": "2026-11-10T01:26:53+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -17,13 +17,13 @@
       "previous_close": 239.49,
       "change_pct": -0.45,
       "open": 242.0,
-      "high": 245.11000061035156,
-      "low": 237.27999877929688,
-      "turnover": null,
-      "as_of": "2026-11-09T09:30:00+08:00",
+      "high": 245.11,
+      "low": 237.28,
+      "turnover": 6881663012.0,
+      "as_of": "2026-11-10T01:26:53+08:00",
       "status": "fresh",
-      "confidence": "low",
-      "source": "Yahoo Finance"
+      "confidence": "medium",
+      "source": "东方财富 via AKShare"
     },
     {
       "code": "001309",
@@ -33,13 +33,13 @@
       "previous_close": 185.95,
       "change_pct": 0.76,
       "open": 189.0,
-      "high": 192.74000549316406,
-      "low": 185.44000244140625,
-      "turnover": null,
-      "as_of": "2026-11-09T09:30:00+08:00",
+      "high": 192.74,
+      "low": 185.44,
+      "turnover": 2333698749.42,
+      "as_of": "2026-11-10T01:26:53+08:00",
       "status": "fresh",
-      "confidence": "low",
-      "source": "Yahoo Finance"
+      "confidence": "medium",
+      "source": "东方财富 via AKShare"
     },
     {
       "code": "300308",
@@ -49,13 +49,13 @@
       "previous_close": 448.0,
       "change_pct": 0.9,
       "open": 451.0,
-      "high": 475.7099914550781,
-      "low": 430.1000061035156,
-      "turnover": null,
-      "as_of": "2026-11-09T09:30:00+08:00",
+      "high": 475.71,
+      "low": 430.1,
+      "turnover": 21727765266.48,
+      "as_of": "2026-11-10T01:26:53+08:00",
       "status": "fresh",
-      "confidence": "low",
-      "source": "Yahoo Finance"
+      "confidence": "medium",
+      "source": "东方财富 via AKShare"
     },
     {
       "code": "002384",
@@ -64,14 +64,14 @@
       "price": 81.49,
       "previous_close": 80.19,
       "change_pct": 1.62,
-      "open": 81.62999725341797,
-      "high": 84.19000244140625,
+      "open": 81.63,
+      "high": 84.19,
       "low": 78.0,
-      "turnover": null,
-      "as_of": "2026-11-09T09:30:00+08:00",
+      "turnover": 10715021454.94,
+      "as_of": "2026-11-10T01:26:53+08:00",
       "status": "fresh",
-      "confidence": "low",
-      "source": "Yahoo Finance"
+      "confidence": "medium",
+      "source": "东方财富 via AKShare"
     },
     {
       "code": "600667",
@@ -80,14 +80,14 @@
       "price": 12.72,
       "previous_close": 12.68,
       "change_pct": 0.32,
-      "open": 12.899999618530273,
-      "high": 13.069999694824219,
-      "low": 12.710000038146973,
-      "turnover": null,
-      "as_of": "2026-11-09T09:30:00+08:00",
+      "open": 12.9,
+      "high": 13.07,
+      "low": 12.71,
+      "turnover": 1017234570.0,
+      "as_of": "2026-11-10T01:26:53+08:00",
       "status": "fresh",
-      "confidence": "low",
-      "source": "Yahoo Finance"
+      "confidence": "medium",
+      "source": "东方财富 via AKShare"
     },
     {
       "code": "000636",
@@ -96,14 +96,14 @@
       "price": 31.78,
       "previous_close": 31.49,
       "change_pct": 0.92,
-      "open": 32.119998931884766,
-      "high": 32.599998474121094,
-      "low": 31.729999542236328,
-      "turnover": null,
-      "as_of": "2026-11-09T09:30:00+08:00",
+      "open": 32.12,
+      "high": 32.6,
+      "low": 31.73,
+      "turnover": 1711438907.87,
+      "as_of": "2026-11-10T01:26:53+08:00",
       "status": "fresh",
-      "confidence": "low",
-      "source": "Yahoo Finance"
+      "confidence": "medium",
+      "source": "东方财富 via AKShare"
     },
     {
       "code": "161226",
@@ -116,7 +116,7 @@
       "high": null,
       "low": null,
       "turnover": 125218892.802,
-      "as_of": "2026-11-09T21:55:32+08:00",
+      "as_of": "2026-11-10T01:26:53+08:00",
       "status": "fresh",
       "confidence": "medium",
       "source": "东方财富 via AKShare"
@@ -132,7 +132,7 @@
       "high": null,
       "low": null,
       "turnover": 3468428203.0,
-      "as_of": "2026-11-09T21:55:32+08:00",
+      "as_of": "2026-11-10T01:26:53+08:00",
       "status": "fresh",
       "confidence": "medium",
       "source": "东方财富 via AKShare"
@@ -148,14 +148,12 @@
       "high": null,
       "low": null,
       "turnover": 95070185.0,
-      "as_of": "2026-11-09T21:55:32+08:00",
+      "as_of": "2026-11-10T01:26:53+08:00",
       "status": "fresh",
       "confidence": "medium",
       "source": "东方财富 via AKShare"
     }
   ],
-  "warnings": [
-    "A股: HTTPSConnectionPool(host='82.push2delay.eastmoney.com', port=443): Read timed out. (read timeout=10)"
-  ],
+  "warnings": [],
   "methodology": "AKShare/东方财富批量行情为主，Yahoo Finance为逐标的备用；失败时保留最近成功值并标记过期。"
 }
