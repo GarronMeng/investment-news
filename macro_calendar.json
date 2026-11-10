@@ -1,135 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-11-10T01:52:44+08:00",
+  "generated_at": "2026-11-10T12:47:45+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
-    {
-      "date": "2026-11-10",
-      "time": "10:30",
-      "type": "macro",
-      "category": "trade",
-      "region": "中国",
-      "title": "中国10月出口年率-人民币计价(%)",
-      "actual": null,
-      "forecast": null,
-      "previous": 29.6,
-      "importance": 2,
-      "impact_channels": [
-        "中国增长预期",
-        "行业盈利预期",
-        "人民币汇率"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-11-10",
-      "time": "10:30",
-      "type": "macro",
-      "category": "trade",
-      "region": "中国",
-      "title": "中国10月出口年率-美元计价(%)",
-      "actual": null,
-      "forecast": 33.0,
-      "previous": 36.3,
-      "importance": 2,
-      "impact_channels": [
-        "中国增长预期",
-        "行业盈利预期",
-        "人民币汇率"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-11-10",
-      "time": "10:30",
-      "type": "macro",
-      "category": "trade",
-      "region": "中国",
-      "title": "中国10月贸易帐-人民币计价(亿元)",
-      "actual": null,
-      "forecast": null,
-      "previous": 9059.7,
-      "importance": 2,
-      "impact_channels": [
-        "中国增长预期",
-        "行业盈利预期",
-        "人民币汇率"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-11-10",
-      "time": "10:30",
-      "type": "macro",
-      "category": "trade",
-      "region": "中国",
-      "title": "中国10月贸易帐-美元计价(亿美元)",
-      "actual": null,
-      "forecast": 1240.0,
-      "previous": 1335.3,
-      "importance": 2,
-      "impact_channels": [
-        "中国增长预期",
-        "行业盈利预期",
-        "人民币汇率"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-11-10",
-      "time": "10:30",
-      "type": "macro",
-      "category": "trade",
-      "region": "中国",
-      "title": "中国10月进口年率-人民币计价(%)",
-      "actual": null,
-      "forecast": null,
-      "previous": 24.6,
-      "importance": 2,
-      "impact_channels": [
-        "中国增长预期",
-        "行业盈利预期",
-        "人民币汇率"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-11-10",
-      "time": "10:30",
-      "type": "macro",
-      "category": "trade",
-      "region": "中国",
-      "title": "中国10月进口年率-美元计价(%)",
-      "actual": null,
-      "forecast": 33.5,
-      "previous": 31.0,
-      "importance": 2,
-      "impact_channels": [
-        "中国增长预期",
-        "行业盈利预期",
-        "人民币汇率"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
     {
       "date": "2026-11-10",
       "time": "16:00",
@@ -223,7 +97,7 @@
       "region": "美国",
       "title": "美国10月CPI年率未季调(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": 3.9,
       "previous": 3.7,
       "importance": 2,
       "impact_channels": [
@@ -245,7 +119,7 @@
       "region": "美国",
       "title": "美国10月核心CPI年率未季调(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": 2.8,
       "previous": 2.6,
       "importance": 2,
       "impact_channels": [
@@ -1499,8 +1373,8 @@
     }
   ],
   "summary": {
-    "total": 70,
-    "macro": 68,
+    "total": 64,
+    "macro": 62,
     "global_earnings": 2,
     "high_importance": 1,
     "macro_days_ok": 11,
