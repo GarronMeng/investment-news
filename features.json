@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generated_at": "2026-11-10T23:40:08+08:00",
-  "source_generated_at": "2026-11-10T23:40:08+08:00",
+  "generated_at": "2026-11-10T23:44:30+08:00",
+  "source_generated_at": "2026-11-10T23:44:30+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -100,7 +100,7 @@
       "ma20_distance": -0.061469,
       "ma60_distance": -0.266544,
       "volume_z20": -1.3603,
-      "turnover_z20": -1.4832,
+      "turnover_z20": null,
       "relative_strength_5d": 0.063351,
       "relative_strength_20d": -0.133199,
       "realized_vol_20d": 0.662536,
