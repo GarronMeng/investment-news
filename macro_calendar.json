@@ -1,72 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-11-11T15:14:32+08:00",
+  "generated_at": "2026-11-11T19:32:44+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
-    {
-      "date": "2026-11-11",
-      "time": "16:00",
-      "type": "macro",
-      "category": "liquidity",
-      "region": "中国",
-      "title": "中国10月M2货币供应年率(%)",
-      "actual": null,
-      "forecast": 7.2,
-      "previous": 7.2,
-      "importance": 2,
-      "impact_channels": [
-        "A股流动性",
-        "人民币汇率",
-        "成长估值"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-11-11",
-      "time": "16:00",
-      "type": "macro",
-      "category": "liquidity",
-      "region": "中国",
-      "title": "中国10月新增人民币贷款-年初至今(亿元)",
-      "actual": null,
-      "forecast": null,
-      "previous": 115200.0,
-      "importance": 2,
-      "impact_channels": [
-        "A股流动性",
-        "人民币汇率",
-        "成长估值"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
-    {
-      "date": "2026-11-11",
-      "time": "16:00",
-      "type": "macro",
-      "category": "liquidity",
-      "region": "中国",
-      "title": "中国10月社会融资规模-年初至今(亿元)",
-      "actual": null,
-      "forecast": null,
-      "previous": 274600.0,
-      "importance": 2,
-      "impact_channels": [
-        "A股流动性",
-        "人民币汇率",
-        "成长估值"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
     {
       "date": "2026-11-12",
       "time": "15:00",
@@ -749,6 +686,33 @@
       "status": "scheduled"
     },
     {
+      "date": "2026-11-17",
+      "time": null,
+      "type": "global_earnings",
+      "category": "earnings",
+      "region": "US",
+      "title": "NVIDIA 财报发行",
+      "ticker": "NVDA",
+      "report_period": null,
+      "importance": 3,
+      "impact_channels": [
+        "产业链景气",
+        "海外映射",
+        "风险偏好"
+      ],
+      "themes": [
+        "AI算力",
+        "AI光通信 / CPO"
+      ],
+      "assets": [
+        "300308",
+        "002384",
+        "600667"
+      ],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
+    },
+    {
       "date": "2026-11-18",
       "time": "05:30",
       "type": "macro",
@@ -1237,17 +1201,14 @@
     }
   ],
   "summary": {
-    "total": 58,
-    "macro": 57,
-    "global_earnings": 1,
-    "high_importance": 0,
+    "total": 56,
+    "macro": 54,
+    "global_earnings": 2,
+    "high_importance": 1,
     "macro_days_ok": 11,
-    "report_days_ok": 9
+    "report_days_ok": 11
   },
-  "warnings": [
-    "news_report_time_baidu 20261117: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10001 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-    "news_report_time_baidu 20261119: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10000 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
-  ],
+  "warnings": [],
   "methodology": {
     "macro": "百度股市通全球宏观日历 via AKShare；保留重要性>=3及少量核心importance-2宏观数据，过滤每日持仓/仓单等例行噪声，并剔除已过时的当日时点。",
     "global_earnings": "百度股市通财报发行 via AKShare；仅保留global_catalyst_universe.json中的公开研究公司。",
