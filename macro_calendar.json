@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-11T19:32:44+08:00",
+  "generated_at": "2026-11-11T23:13:33+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
@@ -12,7 +12,7 @@
       "region": "英国",
       "title": "英国9月GDP月率(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": -0.1,
       "previous": 0.1,
       "importance": 2,
       "impact_channels": [
@@ -75,7 +75,7 @@
       "region": "英国",
       "title": "英国9月工业产出年率(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": 2.9,
       "previous": 1.6,
       "importance": 2,
       "impact_channels": [
@@ -96,7 +96,7 @@
       "region": "英国",
       "title": "英国9月工业产出月率(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": -0.3,
       "previous": 0.8,
       "importance": 2,
       "impact_channels": [
@@ -117,7 +117,7 @@
       "region": "英国",
       "title": "英国第三季度生产法GDP季率初值(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": 0.7,
       "previous": 0.5,
       "importance": 2,
       "impact_channels": [
@@ -138,7 +138,7 @@
       "region": "英国",
       "title": "英国第三季度生产法GDP年率初值(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": 1.9,
       "previous": 1.4,
       "importance": 2,
       "impact_channels": [
@@ -159,7 +159,7 @@
       "region": "美国",
       "title": "美国截至11月2日当周初请失业金人数(万)",
       "actual": null,
-      "forecast": 19.6,
+      "forecast": 19.5,
       "previous": 18.9,
       "importance": 2,
       "impact_channels": [
@@ -207,7 +207,7 @@
       "region": "美国",
       "title": "美国截至11月6日当周EIA原油库存变动(万桶)",
       "actual": null,
-      "forecast": 87.7,
+      "forecast": -110.9,
       "previous": -86.5,
       "importance": 2,
       "impact_channels": [
@@ -271,7 +271,7 @@
       "region": "欧元区",
       "title": "欧元区第三季度季调后GDP季率修正值(%)",
       "actual": null,
-      "forecast": 0.3,
+      "forecast": 0.4,
       "previous": 0.4,
       "importance": 2,
       "impact_channels": [
@@ -313,7 +313,7 @@
       "region": "美国",
       "title": "美国10月PPI年率(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": 6.6,
       "previous": 6.3,
       "importance": 2,
       "impact_channels": [
@@ -335,7 +335,7 @@
       "region": "美国",
       "title": "美国10月核心PPI年率(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": 5.0,
       "previous": 5.0,
       "importance": 2,
       "impact_channels": [
@@ -417,7 +417,7 @@
       "region": "中国",
       "title": "中国10月规模以上工业增加值年率-单月(%)",
       "actual": null,
-      "forecast": 5.2,
+      "forecast": 5.3,
       "previous": 5.5,
       "importance": 2,
       "impact_channels": [
@@ -588,7 +588,7 @@
       "region": "美国",
       "title": "美国10月核心零售销售月率(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": 0.4,
       "previous": 0.9,
       "importance": 2,
       "impact_channels": [
@@ -630,7 +630,7 @@
       "region": "美国",
       "title": "美国10月零售销售月率(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": 0.0,
       "previous": 0.8,
       "importance": 2,
       "impact_channels": [
@@ -672,7 +672,7 @@
       "region": "美国",
       "title": "美国10月工业产出月率(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": 0.1,
       "previous": 0.7,
       "importance": 2,
       "impact_channels": [
@@ -865,7 +865,7 @@
       "region": "欧元区",
       "title": "欧元区10月调和CPI年率-未季调终值(%)",
       "actual": null,
-      "forecast": null,
+      "forecast": 4.0,
       "previous": 4.0,
       "importance": 2,
       "impact_channels": [
