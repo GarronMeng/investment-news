@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-11T23:11:04+08:00",
+  "generated_at": "2026-11-11T23:21:08+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -867,57 +867,7 @@
     "161226",
     "518880"
   ],
-  "state_changes": [
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "matrix_direction",
-      "from": "bearish",
-      "to": "neutral"
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "evidence_state",
-      "from": "partial_confirmation",
-      "to": "conflict"
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "thesis_state",
-      "from": "supported",
-      "to": "conflicted"
-    },
-    {
-      "code": "518880",
-      "name": "黄金ETF华安",
-      "field": "thesis_state",
-      "from": "under_test",
-      "to": "no_directional_thesis"
-    },
-    {
-      "code": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "field": "matrix_direction",
-      "from": "bullish",
-      "to": "neutral"
-    },
-    {
-      "code": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "field": "evidence_state",
-      "from": "partial_confirmation",
-      "to": "conflict"
-    },
-    {
-      "code": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "field": "thesis_state",
-      "from": "supported",
-      "to": "conflicted"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "weights": {
       "event": 25,
