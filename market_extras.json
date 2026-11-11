@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-11T23:21:51+08:00",
+  "generated_at": "2026-11-11T23:33:16+08:00",
   "timezone": "Asia/Shanghai",
   "southbound": {
     "status": "fresh",
@@ -37,7 +37,7 @@
       "time": "15:00:00",
       "status": "stale",
       "source": "新浪财经 via AKShare",
-      "error": "HTTPConnectionPool(host='vip.stock.finance.sina.com.cn', port=80): Read timed out. (read timeout=60)"
+      "error": "CFFEX main contract list unavailable"
     },
     {
       "symbol": "上证50指数期货2612",
@@ -52,7 +52,7 @@
       "time": "15:00:00",
       "status": "stale",
       "source": "新浪财经 via AKShare",
-      "error": "HTTPConnectionPool(host='vip.stock.finance.sina.com.cn', port=80): Read timed out. (read timeout=60)"
+      "error": "CFFEX main contract list unavailable"
     },
     {
       "symbol": "中证500指数期货2612",
@@ -67,7 +67,7 @@
       "time": "15:00:00",
       "status": "stale",
       "source": "新浪财经 via AKShare",
-      "error": "HTTPConnectionPool(host='vip.stock.finance.sina.com.cn', port=80): Read timed out. (read timeout=60)"
+      "error": "CFFEX main contract list unavailable"
     },
     {
       "symbol": "中证1000指数期货2612",
@@ -82,11 +82,11 @@
       "time": "15:00:00",
       "status": "stale",
       "source": "新浪财经 via AKShare",
-      "error": "HTTPConnectionPool(host='vip.stock.finance.sina.com.cn', port=80): Read timed out. (read timeout=60)"
+      "error": "CFFEX main contract list unavailable"
     }
   ],
   "warnings": [
-    "cffex futures: HTTPConnectionPool(host='vip.stock.finance.sina.com.cn', port=80): Read timed out. (read timeout=60)"
+    "cffex futures: CFFEX main contract list unavailable"
   ],
   "methodology": {
     "southbound": "东方财富沪深港通资金流向，经AKShare标准化；优先汇总南向/港股通成交净买额，失败时回退南向资金历史数据。单位亿元。",

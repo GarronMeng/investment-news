@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-11T23:25:21+08:00",
+  "generated_at": "2026-11-11T23:35:41+08:00",
   "timezone": "Asia/Shanghai",
   "title": "Daily Flash · 每日投资驾驶舱",
   "core_conclusion": "A股状态为 Risk-on，上涨家数占比 60.4%，风险温度 46/100（balanced）。沪深300 PE-TTM 13.14；10年分位 49.1%；强势：元件、通信设备、自动化设备；弱势：白酒、机场航运、保险。研究复核优先关注 兆易创新、德明利、中际旭创；该排序代表证据变化与复核优先级，不代表交易优先级。资金/期指：融资余额22595亿元，5日-2.09%；南向成交净买额+45.7亿元。 下一催化：11-17 NVIDIA 财报发行。主线财报已确认披露 21/21 个研究样本。",
@@ -154,7 +154,7 @@
           "time": "15:00:00",
           "status": "stale",
           "source": "新浪财经 via AKShare",
-          "error": "HTTPConnectionPool(host='vip.stock.finance.sina.com.cn', port=80): Read timed out. (read timeout=60)"
+          "error": "CFFEX main contract list unavailable"
         },
         {
           "symbol": "上证50指数期货2612",
@@ -169,7 +169,7 @@
           "time": "15:00:00",
           "status": "stale",
           "source": "新浪财经 via AKShare",
-          "error": "HTTPConnectionPool(host='vip.stock.finance.sina.com.cn', port=80): Read timed out. (read timeout=60)"
+          "error": "CFFEX main contract list unavailable"
         },
         {
           "symbol": "中证500指数期货2612",
@@ -184,7 +184,7 @@
           "time": "15:00:00",
           "status": "stale",
           "source": "新浪财经 via AKShare",
-          "error": "HTTPConnectionPool(host='vip.stock.finance.sina.com.cn', port=80): Read timed out. (read timeout=60)"
+          "error": "CFFEX main contract list unavailable"
         },
         {
           "symbol": "中证1000指数期货2612",
@@ -199,7 +199,7 @@
           "time": "15:00:00",
           "status": "stale",
           "source": "新浪财经 via AKShare",
-          "error": "HTTPConnectionPool(host='vip.stock.finance.sina.com.cn', port=80): Read timed out. (read timeout=60)"
+          "error": "CFFEX main contract list unavailable"
         }
       ]
     }
@@ -365,10 +365,10 @@
       "symbol": "^GSPC",
       "group": "美股",
       "unit": "index",
-      "value": 7576.7402,
-      "raw_value": 7576.7402,
+      "value": 7583.0601,
+      "raw_value": 7583.0601,
       "previous_close": 7520.9302,
-      "change_pct": 0.74,
+      "change_pct": 0.83,
       "as_of": "2026-11-11T22:30:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -379,10 +379,10 @@
       "symbol": "^IXIC",
       "group": "美股",
       "unit": "index",
-      "value": 25360.0254,
-      "raw_value": 25360.0254,
+      "value": 25380.8926,
+      "raw_value": 25380.8926,
       "previous_close": 25065.8691,
-      "change_pct": 1.17,
+      "change_pct": 1.26,
       "as_of": "2026-11-11T22:30:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -393,10 +393,10 @@
       "symbol": "^SOX",
       "group": "美股",
       "unit": "index",
-      "value": 10440.8594,
-      "raw_value": 10440.8594,
+      "value": 10493.5322,
+      "raw_value": 10493.5322,
       "previous_close": 9998.3301,
-      "change_pct": 4.43,
+      "change_pct": 4.95,
       "as_of": "2026-11-11T22:30:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -449,10 +449,10 @@
       "symbol": "^VIX",
       "group": "风险",
       "unit": "index",
-      "value": 18.27,
-      "raw_value": 18.27,
+      "value": 18.18,
+      "raw_value": 18.18,
       "previous_close": 19.46,
-      "change_pct": -6.12,
+      "change_pct": -6.58,
       "as_of": "2026-11-11T16:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -477,10 +477,10 @@
       "symbol": "DX-Y.NYB",
       "group": "汇率",
       "unit": "index",
-      "value": 102.862,
-      "raw_value": 102.862,
+      "value": 102.856,
+      "raw_value": 102.856,
       "previous_close": 102.23,
-      "change_pct": 0.62,
+      "change_pct": 0.61,
       "as_of": "2026-11-11T13:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -491,11 +491,11 @@
       "symbol": "CNH=X",
       "group": "汇率",
       "unit": "fx",
-      "value": 6.6715,
-      "raw_value": 6.6715,
+      "value": 6.6716,
+      "raw_value": 6.6716,
       "previous_close": null,
       "change_pct": null,
-      "as_of": "2026-11-11T23:21:49+08:00",
+      "as_of": "2026-11-11T23:33:14+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -505,10 +505,10 @@
       "symbol": "GC=F",
       "group": "商品",
       "unit": "usd",
-      "value": 4024.6001,
-      "raw_value": 4024.6001,
+      "value": 4018.0,
+      "raw_value": 4018.0,
       "previous_close": 4030.2,
-      "change_pct": -0.14,
+      "change_pct": -0.3,
       "as_of": "2026-11-11T13:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -519,10 +519,10 @@
       "symbol": "SI=F",
       "group": "商品",
       "unit": "usd",
-      "value": 52.355,
-      "raw_value": 52.355,
+      "value": 52.28,
+      "raw_value": 52.28,
       "previous_close": 51.101,
-      "change_pct": 2.45,
+      "change_pct": 2.31,
       "as_of": "2026-11-11T13:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -533,10 +533,10 @@
       "symbol": "CL=F",
       "group": "商品",
       "unit": "usd",
-      "value": 87.69,
-      "raw_value": 87.69,
+      "value": 88.31,
+      "raw_value": 88.31,
       "previous_close": 86.04,
-      "change_pct": 1.92,
+      "change_pct": 2.64,
       "as_of": "2026-11-11T13:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -547,10 +547,10 @@
       "symbol": "BZ=F",
       "group": "商品",
       "unit": "usd",
-      "value": 93.38,
-      "raw_value": 93.38,
+      "value": 94.27,
+      "raw_value": 94.27,
       "previous_close": 91.49,
-      "change_pct": 2.07,
+      "change_pct": 3.04,
       "as_of": "2026-11-11T13:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -629,21 +629,21 @@
     },
     {
       "name": "美股隔夜",
-      "score": 42.3,
+      "score": 46.9,
       "label": "偏多",
       "weight": 4,
       "evidence": "标普/纳指/费半平均涨跌"
     },
     {
       "name": "美债 / 美元",
-      "score": -8.4,
+      "score": -8.3,
       "label": "中性",
       "weight": 5,
       "evidence": "收益率与美元上行对长久期风险资产偏压制"
     },
     {
       "name": "商品避险",
-      "score": 23.6,
+      "score": 28.8,
       "label": "偏多",
       "weight": 3,
       "evidence": "黄金/白银/原油组合变化"
@@ -862,16 +862,16 @@
   ],
   "sources": {
     "market_state": "2026-11-11T23:09:14+08:00",
-    "risk": "2026-11-11T23:21:07+08:00",
-    "valuation": "2026-11-11T23:20:56+08:00",
-    "decision_matrix": "2026-11-11T23:21:08+08:00",
-    "global_markets": "2026-11-11T23:21:48+08:00",
-    "catalysts": "2026-11-11T23:23:21+08:00",
+    "risk": "2026-11-11T23:32:39+08:00",
+    "valuation": "2026-11-11T23:32:30+08:00",
+    "decision_matrix": "2026-11-11T23:32:39+08:00",
+    "global_markets": "2026-11-11T23:33:15+08:00",
+    "catalysts": "2026-11-11T23:33:50+08:00",
     "ai_signals": "2026-08-26 13:33",
     "sentiment": "2026-11-11T14:05:54+08:00",
-    "market_extras": "2026-11-11T23:21:51+08:00",
-    "macro_calendar": "2026-11-11T23:24:20+08:00",
-    "theme_earnings": "2026-11-11T23:25:21+08:00"
+    "market_extras": "2026-11-11T23:33:16+08:00",
+    "macro_calendar": "2026-11-11T23:34:42+08:00",
+    "theme_earnings": "2026-11-11T23:35:41+08:00"
   },
   "boundary": "Daily Flash用于信息压缩、研究排序与条件验证；缺失数据保持缺失，不生成无条件买卖、仓位或止损指令。",
   "integrity": {
@@ -2083,7 +2083,7 @@
     "global_earnings": 2,
     "high_importance": 1,
     "macro_days_ok": 11,
-    "report_days_ok": 11
+    "report_days_ok": 10
   },
   "theme_earnings": [
     {
@@ -2529,7 +2529,7 @@
   "quality": {
     "macro_calendar": {
       "events": 56,
-      "warnings": 0,
+      "warnings": 1,
       "horizon_days": 10
     },
     "theme_earnings": {
