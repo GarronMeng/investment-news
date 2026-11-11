@@ -1,28 +1,28 @@
 {
   "version": 1,
-  "generated_at": "2026-11-10T23:44:40+08:00",
+  "generated_at": "2026-11-11T19:30:39+08:00",
   "source": {
-    "data_generated_at": "2026-11-10 23:38",
+    "data_generated_at": "2026-11-11 19:29",
     "ai_generated_at": "2026-08-26 13:33",
     "ai_source_generated_at": "2026-08-26 12:26",
-    "features_generated_at": "2026-11-10T23:44:30+08:00",
+    "features_generated_at": "2026-11-11T19:30:17+08:00",
     "fresh_ai": false
   },
   "decisions": [
     {
       "asset": "603986",
       "name": "兆易创新",
-      "as_of": "2026-11-10",
+      "as_of": "2026-11-11",
       "bias": "bearish",
       "status": "market_watch",
       "event_score": 50.0,
-      "market_score": 15.0,
+      "market_score": 20.0,
       "freshness_score": 70,
       "conviction": 55,
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.152994",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.064261",
       "confirmation": [
         "股价相对半导体指数转强",
         "成交量放大且收盘站稳"
@@ -31,12 +31,12 @@
         "存储价格下行",
         "库存恶化"
       ],
-      "expires_at": "2026-11-15"
+      "expires_at": "2026-11-16"
     },
     {
       "asset": "001309",
       "name": "德明利",
-      "as_of": "2026-11-10",
+      "as_of": "2026-11-11",
       "bias": "bearish",
       "status": "market_watch",
       "event_score": 50.0,
@@ -46,7 +46,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.127646",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.040937",
       "confirmation": [
         "相对存储板块止跌转强",
         "放量突破短期压力位"
@@ -55,22 +55,22 @@
         "NAND跌价",
         "渠道库存上升"
       ],
-      "expires_at": "2026-11-15"
+      "expires_at": "2026-11-16"
     },
     {
       "asset": "300308",
       "name": "中际旭创",
-      "as_of": "2026-11-10",
+      "as_of": "2026-11-11",
       "bias": "bearish",
       "status": "market_watch",
       "event_score": 50.0,
-      "market_score": 15.0,
+      "market_score": 30.0,
       "freshness_score": 70,
-      "conviction": 55,
+      "conviction": 40.0,
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.310852",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.169449",
       "confirmation": [
         "海外AI硬件与A股CPO同步走强",
         "高位放量后能维持强势"
@@ -79,22 +79,22 @@
         "AI资本开支下修",
         "客户延迟采购"
       ],
-      "expires_at": "2026-11-15"
+      "expires_at": "2026-11-16"
     },
     {
       "asset": "002384",
       "name": "东山精密",
-      "as_of": "2026-11-10",
+      "as_of": "2026-11-11",
       "bias": "bearish",
       "status": "market_watch",
       "event_score": 50.0,
-      "market_score": 15.0,
+      "market_score": 20.0,
       "freshness_score": 70,
       "conviction": 55,
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.352813",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.251113",
       "confirmation": [
         "PCB板块扩散上涨",
         "订单利好得到成交量确认"
@@ -103,12 +103,12 @@
         "终端需求下修",
         "价格竞争"
       ],
-      "expires_at": "2026-11-15"
+      "expires_at": "2026-11-16"
     },
     {
       "asset": "600667",
       "name": "太极实业",
-      "as_of": "2026-11-10",
+      "as_of": "2026-11-11",
       "bias": "bearish",
       "status": "market_watch",
       "event_score": 50.0,
@@ -118,7 +118,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.133199",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.070246",
       "confirmation": [
         "半导体工程板块同步走强",
         "事件后股价摆脱弱势结构"
@@ -127,12 +127,12 @@
         "资本开支延迟",
         "项目回款承压"
       ],
-      "expires_at": "2026-11-15"
+      "expires_at": "2026-11-16"
     },
     {
       "asset": "000636",
       "name": "风华高科",
-      "as_of": "2026-11-10",
+      "as_of": "2026-11-11",
       "bias": "bearish",
       "status": "market_watch",
       "event_score": 50.0,
@@ -142,7 +142,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.207676",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.167929",
       "confirmation": [
         "被动元件板块形成联动",
         "涨价新闻后价格走势能够确认"
@@ -151,7 +151,7 @@
         "价格下跌",
         "库存去化不及预期"
       ],
-      "expires_at": "2026-11-15"
+      "expires_at": "2026-11-16"
     },
     {
       "asset": "161226",
@@ -175,7 +175,7 @@
         "银价下跌",
         "美元与实际利率上行"
       ],
-      "expires_at": "2026-11-15"
+      "expires_at": "2026-11-16"
     },
     {
       "asset": "518880",
@@ -199,7 +199,7 @@
         "金价下跌",
         "实际利率上行"
       ],
-      "expires_at": "2026-11-15"
+      "expires_at": "2026-11-16"
     },
     {
       "asset": "517380",
@@ -223,7 +223,7 @@
         "临床失败",
         "监管或支付政策收紧"
       ],
-      "expires_at": "2026-11-15"
+      "expires_at": "2026-11-16"
     }
   ],
   "methodology": {
