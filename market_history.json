@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated_at": "2026-11-11T19:30:16+08:00",
+  "generated_at": "2026-11-11T23:10:51+08:00",
   "timezone": "Asia/Shanghai",
   "benchmark": {
     "code": "510300",
@@ -9,18 +9,9 @@
     "kind": "etf",
     "status": "fresh",
     "source": "新浪财经 via AKShare",
-    "last_date": "2026-11-10",
+    "last_date": "2026-11-11",
     "observations": 140,
     "rows": [
-      {
-        "date": "2026-04-15",
-        "open": 4.732,
-        "high": 4.746,
-        "low": 4.684,
-        "close": 4.694,
-        "volume": 675980605.0,
-        "amount": 3185349113.0
-      },
       {
         "date": "2026-04-16",
         "open": 4.704,
@@ -1271,9 +1262,18 @@
         "close": 4.135,
         "volume": 1203106669.0,
         "amount": 4983241125.0
+      },
+      {
+        "date": "2026-11-11",
+        "open": 4.125,
+        "high": 4.162,
+        "low": 4.109,
+        "close": 4.15,
+        "volume": 1056036324.0,
+        "amount": 4372404055.0
       }
     ],
-    "fallback_reason": "HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+    "fallback_reason": "东方财富 push2 行情服务器断开了连接，通常是短时间内请求过多，当前 IP 被临时限流。首次限流一般约 5 分钟后恢复，反复触发后可能需要 40 分钟以上；等待期间不要重复调用东方财富的行情接口，否则会延长限流。"
   },
   "summary": {
     "total": 9,
@@ -8927,18 +8927,9 @@
       "kind": "lof",
       "status": "fresh",
       "source": "新浪财经 via AKShare",
-      "last_date": "2026-11-10",
+      "last_date": "2026-11-11",
       "observations": 140,
       "rows": [
-        {
-          "date": "2026-04-15",
-          "open": 2.99,
-          "high": 2.99,
-          "low": 2.87,
-          "close": 2.876,
-          "volume": 237492551.0,
-          "amount": 693877989.0
-        },
         {
           "date": "2026-04-16",
           "open": 2.878,
@@ -10189,6 +10180,15 @@
           "close": 1.53,
           "volume": 65486885.0,
           "amount": 100422587.0
+        },
+        {
+          "date": "2026-11-11",
+          "open": 1.494,
+          "high": 1.527,
+          "low": 1.493,
+          "close": 1.525,
+          "volume": 63405256.0,
+          "amount": 95798675.0
         }
       ],
       "fallback_reason": "东方财富 push2 行情服务器断开了连接，通常是短时间内请求过多，当前 IP 被临时限流。首次限流一般约 5 分钟后恢复，反复触发后可能需要 40 分钟以上；等待期间不要重复调用东方财富的行情接口，否则会延长限流。"
@@ -10200,18 +10200,9 @@
       "kind": "etf",
       "status": "fresh",
       "source": "新浪财经 via AKShare",
-      "last_date": "2026-11-10",
+      "last_date": "2026-11-11",
       "observations": 140,
       "rows": [
-        {
-          "date": "2026-04-15",
-          "open": 10.127,
-          "high": 10.15,
-          "low": 10.062,
-          "close": 10.064,
-          "volume": 489769744.0,
-          "amount": 4949413437.0
-        },
         {
           "date": "2026-04-16",
           "open": 10.095,
@@ -11462,9 +11453,18 @@
           "close": 8.398,
           "volume": 356309667.0,
           "amount": 2993541743.0
+        },
+        {
+          "date": "2026-11-11",
+          "open": 8.231,
+          "high": 8.299,
+          "low": 8.231,
+          "close": 8.289,
+          "volume": 348222940.0,
+          "amount": 2878852165.0
         }
       ],
-      "fallback_reason": "HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "fallback_reason": "东方财富 push2 行情服务器断开了连接，通常是短时间内请求过多，当前 IP 被临时限流。首次限流一般约 5 分钟后恢复，反复触发后可能需要 40 分钟以上；等待期间不要重复调用东方财富的行情接口，否则会延长限流。"
     },
     "517380": {
       "code": "517380",
@@ -11473,18 +11473,9 @@
       "kind": "etf",
       "status": "fresh",
       "source": "新浪财经 via AKShare",
-      "last_date": "2026-11-10",
+      "last_date": "2026-11-11",
       "observations": 140,
       "rows": [
-        {
-          "date": "2026-04-15",
-          "open": 0.793,
-          "high": 0.802,
-          "low": 0.783,
-          "close": 0.801,
-          "volume": 100611500.0,
-          "amount": 79837565.0
-        },
         {
           "date": "2026-04-16",
           "open": 0.801,
@@ -12735,13 +12726,22 @@
           "close": 0.857,
           "volume": 249510600.0,
           "amount": 213918386.0
+        },
+        {
+          "date": "2026-11-11",
+          "open": 0.855,
+          "high": 0.855,
+          "low": 0.83,
+          "close": 0.85,
+          "volume": 94144240.0,
+          "amount": 79350598.0
         }
       ],
-      "fallback_reason": "HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+      "fallback_reason": "东方财富 push2 行情服务器断开了连接，通常是短时间内请求过多，当前 IP 被临时限流。首次限流一般约 5 分钟后恢复，反复触发后可能需要 40 分钟以上；等待期间不要重复调用东方财富的行情接口，否则会延长限流。"
     }
   },
   "warnings": [
-    "510300 AKShare: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Read timed out. (read timeout=10)",
+    "510300 AKShare: 东方财富 push2 行情服务器断开了连接，通常是短时间内请求过多，当前 IP 被临时限流。首次限流一般约 5 分钟后恢复，反复触发后可能需要 40 分钟以上；等待期间不要重复调用东方财富的行情接口，否则会延长限流。",
     "603986 AKShare: stock_zh_a_hist() got an unexpected keyword argument 'timeout'",
     "001309 AKShare: stock_zh_a_hist() got an unexpected keyword argument 'timeout'",
     "300308 AKShare: stock_zh_a_hist() got an unexpected keyword argument 'timeout'",
@@ -12749,8 +12749,8 @@
     "600667 AKShare: stock_zh_a_hist() got an unexpected keyword argument 'timeout'",
     "000636 AKShare: stock_zh_a_hist() got an unexpected keyword argument 'timeout'",
     "161226 AKShare: 东方财富 push2 行情服务器断开了连接，通常是短时间内请求过多，当前 IP 被临时限流。首次限流一般约 5 分钟后恢复，反复触发后可能需要 40 分钟以上；等待期间不要重复调用东方财富的行情接口，否则会延长限流。",
-    "518880 AKShare: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Read timed out. (read timeout=10)",
-    "517380 AKShare: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Read timed out. (read timeout=10)"
+    "518880 AKShare: 东方财富 push2 行情服务器断开了连接，通常是短时间内请求过多，当前 IP 被临时限流。首次限流一般约 5 分钟后恢复，反复触发后可能需要 40 分钟以上；等待期间不要重复调用东方财富的行情接口，否则会延长限流。",
+    "517380 AKShare: 东方财富 push2 行情服务器断开了连接，通常是短时间内请求过多，当前 IP 被临时限流。首次限流一般约 5 分钟后恢复，反复触发后可能需要 40 分钟以上；等待期间不要重复调用东方财富的行情接口，否则会延长限流。"
   ],
   "methodology": "Eastmoney via AKShare primary; Sina via AKShare independent A-share/fund fallback; direct Eastmoney fund then Yahoo further fallbacks. Asset freshness is aligned to the fresh benchmark trading date; prior valid series is retained as stale on total failure; up to 140 observations retained."
 }
