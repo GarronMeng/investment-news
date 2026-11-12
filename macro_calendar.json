@@ -1,35 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-11-12T21:51:57+08:00",
+  "generated_at": "2026-11-13T00:04:24+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
-    {
-      "date": "2026-11-12",
-      "time": null,
-      "type": "global_earnings",
-      "category": "earnings",
-      "region": "HK",
-      "title": "中芯国际 财报发行",
-      "ticker": "00981",
-      "report_period": null,
-      "importance": 2,
-      "impact_channels": [
-        "产业链景气",
-        "海外映射",
-        "风险偏好"
-      ],
-      "themes": [
-        "半导体"
-      ],
-      "assets": [
-        "603986",
-        "001309",
-        "600667"
-      ],
-      "source": "百度股市通 via AKShare",
-      "status": "scheduled"
-    },
     {
       "date": "2026-11-13",
       "time": "01:00",
@@ -1029,12 +1003,34 @@
       "assets": [],
       "source": "百度股市通 via AKShare",
       "status": "scheduled"
+    },
+    {
+      "date": "2026-11-23",
+      "time": "21:30",
+      "type": "macro",
+      "category": "monetary_policy",
+      "region": "美国",
+      "title": "美国10月芝加哥联储全国活动指数",
+      "actual": null,
+      "forecast": null,
+      "previous": 0.07,
+      "importance": null,
+      "impact_channels": [
+        "美债收益率",
+        "美元",
+        "全球成长估值",
+        "黄金/白银"
+      ],
+      "themes": [],
+      "assets": [],
+      "source": "百度股市通 via AKShare",
+      "status": "scheduled"
     }
   ],
   "summary": {
     "total": 48,
-    "macro": 46,
-    "global_earnings": 2,
+    "macro": 47,
+    "global_earnings": 1,
     "high_importance": 1,
     "macro_days_ok": 11,
     "report_days_ok": 11

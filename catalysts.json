@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-12T21:50:57+08:00",
+  "generated_at": "2026-11-13T00:03:38+08:00",
   "timezone": "Asia/Shanghai",
   "report_period": "2026三季报",
   "events": [],
@@ -9,8 +9,6 @@
     "earnings": 0,
     "manual": 0
   },
-  "warnings": [
-    "stock_yysj_em 20260930: Response ended prematurely"
-  ],
+  "warnings": [],
   "methodology": "A股财报预约披露来自东方财富/AKShare；其他未来催化来自可审计的手工公共事件覆盖。无数据时不推断具体日期。"
 }
