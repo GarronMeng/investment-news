@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-11-12T15:20:08+08:00",
-  "source_generated_at": "2026-11-12T15:20:08+08:00",
+  "generated_at": "2026-11-12T15:28:46+08:00",
+  "source_generated_at": "2026-11-12T15:28:46+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -96,27 +96,27 @@
     "300308": {
       "code": "300308",
       "name": "中际旭创",
-      "as_of": "2026-11-11",
+      "as_of": "2026-11-12",
       "source_status": "fresh",
       "observations": 140,
-      "close": 542.0,
+      "close": 508.9,
       "ma60": {
-        "value": 769.9043,
+        "value": 763.036,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.007412
+        "slope_pct": -0.008921
       },
-      "rsi14": 41.88,
+      "rsi14": 38.87,
       "rsi_zone": "weak",
       "macd": {
-        "dif": -77.4278,
-        "dea": -79.32402,
-        "hist": 3.79244,
+        "dif": -73.30506,
+        "dea": -78.12133,
+        "hist": 9.63253,
         "state": "bullish",
-        "cross_age": 0
+        "cross_age": 1
       },
       "volume": {
-        "ratio20": 1.538,
+        "ratio20": 1.531,
         "state": "expansion"
       },
       "breakout_20d": "inside_range",
