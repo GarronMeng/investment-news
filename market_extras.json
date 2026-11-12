@@ -1,22 +1,22 @@
 {
   "version": 1,
-  "generated_at": "2026-11-12T15:45:36+08:00",
+  "generated_at": "2026-11-12T21:49:48+08:00",
   "timezone": "Asia/Shanghai",
   "southbound": {
     "status": "fresh",
     "as_of": "2026-11-12",
-    "net_buy_cny_100m": 62.55,
+    "net_buy_cny_100m": 58.46,
     "net_inflow_cny_100m": 840.0,
-    "closed": false,
+    "closed": true,
     "legs": [
       {
         "name": "港股通(沪)",
-        "net_buy_cny_100m": 64.161967,
+        "net_buy_cny_100m": 57.797773,
         "net_inflow_cny_100m": 420.0
       },
       {
         "name": "港股通(深)",
-        "net_buy_cny_100m": -1.609213,
+        "net_buy_cny_100m": 0.666045,
         "net_inflow_cny_100m": 420.0
       }
     ],
@@ -29,9 +29,9 @@
       "underlying": "沪深300",
       "current_price": 4002.4,
       "change_pct": null,
-      "spot": 4075.71,
-      "basis": -73.31,
-      "basis_pct": -1.799,
+      "spot": 4043.93,
+      "basis": -41.53,
+      "basis_pct": -1.027,
       "hold": 177114.0,
       "volume": 70328.0,
       "time": "15:00:00",
@@ -57,9 +57,9 @@
       "underlying": "中证500",
       "current_price": 6538.4,
       "change_pct": null,
-      "spot": 6713.18,
-      "basis": -174.78,
-      "basis_pct": -2.604,
+      "spot": 6604.15,
+      "basis": -65.75,
+      "basis_pct": -0.996,
       "hold": 170890.0,
       "volume": 114526.0,
       "time": "15:00:00",
