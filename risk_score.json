@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-11-13T16:47:56+08:00",
-  "score": 61.5,
+  "generated_at": "2026-11-13T19:39:06+08:00",
+  "score": 61.7,
   "label": "elevated",
   "coverage": 100.0,
   "available_weight": 100,
@@ -13,10 +13,10 @@
       "evidence": "沪深300滚动PE十年分位 49.1%"
     },
     "market_structure": {
-      "score": 86.5,
+      "score": 87.3,
       "weight": 25,
       "available": true,
-      "evidence": "risk_off；上涨占比 15.7%"
+      "evidence": "risk_off；上涨占比 13.7%"
     },
     "trend": {
       "score": 73.0,
@@ -40,14 +40,14 @@
       "score": 66.0,
       "weight": 10,
       "available": true,
-      "evidence": "regime=risk_off；指数均值 -1.95% / 上涨占比 15.7%"
+      "evidence": "regime=risk_off；指数均值 -1.95% / 上涨占比 13.7%"
     }
   },
   "drivers": [
     {
       "component": "market_structure",
-      "score": 86.5,
-      "evidence": "risk_off；上涨占比 15.7%"
+      "score": 87.3,
+      "evidence": "risk_off；上涨占比 13.7%"
     },
     {
       "component": "trend",
@@ -57,7 +57,7 @@
     {
       "component": "concentration",
       "score": 66.0,
-      "evidence": "regime=risk_off；指数均值 -1.95% / 上涨占比 15.7%"
+      "evidence": "regime=risk_off；指数均值 -1.95% / 上涨占比 13.7%"
     }
   ],
   "state_changes": [],
