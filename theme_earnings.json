@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generated_at": "2026-11-13T15:26:04+08:00",
+  "generated_at": "2026-11-13T16:53:01+08:00",
   "timezone": "Asia/Shanghai",
-  "status": "fresh",
+  "status": "stale",
   "report_period_code": "20260930",
   "report_period": "2026三季报",
   "themes": [
@@ -34,7 +34,8 @@
           "earnings_signal": "strong_growth",
           "industry": "半导体",
           "source": "东方财富 via AKShare + 公告确认",
-          "reason": null
+          "reason": null,
+          "data_status": "stale"
         },
         {
           "code": "001309",
@@ -50,7 +51,8 @@
           "earnings_signal": "strong_growth",
           "industry": "半导体",
           "source": "东方财富 via AKShare + 公告确认",
-          "reason": null
+          "reason": null,
+          "data_status": "stale"
         },
         {
           "code": "301308",
@@ -66,7 +68,8 @@
           "earnings_signal": "strong_growth",
           "industry": "半导体",
           "source": "东方财富 via AKShare + 公告确认",
-          "reason": null
+          "reason": null,
+          "data_status": "stale"
         },
         {
           "code": "688525",
@@ -82,7 +85,8 @@
           "earnings_signal": "strong_growth",
           "industry": "半导体",
           "source": "东方财富 via AKShare + 公告确认",
-          "reason": null
+          "reason": null,
+          "data_status": "stale"
         },
         {
           "code": "688008",
@@ -98,7 +102,8 @@
           "earnings_signal": "strong_growth",
           "industry": "半导体",
           "source": "东方财富 via AKShare + 公告确认",
-          "reason": null
+          "reason": null,
+          "data_status": "stale"
         }
       ]
     },
@@ -130,7 +135,8 @@
           "earnings_signal": "strong_growth",
           "industry": "通信设备",
           "source": "东方财富 via AKShare + 公告确认",
-          "reason": null
+          "reason": null,
+          "data_status": "stale"
         },
         {
           "code": "300502",
@@ -146,7 +152,8 @@
           "earnings_signal": "strong_growth",
           "industry": "通信设备",
           "source": "东方财富 via AKShare + 公告确认",
-          "reason": null
+          "reason": null,
+          "data_status": "stale"
         },
         {
           "code": "300394",
@@ -162,7 +169,8 @@
           "earnings_signal": "strong_growth",
           "industry": "通信设备",
           "source": "东方财富 via AKShare + 公告确认",
-          "reason": null
+          "reason": null,
+          "data_status": "stale"
         }
       ]
     },
@@ -194,7 +202,8 @@
           "earnings_signal": "strong_growth",
           "industry": "元件",
           "source": "东方财富 via AKShare + 公告确认",
-          "reason": null
+          "reason": null,
+          "data_status": "stale"
         },
         {
           "code": "002463",
@@ -210,7 +219,8 @@
           "earnings_signal": "strong_growth",
           "industry": "元件",
           "source": "东方财富 via AKShare + 公告确认",
-          "reason": null
+          "reason": null,
+          "data_status": "stale"
         },
         {
           "code": "002916",
@@ -226,7 +236,8 @@
           "earnings_signal": "strong_growth",
           "industry": "元件",
           "source": "东方财富 via AKShare + 公告确认",
-          "reason": null
+          "reason": null,
+          "data_status": "stale"
         },
         {
           "code": "600183",
@@ -242,7 +253,8 @@
           "earnings_signal": "strong_growth",
           "industry": "元件",
           "source": "东方财富 via AKShare + 公告确认",
-          "reason": null
+          "reason": null,
+          "data_status": "stale"
         }
       ]
     },
@@ -274,7 +286,8 @@
           "earnings_signal": "weak_growth",
           "industry": "工程咨询服务Ⅱ",
           "source": "东方财富 via AKShare + 公告确认",
-          "reason": null
+          "reason": null,
+          "data_status": "stale"
         },
         {
           "code": "600584",
@@ -290,7 +303,8 @@
           "earnings_signal": "positive_growth",
           "industry": "半导体",
           "source": "东方财富 via AKShare + 公告确认",
-          "reason": null
+          "reason": null,
+          "data_status": "stale"
         },
         {
           "code": "002156",
@@ -306,7 +320,8 @@
           "earnings_signal": "strong_growth",
           "industry": "半导体",
           "source": "东方财富 via AKShare + 公告确认",
-          "reason": null
+          "reason": null,
+          "data_status": "stale"
         }
       ]
     },
@@ -338,7 +353,8 @@
           "earnings_signal": "strong_growth",
           "industry": "元件",
           "source": "东方财富 via AKShare + 公告确认",
-          "reason": null
+          "reason": null,
+          "data_status": "stale"
         },
         {
           "code": "300408",
@@ -354,7 +370,8 @@
           "earnings_signal": "strong_growth",
           "industry": "元件",
           "source": "东方财富 via AKShare + 公告确认",
-          "reason": null
+          "reason": null,
+          "data_status": "stale"
         },
         {
           "code": "002138",
@@ -370,7 +387,8 @@
           "earnings_signal": "positive_growth",
           "industry": "元件",
           "source": "东方财富 via AKShare + 公告确认",
-          "reason": null
+          "reason": null,
+          "data_status": "stale"
         }
       ]
     },
@@ -402,7 +420,8 @@
           "earnings_signal": "positive_growth",
           "industry": "化学制药",
           "source": "东方财富 via AKShare + 公告确认",
-          "reason": null
+          "reason": null,
+          "data_status": "stale"
         },
         {
           "code": "688235",
@@ -418,7 +437,8 @@
           "earnings_signal": "strong_growth",
           "industry": "化学制药",
           "source": "东方财富 via AKShare + 公告确认",
-          "reason": null
+          "reason": null,
+          "data_status": "stale"
         },
         {
           "code": "688506",
@@ -434,7 +454,8 @@
           "earnings_signal": "mixed",
           "industry": "生物制品",
           "source": "东方财富 via AKShare + 公告确认",
-          "reason": null
+          "reason": null,
+          "data_status": "stale"
         }
       ]
     }
@@ -446,7 +467,9 @@
     "scheduled": 0
   },
   "warnings": [
-    "withheld 1 same-day earnings rows without corroborating public financial-report notice"
+    "withheld 1 same-day earnings rows without corroborating public financial-report notice",
+    "stock_yjbb_em 20260930: Response ended prematurely",
+    "stock_yysj_em 20260930: Response ended prematurely"
   ],
   "methodology": {
     "reported": "东方财富业绩报表 stock_yjbb_em via AKShare；未来公告日期不暴露财务字段；同日行必须在stock_notice_report财务报告公告中得到代码级确认。",
