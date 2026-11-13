@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-13T16:51:39+08:00",
+  "generated_at": "2026-11-13T19:40:04+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
@@ -23,7 +23,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-13",
@@ -44,7 +44,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-13",
@@ -65,7 +65,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-13",
@@ -87,7 +87,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-13",
@@ -109,7 +109,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-17",
@@ -130,7 +130,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-17",
@@ -152,7 +152,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-17",
@@ -173,7 +173,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-17",
@@ -194,7 +194,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-17",
@@ -215,7 +215,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-17",
@@ -236,7 +236,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-17",
@@ -257,7 +257,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-17",
@@ -278,7 +278,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-18",
@@ -299,7 +299,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-18",
@@ -319,7 +319,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-18",
@@ -339,7 +339,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-18",
@@ -360,7 +360,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-18",
@@ -381,7 +381,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-18",
@@ -402,7 +402,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-18",
@@ -423,7 +423,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-18",
@@ -444,7 +444,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-18",
@@ -465,7 +465,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-19",
@@ -487,7 +487,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-19",
@@ -509,7 +509,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-19",
@@ -531,7 +531,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-19",
@@ -553,7 +553,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-19",
@@ -575,7 +575,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-19",
@@ -597,7 +597,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-19",
@@ -619,7 +619,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-20",
@@ -641,7 +641,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-20",
@@ -661,7 +661,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-20",
@@ -681,7 +681,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-20",
@@ -702,7 +702,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-20",
@@ -723,7 +723,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-20",
@@ -744,7 +744,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-20",
@@ -765,7 +765,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-23",
@@ -787,7 +787,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     }
   ],
   "summary": {
@@ -795,12 +795,33 @@
     "macro": 37,
     "global_earnings": 0,
     "high_importance": 0,
-    "macro_days_ok": 10,
-    "report_days_ok": 10
+    "macro_days_ok": 0,
+    "report_days_ok": 0
   },
   "warnings": [
-    "news_economic_baidu 20261116: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10000 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
-    "news_report_time_baidu 20261117: Failed to obtain Baidu cookies: Network request failed: Failed to perform, curl: (28) Connection timed out after 10001 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+    "news_economic_baidu 20261113: module 'akshare' has no attribute 'news_economic_baidu'",
+    "news_report_time_baidu 20261113: module 'akshare' has no attribute 'news_report_time_baidu'",
+    "news_economic_baidu 20261114: module 'akshare' has no attribute 'news_economic_baidu'",
+    "news_report_time_baidu 20261114: module 'akshare' has no attribute 'news_report_time_baidu'",
+    "news_economic_baidu 20261115: module 'akshare' has no attribute 'news_economic_baidu'",
+    "news_report_time_baidu 20261115: module 'akshare' has no attribute 'news_report_time_baidu'",
+    "news_economic_baidu 20261116: module 'akshare' has no attribute 'news_economic_baidu'",
+    "news_report_time_baidu 20261116: module 'akshare' has no attribute 'news_report_time_baidu'",
+    "news_economic_baidu 20261117: module 'akshare' has no attribute 'news_economic_baidu'",
+    "news_report_time_baidu 20261117: module 'akshare' has no attribute 'news_report_time_baidu'",
+    "news_economic_baidu 20261118: module 'akshare' has no attribute 'news_economic_baidu'",
+    "news_report_time_baidu 20261118: module 'akshare' has no attribute 'news_report_time_baidu'",
+    "news_economic_baidu 20261119: module 'akshare' has no attribute 'news_economic_baidu'",
+    "news_report_time_baidu 20261119: module 'akshare' has no attribute 'news_report_time_baidu'",
+    "news_economic_baidu 20261120: module 'akshare' has no attribute 'news_economic_baidu'",
+    "news_report_time_baidu 20261120: module 'akshare' has no attribute 'news_report_time_baidu'",
+    "news_economic_baidu 20261121: module 'akshare' has no attribute 'news_economic_baidu'",
+    "news_report_time_baidu 20261121: module 'akshare' has no attribute 'news_report_time_baidu'",
+    "news_economic_baidu 20261122: module 'akshare' has no attribute 'news_economic_baidu'",
+    "news_report_time_baidu 20261122: module 'akshare' has no attribute 'news_report_time_baidu'",
+    "news_economic_baidu 20261123: module 'akshare' has no attribute 'news_economic_baidu'",
+    "news_report_time_baidu 20261123: module 'akshare' has no attribute 'news_report_time_baidu'",
+    "all calendar sources failed; preserved prior future events as stale"
   ],
   "methodology": {
     "macro": "百度股市通全球宏观日历 via AKShare；保留重要性>=3及少量核心importance-2宏观数据，过滤每日持仓/仓单等例行噪声，并剔除已过时的当日时点。",

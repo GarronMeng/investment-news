@@ -1,23 +1,23 @@
 {
   "version": 1,
-  "generated_at": "2026-11-13T16:53:01+08:00",
+  "generated_at": "2026-11-13T19:41:17+08:00",
   "timezone": "Asia/Shanghai",
   "title": "Daily Flash · 每日投资驾驶舱",
-  "core_conclusion": "A股状态为 Risk-off，上涨家数占比 15.7%，风险温度 62/100（elevated）。沪深300 PE-TTM 13.14；10年分位 49.1%；强势：影视院线、银行、保险；弱势：元件、电子化学品、非金属材料。研究复核优先关注 兆易创新、中际旭创、创新药沪港深ETF天弘；该排序代表证据变化与复核优先级，不代表交易优先级。资金/期指：融资余额22656亿元，5日+0.12%；南向成交净买额+23.3亿元；沪深300股指期货基差-1.49%。 下一催化：11-13 18:00 欧元区9月季调后贸易帐(亿欧元)；11-13 18:00 欧元区第三季度季调后GDP季率修正值(%)。主线财报已确认披露 21/21 个研究样本。",
+  "core_conclusion": "A股状态为 Risk-off，上涨家数占比 13.7%，风险温度 62/100（elevated）。沪深300 PE-TTM 13.14；10年分位 49.1%；强势：影视院线、银行、保险；弱势：元件、电子化学品、非金属材料。研究复核优先关注 创新药沪港深ETF天弘、兆易创新、中际旭创；该排序代表证据变化与复核优先级，不代表交易优先级。资金/期指：融资余额22656亿元，5日+0.12%；南向成交净买额+23.3亿元；沪深300股指期货基差-1.49%。 下一催化：11-13 18:00 欧元区9月季调后贸易帐(亿欧元)；11-13 18:00 欧元区第三季度季调后GDP季率修正值(%)。主线财报已确认披露 21/21 个研究样本。",
   "market": {
     "regime": {
       "label": "Risk-off",
       "code": "risk_off",
-      "score": -73.4,
+      "score": -85.0,
       "components": {
-        "breadth": -85.8,
+        "breadth": -90.7,
         "indices": -100.0,
-        "limit_structure": 25.3
+        "limit_structure": -34.2
       },
       "methodology": "市场广度55% + 核心指数30% + 涨跌停结构15%；仅用于状态分类，不是收益概率。"
     },
     "risk": {
-      "score": 61.5,
+      "score": 61.7,
       "label": "elevated",
       "coverage": 100.0
     },
@@ -94,18 +94,18 @@
       }
     ],
     "metrics": {
-      "total": 5579,
-      "up": 874,
-      "down": 4633,
-      "flat": 72,
-      "advance_ratio": 0.1567,
-      "limit_up": 52,
-      "limit_down": 31,
-      "touched_limit_up": 150,
-      "broken_limit_up": 98,
-      "seal_rate": 0.3467,
-      "turnover": 1945598410570.0,
-      "status": "stale"
+      "total": 5578,
+      "up": 765,
+      "down": 4747,
+      "flat": 66,
+      "advance_ratio": 0.1371,
+      "limit_up": 48,
+      "limit_down": 98,
+      "touched_limit_up": 114,
+      "broken_limit_up": 66,
+      "seal_rate": 0.4211,
+      "turnover": 1666897479118.0,
+      "status": "fresh"
     },
     "funding_and_futures": {
       "margin": {
@@ -445,10 +445,10 @@
       "symbol": "^VIX",
       "group": "风险",
       "unit": "index",
-      "value": 19.0,
-      "raw_value": 19.0,
+      "value": 18.35,
+      "raw_value": 18.35,
       "previous_close": 18.7,
-      "change_pct": 1.6,
+      "change_pct": -1.87,
       "as_of": "2026-11-13T16:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -473,10 +473,10 @@
       "symbol": "DX-Y.NYB",
       "group": "汇率",
       "unit": "index",
-      "value": 103.138,
-      "raw_value": 103.138,
+      "value": 103.219,
+      "raw_value": 103.219,
       "previous_close": 103.17,
-      "change_pct": -0.03,
+      "change_pct": 0.05,
       "as_of": "2026-11-13T13:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -487,11 +487,11 @@
       "symbol": "CNH=X",
       "group": "汇率",
       "unit": "fx",
-      "value": 6.6717,
-      "raw_value": 6.6717,
+      "value": 6.6726,
+      "raw_value": 6.6726,
       "previous_close": null,
       "change_pct": null,
-      "as_of": "2026-11-13T16:48:44+08:00",
+      "as_of": "2026-11-13T19:39:34+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -501,10 +501,10 @@
       "symbol": "GC=F",
       "group": "商品",
       "unit": "usd",
-      "value": 3899.8,
-      "raw_value": 3899.8,
+      "value": 3892.2,
+      "raw_value": 3892.2,
       "previous_close": 3885.3,
-      "change_pct": 0.37,
+      "change_pct": 0.18,
       "as_of": "2026-11-13T13:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -515,10 +515,10 @@
       "symbol": "SI=F",
       "group": "商品",
       "unit": "usd",
-      "value": 49.88,
-      "raw_value": 49.88,
+      "value": 49.79,
+      "raw_value": 49.79,
       "previous_close": 49.972,
-      "change_pct": -0.18,
+      "change_pct": -0.36,
       "as_of": "2026-11-13T13:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -529,10 +529,10 @@
       "symbol": "CL=F",
       "group": "商品",
       "unit": "usd",
-      "value": 89.12,
-      "raw_value": 89.12,
+      "value": 88.52,
+      "raw_value": 88.52,
       "previous_close": 88.74,
-      "change_pct": 0.43,
+      "change_pct": -0.25,
       "as_of": "2026-11-13T13:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -543,10 +543,10 @@
       "symbol": "BZ=F",
       "group": "商品",
       "unit": "usd",
-      "value": 96.37,
-      "raw_value": 96.37,
+      "value": 96.05,
+      "raw_value": 96.05,
       "previous_close": 95.82,
-      "change_pct": 0.57,
+      "change_pct": 0.24,
       "as_of": "2026-11-13T13:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -618,7 +618,7 @@
   "dimensions": [
     {
       "name": "A股盘面",
-      "score": -73.4,
+      "score": -85.0,
       "label": "偏空",
       "weight": 5,
       "evidence": "Market Regime=risk_off"
@@ -632,14 +632,14 @@
     },
     {
       "name": "美债 / 美元",
-      "score": -15.4,
+      "score": -16.2,
       "label": "偏空",
       "weight": 5,
       "evidence": "收益率与美元上行对长久期风险资产偏压制"
     },
     {
       "name": "商品避险",
-      "score": 4.5,
+      "score": -0.7,
       "label": "中性",
       "weight": 3,
       "evidence": "黄金/白银/原油组合变化"
@@ -672,7 +672,7 @@
         "德明利"
       ],
       "direction": "bearish",
-      "score": -33.4,
+      "score": -36.3,
       "event_score": null,
       "technical_score": -34.0,
       "industry_score": -70.6
@@ -687,7 +687,7 @@
         "中际旭创"
       ],
       "direction": "bearish",
-      "score": -42.9,
+      "score": -44.6,
       "event_score": null,
       "technical_score": -34.0,
       "industry_score": -68.7
@@ -702,7 +702,7 @@
         "东山精密"
       ],
       "direction": "bearish",
-      "score": -41.1,
+      "score": -43.0,
       "event_score": null,
       "technical_score": -34.0,
       "industry_score": -63.9
@@ -717,7 +717,7 @@
         "太极实业"
       ],
       "direction": "bearish",
-      "score": -47.0,
+      "score": -48.1,
       "event_score": null,
       "technical_score": -34.0,
       "industry_score": -76.0
@@ -732,7 +732,7 @@
         "风华高科"
       ],
       "direction": "bearish",
-      "score": -54.6,
+      "score": -54.7,
       "event_score": null,
       "technical_score": -34.0,
       "industry_score": -73.2
@@ -747,7 +747,7 @@
         "创新药沪港深ETF天弘"
       ],
       "direction": "neutral",
-      "score": -0.6,
+      "score": -9.7,
       "event_score": null,
       "technical_score": -20.0,
       "industry_score": null
@@ -784,19 +784,30 @@
     }
   ],
   "outlook": {
-    "base": "当前基准情景：regime=risk_off，风险温度=61.5；Matrix中 confirmed=5、supported=3。",
+    "base": "当前基准情景：regime=risk_off，风险温度=61.7；Matrix中 confirmed=5、supported=3。",
     "bullish": "若上涨占比重新站上50%、Market Regime转向risk_on/narrow_risk_on，且强势主题的行业与技术层同步扩散，则风险偏好修复更可信。",
     "bearish": "若市场广度继续恶化、风险温度抬升，同时当前获支持主题转为conflict/contradicted，则应把环境定义为进一步收缩而非普通波动。"
   },
   "matrix_focus": [
+    {
+      "code": "517380",
+      "name": "创新药沪港深ETF天弘",
+      "thesis_state": "conflicted",
+      "direction": "neutral",
+      "attention_score": 88.3,
+      "composite_score": -9.7,
+      "confluence": 14.6,
+      "conflict_score": 66.1,
+      "focus": "正负证据正在相互抵消，优先识别哪一层先失效或被确认。"
+    },
     {
       "code": "603986",
       "name": "兆易创新",
       "thesis_state": "confirmed",
       "direction": "bearish",
       "attention_score": 73.5,
-      "composite_score": -39.6,
-      "confluence": 81.9,
+      "composite_score": -41.7,
+      "confluence": 82.5,
       "conflict_score": 0.0,
       "focus": "验证持续性、行业扩散与后续基本面证据。"
     },
@@ -805,22 +816,11 @@
       "name": "中际旭创",
       "thesis_state": "confirmed",
       "direction": "bearish",
-      "attention_score": 71.5,
-      "composite_score": -42.9,
-      "confluence": 82.9,
+      "attention_score": 71.6,
+      "composite_score": -44.6,
+      "confluence": 83.4,
       "conflict_score": 0.0,
       "focus": "验证持续性、行业扩散与后续基本面证据。"
-    },
-    {
-      "code": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "thesis_state": "under_test",
-      "direction": "neutral",
-      "attention_score": 70.1,
-      "composite_score": -0.6,
-      "confluence": 0.9,
-      "conflict_score": 97.4,
-      "focus": "原方向尚未被市场充分确认，继续观察验证/失效条件。"
     },
     {
       "code": "000636",
@@ -828,7 +828,7 @@
       "thesis_state": "confirmed",
       "direction": "bearish",
       "attention_score": 69.8,
-      "composite_score": -54.6,
+      "composite_score": -54.7,
       "confluence": 86.4,
       "conflict_score": 0.0,
       "focus": "验证持续性、行业扩散与后续基本面证据。"
@@ -839,8 +839,8 @@
       "thesis_state": "confirmed",
       "direction": "bearish",
       "attention_score": 69.6,
-      "composite_score": -47.0,
-      "confluence": 84.1,
+      "composite_score": -48.1,
+      "confluence": 84.4,
       "conflict_score": 0.0,
       "focus": "验证持续性、行业扩散与后续基本面证据。"
     },
@@ -850,24 +850,24 @@
       "thesis_state": "confirmed",
       "direction": "bearish",
       "attention_score": 69.5,
-      "composite_score": -41.1,
-      "confluence": 82.3,
+      "composite_score": -43.0,
+      "confluence": 82.9,
       "conflict_score": 0.0,
       "focus": "验证持续性、行业扩散与后续基本面证据。"
     }
   ],
   "sources": {
-    "market_state": "2026-11-13T16:45:40+08:00",
-    "risk": "2026-11-13T16:47:56+08:00",
-    "valuation": "2026-11-13T16:47:49+08:00",
-    "decision_matrix": "2026-11-13T16:47:56+08:00",
-    "global_markets": "2026-11-13T16:48:43+08:00",
-    "catalysts": "2026-11-13T16:50:31+08:00",
+    "market_state": "2026-11-13T19:13:19+08:00",
+    "risk": "2026-11-13T19:39:06+08:00",
+    "valuation": "2026-11-13T19:38:55+08:00",
+    "decision_matrix": "2026-11-13T19:39:06+08:00",
+    "global_markets": "2026-11-13T19:39:35+08:00",
+    "catalysts": "2026-11-13T19:40:04+08:00",
     "ai_signals": "2026-08-26 13:33",
     "sentiment": "2026-11-13T14:34:38+08:00",
-    "market_extras": "2026-11-13T16:48:45+08:00",
-    "macro_calendar": "2026-11-13T16:51:39+08:00",
-    "theme_earnings": "2026-11-13T16:53:01+08:00"
+    "market_extras": "2026-11-13T19:39:36+08:00",
+    "macro_calendar": "2026-11-13T19:40:04+08:00",
+    "theme_earnings": "2026-11-13T19:41:16+08:00"
   },
   "boundary": "Daily Flash用于信息压缩、研究排序与条件验证；缺失数据保持缺失，不生成无条件买卖、仓位或止损指令。",
   "integrity": {
@@ -896,7 +896,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-13",
@@ -917,7 +917,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-13",
@@ -938,7 +938,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-13",
@@ -960,7 +960,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-13",
@@ -982,7 +982,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-17",
@@ -1003,7 +1003,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-17",
@@ -1025,7 +1025,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-17",
@@ -1046,7 +1046,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-17",
@@ -1067,7 +1067,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-17",
@@ -1088,7 +1088,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-17",
@@ -1109,7 +1109,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-17",
@@ -1130,7 +1130,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-17",
@@ -1151,7 +1151,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-18",
@@ -1172,7 +1172,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-18",
@@ -1192,7 +1192,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-18",
@@ -1212,7 +1212,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-18",
@@ -1233,7 +1233,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-18",
@@ -1254,7 +1254,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-18",
@@ -1275,7 +1275,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-18",
@@ -1296,7 +1296,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-18",
@@ -1317,7 +1317,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-18",
@@ -1338,7 +1338,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-19",
@@ -1360,7 +1360,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-19",
@@ -1382,7 +1382,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-19",
@@ -1404,7 +1404,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-19",
@@ -1426,7 +1426,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-19",
@@ -1448,7 +1448,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-19",
@@ -1470,7 +1470,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-19",
@@ -1492,7 +1492,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-20",
@@ -1514,7 +1514,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-20",
@@ -1534,7 +1534,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-20",
@@ -1554,7 +1554,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-20",
@@ -1575,7 +1575,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-20",
@@ -1596,7 +1596,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-20",
@@ -1617,7 +1617,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-20",
@@ -1638,7 +1638,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     },
     {
       "date": "2026-11-23",
@@ -1660,7 +1660,7 @@
       "themes": [],
       "assets": [],
       "source": "百度股市通 via AKShare",
-      "status": "scheduled"
+      "status": "stale"
     }
   ],
   "macro_calendar_summary": {
@@ -1668,8 +1668,8 @@
     "macro": 37,
     "global_earnings": 0,
     "high_importance": 0,
-    "macro_days_ok": 10,
-    "report_days_ok": 10
+    "macro_days_ok": 0,
+    "report_days_ok": 0
   },
   "theme_earnings": [
     {
@@ -1700,8 +1700,7 @@
           "earnings_signal": "strong_growth",
           "industry": "半导体",
           "source": "东方财富 via AKShare + 公告确认",
-          "reason": null,
-          "data_status": "stale"
+          "reason": null
         },
         {
           "code": "001309",
@@ -1717,8 +1716,7 @@
           "earnings_signal": "strong_growth",
           "industry": "半导体",
           "source": "东方财富 via AKShare + 公告确认",
-          "reason": null,
-          "data_status": "stale"
+          "reason": null
         },
         {
           "code": "301308",
@@ -1734,8 +1732,7 @@
           "earnings_signal": "strong_growth",
           "industry": "半导体",
           "source": "东方财富 via AKShare + 公告确认",
-          "reason": null,
-          "data_status": "stale"
+          "reason": null
         },
         {
           "code": "688525",
@@ -1751,8 +1748,7 @@
           "earnings_signal": "strong_growth",
           "industry": "半导体",
           "source": "东方财富 via AKShare + 公告确认",
-          "reason": null,
-          "data_status": "stale"
+          "reason": null
         },
         {
           "code": "688008",
@@ -1768,8 +1764,7 @@
           "earnings_signal": "strong_growth",
           "industry": "半导体",
           "source": "东方财富 via AKShare + 公告确认",
-          "reason": null,
-          "data_status": "stale"
+          "reason": null
         }
       ]
     },
@@ -1801,8 +1796,7 @@
           "earnings_signal": "strong_growth",
           "industry": "通信设备",
           "source": "东方财富 via AKShare + 公告确认",
-          "reason": null,
-          "data_status": "stale"
+          "reason": null
         },
         {
           "code": "300502",
@@ -1818,8 +1812,7 @@
           "earnings_signal": "strong_growth",
           "industry": "通信设备",
           "source": "东方财富 via AKShare + 公告确认",
-          "reason": null,
-          "data_status": "stale"
+          "reason": null
         },
         {
           "code": "300394",
@@ -1835,8 +1828,7 @@
           "earnings_signal": "strong_growth",
           "industry": "通信设备",
           "source": "东方财富 via AKShare + 公告确认",
-          "reason": null,
-          "data_status": "stale"
+          "reason": null
         }
       ]
     },
@@ -1868,8 +1860,7 @@
           "earnings_signal": "strong_growth",
           "industry": "元件",
           "source": "东方财富 via AKShare + 公告确认",
-          "reason": null,
-          "data_status": "stale"
+          "reason": null
         },
         {
           "code": "002463",
@@ -1885,8 +1876,7 @@
           "earnings_signal": "strong_growth",
           "industry": "元件",
           "source": "东方财富 via AKShare + 公告确认",
-          "reason": null,
-          "data_status": "stale"
+          "reason": null
         },
         {
           "code": "002916",
@@ -1902,8 +1892,7 @@
           "earnings_signal": "strong_growth",
           "industry": "元件",
           "source": "东方财富 via AKShare + 公告确认",
-          "reason": null,
-          "data_status": "stale"
+          "reason": null
         },
         {
           "code": "600183",
@@ -1919,8 +1908,7 @@
           "earnings_signal": "strong_growth",
           "industry": "元件",
           "source": "东方财富 via AKShare + 公告确认",
-          "reason": null,
-          "data_status": "stale"
+          "reason": null
         }
       ]
     },
@@ -1952,8 +1940,7 @@
           "earnings_signal": "weak_growth",
           "industry": "工程咨询服务Ⅱ",
           "source": "东方财富 via AKShare + 公告确认",
-          "reason": null,
-          "data_status": "stale"
+          "reason": null
         },
         {
           "code": "600584",
@@ -1969,8 +1956,7 @@
           "earnings_signal": "positive_growth",
           "industry": "半导体",
           "source": "东方财富 via AKShare + 公告确认",
-          "reason": null,
-          "data_status": "stale"
+          "reason": null
         },
         {
           "code": "002156",
@@ -1986,8 +1972,7 @@
           "earnings_signal": "strong_growth",
           "industry": "半导体",
           "source": "东方财富 via AKShare + 公告确认",
-          "reason": null,
-          "data_status": "stale"
+          "reason": null
         }
       ]
     },
@@ -2019,8 +2004,7 @@
           "earnings_signal": "strong_growth",
           "industry": "元件",
           "source": "东方财富 via AKShare + 公告确认",
-          "reason": null,
-          "data_status": "stale"
+          "reason": null
         },
         {
           "code": "300408",
@@ -2036,8 +2020,7 @@
           "earnings_signal": "strong_growth",
           "industry": "元件",
           "source": "东方财富 via AKShare + 公告确认",
-          "reason": null,
-          "data_status": "stale"
+          "reason": null
         },
         {
           "code": "002138",
@@ -2053,8 +2036,7 @@
           "earnings_signal": "positive_growth",
           "industry": "元件",
           "source": "东方财富 via AKShare + 公告确认",
-          "reason": null,
-          "data_status": "stale"
+          "reason": null
         }
       ]
     },
@@ -2086,8 +2068,7 @@
           "earnings_signal": "positive_growth",
           "industry": "化学制药",
           "source": "东方财富 via AKShare + 公告确认",
-          "reason": null,
-          "data_status": "stale"
+          "reason": null
         },
         {
           "code": "688235",
@@ -2103,8 +2084,7 @@
           "earnings_signal": "strong_growth",
           "industry": "化学制药",
           "source": "东方财富 via AKShare + 公告确认",
-          "reason": null,
-          "data_status": "stale"
+          "reason": null
         },
         {
           "code": "688506",
@@ -2120,8 +2100,7 @@
           "earnings_signal": "mixed",
           "industry": "生物制品",
           "source": "东方财富 via AKShare + 公告确认",
-          "reason": null,
-          "data_status": "stale"
+          "reason": null
         }
       ]
     }
@@ -2136,11 +2115,11 @@
   "quality": {
     "macro_calendar": {
       "events": 37,
-      "warnings": 2,
+      "warnings": 23,
       "horizon_days": 10
     },
     "theme_earnings": {
-      "status": "stale",
+      "status": "fresh",
       "reported": 21,
       "companies": 21
     }
