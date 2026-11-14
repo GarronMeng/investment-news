@@ -1,116 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-11-13T23:43:46+08:00",
+  "generated_at": "2026-11-14T11:30:20+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
-    {
-      "date": "2026-11-13",
-      "time": "18:00",
-      "type": "macro",
-      "category": "trade",
-      "region": "欧元区",
-      "title": "欧元区9月季调后贸易帐(亿欧元)",
-      "actual": null,
-      "forecast": null,
-      "previous": -68.0,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "stale"
-    },
-    {
-      "date": "2026-11-13",
-      "time": "18:00",
-      "type": "macro",
-      "category": "growth",
-      "region": "欧元区",
-      "title": "欧元区第三季度季调后GDP季率修正值(%)",
-      "actual": null,
-      "forecast": 0.4,
-      "previous": 0.4,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "stale"
-    },
-    {
-      "date": "2026-11-13",
-      "time": "18:00",
-      "type": "macro",
-      "category": "growth",
-      "region": "欧元区",
-      "title": "欧元区第三季度季调后GDP年率修正值(%)",
-      "actual": null,
-      "forecast": 1.3,
-      "previous": 1.3,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "stale"
-    },
-    {
-      "date": "2026-11-13",
-      "time": "21:30",
-      "type": "macro",
-      "category": "inflation",
-      "region": "美国",
-      "title": "美国10月PPI年率(%)",
-      "actual": null,
-      "forecast": 6.6,
-      "previous": 6.3,
-      "importance": 2,
-      "impact_channels": [
-        "美债收益率",
-        "美元",
-        "全球成长估值",
-        "黄金/白银"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "stale"
-    },
-    {
-      "date": "2026-11-13",
-      "time": "21:30",
-      "type": "macro",
-      "category": "inflation",
-      "region": "美国",
-      "title": "美国10月核心PPI年率(%)",
-      "actual": null,
-      "forecast": 5.0,
-      "previous": 5.0,
-      "importance": 2,
-      "impact_channels": [
-        "美债收益率",
-        "美元",
-        "全球成长估值",
-        "黄金/白银"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "stale"
-    },
     {
       "date": "2026-11-17",
       "time": "15:00",
@@ -791,16 +684,14 @@
     }
   ],
   "summary": {
-    "total": 37,
-    "macro": 37,
+    "total": 32,
+    "macro": 32,
     "global_earnings": 0,
     "high_importance": 0,
     "macro_days_ok": 0,
     "report_days_ok": 0
   },
   "warnings": [
-    "news_economic_baidu 20261113: module 'akshare' has no attribute 'news_economic_baidu'",
-    "news_report_time_baidu 20261113: module 'akshare' has no attribute 'news_report_time_baidu'",
     "news_economic_baidu 20261114: module 'akshare' has no attribute 'news_economic_baidu'",
     "news_report_time_baidu 20261114: module 'akshare' has no attribute 'news_report_time_baidu'",
     "news_economic_baidu 20261115: module 'akshare' has no attribute 'news_economic_baidu'",
@@ -821,6 +712,8 @@
     "news_report_time_baidu 20261122: module 'akshare' has no attribute 'news_report_time_baidu'",
     "news_economic_baidu 20261123: module 'akshare' has no attribute 'news_economic_baidu'",
     "news_report_time_baidu 20261123: module 'akshare' has no attribute 'news_report_time_baidu'",
+    "news_economic_baidu 20261124: module 'akshare' has no attribute 'news_economic_baidu'",
+    "news_report_time_baidu 20261124: module 'akshare' has no attribute 'news_report_time_baidu'",
     "all calendar sources failed; preserved prior future events as stale"
   ],
   "methodology": {
