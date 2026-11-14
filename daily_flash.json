@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-11-14T14:38:04+08:00",
+  "generated_at": "2026-11-14T19:02:27+08:00",
   "timezone": "Asia/Shanghai",
   "title": "Daily Flash · 每日投资驾驶舱",
-  "core_conclusion": "A股状态为 Risk-off，上涨家数占比 13.7%，风险温度 62/100（elevated）。沪深300 PE-TTM 13.14；10年分位 49.1%；强势：影视院线、银行、保险；弱势：元件、电子化学品、非金属材料。研究复核优先关注 兆易创新、中际旭创、创新药沪港深ETF天弘；该排序代表证据变化与复核优先级，不代表交易优先级。资金/期指：融资余额22656亿元，5日+0.12%；南向成交净买额+23.3亿元；沪深300股指期货基差-1.49%。 下一催化：11-17 15:00 英国9月失业率-按ILO标准(%)；11-17 21:15 美国截至10月31日当周ADP就业周度发布变动(万人)。主线财报已确认披露 21/21 个研究样本。",
+  "core_conclusion": "A股状态为 Risk-off，上涨家数占比 13.7%，风险温度 62/100（elevated）。沪深300 PE-TTM 13.14；10年分位 49.1%；强势：影视院线、银行、保险；弱势：元件、电子化学品、非金属材料。研究复核优先关注 兆易创新、中际旭创、创新药沪港深ETF天弘；该排序代表证据变化与复核优先级，不代表交易优先级。资金/期指：融资余额22656亿元，5日+0.12%；南向成交净买额+23.3亿元。 下一催化：11-17 15:00 英国9月失业率-按ILO标准(%)；11-17 21:15 美国截至10月31日当周ADP就业周度发布变动(万人)。主线财报已确认披露 21/21 个研究样本。",
   "market": {
     "regime": {
       "label": "Risk-off",
@@ -25,7 +25,7 @@
       "pe_ttm": 13.14,
       "percentile_10y": 49.1,
       "band": "neutral",
-      "status": "fresh"
+      "status": "stale"
     },
     "indices": [
       {
@@ -152,8 +152,9 @@
           "hold": 173340.0,
           "volume": 68383.0,
           "time": "15:00:00",
-          "status": "fresh",
-          "source": "新浪财经 via AKShare"
+          "status": "stale",
+          "source": "新浪财经 via AKShare",
+          "error": "module 'akshare' has no attribute 'match_main_contract'"
         },
         {
           "symbol": "上证50指数期货2612",
@@ -166,8 +167,9 @@
           "hold": 63167.0,
           "volume": 30203.0,
           "time": "15:00:00",
-          "status": "fresh",
-          "source": "新浪财经 via AKShare"
+          "status": "stale",
+          "source": "新浪财经 via AKShare",
+          "error": "module 'akshare' has no attribute 'match_main_contract'"
         },
         {
           "symbol": "中证500指数期货2612",
@@ -180,8 +182,9 @@
           "hold": 170581.0,
           "volume": 119076.0,
           "time": "15:00:00",
-          "status": "fresh",
-          "source": "新浪财经 via AKShare"
+          "status": "stale",
+          "source": "新浪财经 via AKShare",
+          "error": "module 'akshare' has no attribute 'match_main_contract'"
         },
         {
           "symbol": "中证1000指数期货2612",
@@ -194,8 +197,9 @@
           "hold": 295156.0,
           "volume": 225869.0,
           "time": "15:00:00",
-          "status": "fresh",
-          "source": "新浪财经 via AKShare"
+          "status": "stale",
+          "source": "新浪财经 via AKShare",
+          "error": "module 'akshare' has no attribute 'match_main_contract'"
         }
       ]
     }
@@ -858,16 +862,16 @@
   ],
   "sources": {
     "market_state": "2026-11-13T23:21:55+08:00",
-    "risk": "2026-11-14T14:35:57+08:00",
-    "valuation": "2026-11-14T14:35:47+08:00",
-    "decision_matrix": "2026-11-14T14:35:57+08:00",
-    "global_markets": "2026-11-14T14:36:42+08:00",
-    "catalysts": "2026-11-14T14:37:12+08:00",
+    "risk": "2026-11-14T19:00:20+08:00",
+    "valuation": "2026-11-14T19:00:19+08:00",
+    "decision_matrix": "2026-11-14T19:00:20+08:00",
+    "global_markets": "2026-11-14T19:00:52+08:00",
+    "catalysts": "2026-11-14T19:01:19+08:00",
     "ai_signals": "2026-08-26 13:33",
     "sentiment": "2026-11-13T14:34:38+08:00",
-    "market_extras": "2026-11-14T14:36:43+08:00",
-    "macro_calendar": "2026-11-14T14:37:12+08:00",
-    "theme_earnings": "2026-11-14T14:38:03+08:00"
+    "market_extras": "2026-11-14T19:00:52+08:00",
+    "macro_calendar": "2026-11-14T19:01:20+08:00",
+    "theme_earnings": "2026-11-14T19:02:27+08:00"
   },
   "boundary": "Daily Flash用于信息压缩、研究排序与条件验证；缺失数据保持缺失，不生成无条件买卖、仓位或止损指令。",
   "integrity": {
