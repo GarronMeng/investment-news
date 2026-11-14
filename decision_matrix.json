@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-14T14:35:57+08:00",
+  "generated_at": "2026-11-14T19:00:20+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -133,7 +133,7 @@
           "available": true,
           "score": -34.0,
           "confidence": "medium",
-          "evidence": "MA60 below/falling；MACD bullish；RSI 33.27 (weak)；量能 contraction；20日结构 inside_range。"
+          "evidence": "MA60 below/falling；MACD bullish；RSI 38.5 (weak)；量能 contraction；20日结构 inside_range。"
         },
         "relative_strength": {
           "available": true,
@@ -175,7 +175,7 @@
           {
             "layer": "technical",
             "score": -34.0,
-            "evidence": "MA60 below/falling；MACD bullish；RSI 33.27 (weak)；量能 contraction；20日结构 inside_range。"
+            "evidence": "MA60 below/falling；MACD bullish；RSI 38.5 (weak)；量能 contraction；20日结构 inside_range。"
           },
           {
             "layer": "industry",

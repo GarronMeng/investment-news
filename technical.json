@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-11-14T14:35:47+08:00",
-  "source_generated_at": "2026-11-14T14:35:47+08:00",
+  "generated_at": "2026-11-14T19:00:19+08:00",
+  "source_generated_at": "2026-11-14T19:00:19+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -71,19 +71,19 @@
       "observations": 140,
       "close": 193.86,
       "ma60": {
-        "value": 324.9203,
+        "value": 256.5107,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.010289
+        "slope_pct": -0.005774
       },
-      "rsi14": 33.27,
+      "rsi14": 38.5,
       "rsi_zone": "weak",
       "macd": {
-        "dif": -31.33828,
-        "dea": -36.8039,
-        "hist": 10.93124,
+        "dif": -15.7008,
+        "dea": -16.9228,
+        "hist": 2.444,
         "state": "bullish",
-        "cross_age": 12
+        "cross_age": 2
       },
       "volume": {
         "ratio20": 0.727,
