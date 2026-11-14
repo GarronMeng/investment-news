@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-14T19:00:52+08:00",
+  "generated_at": "2026-11-14T22:15:45+08:00",
   "timezone": "Asia/Shanghai",
   "southbound": {
     "status": "fresh",
@@ -37,7 +37,7 @@
       "time": "15:00:00",
       "status": "stale",
       "source": "新浪财经 via AKShare",
-      "error": "module 'akshare' has no attribute 'match_main_contract'"
+      "error": "match_main_contract 已在 1.20.45 更名为 futures_main_contract_sina，请改用 ak.futures_main_contract_sina；参数与返回的列也可能有调整，用 ak.interface_info(\"futures_main_contract_sina\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename"
     },
     {
       "symbol": "上证50指数期货2612",
@@ -52,7 +52,7 @@
       "time": "15:00:00",
       "status": "stale",
       "source": "新浪财经 via AKShare",
-      "error": "module 'akshare' has no attribute 'match_main_contract'"
+      "error": "match_main_contract 已在 1.20.45 更名为 futures_main_contract_sina，请改用 ak.futures_main_contract_sina；参数与返回的列也可能有调整，用 ak.interface_info(\"futures_main_contract_sina\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename"
     },
     {
       "symbol": "中证500指数期货2612",
@@ -67,7 +67,7 @@
       "time": "15:00:00",
       "status": "stale",
       "source": "新浪财经 via AKShare",
-      "error": "module 'akshare' has no attribute 'match_main_contract'"
+      "error": "match_main_contract 已在 1.20.45 更名为 futures_main_contract_sina，请改用 ak.futures_main_contract_sina；参数与返回的列也可能有调整，用 ak.interface_info(\"futures_main_contract_sina\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename"
     },
     {
       "symbol": "中证1000指数期货2612",
@@ -82,11 +82,11 @@
       "time": "15:00:00",
       "status": "stale",
       "source": "新浪财经 via AKShare",
-      "error": "module 'akshare' has no attribute 'match_main_contract'"
+      "error": "match_main_contract 已在 1.20.45 更名为 futures_main_contract_sina，请改用 ak.futures_main_contract_sina；参数与返回的列也可能有调整，用 ak.interface_info(\"futures_main_contract_sina\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename"
     }
   ],
   "warnings": [
-    "cffex futures: module 'akshare' has no attribute 'match_main_contract'"
+    "cffex futures: match_main_contract 已在 1.20.45 更名为 futures_main_contract_sina，请改用 ak.futures_main_contract_sina；参数与返回的列也可能有调整，用 ak.interface_info(\"futures_main_contract_sina\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename"
   ],
   "methodology": {
     "southbound": "东方财富沪深港通资金流向，经AKShare标准化；优先汇总南向/港股通成交净买额，失败时回退南向资金历史数据。单位亿元。",
