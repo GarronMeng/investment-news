@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-15T10:59:12+08:00",
+  "generated_at": "2026-11-15T14:43:41+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 14,
@@ -169,10 +169,10 @@
       "symbol": "SI=F",
       "group": "商品",
       "unit": "usd",
-      "value": 49.031,
-      "raw_value": 49.031,
+      "value": 49.121,
+      "raw_value": 49.121,
       "previous_close": 49.972,
-      "change_pct": -1.88,
+      "change_pct": -1.7,
       "as_of": "2026-11-13T13:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
