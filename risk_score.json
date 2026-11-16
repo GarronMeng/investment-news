@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-16T14:55:12+08:00",
+  "generated_at": "2026-11-16T16:36:33+08:00",
   "score": 62.7,
   "label": "elevated",
   "coverage": 100.0,
@@ -40,7 +40,7 @@
       "score": 66.0,
       "weight": 10,
       "available": true,
-      "evidence": "regime=risk_off；指数均值 -1.95% / 上涨占比 13.7%"
+      "evidence": "regime=risk_off；指数均值 -2.03% / 上涨占比 13.7%"
     }
   },
   "drivers": [
@@ -57,7 +57,7 @@
     {
       "component": "concentration",
       "score": 66.0,
-      "evidence": "regime=risk_off；指数均值 -1.95% / 上涨占比 13.7%"
+      "evidence": "regime=risk_off；指数均值 -2.03% / 上涨占比 13.7%"
     }
   ],
   "state_changes": [],
