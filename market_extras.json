@@ -1,22 +1,22 @@
 {
   "version": 1,
-  "generated_at": "2026-11-17T01:30:29+08:00",
+  "generated_at": "2026-11-17T13:14:20+08:00",
   "timezone": "Asia/Shanghai",
   "southbound": {
     "status": "fresh",
-    "as_of": "2026-11-16",
-    "net_buy_cny_100m": -42.27,
+    "as_of": "2026-11-17",
+    "net_buy_cny_100m": 23.67,
     "net_inflow_cny_100m": 840.0,
-    "closed": true,
+    "closed": false,
     "legs": [
       {
         "name": "港股通(沪)",
-        "net_buy_cny_100m": -13.336951999999998,
+        "net_buy_cny_100m": 18.896188000000002,
         "net_inflow_cny_100m": 420.0
       },
       {
         "name": "港股通(深)",
-        "net_buy_cny_100m": -28.929859999999998,
+        "net_buy_cny_100m": 4.774961,
         "net_inflow_cny_100m": 420.0
       }
     ],
