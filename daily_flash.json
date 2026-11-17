@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-17T20:16:37+08:00",
+  "generated_at": "2026-11-17T20:36:20+08:00",
   "timezone": "Asia/Shanghai",
   "title": "Daily Flash · 每日投资驾驶舱",
   "core_conclusion": "A股状态为 Risk-off，上涨家数占比 23.8%，风险温度 64/100（elevated）。沪深300 PE-TTM 13.14；10年分位 49.1%；强势：集成电路制造、橡胶助剂、厨房小家电；弱势：其他数字媒体、影视动漫制作、影视院线。研究复核优先关注 兆易创新、德明利、中际旭创；该排序代表证据变化与复核优先级，不代表交易优先级。资金/期指：融资余额22663亿元，5日+0.09%（stale）；南向成交净买额+22.0亿元。 下一催化：11-17 15:00 英国9月失业率-按ILO标准(%)；11-17 21:15 美国截至10月31日当周ADP就业周度发布变动(万人)。主线财报已确认披露 0/21 个研究样本。",
@@ -449,10 +449,10 @@
       "symbol": "^VIX",
       "group": "风险",
       "unit": "index",
-      "value": 22.43,
-      "raw_value": 22.43,
+      "value": 22.56,
+      "raw_value": 22.56,
       "previous_close": 22.91,
-      "change_pct": -2.1,
+      "change_pct": -1.53,
       "as_of": "2026-11-17T16:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -477,10 +477,10 @@
       "symbol": "DX-Y.NYB",
       "group": "汇率",
       "unit": "index",
-      "value": 103.584,
-      "raw_value": 103.584,
+      "value": 103.606,
+      "raw_value": 103.606,
       "previous_close": 103.55,
-      "change_pct": 0.03,
+      "change_pct": 0.05,
       "as_of": "2026-11-17T13:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -491,11 +491,11 @@
       "symbol": "CNH=X",
       "group": "汇率",
       "unit": "fx",
-      "value": 6.666,
-      "raw_value": 6.666,
+      "value": 6.6662,
+      "raw_value": 6.6662,
       "previous_close": null,
       "change_pct": null,
-      "as_of": "2026-11-17T20:13:22+08:00",
+      "as_of": "2026-11-17T20:33:57+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -505,10 +505,10 @@
       "symbol": "GC=F",
       "group": "商品",
       "unit": "usd",
-      "value": 3870.3999,
-      "raw_value": 3870.3999,
+      "value": 3866.8,
+      "raw_value": 3866.8,
       "previous_close": 3853.0,
-      "change_pct": 0.45,
+      "change_pct": 0.36,
       "as_of": "2026-11-17T13:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -519,10 +519,10 @@
       "symbol": "SI=F",
       "group": "商品",
       "unit": "usd",
-      "value": 47.595,
-      "raw_value": 47.595,
+      "value": 47.58,
+      "raw_value": 47.58,
       "previous_close": 46.785,
-      "change_pct": 1.73,
+      "change_pct": 1.7,
       "as_of": "2026-11-17T13:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -533,10 +533,10 @@
       "symbol": "CL=F",
       "group": "商品",
       "unit": "usd",
-      "value": 86.09,
-      "raw_value": 86.09,
+      "value": 86.17,
+      "raw_value": 86.17,
       "previous_close": 85.72,
-      "change_pct": 0.43,
+      "change_pct": 0.52,
       "as_of": "2026-11-17T13:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -547,10 +547,10 @@
       "symbol": "BZ=F",
       "group": "商品",
       "unit": "usd",
-      "value": 92.72,
-      "raw_value": 92.72,
+      "value": 92.96,
+      "raw_value": 92.96,
       "previous_close": 92.44,
-      "change_pct": 0.3,
+      "change_pct": 0.56,
       "as_of": "2026-11-17T13:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -636,14 +636,14 @@
     },
     {
       "name": "美债 / 美元",
-      "score": 4.5,
+      "score": 4.3,
       "label": "中性",
       "weight": 5,
       "evidence": "收益率与美元上行对长久期风险资产偏压制"
     },
     {
       "name": "商品避险",
-      "score": 10.9,
+      "score": 11.8,
       "label": "中性",
       "weight": 3,
       "evidence": "黄金/白银/原油组合变化"
@@ -862,16 +862,16 @@
   ],
   "sources": {
     "market_state": "2026-11-17T20:07:44+08:00",
-    "risk": "2026-11-17T20:12:33+08:00",
-    "valuation": "2026-11-17T20:12:32+08:00",
-    "decision_matrix": "2026-11-17T20:12:33+08:00",
-    "global_markets": "2026-11-17T20:13:23+08:00",
-    "catalysts": "2026-11-17T20:14:09+08:00",
+    "risk": "2026-11-17T20:33:13+08:00",
+    "valuation": "2026-11-17T20:33:13+08:00",
+    "decision_matrix": "2026-11-17T20:33:13+08:00",
+    "global_markets": "2026-11-17T20:33:56+08:00",
+    "catalysts": "2026-11-17T20:34:36+08:00",
     "ai_signals": "2026-08-26 13:33",
     "sentiment": "2026-11-17T15:49:29+08:00",
-    "market_extras": "2026-11-17T20:13:24+08:00",
-    "macro_calendar": "2026-11-17T20:14:09+08:00",
-    "theme_earnings": "2026-11-17T20:16:37+08:00"
+    "market_extras": "2026-11-17T20:33:59+08:00",
+    "macro_calendar": "2026-11-17T20:34:36+08:00",
+    "theme_earnings": "2026-11-17T20:36:20+08:00"
   },
   "boundary": "Daily Flash用于信息压缩、研究排序与条件验证；缺失数据保持缺失，不生成无条件买卖、仓位或止损指令。",
   "integrity": {
@@ -1597,7 +1597,8 @@
           "earnings_signal": "not_reported",
           "industry": null,
           "source": "东方财富 via AKShare",
-          "reason": null
+          "reason": null,
+          "data_status": "stale"
         },
         {
           "code": "001309",
@@ -1613,7 +1614,8 @@
           "earnings_signal": "not_reported",
           "industry": null,
           "source": "东方财富 via AKShare",
-          "reason": null
+          "reason": null,
+          "data_status": "stale"
         },
         {
           "code": "301308",
@@ -1629,7 +1631,8 @@
           "earnings_signal": "not_reported",
           "industry": null,
           "source": "东方财富 via AKShare",
-          "reason": null
+          "reason": null,
+          "data_status": "stale"
         },
         {
           "code": "688525",
@@ -1645,7 +1648,8 @@
           "earnings_signal": "not_reported",
           "industry": null,
           "source": "东方财富 via AKShare",
-          "reason": null
+          "reason": null,
+          "data_status": "stale"
         },
         {
           "code": "688008",
@@ -1661,7 +1665,8 @@
           "earnings_signal": "not_reported",
           "industry": null,
           "source": "东方财富 via AKShare",
-          "reason": null
+          "reason": null,
+          "data_status": "stale"
         }
       ]
     },
@@ -1693,7 +1698,8 @@
           "earnings_signal": "not_reported",
           "industry": null,
           "source": "东方财富 via AKShare",
-          "reason": null
+          "reason": null,
+          "data_status": "stale"
         },
         {
           "code": "300502",
@@ -1709,7 +1715,8 @@
           "earnings_signal": "not_reported",
           "industry": null,
           "source": "东方财富 via AKShare",
-          "reason": null
+          "reason": null,
+          "data_status": "stale"
         },
         {
           "code": "300394",
@@ -1725,7 +1732,8 @@
           "earnings_signal": "not_reported",
           "industry": null,
           "source": "东方财富 via AKShare",
-          "reason": null
+          "reason": null,
+          "data_status": "stale"
         }
       ]
     },
@@ -1757,7 +1765,8 @@
           "earnings_signal": "not_reported",
           "industry": null,
           "source": "东方财富 via AKShare",
-          "reason": null
+          "reason": null,
+          "data_status": "stale"
         },
         {
           "code": "002463",
@@ -1773,7 +1782,8 @@
           "earnings_signal": "not_reported",
           "industry": null,
           "source": "东方财富 via AKShare",
-          "reason": null
+          "reason": null,
+          "data_status": "stale"
         },
         {
           "code": "002916",
@@ -1789,7 +1799,8 @@
           "earnings_signal": "not_reported",
           "industry": null,
           "source": "东方财富 via AKShare",
-          "reason": null
+          "reason": null,
+          "data_status": "stale"
         },
         {
           "code": "600183",
@@ -1805,7 +1816,8 @@
           "earnings_signal": "not_reported",
           "industry": null,
           "source": "东方财富 via AKShare",
-          "reason": null
+          "reason": null,
+          "data_status": "stale"
         }
       ]
     },
@@ -1837,7 +1849,8 @@
           "earnings_signal": "not_reported",
           "industry": null,
           "source": "东方财富 via AKShare",
-          "reason": null
+          "reason": null,
+          "data_status": "stale"
         },
         {
           "code": "600584",
@@ -1853,7 +1866,8 @@
           "earnings_signal": "not_reported",
           "industry": null,
           "source": "东方财富 via AKShare",
-          "reason": null
+          "reason": null,
+          "data_status": "stale"
         },
         {
           "code": "002156",
@@ -1869,7 +1883,8 @@
           "earnings_signal": "not_reported",
           "industry": null,
           "source": "东方财富 via AKShare",
-          "reason": null
+          "reason": null,
+          "data_status": "stale"
         }
       ]
     },
@@ -1901,7 +1916,8 @@
           "earnings_signal": "not_reported",
           "industry": null,
           "source": "东方财富 via AKShare",
-          "reason": null
+          "reason": null,
+          "data_status": "stale"
         },
         {
           "code": "300408",
@@ -1917,7 +1933,8 @@
           "earnings_signal": "not_reported",
           "industry": null,
           "source": "东方财富 via AKShare",
-          "reason": null
+          "reason": null,
+          "data_status": "stale"
         },
         {
           "code": "002138",
@@ -1933,7 +1950,8 @@
           "earnings_signal": "not_reported",
           "industry": null,
           "source": "东方财富 via AKShare",
-          "reason": null
+          "reason": null,
+          "data_status": "stale"
         }
       ]
     },
@@ -1965,7 +1983,8 @@
           "earnings_signal": "not_reported",
           "industry": null,
           "source": "东方财富 via AKShare",
-          "reason": null
+          "reason": null,
+          "data_status": "stale"
         },
         {
           "code": "688235",
@@ -1981,7 +2000,8 @@
           "earnings_signal": "not_reported",
           "industry": null,
           "source": "东方财富 via AKShare",
-          "reason": null
+          "reason": null,
+          "data_status": "stale"
         },
         {
           "code": "688506",
@@ -1997,7 +2017,8 @@
           "earnings_signal": "not_reported",
           "industry": null,
           "source": "东方财富 via AKShare",
-          "reason": null
+          "reason": null,
+          "data_status": "stale"
         }
       ]
     }
@@ -2016,7 +2037,7 @@
       "horizon_days": 10
     },
     "theme_earnings": {
-      "status": "fresh",
+      "status": "stale",
       "reported": 0,
       "companies": 21
     }
