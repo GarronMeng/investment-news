@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-11-16T21:41:52+08:00",
-  "history_generated_at": "2026-11-16T21:41:51+08:00",
+  "generated_at": "2026-11-17T13:13:37+08:00",
+  "history_generated_at": "2026-11-17T13:13:35+08:00",
   "records": 708,
   "raw_ledger_records": 736,
   "superseded_records": 28,
@@ -23824,7 +23824,14 @@
           "correct": true
         },
         "t20": {
-          "status": "pending"
+          "status": "settled",
+          "date": "2026-11-17",
+          "asset_return": -0.290163,
+          "benchmark_return": -0.042417,
+          "excess_return": -0.247746,
+          "absolute_excess": 0.247746,
+          "directional_excess": 0.247746,
+          "correct": true
         }
       }
     },
@@ -23864,7 +23871,14 @@
           "correct": false
         },
         "t20": {
-          "status": "pending"
+          "status": "settled",
+          "date": "2026-11-17",
+          "asset_return": -0.1601,
+          "benchmark_return": -0.042417,
+          "excess_return": -0.117683,
+          "absolute_excess": 0.117683,
+          "directional_excess": 0.117683,
+          "correct": true
         }
       }
     },
@@ -23904,7 +23918,14 @@
           "correct": true
         },
         "t20": {
-          "status": "pending"
+          "status": "settled",
+          "date": "2026-11-17",
+          "asset_return": -0.389276,
+          "benchmark_return": -0.042417,
+          "excess_return": -0.346858,
+          "absolute_excess": 0.346858,
+          "directional_excess": 0.346858,
+          "correct": true
         }
       }
     },
@@ -23944,7 +23965,14 @@
           "correct": true
         },
         "t20": {
-          "status": "pending"
+          "status": "settled",
+          "date": "2026-11-17",
+          "asset_return": -0.371863,
+          "benchmark_return": -0.042417,
+          "excess_return": -0.329446,
+          "absolute_excess": 0.329446,
+          "directional_excess": 0.329446,
+          "correct": true
         }
       }
     },
@@ -23984,7 +24012,14 @@
           "correct": true
         },
         "t20": {
-          "status": "pending"
+          "status": "settled",
+          "date": "2026-11-17",
+          "asset_return": -0.152159,
+          "benchmark_return": -0.042417,
+          "excess_return": -0.109742,
+          "absolute_excess": 0.109742,
+          "directional_excess": 0.109742,
+          "correct": true
         }
       }
     },
@@ -24024,7 +24059,14 @@
           "correct": true
         },
         "t20": {
-          "status": "pending"
+          "status": "settled",
+          "date": "2026-11-17",
+          "asset_return": -0.210459,
+          "benchmark_return": -0.042417,
+          "excess_return": -0.168042,
+          "absolute_excess": 0.168042,
+          "directional_excess": 0.168042,
+          "correct": true
         }
       }
     },
@@ -30374,7 +30416,14 @@
           "correct": false
         },
         "t5": {
-          "status": "pending"
+          "status": "settled",
+          "date": "2026-11-17",
+          "asset_return": -0.108075,
+          "benchmark_return": -0.022733,
+          "excess_return": -0.085342,
+          "absolute_excess": 0.085342,
+          "directional_excess": 0.085342,
+          "correct": true
         },
         "t20": {
           "status": "pending"
@@ -30407,7 +30456,14 @@
           "correct": null
         },
         "t5": {
-          "status": "pending"
+          "status": "settled",
+          "date": "2026-11-17",
+          "asset_return": -0.042774,
+          "benchmark_return": -0.022733,
+          "excess_return": -0.020041,
+          "absolute_excess": 0.020041,
+          "directional_excess": null,
+          "correct": null
         },
         "t20": {
           "status": "pending"
@@ -30440,7 +30496,14 @@
           "correct": null
         },
         "t5": {
-          "status": "pending"
+          "status": "settled",
+          "date": "2026-11-17",
+          "asset_return": -0.108615,
+          "benchmark_return": -0.022733,
+          "excess_return": -0.085882,
+          "absolute_excess": 0.085882,
+          "directional_excess": null,
+          "correct": null
         },
         "t20": {
           "status": "pending"
@@ -30473,7 +30536,14 @@
           "correct": false
         },
         "t5": {
-          "status": "pending"
+          "status": "settled",
+          "date": "2026-11-17",
+          "asset_return": -0.135945,
+          "benchmark_return": -0.022733,
+          "excess_return": -0.113212,
+          "absolute_excess": 0.113212,
+          "directional_excess": 0.113212,
+          "correct": true
         },
         "t20": {
           "status": "pending"
@@ -30506,7 +30576,14 @@
           "correct": false
         },
         "t5": {
-          "status": "pending"
+          "status": "settled",
+          "date": "2026-11-17",
+          "asset_return": -0.047841,
+          "benchmark_return": -0.022733,
+          "excess_return": -0.025109,
+          "absolute_excess": 0.025109,
+          "directional_excess": -0.025109,
+          "correct": false
         },
         "t20": {
           "status": "pending"
@@ -30539,7 +30616,14 @@
           "correct": false
         },
         "t5": {
-          "status": "pending"
+          "status": "settled",
+          "date": "2026-11-17",
+          "asset_return": -0.047841,
+          "benchmark_return": -0.022733,
+          "excess_return": -0.025109,
+          "absolute_excess": 0.025109,
+          "directional_excess": -0.025109,
+          "correct": false
         },
         "t20": {
           "status": "pending"
@@ -30572,7 +30656,14 @@
           "correct": null
         },
         "t5": {
-          "status": "pending"
+          "status": "settled",
+          "date": "2026-11-17",
+          "asset_return": -0.044049,
+          "benchmark_return": -0.022733,
+          "excess_return": -0.021317,
+          "absolute_excess": 0.021317,
+          "directional_excess": null,
+          "correct": null
         },
         "t20": {
           "status": "pending"
@@ -30605,7 +30696,14 @@
           "correct": null
         },
         "t5": {
-          "status": "pending"
+          "status": "settled",
+          "date": "2026-11-17",
+          "asset_return": -0.088237,
+          "benchmark_return": -0.022733,
+          "excess_return": -0.065504,
+          "absolute_excess": 0.065504,
+          "directional_excess": null,
+          "correct": null
         },
         "t20": {
           "status": "pending"
@@ -31387,7 +31485,14 @@
       "entry_close": 27.940000534057617,
       "horizons": {
         "t1": {
-          "status": "pending"
+          "status": "settled",
+          "date": "2026-11-17",
+          "asset_return": 0.027917,
+          "benchmark_return": -0.003207,
+          "excess_return": 0.031124,
+          "absolute_excess": 0.031124,
+          "directional_excess": -0.031124,
+          "correct": false
         },
         "t5": {
           "status": "pending"
@@ -31413,7 +31518,14 @@
       "entry_close": 178.64999389648438,
       "horizons": {
         "t1": {
-          "status": "pending"
+          "status": "settled",
+          "date": "2026-11-17",
+          "asset_return": 0.032186,
+          "benchmark_return": -0.003207,
+          "excess_return": 0.035393,
+          "absolute_excess": 0.035393,
+          "directional_excess": -0.035393,
+          "correct": false
         },
         "t5": {
           "status": "pending"
@@ -31439,7 +31551,14 @@
       "entry_close": 75.93000030517578,
       "horizons": {
         "t1": {
-          "status": "pending"
+          "status": "settled",
+          "date": "2026-11-17",
+          "asset_return": -0.017516,
+          "benchmark_return": -0.003207,
+          "excess_return": -0.014309,
+          "absolute_excess": 0.014309,
+          "directional_excess": 0.014309,
+          "correct": true
         },
         "t5": {
           "status": "pending"
@@ -31465,7 +31584,14 @@
       "entry_close": 408.9700012207031,
       "horizons": {
         "t1": {
-          "status": "pending"
+          "status": "settled",
+          "date": "2026-11-17",
+          "asset_return": -0.00489,
+          "benchmark_return": -0.003207,
+          "excess_return": -0.001684,
+          "absolute_excess": 0.001684,
+          "directional_excess": 0.001684,
+          "correct": true
         },
         "t5": {
           "status": "pending"
@@ -31491,7 +31617,14 @@
       "entry_close": 0.817,
       "horizons": {
         "t1": {
-          "status": "pending"
+          "status": "settled",
+          "date": "2026-11-17",
+          "asset_return": -0.001224,
+          "benchmark_return": -0.003207,
+          "excess_return": 0.001983,
+          "absolute_excess": 0.001983,
+          "directional_excess": null,
+          "correct": null
         },
         "t5": {
           "status": "pending"
@@ -31517,7 +31650,14 @@
       "entry_close": 11.789999961853027,
       "horizons": {
         "t1": {
-          "status": "pending"
+          "status": "settled",
+          "date": "2026-11-17",
+          "asset_return": 0.049194,
+          "benchmark_return": -0.003207,
+          "excess_return": 0.052401,
+          "absolute_excess": 0.052401,
+          "directional_excess": -0.052401,
+          "correct": false
         },
         "t5": {
           "status": "pending"
@@ -31543,7 +31683,14 @@
       "entry_close": 223.22000122070312,
       "horizons": {
         "t1": {
-          "status": "pending"
+          "status": "settled",
+          "date": "2026-11-17",
+          "asset_return": -0.00103,
+          "benchmark_return": -0.003207,
+          "excess_return": 0.002176,
+          "absolute_excess": 0.002176,
+          "directional_excess": -0.002176,
+          "correct": false
         },
         "t5": {
           "status": "pending"
@@ -31559,30 +31706,30 @@
       "records": 230,
       "horizons": {
         "t1": {
-          "settled": 224,
-          "directional_settled": 224,
-          "win_rate": 0.558,
-          "mean_directional_excess": 0.007708,
-          "mean_excess_return": -0.009641,
-          "mean_absolute_excess": 0.032371,
+          "settled": 230,
+          "directional_settled": 230,
+          "win_rate": 0.5522,
+          "mean_directional_excess": 0.007049,
+          "mean_excess_return": -0.008932,
+          "mean_absolute_excess": 0.032123,
           "readout": "usable"
         },
         "t5": {
-          "settled": 215,
-          "directional_settled": 215,
-          "win_rate": 0.6186,
-          "mean_directional_excess": 0.021216,
-          "mean_excess_return": -0.031655,
-          "mean_absolute_excess": 0.072051,
+          "settled": 216,
+          "directional_settled": 216,
+          "win_rate": 0.6157,
+          "mean_directional_excess": 0.021002,
+          "mean_excess_return": -0.031624,
+          "mean_absolute_excess": 0.071834,
           "readout": "usable"
         },
         "t20": {
-          "settled": 144,
-          "directional_settled": 144,
-          "win_rate": 0.7014,
-          "mean_directional_excess": 0.097854,
-          "mean_excess_return": -0.128057,
-          "mean_absolute_excess": 0.139016,
+          "settled": 146,
+          "directional_settled": 146,
+          "win_rate": 0.7055,
+          "mean_directional_excess": 0.100467,
+          "mean_excess_return": -0.130256,
+          "mean_absolute_excess": 0.141065,
           "readout": "usable"
         }
       }
@@ -31600,21 +31747,21 @@
           "readout": "usable"
         },
         "t5": {
-          "settled": 226,
-          "directional_settled": 88,
-          "win_rate": 0.6023,
-          "mean_directional_excess": 0.024657,
-          "mean_excess_return": -0.030455,
-          "mean_absolute_excess": 0.056055,
+          "settled": 231,
+          "directional_settled": 89,
+          "win_rate": 0.6067,
+          "mean_directional_excess": 0.025652,
+          "mean_excess_return": -0.03112,
+          "mean_absolute_excess": 0.056166,
           "readout": "usable"
         },
         "t20": {
-          "settled": 157,
-          "directional_settled": 38,
-          "win_rate": 0.3158,
-          "mean_directional_excess": -0.007669,
-          "mean_excess_return": -0.06987,
-          "mean_absolute_excess": 0.110467,
+          "settled": 161,
+          "directional_settled": 42,
+          "win_rate": 0.381,
+          "mean_directional_excess": 0.010736,
+          "mean_excess_return": -0.072744,
+          "mean_absolute_excess": 0.112333,
           "readout": "usable"
         }
       }
@@ -31728,12 +31875,12 @@
           "readout": "usable"
         },
         "t5": {
-          "settled": 107,
-          "directional_settled": 107,
-          "win_rate": 0.3458,
-          "mean_directional_excess": -0.021316,
-          "mean_excess_return": -0.004276,
-          "mean_absolute_excess": 0.062197,
+          "settled": 109,
+          "directional_settled": 109,
+          "win_rate": 0.3486,
+          "mean_directional_excess": -0.020373,
+          "mean_excess_return": -0.005211,
+          "mean_absolute_excess": 0.062069,
           "readout": "usable"
         },
         "t20": {
@@ -31751,12 +31898,12 @@
       "records": 37,
       "horizons": {
         "t1": {
-          "settled": 36,
+          "settled": 37,
           "directional_settled": 0,
           "win_rate": null,
           "mean_directional_excess": null,
-          "mean_excess_return": -0.002695,
-          "mean_absolute_excess": 0.018186,
+          "mean_excess_return": -0.002568,
+          "mean_absolute_excess": 0.017748,
           "readout": "insufficient_sample"
         },
         "t5": {
@@ -31794,21 +31941,21 @@
           "readout": "usable"
         },
         "t5": {
-          "settled": 226,
-          "directional_settled": 88,
-          "win_rate": 0.6023,
-          "mean_directional_excess": 0.024657,
-          "mean_excess_return": -0.030455,
-          "mean_absolute_excess": 0.056055,
+          "settled": 231,
+          "directional_settled": 89,
+          "win_rate": 0.6067,
+          "mean_directional_excess": 0.025652,
+          "mean_excess_return": -0.03112,
+          "mean_absolute_excess": 0.056166,
           "readout": "usable"
         },
         "t20": {
-          "settled": 157,
-          "directional_settled": 38,
-          "win_rate": 0.3158,
-          "mean_directional_excess": -0.007669,
-          "mean_excess_return": -0.06987,
-          "mean_absolute_excess": 0.110467,
+          "settled": 161,
+          "directional_settled": 42,
+          "win_rate": 0.381,
+          "mean_directional_excess": 0.010736,
+          "mean_excess_return": -0.072744,
+          "mean_absolute_excess": 0.112333,
           "readout": "usable"
         }
       }
@@ -31817,30 +31964,30 @@
       "records": 235,
       "horizons": {
         "t1": {
-          "settled": 229,
-          "directional_settled": 229,
-          "win_rate": 0.5677,
-          "mean_directional_excess": 0.008626,
-          "mean_excess_return": -0.010517,
-          "mean_absolute_excess": 0.032751,
+          "settled": 235,
+          "directional_settled": 235,
+          "win_rate": 0.5617,
+          "mean_directional_excess": 0.007959,
+          "mean_excess_return": -0.009801,
+          "mean_absolute_excess": 0.032498,
           "readout": "usable"
         },
         "t5": {
-          "settled": 220,
-          "directional_settled": 220,
-          "win_rate": 0.6273,
-          "mean_directional_excess": 0.022464,
-          "mean_excess_return": -0.032665,
-          "mean_absolute_excess": 0.072143,
+          "settled": 221,
+          "directional_settled": 221,
+          "win_rate": 0.6244,
+          "mean_directional_excess": 0.022248,
+          "mean_excess_return": -0.032631,
+          "mean_absolute_excess": 0.07193,
           "readout": "usable"
         },
         "t20": {
-          "settled": 149,
-          "directional_settled": 149,
-          "win_rate": 0.7114,
-          "mean_directional_excess": 0.098585,
-          "mean_excess_return": -0.127774,
-          "mean_absolute_excess": 0.138366,
+          "settled": 151,
+          "directional_settled": 151,
+          "win_rate": 0.7152,
+          "mean_directional_excess": 0.101101,
+          "mean_excess_return": -0.129904,
+          "mean_absolute_excess": 0.140355,
           "readout": "usable"
         }
       }
@@ -31849,12 +31996,12 @@
       "records": 72,
       "horizons": {
         "t1": {
-          "settled": 71,
+          "settled": 72,
           "directional_settled": 0,
           "win_rate": null,
           "mean_directional_excess": null,
-          "mean_excess_return": -0.004159,
-          "mean_absolute_excess": 0.021413,
+          "mean_excess_return": -0.004074,
+          "mean_absolute_excess": 0.021143,
           "readout": "insufficient_sample"
         },
         "t5": {
@@ -31890,12 +32037,12 @@
           "readout": "usable"
         },
         "t5": {
-          "settled": 151,
-          "directional_settled": 151,
-          "win_rate": 0.4106,
-          "mean_directional_excess": -0.010771,
-          "mean_excess_return": -0.007216,
-          "mean_absolute_excess": 0.05641,
+          "settled": 153,
+          "directional_settled": 153,
+          "win_rate": 0.4118,
+          "mean_directional_excess": -0.010237,
+          "mean_excess_return": -0.007843,
+          "mean_absolute_excess": 0.056394,
           "readout": "usable"
         },
         "t20": {
