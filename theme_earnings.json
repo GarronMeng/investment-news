@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-18T15:24:37+08:00",
+  "generated_at": "2026-11-18T15:44:28+08:00",
   "timezone": "Asia/Shanghai",
   "status": "stale",
   "report_period_code": "20260930",
@@ -468,6 +468,8 @@
   },
   "warnings": [
     "withheld 1 same-day earnings rows without corroborating public financial-report notice",
+    "stock_yjbb_em 20260930: Response ended prematurely",
+    "stock_yysj_em 20260930: Response ended prematurely",
     "stock_yjbb_em 20260930: Response ended prematurely",
     "stock_yysj_em 20260930: Response ended prematurely"
   ],
