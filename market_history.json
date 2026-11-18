@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated_at": "2026-11-17T22:38:55+08:00",
+  "generated_at": "2026-11-18T12:39:52+08:00",
   "timezone": "Asia/Shanghai",
   "benchmark": {
     "code": "510300",
@@ -9,18 +9,9 @@
     "kind": "etf",
     "status": "fresh",
     "source": "东方财富 via AKShare",
-    "last_date": "2026-11-17",
+    "last_date": "2026-11-18",
     "observations": 140,
     "rows": [
-      {
-        "date": "2026-04-22",
-        "open": 4.76,
-        "high": 4.813,
-        "low": 4.756,
-        "close": 4.811,
-        "volume": 10125926.0,
-        "amount": 4851593064.0
-      },
       {
         "date": "2026-04-23",
         "open": 4.82,
@@ -1271,6 +1262,15 @@
         "close": 4.042,
         "volume": 20078506.0,
         "amount": 8114734031.0
+      },
+      {
+        "date": "2026-11-18",
+        "open": 4.059,
+        "high": 4.06,
+        "low": 4.03,
+        "close": 4.033,
+        "volume": 3007679.0,
+        "amount": 1215841379.0
       }
     ]
   },
@@ -1288,18 +1288,9 @@
       "kind": "stock",
       "status": "fresh",
       "source": "Yahoo Finance chart",
-      "last_date": "2026-11-17",
+      "last_date": "2026-11-18",
       "observations": 140,
       "rows": [
-        {
-          "date": "2026-04-22",
-          "open": 303.5,
-          "high": 314.5799865722656,
-          "low": 302.510009765625,
-          "close": 313.9800109863281,
-          "volume": 34166195.0,
-          "amount": null
-        },
         {
           "date": "2026-04-23",
           "open": 326.010009765625,
@@ -2550,6 +2541,15 @@
           "close": 214.55999755859375,
           "volume": 34271399.0,
           "amount": null
+        },
+        {
+          "date": "2026-11-18",
+          "open": 217.0,
+          "high": 218.0,
+          "low": 214.42999267578125,
+          "close": 215.0,
+          "volume": 11818608.0,
+          "amount": null
         }
       ],
       "fallback_reason": "AKShare=stock_zh_a_hist 已在 1.20.46 更名为 stock_zh_a_hist_em，请改用 ak.stock_zh_a_hist_em；参数与返回的列也可能有调整，用 ak.interface_info(\"stock_zh_a_hist_em\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename; Sina=stock_zh_a_daily 已在 1.20"
@@ -2561,18 +2561,9 @@
       "kind": "stock",
       "status": "fresh",
       "source": "Yahoo Finance chart",
-      "last_date": "2026-11-17",
+      "last_date": "2026-11-18",
       "observations": 140,
       "rows": [
-        {
-          "date": "2026-04-22",
-          "open": 367.6499938964844,
-          "high": 378.5714416503906,
-          "low": 364.25714111328125,
-          "close": 375.0,
-          "volume": 19832668.0,
-          "amount": null
-        },
         {
           "date": "2026-04-23",
           "open": 385.0,
@@ -3817,11 +3808,20 @@
         },
         {
           "date": "2026-11-17",
-          "open": 207.00999450683594,
+          "open": 175.0,
           "high": 185.5800018310547,
           "low": 174.1300048828125,
           "close": 177.25,
-          "volume": 15276229.0,
+          "volume": 15119408.0,
+          "amount": null
+        },
+        {
+          "date": "2026-11-18",
+          "open": 207.00999450683594,
+          "high": 179.6300048828125,
+          "low": 174.0,
+          "close": 174.9199981689453,
+          "volume": 5557228.0,
           "amount": null
         }
       ],
@@ -3834,18 +3834,9 @@
       "kind": "stock",
       "status": "fresh",
       "source": "Yahoo Finance chart",
-      "last_date": "2026-11-17",
+      "last_date": "2026-11-18",
       "observations": 140,
       "rows": [
-        {
-          "date": "2026-04-22",
-          "open": 859.2999877929688,
-          "high": 893.2000122070312,
-          "low": 854.0,
-          "close": 886.6199951171875,
-          "volume": 29438293.0,
-          "amount": null
-        },
         {
           "date": "2026-04-23",
           "open": 890.0,
@@ -5090,11 +5081,20 @@
         },
         {
           "date": "2026-11-17",
-          "open": 520.0,
+          "open": 398.8800048828125,
           "high": 410.9599914550781,
           "low": 383.0,
           "close": 393.0,
           "volume": 51883389.0,
+          "amount": null
+        },
+        {
+          "date": "2026-11-18",
+          "open": 520.0,
+          "high": 402.05999755859375,
+          "low": 385.7200012207031,
+          "close": 390.989990234375,
+          "volume": 22904438.0,
           "amount": null
         }
       ],
@@ -5107,18 +5107,9 @@
       "kind": "stock",
       "status": "fresh",
       "source": "Yahoo Finance chart",
-      "last_date": "2026-11-17",
+      "last_date": "2026-11-18",
       "observations": 140,
       "rows": [
-        {
-          "date": "2026-04-22",
-          "open": 172.05999755859375,
-          "high": 186.33999633789062,
-          "low": 171.1999969482422,
-          "close": 186.33999633789062,
-          "volume": 83237664.0,
-          "amount": null
-        },
         {
           "date": "2026-04-23",
           "open": 192.0,
@@ -6363,11 +6354,20 @@
         },
         {
           "date": "2026-11-17",
-          "open": 96.0,
+          "open": 74.04000091552734,
           "high": 75.16000366210938,
           "low": 70.5199966430664,
           "close": 71.76000213623047,
-          "volume": 142817697.0,
+          "volume": 141797951.0,
+          "amount": null
+        },
+        {
+          "date": "2026-11-18",
+          "open": 96.0,
+          "high": 73.0999984741211,
+          "low": 69.79000091552734,
+          "close": 70.8499984741211,
+          "volume": 70986078.0,
           "amount": null
         }
       ],
@@ -6380,18 +6380,9 @@
       "kind": "stock",
       "status": "fresh",
       "source": "Yahoo Finance chart",
-      "last_date": "2026-11-17",
+      "last_date": "2026-11-18",
       "observations": 140,
       "rows": [
-        {
-          "date": "2026-04-22",
-          "open": 9.920000076293945,
-          "high": 10.25,
-          "low": 9.899999618530273,
-          "close": 10.239999771118164,
-          "volume": 119888705.0,
-          "amount": null
-        },
         {
           "date": "2026-04-23",
           "open": 10.449999809265137,
@@ -7642,6 +7633,15 @@
           "close": 12.0600004196167,
           "volume": 110824787.0,
           "amount": null
+        },
+        {
+          "date": "2026-11-18",
+          "open": 12.130000114440918,
+          "high": 12.149999618530273,
+          "low": 11.829999923706055,
+          "close": 11.899999618530273,
+          "volume": 36563249.0,
+          "amount": null
         }
       ],
       "fallback_reason": "AKShare=stock_zh_a_hist 已在 1.20.46 更名为 stock_zh_a_hist_em，请改用 ak.stock_zh_a_hist_em；参数与返回的列也可能有调整，用 ak.interface_info(\"stock_zh_a_hist_em\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename; Sina=stock_zh_a_daily 已在 1.20"
@@ -7653,18 +7653,9 @@
       "kind": "stock",
       "status": "fresh",
       "source": "Yahoo Finance chart",
-      "last_date": "2026-11-17",
+      "last_date": "2026-11-18",
       "observations": 140,
       "rows": [
-        {
-          "date": "2026-04-22",
-          "open": 22.0,
-          "high": 22.59000015258789,
-          "low": 21.889999389648438,
-          "close": 22.479999542236328,
-          "volume": 48666308.0,
-          "amount": null
-        },
         {
           "date": "2026-04-23",
           "open": 22.5,
@@ -8909,11 +8900,20 @@
         },
         {
           "date": "2026-11-17",
-          "open": 33.0099983215332,
+          "open": 27.479999542236328,
           "high": 28.899999618530273,
           "low": 26.889999389648438,
           "close": 27.549999237060547,
-          "volume": 61780185.0,
+          "volume": 60907285.0,
+          "amount": null
+        },
+        {
+          "date": "2026-11-18",
+          "open": 33.0099983215332,
+          "high": 28.0,
+          "low": 27.309999465942383,
+          "close": 27.700000762939453,
+          "volume": 23841025.0,
           "amount": null
         }
       ],
@@ -8926,18 +8926,9 @@
       "kind": "lof",
       "status": "fresh",
       "source": "东方财富 via AKShare",
-      "last_date": "2026-11-17",
+      "last_date": "2026-11-18",
       "observations": 140,
       "rows": [
-        {
-          "date": "2026-04-22",
-          "open": 2.828,
-          "high": 2.857,
-          "low": 2.82,
-          "close": 2.849,
-          "volume": 1263553.0,
-          "amount": 358920578.936
-        },
         {
           "date": "2026-04-23",
           "open": 2.789,
@@ -10188,6 +10179,15 @@
           "close": 1.401,
           "volume": 555179.0,
           "amount": 77191929.276
+        },
+        {
+          "date": "2026-11-18",
+          "open": 1.37,
+          "high": 1.378,
+          "low": 1.35,
+          "close": 1.354,
+          "volume": 512623.0,
+          "amount": 69906373.545
         }
       ]
     },
@@ -10198,18 +10198,9 @@
       "kind": "etf",
       "status": "fresh",
       "source": "东方财富 via AKShare",
-      "last_date": "2026-11-17",
+      "last_date": "2026-11-18",
       "observations": 140,
       "rows": [
-        {
-          "date": "2026-04-22",
-          "open": 9.968,
-          "high": 10.008,
-          "low": 9.968,
-          "close": 10.004,
-          "volume": 3642198.0,
-          "amount": 3637270995.0
-        },
         {
           "date": "2026-04-23",
           "open": 9.935,
@@ -11460,6 +11451,15 @@
           "close": 7.897,
           "volume": 4205388.0,
           "amount": 3320685913.0
+        },
+        {
+          "date": "2026-11-18",
+          "open": 7.796,
+          "high": 7.804,
+          "low": 7.728,
+          "close": 7.739,
+          "volume": 2894567.0,
+          "amount": 2248074127.0
         }
       ]
     },
@@ -11470,18 +11470,9 @@
       "kind": "etf",
       "status": "fresh",
       "source": "东方财富 via AKShare",
-      "last_date": "2026-11-17",
+      "last_date": "2026-11-18",
       "observations": 140,
       "rows": [
-        {
-          "date": "2026-04-22",
-          "open": 0.769,
-          "high": 0.773,
-          "low": 0.762,
-          "close": 0.768,
-          "volume": 574203.0,
-          "amount": 43918646.0
-        },
         {
           "date": "2026-04-23",
           "open": 0.769,
@@ -12732,6 +12723,15 @@
           "close": 0.816,
           "volume": 1024419.0,
           "amount": 83107891.0
+        },
+        {
+          "date": "2026-11-18",
+          "open": 0.817,
+          "high": 0.818,
+          "low": 0.79,
+          "close": 0.792,
+          "volume": 1407055.0,
+          "amount": 112269450.0
         }
       ]
     }
