@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generated_at": "2026-11-17T15:49:29+08:00",
+  "generated_at": "2026-11-18T15:19:41+08:00",
   "timezone": "Asia/Shanghai",
   "states": {
     "overseas_risk": {
       "title": "海外风险",
-      "level": "elevated",
-      "label": "偏高",
+      "level": "high",
+      "label": "高风险",
       "tone": "warning",
       "status": "fresh",
       "summary": "用于校准海外风险环境，不直接触发A股买卖。",
@@ -17,7 +17,7 @@
       "level": "stable",
       "label": "中性",
       "tone": "neutral",
-      "status": "stale",
+      "status": "fresh",
       "summary": "观察融资余额5日变化与20日位置，资金流不在本阶段计分。",
       "metric_id": "margin_balance"
     }
@@ -26,52 +26,45 @@
     {
       "id": "vix",
       "label": "VIX海外风险",
-      "value": 22.91,
+      "value": 25.46,
       "unit": "点",
-      "as_of": "2026-11-16",
+      "as_of": "2026-11-17",
       "lag_days": 1,
       "status": "fresh",
       "confidence": "medium",
       "source": "OpenBB/YFinance",
       "source_url": "https://www.cboe.com/tradable_products/vix/vix_historical_data/",
-      "change_1d_pct": 18.7,
+      "change_1d_pct": 11.13,
       "percentile_20d": 90.0,
-      "level": "elevated",
-      "state_label": "偏高",
+      "level": "high",
+      "state_label": "高风险",
       "tone": "warning",
       "sample_size": 20
     },
     {
       "id": "margin_balance",
       "label": "A股杠杆情绪",
-      "value": 22663.29,
-      "total_margin_balance": 22953.63,
-      "financing_buy_amount": 1728.05,
+      "value": 22283.75,
+      "total_margin_balance": 22576.59,
+      "financing_buy_amount": 1126.21,
       "unit": "亿元",
-      "as_of": "2026-11-12",
-      "lag_days": 5,
-      "status": "stale",
+      "as_of": "2026-11-16",
+      "lag_days": 2,
+      "status": "fresh",
       "confidence": "high",
       "source": "SSE+SZSE via AKShare",
       "source_url": "https://www.sse.com.cn/market/othersdata/margin/sum/",
-      "change_1d_pct": 0.03,
-      "change_5d_pct": 0.09,
-      "zscore_20d": -1.05,
+      "change_1d_pct": -1.67,
+      "change_5d_pct": -0.85,
+      "zscore_20d": -1.38,
       "level": "stable",
       "state_label": "中性",
       "tone": "neutral",
-      "sample_size": 20,
-      "error": "HTTPSConnectionPool(host='query.sse.com.cn', port=443): Max retries exceeded with url: /marketdata/tradedata/queryMargin.do?isPagination=true&beginDate=20261003&endDate=20261117&tabType=&stockCode=&pageHelp.pageSize=5000&pageHelp.pageNo=1&p"
+      "sample_size": 20
     }
   ],
   "history": {
     "margin_balance": [
-      {
-        "date": "2026-09-18",
-        "financing": 26002.759021079997,
-        "total": 26298.03918308,
-        "buy": 1874.50145691
-      },
       {
         "date": "2026-09-21",
         "financing": 26144.4733761,
@@ -245,12 +238,16 @@
         "financing": 22663.28693951,
         "total": 22953.62971772,
         "buy": 1728.04568835
+      },
+      {
+        "date": "2026-11-16",
+        "financing": 22283.74862911,
+        "total": 22576.59245926,
+        "buy": 1126.21430796
       }
     ]
   },
-  "warnings": [
-    "Margin refresh failed: HTTPSConnectionPool(host='query.sse.com.cn', port=443): Max retries exceeded with url: /marketdata/tradedata/queryMargin.do?isPagination=true&beginDate=20261003&endDate=20261117&tabType=&stockCode=&pageHelp.pageSize=5000&pageHelp.pageNo=1&pageHelp.beginPage=1&pageHelp.cacheSize=1&pageHelp.endPage=5 (Caused by NewConnectionError(\"HTTPSConnection(host='query.sse.com.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
-  ],
+  "warnings": [],
   "methodology": {
     "vix": "优先使用OpenBB/YFinance标准化接口，限流或失败时切换CBOE官方历史数据；显示最新值、单日变化和20日分位。",
     "margin_balance": "AKShare封装上交所与深交所官方汇总；合并融资余额，显示1日/5日变化和20日Z-score。",
