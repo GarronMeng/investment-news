@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generated_at": "2026-11-18T15:19:41+08:00",
+  "generated_at": "2026-11-19T15:17:11+08:00",
   "timezone": "Asia/Shanghai",
   "states": {
     "overseas_risk": {
       "title": "海外风险",
-      "level": "high",
-      "label": "高风险",
+      "level": "elevated",
+      "label": "偏高",
       "tone": "warning",
       "status": "fresh",
       "summary": "用于校准海外风险环境，不直接触发A股买卖。",
@@ -17,7 +17,7 @@
       "level": "stable",
       "label": "中性",
       "tone": "neutral",
-      "status": "fresh",
+      "status": "stale",
       "summary": "观察融资余额5日变化与20日位置，资金流不在本阶段计分。",
       "metric_id": "margin_balance"
     }
@@ -26,18 +26,18 @@
     {
       "id": "vix",
       "label": "VIX海外风险",
-      "value": 25.46,
+      "value": 24.56,
       "unit": "点",
-      "as_of": "2026-11-17",
+      "as_of": "2026-11-18",
       "lag_days": 1,
       "status": "fresh",
       "confidence": "medium",
       "source": "OpenBB/YFinance",
       "source_url": "https://www.cboe.com/tradable_products/vix/vix_historical_data/",
-      "change_1d_pct": 11.13,
-      "percentile_20d": 90.0,
-      "level": "high",
-      "state_label": "高风险",
+      "change_1d_pct": -3.53,
+      "percentile_20d": 85.0,
+      "level": "elevated",
+      "state_label": "偏高",
       "tone": "warning",
       "sample_size": 20
     },
@@ -49,8 +49,8 @@
       "financing_buy_amount": 1126.21,
       "unit": "亿元",
       "as_of": "2026-11-16",
-      "lag_days": 2,
-      "status": "fresh",
+      "lag_days": 3,
+      "status": "stale",
       "confidence": "high",
       "source": "SSE+SZSE via AKShare",
       "source_url": "https://www.sse.com.cn/market/othersdata/margin/sum/",
@@ -60,7 +60,8 @@
       "level": "stable",
       "state_label": "中性",
       "tone": "neutral",
-      "sample_size": 20
+      "sample_size": 20,
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
     }
   ],
   "history": {
@@ -247,7 +248,9 @@
       }
     ]
   },
-  "warnings": [],
+  "warnings": [
+    "Margin refresh failed: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+  ],
   "methodology": {
     "vix": "优先使用OpenBB/YFinance标准化接口，限流或失败时切换CBOE官方历史数据；显示最新值、单日变化和20日分位。",
     "margin_balance": "AKShare封装上交所与深交所官方汇总；合并融资余额，显示1日/5日变化和20日Z-score。",
