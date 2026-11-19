@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-11-19T15:17:44+08:00",
-  "source_generated_at": "2026-11-19T15:17:44+08:00",
+  "generated_at": "2026-11-19T15:33:39+08:00",
+  "source_generated_at": "2026-11-19T15:33:39+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -86,7 +86,7 @@
         "cross_age": 1
       },
       "volume": {
-        "ratio20": 0.62,
+        "ratio20": 0.612,
         "state": "contraction"
       },
       "breakout_20d": "inside_range",
@@ -146,7 +146,7 @@
         "cross_age": 7
       },
       "volume": {
-        "ratio20": 0.888,
+        "ratio20": 0.878,
         "state": "normal"
       },
       "breakout_20d": "inside_range",
@@ -206,7 +206,7 @@
         "cross_age": 7
       },
       "volume": {
-        "ratio20": 0.56,
+        "ratio20": 0.553,
         "state": "contraction"
       },
       "breakout_20d": "inside_range",
@@ -304,22 +304,7 @@
       "condition_state": "conditions_not_met"
     }
   },
-  "state_changes": [
-    {
-      "code": "300308",
-      "name": "中际旭创",
-      "field": "volume",
-      "from": "contraction",
-      "to": "normal"
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "volume",
-      "from": "contraction",
-      "to": "normal"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "rsi14": "Wilder RSI(14)",
     "macd": "EMA12/EMA26 DIF, EMA9 signal, histogram=(DIF-DEA)*2",
