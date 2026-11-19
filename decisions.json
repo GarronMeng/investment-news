@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generated_at": "2026-11-19T12:24:57+08:00",
+  "generated_at": "2026-11-19T15:17:45+08:00",
   "source": {
     "data_generated_at": "2026-11-19 12:24",
     "ai_generated_at": "2026-08-26 13:33",
     "ai_source_generated_at": "2026-08-26 12:26",
-    "features_generated_at": "2026-11-19T12:24:56+08:00",
+    "features_generated_at": "2026-11-19T15:17:44+08:00",
     "fresh_ai": false
   },
   "decisions": [
@@ -22,7 +22,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.183746",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.179012",
       "confirmation": [
         "股价相对半导体指数转强",
         "成交量放大且收盘站稳"
@@ -46,7 +46,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.21294",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.222851",
       "confirmation": [
         "相对存储板块止跌转强",
         "放量突破短期压力位"
@@ -70,7 +70,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.29222",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.277579",
       "confirmation": [
         "海外AI硬件与A股CPO同步走强",
         "高位放量后能维持强势"
@@ -94,7 +94,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.346713",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.337991",
       "confirmation": [
         "PCB板块扩散上涨",
         "订单利好得到成交量确认"
@@ -118,7 +118,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.168476",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.174362",
       "confirmation": [
         "半导体工程板块同步走强",
         "事件后股价摆脱弱势结构"
@@ -142,7 +142,7 @@
       "evidence_mode": "market_only",
       "event_count": 0,
       "trend_state": "bearish",
-      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.268289",
+      "why_now": "no fresh mapped event; market trend=bearish; 20d relative strength=-0.270058",
       "confirmation": [
         "被动元件板块形成联动",
         "涨价新闻后价格走势能够确认"
