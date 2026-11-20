@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-20T15:33:37+08:00",
+  "generated_at": "2026-11-20T19:54:50+08:00",
   "score": 64.3,
   "label": "elevated",
   "coverage": 100.0,
@@ -40,7 +40,7 @@
       "score": 66.0,
       "weight": 10,
       "available": true,
-      "evidence": "regime=risk_off；指数均值 -0.58% / 上涨占比 23.8%"
+      "evidence": "regime=risk_off；指数均值 -2.67% / 上涨占比 23.8%"
     }
   },
   "drivers": [
