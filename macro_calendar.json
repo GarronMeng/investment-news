@@ -1,155 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-11-20T22:03:51+08:00",
+  "generated_at": "2026-11-21T00:26:53+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [
-    {
-      "date": "2026-11-20",
-      "time": "05:30",
-      "type": "macro",
-      "category": "monetary_policy",
-      "region": "美国",
-      "title": "美国截至11月18日美联储资产负债表(万亿美元)",
-      "actual": null,
-      "forecast": null,
-      "previous": 6.81,
-      "importance": 2,
-      "impact_channels": [
-        "美债收益率",
-        "美元",
-        "全球成长估值",
-        "黄金/白银"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "stale"
-    },
-    {
-      "date": "2026-11-20",
-      "time": "07:30",
-      "type": "macro",
-      "category": "inflation",
-      "region": "日本",
-      "title": "日本10月全国CPI年率(%)",
-      "actual": null,
-      "forecast": null,
-      "previous": 2.1,
-      "importance": 2,
-      "impact_channels": [
-        "亚洲科技风险偏好",
-        "半导体链映射"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "stale"
-    },
-    {
-      "date": "2026-11-20",
-      "time": "07:30",
-      "type": "macro",
-      "category": "inflation",
-      "region": "日本",
-      "title": "日本10月全国核心CPI年率(%)",
-      "actual": null,
-      "forecast": 2.3,
-      "previous": 2.1,
-      "importance": 2,
-      "impact_channels": [
-        "亚洲科技风险偏好",
-        "半导体链映射"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "stale"
-    },
-    {
-      "date": "2026-11-20",
-      "time": "09:00",
-      "type": "macro",
-      "category": "liquidity",
-      "region": "中国",
-      "title": "中国11月一年期贷款市场报价利率LPR(%)",
-      "actual": null,
-      "forecast": null,
-      "previous": 3.0,
-      "importance": 2,
-      "impact_channels": [
-        "A股流动性",
-        "人民币汇率",
-        "成长估值"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "stale"
-    },
-    {
-      "date": "2026-11-20",
-      "time": "09:00",
-      "type": "macro",
-      "category": "liquidity",
-      "region": "中国",
-      "title": "中国11月五年期贷款市场报价利率LPR(%)",
-      "actual": null,
-      "forecast": null,
-      "previous": 3.5,
-      "importance": 2,
-      "impact_channels": [
-        "A股流动性",
-        "人民币汇率",
-        "成长估值"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "stale"
-    },
-    {
-      "date": "2026-11-20",
-      "time": "15:00",
-      "type": "macro",
-      "category": "growth",
-      "region": "英国",
-      "title": "英国10月季调后核心零售销售月率(%)",
-      "actual": null,
-      "forecast": null,
-      "previous": -0.7,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "stale"
-    },
-    {
-      "date": "2026-11-20",
-      "time": "15:00",
-      "type": "macro",
-      "category": "growth",
-      "region": "英国",
-      "title": "英国10月季调后零售销售月率(%)",
-      "actual": null,
-      "forecast": null,
-      "previous": -0.4,
-      "importance": 2,
-      "impact_channels": [
-        "全球利率",
-        "美元相对强弱",
-        "风险偏好"
-      ],
-      "themes": [],
-      "assets": [],
-      "source": "百度股市通 via AKShare",
-      "status": "stale"
-    },
     {
       "date": "2026-11-23",
       "time": "21:30",
@@ -174,16 +28,14 @@
     }
   ],
   "summary": {
-    "total": 8,
-    "macro": 8,
+    "total": 1,
+    "macro": 1,
     "global_earnings": 0,
     "high_importance": 0,
     "macro_days_ok": 0,
     "report_days_ok": 0
   },
   "warnings": [
-    "news_economic_baidu 20261120: news_economic_baidu 已在 1.20.41 更名为 macro_calendar_baidu，请改用 ak.macro_calendar_baidu；参数与返回的列也可能有调整，用 ak.interface_info(\"macro_calendar_baidu\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename",
-    "news_report_time_baidu 20261120: news_report_time_baidu 已在 1.20.41 更名为 stock_calendar_report_baidu，请改用 ak.stock_calendar_report_baidu；参数与返回的列也可能有调整，用 ak.interface_info(\"stock_calendar_report_baidu\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename",
     "news_economic_baidu 20261121: news_economic_baidu 已在 1.20.41 更名为 macro_calendar_baidu，请改用 ak.macro_calendar_baidu；参数与返回的列也可能有调整，用 ak.interface_info(\"macro_calendar_baidu\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename",
     "news_report_time_baidu 20261121: news_report_time_baidu 已在 1.20.41 更名为 stock_calendar_report_baidu，请改用 ak.stock_calendar_report_baidu；参数与返回的列也可能有调整，用 ak.interface_info(\"stock_calendar_report_baidu\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename",
     "news_economic_baidu 20261122: news_economic_baidu 已在 1.20.41 更名为 macro_calendar_baidu，请改用 ak.macro_calendar_baidu；参数与返回的列也可能有调整，用 ak.interface_info(\"macro_calendar_baidu\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename",
@@ -204,6 +56,8 @@
     "news_report_time_baidu 20261129: news_report_time_baidu 已在 1.20.41 更名为 stock_calendar_report_baidu，请改用 ak.stock_calendar_report_baidu；参数与返回的列也可能有调整，用 ak.interface_info(\"stock_calendar_report_baidu\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename",
     "news_economic_baidu 20261130: news_economic_baidu 已在 1.20.41 更名为 macro_calendar_baidu，请改用 ak.macro_calendar_baidu；参数与返回的列也可能有调整，用 ak.interface_info(\"macro_calendar_baidu\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename",
     "news_report_time_baidu 20261130: news_report_time_baidu 已在 1.20.41 更名为 stock_calendar_report_baidu，请改用 ak.stock_calendar_report_baidu；参数与返回的列也可能有调整，用 ak.interface_info(\"stock_calendar_report_baidu\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename",
+    "news_economic_baidu 20261201: news_economic_baidu 已在 1.20.41 更名为 macro_calendar_baidu，请改用 ak.macro_calendar_baidu；参数与返回的列也可能有调整，用 ak.interface_info(\"macro_calendar_baidu\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename",
+    "news_report_time_baidu 20261201: news_report_time_baidu 已在 1.20.41 更名为 stock_calendar_report_baidu，请改用 ak.stock_calendar_report_baidu；参数与返回的列也可能有调整，用 ak.interface_info(\"stock_calendar_report_baidu\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename",
     "all calendar sources failed; preserved prior future events as stale"
   ],
   "methodology": {
