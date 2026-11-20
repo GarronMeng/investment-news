@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-11-20T15:07:04+08:00",
-  "source_generated_at": "2026-11-20T15:07:04+08:00",
+  "generated_at": "2026-11-20T15:25:53+08:00",
+  "source_generated_at": "2026-11-20T15:25:52+08:00",
   "benchmark": {
     "code": "510300",
     "name": "沪深300ETF华泰柏瑞",
@@ -39,25 +39,25 @@
       "as_of": "2026-11-20",
       "source_status": "fresh",
       "observations": 140,
-      "close": 207.22,
+      "close": 205.88,
       "ma60": {
-        "value": 321.4063,
+        "value": 321.384,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.010076
+        "slope_pct": -0.010144
       },
-      "rsi14": 30.43,
+      "rsi14": 30.15,
       "rsi_zone": "weak",
       "macd": {
-        "dif": -25.47363,
-        "dea": -24.49802,
-        "hist": -1.95122,
+        "dif": -25.58053,
+        "dea": -24.5194,
+        "hist": -2.12225,
         "state": "bearish",
         "cross_age": 3
       },
       "volume": {
-        "ratio20": 0.724,
-        "state": "contraction"
+        "ratio20": 0.786,
+        "state": "normal"
       },
       "breakout_20d": "new_low_20d",
       "data_quality": "usable",
@@ -69,24 +69,24 @@
       "as_of": "2026-11-20",
       "source_status": "fresh",
       "observations": 140,
-      "close": 171.73,
+      "close": 170.24,
       "ma60": {
-        "value": 246.8034,
+        "value": 246.7785,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.007548
+        "slope_pct": -0.007648
       },
-      "rsi14": 34.1,
+      "rsi14": 33.68,
       "rsi_zone": "weak",
       "macd": {
-        "dif": -16.61843,
-        "dea": -16.63444,
-        "hist": 0.03201,
-        "state": "bullish",
-        "cross_age": 2
+        "dif": -16.73729,
+        "dea": -16.65821,
+        "hist": -0.15817,
+        "state": "bearish",
+        "cross_age": 0
       },
       "volume": {
-        "ratio20": 0.622,
+        "ratio20": 0.685,
         "state": "contraction"
       },
       "breakout_20d": "new_low_20d",
@@ -99,24 +99,24 @@
       "as_of": "2026-11-20",
       "source_status": "fresh",
       "observations": 140,
-      "close": 394.33,
+      "close": 393.2,
       "ma60": {
-        "value": 709.9398,
+        "value": 709.921,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.011828
+        "slope_pct": -0.011854
       },
-      "rsi14": 31.57,
+      "rsi14": 31.49,
       "rsi_zone": "weak",
       "macd": {
-        "dif": -78.39887,
-        "dea": -78.06685,
-        "hist": -0.66403,
+        "dif": -78.48901,
+        "dea": -78.08488,
+        "hist": -0.80826,
         "state": "bearish",
         "cross_age": 3
       },
       "volume": {
-        "ratio20": 0.772,
+        "ratio20": 0.821,
         "state": "normal"
       },
       "breakout_20d": "inside_range",
@@ -129,24 +129,24 @@
       "as_of": "2026-11-20",
       "source_status": "fresh",
       "observations": 140,
-      "close": 68.0,
+      "close": 67.6,
       "ma60": {
-        "value": 142.8152,
+        "value": 142.8085,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.014907
+        "slope_pct": -0.014953
       },
-      "rsi14": 25.73,
+      "rsi14": 25.57,
       "rsi_zone": "oversold",
       "macd": {
-        "dif": -16.73127,
-        "dea": -17.6376,
-        "hist": 1.81266,
+        "dif": -16.76318,
+        "dea": -17.64399,
+        "hist": 1.76161,
         "state": "bullish",
         "cross_age": 8
       },
       "volume": {
-        "ratio20": 0.796,
+        "ratio20": 0.865,
         "state": "normal"
       },
       "breakout_20d": "new_low_20d",
@@ -159,25 +159,25 @@
       "as_of": "2026-11-20",
       "source_status": "fresh",
       "observations": 140,
-      "close": 11.28,
+      "close": 11.24,
       "ma60": {
-        "value": 16.2862,
+        "value": 16.2855,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.01006
+        "slope_pct": -0.0101
       },
-      "rsi14": 31.09,
+      "rsi14": 30.89,
       "rsi_zone": "weak",
       "macd": {
-        "dif": -1.03482,
-        "dea": -1.07932,
-        "hist": 0.08899,
+        "dif": -1.03801,
+        "dea": -1.07996,
+        "hist": 0.08389,
         "state": "bullish",
         "cross_age": 11
       },
       "volume": {
-        "ratio20": 0.703,
-        "state": "contraction"
+        "ratio20": 0.768,
+        "state": "normal"
       },
       "breakout_20d": "new_low_20d",
       "data_quality": "usable",
@@ -189,24 +189,24 @@
       "as_of": "2026-11-20",
       "source_status": "fresh",
       "observations": 140,
-      "close": 26.59,
+      "close": 26.35,
       "ma60": {
-        "value": 44.2188,
+        "value": 44.2148,
         "position": "below",
         "direction": "falling",
-        "slope_pct": -0.009889
+        "slope_pct": -0.009979
       },
-      "rsi14": 26.89,
+      "rsi14": 26.54,
       "rsi_zone": "oversold",
       "macd": {
-        "dif": -4.15652,
-        "dea": -4.21104,
-        "hist": 0.10904,
+        "dif": -4.17567,
+        "dea": -4.21487,
+        "hist": 0.07841,
         "state": "bullish",
         "cross_age": 8
       },
       "volume": {
-        "ratio20": 0.6,
+        "ratio20": 0.649,
         "state": "contraction"
       },
       "breakout_20d": "new_low_20d",
@@ -306,74 +306,25 @@
   },
   "state_changes": [
     {
+      "code": "603986",
+      "name": "兆易创新",
+      "field": "volume",
+      "from": "contraction",
+      "to": "normal"
+    },
+    {
       "code": "001309",
       "name": "德明利",
-      "field": "breakout_20d",
-      "from": "inside_range",
-      "to": "new_low_20d"
-    },
-    {
-      "code": "300308",
-      "name": "中际旭创",
-      "field": "volume",
-      "from": "contraction",
-      "to": "normal"
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "volume",
-      "from": "contraction",
-      "to": "normal"
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "breakout_20d",
-      "from": "inside_range",
-      "to": "new_low_20d"
+      "field": "macd",
+      "from": "bullish",
+      "to": "bearish"
     },
     {
       "code": "600667",
       "name": "太极实业",
-      "field": "breakout_20d",
-      "from": "inside_range",
-      "to": "new_low_20d"
-    },
-    {
-      "code": "000636",
-      "name": "风华高科",
-      "field": "breakout_20d",
-      "from": "inside_range",
-      "to": "new_low_20d"
-    },
-    {
-      "code": "161226",
-      "name": "国投白银LOF",
       "field": "volume",
-      "from": "normal",
-      "to": "expansion"
-    },
-    {
-      "code": "518880",
-      "name": "黄金ETF华安",
-      "field": "volume",
-      "from": "normal",
-      "to": "expansion"
-    },
-    {
-      "code": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "field": "volume",
-      "from": "normal",
-      "to": "expansion"
-    },
-    {
-      "code": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "field": "breakout_20d",
-      "from": "inside_range",
-      "to": "new_low_20d"
+      "from": "contraction",
+      "to": "normal"
     }
   ],
   "methodology": {
