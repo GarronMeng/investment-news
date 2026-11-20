@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-11-19T22:28:42+08:00",
-  "score": 63.2,
+  "generated_at": "2026-11-20T12:12:10+08:00",
+  "score": 64.4,
   "label": "elevated",
   "coverage": 100.0,
   "available_weight": 100,
@@ -19,10 +19,10 @@
       "evidence": "risk_off；上涨占比 23.8%"
     },
     "trend": {
-      "score": 73.0,
+      "score": 79.0,
       "weight": 20,
       "available": true,
-      "evidence": "MA60 below/falling；MACD bullish；RSI weak"
+      "evidence": "MA60 below/falling；MACD bullish；RSI oversold"
     },
     "leverage": {
       "score": 25.2,
@@ -50,14 +50,14 @@
       "evidence": "risk_off；上涨占比 23.8%"
     },
     {
+      "component": "trend",
+      "score": 79.0,
+      "evidence": "MA60 below/falling；MACD bullish；RSI oversold"
+    },
+    {
       "component": "overseas",
       "score": 76.3,
       "evidence": "VIX 24.56；20日分位 85.0%"
-    },
-    {
-      "component": "trend",
-      "score": 73.0,
-      "evidence": "MA60 below/falling；MACD bullish；RSI weak"
     }
   ],
   "state_changes": [],
