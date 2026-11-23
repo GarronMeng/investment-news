@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated_at": "2026-11-22T23:26:49+08:00",
+  "generated_at": "2026-11-23T11:55:02+08:00",
   "timezone": "Asia/Shanghai",
   "benchmark": {
     "code": "510300",
@@ -1289,18 +1289,9 @@
       "kind": "stock",
       "status": "fresh",
       "source": "Yahoo Finance chart",
-      "last_date": "2026-11-20",
+      "last_date": "2026-11-23",
       "observations": 140,
       "rows": [
-        {
-          "date": "2026-04-27",
-          "open": 301.5899963378906,
-          "high": 309.5799865722656,
-          "low": 297.75,
-          "close": 303.4200134277344,
-          "volume": 31635478.0,
-          "amount": null
-        },
         {
           "date": "2026-04-28",
           "open": 305.0,
@@ -2551,6 +2542,15 @@
           "close": 205.8800048828125,
           "volume": 27699434.0,
           "amount": null
+        },
+        {
+          "date": "2026-11-23",
+          "open": 200.0,
+          "high": 210.0,
+          "low": 198.66000366210938,
+          "close": 207.9199981689453,
+          "volume": 19107424.0,
+          "amount": null
         }
       ],
       "fallback_reason": "AKShare=stock_zh_a_hist 已在 1.20.46 更名为 stock_zh_a_hist_em，请改用 ak.stock_zh_a_hist_em；参数与返回的列也可能有调整，用 ak.interface_info(\"stock_zh_a_hist_em\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename; Sina=stock_zh_a_daily 已在 1.20"
@@ -2562,18 +2562,9 @@
       "kind": "stock",
       "status": "fresh",
       "source": "Yahoo Finance chart",
-      "last_date": "2026-11-20",
+      "last_date": "2026-11-23",
       "observations": 140,
       "rows": [
-        {
-          "date": "2026-04-27",
-          "open": 351.5785827636719,
-          "high": 353.5714416503906,
-          "low": 345.71429443359375,
-          "close": 348.6785583496094,
-          "volume": 16012101.0,
-          "amount": null
-        },
         {
           "date": "2026-04-28",
           "open": 354.95001220703125,
@@ -3824,6 +3815,15 @@
           "close": 170.24000549316406,
           "volume": 12985086.0,
           "amount": null
+        },
+        {
+          "date": "2026-11-23",
+          "open": 175.1300048828125,
+          "high": 171.99000549316406,
+          "low": 162.25999450683594,
+          "close": 168.13999938964844,
+          "volume": 9978399.0,
+          "amount": null
         }
       ],
       "fallback_reason": "AKShare=stock_zh_a_hist 已在 1.20.46 更名为 stock_zh_a_hist_em，请改用 ak.stock_zh_a_hist_em；参数与返回的列也可能有调整，用 ak.interface_info(\"stock_zh_a_hist_em\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename; Sina=stock_zh_a_daily 已在 1.20"
@@ -3835,18 +3835,9 @@
       "kind": "stock",
       "status": "fresh",
       "source": "Yahoo Finance chart",
-      "last_date": "2026-11-20",
+      "last_date": "2026-11-23",
       "observations": 140,
       "rows": [
-        {
-          "date": "2026-04-27",
-          "open": 899.0,
-          "high": 900.0,
-          "low": 854.0,
-          "close": 857.030029296875,
-          "volume": 31814871.0,
-          "amount": null
-        },
         {
           "date": "2026-04-28",
           "open": 854.0,
@@ -5097,6 +5088,15 @@
           "close": 393.20001220703125,
           "volume": 37843739.0,
           "amount": null
+        },
+        {
+          "date": "2026-11-23",
+          "open": 390.0,
+          "high": 414.9700012207031,
+          "low": 388.2799987792969,
+          "close": 412.010009765625,
+          "volume": 33530343.0,
+          "amount": null
         }
       ],
       "fallback_reason": "AKShare=stock_zh_a_hist 已在 1.20.46 更名为 stock_zh_a_hist_em，请改用 ak.stock_zh_a_hist_em；参数与返回的列也可能有调整，用 ak.interface_info(\"stock_zh_a_hist_em\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename; Sina=stock_zh_a_daily 已在 1.20"
@@ -5108,18 +5108,9 @@
       "kind": "stock",
       "status": "fresh",
       "source": "Yahoo Finance chart",
-      "last_date": "2026-11-20",
+      "last_date": "2026-11-23",
       "observations": 140,
       "rows": [
-        {
-          "date": "2026-04-27",
-          "open": 188.0,
-          "high": 190.5500030517578,
-          "low": 178.86000061035156,
-          "close": 186.6999969482422,
-          "volume": 90745110.0,
-          "amount": null
-        },
         {
           "date": "2026-04-28",
           "open": 187.0,
@@ -6370,6 +6361,15 @@
           "close": 67.5999984741211,
           "volume": 108922916.0,
           "amount": null
+        },
+        {
+          "date": "2026-11-23",
+          "open": 69.5,
+          "high": 70.69999694824219,
+          "low": 66.04000091552734,
+          "close": 69.69000244140625,
+          "volume": 95029176.0,
+          "amount": null
         }
       ],
       "fallback_reason": "AKShare=stock_zh_a_hist 已在 1.20.46 更名为 stock_zh_a_hist_em，请改用 ak.stock_zh_a_hist_em；参数与返回的列也可能有调整，用 ak.interface_info(\"stock_zh_a_hist_em\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename; Sina=stock_zh_a_daily 已在 1.20"
@@ -6381,18 +6381,9 @@
       "kind": "stock",
       "status": "fresh",
       "source": "Yahoo Finance chart",
-      "last_date": "2026-11-20",
+      "last_date": "2026-11-23",
       "observations": 140,
       "rows": [
-        {
-          "date": "2026-04-27",
-          "open": 9.819999694824219,
-          "high": 10.0,
-          "low": 9.699999809265137,
-          "close": 9.880000114440918,
-          "volume": 111437304.0,
-          "amount": null
-        },
         {
           "date": "2026-04-28",
           "open": 9.84000015258789,
@@ -7643,6 +7634,15 @@
           "close": 11.239999771118164,
           "volume": 95107026.0,
           "amount": null
+        },
+        {
+          "date": "2026-11-23",
+          "open": 11.0,
+          "high": 11.380000114440918,
+          "low": 10.75,
+          "close": 11.170000076293945,
+          "volume": 58030309.0,
+          "amount": null
         }
       ],
       "fallback_reason": "AKShare=stock_zh_a_hist 已在 1.20.46 更名为 stock_zh_a_hist_em，请改用 ak.stock_zh_a_hist_em；参数与返回的列也可能有调整，用 ak.interface_info(\"stock_zh_a_hist_em\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename; Sina=stock_zh_a_daily 已在 1.20"
@@ -7654,18 +7654,9 @@
       "kind": "stock",
       "status": "fresh",
       "source": "Yahoo Finance chart",
-      "last_date": "2026-11-20",
+      "last_date": "2026-11-23",
       "observations": 140,
       "rows": [
-        {
-          "date": "2026-04-27",
-          "open": 23.420000076293945,
-          "high": 23.989999771118164,
-          "low": 22.90999984741211,
-          "close": 23.290000915527344,
-          "volume": 84889580.0,
-          "amount": null
-        },
         {
           "date": "2026-04-28",
           "open": 23.079999923706055,
@@ -8915,6 +8906,15 @@
           "low": 26.329999923706055,
           "close": 26.350000381469727,
           "volume": 43931767.0,
+          "amount": null
+        },
+        {
+          "date": "2026-11-23",
+          "open": 26.799999237060547,
+          "high": 28.0,
+          "low": 25.770000457763672,
+          "close": 27.440000534057617,
+          "volume": 52124862.0,
           "amount": null
         }
       ],
