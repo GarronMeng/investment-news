@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-23T17:46:27+08:00",
+  "generated_at": "2026-11-23T21:11:48+08:00",
   "timezone": "Asia/Shanghai",
   "breadth": {
     "total": 5576,
@@ -436,12 +436,5 @@
     "sector_rank": "东方财富行业涨跌为主；失败时回退同花顺行业资金流页面的行业涨跌幅。",
     "etf_activity": "ETF成交额活跃度代理，不等同ETF净申购或真实资金净流入。"
   },
-  "alerts": [
-    {
-      "type": "regime",
-      "from": "risk_off",
-      "to": "transition",
-      "message": "市场状态由 risk_off 切换为 transition"
-    }
-  ]
+  "alerts": []
 }
