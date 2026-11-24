@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-24T03:13:23+08:00",
+  "generated_at": "2026-11-24T19:36:26+08:00",
   "timezone": "Asia/Shanghai",
   "breadth": {
     "total": 5576,
@@ -20,57 +20,57 @@
     {
       "symbol": "sh000001",
       "name": "上证指数",
-      "price": 3538.95,
-      "change_pct": 0.15,
+      "price": 3548.37,
+      "change_pct": 0.27,
       "source": "腾讯行情"
     },
     {
       "symbol": "sz399001",
       "name": "深证成指",
-      "price": 10454.37,
-      "change_pct": 1.93,
+      "price": 10423.6,
+      "change_pct": -0.29,
       "source": "腾讯行情"
     },
     {
       "symbol": "sz399006",
       "name": "创业板指",
-      "price": 2280.2,
-      "change_pct": 3.08,
+      "price": 2278.99,
+      "change_pct": -0.05,
       "source": "腾讯行情"
     },
     {
       "symbol": "sh000688",
       "name": "科创50",
-      "price": 1227.89,
-      "change_pct": -0.26,
+      "price": 1250.09,
+      "change_pct": 1.81,
       "source": "腾讯行情"
     },
     {
       "symbol": "sh000300",
       "name": "沪深300",
-      "price": 3958.29,
-      "change_pct": 0.09,
+      "price": 3963.82,
+      "change_pct": 0.14,
       "source": "腾讯行情"
     },
     {
       "symbol": "sh000905",
       "name": "中证500",
-      "price": 6128.99,
-      "change_pct": 2.05,
+      "price": 6112.43,
+      "change_pct": -0.27,
       "source": "腾讯行情"
     },
     {
       "symbol": "hkHSI",
       "name": "恒生指数",
-      "price": 22383.74,
-      "change_pct": -0.12,
+      "price": 22219.65,
+      "change_pct": -0.73,
       "source": "腾讯行情"
     },
     {
       "symbol": "hkHSTECH",
       "name": "恒生科技指数",
-      "price": 3508.0,
-      "change_pct": -0.09,
+      "price": 3466.87,
+      "change_pct": -1.17,
       "source": "腾讯行情"
     }
   ],
@@ -391,12 +391,12 @@
     }
   ],
   "regime": {
-    "label": "Transition",
-    "code": "transition",
-    "score": -26.8,
+    "label": "Risk-off",
+    "code": "risk_off",
+    "score": -44.6,
     "components": {
       "breadth": -65.5,
-      "indices": 56.9,
+      "indices": -2.4,
       "limit_structure": -51.9
     },
     "methodology": "市场广度55% + 核心指数30% + 涨跌停结构15%；仅用于状态分类，不是收益概率。"
@@ -436,5 +436,12 @@
     "sector_rank": "东方财富行业涨跌为主；失败时回退同花顺行业资金流页面的行业涨跌幅。",
     "etf_activity": "ETF成交额活跃度代理，不等同ETF净申购或真实资金净流入。"
   },
-  "alerts": []
+  "alerts": [
+    {
+      "type": "regime",
+      "from": "transition",
+      "to": "risk_off",
+      "message": "市场状态由 transition 切换为 risk_off"
+    }
+  ]
 }
