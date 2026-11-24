@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-24T23:57:50+08:00",
+  "generated_at": "2026-11-25T03:07:38+08:00",
   "timezone": "Asia/Shanghai",
   "horizon_days": 10,
   "events": [],
@@ -13,8 +13,6 @@
     "report_days_ok": 0
   },
   "warnings": [
-    "news_economic_baidu 20261124: news_economic_baidu 已在 1.20.41 更名为 macro_calendar_baidu，请改用 ak.macro_calendar_baidu；参数与返回的列也可能有调整，用 ak.interface_info(\"macro_calendar_baidu\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename",
-    "news_report_time_baidu 20261124: news_report_time_baidu 已在 1.20.41 更名为 stock_calendar_report_baidu，请改用 ak.stock_calendar_report_baidu；参数与返回的列也可能有调整，用 ak.interface_info(\"stock_calendar_report_baidu\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename",
     "news_economic_baidu 20261125: news_economic_baidu 已在 1.20.41 更名为 macro_calendar_baidu，请改用 ak.macro_calendar_baidu；参数与返回的列也可能有调整，用 ak.interface_info(\"macro_calendar_baidu\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename",
     "news_report_time_baidu 20261125: news_report_time_baidu 已在 1.20.41 更名为 stock_calendar_report_baidu，请改用 ak.stock_calendar_report_baidu；参数与返回的列也可能有调整，用 ak.interface_info(\"stock_calendar_report_baidu\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename",
     "news_economic_baidu 20261126: news_economic_baidu 已在 1.20.41 更名为 macro_calendar_baidu，请改用 ak.macro_calendar_baidu；参数与返回的列也可能有调整，用 ak.interface_info(\"macro_calendar_baidu\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename",
@@ -34,7 +32,9 @@
     "news_economic_baidu 20261203: news_economic_baidu 已在 1.20.41 更名为 macro_calendar_baidu，请改用 ak.macro_calendar_baidu；参数与返回的列也可能有调整，用 ak.interface_info(\"macro_calendar_baidu\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename",
     "news_report_time_baidu 20261203: news_report_time_baidu 已在 1.20.41 更名为 stock_calendar_report_baidu，请改用 ak.stock_calendar_report_baidu；参数与返回的列也可能有调整，用 ak.interface_info(\"stock_calendar_report_baidu\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename",
     "news_economic_baidu 20261204: news_economic_baidu 已在 1.20.41 更名为 macro_calendar_baidu，请改用 ak.macro_calendar_baidu；参数与返回的列也可能有调整，用 ak.interface_info(\"macro_calendar_baidu\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename",
-    "news_report_time_baidu 20261204: news_report_time_baidu 已在 1.20.41 更名为 stock_calendar_report_baidu，请改用 ak.stock_calendar_report_baidu；参数与返回的列也可能有调整，用 ak.interface_info(\"stock_calendar_report_baidu\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename"
+    "news_report_time_baidu 20261204: news_report_time_baidu 已在 1.20.41 更名为 stock_calendar_report_baidu，请改用 ak.stock_calendar_report_baidu；参数与返回的列也可能有调整，用 ak.interface_info(\"stock_calendar_report_baidu\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename",
+    "news_economic_baidu 20261205: news_economic_baidu 已在 1.20.41 更名为 macro_calendar_baidu，请改用 ak.macro_calendar_baidu；参数与返回的列也可能有调整，用 ak.interface_info(\"macro_calendar_baidu\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename",
+    "news_report_time_baidu 20261205: news_report_time_baidu 已在 1.20.41 更名为 stock_calendar_report_baidu，请改用 ak.stock_calendar_report_baidu；参数与返回的列也可能有调整，用 ak.interface_info(\"stock_calendar_report_baidu\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename"
   ],
   "methodology": {
     "macro": "百度股市通全球宏观日历 via AKShare；保留重要性>=3及少量核心importance-2宏观数据，过滤每日持仓/仓单等例行噪声，并剔除已过时的当日时点。",
