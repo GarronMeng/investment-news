@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-24T15:02:35+08:00",
+  "generated_at": "2026-11-24T17:48:43+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -28,9 +28,9 @@
       "as_of": "2026-11-24",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -71.2,
+      "composite_score": -72.9,
       "coverage": 50.0,
-      "confluence": 91.3,
+      "confluence": 91.9,
       "available_layers": 2,
       "opposing_weight_share": 0.0,
       "evidence_state": "insufficient",
@@ -48,13 +48,13 @@
           "available": true,
           "score": -82.0,
           "confidence": "high",
-          "evidence": "MA60 below/falling；MACD bearish；RSI 34.08 (weak)；量能 normal；20日结构 inside_range。"
+          "evidence": "MA60 below/falling；MACD bearish；RSI 33.75 (weak)；量能 normal；20日结构 inside_range。"
         },
         "relative_strength": {
           "available": true,
-          "score": -54.9,
+          "score": -59.2,
           "confidence": "high",
-          "evidence": "5日相对强弱 0.004431；20日相对强弱 -0.167556。"
+          "evidence": "5日相对强弱 -0.001954；20日相对强弱 -0.172649。"
         },
         "industry": {
           "available": false,
@@ -80,12 +80,12 @@
           {
             "layer": "technical",
             "score": -82.0,
-            "evidence": "MA60 below/falling；MACD bearish；RSI 34.08 (weak)；量能 normal；20日结构 inside_range。"
+            "evidence": "MA60 below/falling；MACD bearish；RSI 33.75 (weak)；量能 normal；20日结构 inside_range。"
           },
           {
             "layer": "relative_strength",
-            "score": -54.9,
-            "evidence": "5日相对强弱 0.004431；20日相对强弱 -0.167556。"
+            "score": -59.2,
+            "evidence": "5日相对强弱 -0.001954；20日相对强弱 -0.172649。"
           }
         ]
       },
@@ -104,7 +104,7 @@
         }
       ],
       "positive_direction_mass": 0.0,
-      "negative_direction_mass": 35.6,
+      "negative_direction_mass": 36.4,
       "conflict_score": 0.0
     },
     "001309": {
@@ -116,9 +116,9 @@
       "as_of": "2026-11-24",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -80.7,
+      "composite_score": -82.0,
       "coverage": 50.0,
-      "confluence": 94.2,
+      "confluence": 94.6,
       "available_layers": 2,
       "opposing_weight_share": 0.0,
       "evidence_state": "insufficient",
@@ -136,13 +136,13 @@
           "available": true,
           "score": -82.0,
           "confidence": "high",
-          "evidence": "MA60 below/falling；MACD bearish；RSI 34.27 (weak)；量能 normal；20日结构 inside_range。"
+          "evidence": "MA60 below/falling；MACD bearish；RSI 33.89 (weak)；量能 normal；20日结构 inside_range。"
         },
         "relative_strength": {
           "available": true,
-          "score": -78.7,
+          "score": -81.9,
           "confidence": "high",
-          "evidence": "5日相对强弱 -0.033764；20日相对强弱 -0.204144。"
+          "evidence": "5日相对强弱 -0.040816；20日相对强弱 -0.209724。"
         },
         "industry": {
           "available": false,
@@ -169,12 +169,12 @@
           {
             "layer": "technical",
             "score": -82.0,
-            "evidence": "MA60 below/falling；MACD bearish；RSI 34.27 (weak)；量能 normal；20日结构 inside_range。"
+            "evidence": "MA60 below/falling；MACD bearish；RSI 33.89 (weak)；量能 normal；20日结构 inside_range。"
           },
           {
             "layer": "relative_strength",
-            "score": -78.7,
-            "evidence": "5日相对强弱 -0.033764；20日相对强弱 -0.204144。"
+            "score": -81.9,
+            "evidence": "5日相对强弱 -0.040816；20日相对强弱 -0.209724。"
           }
         ]
       },
@@ -193,7 +193,7 @@
         }
       ],
       "positive_direction_mass": 0.0,
-      "negative_direction_mass": 40.3,
+      "negative_direction_mass": 41.0,
       "conflict_score": 0.0
     },
     "300308": {
@@ -205,9 +205,9 @@
       "as_of": "2026-11-24",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -33.4,
+      "composite_score": -34.0,
       "coverage": 50.0,
-      "confluence": 80.0,
+      "confluence": 80.2,
       "available_layers": 2,
       "opposing_weight_share": 0.0,
       "evidence_state": "insufficient",
@@ -225,13 +225,13 @@
           "available": true,
           "score": -34.0,
           "confidence": "high",
-          "evidence": "MA60 below/falling；MACD bullish；RSI 36.03 (weak)；量能 normal；20日结构 inside_range。"
+          "evidence": "MA60 below/falling；MACD bullish；RSI 35.53 (weak)；量能 normal；20日结构 inside_range。"
         },
         "relative_strength": {
           "available": true,
-          "score": -32.5,
+          "score": -34.1,
           "confidence": "high",
-          "evidence": "5日相对强弱 0.076349；20日相对强弱 -0.234768。"
+          "evidence": "5日相对强弱 0.068715；20日相对强弱 -0.239967。"
         },
         "industry": {
           "available": false,
@@ -257,12 +257,12 @@
           {
             "layer": "technical",
             "score": -34.0,
-            "evidence": "MA60 below/falling；MACD bullish；RSI 36.03 (weak)；量能 normal；20日结构 inside_range。"
+            "evidence": "MA60 below/falling；MACD bullish；RSI 35.53 (weak)；量能 normal；20日结构 inside_range。"
           },
           {
             "layer": "relative_strength",
-            "score": -32.5,
-            "evidence": "5日相对强弱 0.076349；20日相对强弱 -0.234768。"
+            "score": -34.1,
+            "evidence": "5日相对强弱 0.068715；20日相对强弱 -0.239967。"
           }
         ]
       },
@@ -281,7 +281,7 @@
         }
       ],
       "positive_direction_mass": 0.0,
-      "negative_direction_mass": 16.7,
+      "negative_direction_mass": 17.0,
       "conflict_score": 0.0
     },
     "002384": {
@@ -293,9 +293,9 @@
       "as_of": "2026-11-24",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -40.8,
+      "composite_score": -40.9,
       "coverage": 50.0,
-      "confluence": 82.2,
+      "confluence": 82.3,
       "available_layers": 2,
       "opposing_weight_share": 0.0,
       "evidence_state": "insufficient",
@@ -313,13 +313,13 @@
           "available": true,
           "score": -34.0,
           "confidence": "high",
-          "evidence": "MA60 below/falling；MACD bullish；RSI 31.28 (weak)；量能 expansion；20日结构 inside_range。"
+          "evidence": "MA60 below/falling；MACD bullish；RSI 31.26 (weak)；量能 expansion；20日结构 inside_range。"
         },
         "relative_strength": {
           "available": true,
-          "score": -51.0,
+          "score": -51.2,
           "confidence": "high",
-          "evidence": "5日相对强弱 0.021025；20日相对强弱 -0.243311。"
+          "evidence": "5日相对强弱 0.020746；20日相对强弱 -0.243509。"
         },
         "industry": {
           "available": false,
@@ -345,13 +345,13 @@
         "negative": [
           {
             "layer": "relative_strength",
-            "score": -51.0,
-            "evidence": "5日相对强弱 0.021025；20日相对强弱 -0.243311。"
+            "score": -51.2,
+            "evidence": "5日相对强弱 0.020746；20日相对强弱 -0.243509。"
           },
           {
             "layer": "technical",
             "score": -34.0,
-            "evidence": "MA60 below/falling；MACD bullish；RSI 31.28 (weak)；量能 expansion；20日结构 inside_range。"
+            "evidence": "MA60 below/falling；MACD bullish；RSI 31.26 (weak)；量能 expansion；20日结构 inside_range。"
           }
         ]
       },
@@ -382,9 +382,9 @@
       "as_of": "2026-11-24",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -41.8,
+      "composite_score": -43.4,
       "coverage": 50.0,
-      "confluence": 82.6,
+      "confluence": 83.0,
       "available_layers": 2,
       "opposing_weight_share": 0.0,
       "evidence_state": "insufficient",
@@ -402,13 +402,13 @@
           "available": true,
           "score": -34.0,
           "confidence": "high",
-          "evidence": "MA60 below/falling；MACD bullish；RSI 35.44 (weak)；量能 normal；20日结构 inside_range。"
+          "evidence": "MA60 below/falling；MACD bullish；RSI 34.99 (weak)；量能 normal；20日结构 inside_range。"
         },
         "relative_strength": {
           "available": true,
-          "score": -53.6,
+          "score": -57.4,
           "confidence": "high",
-          "evidence": "5日相对强弱 -0.025521；20日相对强弱 -0.084658。"
+          "evidence": "5日相对强弱 -0.030496；20日相对强弱 -0.089176。"
         },
         "industry": {
           "available": false,
@@ -433,13 +433,13 @@
         "negative": [
           {
             "layer": "relative_strength",
-            "score": -53.6,
-            "evidence": "5日相对强弱 -0.025521；20日相对强弱 -0.084658。"
+            "score": -57.4,
+            "evidence": "5日相对强弱 -0.030496；20日相对强弱 -0.089176。"
           },
           {
             "layer": "technical",
             "score": -34.0,
-            "evidence": "MA60 below/falling；MACD bullish；RSI 35.44 (weak)；量能 normal；20日结构 inside_range。"
+            "evidence": "MA60 below/falling；MACD bullish；RSI 34.99 (weak)；量能 normal；20日结构 inside_range。"
           }
         ]
       },
@@ -458,7 +458,7 @@
         }
       ],
       "positive_direction_mass": 0.0,
-      "negative_direction_mass": 20.9,
+      "negative_direction_mass": 21.7,
       "conflict_score": 0.0
     },
     "000636": {
@@ -470,9 +470,9 @@
       "as_of": "2026-11-24",
       "base_bias": "bearish",
       "matrix_direction": "bearish",
-      "composite_score": -35.9,
+      "composite_score": -36.8,
       "coverage": 50.0,
-      "confluence": 80.8,
+      "confluence": 81.0,
       "available_layers": 2,
       "opposing_weight_share": 0.0,
       "evidence_state": "insufficient",
@@ -490,13 +490,13 @@
           "available": true,
           "score": -34.0,
           "confidence": "high",
-          "evidence": "MA60 below/falling；MACD bullish；RSI 35.13 (weak)；量能 expansion；20日结构 inside_range。"
+          "evidence": "MA60 below/falling；MACD bullish；RSI 34.91 (weak)；量能 expansion；20日结构 inside_range。"
         },
         "relative_strength": {
           "available": true,
-          "score": -38.7,
+          "score": -40.9,
           "confidence": "high",
-          "evidence": "5日相对强弱 0.037411；20日相对强弱 -0.17286。"
+          "evidence": "5日相对强弱 0.033055；20日相对强弱 -0.176201。"
         },
         "industry": {
           "available": false,
@@ -522,12 +522,12 @@
           {
             "layer": "technical",
             "score": -34.0,
-            "evidence": "MA60 below/falling；MACD bullish；RSI 35.13 (weak)；量能 expansion；20日结构 inside_range。"
+            "evidence": "MA60 below/falling；MACD bullish；RSI 34.91 (weak)；量能 expansion；20日结构 inside_range。"
           },
           {
             "layer": "relative_strength",
-            "score": -38.7,
-            "evidence": "5日相对强弱 0.037411；20日相对强弱 -0.17286。"
+            "score": -40.9,
+            "evidence": "5日相对强弱 0.033055；20日相对强弱 -0.176201。"
           }
         ]
       },
@@ -546,7 +546,7 @@
         }
       ],
       "positive_direction_mass": 0.0,
-      "negative_direction_mass": 17.9,
+      "negative_direction_mass": 18.4,
       "conflict_score": 0.0
     },
     "161226": {
