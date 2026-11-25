@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-25T21:11:50+08:00",
+  "generated_at": "2026-11-25T21:39:06+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -806,15 +806,7 @@
     "517380",
     "002384"
   ],
-  "state_changes": [
-    {
-      "code": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "field": "thesis_state",
-      "from": "no_directional_thesis",
-      "to": "supported"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "weights": {
       "event": 25,
