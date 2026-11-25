@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generated_at": "2026-11-25T21:39:56+08:00",
+  "generated_at": "2026-11-25T23:39:44+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 14,
-    "fresh": 0,
-    "stale": 14,
+    "fresh": 14,
+    "stale": 0,
     "unavailable": 0
   },
   "assets": [
@@ -15,14 +15,13 @@
       "symbol": "^GSPC",
       "group": "美股",
       "unit": "index",
-      "value": 7201.0898,
-      "raw_value": 7201.0898,
-      "previous_close": 7237.1699,
-      "change_pct": -0.5,
-      "as_of": "2026-11-24T22:30:00+08:00",
-      "status": "stale",
-      "source": "Yahoo Finance",
-      "error": "HTTP Error 429: Too Many Requests"
+      "value": 7019.7798,
+      "raw_value": 7019.7798,
+      "previous_close": 7201.0898,
+      "change_pct": -2.52,
+      "as_of": "2026-11-25T22:30:00+08:00",
+      "status": "fresh",
+      "source": "Yahoo Finance"
     },
     {
       "key": "nasdaq",
@@ -30,14 +29,13 @@
       "symbol": "^IXIC",
       "group": "美股",
       "unit": "index",
-      "value": 23733.5391,
-      "raw_value": 23733.5391,
-      "previous_close": 24089.5605,
-      "change_pct": -1.48,
-      "as_of": "2026-11-24T22:30:00+08:00",
-      "status": "stale",
-      "source": "Yahoo Finance",
-      "error": "HTTP Error 429: Too Many Requests"
+      "value": 22827.2188,
+      "raw_value": 22827.2188,
+      "previous_close": 23733.5391,
+      "change_pct": -3.82,
+      "as_of": "2026-11-25T22:30:00+08:00",
+      "status": "fresh",
+      "source": "Yahoo Finance"
     },
     {
       "key": "sox",
@@ -45,14 +43,13 @@
       "symbol": "^SOX",
       "group": "美股",
       "unit": "index",
-      "value": 8832.5,
-      "raw_value": 8832.5,
-      "previous_close": 9588.0498,
-      "change_pct": -7.88,
-      "as_of": "2026-11-24T22:30:00+08:00",
-      "status": "stale",
-      "source": "Yahoo Finance",
-      "error": "HTTP Error 429: Too Many Requests"
+      "value": 8233.9551,
+      "raw_value": 8233.9551,
+      "previous_close": 8832.5,
+      "change_pct": -6.78,
+      "as_of": "2026-11-25T22:30:00+08:00",
+      "status": "fresh",
+      "source": "Yahoo Finance"
     },
     {
       "key": "hsi",
@@ -65,9 +62,8 @@
       "previous_close": 22219.6504,
       "change_pct": -1.14,
       "as_of": "2026-11-25T09:30:00+08:00",
-      "status": "stale",
-      "source": "Yahoo Finance",
-      "error": "HTTP Error 429: Too Many Requests"
+      "status": "fresh",
+      "source": "Yahoo Finance"
     },
     {
       "key": "nikkei",
@@ -75,14 +71,13 @@
       "symbol": "^N225",
       "group": "亚洲",
       "unit": "index",
-      "value": 57011.6211,
-      "raw_value": 57011.6211,
-      "previous_close": 58644.6289,
-      "change_pct": -2.78,
-      "as_of": "2026-11-25T08:00:00+08:00",
-      "status": "stale",
-      "source": "Yahoo Finance",
-      "error": "HTTP Error 429: Too Many Requests"
+      "value": 58644.6289,
+      "raw_value": 58644.6289,
+      "previous_close": 56436.6484,
+      "change_pct": 3.91,
+      "as_of": "2026-11-24T08:00:00+08:00",
+      "status": "fresh",
+      "source": "Yahoo Finance"
     },
     {
       "key": "kospi",
@@ -90,14 +85,13 @@
       "symbol": "^KS11",
       "group": "亚洲",
       "unit": "index",
-      "value": 4697.5098,
-      "raw_value": 4697.5098,
-      "previous_close": 5006.0298,
-      "change_pct": -6.16,
-      "as_of": "2026-11-25T08:00:00+08:00",
-      "status": "stale",
-      "source": "Yahoo Finance",
-      "error": "HTTP Error 429: Too Many Requests"
+      "value": 5006.0298,
+      "raw_value": 5006.0298,
+      "previous_close": 4708.54,
+      "change_pct": 6.32,
+      "as_of": "2026-11-24T08:00:00+08:00",
+      "status": "fresh",
+      "source": "Yahoo Finance"
     },
     {
       "key": "vix",
@@ -105,14 +99,13 @@
       "symbol": "^VIX",
       "group": "风险",
       "unit": "index",
-      "value": 30.79,
-      "raw_value": 30.79,
+      "value": 33.85,
+      "raw_value": 33.85,
       "previous_close": 26.36,
-      "change_pct": 16.81,
+      "change_pct": 28.41,
       "as_of": "2026-11-25T16:00:00+08:00",
-      "status": "stale",
-      "source": "Yahoo Finance",
-      "error": "HTTP Error 429: Too Many Requests"
+      "status": "fresh",
+      "source": "Yahoo Finance"
     },
     {
       "key": "us10y",
@@ -120,14 +113,13 @@
       "symbol": "^TNX",
       "group": "利率",
       "unit": "yield",
-      "value": 4.904,
-      "raw_value": 4.904,
-      "previous_close": 4.918,
-      "change_pct": -0.28,
-      "as_of": "2026-11-24T21:20:00+08:00",
-      "status": "stale",
-      "source": "Yahoo Finance",
-      "error": "HTTP Error 429: Too Many Requests"
+      "value": 4.82,
+      "raw_value": 4.82,
+      "previous_close": 4.904,
+      "change_pct": -1.71,
+      "as_of": "2026-11-25T21:20:00+08:00",
+      "status": "fresh",
+      "source": "Yahoo Finance"
     },
     {
       "key": "dxy",
@@ -135,14 +127,13 @@
       "symbol": "DX-Y.NYB",
       "group": "汇率",
       "unit": "index",
-      "value": 103.986,
-      "raw_value": 103.986,
+      "value": 103.999,
+      "raw_value": 103.999,
       "previous_close": 103.81,
-      "change_pct": 0.17,
+      "change_pct": 0.18,
       "as_of": "2026-11-25T13:00:00+08:00",
-      "status": "stale",
-      "source": "Yahoo Finance",
-      "error": "HTTP Error 429: Too Many Requests"
+      "status": "fresh",
+      "source": "Yahoo Finance"
     },
     {
       "key": "usdcnh",
@@ -150,14 +141,13 @@
       "symbol": "CNH=X",
       "group": "汇率",
       "unit": "fx",
-      "value": 6.6751,
-      "raw_value": 6.6751,
+      "value": 6.6726,
+      "raw_value": 6.6726,
       "previous_close": null,
       "change_pct": null,
-      "as_of": "2026-11-25T21:12:38+08:00",
-      "status": "stale",
-      "source": "Yahoo Finance",
-      "error": "HTTP Error 429: Too Many Requests"
+      "as_of": "2026-11-25T23:39:44+08:00",
+      "status": "fresh",
+      "source": "Yahoo Finance"
     },
     {
       "key": "gold",
@@ -165,14 +155,13 @@
       "symbol": "GC=F",
       "group": "商品",
       "unit": "usd",
-      "value": 3543.8,
-      "raw_value": 3543.8,
+      "value": 3462.0,
+      "raw_value": 3462.0,
       "previous_close": 3561.8999,
-      "change_pct": -0.51,
+      "change_pct": -2.8,
       "as_of": "2026-11-25T13:00:00+08:00",
-      "status": "stale",
-      "source": "Yahoo Finance",
-      "error": "HTTP Error 429: Too Many Requests"
+      "status": "fresh",
+      "source": "Yahoo Finance"
     },
     {
       "key": "silver",
@@ -180,14 +169,13 @@
       "symbol": "SI=F",
       "group": "商品",
       "unit": "usd",
-      "value": 40.195,
-      "raw_value": 40.195,
+      "value": 38.625,
+      "raw_value": 38.625,
       "previous_close": 40.76,
-      "change_pct": -1.39,
+      "change_pct": -5.24,
       "as_of": "2026-11-25T13:00:00+08:00",
-      "status": "stale",
-      "source": "Yahoo Finance",
-      "error": "HTTP Error 429: Too Many Requests"
+      "status": "fresh",
+      "source": "Yahoo Finance"
     },
     {
       "key": "wti",
@@ -195,14 +183,13 @@
       "symbol": "CL=F",
       "group": "商品",
       "unit": "usd",
-      "value": 82.44,
-      "raw_value": 82.44,
+      "value": 83.22,
+      "raw_value": 83.22,
       "previous_close": 82.05,
-      "change_pct": 0.48,
+      "change_pct": 1.43,
       "as_of": "2026-11-25T13:00:00+08:00",
-      "status": "stale",
-      "source": "Yahoo Finance",
-      "error": "HTTP Error 429: Too Many Requests"
+      "status": "fresh",
+      "source": "Yahoo Finance"
     },
     {
       "key": "brent",
@@ -210,31 +197,15 @@
       "symbol": "BZ=F",
       "group": "商品",
       "unit": "usd",
-      "value": 89.28,
-      "raw_value": 89.28,
+      "value": 89.76,
+      "raw_value": 89.76,
       "previous_close": 91.4,
-      "change_pct": -2.32,
+      "change_pct": -1.79,
       "as_of": "2026-11-25T13:00:00+08:00",
-      "status": "stale",
-      "source": "Yahoo Finance",
-      "error": "HTTP Error 429: Too Many Requests"
+      "status": "fresh",
+      "source": "Yahoo Finance"
     }
   ],
-  "warnings": [
-    "sp500: HTTP Error 429: Too Many Requests",
-    "nasdaq: HTTP Error 429: Too Many Requests",
-    "sox: HTTP Error 429: Too Many Requests",
-    "hsi: HTTP Error 429: Too Many Requests",
-    "nikkei: HTTP Error 429: Too Many Requests",
-    "kospi: HTTP Error 429: Too Many Requests",
-    "vix: HTTP Error 429: Too Many Requests",
-    "us10y: HTTP Error 429: Too Many Requests",
-    "dxy: HTTP Error 429: Too Many Requests",
-    "usdcnh: HTTP Error 429: Too Many Requests",
-    "gold: HTTP Error 429: Too Many Requests",
-    "silver: HTTP Error 429: Too Many Requests",
-    "wti: HTTP Error 429: Too Many Requests",
-    "brent: HTTP Error 429: Too Many Requests"
-  ],
+  "warnings": [],
   "methodology": "Yahoo Finance日线跨资产快照；失败保留最近成功值并显式标记stale/unavailable。美债10Y的^TNX展示值按Yahoo指数惯例换算为收益率百分比。"
 }
