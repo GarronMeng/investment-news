@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-26T01:57:08+08:00",
+  "generated_at": "2026-11-26T18:02:08+08:00",
   "timezone": "Asia/Shanghai",
   "breadth": {
     "total": 5576,
@@ -20,57 +20,57 @@
     {
       "symbol": "sh000001",
       "name": "上证指数",
-      "price": 3476.47,
-      "change_pct": -2.03,
+      "price": 3476.88,
+      "change_pct": 0.01,
       "source": "腾讯行情"
     },
     {
       "symbol": "sz399001",
       "name": "深证成指",
-      "price": 10086.36,
-      "change_pct": -3.24,
+      "price": 10084.04,
+      "change_pct": -0.02,
       "source": "腾讯行情"
     },
     {
       "symbol": "sz399006",
       "name": "创业板指",
-      "price": 2183.58,
-      "change_pct": -4.19,
+      "price": 2189.82,
+      "change_pct": 0.29,
       "source": "腾讯行情"
     },
     {
       "symbol": "sh000688",
       "name": "科创50",
-      "price": 1186.14,
-      "change_pct": -5.12,
+      "price": 1169.99,
+      "change_pct": -1.36,
       "source": "腾讯行情"
     },
     {
       "symbol": "sh000300",
       "name": "沪深300",
-      "price": 3898.24,
-      "change_pct": -1.65,
+      "price": 3900.55,
+      "change_pct": 0.06,
       "source": "腾讯行情"
     },
     {
       "symbol": "sh000905",
       "name": "中证500",
-      "price": 5890.41,
-      "change_pct": -3.63,
+      "price": 5863.34,
+      "change_pct": -0.46,
       "source": "腾讯行情"
     },
     {
       "symbol": "hkHSI",
       "name": "恒生指数",
-      "price": 21966.01,
-      "change_pct": -1.14,
+      "price": 22226.88,
+      "change_pct": 1.19,
       "source": "腾讯行情"
     },
     {
       "symbol": "hkHSTECH",
       "name": "恒生科技指数",
-      "price": 3378.26,
-      "change_pct": -2.56,
+      "price": 3417.38,
+      "change_pct": 1.16,
       "source": "腾讯行情"
     }
   ],
@@ -393,10 +393,10 @@
   "regime": {
     "label": "Risk-off",
     "code": "risk_off",
-    "score": -73.8,
+    "score": -41.7,
     "components": {
       "breadth": -65.5,
-      "indices": -100.0,
+      "indices": 7.2,
       "limit_structure": -51.9
     },
     "methodology": "市场广度55% + 核心指数30% + 涨跌停结构15%；仅用于状态分类，不是收益概率。"
@@ -426,7 +426,7 @@
     "breadth: 东方财富 push2 行情服务器断开了连接，通常是短时间内请求过多，当前 IP 被临时限流。首次限流一般约 5 分钟后恢复，反复触发后可能需要 40 分钟以上；等待期间不要重复调用东方财富的行情接口，否则会延长限流。",
     "sectors: 东方财富 push2 行情服务器断开了连接，通常是短时间内请求过多，当前 IP 被临时限流。首次限流一般约 5 分钟后恢复，反复触发后可能需要 40 分钟以上；等待期间不要重复调用东方财富的行情接口，否则会延长限流。",
     "industry_flow: stock_sector_fund_flow_rank 已在 1.20.45 更名为 stock_fund_flow_sector_rank_em，请改用 ak.stock_fund_flow_sector_rank_em；参数与返回的列也可能有调整，用 ak.interface_info(\"stock_fund_flow_sector_rank_em\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename",
-    "etf_activity: 502 Server Error: Bad Gateway for url: https://push2delay.eastmoney.com/api/qt/clist/get?pn=1&pz=100&po=1&np=1&ut=bd1d9ddb04089700cf9c27f6f7426281&fltt=2&invt=2&wbp2u=%7C0%7C0%7C0%7Cweb&fid=f12&fs=b%3AMK0021%2Cb%3AMK0022%2Cb%3AMK0023%2Cb%3AMK0024%2Cb%3AMK0827&fields=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6%2Cf7%2Cf8%2Cf9%2Cf10%2Cf12%2Cf13%2Cf14%2Cf15%2Cf16%2Cf17%2Cf18%2Cf20%2Cf21%2Cf23%2Cf24%2Cf25%2Cf22%2Cf11%2Cf30%2Cf31%2Cf32%2Cf33%2Cf34%2Cf35%2Cf38%2Cf62%2Cf63%2Cf64%2Cf65%2Cf66%2Cf69%2Cf72%2Cf75%2Cf78%2Cf81%2Cf84%2Cf87%2Cf115%2Cf124%2Cf128%2Cf136%2Cf152%2Cf184%2Cf297%2Cf402%2Cf441",
+    "etf_activity: HTTPSConnectionPool(host='push2delay.eastmoney.com', port=443): Read timed out. (read timeout=10)",
     "industry_fallback_ths: stock_fund_flow_industry 已在 1.20.45 更名为 stock_fund_flow_industry_ths，请改用 ak.stock_fund_flow_industry_ths；参数与返回的列也可能有调整，用 ak.interface_info(\"stock_fund_flow_industry_ths\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename",
     "breadth_sina_fallback: stock_zh_a_spot 已在 1.20.46 更名为 stock_zh_a_spot_sina，请改用 ak.stock_zh_a_spot_sina；参数与返回的列也可能有调整，用 ak.interface_info(\"stock_zh_a_spot_sina\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename"
   ],
