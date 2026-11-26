@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-26T16:57:16+08:00",
+  "generated_at": "2026-11-26T18:05:02+08:00",
   "timezone": "Asia/Shanghai",
   "title": "Daily Flash · 每日投资驾驶舱",
   "core_conclusion": "A股状态为 Risk-off，上涨家数占比 23.8%，风险温度 64/100（elevated）。沪深300 PE-TTM 13.14；10年分位 49.1%；强势：集成电路制造、橡胶助剂、厨房小家电；弱势：其他数字媒体、影视动漫制作、影视院线。研究复核优先关注 德明利、兆易创新、国投白银LOF；该排序代表证据变化与复核优先级，不代表交易优先级。资金/期指：融资余额21350亿元，5日-4.19%；南向成交净买额-213.5亿元。 主线财报已确认披露 21/21 个研究样本。",
@@ -8,10 +8,10 @@
     "regime": {
       "label": "Risk-off",
       "code": "risk_off",
-      "score": -73.8,
+      "score": -41.7,
       "components": {
         "breadth": -65.5,
-        "indices": -100.0,
+        "indices": 7.2,
         "limit_structure": -51.9
       },
       "methodology": "市场广度55% + 核心指数30% + 涨跌停结构15%；仅用于状态分类，不是收益概率。"
@@ -31,64 +31,64 @@
       {
         "name": "上证指数",
         "code": null,
-        "value": 3476.47,
-        "change_pct": -2.03,
+        "value": 3476.88,
+        "change_pct": 0.01,
         "status": "fresh",
         "source": "腾讯行情"
       },
       {
         "name": "深证成指",
         "code": null,
-        "value": 10086.36,
-        "change_pct": -3.24,
+        "value": 10084.04,
+        "change_pct": -0.02,
         "status": "fresh",
         "source": "腾讯行情"
       },
       {
         "name": "创业板指",
         "code": null,
-        "value": 2183.58,
-        "change_pct": -4.19,
+        "value": 2189.82,
+        "change_pct": 0.29,
         "status": "fresh",
         "source": "腾讯行情"
       },
       {
         "name": "科创50",
         "code": null,
-        "value": 1186.14,
-        "change_pct": -5.12,
+        "value": 1169.99,
+        "change_pct": -1.36,
         "status": "fresh",
         "source": "腾讯行情"
       },
       {
         "name": "沪深300",
         "code": null,
-        "value": 3898.24,
-        "change_pct": -1.65,
+        "value": 3900.55,
+        "change_pct": 0.06,
         "status": "fresh",
         "source": "腾讯行情"
       },
       {
         "name": "中证500",
         "code": null,
-        "value": 5890.41,
-        "change_pct": -3.63,
+        "value": 5863.34,
+        "change_pct": -0.46,
         "status": "fresh",
         "source": "腾讯行情"
       },
       {
         "name": "恒生指数",
         "code": null,
-        "value": 21966.01,
-        "change_pct": -1.14,
+        "value": 22226.88,
+        "change_pct": 1.19,
         "status": "fresh",
         "source": "腾讯行情"
       },
       {
         "name": "恒生科技指数",
         "code": null,
-        "value": 3378.26,
-        "change_pct": -2.56,
+        "value": 3417.38,
+        "change_pct": 1.16,
         "status": "fresh",
         "source": "腾讯行情"
       }
@@ -449,10 +449,10 @@
       "symbol": "^VIX",
       "group": "风险",
       "unit": "index",
-      "value": 26.84,
-      "raw_value": 26.84,
+      "value": 27.0,
+      "raw_value": 27.0,
       "previous_close": 28.29,
-      "change_pct": -5.13,
+      "change_pct": -4.56,
       "as_of": "2026-11-26T16:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -477,11 +477,11 @@
       "symbol": "DX-Y.NYB",
       "group": "汇率",
       "unit": "index",
-      "value": 103.745,
-      "raw_value": 103.745,
+      "value": 103.727,
+      "raw_value": 103.727,
       "previous_close": 103.67,
-      "change_pct": 0.07,
-      "as_of": "2026-11-26T16:45:59+08:00",
+      "change_pct": 0.05,
+      "as_of": "2026-11-26T17:53:43+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -491,11 +491,11 @@
       "symbol": "CNH=X",
       "group": "汇率",
       "unit": "fx",
-      "value": 6.6599,
-      "raw_value": 6.6599,
+      "value": 6.6609,
+      "raw_value": 6.6609,
       "previous_close": null,
       "change_pct": null,
-      "as_of": "2026-11-26T16:55:59+08:00",
+      "as_of": "2026-11-26T18:03:42+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -505,11 +505,11 @@
       "symbol": "GC=F",
       "group": "商品",
       "unit": "usd",
-      "value": 3597.3999,
-      "raw_value": 3597.3999,
+      "value": 3602.5,
+      "raw_value": 3602.5,
       "previous_close": 3535.8,
-      "change_pct": 1.74,
-      "as_of": "2026-11-26T16:45:58+08:00",
+      "change_pct": 1.89,
+      "as_of": "2026-11-26T17:53:41+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -519,11 +519,11 @@
       "symbol": "SI=F",
       "group": "商品",
       "unit": "usd",
-      "value": 41.81,
-      "raw_value": 41.81,
+      "value": 41.895,
+      "raw_value": 41.895,
       "previous_close": 40.052,
-      "change_pct": 4.39,
-      "as_of": "2026-11-26T16:45:58+08:00",
+      "change_pct": 4.6,
+      "as_of": "2026-11-26T17:51:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -533,11 +533,11 @@
       "symbol": "CL=F",
       "group": "商品",
       "unit": "usd",
-      "value": 83.84,
-      "raw_value": 83.84,
+      "value": 83.45,
+      "raw_value": 83.45,
       "previous_close": 83.68,
-      "change_pct": 0.19,
-      "as_of": "2026-11-26T16:45:57+08:00",
+      "change_pct": -0.27,
+      "as_of": "2026-11-26T17:53:35+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -547,11 +547,11 @@
       "symbol": "BZ=F",
       "group": "商品",
       "unit": "usd",
-      "value": 90.48,
-      "raw_value": 90.48,
+      "value": 90.06,
+      "raw_value": 90.06,
       "previous_close": 94.61,
-      "change_pct": -4.37,
-      "as_of": "2026-11-26T16:45:30+08:00",
+      "change_pct": -4.81,
+      "as_of": "2026-11-26T17:53:34+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     }
@@ -622,7 +622,7 @@
   "dimensions": [
     {
       "name": "A股盘面",
-      "score": -73.8,
+      "score": -41.7,
       "label": "偏空",
       "weight": 5,
       "evidence": "Market Regime=risk_off"
@@ -636,14 +636,14 @@
     },
     {
       "name": "美债 / 美元",
-      "score": 7.8,
+      "score": 8.0,
       "label": "中性",
       "weight": 5,
       "evidence": "收益率与美元上行对长久期风险资产偏压制"
     },
     {
       "name": "商品避险",
-      "score": 7.3,
+      "score": 5.3,
       "label": "中性",
       "weight": 3,
       "evidence": "黄金/白银/原油组合变化"
@@ -861,17 +861,17 @@
     }
   ],
   "sources": {
-    "market_state": "2026-11-26T01:57:08+08:00",
-    "risk": "2026-11-26T16:41:10+08:00",
-    "valuation": "2026-11-26T16:41:10+08:00",
-    "decision_matrix": "2026-11-26T16:41:10+08:00",
-    "global_markets": "2026-11-26T16:56:00+08:00",
-    "catalysts": "2026-11-26T16:56:27+08:00",
+    "market_state": "2026-11-26T18:02:08+08:00",
+    "risk": "2026-11-26T18:03:04+08:00",
+    "valuation": "2026-11-26T18:03:04+08:00",
+    "decision_matrix": "2026-11-26T18:03:04+08:00",
+    "global_markets": "2026-11-26T18:03:44+08:00",
+    "catalysts": "2026-11-26T18:04:11+08:00",
     "ai_signals": "2026-08-26 13:33",
     "sentiment": "2026-11-26T16:08:19+08:00",
-    "market_extras": "2026-11-26T16:56:01+08:00",
-    "macro_calendar": "2026-11-26T16:56:27+08:00",
-    "theme_earnings": "2026-11-26T16:57:16+08:00"
+    "market_extras": "2026-11-26T18:03:45+08:00",
+    "macro_calendar": "2026-11-26T18:04:12+08:00",
+    "theme_earnings": "2026-11-26T18:05:02+08:00"
   },
   "boundary": "Daily Flash用于信息压缩、研究排序与条件验证；缺失数据保持缺失，不生成无条件买卖、仓位或止损指令。",
   "integrity": {
