@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-27T21:13:18+08:00",
+  "generated_at": "2026-11-27T23:16:49+08:00",
   "timezone": "Asia/Shanghai",
   "summary": {
     "total": 9,
@@ -831,92 +831,7 @@
     "002384",
     "300308"
   ],
-  "state_changes": [
-    {
-      "code": "300308",
-      "name": "中际旭创",
-      "field": "evidence_state",
-      "from": "conflict",
-      "to": "noise_or_no_edge"
-    },
-    {
-      "code": "300308",
-      "name": "中际旭创",
-      "field": "thesis_state",
-      "from": "conflicted",
-      "to": "no_directional_thesis"
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "matrix_direction",
-      "from": "neutral",
-      "to": "bearish"
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "evidence_state",
-      "from": "conflict",
-      "to": "partial_confirmation"
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "field": "thesis_state",
-      "from": "conflicted",
-      "to": "supported"
-    },
-    {
-      "code": "600667",
-      "name": "太极实业",
-      "field": "matrix_direction",
-      "from": "neutral",
-      "to": "bearish"
-    },
-    {
-      "code": "600667",
-      "name": "太极实业",
-      "field": "evidence_state",
-      "from": "conflict",
-      "to": "partial_confirmation"
-    },
-    {
-      "code": "600667",
-      "name": "太极实业",
-      "field": "thesis_state",
-      "from": "conflicted",
-      "to": "supported"
-    },
-    {
-      "code": "000636",
-      "name": "风华高科",
-      "field": "matrix_direction",
-      "from": "neutral",
-      "to": "bearish"
-    },
-    {
-      "code": "000636",
-      "name": "风华高科",
-      "field": "evidence_state",
-      "from": "noise_or_no_edge",
-      "to": "partial_confirmation"
-    },
-    {
-      "code": "000636",
-      "name": "风华高科",
-      "field": "thesis_state",
-      "from": "under_test",
-      "to": "supported"
-    },
-    {
-      "code": "517380",
-      "name": "创新药沪港深ETF天弘",
-      "field": "matrix_direction",
-      "from": "bearish",
-      "to": "neutral"
-    }
-  ],
+  "state_changes": [],
   "methodology": {
     "weights": {
       "event": 25,
