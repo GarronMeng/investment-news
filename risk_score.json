@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generated_at": "2026-11-27T16:52:30+08:00",
-  "score": 66.6,
-  "label": "elevated",
+  "generated_at": "2026-11-27T18:16:20+08:00",
+  "score": 47.0,
+  "label": "balanced",
   "coverage": 100.0,
   "available_weight": 100,
   "components": {
@@ -13,10 +13,10 @@
       "evidence": "沪深300滚动PE十年分位 49.1%"
     },
     "market_structure": {
-      "score": 83.3,
+      "score": 19.4,
       "weight": 25,
       "available": true,
-      "evidence": "risk_off；上涨占比 23.8%"
+      "evidence": "risk_on；上涨占比 96.5%"
     },
     "trend": {
       "score": 95.0,
@@ -37,10 +37,10 @@
       "evidence": "VIX 26.80；20日分位 80.0%"
     },
     "concentration": {
-      "score": 66.0,
+      "score": 30.0,
       "weight": 10,
       "available": true,
-      "evidence": "regime=risk_off；指数均值 0.11% / 上涨占比 23.8%"
+      "evidence": "regime=risk_on；指数均值 7.26% / 上涨占比 96.5%"
     }
   },
   "drivers": [
@@ -50,17 +50,28 @@
       "evidence": "MA60 below/falling；MACD bearish；RSI oversold"
     },
     {
-      "component": "market_structure",
-      "score": 83.3,
-      "evidence": "risk_off；上涨占比 23.8%"
-    },
-    {
       "component": "overseas",
       "score": 74.8,
       "evidence": "VIX 26.80；20日分位 80.0%"
+    },
+    {
+      "component": "valuation",
+      "score": 49.1,
+      "evidence": "沪深300滚动PE十年分位 49.1%"
     }
   ],
-  "state_changes": [],
+  "state_changes": [
+    {
+      "type": "label",
+      "from": "elevated",
+      "to": "balanced"
+    },
+    {
+      "type": "score",
+      "from": 66.6,
+      "to": 47.0
+    }
+  ],
   "methodology": "估值20% + 市场结构25% + 基准趋势20% + 两融15% + 海外风险10% + 集中度10%。缺失项剔除并按可用权重重新归一；高分表示环境更脆弱/压力更高，不是下跌概率。",
   "boundary": "风险温度只做环境校准，不生成买卖、仓位或止损指令。"
 }

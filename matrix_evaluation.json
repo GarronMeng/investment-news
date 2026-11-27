@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-11-27T16:52:30+08:00",
-  "history_generated_at": "2026-11-27T16:52:29+08:00",
-  "records": 722,
-  "raw_ledger_records": 750,
+  "generated_at": "2026-11-27T18:16:20+08:00",
+  "history_generated_at": "2026-11-27T18:16:19+08:00",
+  "records": 729,
+  "raw_ledger_records": 757,
   "superseded_records": 28,
   "evaluations": [
     {
@@ -33092,6 +33092,188 @@
           "status": "pending"
         }
       }
+    },
+    {
+      "state_id": "1917126ccd7c60af",
+      "state_revision": 2,
+      "asset": "517380",
+      "name": "创新药沪港深ETF天弘",
+      "signal_date": "2026-11-26",
+      "matrix_direction": "bearish",
+      "thesis_state": "conflicted",
+      "evidence_state": "conflict",
+      "composite_score": -25.1,
+      "confluence": 42.5,
+      "conflict_score": 55.9,
+      "entry_date": "2026-11-26",
+      "entry_close": 0.791,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "state_id": "15e6533fdcddeaf5",
+      "state_revision": 2,
+      "asset": "000636",
+      "name": "风华高科",
+      "signal_date": "2026-11-27",
+      "matrix_direction": "neutral",
+      "thesis_state": "under_test",
+      "evidence_state": "noise_or_no_edge",
+      "composite_score": -17.8,
+      "confluence": 26.7,
+      "conflict_score": 42.6,
+      "entry_date": "2026-11-27",
+      "entry_close": 29.56999969482422,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "state_id": "bee260b37b7ffc7e",
+      "state_revision": 2,
+      "asset": "001309",
+      "name": "德明利",
+      "signal_date": "2026-11-27",
+      "matrix_direction": "bearish",
+      "thesis_state": "supported",
+      "evidence_state": "partial_confirmation",
+      "composite_score": -27.3,
+      "confluence": 68.9,
+      "conflict_score": 35.9,
+      "entry_date": "2026-11-27",
+      "entry_close": 173.42999267578125,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "state_id": "c0a87c1e3d66d249",
+      "state_revision": 2,
+      "asset": "002384",
+      "name": "东山精密",
+      "signal_date": "2026-11-27",
+      "matrix_direction": "neutral",
+      "thesis_state": "conflicted",
+      "evidence_state": "conflict",
+      "composite_score": -14.5,
+      "confluence": 21.8,
+      "conflict_score": 62.1,
+      "entry_date": "2026-11-27",
+      "entry_close": 79.7699966430664,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "state_id": "19f5d5f1f2564af2",
+      "state_revision": 2,
+      "asset": "300308",
+      "name": "中际旭创",
+      "signal_date": "2026-11-27",
+      "matrix_direction": "neutral",
+      "thesis_state": "conflicted",
+      "evidence_state": "conflict",
+      "composite_score": -9.0,
+      "confluence": 13.4,
+      "conflict_score": 74.1,
+      "entry_date": "2026-11-27",
+      "entry_close": 516.1500244140625,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "state_id": "f218da603796f3e0",
+      "state_revision": 2,
+      "asset": "600667",
+      "name": "太极实业",
+      "signal_date": "2026-11-27",
+      "matrix_direction": "neutral",
+      "thesis_state": "conflicted",
+      "evidence_state": "conflict",
+      "composite_score": -16.8,
+      "confluence": 25.1,
+      "conflict_score": 59.0,
+      "entry_date": "2026-11-27",
+      "entry_close": 11.970000267028809,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
+    },
+    {
+      "state_id": "7db2f8ce65629fb2",
+      "state_revision": 2,
+      "asset": "603986",
+      "name": "兆易创新",
+      "signal_date": "2026-11-27",
+      "matrix_direction": "bearish",
+      "thesis_state": "supported",
+      "evidence_state": "partial_confirmation",
+      "composite_score": -26.2,
+      "confluence": 68.5,
+      "conflict_score": 36.8,
+      "entry_date": "2026-11-27",
+      "entry_close": 217.33999633789062,
+      "horizons": {
+        "t1": {
+          "status": "pending"
+        },
+        "t5": {
+          "status": "pending"
+        },
+        "t20": {
+          "status": "pending"
+        }
+      }
     }
   ],
   "by_thesis_state": {
@@ -33128,7 +33310,7 @@
       }
     },
     "conflicted": {
-      "records": 240,
+      "records": 244,
       "horizons": {
         "t1": {
           "settled": 240,
@@ -33256,7 +33438,7 @@
       }
     },
     "supported": {
-      "records": 115,
+      "records": 117,
       "horizons": {
         "t1": {
           "settled": 115,
@@ -33288,7 +33470,7 @@
       }
     },
     "under_test": {
-      "records": 37,
+      "records": 38,
       "horizons": {
         "t1": {
           "settled": 37,
@@ -33322,7 +33504,7 @@
   },
   "by_evidence_state": {
     "conflict": {
-      "records": 240,
+      "records": 244,
       "horizons": {
         "t1": {
           "settled": 240,
@@ -33386,7 +33568,7 @@
       }
     },
     "noise_or_no_edge": {
-      "records": 72,
+      "records": 73,
       "horizons": {
         "t1": {
           "settled": 72,
@@ -33418,7 +33600,7 @@
       }
     },
     "partial_confirmation": {
-      "records": 159,
+      "records": 161,
       "horizons": {
         "t1": {
           "settled": 159,
