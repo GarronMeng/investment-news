@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-11-27T18:18:32+08:00",
+  "generated_at": "2026-11-27T21:15:52+08:00",
   "timezone": "Asia/Shanghai",
   "title": "Daily Flash · 每日投资驾驶舱",
-  "core_conclusion": "A股状态为 Risk-on，上涨家数占比 96.5%，风险温度 47/100（balanced）。沪深300 PE-TTM 13.14；10年分位 49.1%；强势：半导体设备、半导体材料、集成电路制造；弱势：水产养殖、国有大型银行Ⅲ、电信运营商。研究复核优先关注 中际旭创、创新药沪港深ETF天弘、东山精密；该排序代表证据变化与复核优先级，不代表交易优先级。资金/期指：融资余额21143亿元，5日-3.94%；南向成交净买额+45.9亿元。 主线财报已确认披露 21/21 个研究样本。",
+  "core_conclusion": "A股状态为 Risk-on，上涨家数占比 96.5%，风险温度 43/100（balanced）。沪深300 PE-TTM 13.14；10年分位 49.1%；强势：半导体设备、半导体材料、集成电路制造；弱势：水产养殖、国有大型银行Ⅲ、电信运营商。研究复核优先关注 创新药沪港深ETF天弘、国投白银LOF、黄金ETF华安；该排序代表证据变化与复核优先级，不代表交易优先级。资金/期指：融资余额21143亿元，5日-3.94%；南向成交净买额+45.9亿元。 主线财报已确认披露 21/21 个研究样本。",
   "market": {
     "regime": {
       "label": "Risk-on",
@@ -17,7 +17,7 @@
       "methodology": "市场广度55% + 核心指数30% + 涨跌停结构15%；仅用于状态分类，不是收益概率。"
     },
     "risk": {
-      "score": 47.0,
+      "score": 42.6,
       "label": "balanced",
       "coverage": 100.0
     },
@@ -449,10 +449,10 @@
       "symbol": "^VIX",
       "group": "风险",
       "unit": "index",
-      "value": 24.93,
-      "raw_value": 24.93,
+      "value": 25.2,
+      "raw_value": 25.2,
       "previous_close": 26.8,
-      "change_pct": -6.98,
+      "change_pct": -5.97,
       "as_of": "2026-11-27T16:00:00+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
@@ -477,11 +477,11 @@
       "symbol": "DX-Y.NYB",
       "group": "汇率",
       "unit": "index",
-      "value": 103.857,
-      "raw_value": 103.857,
+      "value": 103.831,
+      "raw_value": 103.831,
       "previous_close": 103.67,
-      "change_pct": 0.18,
-      "as_of": "2026-11-27T18:07:05+08:00",
+      "change_pct": 0.16,
+      "as_of": "2026-11-27T21:03:50+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -491,11 +491,11 @@
       "symbol": "CNH=X",
       "group": "汇率",
       "unit": "fx",
-      "value": 6.6553,
-      "raw_value": 6.6553,
+      "value": 6.656,
+      "raw_value": 6.656,
       "previous_close": null,
       "change_pct": null,
-      "as_of": "2026-11-27T18:17:03+08:00",
+      "as_of": "2026-11-27T21:13:51+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -505,11 +505,11 @@
       "symbol": "GC=F",
       "group": "商品",
       "unit": "usd",
-      "value": 3696.6001,
-      "raw_value": 3696.6001,
+      "value": 3693.1001,
+      "raw_value": 3693.1001,
       "previous_close": 3535.8,
-      "change_pct": 4.55,
-      "as_of": "2026-11-27T18:07:03+08:00",
+      "change_pct": 4.45,
+      "as_of": "2026-11-27T21:03:50+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -519,11 +519,11 @@
       "symbol": "SI=F",
       "group": "商品",
       "unit": "usd",
-      "value": 44.435,
-      "raw_value": 44.435,
+      "value": 44.22,
+      "raw_value": 44.22,
       "previous_close": 40.052,
-      "change_pct": 10.94,
-      "as_of": "2026-11-27T18:07:03+08:00",
+      "change_pct": 10.41,
+      "as_of": "2026-11-27T21:03:50+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -533,11 +533,11 @@
       "symbol": "CL=F",
       "group": "商品",
       "unit": "usd",
-      "value": 85.67,
-      "raw_value": 85.67,
+      "value": 84.93,
+      "raw_value": 84.93,
       "previous_close": 83.68,
-      "change_pct": 2.38,
-      "as_of": "2026-11-27T18:07:02+08:00",
+      "change_pct": 1.49,
+      "as_of": "2026-11-27T21:03:50+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     },
@@ -547,11 +547,11 @@
       "symbol": "BZ=F",
       "group": "商品",
       "unit": "usd",
-      "value": 92.22,
-      "raw_value": 92.22,
+      "value": 91.65,
+      "raw_value": 91.65,
       "previous_close": 94.61,
-      "change_pct": -2.53,
-      "as_of": "2026-11-27T18:06:11+08:00",
+      "change_pct": -3.13,
+      "as_of": "2026-11-27T21:03:49+08:00",
       "status": "fresh",
       "source": "Yahoo Finance"
     }
@@ -636,14 +636,14 @@
     },
     {
       "name": "美债 / 美元",
-      "score": 6.7,
+      "score": 6.9,
       "label": "中性",
       "weight": 5,
       "evidence": "收益率与美元上行对长久期风险资产偏压制"
     },
     {
       "name": "商品避险",
-      "score": 57.5,
+      "score": 49.6,
       "label": "偏多",
       "weight": 3,
       "evidence": "黄金/白银/原油组合变化"
@@ -676,14 +676,14 @@
         "德明利"
       ],
       "direction": "bearish",
-      "score": -26.8,
+      "score": -35.5,
       "event_score": null,
       "technical_score": -34.0,
       "industry_score": -70.6
     },
     {
       "theme": "AI光通信 / CPO",
-      "status": "证据冲突",
+      "status": "等待确认",
       "assets": [
         "300308"
       ],
@@ -691,52 +691,52 @@
         "中际旭创"
       ],
       "direction": "neutral",
-      "score": -9.0,
+      "score": -15.6,
       "event_score": null,
       "technical_score": -20.0,
       "industry_score": -68.7
     },
     {
       "theme": "PCB / 消费电子",
-      "status": "证据冲突",
+      "status": "方向获支持",
       "assets": [
         "002384"
       ],
       "names": [
         "东山精密"
       ],
-      "direction": "neutral",
-      "score": -14.5,
+      "direction": "bearish",
+      "score": -20.9,
       "event_score": null,
       "technical_score": -34.0,
       "industry_score": -63.9
     },
     {
       "theme": "半导体工程 / 封测",
-      "status": "证据冲突",
+      "status": "方向获支持",
       "assets": [
         "600667"
       ],
       "names": [
         "太极实业"
       ],
-      "direction": "neutral",
-      "score": -16.8,
+      "direction": "bearish",
+      "score": -27.6,
       "event_score": null,
       "technical_score": -34.0,
       "industry_score": -76.0
     },
     {
       "theme": "被动元件",
-      "status": "证据冲突",
+      "status": "方向获支持",
       "assets": [
         "000636"
       ],
       "names": [
         "风华高科"
       ],
-      "direction": "neutral",
-      "score": -17.8,
+      "direction": "bearish",
+      "score": -24.3,
       "event_score": null,
       "technical_score": -34.0,
       "industry_score": -73.2
@@ -750,10 +750,10 @@
       "names": [
         "创新药沪港深ETF天弘"
       ],
-      "direction": "bearish",
-      "score": -25.1,
+      "direction": "neutral",
+      "score": 11.5,
       "event_score": null,
-      "technical_score": -82.0,
+      "technical_score": -24.0,
       "industry_score": null
     },
     {
@@ -766,9 +766,9 @@
         "黄金ETF华安"
       ],
       "direction": "bearish",
-      "score": -63.9,
+      "score": -70.9,
       "event_score": null,
-      "technical_score": -74.0,
+      "technical_score": -82.0,
       "industry_score": null
     },
     {
@@ -781,97 +781,97 @@
         "国投白银LOF"
       ],
       "direction": "bearish",
-      "score": -55.9,
+      "score": -73.7,
       "event_score": null,
       "technical_score": -82.0,
       "industry_score": null
     }
   ],
   "outlook": {
-    "base": "当前基准情景：regime=risk_on，风险温度=47.0；Matrix中 confirmed=0、supported=4。",
+    "base": "当前基准情景：regime=risk_on，风险温度=42.6；Matrix中 confirmed=0、supported=7。",
     "bullish": "若上涨占比重新站上50%、Market Regime转向risk_on/narrow_risk_on，且强势主题的行业与技术层同步扩散，则风险偏好修复更可信。",
     "bearish": "若市场广度继续恶化、风险温度抬升，同时当前获支持主题转为conflict/contradicted，则应把环境定义为进一步收缩而非普通波动。"
   },
   "matrix_focus": [
     {
-      "code": "300308",
-      "name": "中际旭创",
-      "thesis_state": "conflicted",
-      "direction": "neutral",
-      "attention_score": 90.6,
-      "composite_score": -9.0,
-      "confluence": 13.4,
-      "conflict_score": 74.1,
-      "focus": "正负证据正在相互抵消，优先识别哪一层先失效或被确认。"
-    },
-    {
       "code": "517380",
       "name": "创新药沪港深ETF天弘",
       "thesis_state": "conflicted",
-      "direction": "bearish",
-      "attention_score": 89.6,
-      "composite_score": -25.1,
-      "confluence": 42.5,
-      "conflict_score": 55.9,
-      "focus": "正负证据正在相互抵消，优先识别哪一层先失效或被确认。"
-    },
-    {
-      "code": "002384",
-      "name": "东山精密",
-      "thesis_state": "conflicted",
       "direction": "neutral",
-      "attention_score": 88.6,
-      "composite_score": -14.5,
-      "confluence": 21.8,
-      "conflict_score": 62.1,
+      "attention_score": 88.5,
+      "composite_score": 11.5,
+      "confluence": 17.3,
+      "conflict_score": 67.5,
       "focus": "正负证据正在相互抵消，优先识别哪一层先失效或被确认。"
-    },
-    {
-      "code": "600667",
-      "name": "太极实业",
-      "thesis_state": "conflicted",
-      "direction": "neutral",
-      "attention_score": 88.6,
-      "composite_score": -16.8,
-      "confluence": 25.1,
-      "conflict_score": 59.0,
-      "focus": "正负证据正在相互抵消，优先识别哪一层先失效或被确认。"
-    },
-    {
-      "code": "000636",
-      "name": "风华高科",
-      "thesis_state": "under_test",
-      "direction": "neutral",
-      "attention_score": 71.8,
-      "composite_score": -17.8,
-      "confluence": 26.7,
-      "conflict_score": 42.6,
-      "focus": "原方向尚未被市场充分确认，继续观察验证/失效条件。"
     },
     {
       "code": "161226",
       "name": "国投白银LOF",
       "thesis_state": "supported",
       "direction": "bearish",
-      "attention_score": 66.8,
-      "composite_score": -55.9,
-      "confluence": 86.8,
+      "attention_score": 67.1,
+      "composite_score": -73.7,
+      "confluence": 92.1,
       "conflict_score": 0.0,
+      "focus": "维持观察，等待更多层形成共振。"
+    },
+    {
+      "code": "518880",
+      "name": "黄金ETF华安",
+      "thesis_state": "supported",
+      "direction": "bearish",
+      "attention_score": 63.1,
+      "composite_score": -70.9,
+      "confluence": 91.3,
+      "conflict_score": 0.0,
+      "focus": "维持观察，等待更多层形成共振。"
+    },
+    {
+      "code": "001309",
+      "name": "德明利",
+      "thesis_state": "supported",
+      "direction": "bearish",
+      "attention_score": 62.8,
+      "composite_score": -37.4,
+      "confluence": 71.9,
+      "conflict_score": 29.8,
+      "focus": "维持观察，等待更多层形成共振。"
+    },
+    {
+      "code": "603986",
+      "name": "兆易创新",
+      "thesis_state": "supported",
+      "direction": "bearish",
+      "attention_score": 62.7,
+      "composite_score": -33.6,
+      "confluence": 70.8,
+      "conflict_score": 32.0,
+      "focus": "维持观察，等待更多层形成共振。"
+    },
+    {
+      "code": "600667",
+      "name": "太极实业",
+      "thesis_state": "supported",
+      "direction": "bearish",
+      "attention_score": 58.6,
+      "composite_score": -27.6,
+      "confluence": 69.0,
+      "conflict_score": 36.4,
       "focus": "维持观察，等待更多层形成共振。"
     }
   ],
   "sources": {
-    "market_state": "2026-11-27T18:11:32+08:00",
-    "risk": "2026-11-27T18:16:20+08:00",
-    "valuation": "2026-11-27T18:16:19+08:00",
-    "decision_matrix": "2026-11-27T18:16:20+08:00",
-    "global_markets": "2026-11-27T18:17:05+08:00",
-    "catalysts": "2026-11-27T18:17:32+08:00",
+    "market_state": "2026-11-27T20:48:21+08:00",
+    "risk": "2026-11-27T21:13:18+08:00",
+    "valuation": "2026-11-27T21:13:17+08:00",
+    "decision_matrix": "2026-11-27T21:13:18+08:00",
+    "global_markets": "2026-11-27T21:13:52+08:00",
+    "catalysts": "2026-11-27T21:14:43+08:00",
     "ai_signals": "2026-08-26 13:33",
     "sentiment": "2026-11-27T16:18:28+08:00",
-    "market_extras": "2026-11-27T18:17:06+08:00",
-    "macro_calendar": "2026-11-27T18:17:32+08:00",
-    "theme_earnings": "2026-11-27T18:18:32+08:00"
+    "market_extras": "2026-11-27T21:13:53+08:00",
+    "macro_calendar": "2026-11-27T21:14:43+08:00",
+    "theme_earnings": "2026-11-27T21:15:51+08:00"
   },
   "boundary": "Daily Flash用于信息压缩、研究排序与条件验证；缺失数据保持缺失，不生成无条件买卖、仓位或止损指令。",
   "integrity": {
